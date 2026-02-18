@@ -1,9 +1,0 @@
-﻿object={
-	name="lakes"
-	render_pass=Map
-	clamp_to_water_level=no
-	generated_content=no
-	layer="lake_layer"
-	pdxmesh="lake_mesh"
-	count=0
-}
