@@ -42,3 +42,20 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.swatch
+
+# Visual Studio
+.vs/
+
+# Notepad++ backup
+.bak
+
+# Other .mod files
+*.mod
+
+# Visual Studio stuff
+/.vs
+
+#Fonts
+*.font
+*.ttf
+*.otf
