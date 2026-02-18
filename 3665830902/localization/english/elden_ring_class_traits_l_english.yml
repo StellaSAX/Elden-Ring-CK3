@@ -1,0 +1,96 @@
+﻿l_english:
+
+
+trait_golden_knight:0 "Golden Knight"
+trait_golden_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that believes in Order, trained in the art of defence."
+
+trait_mounted_knight:0 "Mounted Knight"
+trait_mounted_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that Specializes in mounted combat."
+
+trait_crucible_knight:0 "Crucible Knight"
+trait_crucible_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that uses the power of the Crucible to fight, being more dangerous that most warriors."
+
+trait_mausoleum_knight:0 "Mausoleum Knight"
+trait_mausoleum_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that follows their master even in death, and can survive most injuries."
+
+trait_sorcerous_knight:0 "Sorcerous Knight"
+trait_sorcerous_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that controls sorcery to defeat their enemies, and has learned to observe the stars."
+
+trait_bloodhound_knight:0 "Bloodhound Knight"
+trait_bloodhound_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that specializes in agility, hunting and tracking, know to be extremely loyal."
+
+trait_rot_knight:0 "Rot Knight"
+trait_rot_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that is resistant to and controls the Rot, can surivive terrible infecions with ease."
+
+trait_frenzied_knight:0 "Frenzied Knight"
+trait_frenzied_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that has been blessed by the flame of frenzy, they fight in a crazed and aggresive way."
+
+trait_cuckoo_knight:0 "Cuckoo Knight"
+trait_cuckoo_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that failed to learn real sorcery, but uses tools that imitate them, they don't have much potential."
+
+trait_drake_knight:0 "Drake Knight"
+trait_drake_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that has learned to consume and use the power of Lesser Dragons, that power may become their undoing if they overindulge."
+
+trait_death_knight:0 "Death Knight"
+trait_death_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that has a conection to a Outer God of death, they are resistant to sickness and are protected from death."
+
+trait_ice_knight:0 "Ice Knight"
+trait_ice_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that has control over ice and snow, they move like a hail and hit like an avalanche, they are a master of winter."
+
+
+golden_knight_decision:0 "Golden Knight"
+mounted_knight_decision:0 "Mounted Knight"
+crucible_knight_decision:0 "Crucible Knight"
+mausoleum_knight_decision:0 "Mausoleum Knight"
+sorcerous_knight_decision:0 "Sorcerous Knight"
+bloodhound_knight_decision:0 "Bloodhound Knight"
+rot_knight_decision:0 "Rot Knight"
+frenzied_knight_decision:0 "Frenzied Knight"
+cuckoo_knight_decision:0 "Cuckoo Knight"
+drake_knight_decision:0 "Drake Knight"
+death_knight_decision:0 "Death Knight"
+
+golden_knight_tooltip:0 "Golden Knight"
+mounted_knight_tooltip:0 "Mounted Knight"
+crucible_knight_tooltip:0 "Crucible Knight"
+mausoleum_knight_tooltip:0 "Mausoleum Knight"
+sorcerous_knight_tooltip:0 "Sorcerous Knight"
+bloodhound_knight_tooltip:0 "Bloodhound Knight"
+rot_knight_tooltip:0 "Rot Knight"
+frenzied_knight_tooltip:0 "Frenzied Knight"
+cuckoo_knight_tooltip:0 "Cuckoo Knight"
+drake_knight_tooltip:0 "Drake Knight"
+death_knight_tooltip:0 "Death Knight"
+
+trait_snow_witch:0 "Snow Witch"
+trait_Snow_witch_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has learned to use spells related to snow and ice, they are called colds sorceries."
+
+trait_fire_monk:0 "Fire Monk"
+trait_fire_monk_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has learned to use spells related fire, they can be used to attack or to boost their body."
+
+trait_godskin_apostle:0 "Godskin Apostle"
+trait_godskin_apostle_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has mastered their black flame, a power that once could be used to slay gods, now it´s just a weapon to destroy armies."
+
+trait_black_assassin:0 "Black Knife Assassin"
+trait_black_assassin_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has a conection to death, it gives her the ability to cause death even to the immortals."
+
+trait_death_companion:0 "Deathbed Companion"
+trait_death_companion_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has a conection to death, any one embraced by her can feel every pulse, every bit of her warmth while losing theirs."
+
+trait_sanguine_noble:0 "Sanguine Noble"
+trait_sanguine_noble_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has declared themselves or was awarded the title of noble blessed by accursed blood."
+
+trait_lord_of_blood:0 "Lord of Blood"
+trait_lord_of_blood_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] declared themselves the Lord of Blood, they caouse terror in the heart of the weak becouse of their desire for wounds."
+
+more_than_twenty_prowess:0 "Have more than 20 Prowess"
+
+trait_sleep_cleric:0 "Sleep Cleric"
+trait_beast_clergy:0 "Beast Cleric"
+trait_horned_warrior:0 "Horned Warrior"
+trait_divine_beast_warrior:0 "Divine Beast Warrior"
+
+trait_sleep_cleric_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a cleric of sleep, triying to use elixirs and weapons thay cause their enemies to fall asleep."
+trait_beast_clergy_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] uses their learning in bestial incantations to deal physical damage, they center around primal and feral abilities."
+trait_horned_warrior_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a warrior that uses the connection to the Crucible to invoke divinity, and use it to bolsters their strength."
+trait_divine_beast_warrior_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a great warrior that has mastered using the power of the Crucible to invoke divinity, the way they use the power of the Crucible resembles a spiral."

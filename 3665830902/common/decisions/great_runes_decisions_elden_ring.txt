@@ -1,0 +1,115 @@
+﻿create_great_rune_decisions = {
+	ai_check_interval = 60
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	}
+	sort_order = 10
+	decision_group_type = decisions
+
+	is_shown = {
+		highest_held_title_tier >= 4
+		NOR = {
+			any_character_artifact = {
+				has_variable = great_rune_variable		
+			}
+			any_artifact = {
+				has_variable = great_rune_variable		
+			}
+		}
+	}
+	
+	is_valid = {
+		is_independent_ruler = yes
+        is_landed = yes
+		piety_level >= high_piety_level
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+	}
+
+	cost = {
+		gold = 500
+		piety = 2500
+	}
+
+	cooldown = { years = 20 }
+
+	effect = {
+		trigger_event = {
+			id = elden_ring_artifact_events.0001
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+	
+	ai_will_do = {
+		base = 20
+	}
+}
+
+create_elden_ring_decisions = {
+	ai_check_interval = 60
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	}
+	sort_order = 10
+	decision_group_type = decisions
+
+	is_shown = {
+		highest_held_title_tier >= 3
+		any_character_artifact = {
+			has_variable = great_rune_variable		
+		}
+		NOT = {
+			any_character_artifact = {
+				has_variable = elden_ring_variable		
+			}
+		}
+	}
+	
+	is_valid = {
+		is_independent_ruler = yes
+        is_landed = yes
+		piety_level >= high_piety_level
+		custom_tooltip = {
+			text = has_great_rune_for_elden_ring
+			any_character_artifact = { has_variable = great_rune_variable }
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+	}
+
+	cost = {
+		gold = 1000
+		piety = 5000
+	}
+
+	cooldown = { years = 20 }
+
+	effect = {
+		hidden_effect = {
+			every_character_artifact = {
+				limit = {
+					has_variable = great_rune_variable
+				}
+				destroy_artifact = this
+			}
+		}
+		trigger_event = {
+			id = elden_ring_artifact_events.0002
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+	
+	ai_will_do = {
+		base = 20
+	}
+}

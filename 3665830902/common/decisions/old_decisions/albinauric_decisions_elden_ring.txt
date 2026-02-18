@@ -1,0 +1,34 @@
+﻿
+# create_albinauric_decision = {
+	# ai_check_interval = 60
+
+	# picture = { reference = "gfx/interface/illustrations/decisions/decision_culture.dds" }
+
+	# sort_order = 10
+	# decision_group_type = decisions
+
+	# is_shown = {
+		# learning >= 20
+		# is_landed = yes
+	# }
+	
+	# cost = {
+		# gold = {
+			# value = 250
+		# }
+	# }
+
+	# effect = {
+		# trigger_event = {
+			# id = create_albinauric_events.0001
+		# }
+	# }
+
+	# ai_potential = {
+		# prowess >= 15
+	# }
+
+	# ai_will_do = {
+		# base = 100
+	# }
+# }

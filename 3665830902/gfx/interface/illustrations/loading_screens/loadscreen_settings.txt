@@ -1,0 +1,24 @@
+﻿elden_ring_bed = { priority = 10 }
+elden_ring_bed_old = { priority = 10 }
+elden_ring_corpses = { priority = 10 }
+elden_ring_field = { priority = 10 }
+elden_ring_marika = { priority = 10 }
+elden_ring_tree = { priority = 10 }
+elden_ring_tree_old = { priority = 10 }
+elden_ring_giantskeleton = { priority = 10 }
+
+assassin = { priority = 0 }
+baghdad = { priority = 0 }
+castle = { priority = 0 }
+council = { priority = 0 }
+duel = { priority = 0 }
+runestone = { priority = 0 }
+court = { priority = 0 }
+chess = { priority = 0 }
+tournament = { priority = 0 }
+persia = { priority = 0 }
+lady_shalott = { priority = 0 }
+new_basileus = { priority = 0 }
+mpo_mongols = { priority = 0 }
+kaifeng = { priority = 0 }
+literati = { priority = 0 }

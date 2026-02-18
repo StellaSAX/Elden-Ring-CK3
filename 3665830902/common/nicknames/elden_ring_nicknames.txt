@@ -1,0 +1,17 @@
+﻿
+nick_the_eternal = {}
+nick_the_order_kingqueen = {}
+nick_the_golden = {}
+nick_the_mad_kingqueen = {}
+nick_the_fire_kingqueen = {}
+nick_the_ice_crown_kingqueen = {}
+nick_the_ice_kingqueen = {}
+nick_the_dragon_kingqueen = {}
+nick_the_dragon_lover = {}
+nick_the_starwatcher = {}
+nick_the_starscourge = {}
+nick_the_lordlady_of_death = {}
+nick_the_lordlady_of_blood = {}
+nick_the_sleeping_kingqueen = {}
+nick_the_gloam_eyed_kingqueen = {}
+nick_the_kind = {}

@@ -1,0 +1,961 @@
+#base cultures
+culture_lands_between_elden_ring = { 
+	color = { 0.98 0.79 0.24 }
+
+	ethos = ethos_communal
+	heritage = heritage_lands_between_elden_ring
+	language = language_lands_between_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hard_working
+		tradition_storytellers
+		tradition_life_is_just_a_joke
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_badlands_elden_ring = { 
+	color = { 0.80 0.50 0.1 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_lands_between_elden_ring
+	language = language_lands_between_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_battlefield_looters
+		tradition_only_the_strong
+		tradition_quarrelsome
+		tradition_warrior_culture
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_giant_elden_ring = { 
+	color = { 0.68 0.11 0.0 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_giant_elden_ring
+	language = language_giant_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_giants_fire
+		tradition_mountain_homes
+		tradition_isolationist
+		tradition_mountaineers
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+	}
+}
+
+culture_reedlander_elden_ring = { 
+	color = { 0.99 0.05 0.05 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_reedlander_elden_ring
+	language = language_reedlander_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_quarrelsome
+		tradition_warriors_by_merit
+		tradition_isolationist
+		tradition_tgp_bushido
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_draconian_elden_ring = { 
+	color = { 0.05 0.05 0.05 }
+
+	ethos = ethos_stoic
+	heritage = heritage_draconian_elden_ring
+	language = language_draconian_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_staunch_traditionalists
+		tradition_ruling_caste
+		tradition_castle_keepers
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_nightfolk_elden_ring = { 
+	color = { 0.80 0.80 0.80 }
+
+	ethos = ethos_courtly
+	heritage = heritage_nightfolk_elden_ring
+	language = language_nightfolk_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_sorcerous_metallurgy
+		tradition_city_keepers
+		tradition_artisans
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_numen_elden_ring = { 
+	color = { 0.10 0.8 0.10 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_numen_elden_ring
+	language = language_numen_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_culture_blending
+		tradition_religion_blending
+		tradition_diasporic
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_astrologer_elden_ring = { 
+	color = { 0.10 0.10 0.80 }
+
+	ethos = ethos_bureaucratic
+	heritage = heritage_astrologer_elden_ring
+	language = language_astrologer_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_sorcerous_metallurgy
+		tradition_religion_blending
+		tradition_xenophilic
+		tradition_equal_inheritance
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_ancenstral_followers_elden_ring = { 
+	color = { 0.11 0.90 0.67 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_ancenstral_followers_elden_ring
+	language = language_ancenstral_followers_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_tribe_unity
+		tradition_pastoralists
+		tradition_adaptive_skirmishing
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_hornsent_elden_ring = { 
+	color = { 0.77 0.77 0.05 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_hornsent_elden_ring
+	language = language_hornsent_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hornsent_spiral
+		tradition_by_the_sword
+		tradition_fervent_temple_builders
+		tradition_zealous_people
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+#more diverse cultures
+culture_limgrave_elden_ring = { 
+	color = { 0.95 0.87 0.06 }
+	parents = { culture_lands_between_elden_ring }
+	created = 476.11.4
+	history_loc_override = created_long_ago_elden_ring_loc
+	ethos = ethos_communal
+	heritage = heritage_lands_between_elden_ring
+	language = language_lands_between_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_castle_keepers
+		tradition_ep2_avid_falconers #create a custom that is like this but increases chance to gain the order affinity
+		tradition_loyal_soldiers
+		tradition_ruling_caste
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_weeping_peninsula_elden_ring = { 
+	color = { 0.93 0.99 0.59 }
+	parents = { culture_limgrave_elden_ring }
+	history_loc_override = created_long_ago_elden_ring_loc
+	
+	created = 476.11.4
+	ethos = ethos_stoic
+	heritage = heritage_lands_between_elden_ring
+	language = language_lands_between_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_eye_for_an_eye
+		tradition_castle_keepers
+		tradition_loyal_soldiers
+		tradition_reverence_for_veterans
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_caelid_elden_ring = { 
+	color = { 0.5 0.05 0.05 }
+	parents = { culture_lands_between_elden_ring }
+	history_loc_override = created_long_ago_elden_ring_loc
+	created = 476.11.4
+	ethos = ethos_bellicose
+	heritage = heritage_lands_between_elden_ring
+	language = language_lands_between_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_warriors_by_merit
+		tradition_faith_bound
+		tradition_ce1_ritual_washing #make something for them later, like "purified by fire"
+		tradition_hard_working
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_altus_elden_ring = { 
+	color = { 0.98 0.79 0.24 }
+	parents = { culture_lands_between_elden_ring culture_badlands_elden_ring }
+	history_loc_override = created_long_ago_elden_ring_loc
+	created = 476.11.4
+	ethos = ethos_courtly
+	heritage = heritage_lands_between_elden_ring
+	language = language_lands_between_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_by_the_sword
+		tradition_stalwart_defenders
+		tradition_golden_order
+		tradition_fervent_temple_builders
+		#tradition_zealous_people that would fit, but it would make it a pain to change the religion of huge parts of the map
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_gelmir_elden_ring = { 
+	color = { 0.99 0.53 0.10 }
+	parents = { culture_altus_elden_ring }
+	history_loc_override = created_long_ago_elden_ring_loc
+	created = 476.11.4
+	ethos = ethos_bureaucratic
+	heritage = heritage_lands_between_elden_ring
+	language = language_lands_between_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_eye_for_an_eye
+		tradition_mountaineers
+		tradition_stalwart_defenders
+		tradition_by_the_sword
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_zamor_elden_ring = { 
+	color = { 0.84 0.95 0.99 }
+	parents = { culture_lands_between_elden_ring }
+	history_loc_override = created_long_ago_elden_ring_loc
+	created = 476.11.4
+	ethos = ethos_stoic
+	heritage = heritage_lands_between_elden_ring
+	language = language_lands_between_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_winter_warriors
+		tradition_only_the_strong
+		tradition_mountain_homes
+		tradition_forbearing
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_messmer_followers_elden_ring = { 
+	color = { 0.99 0.46 0.14 }
+	parents = { culture_lands_between_elden_ring }
+	history_loc_override = created_long_ago_elden_ring_loc
+	created = 476.11.4
+	ethos = ethos_bellicose
+	heritage = heritage_lands_between_elden_ring
+	language = language_lands_between_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_by_the_sword
+		tradition_faith_bound
+		tradition_eye_for_an_eye
+		tradition_golden_order
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_dragonbarrow_elden_ring = { 
+	
+	color = { 0.5 0.7 0.5 }
+	parents = { culture_draconian_elden_ring }
+	history_loc_override = created_long_ago_elden_ring_loc
+	created = 476.11.4
+	ethos = ethos_communal
+	heritage = heritage_draconian_elden_ring
+	language = language_draconian_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_battlefield_looters
+		tradition_dragon_communion
+		tradition_xenophilic
+		tradition_life_is_just_a_joke
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_farum_azula_elden_ring = { 
+	
+	color = { 0.5 0.5 0.7 }
+	parents = { culture_draconian_elden_ring }
+	history_loc_override = created_long_ago_elden_ring_loc
+	created = 476.11.4
+	ethos = ethos_spiritual
+	heritage = heritage_draconian_elden_ring
+	language = language_draconian_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_dragon_communion
+		tradition_by_the_sword
+		tradition_philosopher_culture
+		tradition_ruling_caste
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_jagged_peak_elden_ring = { 
+	color = { 0.7 0.5 0.5 }
+	parents = { culture_draconian_elden_ring }
+	created = 476.11.4
+	history_loc_override = created_long_ago_elden_ring_loc
+	ethos = ethos_bellicose
+	heritage = heritage_draconian_elden_ring
+	language = language_draconian_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ruling_caste
+		tradition_dragon_communion #make something separated for them later
+		tradition_mountaineers
+		tradition_martial_admiration
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_nox_elden_ring = { 
+	color = { 0.80 0.80 0.80 }
+	parents = { culture_nightfolk_elden_ring }
+	history_loc_override = created_long_ago_elden_ring_loc
+	created = 476.11.4
+	ethos = ethos_courtly
+	heritage = heritage_nightfolk_elden_ring
+	language = language_nightfolk_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_sorcerous_metallurgy
+		tradition_philosopher_culture
+		tradition_adaptive_skirmishing
+		tradition_city_keepers
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_frezy_hornsent_elden_ring = { 
+	color = { 0.94 0.67 0.10 }
+	parents = { culture_hornsent_elden_ring }
+	history_loc_override = created_long_ago_elden_ring_loc
+	created = 476.11.4
+	ethos = ethos_spiritual
+	heritage = heritage_hornsent_elden_ring
+	language = language_hornsent_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_frenzied_flame
+		tradition_zealous_people
+		tradition_wetlanders
+		tradition_philosopher_culture
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_shaman_elden_ring = { 
+		color = { 0.3 0.8 0.10 }
+	parents = { culture_numen_elden_ring }
+	history_loc_override = created_long_ago_elden_ring_loc
+	created = 476.11.4
+	ethos = ethos_spiritual
+	heritage = heritage_numen_elden_ring
+	language = language_numen_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_forbearing
+		tradition_pacifism
+		tradition_female_only_inheritance
+		tradition_monastic_communities
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_royal_elden_ring = { 
+	color = { 0.9 0.80 0.50 }
+	parents = { culture_numen_elden_ring culture_lands_between_elden_ring }
+	history_loc_override = created_long_ago_elden_ring_loc
+	created = 476.11.4
+	ethos = ethos_courtly
+	heritage = heritage_numen_elden_ring
+	language = language_lands_between_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_golden_order
+		tradition_by_the_sword
+		tradition_ruling_caste
+		tradition_astute_diplomats
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_northerner_elden_ring = { 
+	color = { 0.8 0.2 0.1 }
+	parents = { culture_giant_elden_ring culture_lands_between_elden_ring }
+	history_loc_override = created_long_ago_elden_ring_loc
+	created = 476.11.4
+	ethos = ethos_courtly
+	heritage = heritage_lands_between_elden_ring
+	language = language_lands_between_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_giants_fire
+		tradition_loyal_soldiers
+		tradition_mountain_homes
+		tradition_spartan
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_liurnia_elden_ring = { 
+	color = { 0.10 0.10 0.80 }
+	parents = { culture_astrologer_elden_ring culture_lands_between_elden_ring }
+	history_loc_override = created_long_ago_elden_ring_loc
+	created = 476.11.4
+	ethos = ethos_courtly
+	heritage = heritage_lands_between_elden_ring
+	language = language_lands_between_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_carian_royal
+		tradition_loyal_soldiers
+		tradition_wetlanders	
+		tradition_city_keepers
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_caria_elden_ring = { 
+	color = { 0.25 0.05 0.80 }
+	parents = { culture_astrologer_elden_ring culture_lands_between_elden_ring }
+	history_loc_override = created_long_ago_elden_ring_loc
+	created = 476.11.4
+	ethos = ethos_courtly
+	heritage = heritage_astrologer_elden_ring
+	language = language_lands_between_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_carian_royal
+		tradition_philosopher_culture
+		tradition_wetlanders	
+		tradition_hereditary_hierarchy
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_sellia_elden_ring = { 
+	color = { 0.6 0.10 0.6 }
+	parents = { culture_liurnia_elden_ring culture_nox_elden_ring }
+	history_loc_override = created_long_ago_elden_ring_loc
+	created = 476.11.4
+	ethos = ethos_courtly
+	heritage = heritage_lands_between_elden_ring
+	language = language_lands_between_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_carian_royal
+		tradition_sorcerous_metallurgy
+		tradition_mendicant_mystics
+		tradition_city_keepers
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_eochaid_elden_ring = { #elmer of the briar in shaded castle
+	color = { 0.80 0.50 0.1 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_eochaid_elden_ring
+	language = language_eochaid_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_pastoralists
+		tradition_monastic_communities
+		tradition_pacifism
+		tradition_storytellers
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+culture_beast_elden_ring = { #gurranq
+	color = { 0.80 0.50 0.1 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_beast_elden_ring
+	language = language_beast_elden_ring
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_faith_bound
+		tradition_frugal_armorsmiths
+		tradition_beast_clergy
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}

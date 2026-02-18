@@ -1,0 +1,52 @@
+﻿five_year_everyone_pulse = {
+    on_actions = {
+        on_action_gain_dragon_related_trait
+		on_action_clean_dragons		
+    }
+}
+
+
+on_action_gain_dragon_related_trait = {
+	effect = {
+		if = { # has no affinity
+			limit = {
+				has_affinity_elden_ring = no
+			}
+			random_list = {
+				1 = {
+					add_trait = dragon_affinity
+				}
+				1 = {
+					add_trait = lightning_affinity
+				}
+				999 = {
+				
+				}		
+			}
+			
+		}
+	}
+}
+
+on_action_clean_dragons = { #too many dragons
+	effect = {
+		if = { 
+			limit = {
+				OR = {
+					has_trait = lesser_dragon_elden_ring
+					has_trait = ancient_dragon_elden_ring
+				}
+				is_landed = no
+			}
+			random_list = {
+				50 = {
+					death = { death_reason = death_mysterious }
+				}
+				50 = {
+				
+				}		
+			}
+			
+		}
+	}
+}

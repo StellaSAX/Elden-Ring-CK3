@@ -1,0 +1,1788 @@
+dynn_gen_1 = {
+	name = dynn_gen_1
+	culture = culture_R3G52B153
+}
+dynn_gen_2 = {
+	name = dynn_gen_2
+	culture = culture_R95G32B186
+}
+dynn_gen_3 = {
+	name = dynn_gen_3
+	culture = culture_R43G221B143
+}
+dynn_gen_4 = {
+	name = dynn_gen_4
+	culture = culture_R66G7B25
+}
+dynn_gen_5 = {
+	name = dynn_gen_5
+	culture = culture_R227G34B110
+}
+dynn_gen_6 = {
+	name = dynn_gen_6
+	culture = culture_R37G163B212
+}
+dynn_gen_7 = {
+	name = dynn_gen_7
+	culture = culture_R110G97B115
+}
+dynn_gen_8 = {
+	name = dynn_gen_8
+	culture = culture_R66G7B25
+}
+dynn_gen_9 = {
+	name = dynn_gen_9
+	culture = culture_R95G32B186
+}
+dynn_gen_10 = {
+	name = dynn_gen_10
+	culture = culture_R110G97B115
+}
+dynn_gen_11 = {
+	name = dynn_gen_11
+	culture = culture_R95G32B186
+}
+dynn_gen_12 = {
+	name = dynn_gen_12
+	culture = culture_R227G34B110
+}
+dynn_gen_13 = {
+	name = dynn_gen_13
+	culture = culture_R144G171B45
+}
+dynn_gen_14 = {
+	name = dynn_gen_14
+	culture = culture_R110G97B115
+}
+dynn_gen_15 = {
+	name = dynn_gen_15
+	culture = culture_R37G163B212
+}
+dynn_gen_16 = {
+	name = dynn_gen_16
+	culture = culture_R155G183B232
+}
+dynn_gen_17 = {
+	name = dynn_gen_17
+	culture = culture_R110G97B115
+}
+dynn_gen_18 = {
+	name = dynn_gen_18
+	culture = culture_R37G163B212
+}
+dynn_gen_19 = {
+	name = dynn_gen_19
+	culture = culture_R66G7B25
+}
+dynn_gen_20 = {
+	name = dynn_gen_20
+	culture = culture_R3G52B153
+}
+dynn_gen_21 = {
+	name = dynn_gen_21
+	culture = culture_R66G7B25
+}
+dynn_gen_22 = {
+	name = dynn_gen_22
+	culture = culture_R108G27B188
+}
+dynn_gen_23 = {
+	name = dynn_gen_23
+	culture = culture_R144G171B45
+}
+dynn_gen_24 = {
+	name = dynn_gen_24
+	culture = culture_R110G97B115
+}
+dynn_gen_25 = {
+	name = dynn_gen_25
+	culture = culture_R15G45B29
+}
+dynn_gen_26 = {
+	name = dynn_gen_26
+	culture = culture_R144G171B45
+}
+dynn_gen_27 = {
+	name = dynn_gen_27
+	culture = culture_R37G163B212
+}
+dynn_gen_28 = {
+	name = dynn_gen_28
+	culture = culture_R3G52B153
+}
+dynn_gen_29 = {
+	name = dynn_gen_29
+	culture = culture_R95G32B186
+}
+dynn_gen_30 = {
+	name = dynn_gen_30
+	culture = culture_R3G52B153
+}
+dynn_gen_31 = {
+	name = dynn_gen_31
+	culture = culture_R227G34B110
+}
+dynn_gen_32 = {
+	name = dynn_gen_32
+	culture = culture_R218G65B154
+}
+dynn_gen_33 = {
+	name = dynn_gen_33
+	culture = culture_R66G7B25
+}
+dynn_gen_34 = {
+	name = dynn_gen_34
+	culture = culture_R108G27B188
+}
+dynn_gen_35 = {
+	name = dynn_gen_35
+	culture = culture_R110G97B115
+}
+dynn_gen_36 = {
+	name = dynn_gen_36
+	culture = culture_R95G32B186
+}
+dynn_gen_37 = {
+	name = dynn_gen_37
+	culture = culture_R37G163B212
+}
+dynn_gen_38 = {
+	name = dynn_gen_38
+	culture = culture_R95G32B186
+}
+dynn_gen_39 = {
+	name = dynn_gen_39
+	culture = culture_R144G171B45
+}
+dynn_gen_40 = {
+	name = dynn_gen_40
+	culture = culture_R37G163B212
+}
+dynn_gen_41 = {
+	name = dynn_gen_41
+	culture = culture_R37G163B212
+}
+dynn_gen_42 = {
+	name = dynn_gen_42
+	culture = culture_R3G52B153
+}
+dynn_gen_43 = {
+	name = dynn_gen_43
+	culture = culture_R3G52B153
+}
+dynn_gen_44 = {
+	name = dynn_gen_44
+	culture = culture_R3G52B153
+}
+dynn_gen_45 = {
+	name = dynn_gen_45
+	culture = culture_R43G221B143
+}
+dynn_gen_46 = {
+	name = dynn_gen_46
+	culture = culture_R242G123B24
+}
+dynn_gen_47 = {
+	name = dynn_gen_47
+	culture = culture_R3G52B153
+}
+dynn_gen_48 = {
+	name = dynn_gen_48
+	culture = culture_R45G203B116
+}
+dynn_gen_49 = {
+	name = dynn_gen_49
+	culture = culture_R3G52B153
+}
+dynn_gen_50 = {
+	name = dynn_gen_50
+	culture = culture_R110G97B115
+}
+dynn_gen_51 = {
+	name = dynn_gen_51
+	culture = culture_R43G221B143
+}
+dynn_gen_52 = {
+	name = dynn_gen_52
+	culture = culture_R37G163B212
+}
+dynn_gen_53 = {
+	name = dynn_gen_53
+	culture = culture_R242G123B24
+}
+dynn_gen_54 = {
+	name = dynn_gen_54
+	culture = culture_R43G221B143
+}
+dynn_gen_55 = {
+	name = dynn_gen_55
+	culture = culture_R242G123B24
+}
+dynn_gen_56 = {
+	name = dynn_gen_56
+	culture = culture_R155G183B232
+}
+dynn_gen_57 = {
+	name = dynn_gen_57
+	culture = culture_R227G34B110
+}
+dynn_gen_58 = {
+	name = dynn_gen_58
+	culture = culture_R95G32B186
+}
+dynn_gen_59 = {
+	name = dynn_gen_59
+	culture = culture_R242G123B24
+}
+dynn_gen_60 = {
+	name = dynn_gen_60
+	culture = culture_R3G52B153
+}
+dynn_gen_61 = {
+	name = dynn_gen_61
+	culture = culture_R95G32B186
+}
+dynn_gen_62 = {
+	name = dynn_gen_62
+	culture = culture_R3G52B153
+}
+dynn_gen_63 = {
+	name = dynn_gen_63
+	culture = culture_R95G32B186
+}
+dynn_gen_64 = {
+	name = dynn_gen_64
+	culture = culture_R43G221B143
+}
+dynn_gen_65 = {
+	name = dynn_gen_65
+	culture = culture_R242G123B24
+}
+dynn_gen_66 = {
+	name = dynn_gen_66
+	culture = culture_R95G32B186
+}
+dynn_gen_67 = {
+	name = dynn_gen_67
+	culture = culture_R3G52B153
+}
+dynn_gen_68 = {
+	name = dynn_gen_68
+	culture = culture_R7G68B13
+}
+dynn_gen_69 = {
+	name = dynn_gen_69
+	culture = culture_R108G27B188
+}
+dynn_gen_70 = {
+	name = dynn_gen_70
+	culture = culture_R144G171B45
+}
+dynn_gen_71 = {
+	name = dynn_gen_71
+	culture = culture_R66G7B25
+}
+dynn_gen_72 = {
+	name = dynn_gen_72
+	culture = culture_R95G32B186
+}
+dynn_gen_73 = {
+	name = dynn_gen_73
+	culture = culture_R37G163B212
+}
+dynn_gen_74 = {
+	name = dynn_gen_74
+	culture = culture_R43G221B143
+}
+dynn_gen_75 = {
+	name = dynn_gen_75
+	culture = culture_R3G52B153
+}
+dynn_gen_76 = {
+	name = dynn_gen_76
+	culture = culture_R37G163B212
+}
+dynn_gen_77 = {
+	name = dynn_gen_77
+	culture = culture_R3G52B153
+}
+dynn_gen_78 = {
+	name = dynn_gen_78
+	culture = culture_R37G163B212
+}
+dynn_gen_79 = {
+	name = dynn_gen_79
+	culture = culture_R7G68B13
+}
+dynn_gen_80 = {
+	name = dynn_gen_80
+	culture = culture_R37G163B212
+}
+dynn_gen_81 = {
+	name = dynn_gen_81
+	culture = culture_R108G27B188
+}
+dynn_gen_82 = {
+	name = dynn_gen_82
+	culture = culture_R43G221B143
+}
+dynn_gen_83 = {
+	name = dynn_gen_83
+	culture = culture_R242G123B24
+}
+dynn_gen_84 = {
+	name = dynn_gen_84
+	culture = culture_R110G97B115
+}
+dynn_gen_85 = {
+	name = dynn_gen_85
+	culture = culture_R242G123B24
+}
+dynn_gen_86 = {
+	name = dynn_gen_86
+	culture = culture_R110G97B115
+}
+dynn_gen_87 = {
+	name = dynn_gen_87
+	culture = culture_R66G7B25
+}
+dynn_gen_88 = {
+	name = dynn_gen_88
+	culture = culture_R37G163B212
+}
+dynn_gen_89 = {
+	name = dynn_gen_89
+	culture = culture_R3G52B153
+}
+dynn_gen_90 = {
+	name = dynn_gen_90
+	culture = culture_R95G32B186
+}
+dynn_gen_91 = {
+	name = dynn_gen_91
+	culture = culture_R242G123B24
+}
+dynn_gen_92 = {
+	name = dynn_gen_92
+	culture = culture_R110G97B115
+}
+dynn_gen_93 = {
+	name = dynn_gen_93
+	culture = culture_R110G97B115
+}
+dynn_gen_94 = {
+	name = dynn_gen_94
+	culture = culture_R95G32B186
+}
+dynn_gen_95 = {
+	name = dynn_gen_95
+	culture = culture_R242G123B24
+}
+dynn_gen_96 = {
+	name = dynn_gen_96
+	culture = culture_R95G32B186
+}
+dynn_gen_97 = {
+	name = dynn_gen_97
+	culture = culture_R26G87B110
+}
+dynn_gen_98 = {
+	name = dynn_gen_98
+	culture = culture_R110G97B115
+}
+dynn_gen_99 = {
+	name = dynn_gen_99
+	culture = culture_R242G123B24
+}
+dynn_gen_100 = {
+	name = dynn_gen_100
+	culture = culture_R37G163B212
+}
+dynn_gen_101 = {
+	name = dynn_gen_101
+	culture = culture_R110G97B115
+}
+dynn_gen_102 = {
+	name = dynn_gen_102
+	culture = culture_R3G52B153
+}
+dynn_gen_103 = {
+	name = dynn_gen_103
+	culture = culture_R110G97B115
+}
+dynn_gen_104 = {
+	name = dynn_gen_104
+	culture = culture_R242G123B24
+}
+dynn_gen_105 = {
+	name = dynn_gen_105
+	culture = culture_R242G123B24
+}
+dynn_gen_106 = {
+	name = dynn_gen_106
+	culture = culture_R110G97B115
+}
+dynn_gen_107 = {
+	name = dynn_gen_107
+	culture = culture_R3G52B153
+}
+dynn_gen_108 = {
+	name = dynn_gen_108
+	culture = culture_R242G123B24
+}
+dynn_gen_109 = {
+	name = dynn_gen_109
+	culture = culture_R227G34B110
+}
+dynn_gen_110 = {
+	name = dynn_gen_110
+	culture = culture_R37G163B212
+}
+dynn_gen_111 = {
+	name = dynn_gen_111
+	culture = culture_R95G32B186
+}
+dynn_gen_112 = {
+	name = dynn_gen_112
+	culture = culture_R3G52B153
+}
+dynn_gen_113 = {
+	name = dynn_gen_113
+	culture = culture_R3G52B153
+}
+dynn_gen_114 = {
+	name = dynn_gen_114
+	culture = culture_R110G97B115
+}
+dynn_gen_115 = {
+	name = dynn_gen_115
+	culture = culture_R3G52B153
+}
+dynn_gen_116 = {
+	name = dynn_gen_116
+	culture = culture_R66G7B25
+}
+dynn_gen_117 = {
+	name = dynn_gen_117
+	culture = culture_R110G97B115
+}
+dynn_gen_118 = {
+	name = dynn_gen_118
+	culture = culture_R43G221B143
+}
+dynn_gen_119 = {
+	name = dynn_gen_119
+	culture = culture_R134G43B52
+}
+dynn_gen_120 = {
+	name = dynn_gen_120
+	culture = culture_R110G97B115
+}
+dynn_gen_121 = {
+	name = dynn_gen_121
+	culture = culture_R155G183B232
+}
+dynn_gen_122 = {
+	name = dynn_gen_122
+	culture = culture_R110G97B115
+}
+dynn_gen_123 = {
+	name = dynn_gen_123
+	culture = culture_R37G163B212
+}
+dynn_gen_124 = {
+	name = dynn_gen_124
+	culture = culture_R95G32B186
+}
+dynn_gen_125 = {
+	name = dynn_gen_125
+	culture = culture_R95G32B186
+}
+dynn_gen_126 = {
+	name = dynn_gen_126
+	culture = culture_R26G87B110
+}
+dynn_gen_127 = {
+	name = dynn_gen_127
+	culture = culture_R37G163B212
+}
+dynn_gen_128 = {
+	name = dynn_gen_128
+	culture = culture_R110G97B115
+}
+dynn_gen_129 = {
+	name = dynn_gen_129
+	culture = culture_R37G163B212
+}
+dynn_gen_130 = {
+	name = dynn_gen_130
+	culture = culture_R110G97B115
+}
+dynn_gen_131 = {
+	name = dynn_gen_131
+	culture = culture_R227G34B110
+}
+dynn_gen_132 = {
+	name = dynn_gen_132
+	culture = culture_R66G7B25
+}
+dynn_gen_133 = {
+	name = dynn_gen_133
+	culture = culture_R110G97B115
+}
+dynn_gen_134 = {
+	name = dynn_gen_134
+	culture = culture_R66G7B25
+}
+dynn_gen_135 = {
+	name = dynn_gen_135
+	culture = culture_R110G97B115
+}
+dynn_gen_136 = {
+	name = dynn_gen_136
+	culture = culture_R66G7B25
+}
+dynn_gen_137 = {
+	name = dynn_gen_137
+	culture = culture_R95G32B186
+}
+dynn_gen_138 = {
+	name = dynn_gen_138
+	culture = culture_R110G97B115
+}
+dynn_gen_139 = {
+	name = dynn_gen_139
+	culture = culture_R43G221B143
+}
+dynn_gen_140 = {
+	name = dynn_gen_140
+	culture = culture_R242G123B24
+}
+dynn_gen_141 = {
+	name = dynn_gen_141
+	culture = culture_R242G123B24
+}
+dynn_gen_142 = {
+	name = dynn_gen_142
+	culture = culture_R37G163B212
+}
+dynn_gen_143 = {
+	name = dynn_gen_143
+	culture = culture_R242G123B24
+}
+dynn_gen_144 = {
+	name = dynn_gen_144
+	culture = culture_R108G27B188
+}
+dynn_gen_145 = {
+	name = dynn_gen_145
+	culture = culture_R108G27B188
+}
+dynn_gen_146 = {
+	name = dynn_gen_146
+	culture = culture_R95G32B186
+}
+dynn_gen_147 = {
+	name = dynn_gen_147
+	culture = culture_R37G163B212
+}
+dynn_gen_148 = {
+	name = dynn_gen_148
+	culture = culture_R37G163B212
+}
+dynn_gen_149 = {
+	name = dynn_gen_149
+	culture = culture_R95G32B186
+}
+dynn_gen_150 = {
+	name = dynn_gen_150
+	culture = culture_R218G65B154
+}
+dynn_gen_151 = {
+	name = dynn_gen_151
+	culture = culture_R242G123B24
+}
+dynn_gen_152 = {
+	name = dynn_gen_152
+	culture = culture_R37G163B212
+}
+dynn_gen_153 = {
+	name = dynn_gen_153
+	culture = culture_R110G97B115
+}
+dynn_gen_154 = {
+	name = dynn_gen_154
+	culture = culture_R37G163B212
+}
+dynn_gen_155 = {
+	name = dynn_gen_155
+	culture = culture_R37G163B212
+}
+dynn_gen_156 = {
+	name = dynn_gen_156
+	culture = culture_R95G32B186
+}
+dynn_gen_157 = {
+	name = dynn_gen_157
+	culture = culture_R95G32B186
+}
+dynn_gen_158 = {
+	name = dynn_gen_158
+	culture = culture_R37G163B212
+}
+dynn_gen_159 = {
+	name = dynn_gen_159
+	culture = culture_R37G163B212
+}
+dynn_gen_160 = {
+	name = dynn_gen_160
+	culture = culture_R95G32B186
+}
+dynn_gen_161 = {
+	name = dynn_gen_161
+	culture = culture_R110G97B115
+}
+dynn_gen_162 = {
+	name = dynn_gen_162
+	culture = culture_R218G65B154
+}
+dynn_gen_163 = {
+	name = dynn_gen_163
+	culture = culture_R95G32B186
+}
+dynn_gen_164 = {
+	name = dynn_gen_164
+	culture = culture_R78G49B127
+}
+dynn_gen_165 = {
+	name = dynn_gen_165
+	culture = culture_R37G163B212
+}
+dynn_gen_166 = {
+	name = dynn_gen_166
+	culture = culture_R95G32B186
+}
+dynn_gen_167 = {
+	name = dynn_gen_167
+	culture = culture_R144G171B45
+}
+dynn_gen_168 = {
+	name = dynn_gen_168
+	culture = culture_R43G221B143
+}
+dynn_gen_169 = {
+	name = dynn_gen_169
+	culture = culture_R95G32B186
+}
+dynn_gen_170 = {
+	name = dynn_gen_170
+	culture = culture_R37G163B212
+}
+dynn_gen_171 = {
+	name = dynn_gen_171
+	culture = culture_R66G7B25
+}
+dynn_gen_172 = {
+	name = dynn_gen_172
+	culture = culture_R95G32B186
+}
+dynn_gen_173 = {
+	name = dynn_gen_173
+	culture = culture_R37G163B212
+}
+dynn_gen_174 = {
+	name = dynn_gen_174
+	culture = culture_R95G32B186
+}
+dynn_gen_175 = {
+	name = dynn_gen_175
+	culture = culture_R134G43B52
+}
+dynn_gen_176 = {
+	name = dynn_gen_176
+	culture = culture_R3G52B153
+}
+dynn_gen_177 = {
+	name = dynn_gen_177
+	culture = culture_R110G97B115
+}
+dynn_gen_178 = {
+	name = dynn_gen_178
+	culture = culture_R227G34B110
+}
+dynn_gen_179 = {
+	name = dynn_gen_179
+	culture = culture_R95G32B186
+}
+dynn_gen_180 = {
+	name = dynn_gen_180
+	culture = culture_R134G43B52
+}
+dynn_gen_181 = {
+	name = dynn_gen_181
+	culture = culture_R218G65B154
+}
+dynn_gen_182 = {
+	name = dynn_gen_182
+	culture = culture_R110G97B115
+}
+dynn_gen_183 = {
+	name = dynn_gen_183
+	culture = culture_R218G65B154
+}
+dynn_gen_184 = {
+	name = dynn_gen_184
+	culture = culture_R3G52B153
+}
+dynn_gen_185 = {
+	name = dynn_gen_185
+	culture = culture_R37G163B212
+}
+dynn_gen_186 = {
+	name = dynn_gen_186
+	culture = culture_R37G163B212
+}
+dynn_gen_187 = {
+	name = dynn_gen_187
+	culture = culture_R3G52B153
+}
+dynn_gen_188 = {
+	name = dynn_gen_188
+	culture = culture_R144G171B45
+}
+dynn_gen_189 = {
+	name = dynn_gen_189
+	culture = culture_R37G163B212
+}
+dynn_gen_190 = {
+	name = dynn_gen_190
+	culture = culture_R95G32B186
+}
+dynn_gen_191 = {
+	name = dynn_gen_191
+	culture = culture_R43G221B143
+}
+dynn_gen_192 = {
+	name = dynn_gen_192
+	culture = culture_R242G123B24
+}
+dynn_gen_193 = {
+	name = dynn_gen_193
+	culture = culture_R95G32B186
+}
+dynn_gen_194 = {
+	name = dynn_gen_194
+	culture = culture_R110G97B115
+}
+dynn_gen_195 = {
+	name = dynn_gen_195
+	culture = culture_R95G32B186
+}
+dynn_gen_196 = {
+	name = dynn_gen_196
+	culture = culture_R66G7B25
+}
+dynn_gen_197 = {
+	name = dynn_gen_197
+	culture = culture_R95G32B186
+}
+dynn_gen_198 = {
+	name = dynn_gen_198
+	culture = culture_R110G97B115
+}
+dynn_gen_199 = {
+	name = dynn_gen_199
+	culture = culture_R155G183B232
+}
+dynn_gen_200 = {
+	name = dynn_gen_200
+	culture = culture_R95G32B186
+}
+dynn_gen_201 = {
+	name = dynn_gen_201
+	culture = culture_R144G171B45
+}
+dynn_gen_202 = {
+	name = dynn_gen_202
+	culture = culture_R155G183B232
+}
+dynn_gen_203 = {
+	name = dynn_gen_203
+	culture = culture_R95G32B186
+}
+dynn_gen_204 = {
+	name = dynn_gen_204
+	culture = culture_R7G68B13
+}
+dynn_gen_205 = {
+	name = dynn_gen_205
+	culture = culture_R95G32B186
+}
+dynn_gen_206 = {
+	name = dynn_gen_206
+	culture = culture_R141G180B158
+}
+dynn_gen_207 = {
+	name = dynn_gen_207
+	culture = culture_R3G52B153
+}
+dynn_gen_208 = {
+	name = dynn_gen_208
+	culture = culture_R66G7B25
+}
+dynn_gen_209 = {
+	name = dynn_gen_209
+	culture = culture_R95G32B186
+}
+dynn_gen_210 = {
+	name = dynn_gen_210
+	culture = culture_R110G97B115
+}
+dynn_gen_211 = {
+	name = dynn_gen_211
+	culture = culture_R43G221B143
+}
+dynn_gen_212 = {
+	name = dynn_gen_212
+	culture = culture_R108G27B188
+}
+dynn_gen_213 = {
+	name = dynn_gen_213
+	culture = culture_R110G97B115
+}
+dynn_gen_214 = {
+	name = dynn_gen_214
+	culture = culture_R167G217B214
+}
+dynn_gen_215 = {
+	name = dynn_gen_215
+	culture = culture_R110G97B115
+}
+dynn_gen_216 = {
+	name = dynn_gen_216
+	culture = culture_R26G87B110
+}
+dynn_gen_217 = {
+	name = dynn_gen_217
+	culture = culture_R43G221B143
+}
+dynn_gen_218 = {
+	name = dynn_gen_218
+	culture = culture_R144G171B45
+}
+dynn_gen_219 = {
+	name = dynn_gen_219
+	culture = culture_R242G123B24
+}
+dynn_gen_220 = {
+	name = dynn_gen_220
+	culture = culture_R144G171B45
+}
+dynn_gen_221 = {
+	name = dynn_gen_221
+	culture = culture_R37G163B212
+}
+dynn_gen_222 = {
+	name = dynn_gen_222
+	culture = culture_R242G123B24
+}
+dynn_gen_223 = {
+	name = dynn_gen_223
+	culture = culture_R80G95B91
+}
+dynn_gen_224 = {
+	name = dynn_gen_224
+	culture = culture_R66G7B25
+}
+dynn_gen_225 = {
+	name = dynn_gen_225
+	culture = culture_R110G97B115
+}
+dynn_gen_226 = {
+	name = dynn_gen_226
+	culture = culture_R242G123B24
+}
+dynn_gen_227 = {
+	name = dynn_gen_227
+	culture = culture_R37G163B212
+}
+dynn_gen_228 = {
+	name = dynn_gen_228
+	culture = culture_R134G43B52
+}
+dynn_gen_229 = {
+	name = dynn_gen_229
+	culture = culture_R242G123B24
+}
+dynn_gen_230 = {
+	name = dynn_gen_230
+	culture = culture_R3G52B153
+}
+dynn_gen_231 = {
+	name = dynn_gen_231
+	culture = culture_R95G32B186
+}
+dynn_gen_232 = {
+	name = dynn_gen_232
+	culture = culture_R108G27B188
+}
+dynn_gen_233 = {
+	name = dynn_gen_233
+	culture = culture_R144G171B45
+}
+dynn_gen_234 = {
+	name = dynn_gen_234
+	culture = culture_R37G163B212
+}
+dynn_gen_235 = {
+	name = dynn_gen_235
+	culture = culture_R26G87B110
+}
+dynn_gen_236 = {
+	name = dynn_gen_236
+	culture = culture_R43G221B143
+}
+dynn_gen_237 = {
+	name = dynn_gen_237
+	culture = culture_R66G7B25
+}
+dynn_gen_238 = {
+	name = dynn_gen_238
+	culture = culture_R144G171B45
+}
+dynn_gen_239 = {
+	name = dynn_gen_239
+	culture = culture_R242G148B101
+}
+dynn_gen_240 = {
+	name = dynn_gen_240
+	culture = culture_R3G52B153
+}
+dynn_gen_241 = {
+	name = dynn_gen_241
+	culture = culture_R43G221B143
+}
+dynn_gen_242 = {
+	name = dynn_gen_242
+	culture = culture_R37G163B212
+}
+dynn_gen_243 = {
+	name = dynn_gen_243
+	culture = culture_R3G52B153
+}
+dynn_gen_244 = {
+	name = dynn_gen_244
+	culture = culture_R218G65B154
+}
+dynn_gen_245 = {
+	name = dynn_gen_245
+	culture = culture_R37G163B212
+}
+dynn_gen_246 = {
+	name = dynn_gen_246
+	culture = culture_R242G123B24
+}
+dynn_gen_247 = {
+	name = dynn_gen_247
+	culture = culture_R110G97B115
+}
+dynn_gen_248 = {
+	name = dynn_gen_248
+	culture = culture_R243G9B127
+}
+dynn_gen_249 = {
+	name = dynn_gen_249
+	culture = culture_R110G97B115
+}
+dynn_gen_250 = {
+	name = dynn_gen_250
+	culture = culture_R26G87B110
+}
+dynn_gen_251 = {
+	name = dynn_gen_251
+	culture = culture_R171G78B182
+}
+dynn_gen_252 = {
+	name = dynn_gen_252
+	culture = culture_R110G97B115
+}
+dynn_gen_253 = {
+	name = dynn_gen_253
+	culture = culture_R37G163B212
+}
+dynn_gen_254 = {
+	name = dynn_gen_254
+	culture = culture_R26G87B110
+}
+dynn_gen_255 = {
+	name = dynn_gen_255
+	culture = culture_R3G52B153
+}
+dynn_gen_256 = {
+	name = dynn_gen_256
+	culture = culture_R134G43B52
+}
+dynn_gen_257 = {
+	name = dynn_gen_257
+	culture = culture_R144G171B45
+}
+dynn_gen_258 = {
+	name = dynn_gen_258
+	culture = culture_R43G221B143
+}
+dynn_gen_259 = {
+	name = dynn_gen_259
+	culture = culture_R144G171B45
+}
+dynn_gen_260 = {
+	name = dynn_gen_260
+	culture = culture_R95G32B186
+}
+dynn_gen_261 = {
+	name = dynn_gen_261
+	culture = culture_R66G7B25
+}
+dynn_gen_262 = {
+	name = dynn_gen_262
+	culture = culture_R95G32B186
+}
+dynn_gen_263 = {
+	name = dynn_gen_263
+	culture = culture_R95G32B186
+}
+dynn_gen_264 = {
+	name = dynn_gen_264
+	culture = culture_R69G87B10
+}
+dynn_gen_265 = {
+	name = dynn_gen_265
+	culture = culture_R95G32B186
+}
+dynn_gen_266 = {
+	name = dynn_gen_266
+	culture = culture_R26G87B110
+}
+dynn_gen_267 = {
+	name = dynn_gen_267
+	culture = culture_R95G32B186
+}
+dynn_gen_268 = {
+	name = dynn_gen_268
+	culture = culture_R66G7B25
+}
+dynn_gen_269 = {
+	name = dynn_gen_269
+	culture = culture_R227G34B110
+}
+dynn_gen_270 = {
+	name = dynn_gen_270
+	culture = culture_R37G163B212
+}
+dynn_gen_271 = {
+	name = dynn_gen_271
+	culture = culture_R242G123B24
+}
+dynn_gen_272 = {
+	name = dynn_gen_272
+	culture = culture_R95G32B186
+}
+dynn_gen_273 = {
+	name = dynn_gen_273
+	culture = culture_R134G43B52
+}
+dynn_gen_274 = {
+	name = dynn_gen_274
+	culture = culture_R7G68B13
+}
+dynn_gen_275 = {
+	name = dynn_gen_275
+	culture = culture_R110G97B115
+}
+dynn_gen_276 = {
+	name = dynn_gen_276
+	culture = culture_R242G123B24
+}
+dynn_gen_277 = {
+	name = dynn_gen_277
+	culture = culture_R88G53B13
+}
+dynn_gen_278 = {
+	name = dynn_gen_278
+	culture = culture_R144G171B45
+}
+dynn_gen_279 = {
+	name = dynn_gen_279
+	culture = culture_R66G7B25
+}
+dynn_gen_280 = {
+	name = dynn_gen_280
+	culture = culture_R66G7B25
+}
+dynn_gen_281 = {
+	name = dynn_gen_281
+	culture = culture_R66G7B25
+}
+dynn_gen_282 = {
+	name = dynn_gen_282
+	culture = culture_R3G52B153
+}
+dynn_gen_283 = {
+	name = dynn_gen_283
+	culture = culture_R242G148B101
+}
+dynn_gen_284 = {
+	name = dynn_gen_284
+	culture = culture_R7G68B13
+}
+dynn_gen_285 = {
+	name = dynn_gen_285
+	culture = culture_R110G97B115
+}
+dynn_gen_286 = {
+	name = dynn_gen_286
+	culture = culture_R37G163B212
+}
+dynn_gen_287 = {
+	name = dynn_gen_287
+	culture = culture_R134G43B52
+}
+dynn_gen_288 = {
+	name = dynn_gen_288
+	culture = culture_R26G87B110
+}
+dynn_gen_289 = {
+	name = dynn_gen_289
+	culture = culture_R110G97B115
+}
+dynn_gen_290 = {
+	name = dynn_gen_290
+	culture = culture_R43G221B143
+}
+dynn_gen_291 = {
+	name = dynn_gen_291
+	culture = culture_R95G32B186
+}
+dynn_gen_292 = {
+	name = dynn_gen_292
+	culture = culture_R95G32B186
+}
+dynn_gen_293 = {
+	name = dynn_gen_293
+	culture = culture_R3G52B153
+}
+dynn_gen_294 = {
+	name = dynn_gen_294
+	culture = culture_R242G123B24
+}
+dynn_gen_295 = {
+	name = dynn_gen_295
+	culture = culture_R110G97B115
+}
+dynn_gen_296 = {
+	name = dynn_gen_296
+	culture = culture_R3G52B153
+}
+dynn_gen_297 = {
+	name = dynn_gen_297
+	culture = culture_R37G163B212
+}
+dynn_gen_298 = {
+	name = dynn_gen_298
+	culture = culture_R108G27B188
+}
+dynn_gen_299 = {
+	name = dynn_gen_299
+	culture = culture_R110G97B115
+}
+dynn_gen_300 = {
+	name = dynn_gen_300
+	culture = culture_R37G163B212
+}
+dynn_gen_301 = {
+	name = dynn_gen_301
+	culture = culture_R37G163B212
+}
+dynn_gen_302 = {
+	name = dynn_gen_302
+	culture = culture_R110G97B115
+}
+dynn_gen_303 = {
+	name = dynn_gen_303
+	culture = culture_R3G52B153
+}
+dynn_gen_304 = {
+	name = dynn_gen_304
+	culture = culture_R3G52B153
+}
+dynn_gen_305 = {
+	name = dynn_gen_305
+	culture = culture_R43G221B143
+}
+dynn_gen_306 = {
+	name = dynn_gen_306
+	culture = culture_R37G163B212
+}
+dynn_gen_307 = {
+	name = dynn_gen_307
+	culture = culture_R66G7B25
+}
+dynn_gen_308 = {
+	name = dynn_gen_308
+	culture = culture_R95G32B186
+}
+dynn_gen_309 = {
+	name = dynn_gen_309
+	culture = culture_R37G163B212
+}
+dynn_gen_310 = {
+	name = dynn_gen_310
+	culture = culture_R3G52B153
+}
+dynn_gen_311 = {
+	name = dynn_gen_311
+	culture = culture_R242G123B24
+}
+dynn_gen_312 = {
+	name = dynn_gen_312
+	culture = culture_R108G27B188
+}
+dynn_gen_313 = {
+	name = dynn_gen_313
+	culture = culture_R218G65B154
+}
+dynn_gen_314 = {
+	name = dynn_gen_314
+	culture = culture_R66G7B25
+}
+dynn_gen_315 = {
+	name = dynn_gen_315
+	culture = culture_R95G32B186
+}
+dynn_gen_316 = {
+	name = dynn_gen_316
+	culture = culture_R37G163B212
+}
+dynn_gen_317 = {
+	name = dynn_gen_317
+	culture = culture_R37G163B212
+}
+dynn_gen_318 = {
+	name = dynn_gen_318
+	culture = culture_R37G163B212
+}
+dynn_gen_319 = {
+	name = dynn_gen_319
+	culture = culture_R43G221B143
+}
+dynn_gen_320 = {
+	name = dynn_gen_320
+	culture = culture_R66G7B25
+}
+dynn_gen_321 = {
+	name = dynn_gen_321
+	culture = culture_R66G7B25
+}
+dynn_gen_322 = {
+	name = dynn_gen_322
+	culture = culture_R69G87B10
+}
+dynn_gen_323 = {
+	name = dynn_gen_323
+	culture = culture_R37G163B212
+}
+dynn_gen_324 = {
+	name = dynn_gen_324
+	culture = culture_R3G52B153
+}
+dynn_gen_325 = {
+	name = dynn_gen_325
+	culture = culture_R43G221B143
+}
+dynn_gen_326 = {
+	name = dynn_gen_326
+	culture = culture_R144G171B45
+}
+dynn_gen_327 = {
+	name = dynn_gen_327
+	culture = culture_R66G7B25
+}
+dynn_gen_328 = {
+	name = dynn_gen_328
+	culture = culture_R243G9B127
+}
+dynn_gen_329 = {
+	name = dynn_gen_329
+	culture = culture_R3G52B153
+}
+dynn_gen_330 = {
+	name = dynn_gen_330
+	culture = culture_R110G97B115
+}
+dynn_gen_331 = {
+	name = dynn_gen_331
+	culture = culture_R66G7B25
+}
+dynn_gen_332 = {
+	name = dynn_gen_332
+	culture = culture_R66G7B25
+}
+dynn_gen_333 = {
+	name = dynn_gen_333
+	culture = culture_R43G221B143
+}
+dynn_gen_334 = {
+	name = dynn_gen_334
+	culture = culture_R3G52B153
+}
+dynn_gen_335 = {
+	name = dynn_gen_335
+	culture = culture_R110G97B115
+}
+dynn_gen_336 = {
+	name = dynn_gen_336
+	culture = culture_R95G32B186
+}
+dynn_gen_337 = {
+	name = dynn_gen_337
+	culture = culture_R218G65B154
+}
+dynn_gen_338 = {
+	name = dynn_gen_338
+	culture = culture_R66G7B25
+}
+dynn_gen_339 = {
+	name = dynn_gen_339
+	culture = culture_R110G97B115
+}
+dynn_gen_340 = {
+	name = dynn_gen_340
+	culture = culture_R95G32B186
+}
+dynn_gen_341 = {
+	name = dynn_gen_341
+	culture = culture_R3G52B153
+}
+dynn_gen_342 = {
+	name = dynn_gen_342
+	culture = culture_R66G7B25
+}
+dynn_gen_343 = {
+	name = dynn_gen_343
+	culture = culture_R37G163B212
+}
+dynn_gen_344 = {
+	name = dynn_gen_344
+	culture = culture_R66G7B25
+}
+dynn_gen_345 = {
+	name = dynn_gen_345
+	culture = culture_R227G34B110
+}
+dynn_gen_346 = {
+	name = dynn_gen_346
+	culture = culture_R95G32B186
+}
+dynn_gen_347 = {
+	name = dynn_gen_347
+	culture = culture_R43G221B143
+}
+dynn_gen_348 = {
+	name = dynn_gen_348
+	culture = culture_R95G32B186
+}
+dynn_gen_349 = {
+	name = dynn_gen_349
+	culture = culture_R108G27B188
+}
+dynn_gen_350 = {
+	name = dynn_gen_350
+	culture = culture_R110G97B115
+}
+dynn_gen_351 = {
+	name = dynn_gen_351
+	culture = culture_R66G7B25
+}
+dynn_gen_352 = {
+	name = dynn_gen_352
+	culture = culture_R110G97B115
+}
+dynn_gen_353 = {
+	name = dynn_gen_353
+	culture = culture_R110G97B115
+}
+dynn_gen_354 = {
+	name = dynn_gen_354
+	culture = culture_R95G32B186
+}
+dynn_gen_355 = {
+	name = dynn_gen_355
+	culture = culture_R26G87B110
+}
+dynn_gen_356 = {
+	name = dynn_gen_356
+	culture = culture_R43G221B143
+}
+dynn_gen_357 = {
+	name = dynn_gen_357
+	culture = culture_R95G32B186
+}
+dynn_gen_358 = {
+	name = dynn_gen_358
+	culture = culture_R37G163B212
+}
+dynn_gen_359 = {
+	name = dynn_gen_359
+	culture = culture_R108G27B188
+}
+dynn_gen_360 = {
+	name = dynn_gen_360
+	culture = culture_R3G52B153
+}
+dynn_gen_361 = {
+	name = dynn_gen_361
+	culture = culture_R95G32B186
+}
+dynn_gen_362 = {
+	name = dynn_gen_362
+	culture = culture_R110G97B115
+}
+dynn_gen_363 = {
+	name = dynn_gen_363
+	culture = culture_R95G32B186
+}
+dynn_gen_364 = {
+	name = dynn_gen_364
+	culture = culture_R95G32B186
+}
+dynn_gen_365 = {
+	name = dynn_gen_365
+	culture = culture_R134G43B52
+}
+dynn_gen_366 = {
+	name = dynn_gen_366
+	culture = culture_R242G123B24
+}
+dynn_gen_367 = {
+	name = dynn_gen_367
+	culture = culture_R7G68B13
+}
+dynn_gen_368 = {
+	name = dynn_gen_368
+	culture = culture_R108G27B188
+}
+dynn_gen_369 = {
+	name = dynn_gen_369
+	culture = culture_R3G52B153
+}
+dynn_gen_370 = {
+	name = dynn_gen_370
+	culture = culture_R37G163B212
+}
+dynn_gen_371 = {
+	name = dynn_gen_371
+	culture = culture_R95G32B186
+}
+dynn_gen_372 = {
+	name = dynn_gen_372
+	culture = culture_R167G217B214
+}
+dynn_gen_373 = {
+	name = dynn_gen_373
+	culture = culture_R235G118B188
+}
+dynn_gen_374 = {
+	name = dynn_gen_374
+	culture = culture_R95G32B186
+}
+dynn_gen_375 = {
+	name = dynn_gen_375
+	culture = culture_R145G203B45
+}
+dynn_gen_376 = {
+	name = dynn_gen_376
+	culture = culture_R37G163B212
+}
+dynn_gen_377 = {
+	name = dynn_gen_377
+	culture = culture_R242G123B24
+}
+dynn_gen_378 = {
+	name = dynn_gen_378
+	culture = culture_R242G123B24
+}
+dynn_gen_379 = {
+	name = dynn_gen_379
+	culture = culture_R110G97B115
+}
+dynn_gen_380 = {
+	name = dynn_gen_380
+	culture = culture_R110G97B115
+}
+dynn_gen_381 = {
+	name = dynn_gen_381
+	culture = culture_R3G52B153
+}
+dynn_gen_382 = {
+	name = dynn_gen_382
+	culture = culture_R144G171B45
+}
+dynn_gen_383 = {
+	name = dynn_gen_383
+	culture = culture_R37G163B212
+}
+dynn_gen_384 = {
+	name = dynn_gen_384
+	culture = culture_R242G123B24
+}
+dynn_gen_385 = {
+	name = dynn_gen_385
+	culture = culture_R3G52B153
+}
+dynn_gen_386 = {
+	name = dynn_gen_386
+	culture = culture_R110G97B115
+}
+dynn_gen_387 = {
+	name = dynn_gen_387
+	culture = culture_R95G32B186
+}
+dynn_gen_388 = {
+	name = dynn_gen_388
+	culture = culture_R95G32B186
+}
+dynn_gen_389 = {
+	name = dynn_gen_389
+	culture = culture_R162G151B44
+}
+dynn_gen_390 = {
+	name = dynn_gen_390
+	culture = culture_R37G163B212
+}
+dynn_gen_391 = {
+	name = dynn_gen_391
+	culture = culture_R242G123B24
+}
+dynn_gen_392 = {
+	name = dynn_gen_392
+	culture = culture_R43G221B143
+}
+dynn_gen_393 = {
+	name = dynn_gen_393
+	culture = culture_R110G97B115
+}
+dynn_gen_394 = {
+	name = dynn_gen_394
+	culture = culture_R95G32B186
+}
+dynn_gen_395 = {
+	name = dynn_gen_395
+	culture = culture_R155G183B232
+}
+dynn_gen_396 = {
+	name = dynn_gen_396
+	culture = culture_R95G32B186
+}
+dynn_gen_397 = {
+	name = dynn_gen_397
+	culture = culture_R95G32B186
+}
+dynn_gen_398 = {
+	name = dynn_gen_398
+	culture = culture_R95G32B186
+}
+dynn_gen_399 = {
+	name = dynn_gen_399
+	culture = culture_R66G7B25
+}
+dynn_gen_400 = {
+	name = dynn_gen_400
+	culture = culture_R66G7B25
+}
+dynn_gen_401 = {
+	name = dynn_gen_401
+	culture = culture_R95G32B186
+}
+dynn_gen_402 = {
+	name = dynn_gen_402
+	culture = culture_R95G32B186
+}
+dynn_gen_403 = {
+	name = dynn_gen_403
+	culture = culture_R227G34B110
+}
+dynn_gen_404 = {
+	name = dynn_gen_404
+	culture = culture_R37G163B212
+}
+dynn_gen_405 = {
+	name = dynn_gen_405
+	culture = culture_R43G221B143
+}
+dynn_gen_406 = {
+	name = dynn_gen_406
+	culture = culture_R110G97B115
+}
+dynn_gen_407 = {
+	name = dynn_gen_407
+	culture = culture_R242G123B24
+}
+dynn_gen_408 = {
+	name = dynn_gen_408
+	culture = culture_R110G97B115
+}
+dynn_gen_409 = {
+	name = dynn_gen_409
+	culture = culture_R37G163B212
+}
+dynn_gen_410 = {
+	name = dynn_gen_410
+	culture = culture_R227G34B110
+}
+dynn_gen_411 = {
+	name = dynn_gen_411
+	culture = culture_R144G171B45
+}
+dynn_gen_412 = {
+	name = dynn_gen_412
+	culture = culture_R110G97B115
+}
+dynn_gen_413 = {
+	name = dynn_gen_413
+	culture = culture_R95G32B186
+}
+dynn_gen_414 = {
+	name = dynn_gen_414
+	culture = culture_R108G27B188
+}
+dynn_gen_415 = {
+	name = dynn_gen_415
+	culture = culture_R161G41B240
+}
+dynn_gen_416 = {
+	name = dynn_gen_416
+	culture = culture_R110G97B115
+}
+dynn_gen_417 = {
+	name = dynn_gen_417
+	culture = culture_R66G7B25
+}
+dynn_gen_418 = {
+	name = dynn_gen_418
+	culture = culture_R37G163B212
+}
+dynn_gen_419 = {
+	name = dynn_gen_419
+	culture = culture_R37G163B212
+}
+dynn_gen_420 = {
+	name = dynn_gen_420
+	culture = culture_R117G248B119
+}
+dynn_gen_421 = {
+	name = dynn_gen_421
+	culture = culture_R179G220B223
+}
+dynn_gen_422 = {
+	name = dynn_gen_422
+	culture = culture_R227G34B110
+}
+dynn_gen_423 = {
+	name = dynn_gen_423
+	culture = culture_R107G38B18
+}
+dynn_gen_424 = {
+	name = dynn_gen_424
+	culture = culture_R43G221B143
+}
+dynn_gen_425 = {
+	name = dynn_gen_425
+	culture = culture_R37G163B212
+}
+dynn_gen_426 = {
+	name = dynn_gen_426
+	culture = culture_R242G123B24
+}
+dynn_gen_427 = {
+	name = dynn_gen_427
+	culture = culture_R108G27B188
+}
+dynn_gen_428 = {
+	name = dynn_gen_428
+	culture = culture_R227G34B110
+}
+dynn_gen_429 = {
+	name = dynn_gen_429
+	culture = culture_R7G68B13
+}
+dynn_gen_430 = {
+	name = dynn_gen_430
+	culture = culture_R95G32B186
+}
+dynn_gen_431 = {
+	name = dynn_gen_431
+	culture = culture_R110G97B115
+}
+dynn_gen_432 = {
+	name = dynn_gen_432
+	culture = culture_R95G32B186
+}
+dynn_gen_433 = {
+	name = dynn_gen_433
+	culture = culture_R110G97B115
+}
+dynn_gen_434 = {
+	name = dynn_gen_434
+	culture = culture_R134G43B52
+}
+dynn_gen_435 = {
+	name = dynn_gen_435
+	culture = culture_R66G7B25
+}
+dynn_gen_436 = {
+	name = dynn_gen_436
+	culture = culture_R22G142B45
+}
+dynn_gen_437 = {
+	name = dynn_gen_437
+	culture = culture_R3G52B153
+}
+dynn_gen_438 = {
+	name = dynn_gen_438
+	culture = culture_R3G52B153
+}
+dynn_gen_439 = {
+	name = dynn_gen_439
+	culture = culture_R110G97B115
+}
+dynn_gen_440 = {
+	name = dynn_gen_440
+	culture = culture_R144G171B45
+}
+dynn_gen_441 = {
+	name = dynn_gen_441
+	culture = culture_R144G171B45
+}
+dynn_gen_442 = {
+	name = dynn_gen_442
+	culture = culture_R144G171B45
+}
+dynn_gen_443 = {
+	name = dynn_gen_443
+	culture = culture_R66G7B25
+}
+dynn_gen_444 = {
+	name = dynn_gen_444
+	culture = culture_R26G87B110
+}
+dynn_gen_445 = {
+	name = dynn_gen_445
+	culture = culture_R95G32B186
+}
+dynn_gen_446 = {
+	name = dynn_gen_446
+	culture = culture_R37G163B212
+}
+dynn_gen_447 = {
+	name = dynn_gen_447
+	culture = culture_R227G34B110
+}

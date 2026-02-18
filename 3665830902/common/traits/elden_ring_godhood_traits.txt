@@ -1,0 +1,156 @@
+﻿
+god_elden_ring = {
+	category = health
+	icon = "god_elden_ring.dds"
+	#shown_in_ruler_designer = no
+	ruler_designer_cost = 1000
+	same_opinion = -100
+	general_opinion = 5
+	vassal_opinion = 5
+	
+	ai_war_chance = -100
+	ai_war_cooldown = -100
+	ai_amenity_spending = -0.25
+	ai_amenity_target_baseline = -0.4
+	monthly_legitimacy_add = 5
+	men_at_arms_maintenance = -0.75
+	negate_health_penalty_add = 5
+	health = 10
+	
+	ai_greed = very_high_positive_ai_value
+	ai_energy = very_high_positive_ai_value
+	ai_boldness = high_positive_ai_value
+	
+	life_expectancy = 5000
+	years_of_fertility = 5000
+	
+	immortal = yes
+	set_immortal_age = 25
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 20
+	
+	opposites = {
+		empyrean_elden_ring
+		demigod_elden_ring
+	}
+	
+}
+
+demigod_elden_ring = {
+	category = health
+	icon = "demigod_elden_ring.dds"
+	#shown_in_ruler_designer = no
+	ruler_designer_cost = 500
+	immortal = yes
+	set_immortal_age = 25
+	life_expectancy = 5000
+	years_of_fertility = 5000
+	negate_health_penalty_add = 5
+	health = 10
+	inherit_chance = 75
+	inherit_from_real_father = yes
+	
+	ai_greed = very_high_positive_ai_value
+	ai_energy = very_high_positive_ai_value
+	ai_boldness = high_positive_ai_value
+	
+	opposites = {
+		god_elden_ring
+	}
+}
+
+empyrean_elden_ring = {
+	category = health
+	icon = "empyrean_elden_ring.dds"
+	#shown_in_ruler_designer = no
+	ruler_designer_cost = 500
+	same_opinion = -50
+	birth = 0.05
+	
+	flag = conqueror_bonuses_modifier
+	life_expectancy = 5000
+	years_of_fertility = 5000
+
+	ai_war_chance = -100
+	ai_war_cooldown = -100
+	negate_health_penalty_add = 5
+	health = 10
+	
+	# ai_greed = very_high_positive_ai_value
+	# ai_energy = very_high_positive_ai_value
+	# ai_boldness = very_high_positive_ai_value
+
+	diplomacy = 2
+	martial = 2
+	stewardship = 2
+	intrigue = 2
+	learning = 2
+	prowess = 5
+	
+	opposites = {
+		god_elden_ring
+	}
+}
+
+eternal_youth_elden_ring = {
+	category = health
+	icon = "eternal_youth_elden_ring.dds"
+	#shown_in_ruler_designer = no
+	ruler_designer_cost = 250
+	#immortal = yes
+	set_immortal_age = 10
+	can_have_children = no
+	health = 10
+	
+	opposites = {
+		god_elden_ring
+	}
+}
+
+tarnished_elden_ring = {
+	category = health
+	#shown_in_ruler_designer = no
+	ruler_designer_cost = 25
+	monthly_prestige_gain_mult = -0.15
+	monthly_piety_gain_mult = -0.15
+	
+	immortal = yes
+	set_immortal_age = 25
+	life_expectancy = 5000
+	years_of_fertility = 5000
+	negate_health_penalty_add = 5
+	
+	health = 10
+	inherit_chance = 100
+	inherit_from_real_father = yes
+	
+	ai_greed = very_high_positive_ai_value
+	ai_energy = very_high_positive_ai_value
+	ai_boldness = high_positive_ai_value
+	
+	opposites = {
+		
+	}
+}
+
+
+# shardbearer_elden_ring = {
+	# category = health
+	# icon = "shardbearer_elden_ring.dds"
+	# shown_in_ruler_designer = no
+	# ruler_designer_cost = 250
+	# same_opinion = -50
+
+	# diplomacy = 3
+	# martial = 3
+	# stewardship = 3
+	# intrigue = 3
+	# learning = 3
+	# prowess = 10
+	
+# }

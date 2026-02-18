@@ -1,0 +1,220 @@
+﻿give_grace_elden_ring_interaction = {
+	category = interaction_category_friendly
+	icon = alliance
+
+	desc = give_grace_elden_ring_interaction_desc
+	
+	auto_accept = yes
+	
+	ai_targets = {
+		ai_recipients = vassals
+	}
+	ai_target_quick_trigger = {
+		adult = yes
+	}
+	ai_frequency = 12
+
+	is_shown = {
+		scope:actor = {
+			has_trait = god_elden_ring
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+		}
+	}
+	
+	on_accept = {
+		scope:actor = {
+			
+		}
+		scope:recipient = {
+			add_character_modifier = {
+				modifier = grace_given
+				years = 10
+			}
+			add_opinion = {
+				target = root
+				modifier = friendliness_opinion
+				opinion = 30
+			}
+		}
+	}
+	
+
+	cost = {
+		piety = 100
+	}
+}
+
+heal_disease_elden_ring_interaction = {
+	category = interaction_category_friendly
+	icon = alliance
+
+	desc = give_grace_elden_ring_interaction_desc
+	
+	auto_accept = yes
+	
+	ai_targets = {
+		ai_recipients = scripted_relations
+	}
+	ai_targets = {
+		ai_recipients = head_of_faith
+	}
+	ai_targets = {
+		ai_recipients = neighboring_rulers
+		ai_recipients = peer_vassals
+		max = 10
+	}
+	ai_target_quick_trigger = {
+		adult = yes
+	}
+	ai_frequency = 60
+
+	is_shown = {
+		scope:actor = {
+			has_trait = god_elden_ring
+		}
+		scope:recipient = {
+			has_any_disease_trigger = yes
+		}
+	}
+	
+	on_accept = {
+		scope:actor = {
+			
+		}
+		scope:recipient = {
+			remove_trait = ill
+			remove_trait = lovers_pox
+			remove_trait = great_pox
+			remove_trait = early_great_pox
+			remove_trait = bubonic_plague
+			remove_trait = smallpox
+			remove_trait = measles
+			remove_trait = ergotism
+			remove_trait = dysentery
+			remove_trait = consumption
+			remove_trait = typhus
+			remove_trait = cancer
+			remove_trait = pneumonic
+			remove_trait = leper
+			remove_trait = gout_ridden
+			add_opinion = {
+				target = root
+				modifier = friendliness_opinion
+				opinion = 30
+			}
+		}
+	}
+	
+
+	cost = {
+		piety = 100
+	}
+}
+
+cure_wound_elden_ring_interaction = {
+	category = interaction_category_friendly
+	icon = alliance
+
+	desc = give_grace_elden_ring_interaction_desc
+	
+	auto_accept = yes
+	
+	ai_targets = {
+		ai_recipients = vassals
+	}
+	ai_target_quick_trigger = {
+		adult = yes
+	}
+	ai_frequency = 12
+
+	is_shown = {
+		scope:actor = {
+			has_trait = god_elden_ring
+		}
+		scope:recipient = {
+			has_wounds_trigger = yes
+		}
+	}
+	
+	on_accept = {
+		scope:actor = {
+			
+		}
+		scope:recipient = {
+			remove_trait = wounded_1
+			remove_trait = wounded_2
+			remove_trait = wounded_3
+			remove_character_modifier = infected_wound_modifier
+			remove_character_modifier = gangrene_modifier
+			add_opinion = {
+				target = root
+				modifier = friendliness_opinion
+				opinion = 30
+			}
+		}
+	}
+	
+
+	cost = {
+		piety = 100
+	}
+}
+
+regrow_lost_elden_ring_interaction = {
+	category = interaction_category_friendly
+	icon = alliance
+
+	desc = give_grace_elden_ring_interaction_desc
+	
+	auto_accept = yes
+	
+	ai_targets = {
+		ai_recipients = vassals
+	}
+	ai_target_quick_trigger = {
+		adult = yes
+	}
+	ai_frequency = 12
+
+	is_shown = {
+		scope:actor = {
+			has_trait = god_elden_ring
+		}
+		scope:recipient = {
+			OR = {
+				has_trait = maimed
+				has_trait = one_eyed
+				has_trait = one_legged
+				has_trait = infirm
+				has_trait = incapable
+				has_trait = disfigured
+			}
+		}
+	}
+	
+	on_accept = {
+		scope:actor = {
+			
+		}
+		scope:recipient = {	
+			remove_trait = maimed
+			remove_trait = one_eyed
+			remove_trait = one_legged
+			remove_trait = infirm
+			remove_trait = incapable
+			remove_trait = disfigured
+			add_opinion = {
+				target = root
+				modifier = friendliness_opinion
+				opinion = 30
+			}
+		}
+	}
+	
+
+	cost = {
+		piety = 100
+	}
+}

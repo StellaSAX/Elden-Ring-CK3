@@ -1,0 +1,98 @@
+﻿five_year_everyone_pulse = {
+    on_actions = {
+		on_action_ambitious_demigod_becomes_empyrean
+        on_action_empyrean_becomes_adventurer
+		on_action_empyrean_becomes_god_for_ai
+		# on_action_child_of_god_become_demigod
+    }
+}
+
+on_action_ambitious_demigod_becomes_empyrean = {
+	effect = {
+		if = { # an empyrean becomes an adventurer
+			limit = {
+				AND = {
+					has_trait = demigod_elden_ring
+					has_trait = ambitious
+					is_adult = yes
+					is_ruler = no
+					is_ai = yes
+				}	
+			}
+			remove_trait = demigod_elden_ring
+			add_trait = empyrean_elden_ring
+		}
+		
+	}
+}
+
+# on_action_child_of_god_become_demigod = {
+	# effect = {
+		# if = {
+			# limit = {
+				# AND = {
+					# OR = {
+						# scope:real_father = {
+							# has_trait = god_elden_ring
+						# }
+						# scope:mother = {
+							# has_trait = god_elden_ring
+						# }
+					# }
+					# NOR = {
+						# has_trait = god_elden_ring
+						# has_trait = empyrean_elden_ring
+						# has_trait = demigod_elden_ring
+					# }
+				# }	
+			# }
+			# add_trait = demigod_elden_ring
+		# }
+	# }
+# }
+
+
+on_action_empyrean_becomes_adventurer = {
+	effect = {
+		if = { # an empyrean becomes an adventurer
+			limit = {
+				AND = {
+					has_trait = empyrean_elden_ring
+					is_adult = yes
+					is_ruler = no
+					NOT = { has_trait = content }
+					is_ai = yes
+				}	
+			}
+			create_landless_adventurer_title_effect = {
+				REASON = flag:voluntary
+				FLAVOR_CHAR = root
+			}
+			trigger_event = become_god_elden_ring.0002
+		}
+		
+	}
+}
+
+on_action_empyrean_becomes_god_for_ai = {
+	effect = {
+		if = { # an empyrean becomes a God, this is so that gods can appear ingame, the decision is a little hard for the ai
+			limit = {
+				AND = {
+					OR = {
+						has_trait = empyrean_elden_ring
+						has_trait = demigod_elden_ring
+					}		
+					is_adult = yes
+					is_landed = yes
+					highest_held_title_tier >= tier_kingdom
+					is_independent_ruler = yes
+					is_ai = yes
+					sub_realm_size >= 30
+				}
+			}
+			trigger_event = elden_ring_artifact_events.0002 # Create elden ring
+			
+		}
+	}
+}

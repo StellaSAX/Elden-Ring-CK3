@@ -1,0 +1,151 @@
+﻿
+become_knight_elden_ring = {
+	ai_check_interval = 60
+
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_culture.dds" }
+
+	sort_order = 10
+	decision_group_type = major
+
+	is_shown = {
+		is_knight_elden_ring = no
+		prowess >= 15
+	}
+	
+	cost = {
+		gold = {
+			value = 100
+		}
+		piety = {
+			value = 100
+		}
+		prestige = {
+			value = 100
+		}
+	}
+
+	effect = {
+		add_stress = 50
+		trigger_event = {
+			id = elden_ring_knight_events.0001
+		}
+	}
+
+	ai_potential = {
+		prowess >= 15
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+lose_knight_trait_elden_ring = {
+	ai_check_interval = 60
+
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_culture.dds" }
+
+	sort_order = 10
+	
+	is_shown = {
+		is_knight_elden_ring = yes
+	}
+	
+	cost = {
+		prestige = {
+			value = 50
+		}
+	}
+
+	effect = {
+		remove_trait = golden_knight
+		remove_trait = mounted_knight
+		remove_trait = crucible_knight
+		remove_trait = mausoleum_knight
+		remove_trait = sorcerous_knight
+		remove_trait = bloodhound_knight
+		remove_trait = rot_knight
+		remove_trait = frenzied_knight
+		remove_trait = cuckoo_knight
+		remove_trait = drake_knight
+		remove_trait = ice_knight
+		remove_trait = death_knight
+		remove_trait = horned_warrior
+		remove_trait = divine_beast_warrior
+	}
+
+	ai_potential = {
+		prowess <= 5
+	}
+
+	ai_will_do = {
+		base = 10
+	}
+}
+
+gain_spiral_affinity_elden_ring = {
+	ai_check_interval = 60
+
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_culture.dds" }
+
+	sort_order = 10
+	decision_group_type = major
+
+	is_shown = {
+		has_trait = crucible_affinity
+		learning >= 20
+	}
+	
+	cost = {
+		piety = {
+			value = 1000
+		}
+	}
+
+	effect = {
+		remove_trait = crucible_affinity
+		add_trait = spiral_affinity
+	}
+
+	ai_potential = {
+		piety_level >= 3
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+become_divine_beast_warrior_elden_ring = {
+	ai_check_interval = 60
+
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_culture.dds" }
+
+	sort_order = 10
+	decision_group_type = major
+
+	is_shown = {
+		has_trait = spiral_affinity
+		is_knight_elden_ring = no
+		prowess >= 20
+	}
+	
+	cost = {
+		piety = {
+			value = 1000
+		}
+	}
+
+	effect = {
+		remove_trait = horned_warrior
+		add_trait = divine_beast_warrior
+	}
+
+	ai_potential = {
+		piety >= 1500
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

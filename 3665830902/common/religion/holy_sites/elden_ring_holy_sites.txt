@@ -1,0 +1,407 @@
+﻿leyndell_capital = {
+	county = c_R22G77B84
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+west_altus_divine_tower = {
+	county = c_R34G24B137
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+east_altus_divine_tower = {
+	county = c_R145G137B200
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+liurnia_divine_tower = {
+	county = c_R20G197B100
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+limgrave_divine_tower = {
+	county = c_R162G207B175
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+caelid_divine_tower = {
+	county = c_R22G68B102
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+isolated_divine_tower = {
+	county = c_R33G211B206
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+raya_lucaria = {
+	county = c_R235G6B230
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+caria_manor = {
+	county = c_R9G108B122
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+haligtree = {
+	county = c_R234G143B203
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+farum_azula = {
+	county = c_placidusax
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+dragon_church = {
+	county = c_R127G136B33
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+dragon_cathedral = {
+	county = c_R83G94B4
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+redmane_castle = {
+	county = c_R28G85B63
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+sellia_sorcery = {
+	county = c_R168G216B50
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+sorcerer_azur = {
+	county = c_R55G203B143
+	barony = b_R150G139B143
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+giant_forge = {
+	county = c_R197G190B49
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+star_gazer_ruin = {
+	county = c_R224G208B238
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+castle_sol = {
+	county = c_R168G151B40
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+lake_of_rot = {
+	county = c_grand_cloister
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+frenzy_village = {
+	county = c_R208G161B48
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+three_fingers = {
+	county = c_R216G23B95
+	barony = b_R202G138B202
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+death_catacombs = {
+	county = c_deathtouched
+	barony = b_R104G182B195
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+stormveil = {
+	county = c_R108G207B157
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+deeproot = {
+	county = c_death_throne
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+limgrave_colosseum = {
+	county = c_R36G141B228
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+caelid_colosseum = {
+	county = c_R235G85B34
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+leyndell_colosseum = {
+	county = c_R217G225B102
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+stone_coffin_fissure = {
+	county = c_R93G179B89
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+jagged_peak = {
+	county = c_R190G185B40
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+abyssal_woods = {
+	county = c_R20G112B205
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+belurat = {
+	county = c_R254G148B196
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+castle_ensis = {
+	county = c_R154G95B210
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+church_of_the_bud = {
+	county = c_R2G28B181
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+manus_metyr = {
+	county = c_R252G75B229
+	barony = b_R126G164B87
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+shaman_village = {
+	county = c_R162G252B143
+	barony = b_R222G34B234
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+bonny_village = {
+	county = c_R189G89B46
+	barony = b_R223G101B179
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+enir_illim = {
+	county = c_R254G148B196
+	barony = b_R180G5B66
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+scadutree_chalice = {
+	county = c_R64G59B186
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	
+}
+
+scadutree_base = {
+	county = c_R134G168B16
+	barony = b_R130G189B235
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+mount_gelmir = {
+	county = c_R245G139B8
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+grand_altar_dragon = {
+	county = c_R153G211B215
+	barony = b_R120G255B116
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+shadow_keep = {
+	county = с_R174G556B194
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+blood_palace = {
+	county = c_R82G158B63
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+malenia_bloom = {
+	county = c_R86G168B111
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+ancestor_spirit = {
+	county = c_R201G181B248
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+regal_spirit = {
+	county = c_R23G234B155
+	barony = b_R95G197B39
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+nokron = {
+	county = c_R115G242B10
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+nokstella= {
+	county = c_R41G47B213
+	barony = b_R131G67B192
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+nameless_city = {
+	county = c_nameless_city
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+astel = {
+	county = c_naturalborn
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}

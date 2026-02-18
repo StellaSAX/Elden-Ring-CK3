@@ -1,0 +1,5599 @@
+gen_1 = {
+	name = "Zalchisto"
+	female = yes
+	dynasty = Omotzin
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	830.7.28 = {
+		birth = yes
+	}
+	878.9.19 = {
+		death = yes
+	}
+}
+gen_2 = {
+	name = "Korekin"
+	female = yes
+	dynasty = Kilometania
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	864.8.25 = {
+		birth = yes
+	}
+	916.11.17 = {
+		death = yes
+	}
+}
+gen_3 = {
+	name = "Bom"
+	female = yes
+	dynasty = Posemers
+	religion = faith_2_faith
+	culture = "culture_R43G221B143"
+	788.11.21 = {
+		birth = yes
+	}
+	899.5.13 = {
+		death = yes
+	}
+}
+gen_4 = {
+	name = "Te"
+	female = yes
+	dynasty = Oulen
+	religion = faith_1_faith
+	culture = "culture_R66G7B25"
+	803.10.25 = {
+		birth = yes
+	}
+	907.9.10 = {
+		death = yes
+	}
+}
+gen_5 = {
+	name = "Achleind"
+	dynasty = Vena
+	religion = faith_2_faith
+	culture = "culture_R227G34B110"
+	854.11.1 = {
+		birth = yes
+	}
+	907.11.15 = {
+		death = yes
+	}
+}
+gen_6 = {
+	name = "Conte"
+	female = yes
+	dynasty = Rion
+	religion = faith_0_faith
+	culture = "culture_R37G163B212"
+	866.2.24 = {
+		birth = yes
+	}
+	904.9.25 = {
+		death = yes
+	}
+}
+gen_7 = {
+	name = "Pen"
+	female = yes
+	dynasty = Eta
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	842.6.26 = {
+		birth = yes
+	}
+	890.8.16 = {
+		death = yes
+	}
+}
+gen_8 = {
+	name = "Emonecisp"
+	dynasty = Rimarmaron
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	798.10.5 = {
+		birth = yes
+	}
+	921.7.17 = {
+		death = yes
+	}
+}
+gen_9 = {
+	name = "Pul"
+	female = yes
+	dynasty = Giberalania
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	854.6.23 = {
+		birth = yes
+	}
+	906.6.11 = {
+		death = yes
+	}
+}
+gen_10 = {
+	name = "Oziak"
+	female = yes
+	dynasty = Goarlanten
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	825.8.27 = {
+		birth = yes
+	}
+	874.4.18 = {
+		death = yes
+	}
+}
+gen_11 = {
+	name = "Datuzioar"
+	female = yes
+	dynasty = Melarenbor
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	812.4.25 = {
+		birth = yes
+	}
+	893.6.18 = {
+		death = yes
+	}
+}
+gen_12 = {
+	name = "Undie"
+	dynasty = Kurveaga
+	religion = faith_2_faith
+	culture = "culture_R227G34B110"
+	810.10.6 = {
+		birth = yes
+	}
+	894.10.8 = {
+		death = yes
+	}
+}
+gen_13 = {
+	name = "Mele"
+	dynasty = Peakaon
+	religion = faith_0_faith
+	culture = "culture_R144G171B45"
+	785.4.13 = {
+		birth = yes
+	}
+	889.10.1 = {
+		death = yes
+	}
+}
+gen_14 = {
+	name = "Ibra"
+	dynasty = Esta
+	religion = faith_6_faith
+	culture = "culture_R110G97B115"
+	828.10.27 = {
+		birth = yes
+	}
+	895.8.12 = {
+		death = yes
+	}
+}
+gen_15 = {
+	name = "Semis"
+	female = yes
+	dynasty = Ritar
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	849.1.15 = {
+		birth = yes
+	}
+	905.5.4 = {
+		death = yes
+	}
+}
+gen_16 = {
+	name = "Bigaz"
+	dynasty = Afiaken
+	religion = faith_0_faith
+	culture = "culture_R155G183B232"
+	840.3.22 = {
+		birth = yes
+	}
+	894.6.1 = {
+		death = yes
+	}
+}
+gen_17 = {
+	name = "Eta"
+	female = yes
+	dynasty = Garrar
+	religion = faith_0_faith
+	culture = "culture_R110G97B115"
+	842.11.15 = {
+		birth = yes
+	}
+	916.3.15 = {
+		death = yes
+	}
+}
+gen_18 = {
+	name = "Gammen"
+	female = yes
+	dynasty = Carar
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	805.5.19 = {
+		birth = yes
+	}
+	876.4.24 = {
+		death = yes
+	}
+}
+gen_19 = {
+	name = "Cis"
+	female = yes
+	dynasty = Guerir
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	816.3.6 = {
+		birth = yes
+	}
+	870.7.20 = {
+		death = yes
+	}
+}
+gen_20 = {
+	name = "Xiuhquia"
+	dynasty = Icayohua
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	863.12.24 = {
+		birth = yes
+	}
+	884.3.20 = {
+		death = yes
+	}
+}
+gen_21 = {
+	name = "Agem"
+	female = yes
+	dynasty = Daquior
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	825.9.13 = {
+		birth = yes
+	}
+	898.3.11 = {
+		death = yes
+	}
+}
+gen_22 = {
+	name = "Litans"
+	dynasty = Oncesia
+	religion = faith_2_faith
+	culture = "culture_R108G27B188"
+	814.5.19 = {
+		birth = yes
+	}
+	903.1.9 = {
+		death = yes
+	}
+}
+gen_23 = {
+	name = "Keaku"
+	female = yes
+	dynasty = Alia
+	religion = faith_2_faith
+	culture = "culture_R144G171B45"
+	836.3.22 = {
+		birth = yes
+	}
+	928.10.25 = {
+		death = yes
+	}
+}
+gen_24 = {
+	name = "Debatzite"
+	dynasty = Datlamara
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	781.8.6 = {
+		birth = yes
+	}
+	877.2.12 = {
+		death = yes
+	}
+}
+gen_25 = {
+	name = "Tukuchish"
+	dynasty = Ijerwar
+	religion = faith_2_faith
+	culture = "culture_R15G45B29"
+	772.6.26 = {
+		birth = yes
+	}
+	908.9.27 = {
+		death = yes
+	}
+}
+gen_26 = {
+	name = "Mau"
+	female = yes
+	dynasty = Hana
+	religion = faith_1_faith
+	culture = "culture_R144G171B45"
+	831.2.7 = {
+		birth = yes
+	}
+	904.12.24 = {
+		death = yes
+	}
+}
+gen_27 = {
+	name = "Ritue"
+	dynasty = Naisor
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	859.8.10 = {
+		birth = yes
+	}
+	908.10.26 = {
+		death = yes
+	}
+}
+gen_28 = {
+	name = "Omalca"
+	female = yes
+	dynasty = Attahtilor
+	religion = faith_0_faith
+	culture = "culture_R3G52B153"
+	840.8.21 = {
+		birth = yes
+	}
+	917.8.24 = {
+		death = yes
+	}
+}
+gen_29 = {
+	name = "Gibra"
+	female = yes
+	dynasty = Ita
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	862.9.10 = {
+		birth = yes
+	}
+	884.4.19 = {
+		death = yes
+	}
+}
+gen_30 = {
+	name = "Yeyeh"
+	dynasty = Intilhuahia
+	religion = faith_0_faith
+	culture = "culture_R3G52B153"
+	772.8.14 = {
+		birth = yes
+	}
+	919.3.11 = {
+		death = yes
+	}
+}
+gen_31 = {
+	name = "Umein"
+	female = yes
+	dynasty = Frita
+	religion = faith_4_faith
+	culture = "culture_R227G34B110"
+	847.2.12 = {
+		birth = yes
+	}
+	896.5.4 = {
+		death = yes
+	}
+}
+gen_32 = {
+	name = "Kuchisino"
+	dynasty = Ezvimwon
+	religion = faith_1_faith
+	culture = "culture_R218G65B154"
+	788.6.13 = {
+		birth = yes
+	}
+	909.10.4 = {
+		death = yes
+	}
+}
+gen_33 = {
+	name = "Aliga"
+	dynasty = Estantum
+	religion = faith_0_faith
+	culture = "culture_R66G7B25"
+	823.6.10 = {
+		birth = yes
+	}
+	905.7.8 = {
+		death = yes
+	}
+}
+gen_34 = {
+	name = "Asse"
+	female = yes
+	dynasty = Ces
+	religion = faith_2_faith
+	culture = "culture_R108G27B188"
+	778.5.27 = {
+		birth = yes
+	}
+	894.7.8 = {
+		death = yes
+	}
+}
+gen_35 = {
+	name = "Goanporte"
+	dynasty = Eton
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	846.3.21 = {
+		birth = yes
+	}
+	928.3.2 = {
+		death = yes
+	}
+}
+gen_36 = {
+	name = "Markin"
+	female = yes
+	dynasty = Esuntinia
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	777.4.17 = {
+		birth = yes
+	}
+	873.8.23 = {
+		death = yes
+	}
+}
+gen_37 = {
+	name = "Estammell"
+	dynasty = Emia
+	religion = faith_1_faith
+	culture = "culture_R37G163B212"
+	804.5.16 = {
+		birth = yes
+	}
+	882.2.17 = {
+		death = yes
+	}
+}
+gen_38 = {
+	name = "Kin"
+	female = yes
+	dynasty = Etimokak
+	religion = faith_1_faith
+	culture = "culture_R95G32B186"
+	847.12.18 = {
+		birth = yes
+	}
+	924.11.10 = {
+		death = yes
+	}
+}
+gen_39 = {
+	name = "Nau"
+	dynasty = Ha
+	religion = faith_2_faith
+	culture = "culture_R144G171B45"
+	837.3.11 = {
+		birth = yes
+	}
+	930.12.25 = {
+		death = yes
+	}
+}
+gen_40 = {
+	name = "Ages"
+	dynasty = Giodos
+	religion = faith_0_faith
+	culture = "culture_R37G163B212"
+	835.6.13 = {
+		birth = yes
+	}
+	890.9.23 = {
+		death = yes
+	}
+}
+gen_41 = {
+	name = "Levance"
+	dynasty = Quela
+	religion = faith_0_faith
+	culture = "culture_R37G163B212"
+	864.9.15 = {
+		birth = yes
+	}
+	927.5.7 = {
+		death = yes
+	}
+}
+gen_42 = {
+	name = "Potl"
+	dynasty = Inic
+	religion = faith_1_faith
+	culture = "culture_R3G52B153"
+	849.12.21 = {
+		birth = yes
+	}
+	879.6.14 = {
+		death = yes
+	}
+}
+gen_43 = {
+	name = "Canquec"
+	female = yes
+	dynasty = Yacia
+	religion = faith_0_faith
+	culture = "culture_R3G52B153"
+	770.5.15 = {
+		birth = yes
+	}
+	882.2.27 = {
+		death = yes
+	}
+}
+gen_44 = {
+	name = "Toan"
+	dynasty = Tepon
+	religion = faith_22_faith
+	culture = "culture_R3G52B153"
+	811.8.17 = {
+		birth = yes
+	}
+	920.2.23 = {
+		death = yes
+	}
+}
+gen_45 = {
+	name = "Des"
+	dynasty = Auda
+	religion = faith_0_faith
+	culture = "culture_R43G221B143"
+	813.2.24 = {
+		birth = yes
+	}
+	911.4.3 = {
+		death = yes
+	}
+}
+gen_46 = {
+	name = "Fromurok"
+	female = yes
+	dynasty = Hanzir
+	religion = faith_0_faith
+	culture = "culture_R242G123B24"
+	848.5.22 = {
+		birth = yes
+	}
+	876.7.22 = {
+		death = yes
+	}
+}
+gen_47 = {
+	name = "Liv"
+	dynasty = Metcetia
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	815.4.12 = {
+		birth = yes
+	}
+	930.12.13 = {
+		death = yes
+	}
+}
+gen_48 = {
+	name = "Hegolko"
+	dynasty = Esundekina
+	religion = faith_2_faith
+	culture = "culture_R45G203B116"
+	841.11.1 = {
+		birth = yes
+	}
+	916.3.18 = {
+		death = yes
+	}
+}
+gen_49 = {
+	name = "Acahuan"
+	female = yes
+	dynasty = Otinacam
+	religion = faith_1_faith
+	culture = "culture_R3G52B153"
+	798.12.19 = {
+		birth = yes
+	}
+	873.5.8 = {
+		death = yes
+	}
+}
+gen_50 = {
+	name = "Atua"
+	dynasty = Eurokra
+	religion = faith_0_faith
+	culture = "culture_R110G97B115"
+	841.6.1 = {
+		birth = yes
+	}
+	901.2.5 = {
+		death = yes
+	}
+}
+gen_51 = {
+	name = "Deurs"
+	female = yes
+	dynasty = Des
+	religion = faith_2_faith
+	culture = "culture_R43G221B143"
+	829.11.12 = {
+		birth = yes
+	}
+	922.1.18 = {
+		death = yes
+	}
+}
+gen_52 = {
+	name = "Remerts"
+	female = yes
+	dynasty = Naisjoroia
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	805.5.10 = {
+		birth = yes
+	}
+	898.5.15 = {
+		death = yes
+	}
+}
+gen_53 = {
+	name = "Untra"
+	dynasty = Conaia
+	religion = faith_2_faith
+	culture = "culture_R242G123B24"
+	842.2.24 = {
+		birth = yes
+	}
+	876.10.1 = {
+		death = yes
+	}
+}
+gen_54 = {
+	name = "Prions"
+	female = yes
+	dynasty = Desia
+	religion = faith_1_faith
+	culture = "culture_R43G221B143"
+	806.8.15 = {
+		birth = yes
+	}
+	905.1.25 = {
+		death = yes
+	}
+}
+gen_55 = {
+	name = "Parrant"
+	female = yes
+	dynasty = Ghregnor
+	religion = faith_2_faith
+	culture = "culture_R242G123B24"
+	781.9.11 = {
+		birth = yes
+	}
+	879.11.28 = {
+		death = yes
+	}
+}
+gen_56 = {
+	name = "Bain"
+	female = yes
+	dynasty = Lejum
+	religion = faith_0_faith
+	culture = "culture_R155G183B232"
+	794.2.8 = {
+		birth = yes
+	}
+	873.4.3 = {
+		death = yes
+	}
+}
+gen_57 = {
+	name = "Dasserma"
+	dynasty = Nereinga
+	religion = faith_2_faith
+	culture = "culture_R227G34B110"
+	850.8.24 = {
+		birth = yes
+	}
+	913.5.4 = {
+		death = yes
+	}
+}
+gen_58 = {
+	name = "Harian"
+	female = yes
+	dynasty = Itsula
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	815.10.1 = {
+		birth = yes
+	}
+	877.8.18 = {
+		death = yes
+	}
+}
+gen_59 = {
+	name = "Pos"
+	female = yes
+	dynasty = Sisternoar
+	religion = faith_2_faith
+	culture = "culture_R242G123B24"
+	766.7.24 = {
+		birth = yes
+	}
+	891.8.2 = {
+		death = yes
+	}
+}
+gen_60 = {
+	name = "Huehhuan"
+	female = yes
+	dynasty = Nichtizqu
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	839.6.6 = {
+		birth = yes
+	}
+	910.6.2 = {
+		death = yes
+	}
+}
+gen_61 = {
+	name = "Atorralar"
+	dynasty = Dado
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	767.12.16 = {
+		birth = yes
+	}
+	907.4.28 = {
+		death = yes
+	}
+}
+gen_62 = {
+	name = "Eyoticco"
+	dynasty = Yehuahtohia
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	768.7.23 = {
+		birth = yes
+	}
+	924.11.5 = {
+		death = yes
+	}
+}
+gen_63 = {
+	name = "Rekia"
+	dynasty = Editia
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	772.7.11 = {
+		birth = yes
+	}
+	891.4.16 = {
+		death = yes
+	}
+}
+gen_64 = {
+	name = "Ordant"
+	dynasty = Una
+	religion = faith_0_faith
+	culture = "culture_R43G221B143"
+	781.11.28 = {
+		birth = yes
+	}
+	886.12.7 = {
+		death = yes
+	}
+}
+gen_65 = {
+	name = "Fich"
+	female = yes
+	dynasty = Spagonia
+	religion = faith_0_faith
+	culture = "culture_R242G123B24"
+	790.3.18 = {
+		birth = yes
+	}
+	916.8.22 = {
+		death = yes
+	}
+}
+gen_66 = {
+	name = "Paitsuma"
+	dynasty = Ibereko
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	855.8.15 = {
+		birth = yes
+	}
+	920.3.25 = {
+		death = yes
+	}
+}
+gen_67 = {
+	name = "Ini"
+	dynasty = Ixtihuema
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	788.4.10 = {
+		birth = yes
+	}
+	912.4.18 = {
+		death = yes
+	}
+}
+gen_68 = {
+	name = "Latat"
+	dynasty = Kilada
+	religion = faith_2_faith
+	culture = "culture_R7G68B13"
+	801.6.7 = {
+		birth = yes
+	}
+	924.5.27 = {
+		death = yes
+	}
+}
+gen_69 = {
+	name = "Gale"
+	female = yes
+	dynasty = Ettendenia
+	religion = faith_2_faith
+	culture = "culture_R108G27B188"
+	769.12.16 = {
+		birth = yes
+	}
+	870.1.25 = {
+		death = yes
+	}
+}
+gen_70 = {
+	name = "Lea"
+	dynasty = Makeakeak
+	religion = faith_1_faith
+	culture = "culture_R144G171B45"
+	841.5.4 = {
+		birth = yes
+	}
+	870.7.11 = {
+		death = yes
+	}
+}
+gen_71 = {
+	name = "Desmo"
+	female = yes
+	dynasty = Quimon
+	religion = faith_32_faith
+	culture = "culture_R66G7B25"
+	821.10.1 = {
+		birth = yes
+	}
+	891.5.27 = {
+		death = yes
+	}
+}
+gen_72 = {
+	name = "Iterantxi"
+	dynasty = Dioantiken
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	779.2.21 = {
+		birth = yes
+	}
+	876.2.12 = {
+		death = yes
+	}
+}
+gen_73 = {
+	name = "Leste"
+	dynasty = Ennalar
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	786.9.13 = {
+		birth = yes
+	}
+	890.2.11 = {
+		death = yes
+	}
+}
+gen_74 = {
+	name = "Mef"
+	female = yes
+	dynasty = Lama
+	religion = faith_1_faith
+	culture = "culture_R43G221B143"
+	810.8.18 = {
+		birth = yes
+	}
+	893.5.3 = {
+		death = yes
+	}
+}
+gen_75 = {
+	name = "Cetl"
+	female = yes
+	dynasty = Chtohtiquia
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	793.10.20 = {
+		birth = yes
+	}
+	920.4.4 = {
+		death = yes
+	}
+}
+gen_76 = {
+	name = "Cent"
+	female = yes
+	dynasty = Elle
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	794.8.25 = {
+		birth = yes
+	}
+	913.10.15 = {
+		death = yes
+	}
+}
+gen_77 = {
+	name = "Miyaoyan"
+	dynasty = Huum
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	810.4.19 = {
+		birth = yes
+	}
+	915.2.11 = {
+		death = yes
+	}
+}
+gen_78 = {
+	name = "Ville"
+	female = yes
+	dynasty = Dursa
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	839.7.16 = {
+		birth = yes
+	}
+	878.12.6 = {
+		death = yes
+	}
+}
+gen_79 = {
+	name = "Kinakdang"
+	dynasty = Mentenramia
+	religion = faith_2_faith
+	culture = "culture_R7G68B13"
+	805.6.27 = {
+		birth = yes
+	}
+	906.4.5 = {
+		death = yes
+	}
+}
+gen_80 = {
+	name = "Des"
+	dynasty = Unar
+	religion = faith_1_faith
+	culture = "culture_R37G163B212"
+	796.6.16 = {
+		birth = yes
+	}
+	879.3.28 = {
+		death = yes
+	}
+}
+gen_81 = {
+	name = "Den"
+	dynasty = Divec
+	religion = faith_2_faith
+	culture = "culture_R108G27B188"
+	821.2.2 = {
+		birth = yes
+	}
+	911.12.25 = {
+		death = yes
+	}
+}
+gen_82 = {
+	name = "Moyente"
+	dynasty = Passor
+	religion = faith_2_faith
+	culture = "culture_R43G221B143"
+	799.1.27 = {
+		birth = yes
+	}
+	900.7.13 = {
+		death = yes
+	}
+}
+gen_83 = {
+	name = "Spagnalus"
+	female = yes
+	dynasty = Derrimmon
+	religion = faith_2_faith
+	culture = "culture_R242G123B24"
+	770.2.8 = {
+		birth = yes
+	}
+	875.1.10 = {
+		death = yes
+	}
+}
+gen_84 = {
+	name = "Iterrikil"
+	dynasty = Etandorafia
+	religion = faith_4_faith
+	culture = "culture_R110G97B115"
+	822.3.22 = {
+		birth = yes
+	}
+	877.11.27 = {
+		death = yes
+	}
+}
+gen_85 = {
+	name = "Lanalusis"
+	female = yes
+	dynasty = Caschon
+	religion = faith_0_faith
+	culture = "culture_R242G123B24"
+	795.11.5 = {
+		birth = yes
+	}
+	915.7.15 = {
+		death = yes
+	}
+}
+gen_86 = {
+	name = "Auta"
+	female = yes
+	dynasty = Eta
+	religion = faith_1_faith
+	culture = "culture_R110G97B115"
+	828.8.23 = {
+		birth = yes
+	}
+	900.7.6 = {
+		death = yes
+	}
+}
+gen_87 = {
+	name = "Precebing"
+	female = yes
+	dynasty = Naria
+	religion = faith_0_faith
+	culture = "culture_R66G7B25"
+	780.6.25 = {
+		birth = yes
+	}
+	891.9.25 = {
+		death = yes
+	}
+}
+gen_88 = {
+	name = "Orotammen"
+	female = yes
+	dynasty = Cultuon
+	religion = faith_1_faith
+	culture = "culture_R37G163B212"
+	845.2.17 = {
+		birth = yes
+	}
+	892.3.25 = {
+		death = yes
+	}
+}
+gen_89 = {
+	name = "Quepeuh"
+	female = yes
+	dynasty = Ilnanon
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	850.6.3 = {
+		birth = yes
+	}
+	886.11.19 = {
+		death = yes
+	}
+}
+gen_90 = {
+	name = "Demuga"
+	female = yes
+	dynasty = Uhadrizia
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	861.5.8 = {
+		birth = yes
+	}
+	887.9.22 = {
+		death = yes
+	}
+}
+gen_91 = {
+	name = "Elid"
+	female = yes
+	dynasty = Lirrolia
+	religion = faith_1_faith
+	culture = "culture_R242G123B24"
+	848.3.24 = {
+		birth = yes
+	}
+	909.2.26 = {
+		death = yes
+	}
+}
+gen_92 = {
+	name = "Nertde"
+	dynasty = Deanir
+	religion = faith_0_faith
+	culture = "culture_R110G97B115"
+	787.8.4 = {
+		birth = yes
+	}
+	890.5.14 = {
+		death = yes
+	}
+}
+gen_93 = {
+	name = "Meralko"
+	female = yes
+	dynasty = Rinen
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	860.4.15 = {
+		birth = yes
+	}
+	929.9.6 = {
+		death = yes
+	}
+}
+gen_94 = {
+	name = "Gibralta"
+	female = yes
+	dynasty = Estazos
+	religion = faith_4_faith
+	culture = "culture_R95G32B186"
+	780.5.10 = {
+		birth = yes
+	}
+	884.4.28 = {
+		death = yes
+	}
+}
+gen_95 = {
+	name = "Costurope"
+	female = yes
+	dynasty = Lametataros
+	religion = faith_2_faith
+	culture = "culture_R242G123B24"
+	807.6.6 = {
+		birth = yes
+	}
+	923.1.8 = {
+		death = yes
+	}
+}
+gen_96 = {
+	name = "Etromin"
+	female = yes
+	dynasty = Altarena
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	817.7.1 = {
+		birth = yes
+	}
+	887.2.6 = {
+		death = yes
+	}
+}
+gen_97 = {
+	name = "Hun"
+	female = yes
+	dynasty = Chiro
+	religion = faith_0_faith
+	culture = "culture_R26G87B110"
+	845.9.7 = {
+		birth = yes
+	}
+	870.1.21 = {
+		death = yes
+	}
+}
+gen_98 = {
+	name = "Foren"
+	female = yes
+	dynasty = Hegoaralar
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	857.8.21 = {
+		birth = yes
+	}
+	927.1.17 = {
+		death = yes
+	}
+}
+gen_99 = {
+	name = "Ester"
+	dynasty = Coalmetalon
+	religion = faith_0_faith
+	culture = "culture_R242G123B24"
+	789.2.16 = {
+		birth = yes
+	}
+	900.4.12 = {
+		death = yes
+	}
+}
+gen_100 = {
+	name = "Dentans"
+	dynasty = La
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	771.7.20 = {
+		birth = yes
+	}
+	881.10.19 = {
+		death = yes
+	}
+}
+gen_101 = {
+	name = "Lozte"
+	female = yes
+	dynasty = Bizkum
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	865.10.3 = {
+		birth = yes
+	}
+	912.12.19 = {
+		death = yes
+	}
+}
+gen_102 = {
+	name = "Ixtzin"
+	female = yes
+	dynasty = Azcochtoqu
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	791.12.22 = {
+		birth = yes
+	}
+	909.10.10 = {
+		death = yes
+	}
+}
+gen_103 = {
+	name = "Meta"
+	female = yes
+	dynasty = Ipainaros
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	844.7.7 = {
+		birth = yes
+	}
+	930.5.4 = {
+		death = yes
+	}
+}
+gen_104 = {
+	name = "Infin"
+	dynasty = Hir
+	religion = faith_2_faith
+	culture = "culture_R242G123B24"
+	837.3.23 = {
+		birth = yes
+	}
+	925.11.17 = {
+		death = yes
+	}
+}
+gen_105 = {
+	name = "Can"
+	female = yes
+	dynasty = Quengu
+	religion = faith_0_faith
+	culture = "culture_R242G123B24"
+	852.4.22 = {
+		birth = yes
+	}
+	913.5.25 = {
+		death = yes
+	}
+}
+gen_106 = {
+	name = "Madro"
+	dynasty = Cemugarela
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	813.11.13 = {
+		birth = yes
+	}
+	922.10.13 = {
+		death = yes
+	}
+}
+gen_107 = {
+	name = "Inin"
+	dynasty = Ipanar
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	813.4.18 = {
+		birth = yes
+	}
+	906.7.26 = {
+		death = yes
+	}
+}
+gen_108 = {
+	name = "Murion"
+	dynasty = Mada
+	religion = faith_2_faith
+	culture = "culture_R242G123B24"
+	826.5.6 = {
+		birth = yes
+	}
+	914.7.4 = {
+		death = yes
+	}
+}
+gen_109 = {
+	name = "Impfekt"
+	dynasty = Ihner
+	religion = faith_0_faith
+	culture = "culture_R227G34B110"
+	819.5.22 = {
+		birth = yes
+	}
+	880.1.25 = {
+		death = yes
+	}
+}
+gen_110 = {
+	name = "Actuatouf"
+	female = yes
+	dynasty = Lacet
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	813.4.13 = {
+		birth = yes
+	}
+	904.7.27 = {
+		death = yes
+	}
+}
+gen_111 = {
+	name = "Horra"
+	female = yes
+	dynasty = Etator
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	791.3.8 = {
+		birth = yes
+	}
+	903.11.1 = {
+		death = yes
+	}
+}
+gen_112 = {
+	name = "Acematl"
+	female = yes
+	dynasty = Ocatlir
+	religion = faith_0_faith
+	culture = "culture_R3G52B153"
+	809.7.28 = {
+		birth = yes
+	}
+	881.10.20 = {
+		death = yes
+	}
+}
+gen_113 = {
+	name = "Omeyi"
+	female = yes
+	dynasty = Tendietocor
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	764.11.24 = {
+		birth = yes
+	}
+	917.9.15 = {
+		death = yes
+	}
+}
+gen_114 = {
+	name = "Duendorre"
+	dynasty = Esparra
+	religion = faith_3_faith
+	culture = "culture_R110G97B115"
+	792.10.23 = {
+		birth = yes
+	}
+	907.2.11 = {
+		death = yes
+	}
+}
+gen_115 = {
+	name = "Chan"
+	dynasty = Techimahu
+	religion = faith_1_faith
+	culture = "culture_R3G52B153"
+	821.2.14 = {
+		birth = yes
+	}
+	913.11.16 = {
+		death = yes
+	}
+}
+gen_116 = {
+	name = "Colheferv"
+	dynasty = Enferra
+	religion = faith_0_faith
+	culture = "culture_R66G7B25"
+	790.6.13 = {
+		birth = yes
+	}
+	893.8.9 = {
+		death = yes
+	}
+}
+gen_117 = {
+	name = "Eta"
+	dynasty = Mugum
+	religion = faith_0_faith
+	culture = "culture_R110G97B115"
+	783.7.27 = {
+		birth = yes
+	}
+	897.2.16 = {
+		death = yes
+	}
+}
+gen_118 = {
+	name = "Maientar"
+	female = yes
+	dynasty = Unia
+	religion = faith_2_faith
+	culture = "culture_R43G221B143"
+	843.8.7 = {
+		birth = yes
+	}
+	905.1.9 = {
+		death = yes
+	}
+}
+gen_119 = {
+	name = "Yaqua"
+	dynasty = Johuphor
+	religion = faith_2_faith
+	culture = "culture_R134G43B52"
+	769.12.8 = {
+		birth = yes
+	}
+	882.12.5 = {
+		death = yes
+	}
+}
+gen_120 = {
+	name = "Golkia"
+	female = yes
+	dynasty = Monar
+	religion = faith_5_faith
+	culture = "culture_R110G97B115"
+	775.9.10 = {
+		birth = yes
+	}
+	924.4.28 = {
+		death = yes
+	}
+}
+gen_121 = {
+	name = "Hadria"
+	dynasty = Perrekin
+	religion = faith_0_faith
+	culture = "culture_R155G183B232"
+	814.7.16 = {
+		birth = yes
+	}
+	903.11.9 = {
+		death = yes
+	}
+}
+gen_122 = {
+	name = "Koko"
+	dynasty = Killen
+	religion = faith_1_faith
+	culture = "culture_R110G97B115"
+	806.5.11 = {
+		birth = yes
+	}
+	920.10.7 = {
+		death = yes
+	}
+}
+gen_123 = {
+	name = "Lacettess"
+	female = yes
+	dynasty = Coufienda
+	religion = faith_1_faith
+	culture = "culture_R37G163B212"
+	764.8.1 = {
+		birth = yes
+	}
+	896.5.24 = {
+		death = yes
+	}
+}
+gen_124 = {
+	name = "Espain"
+	dynasty = Ekinia
+	religion = faith_3_faith
+	culture = "culture_R95G32B186"
+	833.3.27 = {
+		birth = yes
+	}
+	911.10.4 = {
+		death = yes
+	}
+}
+gen_125 = {
+	name = "Munezkato"
+	dynasty = Papos
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	798.8.13 = {
+		birth = yes
+	}
+	925.1.21 = {
+		death = yes
+	}
+}
+gen_126 = {
+	name = "Nemudengw"
+	dynasty = Mitaganova
+	religion = faith_2_faith
+	culture = "culture_R26G87B110"
+	852.3.25 = {
+		birth = yes
+	}
+	911.12.8 = {
+		death = yes
+	}
+}
+gen_127 = {
+	name = "Aude"
+	female = yes
+	dynasty = Nela
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	849.2.14 = {
+		birth = yes
+	}
+	917.6.25 = {
+		death = yes
+	}
+}
+gen_128 = {
+	name = "Ata"
+	female = yes
+	dynasty = Goboten
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	842.1.21 = {
+		birth = yes
+	}
+	916.5.19 = {
+		death = yes
+	}
+}
+gen_129 = {
+	name = "Urce"
+	female = yes
+	dynasty = Subsison
+	religion = faith_1_faith
+	culture = "culture_R37G163B212"
+	771.8.13 = {
+		birth = yes
+	}
+	926.8.16 = {
+		death = yes
+	}
+}
+gen_130 = {
+	name = "Fria"
+	dynasty = Izkaikina
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	834.9.4 = {
+		birth = yes
+	}
+	906.1.20 = {
+		death = yes
+	}
+}
+gen_131 = {
+	name = "Nger"
+	dynasty = Tenum
+	religion = faith_12_faith
+	culture = "culture_R227G34B110"
+	838.5.1 = {
+		birth = yes
+	}
+	890.5.3 = {
+		death = yes
+	}
+}
+gen_132 = {
+	name = "Vio"
+	female = yes
+	dynasty = Dorrespodia
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	838.11.19 = {
+		birth = yes
+	}
+	911.6.9 = {
+		death = yes
+	}
+}
+gen_133 = {
+	name = "Baleantik"
+	dynasty = Kedak
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	831.3.13 = {
+		birth = yes
+	}
+	890.1.2 = {
+		death = yes
+	}
+}
+gen_134 = {
+	name = "Dam"
+	female = yes
+	dynasty = Von
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	790.8.1 = {
+		birth = yes
+	}
+	926.10.6 = {
+		death = yes
+	}
+}
+gen_135 = {
+	name = "Etar"
+	dynasty = Geograleia
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	821.12.22 = {
+		birth = yes
+	}
+	914.2.18 = {
+		death = yes
+	}
+}
+gen_136 = {
+	name = "Lhar"
+	female = yes
+	dynasty = Deustribra
+	religion = faith_6_faith
+	culture = "culture_R66G7B25"
+	839.2.13 = {
+		birth = yes
+	}
+	874.7.28 = {
+		death = yes
+	}
+}
+gen_137 = {
+	name = "Hostiko"
+	dynasty = Men
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	841.10.5 = {
+		birth = yes
+	}
+	922.12.28 = {
+		death = yes
+	}
+}
+gen_138 = {
+	name = "Mediriart"
+	female = yes
+	dynasty = Unetropaa
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	799.3.25 = {
+		birth = yes
+	}
+	930.5.8 = {
+		death = yes
+	}
+}
+gen_139 = {
+	name = "Riontans"
+	dynasty = Ocor
+	religion = faith_2_faith
+	culture = "culture_R43G221B143"
+	844.11.20 = {
+		birth = yes
+	}
+	912.2.16 = {
+		death = yes
+	}
+}
+gen_140 = {
+	name = "Del"
+	female = yes
+	dynasty = Del
+	religion = faith_0_faith
+	culture = "culture_R242G123B24"
+	828.1.13 = {
+		birth = yes
+	}
+	893.3.27 = {
+		death = yes
+	}
+}
+gen_141 = {
+	name = "Leo"
+	dynasty = Anterir
+	religion = faith_1_faith
+	culture = "culture_R242G123B24"
+	799.12.7 = {
+		birth = yes
+	}
+	907.7.3 = {
+		death = yes
+	}
+}
+gen_142 = {
+	name = "Lavadu"
+	dynasty = Denen
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	843.12.23 = {
+		birth = yes
+	}
+	906.2.6 = {
+		death = yes
+	}
+}
+gen_143 = {
+	name = "Ceuss"
+	dynasty = Parazien
+	religion = faith_1_faith
+	culture = "culture_R242G123B24"
+	780.12.1 = {
+		birth = yes
+	}
+	901.5.27 = {
+		death = yes
+	}
+}
+gen_144 = {
+	name = "Chase"
+	female = yes
+	dynasty = Moyentos
+	religion = faith_2_faith
+	culture = "culture_R108G27B188"
+	856.7.23 = {
+		birth = yes
+	}
+	888.8.23 = {
+		death = yes
+	}
+}
+gen_145 = {
+	name = "Dant"
+	female = yes
+	dynasty = Ge
+	religion = faith_0_faith
+	culture = "culture_R108G27B188"
+	859.4.17 = {
+		birth = yes
+	}
+	898.10.27 = {
+		death = yes
+	}
+}
+gen_146 = {
+	name = "Esparen"
+	dynasty = Etren
+	religion = faith_1_faith
+	culture = "culture_R95G32B186"
+	821.6.11 = {
+		birth = yes
+	}
+	873.9.10 = {
+		death = yes
+	}
+}
+gen_147 = {
+	name = "Dest"
+	female = yes
+	dynasty = Denon
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	760.11.16 = {
+		birth = yes
+	}
+	914.1.2 = {
+		death = yes
+	}
+}
+gen_148 = {
+	name = "Car"
+	dynasty = Lagenor
+	religion = faith_0_faith
+	culture = "culture_R37G163B212"
+	830.7.3 = {
+		birth = yes
+	}
+	889.1.6 = {
+		death = yes
+	}
+}
+gen_149 = {
+	name = "Koaldeani"
+	dynasty = Gibrania
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	823.6.28 = {
+		birth = yes
+	}
+	879.11.26 = {
+		death = yes
+	}
+}
+gen_150 = {
+	name = "De"
+	female = yes
+	dynasty = Cherisi
+	religion = faith_1_faith
+	culture = "culture_R218G65B154"
+	826.10.28 = {
+		birth = yes
+	}
+	898.7.26 = {
+		death = yes
+	}
+}
+gen_151 = {
+	name = "Pamed"
+	dynasty = Comir
+	religion = faith_1_faith
+	culture = "culture_R242G123B24"
+	828.12.11 = {
+		birth = yes
+	}
+	908.4.3 = {
+		death = yes
+	}
+}
+gen_152 = {
+	name = "Cul"
+	female = yes
+	dynasty = Cueilleva
+	religion = faith_1_faith
+	culture = "culture_R37G163B212"
+	795.4.27 = {
+		birth = yes
+	}
+	901.9.25 = {
+		death = yes
+	}
+}
+gen_153 = {
+	name = "Bon"
+	dynasty = Muakir
+	religion = faith_0_faith
+	culture = "culture_R110G97B115"
+	858.12.15 = {
+		birth = yes
+	}
+	916.8.5 = {
+		death = yes
+	}
+}
+gen_154 = {
+	name = "Ridiphra"
+	female = yes
+	dynasty = Unar
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	769.3.28 = {
+		birth = yes
+	}
+	875.1.26 = {
+		death = yes
+	}
+}
+gen_155 = {
+	name = "Nemhu"
+	female = yes
+	dynasty = Cona
+	religion = faith_1_faith
+	culture = "culture_R37G163B212"
+	763.12.18 = {
+		birth = yes
+	}
+	928.9.18 = {
+		death = yes
+	}
+}
+gen_156 = {
+	name = "Andeantik"
+	female = yes
+	dynasty = Sozenbaldir
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	807.8.2 = {
+		birth = yes
+	}
+	893.7.17 = {
+		death = yes
+	}
+}
+gen_157 = {
+	name = "Votat"
+	female = yes
+	dynasty = Balborted
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	850.9.9 = {
+		birth = yes
+	}
+	907.1.24 = {
+		death = yes
+	}
+}
+gen_158 = {
+	name = "Une"
+	dynasty = Lantia
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	855.5.23 = {
+		birth = yes
+	}
+	892.3.13 = {
+		death = yes
+	}
+}
+gen_159 = {
+	name = "Avale"
+	dynasty = Priodentor
+	religion = faith_0_faith
+	culture = "culture_R37G163B212"
+	818.11.3 = {
+		birth = yes
+	}
+	876.7.11 = {
+		death = yes
+	}
+}
+gen_160 = {
+	name = "Eta"
+	dynasty = Etia
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	863.12.23 = {
+		birth = yes
+	}
+	908.6.20 = {
+		death = yes
+	}
+}
+gen_161 = {
+	name = "Ozen"
+	female = yes
+	dynasty = Gaikana
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	831.2.20 = {
+		birth = yes
+	}
+	876.7.18 = {
+		death = yes
+	}
+}
+gen_162 = {
+	name = "Kan"
+	female = yes
+	dynasty = Vakasanyia
+	religion = faith_0_faith
+	culture = "culture_R218G65B154"
+	769.2.20 = {
+		birth = yes
+	}
+	884.6.26 = {
+		death = yes
+	}
+}
+gen_163 = {
+	name = "Latonst"
+	dynasty = Harterakir
+	religion = faith_29_faith
+	culture = "culture_R95G32B186"
+	806.9.7 = {
+		birth = yes
+	}
+	874.1.24 = {
+		death = yes
+	}
+}
+gen_164 = {
+	name = "Quillci"
+	dynasty = Cuia
+	religion = faith_2_faith
+	culture = "culture_R78G49B127"
+	785.8.16 = {
+		birth = yes
+	}
+	892.12.12 = {
+		death = yes
+	}
+}
+gen_165 = {
+	name = "Prefroith"
+	female = yes
+	dynasty = Quia
+	religion = faith_0_faith
+	culture = "culture_R37G163B212"
+	847.6.15 = {
+		birth = yes
+	}
+	895.3.16 = {
+		death = yes
+	}
+}
+gen_166 = {
+	name = "Gehorralt"
+	female = yes
+	dynasty = Etar
+	religion = faith_1_faith
+	culture = "culture_R95G32B186"
+	811.7.10 = {
+		birth = yes
+	}
+	929.1.26 = {
+		death = yes
+	}
+}
+gen_167 = {
+	name = "Kear"
+	female = yes
+	dynasty = Hannar
+	religion = faith_2_faith
+	culture = "culture_R144G171B45"
+	800.7.26 = {
+		birth = yes
+	}
+	925.4.26 = {
+		death = yes
+	}
+}
+gen_168 = {
+	name = "Ettes"
+	dynasty = Enters
+	religion = faith_2_faith
+	culture = "culture_R43G221B143"
+	769.5.5 = {
+		birth = yes
+	}
+	872.2.8 = {
+		death = yes
+	}
+}
+gen_169 = {
+	name = "Kiluropak"
+	female = yes
+	dynasty = Dad
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	854.11.28 = {
+		birth = yes
+	}
+	922.8.1 = {
+		death = yes
+	}
+}
+gen_170 = {
+	name = "Ide"
+	female = yes
+	dynasty = Rindesia
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	809.5.8 = {
+		birth = yes
+	}
+	916.8.13 = {
+		death = yes
+	}
+}
+gen_171 = {
+	name = "Embile"
+	dynasty = Endo
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	785.10.14 = {
+		birth = yes
+	}
+	899.11.27 = {
+		death = yes
+	}
+}
+gen_172 = {
+	name = "Metarte"
+	dynasty = Pundeen
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	824.10.13 = {
+		birth = yes
+	}
+	884.8.10 = {
+		death = yes
+	}
+}
+gen_173 = {
+	name = "Les"
+	dynasty = Sin
+	religion = faith_1_faith
+	culture = "culture_R37G163B212"
+	811.6.14 = {
+		birth = yes
+	}
+	928.12.25 = {
+		death = yes
+	}
+}
+gen_174 = {
+	name = "Aro"
+	female = yes
+	dynasty = Erraleana
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	820.5.8 = {
+		birth = yes
+	}
+	894.5.20 = {
+		death = yes
+	}
+}
+gen_175 = {
+	name = "Jesuspa"
+	dynasty = Nispaqukuna
+	religion = faith_2_faith
+	culture = "culture_R134G43B52"
+	828.11.24 = {
+		birth = yes
+	}
+	899.3.8 = {
+		death = yes
+	}
+}
+gen_176 = {
+	name = "Cohueh"
+	female = yes
+	dynasty = Colliliztar
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	840.1.12 = {
+		birth = yes
+	}
+	878.3.17 = {
+		death = yes
+	}
+}
+gen_177 = {
+	name = "Sartzeand"
+	female = yes
+	dynasty = Koarranor
+	religion = faith_0_faith
+	culture = "culture_R110G97B115"
+	825.3.10 = {
+		birth = yes
+	}
+	879.6.8 = {
+		death = yes
+	}
+}
+gen_178 = {
+	name = "Obwen"
+	dynasty = Harbeisch
+	religion = faith_6_faith
+	culture = "culture_R227G34B110"
+	840.10.23 = {
+		birth = yes
+	}
+	906.8.19 = {
+		death = yes
+	}
+}
+gen_179 = {
+	name = "Dagokiolk"
+	dynasty = Uharemonum
+	religion = faith_8_faith
+	culture = "culture_R95G32B186"
+	767.12.23 = {
+		birth = yes
+	}
+	876.7.18 = {
+		death = yes
+	}
+}
+gen_180 = {
+	name = "Yachachay"
+	dynasty = Aytanum
+	religion = faith_0_faith
+	culture = "culture_R134G43B52"
+	809.10.27 = {
+		birth = yes
+	}
+	909.3.19 = {
+		death = yes
+	}
+}
+gen_181 = {
+	name = "Vahamba"
+	dynasty = Vanir
+	religion = faith_1_faith
+	culture = "culture_R218G65B154"
+	775.2.11 = {
+		birth = yes
+	}
+	870.4.28 = {
+		death = yes
+	}
+}
+gen_182 = {
+	name = "Eutoneano"
+	female = yes
+	dynasty = Eta
+	religion = faith_0_faith
+	culture = "culture_R110G97B115"
+	852.5.16 = {
+		birth = yes
+	}
+	922.11.16 = {
+		death = yes
+	}
+}
+gen_183 = {
+	name = "Ana"
+	dynasty = Hwengum
+	religion = faith_0_faith
+	culture = "culture_R218G65B154"
+	792.7.14 = {
+		birth = yes
+	}
+	930.8.4 = {
+		death = yes
+	}
+}
+gen_184 = {
+	name = "Tlin"
+	dynasty = Chicamapia
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	858.9.3 = {
+		birth = yes
+	}
+	918.12.13 = {
+		death = yes
+	}
+}
+gen_185 = {
+	name = "Leureposs"
+	dynasty = Assia
+	religion = faith_1_faith
+	culture = "culture_R37G163B212"
+	799.10.22 = {
+		birth = yes
+	}
+	876.6.28 = {
+		death = yes
+	}
+}
+gen_186 = {
+	name = "Que"
+	female = yes
+	dynasty = Unia
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	797.8.19 = {
+		birth = yes
+	}
+	916.11.19 = {
+		death = yes
+	}
+}
+gen_187 = {
+	name = "Itlah"
+	female = yes
+	dynasty = Ixocatlor
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	837.10.11 = {
+		birth = yes
+	}
+	892.4.25 = {
+		death = yes
+	}
+}
+gen_188 = {
+	name = "Kespeakes"
+	female = yes
+	dynasty = Manar
+	religion = faith_2_faith
+	culture = "culture_R144G171B45"
+	817.8.8 = {
+		birth = yes
+	}
+	907.5.28 = {
+		death = yes
+	}
+}
+gen_189 = {
+	name = "Galimposs"
+	female = yes
+	dynasty = Destir
+	religion = faith_15_faith
+	culture = "culture_R37G163B212"
+	764.9.10 = {
+		birth = yes
+	}
+	884.9.25 = {
+		death = yes
+	}
+}
+gen_190 = {
+	name = "Batu"
+	female = yes
+	dynasty = Hegia
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	775.4.26 = {
+		birth = yes
+	}
+	917.11.1 = {
+		death = yes
+	}
+}
+gen_191 = {
+	name = "Les"
+	dynasty = Phrammenca
+	religion = faith_2_faith
+	culture = "culture_R43G221B143"
+	853.5.15 = {
+		birth = yes
+	}
+	909.12.25 = {
+		death = yes
+	}
+}
+gen_192 = {
+	name = "Ul"
+	dynasty = Valor
+	religion = faith_2_faith
+	culture = "culture_R242G123B24"
+	817.7.3 = {
+		birth = yes
+	}
+	884.4.24 = {
+		death = yes
+	}
+}
+gen_193 = {
+	name = "Ispain"
+	dynasty = Uhamalhucum
+	religion = faith_1_faith
+	culture = "culture_R95G32B186"
+	856.8.18 = {
+		birth = yes
+	}
+	909.2.15 = {
+		death = yes
+	}
+}
+gen_194 = {
+	name = "Zodra"
+	female = yes
+	dynasty = Batlantsa
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	853.8.1 = {
+		birth = yes
+	}
+	893.6.1 = {
+		death = yes
+	}
+}
+gen_195 = {
+	name = "Kiarremug"
+	dynasty = Esuma
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	761.10.6 = {
+		birth = yes
+	}
+	925.2.17 = {
+		death = yes
+	}
+}
+gen_196 = {
+	name = "Combinica"
+	dynasty = Logien
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	846.12.14 = {
+		birth = yes
+	}
+	911.6.11 = {
+		death = yes
+	}
+}
+gen_197 = {
+	name = "Etarral"
+	female = yes
+	dynasty = Friartuia
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	776.10.1 = {
+		birth = yes
+	}
+	925.12.15 = {
+		death = yes
+	}
+}
+gen_198 = {
+	name = "Etarrendu"
+	dynasty = Zenar
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	808.6.16 = {
+		birth = yes
+	}
+	905.9.10 = {
+		death = yes
+	}
+}
+gen_199 = {
+	name = "Melilogun"
+	dynasty = Ipakor
+	religion = faith_3_faith
+	culture = "culture_R155G183B232"
+	778.6.1 = {
+		birth = yes
+	}
+	886.6.19 = {
+		death = yes
+	}
+}
+gen_200 = {
+	name = "Melarreko"
+	dynasty = Ceuro
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	837.3.1 = {
+		birth = yes
+	}
+	909.9.4 = {
+		death = yes
+	}
+}
+gen_201 = {
+	name = "Kahui"
+	dynasty = Pona
+	religion = faith_1_faith
+	culture = "culture_R144G171B45"
+	805.3.19 = {
+		birth = yes
+	}
+	893.3.25 = {
+		death = yes
+	}
+}
+gen_202 = {
+	name = "Etik"
+	dynasty = Jaren
+	religion = faith_1_faith
+	culture = "culture_R155G183B232"
+	808.12.4 = {
+		birth = yes
+	}
+	886.12.9 = {
+		death = yes
+	}
+}
+gen_203 = {
+	name = "Esparekok"
+	dynasty = Afraka
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	780.8.17 = {
+		birth = yes
+	}
+	901.7.25 = {
+		death = yes
+	}
+}
+gen_204 = {
+	name = "Ibigya"
+	female = yes
+	dynasty = Nan
+	religion = faith_3_faith
+	culture = "culture_R7G68B13"
+	763.12.22 = {
+		birth = yes
+	}
+	898.5.25 = {
+		death = yes
+	}
+}
+gen_205 = {
+	name = "Geoadriar"
+	dynasty = Itean
+	religion = faith_1_faith
+	culture = "culture_R95G32B186"
+	809.3.20 = {
+		birth = yes
+	}
+	873.4.1 = {
+		death = yes
+	}
+}
+gen_206 = {
+	name = "Ipani"
+	dynasty = Catlon
+	religion = faith_2_faith
+	culture = "culture_R141G180B158"
+	853.8.14 = {
+		birth = yes
+	}
+	924.8.21 = {
+		death = yes
+	}
+}
+gen_207 = {
+	name = "Oquintitl"
+	dynasty = Xochtolla
+	religion = faith_0_faith
+	culture = "culture_R3G52B153"
+	786.11.21 = {
+		birth = yes
+	}
+	897.4.10 = {
+		death = yes
+	}
+}
+gen_208 = {
+	name = "Sua"
+	dynasty = Montar
+	religion = faith_3_faith
+	culture = "culture_R66G7B25"
+	798.9.22 = {
+		birth = yes
+	}
+	927.2.5 = {
+		death = yes
+	}
+}
+gen_209 = {
+	name = "Garralde"
+	female = yes
+	dynasty = Menarekoir
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	856.7.4 = {
+		birth = yes
+	}
+	926.6.28 = {
+		death = yes
+	}
+}
+gen_210 = {
+	name = "Etatla"
+	dynasty = Perriaka
+	religion = faith_1_faith
+	culture = "culture_R110G97B115"
+	839.8.2 = {
+		birth = yes
+	}
+	917.6.27 = {
+		death = yes
+	}
+}
+gen_211 = {
+	name = "Encet"
+	dynasty = Une
+	religion = faith_0_faith
+	culture = "culture_R43G221B143"
+	770.1.24 = {
+		birth = yes
+	}
+	872.5.4 = {
+		death = yes
+	}
+}
+gen_212 = {
+	name = "Oloidente"
+	dynasty = Cuga
+	religion = faith_2_faith
+	culture = "culture_R108G27B188"
+	812.12.28 = {
+		birth = yes
+	}
+	888.7.9 = {
+		death = yes
+	}
+}
+gen_213 = {
+	name = "Mugaz"
+	dynasty = Marnor
+	religion = faith_0_faith
+	culture = "culture_R110G97B115"
+	859.10.7 = {
+		birth = yes
+	}
+	891.11.5 = {
+		death = yes
+	}
+}
+gen_214 = {
+	name = "Kudzaki"
+	female = yes
+	dynasty = Yurukanoton
+	religion = faith_1_faith
+	culture = "culture_R167G217B214"
+	790.8.19 = {
+		birth = yes
+	}
+	909.2.20 = {
+		death = yes
+	}
+}
+gen_215 = {
+	name = "Kilometar"
+	female = yes
+	dynasty = Batlarnar
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	786.10.6 = {
+		birth = yes
+	}
+	906.2.6 = {
+		death = yes
+	}
+}
+gen_216 = {
+	name = "Enyana"
+	dynasty = Ria
+	religion = faith_0_faith
+	culture = "culture_R26G87B110"
+	838.2.24 = {
+		birth = yes
+	}
+	925.5.3 = {
+		death = yes
+	}
+}
+gen_217 = {
+	name = "Car"
+	dynasty = Endestargia
+	religion = faith_2_faith
+	culture = "culture_R43G221B143"
+	849.7.14 = {
+		birth = yes
+	}
+	910.11.22 = {
+		death = yes
+	}
+}
+gen_218 = {
+	name = "Oihana"
+	dynasty = Ikia
+	religion = faith_2_faith
+	culture = "culture_R144G171B45"
+	840.8.9 = {
+		birth = yes
+	}
+	893.5.9 = {
+		death = yes
+	}
+}
+gen_219 = {
+	name = "Dional"
+	dynasty = Frokon
+	religion = faith_2_faith
+	culture = "culture_R242G123B24"
+	832.6.28 = {
+		birth = yes
+	}
+	893.6.3 = {
+		death = yes
+	}
+}
+gen_220 = {
+	name = "Pu"
+	female = yes
+	dynasty = Kahua
+	religion = faith_2_faith
+	culture = "culture_R144G171B45"
+	796.11.22 = {
+		birth = yes
+	}
+	930.5.8 = {
+		death = yes
+	}
+}
+gen_221 = {
+	name = "Nale"
+	female = yes
+	dynasty = Estansor
+	religion = faith_3_faith
+	culture = "culture_R37G163B212"
+	845.11.17 = {
+		birth = yes
+	}
+	886.6.4 = {
+		death = yes
+	}
+}
+gen_222 = {
+	name = "Del"
+	dynasty = Stragnoor
+	religion = faith_2_faith
+	culture = "culture_R242G123B24"
+	771.3.9 = {
+		birth = yes
+	}
+	885.9.24 = {
+		death = yes
+	}
+}
+gen_223 = {
+	name = "Mal"
+	female = yes
+	dynasty = Pason
+	religion = faith_2_faith
+	culture = "culture_R80G95B91"
+	810.6.24 = {
+		birth = yes
+	}
+	907.7.11 = {
+		death = yes
+	}
+}
+gen_224 = {
+	name = "Tuto"
+	dynasty = Tigema
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	851.9.1 = {
+		birth = yes
+	}
+	873.9.14 = {
+		death = yes
+	}
+}
+gen_225 = {
+	name = "Poremuna"
+	dynasty = Antsunarum
+	religion = faith_1_faith
+	culture = "culture_R110G97B115"
+	808.2.6 = {
+		birth = yes
+	}
+	891.11.23 = {
+		death = yes
+	}
+}
+gen_226 = {
+	name = "Latl"
+	dynasty = Dentivalf
+	religion = faith_2_faith
+	culture = "culture_R242G123B24"
+	788.5.28 = {
+		birth = yes
+	}
+	875.2.28 = {
+		death = yes
+	}
+}
+gen_227 = {
+	name = "Gions"
+	female = yes
+	dynasty = Agrientor
+	religion = faith_0_faith
+	culture = "culture_R37G163B212"
+	850.8.7 = {
+		birth = yes
+	}
+	919.10.8 = {
+		death = yes
+	}
+}
+gen_228 = {
+	name = "Miku"
+	dynasty = Hurasum
+	religion = faith_1_faith
+	culture = "culture_R134G43B52"
+	780.12.11 = {
+		birth = yes
+	}
+	892.2.4 = {
+		death = yes
+	}
+}
+gen_229 = {
+	name = "Arrazianz"
+	female = yes
+	dynasty = Juglika
+	religion = faith_6_faith
+	culture = "culture_R242G123B24"
+	766.11.21 = {
+		birth = yes
+	}
+	903.1.8 = {
+		death = yes
+	}
+}
+gen_230 = {
+	name = "Yehhua"
+	female = yes
+	dynasty = Oquepetlia
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	789.6.19 = {
+		birth = yes
+	}
+	928.2.18 = {
+		death = yes
+	}
+}
+gen_231 = {
+	name = "Jolkal"
+	dynasty = Geoa
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	799.4.4 = {
+		birth = yes
+	}
+	900.7.6 = {
+		death = yes
+	}
+}
+gen_232 = {
+	name = "Des"
+	female = yes
+	dynasty = Matar
+	religion = faith_2_faith
+	culture = "culture_R108G27B188"
+	788.4.16 = {
+		birth = yes
+	}
+	920.4.2 = {
+		death = yes
+	}
+}
+gen_233 = {
+	name = "Shamelord"
+	dynasty = Hopela
+	religion = faith_2_faith
+	culture = "culture_R144G171B45"
+	840.8.26 = {
+		birth = yes
+	}
+	930.8.1 = {
+		death = yes
+	}
+}
+gen_234 = {
+	name = "Riculturs"
+	dynasty = Ennuar
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	806.4.28 = {
+		birth = yes
+	}
+	880.5.8 = {
+		death = yes
+	}
+}
+gen_235 = {
+	name = "Gharuzanh"
+	dynasty = Irazanen
+	religion = faith_1_faith
+	culture = "culture_R26G87B110"
+	795.3.28 = {
+		birth = yes
+	}
+	875.2.25 = {
+		death = yes
+	}
+}
+gen_236 = {
+	name = "Dest"
+	female = yes
+	dynasty = Lagar
+	religion = faith_1_faith
+	culture = "culture_R43G221B143"
+	802.12.18 = {
+		birth = yes
+	}
+	905.7.25 = {
+		death = yes
+	}
+}
+gen_237 = {
+	name = "Rinue"
+	dynasty = Dosa
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	776.8.20 = {
+		birth = yes
+	}
+	906.6.1 = {
+		death = yes
+	}
+}
+gen_238 = {
+	name = "Kahaku"
+	dynasty = Olailia
+	religion = faith_0_faith
+	culture = "culture_R144G171B45"
+	828.4.8 = {
+		birth = yes
+	}
+	930.2.19 = {
+		death = yes
+	}
+}
+gen_239 = {
+	name = "Inin"
+	female = yes
+	dynasty = Ihuatcatzor
+	religion = faith_2_faith
+	culture = "culture_R242G148B101"
+	816.7.25 = {
+		birth = yes
+	}
+	916.1.11 = {
+		death = yes
+	}
+}
+gen_240 = {
+	name = "Acetlacal"
+	female = yes
+	dynasty = Xihuatli
+	religion = faith_1_faith
+	culture = "culture_R3G52B153"
+	812.9.22 = {
+		birth = yes
+	}
+	881.3.5 = {
+		death = yes
+	}
+}
+gen_241 = {
+	name = "Don"
+	female = yes
+	dynasty = Vantor
+	religion = faith_2_faith
+	culture = "culture_R43G221B143"
+	859.6.28 = {
+		birth = yes
+	}
+	883.9.10 = {
+		death = yes
+	}
+}
+gen_242 = {
+	name = "Courent"
+	female = yes
+	dynasty = Inaissaton
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	809.3.5 = {
+		birth = yes
+	}
+	896.5.5 = {
+		death = yes
+	}
+}
+gen_243 = {
+	name = "Xihuehhua"
+	female = yes
+	dynasty = Altetlilos
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	765.12.25 = {
+		birth = yes
+	}
+	903.10.22 = {
+		death = yes
+	}
+}
+gen_244 = {
+	name = "Wewo"
+	female = yes
+	dynasty = Muka
+	religion = faith_0_faith
+	culture = "culture_R218G65B154"
+	821.10.14 = {
+		birth = yes
+	}
+	918.11.25 = {
+		death = yes
+	}
+}
+gen_245 = {
+	name = "Moyen"
+	dynasty = Entr
+	religion = faith_13_faith
+	culture = "culture_R37G163B212"
+	767.2.16 = {
+		birth = yes
+	}
+	913.1.19 = {
+		death = yes
+	}
+}
+gen_246 = {
+	name = "Terrazia"
+	female = yes
+	dynasty = Spagonaria
+	religion = faith_2_faith
+	culture = "culture_R242G123B24"
+	863.10.17 = {
+		birth = yes
+	}
+	917.12.26 = {
+		death = yes
+	}
+}
+gen_247 = {
+	name = "Txikoalde"
+	female = yes
+	dynasty = Bizeanum
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	805.7.17 = {
+		birth = yes
+	}
+	927.6.7 = {
+		death = yes
+	}
+}
+gen_248 = {
+	name = "Lazion"
+	dynasty = Bittua
+	religion = faith_0_faith
+	culture = "culture_R243G9B127"
+	818.1.23 = {
+		birth = yes
+	}
+	875.11.1 = {
+		death = yes
+	}
+}
+gen_249 = {
+	name = "Goar"
+	dynasty = Uharekinar
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	861.2.2 = {
+		birth = yes
+	}
+	907.2.21 = {
+		death = yes
+	}
+}
+gen_250 = {
+	name = "Zvichikar"
+	dynasty = Matanji
+	religion = faith_2_faith
+	culture = "culture_R26G87B110"
+	771.12.1 = {
+		birth = yes
+	}
+	882.8.4 = {
+		death = yes
+	}
+}
+gen_251 = {
+	name = "Ynebu"
+	female = yes
+	dynasty = Har
+	religion = faith_2_faith
+	culture = "culture_R171G78B182"
+	788.11.19 = {
+		birth = yes
+	}
+	908.5.13 = {
+		death = yes
+	}
+}
+gen_252 = {
+	name = "Itu"
+	dynasty = Lecegro
+	religion = faith_0_faith
+	culture = "culture_R110G97B115"
+	834.8.24 = {
+		birth = yes
+	}
+	876.7.1 = {
+		death = yes
+	}
+}
+gen_253 = {
+	name = "Asse"
+	female = yes
+	dynasty = Reposempo
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	763.11.9 = {
+		birth = yes
+	}
+	883.10.11 = {
+		death = yes
+	}
+}
+gen_254 = {
+	name = "Vanowa"
+	female = yes
+	dynasty = Irwa
+	religion = faith_1_faith
+	culture = "culture_R26G87B110"
+	787.2.1 = {
+		birth = yes
+	}
+	917.4.20 = {
+		death = yes
+	}
+}
+gen_255 = {
+	name = "Mitlmmi"
+	female = yes
+	dynasty = Inyanticor
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	824.5.16 = {
+		birth = yes
+	}
+	903.3.6 = {
+		death = yes
+	}
+}
+gen_256 = {
+	name = "Hikachink"
+	female = yes
+	dynasty = Dumuquor
+	religion = faith_0_faith
+	culture = "culture_R134G43B52"
+	838.8.15 = {
+		birth = yes
+	}
+	877.2.25 = {
+		death = yes
+	}
+}
+gen_257 = {
+	name = "Kau"
+	female = yes
+	dynasty = Apakespeir
+	religion = faith_1_faith
+	culture = "culture_R144G171B45"
+	785.9.5 = {
+		birth = yes
+	}
+	923.5.5 = {
+		death = yes
+	}
+}
+gen_258 = {
+	name = "Agriod"
+	dynasty = Lansia
+	religion = faith_1_faith
+	culture = "culture_R43G221B143"
+	829.6.28 = {
+		birth = yes
+	}
+	891.2.9 = {
+		death = yes
+	}
+}
+gen_259 = {
+	name = "Haka"
+	dynasty = Meakespear
+	religion = faith_2_faith
+	culture = "culture_R144G171B45"
+	830.1.10 = {
+		birth = yes
+	}
+	879.12.15 = {
+		death = yes
+	}
+}
+gen_260 = {
+	name = "Esuma"
+	dynasty = Dokia
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	856.8.6 = {
+		birth = yes
+	}
+	908.2.9 = {
+		death = yes
+	}
+}
+gen_261 = {
+	name = "Dosobrome"
+	female = yes
+	dynasty = Desqueren
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	814.11.19 = {
+		birth = yes
+	}
+	886.5.2 = {
+		death = yes
+	}
+}
+gen_262 = {
+	name = "Dukorako"
+	female = yes
+	dynasty = Ozenbatala
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	855.8.9 = {
+		birth = yes
+	}
+	896.11.17 = {
+		death = yes
+	}
+}
+gen_263 = {
+	name = "Katorrabe"
+	dynasty = Atarria
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	865.7.14 = {
+		birth = yes
+	}
+	920.10.6 = {
+		death = yes
+	}
+}
+gen_264 = {
+	name = "Frit"
+	dynasty = Vejos
+	religion = faith_2_faith
+	culture = "culture_R69G87B10"
+	816.11.16 = {
+		birth = yes
+	}
+	908.12.6 = {
+		death = yes
+	}
+}
+gen_265 = {
+	name = "Pul"
+	female = yes
+	dynasty = Paitsunia
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	764.11.1 = {
+		birth = yes
+	}
+	875.10.20 = {
+		death = yes
+	}
+}
+gen_266 = {
+	name = "Ziwumakwa"
+	female = yes
+	dynasty = Korhar
+	religion = faith_2_faith
+	culture = "culture_R26G87B110"
+	811.10.27 = {
+		birth = yes
+	}
+	896.12.3 = {
+		death = yes
+	}
+}
+gen_267 = {
+	name = "Holdme"
+	dynasty = Ceuta
+	religion = faith_5_faith
+	culture = "culture_R95G32B186"
+	863.9.8 = {
+		birth = yes
+	}
+	905.11.6 = {
+		death = yes
+	}
+}
+gen_268 = {
+	name = "Conto"
+	female = yes
+	dynasty = Des
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	790.3.4 = {
+		birth = yes
+	}
+	895.11.19 = {
+		death = yes
+	}
+}
+gen_269 = {
+	name = "Jedie"
+	dynasty = Ifa
+	religion = faith_3_faith
+	culture = "culture_R227G34B110"
+	856.7.7 = {
+		birth = yes
+	}
+	915.12.25 = {
+		death = yes
+	}
+}
+gen_270 = {
+	name = "Joc"
+	female = yes
+	dynasty = Ettia
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	835.3.18 = {
+		birth = yes
+	}
+	927.3.20 = {
+		death = yes
+	}
+}
+gen_271 = {
+	name = "Poterana"
+	dynasty = Esturor
+	religion = faith_2_faith
+	culture = "culture_R242G123B24"
+	769.6.25 = {
+		birth = yes
+	}
+	874.1.16 = {
+		death = yes
+	}
+}
+gen_272 = {
+	name = "Hu"
+	dynasty = Lor
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	849.3.13 = {
+		birth = yes
+	}
+	895.8.23 = {
+		death = yes
+	}
+}
+gen_273 = {
+	name = "Paman"
+	female = yes
+	dynasty = Kapamuraquia
+	religion = faith_0_faith
+	culture = "culture_R134G43B52"
+	790.10.1 = {
+		birth = yes
+	}
+	915.6.28 = {
+		death = yes
+	}
+}
+gen_274 = {
+	name = "Kare"
+	female = yes
+	dynasty = Ibinyos
+	religion = faith_0_faith
+	culture = "culture_R7G68B13"
+	844.2.18 = {
+		birth = yes
+	}
+	879.7.20 = {
+		death = yes
+	}
+}
+gen_275 = {
+	name = "Ata"
+	female = yes
+	dynasty = Bizkainea
+	religion = faith_0_faith
+	culture = "culture_R110G97B115"
+	839.10.27 = {
+		birth = yes
+	}
+	918.9.9 = {
+		death = yes
+	}
+}
+gen_276 = {
+	name = "Cagalters"
+	female = yes
+	dynasty = Sparlon
+	religion = faith_2_faith
+	culture = "culture_R242G123B24"
+	845.7.2 = {
+		birth = yes
+	}
+	922.7.6 = {
+		death = yes
+	}
+}
+gen_277 = {
+	name = "Ixeh"
+	female = yes
+	dynasty = Cueyi
+	religion = faith_1_faith
+	culture = "culture_R88G53B13"
+	834.3.1 = {
+		birth = yes
+	}
+	887.9.28 = {
+		death = yes
+	}
+}
+gen_278 = {
+	name = "Pono"
+	female = yes
+	dynasty = Waenia
+	religion = faith_2_faith
+	culture = "culture_R144G171B45"
+	819.11.5 = {
+		birth = yes
+	}
+	901.9.14 = {
+		death = yes
+	}
+}
+gen_279 = {
+	name = "Des"
+	female = yes
+	dynasty = Parbartom
+	religion = faith_0_faith
+	culture = "culture_R66G7B25"
+	839.7.2 = {
+		birth = yes
+	}
+	882.2.5 = {
+		death = yes
+	}
+}
+gen_280 = {
+	name = "Fres"
+	female = yes
+	dynasty = Pordor
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	812.4.9 = {
+		birth = yes
+	}
+	902.6.19 = {
+		death = yes
+	}
+}
+gen_281 = {
+	name = "Seg"
+	female = yes
+	dynasty = Espersia
+	religion = faith_6_faith
+	culture = "culture_R66G7B25"
+	809.2.27 = {
+		birth = yes
+	}
+	903.3.18 = {
+		death = yes
+	}
+}
+gen_282 = {
+	name = "Inos"
+	female = yes
+	dynasty = Tocahtoanen
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	786.11.16 = {
+		birth = yes
+	}
+	904.8.25 = {
+		death = yes
+	}
+}
+gen_283 = {
+	name = "Iuhmihuel"
+	dynasty = Excauhtlon
+	religion = faith_30_faith
+	culture = "culture_R242G148B101"
+	784.1.15 = {
+		birth = yes
+	}
+	900.9.4 = {
+		death = yes
+	}
+}
+gen_284 = {
+	name = "Malabuna"
+	dynasty = Pangia
+	religion = faith_0_faith
+	culture = "culture_R7G68B13"
+	783.8.10 = {
+		birth = yes
+	}
+	927.4.16 = {
+		death = yes
+	}
+}
+gen_285 = {
+	name = "Diondebal"
+	dynasty = Uharia
+	religion = faith_0_faith
+	culture = "culture_R110G97B115"
+	787.10.3 = {
+		birth = yes
+	}
+	921.1.19 = {
+		death = yes
+	}
+}
+gen_286 = {
+	name = "Dis"
+	dynasty = Quor
+	religion = faith_0_faith
+	culture = "culture_R37G163B212"
+	863.1.13 = {
+		birth = yes
+	}
+	906.11.6 = {
+		death = yes
+	}
+}
+gen_287 = {
+	name = "Hinata"
+	female = yes
+	dynasty = Ataqu
+	religion = faith_2_faith
+	culture = "culture_R134G43B52"
+	794.10.1 = {
+		birth = yes
+	}
+	922.1.6 = {
+		death = yes
+	}
+}
+gen_288 = {
+	name = "Dzamhemao"
+	dynasty = Hwumitaura
+	religion = faith_2_faith
+	culture = "culture_R26G87B110"
+	793.7.14 = {
+		birth = yes
+	}
+	898.11.8 = {
+		death = yes
+	}
+}
+gen_289 = {
+	name = "Harren"
+	dynasty = Meta
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	779.2.9 = {
+		birth = yes
+	}
+	884.10.5 = {
+		death = yes
+	}
+}
+gen_290 = {
+	name = "Nom"
+	female = yes
+	dynasty = Reflus
+	religion = faith_2_faith
+	culture = "culture_R43G221B143"
+	819.6.19 = {
+		birth = yes
+	}
+	908.3.16 = {
+		death = yes
+	}
+}
+gen_291 = {
+	name = "Buroparik"
+	dynasty = Itia
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	796.3.4 = {
+		birth = yes
+	}
+	897.12.2 = {
+		death = yes
+	}
+}
+gen_292 = {
+	name = "Dukoan"
+	female = yes
+	dynasty = Mugakos
+	religion = faith_7_faith
+	culture = "culture_R95G32B186"
+	863.10.7 = {
+		birth = yes
+	}
+	909.4.19 = {
+		death = yes
+	}
+}
+gen_293 = {
+	name = "Inimantzi"
+	dynasty = Ipos
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	845.8.28 = {
+		birth = yes
+	}
+	924.9.15 = {
+		death = yes
+	}
+}
+gen_294 = {
+	name = "Ona"
+	female = yes
+	dynasty = Lancazionen
+	religion = faith_2_faith
+	culture = "culture_R242G123B24"
+	814.3.22 = {
+		birth = yes
+	}
+	897.3.5 = {
+		death = yes
+	}
+}
+gen_295 = {
+	name = "Geoguneki"
+	female = yes
+	dynasty = Datu
+	religion = faith_3_faith
+	culture = "culture_R110G97B115"
+	832.12.3 = {
+		birth = yes
+	}
+	876.4.4 = {
+		death = yes
+	}
+}
+gen_296 = {
+	name = "Topmi"
+	female = yes
+	dynasty = Copanen
+	religion = faith_1_faith
+	culture = "culture_R3G52B153"
+	819.1.9 = {
+		birth = yes
+	}
+	928.10.7 = {
+		death = yes
+	}
+}
+gen_297 = {
+	name = "Levans"
+	dynasty = Ped
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	832.9.24 = {
+		birth = yes
+	}
+	878.5.16 = {
+		death = yes
+	}
+}
+gen_298 = {
+	name = "Prodes"
+	dynasty = Conca
+	religion = faith_2_faith
+	culture = "culture_R108G27B188"
+	793.2.16 = {
+		birth = yes
+	}
+	898.5.10 = {
+		death = yes
+	}
+}
+gen_299 = {
+	name = "Espara"
+	female = yes
+	dynasty = Masuneoaror
+	religion = faith_4_faith
+	culture = "culture_R110G97B115"
+	807.10.1 = {
+		birth = yes
+	}
+	918.2.19 = {
+		death = yes
+	}
+}
+gen_300 = {
+	name = "Moyen"
+	dynasty = Prodentaria
+	religion = faith_0_faith
+	culture = "culture_R37G163B212"
+	767.1.23 = {
+		birth = yes
+	}
+	883.9.28 = {
+		death = yes
+	}
+}
+gen_301 = {
+	name = "Aisant"
+	female = yes
+	dynasty = Dantammon
+	religion = faith_0_faith
+	culture = "culture_R37G163B212"
+	763.2.28 = {
+		birth = yes
+	}
+	887.8.15 = {
+		death = yes
+	}
+}
+gen_302 = {
+	name = "Giberafri"
+	female = yes
+	dynasty = Uharekila
+	religion = faith_5_faith
+	culture = "culture_R110G97B115"
+	804.1.15 = {
+		birth = yes
+	}
+	919.1.23 = {
+		death = yes
+	}
+}
+gen_303 = {
+	name = "Co"
+	female = yes
+	dynasty = Tocpi
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	814.9.22 = {
+		birth = yes
+	}
+	880.4.13 = {
+		death = yes
+	}
+}
+gen_304 = {
+	name = "Tepehuehu"
+	female = yes
+	dynasty = Nechimapar
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	772.3.21 = {
+		birth = yes
+	}
+	904.12.26 = {
+		death = yes
+	}
+}
+gen_305 = {
+	name = "Duratouti"
+	female = yes
+	dynasty = Qua
+	religion = faith_2_faith
+	culture = "culture_R43G221B143"
+	805.2.6 = {
+		birth = yes
+	}
+	905.2.7 = {
+		death = yes
+	}
+}
+gen_306 = {
+	name = "Wennor"
+	female = yes
+	dynasty = Resos
+	religion = faith_1_faith
+	culture = "culture_R37G163B212"
+	831.2.6 = {
+		birth = yes
+	}
+	922.8.5 = {
+		death = yes
+	}
+}
+gen_307 = {
+	name = "Coma"
+	female = yes
+	dynasty = Umarques
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	786.9.7 = {
+		birth = yes
+	}
+	890.3.14 = {
+		death = yes
+	}
+}
+gen_308 = {
+	name = "Hispa"
+	female = yes
+	dynasty = Batum
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	831.5.1 = {
+		birth = yes
+	}
+	923.5.2 = {
+		death = yes
+	}
+}
+gen_309 = {
+	name = "Des"
+	dynasty = Leuria
+	religion = faith_6_faith
+	culture = "culture_R37G163B212"
+	779.6.27 = {
+		birth = yes
+	}
+	898.12.3 = {
+		death = yes
+	}
+}
+gen_310 = {
+	name = "Inanemalt"
+	dynasty = Intlacatlos
+	religion = faith_0_faith
+	culture = "culture_R3G52B153"
+	788.1.26 = {
+		birth = yes
+	}
+	902.10.11 = {
+		death = yes
+	}
+}
+gen_311 = {
+	name = "Mart"
+	female = yes
+	dynasty = Approtemar
+	religion = faith_1_faith
+	culture = "culture_R242G123B24"
+	847.11.8 = {
+		birth = yes
+	}
+	872.2.5 = {
+		death = yes
+	}
+}
+gen_312 = {
+	name = "Posemel"
+	dynasty = Contansa
+	religion = faith_2_faith
+	culture = "culture_R108G27B188"
+	828.1.19 = {
+		birth = yes
+	}
+	876.10.15 = {
+		death = yes
+	}
+}
+gen_313 = {
+	name = "Wechinda"
+	dynasty = Munyika
+	religion = faith_2_faith
+	culture = "culture_R218G65B154"
+	823.3.22 = {
+		birth = yes
+	}
+	884.7.13 = {
+		death = yes
+	}
+}
+gen_314 = {
+	name = "Terveto"
+	female = yes
+	dynasty = Aror
+	religion = faith_0_faith
+	culture = "culture_R66G7B25"
+	844.4.2 = {
+		birth = yes
+	}
+	892.6.5 = {
+		death = yes
+	}
+}
+gen_315 = {
+	name = "Duko"
+	dynasty = Marilla
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	840.2.6 = {
+		birth = yes
+	}
+	877.9.2 = {
+		death = yes
+	}
+}
+gen_316 = {
+	name = "Dureporda"
+	female = yes
+	dynasty = Dituractu
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	843.11.12 = {
+		birth = yes
+	}
+	882.12.22 = {
+		death = yes
+	}
+}
+gen_317 = {
+	name = "Plus"
+	dynasty = Audor
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	851.11.21 = {
+		birth = yes
+	}
+	929.9.15 = {
+		death = yes
+	}
+}
+gen_318 = {
+	name = "Par"
+	dynasty = Dodndehon
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	789.12.14 = {
+		birth = yes
+	}
+	894.11.18 = {
+		death = yes
+	}
+}
+gen_319 = {
+	name = "Mofbuvu"
+	dynasty = Unen
+	religion = faith_14_faith
+	culture = "culture_R43G221B143"
+	863.9.26 = {
+		birth = yes
+	}
+	888.9.17 = {
+		death = yes
+	}
+}
+gen_320 = {
+	name = "Juns"
+	female = yes
+	dynasty = Rendo
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	866.9.18 = {
+		birth = yes
+	}
+	882.8.13 = {
+		death = yes
+	}
+}
+gen_321 = {
+	name = "Embroste"
+	female = yes
+	dynasty = Dessegion
+	religion = faith_1_faith
+	culture = "culture_R66G7B25"
+	761.12.6 = {
+		birth = yes
+	}
+	900.4.16 = {
+		death = yes
+	}
+}
+gen_322 = {
+	name = "Esta"
+	female = yes
+	dynasty = Valor
+	religion = faith_2_faith
+	culture = "culture_R69G87B10"
+	793.6.16 = {
+		birth = yes
+	}
+	891.6.3 = {
+		death = yes
+	}
+}
+gen_323 = {
+	name = "Ces"
+	female = yes
+	dynasty = Rison
+	religion = faith_20_faith
+	culture = "culture_R37G163B212"
+	851.8.12 = {
+		birth = yes
+	}
+	882.12.15 = {
+		death = yes
+	}
+}
+gen_324 = {
+	name = "Tiz"
+	female = yes
+	dynasty = Latcir
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	824.8.17 = {
+		birth = yes
+	}
+	921.10.9 = {
+		death = yes
+	}
+}
+gen_325 = {
+	name = "Etteux"
+	dynasty = Sitionor
+	religion = faith_2_faith
+	culture = "culture_R43G221B143"
+	773.5.21 = {
+		birth = yes
+	}
+	928.7.3 = {
+		death = yes
+	}
+}
+gen_326 = {
+	name = "Haku"
+	female = yes
+	dynasty = Meardia
+	religion = faith_1_faith
+	culture = "culture_R144G171B45"
+	859.7.24 = {
+		birth = yes
+	}
+	905.3.6 = {
+		death = yes
+	}
+}
+gen_327 = {
+	name = "Aos"
+	dynasty = Perimia
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	858.3.17 = {
+		birth = yes
+	}
+	929.4.2 = {
+		death = yes
+	}
+}
+gen_328 = {
+	name = "Sions"
+	dynasty = Dispagna
+	religion = faith_3_faith
+	culture = "culture_R243G9B127"
+	769.11.3 = {
+		birth = yes
+	}
+	897.1.19 = {
+		death = yes
+	}
+}
+gen_329 = {
+	name = "Huihualte"
+	female = yes
+	dynasty = Ocanos
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	775.12.28 = {
+		birth = yes
+	}
+	914.6.7 = {
+		death = yes
+	}
+}
+gen_330 = {
+	name = "Ceurriako"
+	female = yes
+	dynasty = Afizia
+	religion = faith_6_faith
+	culture = "culture_R110G97B115"
+	859.8.11 = {
+		birth = yes
+	}
+	889.10.25 = {
+		death = yes
+	}
+}
+gen_331 = {
+	name = "Nabar"
+	female = yes
+	dynasty = Imedrovelar
+	religion = faith_9_faith
+	culture = "culture_R66G7B25"
+	809.5.15 = {
+		birth = yes
+	}
+	915.1.13 = {
+		death = yes
+	}
+}
+gen_332 = {
+	name = "Desca"
+	female = yes
+	dynasty = Deciagemp
+	religion = faith_0_faith
+	culture = "culture_R66G7B25"
+	781.3.5 = {
+		birth = yes
+	}
+	886.6.5 = {
+		death = yes
+	}
+}
+gen_333 = {
+	name = "Phassais"
+	dynasty = Naleureflos
+	religion = faith_2_faith
+	culture = "culture_R43G221B143"
+	825.12.27 = {
+		birth = yes
+	}
+	905.9.26 = {
+		death = yes
+	}
+}
+gen_334 = {
+	name = "Techpatla"
+	female = yes
+	dynasty = Acahia
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	819.1.21 = {
+		birth = yes
+	}
+	898.2.6 = {
+		death = yes
+	}
+}
+gen_335 = {
+	name = "Ipa"
+	dynasty = Luriia
+	religion = faith_0_faith
+	culture = "culture_R110G97B115"
+	797.9.2 = {
+		birth = yes
+	}
+	896.7.22 = {
+		death = yes
+	}
+}
+gen_336 = {
+	name = "Narokrari"
+	dynasty = Datarenia
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	845.3.12 = {
+		birth = yes
+	}
+	894.5.3 = {
+		death = yes
+	}
+}
+gen_337 = {
+	name = "Nekumiban"
+	female = yes
+	dynasty = Afurikwenon
+	religion = faith_2_faith
+	culture = "culture_R218G65B154"
+	843.10.18 = {
+		birth = yes
+	}
+	903.9.17 = {
+		death = yes
+	}
+}
+gen_338 = {
+	name = "Asitavio"
+	dynasty = Foir
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	797.6.24 = {
+		birth = yes
+	}
+	889.11.18 = {
+		death = yes
+	}
+}
+gen_339 = {
+	name = "Etarkoa"
+	female = yes
+	dynasty = Forranar
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	761.1.26 = {
+		birth = yes
+	}
+	877.12.22 = {
+		death = yes
+	}
+}
+gen_340 = {
+	name = "Vado"
+	female = yes
+	dynasty = Ezkuntia
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	760.6.23 = {
+		birth = yes
+	}
+	918.6.10 = {
+		death = yes
+	}
+}
+gen_341 = {
+	name = "Quitlamad"
+	female = yes
+	dynasty = Cihquixcia
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	775.1.23 = {
+		birth = yes
+	}
+	889.4.27 = {
+		death = yes
+	}
+}
+gen_342 = {
+	name = "Dortade"
+	dynasty = Geiros
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	865.7.16 = {
+		birth = yes
+	}
+	915.2.22 = {
+		death = yes
+	}
+}
+gen_343 = {
+	name = "Entionne"
+	female = yes
+	dynasty = Etten
+	religion = faith_28_faith
+	culture = "culture_R37G163B212"
+	812.6.1 = {
+		birth = yes
+	}
+	881.8.24 = {
+		death = yes
+	}
+}
+gen_344 = {
+	name = "Repropulo"
+	female = yes
+	dynasty = Ponsa
+	religion = faith_33_faith
+	culture = "culture_R66G7B25"
+	772.8.24 = {
+		birth = yes
+	}
+	928.1.9 = {
+		death = yes
+	}
+}
+gen_345 = {
+	name = "Den"
+	dynasty = Nzeia
+	religion = faith_2_faith
+	culture = "culture_R227G34B110"
+	789.5.26 = {
+		birth = yes
+	}
+	892.9.17 = {
+		death = yes
+	}
+}
+gen_346 = {
+	name = "Zatugalez"
+	female = yes
+	dynasty = Espaintik
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	797.5.1 = {
+		birth = yes
+	}
+	927.11.13 = {
+		death = yes
+	}
+}
+gen_347 = {
+	name = "Ploppar"
+	female = yes
+	dynasty = Ellar
+	religion = faith_2_faith
+	culture = "culture_R43G221B143"
+	817.10.28 = {
+		birth = yes
+	}
+	893.6.11 = {
+		death = yes
+	}
+}
+gen_348 = {
+	name = "Men"
+	dynasty = Angomarton
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	853.10.8 = {
+		birth = yes
+	}
+	889.9.22 = {
+		death = yes
+	}
+}
+gen_349 = {
+	name = "Une"
+	female = yes
+	dynasty = Ette
+	religion = faith_0_faith
+	culture = "culture_R108G27B188"
+	796.7.11 = {
+		birth = yes
+	}
+	896.7.11 = {
+		death = yes
+	}
+}
+gen_350 = {
+	name = "Eta"
+	female = yes
+	dynasty = Espaina
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	845.9.4 = {
+		birth = yes
+	}
+	930.11.1 = {
+		death = yes
+	}
+}
+gen_351 = {
+	name = "Sobriagen"
+	female = yes
+	dynasty = Adraparcia
+	religion = faith_11_faith
+	culture = "culture_R66G7B25"
+	774.5.11 = {
+		birth = yes
+	}
+	927.9.14 = {
+		death = yes
+	}
+}
+gen_352 = {
+	name = "Gogtze"
+	female = yes
+	dynasty = Nota
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	778.12.6 = {
+		birth = yes
+	}
+	874.6.28 = {
+		death = yes
+	}
+}
+gen_353 = {
+	name = "Garena"
+	female = yes
+	dynasty = Eria
+	religion = faith_4_faith
+	culture = "culture_R110G97B115"
+	786.11.15 = {
+		birth = yes
+	}
+	873.4.10 = {
+		death = yes
+	}
+}
+gen_354 = {
+	name = "Mugaldean"
+	female = yes
+	dynasty = Uhafior
+	religion = faith_35_faith
+	culture = "culture_R95G32B186"
+	821.2.19 = {
+		birth = yes
+	}
+	930.6.1 = {
+		death = yes
+	}
+}
+gen_355 = {
+	name = "En"
+	dynasty = Ndivonzvon
+	religion = faith_19_faith
+	culture = "culture_R26G87B110"
+	787.1.17 = {
+		birth = yes
+	}
+	870.11.16 = {
+		death = yes
+	}
+}
+gen_356 = {
+	name = "Gale"
+	female = yes
+	dynasty = Levandit
+	religion = faith_2_faith
+	culture = "culture_R43G221B143"
+	803.2.18 = {
+		birth = yes
+	}
+	882.3.1 = {
+		death = yes
+	}
+}
+gen_357 = {
+	name = "Frakoan"
+	dynasty = Euren
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	850.4.22 = {
+		birth = yes
+	}
+	907.1.20 = {
+		death = yes
+	}
+}
+gen_358 = {
+	name = "Possaters"
+	female = yes
+	dynasty = Rionen
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	839.10.14 = {
+		birth = yes
+	}
+	896.6.13 = {
+		death = yes
+	}
+}
+gen_359 = {
+	name = "Que"
+	female = yes
+	dynasty = Tesen
+	religion = faith_1_faith
+	culture = "culture_R108G27B188"
+	863.2.23 = {
+		birth = yes
+	}
+	920.7.28 = {
+		death = yes
+	}
+}
+gen_360 = {
+	name = "Machihcat"
+	female = yes
+	dynasty = Inia
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	807.9.25 = {
+		birth = yes
+	}
+	899.11.6 = {
+		death = yes
+	}
+}
+gen_361 = {
+	name = "Melok"
+	female = yes
+	dynasty = Kiniantikia
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	785.10.6 = {
+		birth = yes
+	}
+	903.6.4 = {
+		death = yes
+	}
+}
+gen_362 = {
+	name = "Eurokono"
+	dynasty = Hirafraka
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	775.3.19 = {
+		birth = yes
+	}
+	907.4.15 = {
+		death = yes
+	}
+}
+gen_363 = {
+	name = "Diteren"
+	dynasty = Luzenaltia
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	838.12.8 = {
+		birth = yes
+	}
+	897.7.1 = {
+		death = yes
+	}
+}
+gen_364 = {
+	name = "Eraite"
+	dynasty = Geoguntzen
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	845.9.17 = {
+		birth = yes
+	}
+	893.2.22 = {
+		death = yes
+	}
+}
+gen_365 = {
+	name = "Runapa"
+	female = yes
+	dynasty = Yunquos
+	religion = faith_2_faith
+	culture = "culture_R134G43B52"
+	847.3.7 = {
+		birth = yes
+	}
+	883.8.25 = {
+		death = yes
+	}
+}
+gen_366 = {
+	name = "Noe"
+	female = yes
+	dynasty = Solastuza
+	religion = faith_0_faith
+	culture = "culture_R242G123B24"
+	763.11.25 = {
+		birth = yes
+	}
+	893.4.4 = {
+		death = yes
+	}
+}
+gen_367 = {
+	name = "Akare"
+	female = yes
+	dynasty = Nahonum
+	religion = faith_34_faith
+	culture = "culture_R7G68B13"
+	852.5.10 = {
+		birth = yes
+	}
+	905.2.2 = {
+		death = yes
+	}
+}
+gen_368 = {
+	name = "Pres"
+	female = yes
+	dynasty = Preportanon
+	religion = faith_1_faith
+	culture = "culture_R108G27B188"
+	835.7.7 = {
+		birth = yes
+	}
+	878.9.19 = {
+		death = yes
+	}
+}
+gen_369 = {
+	name = "Chic"
+	female = yes
+	dynasty = Inicpa
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	851.9.11 = {
+		birth = yes
+	}
+	926.10.25 = {
+		death = yes
+	}
+}
+gen_370 = {
+	name = "Ricue"
+	female = yes
+	dynasty = Unia
+	religion = faith_1_faith
+	culture = "culture_R37G163B212"
+	825.9.26 = {
+		birth = yes
+	}
+	922.7.13 = {
+		death = yes
+	}
+}
+gen_371 = {
+	name = "Lekia"
+	dynasty = Kainia
+	religion = faith_1_faith
+	culture = "culture_R95G32B186"
+	828.12.27 = {
+		birth = yes
+	}
+	885.12.18 = {
+		death = yes
+	}
+}
+gen_372 = {
+	name = "Munha"
+	female = yes
+	dynasty = Nemaodzi
+	religion = faith_2_faith
+	culture = "culture_R167G217B214"
+	856.5.20 = {
+		birth = yes
+	}
+	912.3.6 = {
+		death = yes
+	}
+}
+gen_373 = {
+	name = "Qui"
+	female = yes
+	dynasty = Qui
+	religion = faith_0_faith
+	culture = "culture_R235G118B188"
+	812.12.7 = {
+		birth = yes
+	}
+	903.3.24 = {
+		death = yes
+	}
+}
+gen_374 = {
+	name = "Iteren"
+	female = yes
+	dynasty = Dagolauga
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	813.6.15 = {
+		birth = yes
+	}
+	898.3.4 = {
+		death = yes
+	}
+}
+gen_375 = {
+	name = "Pret"
+	dynasty = Lud
+	religion = faith_0_faith
+	culture = "culture_R145G203B45"
+	765.8.23 = {
+		birth = yes
+	}
+	875.11.16 = {
+		death = yes
+	}
+}
+gen_376 = {
+	name = "Lans"
+	female = yes
+	dynasty = Lest
+	religion = faith_18_faith
+	culture = "culture_R37G163B212"
+	785.11.11 = {
+		birth = yes
+	}
+	913.1.10 = {
+		death = yes
+	}
+}
+gen_377 = {
+	name = "Noe"
+	dynasty = Gretra
+	religion = faith_6_faith
+	culture = "culture_R242G123B24"
+	857.2.24 = {
+		birth = yes
+	}
+	915.2.2 = {
+		death = yes
+	}
+}
+gen_378 = {
+	name = "Ocit"
+	dynasty = Hos
+	religion = faith_0_faith
+	culture = "culture_R242G123B24"
+	858.9.17 = {
+		birth = yes
+	}
+	907.11.8 = {
+		death = yes
+	}
+}
+gen_379 = {
+	name = "Eurre"
+	dynasty = Penon
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	790.12.25 = {
+		birth = yes
+	}
+	891.1.4 = {
+		death = yes
+	}
+}
+gen_380 = {
+	name = "Matasuntz"
+	female = yes
+	dynasty = Atlia
+	religion = faith_5_faith
+	culture = "culture_R110G97B115"
+	776.10.1 = {
+		birth = yes
+	}
+	900.6.16 = {
+		death = yes
+	}
+}
+gen_381 = {
+	name = "Tlahcahti"
+	dynasty = Ixquintolor
+	religion = faith_2_faith
+	culture = "culture_R3G52B153"
+	858.8.4 = {
+		birth = yes
+	}
+	924.6.7 = {
+		death = yes
+	}
+}
+gen_382 = {
+	name = "Naway"
+	female = yes
+	dynasty = Omon
+	religion = faith_2_faith
+	culture = "culture_R144G171B45"
+	841.2.7 = {
+		birth = yes
+	}
+	917.11.11 = {
+		death = yes
+	}
+}
+gen_383 = {
+	name = "Dant"
+	female = yes
+	dynasty = Carch
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	768.1.16 = {
+		birth = yes
+	}
+	871.5.4 = {
+		death = yes
+	}
+}
+gen_384 = {
+	name = "Rotera"
+	dynasty = Incia
+	religion = faith_2_faith
+	culture = "culture_R242G123B24"
+	835.2.21 = {
+		birth = yes
+	}
+	891.6.23 = {
+		death = yes
+	}
+}
+gen_385 = {
+	name = "Ace"
+	dynasty = Yezcamapia
+	religion = faith_31_faith
+	culture = "culture_R3G52B153"
+	830.9.2 = {
+		birth = yes
+	}
+	871.6.4 = {
+		death = yes
+	}
+}
+gen_386 = {
+	name = "Etalde"
+	female = yes
+	dynasty = Kinion
+	religion = faith_27_faith
+	culture = "culture_R110G97B115"
+	831.8.4 = {
+		birth = yes
+	}
+	925.3.26 = {
+		death = yes
+	}
+}
+gen_387 = {
+	name = "Txan"
+	female = yes
+	dynasty = Eton
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	861.2.2 = {
+		birth = yes
+	}
+	888.12.15 = {
+		death = yes
+	}
+}
+gen_388 = {
+	name = "Meta"
+	dynasty = Mediriakum
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	807.7.12 = {
+		birth = yes
+	}
+	916.10.15 = {
+		death = yes
+	}
+}
+gen_389 = {
+	name = "Tetlanec"
+	female = yes
+	dynasty = Intolhuim
+	religion = faith_2_faith
+	culture = "culture_R162G151B44"
+	833.2.2 = {
+		birth = yes
+	}
+	903.12.13 = {
+		death = yes
+	}
+}
+gen_390 = {
+	name = "Leurchass"
+	dynasty = Trent
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	832.2.4 = {
+		birth = yes
+	}
+	917.5.1 = {
+		death = yes
+	}
+}
+gen_391 = {
+	name = "Del"
+	female = yes
+	dynasty = Asta
+	religion = faith_1_faith
+	culture = "culture_R242G123B24"
+	832.5.3 = {
+		birth = yes
+	}
+	885.7.19 = {
+		death = yes
+	}
+}
+gen_392 = {
+	name = "Natoufien"
+	dynasty = Carquir
+	religion = faith_2_faith
+	culture = "culture_R43G221B143"
+	823.10.22 = {
+		birth = yes
+	}
+	926.2.5 = {
+		death = yes
+	}
+}
+gen_393 = {
+	name = "Harioango"
+	dynasty = Penia
+	religion = faith_24_faith
+	culture = "culture_R110G97B115"
+	840.12.11 = {
+		birth = yes
+	}
+	927.1.24 = {
+		death = yes
+	}
+}
+gen_394 = {
+	name = "Dageo"
+	female = yes
+	dynasty = Harejilom
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	838.4.27 = {
+		birth = yes
+	}
+	918.2.16 = {
+		death = yes
+	}
+}
+gen_395 = {
+	name = "Errin"
+	dynasty = Batugaldor
+	religion = faith_2_faith
+	culture = "culture_R155G183B232"
+	778.4.10 = {
+		birth = yes
+	}
+	929.11.6 = {
+		death = yes
+	}
+}
+gen_396 = {
+	name = "Antsulant"
+	female = yes
+	dynasty = Areanor
+	religion = faith_6_faith
+	culture = "culture_R95G32B186"
+	774.2.17 = {
+		birth = yes
+	}
+	896.3.14 = {
+		death = yes
+	}
+}
+gen_397 = {
+	name = "Giberen"
+	female = yes
+	dynasty = Diran
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	807.3.8 = {
+		birth = yes
+	}
+	890.2.21 = {
+		death = yes
+	}
+}
+gen_398 = {
+	name = "Eurralan"
+	dynasty = Garekinon
+	religion = faith_26_faith
+	culture = "culture_R95G32B186"
+	820.11.25 = {
+		birth = yes
+	}
+	896.3.28 = {
+		death = yes
+	}
+}
+gen_399 = {
+	name = "Cons"
+	dynasty = Embarias
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	784.3.28 = {
+		birth = yes
+	}
+	883.7.25 = {
+		death = yes
+	}
+}
+gen_400 = {
+	name = "Dente"
+	female = yes
+	dynasty = Giroda
+	religion = faith_0_faith
+	culture = "culture_R66G7B25"
+	799.10.1 = {
+		birth = yes
+	}
+	886.12.6 = {
+		death = yes
+	}
+}
+gen_401 = {
+	name = "Ipari"
+	female = yes
+	dynasty = Hispaitsu
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	803.3.5 = {
+		birth = yes
+	}
+	916.2.4 = {
+		death = yes
+	}
+}
+gen_402 = {
+	name = "Pare"
+	dynasty = Ispartzek
+	religion = faith_3_faith
+	culture = "culture_R95G32B186"
+	795.7.3 = {
+		birth = yes
+	}
+	895.4.27 = {
+		death = yes
+	}
+}
+gen_403 = {
+	name = "Kon"
+	female = yes
+	dynasty = Die
+	religion = faith_0_faith
+	culture = "culture_R227G34B110"
+	854.2.8 = {
+		birth = yes
+	}
+	893.10.13 = {
+		death = yes
+	}
+}
+gen_404 = {
+	name = "Lacend"
+	female = yes
+	dynasty = Des
+	religion = faith_6_faith
+	culture = "culture_R37G163B212"
+	864.3.3 = {
+		birth = yes
+	}
+	890.9.11 = {
+		death = yes
+	}
+}
+gen_405 = {
+	name = "Vube"
+	female = yes
+	dynasty = Natar
+	religion = faith_23_faith
+	culture = "culture_R43G221B143"
+	781.3.20 = {
+		birth = yes
+	}
+	923.3.18 = {
+		death = yes
+	}
+}
+gen_406 = {
+	name = "Nadbatro"
+	dynasty = Bizterresa
+	religion = faith_25_faith
+	culture = "culture_R110G97B115"
+	840.10.7 = {
+		birth = yes
+	}
+	913.10.16 = {
+		death = yes
+	}
+}
+gen_407 = {
+	name = "Logr"
+	dynasty = Genescr
+	religion = faith_2_faith
+	culture = "culture_R242G123B24"
+	794.7.5 = {
+		birth = yes
+	}
+	909.6.17 = {
+		death = yes
+	}
+}
+gen_408 = {
+	name = "Bostikaik"
+	female = yes
+	dynasty = Auroka
+	religion = faith_0_faith
+	culture = "culture_R110G97B115"
+	842.9.15 = {
+		birth = yes
+	}
+	902.3.20 = {
+		death = yes
+	}
+}
+gen_409 = {
+	name = "Passans"
+	dynasty = Risa
+	religion = faith_3_faith
+	culture = "culture_R37G163B212"
+	774.8.25 = {
+		birth = yes
+	}
+	924.11.15 = {
+		death = yes
+	}
+}
+gen_410 = {
+	name = "Ein"
+	female = yes
+	dynasty = Afia
+	religion = faith_2_faith
+	culture = "culture_R227G34B110"
+	807.2.17 = {
+		birth = yes
+	}
+	917.12.8 = {
+		death = yes
+	}
+}
+gen_411 = {
+	name = "Iki"
+	female = yes
+	dynasty = Nawaenum
+	religion = faith_1_faith
+	culture = "culture_R144G171B45"
+	804.8.18 = {
+		birth = yes
+	}
+	887.3.23 = {
+		death = yes
+	}
+}
+gen_412 = {
+	name = "Hispaio"
+	dynasty = Hartzir
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	827.8.9 = {
+		birth = yes
+	}
+	872.5.17 = {
+		death = yes
+	}
+}
+gen_413 = {
+	name = "Har"
+	female = yes
+	dynasty = Atu
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	785.11.27 = {
+		birth = yes
+	}
+	897.12.4 = {
+		death = yes
+	}
+}
+gen_414 = {
+	name = "Mac"
+	female = yes
+	dynasty = Qua
+	religion = faith_2_faith
+	culture = "culture_R108G27B188"
+	845.6.12 = {
+		birth = yes
+	}
+	886.10.12 = {
+		death = yes
+	}
+}
+gen_415 = {
+	name = "Aborcarra"
+	dynasty = Elortighor
+	religion = faith_2_faith
+	culture = "culture_R161G41B240"
+	855.7.2 = {
+		birth = yes
+	}
+	908.4.7 = {
+		death = yes
+	}
+}
+gen_416 = {
+	name = "Mediteak"
+	dynasty = Rita
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	773.1.2 = {
+		birth = yes
+	}
+	892.3.2 = {
+		death = yes
+	}
+}
+gen_417 = {
+	name = "Gnispentr"
+	dynasty = Bato
+	religion = faith_0_faith
+	culture = "culture_R66G7B25"
+	843.3.27 = {
+		birth = yes
+	}
+	913.12.13 = {
+		death = yes
+	}
+}
+gen_418 = {
+	name = "Jus"
+	female = yes
+	dynasty = Desia
+	religion = faith_17_faith
+	culture = "culture_R37G163B212"
+	844.11.20 = {
+		birth = yes
+	}
+	917.11.25 = {
+		death = yes
+	}
+}
+gen_419 = {
+	name = "Lagroide"
+	dynasty = Ola
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	767.8.17 = {
+		birth = yes
+	}
+	929.10.27 = {
+		death = yes
+	}
+}
+gen_420 = {
+	name = "Ansa"
+	female = yes
+	dynasty = Nggir
+	religion = faith_2_faith
+	culture = "culture_R117G248B119"
+	781.4.10 = {
+		birth = yes
+	}
+	897.6.28 = {
+		death = yes
+	}
+}
+gen_421 = {
+	name = "Necharudz"
+	dynasty = Ana
+	religion = faith_3_faith
+	culture = "culture_R179G220B223"
+	800.10.13 = {
+		birth = yes
+	}
+	876.9.1 = {
+		death = yes
+	}
+}
+gen_422 = {
+	name = "Prakt"
+	dynasty = Bos
+	religion = faith_2_faith
+	culture = "culture_R227G34B110"
+	824.2.14 = {
+		birth = yes
+	}
+	915.6.27 = {
+		death = yes
+	}
+}
+gen_423 = {
+	name = "Ting"
+	female = yes
+	dynasty = Shakdangir
+	religion = faith_2_faith
+	culture = "culture_R107G38B18"
+	771.9.27 = {
+		birth = yes
+	}
+	911.5.8 = {
+		death = yes
+	}
+}
+gen_424 = {
+	name = "Tren"
+	dynasty = Sithiquia
+	religion = faith_10_faith
+	culture = "culture_R43G221B143"
+	768.6.4 = {
+		birth = yes
+	}
+	920.12.10 = {
+		death = yes
+	}
+}
+gen_425 = {
+	name = "Dessiteur"
+	dynasty = Idon
+	religion = faith_2_faith
+	culture = "culture_R37G163B212"
+	800.11.28 = {
+		birth = yes
+	}
+	930.8.9 = {
+		death = yes
+	}
+}
+gen_426 = {
+	name = "Spagor"
+	female = yes
+	dynasty = Ecoa
+	religion = faith_16_faith
+	culture = "culture_R242G123B24"
+	850.7.15 = {
+		birth = yes
+	}
+	888.3.21 = {
+		death = yes
+	}
+}
+gen_427 = {
+	name = "Rembleuph"
+	female = yes
+	dynasty = Leurar
+	religion = faith_21_faith
+	culture = "culture_R108G27B188"
+	864.9.25 = {
+		birth = yes
+	}
+	914.7.8 = {
+		death = yes
+	}
+}
+gen_428 = {
+	name = "Erthie"
+	female = yes
+	dynasty = Atenor
+	religion = faith_2_faith
+	culture = "culture_R227G34B110"
+	803.3.2 = {
+		birth = yes
+	}
+	875.4.27 = {
+		death = yes
+	}
+}
+gen_429 = {
+	name = "Pang"
+	female = yes
+	dynasty = Isangar
+	religion = faith_4_faith
+	culture = "culture_R7G68B13"
+	826.5.20 = {
+		birth = yes
+	}
+	909.11.20 = {
+		death = yes
+	}
+}
+gen_430 = {
+	name = "Agoberiak"
+	female = yes
+	dynasty = Deka
+	religion = faith_1_faith
+	culture = "culture_R95G32B186"
+	835.11.14 = {
+		birth = yes
+	}
+	884.6.16 = {
+		death = yes
+	}
+}
+gen_431 = {
+	name = "Pen"
+	female = yes
+	dynasty = Harenos
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	852.6.28 = {
+		birth = yes
+	}
+	877.7.13 = {
+		death = yes
+	}
+}
+gen_432 = {
+	name = "Ipaiolkok"
+	female = yes
+	dynasty = Espaioanor
+	religion = faith_0_faith
+	culture = "culture_R95G32B186"
+	777.6.8 = {
+		birth = yes
+	}
+	873.4.27 = {
+		death = yes
+	}
+}
+gen_433 = {
+	name = "Cid"
+	female = yes
+	dynasty = Ozenor
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	784.2.3 = {
+		birth = yes
+	}
+	870.10.9 = {
+		death = yes
+	}
+}
+gen_434 = {
+	name = "Marqua"
+	dynasty = Tachacerqua
+	religion = faith_2_faith
+	culture = "culture_R134G43B52"
+	764.8.1 = {
+		birth = yes
+	}
+	930.7.10 = {
+		death = yes
+	}
+}
+gen_435 = {
+	name = "Leiraper"
+	dynasty = Ocericos
+	religion = faith_2_faith
+	culture = "culture_R66G7B25"
+	806.2.28 = {
+		birth = yes
+	}
+	877.12.15 = {
+		death = yes
+	}
+}
+gen_436 = {
+	name = "Linl"
+	female = yes
+	dynasty = Voros
+	religion = faith_0_faith
+	culture = "culture_R22G142B45"
+	806.3.24 = {
+		birth = yes
+	}
+	930.3.7 = {
+		death = yes
+	}
+}
+gen_437 = {
+	name = "Oquittace"
+	dynasty = Cemicar
+	religion = faith_4_faith
+	culture = "culture_R3G52B153"
+	839.2.24 = {
+		birth = yes
+	}
+	919.6.16 = {
+		death = yes
+	}
+}
+gen_438 = {
+	name = "Mollahtic"
+	dynasty = Inata
+	religion = faith_1_faith
+	culture = "culture_R3G52B153"
+	782.12.26 = {
+		birth = yes
+	}
+	885.9.2 = {
+		death = yes
+	}
+}
+gen_439 = {
+	name = "Ditela"
+	dynasty = Gaikideana
+	religion = faith_2_faith
+	culture = "culture_R110G97B115"
+	855.8.10 = {
+		birth = yes
+	}
+	904.11.2 = {
+		death = yes
+	}
+}
+gen_440 = {
+	name = "Aila"
+	female = yes
+	dynasty = Olelekoia
+	religion = faith_2_faith
+	culture = "culture_R144G171B45"
+	815.4.20 = {
+		birth = yes
+	}
+	922.12.4 = {
+		death = yes
+	}
+}
+gen_441 = {
+	name = "Haha"
+	dynasty = Kanos
+	religion = faith_2_faith
+	culture = "culture_R144G171B45"
+	785.3.12 = {
+		birth = yes
+	}
+	920.11.5 = {
+		death = yes
+	}
+}
+gen_442 = {
+	name = "Peare"
+	dynasty = Hana
+	religion = faith_0_faith
+	culture = "culture_R144G171B45"
+	797.11.15 = {
+		birth = yes
+	}
+	909.4.16 = {
+		death = yes
+	}
+}
+gen_443 = {
+	name = "Diavala"
+	dynasty = Tostren
+	religion = faith_0_faith
+	culture = "culture_R66G7B25"
+	842.5.7 = {
+		birth = yes
+	}
+	922.8.26 = {
+		death = yes
+	}
+}
+gen_444 = {
+	name = "Gumizi"
+	dynasty = Hango
+	religion = faith_5_faith
+	culture = "culture_R26G87B110"
+	779.7.12 = {
+		birth = yes
+	}
+	889.2.25 = {
+		death = yes
+	}
+}
+gen_445 = {
+	name = "Goaldeeta"
+	female = yes
+	dynasty = Uharir
+	religion = faith_2_faith
+	culture = "culture_R95G32B186"
+	815.9.19 = {
+		birth = yes
+	}
+	927.8.2 = {
+		death = yes
+	}
+}
+gen_446 = {
+	name = "Dist"
+	dynasty = Euron
+	religion = faith_0_faith
+	culture = "culture_R37G163B212"
+	780.6.1 = {
+		birth = yes
+	}
+	875.8.3 = {
+		death = yes
+	}
+}
+gen_447 = {
+	name = "Stung"
+	female = yes
+	dynasty = Reina
+	religion = faith_2_faith
+	culture = "culture_R227G34B110"
+	854.3.23 = {
+		birth = yes
+	}
+	903.6.19 = {
+		death = yes
+	}
+}

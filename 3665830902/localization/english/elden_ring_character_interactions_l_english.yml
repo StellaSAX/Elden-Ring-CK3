@@ -1,0 +1,16 @@
+﻿l_english:
+
+cut_omen_elden_ring_interaction:0 "Cut their Omen Horns"
+cut_omen_elden_ring_interaction_desc:0 "Their Horns are more trouble than worth, have them excised."
+
+give_grace_elden_ring_interaction:0 "Give them Grace"
+give_grace_elden_ring_interaction_desc:0 "As a God is posible for me to bless someone with grace."
+
+heal_disease_elden_ring_interaction:0 "Heal Disease"
+heal_disease_elden_ring_interaction_desc:0 "Heal any diseas that affects them."
+
+cure_wound_elden_ring_interaction:0 "Cure Wound"
+cure_wound_elden_ring_interaction_desc:0 "Heal any wound that affects them."
+
+regrow_lost_elden_ring_interaction:0 "Regrow Lost"
+regrow_lost_elden_ring_interaction_desc:0 "Regrow lost limb"

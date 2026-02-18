@@ -1,0 +1,412 @@
+﻿
+tradition_hornsent_spiral = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_carian_royal
+			has_cultural_tradition = tradition_golden_order
+			has_cultural_tradition = tradition_giants_fire
+		}
+	}
+	
+	parameters = {
+		less_likely_to_culture_convert = yes
+		convert_crucible_to_spiral = yes
+		more_fervor_on_church_construction = yes
+		prestige_from_temple_construction = yes
+	}
+	character_modifier = {
+		learning = 2
+		different_faith_opinion = -25
+		ai_zeal = 25
+		same_culture_opinion = 15
+		dread_per_tyranny_add = 0.3
+		dread_decay_mult = -0.3
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_carian_royal = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = carian.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_hornsent_spiral 
+			has_cultural_tradition = tradition_golden_order
+			has_cultural_tradition = tradition_giants_fire
+		}
+	}
+	
+	parameters = {
+		gender_equal_inheritance = yes
+		female_only_inheritance = yes
+		female_preference_inheritance = yes
+		glintstone_affinity_more_common = yes
+		
+	}
+	character_modifier = {
+		learning = 2
+		different_culture_opinion = 10
+		ignore_negative_opinion_of_culture = yes
+		cultural_head_fascination_mult = 0.1
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_golden_order = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = golde_order.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_hornsent_spiral 
+			has_cultural_tradition = tradition_carian_royal
+			has_cultural_tradition = tradition_giants_fire
+		}
+	}
+	
+	parameters = {
+		cheaper_to_hybridize = yes
+		gender_equal_inheritance = yes
+		order_affinity_more_common = yes
+	}
+	culture_modifier = {
+		cultural_acceptance_gain_mult = 0.25
+	}
+	character_modifier = {
+		different_faith_opinion = -25
+		ai_zeal = 25
+		life_expectancy = 30
+		years_of_fertility = 30
+		ai_boldness = 25
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_giants_fire = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = giant_fire.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_carian_royal
+			has_cultural_tradition = tradition_golden_order
+			has_cultural_tradition = tradition_hornsent_spiral
+		}
+	}
+	
+	parameters = {
+		less_likely_to_culture_convert = yes
+		giants_and_fire_at_birth = yes
+		quarries_building_bonuses = yes
+		prestige_gain_on_building_complete_in_mountains = yes
+		mountain_trait_bonuses = yes
+		resistant_to_mountain_privation = yes
+	}
+	character_modifier = {
+		mountains_travel_danger = mountains_medium_danger_reduction
+		mountains_construction_gold_cost = -0.1
+		mountains_holding_construction_gold_cost = -0.1
+		mountains_levy_size = -0.1
+		mountains_supply_limit_mult = 0.25
+		defender_advantage = 5
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+#############################################################################
+
+tradition_frenzied_flame = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = frenzied_flame.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_carian_royal
+			has_cultural_tradition = tradition_golden_order
+			has_cultural_tradition = tradition_hornsent_spiral
+		}
+	}
+	
+	parameters = {
+		frenzied_flame_at_birth = yes
+	}
+	character_modifier = {
+		dread_per_tyranny_add = 0.3
+		dread_decay_mult = -0.3
+		dread_baseline_add = 10
+		stress_gain_mult = -0.1
+		hostile_county_attrition_raiding = -0.3
+		different_faith_opinion = -25
+		different_faith_county_opinion_mult = -0.25
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	ai_will_do = { value = 100 }
+}
+
+tradition_rotborn = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = scarlet_rot.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_carian_royal
+			has_cultural_tradition = tradition_golden_order
+			has_cultural_tradition = tradition_hornsent_spiral
+		}
+	}
+	
+	parameters = {
+		scarletrot_at_birth = yes
+		better_disease_resistance = yes
+		loyal_trait_more_common = yes
+		courtiers_less_likely_to_leave_same_culture_court = yes
+	}
+	character_modifier = {
+		fertility = 0.2
+	}
+	county_modifier = {
+		development_growth_factor = 0.15
+		county_opinion_add = 10
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	ai_will_do = { value = 100 }
+}
+
+tradition_beast_clergy = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = beast_clergy.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_carian_royal
+			has_cultural_tradition = tradition_golden_order
+			has_cultural_tradition = tradition_hornsent_spiral
+		}
+	}
+	
+	parameters = {
+		can_become_beast_clergy = yes
+		devoted_trait_bonuses = yes
+		monastic_expectations = yes
+		next_level_monasteries = yes
+		monastic_monastery_learning_bonus = yes
+		prowess_from_religious_traits = yes
+		culture_clergy_can_fight = yes
+		monastery_prowess_martial_bonus = yes
+		prowess_from_learning_education = yes
+	}
+	character_modifier = {
+		knight_effectiveness_mult = 1
+		learning_per_piety_level = 1
+		prowess_per_piety_level = 1
+	}
+	
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	ai_will_do = { value = 100 }
+}
+
+tradition_crucible_knights = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = crucible_knights.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_carian_royal
+			has_cultural_tradition = tradition_golden_order
+			has_cultural_tradition = tradition_hornsent_spiral
+		}
+	}
+	
+	parameters = {
+		honor_crucible_knights = yes
+		high_prowess_ignores_knight_restrictions = yes
+		blademaster_traits_more_common = yes
+		better_knights_from_decision = yes
+	}
+	character_modifier = {
+		knight_effectiveness_mult = 1
+		knight_limit = 10
+		martial_per_piety_level = 1
+	}
+	character_modifier = {
+		fertility = -0.1
+	}
+	province_modifier = {
+		levy_size = -0.5
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	ai_will_do = { value = 100 }
+}
+
+tradition_dragon_communion = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = dragon_communion.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_carian_royal
+			has_cultural_tradition = tradition_golden_order
+			has_cultural_tradition = tradition_hornsent_spiral
+		}
+	}
+	
+	parameters = {
+		better_dragon_communion = yes
+		less_likely_to_force_conversion = yes
+		ambitious_trait_more_common = yes
+	}
+	character_modifier = {
+		prowess_per_prestige_level = 1
+		martial = 1
+		monthly_martial_lifestyle_xp_gain_mult = 0.15
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	ai_will_do = { value = 100 }
+}

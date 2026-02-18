@@ -1,0 +1,447 @@
+﻿on_birth_child = {
+    on_actions = {
+        on_action_child_with_affinity
+		on_action_tradition_hornsent_birth
+		on_action_tradition_glintstone_birth
+		on_action_tradition_order_birth
+		on_action_tradition_giants_fire
+    }
+}
+
+
+on_action_child_with_affinity = {
+	effect = {
+		if = { #one of the parents has an affinity
+			limit = {
+				OR = {
+					scope:real_father = {
+						has_affinity_elden_ring = yes
+					}
+					scope:mother = {
+						has_affinity_elden_ring = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						scope:real_father = {
+							has_trait = order_affinity
+						}
+						scope:mother = {
+							has_trait = order_affinity
+						}
+					}
+				}
+				random_list = {
+					40 = {
+						add_trait = order_affinity
+					}
+					60 = {
+					
+					}		
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						scope:real_father = {
+							has_trait = frenzy_affinity
+						}
+						scope:mother = {
+							has_trait = frenzy_affinity
+						}
+					}
+				}
+				random_list = {
+					40 = {
+						add_trait = frenzy_affinity
+					}
+					60 = {
+					
+					}		
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						scope:real_father = {
+							has_trait = glintstone_affinity
+						}
+						scope:mother = {
+							has_trait = glintstone_affinity
+						}
+					}
+				}
+				random_list = {
+					40 = {
+						add_trait = glintstone_affinity
+					}
+					60 = {
+					
+					}		
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						scope:real_father = {
+							has_trait = rot_affinity
+						}
+						scope:mother = {
+							has_trait = rot_affinity
+						}
+					}
+				}
+				random_list = {
+					40 = {
+						add_trait = rot_affinity
+					}
+					60 = {
+					
+					}		
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						scope:real_father = {
+							has_trait = crucible_affinity
+						}
+						scope:mother = {
+							has_trait = crucible_affinity
+						}
+					}
+				}
+				random_list = {
+					40 = {
+						add_trait = crucible_affinity
+					}
+					60 = {
+					
+					}		
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						scope:real_father = {
+							has_trait = fire_affinity
+						}
+						scope:mother = {
+							has_trait = fire_affinity
+						}
+					}
+				}
+				random_list = {
+					40 = {
+						add_trait = fire_affinity
+					}
+					60 = {
+					
+					}		
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						scope:real_father = {
+							has_trait = ice_affinity
+						}
+						scope:mother = {
+							has_trait = ice_affinity
+						}
+					}
+				}
+				random_list = {
+					40 = {
+						add_trait = ice_affinity
+					}
+					60 = {
+					
+					}		
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						scope:real_father = {
+							has_trait = gravity_affinity
+						}
+						scope:mother = {
+							has_trait = gravity_affinity
+						}
+					}
+				}
+				random_list = {
+					40 = {
+						add_trait = gravity_affinity
+					}
+					60 = {
+					
+					}		
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						scope:real_father = {
+							has_trait = death_affinity
+						}
+						scope:mother = {
+							has_trait = death_affinity
+						}
+					}
+				}
+				random_list = {
+					40 = {
+						add_trait = death_affinity
+					}
+					60 = {
+					
+					}		
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						scope:real_father = {
+							has_trait = blood_affinity
+						}
+						scope:mother = {
+							has_trait = blood_affinity
+						}
+					}
+				}
+				random_list = {
+					40 = {
+						add_trait = blood_affinity
+					}
+					60 = {
+					
+					}		
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						scope:real_father = {
+							has_trait = black_flame_affinity
+						}
+						scope:mother = {
+							has_trait = black_flame_affinity
+						}
+					}
+				}
+				random_list = {
+					40 = {
+						add_trait = black_flame_affinity
+					}
+					60 = {
+					
+					}		
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						scope:real_father = {
+							has_trait = sleep_affinity
+						}
+						scope:mother = {
+							has_trait = sleep_affinity
+						}
+					}
+				}
+				random_list = {
+					40 = {
+						add_trait = sleep_affinity
+					}
+					60 = {
+					
+					}		
+				}
+	
+			}
+		}
+		if = { # the parents don't have affinities
+			limit = {
+				AND = {
+					scope:real_father = {
+						has_affinity_elden_ring = no
+					}
+					scope:mother = {
+						has_affinity_elden_ring = no
+					}
+				}
+			}
+			random_list = {
+				1 = {
+				    add_trait = order_affinity
+				}
+				1 = {
+					add_trait = frenzy_affinity
+				}
+				1 = {
+					add_trait = glintstone_affinity
+				}
+				1 = {
+					add_trait = rot_affinity
+				}
+				1 = {
+					add_trait = crucible_affinity
+				}
+				1 = {
+					add_trait = fire_affinity
+				}
+				1 = {
+					add_trait = ice_affinity
+				}
+				1 = {
+					add_trait = gravity_affinity
+				}
+				1 = {
+					add_trait = death_affinity
+				}
+				1 = {
+					add_trait = blood_affinity
+				}
+				1 = {
+					add_trait = black_flame_affinity
+				}
+				1 = {
+					add_trait = sleep_affinity
+				}
+				88 = {
+				
+				}	
+			}
+		}
+	}
+}
+
+on_action_tradition_hornsent_birth = {
+	effect = {
+		if = { # one of the parents has a hornsent culture
+			limit = {
+				OR = {
+					scope:real_father = {
+						culture = {
+							has_cultural_parameter = convert_crucible_to_spiral
+						}
+					}
+					scope:mother = {
+						culture = {
+							has_cultural_parameter = convert_crucible_to_spiral
+						}
+					}
+				}
+			}
+			random_list = {
+				50 = {
+					remove_trait = crucible_affinity
+					add_trait = spiral_affinity
+				}
+				50 = {
+				
+				}				
+			}
+		}
+	}
+}
+
+
+on_action_tradition_glintstone_birth = {
+	effect = {
+		if = { # one of the parents has a carian culture
+			limit = {
+				OR = {
+					scope:real_father = {
+						culture = {
+							has_cultural_parameter = glintstone_affinity_more_common
+						}
+					}
+					scope:mother = {
+						culture = {
+							has_cultural_parameter = glintstone_affinity_more_common
+						}
+					}
+				}
+			}
+			random_list = {
+				50 = {
+					add_trait = glintstone_affinity
+				}
+				50 = {
+				
+				}				
+			}
+		}
+	}
+}
+
+on_action_tradition_order_birth = {
+	effect = {
+		if = { # one of the parents has a golden order culture
+			limit = {
+				OR = {
+					scope:real_father = {
+						culture = {
+							has_cultural_parameter = order_affinity_more_common
+						}
+					}
+					scope:mother = {
+						culture = {
+							has_cultural_parameter = order_affinity_more_common
+						}
+					}
+				}
+			}
+			random_list = {
+				50 = {
+					add_trait = order_affinity
+				}
+				50 = {
+				
+				}				
+			}
+		}
+	}
+}
+
+on_action_tradition_giants_fire = {
+	effect = {
+		if = { # one of the parents has a giants fire culture
+			limit = {
+				OR = {
+					scope:real_father = {
+						culture = {
+							has_cultural_parameter = giants_and_fire_at_birth
+						}
+					}
+					scope:mother = {
+						culture = {
+							has_cultural_parameter = giants_and_fire_at_birth
+						}
+					}
+				}
+			}
+			random_list = {
+				50 = {
+					add_trait = fire_affinity
+				}
+				50 = {
+				
+				}				
+			}
+			random_list = {
+				10 = {
+					add_trait = giant
+				}
+				90 = {
+				
+				}				
+			}
+		}
+	}
+}

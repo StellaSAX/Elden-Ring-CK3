@@ -1,0 +1,291 @@
+﻿namespace = elden_ring_artifact_events
+
+
+elden_ring_artifact_events.0001 = { #CREATE GREAT RUNE
+
+	type = character_event
+	desc = elden_ring_artifact_events.0001.desc
+	title = elden_ring_artifact_events.0001.title
+	theme = war
+
+	left_portrait = {
+		character = ROOT 
+		animation = marshal 
+	}
+	
+	option = {
+		name = elden_ring_artifact_events.0001.a
+		trigger = {
+			martial >= 20
+		}
+		create_artifact = {
+			
+			name = great_rune_elden_ring
+			description = great_rune_elden_ring_desc
+			template = great_rune_elden_ring
+			rarity = illustrious
+			type = regalia
+			modifier = artifact_monthly_martial_lifestyle_xp_4_modifier
+			modifier = artifact_monthly_martial_lifestyle_xp_2_modifier
+			modifier = artifact_martial_3_modifier
+			modifier = artifact_martial_3_modifier
+			modifier = artifact_martial_3_modifier
+			modifier = artifact_martial_1_modifier
+			modifier = artifact_prowess_10_modifier
+			decaying = no
+			visuals = great_rune_elden_ring
+			creator = root
+			save_scope_as = newly_created_artifact
+		}
+		scope:newly_created_artifact ?= {
+			set_variable = {
+				name = great_rune_variable
+				value = yes
+			}
+		}
+		ai_chance = {
+			base = 10 
+		}
+	}
+	
+	option = {
+	name = elden_ring_artifact_events.0001.b
+		trigger = {
+			stewardship >= 20
+		}
+		create_artifact = {
+			name = great_rune_elden_ring
+			description = great_rune_elden_ring_desc
+			template = great_rune_elden_ring
+			rarity = illustrious
+			type = regalia
+			modifier = artifact_monthly_stewardship_lifestyle_xp_4_modifier
+			modifier = artifact_monthly_stewardship_lifestyle_xp_2_modifier
+			modifier = artifact_stewardship_3_modifier
+			modifier = artifact_stewardship_3_modifier
+			modifier = artifact_stewardship_3_modifier
+			modifier = artifact_stewardship_1_modifier
+			modifier = artifact_prowess_10_modifier
+			decaying = no
+			visuals = great_rune_elden_ring
+			creator = root
+			save_scope_as = newly_created_artifact
+		}
+		scope:newly_created_artifact ?= {
+			set_variable = {
+				name = great_rune_variable
+				value = yes
+			}
+		}
+		ai_chance = {
+			base = 10 
+		}
+	}
+	
+	option = {
+	name = elden_ring_artifact_events.0001.c
+		trigger = {
+			learning >= 20
+		}
+		create_artifact = {
+			name = great_rune_elden_ring
+			description = great_rune_elden_ring_desc
+			template = great_rune_elden_ring
+			rarity = illustrious
+			type = regalia
+			modifier = artifact_monthly_learning_lifestyle_xp_4_modifier
+			modifier = artifact_monthly_learning_lifestyle_xp_2_modifier
+			modifier = artifact_learning_3_modifier
+			modifier = artifact_learning_3_modifier
+			modifier = artifact_learning_3_modifier
+			modifier = artifact_learning_1_modifier
+			modifier = artifact_prowess_10_modifier
+			decaying = no
+			visuals = great_rune_elden_ring
+			creator = root
+			save_scope_as = newly_created_artifact
+		}
+		scope:newly_created_artifact ?= {
+			set_variable = {
+				name = great_rune_variable
+				value = yes
+			}
+		}
+		ai_chance = {
+			base = 10 
+		}
+	}
+	
+	option = {
+	name = elden_ring_artifact_events.0001.d
+		trigger = {
+			diplomacy >= 20
+		}
+		create_artifact = {
+			name = great_rune_elden_ring
+			description = great_rune_elden_ring_desc
+			template = great_rune_elden_ring
+			rarity = illustrious
+			type = regalia
+			modifier = artifact_monthly_diplomacy_lifestyle_xp_4_modifier
+			modifier = artifact_monthly_diplomacy_lifestyle_xp_2_modifier
+			modifier = artifact_diplomacy_3_modifier
+			modifier = artifact_diplomacy_3_modifier
+			modifier = artifact_diplomacy_3_modifier
+			modifier = artifact_diplomacy_1_modifier
+			modifier = artifact_prowess_10_modifier
+			decaying = no
+			visuals = great_rune_elden_ring
+			creator = root
+			save_scope_as = newly_created_artifact
+		}
+		scope:newly_created_artifact ?= {
+			set_variable = {
+				name = great_rune_variable
+				value = yes
+			}
+		}
+		ai_chance = {
+			base = 10 
+		}
+	}
+	
+	option = {
+	name = elden_ring_artifact_events.0001.e
+		trigger = {
+			intrigue >= 20
+		}
+		create_artifact = {
+			name = great_rune_elden_ring
+			description = great_rune_elden_ring_desc
+			template = great_rune_elden_ring
+			rarity = illustrious
+			type = regalia
+			modifier = artifact_monthly_intrigue_lifestyle_xp_4_modifier
+			modifier = artifact_monthly_intrigue_lifestyle_xp_2_modifier
+			modifier = artifact_intrigue_3_modifier
+			modifier = artifact_intrigue_3_modifier
+			modifier = artifact_intrigue_3_modifier
+			modifier = artifact_intrigue_1_modifier
+			modifier = artifact_prowess_10_modifier
+			decaying = no
+			visuals = great_rune_elden_ring
+			creator = root
+			save_scope_as = newly_created_artifact
+		}
+		scope:newly_created_artifact ?= {
+			set_variable = {
+				name = great_rune_variable
+				value = yes
+			}
+		}
+		ai_chance = {
+			base = 10 
+		}
+	}
+	
+	option = {
+		name = elden_ring_artifact_events.0001.f
+		create_artifact = {
+			name = great_rune_elden_ring
+			description = great_rune_elden_ring_desc
+			template = great_rune_elden_ring
+			rarity = illustrious
+			type = regalia
+			modifier = artifact_monthly_lifestyle_xp_1_modifier
+			modifier = artifact_stewardship_1_modifier
+			modifier = artifact_learning_1_modifier
+			modifier = artifact_martial_1_modifier
+			modifier = artifact_diplomacy_1_modifier
+			modifier = artifact_intrigue_1_modifier
+			modifier = artifact_prowess_5_modifier
+			decaying = no
+			visuals = great_rune_elden_ring
+			creator = root
+			save_scope_as = newly_created_artifact
+		}
+		scope:newly_created_artifact ?= {
+			set_variable = {
+				name = great_rune_variable
+				value = yes
+			}
+		}
+		
+		ai_chance = {
+			base = 10 
+		}
+	}
+	
+	option = {
+		name = elden_ring_artifact_events.0001.g
+		
+		ai_chance = {
+			base = 10 
+		}
+	}
+	
+}
+
+elden_ring_artifact_events.0002 = { #CREATE ELDEN RING
+
+	type = character_event
+	desc = elden_ring_artifact_events.0002.desc
+	title = elden_ring_artifact_events.0002.title
+	theme = war
+
+	left_portrait = {
+		character = ROOT 
+		animation = marshal 
+	}
+	
+	option = {
+		name = elden_ring_artifact_events.0002.a
+		create_artifact = {
+			set_variable = {
+				name = elden_ring_variable
+				value = yes
+			}
+			name = the_elden_ring
+			description = the_elden_ring_desc
+			template = great_rune_elden_ring
+			rarity = illustrious
+			type = regalia
+			modifier = artifact_monthly_lifestyle_xp_4_modifier
+			modifier = artifact_knight_limit_2_modifier
+			modifier = artifact_knight_limit_2_modifier
+			modifier = artifact_knight_limit_2_modifier
+			modifier = artifact_knight_effectiveness_9_modifier
+			modifier = artifact_prowess_10_modifier
+			modifier = artifact_levy_reinforcement_rate_same_faith_12_modifier
+			modifier = artifact_monthly_prestige_8_modifier
+			modifier = artifact_monthly_prestige_add_8_modifier
+			modifier = artifact_domain_tax_same_faith_mult_4_modifier
+			modifier = artifact_domain_tax_same_faith_mult_4_modifier
+			modifier = artifact_domain_tax_same_faith_mult_4_modifier
+			modifier = artifact_monthly_piety_8_modifier
+			modifier = artifact_monthly_piety_8_modifier
+			decaying = no
+			visuals = the_elden_ring
+			creator = root
+			save_scope_as = newly_created_artifact
+		}
+		scope:newly_created_artifact ?= {
+			set_variable = {
+				name = elden_ring_variable
+				value = yes
+			}
+		}
+		ai_chance = {
+			base = 100 
+		}
+	}
+	
+	option = {
+		name = elden_ring_artifact_events.0001.g
+		
+		ai_chance = {
+			base = 10 
+		}
+	}
+	
+}

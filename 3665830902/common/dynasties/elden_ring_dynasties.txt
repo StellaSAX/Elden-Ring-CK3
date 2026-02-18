@@ -1,0 +1,63 @@
+dynn_erdtree = {
+	name = "dynn_erdtree"
+	culture = "culture_royal_elden_ring"
+	motto = erdtree_motto
+}
+dynn_caria = {
+	name = "dynn_caria"
+	culture = "culture_caria_elden_ring"
+	motto = caria_motto
+}
+dynn_loux = {
+	name = "dynn_loux"
+	culture = "culture_altus_elden_ring"
+	motto = loux_motto
+}
+dynn_haight = {
+	name = "dynn_haight"
+	culture = "culture_altus_elden_ring"
+	motto = haight_motto
+}
+dynn_slumber = {
+	name = "dynn_slumber"
+	culture = "culture_altus_elden_ring"
+	motto = slumber_motto
+}
+
+dynn_jagged = {
+	name = "dynn_jagged"
+	culture = "culture_jagged_peak_elden_ring"
+	motto = jagged_motto
+}
+
+dynn_farum = {
+	name = "dynn_farum"
+	culture = culture_farum_azula_elden_ring
+	motto = farum_motto
+}
+
+dynn_morne = {
+	name = "dynn_morne"
+	culture = culture_farum_azula_elden_ring
+	motto = morne_motto
+}
+
+
+dynn_briar = {
+	name = "dynn_briar"
+	culture = culture_eochaid_elden_ring
+	motto = briar_motto
+}
+
+
+dynn_marais = {
+	name = "dynn_marais"
+	culture = culture_altus_elden_ring
+	motto = marais_motto
+}
+
+dynn_beast = {
+	name = "dynn_beast"
+	culture = culture_altus_elden_ring
+	motto = beast_motto
+}

@@ -1,0 +1,349 @@
+﻿bm_867_elden_ring_demigods = { #the demigods
+	start_date = 867.1.1
+	is_playable = yes
+	group = bm_group_867
+
+	weight = {
+		value = 0
+	}
+
+	character = {
+		name = "bookmark_morgott_elden_ring"
+		dynasty = erdtree
+		dynasty_splendor_level = 4
+		type = male
+		birth = 400.6.1
+		title = k_fallen_capital
+		government = feudal_government
+		culture = culture_royal_elden_ring
+		religion = golden_order 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = morgott
+		position = { 440 380 }
+		
+		animation = war_over_win
+		
+	}
+	
+	character = {
+		name = "bookmark_godrick_elden_ring"
+		dynasty = erdtree
+		dynasty_splendor_level = 4
+		type = male
+		birth = 800.1.1
+		title = k_ocupied_stormveil
+		government = feudal_government
+		culture = culture_royal_elden_ring
+		religion = golden_order 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = godrick
+		position = { 300 750 }
+		
+		animation = war_over_win
+		
+	}
+	
+	character = {
+		name = "bookmark_rykard_elden_ring"
+		dynasty_house = house_gelmir_caria
+		dynasty_splendor_level = 4
+		type = male
+		birth = 255.1.1
+		title = k_lord_of_blasphemy
+		government = feudal_government
+		culture = culture_royal_elden_ring
+		religion = god_snake_order 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = rykard
+		position = { 200 200 }
+		
+		animation = war_over_win
+		
+	}
+	
+	character = {
+		name = "bookmark_malenia_elden_ring"
+		dynasty_house = house_malenia_erdtree
+		dynasty_splendor_level = 4
+		type = female
+		birth = 520.1.1
+		title = k_haligtree
+		government = feudal_government
+		culture = culture_royal_elden_ring
+		religion = unalloyed_order 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = malenia
+		position = { 800 150 }
+		
+		animation = war_over_win
+		
+	}
+	
+	character = {
+		name = "bookmark_radahn_elden_ring"
+		dynasty = erdtree
+		dynasty_splendor_level = 4
+		type = male
+		birth = 265.1.1
+		title = k_radahn_remnants
+		government = feudal_government
+		culture = culture_royal_elden_ring
+		religion = golden_order 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = radahn
+		position = { 800 600 }
+		
+		animation = war_over_win
+		
+	}
+	
+	character = {
+		name = "bookmark_rennala_elden_ring"
+		dynasty = caria
+		dynasty_splendor_level = 4
+		type = female
+		birth = 265.1.1
+		title = k_raya_lucaria_leader
+		government = feudal_government
+		culture = culture_royal_elden_ring
+		religion = golden_order 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = rennala
+		position = { 100 500 }
+		
+		animation = war_over_win
+		
+	}
+	
+	character = {
+		name = "bookmark_mohg_elden_ring"
+		dynasty_house = house_mohgwyn_erdtree
+		dynasty_splendor_level = 4
+		type = male
+		birth = 400.6.1
+		title = k_godwyn_dynasty
+		government = feudal_government
+		culture = culture_royal_elden_ring
+		religion = formless_order 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = mohg
+		position = { 1400 800 }
+		
+		animation = war_over_win
+		
+	}
+	
+}
+
+bm_867_elden_ring_land_of_shadows = { #lands of shadow
+	start_date = 867.1.1
+	is_playable = yes
+	group = bm_group_867
+
+	weight = {
+		value = 0
+	}
+
+	character = {
+		name = "bookmark_trina_elden_ring"
+		dynasty = slumber
+		dynasty_splendor_level = 1
+		type = female
+		birth = 520.6.1
+		title = k_sweet_sleep
+		government = feudal_government
+		culture = culture_royal_elden_ring
+		religion = st_trina_order 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = trina
+		position = { 1000 800 }
+		
+		animation = war_over_win
+		
+	}
+	
+	character = {
+		name = "bookmark_miquella_elden_ring"
+		dynasty = erdtree
+		dynasty_splendor_level = 4
+		type = male
+		birth = 520.6.1
+		title = k_miquellas_followers
+		government = feudal_government
+		culture = culture_royal_elden_ring
+		religion = st_trina_order 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = miquella
+		position = { 1000 500 }
+		
+		animation = war_over_win
+		
+	}
+	
+	character = {
+		name = "bookmark_messmer_elden_ring"
+		dynasty = erdtree
+		dynasty_splendor_level = 4
+		type = male
+		birth = 45.1.1
+		title = k_messmer_army
+		government = feudal_government
+		culture = culture_royal_elden_ring
+		religion = messmer_order 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = messmer
+		position = { 1000 200 }
+		
+		animation = war_over_win
+		
+	}
+	
+	character = {
+		name = "bookmark_rellana_elden_ring"
+		dynasty = caria
+		dynasty_splendor_level = 4
+		type = female
+		birth = 100.1.1
+		title = d_R153G85B160
+		government = feudal_government
+		culture = culture_caria_elden_ring
+		religion = messmer_order 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = rellana
+		position = { 440 380 }
+		
+		animation = war_over_win
+	}
+	
+	character = {
+		name = "bookmark_bayle_elden_ring"
+		dynasty = jagged
+		dynasty_splendor_level = 4
+		type = male
+		birth = 1.1.1
+		title = k_dread_dragon
+		government = feudal_government
+		culture = culture_jagged_peak_elden_ring
+		religion = bayle_dragon_elden_ring 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = bayle
+		position = { 1400 800 }
+		
+		animation = war_over_win
+		
+	}
+}
+
+bm_867_elden_ring_meek_or_forgotten = { #smaller importance
+	start_date = 867.1.1
+	is_playable = yes
+	group = bm_group_867
+
+	weight = {
+		value = 0
+	}
+
+	character = {
+		name = "bookmark_placidusax_elden_ring"
+		dynasty = 
+		dynasty_splendor_level = 5
+		type = male
+		birth = 1.1.1
+		title = e_farum_azula
+		government = feudal_government
+		culture = culture_farum_azula_elden_ring
+		religion = ancient_dragon_elden_ring 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = placidusax
+		position = { 1110 450 }
+		
+		animation = war_over_win
+		
+	}	
+	character = {
+		name = "bookmark_maliketh_elden_ring"
+		dynasty = dynn_beast
+		dynasty_splendor_level = 5
+		type = male
+		birth = 1.1.1
+		title = c_R252G40B131
+		government = feudal_government
+		culture = culture_beast_elden_ring
+		religion = golden_order 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = maliketh
+		position = { 750 630 }
+		
+		animation = war_over_win
+		
+	}		
+	character = {
+		name = "bookmark_haight_elden_ring"
+		dynasty = dynn_haight
+		dynasty_splendor_level = 1
+		type = male
+		birth = 820.1.1
+		title = c_R68G191B143
+		government = feudal_government
+		culture = culture_altus_elden_ring
+		religion = golden_order 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = haight
+		position = { 800 870 }
+		
+		animation = war_over_win
+		
+	}
+	character = {
+		name = "bookmark_edgar_elden_ring"
+		dynasty = dynn_morne
+		dynasty_splendor_level = 2
+		type = male
+		birth = 800.1.1
+		title = d_R229G199B117
+		government = feudal_government
+		culture = culture_weeping_peninsula_elden_ring
+		religion = golden_order 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = edgar
+		position = { 440 870 }
+		
+		animation = war_over_win
+		
+	}
+	character = {
+		name = "bookmark_elemer_elden_ring"
+		dynasty = dynn_briar
+		dynasty_splendor_level = 2
+		type = male
+		birth = 800.1.1
+		title = c_R106G127B189
+		government = feudal_government
+		culture = culture_weeping_peninsula_elden_ring
+		religion = golden_order 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = elemer
+		position = { 300 250 }
+		
+		animation = war_over_win
+		
+	}
+	character = {
+		name = "bookmark_maleigh_elden_ring"
+		dynasty = dynn_marais
+		dynasty_splendor_level = 2
+		type = male
+		birth = 800.1.1
+		title = c_R248G133B56
+		government = feudal_government
+		culture = culture_weeping_peninsula_elden_ring
+		religion = golden_order 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = maleigh
+		position = { 220 500 }
+		
+		animation = war_over_win
+		
+	}
+	
+}

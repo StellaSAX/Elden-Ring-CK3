@@ -1,0 +1,485 @@
+﻿# Standard Values
+@combat_mult_high = 0.20
+@combat_mult_medium = 0.15
+@combat_mult_low = 0.10
+
+#Elden Ring Knights
+
+#Leyndell Knight
+golden_knight = {
+	category = lifestyle
+	icon = "golden_knight.dds"
+	
+	opposites = {
+		mounted_knight
+		crucible_knight
+		mausoleum_knight
+		sorcerous_knight
+		bloodhound_knight
+		rot_knight
+		ice_knight
+		drake_knight
+		cuckoo_knight
+		frenzied_knight
+		death_knight
+	}
+	
+	ruler_designer_cost = 20
+	
+	monthly_prestige = combat_mult_medium
+	same_opinion = 10
+	prowess_per_prestige_level = 2
+
+	heavy_infantry_toughness_mult = @combat_mult_medium
+	pikemen_toughness_mult = @combat_mult_medium
+	
+	
+	compatibility = {
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+}
+
+#Mounted Knight
+mounted_knight = {
+	category = lifestyle
+	icon = "mounted_knight.dds"
+	
+	opposites = {
+		golden_knight
+		crucible_knight
+		mausoleum_knight
+		sorcerous_knight
+		bloodhound_knight
+		rot_knight
+		ice_knight
+		drake_knight
+		cuckoo_knight
+		frenzied_knight
+		death_knight
+	}
+	
+	ruler_designer_cost = 20
+	prowess_per_prestige_level = 2
+	light_cavalry_damage_mult = @combat_mult_low
+	light_cavalry_toughness_mult = @combat_mult_low
+	heavy_cavalry_damage_mult = @combat_mult_low
+	heavy_cavalry_toughness_mult = @combat_mult_low
+
+	
+	compatibility = {
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+	
+
+}
+
+#Crucible Knight
+crucible_knight = {
+	category = lifestyle
+	icon = "crucible_knight.dds"
+	
+	opposites = {
+		golden_knight
+		mounted_knight
+		mausoleum_knight
+		sorcerous_knight
+		bloodhound_knight
+		rot_knight
+		ice_knight
+		drake_knight
+		cuckoo_knight
+		frenzied_knight
+		death_knight
+	}
+	
+	ruler_designer_cost = 20
+	
+	monthly_prestige = combat_mult_medium
+	same_opinion = 50
+	prowess_per_prestige_level = 2
+	negate_health_penalty_add = 0.25
+	health = 0.5
+	attacker_advantage = 5
+
+	
+	compatibility = {
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+	
+	
+}
+
+#Mausoleum Knight
+mausoleum_knight = {
+	category = lifestyle
+	icon = "mausoleum_knight.dds"
+	
+	opposites = {
+		golden_knight
+		mounted_knight
+		crucible_knight
+		sorcerous_knight
+		bloodhound_knight
+		rot_knight
+		ice_knight
+		drake_knight
+		cuckoo_knight
+		frenzied_knight
+		death_knight
+	}
+	
+	ruler_designer_cost = 20
+	
+	monthly_prestige = combat_mult_medium
+	prowess_per_prestige_level = 2
+	negate_health_penalty_add = 2
+	defender_advantage = 5
+	liege_opinion = 15
+	can_have_children = no
+	
+	compatibility = {
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+	
+
+}
+
+#sorcerous knight
+sorcerous_knight = {
+	category = lifestyle
+	icon = "sorcerous_knight.dds"
+	
+	opposites = {
+		golden_knight
+		mounted_knight
+		crucible_knight
+		mausoleum_knight
+		bloodhound_knight
+		rot_knight
+		ice_knight
+		drake_knight
+		cuckoo_knight
+		frenzied_knight
+		death_knight
+	}
+	
+	ruler_designer_cost = 20
+	
+	monthly_prestige = combat_mult_medium
+	prowess_per_prestige_level = 2
+	learning_per_piety_level = 1
+	
+	
+	compatibility = {
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+	
+}
+
+#Bloodhound Knight
+bloodhound_knight = {
+	category = lifestyle
+	icon = "bloodhound_knight.dds"
+	
+	opposites = {
+		golden_knight
+		mounted_knight
+		crucible_knight
+		mausoleum_knight
+		sorcerous_knight
+		rot_knight
+		ice_knight
+		drake_knight
+		cuckoo_knight
+		frenzied_knight
+		death_knight
+	}
+	
+	ruler_designer_cost = 20
+	
+	monthly_prestige = combat_mult_medium
+	prowess_per_prestige_level = 2
+	hostile_county_attrition = -0.10
+	liege_opinion = 5
+	movement_speed = 0.10
+	
+	compatibility = {
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+	
+}
+
+#rot Knight 
+rot_knight = {
+	category = lifestyle
+	icon = "rot_knight.dds"
+	
+	opposites = {
+		golden_knight
+		mounted_knight
+		crucible_knight
+		mausoleum_knight
+		sorcerous_knight
+		bloodhound_knight
+		ice_knight
+		drake_knight
+		cuckoo_knight
+		death_knight
+		frenzied_knight
+	}
+	
+	ruler_designer_cost = 20
+	
+	monthly_prestige = combat_mult_medium
+	same_opinion = 50
+	prowess_per_prestige_level = 2
+	negate_health_penalty_add = 2
+
+	
+	compatibility = {
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+	
+	
+}
+
+#frenzied Knight
+frenzied_knight = {
+	category = lifestyle
+	icon = "frenzied_knight.dds"
+	
+	opposites = {
+		golden_knight
+		mounted_knight
+		crucible_knight
+		mausoleum_knight
+		bloodhound_knight
+		rot_knight
+		ice_knight
+		drake_knight
+		cuckoo_knight
+		frenzied_knight
+		death_knight
+	}
+	
+	ruler_designer_cost = 20
+	
+	monthly_prestige = combat_mult_medium
+	prowess_per_prestige_level = 2
+	learning = 2
+	general_opinion = -10
+	
+	
+	compatibility = {
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+	
+}
+
+#cuckoo knight
+cuckoo_knight = {
+	category = lifestyle
+	icon = "cuckoo_knight.dds"
+	
+	opposites = {
+		golden_knight
+		mounted_knight
+		crucible_knight
+		mausoleum_knight
+		bloodhound_knight
+		rot_knight
+		ice_knight
+		drake_knight
+		frenzied_knight
+		death_knight
+	}
+	
+	ruler_designer_cost = 20
+	
+	monthly_prestige = combat_mult_medium
+	prowess_per_prestige_level = 1
+	learning = 3
+	
+	
+	compatibility = {
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+	
+}
+
+#drake knight
+drake_knight = {
+	category = lifestyle
+	icon = "drake_knight.dds"
+	
+	opposites = {
+		golden_knight
+		mounted_knight
+		crucible_knight
+		mausoleum_knight
+		bloodhound_knight
+		rot_knight
+		ice_knight
+		cuckoo_knight
+		frenzied_knight
+		death_knight
+	}
+	
+	ruler_designer_cost = 20
+	
+	monthly_prestige = combat_mult_medium
+	prowess_per_prestige_level = 2
+	martial = 3
+	health = 1
+	
+	#i still don't know to to make this work :c
+	# ancient_dragon_opinion = 20
+	# lesser_dragon_opinion = -20
+	
+	compatibility = {
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+	
+}
+
+#Knight of zamor(ice)
+ice_knight = {
+	category = lifestyle
+	icon = "ice_knight.dds"
+	
+	opposites = {
+		golden_knight
+		mounted_knight
+		crucible_knight
+		mausoleum_knight
+		bloodhound_knight
+		rot_knight
+		drake_knight
+		cuckoo_knight
+		frenzied_knight
+		death_knight
+	}
+	
+	ruler_designer_cost = 20
+	
+	monthly_prestige = combat_mult_medium
+	prowess_per_prestige_level = 2
+	winter_movement_speed = 0.2
+	winter_advantage = 10
+	
+	compatibility = {
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+	
+}
+
+#death knight(from the deathbirds, raptor set)
+death_knight = {
+	category = lifestyle
+	icon = "death_knight.dds"
+	
+	opposites = {
+		golden_knight
+		mounted_knight
+		crucible_knight
+		sorcerous_knight
+		bloodhound_knight
+		rot_knight
+		ice_knight
+		drake_knight
+		cuckoo_knight
+		frenzied_knight
+	}
+	
+	ruler_designer_cost = 20
+	
+	monthly_prestige = combat_mult_medium
+	prowess_per_prestige_level = 2
+	negate_health_penalty_add = 2
+	health = 1
+	advantage = 3
+
+	compatibility = {
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+	
+
+}
+
+horned_warrior = {
+	category = lifestyle
+	icon = "horned_warrior.dds"
+	
+	opposites = {
+		mounted_knight
+		crucible_knight
+		mausoleum_knight
+		sorcerous_knight
+		bloodhound_knight
+		rot_knight
+		ice_knight
+		drake_knight
+		cuckoo_knight
+		frenzied_knight
+		death_knight
+	}
+	
+	ruler_designer_cost = 20
+	
+	monthly_prestige = combat_mult_medium
+	same_opinion = 10
+	prowess_per_prestige_level = 2
+	attacker_advantage = 5
+	defender_advantage = 5
+	
+	compatibility = {
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+}
+
+divine_beast_warrior = {
+	category = lifestyle
+	icon = "divine_beast_warrior.dds"
+	
+	opposites = {
+		golden_knight
+		mounted_knight
+		mausoleum_knight
+		sorcerous_knight
+		bloodhound_knight
+		rot_knight
+		ice_knight
+		drake_knight
+		cuckoo_knight
+		frenzied_knight
+		death_knight
+	}
+	
+	ruler_designer_cost = 20
+	
+	monthly_prestige = combat_mult_medium
+	same_opinion = 50
+	prowess_per_prestige_level = 3
+	negate_health_penalty_add = 0.5
+	health = 0.5
+	attacker_advantage = 10
+	defender_advantage = 5
+	
+	compatibility = {
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+}

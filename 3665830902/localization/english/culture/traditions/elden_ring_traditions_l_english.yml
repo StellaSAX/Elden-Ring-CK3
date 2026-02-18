@@ -1,0 +1,17 @@
+﻿l_english:
+
+tradition_hornsent_spiral_name:0 "Hornsent"
+tradition_hornsent_spiral_desc:0 "The Crucible is great and powerful, and with the correct metods we can be closer to it, blessed by the power of the divine, and with dance we can manifest it."
+culture_parameter_convert_crucible_to_spiral:0 "Children that were suposed to be born with [GetTrait('crucible_affinity').GetName( GetNullCharacter )] will be born with [GetTrait('spiral_affinity').GetName( GetNullCharacter )] instead, and Spiral Affinity will be more common."
+
+tradition_carian_royal_name:0 "Carian Royalty"
+tradition_carian_royal_desc:0 "We learned to watch the stars and study them, they hide great power, and we will imitate them with our sorceries."
+culture_parameter_glintstone_affinity_more_common:0 "[GetTrait('glintstone_affinity').GetName( GetNullCharacter )] will be more common in births."
+
+tradition_golden_order_name:0 "Order"
+tradition_golden_order_desc:0 "There is one god, and they walk amoung us, their word is law and they gifted us with a long life, may their order last eternal!"
+culture_parameter_order_affinity_more_common:0 "[GetTrait('order_affinity').GetName( GetNullCharacter )] will be more common in births."
+
+tradition_giants_fire_name:0 "Giants' Flame"
+tradition_giants_fire_desc:0 "Long ago the Giants walked in this world, they are gone, but we learned to imitate their connection to the Flame, some of us may even have a drop of their blood."
+culture_parameter_giants_and_fire_at_birth:0 "[GetTrait('fire_affinity').GetName( GetNullCharacter )] and [GetTrait('giant').GetName( GetNullCharacter )] are more common in births."

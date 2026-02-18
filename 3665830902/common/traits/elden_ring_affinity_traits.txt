@@ -1,0 +1,420 @@
+﻿
+order_affinity = {
+	ruler_designer_cost = 10
+	icon = order_affinity.dds
+	same_opinion = 5
+	diplomacy = 1
+	stewardship = 1
+	health = 1
+	opposites = {	
+		frenzy_affinity
+		glintstone_affinity
+		rot_affinity
+		crucible_affinity
+		fire_affinity
+		ice_affinity
+		gravity_affinity
+		lightning_affinity
+		death_affinity
+		blood_affinity
+		sleep_affinity
+		spiral_affinity
+		black_flame_affinity
+		bestial_affinity
+		dragon_affinity
+	}
+}
+
+frenzy_affinity = {
+	ruler_designer_cost = 10
+	icon = frenzy_affinity.dds
+	same_opinion = 5
+	prowess = 3
+	martial = 1
+	dread_baseline_add = 20
+	general_opinion = -10
+	opposites = {
+		order_affinity		
+		glintstone_affinity
+		rot_affinity
+		crucible_affinity
+		fire_affinity
+		ice_affinity
+		gravity_affinity
+		lightning_affinity
+		black_flame_affinity
+		death_affinity
+		blood_affinity
+		sleep_affinity
+		spiral_affinity
+		bestial_affinity
+		dragon_affinity
+	}
+}
+
+glintstone_affinity = {
+	ruler_designer_cost = 10
+	icon = "glintstone_affinity.dds"
+	same_opinion = 5
+	learning = 2
+	intrigue = 1
+	opposites = {
+		order_affinity
+		frenzy_affinity		
+		rot_affinity
+		crucible_affinity
+		fire_affinity
+		ice_affinity
+		black_flame_affinity
+		gravity_affinity
+		lightning_affinity
+		death_affinity
+		blood_affinity
+		sleep_affinity
+		spiral_affinity
+		bestial_affinity
+		dragon_affinity
+	}
+}
+
+rot_affinity = {
+	ruler_designer_cost = 10
+	icon = "rot_affinity.dds"
+	same_opinion = 5
+	health = 1
+	intrigue = 1
+	attraction_opinion = -10
+	fertility = 0.10
+	opposites = {
+		order_affinity
+		frenzy_affinity
+		glintstone_affinity		
+		crucible_affinity
+		fire_affinity
+		ice_affinity
+		gravity_affinity
+		black_flame_affinity
+		lightning_affinity
+		death_affinity
+		blood_affinity
+		sleep_affinity
+		spiral_affinity
+		bestial_affinity
+		dragon_affinity
+	}
+}
+
+crucible_affinity = {
+	ruler_designer_cost = 10
+	icon = "crucible_affinity.dds"
+	same_opinion = 5
+	martial = 1
+	prowess = 3
+	health = 1
+	opposites = {
+		order_affinity
+		frenzy_affinity
+		glintstone_affinity
+		rot_affinity		
+		fire_affinity
+		ice_affinity
+		gravity_affinity
+		lightning_affinity
+		death_affinity
+		blood_affinity
+		sleep_affinity
+		spiral_affinity
+		bestial_affinity
+		black_flame_affinity
+		dragon_affinity
+	}
+}
+
+fire_affinity = {
+	ruler_designer_cost = 10
+	icon = "fire_affinity.dds"
+	same_opinion = 5
+	negate_health_penalty_add = 1
+	stewardship = 1
+	martial = 1
+	opposites = {
+		order_affinity
+		frenzy_affinity
+		glintstone_affinity
+		rot_affinity
+		crucible_affinity		
+		ice_affinity
+		gravity_affinity
+		lightning_affinity
+		death_affinity
+		blood_affinity
+		black_flame_affinity
+		sleep_affinity
+		spiral_affinity
+		bestial_affinity
+		dragon_affinity
+	}
+}
+
+ice_affinity = {
+	ruler_designer_cost = 10
+	icon = "ice_affinity.dds"
+	same_opinion = 5
+	learning = 1
+	prowess = 3
+	owned_hostile_scheme_success_chance_add = 5
+	opposites = {
+		order_affinity
+		frenzy_affinity
+		glintstone_affinity
+		rot_affinity
+		crucible_affinity
+		fire_affinity		
+		gravity_affinity
+		lightning_affinity
+		death_affinity
+		blood_affinity
+		sleep_affinity
+		spiral_affinity
+		black_flame_affinity
+		bestial_affinity
+		dragon_affinity
+	}
+}
+
+gravity_affinity = {
+	ruler_designer_cost = 10
+	icon = "gravity_affinity.dds"
+	same_opinion = 5
+	learning = 1
+	attraction_opinion = 5 #this is here for the joke more than anything
+	prowess = 3
+	opposites = {
+		order_affinity
+		frenzy_affinity
+		glintstone_affinity
+		rot_affinity
+		crucible_affinity
+		fire_affinity
+		ice_affinity		
+		lightning_affinity
+		death_affinity
+		black_flame_affinity
+		blood_affinity
+		sleep_affinity
+		spiral_affinity
+		bestial_affinity
+		dragon_affinity
+	}
+}
+
+lightning_affinity = {
+	ruler_designer_cost = 10
+	icon = "lightning_affinity.dds"
+	same_opinion = 5
+	diplomacy = 1
+	martial = 1
+	vassal_opinion = 5
+	opposites = {
+		order_affinity
+		frenzy_affinity
+		glintstone_affinity
+		rot_affinity
+		crucible_affinity
+		fire_affinity
+		ice_affinity
+		gravity_affinity		
+		death_affinity
+		blood_affinity
+		black_flame_affinity
+		sleep_affinity
+		spiral_affinity
+		bestial_affinity
+		dragon_affinity
+	}
+}
+
+death_affinity = {
+	ruler_designer_cost = 10
+	icon = "death_affinity.dds"
+	same_opinion = 5
+	negate_health_penalty_add = 1
+	dread_baseline_add = 10
+	health = 1
+	opposites = {
+		order_affinity
+		frenzy_affinity
+		glintstone_affinity
+		rot_affinity
+		crucible_affinity
+		fire_affinity
+		ice_affinity
+		gravity_affinity
+		lightning_affinity		
+		blood_affinity
+		sleep_affinity
+		spiral_affinity
+		black_flame_affinity
+		bestial_affinity
+		dragon_affinity
+	}
+}
+
+blood_affinity = {
+	ruler_designer_cost = 10
+	icon = "blood_affinity.dds"
+	same_opinion = 5
+	martial = 1
+	fertility = 0.1
+	prowess = 3
+	opposites = {
+		order_affinity
+		frenzy_affinity
+		glintstone_affinity
+		rot_affinity
+		crucible_affinity
+		fire_affinity
+		ice_affinity
+		gravity_affinity
+		lightning_affinity
+		death_affinity		
+		sleep_affinity
+		spiral_affinity
+		black_flame_affinity
+		bestial_affinity
+		dragon_affinity
+	}
+}
+
+dragon_affinity = {
+	ruler_designer_cost = 10
+	icon = "dragon_affinity.dds"
+	same_opinion = 5
+	prowess = 6
+	dread_baseline_add = 10
+	opposites = {
+		order_affinity
+		frenzy_affinity
+		glintstone_affinity
+		rot_affinity
+		crucible_affinity
+		fire_affinity
+		ice_affinity
+		gravity_affinity
+		lightning_affinity
+		death_affinity
+		blood_affinity		
+		black_flame_affinity
+		sleep_affinity
+		spiral_affinity
+		bestial_affinity
+	}
+}
+
+black_flame_affinity = {
+	ruler_designer_cost = 10
+	icon = "black_flame_affinity.dds"
+	same_opinion = 5
+	prowess = 3
+	intrigue = 1
+	learning = 1
+	opposites = {
+		order_affinity
+		frenzy_affinity
+		glintstone_affinity
+		rot_affinity
+		crucible_affinity
+		fire_affinity
+		ice_affinity
+		gravity_affinity
+		lightning_affinity
+		death_affinity
+		blood_affinity
+		dragon_affinity
+		sleep_affinity
+		spiral_affinity
+		bestial_affinity
+	}
+}
+
+sleep_affinity = {
+	ruler_designer_cost = 10
+	icon = "sleep_affinity.dds"
+	same_opinion = 5
+	stress_loss_mult = 0.1
+	stress_gain_mult = -0.1
+	diplomacy = 1
+	opposites = {
+		order_affinity
+		frenzy_affinity
+		glintstone_affinity
+		rot_affinity
+		crucible_affinity
+		fire_affinity
+		ice_affinity
+		gravity_affinity
+		lightning_affinity
+		death_affinity
+		blood_affinity
+		dragon_affinity
+		black_flame_affinity
+		spiral_affinity
+		bestial_affinity
+	}
+}
+
+spiral_affinity = {
+	ruler_designer_cost = 10
+	icon = "spiral_affinity.dds"
+	same_opinion = 5
+	
+	learning = 3
+	prowess = 5
+	health = 1
+	
+	opposites = {
+		order_affinity
+		frenzy_affinity
+		glintstone_affinity
+		rot_affinity
+		crucible_affinity
+		fire_affinity
+		ice_affinity
+		gravity_affinity
+		lightning_affinity
+		death_affinity
+		blood_affinity
+		dragon_affinity
+		black_flame_affinity
+		sleep_affinity
+		bestial_affinity
+	}
+}
+
+bestial_affinity = {
+	ruler_designer_cost = 10
+	icon = "bestial_affinity.dds"
+	same_opinion = 5
+	
+	learning = 1
+	prowess = 3
+	martial = 1
+	
+	opposites = {
+		order_affinity
+		frenzy_affinity
+		glintstone_affinity
+		rot_affinity
+		crucible_affinity
+		fire_affinity
+		ice_affinity
+		gravity_affinity
+		lightning_affinity
+		death_affinity
+		blood_affinity
+		dragon_affinity
+		black_flame_affinity
+		sleep_affinity
+		spiral_affinity
+	}
+}

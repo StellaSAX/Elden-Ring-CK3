@@ -1,0 +1,88 @@
+﻿namespace = become_god_elden_ring
+
+
+become_god_elden_ring.0001 = { #become a god
+
+	type = character_event
+	desc = become_god_elden_ring.0001.desc
+	title = become_god_elden_ring.0001.title
+	theme = war
+
+	left_portrait = {
+		character = ROOT 
+		animation = marshal 
+	}
+	
+	immediate = {
+		remove_trait = empyrean_elden_ring
+		remove_trait = demigod_elden_ring
+		remove_trait = eternal_youth_elden_ring
+	}
+	
+	option = { # become GOD
+	name = become_god_elden_ring.0001.a
+		
+		add_trait = god_elden_ring
+		add_character_modifier = {
+			modifier = religious_reformer_modifier
+		}
+		ai_chance = {
+			base = 10 
+		}
+	}
+	
+}
+
+become_god_elden_ring.0002 = { #Gain Army
+
+	type = character_event
+	desc = become_god_elden_ring.0002.desc
+	title = become_god_elden_ring.0002.title
+	theme = war
+
+	left_portrait = {
+		character = ROOT 
+		animation = marshal 
+	}
+	
+	immediate = {
+		
+	}
+	
+	option = { # become GOD
+		name = become_god_elden_ring.0002.a
+		
+		add_pressed_claim = location.county
+		add_pressed_claim = location.county.duchy
+		add_pressed_claim = location.county.duchy.kingdom
+		add_pressed_claim = location.county.duchy.kingdom.empire
+		
+		spawn_army = {
+			name = dragonborn_followers
+			location = root.location
+			inheritable = no
+			war_keep_on_attacker_victory = yes
+			levies = 1500
+			men_at_arms = {
+				type = light_footmen
+				men = 300
+			}
+			men_at_arms = {
+				type = bowmen
+				men = 300
+			}
+			men_at_arms = {
+				type = light_horsemen
+				men = 300
+			}
+			men_at_arms = {
+				type = pikemen_unit
+				men = 300
+			}
+			
+			
+		}
+		
+	}
+	
+}

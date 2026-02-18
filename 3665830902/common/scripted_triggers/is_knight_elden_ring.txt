@@ -1,0 +1,41 @@
+﻿is_knight_elden_ring = {
+	OR = {
+		has_trait = golden_knight
+		has_trait = mounted_knight
+		has_trait = crucible_knight
+		has_trait = mausoleum_knight
+		has_trait = sorcerous_knight
+		has_trait = bloodhound_knight
+		has_trait = rot_knight
+		has_trait = frenzied_knight
+		has_trait = cuckoo_knight
+		has_trait = drake_knight
+		has_trait = ice_knight
+		has_trait = death_knight
+		has_trait = beast_clergy
+		has_trait = sleep_cleric
+		has_trait = divine_beast_warrior
+	}
+}
+
+has_affinity_elden_ring = {
+	OR = {
+		has_trait = order_affinity
+		has_trait = frenzy_affinity
+		has_trait = glintstone_affinity
+		has_trait = rot_affinity
+		has_trait = crucible_affinity
+		has_trait = fire_affinity
+		has_trait = ice_affinity
+		has_trait = gravity_affinity
+		has_trait = lightning_affinity
+		has_trait = death_affinity
+		has_trait = blood_affinity
+		has_trait = dragon_affinity
+		has_trait = black_flame_affinity
+		has_trait = sleep_affinity
+		has_trait = spiral_affinity
+		has_trait = bestial_affinity
+	}
+
+}

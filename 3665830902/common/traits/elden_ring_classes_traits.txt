@@ -1,0 +1,204 @@
+﻿
+#Elden Ring other classes
+
+#snow witch
+snow_witch = {
+	category = lifestyle
+	icon = "snow_witch.dds"
+	
+	opposites = {
+		fire_monk
+		godskin_apostle
+		sanguine_noble
+		black_assassin
+		sleep_cleric
+		beast_clergy
+	}
+	
+	ruler_designer_cost = 20
+	
+	learning_per_piety_level = 1
+	siege_phase_time = -0.10
+	army_siege_value_mult = 0.5
+
+}
+
+#fire monk
+fire_monk = {
+	category = lifestyle
+	icon = "fire_monk.dds"
+	
+	opposites = {
+		snow_witch
+		death_companion
+		sanguine_noble
+		godskin_apostle
+		sleep_cleric
+		beast_clergy
+	}
+	
+	ruler_designer_cost = 20
+	
+	learning = 3
+	siege_phase_time = -0.10
+	martial_per_piety_level = 1
+	advantage = 5
+	enemy_hard_casualty_modifier = 0.1
+}
+
+#godskin apostle
+godskin_apostle = {
+	category = lifestyle
+	icon = "godskin_apostle.dds"
+	
+	opposites = {
+		snow_witch
+		death_companion
+		sanguine_noble
+		sleep_cleric
+		beast_clergy
+	}
+	
+	ruler_designer_cost = 20
+	
+	prowess = 10
+	martial_per_piety_level = 1
+	intrigue_per_piety_level = 1
+	advantage = 10
+	enemy_hard_casualty_modifier = 0.3
+}
+
+black_assassin = {
+	category = lifestyle
+	icon = "black_assassin.dds"
+	
+	opposites = {
+		snow_witch
+		godskin_apostle
+		sanguine_noble
+		sleep_cleric
+		beast_clergy
+	}
+	
+	ruler_designer_cost = 20
+	
+	prowess = 4
+	intrigue_per_piety_level = 1
+	owned_hostile_scheme_success_chance_max_add = 20
+	hostile_scheme_phase_duration_add = medium_scheme_phase_duration_bonus_value
+	
+	compatibility = {
+		schemer = @pos_compat_medium
+		seducer = @pos_compat_medium
+		torturer = @pos_compat_medium
+		deceitful = @pos_compat_low
+		honest = @neg_compat_low
+	}
+	
+}
+
+death_companion = {
+	category = lifestyle
+	icon = "death_companion.dds"
+	
+	opposites = {
+		snow_witch
+		godskin_apostle
+		sleep_cleric
+		beast_clergy
+	}
+	
+	ruler_designer_cost = 20
+	
+	attraction_opinion = 30
+	seduce_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+	courting_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+
+	
+}
+
+sanguine_noble = {
+	category = lifestyle
+	icon = "sanguine_noble.dds"
+	
+	opposites = {
+		snow_witch
+		lord_of_blood
+		death_companion
+		godskin_apostle
+		sleep_cleric
+		beast_clergy
+	}
+	
+	enemy_hard_casualty_modifier = 0.1
+	prowess_per_stress_level = 1
+	prowess_per_piety_level = 1
+	health = 1
+	
+	ruler_designer_cost = 20
+	
+	
+	
+}
+
+lord_of_blood = {
+	category = lifestyle
+	icon = "lord_of_blood.dds"
+	
+	opposites = {
+		snow_witch
+		sanguine_noble
+		death_companion
+		godskin_apostle
+		sleep_cleric
+		beast_clergy
+	}
+	
+	enemy_hard_casualty_modifier = 0.15
+	prowess_per_stress_level = 2
+	prowess_per_piety_level = 2
+	knight_effectiveness_mult = 0.2
+	health = 2
+	monthly_legitimacy_add = 1
+	
+	ruler_designer_cost = 20
+}
+
+
+beast_clergy = {
+	category = lifestyle
+	icon = "beast_clergy.dds"
+	
+	opposites = {
+		fire_monk
+		godskin_apostle
+		sanguine_noble
+		black_assassin
+		sleep_cleric
+	}
+	
+	ruler_designer_cost = 20
+	
+	prowess_per_piety_level = 1
+	martial_per_piety_level = 1
+	learning = 2
+
+}
+sleep_cleric = {
+	category = lifestyle
+	icon = "sleep_cleric.dds"
+	
+	opposites = {
+		fire_monk
+		godskin_apostle
+		sanguine_noble
+		black_assassin
+		beast_clergy
+	}
+	
+	ruler_designer_cost = 20
+	
+	learning_per_piety_level = 1
+	diplomacy = 2
+	stress_loss_mult = 0.3
+}

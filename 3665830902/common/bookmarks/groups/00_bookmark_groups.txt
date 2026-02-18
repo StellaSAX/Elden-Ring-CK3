@@ -1,0 +1,3 @@
+﻿bm_group_867 = {
+	default_start_date = 867.1.1
+}

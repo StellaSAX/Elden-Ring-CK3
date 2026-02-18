@@ -1,0 +1,66 @@
+﻿on_birth_child = {
+    on_actions = {
+        on_action_child_aspect_crucible
+		on_action_omen_birth
+    }
+}
+
+
+
+on_action_child_aspect_crucible = {
+	effect = {
+		if = { # the parents have crucible affinity or is omen or misbegotten
+			limit = {
+				OR = {
+					scope:real_father = {
+						OR = {
+							has_trait = crucible_affinity
+							has_trait = omen_horn_trait
+							has_trait = omen_no_horn_trait
+							has_trait = spiral_affinity
+						}
+						
+					}
+					scope:mother = {
+						OR = {
+							has_trait = crucible_affinity
+							has_trait = omen_horn_trait
+							has_trait = omen_no_horn_trait
+							has_trait = spiral_affinity
+						}
+					}
+				}
+			}
+			random_list = {
+				10 = {
+					add_trait = omen_horn_trait
+				}
+				90 = {
+				
+				}		
+			}
+			random_list = {
+				10 = {
+					add_trait = crucible_affinity
+				}
+				90 = {
+				
+				}		
+			}
+		}
+		
+	}
+}
+
+on_action_omen_birth = {
+	effect = {
+		random_list = {
+			1 = {
+				add_trait = omen_horn_trait
+			}
+			99 = {
+			
+			}		
+		}	
+	}
+}

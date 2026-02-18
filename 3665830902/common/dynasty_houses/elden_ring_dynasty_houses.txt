@@ -1,0 +1,17 @@
+﻿house_gelmir_caria = {
+	name = "dynn_gelmir_caria"
+	dynasty = caria
+	motto = gelmir_caria_motto
+}
+
+house_malenia_erdtree = {
+	name = "dynn_malenia_erdtree"
+	dynasty = erdtree
+	motto = malenia_erdtree_motto
+}
+
+house_mohgwyn_erdtree = {
+	name = "dynn_mohgwyn_erdtree"
+	dynasty = erdtree
+	motto = mohgwyn_erdtree_motto
+}

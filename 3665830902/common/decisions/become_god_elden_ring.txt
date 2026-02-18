@@ -1,0 +1,324 @@
+﻿become_god_being_empyrean_elden_ring = {
+	ai_check_interval = 60
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	}
+	sort_order = 10
+	decision_group_type = decisions
+
+	is_shown = {
+		OR = {
+			has_trait = empyrean_elden_ring
+			has_trait = demigod_elden_ring
+		}
+		highest_held_title_tier >= tier_kingdom
+	}
+	
+	is_valid = {
+		piety_level >= 4
+		prestige_level >= 4
+		is_independent_ruler = yes
+		OR = {
+			custom_tooltip = {
+				text = has_elden_ring
+				any_character_artifact = { has_variable = elden_ring_variable }
+			}
+			custom_tooltip = {
+				text = has_elden_ring
+				any_artifact = { has_variable = elden_ring_variable }
+			}
+		}
+		
+		
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		
+	}
+
+	cost = {
+		gold = {
+			value = 2000
+		}
+		piety = {
+			value = 3000
+		} 
+		# gold = {
+			# value = minor_gold_value
+		# }
+		# prestige = {
+			# value = medium_prestige_value
+		# }
+	}
+
+	#cooldown = { years = 5 }
+	cooldown = { years = 1 }
+	ai_check_interval = { 24 }
+	effect = {
+		custom_tooltip = {
+			text = becoming_dragonborn_decision_effect_1
+			trigger_event = { id = become_god_elden_ring.0001 }
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+	
+	ai_will_do = {
+		base = 100
+	}
+}
+
+
+become_empyrean_elden_ring = {
+	
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	}
+	sort_order = 10
+	decision_group_type = decisions
+
+	is_shown = {
+		NOR = {
+			has_trait = empyrean_elden_ring
+			has_trait = demigod_elden_ring
+			has_trait = god_elden_ring
+		}
+	}
+	
+	is_valid = {
+		piety_level >= 4
+		highest_held_title_tier >= tier_kingdom
+		is_independent_ruler = yes
+		sub_realm_size >= 30
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+	}
+
+	cost = {
+		piety = {
+			value = 5000
+		} 
+		# gold = {
+			# value = minor_gold_value
+		# }
+		# prestige = {
+			# value = medium_prestige_value
+		# }
+	}
+
+	#cooldown = { years = 5 }
+	cooldown = { years = 1 }
+	
+	ai_check_interval = { 0 }
+
+	effect = {
+		add_trait = empyrean_elden_ring
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+	
+	ai_will_do = {
+		base = 0
+	}
+}
+
+easy_become_conqueror_for_empyrean_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/fp2_decision_struggle_hostility.dds"
+	}
+	sort_order = 400
+	decision_group_type = adventurer
+	desc = become_conqueror_decision_desc
+	selection_tooltip = become_conqueror_decision_tooltip
+
+	is_shown = {
+		has_ep3_dlc_trigger = yes
+		government_has_flag = government_is_landless_adventurer
+		NOR = {
+			has_game_rule = no_conquerors_frequency
+			has_character_flag = had_laamp_conq_decision
+			has_trait = conqueror
+		}
+		trigger_if = {
+			limit = {
+				is_ai = yes
+				OR = {
+					exists = location.county.holder
+					exists = location.duchy.holder
+					exists = location.county.holder.top_liege
+				}
+			}
+			NOT = {
+				any_player = {
+					OR = {
+						this = location.county.holder
+						this = location.duchy.holder
+						this = location.county.holder.top_liege
+					}
+				}
+			}
+		}
+	}
+
+	is_valid = {
+		martial >= 15
+		prestige_level >= 3
+		piety_level >= 3
+		has_trait = empyrean_elden_ring
+	}
+
+	is_valid_showing_failures_only = {
+		NOT = {
+			has_trait = incapable
+		}
+	}
+
+	cost = {
+		prestige = 1000
+	}
+
+	effect = {
+		custom_tooltip = become_conqueror_decision_reward
+		custom_tooltip = become_conqueror_decision_troops
+		if = {
+			limit = { has_dlc_feature = legends }
+			custom_tooltip = become_conqueror_decision_legend_seed
+		}
+		trigger_event = ep3_laamp_decision_event.1110
+		show_as_tooltip = {
+			if = {
+				limit = {
+					exists = location.kingdom.holder
+				}
+				add_pressed_claim = location.kingdom
+				start_war = {
+					cb = ep3_laamp_adventurer_kingdom_invasion
+					target = location.kingdom.holder
+					claimant = root
+					target_title = location.kingdom
+					target_title = location.kingdom.title_capital_county
+				}
+			}
+			else_if = {
+				limit = {
+					exists = location.duchy.holder
+				}
+				add_pressed_claim = location.duchy
+				start_war = {
+					cb = claim_cb
+					target = location.duchy.holder
+					claimant = root
+					target_title = location.duchy
+					target_title = location.duchy.title_capital_county
+				}
+			}
+			else_if = {
+				limit = {
+					exists = location.county.holder
+				}
+				add_pressed_claim = location.county
+				start_war = {
+					cb = claim_cb
+					target = location.county.holder
+					claimant = root
+					target_title = location.county
+				}
+			}
+		}
+		
+	}
+	ai_check_interval = 12
+}
+
+easy_become_conqueror_for_landed_empyrean_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/fp2_decision_struggle_hostility.dds"
+	}
+	sort_order = 400
+	decision_group_type = decisions
+	desc = become_conqueror_decision_desc
+	selection_tooltip = become_conqueror_decision_tooltip
+
+	is_shown = {
+		NOR = {
+			has_character_flag = had_laamp_conq_decision
+			has_trait = conqueror
+		}
+		has_trait = empyrean_elden_ring
+	}
+
+	is_valid = {
+		prestige_level >= 3
+		piety_level >= 3
+		has_trait = empyrean_elden_ring
+	}
+
+	is_valid_showing_failures_only = {
+		NOT = {
+			has_trait = incapable
+		}
+	}
+
+	cost = {
+		prestige = 1000
+	}
+
+	effect = {
+		custom_tooltip = become_conqueror_decision_reward
+		custom_tooltip = become_conqueror_decision_troops
+		if = {
+			limit = { has_dlc_feature = legends }
+			custom_tooltip = become_conqueror_decision_legend_seed
+		}
+		trigger_event = ep3_laamp_decision_event.1110
+		show_as_tooltip = {
+			if = {
+				limit = {
+					exists = location.kingdom.holder
+				}
+				add_pressed_claim = location.kingdom
+				start_war = {
+					cb = ep3_laamp_adventurer_kingdom_invasion
+					target = location.kingdom.holder
+					claimant = root
+					target_title = location.kingdom
+					target_title = location.kingdom.title_capital_county
+				}
+			}
+			else_if = {
+				limit = {
+					exists = location.duchy.holder
+				}
+				add_pressed_claim = location.duchy
+				start_war = {
+					cb = claim_cb
+					target = location.duchy.holder
+					claimant = root
+					target_title = location.duchy
+					target_title = location.duchy.title_capital_county
+				}
+			}
+			else_if = {
+				limit = {
+					exists = location.county.holder
+				}
+				add_pressed_claim = location.county
+				start_war = {
+					cb = claim_cb
+					target = location.county.holder
+					claimant = root
+					target_title = location.county
+				}
+			}
+		}
+		
+	}
+	ai_check_interval = 12
+}

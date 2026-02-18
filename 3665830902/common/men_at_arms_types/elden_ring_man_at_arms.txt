@@ -1,0 +1,359 @@
+﻿# standard costs
+@maa_buy_cost = 150
+@maa_low_maintenance_cost = 1.0
+@maa_high_maintenance_cost = 5.0
+
+# Must be synced between files with the values located at "# Provisions Costs #".
+@provisions_cost_infantry_cheap = 3
+@provisions_cost_infantry_moderate = 7
+@provisions_cost_infantry_expensive = 12
+@provisions_cost_infantry_bankrupting = 15
+
+@provisions_cost_cavalry_cheap = 7
+@provisions_cost_cavalry_moderate = 15
+@provisions_cost_cavalry_expensive = 21
+@provisions_cost_cavalry_bankrupting = 30
+
+@provisions_cost_special_cheap = 6
+@provisions_cost_special_moderate = 12
+@provisions_cost_special_expensive = 18
+@provisions_cost_special_bankrupting = 24
+
+@cultural_maa_extra_ai_score = 80
+
+#HORNSENT
+horned_warrior = {
+	type = heavy_infantry
+	
+	damage = 40
+	toughness = 40
+	pursuit = 0
+	screen = 0
+
+	counters = {
+		pikemen = 1
+		skirmishers = 1
+		light_cavalry = 1
+		heavy_cavalry = 1
+	}
+	
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = convert_crucible_to_spiral
+		}
+	}
+
+	buy_cost = { gold = 250 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1 }
+
+	stack = 50
+	allowed_in_hired_troops = no
+	icon = horned_warrior
+}
+
+divine_bird_warrior = {
+	type = heavy_infantry
+	
+	damage = 100
+	toughness = 50
+	pursuit = 10
+	screen = 10
+	
+	siege_tier = 3
+	siege_value = 0.4
+	
+	counters = {
+		pikemen = 1
+		skirmishers = 1
+		light_cavalry = 1
+		heavy_cavalry = 1
+	}
+
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = convert_crucible_to_spiral
+		}
+	}
+
+	buy_cost = { gold = 250 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1 }
+
+	stack = 10
+	allowed_in_hired_troops = no
+	icon = divine_bird_warrior
+}
+
+hornsent_inquisitor = {
+	type = archers
+	
+	damage = 60
+	toughness = 10
+	pursuit = 0
+	screen = 0
+	
+	siege_tier = 3
+	siege_value = 0.4
+	
+	counters = {
+		skirmishers = 1
+		heavy_infantry = 1
+		light_cavalry = 1
+		heavy_cavalry = 1
+		pikemen = 1
+	}
+	
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = convert_crucible_to_spiral
+		}
+	}
+
+	buy_cost = { gold = 250 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1 }
+
+	stack = 50
+	allowed_in_hired_troops = no
+	icon = hornsent_inquisitor
+}
+
+hornsent_curseblade = {
+	type = skirmishers
+	
+	damage = 40
+	toughness = 20
+	pursuit = 50
+	screen = 50
+	
+	counters = {
+		heavy_infantry = 1
+		light_cavalry = 1
+		heavy_cavalry = 1
+		pikemen = 1
+	}
+
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = convert_crucible_to_spiral
+		}
+	}
+
+	buy_cost = { gold = 250 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1 }
+
+	stack = 50
+	allowed_in_hired_troops = no
+	icon = wyvern_rider
+}
+
+#CARIAN
+troll_knight = {
+	type = heavy_infantry
+	
+	damage = 100
+	toughness = 100
+	pursuit = 0
+	screen = 0
+	
+	siege_tier = 3
+	siege_value = 0.4
+
+	counters = {
+		pikemen = 1
+		skirmishers = 1
+		light_cavalry = 1
+		heavy_cavalry = 1
+	}
+	
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = glintstone_affinity_more_common
+		}
+	}
+
+	buy_cost = { gold = 250 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1 }
+
+	stack = 10
+	allowed_in_hired_troops = no
+	icon = troll_knight
+}
+
+glintstone_miner = {
+	type = skirmishers
+	
+	damage = 15
+	toughness = 10
+	pursuit = 0
+	screen = 0
+	
+	siege_tier = 3
+	siege_value = 0.4
+
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = glintstone_affinity_more_common
+		}
+	}
+
+	buy_cost = { gold = 100 }
+	low_maintenance_cost = { gold = 0.1 }
+	high_maintenance_cost = { gold = 0.25 }
+
+	stack = 100
+	allowed_in_hired_troops = no
+	icon = glintstone_miner
+}
+
+battlemage_carian = {
+	type = archers
+	
+	damage = 60
+	toughness = 10
+	pursuit = 20
+	screen = 0
+	
+	siege_tier = 2
+	siege_value = 0.2
+	
+	counters = {
+		skirmishers = 1
+		heavy_infantry = 1
+		light_cavalry = 1
+		heavy_cavalry = 1
+		pikemen = 1
+	}
+	
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = glintstone_affinity_more_common
+		}
+	}
+
+	buy_cost = { gold = 250 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1 }
+
+	stack = 50
+	allowed_in_hired_troops = no
+	icon = battlemage_carian
+}
+
+lazuli_sorcerer = {
+	type = skirmishers
+	
+	damage = 50
+	toughness = 20
+	pursuit = 40
+	screen = 0
+	
+	counters = {
+		heavy_infantry = 1
+		light_cavalry = 1
+		heavy_cavalry = 1
+		pikemen = 1
+	}
+
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = glintstone_affinity_more_common
+		}
+	}
+
+	buy_cost = { gold = 250 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1 }
+
+	stack = 50
+	allowed_in_hired_troops = no
+	icon = lazuli_sorcerer
+}
+
+#ORDER
+gold_knight = {
+	type = heavy_infantry
+	
+	damage = 50
+	toughness = 40
+	pursuit = 0
+	screen = 0
+	
+	counters = {
+		pikemen = 1
+		skirmishers = 1
+		light_cavalry = 1
+		heavy_cavalry = 1
+	}
+	
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = order_affinity_more_common
+		}
+	}
+
+	buy_cost = { gold = 250 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1 }
+
+	stack = 100
+	allowed_in_hired_troops = no
+	icon = gold_knight
+}
+
+golden_soldier = {
+	type = skirmishers
+	
+	damage = 15
+	toughness = 10
+	pursuit = 0
+	screen = 0
+
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = order_affinity_more_common
+		}
+	}
+
+	buy_cost = { gold = 100 }
+	low_maintenance_cost = { gold = 0.1 }
+	high_maintenance_cost = { gold = 0.25 }
+
+	stack = 100
+	allowed_in_hired_troops = no
+	icon = golden_soldier
+}
+
+tree_sentinel = {
+	type = heavy_infantry
+	
+	damage = 100
+	toughness = 50
+	pursuit = 50
+	screen = 30
+	
+	counters = {
+		skirmishers = 1
+		heavy_infantry = 1
+		light_cavalry = 1
+		heavy_cavalry = 1
+		pikemen = 1
+	}
+	
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = order_affinity_more_common
+		}
+	}
+
+	buy_cost = { gold = 250 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1 }
+
+	stack = 10
+	allowed_in_hired_troops = no
+	icon = tree_sentinel
+}

@@ -1,0 +1,3704 @@
+h_lands_between = {
+	500.1.1 = {
+		holder = marika
+	}
+	800.1.1 = {
+		holder = 0
+	}
+}
+
+d_R144G46B216 = {
+	500.1.1 = {
+		holder = marika
+	}
+	810.1.1 = {
+		holder = morgott
+	}
+}
+
+k_fallen_capital = {
+	810.1.1 = {
+		holder = morgott
+	}
+}
+
+c_R118G251B72 = {	
+	810.1.1 = {
+		holder = morgott
+	}
+}
+
+c_R22G77B84 = {
+	500.1.1 = {
+		holder = marika
+	}
+	810.1.1 = {
+		holder = morgott
+	}
+}
+
+c_R115G234B238 = {
+	500.1.1 = {
+		holder = marika
+	}
+	810.1.1 = {
+		holder = morgott
+	}
+}
+
+c_R186G239B120 = {
+	500.1.1 = {
+		holder = marika
+	}
+	810.1.1 = {
+		holder = morgott
+	}
+}
+
+c_R66G91B114 = {
+	
+	810.1.1 = {
+		holder = morgott
+	}
+}
+
+# c_R216G23B95 = {
+	# 500.1.1 = {
+		# holder = marika
+	# }
+	# 810.1.1 = {
+		# holder = morgott
+	# }
+# }
+
+c_R108G207B157 = {	
+	810.1.1 = {
+		holder = godrick
+	}
+}
+
+c_R25G43B92 = {	
+	810.1.1 = {
+		holder = godrick
+	}
+}
+
+c_R41G192B213 = {	
+	810.1.1 = {
+		holder = godrick
+	}
+}
+
+c_R71G251B116 = {	
+	810.1.1 = {
+		holder = godrick
+	}
+}
+
+c_R58G244B68 = {	
+	810.1.1 = {
+		holder = godrick
+	}
+}
+
+d_R213G77B113 = {	
+	810.1.1 = {
+		holder = godrick
+	}
+}
+
+k_ocupied_stormveil = {	
+	810.1.1 = {
+		holder = godrick
+	}
+}
+
+d_R118G90B238 = {	
+	810.1.1 = {
+		holder = rennala
+	}
+}
+
+k_raya_lucaria_leader = {	
+	810.1.1 = {
+		holder = rennala
+	}
+}
+
+d_R81G9B214 = {	
+	810.1.1 = {
+		holder = rykard
+	}
+}
+
+k_lord_of_blasphemy = {	
+	810.1.1 = {
+		holder = rykard
+	}
+}
+
+k_haligtree = {	
+	810.1.1 = {
+		holder = malenia
+	}
+}
+
+d_R181G19B130 = {	
+	810.1.1 = {
+		holder = radahn
+	}
+}
+
+d_R219G100B203 = {	
+	810.1.1 = {
+		holder = radahn
+	}
+}
+
+c_R193G136B95 = {	
+	810.1.1 = {
+		holder = radahn
+	}
+}
+
+
+c_R28G85B63 = {	
+	810.1.1 = {
+		holder = radahn
+	}
+}
+k_radahn_remnants = {	
+	810.1.1 = {
+		holder = radahn
+	}
+}
+
+d_dynasty_mausoleum = {	
+	810.1.1 = {
+		holder = mohg
+	}
+}
+
+k_godwyn_dynasty = {	
+	810.1.1 = {
+		holder = mohg
+	}
+}
+
+k_sweet_sleep = {	
+	810.1.1 = {
+		holder = trina
+	}
+}
+
+d_R1G62B244 = {	
+	810.1.1 = {
+		holder = trina
+	}
+}
+
+k_miquellas_followers = {	
+	810.1.1 = {
+		holder = miquella
+	}
+}
+
+d_R16G155B181 = {	
+	810.1.1 = {
+		holder = miquella
+	}
+}
+
+d_R225G206B96 = {	
+	810.1.1 = {
+		holder = miquella
+	}
+}
+
+
+d_R63G97B79 = {	
+	810.1.1 = {
+		holder = messmer
+	}
+}
+
+k_messmer_army = {	
+	810.1.1 = {
+		holder = messmer
+	}
+}
+
+k_dread_dragon = {	
+	810.1.1 = {
+		holder = bayle
+	}
+}
+d_jagged_crater = {	
+	810.1.1 = {
+		holder = bayle
+	}
+}
+d_R127G6B83 = {	
+	810.1.1 = {
+		holder = bayle
+	}
+}
+d_R143G211B68 = {	
+	810.1.1 = {
+		holder = bayle
+	}
+}
+d_R127G210B192 = {	
+	810.1.1 = {
+		holder = bayle
+	}
+}
+d_R176G192B184 = {	
+	810.1.1 = {
+		holder = bayle
+	}
+}
+d_R47G88B108 = {	
+	810.1.1 = {
+		holder = ranni
+	}
+}
+d_R59G8B195 = {	
+	810.1.1 = {
+		holder = ranni
+	}
+}
+
+d_R153G85B160 = {	
+	810.1.1 = {
+		holder = rellana
+		liege = k_messmer_army
+	}
+}
+
+e_farum_azula = {	
+	1.1.1 = {
+		holder = placidusax
+	}
+}
+c_R252G40B131 = {	
+	800.1.1 = {
+		holder = maliketh
+	}
+}
+
+c_R68G191B143 = {	
+	800.1.1 = {
+		holder = haight
+	}
+}
+
+d_R229G199B117 = {	
+	800.1.1 = {
+		holder = edgar
+	}
+}
+
+c_R106G127B189 = {	
+	800.1.1 = {
+		holder = elemer
+	}
+}
+
+c_R248G133B56 = {	
+	800.1.1 = {
+		holder = maleigh
+	}
+}
+
+#$$####################
+
+e_R157G27B235 = {
+	851.7.7 = {
+		holder = gen_71
+	}
+}
+e_R35G8B110 = {
+	851.7.7 = {
+		holder = gen_189
+	}
+}
+e_R118G221B119 = {
+	851.7.7 = {
+		holder = gen_355
+	}
+}
+e_R168G218B24 = {
+	851.7.7 = {
+		holder = gen_9
+	}
+}
+e_R71G227B64 = {
+	851.7.7 = {
+		holder = gen_15
+	}
+}
+e_R63G138B234 = {
+	851.7.7 = {
+		holder = gen_406
+	}
+}
+e_R5G33B196 = {
+	851.7.7 = {
+		holder = gen_14
+	}
+}
+e_R192G178B148 = {
+	851.7.7 = {
+		holder = gen_323
+	}
+}
+e_R66G53B116 = {
+	851.7.7 = {
+		holder = gen_393
+	}
+}
+e_R50G215B100 = {
+	851.7.7 = {
+		holder = gen_354
+	}
+}
+e_R157G104B184 = {
+	851.7.7 = {
+		holder = gen_114
+	}
+}
+e_R211G94B86 = {
+	851.7.7 = {
+		holder = gen_72
+	}
+}
+e_R140G63B127 = {
+	851.7.7 = {
+		holder = gen_418
+	}
+}
+e_R195G198B151 = {
+	851.7.7 = {
+		holder = gen_424
+	}
+}
+e_R199G182B167 = {
+	851.7.7 = {
+		holder = gen_367
+	}
+}
+e_R237G66B148 = {
+	851.7.7 = {
+		holder = gen_331
+	}
+}
+e_R179G27B213 = {
+	851.7.7 = {
+		holder = gen_130
+	}
+}
+e_R232G28B181 = {
+	851.7.7 = {
+		holder = gen_319
+	}
+}
+e_R164G4B99 = {
+	851.7.7 = {
+		holder = gen_376
+	}
+}
+e_R151G153B100 = {
+	851.7.7 = {
+		holder = gen_398
+	}
+}
+e_R148G180B96 = {
+	851.7.7 = {
+		holder = gen_66
+	}
+}
+e_R138G253B209 = {
+	851.7.7 = {
+		holder = gen_417
+	}
+}
+e_R64G45B179 = {
+	851.7.7 = {
+		holder = gen_426
+	}
+}
+e_R122G178B47 = {
+	851.7.7 = {
+		holder = gen_385
+	}
+}
+e_R56G217B149 = {
+	851.7.7 = {
+		holder = gen_283
+	}
+}
+e_R159G241B107 = {
+	851.7.7 = {
+		holder = gen_372
+	}
+}
+e_R98G101B141 = {
+	851.7.7 = {
+		holder = gen_427
+	}
+}
+e_R44G240B155 = {
+	851.7.7 = {
+		holder = gen_435
+	}
+}
+e_R165G26B116 = {
+	851.7.7 = {
+		holder = gen_87
+	}
+}
+e_R231G217B238 = {
+	851.7.7 = {
+		holder = gen_343
+	}
+}
+e_R131G39B113 = {
+	851.7.7 = {
+		holder = gen_292
+	}
+}
+e_R73G234B150 = {
+	851.7.7 = {
+		holder = gen_344
+	}
+}
+e_R64G253B102 = {
+	851.7.7 = {
+		holder = gen_163
+	}
+}
+e_R215G1B62 = {
+	851.7.7 = {
+		holder = gen_353
+	}
+}
+e_R112G161B101 = {
+	851.7.7 = {
+		holder = gen_405
+	}
+}
+e_R111G143B19 = {
+	851.7.7 = {
+		holder = gen_386
+	}
+}
+e_R203G24B1 = {
+	851.7.7 = {
+		holder = gen_179
+	}
+}
+e_R254G86B19 = {
+	851.7.7 = {
+		holder = gen_351
+	}
+}
+e_R125G95B6 = {
+	851.7.7 = {
+		holder = gen_245
+	}
+}
+e_R182G35B185 = {
+	851.7.7 = {
+		holder = gen_131
+	}
+}
+k_R167G123B33 = {
+	851.7.7 = {
+		holder = gen_15
+		liege = e_R71G227B64	}
+}
+k_R161G239B99 = {
+	851.7.7 = {
+		holder = gen_9
+		liege = e_R168G218B24	}
+}
+k_R106G20B136 = {
+	851.7.7 = {
+		holder = gen_72
+		liege = e_R211G94B86	}
+}
+k_R38G209B145 = {
+	851.7.7 = {
+		holder = gen_319
+		liege = e_R232G28B181	}
+}
+k_R150G76B237 = {
+	851.7.7 = {
+		holder = gen_10
+		liege = e_R71G227B64	}
+}
+k_R4G92B4 = {
+	851.7.7 = {
+		holder = gen_393
+		liege = e_R66G53B116	}
+}
+k_R9G124B33 = {
+	851.7.7 = {
+		holder = gen_354
+		liege = e_R50G215B100	}
+}
+k_R43G13B192 = {
+	851.7.7 = {
+		holder = gen_77
+		liege = e_R168G218B24	}
+}
+k_R214G67B153 = {
+	851.7.7 = {
+		holder = gen_30
+		liege = e_R211G94B86	}
+}
+k_R200G52B33 = {
+	851.7.7 = {
+		holder = gen_78
+		liege = e_R71G227B64	}
+}
+k_R204G226B227 = {
+	851.7.7 = {
+		holder = gen_163
+		liege = e_R64G253B102	}
+}
+k_R67G94B236 = {
+	851.7.7 = {
+		holder = gen_130
+		liege = e_R179G27B213	}
+}
+k_R96G95B226 = {
+	851.7.7 = {
+		holder = gen_14
+		liege = e_R5G33B196	}
+}
+k_R187G233B30 = {
+	851.7.7 = {
+		holder = gen_344
+		liege = e_R73G234B150	}
+}
+k_R33G24B246 = {
+	851.7.7 = {
+		holder = gen_87
+		liege = e_R165G26B116	}
+}
+k_R215G82B59 = {
+	851.7.7 = {
+		holder = gen_41
+		liege = e_R211G94B86	}
+}
+k_R175G27B170 = {
+	851.7.7 = {
+		holder = gen_386
+		liege = e_R111G143B19	}
+}
+k_R226G84B87 = {
+	851.7.7 = {
+		holder = gen_435
+		liege = e_R44G240B155	}
+}
+k_R119G81B144 = {
+	851.7.7 = {
+		holder = gen_353
+		liege = e_R215G1B62	}
+}
+k_R147G157B255 = {
+	851.7.7 = {
+		holder = gen_417
+		liege = e_R138G253B209	}
+}
+k_R179G36B209 = {
+	851.7.7 = {
+		holder = gen_343
+		liege = e_R231G217B238	}
+}
+k_R200G116B126 = {
+	851.7.7 = {
+		holder = gen_114
+		liege = e_R157G104B184	}
+}
+k_R149G133B48 = {
+	851.7.7 = {
+		holder = gen_385
+		liege = e_R122G178B47	}
+}
+k_R3G253B193 = {
+	851.7.7 = {
+		holder = gen_424
+		liege = e_R195G198B151	}
+}
+k_R252G239B204 = {
+	851.7.7 = {
+		holder = gen_189
+		liege = e_R35G8B110	}
+}
+k_R141G202B159 = {
+	851.7.7 = {
+		holder = gen_179
+		liege = e_R203G24B1	}
+}
+k_R16G237B10 = {
+	851.7.7 = {
+		holder = gen_283
+		liege = e_R56G217B149	}
+}
+k_R55G34B150 = {
+	851.7.7 = {
+		holder = gen_427
+		liege = e_R98G101B141	}
+}
+k_R232G44B83 = {
+	851.7.7 = {
+		holder = gen_376
+		liege = e_R164G4B99	}
+}
+k_R129G147B115 = {
+	851.7.7 = {
+		holder = gen_331
+		liege = e_R237G66B148	}
+}
+k_R229G34B189 = {
+	851.7.7 = {
+		holder = gen_355
+		liege = e_R118G221B119	}
+}
+k_R60G80B81 = {
+	851.7.7 = {
+		holder = gen_292
+		liege = e_R131G39B113	}
+}
+k_R99G242B124 = {
+	851.7.7 = {
+		holder = gen_406
+		liege = e_R63G138B234	}
+}
+k_R18G139B128 = {
+	851.7.7 = {
+		holder = gen_131
+		liege = e_R182G35B185	}
+}
+k_R97G145B195 = {
+	851.7.7 = {
+		holder = gen_418
+		liege = e_R140G63B127	}
+}
+k_R179G118B124 = {
+	851.7.7 = {
+		holder = gen_405
+		liege = e_R112G161B101	}
+}
+k_R1G218B237 = {
+	851.7.7 = {
+		holder = gen_245
+		liege = e_R125G95B6	}
+}
+k_R134G225B214 = {
+	851.7.7 = {
+		holder = gen_66
+		liege = e_R148G180B96	}
+}
+k_R151G24B45 = {
+	851.7.7 = {
+		holder = gen_323
+		liege = e_R192G178B148	}
+}
+k_R11G62B49 = {
+	851.7.7 = {
+		holder = gen_367
+		liege = e_R199G182B167	}
+}
+k_R159G212B116 = {
+	851.7.7 = {
+		holder = gen_398
+		liege = e_R151G153B100	}
+}
+k_R26G120B253 = {
+	851.7.7 = {
+		holder = gen_426
+		liege = e_R64G45B179	}
+}
+k_R247G128B206 = {
+	851.7.7 = {
+		holder = gen_372
+		liege = e_R159G241B107	}
+}
+k_R159G223B183 = {
+	851.7.7 = {
+		holder = gen_351
+		liege = e_R254G86B19	}
+}
+k_R238G156B228 = {
+	851.7.7 = {
+		holder = gen_71
+		liege = e_R157G27B235	}
+}
+d_R13G134B191 = {
+	851.7.7 = {
+		holder = gen_10
+		liege = k_R150G76B237	}
+}
+d_R158G29B128 = {
+	851.7.7 = {
+		holder = gen_130
+		liege = k_R67G94B236	}
+}
+d_R67G221B98 = {
+	851.7.7 = {
+		holder = gen_15
+		liege = k_R167G123B33	}
+}
+d_R35G116B21 = {
+	851.7.7 = {
+		holder = gen_14
+		liege = k_R96G95B226	}
+}
+d_R16G155B181 = {
+	851.7.7 = {
+		holder = gen_30
+		liege = k_R214G67B153	}
+}
+d_R63G97B79 = {
+	851.7.7 = {
+		holder = gen_6
+		liege = k_R214G67B153	}
+}
+d_R177G185B194 = {
+	851.7.7 = {
+		holder = gen_32
+		liege = k_R167G123B33	}
+}
+d_R166G216B78 = {
+	851.7.7 = {
+		holder = gen_164
+		liege = k_R150G76B237	}
+}
+d_R202G176B197 = {
+	851.7.7 = {
+		holder = gen_72
+		liege = k_R106G20B136	}
+}
+d_R56G6B174 = {
+	851.7.7 = {
+		holder = gen_34
+		liege = k_R67G94B236	}
+}
+d_R33G164B21 = {
+	851.7.7 = {
+		holder = gen_78
+		liege = k_R200G52B33	}
+}
+d_R145G171B56 = {
+	851.7.7 = {
+		holder = gen_9
+		liege = k_R161G239B99	}
+}
+d_R58G100B130 = {
+	851.7.7 = {
+		holder = gen_379
+		liege = k_R96G95B226	}
+}
+
+d_R44G242B22 = {
+	851.7.7 = {
+		holder = gen_441
+		liege = k_R161G239B99	}
+}
+d_R47G77B181 = {
+	851.7.7 = {
+		holder = gen_227
+		liege = k_R106G20B136	}
+}
+d_R63G104B63 = {
+	851.7.7 = {
+		holder = gen_39
+		liege = k_R167G123B33	}
+}
+d_R254G10B135 = {
+	851.7.7 = {
+		holder = gen_426
+		liege = k_R26G120B253	}
+}
+d_R24G80B136 = {
+	851.7.7 = {
+		holder = gen_8
+		liege = k_R43G13B192	}
+}
+d_R118G90B238 = {
+	851.7.7 = {
+		holder = gen_89
+		liege = k_R67G94B236	}
+}
+d_R156G4B117 = {
+	851.7.7 = {
+		holder = gen_5
+		liege = k_R161G239B99	}
+}
+d_R26G169B72 = {
+	851.7.7 = {
+		holder = gen_120
+		liege = k_R96G95B226	}
+}
+d_R127G6B83 = {
+	851.7.7 = {
+		holder = gen_46
+		liege = k_R106G20B136	}
+}
+d_R2G206B110 = {
+	851.7.7 = {
+		holder = gen_3
+		liege = k_R200G52B33	}
+}
+d_R216G145B205 = {
+	851.7.7 = {
+		holder = gen_422
+		liege = k_R67G94B236	}
+}
+d_R229G120B67 = {
+	851.7.7 = {
+		holder = gen_19
+		liege = k_R200G52B33	}
+}
+d_R92G34B219 = {
+	851.7.7 = {
+		holder = gen_54
+		liege = k_R96G95B226	}
+}
+d_R109G206B144 = {
+	851.7.7 = {
+		holder = gen_114
+		liege = k_R200G116B126	}
+}
+d_R164G199B165 = {
+	851.7.7 = {
+		holder = gen_55
+		liege = k_R200G52B33	}
+}
+d_R44G0B17 = {
+	851.7.7 = {
+		holder = gen_123
+		liege = k_R96G95B226	}
+}
+
+d_R191G2B149 = {
+	851.7.7 = {
+		holder = gen_86
+		liege = k_R96G95B226	}
+}
+d_R229G199B117 = {
+	851.7.7 = {
+		holder = gen_44
+		liege = k_R200G116B126	}
+}
+d_R65G142B243 = {
+	851.7.7 = {
+		holder = gen_353
+		liege = k_R119G81B144	}
+}
+d_R72G44B43 = {
+	851.7.7 = {
+		holder = gen_11
+		liege = k_R214G67B153	}
+}
+d_R143G211B68 = {
+	851.7.7 = {
+		holder = gen_17
+		liege = k_R106G20B136	}
+}
+d_R225G206B96 = {
+	851.7.7 = {
+		holder = gen_41
+		liege = k_R215G82B59	}
+}
+d_R6G15B64 = {
+	851.7.7 = {
+		holder = gen_378
+		liege = k_R214G67B153	}
+}
+d_R181G89B192 = {
+	851.7.7 = {
+		holder = gen_196
+		liege = k_R150G76B237	}
+}
+d_R47G88B108 = {
+	851.7.7 = {
+		holder = gen_21
+		liege = k_R67G94B236	}
+}
+d_R173G49B233 = {
+	851.7.7 = {
+		holder = gen_24
+		liege = k_R67G94B236	}
+}
+d_R45G38B252 = {
+	851.7.7 = {
+		holder = gen_59
+		liege = k_R200G52B33	}
+}
+d_R217G82B19 = {
+	851.7.7 = {
+		holder = gen_104
+		liege = k_R167G123B33	}
+}
+d_R241G191B242 = {
+	851.7.7 = {
+		holder = gen_333
+		liege = k_R200G52B33	}
+}
+d_R125G83B254 = {
+	851.7.7 = {
+		holder = gen_26
+		liege = k_R167G123B33	}
+}
+d_R135G93B235 = {
+	851.7.7 = {
+		holder = gen_446
+		liege = k_R106G20B136	}
+}
+d_R163G63B13 = {
+	851.7.7 = {
+		holder = gen_100
+		liege = k_R161G239B99	}
+}
+d_R144G220B39 = {
+	851.7.7 = {
+		holder = gen_147
+		liege = k_R200G52B33	}
+}
+d_R84G39B172 = {
+	851.7.7 = {
+		holder = gen_31
+		liege = k_R119G81B144	}
+}
+d_R91G104B65 = {
+	851.7.7 = {
+		holder = gen_351
+		liege = k_R159G223B183	}
+}
+d_R244G194B132 = {
+	851.7.7 = {
+		holder = gen_221
+		liege = k_R200G116B126	}
+}
+d_R216G22B13 = {
+	851.7.7 = {
+		holder = gen_13
+		liege = k_R215G82B59	}
+}
+d_R159G104B47 = {
+	851.7.7 = {
+		holder = gen_185
+		liege = k_R96G95B226	}
+}
+d_R76G202B133 = {
+	851.7.7 = {
+		holder = gen_4
+		liege = k_R96G95B226	}
+}
+d_R111G255B235 = {
+	851.7.7 = {
+		holder = gen_391
+		liege = k_R96G95B226	}
+}
+d_R178G4B17 = {
+	851.7.7 = {
+		holder = gen_102
+		liege = k_R67G94B236	}
+}
+d_R34G125B149 = {
+	851.7.7 = {
+		holder = gen_308
+		liege = k_R67G94B236	}
+}
+d_R106G122B236 = {
+	851.7.7 = {
+		holder = gen_131
+		liege = k_R18G139B128	}
+}
+d_R233G167B216 = {
+	851.7.7 = {
+		holder = gen_81
+		liege = k_R43G13B192	}
+}
+d_R79G17B141 = {
+	851.7.7 = {
+		holder = gen_416
+		liege = k_R67G94B236	}
+}
+d_R165G93B95 = {
+	851.7.7 = {
+		holder = gen_37
+		liege = k_R96G95B226	}
+}
+d_R89G147B248 = {
+	851.7.7 = {
+		holder = gen_61
+		liege = k_R43G13B192	}
+}
+d_R132G210B117 = {
+	851.7.7 = {
+		holder = gen_176
+		liege = k_R200G52B33	}
+}
+d_R152G2B91 = {
+	851.7.7 = {
+		holder = gen_49
+		liege = k_R96G95B226	}
+}
+d_R226G97B219 = {
+	851.7.7 = {
+		holder = gen_354
+		liege = k_R9G124B33	}
+}
+d_R1G147B173 = {
+	851.7.7 = {
+		holder = gen_440
+		liege = k_R161G239B99	}
+}
+d_R164G34B5 = {
+	851.7.7 = {
+		holder = gen_108
+		liege = k_R200G52B33	}
+}
+d_R1G62B244 = {
+	851.7.7 = {
+		holder = gen_28
+		liege = k_R215G82B59	}
+}
+d_R252G104B192 = {
+	851.7.7 = {
+		holder = gen_383
+		liege = k_R150G76B237	}
+}
+d_R112G112B134 = {
+	851.7.7 = {
+		holder = gen_152
+		liege = k_R96G95B226	}
+}
+d_R59G149B25 = {
+	851.7.7 = {
+		holder = gen_12
+		liege = k_R161G239B99	}
+}
+d_R29G125B54 = {
+	851.7.7 = {
+		holder = gen_418
+		liege = k_R97G145B195	}
+}
+d_R59G8B195 = {
+	851.7.7 = {
+		holder = gen_305
+		liege = k_R67G94B236	}
+}
+d_R228G237B223 = {
+	851.7.7 = {
+		holder = gen_88
+		liege = k_R96G95B226	}
+}
+d_R113G42B194 = {
+	851.7.7 = {
+		holder = gen_2
+		liege = k_R200G52B33	}
+}
+d_R180G61B199 = {
+	851.7.7 = {
+		holder = gen_143
+		liege = k_R96G95B226	}
+}
+d_R16G166B28 = {
+	851.7.7 = {
+		holder = gen_417
+		liege = k_R147G157B255	}
+}
+d_R25G223B40 = {
+	851.7.7 = {
+		holder = gen_47
+		liege = k_R167G123B33	}
+}
+d_R199G168B25 = {
+	851.7.7 = {
+		holder = gen_52
+		liege = k_R150G76B237	}
+}
+d_R213G77B113 = {
+	851.7.7 = {
+		holder = gen_134
+		liege = k_R43G13B192	}
+}
+d_R219G100B203 = {
+	851.7.7 = {
+		holder = gen_7
+		liege = k_R161G239B99	}
+}
+d_R220G183B15 = {
+	851.7.7 = {
+		holder = gen_137
+		liege = k_R43G13B192	}
+}
+d_R253G68B8 = {
+	851.7.7 = {
+		holder = gen_201
+		liege = k_R167G123B33	}
+}
+d_R61G184B227 = {
+	851.7.7 = {
+		holder = gen_385
+		liege = k_R149G133B48	}
+}
+d_R149G98B171 = {
+	851.7.7 = {
+		holder = gen_447
+		liege = k_R96G95B226	}
+}
+d_R141G99B146 = {
+	851.7.7 = {
+		holder = gen_191
+		liege = k_R67G94B236	}
+}
+d_R54G65B143 = {
+	851.7.7 = {
+		holder = gen_65
+		liege = k_R106G20B136	}
+}
+d_R113G99B166 = {
+	851.7.7 = {
+		holder = gen_138
+		liege = k_R167G123B33	}
+}
+d_R201G57B108 = {
+	851.7.7 = {
+		holder = gen_321
+		liege = k_R167G123B33	}
+}
+d_R229G59B180 = {
+	851.7.7 = {
+		holder = gen_38
+		liege = k_R96G95B226	}
+}
+d_R124G19B175 = {
+	851.7.7 = {
+		holder = gen_132
+		liege = k_R200G52B33	}
+}
+d_R87G95B32 = {
+	851.7.7 = {
+		holder = gen_167
+		liege = k_R161G239B99	}
+}
+d_R28G191B253 = {
+	851.7.7 = {
+		holder = gen_376
+		liege = k_R232G44B83	}
+}
+d_R131G41B1 = {
+	851.7.7 = {
+		holder = gen_40
+		liege = k_R214G67B153	}
+}
+d_R146G107B199 = {
+	851.7.7 = {
+		holder = gen_80
+		liege = k_R96G95B226	}
+}
+d_R202G22B96 = {
+	851.7.7 = {
+		holder = gen_179
+		liege = k_R141G202B159	}
+}
+d_R212G180B243 = {
+	851.7.7 = {
+		holder = gen_126
+		liege = k_R43G13B192	}
+}
+d_R8G125B118 = {
+	851.7.7 = {
+		holder = gen_435
+		liege = k_R226G84B87	}
+}
+d_R67G62B16 = {
+	851.7.7 = {
+		holder = gen_115
+		liege = k_R96G95B226	}
+}
+d_R88G100B17 = {
+	851.7.7 = {
+		holder = gen_372
+		liege = k_R247G128B206	}
+}
+d_R81G9B214 = {
+	851.7.7 = {
+		holder = gen_27
+		liege = k_R67G94B236	}
+}
+d_R146G124B164 = {
+	851.7.7 = {
+		holder = gen_241
+		liege = k_R67G94B236	}
+}
+d_R56G179B82 = {
+	851.7.7 = {
+		holder = gen_1
+		liege = k_R43G13B192	}
+}
+d_R137G47B185 = {
+	851.7.7 = {
+		holder = gen_139
+		liege = k_R167G123B33	}
+}
+d_R0G247B83 = {
+	851.7.7 = {
+		holder = gen_245
+		liege = k_R1G218B237	}
+}
+d_R26G47B176 = {
+	851.7.7 = {
+		holder = gen_107
+		liege = k_R150G76B237	}
+}
+d_R7G57B167 = {
+	851.7.7 = {
+		holder = gen_423
+		liege = k_R96G95B226	}
+}
+d_R11G159B193 = {
+	851.7.7 = {
+		holder = gen_392
+		liege = k_R161G239B99	}
+}
+d_R204G84B86 = {
+	851.7.7 = {
+		holder = gen_66
+		liege = k_R134G225B214	}
+}
+d_R18G101B61 = {
+	851.7.7 = {
+		holder = gen_117
+		liege = k_R215G82B59	}
+}
+d_R56G144B43 = {
+	851.7.7 = {
+		holder = gen_90
+		liege = k_R43G13B192	}
+}
+d_R245G138B250 = {
+	851.7.7 = {
+		holder = gen_105
+		liege = k_R214G67B153	}
+}
+d_R167G45B174 = {
+	851.7.7 = {
+		holder = gen_87
+		liege = k_R33G24B246	}
+}
+d_R176G192B184 = {
+	851.7.7 = {
+		holder = gen_216
+		liege = k_R106G20B136	}
+}
+
+d_R132G70B2 = {
+	851.7.7 = {
+		holder = gen_51
+		liege = k_R43G13B192	}
+}
+d_R14G111B75 = {
+	851.7.7 = {
+		holder = gen_406
+		liege = k_R99G242B124	}
+}
+d_R46G225B118 = {
+	851.7.7 = {
+		holder = gen_405
+		liege = k_R179G118B124	}
+}
+d_R221G200B118 = {
+	851.7.7 = {
+		holder = gen_283
+		liege = k_R16G237B10	}
+}
+d_R34G214B166 = {
+	851.7.7 = {
+		holder = gen_428
+		liege = k_R161G239B99	}
+}
+d_R137G244B65 = {
+	851.7.7 = {
+		holder = gen_355
+		liege = k_R229G34B189	}
+}
+d_R13G244B74 = {
+	851.7.7 = {
+		holder = gen_189
+		liege = k_R252G239B204	}
+}
+d_R255G124B38 = {
+	851.7.7 = {
+		holder = gen_420
+		liege = k_R200G52B33	}
+}
+d_R108G185B186 = {
+	851.7.7 = {
+		holder = gen_367
+		liege = k_R11G62B49	}
+}
+d_R28G78B117 = {
+	851.7.7 = {
+		holder = gen_393
+		liege = k_R4G92B4	}
+}
+d_R134G210B143 = {
+	851.7.7 = {
+		holder = gen_442
+		liege = k_R106G20B136	}
+}
+d_R153G54B176 = {
+	851.7.7 = {
+		holder = gen_62
+		liege = k_R96G95B226	}
+}
+d_R50G241B223 = {
+	851.7.7 = {
+		holder = gen_331
+		liege = k_R129G147B115	}
+}
+d_R243G223B213 = {
+	851.7.7 = {
+		holder = gen_84
+		liege = k_R119G81B144	}
+}
+d_R181G116B96 = {
+	851.7.7 = {
+		holder = gen_323
+		liege = k_R151G24B45	}
+}
+d_R181G191B249 = {
+	851.7.7 = {
+		holder = gen_427
+		liege = k_R55G34B150	}
+}
+d_R179G139B42 = {
+	851.7.7 = {
+		holder = gen_398
+		liege = k_R159G212B116	}
+}
+d_R216G115B208 = {
+	851.7.7 = {
+		holder = gen_212
+		liege = k_R67G94B236	}
+}
+
+d_R167G49B209 = {
+	851.7.7 = {
+		holder = gen_424
+		liege = k_R3G253B193	}
+}
+d_R0G242B61 = {
+	851.7.7 = {
+		holder = gen_344
+		liege = k_R187G233B30	}
+}
+
+d_R133G19B234 = {
+	851.7.7 = {
+		holder = gen_163
+		liege = k_R204G226B227	}
+}
+d_R21G221B218 = {
+	851.7.7 = {
+		holder = gen_127
+		liege = k_R161G239B99	}
+}
+d_R193G112B21 = {
+	851.7.7 = {
+		holder = gen_57
+		liege = k_R161G239B99	}
+}
+d_R51G135B239 = {
+	851.7.7 = {
+		holder = gen_111
+		liege = k_R215G82B59	}
+}
+d_R153G85B160 = {
+	851.7.7 = {
+		holder = gen_140
+		liege = k_R214G67B153	}
+}
+d_R204G174B184 = {
+	851.7.7 = {
+		holder = gen_386
+		liege = k_R175G27B170	}
+}
+d_R94G253B182 = {
+	851.7.7 = {
+		holder = gen_397
+		liege = k_R106G20B136	}
+}
+d_R196G5B40 = {
+	851.7.7 = {
+		holder = gen_343
+		liege = k_R179G36B209	}
+}
+d_R78G156B131 = {
+	851.7.7 = {
+		holder = gen_292
+		liege = k_R60G80B81	}
+}
+d_R181G19B130 = {
+	851.7.7 = {
+		holder = gen_71
+		liege = k_R238G156B228	}
+}
+d_R203G189B70 = {
+	851.7.7 = {
+		holder = gen_188
+		liege = k_R200G52B33	}
+}
+d_R89G239B235 = {
+	851.7.7 = {
+		holder = gen_187
+		liege = k_R150G76B237	}
+}
+d_R74G36B241 = {
+	851.7.7 = {
+		holder = gen_25
+		liege = k_R67G94B236	}
+}
+d_R127G210B192 = {
+	851.7.7 = {
+		holder = gen_36
+		liege = k_R106G20B136	}
+}
+d_R155G216B27 = {
+	851.7.7 = {
+		holder = gen_99
+		liege = k_R215G82B59	}
+}
+d_R157G6B161 = {
+	851.7.7 = {
+		holder = gen_16
+		liege = k_R214G67B153	}
+}
+c_R71G251B116 = {
+	851.7.7 = {
+		holder = gen_1
+			}
+}
+c_R180G188B107 = {
+	851.7.7 = {
+		holder = gen_2
+		liege = d_R113G42B194	}
+}
+c_R228G36B78 = {
+	851.7.7 = {
+		holder = gen_3
+		liege = d_R2G206B110	}
+}
+c_R156G30B237 = {
+	851.7.7 = {
+		holder = gen_4
+		liege = d_R76G202B133	}
+}
+c_R85G169B46 = {
+	851.7.7 = {
+		holder = gen_5
+		liege = d_R156G4B117	}
+}
+c_R162G252B143 = {
+	851.7.7 = {
+		holder = gen_6
+		liege = d_R63G97B79	}
+}
+c_R223G80B51 = {
+	851.7.7 = {
+		holder = gen_7
+		liege = d_R219G100B203	}
+}
+c_R133G152B233 = {
+	851.7.7 = {
+		holder = gen_8
+		liege = d_R24G80B136	}
+}
+c_R225G77B87 = {
+	851.7.7 = {
+		holder = gen_9
+		liege = d_R145G171B56	}
+}
+c_R126G204B224 = {
+	851.7.7 = {
+		holder = gen_10
+		liege = d_R13G134B191	}
+}
+c_R17G95B202 = {
+	851.7.7 = {
+		holder = gen_11
+		liege = d_R72G44B43	}
+}
+c_R238G75B92 = {
+	851.7.7 = {
+		holder = gen_12
+		liege = d_R59G149B25	}
+}
+c_R97G118B17 = {
+	851.7.7 = {
+		holder = gen_13
+		liege = d_R216G22B13	}
+}
+c_R98G190B166 = {
+	851.7.7 = {
+		holder = gen_14
+		liege = d_R35G116B21	}
+}
+c_R143G197B3 = {
+	851.7.7 = {
+		holder = gen_15
+		liege = d_R67G221B98	}
+}
+c_R0G206B98 = {
+	851.7.7 = {
+		holder = gen_16
+		liege = d_R157G6B161	}
+}
+c_R80G205B146 = {
+	851.7.7 = {
+		holder = gen_17
+		liege = d_R143G211B68	}
+}
+c_R91G29B98 = {
+	851.7.7 = {
+		holder = gen_18
+		liege = d_R2G206B110	}
+}
+c_R21G87B75 = {
+	851.7.7 = {
+		holder = gen_19
+		liege = d_R229G120B67	}
+}
+c_R36G141B228 = {
+	851.7.7 = {
+		holder = gen_20
+			}
+}
+c_R204G66B70 = {
+	851.7.7 = {
+		holder = gen_21
+		liege = d_R47G88B108	}
+}
+c_R231G233B32 = {
+	851.7.7 = {
+		holder = gen_22
+		liege = d_R229G120B67	}
+}
+c_R158G112B197 = {
+	851.7.7 = {
+		holder = gen_23
+		liege = d_R24G80B136	}
+}
+c_R197G17B138 = {
+	851.7.7 = {
+		holder = gen_24
+		liege = d_R173G49B233	}
+}
+c_R188G241B121 = {
+	851.7.7 = {
+		holder = gen_25
+		liege = d_R74G36B241	}
+}
+c_R221G203B10 = {
+	851.7.7 = {
+		holder = gen_26
+		liege = d_R125G83B254	}
+}
+c_R205G247B249 = {
+	851.7.7 = {
+		holder = gen_27
+		liege = d_R81G9B214	}
+}
+c_R65G213B61 = {
+	851.7.7 = {
+		holder = gen_28
+		liege = d_R1G62B244	}
+}
+c_R200G81B211 = {
+	851.7.7 = {
+		holder = gen_29
+		liege = d_R2G206B110	}
+}
+c_R6G251B0 = {
+	851.7.7 = {
+		holder = gen_30
+		liege = d_R16G155B181	}
+}
+c_R65G234B44 = {
+	851.7.7 = {
+		holder = gen_31
+		liege = d_R84G39B172	}
+}
+c_R223G13B52 = {
+	851.7.7 = {
+		holder = gen_32
+		liege = d_R177G185B194	}
+}
+c_R89G75B211 = {
+	851.7.7 = {
+		holder = gen_33
+		liege = d_R157G6B161	}
+}
+c_R232G60B186 = {
+	851.7.7 = {
+		holder = gen_34
+		liege = d_R56G6B174	}
+}
+c_R106G127B189 = {
+	851.7.7 = {
+		holder = gen_35
+		liege = d_R229G120B67	}
+}
+c_R87G29B163 = {
+	851.7.7 = {
+		holder = gen_36
+		liege = d_R127G210B192	}
+}
+c_R118G143B112 = {
+	851.7.7 = {
+		holder = gen_37
+		liege = d_R165G93B95	}
+}
+c_R58G54B38 = {
+	851.7.7 = {
+		holder = gen_38
+		liege = d_R229G59B180	}
+}
+c_R208G79B59 = {
+	851.7.7 = {
+		holder = gen_39
+		liege = d_R63G104B63	}
+}
+c_R31G122B205 = {
+	851.7.7 = {
+		holder = gen_40
+		liege = d_R131G41B1	}
+}
+c_R93G157B182 = {
+	851.7.7 = {
+		holder = gen_41
+		liege = d_R225G206B96	}
+}
+c_R224G208B238 = {
+	851.7.7 = {
+		holder = gen_42
+		liege = d_R165G93B95	}
+}
+c_R169G109B55 = {
+	851.7.7 = {
+		holder = gen_43
+		liege = d_R72G44B43	}
+}
+c_R148G215B151 = {
+	851.7.7 = {
+		holder = gen_44
+		liege = d_R229G199B117	}
+}
+c_R210G44B202 = {
+	851.7.7 = {
+		holder = gen_45
+		liege = d_R72G44B43	}
+}
+c_R162G143B90 = {
+	851.7.7 = {
+		holder = gen_46
+		liege = d_R127G6B83	}
+}
+c_R36G94B246 = {
+	851.7.7 = {
+		holder = gen_47
+		liege = d_R25G223B40	}
+}
+c_R113G41B23 = {
+	851.7.7 = {
+		holder = gen_48
+		liege = d_R229G120B67	}
+}
+c_R43G55B4 = {
+	851.7.7 = {
+		holder = gen_49
+		liege = d_R152G2B91	}
+}
+c_R145G129B161 = {
+	851.7.7 = {
+		holder = gen_50
+		liege = d_R225G206B96	}
+}
+c_R201G34B94 = {
+	851.7.7 = {
+		holder = gen_51
+		liege = d_R132G70B2	}
+}
+c_R129G104B72 = {
+	851.7.7 = {
+		holder = gen_52
+		liege = d_R199G168B25	}
+}
+c_R182G102B200 = {
+	851.7.7 = {
+		holder = gen_53
+		liege = d_R113G42B194	}
+}
+c_R158G104B80 = {
+	851.7.7 = {
+		holder = gen_54
+		liege = d_R92G34B219	}
+}
+c_R116G60B10 = {
+	851.7.7 = {
+		holder = gen_55
+		liege = d_R164G199B165	}
+}
+c_R254G231B189 = {
+	851.7.7 = {
+		holder = gen_56
+		liege = d_R72G44B43	}
+}
+c_R203G39B216 = {
+	851.7.7 = {
+		holder = gen_57
+		liege = d_R193G112B21	}
+}
+c_R115G250B248 = {
+	851.7.7 = {
+		holder = gen_58
+		liege = d_R131G41B1	}
+}
+c_R1G130B146 = {
+	851.7.7 = {
+		holder = gen_59
+		liege = d_R45G38B252	}
+}
+c_R148G64B7 = {
+	851.7.7 = {
+		holder = gen_60
+		liege = d_R173G49B233	}
+}
+c_R201G238B0 = {
+	851.7.7 = {
+		holder = gen_61
+		liege = d_R89G147B248	}
+}
+c_R127G132B148 = {
+	851.7.7 = {
+		holder = gen_62
+		liege = d_R153G54B176	}
+}
+c_R254G148B196 = {
+	851.7.7 = {
+		holder = gen_63
+		liege = d_R16G155B181	}
+}
+c_R56G182B248 = {
+	851.7.7 = {
+		holder = gen_64
+		liege = d_R131G41B1	}
+}
+c_R171G32B226 = {
+	851.7.7 = {
+		holder = gen_65
+		liege = d_R54G65B143	}
+}
+c_R181G175B174 = {
+	851.7.7 = {
+		holder = gen_66
+		liege = d_R204G84B86	}
+}
+c_R148G76B170 = {
+	851.7.7 = {
+		holder = gen_67
+		liege = d_R173G49B233	}
+}
+c_R5G112B62 = {
+	851.7.7 = {
+		holder = gen_68
+		liege = d_R59G149B25	}
+}
+c_R247G63B50 = {
+	851.7.7 = {
+		holder = gen_69
+			}
+}
+c_R198G4B167 = {
+	851.7.7 = {
+		holder = gen_70
+		liege = d_R165G93B95	}
+}
+c_R28G85B63 = {
+	851.7.7 = {
+		holder = gen_71
+		liege = d_R181G19B130	}
+}
+c_R137G168B147 = {
+	851.7.7 = {
+		holder = gen_72
+		liege = d_R202G176B197	}
+}
+c_R145G137B200 = {
+	851.7.7 = {
+		holder = gen_73
+			}
+}
+c_R158G239B81 = {
+	851.7.7 = {
+		holder = gen_74
+		liege = d_R92G34B219	}
+}
+c_R147G206B218 = {
+	851.7.7 = {
+		holder = gen_75
+		liege = d_R25G223B40	}
+}
+c_R249G211B9 = {
+	851.7.7 = {
+		holder = gen_76
+		liege = d_R113G42B194	}
+}
+c_R159G34B96 = {
+	851.7.7 = {
+		holder = gen_77
+			}
+}
+c_R78G252B122 = {
+	851.7.7 = {
+		holder = gen_78
+		liege = d_R33G164B21	}
+}
+c_R193G136B95 = {
+	851.7.7 = {
+		holder = gen_79
+		liege = d_R59G149B25	}
+}
+c_R83G222B92 = {
+	851.7.7 = {
+		holder = gen_80
+		liege = d_R146G107B199	}
+}
+c_R60G76B67 = {
+	851.7.7 = {
+		holder = gen_81
+		liege = d_R233G167B216	}
+}
+c_R41G192B213 = {
+	851.7.7 = {
+		holder = gen_82
+			}
+}
+c_R25G43B92 = {
+	851.7.7 = {
+		holder = gen_83
+			}
+}
+c_R114G183B215 = {
+	851.7.7 = {
+		holder = gen_84
+		liege = d_R243G223B213	}
+}
+c_R248G240B250 = {
+	851.7.7 = {
+		holder = gen_85
+		liege = d_R216G22B13	}
+}
+c_R82G210B42 = {
+	851.7.7 = {
+		holder = gen_86
+		liege = d_R191G2B149	}
+}
+c_R158G158B95 = {
+	851.7.7 = {
+		holder = gen_87
+		liege = d_R167G45B174	}
+}
+c_R122G50B210 = {
+	851.7.7 = {
+		holder = gen_88
+		liege = d_R228G237B223	}
+}
+c_R171G86B114 = {
+	851.7.7 = {
+		holder = gen_89
+		liege = d_R118G90B238	}
+}
+c_R109G165B213 = {
+	851.7.7 = {
+		holder = gen_90
+			}
+}
+c_R116G181B29 = {
+	851.7.7 = {
+		holder = gen_91
+		liege = d_R191G2B149	}
+}
+c_R151G16B28 = {
+	851.7.7 = {
+		holder = gen_92
+		liege = d_R127G210B192	}
+}
+c_R76G171B92 = {
+	851.7.7 = {
+		holder = gen_93
+		liege = d_R24G80B136	}
+}
+c_R140G90B129 = {
+	851.7.7 = {
+		holder = gen_94
+		liege = d_R243G223B213	}
+}
+c_R50G24B58 = {
+	851.7.7 = {
+		holder = gen_95
+		liege = d_R229G120B67	}
+}
+c_R56G8B202 = {
+	851.7.7 = {
+		holder = gen_96
+		liege = d_R47G88B108	}
+}
+c_R130G211B68 = {
+	851.7.7 = {
+		holder = gen_97
+		liege = d_R216G22B13	}
+}
+c_R252G40B131 = {
+	851.7.7 = {
+		holder = gen_98
+		liege = d_R145G171B56	}
+}
+c_R216G96B251 = {
+	851.7.7 = {
+		holder = gen_99
+		liege = d_R155G216B27	}
+}
+c_R83G94B4 = {
+	851.7.7 = {
+		holder = gen_100
+		liege = d_R163G63B13	}
+}
+c_R13G63B198 = {
+	851.7.7 = {
+		holder = gen_101
+		liege = d_R233G167B216	}
+}
+c_R35G8B202 = {
+	851.7.7 = {
+		holder = gen_102
+		liege = d_R178G4B17	}
+}
+c_R254G221B73 = {
+	851.7.7 = {
+		holder = gen_103
+		liege = d_R118G90B238	}
+}
+c_R108G74B66 = {
+	851.7.7 = {
+		holder = gen_104
+		liege = d_R217G82B19	}
+}
+c_R47G204B59 = {
+	851.7.7 = {
+		holder = gen_105
+		liege = d_R245G138B250	}
+}
+c_R121G157B152 = {
+	851.7.7 = {
+		holder = gen_106
+		liege = d_R229G120B67	}
+}
+c_R173G24B70 = {
+	851.7.7 = {
+		holder = gen_107
+		liege = d_R26G47B176	}
+}
+c_R13G186B40 = {
+	851.7.7 = {
+		holder = gen_108
+		liege = d_R164G34B5	}
+}
+c_R171G126B197 = {
+	851.7.7 = {
+		holder = gen_109
+		liege = d_R245G138B250	}
+}
+c_R126G231B22 = {
+	851.7.7 = {
+		holder = gen_110
+		liege = d_R233G167B216	}
+}
+c_R24G39B173 = {
+	851.7.7 = {
+		holder = gen_111
+		liege = d_R51G135B239	}
+}
+c_R89G96B247 = {
+	851.7.7 = {
+		holder = gen_112
+		liege = d_R202G176B197	}
+}
+c_R117G128B52 = {
+	851.7.7 = {
+		holder = gen_113
+		liege = d_R233G167B216	}
+}
+c_R125G179B212 = {
+	851.7.7 = {
+		holder = gen_114
+		liege = d_R109G206B144	}
+}
+c_R132G5B30 = {
+	851.7.7 = {
+		holder = gen_115
+		liege = d_R67G62B16	}
+}
+c_R62G28B222 = {
+	851.7.7 = {
+		holder = gen_116
+		liege = d_R54G65B143	}
+}
+c_R20G112B205 = {
+	851.7.7 = {
+		holder = gen_117
+		liege = d_R18G101B61	}
+}
+c_R46G141B21 = {
+	851.7.7 = {
+		holder = gen_118
+		liege = d_R219G100B203	}
+}
+c_R235G6B230 = {
+	851.7.7 = {
+		holder = gen_119
+		liege = d_R118G90B238	}
+}
+c_R73G246B145 = {
+	851.7.7 = {
+		holder = gen_120
+		liege = d_R26G169B72	}
+}
+c_R146G225B119 = {
+	851.7.7 = {
+		holder = gen_121
+		liege = d_R63G97B79	}
+}
+c_R36G176B155 = {
+	851.7.7 = {
+		holder = gen_122
+		liege = d_R125G83B254	}
+}
+c_R152G186B79 = {
+	851.7.7 = {
+		holder = gen_123
+		liege = d_R44G0B17	}
+}
+c_R159G8B152 = {
+	851.7.7 = {
+		holder = gen_124
+		liege = d_R109G206B144	}
+}
+c_R108G85B64 = {
+	851.7.7 = {
+		holder = gen_125
+		liege = d_R26G47B176	}
+}
+c_R241G200B97 = {
+	851.7.7 = {
+		holder = gen_126
+			}
+}
+c_R176G206B239 = {
+	851.7.7 = {
+		holder = gen_127
+		liege = d_R21G221B218	}
+}
+c_R64G173B225 = {
+	851.7.7 = {
+		holder = gen_128
+		liege = d_R113G42B194	}
+}
+c_R119G165B22 = {
+	851.7.7 = {
+		holder = gen_129
+		liege = d_R177G185B194	}
+}
+c_R116G249B254 = {
+	851.7.7 = {
+		holder = gen_130
+		liege = d_R158G29B128	}
+}
+c_R215G78B168 = {
+	851.7.7 = {
+		holder = gen_131
+		liege = d_R106G122B236	}
+}
+c_R213G200B156 = {
+	851.7.7 = {
+		holder = gen_132
+		liege = d_R124G19B175	}
+}
+c_R104G198B180 = {
+	851.7.7 = {
+		holder = gen_133
+		liege = d_R45G38B252	}
+}
+c_R58G244B68 = {
+	851.7.7 = {
+		holder = gen_134
+			}
+}
+c_R105G182B93 = {
+	851.7.7 = {
+		holder = gen_135
+		liege = d_R217G82B19	}
+}
+c_R82G158B63 = {
+	851.7.7 = {
+		holder = gen_136
+		liege = d_R35G116B21	}
+}
+c_R182G186B67 = {
+	851.7.7 = {
+		holder = gen_137
+			}
+}
+c_R147G12B196 = {
+	851.7.7 = {
+		holder = gen_138
+		liege = d_R113G99B166	}
+}
+c_R118G82B160 = {
+	851.7.7 = {
+		holder = gen_139
+		liege = d_R137G47B185	}
+}
+c_R189G89B46 = {
+	851.7.7 = {
+		holder = gen_140
+		liege = d_R153G85B160	}
+}
+c_R8G168B194 = {
+	851.7.7 = {
+		holder = gen_141
+		liege = d_R92G34B219	}
+}
+c_R253G43B213 = {
+	851.7.7 = {
+		holder = gen_142
+		liege = d_R145G171B56	}
+}
+c_R41G47B213 = {
+	851.7.7 = {
+		holder = gen_143
+		liege = d_R180G61B199	}
+}
+c_R167G183B92 = {
+	851.7.7 = {
+		holder = gen_144
+		liege = d_R137G47B185	}
+}
+c_R218G70B75 = {
+	851.7.7 = {
+		holder = gen_145
+		liege = d_R54G65B143	}
+}
+c_R32G27B243 = {
+	851.7.7 = {
+		holder = gen_146
+		liege = d_R191G2B149	}
+}
+c_R24G14B48 = {
+	851.7.7 = {
+		holder = gen_147
+		liege = d_R144G220B39	}
+}
+c_R211G109B86 = {
+	851.7.7 = {
+		holder = gen_148
+		liege = d_R143G211B68	}
+}
+c_R171G155B127 = {
+	851.7.7 = {
+		holder = gen_149
+		liege = d_R56G6B174	}
+}
+c_R189G63B43 = {
+	851.7.7 = {
+		holder = gen_150
+		liege = d_R228G237B223	}
+}
+c_R133G168B10 = {
+	851.7.7 = {
+		holder = gen_151
+		liege = d_R229G59B180	}
+}
+c_R254G17B248 = {
+	851.7.7 = {
+		holder = gen_152
+		liege = d_R112G112B134	}
+}
+c_R239G223B122 = {
+	851.7.7 = {
+		holder = gen_153
+		liege = d_R157G6B161	}
+}
+c_R58G252B91 = {
+	851.7.7 = {
+		holder = gen_154
+		liege = d_R178G4B17	}
+}
+c_R197G224B174 = {
+	851.7.7 = {
+		holder = gen_155
+		liege = d_R228G237B223	}
+}
+c_R238G11B180 = {
+	851.7.7 = {
+		holder = gen_156
+		liege = d_R47G88B108	}
+}
+c_R111G134B169 = {
+	851.7.7 = {
+		holder = gen_157
+		liege = d_R89G147B248	}
+}
+c_R247G225B232 = {
+	851.7.7 = {
+		holder = gen_158
+		liege = d_R2G206B110	}
+}
+c_R239G230B128 = {
+	851.7.7 = {
+		holder = gen_159
+		liege = d_R153G85B160	}
+}
+c_R201G233B207 = {
+	851.7.7 = {
+		holder = gen_160
+		liege = d_R164G34B5	}
+}
+c_R163G244B48 = {
+	851.7.7 = {
+		holder = gen_161
+		liege = d_R144G220B39	}
+}
+c_R134G168B16 = {
+	851.7.7 = {
+		holder = gen_162
+		liege = d_R63G97B79	}
+}
+c_R162G207B175 = {
+	851.7.7 = {
+		holder = gen_163
+			}
+}
+# c_R217G225B102 = {
+	# 851.7.7 = {
+		# holder = gen_164
+		# liege = d_R166G216B78	}
+# }
+c_R206G170B109 = {
+	851.7.7 = {
+		holder = gen_165
+		liege = d_R167G45B174	}
+}
+c_R184G104B76 = {
+	851.7.7 = {
+		holder = gen_166
+		liege = d_R191G2B149	}
+}
+c_R45G72B18 = {
+	851.7.7 = {
+		holder = gen_167
+		liege = d_R87G95B32	}
+}
+c_R127G185B153 = {
+	851.7.7 = {
+		holder = gen_168
+		liege = d_R59G149B25	}
+}
+c_R86G220B131 = {
+	851.7.7 = {
+		holder = gen_169
+			}
+}
+c_R231G179B79 = {
+	851.7.7 = {
+		holder = gen_170
+		liege = d_R217G82B19	}
+}
+c_R145G233B23 = {
+	851.7.7 = {
+		holder = gen_171
+		liege = d_R153G54B176	}
+}
+c_R78G4B225 = {
+	851.7.7 = {
+		holder = gen_172
+		liege = d_R173G49B233	}
+}
+c_R164G197B113 = {
+	851.7.7 = {
+		holder = gen_173
+		liege = d_R76G202B133	}
+}
+c_R9G108B122 = {
+	851.7.7 = {
+		holder = gen_174
+		liege = d_R47G88B108	}
+}
+c_R69G222B1 = {
+	851.7.7 = {
+		holder = gen_175
+			}
+}
+c_R208G168B90 = {
+	851.7.7 = {
+		holder = gen_176
+		liege = d_R132G210B117	}
+}
+c_R64G59B186 = {
+	851.7.7 = {
+		holder = gen_177
+		liege = d_R63G97B79	}
+}
+c_R153G201B171 = {
+	851.7.7 = {
+		holder = gen_178
+		liege = d_R146G107B199	}
+}
+c_R234G143B203 = {
+	851.7.7 = {
+		holder = gen_179
+		liege = d_R202G22B96	}
+}
+c_R38G238B223 = {
+	851.7.7 = {
+		holder = gen_180
+		liege = d_R127G6B83	}
+}
+c_R250G158B41 = {
+	851.7.7 = {
+		holder = gen_181
+		liege = d_R177G185B194	}
+}
+c_R213G106B99 = {
+	851.7.7 = {
+		holder = gen_182
+		liege = d_R202G176B197	}
+}
+c_R118G114B225 = {
+	851.7.7 = {
+		holder = gen_183
+		liege = d_R63G97B79	}
+}
+c_R15G222B221 = {
+	851.7.7 = {
+		holder = gen_184
+			}
+}
+c_R243G68B241 = {
+	851.7.7 = {
+		holder = gen_185
+		liege = d_R159G104B47	}
+}
+c_R222G140B33 = {
+	851.7.7 = {
+		holder = gen_186
+		liege = d_R144G220B39	}
+}
+c_R155G143B226 = {
+	851.7.7 = {
+		holder = gen_187
+		liege = d_R89G239B235	}
+}
+c_R122G128B118 = {
+	851.7.7 = {
+		holder = gen_188
+		liege = d_R203G189B70	}
+}
+c_R20G197B100 = {
+	851.7.7 = {
+		holder = gen_189
+		liege = d_R13G244B74	}
+}
+c_R67G140B161 = {
+	851.7.7 = {
+		holder = gen_190
+		liege = d_R67G221B98	}
+}
+c_R217G229B208 = {
+	851.7.7 = {
+		holder = gen_191
+		liege = d_R141G99B146	}
+}
+
+c_R248G38B31 = {
+	851.7.7 = {
+		holder = gen_193
+		liege = d_R191G2B149	}
+}
+c_R248G220B245 = {
+	851.7.7 = {
+		holder = gen_194
+		liege = d_R25G223B40	}
+}
+c_R203G87B99 = {
+	851.7.7 = {
+		holder = gen_195
+		liege = d_R225G206B96	}
+}
+c_R50G249B228 = {
+	851.7.7 = {
+		holder = gen_196
+		liege = d_R181G89B192	}
+}
+c_R152G114B75 = {
+	851.7.7 = {
+		holder = gen_197
+		liege = d_R202G176B197	}
+}
+c_R91G34B79 = {
+	851.7.7 = {
+		holder = gen_198
+		liege = d_R56G6B174	}
+}
+c_R92G164B124 = {
+	851.7.7 = {
+		holder = gen_199
+		liege = d_R109G206B144	}
+}
+c_R208G161B48 = {
+	851.7.7 = {
+		holder = gen_200
+		liege = d_R89G147B248	}
+}
+c_R42G207B186 = {
+	851.7.7 = {
+		holder = gen_201
+		liege = d_R253G68B8	}
+}
+c_R79G209B98 = {
+	851.7.7 = {
+		holder = gen_202
+		liege = d_R137G47B185	}
+}
+c_R76G10B105 = {
+	851.7.7 = {
+		holder = gen_203
+		liege = d_R63G104B63	}
+}
+c_R80G124B240 = {
+	851.7.7 = {
+		holder = gen_204
+		liege = d_R109G206B144	}
+}
+c_R90G95B242 = {
+	851.7.7 = {
+		holder = gen_205
+		liege = d_R159G104B47	}
+}
+c_R62G165B35 = {
+	851.7.7 = {
+		holder = gen_206
+		liege = d_R118G90B238	}
+}
+c_R176G75B217 = {
+	851.7.7 = {
+		holder = gen_207
+		liege = d_R216G22B13	}
+}
+c_R165G26B167 = {
+	851.7.7 = {
+		holder = gen_208
+		liege = d_R109G206B144	}
+}
+c_R97G217B214 = {
+	851.7.7 = {
+		holder = gen_209
+		liege = d_R233G167B216	}
+}
+c_R148G51B75 = {
+	851.7.7 = {
+		holder = gen_210
+		liege = d_R67G62B16	}
+}
+c_R136G244B219 = {
+	851.7.7 = {
+		holder = gen_211
+		liege = d_R131G41B1	}
+}
+c_R10G210B96 = {
+	851.7.7 = {
+		holder = gen_212
+		liege = d_R216G115B208	}
+}
+c_R37G206B34 = {
+	851.7.7 = {
+		holder = gen_213
+		liege = d_R54G65B143	}
+}
+c_R57G151B83 = {
+	851.7.7 = {
+		holder = gen_214
+		liege = d_R159G104B47	}
+}
+c_R237G101B189 = {
+	851.7.7 = {
+		holder = gen_215
+		liege = d_R144G220B39	}
+}
+c_R142G178B205 = {
+	851.7.7 = {
+		holder = gen_216
+		liege = d_R176G192B184	}
+}
+c_R103G49B4 = {
+	851.7.7 = {
+		holder = gen_217
+		liege = d_R67G221B98	}
+}
+c_R126G114B80 = {
+	851.7.7 = {
+		holder = gen_218
+		liege = d_R113G99B166	}
+}
+c_R232G110B236 = {
+	851.7.7 = {
+		holder = gen_219
+		liege = d_R59G149B25	}
+}
+c_R235G85B34 = {
+	851.7.7 = {
+		holder = gen_220
+		liege = d_R156G4B117	}
+}
+c_R8G138B44 = {
+	851.7.7 = {
+		holder = gen_221
+		liege = d_R244G194B132	}
+}
+c_R167G103B108 = {
+	851.7.7 = {
+		holder = gen_222
+			}
+}
+c_R85G242B85 = {
+	851.7.7 = {
+		holder = gen_223
+		liege = d_R2G206B110	}
+}
+c_R108G207B157 = {
+	851.7.7 = {
+		holder = gen_224
+			}
+}
+c_R196G53B108 = {
+	851.7.7 = {
+		holder = gen_225
+		liege = d_R67G62B16	}
+}
+c_R112G243B51 = {
+	851.7.7 = {
+		holder = gen_226
+		liege = d_R203G189B70	}
+}
+c_R73G175B49 = {
+	851.7.7 = {
+		holder = gen_227
+		liege = d_R47G77B181	}
+}
+c_R237G244B129 = {
+	851.7.7 = {
+		holder = gen_228
+		liege = d_R112G112B134	}
+}
+c_R10G60B18 = {
+	851.7.7 = {
+		holder = gen_229
+		liege = d_R35G116B21	}
+}
+c_R33G211B206 = {
+	851.7.7 = {
+		holder = gen_230
+		liege = d_R13G134B191	}
+}
+c_R203G210B144 = {
+	851.7.7 = {
+		holder = gen_231
+		liege = d_R127G210B192	}
+}
+c_R241G64B244 = {
+	851.7.7 = {
+		holder = gen_232
+			}
+}
+c_R86G168B111 = {
+	851.7.7 = {
+		holder = gen_233
+		liege = d_R163G63B13	}
+}
+c_R165G47B47 = {
+	851.7.7 = {
+		holder = gen_234
+		liege = d_R156G4B117	}
+}
+c_R114G95B102 = {
+	851.7.7 = {
+		holder = gen_235
+		liege = d_R76G202B133	}
+}
+c_R40G117B226 = {
+	851.7.7 = {
+		holder = gen_236
+		liege = d_R112G112B134	}
+}
+c_R90G232B67 = {
+	851.7.7 = {
+		holder = gen_237
+		liege = d_R178G4B17	}
+}
+c_R174G55B194 = {
+	851.7.7 = {
+		holder = gen_238
+		liege = d_R63G97B79	}
+}
+c_R118G251B72 = {
+	851.7.7 = {
+		holder = gen_239
+			}
+}
+c_R183G74B81 = {
+	851.7.7 = {
+		holder = gen_240
+		liege = d_R146G107B199	}
+}
+c_R17G14B114 = {
+	851.7.7 = {
+		holder = gen_241
+		liege = d_R146G124B164	}
+}
+c_R45G255B244 = {
+	851.7.7 = {
+		holder = gen_242
+		liege = d_R21G221B218	}
+}
+c_R70G88B157 = {
+	851.7.7 = {
+		holder = gen_243
+		liege = d_R132G210B117	}
+}
+c_R171G115B8 = {
+	851.7.7 = {
+		holder = gen_244
+		liege = d_R51G135B239	}
+}
+c_R94G30B56 = {
+	851.7.7 = {
+		holder = gen_245
+		liege = d_R0G247B83	}
+}
+c_R121G165B2 = {
+	851.7.7 = {
+		holder = gen_246
+			}
+}
+c_R67G157B132 = {
+	851.7.7 = {
+		holder = gen_247
+		liege = d_R89G147B248	}
+}
+c_R129G132B33 = {
+	851.7.7 = {
+		holder = gen_248
+		liege = d_R127G6B83	}
+}
+c_R123G112B59 = {
+	851.7.7 = {
+		holder = gen_249
+		liege = d_R219G100B203	}
+}
+c_R160G107B198 = {
+	851.7.7 = {
+		holder = gen_250
+		liege = d_R141G99B146	}
+}
+c_R169G242B127 = {
+	851.7.7 = {
+		holder = gen_251
+		liege = d_R113G42B194	}
+}
+c_R70G103B202 = {
+	851.7.7 = {
+		holder = gen_252
+		liege = d_R216G22B13	}
+}
+c_R19G116B149 = {
+	851.7.7 = {
+		holder = gen_253
+			}
+}
+c_R242G123B188 = {
+	851.7.7 = {
+		holder = gen_254
+		liege = d_R159G104B47	}
+}
+c_R250G69B43 = {
+	851.7.7 = {
+		holder = gen_255
+		liege = d_R141G99B146	}
+}
+c_R252G75B229 = {
+	851.7.7 = {
+		holder = gen_256
+		liege = d_R72G44B43	}
+}
+c_R77G130B107 = {
+	851.7.7 = {
+		holder = gen_257
+		liege = d_R177G185B194	}
+}
+c_R141G120B10 = {
+	851.7.7 = {
+		holder = gen_258
+		liege = d_R229G59B180	}
+}
+c_R109G114B1 = {
+	851.7.7 = {
+		holder = gen_259
+		liege = d_R178G4B17	}
+}
+c_R83G108B110 = {
+	851.7.7 = {
+		holder = gen_260
+		liege = d_R113G42B194	}
+}
+c_R210G10B47 = {
+	851.7.7 = {
+		holder = gen_261
+		liege = d_R163G63B13	}
+}
+c_R227G72B131 = {
+	851.7.7 = {
+		holder = gen_262
+		liege = d_R2G206B110	}
+}
+c_R179G77B218 = {
+	851.7.7 = {
+		holder = gen_263
+		liege = d_R202G176B197	}
+}
+c_R32G224B107 = {
+	851.7.7 = {
+		holder = gen_264
+		liege = d_R217G82B19	}
+}
+c_R165G193B150 = {
+	851.7.7 = {
+		holder = gen_265
+			}
+}
+
+c_R252G65B249 = {
+	851.7.7 = {
+		holder = gen_267
+		liege = d_R112G112B134	}
+}
+
+c_R254G198B76 = {
+	851.7.7 = {
+		holder = gen_269
+		liege = d_R109G206B144	}
+}
+c_R165G224B25 = {
+	851.7.7 = {
+		holder = gen_270
+		liege = d_R146G124B164	}
+}
+c_R55G203B143 = {
+	851.7.7 = {
+		holder = gen_271
+		liege = d_R229G120B67	}
+}
+c_R248G235B97 = {
+	851.7.7 = {
+		holder = gen_272
+		liege = d_R118G90B238	}
+}
+c_R143G21B16 = {
+	851.7.7 = {
+		holder = gen_273
+		liege = d_R131G41B1	}
+}
+c_R112G178B127 = {
+	851.7.7 = {
+		holder = gen_274
+		liege = d_R176G192B184	}
+}
+c_R214G149B116 = {
+	851.7.7 = {
+		holder = gen_275
+		liege = d_R72G44B43	}
+}
+c_R58G71B111 = {
+	851.7.7 = {
+		holder = gen_276
+		liege = d_R89G147B248	}
+}
+c_R168G151B40 = {
+	851.7.7 = {
+		holder = gen_277
+		liege = d_R92G34B219	}
+}
+c_R1G119B231 = {
+	851.7.7 = {
+		holder = gen_278
+		liege = d_R2G206B110	}
+}
+c_R202G234B68 = {
+	851.7.7 = {
+		holder = gen_279
+		liege = d_R245G138B250	}
+}
+c_R94G179B222 = {
+	851.7.7 = {
+		holder = gen_280
+		liege = d_R63G104B63	}
+}
+c_R121G251B24 = {
+	851.7.7 = {
+		holder = gen_281
+		liege = d_R44G0B17	}
+}
+c_R34G24B137 = {
+	851.7.7 = {
+		holder = gen_282
+		liege = d_R89G239B235	}
+}
+c_R156G232B197 = {
+	851.7.7 = {
+		holder = gen_283
+		liege = d_R221G200B118	}
+}
+c_R93G179B89 = {
+	851.7.7 = {
+		holder = gen_284
+		liege = d_R1G62B244	}
+}
+c_R253G197B5 = {
+	851.7.7 = {
+		holder = gen_285
+		liege = d_R16G155B181	}
+}
+c_R170G26B45 = {
+	851.7.7 = {
+		holder = gen_286
+		liege = d_R131G41B1	}
+}
+c_R102G223B117 = {
+	851.7.7 = {
+		holder = gen_287
+			}
+}
+c_R158G154B65 = {
+	851.7.7 = {
+		holder = gen_288
+		liege = d_R113G42B194	}
+}
+c_R22G68B102 = {
+	851.7.7 = {
+		holder = gen_289
+		liege = d_R193G112B21	}
+}
+c_R69G178B238 = {
+	851.7.7 = {
+		holder = gen_290
+		liege = d_R89G147B248	}
+}
+c_R68G191B143 = {
+	851.7.7 = {
+		holder = gen_291
+			}
+}
+c_R117G217B207 = {
+	851.7.7 = {
+		holder = gen_292
+		liege = d_R78G156B131	}
+}
+c_R148G11B37 = {
+	851.7.7 = {
+		holder = gen_293
+		liege = d_R216G115B208	}
+}
+c_R193G34B22 = {
+	851.7.7 = {
+		holder = gen_294
+		liege = d_R2G206B110	}
+}
+c_R98G24B149 = {
+	851.7.7 = {
+		holder = gen_295
+		liege = d_R244G194B132	}
+}
+c_R232G104B218 = {
+	851.7.7 = {
+		holder = gen_296
+		liege = d_R165G93B95	}
+}
+c_R112G232B180 = {
+	851.7.7 = {
+		holder = gen_297
+		liege = d_R81G9B214	}
+}
+c_R245G139B8 = {
+	851.7.7 = {
+		holder = gen_298
+		liege = d_R81G9B214	}
+}
+c_R50G215B207 = {
+	851.7.7 = {
+		holder = gen_299
+		liege = d_R84G39B172	}
+}
+c_R179G104B65 = {
+	851.7.7 = {
+		holder = gen_300
+		liege = d_R72G44B43	}
+}
+c_R134G114B5 = {
+	851.7.7 = {
+		holder = gen_301
+		liege = d_R155G216B27	}
+}
+c_R220G126B236 = {
+	851.7.7 = {
+		holder = gen_302
+		liege = d_R112G112B134	}
+}
+c_R106G161B179 = {
+	851.7.7 = {
+		holder = gen_303
+		liege = d_R193G112B21	}
+}
+c_R46G19B135 = {
+	851.7.7 = {
+		holder = gen_304
+		liege = d_R203G189B70	}
+}
+c_R221G35B14 = {
+	851.7.7 = {
+		holder = gen_305
+		liege = d_R59G8B195	}
+}
+c_R127G94B61 = {
+	851.7.7 = {
+		holder = gen_306
+		liege = d_R177G185B194	}
+}
+c_R12G231B159 = {
+	851.7.7 = {
+		holder = gen_307
+		liege = d_R74G36B241	}
+}
+c_R66G91B114 = {
+	851.7.7 = {
+		holder = gen_308
+		liege = d_R34G125B149	}
+}
+c_R210G42B201 = {
+	851.7.7 = {
+		holder = gen_309
+		liege = d_R152G2B91	}
+}
+c_R153G211B215 = {
+	851.7.7 = {
+		holder = gen_310
+		liege = d_R51G135B239	}
+}
+c_R93G226B23 = {
+	851.7.7 = {
+		holder = gen_311
+		liege = d_R76G202B133	}
+}
+c_R46G80B155 = {
+	851.7.7 = {
+		holder = gen_312
+		liege = d_R165G93B95	}
+}
+c_R76G134B129 = {
+	851.7.7 = {
+		holder = gen_313
+		liege = d_R219G100B203	}
+}
+c_R100G207B76 = {
+	851.7.7 = {
+		holder = gen_314
+		liege = d_R1G62B244	}
+}
+c_R248G133B56 = {
+	851.7.7 = {
+		holder = gen_315
+		liege = d_R229G120B67	}
+}
+c_R119G183B75 = {
+	851.7.7 = {
+		holder = gen_316
+		liege = d_R25G223B40	}
+}
+c_R43G230B88 = {
+	851.7.7 = {
+		holder = gen_317
+		liege = d_R59G8B195	}
+}
+c_R196G113B90 = {
+	851.7.7 = {
+		holder = gen_318
+		liege = d_R124G19B175	}
+}
+c_R127G136B33 = {
+	851.7.7 = {
+		holder = gen_319
+			}
+}
+c_R28G226B142 = {
+	851.7.7 = {
+		holder = gen_320
+		liege = d_R156G4B117	}
+}
+c_R197G190B49 = {
+	851.7.7 = {
+		holder = gen_321
+		liege = d_R201G57B108	}
+}
+c_R133G163B203 = {
+	851.7.7 = {
+		holder = gen_322
+		liege = d_R89G147B248	}
+}
+c_R238G161B120 = {
+	851.7.7 = {
+		holder = gen_323
+		liege = d_R181G116B96	}
+}
+c_R63G11B142 = {
+	851.7.7 = {
+		holder = gen_324
+		liege = d_R113G99B166	}
+}
+c_R189G216B149 = {
+	851.7.7 = {
+		holder = gen_325
+		liege = d_R164G34B5	}
+}
+c_R243G10B251 = {
+	851.7.7 = {
+		holder = gen_326
+		liege = d_R137G47B185	}
+}
+c_R203G70B17 = {
+	851.7.7 = {
+		holder = gen_327
+		liege = d_R173G49B233	}
+}
+c_R235G9B196 = {
+	851.7.7 = {
+		holder = gen_328
+		liege = d_R109G206B144	}
+}
+c_R11G32B27 = {
+	851.7.7 = {
+		holder = gen_329
+		liege = d_R118G90B238	}
+}
+c_R145G239B250 = {
+	851.7.7 = {
+		holder = gen_330
+		liege = d_R35G116B21	}
+}
+c_R221G244B243 = {
+	851.7.7 = {
+		holder = gen_331
+		liege = d_R50G241B223	}
+}
+c_R70G28B9 = {
+	851.7.7 = {
+		holder = gen_332
+		liege = d_R1G62B244	}
+}
+c_R9G192B80 = {
+	851.7.7 = {
+		holder = gen_333
+		liege = d_R241G191B242	}
+}
+c_R73G107B109 = {
+	851.7.7 = {
+		holder = gen_334
+		liege = d_R59G8B195	}
+}
+c_R254G100B208 = {
+	851.7.7 = {
+		holder = gen_335
+		liege = d_R202G176B197	}
+}
+c_R175G125B232 = {
+	851.7.7 = {
+		holder = gen_336
+		liege = d_R233G167B216	}
+}
+c_R193G84B49 = {
+	851.7.7 = {
+		holder = gen_337
+			}
+}
+c_R113G79B109 = {
+	851.7.7 = {
+		holder = gen_338
+			}
+}
+c_R118G76B81 = {
+	851.7.7 = {
+		holder = gen_339
+		liege = d_R241G191B242	}
+}
+c_R255G28B175 = {
+	851.7.7 = {
+		holder = gen_340
+		liege = d_R67G221B98	}
+}
+c_R144G206B97 = {
+	851.7.7 = {
+		holder = gen_341
+		liege = d_R26G47B176	}
+}
+c_R139G237B68 = {
+	851.7.7 = {
+		holder = gen_342
+			}
+}
+c_R126G152B22 = {
+	851.7.7 = {
+		holder = gen_343
+		liege = d_R196G5B40	}
+}
+c_R161G147B173 = {
+	851.7.7 = {
+		holder = gen_344
+		liege = d_R0G242B61	}
+}
+c_R6G98B224 = {
+	851.7.7 = {
+		holder = gen_345
+		liege = d_R165G93B95	}
+}
+c_R27G237B165 = {
+	851.7.7 = {
+		holder = gen_346
+		liege = d_R145G171B56	}
+}
+c_R236G184B124 = {
+	851.7.7 = {
+		holder = gen_347
+		liege = d_R25G223B40	}
+}
+c_R70G52B109 = {
+	851.7.7 = {
+		holder = gen_348
+		liege = d_R63G104B63	}
+}
+c_R106G222B214 = {
+	851.7.7 = {
+		holder = gen_349
+		liege = d_R72G44B43	}
+}
+c_R115G90B157 = {
+	851.7.7 = {
+		holder = gen_350
+		liege = d_R118G90B238	}
+}
+c_R164G234B105 = {
+	851.7.7 = {
+		holder = gen_351
+		liege = d_R91G104B65	}
+}
+c_R109G231B172 = {
+	851.7.7 = {
+		holder = gen_352
+		liege = d_R113G42B194	}
+}
+c_R53G41B125 = {
+	851.7.7 = {
+		holder = gen_353
+		liege = d_R65G142B243	}
+}
+c_R31G47B147 = {
+	851.7.7 = {
+		holder = gen_354
+		liege = d_R226G97B219	}
+}
+c_R115G227B182 = {
+	851.7.7 = {
+		holder = gen_355
+		liege = d_R137G244B65	}
+}
+c_R62G2B23 = {
+	851.7.7 = {
+		holder = gen_356
+			}
+}
+c_R134G213B132 = {
+	851.7.7 = {
+		holder = gen_357
+		liege = d_R177G185B194	}
+}
+
+c_R177G212B89 = {
+	851.7.7 = {
+		holder = gen_359
+		liege = d_R67G62B16	}
+}
+c_R101G60B79 = {
+	851.7.7 = {
+		holder = gen_360
+		liege = d_R132G210B117	}
+}
+c_R227G229B185 = {
+	851.7.7 = {
+		holder = gen_361
+		liege = d_R63G97B79	}
+}
+c_R117G145B30 = {
+	851.7.7 = {
+		holder = gen_362
+		liege = d_R124G19B175	}
+}
+c_R43G158B14 = {
+	851.7.7 = {
+		holder = gen_363
+		liege = d_R63G97B79	}
+}
+c_R53G236B49 = {
+	851.7.7 = {
+		holder = gen_364
+		liege = d_R63G97B79	}
+}
+c_R97G41B210 = {
+	851.7.7 = {
+		holder = gen_365
+		liege = d_R199G168B25	}
+}
+c_R98G215B63 = {
+	851.7.7 = {
+		holder = gen_366
+		liege = d_R63G97B79	}
+}
+c_R237G8B123 = {
+	851.7.7 = {
+		holder = gen_367
+		liege = d_R108G185B186	}
+}
+c_R31G73B168 = {
+	851.7.7 = {
+		holder = gen_368
+		liege = d_R44G0B17	}
+}
+c_R2G104B0 = {
+	851.7.7 = {
+		holder = gen_369
+		liege = d_R118G90B238	}
+}
+c_R114G164B223 = {
+	851.7.7 = {
+		holder = gen_370
+		liege = d_R191G2B149	}
+}
+c_R54G245B103 = {
+	851.7.7 = {
+		holder = gen_371
+		liege = d_R228G237B223	}
+}
+c_R3G127B140 = {
+	851.7.7 = {
+		holder = gen_372
+		liege = d_R88G100B17	}
+}
+c_R154G95B210 = {
+	851.7.7 = {
+		holder = gen_373
+		liege = d_R153G85B160	}
+}
+c_R239G37B19 = {
+	851.7.7 = {
+		holder = gen_374
+		liege = d_R45G38B252	}
+}
+c_R23G70B18 = {
+	851.7.7 = {
+		holder = gen_375
+		liege = d_R131G41B1	}
+}
+c_R189G161B148 = {
+	851.7.7 = {
+		holder = gen_376
+		liege = d_R28G191B253	}
+}
+c_R201G181B248 = {
+	851.7.7 = {
+		holder = gen_377
+		liege = d_R35G116B21	}
+}
+c_R204G70B198 = {
+	851.7.7 = {
+		holder = gen_378
+		liege = d_R6G15B64	}
+}
+c_R209G223B99 = {
+	851.7.7 = {
+		holder = gen_379
+		liege = d_R58G100B130	}
+}
+c_R228G152B14 = {
+	851.7.7 = {
+		holder = gen_380
+		liege = d_R253G68B8	}
+}
+c_R100G159B129 = {
+	851.7.7 = {
+		holder = gen_381
+		liege = d_R124G19B175	}
+}
+c_R93G174B190 = {
+	851.7.7 = {
+		holder = gen_382
+		liege = d_R165G93B95	}
+}
+c_R215G79B116 = {
+	851.7.7 = {
+		holder = gen_383
+		liege = d_R252G104B192	}
+}
+c_R168G216B50 = {
+	851.7.7 = {
+		holder = gen_384
+		liege = d_R21G221B218	}
+}
+c_R69G84B239 = {
+	851.7.7 = {
+		holder = gen_385
+		liege = d_R61G184B227	}
+}
+c_R35G215B179 = {
+	851.7.7 = {
+		holder = gen_386
+		liege = d_R204G174B184	}
+}
+c_R124G6B185 = {
+	851.7.7 = {
+		holder = gen_387
+		liege = d_R202G176B197	}
+}
+c_R50G124B48 = {
+	851.7.7 = {
+		holder = gen_388
+		liege = d_R155G216B27	}
+}
+c_R255G115B39 = {
+	851.7.7 = {
+		holder = gen_389
+			}
+}
+c_R56G38B113 = {
+	851.7.7 = {
+		holder = gen_390
+		liege = d_R145G171B56	}
+}
+c_R240G92B133 = {
+	851.7.7 = {
+		holder = gen_391
+		liege = d_R111G255B235	}
+}
+c_R207G36B77 = {
+	851.7.7 = {
+		holder = gen_392
+		liege = d_R11G159B193	}
+}
+c_R119G188B228 = {
+	851.7.7 = {
+		holder = gen_393
+		liege = d_R28G78B117	}
+}
+c_R71G86B66 = {
+	851.7.7 = {
+		holder = gen_394
+		liege = d_R217G82B19	}
+}
+c_R252G45B228 = {
+	851.7.7 = {
+		holder = gen_395
+		liege = d_R34G125B149	}
+}
+c_R23G234B155 = {
+	851.7.7 = {
+		holder = gen_396
+		liege = d_R35G116B21	}
+}
+c_R53G185B225 = {
+	851.7.7 = {
+		holder = gen_397
+		liege = d_R94G253B182	}
+}
+c_R129G16B109 = {
+	851.7.7 = {
+		holder = gen_398
+		liege = d_R179G139B42	}
+}
+c_R118G255B42 = {
+	851.7.7 = {
+		holder = gen_399
+			}
+}
+c_R119G114B26 = {
+	851.7.7 = {
+		holder = gen_400
+		liege = d_R153G85B160	}
+}
+c_R179G96B53 = {
+	851.7.7 = {
+		holder = gen_401
+		liege = d_R181G89B192	}
+}
+c_R4G156B127 = {
+	851.7.7 = {
+		holder = gen_402
+		liege = d_R229G199B117	}
+}
+c_R200G255B188 = {
+	851.7.7 = {
+		holder = gen_403
+		liege = d_R1G62B244	}
+}
+c_R34G46B154 = {
+	851.7.7 = {
+		holder = gen_404
+		liege = d_R111G255B235	}
+}
+c_R101G230B241 = {
+	851.7.7 = {
+		holder = gen_405
+		liege = d_R46G225B118	}
+}
+c_R56G229B64 = {
+	851.7.7 = {
+		holder = gen_406
+		liege = d_R14G111B75	}
+}
+c_R218G47B68 = {
+	851.7.7 = {
+		holder = gen_407
+			}
+}
+c_R190G185B40 = {
+	851.7.7 = {
+		holder = gen_408
+		liege = d_R143G211B68	}
+}
+c_R114G234B5 = {
+	851.7.7 = {
+		holder = gen_409
+		liege = d_R109G206B144	}
+}
+c_R229G131B112 = {
+	851.7.7 = {
+		holder = gen_410
+		liege = d_R11G159B193	}
+}
+c_R7G102B183 = {
+	851.7.7 = {
+		holder = gen_411
+		liege = d_R165G93B95	}
+}
+c_R123G118B176 = {
+	851.7.7 = {
+		holder = gen_412
+		liege = d_R164G199B165	}
+}
+c_R184G202B70 = {
+	851.7.7 = {
+		holder = gen_413
+		liege = d_R202G176B197	}
+}
+c_R246G183B71 = {
+	851.7.7 = {
+		holder = gen_414
+		liege = d_R56G6B174	}
+}
+c_R124G248B87 = {
+	851.7.7 = {
+		holder = gen_415
+		liege = d_R156G4B117	}
+}
+c_R122G39B56 = {
+	851.7.7 = {
+		holder = gen_416
+		liege = d_R79G17B141	}
+}
+c_R2G28B181 = {
+	851.7.7 = {
+		holder = gen_417
+		liege = d_R16G166B28	}
+}
+c_R226G72B233 = {
+	851.7.7 = {
+		holder = gen_418
+		liege = d_R29G125B54	}
+}
+c_R26G223B50 = {
+	851.7.7 = {
+		holder = gen_419
+		liege = d_R24G80B136	}
+}
+c_R251G50B186 = {
+	851.7.7 = {
+		holder = gen_420
+		liege = d_R255G124B38	}
+}
+c_R121G120B196 = {
+	851.7.7 = {
+		holder = gen_421
+		liege = d_R109G206B144	}
+}
+c_R251G74B146 = {
+	851.7.7 = {
+		holder = gen_422
+		liege = d_R216G145B205	}
+}
+c_R210G70B49 = {
+	851.7.7 = {
+		holder = gen_423
+		liege = d_R7G57B167	}
+}
+c_R197G171B64 = {
+	851.7.7 = {
+		holder = gen_424
+		liege = d_R167G49B209	}
+}
+c_R47G76B101 = {
+	851.7.7 = {
+		holder = gen_425
+		liege = d_R177G185B194	}
+}
+c_R228G90B4 = {
+	851.7.7 = {
+		holder = gen_426
+		liege = d_R254G10B135	}
+}
+c_R48G40B145 = {
+	851.7.7 = {
+		holder = gen_427
+		liege = d_R181G191B249	}
+}
+c_R217G72B255 = {
+	851.7.7 = {
+		holder = gen_428
+		liege = d_R34G214B166	}
+}
+c_R34G145B149 = {
+	851.7.7 = {
+		holder = gen_429
+		liege = d_R65G142B243	}
+}
+c_R59G116B236 = {
+	851.7.7 = {
+		holder = gen_430
+		liege = d_R228G237B223	}
+}
+c_R154G203B221 = {
+	851.7.7 = {
+		holder = gen_431
+		liege = d_R47G88B108	}
+}
+c_R108G17B60 = {
+	851.7.7 = {
+		holder = gen_432
+		liege = d_R131G41B1	}
+}
+c_R68G35B85 = {
+	851.7.7 = {
+		holder = gen_433
+		liege = d_R216G145B205	}
+}
+c_R239G96B24 = {
+	851.7.7 = {
+		holder = gen_434
+			}
+}
+c_R190G84B203 = {
+	851.7.7 = {
+		holder = gen_435
+		liege = d_R8G125B118	}
+}
+c_R240G9B82 = {
+	851.7.7 = {
+		holder = gen_436
+		liege = d_R216G22B13	}
+}
+c_R94G42B168 = {
+	851.7.7 = {
+		holder = gen_437
+		liege = d_R65G142B243	}
+}
+c_R166G123B52 = {
+	851.7.7 = {
+		holder = gen_438
+		liege = d_R76G202B133	}
+}
+c_R239G45B75 = {
+	851.7.7 = {
+		holder = gen_439
+		liege = d_R145G171B56	}
+}
+c_R85G240B12 = {
+	851.7.7 = {
+		holder = gen_440
+		liege = d_R1G147B173	}
+}
+c_R62G172B244 = {
+	851.7.7 = {
+		holder = gen_441
+		liege = d_R44G242B22	}
+}
+c_R120G228B168 = {
+	851.7.7 = {
+		holder = gen_442
+		liege = d_R134G210B143	}
+}
+c_R193G6B218 = {
+	851.7.7 = {
+		holder = gen_443
+		liege = d_R72G44B43	}
+}
+c_R115G242B10 = {
+	851.7.7 = {
+		holder = gen_444
+		liege = d_R26G169B72	}
+}
+c_R158G107B91 = {
+	851.7.7 = {
+		holder = gen_445
+		liege = d_R181G89B192	}
+}
+c_R106G174B177 = {
+	851.7.7 = {
+		holder = gen_446
+		liege = d_R135G93B235	}
+}
+c_R210G89B118 = {
+	851.7.7 = {
+		holder = gen_447
+		liege = d_R149G98B171	}
+}

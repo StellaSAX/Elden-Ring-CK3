@@ -1,0 +1,24 @@
+﻿l_english:
+
+trait_misbegotten_trait:0 "Misbegotten"
+trait_track_horns:0 "Horns"
+trait_track_feather:0 "Feathers"
+trait_track_tail:0 "Tail"
+trait_track_scales:0 "Scales"
+
+trait_track_horns_desc:0 "Horns surround their body"
+trait_track_feather_desc:0 "Feathers grow from their back"
+trait_track_tail_desc:0 "They have a strong Tail"
+trait_track_scales_desc:0 "Scales cover their arms and shoulders"
+
+trait_omen_horn_trait:0 "Omen"
+trait_omen_no_horn_trait:0 "Omen without Horns"
+trait_ancient_dragon_elden_ring:0 "Ancient Dragon"
+trait_lesser_dragon_elden_ring:0 "Lesser Dragon"
+
+
+trait_misbegotten_trait_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born with the power of the Crucible, it can be seen as a blessing or curse depending on how it's used."
+trait_omen_horn_trait_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born as a Omen, with great physical strength and horns protecting their body, sadly their horns get in the way of everyday life."
+trait_omen_no_horn_trait_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] had their horns excised painfully, their life forever changed."
+trait_ancient_dragon_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a great Dragon, with their power they are a good ally for anyone capable of recruiting them."
+trait_lesser_dragon_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a lesser Dragon, a pale imitation of the ancient ones, but still a powerful creature."

@@ -1,0 +1,251 @@
+ask_dragon_cult_elden_ring_interaction = {
+	category = interaction_category_friendly
+	icon = alliance
+	desc = ask_dragon_cult_elden_ring_interaction_desc
+	
+	ai_frequency = 60
+	
+	ai_targets = {
+		ai_recipients = scripted_relations
+	}
+	
+	is_shown = {
+		scope:actor = {
+			has_affinity_elden_ring = no
+		}
+		scope:recipient = {
+			has_trait = ancient_dragon_elden_ring
+		}
+	}
+	
+	on_accept = {
+		scope:actor = {
+			add_trait = lightning_affinity
+		}
+		scope:recipient = {
+			
+		}
+	}
+	
+	ai_accept = {
+		base = -40
+
+		#External Factors
+		opinion_modifier = { # Opinion Factor
+			who = scope:recipient
+			opinion_target = scope:actor
+			multiplier = 0.5
+			desc = AI_SIMPLE_OPINION_REASON
+		}
+
+		modifier = {
+			add = 20
+			scope:recipient = {
+				OR = {
+					has_relation_lover = scope:actor
+					has_relation_friend = scope:actor
+					has_secret_relation_lover = scope:actor
+					has_relation_soulmate = scope:actor
+					has_relation_best_friend = scope:actor
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		base = 50
+	}
+}
+
+ask_dragon_communion_elden_ring_interaction = {
+	category = interaction_category_friendly
+	icon = alliance
+	desc = ask_dragon_communion_elden_ring_interaction_desc
+	
+	ai_targets = {
+		ai_recipients = scripted_relations
+	}
+	
+	is_shown = {
+		scope:actor = {
+			has_affinity_elden_ring = no
+		}
+		scope:recipient = {
+			has_trait = ancient_dragon_elden_ring
+		}
+	}
+	
+	on_accept = {
+		scope:actor = {
+			add_trait = dragon_affinity
+		}
+		scope:recipient = {
+			
+		}
+	}
+	
+	ai_accept = {
+		base = 0
+
+		#External Factors
+		opinion_modifier = { # Opinion Factor
+			who = scope:recipient
+			opinion_target = scope:actor
+			multiplier = 0.5
+			desc = AI_SIMPLE_OPINION_REASON
+		}
+
+		modifier = {
+			add = 50
+			scope:recipient = {
+				OR = {
+					has_relation_lover = scope:actor
+					has_relation_friend = scope:actor
+					has_secret_relation_lover = scope:actor
+					has_relation_soulmate = scope:actor
+					has_relation_best_friend = scope:actor
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		base = 50
+	}
+}
+
+teach_dragon_cult_elden_ring_interaction = {
+	category = interaction_category_friendly
+	icon = alliance
+	desc = teach_dragon_cult_elden_ring_interaction_desc
+	
+	ai_targets = {
+		ai_recipients = scripted_relations
+	}
+	
+	is_shown = {
+		scope:actor = {
+			has_trait = lightning_affinity
+		}
+		scope:recipient = {
+			has_affinity_elden_ring = no
+		}
+	}
+	
+	ai_frequency = 60
+	
+	on_accept = {
+		scope:actor = {
+			remove_short_term_gold = 50
+		}
+		scope:recipient = {
+			add_trait = lightning_affinity
+			if = {
+				limit = {
+					NAND = {
+						has_relation_friend = scope:actor
+						has_relation_lover = scope:actor
+						has_relation_soulmate = scope:actor
+						has_relation_best_friend = scope:actor
+					}
+				}
+				gifting_leads_towards_friendship_effect = yes
+			}
+		}
+	}
+	
+	ai_accept = {
+		base = 10
+
+		#External Factors
+		opinion_modifier = { # Opinion Factor
+			who = scope:recipient
+			opinion_target = scope:actor
+			multiplier = 0.25
+			desc = AI_SIMPLE_OPINION_REASON
+		}
+
+		modifier = {
+			add = 20
+			scope:recipient = {
+				OR = {
+					has_relation_lover = scope:actor
+					has_relation_friend = scope:actor
+					has_secret_relation_lover = scope:actor
+					has_relation_soulmate = scope:actor
+					has_relation_best_friend = scope:actor
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		base = 100
+	}
+}
+
+teach_dragon_communion_elden_ring_interaction = {
+	category = interaction_category_friendly
+	icon = alliance
+	desc = ask_dragon_communion_elden_ring_interaction_desc
+	
+	ai_targets = {
+		ai_recipients = scripted_relations
+	}
+	
+	is_shown = {
+		scope:actor = {
+			has_trait = dragon_affinity
+		}
+		scope:recipient = {
+			has_affinity_elden_ring = no
+		}
+	}
+	
+	ai_frequency = 60
+	
+	on_accept = {
+		scope:actor = {
+			remove_short_term_gold = 50
+		}
+		scope:recipient = {
+			add_trait = dragon_affinity
+			if = {
+				limit = {
+					NAND = {
+						has_relation_friend = scope:actor
+						has_relation_lover = scope:actor
+						has_relation_soulmate = scope:actor
+						has_relation_best_friend = scope:actor
+					}
+				}
+				gifting_leads_towards_friendship_effect = yes
+			}
+		}
+	}
+	
+	ai_accept = {
+		base = 50
+		#External Factors
+		opinion_modifier = { # Opinion Factor
+			who = scope:recipient
+			opinion_target = scope:actor
+			multiplier = 0.5
+			desc = AI_SIMPLE_OPINION_REASON
+		}
+
+		modifier = {
+			add = 50
+			scope:recipient = {
+				OR = {
+					has_relation_lover = scope:actor
+					has_relation_friend = scope:actor
+					has_secret_relation_lover = scope:actor
+					has_relation_soulmate = scope:actor
+					has_relation_best_friend = scope:actor
+				}
+			}
+		}
+	}	
+	
+	ai_will_do = {
+		base = 100
+	}
+}

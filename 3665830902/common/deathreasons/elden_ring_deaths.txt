@@ -1,0 +1,7 @@
+﻿death_imprisoned_in_erdtree = {
+	icon = "death_natural.dds"
+}
+
+death_went_missing_elden_ring = {
+	icon = "death_natural.dds"
+}

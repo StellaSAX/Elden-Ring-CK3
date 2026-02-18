@@ -1,0 +1,4 @@
+This is here to celebrate every person that decided to put their time into helping during the development of this mod:
+Lester,lester6686: The first person to actually give me something for the mod. Helped with the map, right now they have done the church of dragon comunion and the weeping peninsula, also some loading screens.
+Rain,thewatcher1354: Helped with naming the weeping peninsula.
+Saxar,saxar_sax: helped to clean the error log by removing some base game decisions and adding localization.

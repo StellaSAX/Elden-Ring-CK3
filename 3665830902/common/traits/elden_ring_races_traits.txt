@@ -1,0 +1,97 @@
+﻿#every affinity should give 3 skill points 
+#so it can be added and not be super powerful
+#or there should be a negative to compensate
+# diplomacy = 1
+# martial = 1
+# stewardship = 1
+# intrigue = 1
+# learning = 1
+# prowess = 3 in this case 1 point = 3
+# health = 1
+# elderly_health = 1
+# fertility = 0.10 this is porcentage base
+#negate_health_penalty_add = 1
+
+#10 point of opinion count as 1 skill point
+# dread_baseline_add = 10
+# dread_loss_mult = 1
+# liege_opinion = 5
+# attraction_opinion = 5
+# vassal_opinion = 5
+# general_opinion = 5
+# same_opinion = 5
+# owned_personal_scheme_success_chance_add = 10
+# owned_hostile_scheme_success_chance_add = 10
+
+omen_horn_trait = {
+	category = health
+	icon = "omen_horn_trait.dds"
+	ruler_designer_cost = 20
+	same_opinion = 30
+	prowess = 10
+	fertility = -0.25
+	health = 0.5
+	stress_gain_mult = 0.1
+	
+	opposites = {
+		misbegotten_trait
+		omen_no_horn_trait
+	}
+}
+
+omen_no_horn_trait = {
+	category = health
+	icon = "omen_no_horn_trait.dds"
+	ruler_designer_cost = 20
+	same_opinion = 30
+	prowess = 7
+	health = -0.25
+	
+	opposites = {
+		misbegotten_trait
+		omen_horn_trait
+	}
+}
+
+ancient_dragon_elden_ring = {
+	opposites = {
+		lightning_affinity
+		dragon_affinity
+		lesser_dragon_elden_ring
+	}
+	category = health
+	ruler_designer_cost = 20
+	same_opinion = 30
+	immortal = yes
+	can_have_children = no
+	set_immortal_age = 25
+	prowess = 20
+	health = 3
+	shown_in_ruler_designer = no
+}
+
+lesser_dragon_elden_ring = {
+	opposites = {
+		lightning_affinity
+		dragon_affinity
+		ancient_dragon_elden_ring
+	}
+	category = health
+	ruler_designer_cost = 20
+	same_opinion = 30
+	immortal = yes
+	can_have_children = no
+	set_immortal_age = 25
+	prowess = 10
+	health = 1.5
+	shown_in_ruler_designer = no
+}
+
+albinauric_trait = {
+	category = health
+	same_opinion = 50
+	immortal = yes
+	can_have_children = no
+	life_expectancy = -20
+	shown_in_ruler_designer = no
+}

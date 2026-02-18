@@ -1,0 +1,83 @@
+﻿on_birth_child = {
+    on_actions = {
+        on_action_child_birth_god
+		on_action_empyrean_random_birth
+    }
+}
+
+five_year_everyone_pulse = {
+    on_actions = {
+        on_action_ai_become_empyrean
+    }
+}
+
+on_action_child_birth_god = {
+	effect = {
+		if = { # one of the parents is a god
+			limit = {
+				OR = {
+					scope:real_father = {
+						has_trait = god_elden_ring
+					}
+					scope:mother = {
+						has_trait = god_elden_ring
+					}
+				}
+			}
+			add_trait = demigod_elden_ring
+		}
+		
+		if = { # Both parents are gods
+			limit = {
+				AND = {
+					scope:real_father = {
+						has_trait = god_elden_ring	
+					}
+					scope:mother = {
+						has_trait = god_elden_ring
+					}
+				}
+			}
+			add_trait = demigod_elden_ring
+			add_trait = empyrean_elden_ring
+			random_list = {
+				10 = {
+					add_trait = eternal_youth_elden_ring
+				}
+				90 = {
+				
+				}		
+			}
+
+		}
+	}
+}
+
+on_action_ai_become_empyrean = {
+	effect = {
+		if = { # king or more that is VERY religious
+			limit = {
+				AND = {
+					is_independent_ruler = yes
+					NOR = {
+						has_trait = empyrean_elden_ring
+						has_trait = demigod_elden_ring
+						has_trait = god_elden_ring
+					}
+					highest_held_title_tier >= tier_kingdom
+					piety_level >= 4
+				}
+			}
+			random_list = {
+				10 = {
+					add_trait = empyrean_elden_ring
+				}
+				90 = {
+				
+				}		
+			}
+		}
+				
+	}
+}
+

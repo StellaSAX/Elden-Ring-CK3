@@ -1,0 +1,21 @@
+﻿l_english:
+
+trait_god_elden_ring:0 "God of an Order"
+trait_demigod_elden_ring:0 "Demigod"
+trait_empyrean_elden_ring:0 "Empyrean"
+trait_eternal_youth_elden_ring:0 "Eternal Youth"
+trait_shardbearer_elden_ring:0 "Shardbearer"
+
+trait_god_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a God, a being of great power that will cause an impact on the world."
+trait_demigod_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the descendant of a God, in their blood exist the potential for greatness."
+trait_empyrean_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born with the potential to become a God, but for now they are a natural leader."
+trait_eternal_youth_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born with a condition that make them incapable of growing their body."
+trait_shardbearer_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has a fragment of the elden ring, giving them great power."
+
+become_god_elden_ring.0001.desc:0 "After much effort i have finally reach the pinacle of power, it's only a matter of time until the world bends to my will."
+become_god_elden_ring.0001.title:0 "The Birth of a God"
+become_god_elden_ring.0001.a:0 "Tremble before me"
+
+GOD_INVASION_CB_NAME:0 "God Conquest"
+GOD_INVASION_WAR_NAME:2 "$ORDER$ Godly Invasion of [TITLE.GetBaseName]"
+GOD_INVASION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"

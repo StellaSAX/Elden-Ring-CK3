@@ -1,0 +1,49 @@
+﻿
+grace_given = {
+	icon = compass_mixed
+	monthly_prestige_gain_mult = 0.01
+	enemy_scheme_secrecy_add = -0.5
+	domain_tax_mult = 0.05
+	army_maintenance_mult = -0.05
+	diplomacy = 1
+}
+
+dragon_eaten_1 = {
+	icon = beast_mixed
+	monthly_prestige_gain_mult = 0.01
+	prowess = 1
+	health = 0.25
+	life_expectancy = 5
+}
+
+dragon_eaten_2 = {
+	icon = beast_mixed
+	monthly_prestige_gain_mult = 0.02
+	prowess = 2
+	health = 0.50
+	life_expectancy = 10
+}
+
+dragon_eaten_3 = {
+	icon = beast_mixed
+	monthly_prestige_gain_mult = 0.03
+	prowess = 3
+	health = 0.75
+	life_expectancy = -5
+}
+
+dragon_eaten_4 = {
+	icon = beast_mixed
+	monthly_prestige_gain_mult = 0.04
+	prowess = 4
+	health = 1
+	life_expectancy = -10
+}
+
+dragon_eaten_5 = {
+	icon = beast_mixed
+	monthly_prestige_gain_mult = 0.05
+	prowess = 5
+	health = 1.5
+	life_expectancy = -15
+}

@@ -1,0 +1,330 @@
+﻿namespace = elden_ring_nickname_events
+
+
+elden_ring_nickname_events.0001 = {
+
+	type = character_event
+	desc = elden_ring_nickname_events.0001.desc
+	title = elden_ring_nickname_events.0001.title
+	theme = war
+
+	left_portrait = {
+		character = ROOT 
+		animation = marshal 
+	}
+	
+	option = { # eternal
+		name = elden_ring_nickname_events.0001.et
+		trigger = {
+			AND = {
+				has_trait = god_elden_ring
+				culture = {
+					has_cultural_tradition = tradition_golden_order
+				}
+			}
+		}
+		give_nickname = nick_the_eternal
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = { # golden
+		name = elden_ring_nickname_events.0001.go
+		trigger = {
+			AND = {
+				has_trait = order_affinity
+				culture = {
+					has_cultural_tradition = tradition_golden_order
+				}
+			}
+		}
+		give_nickname = nick_the_golden
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_nickname_events.0001.ork
+		trigger = {
+			AND = {
+				has_trait = order_affinity
+				is_female = no
+			}	
+		}
+		give_nickname = nick_the_order_king
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = { 
+		name = elden_ring_nickname_events.0001.orq
+		trigger = {
+			AND = {
+				has_trait = order_affinity
+				is_female = yes
+			}	
+		}
+		give_nickname = nick_the_order_queen
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = { 
+		name = elden_ring_nickname_events.0001.mk
+		trigger = {
+			AND = {
+				has_trait = frenzy_affinity
+				is_female = no
+			}
+		}
+		give_nickname = nick_the_mad_king
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = { 
+		name = elden_ring_nickname_events.0001.mq
+		trigger = {
+			AND = {
+				has_trait = frenzy_affinity
+				is_female = yes
+			}
+		}
+		give_nickname = nick_the_mad_queen
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_nickname_events.0001.fk
+		trigger = {
+			AND = {
+				has_trait = fire_affinity
+				is_female = no
+			}
+		}
+		give_nickname = nick_the_fire_king
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_nickname_events.0001.fq
+		trigger = {
+			AND = {
+				has_trait = fire_affinity
+				is_female = yes
+			}	
+		}
+		give_nickname = nick_the_fire_queen
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_nickname_events.0001.ick
+		trigger = {
+			AND = {
+				has_trait = ice_affinity
+				is_female = no
+			}
+		}
+		give_nickname = nick_the_ice_crown_king
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_nickname_events.0001.ik
+		trigger = {
+			AND = {
+				has_trait = ice_affinity
+				is_female = no
+				OR = {
+					has_trait = lunatic_genetic
+					has_trait = lunatic_1
+				}
+			}
+		}
+		give_nickname = nick_the_ice_king
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_nickname_events.0001.icq
+		trigger = {
+			AND = {
+				has_trait = ice_affinity
+				is_female = yes
+			}	
+		}
+		give_nickname = nick_the_ice_crown_queen
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_nickname_events.0001.dk
+		trigger = {
+			AND = {
+				OR = {
+					has_trait = lightning_affinity
+					has_trait = dragon_affinity
+				}
+				is_female = no
+			}	
+		}
+		give_nickname = nick_the_dragon_king
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_nickname_events.0001.dq
+		trigger = {
+			AND = {
+				OR = {
+					has_trait = lightning_affinity
+					has_trait = dragon_affinity
+				}
+				is_female = yes
+			}	
+		}
+		give_nickname = nick_the_dragon_queen
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_nickname_events.0001.sw
+		trigger = {
+			AND = {
+				has_trait = gravity_affinity
+		}
+		give_nickname = nick_the_starwatcher
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_nickname_events.0001.ss
+		trigger = {
+			has_trait = gravity_affinity
+		}
+		give_nickname = nick_the_starscourge
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_nickname_events.0001.lod
+		trigger = {
+			AND = {
+				has_trait = death_affinity
+				is_female = no
+			}
+		}
+		give_nickname = nick_the_lord_of_death
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_nickname_events.0001.lad
+		trigger = {
+			AND = {
+				has_trait = death_affinity
+				is_female = yes
+			}	
+		}
+		give_nickname = nick_the_lady_of_death
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_nickname_events.0001.lob
+		trigger = {
+			AND = {
+				has_trait = blood_affinity
+				is_female = no
+			}
+		}
+		give_nickname = nick_the_lord_of_blood
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_nickname_events.0001.lab
+		trigger = {
+			AND = {
+				has_trait = blood_affinity
+				is_female = yes
+			}	
+		}
+		give_nickname = nick_the_lady_of_blood
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_nickname_events.0001.sk
+		trigger = {
+			AND = {
+				has_trait = sleep_affinity
+				is_female = no
+			}
+		}
+		give_nickname = nick_the_sleeping_king
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_nickname_events.0001.sq
+		trigger = {
+			AND = {
+				has_trait = sleep_affinity
+				is_female = yes
+			}	
+		}
+		give_nickname = nick_the_sleeping_queen
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_nickname_events.0001.bfk
+		trigger = {
+			AND = {
+				has_trait = black_flame_affinity
+				is_female = no
+			}
+		}
+		give_nickname = nick_the_gloam_eyed_king
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_nickname_events.0001.bfq
+		trigger = {
+			AND = {
+				has_trait = black_flame_affinity
+				is_female = yes
+			}	
+		}
+		give_nickname = nick_the_gloam_eyed_queen
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = { # nah, i am good dawg
+	name = elden_ring_knight_events.0001.i
+		ai_chance = {
+			base = 10 
+		}
+	}
+}

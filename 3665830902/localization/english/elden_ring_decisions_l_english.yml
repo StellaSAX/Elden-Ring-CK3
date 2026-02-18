@@ -1,0 +1,129 @@
+﻿l_english:
+
+become_knight_elden_ring:0 "Become a Special Knight"
+become_knight_elden_ring_desc:0 "I have great potential, with my proclivity torwards specialized figthing technices i could become one of the most skilled warriors on the Realm."
+become_knight_elden_ring_confirm:0 "I will Learn to focus my skill through my blade"
+become_knight_elden_ring_tooltip:0 "Become a Special Knight"
+
+lose_knight_trait_elden_ring:0 "Lose Knighthood"
+lose_knight_trait_elden_ring_desc:0 "For now i will let go of my specialized figthing technices."
+lose_knight_trait_elden_ring_confirm:0 "let's take a rest"
+lose_knight_trait_elden_ring_tooltip:0 "Lose Knighthood"
+
+
+elden_ring_knight_events.0001.desc:0 "I have Great potential beyond that of my peers, with some special training i could exploit it and become a better warrior, but what should be my specialty? my options depend on what affinities and skills i posses."
+elden_ring_knight_events.0001.a:0 "I will become a Knight of Order"
+elden_ring_knight_events.0001.b:0 "I will become a Mounted Knight"
+elden_ring_knight_events.0001.c:0 "I will become a Crucible Knight"
+elden_ring_knight_events.0001.d:0 "I will become a Mausoleum Knight"
+elden_ring_knight_events.0001.e:0 "I will become a Sorcerous Knight"
+elden_ring_knight_events.0001.f:0 "I will become a Bloodhount Knight"
+elden_ring_knight_events.0001.h:0 "I will become a Rot Knight"
+elden_ring_knight_events.0001.j:0 "I will become a Frenzied Knight"
+elden_ring_knight_events.0001.k:0 "I will become a Cuckoo Knight"
+elden_ring_knight_events.0001.l:0 "I will become a Drake Knight"
+elden_ring_knight_events.0001.m:0 "I will become a Death Knight"
+elden_ring_knight_events.0001.n:0 "I will become a Ice Knight"
+elden_ring_knight_events.0001.o:0 "I will become a Horned Warrior"
+
+elden_ring_knight_events.0001.i:0 "Maybe it's better to leave it for later"
+elden_ring_knight_events.0001.title:0 "Training to become Knight"
+
+become_god_being_empyrean_elden_ring:0 "Become a God"
+become_god_being_empyrean_elden_ring_desc:0 "The time has come, i am ready to take my place in history as a God. A being beyond all mostals, i will rule Forever."
+become_god_being_empyrean_elden_ring_confirm:0 "Prepare the rituals!"
+become_god_being_empyrean_elden_ring_tooltip:0 "Become a God"
+
+gain_trait_death_companion:0 "Become a Deathcompanion"
+gain_trait_black_assassin:0 "Become a Black Knife Assassin"
+gain_trait_godskin_apostle:0 "Become a Godskin Apostle"
+gain_trait_fire_monk:0 "Become a Fire Monk"
+gain_trait_snow_witch:0 "Become a Snow Witch"
+gain_trait_sanguine_noble:0 "Become a Sanguine Noble"
+become_lord_of_blood:0 "Become the Lord of Blood"
+
+gain_trait_death_companion_desc:0 "I hear their call, they want warmth even now. After their Death."
+gain_trait_black_assassin_desc:0 "I hide in the shadows already, now i will also be the one to use a knife blessed by death."
+gain_trait_godskin_apostle_desc:0 "The flame in my heatf burns, the black flame wishes to burn all around it, and i am goint to let it free."
+gain_trait_fire_monk_desc:0 "Let's search for a book that will teach me how to use the flame in my heart."
+gain_trait_snow_witch_desc:0 "I feel the cold in my bones, i am going to search for a way to let my enemies sufer it."
+gain_trait_sanguine_noble_desc:0 "My blood is strong, a symbol of my power, I declare myself a noble of a bloody lineage."
+become_lord_of_blood_desc:0 "I am not only a noble with power over blood. I am a Great Lord that rules over blood."
+
+gain_trait_death_companion_confirm:0 "Become a Deathcompanion"
+gain_trait_black_assassin_confirm:0 "Become a Black Knife Assassin"
+gain_trait_godskin_apostle_confirm:0 "Become a Godskin Apostle"
+gain_trait_fire_monk_confirm:0 "Become a Fire Monk"
+gain_trait_snow_witch_confirm:0 "Become a Snow Witch"
+gain_trait_sanguine_noble_confirm:0 "Become a Sanguine Noble"
+become_lord_of_blood_confirm:0 "Become the Lord of Blood"
+gain_trait_death_companion_tooltip:0 "Become a Deathcompanion"
+gain_trait_black_assassin_tooltip:0 "Become a Black Knife Assassin"
+gain_trait_godskin_apostle_tooltip:0 "Become a Godskin Apostle"
+gain_trait_fire_monk_tooltip:0 "Become a Fire Monk"
+gain_trait_snow_witch_tooltip:0 "Become a Snow Witch"
+gain_trait_sanguine_noble_tooltip:0 "Become a Sanguine Noble"
+become_lord_of_blood_tooltip:0 "Become the Lord of Blood"
+
+gain_spiral_affinity_elden_ring:0 "Gain Spiral Affinity"
+gain_spiral_affinity_elden_ring_desc:0 "The Crucible is the origin of life, it's common for people to just accept the gift as it is given, but my people have learned to control the gift with great precision, i can focus it to increase my connection to the divine."
+gain_spiral_affinity_elden_ring_confirm:0 "Focus the Crucible"
+gain_spiral_affinity_elden_ring_tooltip:0 "Focus the Crucible"
+
+become_divine_beast_warrior_elden_ring:0 "Become Divine Beast Warrior"
+become_divine_beast_warrior_elden_ring_desc:0 "I possess a connection deeper than most with the Crucible, i can master its techniques while fighting, with enough training i can become a warrior without rivals."
+become_divine_beast_warrior_elden_ring_confirm:0 "I must prepare my body"
+become_divine_beast_warrior_elden_ring_tooltip:0 "Become Divine Beast Warrior"
+
+easy_become_conqueror_for_empyrean_decision:0 "Become Conqueror as an Empyrean"
+
+create_great_rune_decisions:0 "Create Great Rune"
+create_great_rune_decisions_desc:0 "By reuniting enough runes i can create a fragment of the Elden Ring, by itself the Great Rune will be useful, if i am skilled enough i can modifie what powers it will give me. And if i can get more of them, i can create my own Elden Ring."
+create_great_rune_decisions_confirm:0 "Create Great Rune"
+create_great_rune_decisions_tooltip:0 "Create Great Rune"
+
+elden_ring_artifact_events.0001.desc:0 "The time has come for my to use all the runes i have colected to create a Great Rune, a representation of my power and a tool nedded to become the God of my own order."
+elden_ring_artifact_events.0001.title:0 "Creating a Great Rune"
+elden_ring_artifact_events.0001.a:0 "A rune to help me in the wars to come."
+elden_ring_artifact_events.0001.b:0 "A rune to help me oversee my realm."
+elden_ring_artifact_events.0001.c:0 "A rune to help me understand the truth."
+elden_ring_artifact_events.0001.d:0 "A rune to help me maintain peace."
+elden_ring_artifact_events.0001.e:0 "A rune to help me deal in the shadows."
+elden_ring_artifact_events.0001.f:0 "Sadly i can only create a weak one, it's enough."
+elden_ring_artifact_events.0001.g:0 "Maybe is better to wait until i am ready."
+
+great_rune_elden_ring:0 "Great Rune of [ROOT.GetCharacter.GetFirstNameNoTooltip]"
+great_rune_elden_ring_desc:0 "A Great Rune is a powerful tool used by those close to godhood, it gives great blessings by itself, and those that are ones step away from becoming gods can use it to create a Elden Ring and define their order."
+has_great_rune_for_elden_ring:0 "Has a Great Rune"
+
+create_elden_ring_decisions:0 "Create Elden Ring"
+create_elden_ring_decisions_desc:0 "Everything is ready to refine my Great Rune into the Elden Ring, with this step i can finally become what i was meant to be, a God of this world."
+create_elden_ring_decisions_confirm:0 "Behold! my order given form!"
+create_elden_ring_decisions_tooltip:0 "Create Elden Ring"
+
+the_elden_ring:0 "Elden Ring"
+the_elden_ring_desc:0 "Its various interlocking runes are a representation of the law of the world, to hold this is to hold the world."
+
+become_empyrean_elden_ring:0 "Become Empyrean"
+become_empyrean_elden_ring_desc:0 "I have acquired enough runes to transform myself into a candidate for godhood, i just need to complete the ritual and in the future i will become a god."
+become_empyrean_elden_ring_confirm:0 "Prepare the ritual!"
+become_empyrean_elden_ring_tooltip:0 "Become Empyrean"
+
+elden_ring_artifact_events.0002.title:0 "Forge the Elden Ring"
+elden_ring_artifact_events.0002.desc:0 "I am ready, using my Great Rune as a base, i will create the Elden Ring, the key to godhood."
+elden_ring_artifact_events.0002.a:0 "Prepare the ritual!"
+
+has_elden_ring:0 "Has Elden Ring"
+
+
+albinauric_trait:0 "Albinauric"
+albinauric_trait_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an albinauric, an artificial lifeform, they were created to be used as servants and can have varying skills."
+
+easy_become_conqueror_for_landed_empyrean_decision:0 "Become Conqueror"
+easy_become_conqueror_for_landed_empyrean_decision_confirm:0 "Make way for Me!"
+easy_become_conqueror_for_landed_empyrean_decision_tooltip:0 "Become Conqueror"
+
+gain_nickname_elden_ring:0 "Gain Nickname"
+gain_nickname_elden_ring_desc:0 "I can declare that i want to use a new title to denote my power."
+gain_nickname_elden_ring_confirm:0 "People should refer to me in a new way"
+gain_nickname_elden_ring_tooltip:0 "Gain Nickname"

@@ -1,0 +1,285 @@
+﻿namespace = dragon_events_elden_ring
+
+
+dragon_events_elden_ring.0001 = { #recruit a dragon
+
+	type = character_event
+	desc = dragon_events_elden_ring.0001.desc
+	title = dragon_events_elden_ring.0001.title
+
+	left_portrait = {
+		character = scope:dragon_1
+		animation = ecstasy
+	}
+	right_portrait = {
+		character = scope:dragon_2
+		animation = ecstasy
+	}
+	theme = war
+
+	
+	immediate = {
+		random_sub_realm_county = {
+			save_scope_as = origin
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					exists = capital_province
+				}
+				capital_province = { save_scope_as = target_location }
+			}
+			else = {
+				location = { save_scope_as = target_location }
+			}
+			if = { #making sure it works for landless
+				limit = {
+					NOT = { exists = scope:origin }
+				}
+				scope:target_location = {
+					save_scope_as = origin
+				}
+			}
+			create_character = {
+				gender_female_chance = 50
+				location = scope:target_location
+				template = new_warrior_character
+				faith = scope:origin.faith
+				culture = scope:origin.culture
+				save_scope_as = dragon_1
+				
+			}
+			scope:dragon_1 = { add_trait = ancient_dragon_elden_ring }
+			
+			create_character = {
+				gender_female_chance = 50
+				location = scope:target_location
+				template = new_warrior_character
+				faith = scope:origin.faith
+				culture = scope:origin.culture
+				save_scope_as = dragon_2
+				
+			}
+			scope:dragon_2 = { add_trait = lesser_dragon_elden_ring }
+		}
+	}
+
+	option = {
+		name = dragon_events_elden_ring.0001.a
+		add_courtier = scope:dragon_1
+		pay_short_term_gold = {
+			target = scope:dragon_1
+			gold = 500
+		}
+		hidden_effect = {
+			scope:dragon_2 = {
+				death = { death_reason = death_vanished }
+			}
+		}
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 10 
+				has_trait = ambitious
+			}
+		}
+	}
+	
+	option = {
+		name = dragon_events_elden_ring.0001.a
+		add_courtier = scope:dragon_2
+		pay_short_term_gold = {
+			target = scope:dragon_2
+			gold = 200
+		}
+		hidden_effect = {
+			scope:dragon_1 = {
+				death = { death_reason = death_vanished }
+			}
+		}
+		ai_chance = {
+			base = 10
+		}
+		
+	}
+	
+	option = { # nah, i am good dawg
+	name = elden_ring_knight_events.0001.i
+		ai_chance = {
+			base = 10 
+			modifier = {
+				add = 100 
+				has_trait = greedy
+			}
+		}
+	}
+	
+}
+
+dragon_events_elden_ring.0002 = { #fight a lesser dragon
+
+	type = character_event
+	desc = dragon_events_elden_ring.0002.desc
+	title = dragon_events_elden_ring.0002.title
+	left_portrait = {
+		character = ROOT
+		animation = anger
+	}
+	right_portrait = {
+		character = scope:dragon_fight
+		animation = rage
+	}
+	theme = war
+	
+	create_character = {
+		gender_female_chance = 50
+		location = scope:target_location
+		template = new_warrior_character
+		faith = scope:origin.faith
+		culture = scope:origin.culture
+		save_scope_as = dragon_fight
+	}
+	scope:dragon_fight = { add_trait = lesser_dragon_elden_ring }
+
+	option = {
+		duel = {
+			skill = martial
+			target = scope:dragon_fight
+			40 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				min = 5
+				desc = dragon_events_elden_ring.0002.a.tt.success
+				trigger_event = dragon_events_elden_ring.0003
+			}
+			60 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				min = 10
+				desc = dragon_events_elden_ring.0002.a.tt.failure
+				hidden_effect = {
+					increase_wounds_no_death_effect = { REASON = fall }
+				}
+			}
+		}
+		name = dragon_events_elden_ring.0002.a
+		ai_chance = {
+			base = 100
+			martial >= 10
+		}
+	}
+	
+	option = {
+		duel = {
+			skill = prowess
+			target = scope:dragon_fight
+			40 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				min = 5
+				desc = dragon_events_elden_ring.0002.a.tt.success
+				trigger_event = dragon_events_elden_ring.0003
+			}
+			60 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				min = 10
+				desc = dragon_events_elden_ring.0002.a.tt.failure
+				hidden_effect = {
+					increase_wounds_no_death_effect = { REASON = fall }
+				}
+				
+			}
+		}
+		name = dragon_events_elden_ring.0002.b
+		ai_chance = {
+			base = 100
+			prowess >= 20
+		}
+	}
+	
+	option = { # nah, i am good dawg
+		name = elden_ring_knight_events.0001.i
+		ai_chance = {
+			base = 10 
+			modifier = {
+				add = 100 
+				has_trait = craven
+			}
+		}
+	}
+}
+
+
+dragon_events_elden_ring.0003 = { #won against a lesser dragon
+
+	type = character_event
+	desc = dragon_events_elden_ring.0003.desc
+	title = dragon_events_elden_ring.0003.title
+	right_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	theme = war
+
+	option = {
+		add_prestige = 300
+		random_list = {
+			50 = {
+				add_martial_lifestyle_xp = medium_lifestyle_xp
+				add_martial_skill = 1
+				add_prowess_skill = 1
+				
+			}
+			50 = {
+				increase_wounds_no_death_effect = { REASON = fall }
+			}		
+		}
+	
+		stress_impact = {
+			ambitious = minor_stress_impact_loss
+		}
+			
+		name = dragon_events_elden_ring.0003.a
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 20 
+				has_trait = ambitious
+			}
+			modifier = {
+				add = 20 
+				has_trait = greedy
+			}
+			modifier = {
+				add = 20 
+				has_trait = brave
+			}
+		}
+	}
+	
+	option = { # nah, i am good dawg
+		name = elden_ring_knight_events.0001.i
+		add_prestige = 300
+		ai_chance = {
+			base = 10 
+			modifier = {
+				add = 100 
+				has_trait = content
+			}
+		}
+	}
+}

@@ -1,0 +1,82 @@
+﻿contact_dragon_elden_ring = {
+	ai_check_interval = 60
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	}
+	sort_order = 10
+	decision_group_type = decisions
+
+	is_shown = {
+		highest_held_title_tier >= 3
+	}
+	
+	is_valid = {
+        is_landed = yes
+		prestige_level >= high_prestige_level
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+	}
+
+	cost = {
+		prestige = 1000
+	}
+
+	cooldown = { years = 20 }
+
+	effect = {
+		trigger_event = {
+			id = dragon_events_elden_ring.0001
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+	
+	ai_will_do = {
+		base = 20
+	}
+}
+
+hunt_lesser_dragon_elden_ring = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	}
+	desc = hunt_lesser_dragon_elden_ring_desc
+	selection_tooltip = hunt_lesser_dragon_elden_ring_tooltip
+
+	is_shown = {
+		has_trait = drake_knight 
+	}
+
+	is_valid = {
+		prestige_level >= 3
+	}
+	
+	is_valid_showing_failures_only = {
+        is_available_adult = yes
+        is_at_war = no
+	}
+
+
+	effect = {
+		custom_tooltip = hunt_lesser_dragon_elden_ring_tooltip
+		trigger_event = {
+			id = dragon_events_elden_ring.0002
+		}		
+	}
+
+
+	ai_check_interval = 60
+	cooldown = { years = 1 }	
+
+	ai_potential = {
+		is_at_war = no
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

@@ -1,0 +1,303 @@
+﻿# namespace = elden_ring_albinauric_events
+
+
+# elden_ring_albinauric_events.0001 = {
+
+	# type = character_event
+	# desc = elden_ring_albinauric_events.0001.desc
+	# title = elden_ring_albinauric_events.0001.title
+	# theme = war
+
+	# left_portrait = {
+		# character = ROOT 
+		# animation = marshal 
+	# }
+	
+	# option = {
+		# name = elden_ring_albinauric_events.0001.f
+		# trigger_event = {
+			# id = elden_ring_albinauric_events.0002
+		# }
+		# ai_chance = {
+			# base = 10 
+		# }
+	# }
+	# option = {
+		# name = elden_ring_albinauric_events.0001.m
+		# trigger_event = {
+			# id = elden_ring_albinauric_events.0003
+		# }
+		# ai_chance = {
+			# base = 10 
+		# }
+	# }
+	# option = {
+		# name = elden_ring_albinauric_events.0001.a
+		# ai_chance = {
+			# base = 10 
+		# }
+	# }
+# }
+
+# elden_ring_albinauric_events.0002 = { #male albinauric
+
+	# type = character_event
+	# desc = elden_ring_albinauric_events.0002.desc
+	# title = elden_ring_albinauric_events.0002.title
+	# theme = war
+
+	# left_portrait = {
+		# character = ROOT 
+		# animation = marshal 
+	# }
+	
+	# right_portrait = {
+		# character = scope:newborn_albinauric
+		# animation = ecstasy
+	# }
+	
+	# immediate = {
+		# random_sub_realm_county = {
+			# save_scope_as = origin
+		# }
+		# hidden_effect = {
+			# if = {
+				# limit = {
+					# exists = capital_province
+				# }
+				# capital_province = { save_scope_as = target_location }
+			# }
+			# else = {
+				# location = { save_scope_as = target_location }
+			# }
+			# create_character = {
+				# random_traits = no
+				# location = scope:target_location
+				# age = 16
+				# gender = male
+				# faith = scope:origin.faith
+				# culture = scope:origin.culture
+				# dynasty = none
+				# martial = 0
+				# diplomacy = 0
+				# learning = 10
+				# intrigue = 0
+				# stewardship = 0
+				# save_scope_as = newborn_albinauric
+			# }
+			# scope:newborn_albinauric = { add_trait = albinauric_trait }
+		# }
+	# }
+	
+	# option = {
+		# name = elden_ring_albinauric_events.0001.a
+		# trigger_event = {
+			# id = elden_ring_albinauric_events.0004
+		# }
+		# ai_chance = {
+			# base = 10 
+		# }
+	# }
+# }
+# elden_ring_albinauric_events.0003 = { #female albinauric
+
+	# type = character_event
+	# desc = elden_ring_albinauric_events.0002.desc
+	# title = elden_ring_albinauric_events.0002.title
+	# theme = war
+
+	# left_portrait = {
+		# character = ROOT 
+		# animation = marshal 
+	# }
+	
+	# right_portrait = {
+		# character = scope:newborn_albinauric
+		# animation = ecstasy
+	# }
+	
+	# immediate = {
+		# random_sub_realm_county = {
+			# save_scope_as = origin
+		# }
+		# hidden_effect = {
+			# if = {
+				# limit = {
+					# exists = capital_province
+				# }
+				# capital_province = { save_scope_as = target_location }
+			# }
+			# else = {
+				# location = { save_scope_as = target_location }
+			# }
+			# create_character = {
+				# random_traits = no
+				# location = scope:target_location
+				# age = 16
+				# gender = female
+				# faith = scope:origin.faith
+				# culture = scope:origin.culture
+				# dynasty = none
+				# martial = 0
+				# diplomacy = 0
+				# learning = 0
+				# intrigue = 0
+				# stewardship = 0
+				# save_scope_as = newborn_albinauric
+			# }
+			# scope:newborn_albinauric = { add_trait = albinauric_trait }
+		# }
+	# }
+	# option = {
+		# name = elden_ring_albinauric_events.0001.a
+		# trigger_event = {
+			# id = elden_ring_albinauric_events.0004
+		# }
+		# ai_chance = {
+			# base = 10 
+		# }
+	# }
+# }
+
+# elden_ring_albinauric_events.0004 = { #select education
+
+	# type = character_event
+	# desc = elden_ring_albinauric_events.0004.desc
+	# title = elden_ring_albinauric_events.0004.title
+	# theme = war
+	
+	# left_portrait = {
+		# character = ROOT 
+		# animation = marshal 
+	# }
+	
+	# right_portrait = {
+		# character = scope:newborn_albinauric
+		# animation = ecstasy
+	# }
+	
+	# trigger = {
+		# scope:newborn_albinauric = { is_alive = yes }
+	# }
+	
+	# option = {
+		# name = elden_ring_albinauric_events.0001.s
+		# scope:newborn_albinauric = { add_trait = education_stewardship_3 }
+		# scope:newborn_albinauric = { add_stewardship_skill = 20 }
+		# trigger_event = {
+			# id = elden_ring_albinauric_events.0005
+		# }
+		# ai_chance = {
+			# base = 10 
+		# }
+	# }
+	# option = {
+		# name = elden_ring_albinauric_events.0001.i
+		# scope:newborn_albinauric = { add_trait = education_intrigue_3 }
+		# scope:newborn_albinauric = { add_intrigue_skill = 20 }
+		# trigger_event = {
+			# id = elden_ring_albinauric_events.0005
+		# }
+		# ai_chance = {
+			# base = 10 
+		# }
+	# }
+	# option = {
+		# name = elden_ring_albinauric_events.0001.m
+		# scope:newborn_albinauric = { add_trait = education_martial_3 }
+		# scope:newborn_albinauric = { add_martial_skill = 20 }
+		# trigger_event = {
+			# id = elden_ring_albinauric_events.0005
+		# }
+		# ai_chance = {
+			# base = 10 
+		# }
+	# }
+	# option = {
+		# name = elden_ring_albinauric_events.0001.l
+		# scope:newborn_albinauric = { add_trait = education_learning_3 }
+		# scope:newborn_albinauric = { add_learning_skill = 20 }
+		# trigger_event = {
+			# id = elden_ring_albinauric_events.0005
+		# }
+		# ai_chance = {
+			# base = 10 
+		# }
+	# }
+	# option = {
+		# name = elden_ring_albinauric_events.0001.d
+		# scope:newborn_albinauric = { add_trait = education_diplomacy_3 }
+		# scope:newborn_albinauric = { add_diplomacy_skill = 20 }
+		# trigger_event = {
+			# id = elden_ring_albinauric_events.0005
+		# }
+		# ai_chance = {
+			# base = 10 
+		# }
+	# }
+# }
+
+# elden_ring_albinauric_events.0005 = { #give personality at the end, just for the surprice of getting a lazy, wrathful and sadistic Schoolar
+
+	# type = character_event
+	# desc = elden_ring_albinauric_events.0005.desc
+	# title = elden_ring_albinauric_events.0005.title
+	# theme = war
+
+	# left_portrait = {
+		# character = ROOT 
+		# animation = marshal 
+	# }
+	
+	# right_portrait = {
+		# character = scope:newborn_albinauric
+		# animation = ecstasy
+	# }
+	
+	# trigger = {
+		# scope:newborn_albinauric = { is_alive = yes }
+	# }
+	
+	# immediate = {
+		# scope:newborn_albinauric = {
+			# random_traits_list = {
+				# count = 3
+				# lustful = {}
+				# deceitful = {}
+				# brave = {}
+				# gregarious = {}
+				# ambitious = {}
+				# vengeful = {}
+				# gluttonous = {}
+				# temperate  = {}
+				# greedy = {}
+				# generous = {}
+				# lazy = {}
+				# diligent = {}
+				# wrathful = {}
+				# calm = {}
+				# patient = {}
+				# impatient = {}
+				# arrogant = {}
+				# honest = {}
+				# arbitrary = {}
+				# just = {}
+				# paranoid = {}
+				# trusting = {}
+				# compassionate = {}
+				# callous = {}
+				# sadistic = {}
+				# stubborn = {}
+				# fickle = {}
+				# forgiving = {}
+			# }
+		# }
+	# }
+	
+	# option = {
+		# name = elden_ring_albinauric_events.0001.a
+		# ai_chance = {
+			# base = 10 
+		# }
+	# }
+# }

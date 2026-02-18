@@ -1,0 +1,49 @@
+﻿cut_omen_elden_ring_interaction = {
+	category = interaction_category_hostile
+	icon = secret
+
+	desc = cut_omen_elden_ring_interaction_desc
+	
+	greeting = negative
+	
+	auto_accept = yes
+	
+	is_shown = {
+		scope:recipient = {
+			AND = {
+				has_trait = omen_horn_trait
+				is_courtier_of = scope:actor
+			}
+		}
+	}
+
+	cost = {
+		prestige = 100
+	}
+	
+	on_auto_accept = {
+		scope:recipient = {
+			remove_trait = omen_horn_trait
+			add_trait = omen_no_horn_trait
+			hidden_effect = {
+				increase_wounds_no_death_effect = { REASON = fall }
+			}
+			add_opinion = {
+				modifier = tortured_me
+				target = scope:actor
+			}
+		}
+		
+		scope:actor = {
+			if = {
+				stress_impact = {
+					just = medium_stress_impact_gain
+					compassionate = medium_stress_impact_gain
+				}
+			}
+		}
+		imprison_attempt_escalates_rivalry_effect = yes
+
+	}
+
+}

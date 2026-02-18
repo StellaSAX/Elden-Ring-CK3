@@ -1,0 +1,416 @@
+﻿gain_trait_death_companion = {
+	ai_check_interval = 60
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	}
+	sort_order = 10
+	decision_group_type = decisions
+
+	is_shown = {
+		AND = {
+			has_trait = death_affinity
+			is_female = yes
+		}
+		NOT = {
+			has_trait = death_companion
+		}
+	}
+	
+	is_valid = {
+        piety >= 1000
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+	}
+
+	cost = {
+		piety = {
+			value = 1000
+		}
+	}
+
+	#cooldown = { years = 5 }
+	cooldown = { months = 5 }
+	
+	ai_check_interval = { 50 }
+
+
+	effect = {
+		add_trait = death_companion
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+	
+	ai_will_do = {
+		base = 100
+	}
+}
+
+gain_trait_black_assassin = {
+	ai_check_interval = 60
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	}
+	sort_order = 10
+	decision_group_type = decisions
+
+	is_shown = {
+		AND = {
+			has_trait = death_affinity
+			is_female = yes
+			OR = {
+				has_trait = education_intrigue_1
+				has_trait = education_intrigue_2
+				has_trait = education_intrigue_3
+				has_trait = education_intrigue_4
+				has_trait = education_intrigue_5
+			}
+		}
+		NOT = {
+			has_trait = black_assassin
+		}
+	}
+	
+	is_valid = {
+        piety >= 1000
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+	}
+
+	cost = {
+		piety = {
+			value = 1000
+		}
+	}
+
+	#cooldown = { years = 5 }
+	cooldown = { months = 5 }
+	
+	ai_check_interval = { 50 }
+
+
+	effect = {
+		add_trait = black_assassin
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+	
+	ai_will_do = {
+		base = 100
+	}
+}
+
+gain_trait_godskin_apostle = {
+	ai_check_interval = 60
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	}
+	sort_order = 10
+	decision_group_type = decisions
+
+	is_shown = {
+		has_trait = black_flame_affinity
+		NOT = {
+			has_trait = godskin_apostle
+		}
+	}
+	
+	is_valid = {
+		AND = {
+			piety >= 1000
+			custom_description = {
+				text = more_than_twenty_prowess
+				subject = root
+				prowess >= 20
+			}
+			piety_level >= 4
+		}   
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+	}
+
+	cost = {
+		piety = {
+			value = 1000
+		}
+	}
+
+	#cooldown = { years = 5 }
+	cooldown = { months = 5 }
+	
+	ai_check_interval = { 50 }
+
+
+	effect = {
+		add_trait = godskin_apostle
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+	
+	ai_will_do = {
+		base = 100
+	}
+}
+
+gain_trait_fire_monk = {
+	ai_check_interval = 60
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	}
+	sort_order = 10
+	decision_group_type = decisions
+
+	is_shown = {
+		has_trait = fire_affinity
+		NOT = {
+			has_trait = fire_monk
+		}
+	}
+	
+	is_valid = {
+		AND = {
+			piety >= 1000
+			learning > 15
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+	}
+
+	cost = {
+		piety = {
+			value = 1000
+		}
+	}
+
+	#cooldown = { years = 5 }
+	cooldown = { months = 5 }
+	
+	ai_check_interval = { 50 }
+
+
+	effect = {
+		add_trait = fire_monk
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+	
+	ai_will_do = {
+		base = 100
+	}
+}
+
+gain_trait_snow_witch = {
+	ai_check_interval = 60
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	}
+	sort_order = 10
+	decision_group_type = decisions
+
+	is_shown = {
+		AND = {
+			has_trait = ice_affinity
+			is_female = yes
+		}
+		NOT = {
+			has_trait = snow_witch
+		}
+	}
+	
+	is_valid = {
+		AND = {
+			piety >= 1000
+			learning > 15
+		}     
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+	}
+
+	cost = {
+		piety = {
+			value = 1000
+		}
+	}
+
+	#cooldown = { years = 5 }
+	cooldown = { months = 5 }
+	
+	ai_check_interval = { 50 }
+
+
+	effect = {
+		add_trait = snow_witch
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+	
+	ai_will_do = {
+		base = 100
+	}
+}
+
+gain_trait_sanguine_noble = {
+	ai_check_interval = 60
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	}
+	sort_order = 10
+	decision_group_type = decisions
+
+	is_shown = {
+		has_trait = blood_affinity
+		NOT = {
+			has_trait = sanguine_noble
+		}
+	}
+	
+	is_valid = {
+        piety >= 1000
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+	}
+
+	cost = {
+		piety = {
+			value = 1000
+		}
+	}
+
+	#cooldown = { years = 5 }
+	cooldown = { months = 5 }
+	
+	ai_check_interval = { 50 }
+
+
+	effect = {
+		add_trait = sanguine_noble
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+	
+	ai_will_do = {
+		base = 100
+	}
+}
+
+become_lord_of_blood = {
+	ai_check_interval = 60
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	}
+	sort_order = 10
+	decision_group_type = decisions
+
+	is_shown = {
+		AND = {
+			has_trait = sanguine_noble
+			highest_held_title_tier >= tier_kingdom
+		}
+	}
+	
+	is_valid = {
+		AND = {
+			piety >= 5000
+			prestige_level >= 4
+		}    
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+	}
+
+	cost = {
+		piety = {
+			value = 5000
+		}
+	}
+
+	#cooldown = { years = 5 }
+	cooldown = { months = 5 }
+	
+	ai_check_interval = { 50 }
+
+
+	effect = {
+		remove_trait = sanguine_noble
+		add_trait = lord_of_blood
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+	
+	ai_will_do = {
+		base = 100
+	}
+}
+
+gain_nickname_elden_ring = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	}
+	sort_order = 10
+	decision_group_type = decisions
+
+	is_shown = {
+		is_adult = yes
+		has_any_nickname = no
+	}
+	
+	is_valid = {
+		prestige_level >= 3  
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+	}
+
+	cost = {
+		prestige = {
+			value = 1000
+		}
+	}
+
+	#cooldown = { years = 5 }
+	cooldown = { months = 5 }
+	
+	ai_check_interval = { 0 }
+
+
+	effect = {
+		trigger_event = {
+			id = elden_ring_nickname_events.0001
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+	
+	ai_will_do = {
+		base = 0
+	}
+}

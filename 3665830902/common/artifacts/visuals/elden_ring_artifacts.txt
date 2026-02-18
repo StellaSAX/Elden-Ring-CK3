@@ -1,0 +1,9 @@
+﻿
+great_rune_elden_ring = {
+	icon = "great_rune_elden_ring.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+the_elden_ring = {
+	icon = "the_elden_ring.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}

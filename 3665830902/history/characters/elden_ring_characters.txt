@@ -1,0 +1,1174 @@
+shaman_line = {
+	name = "Shaman line"
+	female = yes
+	sexuality = bisexual
+	dynasty = dynn_erdtree
+	
+	religion = shaman_elden_ring	
+	culture = culture_shaman_elden_ring
+	
+	disallow_random_traits = yes
+	
+	1.1.1 = {
+		birth = yes
+	}
+	
+	20.5.25 = {
+		death = yes
+	}
+}
+
+marika = {
+	name = "Marika"
+	female = yes
+	##dna = marika_dna
+	sexuality = bisexual
+	dynasty = dynn_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	religion = golden_order	
+	culture = culture_royal_elden_ring
+	health = 10
+	
+	trait = education_learning_5
+	trait = intellect_good_3
+	trait = beauty_good_3
+	trait = shrewd
+	trait = lifestyle_mystic
+	trait = ambitious
+	trait = vengeful
+	trait = callous
+	trait = order_affinity
+	disallow_random_traits = yes
+	mother = shaman_line
+	1.1.1 = {
+		birth = yes
+	}
+	20.1.1 = {
+		effect = {
+			NICKNAME_ID = nick_the_eternal
+			add_trait = god_elden_ring
+		}
+	}
+	50.1.1 = {
+		effect = {
+			add_spouse = hoarah_loux
+		}
+	}
+	500.1.1 = {
+		effect = {
+			remove_spouse = hoarah_loux
+		}
+	}
+	501.2.1 = {
+		effect = {
+			add_spouse = radagon
+		}
+	}
+	1200.5.25 = {
+		death = {
+			death_reason = death_imprisoned_in_dynn_erdtree
+		}
+	}
+}
+
+radagon = {
+	name = "Radagon"
+	
+	#dna = marika_dna
+	sexuality = bisexual
+	dynasty = dynn_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = golden_order	
+	culture = culture_royal_elden_ring
+	
+	trait = education_martial_4
+	trait = intellect_good_3
+	trait = beauty_good_3
+	trait = shrewd
+	trait = demigod_elden_ring
+	trait = zealous
+	trait = brave
+	trait = diligent
+	trait = order_affinity
+	disallow_random_traits = yes
+	mother = shaman_line
+	
+	1.1.1 = {
+		birth = yes
+	}
+	1200.5.25 = {
+		death = {
+			death_reason = death_went_missing_elden_ring
+		}
+	}
+}
+
+carian_family = {
+	name = "Carian Family"
+	female = yes
+	##dna = marika_dna
+	sexuality = heterosexual
+	dynasty = dynn_caria
+	
+	religion = moons_elden_ring	
+	culture = culture_caria_elden_ring
+	
+	disallow_random_traits = yes
+	1.1.1 = {
+		birth = yes
+	}
+	20.1.2 = {
+		death = yes
+	}
+}
+
+rennala = {
+	name = "Rennala"
+	female = yes
+	##dna = marika_dna
+	sexuality = heterosexual
+	dynasty = dynn_caria
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = moons_elden_ring	
+	culture = culture_caria_elden_ring
+	trait = intellect_good_3
+	trait = demigod_elden_ring
+	trait = lifestyle_mystic
+	trait = education_learning_5
+	trait = ambitious
+	trait = trusting
+	trait = chaste
+	trait = twin
+	trait = glintstone_affinity
+	disallow_random_traits = yes
+	mother = carian_family
+	100.1.1 = {
+		birth = yes
+	}
+	250.1.1 = {
+		effect = {
+			add_spouse = radagon
+		}
+	}
+	500.1.1 = {
+		effect = {
+			remove_spouse = radagon
+			add_trait = lunatic_1
+		}
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+rellana = {
+	name = "Rellana"
+	female = yes
+	##dna = marika_dna
+	sexuality = heterosexual
+	dynasty = dynn_caria
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = messmer_order	
+	culture = culture_caria_elden_ring
+	trait = demigod_elden_ring
+	trait = twin
+	trait = education_martial_4
+	trait = diligent
+	trait = patient
+	trait = brave
+	trait = glintstone_affinity
+	disallow_random_traits = yes
+	mother = carian_family
+	100.1.1 = {
+		birth = yes
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+hoarah_loux = {
+	name = "Godfrey"
+	#dna = hoarah_loux_dna
+	sexuality = heterosexual
+	dynasty = dynn_loux
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = golden_order	
+	culture = culture_badlands_elden_ring
+	trait = education_martial_5
+	trait = brave
+	trait = ambitious
+	trait = stubborn
+	trait = physique_good_3
+	trait = demigod_elden_ring
+	trait = tarnished_elden_ring
+	disallow_random_traits = yes
+	
+	20.1.1 = {
+		birth = yes
+	}
+	1000.5.25 = {
+		death = yes
+	}
+}
+
+morgott = {
+	name = "Morgott"
+	
+	sexuality = heterosexual
+	dynasty = dynn_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = golden_order	
+	culture = culture_royal_elden_ring
+	trait = diligent
+	trait = education_learning_4
+	trait = just
+	trait = zealous
+	trait = demigod_elden_ring
+	trait = omen_horn_trait
+	trait = twin
+	trait = order_affinity
+	
+	disallow_random_traits = yes
+	father = hoarah_loux
+	mother = marika
+	
+	400.6.1 = {
+		birth = yes
+	}
+	1000.5.25 = {
+		death = yes
+	}
+}
+
+mohg = {
+	name = "Mohg"
+	
+	sexuality = bisexual
+	dynasty_house = house_mohgwyn_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = formless_order	
+	culture = culture_royal_elden_ring
+	trait = education_intrigue_4
+	trait = demigod_elden_ring
+	trait = omen_horn_trait
+	trait = twin
+	trait = diligent
+	trait = zealous
+	trait = ambitious
+	trait = blood_affinity
+	disallow_random_traits = yes
+	father = hoarah_loux
+	mother = marika
+	
+	400.6.1 = {
+		birth = yes
+	}
+	1000.5.25 = {
+		death = yes
+	}
+}
+
+godwyn = {
+	name = "Godwyn"
+	#dna = godwyn_dna
+	sexuality = heterosexual
+	dynasty = dynn_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = golden_order	
+	culture = culture_royal_elden_ring
+	
+	trait = demigod_elden_ring
+	
+	trait = education_martial_5
+	trait = physique_good_3
+	trait = beauty_good_3
+	trait = intellect_good_1
+	trait = brave
+	trait = gregarious
+	trait = forgiving
+	trait = lightning_affinity
+	disallow_random_traits = yes
+	father = hoarah_loux
+	mother = marika
+	
+	100.1.1 = {
+		birth = yes
+	}
+	150.1.1 = {
+		effect = {
+			NICKNAME_ID = nick_the_golden
+		}
+	}
+	800.1.25 = {
+		death = yes
+	}
+}
+
+ranni = {
+	name = "Ranni"
+	female = yes
+	##dna = marika_dna
+	sexuality = bisexual
+	dynasty = dynn_caria
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = moons_elden_ring	
+	culture = culture_caria_elden_ring
+	trait = education_learning_5
+	trait = demigod_elden_ring
+	trait = callous
+	trait = deceitful
+	trait = ambitious
+	trait = intellect_good_2
+	trait = beauty_good_3
+	trait = ice_affinity
+	disallow_random_traits = yes
+	father = radagon
+	mother = rennala
+	255.1.1 = {
+		birth = yes
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+radahn = {
+	name = "Radahn"
+	##dna = marika_dna
+	sexuality = bisexual
+	dynasty = dynn_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = golden_order	
+	culture = culture_royal_elden_ring
+	trait = education_martial_5
+	trait = demigod_elden_ring
+	trait = physique_good_2
+	trait = intellect_good_1
+	trait = just
+	trait = diligent
+	trait = brave
+	trait = gravity_affinity
+	disallow_random_traits = yes
+	father = radagon
+	mother = rennala
+	265.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		effect = {
+			add_trait = lunatic_1
+			remove_trait = just
+			remove_trait = diligent
+			remove_trait = brave
+		}
+	}	
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+rykard = {
+	name = "Rykard"
+	##dna = marika_dna
+	sexuality = heterosexual
+	dynasty_house = house_gelmir_caria
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = god_snake_order	
+	culture = culture_royal_elden_ring
+	trait = education_intrigue_5
+	trait = demigod_elden_ring
+	trait = intellect_good_2 
+	trait = cynical
+	trait = ambitious
+	trait = sadistic
+	trait = fire_affinity
+	disallow_random_traits = yes
+	father = radagon
+	mother = rennala
+	260.1.1 = {
+		birth = yes
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+melina = {
+	name = "Melina"
+	female = yes
+	##dna = marika_dna
+	sexuality = heterosexual
+	dynasty = dynn_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = golden_order	
+	culture = culture_royal_elden_ring
+	trait = education_diplomacy_3
+	trait = demigod_elden_ring
+	trait = calm
+	trait = patient
+	trait = content
+	trait = beauty_good_1
+	trait = fire_affinity
+	disallow_random_traits = yes
+	mother = marika
+	820.1.1 = {
+		birth = yes
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+messmer = {
+	name = "Messmer"
+	
+	sexuality = heterosexual
+	dynasty = dynn_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = messmer_order	
+	culture = culture_royal_elden_ring
+	trait = demigod_elden_ring
+	trait = education_martial_4
+	trait = stubborn
+	trait = arbitrary
+	trait = arrogant
+	trait = depressed_1
+	trait = fire_affinity
+	disallow_random_traits = yes
+	mother = marika
+	45.1.1 = {
+		birth = yes
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+miquella = {
+	name = "Miquella"
+
+	##dna = marika_dna
+	sexuality = bisexual
+	dynasty = dynn_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = kind_order	
+	culture = culture_royal_elden_ring
+	trait = demigod_elden_ring
+	trait = twin
+	disallow_random_traits = yes
+	trait = beauty_good_3
+	trait = intellect_good_3
+	trait = education_diplomacy_5
+	trait = ambitious
+	trait = gregarious
+	trait = compassionate
+	trait = order_affinity
+	mother = marika
+	father = radagon
+	520.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		effect = {
+			NICKNAME_ID = nick_the_kind
+			remove_trait = compassionate
+			add_trait = arbitrary
+		}
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+trina = {
+	name = "Trina"
+	female = yes
+	##dna = marika_dna
+	sexuality = bisexual
+	dynasty = dynn_slumber
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = st_trina_order	
+	culture = culture_royal_elden_ring
+	trait = demigod_elden_ring
+	trait = beauty_good_3
+	trait = education_diplomacy_4
+	trait = compassionate
+	trait = generous
+	trait = forgiving
+	trait = maimed
+	trait = twin
+	trait = sleep_affinity
+	disallow_random_traits = yes
+	mother = marika
+	father = radagon
+	520.1.1 = {
+		birth = yes
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+malenia = {
+	name = "Malenia"
+	female = yes
+	##dna = marika_dna
+	sexuality = bisexual
+	dynasty_house = house_malenia_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	prowess = 100
+	religion = unalloyed_order	
+	culture = culture_royal_elden_ring
+	trait = education_martial_5
+	trait = brave
+	trait = trusting
+	trait = patient
+	trait = demigod_elden_ring
+	trait = twin
+	trait = rot_affinity
+	disallow_random_traits = yes
+	mother = marika
+	father = radagon
+	520.1.1 = {
+		birth = yes
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+godefroy = {
+	name = "Godefroy"
+	
+	sexuality = heterosexual
+	dynasty = dynn_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	religion = golden_order	
+	culture = culture_royal_elden_ring
+	
+	trait = demigod_elden_ring
+	
+	disallow_random_traits = yes
+	father = godwyn
+	
+	500.1.1 = {
+		birth = yes
+	}
+	800.1.25 = {
+		death = yes
+	}
+}
+
+tarnished_1 = {
+	name = "tarnished"
+	
+	sexuality = heterosexual
+	dynasty = dynn_loux
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	religion = golden_order	
+	culture = culture_royal_elden_ring
+	
+	trait = tarnished_elden_ring
+	
+	disallow_random_traits = yes
+	father = hoarah_loux
+	
+	500.1.1 = {
+		birth = yes
+	}
+	800.1.25 = {
+		death = yes
+	}
+}
+
+tarnished_2 = {
+	name = "tarnished"
+	
+	sexuality = heterosexual
+	dynasty = dynn_loux
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	religion = golden_order	
+	culture = culture_royal_elden_ring
+	
+	trait = tarnished_elden_ring
+	
+	disallow_random_traits = yes
+	father = tarnished_1
+	
+	500.1.1 = {
+		birth = yes
+	}
+	800.1.25 = {
+		death = yes
+	}
+}
+
+tarnished_3 = {
+	name = "tarnished"
+	
+	sexuality = heterosexual
+	dynasty = dynn_loux
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	religion = golden_order	
+	culture = culture_royal_elden_ring
+	
+	trait = tarnished_elden_ring
+	
+	disallow_random_traits = yes
+	father = tarnished_2
+	
+	500.1.1 = {
+		birth = yes
+	}
+	800.1.25 = {
+		death = yes
+	}
+}
+
+godrick = {
+	name = "Godrick"
+	
+	sexuality = heterosexual
+	dynasty = dynn_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = golden_order	
+	culture = culture_royal_elden_ring
+	
+	trait = demigod_elden_ring
+	trait = education_stewardship_2
+	trait = physique_bad_1
+	trait = disfigured
+	trait = arrogant
+	trait = craven
+	trait = sadistic
+	trait = order_affinity
+	disallow_random_traits = yes
+	father = godefroy
+	
+	700.1.1 = {
+		birth = yes
+	}
+	1000.1.25 = {
+		death = yes
+	}
+}
+
+nepheli_loux = {
+	name = "Nepheli"
+	female = yes
+	sexuality = heterosexual
+	dynasty = dynn_loux
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	religion = golden_order
+	culture = culture_badlands_elden_ring
+	
+	disallow_random_traits = yes
+	trait = stubborn
+	trait = tarnished_elden_ring
+	trait = just
+	trait = brave
+	trait = education_martial_4
+	trait = physique_good_1
+	trait = beauty_good_1
+	father = tarnished_3
+	820.1.1 = {
+		birth = yes
+	}
+	1000.5.25 = {
+		death = yes
+	}
+}
+
+millicent = {
+	name = "Millicent"
+	female = yes
+	##dna = marika_dna
+	sexuality = bisexual
+	dynasty_house = house_malenia_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = golden_order	
+	culture = culture_altus_elden_ring
+	trait = demigod_elden_ring
+	trait = cynical
+	trait = beauty_good_2
+	trait = temperate
+	trait = trusting
+	trait = rot_affinity
+	disallow_random_traits = yes
+
+	mother = malenia
+	830.1.1 = {
+		birth = yes
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+polyanna = {
+	name = "Polyanna"
+	female = yes
+	##dna = marika_dna
+	sexuality = bisexual
+	dynasty_house = house_malenia_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = rot_order	
+	culture = culture_altus_elden_ring
+	trait = demigod_elden_ring
+	trait = zealous
+	trait = trusting
+	trait = callous
+	disallow_random_traits = yes
+	trait = rot_affinity
+	trait = one_eyed
+	mother = malenia
+	830.1.15 = {
+		birth = yes
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+amy = {
+	name = "Amy"
+	female = yes
+	##dna = marika_dna
+	sexuality = bisexual
+	dynasty_house = house_malenia_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = rot_order	
+	culture = culture_altus_elden_ring
+	trait = demigod_elden_ring
+	trait = zealous
+	disallow_random_traits = yes
+	trait = trusting
+	trait = callous
+	trait = rot_affinity
+	trait = blind
+	mother = malenia
+	830.1.10 = {
+		birth = yes
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+maureen = {
+	name = "Maureen"
+	female = yes
+	##dna = marika_dna
+	sexuality = bisexual
+	dynasty_house = house_malenia_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = rot_order	
+	culture = culture_altus_elden_ring
+	trait = demigod_elden_ring
+	trait = zealous
+	disallow_random_traits = yes
+	trait = trusting
+	trait = callous
+	trait = rot_affinity
+	trait = one_eyed
+	mother = malenia
+	830.1.5 = {
+		birth = yes
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+mary = {
+	name = "Mary"
+	female = yes
+	##dna = marika_dna
+	sexuality = bisexual
+	dynasty_house = house_malenia_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = rot_order	
+	culture = culture_altus_elden_ring
+	trait = demigod_elden_ring
+	trait = zealous
+	disallow_random_traits = yes
+	trait = trusting
+	trait = callous
+	trait = rot_affinity
+	trait = blind
+	mother = malenia
+	830.1.1 = {
+		birth = yes
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+zorayas = {
+	name = "Zorayas"
+	female = yes
+	##dna = marika_dna
+	sexuality = heterosexual
+	dynasty_house = house_gelmir_caria
+	diplomacy = 5
+	intrigue = 5	
+	health = 10
+	religion = god_snake_order	
+	culture = culture_gelmir_elden_ring
+	trait = demigod_elden_ring
+	trait = humble
+	trait = trusting
+	trait = diligent
+	trait = education_diplomacy_3
+	trait = scaly
+	trait = hunchbacked
+	
+	disallow_random_traits = yes
+	father = rykard
+
+	820.1.1 = {
+		birth = yes
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+bayle  = {
+	name = "Bayle"
+	sexuality = heterosexual
+	dynasty = dynn_jagged
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = bayle_dragon_elden_ring	
+	culture = culture_jagged_peak_elden_ring
+	trait = education_martial_4
+	trait = lesser_dragon_elden_ring
+	trait = ambitious
+	trait = callous
+	trait = wrathful
+	trait = maimed
+	
+	disallow_random_traits = yes
+	
+	1.1.1 = {
+		birth = yes
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+placidusax  = {
+	name = "Placidusax"
+	sexuality = heterosexual
+	dynasty = dynn_farum
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = ancient_dragon_elden_ring	
+	culture = culture_farum_azula_elden_ring
+	trait = education_stewardship_5
+	trait = ancient_dragon_elden_ring
+	trait = ambitious
+	trait = zealous
+	trait = trusting
+	trait = maimed
+	
+	disallow_random_traits = yes
+	
+	1.1.1 = {
+		birth = yes
+		set_relation_nemesis = { 
+			reason = hate_him 
+			copy_reason = rival 
+			target = bayle
+		}
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+haight  = {
+	name = "Kenneth"
+	sexuality = heterosexual
+	dynasty = dynn_haight
+	
+	religion = golden_order
+	culture = culture_altus_elden_ring
+	trait = education_stewardship_2
+	trait = content
+	trait = zealous
+	trait = arrogant
+	
+	disallow_random_traits = yes
+	
+	820.1.1 = {
+		birth = yes
+		
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+edgar  = {
+	name = "Edgar"
+	sexuality = heterosexual
+	dynasty = dynn_morne
+	
+	religion = golden_order
+	culture = culture_weeping_peninsula_elden_ring
+	trait = education_martial_4
+	trait = vengeful
+	trait = callous
+	trait = wrathful
+	
+	disallow_random_traits = yes
+	
+	820.1.1 = {
+		birth = yes
+		
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+irina  = {
+	name = "Irina"
+	sexuality = heterosexual
+	dynasty = dynn_morne
+	female = yes
+	religion = golden_order
+	culture = culture_weeping_peninsula_elden_ring
+	trait = education_diplomacy_3
+	trait = trusting
+	trait = content
+	trait = honest
+	trait = blind
+	father = edgar
+	disallow_random_traits = yes
+	
+	845.1.1 = {
+		birth = yes
+		
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+elemer  = {
+	name = "Elemer"
+	sexuality = heterosexual
+	dynasty = dynn_briar	
+	religion = golden_order
+	culture = culture_eochaid_elden_ring
+	trait = education_intrigue_4
+	trait = arbitrary
+	trait = sadistic
+	trait = patient
+	
+	disallow_random_traits = yes
+	
+	800.1.1 = {
+		birth = yes
+		
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+maleigh  = {
+	name = "Maleigh"
+	sexuality = heterosexual
+	dynasty = dynn_marais
+	religion = rot_order
+	culture = culture_altus_elden_ring
+	trait = education_stewardship_3
+	trait = zealous
+	trait = content
+	trait = eccentric
+	trait = wheezing
+	
+	disallow_random_traits = yes
+	
+	830.1.1 = {
+		birth = yes
+		
+	}
+	1200.5.25 = {
+		death = yes
+	}
+}
+
+maliketh = {
+	name = "Gurranq"
+	
+	#dna = marika_dna
+	sexuality = asexual
+	dynasty = dynn_beast
+	martial = 10
+	learning = 10
+	health = 10
+	religion = golden_order	
+	culture = culture_beast_elden_ring
+	
+	trait = education_learning_4
+	trait = demigod_elden_ring
+	trait = zealous
+	trait = brave
+	trait = diligent
+	trait = death_affinity
+	disallow_random_traits = yes
+	
+	1.1.1 = {
+		birth = yes
+	}
+	1200.5.25 = {
+		death = {
+			death_reason = death_went_missing_elden_ring
+		}
+	}
+}

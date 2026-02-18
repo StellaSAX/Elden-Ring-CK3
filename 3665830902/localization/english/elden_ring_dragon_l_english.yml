@@ -1,0 +1,28 @@
+﻿l_english:
+
+contact_dragon_elden_ring:0 "Contact a Dragon"
+contact_dragon_elden_ring_desc:0 "With enoug gold it's posible to contact a Dragon and convince them to work for me. they may stay for around five years and then disappear, or maybe they will remain a little longer."
+contact_dragon_elden_ring_confirm:0 "Call them"
+contact_dragon_elden_ring_tooltip:0 "Contact a Dragon"
+
+hunt_lesser_dragon_elden_ring:0 "Hunt a lesser Dragon"
+hunt_lesser_dragon_elden_ring_desc:0 "I know of the power they have, and i know how to obtain tha power by eating their hearts. let's search for one and take their power"
+hunt_lesser_dragon_elden_ring_confirm:0 "Prepare my horse"
+hunt_lesser_dragon_elden_ring_tooltip:0 "Hunt a lesser Dragon"
+
+
+dragon_events_elden_ring.0001.title:0 "A Dragon Comes"
+dragon_events_elden_ring.0001.desc:0 "Finally a great being comes to serve me, with enoug gold and fame even they can be conviced to become my warriors."
+dragon_events_elden_ring.0001.a:0 "Welcome my Friend"
+
+dragon_events_elden_ring.0002.title:0 "A Dragon Found"
+dragon_events_elden_ring.0002.desc:0 "We found them, our prey, the team i brought with me are ready, i only need to give the order to kill and this dragon will fall."
+dragon_events_elden_ring.0002.a:0 "Let the arrows loose and send the Chavalry!"
+dragon_events_elden_ring.0002.b:0 "I will do it myself, prepare my horse!"
+dragon_events_elden_ring.0002.a.tt.success:0 "Finally the heart is in my hands!"
+dragon_events_elden_ring.0002.a.tt.failure:0 "Oh No"
+
+dragon_events_elden_ring.0003.title:0 "Coming for a Heart"
+dragon_events_elden_ring.0003.desc:0 "after much effort they finally died, i see why they are considered so powerfull, but a lone dragon was no challenge for me, and now i consume their heart."
+dragon_events_elden_ring.0003.i:0 "It fills me with Power!"
+

@@ -1,0 +1,8461 @@
+1 = {
+	culture = culture_altus_elden_ring
+	religion = dragon_cult_order
+	holding = castle_holding
+}
+2 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+3 = {
+	culture = culture_nox_elden_ring
+	religion = night_faith
+	holding = castle_holding
+}
+4 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+5 = {
+	culture = culture_gelmir_elden_ring
+	religion = death_prince_order
+	holding = castle_holding
+}
+6 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+7 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+8 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+9 = {
+	culture = culture_gelmir_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+10 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+11 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+12 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+13 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+14 = {
+	culture = culture_liurnia_elden_ring
+	religion = death_prince_order
+	holding = castle_holding
+}
+15 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+16 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+17 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+18 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+19 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+20 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+21 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+22 = {
+	culture = culture_liurnia_elden_ring
+	religion = primeval_elden_ring
+	holding = castle_holding
+}
+23 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+24 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+25 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+26 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+27 = {
+	culture = culture_R243G9B127
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+28 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+29 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+30 = {
+	culture = culture_R66G7B25
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+31 = {
+	holding = none
+}
+32 = {
+	culture = culture_dragonbarrow_elden_ring
+	religion = rot_order
+	holding = castle_holding
+}
+33 = {
+	holding = none
+}
+34 = {
+	culture = culture_R80G95B91
+	religion = faith_29_faith
+	holding = tribal_holding
+}
+35 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+36 = {
+	holding = none
+}
+37 = {
+	culture = culture_R66G7B25
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+38 = {
+	culture = culture_hornsent_elden_ring
+	religion = crucible_elden_ring
+	holding = castle_holding
+}
+39 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+40 = {
+	culture = culture_nox_elden_ring
+	religion = night_faith
+	holding = castle_holding
+}
+41 = {
+	culture = culture_R66G7B25
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+42 = {
+	culture = culture_liurnia_elden_ring
+	religion = frenzy_order
+	holding = castle_holding
+}
+43 = {
+	culture = culture_R95G32B186
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+44 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = st_trina_order
+	holding = castle_holding
+}
+45 = {
+	culture = culture_caria_elden_ring
+	religion = moons_elden_ring
+	holding = castle_holding
+}
+46 = {
+	holding = none
+}
+47 = {
+	culture = culture_R110G97B115
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+48 = {
+	culture = culture_R66G7B25
+	religion = faith_5_faith
+	holding = tribal_holding
+}
+49 = {
+	culture = culture_caelid_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+50 = {
+	culture = culture_liurnia_elden_ring
+	religion = formless_order
+	holding = castle_holding
+}
+51 = {
+	holding = none
+}
+52 = {
+	culture = culture_royal_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+53 = {
+	culture = culture_altus_elden_ring
+	religion = god_snake_order
+	holding = castle_holding
+}
+54 = {
+	culture = culture_weeping_peninsula_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+55 = {
+	culture = culture_altus_elden_ring
+	religion = dragon_cult_order
+	holding = castle_holding
+}
+56 = {
+	culture = culture_R108G27B188
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+57 = {
+	culture = culture_gelmir_elden_ring
+	religion = god_snake_order
+	holding = castle_holding
+}
+58 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+59 = {
+	culture = culture_caelid_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+60 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+61 = {
+	culture = culture_hornsent_elden_ring
+	religion = rot_order
+	holding = castle_holding
+}
+62 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+63 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+64 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+65 = {
+	culture = culture_liurnia_elden_ring
+	religion = primeval_elden_ring
+	holding = castle_holding
+}
+66 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+67 = {
+	culture = culture_altus_elden_ring
+	religion = unalloyed_order
+	holding = castle_holding
+}
+68 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+69 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+70 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+71 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+72 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+73 = {
+	holding = none
+}
+74 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+75 = {
+	holding = none
+}
+76 = {
+	culture = culture_caria_elden_ring
+	religion = frenzy_order
+	holding = castle_holding
+}
+77 = {
+	culture = culture_R66G7B25
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+78 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+79 = {
+	holding = none
+}
+80 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+81 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+82 = {
+	culture = culture_nox_elden_ring
+	religion = night_faith
+	holding = castle_holding
+}
+83 = {
+	culture = culture_altus_elden_ring
+	religion = crucible_elden_ring
+	holding = castle_holding
+}
+84 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+85 = {
+	culture = culture_liurnia_elden_ring
+	religion = death_prince_order
+	holding = castle_holding
+}
+86 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+87 = {
+	holding = none
+}
+88 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+89 = {
+	holding = none
+}
+90 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+91 = {
+	culture = culture_limgrave_elden_ring
+	religion = formless_order
+	holding = castle_holding
+}
+92 = {
+	culture = culture_R37G163B212
+	religion = faith_0_faith
+	holding = tribal_holding
+}
+93 = {
+	culture = culture_northerner_elden_ring
+	religion = frenzy_order
+	holding = castle_holding
+}
+94 = {
+	holding = none
+}
+95 = {
+	culture = culture_northerner_elden_ring
+	religion = land_of_reeds_faith
+	holding = castle_holding
+}
+96 = {
+	holding = none
+}
+97 = {
+	culture = culture_frezy_hornsent_elden_ring
+	religion = frenzy_order
+	holding = castle_holding
+}
+98 = {
+	culture = culture_altus_elden_ring
+	religion = frenzy_order
+	holding = castle_holding
+}
+99 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+100 = {
+	culture = culture_R110G97B115
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+101 = {
+	culture = culture_northerner_elden_ring
+	religion = land_of_reeds_faith
+	holding = castle_holding
+}
+102 = {
+	culture = culture_R66G7B25
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+103 = {
+	culture = culture_caelid_elden_ring
+	religion = rot_order
+	holding = castle_holding
+}
+104 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = st_trina_order
+	holding = castle_holding
+}
+105 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+106 = {
+	holding = none
+}
+107 = {
+	culture = culture_caelid_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+108 = {
+	culture = culture_caelid_elden_ring
+	religion = land_of_reeds_faith
+	holding = castle_holding
+}
+109 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+110 = {
+	culture = culture_gelmir_elden_ring
+	religion = death_prince_order
+	holding = castle_holding
+}
+111 = {
+	culture = culture_hornsent_elden_ring
+	religion = rot_order
+	holding = castle_holding
+}
+112 = {
+	culture = culture_caria_elden_ring
+	religion = moons_elden_ring
+	holding = castle_holding
+}
+113 = {
+	culture = culture_farum_azula_elden_ring
+	religion = ancient_dragon_elden_ring
+	holding = tribal_holding
+}
+114 = {
+	holding = none
+}
+115 = {
+	holding = none
+}
+116 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+117 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+118 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+119 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+120 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+121 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+122 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+123 = {
+	culture = culture_R37G163B212
+	religion = faith_0_faith
+	holding = tribal_holding
+}
+124 = {
+	holding = none
+}
+125 = {
+	holding = none
+}
+126 = {
+	culture = culture_R3G52B153
+	religion = faith_5_faith
+	holding = tribal_holding
+}
+127 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+128 = {
+	culture = culture_caria_elden_ring
+	religion = moons_elden_ring
+	holding = castle_holding
+}
+129 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+130 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+131 = {
+	holding = none
+}
+132 = {
+	holding = none
+}
+133 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+134 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+135 = {
+	culture = culture_farum_azula_elden_ring
+	religion = ancient_dragon_elden_ring
+	holding = tribal_holding
+}
+136 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+137 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+138 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+139 = {
+	holding = none
+}
+140 = {
+	holding = none
+}
+141 = {
+	culture = culture_farum_azula_elden_ring
+	religion = ancient_dragon_elden_ring
+	holding = tribal_holding
+}
+142 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+143 = {
+	culture = culture_R161G41B240
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+144 = {
+	culture = culture_caelid_elden_ring
+	religion = rot_order
+	holding = castle_holding
+}
+145 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+146 = {
+	holding = none
+}
+147 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+148 = {
+	culture = culture_R95G32B186
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+149 = {
+	culture = culture_hornsent_elden_ring
+	religion = rot_order
+	holding = castle_holding
+}
+150 = {
+	culture = culture_caelid_elden_ring
+	religion = rot_order
+	holding = castle_holding
+}
+151 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+152 = {
+	culture = culture_caria_elden_ring
+	religion = moons_elden_ring
+	holding = castle_holding
+}
+153 = {
+	holding = none
+}
+154 = {
+	culture = culture_R66G7B25
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+155 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = st_trina_order
+	holding = castle_holding
+}
+156 = {
+	culture = culture_R66G7B25
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+157 = {
+	culture = culture_R66G7B25
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+158 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = st_trina_order
+	holding = castle_holding
+}
+159 = {
+	culture = culture_R110G97B115
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+160 = {
+	holding = none
+}
+161 = {
+	culture = culture_R144G171B45
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+162 = {
+	holding = none
+}
+163 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+164 = {
+	culture = culture_gelmir_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+165 = {
+	holding = none
+}
+166 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+167 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+168 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+169 = {
+	holding = none
+}
+170 = {
+	culture = culture_caelid_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+171 = {
+	culture = culture_R66G7B25
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+172 = {
+	culture = culture_altus_elden_ring
+	religion = perfect_order
+	holding = castle_holding
+}
+173 = {
+	holding = none
+}
+174 = {
+	holding = none
+}
+175 = {
+	holding = none
+}
+176 = {
+	culture = culture_weeping_peninsula_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+177 = {
+	holding = none
+}
+178 = {
+	culture = culture_R66G7B25
+	religion = faith_1_faith
+	holding = tribal_holding
+}
+179 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+180 = {
+	culture = culture_caelid_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+181 = {
+	holding = none
+}
+182 = {
+	culture = culture_R95G32B186
+	religion = faith_6_faith
+	holding = tribal_holding
+}
+183 = {
+	culture = culture_altus_elden_ring
+	religion = perfect_order
+	holding = castle_holding
+}
+184 = {
+	culture = culture_dragonbarrow_elden_ring
+	religion = ancient_dragon_elden_ring
+	holding = castle_holding
+}
+185 = {
+	culture = culture_caelid_elden_ring
+	religion = rot_order
+	holding = castle_holding
+}
+186 = {
+	holding = none
+}
+187 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+188 = {
+	holding = none
+}
+189 = {
+	culture = culture_farum_azula_elden_ring
+	religion = ancient_dragon_elden_ring
+	holding = tribal_holding
+}
+190 = {
+	culture = culture_frezy_hornsent_elden_ring
+	religion = frenzy_order
+	holding = castle_holding
+}
+191 = {
+	culture = culture_altus_elden_ring
+	religion = unalloyed_order
+	holding = castle_holding
+}
+192 = {
+	culture = culture_R3G52B153
+	religion = faith_1_faith
+	holding = tribal_holding
+}
+193 = {
+	holding = none
+}
+194 = {
+	culture = culture_limgrave_elden_ring
+	religion = death_prince_order
+	holding = castle_holding
+}
+195 = {
+	culture = culture_caelid_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+196 = {
+	culture = culture_dragonbarrow_elden_ring
+	religion = ancient_dragon_elden_ring
+	holding = castle_holding
+}
+197 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+198 = {
+	culture = culture_liurnia_elden_ring
+	religion = god_snake_order
+	holding = castle_holding
+}
+199 = {
+	culture = culture_frezy_hornsent_elden_ring
+	religion = frenzy_order
+	holding = castle_holding
+}
+200 = {
+	holding = none
+}
+201 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+202 = {
+	culture = culture_R78G49B127
+	religion = faith_8_faith
+	holding = tribal_holding
+}
+203 = {
+	holding = none
+}
+204 = {
+	holding = none
+}
+205 = {
+	holding = none
+}
+206 = {
+	holding = none
+}
+207 = {
+	holding = none
+}
+208 = {
+	culture = culture_R3G52B153
+	religion = faith_1_faith
+	holding = tribal_holding
+}
+209 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+210 = {
+	culture = culture_frezy_hornsent_elden_ring
+	religion = frenzy_order
+	holding = castle_holding
+}
+211 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+212 = {
+	holding = none
+}
+213 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+214 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+215 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+216 = {
+	holding = none
+}
+217 = {
+	holding = none
+}
+218 = {
+	culture = culture_R3G52B153
+	religion = faith_6_faith
+	holding = tribal_holding
+}
+219 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+220 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = st_trina_order
+	holding = castle_holding
+}
+221 = {
+	culture = culture_limgrave_elden_ring
+	religion = crucible_elden_ring
+	holding = castle_holding
+}
+222 = {
+	holding = none
+}
+223 = {
+	holding = none
+}
+224 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+225 = {
+	holding = none
+}
+226 = {
+	holding = none
+}
+227 = {
+	holding = none
+}
+228 = {
+	holding = none
+}
+229 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+230 = {
+	culture = culture_R37G163B212
+	religion = faith_0_faith
+	holding = tribal_holding
+}
+231 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+232 = {
+	holding = none
+}
+233 = {
+	holding = none
+}
+234 = {
+	culture = culture_caelid_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+235 = {
+	holding = none
+}
+236 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+237 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+238 = {
+	culture = culture_R95G32B186
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+239 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+240 = {
+	holding = none
+}
+241 = {
+	holding = none
+}
+242 = {
+	holding = none
+}
+243 = {
+	culture = culture_R144G171B45
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+244 = {
+	holding = none
+}
+245 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+246 = {
+	holding = none
+}
+247 = {
+	holding = none
+}
+248 = {
+	holding = none
+}
+249 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+250 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+251 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+252 = {
+	culture = culture_gelmir_elden_ring
+	religion = god_snake_order
+	holding = castle_holding
+}
+253 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+254 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+255 = {
+	holding = none
+}
+256 = {
+	holding = none
+}
+257 = {
+	culture = culture_northerner_elden_ring
+	religion = fell_order
+	holding = castle_holding
+}
+258 = {
+	culture = culture_farum_azula_elden_ring
+	religion = ancient_dragon_elden_ring
+	holding = castle_holding
+}
+259 = {
+	culture = culture_altus_elden_ring
+	religion = formless_order
+	holding = castle_holding
+}
+260 = {
+	culture = culture_weeping_peninsula_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+261 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+262 = {
+	culture = culture_dragonbarrow_elden_ring
+	religion = ancient_dragon_elden_ring
+	holding = castle_holding
+}
+263 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+264 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+265 = {
+	culture = culture_R227G34B110
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+266 = {
+	holding = none
+}
+267 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+268 = {
+	culture = culture_ancenstral_followers_elden_ring
+	religion = ancestor_spirit_order
+	holding = tribal_holding
+}
+269 = {
+	holding = none
+}
+270 = {
+	holding = none
+}
+271 = {
+	holding = none
+}
+272 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+273 = {
+	holding = none
+}
+274 = {
+	culture = culture_caelid_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+275 = {
+	holding = none
+}
+276 = {
+	holding = none
+}
+277 = {
+	holding = none
+}
+278 = {
+	holding = none
+}
+279 = {
+	culture = culture_hornsent_elden_ring
+	religion = rot_order
+	holding = castle_holding
+}
+280 = {
+	holding = none
+}
+281 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+282 = {
+	holding = none
+}
+283 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+284 = {
+	holding = none
+}
+285 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+286 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+287 = {
+	culture = culture_dragonbarrow_elden_ring
+	religion = ancient_dragon_elden_ring
+	holding = castle_holding
+}
+288 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+289 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+290 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+291 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+292 = {
+	holding = none
+}
+293 = {
+	culture = culture_farum_azula_elden_ring
+	religion = ancient_dragon_elden_ring
+	holding = tribal_holding
+}
+294 = {
+	culture = culture_weeping_peninsula_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+295 = {
+	holding = none
+}
+296 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+297 = {
+	culture = culture_R110G97B115
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+298 = {
+	holding = none
+}
+299 = {
+	holding = none
+}
+300 = {
+	holding = none
+}
+301 = {
+	holding = none
+}
+302 = {
+	holding = none
+}
+303 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = st_trina_order
+	holding = castle_holding
+}
+304 = {
+	culture = culture_R108G27B188
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+305 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+306 = {
+	holding = none
+}
+307 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+308 = {
+	culture = culture_altus_elden_ring
+	religion = formless_order
+	holding = castle_holding
+}
+309 = {
+	holding = none
+}
+310 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+311 = {
+	culture = culture_R134G43B52
+	religion = faith_0_faith
+	holding = tribal_holding
+}
+312 = {
+	holding = none
+}
+313 = {
+	holding = none
+}
+314 = {
+	holding = none
+}
+315 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+316 = {
+	holding = none
+}
+317 = {
+	holding = none
+}
+318 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+319 = {
+	culture = culture_liurnia_elden_ring
+	religion = fell_order
+	holding = castle_holding
+}
+320 = {
+	holding = none
+}
+321 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+322 = {
+	culture = culture_gelmir_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+323 = {
+	culture = culture_R95G32B186
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+324 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+325 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+326 = {
+	culture = culture_gelmir_elden_ring
+	religion = crucible_elden_ring
+	holding = castle_holding
+}
+327 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+328 = {
+	holding = none
+}
+329 = {
+	holding = none
+}
+330 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+331 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+332 = {
+	holding = none
+}
+333 = {
+	culture = culture_R66G7B25
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+334 = {
+	holding = none
+}
+335 = {
+	holding = none
+}
+336 = {
+	holding = none
+}
+337 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+338 = {
+	holding = none
+}
+339 = {
+	culture = culture_caria_elden_ring
+	religion = moons_elden_ring
+	holding = castle_holding
+}
+340 = {
+	holding = none
+}
+341 = {
+	holding = none
+}
+342 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+343 = {
+	holding = none
+}
+344 = {
+	culture = culture_R95G32B186
+	religion = faith_1_faith
+	holding = tribal_holding
+}
+345 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+346 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+347 = {
+	holding = none
+}
+348 = {
+	holding = none
+}
+349 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+350 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+351 = {
+	culture = culture_hornsent_elden_ring
+	religion = rot_order
+	holding = castle_holding
+}
+352 = {
+	holding = none
+}
+353 = {
+	holding = none
+}
+354 = {
+	holding = none
+}
+355 = {
+	culture = culture_ancenstral_followers_elden_ring
+	religion = ancestor_spirit_order
+	holding = tribal_holding
+}
+356 = {
+	culture = culture_R66G7B25
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+357 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+358 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+359 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+360 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+361 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+362 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+363 = {
+	holding = none
+}
+364 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+365 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = st_trina_order
+	holding = castle_holding
+}
+366 = {
+	culture = culture_R95G32B186
+	religion = faith_6_faith
+	holding = tribal_holding
+}
+367 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+368 = {
+	culture = culture_R3G52B153
+	religion = faith_1_faith
+	holding = tribal_holding
+}
+369 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+370 = {
+	holding = none
+}
+371 = {
+	culture = culture_weeping_peninsula_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+372 = {
+	holding = none
+}
+373 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+374 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+375 = {
+	holding = none
+}
+376 = {
+	culture = culture_R144G171B45
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+377 = {
+	holding = none
+}
+378 = {
+	culture = culture_R95G32B186
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+379 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+380 = {
+	culture = culture_R246G237B192
+	religion = faith_24_faith
+	holding = tribal_holding
+}
+381 = {
+	holding = none
+}
+382 = {
+	holding = none
+}
+383 = {
+	holding = none
+}
+384 = {
+	holding = none
+}
+385 = {
+	holding = none
+}
+386 = {
+	holding = none
+}
+387 = {
+	holding = none
+}
+388 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+389 = {
+	holding = none
+}
+390 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+391 = {
+	culture = culture_nox_elden_ring
+	religion = night_faith
+	holding = castle_holding
+}
+392 = {
+	culture = culture_R155G183B232
+	religion = faith_4_faith
+	holding = tribal_holding
+}
+393 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+394 = {
+	culture = culture_R95G32B186
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+395 = {
+	holding = none
+}
+396 = {
+	culture = culture_liurnia_elden_ring
+	religion = fell_order
+	holding = castle_holding
+}
+397 = {
+	holding = none
+}
+398 = {
+	holding = none
+}
+399 = {
+	holding = none
+}
+400 = {
+	culture = culture_caelid_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+401 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+402 = {
+	culture = culture_liurnia_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+403 = {
+	culture = culture_R66G7B25
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+404 = {
+	culture = culture_gelmir_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+405 = {
+	holding = none
+}
+406 = {
+	holding = none
+}
+407 = {
+	culture = culture_R95G32B186
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+408 = {
+	holding = none
+}
+409 = {
+	holding = none
+}
+410 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+411 = {
+	holding = none
+}
+412 = {
+	holding = none
+}
+413 = {
+	holding = none
+}
+414 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+415 = {
+	culture = culture_farum_azula_elden_ring
+	religion = ancient_dragon_elden_ring
+	holding = tribal_holding
+}
+416 = {
+	holding = none
+}
+417 = {
+	holding = none
+}
+418 = {
+	culture = culture_caelid_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+419 = {
+	holding = none
+}
+420 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+421 = {
+	holding = none
+}
+422 = {
+	holding = none
+}
+423 = {
+	culture = culture_limgrave_elden_ring
+	religion = crucible_elden_ring
+	holding = castle_holding
+}
+424 = {
+	holding = none
+}
+425 = {
+	culture = culture_R66G7B25
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+426 = {
+	holding = none
+}
+427 = {
+	holding = none
+}
+428 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+429 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+430 = {
+	holding = none
+}
+431 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+432 = {
+	culture = culture_R3G52B153
+	religion = faith_5_faith
+	holding = tribal_holding
+}
+433 = {
+	holding = none
+}
+434 = {
+	culture = culture_caria_elden_ring
+	religion = moons_elden_ring
+	holding = castle_holding
+}
+435 = {
+	holding = none
+}
+436 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+437 = {
+	holding = none
+}
+438 = {
+	holding = none
+}
+439 = {
+	holding = none
+}
+440 = {
+	holding = none
+}
+441 = {
+	holding = none
+}
+442 = {
+	holding = none
+}
+443 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+444 = {
+	holding = none
+}
+445 = {
+	holding = none
+}
+446 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+447 = {
+	holding = none
+}
+448 = {
+	holding = none
+}
+449 = {
+	culture = culture_frezy_hornsent_elden_ring
+	religion = frenzy_order
+	holding = castle_holding
+}
+450 = {
+	holding = none
+}
+451 = {
+	holding = none
+}
+452 = {
+	holding = none
+}
+453 = {
+	holding = none
+}
+454 = {
+	holding = none
+}
+455 = {
+	holding = none
+}
+456 = {
+	holding = none
+}
+457 = {
+	holding = none
+}
+458 = {
+	holding = none
+}
+459 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+460 = {
+	holding = none
+}
+461 = {
+	holding = none
+}
+462 = {
+	holding = none
+}
+463 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+464 = {
+	culture = culture_zamor_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+465 = {
+	holding = none
+}
+466 = {
+	holding = none
+}
+467 = {
+	holding = none
+}
+468 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+469 = {
+	holding = none
+}
+470 = {
+	culture = culture_caria_elden_ring
+	religion = moons_elden_ring
+	holding = castle_holding
+}
+471 = {
+	culture = culture_R95G32B186
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+472 = {
+	culture = culture_R37G163B212
+	religion = faith_0_faith
+	holding = tribal_holding
+}
+473 = {
+	holding = none
+}
+474 = {
+	holding = none
+}
+475 = {
+	culture = culture_R95G32B186
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+476 = {
+	culture = culture_R26G87B110
+	religion = faith_3_faith
+	holding = tribal_holding
+}
+477 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+478 = {
+	holding = none
+}
+479 = {
+	holding = none
+}
+480 = {
+	holding = none
+}
+481 = {
+	holding = none
+}
+482 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+483 = {
+	holding = none
+}
+484 = {
+	holding = none
+}
+485 = {
+	holding = none
+}
+486 = {
+	holding = none
+}
+487 = {
+	holding = none
+}
+488 = {
+	holding = none
+}
+489 = {
+	holding = none
+}
+490 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+491 = {
+	culture = culture_R95G32B186
+	religion = faith_6_faith
+	holding = tribal_holding
+}
+492 = {
+	holding = none
+}
+493 = {
+	holding = none
+}
+494 = {
+	holding = none
+}
+495 = {
+	holding = none
+}
+496 = {
+	holding = none
+}
+497 = {
+	holding = none
+}
+498 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+499 = {
+	holding = none
+}
+500 = {
+	holding = none
+}
+501 = {
+	holding = none
+}
+502 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+503 = {
+	holding = none
+}
+504 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+505 = {
+	holding = none
+}
+506 = {
+	holding = none
+}
+507 = {
+	holding = none
+}
+508 = {
+	holding = none
+}
+509 = {
+	holding = none
+}
+510 = {
+	holding = none
+}
+511 = {
+	culture = culture_dragonbarrow_elden_ring
+	religion = rot_order
+	holding = castle_holding
+}
+512 = {
+	culture = culture_weeping_peninsula_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+513 = {
+	holding = none
+}
+514 = {
+	culture = culture_altus_elden_ring
+	religion = crucible_elden_ring
+	holding = castle_holding
+}
+515 = {
+	holding = none
+}
+516 = {
+	holding = none
+}
+517 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+518 = {
+	culture = culture_caria_elden_ring
+	religion = moons_elden_ring
+	holding = castle_holding
+}
+519 = {
+	holding = none
+}
+520 = {
+	holding = none
+}
+521 = {
+	culture = culture_caria_elden_ring
+	religion = moons_elden_ring
+	holding = castle_holding
+}
+522 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+523 = {
+	holding = none
+}
+524 = {
+	holding = none
+}
+525 = {
+	holding = none
+}
+526 = {
+	holding = none
+}
+527 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+528 = {
+	holding = none
+}
+529 = {
+	holding = none
+}
+530 = {
+	holding = none
+}
+531 = {
+	holding = none
+}
+532 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+533 = {
+	holding = none
+}
+534 = {
+	holding = none
+}
+535 = {
+	holding = none
+}
+536 = {
+	holding = none
+}
+537 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+538 = {
+	holding = none
+}
+539 = {
+	holding = none
+}
+540 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+541 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+542 = {
+	holding = none
+}
+543 = {
+	culture = culture_caelid_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+544 = {
+	holding = none
+}
+545 = {
+	holding = none
+}
+546 = {
+	holding = none
+}
+547 = {
+	holding = none
+}
+548 = {
+	holding = none
+}
+549 = {
+	culture = culture_dragonbarrow_elden_ring
+	religion = ancient_dragon_elden_ring
+	holding = castle_holding
+}
+550 = {
+	holding = none
+}
+551 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+552 = {
+	holding = none
+}
+553 = {
+	holding = none
+}
+554 = {
+	culture = culture_R95G32B186
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+555 = {
+	holding = none
+}
+556 = {
+	holding = none
+}
+557 = {
+	holding = none
+}
+558 = {
+	holding = none
+}
+559 = {
+	holding = none
+}
+560 = {
+	culture = culture_caelid_elden_ring
+	religion = rot_order
+	holding = castle_holding
+}
+561 = {
+	holding = none
+}
+562 = {
+	holding = none
+}
+563 = {
+	holding = none
+}
+564 = {
+	holding = none
+}
+565 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+566 = {
+	holding = none
+}
+567 = {
+	culture = culture_weeping_peninsula_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+568 = {
+	holding = none
+}
+569 = {
+	holding = none
+}
+570 = {
+	culture = culture_gelmir_elden_ring
+	religion = god_snake_order
+	holding = castle_holding
+}
+571 = {
+	holding = none
+}
+572 = {
+	holding = none
+}
+573 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+574 = {
+	holding = none
+}
+575 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+576 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+577 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+578 = {
+	holding = none
+}
+579 = {
+	holding = none
+}
+580 = {
+	holding = none
+}
+581 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+582 = {
+	holding = none
+}
+583 = {
+	holding = none
+}
+584 = {
+	culture = culture_altus_elden_ring
+	religion = st_trina_order
+	holding = castle_holding
+}
+585 = {
+	holding = none
+}
+586 = {
+	holding = none
+}
+587 = {
+	holding = none
+}
+588 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+589 = {
+	holding = none
+}
+590 = {
+	holding = none
+}
+591 = {
+	holding = none
+}
+592 = {
+	holding = none
+}
+593 = {
+	culture = culture_frezy_hornsent_elden_ring
+	religion = frenzy_order
+	holding = castle_holding
+}
+594 = {
+	holding = none
+}
+595 = {
+	holding = none
+}
+596 = {
+	holding = none
+}
+597 = {
+	holding = none
+}
+598 = {
+	holding = none
+}
+599 = {
+	holding = none
+}
+600 = {
+	holding = none
+}
+601 = {
+	holding = none
+}
+602 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+603 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+604 = {
+	culture = culture_R3G52B153
+	religion = faith_1_faith
+	holding = tribal_holding
+}
+605 = {
+	culture = culture_R3G52B153
+	religion = faith_1_faith
+	holding = tribal_holding
+}
+606 = {
+	culture = culture_frezy_hornsent_elden_ring
+	religion = frenzy_order
+	holding = castle_holding
+}
+607 = {
+	holding = none
+}
+608 = {
+	culture = culture_altus_elden_ring
+	religion = land_of_reeds_faith
+	holding = castle_holding
+}
+609 = {
+	holding = none
+}
+610 = {
+	holding = none
+}
+611 = {
+	holding = none
+}
+612 = {
+	holding = none
+}
+613 = {
+	holding = none
+}
+614 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+615 = {
+	holding = none
+}
+616 = {
+	holding = none
+}
+617 = {
+	culture = culture_R95G32B186
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+618 = {
+	culture = culture_ancenstral_followers_elden_ring
+	religion = ancestor_spirit_order
+	holding = tribal_holding
+}
+619 = {
+	holding = none
+}
+620 = {
+	holding = none
+}
+621 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+622 = {
+	holding = none
+}
+623 = {
+	holding = none
+}
+624 = {
+	holding = none
+}
+625 = {
+	holding = none
+}
+626 = {
+	holding = none
+}
+627 = {
+	holding = none
+}
+628 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+629 = {
+	holding = none
+}
+630 = {
+	holding = none
+}
+631 = {
+	holding = none
+}
+632 = {
+	culture = culture_nox_elden_ring
+	religion = primeval_elden_ring
+	holding = castle_holding
+}
+633 = {
+	holding = none
+}
+634 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+635 = {
+	holding = none
+}
+636 = {
+	holding = none
+}
+637 = {
+	holding = none
+}
+638 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+639 = {
+	holding = none
+}
+640 = {
+	holding = none
+}
+641 = {
+	holding = none
+}
+642 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+643 = {
+	holding = none
+}
+644 = {
+	culture = culture_R26G87B110
+	religion = faith_3_faith
+	holding = tribal_holding
+}
+645 = {
+	holding = none
+}
+646 = {
+	holding = none
+}
+647 = {
+	holding = none
+}
+648 = {
+	holding = none
+}
+649 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+650 = {
+	holding = none
+}
+651 = {
+	culture = culture_R95G32B186
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+652 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+653 = {
+	holding = none
+}
+654 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+655 = {
+	holding = none
+}
+656 = {
+	holding = none
+}
+657 = {
+	holding = none
+}
+658 = {
+	holding = none
+}
+659 = {
+	culture = culture_liurnia_elden_ring
+	religion = primeval_elden_ring
+	holding = castle_holding
+}
+660 = {
+	holding = none
+}
+661 = {
+	holding = none
+}
+662 = {
+	holding = none
+}
+663 = {
+	holding = none
+}
+664 = {
+	culture = culture_weeping_peninsula_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+665 = {
+	holding = none
+}
+666 = {
+	holding = none
+}
+667 = {
+	holding = none
+}
+668 = {
+	culture = culture_liurnia_elden_ring
+	religion = dragon_cult_order
+	holding = castle_holding
+}
+669 = {
+	holding = none
+}
+670 = {
+	holding = none
+}
+671 = {
+	holding = none
+}
+672 = {
+	holding = none
+}
+673 = {
+	holding = none
+}
+674 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+675 = {
+	holding = none
+}
+676 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+677 = {
+	holding = none
+}
+678 = {
+	holding = none
+}
+679 = {
+	holding = none
+}
+680 = {
+	holding = none
+}
+681 = {
+	holding = none
+}
+682 = {
+	holding = none
+}
+683 = {
+	holding = none
+}
+684 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+685 = {
+	holding = none
+}
+686 = {
+	holding = none
+}
+687 = {
+	holding = none
+}
+688 = {
+	holding = none
+}
+689 = {
+	holding = none
+}
+690 = {
+	holding = none
+}
+691 = {
+	culture = culture_altus_elden_ring
+	religion = formless_order
+	holding = castle_holding
+}
+692 = {
+	holding = none
+}
+693 = {
+	culture = culture_hornsent_elden_ring
+	religion = crucible_elden_ring
+	holding = castle_holding
+}
+694 = {
+	holding = none
+}
+695 = {
+	holding = none
+}
+696 = {
+	culture = culture_dragonbarrow_elden_ring
+	religion = ancient_dragon_elden_ring
+	holding = castle_holding
+}
+697 = {
+	holding = none
+}
+698 = {
+	holding = none
+}
+699 = {
+	holding = none
+}
+700 = {
+	holding = none
+}
+701 = {
+	holding = none
+}
+702 = {
+	culture = culture_dragonbarrow_elden_ring
+	religion = land_of_reeds_faith
+	holding = castle_holding
+}
+703 = {
+	holding = none
+}
+704 = {
+	holding = none
+}
+705 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+706 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+707 = {
+	holding = none
+}
+708 = {
+	holding = none
+}
+709 = {
+	holding = none
+}
+710 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+711 = {
+	holding = none
+}
+712 = {
+	holding = none
+}
+713 = {
+	culture = culture_gelmir_elden_ring
+	religion = god_snake_order
+	holding = castle_holding
+}
+714 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+715 = {
+	holding = none
+}
+716 = {
+	holding = none
+}
+717 = {
+	holding = none
+}
+718 = {
+	holding = none
+}
+719 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+720 = {
+	holding = none
+}
+721 = {
+	holding = none
+}
+722 = {
+	holding = none
+}
+723 = {
+	holding = none
+}
+724 = {
+	holding = none
+}
+725 = {
+	holding = none
+}
+726 = {
+	holding = none
+}
+727 = {
+	culture = culture_ancenstral_followers_elden_ring
+	religion = ancestor_spirit_order
+	holding = tribal_holding
+}
+728 = {
+	culture = culture_caelid_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+729 = {
+	culture = culture_northerner_elden_ring
+	religion = death_prince_order
+	holding = castle_holding
+}
+730 = {
+	holding = none
+}
+731 = {
+	holding = none
+}
+732 = {
+	holding = none
+}
+733 = {
+	holding = none
+}
+734 = {
+	holding = none
+}
+735 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+736 = {
+	holding = none
+}
+737 = {
+	holding = none
+}
+738 = {
+	holding = none
+}
+739 = {
+	holding = none
+}
+740 = {
+	holding = none
+}
+741 = {
+	holding = none
+}
+742 = {
+	holding = none
+}
+743 = {
+	holding = none
+}
+744 = {
+	holding = none
+}
+745 = {
+	holding = none
+}
+746 = {
+	holding = none
+}
+747 = {
+	holding = none
+}
+748 = {
+	holding = none
+}
+749 = {
+	holding = none
+}
+750 = {
+	holding = none
+}
+751 = {
+	holding = none
+}
+752 = {
+	holding = none
+}
+753 = {
+	holding = none
+}
+754 = {
+	holding = none
+}
+755 = {
+	holding = none
+}
+756 = {
+	holding = none
+}
+757 = {
+	holding = none
+}
+758 = {
+	holding = none
+}
+759 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+760 = {
+	holding = none
+}
+761 = {
+	holding = none
+}
+762 = {
+	holding = none
+}
+763 = {
+	holding = none
+}
+764 = {
+	holding = none
+}
+765 = {
+	holding = none
+}
+766 = {
+	holding = none
+}
+767 = {
+	holding = none
+}
+768 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+769 = {
+	holding = none
+}
+770 = {
+	holding = none
+}
+771 = {
+	holding = none
+}
+772 = {
+	holding = none
+}
+773 = {
+	holding = none
+}
+774 = {
+	holding = none
+}
+775 = {
+	holding = none
+}
+776 = {
+	holding = none
+}
+777 = {
+	holding = none
+}
+778 = {
+	holding = none
+}
+779 = {
+	holding = none
+}
+780 = {
+	holding = none
+}
+781 = {
+	culture = culture_altus_elden_ring
+	religion = crucible_elden_ring
+	holding = castle_holding
+}
+782 = {
+	holding = none
+}
+783 = {
+	holding = none
+}
+784 = {
+	holding = none
+}
+785 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+786 = {
+	holding = none
+}
+787 = {
+	holding = none
+}
+788 = {
+	holding = none
+}
+789 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+790 = {
+	holding = none
+}
+791 = {
+	holding = none
+}
+792 = {
+	holding = none
+}
+793 = {
+	holding = none
+}
+794 = {
+	holding = none
+}
+795 = {
+	holding = none
+}
+796 = {
+	holding = none
+}
+797 = {
+	holding = none
+}
+798 = {
+	holding = none
+}
+799 = {
+	holding = none
+}
+800 = {
+	holding = none
+}
+801 = {
+	holding = none
+}
+802 = {
+	holding = none
+}
+803 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = st_trina_order
+	holding = castle_holding
+}
+804 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+805 = {
+	holding = none
+}
+806 = {
+	holding = none
+}
+807 = {
+	holding = none
+}
+808 = {
+	holding = none
+}
+809 = {
+	culture = culture_hornsent_elden_ring
+	religion = crucible_elden_ring
+	holding = castle_holding
+}
+810 = {
+	holding = none
+}
+811 = {
+	holding = none
+}
+812 = {
+	holding = none
+}
+813 = {
+	holding = none
+}
+814 = {
+	holding = none
+}
+815 = {
+	holding = none
+}
+816 = {
+	holding = none
+}
+817 = {
+	holding = none
+}
+818 = {
+	holding = none
+}
+819 = {
+	holding = none
+}
+820 = {
+	holding = none
+}
+821 = {
+	holding = none
+}
+822 = {
+	holding = none
+}
+823 = {
+	holding = none
+}
+824 = {
+	holding = none
+}
+825 = {
+	holding = none
+}
+826 = {
+	holding = none
+}
+827 = {
+	holding = none
+}
+828 = {
+	holding = none
+}
+829 = {
+	holding = none
+}
+830 = {
+	culture = culture_R110G97B115
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+831 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = st_trina_order
+	holding = castle_holding
+}
+832 = {
+	holding = none
+}
+833 = {
+	holding = none
+}
+834 = {
+	holding = none
+}
+835 = {
+	holding = none
+}
+836 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+837 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+838 = {
+	culture = culture_R88G53B13
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+839 = {
+	holding = none
+}
+840 = {
+	holding = none
+}
+841 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+842 = {
+	holding = none
+}
+843 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+844 = {
+	holding = none
+}
+845 = {
+	holding = none
+}
+846 = {
+	holding = none
+}
+847 = {
+	holding = none
+}
+848 = {
+	holding = none
+}
+849 = {
+	culture = culture_R134G43B52
+	religion = faith_0_faith
+	holding = tribal_holding
+}
+850 = {
+	holding = none
+}
+851 = {
+	holding = none
+}
+852 = {
+	holding = none
+}
+853 = {
+	holding = none
+}
+854 = {
+	culture = culture_R227G34B110
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+855 = {
+	holding = none
+}
+856 = {
+	holding = none
+}
+857 = {
+	holding = none
+}
+858 = {
+	holding = none
+}
+859 = {
+	holding = none
+}
+860 = {
+	holding = none
+}
+861 = {
+	holding = none
+}
+862 = {
+	holding = none
+}
+863 = {
+	holding = none
+}
+864 = {
+	holding = none
+}
+865 = {
+	holding = none
+}
+866 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+867 = {
+	holding = none
+}
+868 = {
+	holding = none
+}
+869 = {
+	holding = none
+}
+870 = {
+	holding = none
+}
+871 = {
+	holding = none
+}
+872 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+873 = {
+	holding = none
+}
+874 = {
+	culture = culture_weeping_peninsula_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+875 = {
+	holding = none
+}
+876 = {
+	holding = none
+}
+877 = {
+	holding = none
+}
+878 = {
+	holding = none
+}
+879 = {
+	holding = none
+}
+880 = {
+	holding = none
+}
+881 = {
+	holding = none
+}
+882 = {
+	holding = none
+}
+883 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = crucible_elden_ring
+	holding = castle_holding
+}
+884 = {
+	holding = none
+}
+885 = {
+	culture = culture_R117G248B119
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+886 = {
+	culture = culture_R95G32B186
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+887 = {
+	holding = none
+}
+888 = {
+	holding = none
+}
+889 = {
+	holding = none
+}
+890 = {
+	holding = none
+}
+891 = {
+	holding = none
+}
+892 = {
+	holding = none
+}
+893 = {
+	holding = none
+}
+894 = {
+	holding = none
+}
+895 = {
+	culture = culture_gelmir_elden_ring
+	religion = rot_order
+	holding = castle_holding
+}
+896 = {
+	holding = none
+}
+897 = {
+	holding = none
+}
+898 = {
+	holding = none
+}
+899 = {
+	holding = none
+}
+900 = {
+	culture = culture_zamor_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+901 = {
+	holding = none
+}
+902 = {
+	holding = none
+}
+903 = {
+	holding = none
+}
+904 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+905 = {
+	holding = none
+}
+906 = {
+	holding = none
+}
+907 = {
+	holding = none
+}
+908 = {
+	holding = none
+}
+909 = {
+	holding = none
+}
+910 = {
+	culture = culture_R165G255B142
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+911 = {
+	holding = none
+}
+912 = {
+	holding = none
+}
+913 = {
+	holding = none
+}
+914 = {
+	holding = none
+}
+915 = {
+	holding = none
+}
+916 = {
+	holding = none
+}
+917 = {
+	holding = none
+}
+918 = {
+	culture = culture_R95G32B186
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+919 = {
+	holding = none
+}
+920 = {
+	holding = none
+}
+921 = {
+	holding = none
+}
+922 = {
+	holding = none
+}
+923 = {
+	holding = none
+}
+924 = {
+	holding = none
+}
+925 = {
+	holding = none
+}
+926 = {
+	holding = none
+}
+927 = {
+	holding = none
+}
+928 = {
+	holding = none
+}
+929 = {
+	holding = none
+}
+930 = {
+	holding = none
+}
+931 = {
+	holding = none
+}
+932 = {
+	holding = none
+}
+933 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = st_trina_order
+	holding = castle_holding
+}
+934 = {
+	holding = none
+}
+935 = {
+	holding = none
+}
+936 = {
+	holding = none
+}
+937 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+938 = {
+	holding = none
+}
+939 = {
+	holding = none
+}
+940 = {
+	holding = none
+}
+941 = {
+	holding = none
+}
+942 = {
+	culture = culture_R210G238B92
+	religion = faith_32_faith
+	holding = tribal_holding
+}
+943 = {
+	holding = none
+}
+944 = {
+	holding = none
+}
+945 = {
+	holding = none
+}
+946 = {
+	culture = culture_hornsent_elden_ring
+	religion = kind_order
+	holding = castle_holding
+}
+947 = {
+	holding = none
+}
+948 = {
+	holding = none
+}
+949 = {
+	holding = none
+}
+950 = {
+	holding = none
+}
+951 = {
+	holding = none
+}
+952 = {
+	holding = none
+}
+953 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+954 = {
+	holding = none
+}
+955 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+956 = {
+	holding = none
+}
+957 = {
+	holding = none
+}
+958 = {
+	holding = none
+}
+959 = {
+	holding = none
+}
+960 = {
+	holding = none
+}
+961 = {
+	holding = none
+}
+962 = {
+	holding = none
+}
+963 = {
+	holding = none
+}
+964 = {
+	holding = none
+}
+965 = {
+	holding = none
+}
+966 = {
+	holding = none
+}
+967 = {
+	holding = none
+}
+968 = {
+	holding = none
+}
+969 = {
+	holding = none
+}
+970 = {
+	holding = none
+}
+971 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+972 = {
+	holding = none
+}
+973 = {
+	holding = none
+}
+974 = {
+	holding = none
+}
+975 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+976 = {
+	holding = none
+}
+977 = {
+	holding = none
+}
+978 = {
+	holding = none
+}
+979 = {
+	holding = none
+}
+980 = {
+	holding = none
+}
+981 = {
+	holding = none
+}
+982 = {
+	holding = none
+}
+983 = {
+	holding = none
+}
+984 = {
+	holding = none
+}
+985 = {
+	holding = none
+}
+986 = {
+	holding = none
+}
+987 = {
+	holding = none
+}
+988 = {
+	holding = none
+}
+989 = {
+	holding = none
+}
+990 = {
+	holding = none
+}
+991 = {
+	holding = none
+}
+992 = {
+	holding = none
+}
+993 = {
+	holding = none
+}
+994 = {
+	holding = none
+}
+995 = {
+	holding = none
+}
+996 = {
+	holding = none
+}
+997 = {
+	holding = none
+}
+998 = {
+	holding = none
+}
+999 = {
+	holding = none
+}
+1000 = {
+	holding = none
+}
+1001 = {
+	holding = none
+}
+1002 = {
+	holding = none
+}
+1003 = {
+	holding = none
+}
+1004 = {
+	holding = none
+}
+1005 = {
+	holding = none
+}
+1006 = {
+	holding = none
+}
+1007 = {
+	holding = none
+}
+1008 = {
+	holding = none
+}
+1009 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+1010 = {
+	holding = none
+}
+1011 = {
+	holding = none
+}
+1012 = {
+	holding = none
+}
+1013 = {
+	holding = none
+}
+1014 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+1015 = {
+	holding = none
+}
+1016 = {
+	holding = none
+}
+1017 = {
+	holding = none
+}
+1018 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+1019 = {
+	holding = none
+}
+1020 = {
+	holding = none
+}
+1021 = {
+	holding = none
+}
+1022 = {
+	holding = none
+}
+1023 = {
+	holding = none
+}
+1024 = {
+	holding = none
+}
+1025 = {
+	holding = none
+}
+1026 = {
+	holding = none
+}
+1027 = {
+	culture = culture_caria_elden_ring
+	religion = moons_elden_ring
+	holding = castle_holding
+}
+1028 = {
+	holding = none
+}
+1029 = {
+	holding = none
+}
+1030 = {
+	culture = culture_altus_elden_ring
+	religion = rot_order
+	holding = castle_holding
+}
+1031 = {
+	holding = none
+}
+1032 = {
+	holding = none
+}
+1033 = {
+	holding = none
+}
+1034 = {
+	holding = none
+}
+1035 = {
+	holding = none
+}
+1036 = {
+	holding = none
+}
+1037 = {
+	holding = none
+}
+1038 = {
+	holding = none
+}
+1039 = {
+	holding = none
+}
+1040 = {
+	holding = none
+}
+1041 = {
+	holding = none
+}
+1042 = {
+	holding = none
+}
+1043 = {
+	culture = culture_R95G32B186
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+1044 = {
+	holding = none
+}
+1045 = {
+	holding = none
+}
+1046 = {
+	holding = none
+}
+1047 = {
+	culture = culture_limgrave_elden_ring
+	religion = dragon_cult_order
+	holding = castle_holding
+}
+1048 = {
+	holding = none
+}
+1049 = {
+	holding = none
+}
+1050 = {
+	holding = none
+}
+1051 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+1052 = {
+	holding = none
+}
+1053 = {
+	holding = none
+}
+1054 = {
+	holding = none
+}
+1055 = {
+	holding = none
+}
+1056 = {
+	culture = culture_caria_elden_ring
+	religion = moons_elden_ring
+	holding = castle_holding
+}
+1057 = {
+	holding = none
+}
+1058 = {
+	holding = none
+}
+1059 = {
+	holding = none
+}
+1060 = {
+	holding = none
+}
+1061 = {
+	holding = none
+}
+1062 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+1063 = {
+	holding = none
+}
+1064 = {
+	holding = none
+}
+1065 = {
+	holding = none
+}
+1066 = {
+	holding = none
+}
+1067 = {
+	holding = none
+}
+1068 = {
+	holding = none
+}
+1069 = {
+	holding = none
+}
+1070 = {
+	holding = none
+}
+1071 = {
+	holding = none
+}
+1072 = {
+	holding = none
+}
+1073 = {
+	holding = none
+}
+1074 = {
+	holding = none
+}
+1075 = {
+	holding = none
+}
+1076 = {
+	holding = none
+}
+1077 = {
+	holding = none
+}
+1078 = {
+	holding = none
+}
+1079 = {
+	holding = none
+}
+1080 = {
+	holding = none
+}
+1081 = {
+	holding = none
+}
+1082 = {
+	holding = none
+}
+1083 = {
+	holding = none
+}
+1084 = {
+	holding = none
+}
+1085 = {
+	holding = none
+}
+1086 = {
+	holding = none
+}
+1087 = {
+	holding = none
+}
+1088 = {
+	holding = none
+}
+1089 = {
+	holding = none
+}
+1090 = {
+	holding = none
+}
+1091 = {
+	holding = none
+}
+1092 = {
+	holding = none
+}
+1093 = {
+	holding = none
+}
+1094 = {
+	holding = none
+}
+1095 = {
+	holding = none
+}
+1096 = {
+	holding = none
+}
+1097 = {
+	holding = none
+}
+1098 = {
+	holding = none
+}
+1099 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+1100 = {
+	holding = none
+}
+1101 = {
+	holding = none
+}
+1102 = {
+	holding = none
+}
+1103 = {
+	holding = none
+}
+1104 = {
+	holding = none
+}
+1105 = {
+	holding = none
+}
+1106 = {
+	culture = culture_altus_elden_ring
+	religion = unalloyed_order
+	holding = castle_holding
+}
+1107 = {
+	holding = none
+}
+1108 = {
+	holding = none
+}
+1109 = {
+	holding = none
+}
+1110 = {
+	holding = none
+}
+1111 = {
+	holding = none
+}
+1112 = {
+	holding = none
+}
+1113 = {
+	holding = none
+}
+1114 = {
+	holding = none
+}
+1115 = {
+	holding = none
+}
+1116 = {
+	holding = none
+}
+1117 = {
+	holding = none
+}
+1118 = {
+	holding = none
+}
+1119 = {
+	holding = none
+}
+1120 = {
+	holding = none
+}
+1121 = {
+	culture = culture_hornsent_elden_ring
+	religion = crucible_elden_ring
+	holding = castle_holding
+}
+1122 = {
+	holding = none
+}
+1123 = {
+	holding = none
+}
+1124 = {
+	holding = none
+}
+1125 = {
+	holding = none
+}
+1126 = {
+	holding = none
+}
+1127 = {
+	holding = none
+}
+1128 = {
+	holding = none
+}
+1129 = {
+	holding = none
+}
+1130 = {
+	holding = none
+}
+1131 = {
+	holding = none
+}
+1132 = {
+	holding = none
+}
+1133 = {
+	holding = none
+}
+1134 = {
+	holding = none
+}
+1135 = {
+	holding = none
+}
+1136 = {
+	holding = none
+}
+1137 = {
+	culture = culture_altus_elden_ring
+	religion = rot_order
+	holding = castle_holding
+}
+1138 = {
+	holding = none
+}
+1139 = {
+	culture = culture_altus_elden_ring
+	religion = kind_order
+	holding = castle_holding
+}
+1140 = {
+	holding = none
+}
+1141 = {
+	holding = none
+}
+1142 = {
+	holding = none
+}
+1143 = {
+	holding = none
+}
+1144 = {
+	holding = none
+}
+1145 = {
+	holding = none
+}
+1146 = {
+	holding = none
+}
+1147 = {
+	holding = none
+}
+1148 = {
+	holding = none
+}
+1149 = {
+	holding = none
+}
+1150 = {
+	holding = none
+}
+1151 = {
+	holding = none
+}
+1152 = {
+	holding = none
+}
+1153 = {
+	holding = none
+}
+1154 = {
+	holding = none
+}
+1155 = {
+	holding = none
+}
+1156 = {
+	holding = none
+}
+1157 = {
+	holding = none
+}
+1158 = {
+	holding = none
+}
+1159 = {
+	holding = none
+}
+1160 = {
+	holding = none
+}
+1161 = {
+	holding = none
+}
+1162 = {
+	holding = none
+}
+1163 = {
+	holding = none
+}
+1164 = {
+	holding = none
+}
+1165 = {
+	holding = none
+}
+1166 = {
+	holding = none
+}
+1167 = {
+	holding = none
+}
+1168 = {
+	holding = none
+}
+1169 = {
+	holding = none
+}
+1170 = {
+	holding = none
+}
+1171 = {
+	holding = none
+}
+1172 = {
+	holding = none
+}
+1173 = {
+	holding = none
+}
+1174 = {
+	holding = none
+}
+1175 = {
+	holding = none
+}
+1176 = {
+	holding = none
+}
+1177 = {
+	culture = culture_altus_elden_ring
+	religion = kind_order
+	holding = castle_holding
+}
+1178 = {
+	holding = none
+}
+1179 = {
+	holding = none
+}
+1180 = {
+	holding = none
+}
+1181 = {
+	holding = none
+}
+1182 = {
+	culture = culture_messmer_followers_elden_ring
+	religion = messmer_order
+	holding = castle_holding
+}
+1183 = {
+	holding = none
+}
+1184 = {
+	holding = none
+}
+1185 = {
+	holding = none
+}
+1186 = {
+	holding = none
+}
+1187 = {
+	holding = none
+}
+1188 = {
+	holding = none
+}
+1189 = {
+	holding = none
+}
+1190 = {
+	holding = none
+}
+1191 = {
+	holding = none
+}
+1192 = {
+	holding = none
+}
+1193 = {
+	holding = none
+}
+1194 = {
+	holding = none
+}
+1195 = {
+	holding = none
+}
+1196 = {
+	holding = none
+}
+1197 = {
+	holding = none
+}
+1198 = {
+	holding = none
+}
+1199 = {
+	holding = none
+}
+1200 = {
+	holding = none
+}
+1201 = {
+	holding = none
+}
+1202 = {
+	holding = none
+}
+1203 = {
+	holding = none
+}
+1204 = {
+	holding = none
+}
+1205 = {
+	holding = none
+}
+1206 = {
+	holding = none
+}
+1207 = {
+	holding = none
+}
+1208 = {
+	holding = none
+}
+1209 = {
+	holding = none
+}
+1210 = {
+	holding = none
+}
+1211 = {
+	holding = none
+}
+1212 = {
+	holding = none
+}
+1213 = {
+	holding = none
+}
+1214 = {
+	holding = none
+}
+1215 = {
+	holding = none
+}
+1216 = {
+	holding = none
+}
+1217 = {
+	holding = none
+}
+1218 = {
+	holding = none
+}
+1219 = {
+	holding = none
+}
+1220 = {
+	holding = none
+}
+1221 = {
+	holding = none
+}
+1222 = {
+	holding = none
+}
+1223 = {
+	holding = none
+}
+1224 = {
+	holding = none
+}
+1225 = {
+	holding = none
+}
+1226 = {
+	holding = none
+}
+1227 = {
+	holding = none
+}
+1228 = {
+	holding = none
+}
+1229 = {
+	holding = none
+}
+1230 = {
+	holding = none
+}
+1231 = {
+	holding = none
+}
+1232 = {
+	holding = none
+}
+1233 = {
+	holding = none
+}
+1234 = {
+	holding = none
+}
+1235 = {
+	holding = none
+}
+1236 = {
+	holding = none
+}
+1237 = {
+	holding = none
+}
+1238 = {
+	holding = none
+}
+1239 = {
+	holding = none
+}
+1240 = {
+	holding = none
+}
+1241 = {
+	culture = culture_hornsent_elden_ring
+	religion = spiral_elden_ring
+	holding = castle_holding
+}
+1242 = {
+	holding = none
+}
+1243 = {
+	holding = none
+}
+1244 = {
+	holding = none
+}
+1245 = {
+	holding = none
+}
+1246 = {
+	holding = none
+}
+1247 = {
+	culture = culture_weeping_peninsula_elden_ring
+	religion = dragon_cult_order
+	holding = castle_holding
+}
+1248 = {
+	holding = none
+}
+1249 = {
+	holding = none
+}
+1250 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+1251 = {
+	holding = none
+}
+1252 = {
+	holding = none
+}
+1253 = {
+	holding = none
+}
+1254 = {
+	holding = none
+}
+1255 = {
+	holding = none
+}
+1256 = {
+	holding = none
+}
+1257 = {
+	holding = none
+}
+1258 = {
+	holding = none
+}
+1259 = {
+	holding = none
+}
+1260 = {
+	holding = none
+}
+1261 = {
+	holding = none
+}
+1262 = {
+	holding = none
+}
+1263 = {
+	holding = none
+}
+1264 = {
+	holding = none
+}
+1265 = {
+	holding = none
+}
+1266 = {
+	holding = none
+}
+1267 = {
+	holding = none
+}
+1268 = {
+	holding = none
+}
+1269 = {
+	holding = none
+}
+1270 = {
+	holding = none
+}
+1271 = {
+	holding = none
+}
+1272 = {
+	holding = none
+}
+1273 = {
+	holding = none
+}
+1274 = {
+	holding = none
+}
+1275 = {
+	holding = none
+}
+1276 = {
+	holding = none
+}
+1277 = {
+	holding = none
+}
+1278 = {
+	holding = none
+}
+1279 = {
+	holding = none
+}
+1280 = {
+	holding = none
+}
+1281 = {
+	holding = none
+}
+1282 = {
+	holding = none
+}
+1283 = {
+	holding = none
+}
+1284 = {
+	holding = none
+}
+1285 = {
+	holding = none
+}
+1286 = {
+	culture = culture_R178G135B229
+	religion = faith_28_faith
+	holding = tribal_holding
+}
+1287 = {
+	culture = culture_frezy_hornsent_elden_ring
+	religion = frenzy_order
+	holding = castle_holding
+}
+1288 = {
+	holding = none
+}
+1289 = {
+	holding = none
+}
+1290 = {
+	holding = none
+}
+1291 = {
+	holding = none
+}
+1292 = {
+	holding = none
+}
+1293 = {
+	holding = none
+}
+1294 = {
+	holding = none
+}
+1295 = {
+	holding = none
+}
+1296 = {
+	culture = culture_R110G97B115
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+1297 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+1298 = {
+	holding = none
+}
+1299 = {
+	holding = none
+}
+1300 = {
+	holding = none
+}
+1301 = {
+	holding = none
+}
+1302 = {
+	holding = none
+}
+1303 = {
+	holding = none
+}
+1304 = {
+	holding = none
+}
+1305 = {
+	holding = none
+}
+1306 = {
+	holding = none
+}
+1307 = {
+	holding = none
+}
+1308 = {
+	holding = none
+}
+1309 = {
+	holding = none
+}
+1310 = {
+	holding = none
+}
+1311 = {
+	holding = none
+}
+1312 = {
+	holding = none
+}
+1313 = {
+	holding = none
+}
+1314 = {
+	holding = none
+}
+1315 = {
+	holding = none
+}
+1316 = {
+	holding = none
+}
+1317 = {
+	holding = none
+}
+1318 = {
+	holding = none
+}
+1319 = {
+	holding = none
+}
+1320 = {
+	holding = none
+}
+1321 = {
+	culture = culture_sellia_elden_ring
+	religion = gravity_elden_ring
+	holding = castle_holding
+}
+1322 = {
+	holding = none
+}
+1323 = {
+	holding = none
+}
+1324 = {
+	holding = none
+}
+1325 = {
+	holding = none
+}
+1326 = {
+	holding = none
+}
+1327 = {
+	holding = none
+}
+1328 = {
+	holding = none
+}
+1329 = {
+	holding = none
+}
+1330 = {
+	holding = none
+}
+1331 = {
+	culture = culture_northerner_elden_ring
+	religion = death_prince_order
+	holding = castle_holding
+}
+1332 = {
+	holding = none
+}
+1333 = {
+	holding = none
+}
+1334 = {
+	holding = none
+}
+1335 = {
+	holding = none
+}
+1336 = {
+	holding = none
+}
+1337 = {
+	holding = none
+}
+1338 = {
+	holding = none
+}
+1339 = {
+	holding = none
+}
+1340 = {
+	holding = none
+}
+1341 = {
+	holding = none
+}
+1342 = {
+	holding = none
+}
+1343 = {
+	holding = none
+}
+1344 = {
+	holding = none
+}
+1345 = {
+	holding = none
+}
+1346 = {
+	holding = none
+}
+1347 = {
+	holding = none
+}
+1348 = {
+	holding = none
+}
+1349 = {
+	holding = none
+}
+1350 = {
+	holding = none
+}
+1351 = {
+	holding = none
+}
+1352 = {
+	holding = none
+}
+1353 = {
+	holding = none
+}
+1354 = {
+	culture = culture_northerner_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+1355 = {
+	holding = none
+}
+1356 = {
+	holding = none
+}
+1357 = {
+	holding = none
+}
+1358 = {
+	holding = none
+}
+1359 = {
+	holding = none
+}
+1360 = {
+	holding = none
+}
+1361 = {
+	holding = none
+}
+1362 = {
+	holding = none
+}
+1363 = {
+	holding = none
+}
+1364 = {
+	holding = none
+}
+1365 = {
+	holding = none
+}
+1366 = {
+	holding = none
+}
+1367 = {
+	holding = none
+}
+1368 = {
+	holding = none
+}
+1369 = {
+	holding = none
+}
+1370 = {
+	holding = none
+}
+1371 = {
+	holding = none
+}
+1372 = {
+	holding = none
+}
+1373 = {
+	holding = none
+}
+1374 = {
+	holding = none
+}
+1375 = {
+	holding = none
+}
+1376 = {
+	holding = none
+}
+1377 = {
+	holding = none
+}
+1378 = {
+	holding = none
+}
+1379 = {
+	culture = culture_R59G174B226
+	religion = faith_18_faith
+	holding = tribal_holding
+}
+1380 = {
+	holding = none
+}
+1381 = {
+	holding = none
+}
+1382 = {
+	holding = none
+}
+1383 = {
+	holding = none
+}
+1384 = {
+	holding = none
+}
+1385 = {
+	holding = none
+}
+1386 = {
+	holding = none
+}
+1387 = {
+	holding = none
+}
+1388 = {
+	holding = none
+}
+1389 = {
+	holding = none
+}
+1390 = {
+	culture = culture_nox_elden_ring
+	religion = night_faith
+	holding = castle_holding
+}
+1391 = {
+	holding = none
+}
+1392 = {
+	holding = none
+}
+1393 = {
+	holding = none
+}
+1394 = {
+	holding = none
+}
+1395 = {
+	holding = none
+}
+1396 = {
+	holding = none
+}
+1397 = {
+	holding = none
+}
+1398 = {
+	holding = none
+}
+1399 = {
+	holding = none
+}
+1400 = {
+	holding = none
+}
+1401 = {
+	holding = none
+}
+1402 = {
+	holding = none
+}
+1403 = {
+	holding = none
+}
+1404 = {
+	holding = none
+}
+1405 = {
+	holding = none
+}
+1406 = {
+	holding = none
+}
+1407 = {
+	holding = none
+}
+1408 = {
+	holding = none
+}
+1409 = {
+	holding = none
+}
+1410 = {
+	holding = none
+}
+1411 = {
+	holding = none
+}
+1412 = {
+	holding = none
+}
+1413 = {
+	holding = none
+}
+1414 = {
+	holding = none
+}
+1415 = {
+	holding = none
+}
+1416 = {
+	holding = none
+}
+1417 = {
+	holding = none
+}
+1418 = {
+	holding = none
+}
+1419 = {
+	holding = none
+}
+1420 = {
+	holding = none
+}
+1421 = {
+	culture = culture_weeping_peninsula_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+1422 = {
+	holding = none
+}
+1423 = {
+	holding = none
+}
+1424 = {
+	holding = none
+}
+1425 = {
+	holding = none
+}
+1426 = {
+	holding = none
+}
+1427 = {
+	holding = none
+}
+1428 = {
+	holding = none
+}
+1429 = {
+	holding = none
+}
+1430 = {
+	holding = none
+}
+1431 = {
+	holding = none
+}
+1432 = {
+	holding = none
+}
+1433 = {
+	holding = none
+}
+1434 = {
+	culture = culture_altus_elden_ring
+	religion = unalloyed_order
+	holding = castle_holding
+}
+1435 = {
+	holding = none
+}
+1436 = {
+	culture = culture_jagged_peak_elden_ring
+	religion = bayle_dragon_elden_ring
+	holding = castle_holding
+}
+1437 = {
+	culture = culture_altus_elden_ring
+	religion = death_prince_order
+	holding = castle_holding
+}
+1438 = {
+	holding = none
+}
+1439 = {
+	holding = none
+}
+1440 = {
+	holding = none
+}
+1441 = {
+	holding = none
+}
+1442 = {
+	holding = none
+}
+1443 = {
+	holding = none
+}
+1444 = {
+	holding = none
+}
+1445 = {
+	holding = none
+}
+1446 = {
+	holding = none
+}
+1447 = {
+	holding = none
+}
+1448 = {
+	holding = none
+}
+1449 = {
+	holding = none
+}
+1450 = {
+	holding = none
+}
+1451 = {
+	holding = none
+}
+1452 = {
+	holding = none
+}
+1453 = {
+	holding = none
+}
+1454 = {
+	holding = none
+}
+1455 = {
+	holding = none
+}
+1456 = {
+	holding = none
+}
+1457 = {
+	holding = none
+}
+1458 = {
+	holding = none
+}
+1459 = {
+	holding = none
+}
+1460 = {
+	holding = none
+}
+1461 = {
+	holding = none
+}
+1462 = {
+	culture = culture_limgrave_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+1463 = {
+	holding = none
+}
+1464 = {
+	holding = none
+}
+1465 = {
+	holding = none
+}
+1466 = {
+	holding = none
+}
+1467 = {
+	holding = none
+}
+1468 = {
+	holding = none
+}
+1469 = {
+	holding = none
+}
+1470 = {
+	holding = none
+}
+1471 = {
+	holding = none
+}
+1472 = {
+	holding = none
+}
+1473 = {
+	holding = none
+}
+1474 = {
+	holding = none
+}
+1475 = {
+	holding = none
+}
+1476 = {
+	culture = culture_farum_azula_elden_ring
+	religion = ancient_dragon_elden_ring
+	holding = tribal_holding
+}
+1477 = {
+	holding = none
+}
+1478 = {
+	holding = none
+}
+1479 = {
+	holding = none
+}
+1480 = {
+	holding = none
+}
+1481 = {
+	culture = culture_dragonbarrow_elden_ring
+	religion = ancient_dragon_elden_ring
+	holding = castle_holding
+}
+1482 = {
+	holding = none
+}
+1483 = {
+	holding = none
+}
+1484 = {
+	holding = none
+}
+1485 = {
+	holding = none
+}
+1486 = {
+	holding = none
+}
+1487 = {
+	holding = none
+}
+1488 = {
+	holding = none
+}
+1489 = {
+	holding = none
+}
+1490 = {
+	holding = none
+}
+1491 = {
+	holding = none
+}
+1492 = {
+	holding = none
+}
+1493 = {
+	holding = none
+}
+1494 = {
+	holding = none
+}
+1495 = {
+	holding = none
+}
+1496 = {
+	holding = none
+}
+1497 = {
+	holding = none
+}
+1498 = {
+	holding = none
+}
+1499 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+1500 = {
+	holding = none
+}
+1501 = {
+	holding = none
+}
+1502 = {
+	holding = none
+}
+1503 = {
+	holding = none
+}
+1504 = {
+	holding = none
+}
+1505 = {
+	holding = none
+}
+1506 = {
+	holding = none
+}
+1507 = {
+	holding = none
+}
+1508 = {
+	holding = none
+}
+1509 = {
+	holding = none
+}
+1510 = {
+	holding = none
+}
+1511 = {
+	holding = none
+}
+1512 = {
+	culture = culture_R26G167B227
+	religion = faith_11_faith
+	holding = tribal_holding
+}
+1513 = {
+	holding = none
+}
+1514 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+1515 = {
+	holding = none
+}
+1516 = {
+	holding = none
+}
+1517 = {
+	holding = none
+}
+1518 = {
+	holding = none
+}
+1519 = {
+	holding = none
+}
+1520 = {
+	holding = none
+}
+1521 = {
+	holding = none
+}
+1522 = {
+	holding = none
+}
+1523 = {
+	holding = none
+}
+1524 = {
+	holding = none
+}
+1525 = {
+	holding = none
+}
+1526 = {
+	holding = none
+}
+1527 = {
+	culture = culture_altus_elden_ring
+	religion = formless_order
+	holding = castle_holding
+}
+1528 = {
+	holding = none
+}
+1529 = {
+	holding = none
+}
+1530 = {
+	holding = none
+}
+1531 = {
+	holding = none
+}
+1532 = {
+	holding = none
+}
+1533 = {
+	holding = none
+}
+1534 = {
+	holding = none
+}
+1535 = {
+	holding = none
+}
+1536 = {
+	holding = none
+}
+1537 = {
+	holding = none
+}
+1538 = {
+	holding = none
+}
+1539 = {
+	holding = none
+}
+1540 = {
+	holding = none
+}
+1541 = {
+	holding = none
+}
+1542 = {
+	holding = none
+}
+1543 = {
+	holding = none
+}
+1544 = {
+	holding = none
+}
+1545 = {
+	holding = none
+}
+1546 = {
+	culture = culture_R110G97B115
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+1547 = {
+	holding = none
+}
+1548 = {
+	holding = none
+}
+1549 = {
+	holding = none
+}
+1550 = {
+	holding = none
+}
+1551 = {
+	holding = none
+}
+1552 = {
+	holding = none
+}
+1553 = {
+	holding = none
+}
+1554 = {
+	holding = none
+}
+1555 = {
+	holding = none
+}
+1556 = {
+	holding = none
+}
+1557 = {
+	holding = none
+}
+1558 = {
+	holding = none
+}
+1559 = {
+	holding = none
+}
+1560 = {
+	holding = none
+}
+1561 = {
+	holding = none
+}
+1562 = {
+	holding = none
+}
+1563 = {
+	holding = none
+}
+1564 = {
+	holding = none
+}
+1565 = {
+	holding = none
+}
+1566 = {
+	holding = none
+}
+1567 = {
+	holding = none
+}
+1568 = {
+	holding = none
+}
+1569 = {
+	holding = none
+}
+1570 = {
+	holding = none
+}
+1571 = {
+	holding = none
+}
+1572 = {
+	holding = none
+}
+1573 = {
+	holding = none
+}
+1574 = {
+	holding = none
+}
+1575 = {
+	holding = none
+}
+1576 = {
+	holding = none
+}
+1577 = {
+	holding = none
+}
+1578 = {
+	holding = none
+}
+1579 = {
+	holding = none
+}
+1580 = {
+	holding = none
+}
+1581 = {
+	holding = none
+}
+1582 = {
+	holding = none
+}
+1583 = {
+	holding = none
+}
+1584 = {
+	holding = none
+}
+1585 = {
+	holding = none
+}
+1586 = {
+	holding = none
+}
+1587 = {
+	holding = none
+}
+1588 = {
+	holding = none
+}
+1589 = {
+	holding = none
+}
+1590 = {
+	holding = none
+}
+1591 = {
+	holding = none
+}
+1592 = {
+	holding = none
+}
+1593 = {
+	holding = none
+}
+1594 = {
+	holding = none
+}
+1595 = {
+	holding = none
+}
+1596 = {
+	holding = none
+}
+1597 = {
+	holding = none
+}
+1598 = {
+	holding = none
+}
+1599 = {
+	holding = none
+}
+1600 = {
+	holding = none
+}
+1601 = {
+	holding = none
+}
+1602 = {
+	holding = none
+}
+1603 = {
+	holding = none
+}
+1604 = {
+	holding = none
+}
+1605 = {
+	holding = none
+}
+1606 = {
+	holding = none
+}
+1607 = {
+	holding = none
+}
+1608 = {
+	holding = none
+}
+1609 = {
+	holding = none
+}
+1610 = {
+	holding = none
+}
+1611 = {
+	holding = none
+}
+1612 = {
+	holding = none
+}
+1613 = {
+	holding = none
+}
+1614 = {
+	holding = none
+}
+1615 = {
+	holding = none
+}
+1616 = {
+	holding = none
+}
+1617 = {
+	holding = none
+}
+1618 = {
+	holding = none
+}
+1619 = {
+	holding = none
+}
+1620 = {
+	holding = none
+}
+1621 = {
+	holding = none
+}
+1622 = {
+	holding = none
+}
+1623 = {
+	culture = culture_R66G7B25
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+1624 = {
+	holding = none
+}
+1625 = {
+	holding = none
+}
+1626 = {
+	holding = none
+}
+1627 = {
+	culture = culture_R95G32B186
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+1628 = {
+	holding = none
+}
+1629 = {
+	holding = none
+}
+1630 = {
+	holding = none
+}
+1631 = {
+	holding = none
+}
+1632 = {
+	holding = none
+}
+1633 = {
+	holding = none
+}
+1634 = {
+	holding = none
+}
+1635 = {
+	holding = none
+}
+1636 = {
+	holding = none
+}
+1637 = {
+	holding = none
+}
+1638 = {
+	holding = none
+}
+1639 = {
+	holding = none
+}
+1640 = {
+	holding = none
+}
+1641 = {
+	culture = culture_altus_elden_ring
+	religion = formless_order
+	holding = castle_holding
+}
+1642 = {
+	holding = none
+}
+1643 = {
+	holding = none
+}
+1644 = {
+	holding = none
+}
+1645 = {
+	holding = none
+}
+1646 = {
+	holding = none
+}
+1647 = {
+	holding = none
+}
+1648 = {
+	holding = none
+}
+1649 = {
+	holding = none
+}
+1650 = {
+	holding = none
+}
+1651 = {
+	holding = none
+}
+1652 = {
+	holding = none
+}
+1653 = {
+	holding = none
+}
+1654 = {
+	holding = none
+}
+1655 = {
+	culture = culture_gelmir_elden_ring
+	religion = god_snake_order
+	holding = castle_holding
+}
+1656 = {
+	holding = none
+}
+1657 = {
+	holding = none
+}
+1658 = {
+	holding = none
+}
+1659 = {
+	holding = none
+}
+1660 = {
+	holding = none
+}
+1661 = {
+	holding = none
+}
+1662 = {
+	holding = none
+}
+1663 = {
+	holding = none
+}
+1664 = {
+	culture = culture_ancenstral_followers_elden_ring
+	religion = ancestor_spirit_order
+	holding = tribal_holding
+}
+1665 = {
+	holding = none
+}
+1666 = {
+	holding = none
+}
+1667 = {
+	holding = none
+}
+1668 = {
+	holding = none
+}
+1669 = {
+	holding = none
+}
+1670 = {
+	holding = none
+}
+1671 = {
+	holding = none
+}
+1672 = {
+	holding = none
+}
+1673 = {
+	holding = none
+}
+1674 = {
+	holding = none
+}
+1675 = {
+	holding = none
+}
+1676 = {
+	holding = none
+}
+1677 = {
+	culture = culture_R3G52B153
+	religion = faith_6_faith
+	holding = tribal_holding
+}
+1678 = {
+	holding = none
+}
+1679 = {
+	holding = none
+}
+1680 = {
+	holding = none
+}
+1681 = {
+	holding = none
+}
+1682 = {
+	holding = none
+}
+1683 = {
+	holding = none
+}
+1684 = {
+	holding = none
+}
+1685 = {
+	holding = none
+}
+1686 = {
+	holding = none
+}
+1687 = {
+	holding = none
+}
+1688 = {
+	holding = none
+}
+1689 = {
+	holding = none
+}
+1690 = {
+	holding = none
+}
+1691 = {
+	culture = culture_caelid_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+1692 = {
+	holding = none
+}
+1693 = {
+	holding = none
+}
+1694 = {
+	holding = none
+}
+1695 = {
+	holding = none
+}
+1696 = {
+	culture = culture_dragonbarrow_elden_ring
+	religion = ancient_dragon_elden_ring
+	holding = castle_holding
+}
+1697 = {
+	holding = none
+}
+1698 = {
+	holding = none
+}
+1699 = {
+	holding = none
+}
+1700 = {
+	holding = none
+}
+1701 = {
+	holding = none
+}
+1702 = {
+	holding = none
+}
+1703 = {
+	holding = none
+}
+1704 = {
+	holding = none
+}
+1705 = {
+	holding = none
+}
+1706 = {
+	holding = none
+}
+1707 = {
+	holding = none
+}
+1708 = {
+	holding = none
+}
+1709 = {
+	holding = none
+}
+1710 = {
+	holding = none
+}
+1711 = {
+	holding = none
+}
+1712 = {
+	holding = none
+}
+1713 = {
+	holding = none
+}
+1714 = {
+	holding = none
+}
+1715 = {
+	holding = none
+}
+1716 = {
+	holding = none
+}
+1717 = {
+	holding = none
+}
+1718 = {
+	holding = none
+}
+1719 = {
+	holding = none
+}
+1720 = {
+	holding = none
+}
+1721 = {
+	holding = none
+}
+1722 = {
+	holding = none
+}
+1723 = {
+	holding = none
+}
+1724 = {
+	holding = none
+}
+1725 = {
+	holding = none
+}
+1726 = {
+	holding = none
+}
+1727 = {
+	holding = none
+}
+1728 = {
+	holding = none
+}
+1729 = {
+	holding = none
+}
+1730 = {
+	holding = none
+}
+1731 = {
+	holding = none
+}
+1732 = {
+	holding = none
+}
+1733 = {
+	holding = none
+}
+1734 = {
+	holding = none
+}
+1735 = {
+	holding = none
+}
+1736 = {
+	holding = none
+}
+1737 = {
+	holding = none
+}
+1738 = {
+	holding = none
+}
+1739 = {
+	holding = none
+}
+1740 = {
+	culture = culture_zamor_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+1741 = {
+	holding = none
+}
+1742 = {
+	holding = none
+}
+1743 = {
+	holding = none
+}
+1744 = {
+	holding = none
+}
+1745 = {
+	holding = none
+}
+1746 = {
+	holding = none
+}
+1747 = {
+	holding = none
+}
+1748 = {
+	holding = none
+}
+1749 = {
+	holding = none
+}
+1750 = {
+	holding = none
+}
+1751 = {
+	holding = none
+}
+1752 = {
+	holding = none
+}
+1753 = {
+	holding = none
+}
+1754 = {
+	holding = none
+}
+1755 = {
+	holding = none
+}
+1756 = {
+	holding = none
+}
+1757 = {
+	holding = none
+}
+1758 = {
+	holding = none
+}
+1759 = {
+	holding = none
+}
+1760 = {
+	holding = none
+}
+1761 = {
+	holding = none
+}
+1762 = {
+	holding = none
+}
+1763 = {
+	holding = none
+}
+1764 = {
+	holding = none
+}
+1765 = {
+	holding = none
+}
+1766 = {
+	holding = none
+}
+1767 = {
+	holding = none
+}
+1768 = {
+	holding = none
+}
+1769 = {
+	holding = none
+}
+1770 = {
+	holding = none
+}
+1771 = {
+	holding = none
+}
+1772 = {
+	holding = none
+}
+1773 = {
+	holding = none
+}
+1774 = {
+	holding = none
+}
+1775 = {
+	holding = none
+}
+1776 = {
+	holding = none
+}
+1777 = {
+	holding = none
+}
+1778 = {
+	holding = none
+}
+1779 = {
+	holding = none
+}
+1780 = {
+	holding = none
+}
+1781 = {
+	holding = none
+}
+1782 = {
+	holding = none
+}
+1783 = {
+	holding = none
+}
+1784 = {
+	holding = none
+}
+1785 = {
+	holding = none
+}
+1786 = {
+	holding = none
+}
+1787 = {
+	holding = none
+}
+1788 = {
+	holding = none
+}
+1789 = {
+	holding = none
+}
+1790 = {
+	holding = none
+}
+1791 = {
+	holding = none
+}
+1792 = {
+	holding = none
+}
+1793 = {
+	holding = none
+}
+1794 = {
+	holding = none
+}
+1795 = {
+	holding = none
+}
+1796 = {
+	holding = none
+}
+1797 = {
+	holding = none
+}
+1798 = {
+	holding = none
+}
+1799 = {
+	holding = none
+}
+1800 = {
+	holding = none
+}
+1801 = {
+	holding = none
+}
+1802 = {
+	holding = none
+}
+1803 = {
+	holding = none
+}
+1804 = {
+	holding = none
+}
+1805 = {
+	holding = none
+}
+1806 = {
+	holding = none
+}
+1807 = {
+	holding = none
+}
+1808 = {
+	holding = none
+}
+1809 = {
+	holding = none
+}
+1810 = {
+	holding = none
+}
+1811 = {
+	holding = none
+}
+1812 = {
+	holding = none
+}
+1813 = {
+	holding = none
+}
+1814 = {
+	holding = none
+}
+1815 = {
+	holding = none
+}
+1816 = {
+	holding = none
+}
+1817 = {
+	holding = none
+}
+1818 = {
+	culture = culture_liurnia_elden_ring
+	religion = academy_elden_ring
+	holding = castle_holding
+}
+1819 = {
+	holding = none
+}
+1820 = {
+	holding = none
+}
+1821 = {
+	holding = none
+}
+1822 = {
+	holding = none
+}
+1823 = {
+	holding = none
+}
+1824 = {
+	holding = none
+}
+1825 = {
+	holding = none
+}
+1826 = {
+	holding = none
+}
+1827 = {
+	holding = none
+}
+1828 = {
+	holding = none
+}
+1829 = {
+	holding = none
+}
+1830 = {
+	culture = culture_nox_elden_ring
+	religion = night_faith
+	holding = castle_holding
+}
+1831 = {
+	holding = none
+}
+1832 = {
+	holding = none
+}
+1833 = {
+	holding = none
+}
+1834 = {
+	culture = culture_altus_elden_ring
+	religion = rot_order
+	holding = castle_holding
+}
+1835 = {
+	holding = none
+}
+1836 = {
+	holding = none
+}
+1837 = {
+	holding = none
+}
+1838 = {
+	holding = none
+}
+1839 = {
+	holding = none
+}
+1840 = {
+	holding = none
+}
+1841 = {
+	holding = none
+}
+1842 = {
+	holding = none
+}
+1843 = {
+	holding = none
+}
+1844 = {
+	holding = none
+}
+1845 = {
+	holding = none
+}
+1846 = {
+	holding = none
+}
+1847 = {
+	holding = none
+}
+1848 = {
+	holding = none
+}
+1849 = {
+	holding = none
+}
+1850 = {
+	holding = none
+}
+1851 = {
+	holding = none
+}
+1852 = {
+	holding = none
+}
+1853 = {
+	holding = none
+}
+1854 = {
+	holding = none
+}
+1855 = {
+	holding = none
+}
+1856 = {
+	holding = none
+}
+1857 = {
+	holding = none
+}
+1858 = {
+	holding = none
+}
+1859 = {
+	holding = none
+}
+1860 = {
+	holding = none
+}
+1861 = {
+	holding = none
+}
+1862 = {
+	holding = none
+}
+1863 = {
+	holding = none
+}
+1864 = {
+	holding = none
+}
+1865 = {
+	holding = none
+}
+1866 = {
+	holding = none
+}
+1867 = {
+	holding = none
+}
+1868 = {
+	holding = none
+}
+1869 = {
+	holding = none
+}
+1870 = {
+	holding = none
+}
+1871 = {
+	holding = none
+}
+1872 = {
+	holding = none
+}
+1873 = {
+	holding = none
+}
+1874 = {
+	holding = none
+}
+1875 = {
+	holding = none
+}
+1876 = {
+	holding = none
+}
+1877 = {
+	holding = none
+}
+1878 = {
+	holding = none
+}
+1879 = {
+	holding = none
+}
+1880 = {
+	holding = none
+}
+1881 = {
+	holding = none
+}
+1882 = {
+	holding = none
+}
+1883 = {
+	holding = none
+}
+1884 = {
+	holding = none
+}
+1885 = {
+	holding = none
+}
+1886 = {
+	holding = none
+}
+1887 = {
+	holding = none
+}
+1888 = {
+	holding = none
+}
+1889 = {
+	holding = none
+}
+1890 = {
+	holding = none
+}
+1891 = {
+	holding = none
+}
+1892 = {
+	holding = none
+}
+1893 = {
+	holding = none
+}
+1894 = {
+	holding = none
+}
+1895 = {
+	holding = none
+}
+1896 = {
+	holding = none
+}
+1897 = {
+	holding = none
+}
+1898 = {
+	holding = none
+}
+1899 = {
+	holding = none
+}
+1900 = {
+	holding = none
+}
+1901 = {
+	holding = none
+}
+1902 = {
+	holding = none
+}
+1903 = {
+	holding = none
+}
+1904 = {
+	holding = none
+}
+1905 = {
+	culture = culture_R37G163B212
+	religion = faith_0_faith
+	holding = tribal_holding
+}
+1906 = {
+	holding = none
+}
+1907 = {
+	holding = none
+}
+1908 = {
+	holding = none
+}
+1909 = {
+	holding = none
+}
+1910 = {
+	holding = none
+}
+1911 = {
+	holding = none
+}
+1912 = {
+	holding = none
+}
+1913 = {
+	holding = none
+}
+1914 = {
+	holding = none
+}
+1915 = {
+	holding = none
+}
+1916 = {
+	holding = none
+}
+1917 = {
+	holding = none
+}
+1918 = {
+	holding = none
+}
+1919 = {
+	holding = none
+}
+1920 = {
+	holding = none
+}
+1921 = {
+	holding = none
+}
+1922 = {
+	holding = none
+}
+1923 = {
+	holding = none
+}
+1924 = {
+	holding = none
+}
+1925 = {
+	holding = none
+}
+1926 = {
+	holding = none
+}
+1927 = {
+	holding = none
+}
+1928 = {
+	holding = none
+}
+1929 = {
+	holding = none
+}
+1930 = {
+	holding = none
+}
+1931 = {
+	holding = none
+}
+1932 = {
+	holding = none
+}
+1933 = {
+	holding = none
+}
+1934 = {
+	holding = none
+}
+1935 = {
+	holding = none
+}
+1936 = {
+	holding = none
+}
+1937 = {
+	holding = none
+}
+1938 = {
+	holding = none
+}
+1939 = {
+	holding = none
+}
+1940 = {
+	holding = none
+}
+1941 = {
+	holding = none
+}
+1942 = {
+	holding = none
+}
+1943 = {
+	holding = none
+}
+1944 = {
+	holding = none
+}
+1945 = {
+	holding = none
+}
+1946 = {
+	holding = none
+}
+1947 = {
+	holding = none
+}
+1948 = {
+	holding = none
+}
+1949 = {
+	holding = none
+}
+1950 = {
+	holding = none
+}
+1951 = {
+	holding = none
+}
+1952 = {
+	holding = none
+}
+1953 = {
+	holding = none
+}
+1954 = {
+	holding = none
+}
+1955 = {
+	holding = none
+}
+1956 = {
+	holding = none
+}
+1957 = {
+	holding = none
+}
+1958 = {
+	holding = none
+}
+1959 = {
+	culture = culture_R95G32B186
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+1960 = {
+	holding = none
+}
+1961 = {
+	holding = none
+}
+1962 = {
+	holding = none
+}
+1963 = {
+	holding = none
+}
+1964 = {
+	holding = none
+}
+1965 = {
+	holding = none
+}
+1966 = {
+	holding = none
+}
+1967 = {
+	holding = none
+}
+1968 = {
+	holding = none
+}
+1969 = {
+	holding = none
+}
+1970 = {
+	holding = none
+}
+1971 = {
+	holding = none
+}
+1972 = {
+	holding = none
+}
+1973 = {
+	holding = none
+}
+1974 = {
+	holding = none
+}
+1975 = {
+	holding = none
+}
+1976 = {
+	holding = none
+}
+1977 = {
+	holding = none
+}
+1978 = {
+	holding = none
+}
+1979 = {
+	holding = none
+}
+1980 = {
+	holding = none
+}
+1981 = {
+	holding = none
+}
+1982 = {
+	holding = none
+}
+1983 = {
+	holding = none
+}
+1984 = {
+	holding = none
+}
+1985 = {
+	holding = none
+}
+1986 = {
+	holding = none
+}
+1987 = {
+	holding = none
+}
+1988 = {
+	holding = none
+}
+1989 = {
+	holding = none
+}
+1990 = {
+	holding = none
+}
+1991 = {
+	culture = culture_ancenstral_followers_elden_ring
+	religion = ancestor_spirit_order
+	holding = tribal_holding
+}
+1992 = {
+	holding = none
+}
+1993 = {
+	holding = none
+}
+1994 = {
+	holding = none
+}
+1995 = {
+	holding = none
+}
+1996 = {
+	holding = none
+}
+1997 = {
+	holding = none
+}
+1998 = {
+	holding = none
+}
+1999 = {
+	holding = none
+}
+2000 = {
+	holding = none
+}
+2001 = {
+	holding = none
+}
+2002 = {
+	holding = none
+}
+2003 = {
+	holding = none
+}
+2004 = {
+	holding = none
+}
+2005 = {
+	holding = none
+}
+2006 = {
+	holding = none
+}
+2007 = {
+	holding = none
+}
+2008 = {
+	holding = none
+}
+2009 = {
+	holding = none
+}
+2010 = {
+	holding = none
+}
+2011 = {
+	holding = none
+}
+2012 = {
+	holding = none
+}
+2013 = {
+	holding = none
+}
+2014 = {
+	holding = none
+}
+2015 = {
+	holding = none
+}
+2016 = {
+	holding = none
+}
+2017 = {
+	holding = none
+}
+2018 = {
+	holding = none
+}
+2019 = {
+	holding = none
+}
+2020 = {
+	holding = none
+}
+2021 = {
+	culture = culture_R144G171B45
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+2022 = {
+	holding = none
+}
+2023 = {
+	holding = none
+}
+2024 = {
+	holding = none
+}
+2025 = {
+	holding = none
+}
+2026 = {
+	holding = none
+}
+2027 = {
+	holding = none
+}
+2028 = {
+	holding = none
+}
+2029 = {
+	holding = none
+}
+2030 = {
+	holding = none
+}
+2031 = {
+	holding = none
+}
+2032 = {
+	holding = none
+}
+2033 = {
+	holding = none
+}
+2034 = {
+	holding = none
+}
+2035 = {
+	holding = none
+}
+2036 = {
+	holding = none
+}
+2037 = {
+	holding = none
+}
+2038 = {
+	holding = none
+}
+2039 = {
+	holding = none
+}
+2040 = {
+	holding = none
+}
+2041 = {
+	holding = none
+}
+2042 = {
+	holding = none
+}
+2043 = {
+	holding = none
+}
+2044 = {
+	holding = none
+}
+2045 = {
+	holding = none
+}
+2046 = {
+	holding = none
+}
+2047 = {
+	holding = none
+}
+2048 = {
+	holding = none
+}
+2049 = {
+	culture = culture_R110G97B115
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+2050 = {
+	holding = none
+}
+2051 = {
+	holding = none
+}
+2052 = {
+	holding = none
+}
+2053 = {
+	holding = none
+}
+2054 = {
+	holding = none
+}
+2055 = {
+	holding = none
+}
+2056 = {
+	holding = none
+}
+2057 = {
+	holding = none
+}
+2058 = {
+	holding = none
+}
+2059 = {
+	holding = none
+}
+2060 = {
+	holding = none
+}
+2061 = {
+	holding = none
+}
+2062 = {
+	holding = none
+}
+2063 = {
+	holding = none
+}
+2064 = {
+	holding = none
+}
+2065 = {
+	holding = none
+}
+2066 = {
+	holding = none
+}
+2067 = {
+	holding = none
+}
+2068 = {
+	holding = none
+}
+2069 = {
+	holding = none
+}
+2070 = {
+	holding = none
+}
+2071 = {
+	holding = none
+}
+2072 = {
+	holding = none
+}
+2073 = {
+	holding = none
+}
+2074 = {
+	holding = none
+}
+2075 = {
+	holding = none
+}
+2076 = {
+	holding = none
+}
+2077 = {
+	holding = none
+}
+2078 = {
+	holding = none
+}
+2079 = {
+	holding = none
+}
+2080 = {
+	holding = none
+}
+2081 = {
+	holding = none
+}
+2082 = {
+	holding = none
+}
+2083 = {
+	holding = none
+}
+2084 = {
+	holding = none
+}
+2085 = {
+	holding = none
+}
+2086 = {
+	holding = none
+}
+2087 = {
+	holding = none
+}
+2088 = {
+	holding = none
+}
+2089 = {
+	holding = none
+}
+2090 = {
+	holding = none
+}
+2091 = {
+	holding = none
+}
+2092 = {
+	holding = none
+}
+2093 = {
+	holding = none
+}
+2094 = {
+	holding = none
+}
+2095 = {
+	holding = none
+}
+2096 = {
+	holding = none
+}
+2097 = {
+	holding = none
+}
+2098 = {
+	holding = none
+}
+2099 = {
+	holding = none
+}
+2100 = {
+	holding = none
+}
+2101 = {
+	holding = none
+}
+2102 = {
+	holding = none
+}
+2103 = {
+	holding = none
+}
+2104 = {
+	holding = none
+}
+2105 = {
+	holding = none
+}
+2106 = {
+	holding = none
+}
+2107 = {
+	holding = none
+}
+2108 = {
+	holding = none
+}
+2109 = {
+	holding = none
+}
+2110 = {
+	holding = none
+}
+2111 = {
+	holding = none
+}
+2112 = {
+	holding = none
+}
+2113 = {
+	holding = none
+}
+2114 = {
+	holding = none
+}
+2115 = {
+	holding = none
+}
+2116 = {
+	holding = none
+}
+2117 = {
+	holding = none
+}
+2118 = {
+	holding = none
+}
+2119 = {
+	holding = none
+}
+2120 = {
+	holding = none
+}
+2121 = {
+	holding = none
+}
+2122 = {
+	holding = none
+}
+2123 = {
+	culture = culture_altus_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+2124 = {
+	holding = none
+}
+2125 = {
+	holding = none
+}
+2126 = {
+	holding = none
+}
+2127 = {
+	holding = none
+}
+2128 = {
+	holding = none
+}
+2129 = {
+	holding = none
+}
+2130 = {
+	holding = none
+}
+2131 = {
+	holding = none
+}
+2132 = {
+	holding = none
+}
+2133 = {
+	holding = none
+}
+2134 = {
+	holding = none
+}
+2135 = {
+	holding = none
+}
+2136 = {
+	holding = none
+}
+2137 = {
+	holding = none
+}
+2138 = {
+	holding = none
+}
+2139 = {
+	holding = none
+}
+2140 = {
+	holding = none
+}
+2141 = {
+	holding = none
+}
+2142 = {
+	holding = none
+}
+2143 = {
+	holding = none
+}
+2144 = {
+	holding = none
+}
+2145 = {
+	holding = none
+}
+2146 = {
+	holding = none
+}
+2147 = {
+	holding = none
+}
+2148 = {
+	holding = none
+}
+2149 = {
+	holding = none
+}
+2150 = {
+	holding = none
+}
+2151 = {
+	holding = none
+}
+2152 = {
+	holding = none
+}
+2153 = {
+	holding = none
+}
+2154 = {
+	holding = none
+}
+2155 = {
+	holding = none
+}
+2156 = {
+	culture = culture_limgrave_elden_ring
+	religion = death_prince_order
+	holding = castle_holding
+}
+2157 = {
+	holding = none
+}
+2158 = {
+	holding = none
+}
+2159 = {
+	holding = none
+}
+2160 = {
+	holding = none
+}
+2161 = {
+	holding = none
+}
+2162 = {
+	holding = none
+}
+2163 = {
+	holding = none
+}
+2164 = {
+	holding = none
+}
+2165 = {
+	holding = none
+}
+2166 = {
+	holding = none
+}
+2167 = {
+	holding = none
+}
+2168 = {
+	holding = none
+}
+2169 = {
+	holding = none
+}
+2170 = {
+	holding = none
+}
+2171 = {
+	holding = none
+}
+2172 = {
+	holding = none
+}
+2173 = {
+	holding = none
+}
+2174 = {
+	holding = none
+}
+2175 = {
+	holding = none
+}
+2176 = {
+	holding = none
+}
+2177 = {
+	holding = none
+}
+2178 = {
+	holding = none
+}
+2179 = {
+	holding = none
+}
+2180 = {
+	holding = none
+}
+2181 = {
+	holding = none
+}
+2182 = {
+	holding = none
+}
+2183 = {
+	holding = none
+}
+2184 = {
+	holding = none
+}
+2185 = {
+	holding = none
+}
+2186 = {
+	holding = none
+}
+2187 = {
+	holding = none
+}
+2188 = {
+	holding = none
+}
+2189 = {
+	holding = none
+}
+2190 = {
+	holding = none
+}
+2191 = {
+	holding = none
+}
+2192 = {
+	holding = none
+}
+2193 = {
+	holding = none
+}
+2194 = {
+	holding = none
+}
+2195 = {
+	holding = none
+}
+2196 = {
+	holding = none
+}
+2197 = {
+	holding = none
+}
+2198 = {
+	holding = none
+}
+2199 = {
+	holding = none
+}
+2200 = {
+	holding = none
+}
+2201 = {
+	holding = none
+}
+2202 = {
+	holding = none
+}
+2203 = {
+	holding = none
+}
+2204 = {
+	holding = none
+}
+2205 = {
+	holding = none
+}
+2206 = {
+	holding = none
+}
+2207 = {
+	holding = none
+}
+2208 = {
+	holding = none
+}
+2209 = {
+	holding = none
+}
+2210 = {
+	holding = none
+}
+2211 = {
+	holding = none
+}
+2212 = {
+	holding = none
+}
+2213 = {
+	holding = none
+}
+2214 = {
+	holding = none
+}
+2215 = {
+	holding = none
+}
+2216 = {
+	holding = none
+}
+2217 = {
+	holding = none
+}
+2218 = {
+	holding = none
+}
+2219 = {
+	holding = none
+}
+2220 = {
+	holding = none
+}
+2221 = {
+	holding = none
+}
+2222 = {
+	holding = none
+}
+2223 = {
+	holding = none
+}
+2224 = {
+	holding = none
+}
+2225 = {
+	holding = none
+}
+2226 = {
+	holding = none
+}
+2227 = {
+	holding = none
+}
+2228 = {
+	holding = none
+}
+2229 = {
+	holding = none
+}
+2230 = {
+	holding = none
+}
+2231 = {
+	holding = none
+}
+2232 = {
+	holding = none
+}
+2233 = {
+	holding = none
+}
+2234 = {
+	holding = none
+}
+2235 = {
+	holding = none
+}
+2236 = {
+	holding = none
+}
+2237 = {
+	holding = none
+}
+2238 = {
+	holding = none
+}
+2239 = {
+	holding = none
+}
+2240 = {
+	holding = none
+}
+2241 = {
+	holding = none
+}
+2242 = {
+	holding = none
+}
+2243 = {
+	holding = none
+}
+2244 = {
+	holding = none
+}
+2245 = {
+	holding = none
+}
+2246 = {
+	holding = none
+}
+2247 = {
+	holding = none
+}
+2248 = {
+	holding = none
+}
+2249 = {
+	holding = none
+}
+2250 = {
+	holding = none
+}
+2251 = {
+	holding = none
+}
+2252 = {
+	holding = none
+}
+2253 = {
+	holding = none
+}
+2254 = {
+	holding = none
+}
+2255 = {
+	holding = none
+}
+2256 = {
+	holding = none
+}
+2257 = {
+	holding = none
+}
+2258 = {
+	holding = none
+}
+2259 = {
+	holding = none
+}
+2260 = {
+	holding = none
+}
+2261 = {
+	holding = none
+}
+2262 = {
+	holding = none
+}
+2263 = {
+	holding = none
+}
+2264 = {
+	holding = none
+}
+2265 = {
+	culture = culture_northerner_elden_ring
+	religion = death_prince_order
+	holding = castle_holding
+}
+2266 = {
+	holding = none
+}
+2267 = {
+	holding = none
+}
+2268 = {
+	holding = none
+}
+2269 = {
+	holding = none
+}
+2270 = {
+	holding = none
+}
+2271 = {
+	holding = none
+}
+2272 = {
+	holding = none
+}
+2273 = {
+	holding = none
+}
+2274 = {
+	holding = none
+}
+2275 = {
+	holding = none
+}
+2276 = {
+	holding = none
+}
+2277 = {
+	holding = none
+}
+2278 = {
+	holding = none
+}
+2279 = {
+	holding = none
+}
+2280 = {
+	holding = none
+}
+2281 = {
+	holding = none
+}
+2282 = {
+	holding = none
+}
+2283 = {
+	holding = none
+}
+2284 = {
+	holding = none
+}
+2285 = {
+	holding = none
+}
+2286 = {
+	holding = none
+}
+2287 = {
+	holding = none
+}
+2288 = {
+	holding = none
+}
+2289 = {
+	holding = none
+}
+2290 = {
+	holding = none
+}
+2291 = {
+	holding = none
+}
+2292 = {
+	holding = none
+}
+2293 = {
+	holding = none
+}
+2294 = {
+	holding = none
+}
+2295 = {
+	holding = none
+}
+2296 = {
+	holding = none
+}
+2297 = {
+	holding = none
+}
+2298 = {
+	holding = none
+}
+2299 = {
+	holding = none
+}
+2300 = {
+	holding = none
+}
+2301 = {
+	holding = none
+}
+2302 = {
+	holding = none
+}
+2303 = {
+	holding = none
+}
+2304 = {
+	holding = none
+}
+2305 = {
+	holding = none
+}
+2306 = {
+	holding = none
+}
+2307 = {
+	holding = none
+}
+2308 = {
+	holding = none
+}
+2309 = {
+	holding = none
+}
+2310 = {
+	holding = none
+}
+2311 = {
+	holding = none
+}
+2312 = {
+	holding = none
+}
+2313 = {
+	holding = none
+}
+2314 = {
+	holding = none
+}
+2315 = {
+	holding = none
+}
+2316 = {
+	holding = none
+}
+2317 = {
+	holding = none
+}
+2318 = {
+	holding = none
+}
+2319 = {
+	holding = none
+}
+2320 = {
+	holding = none
+}
+2321 = {
+	holding = none
+}
+2322 = {
+	holding = none
+}
+2323 = {
+	holding = none
+}
+2324 = {
+	culture = culture_R135G232B15
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+2325 = {
+	holding = none
+}
+2326 = {
+	holding = none
+}
+2327 = {
+	holding = none
+}
+2328 = {
+	holding = none
+}
+2329 = {
+	holding = none
+}
+2330 = {
+	holding = none
+}
+2331 = {
+	holding = none
+}
+2332 = {
+	holding = none
+}
+2333 = {
+	holding = none
+}
+2334 = {
+	holding = none
+}
+2335 = {
+	holding = none
+}
+2336 = {
+	holding = none
+}
+2337 = {
+	culture = culture_nox_elden_ring
+	religion = night_faith
+	holding = castle_holding
+}
+2338 = {
+	holding = none
+}
+2339 = {
+	holding = none
+}
+2340 = {
+	holding = none
+}
+2341 = {
+	holding = none
+}
+2342 = {
+	holding = none
+}
+2343 = {
+	holding = none
+}
+2344 = {
+	holding = none
+}
+2345 = {
+	holding = none
+}
+2346 = {
+	holding = none
+}
+2347 = {
+	holding = none
+}
+2348 = {
+	holding = none
+}
+2349 = {
+	holding = none
+}
+2350 = {
+	holding = none
+}
+2351 = {
+	holding = none
+}
+2352 = {
+	holding = none
+}
+2353 = {
+	holding = none
+}
+2354 = {
+	holding = none
+}
+2355 = {
+	holding = none
+}
+2356 = {
+	holding = none
+}
+2357 = {
+	holding = none
+}
+2358 = {
+	holding = none
+}
+2359 = {
+	holding = none
+}
+2360 = {
+	holding = none
+}
+2361 = {
+	holding = none
+}
+2362 = {
+	holding = none
+}
+2363 = {
+	holding = none
+}
+2364 = {
+	holding = none
+}
+2365 = {
+	holding = none
+}
+2366 = {
+	holding = none
+}
+2367 = {
+	holding = none
+}
+2368 = {
+	holding = none
+}
+2369 = {
+	holding = none
+}
+2370 = {
+	holding = none
+}
+2371 = {
+	holding = none
+}
+2372 = {
+	holding = none
+}
+2373 = {
+	holding = none
+}
+2374 = {
+	holding = none
+}
+2375 = {
+	holding = none
+}
+2376 = {
+	holding = none
+}
+2377 = {
+	holding = none
+}
+2378 = {
+	holding = none
+}
+2379 = {
+	holding = none
+}
+2380 = {
+	holding = none
+}
+2381 = {
+	holding = none
+}
+2382 = {
+	holding = none
+}
+2383 = {
+	holding = none
+}
+2384 = {
+	holding = none
+}
+2385 = {
+	holding = none
+}
+2386 = {
+	holding = none
+}
+2387 = {
+	holding = none
+}
+2388 = {
+	holding = none
+}
+2389 = {
+	holding = none
+}
+2390 = {
+	holding = none
+}
+2391 = {
+	holding = none
+}
+2392 = {
+	holding = none
+}
+2393 = {
+	holding = none
+}
+2394 = {
+	holding = none
+}
+2395 = {
+	holding = none
+}
+2396 = {
+	holding = none
+}
+2397 = {
+	holding = none
+}
+2398 = {
+	holding = none
+}
+2399 = {
+	holding = none
+}
+2400 = {
+	holding = none
+}
+2401 = {
+	holding = none
+}
+2402 = {
+	holding = none
+}
+2403 = {
+	holding = none
+}
+2404 = {
+	holding = none
+}
+2405 = {
+	holding = none
+}
+2406 = {
+	holding = none
+}
+2407 = {
+	holding = none
+}
+2408 = {
+	holding = none
+}
+2409 = {
+	holding = none
+}
+2410 = {
+	holding = none
+}
+2411 = {
+	holding = none
+}
+2412 = {
+	holding = none
+}
+2413 = {
+	holding = none
+}
+2414 = {
+	holding = none
+}
+2415 = {
+	holding = none
+}
+2416 = {
+	holding = none
+}
+2417 = {
+	holding = none
+}
+2418 = {
+	holding = none
+}
+2419 = {
+	holding = none
+}
+2420 = {
+	holding = none
+}
+2421 = {
+	holding = none
+}
+2422 = {
+	holding = none
+}
+2423 = {
+	holding = none
+}
+2424 = {
+	holding = none
+}
+2425 = {
+	culture = culture_dragonbarrow_elden_ring
+	religion = golden_order
+	holding = castle_holding
+}
+2426 = {
+	holding = none
+}
+2427 = {
+	holding = none
+}
+2428 = {
+	holding = none
+}
+2429 = {
+	holding = none
+}
+2430 = {
+	holding = none
+}
+2431 = {
+	holding = none
+}
+2432 = {
+	holding = none
+}
+2433 = {
+	holding = none
+}
+2434 = {
+	holding = none
+}
+2435 = {
+	holding = none
+}
+2436 = {
+	holding = none
+}
+2437 = {
+	holding = none
+}
+2438 = {
+	holding = none
+}
+2439 = {
+	holding = none
+}
+2440 = {
+	holding = none
+}
+2441 = {
+	holding = none
+}
+2442 = {
+	holding = none
+}
+2443 = {
+	holding = none
+}
+2444 = {
+	holding = none
+}
+2445 = {
+	holding = none
+}
+2446 = {
+	holding = none
+}
+2447 = {
+	holding = none
+}
+2448 = {
+	holding = none
+}
+2449 = {
+	holding = none
+}
+2450 = {
+	holding = none
+}
+2451 = {
+	holding = none
+}
+2452 = {
+	holding = none
+}
+2453 = {
+	holding = none
+}
+2454 = {
+	holding = none
+}
+2455 = {
+	holding = none
+}
+2456 = {
+	culture = culture_R37G163B212
+	religion = faith_0_faith
+	holding = tribal_holding
+}
+2457 = {
+	holding = none
+}
+2458 = {
+	holding = none
+}
+2459 = {
+	holding = none
+}
+2460 = {
+	holding = none
+}
+2461 = {
+	holding = none
+}
+2462 = {
+	holding = none
+}
+2463 = {
+	holding = none
+}
+2464 = {
+	holding = none
+}
+2465 = {
+	holding = none
+}
+2466 = {
+	holding = none
+}
+2467 = {
+	holding = none
+}
+2468 = {
+	holding = none
+}
+2469 = {
+	holding = none
+}
+2470 = {
+	holding = none
+}
+2471 = {
+	holding = none
+}
+2472 = {
+	holding = none
+}
+2473 = {
+	culture = culture_altus_elden_ring
+	religion = death_prince_order
+	holding = castle_holding
+}
+2474 = {
+	holding = none
+}
+2475 = {
+	holding = none
+}
+2476 = {
+	holding = none
+}
+2477 = {
+	holding = none
+}
+2478 = {
+	holding = none
+}
+2479 = {
+	holding = none
+}
+2480 = {
+	holding = none
+}
+2481 = {
+	holding = none
+}
+2482 = {
+	holding = none
+}
+2483 = {
+	holding = none
+}
+2484 = {
+	culture = culture_R155G183B232
+	religion = faith_4_faith
+	holding = tribal_holding
+}
+2485 = {
+	holding = none
+}
+2486 = {
+	holding = none
+}
+2487 = {
+	culture = culture_R242G123B24
+	religion = faith_2_faith
+	holding = tribal_holding
+}
+2488 = {
+	holding = none
+}
+2489 = {
+	holding = none
+}
+2490 = {
+	holding = none
+}
+2491 = {
+	holding = none
+}
+2492 = {
+	holding = none
+}
+2493 = {
+	holding = none
+}
+2494 = {
+	holding = none
+}
+2495 = {
+	holding = none
+}

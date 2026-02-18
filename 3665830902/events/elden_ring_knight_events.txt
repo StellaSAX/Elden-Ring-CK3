@@ -1,0 +1,619 @@
+﻿namespace = elden_ring_knight_events
+
+
+elden_ring_knight_events.0001 = { #become a knight
+
+	type = character_event
+	desc = elden_ring_knight_events.0001.desc
+	title = elden_ring_knight_events.0001.title
+	theme = war
+
+	left_portrait = {
+		character = ROOT 
+		animation = marshal 
+	}
+	
+	option = { # become golden_knight
+		name = elden_ring_knight_events.0001.a
+		trigger = {
+			OR = {
+				has_trait = order_affinity
+				has_trait = lightning_affinity
+				has_trait = diligent
+				has_trait = stubborn
+			}
+		}
+		add_trait = golden_knight
+		ai_chance = {
+			base = 50 
+			modifier = {  
+				add = 100
+				OR = {
+					has_trait = order_affinity
+					has_trait = lightning_affinity
+				}
+			}
+			modifier = {
+				add = 20 
+				has_trait = diligent
+			}
+			modifier = {
+				add = 20 
+				has_trait = gregarious
+			}
+			modifier = {
+				add = 20 
+				has_trait = honest
+			}
+			modifier = {
+				add = 20 
+				has_trait = just
+			}
+			modifier = {
+				add = 20 
+				has_trait = stubborn
+			}
+			modifier = {
+				add = -40 
+				has_trait = craven
+			}
+		}
+	}
+	option = { # become mounted_knight
+		name = elden_ring_knight_events.0001.b
+		trigger = {
+			OR = {
+				martial >= 15
+				has_trait = brave
+				has_trait = wrathful
+				has_trait = diligent
+			}	
+		}
+		add_trait = mounted_knight
+		ai_chance = {
+			base = 50 
+			modifier = {  
+				add = 20
+				has_trait = brave
+			}
+			modifier = {  
+				add = 20
+				has_trait = greedy
+			}
+			modifier = {  
+				add = 20
+				has_trait = fickle
+			}
+			modifier = {  
+				add = 20
+				has_trait = wrathful
+			}
+			modifier = {  
+				add = 20
+				has_trait = impatient
+			}
+			modifier = {
+				add = -40 
+				has_trait = craven
+			}
+		}
+	}
+	option = { # become crucible_knight
+		name = elden_ring_knight_events.0001.c
+		trigger = {
+			OR = {
+				has_trait = crucible_affinity
+				has_trait = misbegotten_trait
+				has_trait = omen_horn_trait
+				has_trait = omen_no_horn_trait
+				has_trait = diligent
+			}
+		}
+		add_trait = crucible_knight
+		ai_chance = {
+			base = 50 
+			modifier = {  
+				add = 100
+				has_trait = crucible_affinity
+			}
+			modifier = {  
+				add = 30
+				has_trait = misbegotten_trait
+			}
+			modifier = {  
+				add = 30
+				has_trait = omen_horn_trait
+			}
+			modifier = {  
+				add = 30
+				has_trait = omen_no_horn_trait
+			}
+			modifier = {  
+				add = 30
+				has_trait = wrathful
+			}
+			modifier = {  
+				add = 30
+				has_trait = humble
+			}
+			modifier = {  
+				add = 30
+				has_trait = gluttonous
+			}
+			modifier = {  
+				add = 30
+				has_trait = zealous
+			}
+			modifier = {
+				add = -40 
+				has_trait = craven
+			}
+		}
+	}
+	option = { # become mausoleum_knight
+		name = elden_ring_knight_events.0001.d
+		trigger = {
+			OR = {
+				has_trait = death_affinity
+				health <= 1
+			}			
+		}
+		add_trait = mausoleum_knight
+		ai_chance = {
+			base = 50 
+			modifier = {  
+				add = 100
+				has_trait = death_affinity
+			}
+			modifier = {  
+				add = 20
+				has_trait = trusting
+			}
+			modifier = {  
+				add = 20
+				has_trait = temperate
+			}
+			modifier = {  
+				add = 20
+				has_trait = patient
+			}
+			modifier = {  
+				add = 20
+				has_trait = humble
+			}
+			modifier = {  
+				add = 20
+				has_trait = vengeful
+			}
+			modifier = {  
+				add = 20
+				has_trait = content
+			}
+			modifier = {  
+				add = 20
+				has_trait = chaste
+			}
+			modifier = {
+				add = -40 
+				has_trait = craven
+			}
+		}
+	}
+	option = { # become sorcerous_knight
+		name = elden_ring_knight_events.0001.e
+		trigger = {
+			OR = {
+				has_trait = glintstone_affinity
+				has_trait = gravity_affinity 
+				learning >= 15
+			}
+		}
+		add_trait = sorcerous_knight
+		ai_chance = {
+			base = 50 
+			modifier = {  
+				add = 100
+				has_trait = glintstone_affinity
+			}
+			modifier = {  
+				add = 20
+				has_trait = gravity_affinity
+			}
+			modifier = {  
+				add = 20
+				scope:ROOT = { learning >= 15 }
+			}
+			modifier = {  
+				add = 20
+				has_trait = calm
+			}
+			modifier = {  
+				add = 20
+				has_trait = patient
+			}
+			modifier = {  
+				add = 20
+				has_trait = cynical
+			}
+			modifier = {  
+				add = 20
+				has_trait = fickle
+			}
+			modifier = {
+				add = -40 
+				has_trait = craven
+			}
+		}
+	}
+	option = { # become bloodhound_knight
+		name = elden_ring_knight_events.0001.f
+		trigger = {
+			OR = {
+				has_trait = lifestyle_hunter
+				martial >= 15
+			}
+		}
+		add_trait = bloodhound_knight
+		ai_chance = {
+			base = 50 
+			modifier = {  
+				add = 20
+				has_trait = lifestyle_hunter
+			}
+			modifier = {  
+				add = 20
+				has_trait = wrathful
+			}		
+			modifier = {  
+				add = 20
+				has_trait = vengeful
+			}		
+			modifier = {  
+				add = 20
+				has_trait = arbitrary
+			}
+			modifier = {  
+				add = 20
+				has_trait = impatient
+			}
+			modifier = {  
+				add = 20
+				has_trait = paranoid
+			}
+			modifier = {  
+				add = 20
+				has_trait = sadistic
+			}
+			modifier = {
+				add = -40 
+				has_trait = craven
+			}
+		}
+	}
+	option = { # become rot_knight
+		name = elden_ring_knight_events.0001.h
+		trigger = {
+			OR = {
+				has_trait = rot_affinity
+				has_any_debilitating_illness = yes
+			}
+		}
+		add_trait = rot_knight
+		ai_chance = {
+			base = 50 
+			modifier = {  
+				add = 100
+				has_trait = rot_affinity
+			}
+			modifier = {  
+				add = 20
+				has_trait = trusting
+			}
+			modifier = {  
+				add = 20
+				has_trait = honest
+			}
+			modifier = {  
+				add = 20
+				has_trait = shy
+			}
+			modifier = {  
+				add = 20
+				has_trait = content
+			}
+			modifier = {
+				add = -40 
+				has_trait = craven
+			}
+		}
+	}
+	option = { # become frenzied_knight
+		name = elden_ring_knight_events.0001.j
+		trigger = {
+			OR = {
+				has_trait = frenzy_affinity
+				has_trait = lunatic_1
+				has_trait = lunatic_genetic
+				has_trait = possessed_1
+				has_trait = possessed_genetic
+			}
+		}
+		add_trait = frenzied_knight
+		ai_chance = {
+			base = 50 
+			modifier = {  
+				add = 100
+				has_trait = frenzy_affinity
+			}
+			modifier = {  
+				add = 20
+				has_trait = lunatic_1
+			}
+			modifier = {  
+				add = 20
+				has_trait = lunatic_genetic
+			}
+			modifier = {  
+				add = 20
+				has_trait = wrathful
+			}
+			modifier = {  
+				add = 20
+				has_trait = arbitrary
+			}
+			modifier = {  
+				add = 20
+				has_trait = impatient
+			}
+			modifier = {  
+				add = 20
+				has_trait = zealous
+			}
+			modifier = {  
+				add = 20
+				has_trait = callous
+			}
+			modifier = {
+				add = -40 
+				has_trait = craven
+			}
+		}
+	}
+	option = { # become cuckoo_knight
+		name = elden_ring_knight_events.0001.k
+		trigger = {
+			AND = {
+				learning >= 15
+				OR = {
+					has_trait = diligent
+					has_trait = ambitious
+					has_trait = impatient
+				}	
+			}
+		}
+		add_trait = cuckoo_knight
+		ai_chance = {
+			base = 50 
+			modifier = {  
+				add = 20
+				learning >= 15
+			}
+			modifier = {  
+				add = 20
+				has_trait = ambitious
+			}
+			modifier = {  
+				add = 20
+				has_trait = greedy
+			}
+			modifier = {  
+				add = 20
+				has_trait = cynical
+			}
+			modifier = {  
+				add = 20
+				has_trait = impatient
+			}
+			modifier = {  
+				add = 20
+				has_trait = arrogant
+			}
+			modifier = {
+				add = -40 
+				has_trait = craven
+			}
+		}
+	}
+	option = { # become drake_knight
+		name = elden_ring_knight_events.0001.l
+		trigger = {
+			OR = {
+				has_trait = dragon_affinity
+				has_trait = brave
+				has_trait = ambitious
+			}
+		}
+		add_trait = drake_knight
+		ai_chance = {
+			base = 50 
+			modifier = {  
+				add = 100
+				has_trait = dragon_affinity
+			}
+			modifier = {  
+				add = 20
+				has_trait = ambitious
+			}
+			modifier = {  
+				add = 20
+				has_trait = lazy
+			}
+			modifier = {  
+				add = 20
+				has_trait = greedy
+			}
+			modifier = {  
+				add = 20
+				has_trait = lustful
+			}
+			modifier = {  
+				add = 20
+				has_trait = wrathful
+			}
+			modifier = {  
+				add = 20
+				has_trait = impatient
+			}
+			modifier = {  
+				add = 20
+				has_trait = gluttonous
+			}
+			modifier = {
+				add = -40 
+				has_trait = craven
+			}
+		}
+	}
+	option = { # become death_knight
+		name = elden_ring_knight_events.0001.m
+		trigger = {
+			OR = {
+				has_trait = death_affinity
+				has_trait = diligent
+			}
+			
+		}
+		add_trait = death_knight
+		ai_chance = {
+			base = 50 
+			modifier = {  
+				add = 100
+				has_trait = death_affinity
+			}
+			modifier = {  
+				add = 20
+				has_trait = calm
+			}
+			modifier = {  
+				add = 20
+				has_trait = ambitious
+			}
+			modifier = {  
+				add = 20
+				has_trait = shy
+			}
+			modifier = {  
+				add = 20
+				has_trait = arbitrary
+			}
+			modifier = {  
+				add = 20
+				has_trait = patient
+			}
+			modifier = {  
+				add = 20
+				has_trait = temperate
+			}
+			modifier = {  
+				add = 20
+				has_trait = paranoid
+			}
+			modifier = {
+				add = -40 
+				has_trait = craven
+			}
+		}
+	}
+	option = { # become ice_knight
+		name = elden_ring_knight_events.0001.n
+		trigger = {
+			OR = {
+				has_trait = ice_affinity
+				has_trait = calm
+				has_trait = diligent
+			}
+			
+		}
+		add_trait = ice_knight
+		ai_chance = {
+			base = 50 
+			modifier = {  
+				add = 100
+				has_trait = ice_affinity
+			}
+			modifier = {  
+				add = 20
+				has_trait = calm
+			}
+			modifier = {  
+				add = 20
+				has_trait = patient
+			}
+			modifier = {  
+				add = 20
+				has_trait = temperate
+			}
+			modifier = {  
+				add = 20
+				has_trait = fickle
+			}
+			modifier = {  
+				add = 20
+				has_trait = content
+			}
+			modifier = {
+				add = -40 
+				has_trait = craven
+			}
+		}
+	}
+	option = { # become horned warrior
+		name = elden_ring_knight_events.0001.o
+		trigger = {
+			has_trait = spiral_affinity
+		}
+		add_trait = horned_warrior
+		ai_chance = {
+			base = 50 
+			modifier = {  
+				add = 100
+				has_trait = spiral_affinity
+			}
+			modifier = {  
+				add = 20
+				has_trait = arbitrary
+			}
+			modifier = {  
+				add = 20
+				has_trait = vengeful
+			}
+			modifier = {  
+				add = 20
+				has_trait = wrathful
+			}
+			modifier = {  
+				add = 20
+				has_trait = zealous
+			}
+			modifier = {
+				add = -40 
+				has_trait = craven
+			}
+		}
+	}
+	
+	option = { # nah, i am good dawg
+	name = elden_ring_knight_events.0001.i
+		ai_chance = {
+			base = 10 
+			modifier = {
+				add = 100 
+				has_trait = craven
+			}
+			modifier = {
+				add = 100 
+				has_trait = lazy
+			}
+		}
+	}
+}

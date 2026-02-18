@@ -1,0 +1,272 @@
+﻿#ERDTREE
+erdtree_elden_ring_01 = {
+	construction_time = slow_construction_time
+
+	can_construct = {
+		scope:holder = { 
+			OR = {
+				has_trait = god_elden_ring
+				has_trait = demigod_elden_ring
+				has_trait = empyrean_elden_ring
+			}	
+		}
+		
+	}
+
+	is_enabled = {
+		scope:holder = { 
+			OR = {
+				has_trait = god_elden_ring
+				has_trait = demigod_elden_ring
+				has_trait = empyrean_elden_ring
+			}
+		}
+	}
+
+	cost = {
+		gold = 1000
+	}
+	
+	character_modifier = {
+		knight_limit = 5
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	duchy_capital_county_modifier = {
+		monthly_county_control_growth_factor = 0.05
+		county_opinion_add = 5
+		tax_mult = 0.15
+	}
+
+	type_icon = "duchy_erdtree.dds"
+	next_building = erdtree_elden_ring_02 
+
+	type = duchy_capital
+
+	ai_value = {
+		base = 20
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+		modifier = { # Fill all building slots before going for duchy buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+}
+
+erdtree_elden_ring_02 = {
+	construction_time = slow_construction_time
+
+	can_construct = {
+		scope:holder = {
+			has_trait = demigod_elden_ring	
+		}
+	}
+
+	is_enabled = {
+		scope:holder = { 
+			OR = {
+				has_trait = god_elden_ring
+				has_trait = demigod_elden_ring
+				has_trait = empyrean_elden_ring
+			}
+		}
+	}
+	
+	cost = {
+		gold = 3000
+	}
+	
+	character_modifier = {
+		knight_limit = 10
+		knight_effectiveness_mult = 0.5
+		negate_health_penalty_add = 0.5
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	duchy_capital_county_modifier = {
+		monthly_county_control_growth_factor = 0.1
+		county_opinion_add = 20
+		epidemic_resistance = 20
+		hostile_raid_time = 0.5
+		defender_holding_advantage = 5
+		tax_mult = 0.15
+	}
+
+	type_icon = "duchy_erdtree.dds" 
+
+	type = duchy_capital
+
+	ai_value = {
+		base = 20
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+		modifier = { # Fill all building slots before going for duchy buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+}
+
+# Raya Lucaria
+magic_academy_01 = {
+	construction_time = slow_construction_time
+	can_construct = {
+		scope:holder = {
+			OR = {
+				has_trait = glintstone_affinity
+				has_trait = sorcerous_knight
+				learning >= 15
+			}	
+		}	
+	}
+
+	is_enabled = {
+		scope:holder = { 
+			OR = {
+				has_trait = glintstone_affinity
+				has_trait = sorcerous_knight
+				learning >= 15
+			}
+		}
+	}
+	
+	
+	cost_gold = expensive_building_tier_5_cost
+	
+	duchy_capital_county_modifier = {
+		county_opinion_add = 15
+		epidemic_resistance = 20
+	}
+	character_modifier = {
+		monthly_learning_lifestyle_xp_gain_mult = 0.20
+		monthly_martial_lifestyle_xp_gain_mult = 0.20
+		monthly_dynasty_prestige_mult = 0.05
+		siege_weapon_recruitment_cost_mult = -0.15
+		siege_weapon_maintenance_mult = -0.15
+		siege_weapon_siege_value_mult = very_high_maa_siege_value_tier_2
+		learning_per_piety_level = 2
+	}
+	
+	type = duchy_capital
+	type_icon = "icon_structure_cologne_cathedral.dds"
+	
+	flag = fully_upgraded_duchy_capital_building
+	
+	ai_value = {
+		base = 20
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+	}
+}
+
+#divine tower
+divine_tower_01 = {
+	construction_time = slow_construction_time
+
+	can_construct = {
+		scope:holder = {
+			AND = {
+				stewardship >= 15
+				learning >= 15
+			}
+		}		
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = god_elden_ring
+				has_trait = demigod_elden_ring
+				has_trait = empyrean_elden_ring
+			}
+		}
+	}
+	
+
+	cost_gold = expensive_building_tier_5_cost
+	
+	duchy_capital_county_modifier = {
+		county_opinion_add = 10
+	}
+	character_modifier = {
+		monthly_piety = 1
+		learning_per_piety_level = 2
+		martial_per_piety_level = 2
+		diplomacy_per_piety_level = 2
+		prowess_per_piety_level = 2
+		intrigue_per_piety_level = 2
+		stewardship_per_piety_level = 2
+	}
+	
+	type = duchy_capital
+	type_icon = "icon_structure_great_mosque_of_samarra.dds"
+	
+	flag = fully_upgraded_duchy_capital_building
+	
+	ai_value = {
+		base = 20
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+	}
+}
+
+#lake of rot
+
+lake_of_rot = {
+	construction_time = slow_construction_time
+	
+	can_construct = {
+		scope:holder = {
+			OR = {
+				has_trait = rot_affinity
+				has_trait = rot_knight
+			}	
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = rot_affinity
+				has_trait = rot_knight
+			}	
+		}
+	}
+
+	
+	cost_gold = expensive_building_tier_5_cost
+	
+	duchy_capital_county_modifier = {
+		county_opinion_add = 10
+	}
+	character_modifier = {
+		monthly_piety = 0.5
+		stress_gain_mult = -0.50
+		epidemic_resistance = -50
+		development_growth_factor = 0.5
+		naval_movement_speed_mult = 0.1
+	}
+	province_modifier = {
+		monthly_income = good_building_tax_tier_2
+	}
+	
+	type = duchy_capital
+	type_icon = "icon_structure_maharloo_lake.dds"
+	
+	flag = fully_upgraded_duchy_capital_building
+	
+	ai_value = {
+		base = 20
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+	}
+}
