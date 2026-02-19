@@ -1,7 +1,6 @@
 ﻿l_english:
  
  order_religion_elden_ring:0 "Order"
- order_religion_elden_ring_adj:0 "Order"
  order_religion_elden_ring_adherent:0 "PLACEHOLDER"
  order_religion_elden_ring_adherent_plural:0 "PLACEHOLDER"
  
@@ -12,3 +11,12 @@
  golden_order_desc:0 "The Golden Order was established by Queen Marika following Maliketh's triumph over the Gloam-Eyed Queen and her Godskin Apostles."
  
  unalloyed_order:0 "Unalloyed Order"
+ 
+ frenzy_order:0 "Frenzied Flame"
+ frenzy_order_desc:0 "Believing that existence is pain, the frenzied worship the frenzied flame in order to burn the old world away, and do away with the eternal suffering of the masses by becoming one again through it. They desperately await the chosen of the three fingers, servant of the flame, to burn at the center of the erdtree and finally end it all."
+ 
+ golden_order:0 "Golden Order"
+ golden_order_desc:0 "The Golden Order most commonly refers to a set of beliefs beginning with the removal of the Rune of Death from the Elden Ring and the golden reign of Queen Marika The Eternal, who rose through the two fingers, worshipped as the one true god. Whose demigod offspring now battle over the lands between."
+ order_religion_elden_ring_adj:0 "Orders"
+ golden_order_adj:0 "Golden Order"
+ golden_order_adherent_plural:0 "Followers of the Golden Order"

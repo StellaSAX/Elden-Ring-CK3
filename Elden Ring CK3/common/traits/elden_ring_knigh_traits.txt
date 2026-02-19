@@ -11,17 +11,7 @@ golden_knight = {
 	icon = "golden_knight.dds"
 	
 	opposites = {
-		mounted_knight
-		crucible_knight
-		mausoleum_knight
-		sorcerous_knight
-		bloodhound_knight
-		rot_knight
-		ice_knight
-		drake_knight
-		cuckoo_knight
-		frenzied_knight
-		death_knight
+		
 	}
 	
 	ruler_designer_cost = 20
@@ -46,17 +36,7 @@ mounted_knight = {
 	icon = "mounted_knight.dds"
 	
 	opposites = {
-		golden_knight
-		crucible_knight
-		mausoleum_knight
-		sorcerous_knight
-		bloodhound_knight
-		rot_knight
-		ice_knight
-		drake_knight
-		cuckoo_knight
-		frenzied_knight
-		death_knight
+		
 	}
 	
 	ruler_designer_cost = 20
@@ -81,17 +61,7 @@ crucible_knight = {
 	icon = "crucible_knight.dds"
 	
 	opposites = {
-		golden_knight
-		mounted_knight
-		mausoleum_knight
-		sorcerous_knight
-		bloodhound_knight
-		rot_knight
-		ice_knight
-		drake_knight
-		cuckoo_knight
-		frenzied_knight
-		death_knight
+		
 	}
 	
 	ruler_designer_cost = 20
@@ -118,17 +88,7 @@ mausoleum_knight = {
 	icon = "mausoleum_knight.dds"
 	
 	opposites = {
-		golden_knight
-		mounted_knight
-		crucible_knight
-		sorcerous_knight
-		bloodhound_knight
-		rot_knight
-		ice_knight
-		drake_knight
-		cuckoo_knight
-		frenzied_knight
-		death_knight
+		
 	}
 	
 	ruler_designer_cost = 20
@@ -154,17 +114,7 @@ sorcerous_knight = {
 	icon = "sorcerous_knight.dds"
 	
 	opposites = {
-		golden_knight
-		mounted_knight
-		crucible_knight
-		mausoleum_knight
-		bloodhound_knight
-		rot_knight
-		ice_knight
-		drake_knight
-		cuckoo_knight
-		frenzied_knight
-		death_knight
+		
 	}
 	
 	ruler_designer_cost = 20
@@ -187,17 +137,7 @@ bloodhound_knight = {
 	icon = "bloodhound_knight.dds"
 	
 	opposites = {
-		golden_knight
-		mounted_knight
-		crucible_knight
-		mausoleum_knight
-		sorcerous_knight
-		rot_knight
-		ice_knight
-		drake_knight
-		cuckoo_knight
-		frenzied_knight
-		death_knight
+		
 	}
 	
 	ruler_designer_cost = 20
@@ -221,17 +161,7 @@ rot_knight = {
 	icon = "rot_knight.dds"
 	
 	opposites = {
-		golden_knight
-		mounted_knight
-		crucible_knight
-		mausoleum_knight
-		sorcerous_knight
-		bloodhound_knight
-		ice_knight
-		drake_knight
-		cuckoo_knight
-		death_knight
-		frenzied_knight
+		
 	}
 	
 	ruler_designer_cost = 20
@@ -256,17 +186,7 @@ frenzied_knight = {
 	icon = "frenzied_knight.dds"
 	
 	opposites = {
-		golden_knight
-		mounted_knight
-		crucible_knight
-		mausoleum_knight
-		bloodhound_knight
-		rot_knight
-		ice_knight
-		drake_knight
-		cuckoo_knight
-		frenzied_knight
-		death_knight
+		
 	}
 	
 	ruler_designer_cost = 20
@@ -322,24 +242,78 @@ drake_knight = {
 	icon = "drake_knight.dds"
 	
 	opposites = {
-		golden_knight
-		mounted_knight
-		crucible_knight
-		mausoleum_knight
-		bloodhound_knight
-		rot_knight
-		ice_knight
-		cuckoo_knight
-		frenzied_knight
-		death_knight
+		lesser_dragon_opinion
 	}
 	
+	track = { #how much dragon have you eaten?
+		10 = {
+			prowess = 1
+		}
+		20 = {
+			prowess = 1
+			martial = 1
+		}
+		30 = {
+			prowess = 1		
+		}
+		40 = {
+			prowess = 1
+		}
+		50 = {
+			prowess = 1
+			martial = 1
+		}
+		60 = {
+			prowess = 1
+			intrigue = -1
+			stewardship = -1
+			learning = -1
+			diplomacy = -1
+		}
+		70 = {
+			prowess = 1
+			martial = 1
+			monthly_lifestyle_xp_gain_mult = -0.05
+			intrigue = -1
+			stewardship = -1
+			learning = -1
+			diplomacy = -1
+		}
+		80 = {
+			prowess = 1
+			monthly_lifestyle_xp_gain_mult = -0.05
+			intrigue = -1
+			stewardship = -1
+			learning = -1
+			diplomacy = -1
+		}
+		90 = {
+			prowess = 1
+			monthly_lifestyle_xp_gain_mult = -0.05
+			intrigue = -1
+			stewardship = -1
+			learning = -1
+			diplomacy = -1
+		}
+		100 = {
+			prowess = 20
+			intrigue = -10
+			martial = -10
+			stewardship = -10
+			learning = -10
+			diplomacy = -10
+			advantage = 20
+			monthly_lifestyle_xp_gain_mult = -0.75
+		}
+	}
+	
+	opposite_opinion = -20
 	ruler_designer_cost = 20
 	
 	monthly_prestige = combat_mult_medium
-	prowess_per_prestige_level = 2
-	martial = 3
+	
 	health = 1
+	martial = 1
 	
 	#i still don't know to to make this work :c
 	# ancient_dragon_opinion = 20
@@ -348,6 +322,8 @@ drake_knight = {
 	compatibility = {
 		brave = @pos_compat_low
 		craven = @neg_compat_low
+		ancient_dragon_opinion = @pos_compat_medium
+		lesser_dragon_opinion = @neg_compat_high
 	}
 	
 }
@@ -358,16 +334,7 @@ ice_knight = {
 	icon = "ice_knight.dds"
 	
 	opposites = {
-		golden_knight
-		mounted_knight
-		crucible_knight
-		mausoleum_knight
-		bloodhound_knight
-		rot_knight
-		drake_knight
-		cuckoo_knight
-		frenzied_knight
-		death_knight
+		
 	}
 	
 	ruler_designer_cost = 20
@@ -390,16 +357,7 @@ death_knight = {
 	icon = "death_knight.dds"
 	
 	opposites = {
-		golden_knight
-		mounted_knight
-		crucible_knight
-		sorcerous_knight
-		bloodhound_knight
-		rot_knight
-		ice_knight
-		drake_knight
-		cuckoo_knight
-		frenzied_knight
+		
 	}
 	
 	ruler_designer_cost = 20
@@ -423,17 +381,7 @@ horned_warrior = {
 	icon = "horned_warrior.dds"
 	
 	opposites = {
-		mounted_knight
-		crucible_knight
-		mausoleum_knight
-		sorcerous_knight
-		bloodhound_knight
-		rot_knight
-		ice_knight
-		drake_knight
-		cuckoo_knight
-		frenzied_knight
-		death_knight
+		
 	}
 	
 	ruler_designer_cost = 20
@@ -455,17 +403,7 @@ divine_beast_warrior = {
 	icon = "divine_beast_warrior.dds"
 	
 	opposites = {
-		golden_knight
-		mounted_knight
-		mausoleum_knight
-		sorcerous_knight
-		bloodhound_knight
-		rot_knight
-		ice_knight
-		drake_knight
-		cuckoo_knight
-		frenzied_knight
-		death_knight
+		
 	}
 	
 	ruler_designer_cost = 20

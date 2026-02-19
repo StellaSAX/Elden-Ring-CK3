@@ -14,11 +14,11 @@ trait_track_scales_desc:0 "Scales cover their arms and shoulders"
 trait_omen_horn_trait:0 "Omen"
 trait_omen_no_horn_trait:0 "Omen without Horns"
 trait_ancient_dragon_elden_ring:0 "Ancient Dragon"
-trait_lesser_dragon_elden_ring:0 "Lesser Dragon"
+trait_lesser_dragon_elden_ring:0 "Drake"
 
 
 trait_misbegotten_trait_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born with the power of the Crucible, it can be seen as a blessing or curse depending on how it's used."
 trait_omen_horn_trait_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born as a Omen, with great physical strength and horns protecting their body, sadly their horns get in the way of everyday life."
 trait_omen_no_horn_trait_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] had their horns excised painfully, their life forever changed."
-trait_ancient_dragon_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a great Dragon, with their power they are a good ally for anyone capable of recruiting them."
+trait_ancient_dragon_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a great Dragon, a being that has truly been blessed by the crucible, they have control over red lightning and can teach about dragon communion."
 trait_lesser_dragon_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a lesser Dragon, a pale imitation of the ancient ones, but still a powerful creature."
