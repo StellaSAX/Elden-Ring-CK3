@@ -279,7 +279,7 @@
 			
 			doctrine = tenet_astrology
 			doctrine = tenet_ancestor_worship
-			doctrine = tenet_fp3_sacred_murder
+			doctrine = tenet_fp3_fedayeen
 		}
 		frenzy_order = {
 			color = { 0.9 0.4 0.1 }
@@ -311,7 +311,7 @@
 			
 			doctrine = tenet_gruesome_festivals
 			doctrine = tenet_human_sacrifice
-			doctrine = tenet_fp3_sacred_murder
+			doctrine = tenet_fp3_fedayeen
 			doctrine = tenet_hedonistic
 		}
 		land_of_reeds_faith = {

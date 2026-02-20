@@ -363,7 +363,7 @@
 
 			doctrine = tenet_literalism
 			doctrine = tenet_unrelenting_faith
-			doctrine = tenet_fp3_sacred_murder
+			doctrine = tenet_fp3_fedayeen
 			doctrine = tenet_no_mind
 		}
 		dragon_cult_order = {
