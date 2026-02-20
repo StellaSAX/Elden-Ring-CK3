@@ -1,0 +1,31 @@
+elden_ring_deathbed_smalls_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = deathbed_smalls_name
+		visuals = deathbed_smalls_visual
+		description = deathbed_smalls_description
+		type = armor_plate
+		wealth = scope:wealth
+		quality = scope:quality
+		template = deathbed_smalls_template
+		history = {
+			location = scope:location
+			actor = root
+			recipient = root
+			type = discovered
+		}
+		modifier = artifact_owned_personal_scheme_success_chance_add_10_modifier
+		modifier = artifact_personal_scheme_phase_duration_add_10_modifier
+		modifier = artifact_seduce_scheme_phase_duration_add_5_modifier
+		modifier = artifact_attraction_opinion_50_modifier
+		modifier = artifact_fertility_gain_50_modifier
+		modifier = artifact_monthly_intrigue_lifestyle_xp_2_modifier
+		modifier = artifact_knight_limit_5_modifier
+		modifier = artifact_monthly_piety_negative_2_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+}

@@ -1,0 +1,28 @@
+elden_ring_ruins_greatsword_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = ruins_greatsword_name
+		visuals = ruins_greatsword_visual
+		description = ruins_greatsword_description
+		type = sword
+		wealth = scope:wealth
+		quality = scope:quality
+		template = ruins_greatsword_template
+		history = {
+			location = scope:location
+			actor = root
+			recipient = root
+			type = discovered
+		}
+		modifier = artifact_prowess_20_modifier
+		modifier = artifact_knight_effectiveness_25_modifier
+		modifier = artifact_enemy_hard_casualty_modifier_20_modifier
+		modifier = artifact_monthly_prestige_10_modifier
+		modifier = artifact_dread_baseline_add_4_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+}
