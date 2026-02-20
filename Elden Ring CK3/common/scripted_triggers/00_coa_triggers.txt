@@ -1,0 +1,3 @@
+﻿coa_germanic_trigger = {
+	scope:culture = { has_coa_gfx = german_group_coa_gfx }
+}
