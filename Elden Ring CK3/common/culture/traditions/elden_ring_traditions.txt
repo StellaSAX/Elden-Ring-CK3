@@ -417,7 +417,7 @@ tradition_stormlords = {
 	layers = {
 		0 = martial
 		1 = western
-		4 = mountain.dds
+		4 = stormlords.dds
 	}
 
 	is_shown = {
@@ -427,10 +427,12 @@ tradition_stormlords = {
 	parameters = {
 		rowdy_trait_more_common = yes
 		aggressive_attacker_trait_more_common = yes
-		wrathful_trait_more_common = yes
-		stubborn_trait_more_common = yes
+		# wrathful_trait_more_common = yes #removed because too many things
+		# stubborn_trait_more_common = yes #removed because too many things
 		less_likely_to_culture_convert = yes
 		unlock_maa_banished_knights = yes
+		falconer_traits_more_common = yes #added later
+		order_affinity_more_common = yes #added later
 	}
 
 	character_modifier = {

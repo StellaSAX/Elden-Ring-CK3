@@ -312,8 +312,7 @@ culture_limgrave_elden_ring = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_castle_keepers
-		tradition_ep2_avid_falconers #create a custom that is like this but increases chance to gain the order affinity
-		tradition_stormlords # fuse them with the one above and add order
+		tradition_stormlords
 		tradition_loyal_soldiers
 		tradition_ruling_caste
 	}
