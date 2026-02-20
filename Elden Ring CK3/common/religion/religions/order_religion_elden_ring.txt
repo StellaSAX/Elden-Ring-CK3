@@ -9,7 +9,7 @@
 	doctrine = doctrine_polytheist
 	doctrine = doctrine_no_head
 	doctrine = doctrine_gender_male_dominated
-	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_pluralism_fundamentalist
 	doctrine = doctrine_theocracy_temporal
 
 	#Marriage
@@ -229,10 +229,11 @@
 			holy_site = caelid_divine_tower
 			holy_site = isolated_divine_tower
 
-			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			
+			doctrine = tenet_literalism
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_pentarchy
+			doctrine = tenet_no_mind
 		}
 		unalloyed_order = {
 			color = { 0.99 0.99 0.0 }
@@ -283,10 +284,11 @@
 			holy_site = caelid_divine_tower
 			holy_site = isolated_divine_tower
 
-			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			
+			doctrine = tenet_literalism
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_legalism
+			doctrine = tenet_no_mind
 		}
 		perfect_order = {
 			color = { 0.7 0.7 0.05 }
@@ -358,10 +360,11 @@
 			holy_site = caelid_divine_tower
 			holy_site = isolated_divine_tower
 			
-			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+
+			doctrine = tenet_literalism
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_fp3_sacred_murder
+			doctrine = tenet_no_mind
 		}
 		dragon_cult_order = {
 			color = { 0.9 0.6 0.1 }

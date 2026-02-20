@@ -9,7 +9,7 @@
 	doctrine = doctrine_polytheist
 	doctrine = doctrine_no_head
 	doctrine = doctrine_gender_male_dominated
-	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_pluralism_fundamentalist
 	doctrine = doctrine_theocracy_temporal
 
 	#Marriage
@@ -24,7 +24,7 @@
 	doctrine = doctrine_adultery_women_crime
 	doctrine = doctrine_kinslaying_close_kin_crime
 	doctrine = doctrine_deviancy_crime
-	doctrine = doctrine_witchcraft_accepted
+	doctrine = doctrine_witchcraft_shunned
 
 	#Clerical Functions
 	doctrine = doctrine_clerical_function_recruitment
@@ -276,10 +276,10 @@
 			holy_site = deeproot
 			holy_site = death_catacombs
 
-			#Generic pagan tenets
+			
 			doctrine = tenet_astrology
 			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_fp3_sacred_murder
 		}
 		frenzy_order = {
 			color = { 0.9 0.4 0.1 }
@@ -308,10 +308,11 @@
 			holy_site = caria_manor
 			holy_site = west_altus_divine_tower
 			
-			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			
+			doctrine = tenet_gruesome_festivals
+			doctrine = tenet_human_sacrifice
+			doctrine = tenet_fp3_sacred_murder
+			doctrine = tenet_hedonistic
 		}
 		land_of_reeds_faith = {
 			color = { 0.9 0.1 0.1 }
