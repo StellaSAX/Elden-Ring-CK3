@@ -1,0 +1,4 @@
+﻿ruins_greatsword_visual = {
+	icon = "er_ruins_greatsword.dds"
+	asset = ruins_greatsword
+}

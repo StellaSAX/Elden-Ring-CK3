@@ -1,0 +1,4 @@
+﻿deathbed_smalls_visual = {
+	icon = "er_deathbed_smalls.dds"
+	asset = deathbed_smalls
+}
