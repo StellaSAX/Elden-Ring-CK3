@@ -1910,7 +1910,7 @@
 	holding = none
 }
 440 = {
-	holding = none
+	holding = city_holding
 }
 441 = {
 	holding = none
@@ -4744,7 +4744,7 @@
 	holding = castle_holding
 }
 1288 = {
-	holding = none
+	holding = church_holding
 }
 1289 = {
 	holding = none
@@ -6674,7 +6674,7 @@
 	holding = none
 }
 1910 = {
-	holding = none
+	holding = city_holding
 }
 1911 = {
 	holding = none

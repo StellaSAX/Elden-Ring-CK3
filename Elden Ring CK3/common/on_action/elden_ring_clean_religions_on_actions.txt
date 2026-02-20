@@ -1,0 +1,13 @@
+﻿
+#i am coping this from this person version: https://steamcommunity.com/profiles/76561198374980294
+on_faith_created = {
+	on_actions = {
+		elden_ring_clean_tenets		# Clean Empty Doctrines
+	}
+}
+
+elden_ring_clean_tenets = {
+	events = {
+		faith_creation_clean.001
+	}
+}
