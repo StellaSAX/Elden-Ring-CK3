@@ -1,0 +1,11 @@
+﻿# Elden Ring Modifiers
+
+artifact_prowess_20_modifier = { prowess_no_portrait = 20 }
+artifact_knight_effectiveness_25_modifier = { knight_effectiveness_mult = 0.25 }
+artifact_enemy_hard_casualty_modifier_20_modifier = { enemy_hard_casualty_modifier = 0.20 }
+artifact_monthly_prestige_10_modifier = { monthly_prestige = 1.0 }
+artifact_knight_limit_5_modifier = { knight_limit = 5 }
+artifact_attraction_opinion_50_modifier = { attraction_opinion = 50 }
+artifact_monthly_piety_negative_2_modifier = { monthly_piety = -2.0 }
+artifact_fertility_gain_50_modifier = { fertility = 0.5 }
+artifact_seduce_scheme_phase_duration_add_5_modifier = { seduce_scheme_phase_duration_add = -25 }
