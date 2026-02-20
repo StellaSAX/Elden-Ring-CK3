@@ -210,16 +210,7 @@ cuckoo_knight = {
 	icon = "cuckoo_knight.dds"
 	
 	opposites = {
-		golden_knight
-		mounted_knight
-		crucible_knight
-		mausoleum_knight
-		bloodhound_knight
-		rot_knight
-		ice_knight
-		drake_knight
-		frenzied_knight
-		death_knight
+
 	}
 	
 	ruler_designer_cost = 20
@@ -242,7 +233,7 @@ drake_knight = {
 	icon = "drake_knight.dds"
 	
 	opposites = {
-		lesser_dragon_opinion
+		lesser_dragon_elden_ring
 	}
 	
 	track = { #how much dragon have you eaten?
