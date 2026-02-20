@@ -15,3 +15,9 @@ culture_parameter_order_affinity_more_common:0 "[GetTrait('order_affinity').GetN
 tradition_giants_fire_name:0 "Giants' Flame"
 tradition_giants_fire_desc:0 "Long ago the Giants walked in this world, they are gone, but we learned to imitate their connection to the Flame, some of us may even have a drop of their blood."
 culture_parameter_giants_and_fire_at_birth:0 "[GetTrait('fire_affinity').GetName( GetNullCharacter )] and [GetTrait('giant').GetName( GetNullCharacter )] are more common in births."
+
+tradition_stormlords_name:0 "Stormlords of Old"
+tradition_stormlords_desc:0 "Our lands were once ruled by lords of storm and war. While those ages may be long gone, our people are still nonetheless ferocious."
+culture_parameter_aggressive_attacker_trait_more_common:0 "The [GetTrait('aggressive_attacker').GetName( GetNullCharacter )] is more common."
+culture_parameter_wrathful_trait_more_common:0 "The [GetTrait('wrathful').GetName( GetNullCharacter )] is more common."
+culture_parameter_unlock_maa_banished_knights:0 "Can recruit [GetMaA('banished_knights').GetName] as [men_at_arms|E]"

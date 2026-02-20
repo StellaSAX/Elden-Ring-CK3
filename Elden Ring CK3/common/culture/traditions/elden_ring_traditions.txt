@@ -410,3 +410,44 @@ tradition_dragon_communion = {
 	}
 	ai_will_do = { value = 100 }
 }
+
+tradition_stormlords = {
+	category = regional
+
+	layers = {
+		0 = martial
+		1 = western
+		4 = mountain.dds
+	}
+
+	is_shown = {
+		always = no
+	}
+
+	parameters = {
+		rowdy_trait_more_common = yes
+		aggressive_attacker_trait_more_common = yes
+		wrathful_trait_more_common = yes
+		stubborn_trait_more_common = yes
+		less_likely_to_culture_convert = yes
+		unlock_maa_banished_knights = yes
+	}
+
+	character_modifier = {
+		min_combat_roll = 5
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+
+	ai_will_do = {
+		value = 100
+	}
+}
