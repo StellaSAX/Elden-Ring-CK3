@@ -1,0 +1,20 @@
+﻿#copied from this person version: https://steamcommunity.com/profiles/76561198374980294
+namespace = elden_ring_faith_creation_events
+
+# Fired when you make a faith.
+elden_ring_faith_creation_events.001 = {	
+	hidden = yes
+	
+	trigger = {	
+	   always = yes
+	}	
+	
+	immediate = {	
+		faith = {	
+			remove_doctrine = tenet_zz_empty_1
+			remove_doctrine = tenet_zz_empty_2
+			remove_doctrine = tenet_zz_empty_3
+			remove_doctrine = tenet_zz_empty_4
+		}	
+	}	
+}
