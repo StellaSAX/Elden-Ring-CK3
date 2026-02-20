@@ -1,0 +1,21 @@
+﻿ruins_greatsword_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		is_capable_adult = yes
+		OR = {
+			has_trait = strong
+			has_trait = physique_good_3
+			martial >= 30
+		}
+	}
+	fallback = {
+		#always = yes
+		monthly_prestige = 1.0
+	}
+	unique = yes
+	ai_score = {
+		value = 100
+	}
+}
