@@ -1,13 +1,21 @@
 ﻿create_great_rune_decisions = {
-	ai_check_interval = 60
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+		reference = "gfx/interface/illustrations/decisions/decision_legitimacy.dds"
 	}
 	sort_order = 10
 	decision_group_type = decisions
 
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 36
+		empire = 36
+		hegemony = 36
+	}
+
 	is_shown = {
-		highest_held_title_tier >= 4
+		highest_held_title_tier >= tier_kingdom
 		NOR = {
 			any_character_artifact = {
 				has_variable = great_rune_variable		
@@ -22,6 +30,10 @@
 		is_independent_ruler = yes
         is_landed = yes
 		piety_level >= high_piety_level
+		OR = {
+			has_trait = demigod_elden_ring
+			has_trait = empyrean_elden_ring
+		}
 	}
 
 	is_valid_showing_failures_only = {
@@ -51,15 +63,22 @@
 }
 
 create_elden_ring_decisions = {
-	ai_check_interval = 60
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 36
+		empire = 36
+		hegemony = 36
+	}
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+		reference = "gfx/interface/illustrations/decisions/fp3/fp3_decision_foundation.dds"
 	}
 	sort_order = 10
 	decision_group_type = decisions
 
 	is_shown = {
-		highest_held_title_tier >= 3
+		highest_held_title_tier >= tier_kingdom
 		any_character_artifact = {
 			has_variable = great_rune_variable		
 		}
@@ -74,6 +93,10 @@ create_elden_ring_decisions = {
 		is_independent_ruler = yes
         is_landed = yes
 		piety_level >= high_piety_level
+		OR = {
+			has_trait = demigod_elden_ring
+			has_trait = empyrean_elden_ring
+		}
 		custom_tooltip = {
 			text = has_great_rune_for_elden_ring
 			any_character_artifact = { has_variable = great_rune_variable }

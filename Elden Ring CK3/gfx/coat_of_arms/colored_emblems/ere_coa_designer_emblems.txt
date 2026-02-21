@@ -1,0 +1,73 @@
+﻿# Emblems used in the CoA designer.
+# The order defines the order in which they are listed.
+#
+# Format:
+# filename = {
+#     # How many colors options to show for this emblem. Optional, will assume maximum number of colors if missing
+#     colors = 3
+#
+#     # Whether to show the emblem in the CoA designer. Default yes.
+#     # Add an entry with no to allow specifying number of colors for emblems used in adjusted mode
+#     visible = no
+# }
+#
+#
+# Use the count_unique_emblem_colors console command to generate this instead of manually doing the tedium
+# Note that the command does NOT preserve your visible definitions, so you'll want to add them back in yourself, use a diff tool to make it easier
+
+# Possible categories:
+# abstract
+# animals
+# circles_spirals
+# crosses_and_knots
+# faiths
+# manmade
+# nature
+# patterns
+# tribal_seal
+# writing
+# figures
+
+# Double underscore intentional to make it the first option in the list
+###ELDEN RING EMBLEMS###
+crucible.dds = { colors = 3 category = patterns }
+baldachin.dds = { colors = 3 category = patterns }
+carian.dds = { colors = 3 category = patterns }
+beastial.dds = { colors = 3 category = patterns }
+dragon_communion.dds = { colors = 3 category = patterns }
+dragon_cult.dds = { colors = 3 category = patterns }
+erdtree.dds = { colors = 3 category = patterns }
+frenzied_flame.dds = { colors = 3 category = patterns }
+giants_flame.dds = { colors = 3 category = patterns }
+golden_order.dds = { colors = 3 category = patterns }
+golden_order_blank.dds = { colors = 3 category = patterns }
+gravity.dds = { colors = 3 category = patterns }
+multiplayer_runes.dds = { colors = 3 category = patterns }
+blood.dds = { colors = 3 category = patterns }
+haligtree.dds = { colors = 3 category = patterns }
+nihil_curse.dds = { colors = 3 category = patterns }
+mt_gelmir.dds = { colors = 3 category = patterns }
+omen.dds = { colors = 3 category = patterns }
+raya_lucaria.dds = { colors = 3 category = patterns }
+sellia.dds  = { colors = 3 category = patterns }
+all_knowing.dds = { colors = 3 category = patterns }
+storm.dds = { colors = 3 category = patterns }
+tear_portal.dds = { colors = 3 category = patterns }
+death.dds = { colors = 3 category = patterns }
+two_fingers.dds = { colors = 3 category = patterns }
+#SHADOW OF THE ERDTREE
+finger_sorcery.dds = { colors = 3 category = patterns }
+horsent_spiral.dds = { colors = 3 category = patterns }
+messmer_flame.dds = { colors = 3 category = patterns }
+miquella_sigil.dds = { colors = 3 category = patterns }
+
+#ALT line, simplified versions
+dragon_cult_alt.dds = { colors = 3 category = patterns }
+
+
+
+
+
+
+
+
