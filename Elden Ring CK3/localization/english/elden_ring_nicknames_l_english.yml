@@ -18,7 +18,7 @@ nick_the_lordlady_of_death:0 "the [CHARACTER.GetLadyLord|U] of Death"
 nick_the_lordlady_of_blood:0 "the [CHARACTER.GetLadyLord|U] of Blood"
 nick_the_sleeping_kingqueen:0 "Sleeping [CHARACTER.Custom('GetQueenKing')|U]"
 nick_the_gloam_eyed_kingqueen:0 "Gloam Eyed [CHARACTER.Custom('GetQueenKing')|U]"
-nick_the_kind:0 "the Kind"
+elden_nick_the_kind:0 "the Kind"
 
 elden_ring_nickname_events.0001.et:0 "the Eternal"
 elden_ring_nickname_events.0001.go:0 "the Golden"

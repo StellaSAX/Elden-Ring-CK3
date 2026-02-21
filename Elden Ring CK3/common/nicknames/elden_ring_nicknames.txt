@@ -14,4 +14,4 @@ nick_the_lordlady_of_death = {}
 nick_the_lordlady_of_blood = {}
 nick_the_sleeping_kingqueen = {}
 nick_the_gloam_eyed_kingqueen = {}
-nick_the_kind = {}
+elden_nick_the_kind = {}

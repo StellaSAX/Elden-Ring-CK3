@@ -540,7 +540,7 @@ miquella = {
 	}
 	800.1.1 = {
 		effect = {
-			NICKNAME_ID = nick_the_kind
+			NICKNAME_ID = elden_nick_the_kind
 			remove_trait = compassionate
 			add_trait = arbitrary
 		}
