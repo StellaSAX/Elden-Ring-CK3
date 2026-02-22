@@ -1,7 +1,7 @@
 ﻿doctrine_core_tenets = {
 	group = "core_tenets"
 	
-	number_of_picks = 4	# 23
+	number_of_picks = 4
 	
 
 	######################################################################################

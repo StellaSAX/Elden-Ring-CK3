@@ -61,3 +61,9 @@ dynn_beast = {
 	culture = culture_altus_elden_ring
 	motto = beast_motto
 }
+
+dynn_golden_order = {
+	name = "dynn_golden_order"
+	culture = culture_altus_elden_ring
+	motto = golden_order_motto
+}

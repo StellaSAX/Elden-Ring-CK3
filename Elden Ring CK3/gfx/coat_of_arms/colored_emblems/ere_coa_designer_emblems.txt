@@ -30,39 +30,39 @@
 
 # Double underscore intentional to make it the first option in the list
 ###ELDEN RING EMBLEMS###
-crucible.dds = { colors = 3 category = patterns }
-baldachin.dds = { colors = 3 category = patterns }
-carian.dds = { colors = 3 category = patterns }
-beastial.dds = { colors = 3 category = patterns }
-dragon_communion.dds = { colors = 3 category = patterns }
-dragon_cult.dds = { colors = 3 category = patterns }
-erdtree.dds = { colors = 3 category = patterns }
-frenzied_flame.dds = { colors = 3 category = patterns }
-giants_flame.dds = { colors = 3 category = patterns }
-golden_order.dds = { colors = 3 category = patterns }
-golden_order_blank.dds = { colors = 3 category = patterns }
-gravity.dds = { colors = 3 category = patterns }
-multiplayer_runes.dds = { colors = 3 category = patterns }
-blood.dds = { colors = 3 category = patterns }
-haligtree.dds = { colors = 3 category = patterns }
-nihil_curse.dds = { colors = 3 category = patterns }
-mt_gelmir.dds = { colors = 3 category = patterns }
-omen.dds = { colors = 3 category = patterns }
-raya_lucaria.dds = { colors = 3 category = patterns }
-sellia.dds  = { colors = 3 category = patterns }
-all_knowing.dds = { colors = 3 category = patterns }
-storm.dds = { colors = 3 category = patterns }
-tear_portal.dds = { colors = 3 category = patterns }
-death.dds = { colors = 3 category = patterns }
-two_fingers.dds = { colors = 3 category = patterns }
+crucible.dds = { colors = 3 category = elden_ring }
+baldachin.dds = { colors = 3 category = elden_ring }
+carian.dds = { colors = 3 category = elden_ring }
+beastial.dds = { colors = 3 category = elden_ring }
+dragon_communion.dds = { colors = 3 category = elden_ring }
+dragon_cult.dds = { colors = 3 category = elden_ring }
+erdtree.dds = { colors = 3 category = elden_ring }
+frenzied_flame.dds = { colors = 3 category = elden_ring }
+giants_flame.dds = { colors = 3 category = elden_ring }
+golden_order.dds = { colors = 3 category = elden_ring }
+golden_order_blank.dds = { colors = 3 category = elden_ring }
+gravity.dds = { colors = 3 category = elden_ring }
+multiplayer_runes.dds = { colors = 3 category = elden_ring }
+blood.dds = { colors = 3 category = elden_ring }
+haligtree.dds = { colors = 3 category = elden_ring }
+nihil_curse.dds = { colors = 3 category = elden_ring }
+mt_gelmir.dds = { colors = 3 category = elden_ring }
+omen.dds = { colors = 3 category = elden_ring }
+raya_lucaria.dds = { colors = 3 category = elden_ring }
+sellia.dds  = { colors = 3 category = elden_ring }
+all_knowing.dds = { colors = 3 category = elden_ring }
+storm.dds = { colors = 3 category = elden_ring }
+tear_portal.dds = { colors = 3 category = elden_ring }
+death.dds = { colors = 3 category = elden_ring }
+two_fingers.dds = { colors = 3 category = elden_ring }
 #SHADOW OF THE ERDTREE
-finger_sorcery.dds = { colors = 3 category = patterns }
-horsent_spiral.dds = { colors = 3 category = patterns }
-messmer_flame.dds = { colors = 3 category = patterns }
-miquella_sigil.dds = { colors = 3 category = patterns }
+finger_sorcery.dds = { colors = 3 category = elden_ring }
+horsent_spiral.dds = { colors = 3 category = elden_ring }
+messmer_flame.dds = { colors = 3 category = elden_ring }
+miquella_sigil.dds = { colors = 3 category = elden_ring }
 
 #ALT line, simplified versions
-dragon_cult_alt.dds = { colors = 3 category = patterns }
+dragon_cult_alt.dds = { colors = 3 category = elden_ring }
 
 
 

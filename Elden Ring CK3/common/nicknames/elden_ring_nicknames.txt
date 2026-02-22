@@ -9,9 +9,21 @@ nick_the_ice_kingqueen = {}
 nick_the_dragon_kingqueen = {}
 nick_the_dragon_lover = {}
 nick_the_starwatcher = {}
-nick_the_starscourge = {}
+nick_starscourge = { is_prefix = yes }
 nick_the_lordlady_of_death = {}
 nick_the_lordlady_of_blood = {}
 nick_the_sleeping_kingqueen = {}
 nick_the_gloam_eyed_kingqueen = {}
-elden_nick_the_kind = {}
+nick_lordlady_of_the_battlefield = {}
+nick_beast_clergyman = {}
+nick_dragonlordlady = { is_prefix = yes }
+nick_the_dread = {}
+nick_the_scout = {}
+nick_the_grafted = {}
+nick_st_for_trina = { is_prefix = yes }
+nick_kindling_maiden = {}
+nick_lordlady_of_blasphemy = {}
+nick_the_omen_kingqueen = {}
+nick_twin_moon_knight = {}
+nick_kingqueen_of_the_full_moon = {}
+nick_first_elden_lord = {}
