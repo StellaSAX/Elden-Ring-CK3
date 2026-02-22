@@ -1,4 +1,3 @@
-﻿
 nick_the_eternal = {}
 nick_the_order_kingqueen = {}
 nick_the_golden = {}
@@ -9,21 +8,38 @@ nick_the_ice_kingqueen = {}
 nick_the_dragon_kingqueen = {}
 nick_the_dragon_lover = {}
 nick_the_starwatcher = {}
-nick_starscourge = { is_prefix = yes }
 nick_the_lordlady_of_death = {}
 nick_the_lordlady_of_blood = {}
 nick_the_sleeping_kingqueen = {}
 nick_the_gloam_eyed_kingqueen = {}
 nick_lordlady_of_the_battlefield = {}
 nick_beast_clergyman = {}
-nick_dragonlordlady = { is_prefix = yes }
 nick_the_dread = {}
 nick_the_scout = {}
 nick_the_grafted = {}
-nick_st_for_trina = { is_prefix = yes }
 nick_kindling_maiden = {}
 nick_lordlady_of_blasphemy = {}
 nick_the_omen_kingqueen = {}
 nick_twin_moon_knight = {}
 nick_kingqueen_of_the_full_moon = {}
 nick_first_elden_lord = {}
+nick_deathbed_companion = {}
+nick_the_all_knowing = {}
+nick_blade_of_miquella = {}
+nick_the_dragonspear = {}
+nick_tarnished_eater = {}
+nick_hunter_of_the_dead = {}
+nick_beholder_of_death = {}
+nick_priest_of_blood = {}
+nick_the_untethered = {}
+nick_the_lionhearted = {}
+nick_the_beast_claw = {}
+nick_pastor_of_vows = {}
+
+nick_starscourge = { is_prefix = yes }
+nick_dragonlordlady = { is_prefix = yes }
+nick_st_for_trina = { is_prefix = yes }
+nick_loathsome = { is_prefix = yes }
+nick_ever_brilliant = { is_prefix = yes }
+nick_big = { is_prefix = yes }
+nick_needle_knight = { is_prefix = yes }
