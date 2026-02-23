@@ -361,28 +361,19 @@ tree_sentinel = {
 banished_knights = {
 	type = heavy_infantry
 
-	damage = 32
-	toughness = 22
-	pursuit = 0
-	screen = 0
+	damage = 40
+	toughness = 30
+	pursuit = 15
+	screen = 20
 
 	counters = {
 		pikemen = 1
+		archers = 1
 		peasant_militia = 2
 	}
+		can_recruit = {
+		valid_for_maa_trigger = { PARAMETER = unlock_maa_banished_knights }
 
-	can_recruit = {
-		culture = {
-			has_tradition = tradition_stormlords
-		}
-		NOT = {
-			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
-		}
-
-	}
-
-	should_show_when_unavailable = {
-		government_allows = subject_men_at_arms
 	}
 
 	buy_cost = { gold = heavy_infantry_recruitment_cost }
@@ -396,14 +387,6 @@ banished_knights = {
 	ai_quality = {
 		value = culture_ai_weight_heavy_infantry
 		add = counter_synergy_ai_weight_heavy_infantry
-	}
-
-	illustration = {
-		trigger = {
-			should_use_asian_maa_graphics = yes
-		}
-
-		reference = heavy_infantry_asia
 	}
 
 	illustration = {
