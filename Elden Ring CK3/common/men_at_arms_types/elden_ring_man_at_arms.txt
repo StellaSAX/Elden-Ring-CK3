@@ -389,7 +389,5 @@ banished_knights = {
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
 
-	illustration = {
-		reference = heavy_infantry
-	}
+	icon = banished_knight
 }
