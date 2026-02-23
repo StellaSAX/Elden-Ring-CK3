@@ -1,0 +1,38 @@
+culture_descriptions = {
+	scope = culture
+
+	effect = {
+		switch = {
+			trigger = root
+			
+			culture:culture_reedlander_elden_ring = { custom_tooltip = culture_reedlander_elden_ring_desc }
+			culture:culture_limgrave_elden_ring = { custom_tooltip = culture_limgrave_elden_ring_desc }
+
+			
+
+		}
+	}
+}
+
+elden_cultural_description_new_cultures = {
+	is_shown = {
+		has_variable = elden_character_culture_tooltip
+	}
+	effect = {
+		trigger_event = culture_acceptance.0500
+	}
+}
+
+elden_culture_save_custom_description = {
+	effect = {
+		if = {
+			limit = { has_variable = has_created_custom_culture_desc }
+			root.culture = { 
+				set_variable = {
+					name = elden_character_culture_tooltip
+					value = root
+				}
+			}
+		}
+	}
+}

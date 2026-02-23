@@ -22,6 +22,7 @@ culture_reedlander_elden_ring_group_collective_noun: "Reedlanders"
 culture_reedlander_elden_ring_prefix: "Reedlander"
 culture_reedlander_elden_ring: "Reedlander"
 culture_reedlander_elden_ring_collective_noun: "Reedlanders"
+culture_reedlander_elden_ring_desc: "#size:15   Though certainly strangers to the Lands Between, those children of the Land of Reeds are no strangers to blood. Their distant home has long been caught in a war so bitter and brutal none can now remember its origin. Perhaps it is because of this that those born of this lineage seem almost drawn to the sickly sweet call of Blood.#!"
 
 culture_draconian_elden_ring_group: "Draconian"
 culture_draconian_elden_ring_group_collective_noun: "Draconians"
@@ -64,6 +65,8 @@ culture_limgrave_elden_ring_group_collective_noun: "Limgrave"
 culture_limgrave_elden_ring_prefix: "Limgrave"
 culture_limgrave_elden_ring: "Limgrave"
 culture_limgrave_elden_ring_collective_noun: "Limgrave"
+culture_limgrave_elden_ring_desc: "#size:15   The people of Limgrave stand ever at a crossroads of the past and the present, their homes built on and around the ruins of those that came before. Perhaps this appreciation for what was gives them a certain zeal to protect that which is and treasure it in equal measures. They are a numerous people and easily counted as some of the most loyal, when they have a cause to turn to.#!"
+
 
 culture_weeping_peninsula_elden_ring_group: "Weeper"
 culture_weeping_peninsula_elden_ring_group_collective_noun: "Weepers"
@@ -216,3 +219,21 @@ language_astrologer_elden_ring_name: "Astrologer"
 language_ancenstral_followers_elden_ring_name: "Ancestral"
 
 language_hornsent_elden_ring_name: "Hornsent"
+
+
+#####
+# BackEnd stuff
+#####
+ culture_window_tooltip: "Cultural Description"
+#Window Event GUI
+ ELDEN_CUSTOM_DESCRIPTION: "Description:"
+ ELDEN_CUSTOM_DESC_SAVE: "Save"
+ elden_custom_cultural_description: "[ROOT.Char.GetLocalizedText('elden_custom_cultural_description')]"
+ 
+ #Whatever loc you have in you cooltip that allows for descriptions
+ ELDEN_CULTURE_TOOLTIP: "[SelectLocalization(GetScriptedGui('elden_cultural_description_new_cultures').IsShown(GuiScope.SetRoot(Culture.MakeScope).End), 'ELDEN_CUSTOM_CULTURE_PLAYER_DESCRIPTION', 'ELDEN_CULTURE_DESCRIPTION')]"
+ 
+ #Player's description
+ ELDEN_CUSTOM_CULTURE_PLAYER_DESCRIPTION: "[Culture.MakeScope.Var('elden_character_culture_tooltip').Char.GetLocalizedText('elden_custom_cultural_description')]"
+ #Devs descriptions
+ ELDEN_CULTURE_DESCRIPTION: "[GetScriptedGui('culture_descriptions').BuildTooltip(GuiScope.SetRoot(Culture.MakeScope).End)]"
