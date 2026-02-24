@@ -227,7 +227,7 @@ language_hornsent_name: "Hornsent"
 #####
 # BackEnd stuff
 #####
- cul_window_tooltip: "Cultural Description"
+ cultural_window_tooltip: "Cultural Description"
 #Window Event GUI
  ELDEN_CUSTOM_DESCRIPTION: "Description:"
  ELDEN_CUSTOM_DESC_SAVE: "Save"
