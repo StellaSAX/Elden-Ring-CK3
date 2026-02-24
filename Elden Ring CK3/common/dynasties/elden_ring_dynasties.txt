@@ -1,4 +1,4 @@
-dynn_erdtree = {
+﻿dynn_erdtree = {
 	name = "dynn_erdtree"
 	culture = "culture_royal_elden_ring"
 	motto = erdtree_motto

@@ -24,3 +24,6 @@ culture_parameter_unlock_maa_banished_knights:0 "Can recruit [GetMaA('banished_k
 
 tradition_crucible_knight_name:0 "Aspects of the crucible"
 tradition_crucible_knight_desc:0 "The Crucible was once the matter where all life blended together, and attuning to it enables one to gain the abilities of beasts and utilize them to their fullest potential. However, there are some who were influenced by its primordial influence at birth and now exhibit physical malformations, be it horns, tails or wings."
+
+tradition_rotborn_name:0 "Rotborn"
+tradition_rotborn_desc:0 "While others quake in fear of it, we see the Rot for what it truly is; a force of nature among a thousand others that gives as much as it takes. Everything must eventually rot, though by learning to channel this divine power we can wield it instead of succumbing to it."
