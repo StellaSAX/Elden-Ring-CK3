@@ -31,7 +31,7 @@ nick_kindling_maiden:0 "the Kindling Maiden"
 nick_lordlady_of_blasphemy:0 "[CHARACTER.GetLadyLord|U] of Blasphemy"
 nick_the_omen_kingqueen:0 "Omen [CHARACTER.Custom('GetQueenKing')|U]"
 nick_twin_moon_knight:0 "Twin Moon Knight"
-nick_kingqueen_of_the_full_moon:0 "[CHARACTER.Custom('GetQueenKing')|U] of the Full Moon"
+nick_kingqueen_of_the_full_moon:0 "of the Full Moon"
 nick_first_elden_lord:0 "First Elden Lord"
 
 elden_ring_nickname_events.0001.et:0 "the Eternal"

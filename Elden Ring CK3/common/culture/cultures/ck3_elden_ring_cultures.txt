@@ -1,4 +1,5 @@
-#base culs
+#REMBEMBER TO ADD TO elden_cult_descs_sgui.txt
+#base cultures
 cul_landsbetween = { 
 	color = { 0.98 0.79 0.24 }
 
@@ -41,7 +42,7 @@ cul_badlands = {
 		tradition_battlefield_looters
 		tradition_only_the_strong
 		tradition_quarrelsome
-		tradition_warrior_cul
+		tradition_warrior_culture
 	}
 
 	name_list = name_list_frankish
@@ -186,7 +187,7 @@ cul_numen = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_cul_blending
+		tradition_culture_blending
 		tradition_religion_blending
 		tradition_diasporic
 	}
@@ -299,7 +300,7 @@ cul_hornsent = {
 	}
 }
 
-#more diverse culs
+#more diverse culs based in the ones above
 cul_limgrave = { 
 	color = { 0.95 0.87 0.06 }
 	parents = { cul_lands_between }
@@ -580,7 +581,7 @@ cul_farum = {
 	traditions = {
 		tradition_dragon_communion
 		tradition_by_the_sword
-		tradition_philosopher_cul
+		tradition_philosopher_culture
 		tradition_ruling_caste
 	}
 
@@ -645,7 +646,7 @@ cul_nox = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_sorcerous_metallurgy
-		tradition_philosopher_cul
+		tradition_philosopher_culture
 		tradition_adaptive_skirmishing
 		tradition_city_keepers
 	}
@@ -680,7 +681,7 @@ cul_frezyhorn = {
 		tradition_frenzied_flame
 		tradition_zealous_people
 		tradition_wetlanders
-		tradition_philosopher_cul
+		tradition_philosopher_culture
 	}
 
 	name_list = name_list_frankish
@@ -843,7 +844,7 @@ cul_caria = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_carian_royal
-		tradition_philosopher_cul
+		tradition_philosopher_culture
 		tradition_wetlanders	
 		tradition_hereditary_hierarchy
 	}
@@ -937,7 +938,7 @@ cul_beast = { #gurranq
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_philosopher_cul
+		tradition_philosopher_culture
 		tradition_faith_bound
 		tradition_frugal_armorsmiths
 		tradition_beast_clergy

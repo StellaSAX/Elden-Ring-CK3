@@ -1,9 +1,9 @@
 ﻿l_english:
-cul_lands_between_group: "Lands Between"
-cul_lands_between_group_collective_noun: "Lands Between"
-cul_lands_between_prefix: "Lands Between"
-cul_lands_between: "Lands Between"
-cul_lands_between_collective_noun: "Lands Between"
+cul_landsbetween_group: "Lands Between"
+cul_landsbetween_group_collective_noun: "Lands Between"
+cul_landsbetween_prefix: "Lands Between"
+cul_landsbetween: "Lands Between"
+cul_landsbetween_collective_noun: "Lands Between"
 
 cul_badlands_group: "Badlander"
 cul_badlands_group_collective_noun: "Badlanders"
@@ -130,11 +130,11 @@ cul_nox_prefix: "Nox"
 cul_nox: "Nox"
 cul_nox_collective_noun: "Nox"
 
-cul_frezy_horn_group: "Frenzied"
-cul_frezy_horn_group_collective_noun: "Frenzied"
-cul_frezy_horn_prefix: "Frenzied"
-cul_frezy_horn: "Frenzied"
-cul_frezy_horn_collective_noun: "Frenzied"
+cul_frezyhorn_group: "Frenzied"
+cul_frezyhorn_group_collective_noun: "Frenzied"
+cul_frezyhorn_prefix: "Frenzied"
+cul_frezyhorn: "Frenzied"
+cul_frezyhorn_collective_noun: "Frenzied"
 
 cul_shaman_group: "Shaman"
 cul_shaman_group_collective_noun: "Shaman"
@@ -142,11 +142,11 @@ cul_shaman_prefix: "Shaman"
 cul_shaman: "Shaman"
 cul_shaman_collective_noun: "Shaman"
 
-cul_royal_group: "Demi-God"
-cul_royal_group_collective_noun: "Demi-Gods"
-cul_royal_prefix: "Demi-God"
-cul_royal: "Demi-God"
-cul_royal_collective_noun: "Demi-Gods"
+cul_royal_group: "Leyndellians"
+cul_royal_group_collective_noun: "Leyndellians"
+cul_royal_prefix: "Leyndellian"
+cul_royal: "Leyndell"
+cul_royal_collective_noun: "Leyndellian"
 
 cul_northerner_group: "Northerner"
 cul_northerner_group_collective_noun: "Northerners"
@@ -187,42 +187,29 @@ cul_beast: "Beastman"
 cul_beast_collective_noun: "Beastmen"
 
 heritage_lands_between_name:0 "Lands Between"
-language_lands_between_name:0 "Lands Between"
-
 heritage_giant_name:0 "Giant"
-language_giant_name:0 "Giant"
-
 heritage_beast_name:0 "Beastman"
-language_beast_name:0 "Beastman"
-
 heritage_eochaid_name:0 "Eochaid"
-language_eochaid_name:0 "Eochaid"
-
 heritage_reedlander_name:0 "Reedlander"
-language_reedlander_name:0 "Reedlander"
-
 heritage_draconian_name:0 "Draconian"
-language_draconian_name:0 "Draconian"
-
 heritage_nightfolk_group_name: "Nightfolk"
-
 heritage_numen_name: "Numen"
-
 heritage_astrologer_name: "Astrologer"
-
 heritage_ancenstral_followers_name: "Ancestral"
-
 heritage_hornsent_name: "Hornsent"
 
+
 language_nightfolk_name: "Nightfolk"
-
 language_numen_name: "Numen"
-
 language_astrologer_name: "Astrologer"
-
 language_ancenstral_followers_name: "Ancestral"
-
 language_hornsent_name: "Hornsent"
+language_draconian_name: "Draconian"
+language_reedlander_name: "Reedlander"
+language_eochaid_name: "Eochaid"
+language_beast_name: "Beastman"
+language_giant_name: "Giant"
+language_lands_between_name: "Lands Between"
 
 
 #####

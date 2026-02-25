@@ -5,36 +5,36 @@ culture_descriptions = {
 		switch = {
 			trigger = root
 			
-			culture:culture_reedlander_elden_ring = { custom_tooltip = culture_reedlander_elden_ring_desc }
-			culture:culture_limgrave_elden_ring = { custom_tooltip = culture_limgrave_elden_ring_desc }
-			culture:culture_lands_between_elden_ring = { custom_tooltip = culture_lands_between_elden_ring_desc }
-			culture:culture_badlands_elden_ring = { custom_tooltip = culture_badlands_elden_ring_desc }
-			culture:culture_giant_elden_ring = { custom_tooltip = culture_giant_elden_ring_desc }
-			culture:culture_draconian_elden_ring = { custom_tooltip = culture_draconian_elden_ring_desc }
-			culture:culture_nightfolk_elden_ring = { custom_tooltip = culture_nightfolk_elden_ring_desc }
-			culture:culture_numen_elden_ring = { custom_tooltip = culture_numen_elden_ring_desc }
-			culture:culture_astrologer_elden_ring = { custom_tooltip = culture_astrologer_elden_ring_desc }
-			culture:culture_ancenstral_followers_elden_ring = { custom_tooltip = culture_ancenstral_followers_elden_ring_desc }
-			culture:culture_hornsent_elden_ring = { custom_tooltip = culture_hornsent_elden_ring_desc }
-			culture:culture_weeping_peninsula_elden_ring = { custom_tooltip = culture_weeping_peninsula_elden_ring_desc }
-			culture:culture_caelid_elden_ring = { custom_tooltip = culture_caelid_elden_ring_desc }
-			culture:culture_altus_elden_ring = { custom_tooltip = culture_altus_elden_ring_desc }
-			culture:culture_gelmir_elden_ring = { custom_tooltip = culture_gelmir_elden_ring_desc }
-			culture:culture_zamor_elden_ring = { custom_tooltip = culture_zamor_elden_ring_desc }
-			culture:culture_messmer_followers_elden_ring = { custom_tooltip = culture_messmer_followers_elden_ring_desc }
-			culture:culture_dragonbarrow_elden_ring = { custom_tooltip = culture_dragonbarrow_elden_ring_desc }
-			culture:culture_farum_azula_elden_ring = { custom_tooltip = culture_farum_azula_elden_ring_desc }
-			culture:culture_jagged_peak_elden_ring = { custom_tooltip = culture_jagged_peak_elden_ring_desc }
-			culture:culture_nox_elden_ring = { custom_tooltip = culture_nox_elden_ring_desc }
-			culture:culture_frezy_hornsent_elden_ring = { custom_tooltip = culture_frezy_hornsent_elden_ring_desc }
-			culture:culture_shaman_elden_ring = { custom_tooltip = culture_shaman_elden_ring_desc }
-			culture:culture_culture_royal_elden_ring = { custom_tooltip = culture_royal_elden_ring_desc }
-			culture:culture_northerner_elden_ring = { custom_tooltip = culture_northerner_elden_ring_desc }
-			culture:culture_liurnia_elden_ring = { custom_tooltip = culture_liurnia_elden_ring_desc }
-			culture:culture_caria_elden_ring = { custom_tooltip = culture_caria_elden_ring_desc }
-			culture:culture_sellia_elden_ring = { custom_tooltip = culture_sellia_elden_ring_desc }
-			culture:culture_eochaid_elden_ring = { custom_tooltip = culture_eochaid_elden_ring_desc }
-			culture:culture_beast_elden_ring = { custom_tooltip = culture_beast_elden_ring_desc }
+			culture:cul_landsbetween = { custom_tooltip = cul_landsbetween_desc }
+			culture:cul_badlands = { custom_tooltip = cul_badlands_desc }
+			culture:cul_giant = { custom_tooltip = cul_giant_desc }
+			culture:cul_reedlander = { custom_tooltip = cul_reedlander_desc }
+			culture:cul_draconian = { custom_tooltip = cul_draconian_desc }
+			culture:cul_nightfolk = { custom_tooltip = cul_nightfolk_desc }
+			culture:cul_numen = { custom_tooltip = cul_numen_desc }
+			culture:cul_astrologer = { custom_tooltip = cul_astrologer_desc }
+			culture:cul_ancenstral_followers = { custom_tooltip = cul_ancenstral_followers_desc }
+			culture:cul_hornsent = { custom_tooltip = cul_hornsent_desc }
+			culture:cul_limgrave = { custom_tooltip = cul_limgrave_desc }
+			culture:cul_weeping_peninsula = { custom_tooltip = cul_weeping_peninsula_desc }
+			culture:cul_caelid = { custom_tooltip = cul_caelid_desc }
+			culture:cul_altus = { custom_tooltip = cul_altus_desc }
+			culture:cul_gelmir = { custom_tooltip = cul_gelmir_desc }
+			culture:cul_zamor = { custom_tooltip = cul_zamor_desc }
+			culture:cul_follow_messmer = { custom_tooltip = cul_follow_messmer_desc }
+			culture:cul_dragonbarrow = { custom_tooltip = cul_dragonbarrow_desc }
+			culture:cul_farum = { custom_tooltip = cul_farum_desc }
+			culture:cul_jagged = { custom_tooltip = cul_jagged_desc }
+			culture:cul_nox = { custom_tooltip = cul_nox_desc }
+			culture:cul_frezyhorn = { custom_tooltip = cul_frezyhorn_desc }
+			culture:cul_shaman = { custom_tooltip = cul_shaman_desc }
+			culture:cul_royal = { custom_tooltip = cul_royal_desc }
+			culture:cul_northerner = { custom_tooltip = cul_northerner_desc }
+			culture:cul_liurnia = { custom_tooltip = cul_liurnia_desc }
+			culture:cul_sellia = { custom_tooltip = cul_sellia_desc }
+			culture:cul_caria = { custom_tooltip = cul_caria_desc }
+			culture:cul_eochaid = { custom_tooltip = cul_eochaid_desc }
+			culture:cul_beast = { custom_tooltip = cul_beast_desc }
 
 			
 

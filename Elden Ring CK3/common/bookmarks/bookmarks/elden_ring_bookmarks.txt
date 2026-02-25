@@ -9,7 +9,7 @@
 
 	character = {
 		name = "bookmark_morgott_elden_ring"
-		dynasty = erdtree
+		dynasty = dynn_erdtree
 		dynasty_splendor_level = 4
 		type = male
 		birth = 400.6.1
@@ -27,7 +27,7 @@
 	
 	character = {
 		name = "bookmark_godrick_elden_ring"
-		dynasty = erdtree
+		dynasty = dynn_erdtree
 		dynasty_splendor_level = 4
 		type = male
 		birth = 800.1.1
@@ -81,7 +81,7 @@
 	
 	character = {
 		name = "bookmark_radahn_elden_ring"
-		dynasty = erdtree
+		dynasty = dynn_erdtree
 		dynasty_splendor_level = 4
 		type = male
 		birth = 265.1.1
@@ -99,7 +99,7 @@
 	
 	character = {
 		name = "bookmark_rennala_elden_ring"
-		dynasty = caria
+		dynasty = dynn_caria
 		dynasty_splendor_level = 4
 		type = female
 		birth = 265.1.1
@@ -146,7 +146,7 @@ bm_867_elden_ring_land_of_shadows = { #lands of shadow
 
 	character = {
 		name = "bookmark_trina_elden_ring"
-		dynasty = slumber
+		dynasty = dynn_slumber
 		dynasty_splendor_level = 1
 		type = female
 		birth = 520.6.1
@@ -164,7 +164,7 @@ bm_867_elden_ring_land_of_shadows = { #lands of shadow
 	
 	character = {
 		name = "bookmark_miquella_elden_ring"
-		dynasty = erdtree
+		dynasty = dynn_erdtree
 		dynasty_splendor_level = 4
 		type = male
 		birth = 520.6.1
@@ -182,7 +182,7 @@ bm_867_elden_ring_land_of_shadows = { #lands of shadow
 	
 	character = {
 		name = "bookmark_messmer_elden_ring"
-		dynasty = erdtree
+		dynasty = dynn_erdtree
 		dynasty_splendor_level = 4
 		type = male
 		birth = 45.1.1
@@ -200,7 +200,7 @@ bm_867_elden_ring_land_of_shadows = { #lands of shadow
 	
 	character = {
 		name = "bookmark_rellana_elden_ring"
-		dynasty = caria
+		dynasty = dynn_caria
 		dynasty_splendor_level = 4
 		type = female
 		birth = 100.1.1
@@ -217,7 +217,7 @@ bm_867_elden_ring_land_of_shadows = { #lands of shadow
 	
 	character = {
 		name = "bookmark_bayle_elden_ring"
-		dynasty = jagged
+		dynasty = dynn_jagged
 		dynasty_splendor_level = 4
 		type = male
 		birth = 1.1.1
@@ -245,7 +245,7 @@ bm_867_elden_ring_meek_or_forgotten = { #smaller importance
 
 	character = {
 		name = "bookmark_placidusax_elden_ring"
-		dynasty = 
+		dynasty = dynn_farum
 		dynasty_splendor_level = 5
 		type = male
 		birth = 1.1.1

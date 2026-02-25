@@ -26,3 +26,12 @@ dragon_events_elden_ring.0003.title:0 "Coming for a Heart"
 dragon_events_elden_ring.0003.desc:0 "after much effort they finally died, i see why they are considered so powerfull, but a lone dragon was no challenge for me, and now i consume their heart."
 dragon_events_elden_ring.0003.i:0 "It fills me with Power!"
 
+ask_dragon_cult_elden_ring_interaction:0 "Learn to Control Lightning"
+teach_dragon_cult_elden_ring_interaction:0 "Teach to Control Lightning"
+ask_dragon_communion_elden_ring_interaction:0 "Learn Dragon Communion"
+teach_dragon_communion_elden_ring_interaction:0 "Teach Dragon Communion"
+
+ask_dragon_cult_elden_ring_interaction_desc:0 "Ask them to teach you to control Lightning like the Dragons do."
+teach_dragon_cult_elden_ring_interaction_desc:0 "Teach them to use the powers of the Ancient Dragon."
+ask_dragon_communion_elden_ring_interaction_desc:0 "Ask them to teach you how to consume the hearts of lesser Dragons."
+teach_dragon_communion_elden_ring_interaction_desc:0 "Teach them how to consume the hearts of lesser Dragons for power."
