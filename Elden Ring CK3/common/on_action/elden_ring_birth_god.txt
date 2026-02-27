@@ -1,23 +1,36 @@
 ﻿on_birth_child = {
     on_actions = {
         on_action_child_birth_god
-		on_action_empyrean_random_birth
+		on_action_special_tarnished_produce_normal_ones
+		on_action_marais_children_born_sick
     }
 }
 
 five_year_everyone_pulse = {
     on_actions = {
         on_action_ai_become_empyrean
+		on_action_gods_or_dragons_immune_to_old_age
     }
 }
 
 on_action_child_birth_god = {
 	effect = {
-		if = { # Both parents are gods
+		if = {
+			limit = {
+				OR = {
+					scope:real_father = {
+						has_godhood_elden_ring = yes
+					}
+					scope:mother = {
+						has_godhood_elden_ring = yes
+					}
+				}
+			}
+			if = { # Both parents are gods
 			limit = {
 				AND = {
 					scope:real_father = {
-						has_trait = god_elden_ring	
+						has_trait = god_elden_ring
 					}
 					scope:mother = {
 						has_trait = god_elden_ring
@@ -35,81 +48,129 @@ on_action_child_birth_god = {
 				}		
 			}
 		}
-		else_if = { # one of the parents is a god
-			limit = {
-				OR = {
-					scope:real_father = {
-						has_trait = god_elden_ring
-					}
-					scope:mother = {
-						has_trait = god_elden_ring
-					}
-				}
-			}
-			add_trait = demigod_elden_ring_4
-		}
-		else_if = { # the blood gets weaker 4->3
-			limit = {
-				OR = {
-					scope:real_father = {
-						has_trait = demigod_elden_ring_4	
-					}
-					scope:mother = {
-						has_trait = demigod_elden_ring_4
+			else_if = { # one of the parents is a god
+				limit = {
+					OR = {
+						scope:real_father = {
+							has_trait = god_elden_ring
+						}
+						scope:mother = {
+							has_trait = god_elden_ring
+						}
 					}
 				}
+				add_trait = demigod_elden_ring_4
 			}
-			add_trait = demigod_elden_ring_3
-		}
-		else_if = { # the blood gets weaker 3->2
-			limit = {
-				OR = {
-					scope:real_father = {
-						has_trait = demigod_elden_ring_3	
-					}
-					scope:mother = {
-						has_trait = demigod_elden_ring_3
+			else_if = { # the blood gets weaker 4->3
+				limit = {
+					OR = {
+						scope:real_father = {
+							has_trait = demigod_elden_ring_4
+						}
+						scope:mother = {
+							has_trait = demigod_elden_ring_4
+						}
 					}
 				}
-			}
-			add_trait = demigod_elden_ring_2
-		}
-		else_if = { # the blood gets weaker 2->1
-			limit = {
-				OR = {
-					scope:real_father = {
-						has_trait = demigod_elden_ring_2	
+				add_trait = demigod_elden_ring_3
+				random_list = {
+					1 = {
+						add_trait = demigod_elden_ring_4
 					}
-					scope:mother = {
-						has_trait = demigod_elden_ring_2
-					}
+					99 = {
+						add_trait = demigod_elden_ring_3
+					}		
 				}
 			}
-			add_trait = demigod_elden_ring_1
+			else_if = { # the blood gets weaker 3->2
+				limit = {
+					OR = {
+						scope:real_father = {
+							has_trait = demigod_elden_ring_3
+						}
+						scope:mother = {
+							has_trait = demigod_elden_ring_3
+						}
+					}
+				}
+				random_list = {
+					1 = {
+						add_trait = demigod_elden_ring_3
+					}
+					99 = {
+						add_trait = demigod_elden_ring_2
+					}		
+				}
+			}
+			else_if = { # the blood gets weaker 2->1
+				limit = {
+					OR = {
+						scope:real_father = {
+							has_trait = demigod_elden_ring_2
+						}
+						scope:mother = {
+							has_trait = demigod_elden_ring_2
+						}
+					}
+				}
+				random_list = {
+					1 = {
+						add_trait = demigod_elden_ring_2
+					}
+					99 = {
+						add_trait = demigod_elden_ring_1
+					}		
+				}
+			}
+			else_if = { # high chance to lose divine blood, but low chance to go big
+				limit = {
+					OR = {
+						scope:real_father = {
+							has_trait = demigod_elden_ring_1
+						}
+						scope:mother = {
+							has_trait = demigod_elden_ring_1
+						}
+					}
+				}
+				random_list = {
+					1 = {
+						add_trait = demigod_elden_ring_4
+					}
+					19 = {
+						add_trait = demigod_elden_ring_1
+					}
+					80 = {
+						
+					}		
+				}
+			}
+		
 		}
+		
 	}
 }
 
 on_action_ai_become_empyrean = {
 	effect = {
-		if = { # king or more that is VERY religious
+		if = { # emperor or more that is VERY religious
 			limit = {
 				AND = {
 					is_independent_ruler = yes
 					NOR = {
 						has_trait = empyrean_elden_ring
-						has_trait = demigod_elden_ring
+						#has_trait = demigod_elden_ring
 						has_trait = god_elden_ring
 					}
-					highest_held_title_tier >= tier_kingdom
-					piety_level >= 4
+					highest_held_title_tier >= tier_empire
+					piety_level >= 5
 				}
 			}
 			random_list = {
-				10 = {
+				5 = {
 					add_trait = empyrean_elden_ring
 				}
-				90 = {
+				95 = {
 				
 				}		
 			}
@@ -118,3 +179,51 @@ on_action_ai_become_empyrean = {
 	}
 }
 
+on_action_gods_or_dragons_immune_to_old_age = {
+	effect = {
+		if = {
+			limit = {
+				OR = {
+					has_godhood_elden_ring = yes
+					has_trait = ancient_dragon_elden_ring
+					has_trait = lesser_dragon_elden_ring
+				}
+				
+			}
+			remove_trait = disfigured
+			remove_trait = incapable
+			remove_trait = cancer
+		}
+				
+	}
+}
+
+on_action_special_tarnished_produce_normal_ones = {
+	effect = {
+		if = {
+			limit = {
+				OR = {
+					scope:real_father = {
+						has_trait = special_tarnished
+					}
+					scope:mother = {
+						has_trait = special_tarnished
+					}
+				}
+			}
+			add_trait = tarnished_elden_ring			
+		}
+	}
+}
+
+on_action_marais_children_born_sick = {
+	effect = {
+		if = {
+			limit = {
+				is_male = yes
+				dynasty = dynasty:dynn_marais
+			}
+			add_trait = sickly			
+		}
+	}
+}

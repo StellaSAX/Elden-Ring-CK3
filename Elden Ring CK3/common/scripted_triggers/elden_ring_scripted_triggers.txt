@@ -39,3 +39,16 @@ has_affinity_elden_ring = {
 	}
 
 }
+
+has_godhood_elden_ring = {
+	OR = {
+		has_trait = god_elden_ring
+		has_trait = demigod_elden_ring_4
+		has_trait = demigod_elden_ring_3
+		has_trait = demigod_elden_ring_2
+		has_trait = demigod_elden_ring_1
+		has_trait = tarnished_elden_ring #the blood of the elden lord
+		has_trait = special_tarnished
+	}
+
+}

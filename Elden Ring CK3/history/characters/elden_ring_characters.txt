@@ -61,28 +61,21 @@ marika = {
 		}
 	}
 	20.1.1 = {
-		effect = {
-			add_trait = god_elden_ring
-		}
+		add_trait = god_elden_ring
 	}
 	50.1.1 = {
-		effect = {
-			#add_spouse = hoarah_loux
-		}
+		add_spouse = hoarah_loux
 	}
 	500.1.1 = {
-		effect = {
-			remove_spouse = hoarah_loux
-		}
+		remove_spouse = hoarah_loux
 	}
 	501.2.1 = {
-		effect = {
-			#add_spouse = radagon
-		}
+
+		add_spouse = radagon
 	}
-	1200.5.25 = {
+	800.5.25 = {
 		death = {
-			death_reason = death_imprisoned_in_dynn_erdtree
+			death_reason = death_imprisoned_in_erdtree
 		}
 	}
 }
@@ -126,7 +119,7 @@ radagon = {
 			add_character_flag = do_not_generate_starting_family
 		}
 	}
-	1200.5.25 = {
+	800.5.25 = {
 		death = {
 			death_reason = death_went_missing_elden_ring
 		}
@@ -168,6 +161,7 @@ rennala = {
 	give_nickname = nick_kingqueen_of_the_full_moon
 	religion = faith_moons	
 	culture = cul_caria
+	
 	trait = intellect_good_3
 	trait = demigod_elden_ring_4
 	trait = lifestyle_mystic
@@ -177,6 +171,8 @@ rennala = {
 	trait = chaste
 	trait = twin
 	trait = glintstone_affinity
+	trait = no_marry
+	
 	disallow_random_traits = yes
 	mother = carian_family
 	add_matrilineal_spouse = radagon
@@ -195,15 +191,13 @@ rennala = {
 		}
 	}
 	250.1.1 = {
-		effect = {
-			add_spouse = radagon
-		}
+		add_spouse = radagon
 	}
 	500.1.1 = {
 		effect = {
-			remove_spouse = radagon
 			add_trait = lunatic_1
 		}
+		remove_spouse = radagon
 	}
 	1200.5.25 = {
 		death = yes
@@ -233,6 +227,7 @@ rellana = {
 	
 	religion = faith_messmer	
 	culture = cul_caria
+	
 	trait = demigod_elden_ring_4
 	trait = twin
 	trait = education_martial_4
@@ -240,6 +235,8 @@ rellana = {
 	trait = patient
 	trait = brave
 	trait = glintstone_affinity
+	trait = no_marry
+	
 	disallow_random_traits = yes
 	mother = carian_family
 	100.1.1 = {
@@ -268,6 +265,7 @@ hoarah_loux = {
 	
 	religion = faith_golden	
 	culture = cul_badlands
+	
 	trait = education_martial_5
 	trait = brave
 	trait = ambitious
@@ -275,6 +273,8 @@ hoarah_loux = {
 	trait = physique_good_3
 	trait = demigod_elden_ring_4
 	trait = tarnished_elden_ring
+	trait = no_marry
+	
 	disallow_random_traits = yes
 	
 	portrait_override = {	
@@ -318,6 +318,7 @@ morgott = {
 	trait = omen_horn_trait
 	trait = twin
 	trait = order_affinity
+	trait = no_marry
 	
 	portrait_override = {	
 		portrait_modifier_overrides={
@@ -366,6 +367,8 @@ mohg = {
 	trait = zealous
 	trait = ambitious
 	trait = blood_affinity
+	trait = no_marry
+	
 	disallow_random_traits = yes
 	father = hoarah_loux
 	mother = marika
@@ -413,6 +416,8 @@ godwyn = {
 	trait = gregarious
 	trait = forgiving
 	trait = lightning_affinity
+	trait = no_marry
+	
 	disallow_random_traits = yes
 	father = hoarah_loux
 	mother = marika
@@ -431,9 +436,7 @@ godwyn = {
 		}
 	}
 	150.1.1 = {
-		effect = {
-			NICKNAME_ID = nick_the_golden
-		}
+
 	}
 	800.1.25 = {
 		death = yes
@@ -464,6 +467,8 @@ ranni = {
 	trait = intellect_good_2
 	trait = beauty_good_3
 	trait = ice_affinity
+	trait = no_marry
+	
 	disallow_random_traits = yes
 	father = radagon
 	mother = rennala
@@ -509,7 +514,12 @@ radahn = {
 	trait = diligent
 	trait = brave
 	trait = gravity_affinity
+	trait = no_marry
+	
 	disallow_random_traits = yes
+	
+	trait = scarled_rot
+	
 	father = radagon
 	mother = rennala
 	
@@ -564,6 +574,8 @@ rykard = {
 	trait = ambitious
 	trait = sadistic
 	trait = fire_affinity
+	trait = no_marry
+	
 	disallow_random_traits = yes
 	father = radagon
 	mother = rennala
@@ -603,6 +615,8 @@ melina = {
 	trait = content
 	trait = beauty_good_1
 	trait = fire_affinity
+	trait = no_marry
+	
 	disallow_random_traits = yes
 	mother = marika
 	
@@ -646,6 +660,8 @@ messmer = {
 	trait = arrogant
 	trait = depressed_1
 	trait = fire_affinity
+	trait = no_marry
+	
 	disallow_random_traits = yes
 	mother = marika
 	
@@ -692,6 +708,8 @@ miquella = {
 	trait = gregarious
 	trait = compassionate
 	trait = order_affinity
+	trait = no_marry
+	
 	mother = marika
 	father = radagon
 	
@@ -744,6 +762,8 @@ trina = {
 	trait = maimed
 	trait = twin
 	trait = sleep_affinity
+	trait = no_marry
+	
 	disallow_random_traits = yes
 	mother = marika
 	father = radagon
@@ -771,10 +791,10 @@ malenia = {
 	female = yes
 	dna = malenia_dna
 	sexuality = bisexual
-	dynasty_house = house_malenia_erdtree
-	#dynasty = dynn_erdtree
+	#dynasty_house = house_malenia_erdtree
+	dynasty = dynn_erdtree
 	give_nickname = nick_blade_of_miquella
-	set_house = house_malenia_erdtree
+	#set_house = house_malenia_erdtree
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
@@ -792,6 +812,10 @@ malenia = {
 	trait = twin
 	trait = rot_affinity
 	trait = blind
+	trait = no_marry
+	
+	trait = scarled_rot
+	
 	disallow_random_traits = yes
 	
 	portrait_override = {	
@@ -945,7 +969,10 @@ godrick = {
 	trait = arrogant
 	trait = craven
 	trait = sadistic
-	trait = order_affinity
+	#trait = order_affinity he didn't show any order skills, he actually showed wind
+	trait = grafted
+	trait = no_marry
+	
 	disallow_random_traits = yes
 	father = godefroy
 	
@@ -988,6 +1015,8 @@ nepheli_loux = {
 	trait = education_martial_4
 	trait = physique_good_1
 	trait = beauty_good_1
+	trait = no_marry
+	
 	father = tarnished_3
 	820.1.1 = {
 		birth = yes
@@ -1006,6 +1035,7 @@ millicent = {
 	##dna = marika_dna
 	sexuality = bisexual
 	dynasty_house = house_malenia_erdtree
+	
 	#dynasty = dynn_erdtree
 	set_house = house_malenia_erdtree
 	martial = 10
@@ -1022,6 +1052,10 @@ millicent = {
 	trait = temperate
 	trait = trusting
 	trait = rot_affinity
+	trait = no_marry
+	
+	trait = scarled_rot
+	
 	disallow_random_traits = yes
 
 	mother = malenia
@@ -1059,6 +1093,10 @@ polyanna = {
 	disallow_random_traits = yes
 	trait = rot_affinity
 	trait = one_eyed
+	trait = no_marry
+	
+	trait = scarled_rot
+	
 	mother = malenia
 	830.1.15 = {
 		birth = yes
@@ -1094,6 +1132,10 @@ amy = {
 	trait = callous
 	trait = rot_affinity
 	trait = blind
+	trait = no_marry
+	
+	trait = scarled_rot
+	
 	mother = malenia
 	830.1.10 = {
 		birth = yes
@@ -1129,6 +1171,10 @@ maureen = {
 	trait = callous
 	trait = rot_affinity
 	trait = one_eyed
+	trait = no_marry
+	
+	trait = scarled_rot
+	
 	mother = malenia
 	830.1.5 = {
 		birth = yes
@@ -1164,6 +1210,10 @@ mary = {
 	trait = callous
 	trait = rot_affinity
 	trait = blind
+	trait = no_marry
+	
+	trait = scarled_rot
+	
 	mother = malenia
 	830.1.1 = {
 		birth = yes
@@ -1197,6 +1247,7 @@ zorayas = {
 	trait = education_diplomacy_3
 	trait = scaly
 	trait = hunchbacked
+	trait = no_marry
 	
 	disallow_random_traits = yes
 	father = rykard
@@ -1231,6 +1282,7 @@ bayle  = {
 	trait = callous
 	trait = wrathful
 	trait = maimed
+	trait = no_marry
 	
 	disallow_random_traits = yes
 	
@@ -1264,6 +1316,7 @@ placidusax  = {
 	trait = zealous
 	trait = trusting
 	trait = maimed
+	trait = no_marry
 	
 	disallow_random_traits = yes
 	
@@ -1294,6 +1347,7 @@ haight  = {
 	trait = content
 	trait = zealous
 	trait = arrogant
+	
 	
 	disallow_random_traits = yes
 	
@@ -1426,6 +1480,8 @@ maliketh = {
 	trait = brave
 	trait = diligent
 	trait = death_affinity
+	trait = no_marry
+	
 	disallow_random_traits = yes
 	
 	1.1.1 = {
