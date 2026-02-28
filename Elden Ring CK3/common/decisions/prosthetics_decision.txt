@@ -1,10 +1,8 @@
 ﻿wear_prosthesis_decision = {
     picture = {
-        reference = ep2_hunt_snowy_forest
-    }
+		reference = "gfx/interface/illustrations/decisions/decision_smith.dds"
+	}
     desc = wear_prosthesis_decision_desc
-    decision_group_type = major
-    major = yes
 
     is_shown = {
         has_trait = nugget
@@ -37,11 +35,9 @@
 
 remove_prosthesis_decision = {
     picture = {
-        reference = ep2_hunt_snowy_forest
-    }
+		reference = "gfx/interface/illustrations/decisions/decision_smith.dds"
+	}
     desc = remove_prosthesis_decision_desc
-    decision_group_type = major
-    major = yes
 
     is_shown = {
         has_character_modifier = prosthesis_modifier
