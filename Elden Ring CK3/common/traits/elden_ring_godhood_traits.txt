@@ -1,7 +1,7 @@
 ﻿
 god_elden_ring = {
 	category = health
-	icon = "god_elden_ring.dds"
+	icon = "god.dds"
 	#shown_in_ruler_designer = no
 	ruler_designer_cost = 1000
 	same_opinion = -100
@@ -199,7 +199,7 @@ empyrean_elden_ring = {
 
 eternal_youth_elden_ring = {
 	category = health
-	icon = "eternal_youth_elden_ring.dds"
+	icon = "eternal_youth.dds"
 	shown_in_ruler_designer = no
 	ruler_designer_cost = 250
 	#immortal = yes
@@ -286,67 +286,37 @@ grafted = {
 
 	ruler_designer_cost = 20
 
-	# Loc
-	name = {
-		first_valid = {
-			#Legendary Blademaster
-			triggered_desc = {
-				trigger = {
-					exists = this
-					has_trait_xp = {
-						trait = lifestyle_blademaster
-						value >= 100
-					}
-				}
-				desc = trait_blademaster_3
-			}
-			#Blademaster
-			triggered_desc = {
-				trigger = { 
-					exists = this
-					has_trait_xp = {
-						trait = lifestyle_blademaster
-						value >= 50
-					}
-				}
-				desc = trait_blademaster_2
-			}
-			#Aspiring Blademaster
-			desc = trait_blademaster_1
-		}
-	}
-
-	# Loc
-	desc = {
-		first_valid = {
-			#The trait can never go higher than the first level if it's not assigned to a character
-			triggered_desc = {
-				trigger = { 
-					NOT = { exists = this } 
-				}
-				desc = trait_blademaster_1_desc
-			}
-			triggered_desc = {
-				trigger = { 
-					has_trait_xp = {
-						trait = lifestyle_blademaster
-						value >= 100
-					}
-				}
-				desc = trait_blademaster_3_character_desc
-			}
-			triggered_desc = {
-				trigger = { 
-					has_trait_xp = {
-						trait = lifestyle_blademaster
-						value >= 50
-					}
-				}
-				desc = trait_blademaster_2_character_desc
-			}
-			desc = trait_blademaster_1_character_desc
-		}
-	}
+	# # Loc
+	# desc = {
+		# first_valid = {
+			# #The trait can never go higher than the first level if it's not assigned to a character
+			# triggered_desc = {
+				# trigger = { 
+					# NOT = { exists = this } 
+				# }
+				# desc = trait_blademaster_1_desc
+			# }
+			# triggered_desc = {
+				# trigger = { 
+					# has_trait_xp = {
+						# trait = lifestyle_blademaster
+						# value >= 100
+					# }
+				# }
+				# desc = trait_blademaster_3_character_desc
+			# }
+			# triggered_desc = {
+				# trigger = { 
+					# has_trait_xp = {
+						# trait = lifestyle_blademaster
+						# value >= 50
+					# }
+				# }
+				# desc = trait_blademaster_2_character_desc
+			# }
+			# desc = trait_blademaster_1_character_desc
+		# }
+	# }
 
 	compatibility = {
 		brave = @neg_compat_low
@@ -466,66 +436,66 @@ perfumer = {
 	ruler_designer_cost = 20
 
 	# Loc
-	name = {
-		first_valid = {
-			#Legendary Blademaster
-			triggered_desc = {
-				trigger = {
-					exists = this
-					has_trait_xp = {
-						trait = lifestyle_blademaster
-						value >= 100
-					}
-				}
-				desc = trait_blademaster_3
-			}
-			#Blademaster
-			triggered_desc = {
-				trigger = { 
-					exists = this
-					has_trait_xp = {
-						trait = lifestyle_blademaster
-						value >= 50
-					}
-				}
-				desc = trait_blademaster_2
-			}
-			#Aspiring Blademaster
-			desc = trait_blademaster_1
-		}
-	}
+	# name = {
+		# first_valid = {
+			# #Legendary Blademaster
+			# triggered_desc = {
+				# trigger = {
+					# exists = this
+					# has_trait_xp = {
+						# trait = lifestyle_blademaster
+						# value >= 100
+					# }
+				# }
+				# desc = trait_blademaster_3
+			# }
+			# #Blademaster
+			# triggered_desc = {
+				# trigger = { 
+					# exists = this
+					# has_trait_xp = {
+						# trait = lifestyle_blademaster
+						# value >= 50
+					# }
+				# }
+				# desc = trait_blademaster_2
+			# }
+			# #Aspiring Blademaster
+			# desc = trait_blademaster_1
+		# }
+	# }
 
-	# Loc
-	desc = {
-		first_valid = {
-			#The trait can never go higher than the first level if it's not assigned to a character
-			triggered_desc = {
-				trigger = { 
-					NOT = { exists = this } 
-				}
-				desc = trait_blademaster_1_desc
-			}
-			triggered_desc = {
-				trigger = { 
-					has_trait_xp = {
-						trait = lifestyle_blademaster
-						value >= 100
-					}
-				}
-				desc = trait_blademaster_3_character_desc
-			}
-			triggered_desc = {
-				trigger = { 
-					has_trait_xp = {
-						trait = lifestyle_blademaster
-						value >= 50
-					}
-				}
-				desc = trait_blademaster_2_character_desc
-			}
-			desc = trait_blademaster_1_character_desc
-		}
-	}
+	# # Loc
+	# desc = {
+		# first_valid = {
+			# #The trait can never go higher than the first level if it's not assigned to a character
+			# triggered_desc = {
+				# trigger = { 
+					# NOT = { exists = this } 
+				# }
+				# desc = trait_blademaster_1_desc
+			# }
+			# triggered_desc = {
+				# trigger = { 
+					# has_trait_xp = {
+						# trait = lifestyle_blademaster
+						# value >= 100
+					# }
+				# }
+				# desc = trait_blademaster_3_character_desc
+			# }
+			# triggered_desc = {
+				# trigger = { 
+					# has_trait_xp = {
+						# trait = lifestyle_blademaster
+						# value >= 50
+					# }
+				# }
+				# desc = trait_blademaster_2_character_desc
+			# }
+			# desc = trait_blademaster_1_character_desc
+		# }
+	# }
 
 	compatibility = {
 		brave = @neg_compat_low

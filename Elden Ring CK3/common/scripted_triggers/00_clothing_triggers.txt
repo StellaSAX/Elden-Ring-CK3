@@ -449,11 +449,11 @@ portrait_wear_no_crown_trigger = { # Rulers should be coronated to wear a crown 
 portrait_wear_christian_holy_order_trigger = { # Christian holy order members/vassals should wear different armor
 	OR = {
 		AND = { # Is a Christian holy order member
-			religion = religion:christianity_religion
+			#religion = religion:christianity_religion
 			government_has_flag = government_is_holy_order
 		}
 		AND = { # Is a Christian holy order vassal
-			religion = religion:christianity_religion
+			#religion = religion:christianity_religion
 			is_playable_character = no
 			portrait_wear_armor_trigger = yes
 			liege ?= {  government_has_flag = government_is_holy_order }
@@ -751,12 +751,12 @@ portrait_fp2_iberian_christian_clothing_spouse_trigger = {
 			CULTURE_SCOPE = culture
 			CULTURE_FLAG = iberian_christian
 		}
-		AND = {
-			religion = religion:christianity_religion
-			capital_province ?= {
-				geographical_region = world_europe_west_iberia
-			}
-		}
+		# AND = {
+			# #religion = religion:christianity_religion
+			# capital_province ?= {
+				# geographical_region = world_europe_west_iberia
+			# }
+		# }
 	}
 }
 
@@ -2212,12 +2212,12 @@ portrait_war_nobles_helmet_trigger = {
 	}
 	portrait_$CULTURE_INPUT$_clothing_trigger = yes
 	NOR = {
+		# AND = {
+			# religion = religion:christianity_religion
+			# government_has_flag = government_is_holy_order
+		# }
 		AND = {
-			religion = religion:christianity_religion
-			government_has_flag = government_is_holy_order
-		}
-		AND = {
-			religion = religion:christianity_religion
+			#religion = religion:christianity_religion
 			is_playable_character = no
 			portrait_wear_armor_trigger = yes
 			liege ?= {
@@ -2225,7 +2225,7 @@ portrait_war_nobles_helmet_trigger = {
 			}
 		}
 		AND = {
-			religion = religion:christianity_religion
+			#religion = religion:christianity_religion
 			portrait_wear_armor_trigger = yes
 			OR = {
 				any_character_war = {
@@ -2274,11 +2274,11 @@ portrait_western_crusades_trigger = {
 	exists = this
 	OR = {
 		AND = {
-			religion = religion:christianity_religion
+			#religion = religion:christianity_religion
 			government_has_flag = government_is_holy_order
 		}
 		AND = {
-			religion = religion:christianity_religion
+			#religion = religion:christianity_religion
 			is_playable_character = no
 			portrait_wear_armor_trigger = yes
 			liege ?= {
@@ -2286,7 +2286,7 @@ portrait_western_crusades_trigger = {
 			}
 		}
 		AND = {
-			religion = religion:christianity_religion
+			#religion = religion:christianity_religion
 			portrait_wear_armor_trigger = yes
 			OR = {
 				any_character_war = {
@@ -2470,7 +2470,7 @@ portrait_iconoclast_high_trigger = {
 	exists = this
 	AND = {
 		faith = { has_doctrine = tenet_aniconism }
-		faith = { religion_tag = christianity_religion }
+		#faith = { religion_tag = christianity_religion }
 	}
 	OR = {
 		has_character_flag = need_priest_outfit
@@ -2559,7 +2559,7 @@ portrait_religious_head_popes_trigger = {
 		AND = {
 			faith = faith:catholic
 			is_adult = yes
-			religion = religion:christianity_religion
+			#religion = religion:christianity_religion
 			primary_title ?= {
 				is_head_of_faith = yes
 			}
@@ -2603,7 +2603,7 @@ portrait_religious_faith_or_foundational_trigger = {
 }
 
 portrait_religious_christian_trigger = {
-	religion = religion:christianity_religion
+	#religion = religion:christianity_religion
 }
 
 portrait_religious_catholic_trigger = {
