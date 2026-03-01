@@ -181,3 +181,15 @@ trait_spiral_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an A
 
 trait_nugget:0 "Nugget"
 trait_nugget_character_desc:0 "Whether lost in battle or ill fortune, [ROOT.GetCharacter.GetFirstNameNoTooltip] is without both leg and arm."
+
+trait_tarnished_elden_ring:0 "Tarnished"
+
+trait_grafted:0 "Grafted"
+
+trait_scarled_rot:0 "Scarlet Rot"
+
+trait_no_marry:0 "Refusing Marriage"
+
+trait_perfumer:0 "Perfumer"
+
+trait_special_tarnished:0 "Renowned Tarnished"

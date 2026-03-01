@@ -59,7 +59,7 @@ marika = {
 		}
 	}
 	20.1.1 = {
-		add_trait = god_elden_ring
+		trait = god_elden_ring
 	}
 	50.1.1 = {
 		add_spouse = hoarah_loux

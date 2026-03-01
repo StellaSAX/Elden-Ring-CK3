@@ -390,7 +390,7 @@ no_marry = {
 
 perfumer = {
 	category = lifestyle
-	icon = "inbred.dds"
+	icon = "perfumer.dds"
 	#the idea is that at the most basic level they are healers, but the higher the trait level, the more horrible work they do
 	learning = 3
 	negate_health_penalty_add = 1
