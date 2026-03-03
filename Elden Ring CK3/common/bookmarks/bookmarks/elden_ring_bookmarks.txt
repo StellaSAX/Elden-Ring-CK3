@@ -63,7 +63,7 @@
 	
 	character = {
 		name = "bookmark_malenia_elden_ring"
-		dynasty_house = house_malenia_erdtree
+		dynasty = dynn_erdtree
 		dynasty_splendor_level = 4
 		type = female
 		birth = 520.1.1
@@ -81,7 +81,7 @@
 	
 	character = {
 		name = "bookmark_radahn_elden_ring"
-		dynasty = dynn_erdtree
+		dynasty = dynn_golden_order
 		dynasty_splendor_level = 4
 		type = male
 		birth = 265.1.1

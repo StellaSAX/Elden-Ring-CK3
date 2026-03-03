@@ -7,6 +7,12 @@
  TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME_DEFINITE_FORM:0 "the $NAME$ $TIER|U$ #F ($BASE_NAME$) #!"
  TITLE_TIER_AS_NAME:0 "$TIER|U$"
  
+ dragonlord_e:0 "Dragonlord"
+ dragonlady_e:0 "Dragonlady"
+ 
+ dragonlord_k:0 "Dragonlord"
+ dragonlady_k:0 "Dragonlady"
+ 
  d_R109G206B144:0 "Western Weeping Peninsula"
  c_R125G179B212:0 "Forest Lookout"
  b_R151G119B226:0 "Placeholder"
@@ -87,8 +93,7 @@
  b_R40G116B88:0 "Bridge Garrison"
  b_R21G165B219:0 "Northern Weeping Coast"
  
-
-
+ 
  e_underground:0 "Underground"
  k_deeproot_depths:0 "Deeproots Depths"
  d_deeproot_depths:0 "Deeproots Depths"

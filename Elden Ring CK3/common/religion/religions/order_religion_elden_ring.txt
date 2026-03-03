@@ -42,8 +42,8 @@
 	doctrine = doctrine_no_anointment
 
 	traits = {
-		virtues = { brave just honest }
-		sins = { craven arbitrary deceitful }
+		virtues = { brave just }
+		sins = { craven arbitrary }
 	}
 
 	custom_faith_icons = {
@@ -230,16 +230,13 @@
 			holy_site = isolated_divine_tower
 
 			
-			doctrine = tenet_literalism
+			doctrine = tenet_legalism
 			doctrine = tenet_unrelenting_faith
-			doctrine = tenet_pentarchy
-			doctrine = tenet_no_mind
+			doctrine = tenet_golden_order
+			doctrine = tenet_religious_legal_pronouncements
 		}
 		faith_unalloyed = {
 			color = { 0.99 0.99 0.0 }
-			#reformed_icon = pagan_reformed
-
-			#doctrine = unreformed_faith_doctrine
 
 			holy_site = haligtree
 			holy_site = west_altus_divine_tower
@@ -248,17 +245,14 @@
 			holy_site = limgrave_divine_tower
 			holy_site = caelid_divine_tower
 			holy_site = isolated_divine_tower
-
-			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			
+			doctrine = tenet_rite
+			doctrine = tenet_unalloyed_order
+			doctrine = tenet_pacifism
+			doctrine = tenet_pastoral_isolation		
 		}
 		faith_kind = {
 			color = { 0.9 0.9 0.5 }
-			#reformed_icon = pagan_reformed
-
-			#doctrine = unreformed_faith_doctrine
 
 			holy_site = haligtree
 			holy_site = enir_illim
@@ -266,10 +260,10 @@
 			holy_site = castle_ensis
 			holy_site = shadow_keep
 
-			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_rite
+			doctrine = tenet_unalloyed_order
+			doctrine = tenet_pursuit_of_power
+			doctrine = tenet_struggle_submission
 		}		
 		faith_fundamentalism = {
 			color = { 0.5 0.5 0.05 }
@@ -288,7 +282,8 @@
 			doctrine = tenet_literalism
 			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_legalism
-			doctrine = tenet_no_mind
+			doctrine = tenet_golden_order
+			
 		}
 		faith_perfect = {
 			color = { 0.7 0.7 0.05 }
@@ -304,9 +299,10 @@
 			holy_site = isolated_divine_tower
 
 			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_literalism
+			doctrine = tenet_legalism
+			doctrine = tenet_pursuit_of_knowledge
+			doctrine = tenet_golden_order
 		}
 		faith_despair = {
 			color = { 0.9 0.7 0.7 }
@@ -322,16 +318,15 @@
 			holy_site = isolated_divine_tower
 
 			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_adorcism
+			doctrine = tenet_fp3_fedayeen
+			doctrine = tenet_primordial_curse 
+			doctrine = tenet_exaltation_of_pain
 		}
 		faith_stars = {
 			color = { 0.3 0.1 0.9 }
-			#reformed_icon = pagan_reformed
 			icon = moons_faith
-			#doctrine = unreformed_faith_doctrine
-
+			
 			holy_site = caria_manor
 			holy_site = west_altus_divine_tower
 			holy_site = east_altus_divine_tower
@@ -340,17 +335,16 @@
 			holy_site = caelid_divine_tower
 			holy_site = isolated_divine_tower
 
-			#Generic pagan tenets
+			
 			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_glintstone
+			doctrine = tenet_sacred_shadows
+			doctrine = tenet_destroy_golden_order
 		}
 		faith_death_prince = {
 			color = { 0.1 0.1 0.1 }
-			#reformed_icon = pagan_reformed
 			icon = death_order
-			#doctrine = unreformed_faith_doctrine
-
+			
 			holy_site = deeproot
 			holy_site = castle_sol
 			holy_site = west_altus_divine_tower
@@ -360,35 +354,28 @@
 			holy_site = caelid_divine_tower
 			holy_site = isolated_divine_tower
 			
-
-			doctrine = tenet_literalism
+			doctrine = tenet_sacred_shadows
 			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_fp3_fedayeen
-			doctrine = tenet_no_mind
+			doctrine = tenet_live_in_death
 		}
 		faith_dragon_cult = {
 			color = { 0.9 0.6 0.1 }
-			#reformed_icon = pagan_reformed
-
-			#doctrine = unreformed_faith_doctrine
-
+			
 			holy_site = farum_azula
 			holy_site = leyndell_capital
 			holy_site = grand_altar_dragon
 			holy_site = dragon_church
 			holy_site = dragon_cathedral
 
-			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_adaptive
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_golden_order
+			doctrine = tenet_dragon_cult
 		}
 		faith_messmer = {
 			color = { 0.9 0.5 0.0 }
-			#reformed_icon = pagan_reformed
-
-			#doctrine = unreformed_faith_doctrine
-
+			
 			holy_site = leyndell_capital
 			holy_site = castle_ensis
 			holy_site = scadutree_base
@@ -396,10 +383,10 @@
 			holy_site = east_altus_divine_tower
 			holy_site = shadow_keep
 
-			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_warmonger
+			doctrine = tenet_exaltation_of_pain
+			doctrine = tenet_sacred_destruction		
+			doctrine = tenet_golden_exile
 		}
 		faith_st_trina = {
 			color = { 0.7 0.1 0.7 }
@@ -413,9 +400,10 @@
 			holy_site = enir_illim
 			
 			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_no_mind
+			doctrine = tenet_esotericism
+			doctrine = tenet_st_trinas_blessing
+			doctrine = tenet_unalloyed_order
 		}
 		
 	}

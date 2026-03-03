@@ -1,0 +1,37 @@
+﻿dragonlord_e = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 282
+	titles = { k_dread_dragon e_farum_azula }
+	traits = { ancient_dragon_elden_ring lesser_dragon_elden_ring }
+}
+dragonlady_e = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 282
+	titles = { k_dread_dragon e_farum_azula }
+	traits = { ancient_dragon_elden_ring lesser_dragon_elden_ring }
+}
+
+dragonlord_k = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 282
+	titles = { k_dread_dragon e_farum_azula }
+	traits = { ancient_dragon_elden_ring lesser_dragon_elden_ring }
+}
+dragonlady_k = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 282
+	titles = { k_dread_dragon e_farum_azula }
+	traits = { ancient_dragon_elden_ring lesser_dragon_elden_ring }
+}

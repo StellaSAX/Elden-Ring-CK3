@@ -226,10 +226,10 @@
 			holy_site = belurat
 			
 			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
-			doctrine = tenet_primordial_curse
+			doctrine = tenet_sacrificial_ceremonies
+			doctrine = tenet_communal_identity
+			doctrine = tenet_mystical_birthright
+			doctrine = tenet_great_spiral
 		}
 		faith_shaman = {
 			color = { 0.2 0.9 0.2 }
@@ -242,10 +242,10 @@
 			holy_site = shaman_village
 			holy_site = enir_illim
 
-			#Generic pagan tenets
 			doctrine = tenet_astrology
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_pastoral_isolation
 		}
 		faith_crucible = {
 			color = { 0.6 0.8 0.4 }
@@ -260,7 +260,7 @@
 			holy_site = haligtree
 
 			#Generic pagan tenets
-			doctrine = tenet_astrology
+			doctrine = tenet_adaptive
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_primordial_curse
@@ -275,12 +275,14 @@
 			holy_site = dragon_church
 			holy_site = dragon_cathedral
 			holy_site = grand_altar_dragon
+			
+			#for them to be friendly with dragon cult
+			doctrine = special_doctrine_is_dragon_faith
 
-			#Generic pagan tenets
-			doctrine = tenet_astrology
+			doctrine = tenet_communal_identity
+			doctrine = tenet_pursuit_of_power
 			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
-			doctrine = tenet_primordial_curse
+			doctrine = tenet_ancient_dragon
 		}
 		faith_bayle_dragon = {
 			color = { 0.9 0.7 0.7 }
@@ -294,10 +296,10 @@
 			holy_site = jagged_peak
 
 			#Generic pagan tenets
-			doctrine = tenet_astrology
+			doctrine = tenet_mountain_worship
+			doctrine = tenet_pursuit_of_power
 			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
-			doctrine = tenet_primordial_curse
+			doctrine = tenet_bayle_dragon
 		}
 		faith_ancestor_spirit = {
 			color = { 0.1 0.8 0.8 }
@@ -310,10 +312,10 @@
 			holy_site = haligtree
 			holy_site = regal_spirit
 			holy_site = ancestor_spirit
+			
+			
 			doctrine = tenet_primordial_curse
-
-			#Generic pagan tenets
-			doctrine = tenet_astrology
+			doctrine = tenet_pastoral_isolation
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_sanctity_of_nature
 		}

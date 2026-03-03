@@ -30,10 +30,7 @@
 		is_independent_ruler = yes
         is_landed = yes
 		piety_level >= high_piety_level
-		OR = {
-			has_trait = demigod_elden_ring
-			has_trait = empyrean_elden_ring
-		}
+		has_godhood_elden_ring = yes
 	}
 
 	is_valid_showing_failures_only = {

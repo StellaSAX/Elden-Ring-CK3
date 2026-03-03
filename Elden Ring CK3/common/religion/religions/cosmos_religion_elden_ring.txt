@@ -217,9 +217,7 @@
 	faiths = {
 		faith_moons = {
 			color = { 0.2 0.2 0.6 }
-			#reformed_icon = pagan_reformed
 			icon = moons_faith
-			#doctrine = unreformed_faith_doctrine
 
 			holy_site = star_gazer_ruin
 			holy_site = caria_manor
@@ -227,16 +225,14 @@
 			holy_site = sellia_sorcery
 			holy_site = liurnia_divine_tower
 
-			#Generic pagan tenets
 			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_glintstone	
+			doctrine = tenet_pursuit_of_knowledge
+			doctrine = tenet_golden_order_syncretism
 		}
 		faith_primeval = {
 			color = { 0.0 0.0 0.9 }
-			#reformed_icon = primeval_faith
 			icon = primeval_faith
-			#doctrine = unreformed_faith_doctrine
 			reformed_icon = primeval_faith
 
 			doctrine = unreformed_faith_doctrine
@@ -248,33 +244,30 @@
 			holy_site = sorcerer_azur
 			holy_site = astel
 
-			#Generic pagan tenets
 			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_glintstone
+			doctrine = tenet_pursuit_of_knowledge
+			doctrine = tenet_sacrificial_ceremonies
 		}
 		faith_academy = {
 			color = { 0.1 0.1 0.5 }
-			#reformed_icon = academy_faith
 			icon = academy_faith
-			#doctrine = unreformed_faith_doctrine
-
+			
 			holy_site = star_gazer_ruin
 			holy_site = caria_manor
 			holy_site = raya_lucaria
 			holy_site = sellia_sorcery
 			holy_site = sorcerer_azur
 			holy_site = manus_metyr
-			#Generic pagan tenets
+			
 			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_glintstone
+			doctrine = tenet_pursuit_of_knowledge
+			doctrine = tenet_adaptive
 		}
 		faith_gravity = {
 			color = { 0.7 0.2 0.7 }
-			#reformed_icon = gravity_faith
 			icon = gravity_faith
-			#doctrine = unreformed_faith_doctrine
 			
 			holy_site = caria_manor
 			holy_site = raya_lucaria
@@ -282,10 +275,10 @@
 			holy_site = redmane_castle
 			holy_site = caelid_divine_tower
 
-			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_golden_order_syncretism
+			doctrine = tenet_glintstone
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_ritual_celebrations
 		}
 		faith_night = {
 			color = { 0.2 0.2 0.2 }
@@ -299,10 +292,10 @@
 			holy_site = astel
 			holy_site = nameless_city
 
-			#Generic pagan tenets
 			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_glintstone
+			doctrine = tenet_sacred_shadows
+			doctrine = tenet_destroy_golden_order
 		}
 	}
 }

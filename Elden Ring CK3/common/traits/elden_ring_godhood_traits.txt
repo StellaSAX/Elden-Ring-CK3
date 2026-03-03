@@ -240,7 +240,6 @@ tarnished_elden_ring = {
 	}
 }
 
-
 grafted = {
 	category = lifestyle
 	icon = "grafting_trait.dds"

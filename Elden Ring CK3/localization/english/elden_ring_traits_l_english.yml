@@ -183,6 +183,7 @@ trait_nugget:0 "Nugget"
 trait_nugget_character_desc:0 "Whether lost in battle or ill fortune, [ROOT.GetCharacter.GetFirstNameNoTooltip] is without both leg and arm."
 
 trait_tarnished_elden_ring:0 "Tarnished"
+trait_tarnished_elden_ring_desc:0 "Exiles who lost the grace of gold long ago, they now come back to the Lands Between guided by grace, to stand before the Elden Ring. And chance to become the Elden Lord."
 
 trait_grafted:0 "Grafted"
 
