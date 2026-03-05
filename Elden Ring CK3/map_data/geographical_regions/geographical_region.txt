@@ -16,6 +16,21 @@
 #	These groups are mutually exclusive on the same tier & should cover every part of the map
 ###########################################################################
 
+world_caelid = {
+	duchies = {
+		d_R87G95B32
+		d_R145G171B56
+		d_R193G112B21
+		d_R156G4B117
+		d_R163G63B13
+		d_R219G100B203
+		d_R181G19B130
+		d_R59G149B25
+		d_R21G221B218
+	}
+}
+
+
 # world_europe
 # > world_europe_west
 # >> world_europe_west_britannia

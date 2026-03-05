@@ -337,6 +337,16 @@ remove_no_marriage = {
 	is_valid = {
 		prestige_level >= 3
 		is_independent_ruler = yes
+		OR = {
+			any_relation = {
+				type = lover
+				exists = yes
+			}
+			any_relation = {
+				type = soulmate
+				exists = yes
+			}
+		}
 	}
 
 	is_valid_showing_failures_only = {

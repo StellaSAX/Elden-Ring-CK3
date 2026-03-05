@@ -13,6 +13,12 @@ five_year_everyone_pulse = {
     }
 }
 
+on_game_start = {
+	on_actions = {
+        on_action_add_scarlet_rot_caelid
+    }
+}
+
 on_action_child_birth_god = {
 	effect = {
 		if = {
@@ -226,5 +232,22 @@ on_action_marais_children_born_sick = {
 			}
 			add_trait = sickly			
 		}
+	}
+}
+
+on_action_add_scarlet_rot_caelid = {
+	effect = {
+		province:728 = {
+			create_epidemic_outbreak = {
+				type = scarlet_rot
+				intensity = apocalyptic
+			}
+		}		
+		# geographical_region = {
+			# create_epidemic_outbreak = {
+				# type = scarlet_rot
+				# intensity = apocalyptic
+			# }
+		# }	
 	}
 }

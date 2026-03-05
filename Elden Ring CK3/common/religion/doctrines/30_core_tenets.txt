@@ -2033,22 +2033,22 @@
 
 		name = {
 			first_valid = {
-				triggered_desc = {
-					trigger = { this = faith:quranist }
-					desc = tenet_religious_legal_pronouncements_hisbah
-				}
-				triggered_desc = {
-					trigger = {
-						religion_tag = islam_religion
-					}
-					desc = tenet_religious_legal_pronouncements_fatwa
-				}
-				triggered_desc = {
-					trigger = {
-						religion_tag = judaism_religion
-					}
-					desc = tenet_religious_legal_pronouncements_halakha
-				}
+				# triggered_desc = {
+					# trigger = { this = faith:quranist }
+					# desc = tenet_religious_legal_pronouncements_hisbah
+				# }
+				# triggered_desc = {
+					# trigger = {
+						# religion_tag = islam_religion
+					# }
+					# desc = tenet_religious_legal_pronouncements_fatwa
+				# }
+				# triggered_desc = {
+					# trigger = {
+						# religion_tag = judaism_religion
+					# }
+					# desc = tenet_religious_legal_pronouncements_halakha
+				# }
 				desc = tenet_religious_legal_pronouncements_name
 			}
 		}

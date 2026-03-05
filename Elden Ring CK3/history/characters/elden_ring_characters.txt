@@ -523,7 +523,7 @@ radahn = {
 	
 	disallow_random_traits = yes
 	
-	trait = scarled_rot
+	trait = scarlet_rot
 	
 	father = radagon
 	mother = rennala
@@ -825,7 +825,7 @@ malenia = {
 	trait = blind
 	trait = no_marry
 	
-	trait = scarled_rot
+	trait = scarlet_rot
 	
 	disallow_random_traits = yes
 	
@@ -1072,7 +1072,7 @@ millicent = {
 	trait = rot_affinity
 	trait = no_marry
 	
-	trait = scarled_rot
+	trait = scarlet_rot
 	
 	disallow_random_traits = yes
 
@@ -1114,7 +1114,7 @@ polyanna = {
 	trait = one_eyed
 	trait = no_marry
 	
-	trait = scarled_rot
+	trait = scarlet_rot
 	
 	mother = malenia
 	830.1.15 = {
@@ -1154,7 +1154,7 @@ amy = {
 	trait = blind
 	trait = no_marry
 	
-	trait = scarled_rot
+	trait = scarlet_rot
 	
 	mother = malenia
 	830.1.10 = {
@@ -1194,7 +1194,7 @@ maureen = {
 	trait = one_eyed
 	trait = no_marry
 	
-	trait = scarled_rot
+	trait = scarlet_rot
 	
 	mother = malenia
 	830.1.5 = {
@@ -1234,7 +1234,7 @@ mary = {
 	trait = blind
 	trait = no_marry
 	
-	trait = scarled_rot
+	trait = scarlet_rot
 	
 	mother = malenia
 	830.1.1 = {

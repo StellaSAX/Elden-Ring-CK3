@@ -214,6 +214,7 @@ eternal_youth_elden_ring = {
 
 tarnished_elden_ring = {
 	category = health
+	desc = trait_tarnished_elden_ring_desc
 	ruler_designer_cost = 1
 	monthly_prestige_gain_mult = -0.15
 	monthly_piety_gain_mult = -0.15
@@ -323,7 +324,7 @@ grafted = {
 	}
 }
 
-scarled_rot = {
+scarlet_rot = {
 	icon = "scarlet_rot.dds"
 	diplomacy = -5
 	stewardship = -5
@@ -331,14 +332,11 @@ scarled_rot = {
 	learning = -5
 	martial = -5
 	prowess = -10
-	health = -4.5
-	elderly_health = -1
+	health = -7
+	elderly_health = -2
 	fertility = -0.2
 
 	category = health
-
-	dread_baseline_add = -15
-	dread_loss_mult = 1
 
 	attraction_opinion = -10
 	
@@ -348,7 +346,7 @@ scarled_rot = {
 	flag = debilitating_illness
 	flag = contagious_deadly_disease
 	flag = epidemic_disease
-	#flag = blocks_getting_non_epidemic_disease
+	flag = blocks_getting_non_epidemic_disease
 
 	desc = {
 		first_valid = {
@@ -395,106 +393,60 @@ perfumer = {
 	negate_health_penalty_add = 1
 	monthly_learning_lifestyle_xp_gain_mult = 0.05
 	track = {
-		25 = {
-			prowess = 2
-			stress_gain_mult = -0.05
-			general_opinion = -5
-			monthly_learning_lifestyle_xp_gain_mult = 0.05
-			monthly_intrigue_lifestyle_xp_gain_mult = 0.05
-			negate_health_penalty_add = 0.5
-			dread_baseline_add = 5
-		}
 		50 = {
 			prowess = 2
-			stress_gain_mult = -0.05
+			intrigue = 1
+			stress_gain_mult = -0.1
 			general_opinion = -5
 			monthly_learning_lifestyle_xp_gain_mult = 0.05
 			monthly_intrigue_lifestyle_xp_gain_mult = 0.05
-			negate_health_penalty_add = 0.5
-			dread_baseline_add = 5
-		}
-		75 = {
-			prowess = 2
-			stress_gain_mult = -0.05
-			general_opinion = -5
-			monthly_learning_lifestyle_xp_gain_mult = 0.05
-			monthly_intrigue_lifestyle_xp_gain_mult = 0.05
-			negate_health_penalty_add = 0.5
+			negate_health_penalty_add = 1
 			dread_baseline_add = 5
 		}
 		100 = {
 			general_opinion = -5
 			prowess = 2
-			stress_gain_mult = -0.05
+			intrigue = 1
+			stress_gain_mult = -0.1
 			monthly_intrigue_lifestyle_xp_gain_mult = 0.05
-			negate_health_penalty_add = 0.5
+			negate_health_penalty_add = 1
 			dread_baseline_add = 5
 		}		
 	}
 
 	ruler_designer_cost = 20
 
-	# Loc
-	# name = {
-		# first_valid = {
-			# #Legendary Blademaster
-			# triggered_desc = {
-				# trigger = {
-					# exists = this
-					# has_trait_xp = {
-						# trait = lifestyle_blademaster
-						# value >= 100
-					# }
-				# }
-				# desc = trait_blademaster_3
-			# }
-			# #Blademaster
-			# triggered_desc = {
-				# trigger = { 
-					# exists = this
-					# has_trait_xp = {
-						# trait = lifestyle_blademaster
-						# value >= 50
-					# }
-				# }
-				# desc = trait_blademaster_2
-			# }
-			# #Aspiring Blademaster
-			# desc = trait_blademaster_1
-		# }
-	# }
-
 	# # Loc
-	# desc = {
-		# first_valid = {
-			# #The trait can never go higher than the first level if it's not assigned to a character
-			# triggered_desc = {
-				# trigger = { 
-					# NOT = { exists = this } 
-				# }
-				# desc = trait_blademaster_1_desc
-			# }
-			# triggered_desc = {
-				# trigger = { 
-					# has_trait_xp = {
-						# trait = lifestyle_blademaster
-						# value >= 100
-					# }
-				# }
-				# desc = trait_blademaster_3_character_desc
-			# }
-			# triggered_desc = {
-				# trigger = { 
-					# has_trait_xp = {
-						# trait = lifestyle_blademaster
-						# value >= 50
-					# }
-				# }
-				# desc = trait_blademaster_2_character_desc
-			# }
-			# desc = trait_blademaster_1_character_desc
-		# }
-	# }
+	desc = {
+		first_valid = {
+			#The trait can never go higher than the first level if it's not assigned to a character
+			triggered_desc = {
+				trigger = { 
+					NOT = { exists = this } 
+				}
+				desc = perfumer_1_desc
+			}
+			triggered_desc = {
+				trigger = { 
+					has_trait_xp = {
+						trait = lifestyle_blademaster
+						value >= 100
+					}
+				}
+				desc = perfumer_3_character_desc
+			}
+			triggered_desc = {
+				trigger = { 
+					has_trait_xp = {
+						trait = lifestyle_blademaster
+						value >= 50
+					}
+				}
+				desc = perfumer_2_character_desc
+			}
+			desc = perfumer_1_character_desc
+		}
+	}
 
 	compatibility = {
 		brave = @neg_compat_low
@@ -505,24 +457,19 @@ perfumer = {
 special_tarnished = { #discord dudes, tarnished of some renown
 	icon = "tarnished_elden_ring.dds"
 	category = health
-	#shown_in_ruler_designer = no
+	shown_in_ruler_designer = no
+	desc = trait_special_tarnished_desc
 	ruler_designer_cost = 1
-	monthly_prestige_gain_mult = -0.15
-	monthly_piety_gain_mult = -0.15
+	monthly_prestige_gain_mult = -0.05
+	monthly_piety_gain_mult = -0.05
 	same_opinion = 5
 	no_prowess_loss_from_age = yes
-	#immortal = yes
-	#set_immortal_age = 25
 	life_expectancy = 5000
 	years_of_fertility = 5000
 	negate_health_penalty_add = 5
 	
 	health = 10
-	
-	#their children are normal tarnished
-	# inherit_chance = 100
-	# inherit_from_real_father = yes
-	
+
 	ai_greed = very_high_positive_ai_value
 	ai_energy = very_high_positive_ai_value
 	ai_boldness = high_positive_ai_value

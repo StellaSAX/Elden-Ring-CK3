@@ -1,0 +1,14 @@
+﻿spread_chance_scarlet_rot_value = { #to infect caelid, but nowhere else
+
+	if = {
+		limit = { geographical_region = world_caelid }
+		multiply = 1000
+	}
+	if = {
+		limit = { 
+			NOT = { geographical_region = world_caelid }
+		}
+		multiply = 1000
+	}
+
+}
