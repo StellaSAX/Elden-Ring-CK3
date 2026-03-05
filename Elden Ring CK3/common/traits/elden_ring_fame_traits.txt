@@ -1,0 +1,19 @@
+grafting = {
+	category = fame
+	icon = "grafting_trait.dds"
+	
+	ruler_designer_cost = -20
+	
+	diplomacy = -1
+	
+	triggered_opinion = {
+		parameter = grafting_illegal
+		opinion_modifier = grafting_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = grafting_shunned
+		opinion_modifier = grafting_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+}

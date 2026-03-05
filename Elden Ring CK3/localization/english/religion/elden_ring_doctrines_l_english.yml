@@ -1,0 +1,16 @@
+﻿l_english:
+ 
+ doctrine_grafting_name:0 "Grafting"
+ doctrine_grafting_crime_name:0 "Criminal"
+ doctrine_grafting_crime_desc:0 "Big no no."
+ doctrine_grafting_shunned_name:0 "Shunned"
+ doctrine_grafting_shunned_desc:0 "We dont like you."
+ doctrine_grafting_accepted_name:0 "Accepted"
+ doctrine_grafting_accepted_desc:0 "You are pretty cool."
+ doctrine_grafting_virtuous_name:0 "Virtuous"
+ doctrine_grafting_virtuous_desc:0 "You are omega holy!"
+ doctrine_parameter_grafting_illegal:0 "Characters with the [GetTrait('grafting').GetName( GetPlayer )] [trait|E] are [criminals|E]"
+ doctrine_parameter_grafting_shunned:0 "Characters with the [GetTrait('grafting').GetName( GetPlayer )] [trait|E] are [shunned|E]"
+ doctrine_parameter_grafting_accepted:0 "Characters with the [GetTrait('grafting').GetName( GetPlayer )] [trait|E] are fully accepted"
+ grafting_illegal_name:0 "Criminal Grafting Doctrine"
+ grafting_shunned_name:0 "Shunned Grafting Doctrine"
