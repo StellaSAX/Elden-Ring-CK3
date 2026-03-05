@@ -1,4 +1,9 @@
 ﻿l_english:
 
-trait_grafting:0 "Grafter"
-trait_grafting_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has turned to the arts of Grafting."
+ trait_grafting:0 "Grafter"
+ trait_grafting_2: "Intermediate Grafter"
+ trait_grafting_3: "Fearsome Grafter"
+ trait_grafting_4: "Monstrous Grafter"
+ trait_grafting_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has turned to the arts of Grafting."
+ trait_track_grafting: "Grafter"
+ trait_track_grafting_desc: "Are you going to keep grafting innocents..."

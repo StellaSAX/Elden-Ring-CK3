@@ -4,7 +4,44 @@ grafting = {
 	
 	ruler_designer_cost = -20
 	
+	attraction_opinion = -5
 	diplomacy = -1
+	same_opinion = 10
+	
+	track = {
+		25 = {
+			dread_baseline_add = 5
+			attraction_opinion = -10
+			fertility = -0.1
+			diplomacy = -2
+			martial = 1
+			prowess = 4
+		}
+		50 = {
+			dread_baseline_add = 5
+			attraction_opinion = -15
+			fertility = -0.1
+			diplomacy = -2
+			martial = 1
+			prowess = 4
+		}
+		75 = {
+			dread_baseline_add = 5
+			attraction_opinion = -20
+			fertility = -0.1
+			diplomacy = -2
+			martial = 1
+			prowess = 4
+		}
+		100 = {
+			dread_baseline_add = 5
+			attraction_opinion = -25
+			fertility = -0.15
+			diplomacy = -2
+			martial = 2
+			prowess = 6
+		}
+	}
 	
 	triggered_opinion = {
 		parameter = grafting_illegal
