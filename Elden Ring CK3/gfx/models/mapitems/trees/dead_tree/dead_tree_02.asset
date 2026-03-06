@@ -1,0 +1,20 @@
+pdxmesh = {
+	name = "dead_tree_02_mesh"
+	file = "dead_tree_02.mesh"
+	scale = 0.9
+
+	meshsettings = {
+		name = "tree_sakura_02"
+		index = 0
+		texture_diffuse = "dead_tree_diffuse.dds"
+		texture_normal = "dead_tree_normal.dds"
+		texture_specular = "dead_tree_properties.dds"
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+}
+
+entity = {
+	name = "dead_tree_02_entity"
+	pdxmesh = "dead_tree_02_mesh"
+}

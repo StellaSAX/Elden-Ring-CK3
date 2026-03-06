@@ -507,6 +507,14 @@
 		id       = "poison_swamp"
 	}
 	{
+		name     = "meteorite_purple"
+		diffuse  = "meteorite_purple_diffuse.dds"
+		normal   = "meteorite_purple_normal.dds"
+		material = "meteorite_purple_properties.dds"
+		mask     = "masks/meteorite_purple_mask.png"
+		id       = "meteorite_purple"
+	}
+	{
 		name     = "snow"
 		diffuse  = "snow_diffuse.dds"
 		normal   = "snow_normal.dds"
