@@ -7,3 +7,13 @@
 grafting_intolerant = {
 	opinion = -15
 }
+
+omen_crime = {
+	opinion = -25
+	imprisonment_reason = yes
+	execute_reason = yes
+}
+
+omen_intolerant = {
+	opinion = -15
+}

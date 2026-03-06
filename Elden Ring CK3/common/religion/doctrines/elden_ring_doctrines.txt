@@ -76,3 +76,82 @@ doctrine_grafting = {
 		}
 	}
 }
+
+doctrine_omen = {
+	group = "crimes"
+	doctrine_omen_crime = {
+		piety_cost = {
+			value = faith_doctrine_cost_low
+			if = {
+				limit = { has_doctrine = doctrine_omen_crime }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_omen_accepted }
+				multiply = faith_changed_doctrine_cost_mult_two_step
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_omen_virtuous }
+				multiply = faith_changed_doctrine_cost_mult_three_step
+			}
+		}
+		parameters = {
+			omen_illegal = yes
+		}
+	}
+	doctrine_omen_shunned = {
+		piety_cost = {
+			value = faith_doctrine_cost_low
+			if = {
+				limit = { has_doctrine = doctrine_omen_shunned }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_omen_virtuous }
+				multiply = faith_changed_doctrine_cost_mult_two_step
+			}
+		}
+		parameters = {
+			omen_shunned = yes
+		}
+	}
+	doctrine_omen_accepted = {
+		piety_cost = {
+			value = faith_doctrine_cost_low
+			if = {
+				limit = { has_doctrine = doctrine_omen_accepted }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_omen_crime }
+				multiply = faith_changed_doctrine_cost_mult_two_step
+			}
+		}
+		parameters = {
+			omen_accepted = yes
+		}
+	}
+	doctrine_omen_virtuous = {
+		piety_cost = {
+			value = faith_tenet_cost_massive
+			if = {
+				limit = { has_doctrine = doctrine_omen_virtuous }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_omen_shunned }
+				multiply = faith_changed_doctrine_cost_mult_two_step
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_omen_crime }
+				multiply = faith_changed_doctrine_cost_mult_three_step
+			}
+		}
+		traits = {
+			virtues = { omen_horn_trait }
+		}
+		parameters = {
+			omen_accepted = yes
+		}
+	}
+}

@@ -25,6 +25,7 @@
 	doctrine = doctrine_kinslaying_close_kin_crime
 	doctrine = doctrine_deviancy_crime
 	doctrine = doctrine_witchcraft_shunned
+	doctrine = doctrine_omen_crime
 	doctrine = doctrine_grafting_crime
 
 	#Clerical Functions

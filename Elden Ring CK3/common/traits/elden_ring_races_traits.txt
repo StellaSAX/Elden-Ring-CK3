@@ -37,6 +37,17 @@ omen_horn_trait = {
 		misbegotten_trait
 		omen_no_horn_trait
 	}
+	
+	triggered_opinion = {
+		parameter = omen_illegal
+		opinion_modifier = omen_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = omen_shunned
+		opinion_modifier = omen_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 omen_no_horn_trait = {
