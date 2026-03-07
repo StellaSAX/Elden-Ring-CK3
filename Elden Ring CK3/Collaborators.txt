@@ -1,6 +1,11 @@
 This is here to celebrate every person that decided to put their time into helping during the development of this mod:
-Lester,lester6686: The first person to actually give me something for the mod. Helped with the map, right now they have done limgrave, also some loading screens. also added a TON of the weapon images.
-Rain,thewatcher1354: Helped with naming the weeping peninsula.
-Saxar,saxar_sax: helped to clean the error log by removing some base game decisions and adding localization. Master of the Git repository
-Average Aversarian Noble,nuggety_chicken: created special buildings, created a cultural tradition.
-Anti-Matter Knight,just_solomon: Gave some CoAs, helped update a decision.
+Lester,lester6686: The first person to actually give me something for the mod. main dev
+Rain,thewatcher1354: localization
+Saxar,saxar_sax: dev
+Average Limgrave Noble,nuggety_chicken: dev
+Anti-Matter Knight,just_solomon: dev
+CLAW, claw6791: writer
+Tasawi, tasawi2120:writer
+Crankmeister: writer
+KЯYPƬ, xkryptkingx:portraits
+Sachi, matchasachi:dev
