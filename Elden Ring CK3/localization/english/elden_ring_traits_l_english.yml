@@ -1,11 +1,11 @@
 ﻿l_english:
 
-trait_god_elden_ring:0 "God of an Order"
+trait_god_elden_ring:0 "God"
 trait_demigod_elden_ring:0 "Demigod"
-trait_demigod_elden_ring_1:0 "Demigod I"
-trait_demigod_elden_ring_2:0 "Demigod II"
-trait_demigod_elden_ring_3:0 "Demigod III"
-trait_demigod_elden_ring_4:0 "Demigod IV"
+trait_demigod_elden_ring_1:0 "Inkling Demigod"
+trait_demigod_elden_ring_2:0 "Diluted Demigod"
+trait_demigod_elden_ring_3:0 "Lesser Demigod"
+trait_demigod_elden_ring_4:0 "Demigod"
 trait_empyrean_elden_ring:0 "Empyrean"
 trait_eternal_youth_elden_ring:0 "Eternal Youth"
 trait_shardbearer_elden_ring:0 "Shardbearer"
@@ -134,7 +134,7 @@ trait_track_tail_desc:0 "They have a strong Tail"
 trait_track_scales_desc:0 "Scales cover their arms and shoulders"
 
 trait_omen_horn_trait:0 "Omen"
-trait_omen_no_horn_trait:0 "Omen without Horns"
+trait_omen_no_horn_trait:0 "Hornless Omen"
 trait_ancient_dragon_elden_ring:0 "Ancient Dragon"
 trait_lesser_dragon_elden_ring:0 "Drake"
 
@@ -146,7 +146,7 @@ trait_ancient_dragon_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
 trait_lesser_dragon_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a lesser Dragon, a pale imitation of the ancient ones, but still a powerful creature."
 
 trait_order_affinity:0 "Order Affinity"
-trait_frenzy_affinity:0 "frenzy Affinity"
+trait_frenzy_affinity:0 "Frenzy Affinity"
 trait_glintstone_affinity:0 "Glintstone Affinity"
 trait_rot_affinity:0 "Rot Affinity"
 trait_crucible_affinity:0 "Crucible Affinity"
@@ -179,7 +179,7 @@ trait_bestial_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an 
 trait_sleep_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for artifacts and weapons that relate to sleep, they have an easier time resting their mind and body, and are very friendly."
 trait_spiral_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for the Crucible that is more controled, and centered on reaching the divine power of the gods."
 
-trait_nugget:0 "Lost limbs"
+trait_nugget:0 "Lost Limbs"
 trait_nugget_character_desc:0 "Whether lost in battle or ill fortune, [ROOT.GetCharacter.GetFirstNameNoTooltip] is without both leg and arm."
 
 trait_tarnished_elden_ring:0 "Tarnished"
