@@ -1,5 +1,4 @@
-﻿
-order_affinity = {
+﻿order_affinity = {
 	ruler_designer_cost = 10
 	icon = affinity_order.dds
 	same_opinion = 5
@@ -339,7 +338,7 @@ black_flame_affinity = {
 
 sleep_affinity = {
 	ruler_designer_cost = 10
-	icon = "sleep_affinity.dds"
+	icon = "affinity_sleep.dds"
 	same_opinion = 5
 	stress_loss_mult = 0.1
 	stress_gain_mult = -0.1
