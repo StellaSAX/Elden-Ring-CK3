@@ -41,3 +41,42 @@
 		}
 	}
 }
+
+scarlet_rot = {
+	icon = "scarlet_rot.dds"
+	diplomacy = -5
+	stewardship = -5
+	intrigue = -5
+	learning = -5
+	martial = -5
+	prowess = -10
+	health = -7
+	elderly_health = -2
+	fertility = -0.2
+
+	category = health
+
+	attraction_opinion = -10
+	
+	ruler_designer_cost = 0
+
+	flag = illness
+	flag = debilitating_illness
+	flag = contagious_deadly_disease
+	flag = epidemic_disease
+	flag = blocks_getting_non_epidemic_disease
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = scarled_root_desc
+			}
+			desc = scarled_root_character_desc
+		}
+	}
+
+	ai_energy = -50
+}

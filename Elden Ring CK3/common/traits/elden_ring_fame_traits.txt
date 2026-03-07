@@ -54,3 +54,93 @@ grafting = {
 		ignore_opinion_value_if_same_trait = yes
 	}
 }
+
+no_marry = { 
+	category = fame
+	icon = "refusing_marriage.dds"
+	flag = can_not_marry
+	shown_in_ruler_designer = no
+
+	ruler_designer_cost = -10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = no_marry_desc
+			}
+			desc = no_marry_character_desc
+		}
+	}
+}
+
+perfumer = {
+	category = lifestyle
+	icon = "perfumer.dds"
+	#the idea is that at the most basic level they are healers, but the higher the trait level, the more horrible work they do
+	learning = 3
+	negate_health_penalty_add = 1
+	monthly_learning_lifestyle_xp_gain_mult = 0.05
+	track = {
+		50 = {
+			prowess = 2
+			intrigue = 1
+			stress_gain_mult = -0.1
+			general_opinion = -5
+			monthly_learning_lifestyle_xp_gain_mult = 0.05
+			monthly_intrigue_lifestyle_xp_gain_mult = 0.05
+			negate_health_penalty_add = 1
+			dread_baseline_add = 5
+		}
+		100 = {
+			general_opinion = -5
+			prowess = 2
+			intrigue = 1
+			stress_gain_mult = -0.1
+			monthly_intrigue_lifestyle_xp_gain_mult = 0.05
+			negate_health_penalty_add = 1
+			dread_baseline_add = 5
+		}		
+	}
+
+	ruler_designer_cost = 20
+
+	# # Loc
+	desc = {
+		first_valid = {
+			#The trait can never go higher than the first level if it's not assigned to a character
+			triggered_desc = {
+				trigger = { 
+					NOT = { exists = this } 
+				}
+				desc = perfumer_1_desc
+			}
+			triggered_desc = {
+				trigger = { 
+					has_trait_xp = {
+						trait = lifestyle_blademaster
+						value >= 100
+					}
+				}
+				desc = perfumer_3_character_desc
+			}
+			triggered_desc = {
+				trigger = { 
+					has_trait_xp = {
+						trait = lifestyle_blademaster
+						value >= 50
+					}
+				}
+				desc = perfumer_2_character_desc
+			}
+			desc = perfumer_1_character_desc
+		}
+	}
+
+	compatibility = {
+		brave = @neg_compat_low
+		craven = @pos_compat_low
+	}
+}

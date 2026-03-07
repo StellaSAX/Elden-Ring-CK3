@@ -110,4 +110,3 @@ albinauric_trait = {
 	life_expectancy = -20
 	shown_in_ruler_designer = no
 }
-
