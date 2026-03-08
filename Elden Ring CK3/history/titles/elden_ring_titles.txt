@@ -294,6 +294,9 @@ c_R68G191B143 = {
 }
 
 d_R229G199B117 = {	
+	810.1.1 = {
+		liege = "k_ocupied_stormveil"
+	}
 	800.1.1 = {
 		holder = edgar
 	}

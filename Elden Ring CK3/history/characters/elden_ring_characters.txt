@@ -206,7 +206,7 @@ rennala = {
 rellana = {
 	name = "Rellana"
 	female = yes
-	dna = rennala_dna
+	dna = rellana_dna
 	sexuality = heterosexual
 	dynasty = dynn_caria
 	martial = 10
@@ -219,8 +219,8 @@ rellana = {
 	
 	portrait_override = {	
 		portrait_modifier_overrides={
-			custom_hair=f_hair_ep3_byzantine_01_common
 			custom_beards=female_empty
+			custom_hair=f_hair_sp4_mena_01
 		}
 	}
 	
@@ -311,11 +311,11 @@ morgott = {
 	
 	religion = faith_golden	
 	culture = cul_royal
-	trait = diligent
+	
 	trait = education_learning_4
 	trait = just
 	trait = zealous
-	
+	trait = diligent
 	trait = omen_horn_trait
 	trait = twin
 	trait = order_affinity
@@ -986,7 +986,7 @@ godrick = {
 	trait = craven
 	trait = sadistic
 	#trait = order_affinity he didn't show any order skills, he actually showed wind
-	trait = grafted
+	trait = grafting
 	trait = no_marry
 	
 	disallow_random_traits = yes
@@ -1347,14 +1347,16 @@ placidusax  = {
 	
 	1.1.1 = {
 		birth = yes
-		set_relation_nemesis = { 
-			reason = hate_him 
-			copy_reason = rival 
-			target = bayle
-		}
+		
 		trait = ancient_dragon_elden_ring
 		effect = {
 			add_character_flag = do_not_generate_starting_family
+			# set_relation_nemesis = { 
+				# reason = hate_him 
+				# copy_reason = rival 
+				# target = bayle
+			# }
+			set_relation_nemesis = character:bayle
 		}
 	}
 	1200.5.25 = {
@@ -1366,13 +1368,20 @@ haight  = {
 	name = "Kenneth"
 	sexuality = heterosexual
 	dynasty = dynn_haight
-	
+	dna = kenneth_dna
 	religion = faith_golden
 	culture = cul_altus
 	trait = education_stewardship_2
 	trait = content
 	trait = zealous
 	trait = arrogant
+	
+	portrait_override = {	
+		portrait_modifier_overrides={
+			custom_beards=m_beard_mpo_mongol_03
+			custom_hair=m_hair_ep3_byzantine_01
+		}
+	}
 	
 	
 	disallow_random_traits = yes
@@ -1393,7 +1402,7 @@ edgar  = {
 	name = "Edgar"
 	sexuality = heterosexual
 	dynasty = dynn_morne
-	
+	dna = edgar_dna
 	religion = faith_golden
 	culture = cul_weeping_peninsula
 	trait = education_martial_4
@@ -1402,6 +1411,13 @@ edgar  = {
 	trait = wrathful
 	
 	disallow_random_traits = yes
+	
+	portrait_override = {	
+		portrait_modifier_overrides={
+			custom_hair=male_hair_fp2_iberian_christian_01
+			custom_beards=m_beard_ep3_byzantine_04
+		}
+	}
 	
 	820.1.1 = {
 		birth = yes
@@ -1522,5 +1538,47 @@ maliketh = {
 		death = {
 			death_reason = death_went_missing_elden_ring
 		}
+	}
+}
+
+
+gostoc = {
+	name = "Gostoc"
+	
+	dna = gostoc_dna
+	sexuality = heterosexual
+	#dynasty = dynn_gostoc
+
+	religion = faith_golden	
+	culture = cul_limgrave
+	trait = education_stewardship_2
+	intrigue = 10
+	trait = vengeful
+	trait = greedy
+	trait = deceitful
+	trait = maimed
+	trait = no_marry
+	
+	portrait_override = {	
+		portrait_modifier_overrides={
+			custom_beards=male_empty
+			custom_hair=m_hair_fp3_iranian_01
+		}
+	}
+	
+	disallow_random_traits = yes
+	
+	820.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+			set_relation_grudge = character:godrick
+		}
+		employer = godrick
+		give_council_position = councillor_steward
+		
+	}
+	1200.5.25 = {
+		death = yes
 	}
 }

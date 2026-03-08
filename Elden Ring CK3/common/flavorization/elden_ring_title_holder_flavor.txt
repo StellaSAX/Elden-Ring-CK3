@@ -4,8 +4,7 @@
 	special = holder
 	tier = empire
 	priority = 282
-	titles = { k_dread_dragon e_farum_azula }
-	traits = { ancient_dragon_elden_ring lesser_dragon_elden_ring }
+	titles = { e_farum_azula }
 }
 dragonlady_e = {
 	type = character
@@ -13,8 +12,8 @@ dragonlady_e = {
 	special = holder
 	tier = empire
 	priority = 282
-	titles = { k_dread_dragon e_farum_azula }
-	traits = { ancient_dragon_elden_ring lesser_dragon_elden_ring }
+	titles = { e_farum_azula }
+	
 }
 
 dragonlord_k = {
@@ -23,8 +22,7 @@ dragonlord_k = {
 	special = holder
 	tier = kingdom
 	priority = 282
-	titles = { k_dread_dragon e_farum_azula }
-	traits = { ancient_dragon_elden_ring lesser_dragon_elden_ring }
+	titles = { k_dread_dragon }
 }
 dragonlady_k = {
 	type = character
@@ -32,6 +30,5 @@ dragonlady_k = {
 	special = holder
 	tier = kingdom
 	priority = 282
-	titles = { k_dread_dragon e_farum_azula }
-	traits = { ancient_dragon_elden_ring lesser_dragon_elden_ring }
+	titles = { k_dread_dragon }
 }
