@@ -1084,7 +1084,7 @@ millicent = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_3
+		trait = scarlet_rot_child
 	}
 	1200.5.25 = {
 		death = yes
@@ -1124,7 +1124,7 @@ polyanna = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_3
+		trait = scarlet_rot_child
 	}
 	1200.5.25 = {
 		death = yes
@@ -1164,7 +1164,7 @@ amy = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_3
+		trait = scarlet_rot_child
 	}
 	1200.5.25 = {
 		death = yes
@@ -1204,7 +1204,7 @@ maureen = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_3
+		trait = scarlet_rot_child
 	}
 	1200.5.25 = {
 		death = yes
@@ -1244,7 +1244,7 @@ mary = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_3
+		trait = scarlet_rot_child
 	}
 	1200.5.25 = {
 		death = yes

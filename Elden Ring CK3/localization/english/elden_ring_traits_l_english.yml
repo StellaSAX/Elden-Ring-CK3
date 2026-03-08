@@ -16,6 +16,8 @@ trait_carian_sorcerer_female:0 "Carian Sorceress"
 
 trait_shadowhound_beast:0 "Shadowhound Beast"
 
+trait_scarlet_rot_child:0 "Child of the Rot"
+
 trait_god_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a God, a being of great power that will cause an impact on the world."
 trait_demigod_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the descendant of a God, in their blood exist the potential for greatness."
 trait_demigod_elden_ring_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the descendant of a God, in their blood exists the potential for greatness."
