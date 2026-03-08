@@ -1282,7 +1282,6 @@ zorayas = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_3
 	}
 	1200.5.25 = {
 		death = yes
