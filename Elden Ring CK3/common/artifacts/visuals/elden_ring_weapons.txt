@@ -2,3 +2,8 @@
 	icon = "er_ruins_greatsword.dds"
 	asset = ruins_greatsword
 }
+
+axe_of_godfrey_visual = {
+	icon = "er_axe_of_godfrey.dds"
+	asset = axe_of_godfrey
+}

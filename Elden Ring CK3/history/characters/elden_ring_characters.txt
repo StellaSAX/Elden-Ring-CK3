@@ -256,11 +256,12 @@ hoarah_loux = {
 	dna = hoarah_loux_dna
 	sexuality = heterosexual
 	dynasty = dynn_loux
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
+	martial = 23
+	diplomacy = 15
+	intrigue = 6
 	stewardship = 10
-	learning = 10
+	learning = 9
+	prowess = 30
 	health = 10
 	give_nickname = nick_first_elden_lord
 	

@@ -1,6 +1,9 @@
 ﻿l_english:
  ruins_greatsword_name:0 "Ruins Greatsword"
- ruins_greatsword_description:0 "Originally rubble from a ruin which fell from the sky, this surviving fragment was honed into a weapon. One of the legendary armaments. The ruin it came from crumbled when struck by a meteorite, as such this weapon harbors its destructive power."
+ ruins_greatsword_description:0 "Originally rubble from a ruin which fell from the sky, this surviving fragment was honed into a weapon. One of the legendary armaments.\n\nThe ruin it came from crumbled when struck by a meteorite, as such this weapon harbors its destructive power."
+ 
+ axe_of_godfrey_name:0 "Axe of Godfrey"
+ axe_of_godfrey_description:0 "Weapon of Godfrey, Elden Lord. It was broken in a battle fought as leader of the Tarnished during the Long March.\n\nThis weapon is symbolic of Godfrey's vow to conduct himself as a lord, later becoming an emblem of the golden lineage. In the days of the past, a crown was warranted with strength."
  
  deathbed_smalls_name:0 "Deathbed Smalls"
  deathbed_smalls_description:0 "Skirt worn by Fia, the Deathbed Companion."

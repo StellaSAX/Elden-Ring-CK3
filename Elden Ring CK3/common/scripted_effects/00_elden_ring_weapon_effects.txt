@@ -26,3 +26,41 @@ elden_ring_ruins_greatsword_effect = {
 		decaying = no
 	}
 }
+
+elden_ring_axe_of_godfrey_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = axe_of_godfrey_name
+		visuals = axe_of_godfrey_visual
+		description = axe_of_godfrey_description
+		type = axe
+		wealth = scope:wealth
+		quality = scope:quality
+		template = axe_of_godfrey_template
+		history = {
+			type = created
+			date = 20.1.1
+			recipient = character:hoarah_loux
+			location = scope:location
+			actor = character:hoarah_loux
+		}
+		modifier = artifact_prowess_18_modifier
+		modifier = artifact_pursue_efficiency_3_modifier
+		modifier = artifact_uncontrolled_province_advantage_10_modifier
+		modifier = artifact_men_at_arms_maintenance_5_modifier
+		modifier = artifact_glory_hound_vassal_opinion_5_modifier
+		modifier = artifact_monthly_prestige_20_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+	}
+}

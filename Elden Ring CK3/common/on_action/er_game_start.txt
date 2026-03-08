@@ -1,0 +1,5 @@
+﻿er_on_game_start = {
+	events = {
+		er_historical_artifacts.0001
+	}
+}

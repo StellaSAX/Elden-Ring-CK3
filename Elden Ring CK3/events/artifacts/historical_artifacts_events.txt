@@ -1,0 +1,12 @@
+namespace = er_historical_artifacts
+
+er_historical_artifacts.0001 = {
+	scope = none
+	hidden = yes
+
+	immediate = {
+		character:hoarah_loux ?= {
+			elden_ring_axe_of_godfrey_effect = { OWNER = this }
+		}
+	}
+}
