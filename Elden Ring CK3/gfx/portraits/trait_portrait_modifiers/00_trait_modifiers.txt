@@ -861,7 +861,7 @@ nugget = {
 hunchbacked = {
 	hunchbacked = {
 		traits = {
-			hunchbacked
+			hunchbacked manserpent_trait
 		}
 		dna_modifiers = {
 			human = {

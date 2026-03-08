@@ -805,10 +805,10 @@ malenia = {
 	female = yes
 	dna = malenia_dna
 	sexuality = bisexual
-	#dynasty_house = house_malenia_erdtree
+	
 	dynasty = dynn_erdtree
 	give_nickname = nick_blade_of_miquella
-	#set_house = house_malenia_erdtree
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
@@ -822,7 +822,7 @@ malenia = {
 	trait = brave
 	trait = trusting
 	trait = patient
-	
+	trait = nugget
 	trait = twin
 	trait = rot_affinity
 	trait = blind
@@ -1271,8 +1271,9 @@ zorayas = {
 	trait = trusting
 	trait = diligent
 	trait = education_diplomacy_3
-	trait = scaly
-	trait = hunchbacked
+	# trait = scaly
+	# trait = hunchbacked
+	trait = manserpent
 	trait = no_marry
 	
 	disallow_random_traits = yes

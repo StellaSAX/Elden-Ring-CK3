@@ -110,3 +110,15 @@ albinauric_trait = {
 	life_expectancy = -20
 	shown_in_ruler_designer = no
 }
+
+manserpent = {
+	category = health
+	same_opinion = 25
+	life_expectancy = 500
+	years_of_fertility = 500
+	diplomacy = -3
+	intrigue = 3
+	health = 3
+	prowess = 5
+	shown_in_ruler_designer = no
+}

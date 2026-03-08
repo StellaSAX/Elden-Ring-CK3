@@ -115,7 +115,7 @@
 		}
 		
 		traits = {
-			virtues = { crucible_affinity crucible_knight omen_horn_trait }
+			virtues = { crucible_affinity crucible_knight }
 		}
 	}
 	
@@ -159,7 +159,7 @@
 		}
 		
 		traits = {
-			virtues = { omen_horn_trait spiral_affinity horned_warrior divine_beast_warrior }
+			virtues = { spiral_affinity horned_warrior divine_beast_warrior }
 		}
 	}
 	
@@ -331,7 +331,7 @@
 		
 		traits = {
 			virtues = { order_affinity golden_knight }
-			sins = { omen_horn_trait crucible_affinity frenzy_affinity death_affinity black_flame_affinity spiral_affinity fire_affinity }
+			sins = { crucible_affinity frenzy_affinity death_affinity black_flame_affinity spiral_affinity fire_affinity }
 		}
 	}
 	
@@ -375,7 +375,7 @@
 		}
 	}
 	
-	tenet_glintstone = {
+	tenet_glintstone = { #all things glintstone related, we love magic here
 		icon = tenet_glintstone
 		piety_cost = {
 			if = {
@@ -415,7 +415,7 @@
 		}
 	}
 	
-	tenet_destroy_golden_order = {
+	tenet_destroy_golden_order = { #this makes evil all the other faiths in the order family(you need to be part of it, for the dungeater and ranni)
 		icon = tenet_golden_order
 		piety_cost = {
 			if = {
@@ -495,18 +495,10 @@
 		}
 	}
 	
-	tenet_golden_exile = {
+	tenet_golden_exile = { #for messmer and his band
 		icon = tenet_golden_exile
 		piety_cost = {
-			if = {
-				limit = { religion_tag = crucible_religion_elden_ring }
-				value = faith_tenet_cost_low
-			}
-			else = {
-				value = faith_tenet_cost_high
-			}
-
-			
+			value = faith_tenet_cost_high
 		}
 
 		is_shown = {
@@ -532,7 +524,7 @@
 		
 		traits = {
 			virtues = { fire_affinity order_affinity glintstone_affinity }
-			sins = { omen_horn_trait crucible_affinity spiral_affinity }
+			sins = { crucible_affinity spiral_affinity }
 		}
 	}
 	
@@ -608,7 +600,11 @@
 		}
 
 		parameters = {
-			
+			hostility_override_golden_hostility_doctrine = 1
+			#For loc:
+			is_golden_faith_bilateral_loc_override = 1
+			golden_syncretic_actor_opinion_active = yes
+			opinion_of_golden_syncretic_recipient_opinion_active = 30 #Sync this to syncretic_mutual_opinion_bonus_value
 		}
 		character_modifier = {
 			defender_advantage = 5
