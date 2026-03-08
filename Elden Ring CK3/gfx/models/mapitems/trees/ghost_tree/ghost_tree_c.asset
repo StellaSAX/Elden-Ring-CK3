@@ -1,0 +1,21 @@
+pdxmesh = {
+	name = "ghost_tree_c_mesh"
+	file = "ghost_tree_c.mesh"
+	scale = 2.0
+
+	meshsettings = {
+		name = "tree_pine_01_cShape"
+		index = 0
+		texture_diffuse = "ghost_tree_diffuse.dds"
+		texture_normal = "ghost_tree_normal.dds"
+		texture_specular = "ghost_tree_properties.dds"
+		texture = { file = "ghost_tree_tint.dds" index = 3 srgb = yes }
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+}
+
+entity = {
+	name = "ghost_tree_c_entity"
+	pdxmesh = "ghost_tree_c_mesh"
+}

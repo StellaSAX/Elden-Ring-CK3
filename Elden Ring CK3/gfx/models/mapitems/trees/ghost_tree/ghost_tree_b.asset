@@ -1,0 +1,47 @@
+pdxmesh = {
+	name = "ghost_tree_b_mesh"
+	file = "ghost_tree_b.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 9.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "LOD_0|tree_pine_01_b|tree_pine_01_bShape"
+		index = 0
+		texture_diffuse = "ghost_tree_diffuse.dds"
+		texture_normal = "ghost_tree_normal.dds"
+		texture_specular = "ghost_tree_properties.dds"
+		texture = { file = "ghost_tree_tint.dds" index = 3 srgb = yes }
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_1|tree_pine_01_b|tree_pine_01_bShape"
+		index = 0
+		texture_diffuse = "ghost_tree_diffuse.dds"
+		texture_normal = "ghost_tree_normal.dds"
+		texture_specular = "ghost_tree_properties.dds"
+		texture = { file = "ghost_tree_tint.dds" index = 3 srgb = yes }
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_2|tree_pine_01_b|tree_pine_01_bShape"
+		index = 0
+		texture_diffuse = "ghost_tree_diffuse.dds"
+		texture_normal = "ghost_tree_normal.dds"
+		texture_specular = "ghost_tree_properties.dds"
+		texture = { file = "ghost_tree_tint.dds" index = 3 srgb = yes }
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+}
+
+entity = {
+	name = "ghost_tree_b_entity"
+	pdxmesh = "ghost_tree_b_mesh"
+}

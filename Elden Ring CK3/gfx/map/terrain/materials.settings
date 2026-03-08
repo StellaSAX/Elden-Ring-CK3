@@ -523,6 +523,22 @@
 		id       = "snow"
 	}
 	{
+		name     = "frozen_lake"
+		diffuse  = "frozen_lake_diffuse.dds"
+		normal   = "frozen_lake_normal.dds"
+		material = "frozen_lake_properties.dds"
+		mask     = "masks/frozen_lake_mask.png"
+		id       = "frozen_lake"
+	}
+	{
+		name     = "mountaintop_cliff"
+		diffuse  = "mountaintop_cliff_diffuse.dds"
+		normal   = "mountaintop_cliff_normal.dds"
+		material = "mountaintop_cliff_properties.dds"
+		mask     = "masks/mountaintop_cliff_mask.png"
+		id       = "mountaintop_cliff"
+	}
+	{
 		name     = "steppe_bushes"
 		diffuse  = "steppe_bushes_diffuse.dds"
 		normal   = "steppe_bushes_normal.dds"
