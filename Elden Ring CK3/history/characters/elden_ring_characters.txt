@@ -271,6 +271,7 @@ hoarah_loux = {
 	trait = ambitious
 	trait = stubborn
 	trait = physique_good_3
+	trait = strong
 	
 	trait = tarnished_elden_ring
 	trait = no_marry
