@@ -234,7 +234,7 @@
 		}
 		faith_stars = {
 			color = { 0.3 0.1 0.9 }
-			icon = moons_faith
+			icon = faith_darkmoon
 			
 			holy_site = caria_manor
 			holy_site = west_altus_divine_tower

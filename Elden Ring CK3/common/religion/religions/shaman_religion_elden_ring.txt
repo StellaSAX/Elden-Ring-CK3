@@ -219,8 +219,8 @@
 	faiths = {
 		faith_shaman = {
 			color = { 0.2 0.9 0.2 }
-			reformed_icon = crucible_faith
-			icon = crucible_faith
+			reformed_icon = faith_shaman
+			icon = faith_shaman
 			doctrine = unreformed_faith_doctrine
 
 			holy_site = scadutree_chalice
