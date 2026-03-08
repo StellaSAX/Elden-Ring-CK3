@@ -1557,6 +1557,7 @@ gostoc = {
 	trait = greedy
 	trait = deceitful
 	trait = maimed
+	trait = weak
 	trait = no_marry
 	
 	portrait_override = {	
