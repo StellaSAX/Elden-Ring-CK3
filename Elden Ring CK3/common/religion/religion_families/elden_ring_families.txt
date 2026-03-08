@@ -20,7 +20,95 @@ rf_cosmos = {
 	doctrine_background_icon = core_tenet_banner_pagan.dds
 }
 
-rf_others = {
+rf_moon = {
+	is_pagan = yes
+	piety_icon_group = "pagan"
+	graphical_faith = "pagan_gfx"
+	hostility_doctrine = pagan_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_pagan.dds
+}
+
+rf_spirits = {
+	is_pagan = yes
+	piety_icon_group = "pagan"
+	graphical_faith = "pagan_gfx"
+	hostility_doctrine = pagan_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_pagan.dds
+}
+
+rf_dragon = {
+	is_pagan = yes
+	piety_icon_group = "pagan"
+	graphical_faith = "pagan_gfx"
+	hostility_doctrine = pagan_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_pagan.dds
+}
+
+rf_defilement = {
+	is_pagan = yes
+	piety_icon_group = "pagan"
+	graphical_faith = "pagan_gfx"
+	hostility_doctrine = pagan_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_pagan.dds
+}
+
+rf_death = {
+	is_pagan = yes
+	piety_icon_group = "pagan"
+	graphical_faith = "pagan_gfx"
+	hostility_doctrine = pagan_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_pagan.dds
+}
+
+rf_frenzied = {
+	is_pagan = yes
+	piety_icon_group = "pagan"
+	graphical_faith = "pagan_gfx"
+	hostility_doctrine = pagan_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_pagan.dds
+}
+
+rf_rot = {
+	is_pagan = yes
+	piety_icon_group = "pagan"
+	graphical_faith = "pagan_gfx"
+	hostility_doctrine = pagan_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_pagan.dds
+}
+
+rf_serpent = {
+	is_pagan = yes
+	piety_icon_group = "pagan"
+	graphical_faith = "pagan_gfx"
+	hostility_doctrine = pagan_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_pagan.dds
+}
+
+rf_formless = {
+	is_pagan = yes
+	piety_icon_group = "pagan"
+	graphical_faith = "pagan_gfx"
+	hostility_doctrine = pagan_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_pagan.dds
+}
+
+rf_fell = {
+	is_pagan = yes
+	piety_icon_group = "pagan"
+	graphical_faith = "pagan_gfx"
+	hostility_doctrine = pagan_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_pagan.dds
+}
+
+rf_shaman = {
+	is_pagan = yes
+	piety_icon_group = "pagan"
+	graphical_faith = "pagan_gfx"
+	hostility_doctrine = pagan_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_pagan.dds
+}
+
+rf_beyonder = {
 	graphical_faith = "orthodox_gfx"
 	hostility_doctrine = abrahamic_hostility_doctrine
 	doctrine_background_icon = core_tenet_banner_christian.dds

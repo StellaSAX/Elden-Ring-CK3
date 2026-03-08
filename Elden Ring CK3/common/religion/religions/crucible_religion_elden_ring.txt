@@ -217,38 +217,6 @@
 	}	
 
 	faiths = {
-		faith_spiral = {
-			color = { 0.7 0.7 0.5 }
-			reformed_icon = faith_spiral
-			icon = faith_spiral
-			doctrine = unreformed_faith_doctrine
-
-			holy_site = scadutree_chalice
-			holy_site = enir_illim
-			holy_site = belurat
-			
-			#Generic pagan tenets
-			doctrine = tenet_sacrificial_ceremonies
-			doctrine = tenet_communal_identity
-			doctrine = tenet_mystical_birthright
-			doctrine = tenet_great_spiral
-		}
-		faith_shaman = {
-			color = { 0.2 0.9 0.2 }
-			reformed_icon = crucible_faith
-			icon = crucible_faith
-			doctrine = unreformed_faith_doctrine
-
-			holy_site = scadutree_chalice
-			holy_site = bonny_village
-			holy_site = shaman_village
-			holy_site = enir_illim
-
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
-			doctrine = tenet_pastoral_isolation
-		}
 		faith_crucible = {
 			color = { 0.6 0.8 0.4 }
 			reformed_icon = crucible_faith
@@ -267,59 +235,21 @@
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_primordial_curse
 		}
-		faith_ancient_dragon = {
-			color = { 0.7 0.7 0.7 }
-			reformed_icon = crucible_faith
-			icon = crucible_faith
+		faith_spiral = {
+			color = { 0.7 0.7 0.5 }
+			reformed_icon = faith_spiral
+			icon = faith_spiral
 			doctrine = unreformed_faith_doctrine
 
-			holy_site = farum_azula
-			holy_site = dragon_church
-			holy_site = dragon_cathedral
-			holy_site = grand_altar_dragon
+			holy_site = scadutree_chalice
+			holy_site = enir_illim
+			holy_site = belurat
 			
-			#for them to be friendly with dragon cult
-			doctrine = special_doctrine_is_dragon_faith
-
-			doctrine = tenet_communal_identity
-			doctrine = tenet_pursuit_of_power
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_ancient_dragon
-		}
-		faith_bayle_dragon = {
-			color = { 0.9 0.7 0.7 }
-			reformed_icon = bayle_faith
-			icon = bayle_faith
-			doctrine = unreformed_faith_doctrine
-
-			holy_site = farum_azula
-			holy_site = dragon_church
-			holy_site = dragon_cathedral
-			holy_site = jagged_peak
-
 			#Generic pagan tenets
-			doctrine = tenet_mountain_worship
-			doctrine = tenet_pursuit_of_power
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_bayle_dragon
-		}
-		faith_ancestor_spirit = {
-			color = { 0.1 0.8 0.8 }
-			reformed_icon = spirit_faith
-			icon = spirit_faith
-			doctrine = unreformed_faith_doctrine
-
-			holy_site = leyndell_capital
-			holy_site = scadutree_base
-			holy_site = haligtree
-			holy_site = regal_spirit
-			holy_site = ancestor_spirit
-			
-			
-			doctrine = tenet_primordial_curse
-			doctrine = tenet_pastoral_isolation
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_sacrificial_ceremonies
+			doctrine = tenet_communal_identity
+			doctrine = tenet_mystical_birthright
+			doctrine = tenet_great_spiral
 		}
 	}
 }

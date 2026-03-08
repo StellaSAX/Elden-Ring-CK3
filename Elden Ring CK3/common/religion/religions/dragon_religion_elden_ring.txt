@@ -1,9 +1,9 @@
-﻿other_religion = {
-	family = rf_others
+﻿dragon_religion = {
+	family = rf_dragon
 
 	doctrine = pagan_hostility_doctrine
 
-	pagan_roots = yes
+	#pagan_roots = yes
 
 	#Main Group
 	doctrine = doctrine_polytheist
@@ -24,7 +24,7 @@
 	doctrine = doctrine_adultery_women_crime
 	doctrine = doctrine_kinslaying_close_kin_crime
 	doctrine = doctrine_deviancy_crime
-	doctrine = doctrine_witchcraft_shunned
+	doctrine = doctrine_witchcraft_accepted
 	doctrine = doctrine_omen_crime
 	doctrine = doctrine_grafting_crime
 
@@ -44,8 +44,8 @@
 	doctrine = doctrine_no_anointment
 
 	traits = {
-		virtues = { brave just honest }
-		sins = { craven arbitrary deceitful }
+		virtues = { brave just }
+		sins = { craven arbitrary }
 	}
 
 	custom_faith_icons = {
@@ -217,120 +217,57 @@
 	}	
 
 	faiths = {
-		faith_fell = {
-			color = { 0.9 0.2 0.2 }
-			reformed_icon = fell_order
-
-			doctrine = unreformed_faith_doctrine
-
-			holy_site = mount_gelmir
-			holy_site = star_gazer_ruin
-			holy_site = giant_forge
-			#holy_site = sellia_sorcery
+		faith_dragon_cult = {
+			color = { 0.9 0.6 0.1 }
+			reformed_icon = faith_communion
+			icon = faith_communion
 			
-			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
-		}
-		faith_formless = {
-			color = { 0.8 0.05 0.05 }
-			reformed_icon = formless_order
-
-			doctrine = unreformed_faith_doctrine
-
+			holy_site = farum_azula
 			holy_site = leyndell_capital
-			holy_site = caelid_colosseum
-			holy_site = leyndell_colosseum
-			holy_site = limgrave_colosseum
-			holy_site = blood_palace
-			holy_site = east_altus_divine_tower
-			
-			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			holy_site = grand_altar_dragon
+			holy_site = dragon_church
+			holy_site = dragon_cathedral
+
+			doctrine = tenet_adaptive
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_golden_order
+			doctrine = tenet_dragon_cult
 		}
-		faith_rot = {
-			color = { 0.9 0.5 0.3 }
-			reformed_icon = rot_order
-
+		faith_ancient_dragon = {
+			color = { 0.7 0.7 0.7 }
+			reformed_icon = faith_dragon_cult
+			icon = faith_dragon_cult
 			doctrine = unreformed_faith_doctrine
 
-			holy_site = leyndell_capital
-			holy_site = isolated_divine_tower
-			holy_site = lake_of_rot
-			holy_site = church_of_the_bud
-			holy_site = haligtree
-			holy_site = malenia_bloom
+			holy_site = farum_azula
+			holy_site = dragon_church
+			holy_site = dragon_cathedral
+			holy_site = grand_altar_dragon
 			
-			#Generic pagan tenets
-			doctrine = tenet_astrology
+			#for them to be friendly with dragon cult
+			doctrine = special_doctrine_is_dragon_faith
+
+			doctrine = tenet_communal_identity
+			doctrine = tenet_pursuit_of_power
 			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_ancient_dragon
 		}
-		faith_old_death = {
-			color = { 0.1 0.1 0.1 }
-			reformed_icon = death_order
-			icon = death_order
+		faith_bayle_dragon = {
+			color = { 0.9 0.7 0.7 }
+			reformed_icon = bayle_faith
+			icon = bayle_faith
 			doctrine = unreformed_faith_doctrine
 
-			holy_site = deeproot
-			holy_site = death_catacombs
-
-			
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_fp3_fedayeen
-		}
-		faith_frenzy = {
-			color = { 0.9 0.4 0.1 }
-			reformed_icon = frenzy_order
-
-			doctrine = unreformed_faith_doctrine
-
-			holy_site = abyssal_woods
-			holy_site = three_fingers
-			holy_site = frenzy_village
-			holy_site = giant_forge
-			
-			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
-		}		
-		faith_god_snake = {
-			color = { 0.99 0.10 0.05 }
-			reformed_icon = god_snake_order
-
-			doctrine = unreformed_faith_doctrine
-
-			holy_site = mount_gelmir
-			holy_site = leyndell_capital
-			holy_site = caria_manor
-			holy_site = west_altus_divine_tower
-			
-			
-			doctrine = tenet_gruesome_festivals
-			doctrine = tenet_human_sacrifice
-			doctrine = tenet_fp3_fedayeen
-			doctrine = tenet_hedonistic
-		}
-		faith_reedlander = {
-			color = { 0.9 0.1 0.1 }
-			reformed_icon = land_of_reeds_faith
-
-			doctrine = unreformed_faith_doctrine
-
-			holy_site = limgrave_colosseum
-			holy_site = caelid_colosseum
-			holy_site = leyndell_colosseum
+			holy_site = farum_azula
+			holy_site = dragon_church
+			holy_site = dragon_cathedral
+			holy_site = jagged_peak
 
 			#Generic pagan tenets
-			doctrine = tenet_astrology
+			doctrine = tenet_mountain_worship
+			doctrine = tenet_pursuit_of_power
 			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_bayle_dragon
 		}
-
 	}
 }

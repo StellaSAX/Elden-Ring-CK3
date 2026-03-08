@@ -1,9 +1,9 @@
-﻿order_religion = {
-	family = rf_order
+﻿frenzied_religion = {
+	family = rf_frenzied
 
 	doctrine = pagan_hostility_doctrine
 
-	#pagan_roots = yes
+	pagan_roots = yes
 
 	#Main Group
 	doctrine = doctrine_polytheist
@@ -24,7 +24,7 @@
 	doctrine = doctrine_adultery_women_crime
 	doctrine = doctrine_kinslaying_close_kin_crime
 	doctrine = doctrine_deviancy_crime
-	doctrine = doctrine_witchcraft_accepted
+	doctrine = doctrine_witchcraft_shunned
 	doctrine = doctrine_omen_crime
 	doctrine = doctrine_grafting_crime
 
@@ -44,8 +44,8 @@
 	doctrine = doctrine_no_anointment
 
 	traits = {
-		virtues = { brave just }
-		sins = { craven arbitrary }
+		virtues = { brave just honest }
+		sins = { craven arbitrary deceitful }
 	}
 
 	custom_faith_icons = {
@@ -53,9 +53,9 @@
 	}
 
 	holy_order_names = {
-		{ name = holy_order_knigts_of_marika }
-		{ name = holy_order_knigts_of_the_fingers }
-		{ name = holy_order_knigts_of_order }
+		{ name = holy_order_guardians_of_divinerealm }
+		{ name = holy_order_faithful_of_highgod }
+		{ name = holy_order_warriors_of_the_symbol }
 	}
 
 	holy_order_maa = { horse_archers }
@@ -217,125 +217,21 @@
 	}	
 
 	faiths = {
-		faith_golden = {
-			color = { 0.9 0.9 0.1 }
-			##reformed_icon = golden_order
-
-			#doctrine = unreformed_faith_doctrine
-
-			holy_site = leyndell_capital
-			holy_site = west_altus_divine_tower
-			holy_site = east_altus_divine_tower
-			holy_site = liurnia_divine_tower
-			holy_site = limgrave_divine_tower
-			holy_site = caelid_divine_tower
-			holy_site = isolated_divine_tower
-
-			
-			doctrine = tenet_legalism
-			doctrine = tenet_unrelenting_faith
-			doctrine = tenet_golden_order
-			doctrine = tenet_religious_legal_pronouncements
-		}
-		faith_fundamentalism = {
-			color = { 0.5 0.5 0.05 }
-			#reformed_icon = pagan_reformed
-
-			#doctrine = unreformed_faith_doctrine
-
-			holy_site = west_altus_divine_tower
-			holy_site = east_altus_divine_tower
-			holy_site = liurnia_divine_tower
-			holy_site = limgrave_divine_tower
-			holy_site = caelid_divine_tower
-			holy_site = isolated_divine_tower
-
-			
-			doctrine = tenet_literalism
-			doctrine = tenet_unrelenting_faith
-			doctrine = tenet_legalism
-			doctrine = tenet_golden_order
-		}
-		faith_unalloyed = {
-			color = { 0.99 0.99 0.0 }
-
-			holy_site = haligtree
-			holy_site = west_altus_divine_tower
-			holy_site = east_altus_divine_tower
-			holy_site = liurnia_divine_tower
-			holy_site = limgrave_divine_tower
-			holy_site = caelid_divine_tower
-			holy_site = isolated_divine_tower
-			
-			doctrine = tenet_rite
-			doctrine = tenet_unalloyed_order
-			doctrine = tenet_pacifism
-			doctrine = tenet_pastoral_isolation		
-		}
-		faith_perfect = {
-			color = { 0.7 0.7 0.05 }
-			#reformed_icon = pagan_reformed
-
-			#doctrine = unreformed_faith_doctrine
-
-			holy_site = west_altus_divine_tower
-			holy_site = east_altus_divine_tower
-			holy_site = liurnia_divine_tower
-			holy_site = limgrave_divine_tower
-			holy_site = caelid_divine_tower
-			holy_site = isolated_divine_tower
-
-			#Generic pagan tenets
-			doctrine = tenet_literalism
-			doctrine = tenet_legalism
-			doctrine = tenet_pursuit_of_knowledge
-			doctrine = tenet_golden_order
-		}
-		faith_messmer = {
-			color = { 0.9 0.5 0.0 }
-			
-			holy_site = leyndell_capital
-			holy_site = castle_ensis
-			holy_site = scadutree_base
-			holy_site = west_altus_divine_tower
-			holy_site = east_altus_divine_tower
-			holy_site = shadow_keep
-
-			doctrine = tenet_warmonger
-			doctrine = tenet_exaltation_of_pain
-			doctrine = tenet_sacred_destruction		
-			doctrine = tenet_golden_exile
-		}
-		faith_kind = {
-			color = { 0.9 0.9 0.5 }
-
-			holy_site = haligtree
-			holy_site = enir_illim
-			holy_site = stone_coffin_fissure
-			holy_site = castle_ensis
-			holy_site = shadow_keep
-
-			doctrine = tenet_rite
-			doctrine = tenet_unalloyed_order
-			doctrine = tenet_pursuit_of_power
-			doctrine = tenet_struggle_submission
-		}		
-		faith_st_trina = {
-			color = { 0.7 0.1 0.7 }
-			reformed_icon = st_trina_order
+		faith_frenzy = {
+			color = { 0.9 0.4 0.1 }
+			reformed_icon = frenzy_order
 
 			doctrine = unreformed_faith_doctrine
 
-			holy_site = leyndell_capital
-			holy_site = haligtree
-			holy_site = stone_coffin_fissure
-			holy_site = enir_illim
+			holy_site = abyssal_woods
+			holy_site = three_fingers
+			holy_site = frenzy_village
+			holy_site = giant_forge
 			
 			#Generic pagan tenets
-			doctrine = tenet_no_mind
-			doctrine = tenet_esotericism
-			doctrine = tenet_st_trinas_blessing
-			doctrine = tenet_unalloyed_order
+			doctrine = tenet_astrology
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_sanctity_of_nature
 		}
 	}
 }

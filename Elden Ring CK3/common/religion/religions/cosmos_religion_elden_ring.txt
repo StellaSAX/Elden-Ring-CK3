@@ -217,20 +217,21 @@
 	}	
 
 	faiths = {
-		faith_moons = {
-			color = { 0.2 0.2 0.6 }
-			icon = moons_faith
-
+		faith_academy = {
+			color = { 0.1 0.1 0.5 }
+			icon = academy_faith
+			
 			holy_site = star_gazer_ruin
 			holy_site = caria_manor
 			holy_site = raya_lucaria
 			holy_site = sellia_sorcery
-			holy_site = liurnia_divine_tower
-
+			holy_site = sorcerer_azur
+			holy_site = manus_metyr
+			
 			doctrine = tenet_astrology
-			doctrine = tenet_glintstone	
+			doctrine = tenet_glintstone
 			doctrine = tenet_pursuit_of_knowledge
-			doctrine = tenet_golden_order_syncretism
+			doctrine = tenet_adaptive
 		}
 		faith_primeval = {
 			color = { 0.0 0.0 0.9 }
@@ -251,37 +252,6 @@
 			doctrine = tenet_pursuit_of_knowledge
 			doctrine = tenet_sacrificial_ceremonies
 		}
-		faith_academy = {
-			color = { 0.1 0.1 0.5 }
-			icon = academy_faith
-			
-			holy_site = star_gazer_ruin
-			holy_site = caria_manor
-			holy_site = raya_lucaria
-			holy_site = sellia_sorcery
-			holy_site = sorcerer_azur
-			holy_site = manus_metyr
-			
-			doctrine = tenet_astrology
-			doctrine = tenet_glintstone
-			doctrine = tenet_pursuit_of_knowledge
-			doctrine = tenet_adaptive
-		}
-		faith_gravity = {
-			color = { 0.7 0.2 0.7 }
-			icon = gravity_faith
-			
-			holy_site = caria_manor
-			holy_site = raya_lucaria
-			holy_site = sellia_sorcery
-			holy_site = redmane_castle
-			holy_site = caelid_divine_tower
-
-			doctrine = tenet_golden_order_syncretism
-			doctrine = tenet_glintstone
-			doctrine = tenet_unrelenting_faith
-			doctrine = tenet_ritual_celebrations
-		}
 		faith_night = {
 			color = { 0.2 0.2 0.2 }
 			reformed_icon = night_faith
@@ -298,6 +268,21 @@
 			doctrine = tenet_glintstone
 			doctrine = tenet_sacred_shadows
 			doctrine = tenet_destroy_golden_order
+		}
+		faith_gravity = {
+			color = { 0.7 0.2 0.7 }
+			icon = gravity_faith
+			
+			holy_site = caria_manor
+			holy_site = raya_lucaria
+			holy_site = sellia_sorcery
+			holy_site = redmane_castle
+			holy_site = caelid_divine_tower
+
+			doctrine = tenet_golden_order_syncretism
+			doctrine = tenet_glintstone
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_ritual_celebrations
 		}
 	}
 }
