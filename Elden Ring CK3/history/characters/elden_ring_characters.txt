@@ -187,7 +187,7 @@ rennala = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_4
+		trait = carian_sorcerer
 	}
 	250.1.1 = {
 		add_spouse = radagon
@@ -234,6 +234,7 @@ rellana = {
 	trait = patient
 	trait = brave
 	trait = glintstone_affinity
+	trait = lifestyle_blademaster
 	trait = no_marry
 	
 	disallow_random_traits = yes
@@ -243,7 +244,7 @@ rellana = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_4
+		trait = carian_sorcerer
 	}
 	1200.5.25 = {
 		death = yes

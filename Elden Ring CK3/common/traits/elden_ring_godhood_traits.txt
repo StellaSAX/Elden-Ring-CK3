@@ -266,3 +266,42 @@ special_tarnished = { #discord dudes, tarnished of some renown
 		cancer
 	}
 }
+
+carian_sorcerer = {
+	category = health
+	icon = "carian_sorcerer.dds"
+	#shown_in_ruler_designer = no
+	ruler_designer_cost = 500
+	#immortal = yes
+	#set_immortal_age = 25
+	life_expectancy = 5000
+	years_of_fertility = 5000
+	negate_health_penalty_add = 5
+	health = 10
+	fertility = -0.2
+	no_prowess_loss_from_age = yes
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_carian_sorcerer_neutral
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_carian_sorcerer_female
+			}
+			desc = trait_carian_sorcerer_male
+		}
+	}
+	
+	ai_greed = very_high_positive_ai_value
+	ai_energy = very_high_positive_ai_value
+	ai_boldness = high_positive_ai_value
+	
+	opposites = {
+		incapable
+		cancer
+		disfigured
+	}
+}

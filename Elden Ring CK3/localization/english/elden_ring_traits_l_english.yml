@@ -10,6 +10,10 @@ trait_empyrean_elden_ring:0 "Empyrean"
 trait_eternal_youth_elden_ring:0 "Eternal Youth"
 trait_shardbearer_elden_ring:0 "Shardbearer"
 
+trait_carian_sorcerer_neutral:0 "Carian Sorcerer"
+trait_carian_sorcerer_male:0 "Carian Sorcerer"
+trait_carian_sorcerer_female:0 "Carian Sorceress"
+
 trait_god_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a God, a being of great power that will cause an impact on the world."
 trait_demigod_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the descendant of a God, in their blood exist the potential for greatness."
 trait_demigod_elden_ring_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the descendant of a God, in their blood exists the potential for greatness."
