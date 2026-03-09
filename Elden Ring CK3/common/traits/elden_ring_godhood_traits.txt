@@ -306,9 +306,9 @@ carian_sorcerer = {
 	}
 }
 
-shadowhound_beast = {
+shadowbound_beast = {
 	category = health
-	icon = "shadowhound_beast.dds"
+	icon = "shadowbound_beast.dds"
 	shown_in_ruler_designer = no
 	ruler_designer_cost = 500
 	#immortal = yes
