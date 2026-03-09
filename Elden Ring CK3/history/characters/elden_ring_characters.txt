@@ -469,7 +469,7 @@ ranni = {
 	trait = education_learning_5
 	
 	trait = callous
-	trait = deceitful
+	trait = calm
 	trait = ambitious
 	trait = intellect_good_2
 	trait = beauty_good_3
