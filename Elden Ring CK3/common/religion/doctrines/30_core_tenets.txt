@@ -279,7 +279,7 @@
 		}
 
 		parameters = {
-			hostility_override_dragon_hostility_doctrine = 1
+			hostility_override_special_doctrine_is_dragon_faith = 2
 			#For loc:
 			is_dragon_faith_bilateral_loc_override = 1
 			dragon_syncretic_actor_opinion_active = yes
@@ -600,7 +600,7 @@
 		}
 
 		parameters = {
-			hostility_override_golden_hostility_doctrine = 1
+			hostility_override_special_doctrine_is_golden_faith = 2
 			#For loc:
 			is_golden_faith_bilateral_loc_override = 1
 			golden_syncretic_actor_opinion_active = yes

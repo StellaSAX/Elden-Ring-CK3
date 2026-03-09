@@ -42,6 +42,10 @@
 
 	#Coronation tradition
 	doctrine = doctrine_no_anointment
+	
+	#for them to be friendly with faiths with order syncretism
+	doctrine = special_doctrine_is_golden_faith
+	
 
 	traits = {
 		virtues = { brave just }
@@ -230,7 +234,7 @@
 			holy_site = limgrave_divine_tower
 			holy_site = caelid_divine_tower
 			holy_site = isolated_divine_tower
-
+			
 			
 			doctrine = tenet_legalism
 			doctrine = tenet_unrelenting_faith
@@ -336,6 +340,21 @@
 			doctrine = tenet_esotericism
 			doctrine = tenet_st_trinas_blessing
 			doctrine = tenet_unalloyed_order
+		}
+		faith_dragon_cult = {
+			color = { 0.9 0.6 0.1 }
+			icon = faith_dragon_cult
+			
+			holy_site = farum_azula
+			holy_site = leyndell_capital
+			holy_site = grand_altar_dragon
+			holy_site = dragon_church
+			holy_site = dragon_cathedral
+
+			doctrine = tenet_adaptive
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_golden_order
+			doctrine = tenet_dragon_cult
 		}
 	}
 }

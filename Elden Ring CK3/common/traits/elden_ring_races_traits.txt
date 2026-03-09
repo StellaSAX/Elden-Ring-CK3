@@ -34,7 +34,7 @@ omen_horn_trait = {
 	stress_gain_mult = 0.1
 	
 	opposites = {
-		misbegotten_trait
+		
 		omen_no_horn_trait
 	}
 	
@@ -59,7 +59,7 @@ omen_no_horn_trait = {
 	health = -0.25
 	
 	opposites = {
-		misbegotten_trait
+		
 		omen_horn_trait
 	}
 }

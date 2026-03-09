@@ -19,6 +19,7 @@ doctrine_grafting = {
 		parameters = {
 			grafting_illegal = yes
 		}
+
 	}
 	doctrine_grafting_shunned = {
 		piety_cost = {
@@ -97,6 +98,9 @@ doctrine_omen = {
 		}
 		parameters = {
 			omen_illegal = yes
+		}
+		traits = {
+			sins = { omen_horn_trait }
 		}
 	}
 	doctrine_omen_shunned = {

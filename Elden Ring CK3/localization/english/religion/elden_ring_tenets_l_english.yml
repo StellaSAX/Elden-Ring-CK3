@@ -2,3 +2,33 @@
  
  tenet_primordial_curse_name:0 "Blessing of the Crucible"
  tenet_primordial_curse_desc:0 "The primordial crucible is both a curse and a blessing, of evolution and vitality. Those with it's traits: Horns, Scales, Wings, Breath, Feathers, Tail and Fangs are seen as divine."
+ 
+ doctrine_parameter_hostility_override_special_doctrine_is_dragon_faith:1 "Dragon [faiths|E] are considered only [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_is_dragon_faith_bilateral_loc_override:0 "Considers Dragon [faiths|E], and is considered by Dragon $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+ doctrine_parameter_dragon_syncretic_actor_opinion_active:0 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with Dragon [faiths|E]"
+ doctrine_parameter_opinion_of_dragon_syncretic_recipient_opinion_active:0 ""
+ 
+ doctrine_parameter_hostility_override_golden_hostility_doctrine:1 "Order [faiths|E] are considered only [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_is_golden_faith_bilateral_loc_override:0 "Considers Order [faiths|E], and is considered by Order $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+ doctrine_parameter_golden_syncretic_actor_opinion_active:0 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with Order [faiths|E]"
+ doctrine_parameter_opinion_of_golden_syncretic_recipient_opinion_active:0 ""
+ 
+ tenet_golden_order_name:0 "The Governing Principle"
+ tenet_golden_order_desc:0 "The Golden Order, made manifest by the Elden Ring, encompasses everything - our world and the very rules dictating its functions. We followers of the Golden Order share reverence for the Erdtree, Marika and her consort."
+ tenet_unalloyed_order_name:0 "The Unalloyed Order"
+ tenet_unalloyed_order_desc:0 "The Golden Order has faced meddling from the Outer Gods for too long. Following Miquella, we shall reject their influence and seek a peaceful existence, not based on violence but kindness instead."
+ tenet_glintstone_name:0 "The Primeval Current"
+ tenet_glintstone_desc:0 "The celestial bodies, including stars and especially the moon, possess inconceivable power. We need not rely on the Erdtree and Marika but instead study the night sky. Even so we must caution against glimpsing the unknowable and forbid magic outside of glintstone sorcery."
+ tenet_destroy_golden_order_name:0 "Rejecting the Order"
+ tenet_destroy_golden_order_desc:0 "The Golden Order is nothing but a farce and facade masquerading a dying world. We reject their “fundamental” laws! We will destroy the Order so a new world can be born in its ashes."
+ tenet_golden_exile_name:0 "The Crusade"
+ tenet_golden_exile_desc:0 "The Flame can be sacred when used against those who fall outside of the Erdtree’s grace. Our sacred mission from Marika remains: burn the Hornsent and impale the Divine Beasts! Not until then can we return to the Lands Between. "
+ tenet_live_in_death_name:0 "Those Who Live in Death"
+ tenet_live_in_death_desc:0 "We who have been touched by the Rune of Death patiently await the return of our Lord; Godwyn, the Prince of Death. With both halves of the Runes of Death united, we shall correct the flawed Elden Ring to instill the Those Who Live in Death in it!"
+ 
+ tenet_dragon_cult_name:0 "Dragon Worship"
+ tenet_dragon_cult_desc:0 "Long ago, Godwyn the Golden defeated the ancient dragon Fortissax, and befriended his fallen foe. The worship of the ancient dragons does not conflict with belief in the Erdtree. After all, lightning itself is imbued with gold."
+ 
+ tenet_golden_order_syncretism_name:0 "Linked with Gold"
+ tenet_golden_order_syncretism_desc:0 "The Golden Order is pliable enough to absorb practices that contradicted itself. As long as they are willing to kneel to it and accept it's God as an absolute ruler."
+ 
