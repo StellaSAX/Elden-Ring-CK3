@@ -219,7 +219,8 @@
 	faiths = {
 		faith_god_snake = {
 			color = { 0.99 0.10 0.05 }
-			reformed_icon = god_snake_order
+			icon = faith_devouring_serpent
+			reformed_icon = faith_devouring_serpent
 
 			doctrine = unreformed_faith_doctrine
 

@@ -219,7 +219,8 @@
 	faiths = {
 		faith_moons = {
 			color = { 0.2 0.2 0.6 }
-			icon = moons_faith
+			icon = faith_fullmoon
+			reformed_icon = faith_fullmoon
 
 			holy_site = star_gazer_ruin
 			holy_site = caria_manor
@@ -235,6 +236,7 @@
 		faith_stars = {
 			color = { 0.3 0.1 0.9 }
 			icon = faith_darkmoon
+			reformed_icon = faith_darkmoon
 			
 			holy_site = caria_manor
 			holy_site = west_altus_divine_tower

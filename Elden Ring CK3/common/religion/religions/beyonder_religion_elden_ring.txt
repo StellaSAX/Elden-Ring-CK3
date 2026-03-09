@@ -219,7 +219,8 @@
 	faiths = {
 		faith_reedlander = {
 			color = { 0.9 0.1 0.1 }
-			reformed_icon = land_of_reeds_faith
+			icon = faith_reedlands
+			reformed_icon = faith_reedlands
 
 			doctrine = unreformed_faith_doctrine
 

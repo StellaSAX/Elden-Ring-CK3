@@ -219,7 +219,8 @@
 	faiths = {
 		faith_academy = {
 			color = { 0.1 0.1 0.5 }
-			icon = academy_faith
+			icon = faith_academy
+			reformed_icon = faith_academy
 			
 			holy_site = star_gazer_ruin
 			holy_site = caria_manor
@@ -235,8 +236,8 @@
 		}
 		faith_primeval = {
 			color = { 0.0 0.0 0.9 }
-			icon = primeval_faith
-			reformed_icon = primeval_faith
+			icon = faith_primeval
+			reformed_icon = faith_primeval
 
 			doctrine = unreformed_faith_doctrine
 
@@ -254,7 +255,8 @@
 		}
 		faith_night = {
 			color = { 0.2 0.2 0.2 }
-			reformed_icon = night_faith
+			icon = faith_night
+			reformed_icon = faith_night
 
 			doctrine = unreformed_faith_doctrine
 
@@ -271,7 +273,8 @@
 		}
 		faith_gravity = {
 			color = { 0.7 0.2 0.7 }
-			icon = gravity_faith
+			icon = faith_gravity
+			reformed_icon = faith_gravity
 			
 			holy_site = caria_manor
 			holy_site = raya_lucaria

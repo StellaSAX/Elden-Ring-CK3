@@ -219,7 +219,8 @@
 	faiths = {
 		faith_despair = {
 			color = { 0.9 0.7 0.7 }
-			#reformed_icon = pagan_reformed
+			icon = faith_defiled
+			reformed_icon = faith_defiled
 
 			#doctrine = unreformed_faith_doctrine
 

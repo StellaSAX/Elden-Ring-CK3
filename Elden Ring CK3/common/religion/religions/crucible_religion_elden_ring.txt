@@ -219,8 +219,8 @@
 	faiths = {
 		faith_crucible = {
 			color = { 0.6 0.8 0.4 }
-			reformed_icon = crucible_faith
-			icon = crucible_faith
+			icon = faith_crucible
+			reformed_icon = faith_crucible
 			doctrine = unreformed_faith_doctrine
 
 			holy_site = leyndell_capital
@@ -237,8 +237,8 @@
 		}
 		faith_spiral = {
 			color = { 0.7 0.7 0.5 }
-			reformed_icon = faith_spiral
 			icon = faith_spiral
+			reformed_icon = faith_spiral
 			doctrine = unreformed_faith_doctrine
 
 			holy_site = scadutree_chalice

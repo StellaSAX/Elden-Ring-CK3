@@ -223,7 +223,8 @@
 	faiths = {
 		faith_golden = {
 			color = { 0.9 0.9 0.1 }
-			##reformed_icon = golden_order
+			icon = faith_golden_order
+			reformed_icon = faith_golden_order
 
 			#doctrine = unreformed_faith_doctrine
 
@@ -243,7 +244,8 @@
 		}
 		faith_fundamentalism = {
 			color = { 0.5 0.5 0.05 }
-			#reformed_icon = pagan_reformed
+			icon = faith_fundamentalism
+			reformed_icon = faith_fundamentalism
 
 			#doctrine = unreformed_faith_doctrine
 
@@ -262,6 +264,8 @@
 		}
 		faith_unalloyed = {
 			color = { 0.99 0.99 0.0 }
+			icon = faith_unalloyed
+			reformed_icon = faith_unalloyed
 
 			holy_site = haligtree
 			holy_site = west_altus_divine_tower
@@ -278,7 +282,8 @@
 		}
 		faith_perfect = {
 			color = { 0.7 0.7 0.05 }
-			#reformed_icon = pagan_reformed
+			icon = faith_perfect_order
+			reformed_icon = faith_perfect_order
 
 			#doctrine = unreformed_faith_doctrine
 
@@ -297,6 +302,8 @@
 		}
 		faith_messmer = {
 			color = { 0.9 0.5 0.0 }
+			icon = faith_messmer
+			reformed_icon = faith_messmer
 			
 			holy_site = leyndell_capital
 			holy_site = castle_ensis
@@ -312,6 +319,8 @@
 		}
 		faith_kind = {
 			color = { 0.9 0.9 0.5 }
+			icon = faith_kind
+			reformed_icon = faith_kind
 
 			holy_site = haligtree
 			holy_site = enir_illim
@@ -326,7 +335,8 @@
 		}		
 		faith_st_trina = {
 			color = { 0.7 0.1 0.7 }
-			reformed_icon = st_trina_order
+			icon = faith_st_trina
+			reformed_icon = faith_st_trina
 
 			doctrine = unreformed_faith_doctrine
 
@@ -344,6 +354,7 @@
 		faith_dragon_cult = {
 			color = { 0.9 0.6 0.1 }
 			icon = faith_dragon_cult
+			reformed_icon = faith_dragon_cult
 			
 			holy_site = farum_azula
 			holy_site = leyndell_capital

@@ -219,7 +219,8 @@
 	faiths = {
 		faith_death_prince = {
 			color = { 0.1 0.1 0.1 }
-			icon = death_order
+			icon = faith_death_prince
+			reformed_icon = faith_death_prince
 			
 			holy_site = deeproot
 			holy_site = castle_sol
@@ -237,8 +238,8 @@
 		}
 		faith_old_death = {
 			color = { 0.1 0.1 0.1 }
-			reformed_icon = death_order
-			icon = death_order
+			icon = faith_death
+			reformed_icon = faith_death
 			doctrine = unreformed_faith_doctrine
 
 			holy_site = deeproot

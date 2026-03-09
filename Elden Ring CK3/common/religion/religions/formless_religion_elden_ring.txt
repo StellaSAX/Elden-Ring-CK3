@@ -219,7 +219,8 @@
 	faiths = {
 		faith_formless = {
 			color = { 0.8 0.05 0.05 }
-			reformed_icon = formless_order
+			icon = faith_formless
+			reformed_icon = faith_formless
 
 			doctrine = unreformed_faith_doctrine
 

@@ -219,8 +219,8 @@
 	faiths = {
 		faith_ancestor_spirit = {
 			color = { 0.1 0.8 0.8 }
-			reformed_icon = spirit_faith
-			icon = spirit_faith
+			icon = faith_spirit
+			reformed_icon = faith_spirit
 			doctrine = unreformed_faith_doctrine
 
 			holy_site = leyndell_capital
