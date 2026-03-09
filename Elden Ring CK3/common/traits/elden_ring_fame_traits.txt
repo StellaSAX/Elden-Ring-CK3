@@ -2,14 +2,14 @@ grafting = {
 	category = fame
 	icon = "grafting_trait.dds"
 	
-	ruler_designer_cost = -20
+	ruler_designer_cost = -10
 	
 	attraction_opinion = -5
 	diplomacy = -1
 	same_opinion = 10
 	
 	track = {
-		25 = {
+		20 = {
 			dread_baseline_add = 5
 			attraction_opinion = -10
 			fertility = -0.1
@@ -17,26 +17,34 @@ grafting = {
 			martial = 1
 			prowess = 4
 		}
-		50 = {
+		40 = {
 			dread_baseline_add = 5
-			attraction_opinion = -15
+			attraction_opinion = -10
 			fertility = -0.1
 			diplomacy = -2
 			martial = 1
 			prowess = 4
 		}
-		75 = {
+		60 = {
 			dread_baseline_add = 5
-			attraction_opinion = -20
+			attraction_opinion = -10
+			fertility = -0.1
+			diplomacy = -2
+			martial = 1
+			prowess = 4
+		}
+		80 = {
+			dread_baseline_add = 5
+			attraction_opinion = -10
 			fertility = -0.1
 			diplomacy = -2
 			martial = 1
 			prowess = 4
 		}
 		100 = {
-			dread_baseline_add = 5
-			attraction_opinion = -25
-			fertility = -0.15
+			dread_baseline_add = 10
+			attraction_opinion = -20
+			fertility = -0.2
 			diplomacy = -2
 			martial = 2
 			prowess = 6

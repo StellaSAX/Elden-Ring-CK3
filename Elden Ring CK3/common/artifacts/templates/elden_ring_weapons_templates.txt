@@ -27,6 +27,7 @@ axe_of_godfrey_template = {
 	can_benefit = {
 		is_capable_adult = yes
 		OR = {
+			is_godfrey = yes
 			has_trait = strong
 			has_trait = physique_good_3
 			martial >= 30
@@ -35,6 +36,30 @@ axe_of_godfrey_template = {
 	fallback = {
 		#always = yes
 		monthly_prestige = 2.0
+	}
+	unique = yes
+	ai_score = {
+		value = 100
+	}
+}
+
+axe_of_godrick_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		is_capable_adult = yes
+		OR = {
+			is_godrick = yes
+			has_trait = strong
+			has_trait = physique_good_2
+			has_trait = physique_good_3
+			martial >= 20
+		}
+	}
+	fallback = {
+		#always = yes
+		monthly_prestige = 0.5
 	}
 	unique = yes
 	ai_score = {
