@@ -7,3 +7,8 @@ axe_of_godfrey_visual = {
 	icon = "er_axe_of_godfrey.dds"
 	asset = axe_of_godfrey
 }
+
+axe_of_godrick_visual = {
+	icon = "er_axe_of_godrick.dds"
+	asset = axe_of_godrick
+}

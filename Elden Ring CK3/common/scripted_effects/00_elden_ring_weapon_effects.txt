@@ -64,3 +64,40 @@ elden_ring_axe_of_godfrey_effect = {
 		}
 	}
 }
+
+elden_ring_axe_of_godrick_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = axe_of_godrick_name
+		visuals = axe_of_godrick_visual
+		description = axe_of_godrick_description
+		type = axe
+		wealth = scope:wealth
+		quality = scope:quality
+		template = axe_of_godrick_template
+		history = {
+			type = created
+			date = 700.1.1
+			recipient = character:godrick
+			location = scope:location
+			actor = character:godrick
+		}
+		modifier = artifact_prowess_10_modifier
+		modifier = artifact_enemy_hard_casualty_modifier_9_modifier
+		modifier = artifact_uncontrolled_province_advantage_4_modifier
+		modifier = artifact_dread_gain_mult_3_modifier
+		modifier = artifact_monthly_prestige_05_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+	}
+}

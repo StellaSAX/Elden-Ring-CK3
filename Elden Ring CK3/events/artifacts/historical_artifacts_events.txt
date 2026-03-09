@@ -8,5 +8,10 @@ er_historical_artifacts.0001 = {
 		character:hoarah_loux ?= {
 			elden_ring_axe_of_godfrey_effect = { OWNER = this }
 		}
+		
+		character:godrick ?= {
+			elden_ring_axe_of_godrick_effect = { OWNER = this }
+			add_trait_xp = { trait = grafting value=80 }
+		}
 	}
 }
