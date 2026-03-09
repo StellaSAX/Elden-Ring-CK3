@@ -219,8 +219,8 @@
 	faiths = {
 		faith_dragon_cult = {
 			color = { 0.9 0.6 0.1 }
-			reformed_icon = faith_communion
-			icon = faith_communion
+			reformed_icon = faith_dragon_cult
+			icon = faith_dragon_cult
 			
 			holy_site = farum_azula
 			holy_site = leyndell_capital
@@ -235,8 +235,8 @@
 		}
 		faith_ancient_dragon = {
 			color = { 0.7 0.7 0.7 }
-			reformed_icon = faith_dragon_cult
-			icon = faith_dragon_cult
+			reformed_icon = faith_dragon
+			icon = faith_dragon
 			doctrine = unreformed_faith_doctrine
 
 			holy_site = farum_azula
