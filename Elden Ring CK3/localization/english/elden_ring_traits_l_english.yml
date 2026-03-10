@@ -11,12 +11,17 @@ trait_eternal_youth_elden_ring:0 "Eternal Youth"
 trait_shardbearer_elden_ring:0 "Shardbearer"
 
 trait_carian_sorcerer_neutral:0 "Carian Sorcerer"
+trait_carian_sorcerer_neutral_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has mastered the royal art of Carian sorcery, becoming adept at summoning projectiles and weapons matching even the Order’s strength."
 trait_carian_sorcerer_male:0 "Carian Sorcerer"
+trait_carian_sorcerer_male_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has mastered the royal art of Carian sorcery, becoming adept at summoning projectiles and weapons matching even the Order’s strength."
 trait_carian_sorcerer_female:0 "Carian Sorceress"
+trait_carian_sorcerer_female_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has mastered the royal art of Carian sorcery, becoming adept at summoning projectiles and weapons matching even the Order’s strength."
 
 trait_shadowbound_beast:0 "Shadowbound Beast"
+trait_shadowbound_beast_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an ever loyal servant to [ROOT.GetCharacter.GetHerHis] master Empyrean, sworn to aid them through their ascension to godhood, or to stop them if they falter."
 
 trait_scarlet_rot_child:0 "Child of the Rot"
+trait_scarlet_rot_child_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a child of Rot, having been born from a sprouting bud in the heart of Caelid."
 
 trait_god_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a God, a being of great power that will cause an impact on the world."
 trait_demigod_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the descendant of a God, in their blood exist the potential for greatness."
@@ -196,8 +201,11 @@ trait_tarnished_elden_ring_desc:0 "Exiles who lost the grace of gold long ago, t
 trait_grafted:0 "Grafted"
 
 trait_scarled_rot:0 "Scarlet Rot"
+trait_scarled_rot_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has caught a terrible and ancient affliction which is consuming [ROOT.GetCharacter.GetHerHis] body, leaving [ROOT.GetCharacter.GetHerHis] with a deformed body and terrible nightmares."
+//is this a typo? scarlet vs scarled
 
 trait_no_marry:0 "Refusing Marriage"
+trait_no_marry_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is for one reason or another refusing to marry."
 
 trait_perfumer:0 "Perfumer"
 perfumer_1_desc:0 "They begin [ROOT.GetCharacter.GetHerHis] journey in the world of perfuming, making diverse solutions to aid those who are sick and in pain."
@@ -212,3 +220,6 @@ trait_special_tarnished_desc:0 "Exiles who lost the grace of gold long ago, they
 
 trait_manserpent:0 "Manserpent"
 trait_manserpent_desc:0 "It is said that long ago, the elder serpent that dwelled on Mt. Gelmir devoured a demigod, and the birth of the man-serpents followed."
+
+trait_albinauric:0 "Albinauric"
+trait_albinauric_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an artificial creature living an impure life untouched by grace. [ROOT.GetCharacter.GetHerHis] fate is the same as for all Albinaurics; to slowly lose [ROOT.GetCharacter.GetHerHis] legs and wither away."
