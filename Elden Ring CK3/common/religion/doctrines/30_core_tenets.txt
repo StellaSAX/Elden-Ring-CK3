@@ -600,7 +600,7 @@
 		}
 
 		parameters = {
-			hostility_override_special_doctrine_is_golden_faith = 2
+			hostility_override_special_doctrine_is_golden_faith = 1
 			#For loc:
 			is_golden_faith_bilateral_loc_override = 1
 			golden_syncretic_actor_opinion_active = yes

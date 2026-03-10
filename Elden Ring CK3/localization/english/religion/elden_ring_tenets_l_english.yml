@@ -8,7 +8,7 @@
  doctrine_parameter_dragon_syncretic_actor_opinion_active:0 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with Dragon [faiths|E]"
  doctrine_parameter_opinion_of_dragon_syncretic_recipient_opinion_active:0 ""
  
- doctrine_parameter_hostility_override_golden_hostility_doctrine:1 "Order [faiths|E] are considered only [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_special_doctrine_is_golden_faith:1 "Order [faiths|E] are considered only [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  doctrine_parameter_is_golden_faith_bilateral_loc_override:0 "Considers Order [faiths|E], and is considered by Order $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
  doctrine_parameter_golden_syncretic_actor_opinion_active:0 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with Order [faiths|E]"
  doctrine_parameter_opinion_of_golden_syncretic_recipient_opinion_active:0 ""

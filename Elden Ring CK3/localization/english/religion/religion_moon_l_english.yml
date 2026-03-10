@@ -1,0 +1,89 @@
+﻿l_english:
+ 
+ moon_religion:0 "Moon"
+ moon_religion_adj:0 "Moon"
+ moon_religion_adherent:0 "Moon Worshiper"
+ moon_religion_adherent_plural:0 "Moon Worshipers"
+ moon_religion_desc:0 "Graced by the light of the Moon, those who worship its light believe utterly in clarity of mind, certainty of thought and freedom of command by those being not of this world or any other."
+ moon_high_god_name:0 "the Beneficent Moon"
+ moon_high_god_name_2:0 "the Beloved Moon" # Optional translation alt
+ moon_high_god_name_3:0 "the Guiding Moon" # Optional translation alt
+ moon_high_god_name_possessive:0 "Moonlit"
+ moon_high_god_name_alternate:0 "$moon_high_god_name$"
+ moon_high_god_name_alternate_possessive:0 "$moon_high_god_name$"
+ moon_devil_name:0 "the Frenzied Flame"
+ moon_devil_name_possessive:0 "Flame's"
+ moon_death_deity_name:0 "Destined Death"
+ moon_death_deity_name_possessive:0 "Destined Death's"
+ moon_house_of_worship:0 "library"
+ moon_house_of_worship_2:0 "academy" # Optional translation alt
+ moon_house_of_worship_3:0 "$moon_house_of_worship$" # Optional translation alt
+ moon_house_of_worship_plural:0 "Libraries"
+ moon_religious_symbol:0 "crescent"
+ moon_religious_symbol_2:0 "$moon_religious_symbol$" # Optional translation alt
+ moon_religious_symbol_3:0 "$moon_religious_symbol$" # Optional translation alt
+ moon_religious_text:0 "tomes"
+ moon_religious_text_2:0 "lessons"  
+ moon_religious_text_3:0 "studies"
+ moon_religious_head_title:0 "Glimpser"
+ moon_religious_head_title_name:0 "Glimpsary"
+ moon_devotee_male:0 "sorcerer"
+ moon_devotee_male_plural:0 "sorcerers"
+ moon_devotee_female:0 "sorceress"
+ moon_devotee_female_plural:0 "sorceress"
+ moon_devotee_neuter:0 "sorcerous"
+ moon_devotee_neuter_plural:0 "sorcerous"
+ moon_priest_male:0 "sage"
+ moon_priest_male_plural:0 "sages"
+ moon_priest_alternate_plural:0 "scholar"
+ moon_bishop:0 "Great Sage"
+ moon_bishop_plural:0 "Great Sages"
+ moon_positive_afterlife:0 "Land of Stars"
+ moon_positive_afterlife_2:1 "Realm of Moonlight" # Optional translation alt
+ moon_positive_afterlife_3:1 "Restful Oblivion" # Optional translation alt
+ moon_negative_afterlife:0 "the terror of Frenzy"
+ moon_negative_afterlife_2:1 "eternal servitude" # Optional translation alt
+ moon_negative_afterlife_3:1 "Moonless night" # Optional translation alt
+ moon_witchgod:0 "the Black Moon"
+ moon_witchgod_possessive:0 "the Black Moon's"
+ 
+ moon_creator_god_name:0 "$moon_high_god_name$"
+ moon_creator_god_name_possessive:0 "$moon_high_god_name_possessive$"
+ moon_health_god_name:0 "$moon_high_god_name$"
+ moon_health_god_name_possessive:0 "$moon_high_god_name_possessive$'"
+ moon_fertility_god_name:0 "$moon_high_god_name$"
+ moon_fertility_god_name_possessive:0 "$$moon_high_god_name_possessive$"
+ moon_wealth_god_name:0 "$moon_high_god_name$"
+ moon_wealth_god_name_possessive:0 "$moon_high_god_name_possessive$"
+ moon_household_god_name:0 "$moon_high_god_name$"
+ moon_household_god_name_possessive:0 "$moon_high_god_name_possessive$"
+ moon_fate_god_name:0 "$moon_high_god_name$"
+ moon_fate_god_name_possessive:0 "$moon_high_god_name_possessive$"
+ moon_knowledge_god_name:0 "$moon_high_god_name$"
+ moon_knowledge_god_name_possessive:0 "$moon_high_god_name_possessive$"
+ moon_war_god_name:0 "$moon_high_god_name$"
+ moon_war_god_name_possessive:0 "$moon_high_god_name_possessive$"
+ moon_trickster_god_name:0 "$moon_high_god_name$"
+ moon_trickster_god_name_possessive:0 "$moon_high_god_name_possessive$"
+ moon_night_god_name:0 "$moon_high_god_name$"
+ moon_night_god_name_possessive:0 "$moon_high_god_name_possessive$"
+ moon_water_god_name:0 "$moon_high_god_name$"
+ moon_water_god_name_possessive:0 "$moon_high_god_name_possessive$"
+
+ #Subfaiths
+
+ faith_moons:0 "Full Moon"
+ faith_moons_adj:0 "Full Moon's
+ faith_moons_adherent:0 "Scholar of the Full Moon"
+ faith_moons_adherent_plural:0 "Scholars of the Full Moon"
+ faith_moons_desc:0 "First glimpsed by Renalla, Queen of the Full Moon, the followers of this most powerful and beautiful celestial body believe utterly that it is through great power and sorcerery that mankind can achieve its true potential. Great libraries, studies and writings have been formed around the path of intellect, with many of their number believing that one of their greatest virtues is to pass on as much as they have learned as possible for those who follow after to learn from. It is no surprise then that the greatest libraries in Caria serve both as repositories of knowledge but also a conduit to the light of the Full Moon"
+
+ faith_stars:0 "Dark Moon"
+ faith_stars_adj:0 "Dark Moon's"
+ faith_stars_adherent:0 "Scholar of the Dark Moon"
+ faith_stars_adherent_plural:0 "Scholar of the Dark Moon's"
+ moondark_high_god_name:0 "the Dark Moon"
+ mooncold_high_god_name:0 "the Cold Moon"
+ faith_stars_trickster_god_name:0 "the Greater Will"
+ faith_stars_trickster_god_name_possessive:0 "the Greater Will's"
+ faith_stars_desc:0 "First glimpsed by Ranni, thereafter called the With of the Dark Moon, it is said that the Dark Moon is the herald of a new age and perhaps indeed there is some truth to that for often the image of a dark and lightless moon is considered a symbol of a new season in some ancient texts. Those who follow the Dark Moon believe strongly in a personal independence from the will and commandments of others perhaps even more so than those who study the other Moons, thrashing fiercely against attempts to control or stifle them as they seek to liberate their minds and wills from any who would command them. It is believed by many that under the shadow of the Dark Moon will come the Age of Stars and with it a Night Lord who will reign over a thousand year voyage of peaceful night and freedom."
