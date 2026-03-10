@@ -6,12 +6,27 @@
  TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME:0 "the $NAME$ $TIER|U$ #F ($TIER|U$ of $BASE_NAME$) #!"
  TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME_DEFINITE_FORM:0 "the $NAME$ $TIER|U$ #F ($BASE_NAME$) #!"
  TITLE_TIER_AS_NAME:0 "$TIER|U$"
- 
+ #i am also putting the special "titles" given to someone that fulfils the conditions, you can find the code here: \common\flavorization\elden_ring_title_holder_flavor.txt
  dragonlord_e:0 "Dragonlord"
  dragonlady_e:0 "Dragonlady"
  
- dragonlord_k:0 "Dragonlord"
- dragonlady_k:0 "Dragonlady"
+ dragonlord_k:0 "Tyrant"
+ dragonlady_k:0 "Tyrant"
+ 
+ general_m:0 "General"
+ general_f:0 "General"
+ 
+ crusader_m:0 "Crusader"
+ crusader_f:0 "Crusader"
+ 
+ stormlord_m:0 "Stormlord"
+ stormlord_f:0 "Stormlady"
+ 
+ protector_m:0 "Protector"
+ protector_f:0 "Protector"
+ 
+ headmaster:0 "Headmaster"
+ headmistress:0 "Headmistress"
  
  d_R109G206B144:0 "Western Weeping Peninsula"
  c_R125G179B212:0 "Forest Lookout"

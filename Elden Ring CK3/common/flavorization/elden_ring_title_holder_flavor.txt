@@ -13,7 +13,6 @@ dragonlady_e = {
 	tier = empire
 	priority = 282
 	titles = { e_farum_azula }
-	
 }
 
 dragonlord_k = {
@@ -31,4 +30,96 @@ dragonlady_k = {
 	tier = kingdom
 	priority = 282
 	titles = { k_dread_dragon }
+}
+
+general_m = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 282
+	titles = { k_radahn_remnants }
+}
+
+general_f = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 282
+	titles = { k_radahn_remnants }
+}
+
+crusader_m = {
+	type = character
+	gender = male
+	tier = kingdom
+	priority = 50
+	religions = { faith_messmer }
+}
+crusader_f = {
+	type = character
+	gender = female
+	tier = kingdom
+	priority = 50
+	religions = { faith_messmer }
+}
+
+stormlord_m = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 282
+	titles = { k_stormveil }
+	flavourization_rules = { 
+		only_independent = yes
+	}
+}
+stormlord_f = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 282
+	titles = { k_stormveil }
+	flavourization_rules = { 
+		only_independent = yes
+	}
+}
+
+protector_m = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 282
+	titles = { k_haligtree }
+}
+protector_m = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 282
+	titles = { k_haligtree }
+}
+
+headmaster = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 100
+	titles = { k_rayalucaria }
+	religions = { cosmos_religion }
+}
+headmistress = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 100
+	titles = { k_rayalucaria }
+	religions = { cosmos_religion }
 }
