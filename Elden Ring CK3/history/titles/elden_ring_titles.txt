@@ -6,6 +6,22 @@ h_lands_between = {
 		holder = 0
 	}
 }
+e_altus_plateau = {
+	500.1.1 = {
+		holder = marika
+	}
+	801.1.1 = {
+		holder = 0
+	}
+}
+k_leyndell = {
+	500.1.1 = {
+		holder = marika
+	}
+	801.1.1 = {
+		holder = 0
+	}
+}
 
 d_R144G46B216 = {
 	500.1.1 = {

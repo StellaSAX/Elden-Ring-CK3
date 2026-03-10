@@ -204,6 +204,8 @@ perfumer_1_desc:0 "They begin [ROOT.GetCharacter.GetHerHis] journey in the world
 perfumer_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] begins [ROOT.GetCharacter.GetHerHis] journey in the world of perfuming, making diverse solutions to aid those who are sick and in pain."
 perfumer_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has glimpsed the nefarious potential of the perfumes, and starts to study more and more their effects on the body."
 perfumer_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been corrupted by the perverse nature of [ROOT.GetCharacter.GetHerHis] work, which has caused him to fall into depravity and sin."
+trait_track_perfumer:0 "Perfumer's Knowledge"
+trait_track_perfumer_desc:0 "The path of transforming compunds into perfumes with many effects."
 
 trait_special_tarnished:0 "Renowned Tarnished"
 trait_special_tarnished_desc:0 "Exiles who lost the grace of gold long ago, they now come back to the Lands Between guided by grace, to stand before the Elden Ring. And chance to become the Elden Lord.\n\n[ROOT.GetCharacter.GetFirstNameNoTooltip] gained a reputation during their travels, but they are still just Tarnished."

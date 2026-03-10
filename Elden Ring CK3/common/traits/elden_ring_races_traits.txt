@@ -104,6 +104,7 @@ lesser_dragon_elden_ring = {
 
 albinauric_trait = {
 	category = health
+	icon = "albinauric.dds"
 	same_opinion = 50
 	immortal = yes
 	can_have_children = no

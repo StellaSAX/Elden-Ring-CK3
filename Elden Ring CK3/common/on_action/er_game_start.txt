@@ -3,3 +3,19 @@
 		er_historical_artifacts.0001
 	}
 }
+
+on_game_start_after_lobby = {
+	on_actions = { 
+		on_action_give_malenia_prowess 
+	}
+}
+
+on_action_give_malenia_prowess = {
+	effect = {
+		character:malenia = { 
+				add_prowess_skill = 100
+		}
+	}
+} 
+
+		

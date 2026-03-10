@@ -493,6 +493,12 @@ ranni = {
 			add_character_flag = do_not_generate_starting_family
 		}
 		trait = demigod_elden_ring_4
+		
+	}
+	800.1.25 = {
+		add_pressed_claim = title:h_lands_between
+		add_pressed_claim = title:e_altus_plateau
+		add_pressed_claim = title:k_leyndell
 	}
 	1200.5.25 = {
 		death = yes
@@ -552,6 +558,10 @@ radahn = {
 			remove_trait = diligent
 			remove_trait = brave
 		}
+		add_pressed_claim = title:h_lands_between
+		add_pressed_claim = title:e_altus_plateau
+		add_pressed_claim = title:k_leyndell
+	
 	}	
 	1200.5.25 = {
 		death = yes
@@ -602,6 +612,11 @@ rykard = {
 			add_character_flag = do_not_generate_starting_family
 		}
 		trait = demigod_elden_ring_4
+	}
+	800.1.25 = {
+		add_pressed_claim = title:h_lands_between
+		add_pressed_claim = title:e_altus_plateau
+		add_pressed_claim = title:k_leyndell
 	}
 	1200.5.25 = {
 		death = yes
