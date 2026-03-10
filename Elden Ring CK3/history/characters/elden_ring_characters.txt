@@ -868,8 +868,8 @@ malenia = {
 	}
 }
 
-godefroy = {
-	name = "Godefroy"
+godwald = {
+	name = "Godwald"
 	
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
@@ -886,7 +886,7 @@ godefroy = {
 	disallow_random_traits = yes
 	father = godwyn
 	
-	500.1.1 = {
+	300.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -894,6 +894,77 @@ godefroy = {
 		trait = demigod_elden_ring_3
 	}
 	800.1.25 = {
+		death = yes
+	}
+}
+
+godefroy = {
+	name = "Godefroy"
+	
+	sexuality = heterosexual
+	dynasty = dynn_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	religion = faith_golden	
+	culture = cul_royal
+	
+	
+	
+	disallow_random_traits = yes
+	father = godwald
+	
+	500.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		trait = demigod_elden_ring_2
+	}
+	800.1.25 = {
+		death = yes
+	}
+}
+
+godrick = {
+	name = "Godrick"
+	dna = godrick_dna
+	sexuality = heterosexual
+	dynasty = dynn_erdtree
+	religion = faith_golden	
+	culture = cul_royal
+	give_nickname = nick_the_grafted
+	
+	
+	trait = education_stewardship_2
+	trait = physique_bad_1
+	trait = arrogant
+	trait = craven
+	trait = sadistic
+	#trait = order_affinity he didn't show any order skills, he actually showed wind
+	trait = grafting
+	trait = no_marry
+	
+	disallow_random_traits = yes
+	father = godefroy
+	
+	portrait_override = {	
+		portrait_modifier_overrides={
+			custom_hair=male_hair_rtt_01
+			custom_beards=male_empty
+		}
+	}
+	
+	700.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		trait = demigod_elden_ring_1
+	}
+	1000.1.25 = {
 		death = yes
 	}
 }
@@ -984,47 +1055,6 @@ tarnished_3 = {
 		trait = tarnished_elden_ring
 	}
 	800.1.25 = {
-		death = yes
-	}
-}
-
-godrick = {
-	name = "Godrick"
-	dna = godrick_dna
-	sexuality = heterosexual
-	dynasty = dynn_erdtree
-	religion = faith_golden	
-	culture = cul_royal
-	give_nickname = nick_the_grafted
-	
-	
-	trait = education_stewardship_2
-	trait = physique_bad_1
-	trait = arrogant
-	trait = craven
-	trait = sadistic
-	#trait = order_affinity he didn't show any order skills, he actually showed wind
-	trait = grafting
-	trait = no_marry
-	
-	disallow_random_traits = yes
-	father = godefroy
-	
-	portrait_override = {	
-		portrait_modifier_overrides={
-			custom_hair=male_hair_rtt_01
-			custom_beards=male_empty
-		}
-	}
-	
-	700.1.1 = {
-		birth = yes
-		effect = {
-			add_character_flag = do_not_generate_starting_family
-		}
-		trait = demigod_elden_ring_2
-	}
-	1000.1.25 = {
 		death = yes
 	}
 }
