@@ -539,6 +539,30 @@
 		id       = "mountaintop_cliff"
 	}
 	{
+		name     = "deeproot_gravel"
+		diffuse  = "deeproot_gravel_diffuse.dds"
+		normal   = "deeproot_gravel_normal.dds"
+		material = "deeproot_gravel_properties.dds"
+		mask     = "masks/deeproot_gravel_mask.png"
+		id       = "deeproot_gravel"
+	}
+	{
+		name     = "deeproot_water"
+		diffuse  = "deeproot_water_diffuse.dds"
+		normal   = "deeproot_water_normal.dds"
+		material = "deeproot_water_properties.dds"
+		mask     = "masks/deeproot_water_mask.png"
+		id       = "deeproot_water"
+	}
+	{
+		name     = "deeproot_purplecrap"
+		diffuse  = "deeproot_purplecrap_diffuse.dds"
+		normal   = "deeproot_purplecrap_normal.dds"
+		material = "deeproot_purplecrap_properties.dds"
+		mask     = "masks/deeproot_purplecrap_mask.png"
+		id       = "deeproot_purplecrap"
+	}
+	{
 		name     = "steppe_bushes"
 		diffuse  = "steppe_bushes_diffuse.dds"
 		normal   = "steppe_bushes_normal.dds"
