@@ -1,0 +1,79 @@
+﻿l_english:
+ 
+ serpent_religion:0 "Immortal Serpent"
+ serpent_religion_adj:0 "serpentine"
+ serpent_religion_adherent:0 "Follower of the Immortal Serpent"
+ serpent_religion_adherent_plural:0 "Followers of the Immortal Serpent"
+ serpent_religion_desc:0 "The Immortal serpent gives strength and eternity by becoming one with it."
+ serpent_high_god_name:0 "the Immortal Serpent"
+ serpent_high_god_name_2:0 "the God Snake" # Optional translation alt
+ serpent_high_god_name_3:0 "the Blasphemous Serpent" # Optional translation alt
+ serpent_high_god_name_possessive:0 "the Immortal Serpent's"
+ serpent_high_god_name_alternate:0 "the Serpent"
+ serpent_high_god_name_alternate_possesive:0 "the Serpents"
+ serpent_devil_name:0 "Frenzied Flame"
+ serpent_devil_name_possessive:0 "Flame's"
+ serpent_death_deity_name:0 "Destined Death"
+ serpent_death_deity_name_possessive:0 "Destined Death's"
+ serpent_house_of_worship:0 "church"
+ serpent_house_of_worship_2:0 "$serpent_house_of_worship$" # Optional translation alt
+ serpent_house_of_worship_3:0 "$serpent_house_of_worship$" # Optional translation alt
+ serpent_house_of_worship_plural:0 "Libraries"
+ serpent_religious_symbol:0 "snake"
+ serpent_religious_symbol_2:0 "$serpent_religious_symbol$" # Optional translation alt
+ serpent_religious_symbol_3:0 "$serpent_religious_symbol$" # Optional translation alt
+ serpent_religious_text:0 "prayerbook"
+ serpent_religious_text_2:0 "hex" # Optional translation alt
+ serpent_religious_text_3:0 "$serpent_religious_text$" # Optional translation alt
+ serpent_religious_head_title:0 "Praetorship of the Serpent"
+ serpent_religious_head_title_name:0 "Praetor"
+ serpent_devotee_male:0 "recusants"
+ serpent_devotee_male_plural:0 "recusants"
+ serpent_devotee_female:0 "recusants"
+ serpent_devotee_female_plural:0 "recusants"
+ serpent_devotee_neuter:0 "blasphemers"
+ serpent_devotee_neuter_plural:0 "blasphemers"
+ serpent_priest_male:0 "blasphemer"
+ serpent_priest_male_plural:0 "blasphemers"
+ serpent_priest_alternate_plural:0 "$serpent_priest_male_plural$"
+ serpent_bishop:0 "Great blasphemer"
+ serpent_bishop_plural:0 "Great blasphemers"
+ serpent_positive_afterlife:0 "harmony with the Serpent"
+ serpent_positive_afterlife_2:1 "One with the Immortal Snake" # Optional translation alt
+ serpent_positive_afterlife_3:1 "conjoined with the Blasphemous Snake" # Optional translation alt
+ serpent_negative_afterlife:0 "the terror of Frenzy"
+ serpent_negative_afterlife_2:1 "in the cycle of the Erdtree" # Optional translation alt
+ serpent_negative_afterlife_3:1 "separated from the Snake" # Optional translation alt
+ serpent_witchgodname_the_horned_god:0 "the Base Serpent"
+ serpent_witchgodname_the_horned_god_possessive:0 "the Base Serpent"
+ 
+ serpent_creator_god_name:0 "$serpent_high_god_name$"
+ serpent_creator_god_name_possessive:0 "$serpent_high_god_name_possessive$"
+ serpent_health_god_name:0 "$serpent_high_god_name$"
+ serpent_health_god_name_possessive:0 "$serpent_high_god_name_possessive$'"
+ serpent_fertility_god_name:0 "$serpent_high_god_name$"
+ serpent_fertility_god_name_possessive:0 "$$serpent_high_god_name_possessive$"
+ serpent_wealth_god_name:0 "$serpent_high_god_name$"
+ serpent_wealth_god_name_possessive:0 "$serpent_high_god_name_possessive$"
+ serpent_household_god_name:0 "$serpent_high_god_name$"
+ serpent_household_god_name_possessive:0 "$serpent_high_god_name_possessive$"
+ serpent_fate_god_name:0 "$serpent_high_god_name$"
+ serpent_fate_god_name_possessive:0 "$serpent_high_god_name_possessive$"
+ serpent_knowledge_god_name:0 "$serpent_high_god_name$"
+ serpent_knowledge_god_name_possessive:0 "$serpent_high_god_name_possessive$"
+ serpent_war_god_name:0 "$serpent_high_god_name$"
+ serpent_war_god_name_possessive:0 "$serpent_high_god_name_possessive$"
+ serpent_trickster_god_name:0 "$serpent_high_god_name$"
+ serpent_trickster_god_name_possessive:0 "$serpent_high_god_name_possessive$"
+ serpent_night_god_name:0 "$serpent_high_god_name$"
+ serpent_night_god_name_possessive:0 "$serpent_high_god_name_possessive$"
+ serpent_water_god_name:0 "$serpent_high_god_name$"
+ serpent_water_god_name_possessive:0 "$serpent_high_god_name_possessive$"
+
+ #Subfaiths
+
+ faith_god_snake:0 "The God Devouring Serpent's Order"
+ faith_god_snake_adj:0 "Recusant"
+ faith_god_snake_adherent:0 "Recusant of the God Devouring Serpent"
+ faith_god_snake_adherent_plural:0 "Recusants of the God Devouring Serpent"
+ faith_god_snake_desc:0 "Praetor Rykard fused himself with the God Devouring Serpent, and seeks to unify all in blasphemy and in flesh to drive away the Greater Will. Join, one and all, to devour the very Gods as Family!"
