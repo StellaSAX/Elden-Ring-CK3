@@ -1,0 +1,76 @@
+placidusax  = {
+	name = "Placidusax"
+	sexuality = heterosexual
+	dynasty = dynn_farum
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	#give_nickname = nick_dragonlordlady
+	religion = faith_ancient_dragon	
+	culture = cul_farum
+	trait = education_stewardship_5
+	
+	trait = ambitious
+	trait = zealous
+	trait = trusting
+	trait = maimed
+	trait = no_marry
+	
+	disallow_random_traits = yes
+	
+	1.1.1 = {
+		birth = yes
+		
+		trait = ancient_dragon_elden_ring
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+			# set_relation_nemesis = { 
+				# reason = hate_him 
+				# copy_reason = rival 
+				# target = bayle
+			# }
+			set_relation_nemesis = character:bayle
+		}
+	}
+	9999.5.25 = {
+		death = yes
+	}
+}
+
+bayle  = {
+	name = "Bayle"
+	sexuality = heterosexual
+	dynasty = dynn_jagged
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	give_nickname = nick_the_dread
+	religion = faith_bayle_dragon	
+	culture = cul_jagged
+	trait = education_martial_4
+	
+	trait = ambitious
+	trait = callous
+	trait = wrathful
+	trait = maimed
+	trait = no_marry
+	
+	disallow_random_traits = yes
+	
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		trait = lesser_dragon_elden_ring
+	}
+	9999.5.25 = {
+		death = yes
+	}
+}

@@ -1,0 +1,458 @@
+millicent = {
+	name = "Millicent"
+	female = yes
+	##dna = marika_dna
+	sexuality = bisexual
+	dynasty_house = house_malenia_erdtree
+	
+	#dynasty = dynn_erdtree
+	set_house = house_malenia_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = faith_golden	
+	culture = cul_altus
+	
+	trait = cynical
+	trait = beauty_good_2
+	trait = temperate
+	trait = trusting
+	trait = rot_affinity
+	trait = no_marry
+	
+	trait = scarlet_rot
+	
+	disallow_random_traits = yes
+
+	mother = malenia
+	7700.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		trait = scarlet_rot_child
+	}
+	9999.5.25 = {
+		death = yes
+	}
+}
+
+polyanna = {
+	name = "Polyanna"
+	female = yes
+	##dna = marika_dna
+	sexuality = bisexual
+	dynasty_house = house_malenia_erdtree
+	#dynasty = dynn_erdtree
+	set_house = house_malenia_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = faith_rot	
+	culture = cul_altus
+	
+	trait = zealous
+	trait = trusting
+	trait = callous
+	disallow_random_traits = yes
+	trait = rot_affinity
+	trait = one_eyed
+	trait = no_marry
+	
+	trait = scarlet_rot
+	
+	mother = malenia
+	7700.1.15 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		trait = scarlet_rot_child
+	}
+	9999.5.25 = {
+		death = yes
+	}
+}
+
+amy = {
+	name = "Amy"
+	female = yes
+	##dna = marika_dna
+	sexuality = bisexual
+	dynasty_house = house_malenia_erdtree
+	#dynasty = dynn_erdtree
+	set_house = house_malenia_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = faith_rot	
+	culture = cul_altus
+	
+	trait = zealous
+	disallow_random_traits = yes
+	trait = trusting
+	trait = callous
+	trait = rot_affinity
+	trait = blind
+	trait = no_marry
+	
+	trait = scarlet_rot
+	
+	mother = malenia
+	7700.1.10 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		trait = scarlet_rot_child
+	}
+	9999.5.25 = {
+		death = yes
+	}
+}
+
+maureen = {
+	name = "Maureen"
+	female = yes
+	##dna = marika_dna
+	sexuality = bisexual
+	dynasty_house = house_malenia_erdtree
+	#dynasty = dynn_erdtree
+	set_house = house_malenia_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = faith_rot	
+	culture = cul_altus
+	
+	trait = zealous
+	disallow_random_traits = yes
+	trait = trusting
+	trait = callous
+	trait = rot_affinity
+	trait = one_eyed
+	trait = no_marry
+	
+	trait = scarlet_rot
+	
+	mother = malenia
+	7700.1.5 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		trait = scarlet_rot_child
+	}
+	9999.5.25 = {
+		death = yes
+	}
+}
+
+mary = {
+	name = "Mary"
+	female = yes
+	##dna = marika_dna
+	sexuality = bisexual
+	dynasty_house = house_malenia_erdtree
+	#dynasty = dynn_erdtree
+	set_house = house_malenia_erdtree
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	religion = faith_rot	
+	culture = cul_altus
+	
+	trait = zealous
+	disallow_random_traits = yes
+	trait = trusting
+	trait = callous
+	trait = rot_affinity
+	trait = blind
+	trait = no_marry
+	
+	trait = scarlet_rot
+	
+	mother = malenia
+	7700.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		trait = scarlet_rot_child
+	}
+	9999.5.25 = {
+		death = yes
+	}
+}
+
+nepheli_loux = {
+	name = "Nepheli"
+	female = yes
+	sexuality = heterosexual
+	dynasty = dynn_loux
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	religion = faith_golden
+	culture = cul_badlands
+	
+	disallow_random_traits = yes
+	trait = stubborn
+	
+	trait = just
+	trait = brave
+	trait = education_martial_4
+	trait = physique_good_1
+	trait = beauty_good_1
+	trait = no_marry
+	
+	father = tarnished_3
+	7900.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		trait = tarnished_elden_ring
+	}
+	9999.5.25 = {
+		death = yes
+	}
+}
+
+zorayas = {
+	name = "Zorayas"
+	female = yes
+	##dna = marika_dna
+	sexuality = heterosexual
+	dynasty_house = house_gelmir_caria
+	#dynasty = dynn_caria
+	set_house = house_gelmir_caria
+	diplomacy = 5
+	intrigue = 5	
+	health = 10
+	give_nickname = nick_the_scout
+	religion = faith_god_snake	
+	culture = cul_gelmir
+	
+	trait = humble
+	trait = trusting
+	trait = diligent
+	trait = education_diplomacy_3
+	# trait = scaly
+	#trait = hunchbacked
+	trait = manserpent
+	trait = no_marry
+	
+	disallow_random_traits = yes
+	father = rykard
+
+	7800.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+	9999.5.25 = {
+		death = yes
+	}
+}
+
+haight  = {
+	name = "Kenneth"
+	sexuality = heterosexual
+	dynasty = dynn_haight
+	dna = kenneth_dna
+	religion = faith_golden
+	culture = cul_altus
+	trait = education_stewardship_2
+	trait = content
+	trait = zealous
+	trait = arrogant
+	
+	portrait_override = {	
+		portrait_modifier_overrides={
+			custom_beards=m_beard_mpo_mongol_03
+			custom_hair=m_hair_ep3_byzantine_01
+		}
+	}
+	
+	
+	disallow_random_traits = yes
+	
+	7920.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		
+	}
+	9999.5.25 = {
+		death = yes
+	}
+}
+
+edgar  = {
+	name = "Edgar"
+	sexuality = heterosexual
+	dynasty = dynn_morne
+	dna = edgar_dna
+	religion = faith_golden
+	culture = cul_weeping_peninsula
+	trait = education_martial_4
+	trait = vengeful
+	trait = callous
+	trait = wrathful
+	
+	disallow_random_traits = yes
+	
+	portrait_override = {	
+		portrait_modifier_overrides={
+			custom_hair=male_hair_fp2_iberian_christian_01
+			custom_beards=m_beard_ep3_byzantine_04
+		}
+	}
+	
+	7900.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}		
+	}
+	9999.5.25 = {
+		death = yes
+	}
+}
+
+irina  = {
+	name = "Irina"
+	sexuality = heterosexual
+	dynasty = dynn_morne
+	female = yes
+	religion = faith_golden
+	culture = cul_weeping_peninsula
+	trait = education_diplomacy_3
+	trait = trusting
+	trait = content
+	trait = honest
+	trait = blind
+	father = edgar
+	disallow_random_traits = yes
+	
+	7936.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}		
+	}
+	9999.5.25 = {
+		death = yes
+	}
+}
+
+elemer  = {
+	name = "Elemer"
+	sexuality = heterosexual
+	dynasty = dynn_briar	
+	religion = faith_golden #we actually don't know feel free to change it to something that feels more acurate
+	culture = cul_eochaid
+	trait = education_intrigue_4
+	trait = arbitrary
+	trait = sadistic
+	trait = patient
+	
+	disallow_random_traits = yes
+	
+	7910.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}		
+	}
+	9999.5.25 = {
+		death = yes
+	}
+}
+
+maleigh  = {
+	name = "Maleigh"
+	sexuality = heterosexual
+	dynasty = dynn_marais
+	religion = faith_rot
+	culture = cul_altus
+	trait = education_stewardship_3
+	trait = zealous
+	trait = content
+	trait = eccentric
+	trait = wheezing
+	
+	disallow_random_traits = yes
+	
+	7936.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}		
+	}
+	9999.5.25 = {
+		death = yes
+	}
+}
+
+gostoc = {
+	name = "Gostoc"
+	
+	dna = gostoc_dna
+	sexuality = heterosexual
+	#dynasty = dynn_gostoc
+
+	religion = faith_golden	
+	culture = cul_limgrave
+	trait = education_stewardship_2
+	intrigue = 10
+	trait = vengeful
+	trait = greedy
+	trait = deceitful
+	trait = maimed
+	trait = weak
+	trait = no_marry
+	
+	portrait_override = {	
+		portrait_modifier_overrides={
+			custom_beards=male_empty
+			custom_hair=m_hair_fp3_iranian_01
+		}
+	}
+	
+	disallow_random_traits = yes
+	
+	7916.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+			set_relation_grudge = character:godrick
+		}
+		employer = godrick
+		give_council_position = councillor_steward
+		
+	}
+	9999.5.25 = {
+		death = yes
+	}
+}

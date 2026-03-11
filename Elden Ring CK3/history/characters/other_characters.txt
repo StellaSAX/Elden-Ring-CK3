@@ -1,0 +1,35 @@
+maliketh = {
+	name = "Gurranq"
+	
+	#dna = marika_dna
+	sexuality = asexual
+	dynasty = dynn_beast
+	martial = 10
+	learning = 10
+	health = 10
+	religion = faith_golden	
+	culture = cul_beast
+	give_nickname = nick_beast_clergyman
+	trait = education_learning_4
+	
+	trait = zealous
+	trait = brave
+	trait = diligent
+	trait = death_affinity
+	trait = no_marry
+	
+	disallow_random_traits = yes
+	
+	714.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		trait = shadowbound_beast
+	}
+	9999.5.25 = {
+		death = {
+			death_reason = death_went_missing_elden_ring
+		}
+	}
+}
