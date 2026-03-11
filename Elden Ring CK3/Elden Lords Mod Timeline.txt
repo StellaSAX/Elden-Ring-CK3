@@ -1,8 +1,10 @@
 
 1.1.1 = The Arrival of the First Stars, specifically Metyr
 100.1.1 = The Age of the Ancient Dragons
+513.1.1 = Rennala and Rellana are born
 688.1.1 = Marika is born
 690.1.1 = Radagon is born
+707.1.1 = Marika is recognized as an Empyrean and granted Maliketh
 714.1.1 = Marika's rise to Godhood
 728.1.1 = Messmer and Melina are born
 733.1.1 = Marika & Godfrey marry
