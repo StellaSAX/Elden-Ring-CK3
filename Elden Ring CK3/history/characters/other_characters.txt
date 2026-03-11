@@ -20,7 +20,7 @@ maliketh = {
 	
 	disallow_random_traits = yes
 	
-	714.1.1 = {
+	707.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family

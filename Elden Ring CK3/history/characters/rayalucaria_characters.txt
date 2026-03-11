@@ -55,7 +55,7 @@ rennala = {
 		}
 	}
 	
-	800.1.1 = {
+	513.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -111,7 +111,7 @@ rellana = {
 	
 	disallow_random_traits = yes
 	mother = carian_family
-	800.1.1 = {
+	513.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family

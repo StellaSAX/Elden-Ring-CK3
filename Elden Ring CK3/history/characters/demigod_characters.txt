@@ -58,17 +58,21 @@ marika = {
 			add_character_flag = do_not_generate_starting_family
 		}
 	}
-	714.1.1 = {
+	707.1.1 = {
+		trait = empyrean_elden_ring
+	}
+	714.1.1 = {	
+		remove_trait = empyrean_elden_ring
 		trait = god_elden_ring
 	}
-	736.1.1 = {
-		add_spouse = hoarah_loux
+	733.1.1 = {
+		add_matrilineal_spouse = hoarah_loux
 	}
 	1602.1.1 = {
 		remove_spouse = hoarah_loux
 	}
 	1954.2.1 = {
-		add_spouse = radagon
+		add_matrilineal_spouse = radagon
 	}
 	7211.2.1 = {
 		trait = crucified_erdtree 
@@ -212,7 +216,7 @@ messmer = {
 		}
 	}
 	
-	731.1.1 = {
+	728.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family

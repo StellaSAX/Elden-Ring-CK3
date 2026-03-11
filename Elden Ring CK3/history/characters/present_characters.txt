@@ -28,7 +28,7 @@ millicent = {
 	disallow_random_traits = yes
 
 	mother = malenia
-	7700.1.1 = {
+	7748.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -68,7 +68,7 @@ polyanna = {
 	trait = scarlet_rot
 	
 	mother = malenia
-	7700.1.15 = {
+	7748.1.15 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -108,7 +108,7 @@ amy = {
 	trait = scarlet_rot
 	
 	mother = malenia
-	7700.1.10 = {
+	7748.1.10 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -148,7 +148,7 @@ maureen = {
 	trait = scarlet_rot
 	
 	mother = malenia
-	7700.1.5 = {
+	7748.1.5 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -188,7 +188,7 @@ mary = {
 	trait = scarlet_rot
 	
 	mother = malenia
-	7700.1.1 = {
+	7748.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -296,7 +296,7 @@ haight  = {
 	
 	disallow_random_traits = yes
 	
-	7920.1.1 = {
+	8260.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -329,7 +329,7 @@ edgar  = {
 		}
 	}
 	
-	7900.1.1 = {
+	8250.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -355,7 +355,7 @@ irina  = {
 	father = edgar
 	disallow_random_traits = yes
 	
-	7936.1.1 = {
+	8275.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -379,7 +379,7 @@ elemer  = {
 	
 	disallow_random_traits = yes
 	
-	7910.1.1 = {
+	8260.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -404,7 +404,7 @@ maleigh  = {
 	
 	disallow_random_traits = yes
 	
-	7936.1.1 = {
+	8280.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -442,7 +442,7 @@ gostoc = {
 	
 	disallow_random_traits = yes
 	
-	7916.1.1 = {
+	8260.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
