@@ -200,9 +200,8 @@ trait_tarnished_elden_ring_desc:0 "Exiles who lost the grace of gold long ago, t
 
 trait_grafted:0 "Grafted"
 
-trait_scarled_rot:0 "Scarlet Rot"
-trait_scarled_rot_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has caught a terrible and ancient affliction which is consuming [ROOT.GetCharacter.GetHerHis] body, leaving [ROOT.GetCharacter.GetHerHis] with a deformed body and terrible nightmares."
-//is this a typo? scarlet vs scarled
+trait_scarlet_rot:0 "Scarlet Rot"
+trait_scarlet_rot_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has caught a terrible and ancient affliction which is consuming [ROOT.GetCharacter.GetHerHis] body, leaving [ROOT.GetCharacter.GetHerHis] with a deformed body and terrible nightmares."
 
 trait_no_marry:0 "Refusing Marriage"
 trait_no_marry_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is for one reason or another refusing to marry."

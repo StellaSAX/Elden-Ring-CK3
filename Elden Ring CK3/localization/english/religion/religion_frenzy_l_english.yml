@@ -1,0 +1,69 @@
+﻿l_english:
+ 
+faith_frenzy_high_god_name:0 "The Flame of Frenzy"
+faith_frenzy_high_god_name_2:0 "The Yellow Flame of Frenzy" # Optional translation alt
+faith_frenzy_high_god_name_3:0 "The Yellow Flame of Chaos" # Optional translation alt
+
+faith_frenzy_high_god_name_possessive:0 "$faith_frenzy_high_god_name$'s"
+faith_frenzy_high_god_name_alternate:0 "The Flame"
+faith_frenzy_high_god_name_alternate_possessive:0 "The Flame's"
+faith_frenzy_good_god_jesus:0 "$faith_frenzy_health_god_name$"
+chistianity_good_god_christ:0 "Christ"
+faith_frenzy_devil_name:0 "The Greater Will"
+faith_frenzy_devil_name_possessive:0 "The Greater Will's"
+faith_frenzy_evil_god_GW:0 "The Greater Will"
+faith_frenzy_death_deity_name:0 "Death"
+faith_frenzy_death_deity_name_possessive:0 "Death's"
+faith_frenzy_house_of_worship:0 "church"
+faith_frenzy_house_of_worship_2:0 "$faith_frenzy_house_of_worship$" # Optional translation alt
+faith_frenzy_house_of_worship_3:0 "$faith_frenzy_house_of_worship$" # Optional translation alt
+faith_frenzy_house_of_worship_plural:0 "churches"
+faith_frenzy_religious_symbol:0 "fire"
+faith_frenzy_religious_symbol_2:0 "$faith_frenzy_religious_symbol$" # Optional translation alt
+faith_frenzy_religious_symbol_3:0 "$faith_frenzy_religious_symbol$" # Optional translation alt
+faith_frenzy_religious_text:0 "prayerbook"
+faith_frenzy_religious_text_2:0 "$faith_frenzy_religious_text$" # Optional translation alt
+faith_frenzy_religious_text_3:0 "$faith_frenzy_religious_text$" # Optional translation alt
+faith_frenzy_religious_head_title:0 "Chosen of the Three Fingers"
+faith_frenzy_religious_head_title_name:0 "Lordship of Frenzy"
+faith_frenzy_devotee_male:0 "frenzied servant"
+faith_frenzy_devotee_male_plural:0 "frenzied servants"
+faith_frenzy_devotee_female:0 "Finger Maiden"
+faith_frenzy_devotee_female_plural:0 "Finger Maidens"
+faith_frenzy_devotee_neuter:0 "frenzied servant"
+faith_frenzy_devotee_neuter_plural:0 "frenzied servants"
+faith_frenzy_priest_male:0 "prophet"
+faith_frenzy_priest_male_plural:0 "prophets"
+faith_frenzy_priest_alternate_plural:0 "clergy"
+faith_frenzy_bishop:0 "Aging Untouchable"
+faith_frenzy_bishop_plural:0 "Aging Untouchables"
+faith_frenzy_positive_afterlife:0 "Nothingness"
+faith_frenzy_positive_afterlife_2:1 "Nothing" # Optional translation alt
+faith_frenzy_positive_afterlife_3:1 "$faith_frenzy_high_god_name_possessive$ Kingdom" # Optional translation alt
+faith_frenzy_negative_afterlife:0 "The Erdtree"
+faith_frenzy_negative_afterlife_2:1 "the Cycle" # Optional translation alt
+faith_frenzy_negative_afterlife_3:1 "eternal suffering" # Optional translation alt
+faith_frenzy_witchgodname_shabriri:0 "Shabriri"
+faith_frenzy_witchgodname_shabriri_possessive:0 "Shabriri's"
+faith_fenzy_creator_god_name:0 "$faith_frenzy_high_god_name$"
+faith_fenzy_creator_god_name_possessive:0 "$faith_fenzy_high_god_name_possessive$"
+faith_fenzy_health_god_name:0 "the Three Fingerss"
+faith_fenzy_health_god_name_possessive:0 "the Three Fingers's"
+faith_fenzy_fertility_god_name:0 "$faith_frenzy_high_god_name$"
+faith_fenzy_fertility_god_name_possessive:0 "$faith_fenzy_high_god_name_possessive$"
+faith_fenzy_wealth_god_name:0 "$faith_frenzy_high_god_name$"
+faith_fenzy_wealth_god_name_possessive:0 "$faith_fenzy_high_god_name_possessive$"
+faith_fenzy_household_god_name:0 "$faith_fenzy_health_god_name$"
+faith_fenzy_household_god_name_possessive:0 "$faith_fenzy_health_god_name_possessive$"
+faith_fenzy_fate_god_name:0 "$faith_frenzy_high_god_name$"
+faith_fenzy_fate_god_name_possessive:0 "$faith_fenzy_high_god_name_possessive$"
+faith_fenzy_knowledge_god_name:0 "$faith_frenzy_high_god_name$"
+faith_fenzy_knowledge_god_name_possessive:0 "$faith_fenzy_high_god_name_possessive$"
+faith_fenzy_war_god_name:0 "$faith_frenzy_high_god_name$"
+faith_fenzy_war_god_name_possessive:0 "$faith_fenzy_high_god_name_possessive$"
+faith_fenzy_trickster_god_name:0 "Shabriri"
+faith_fenzy_trickster_god_name_possessive:0 "Shabriri's"
+faith_fenzy_night_god_name:0 "$faith_frenzy_high_god_name$"
+faith_fenzy_night_god_name_possessive:0 "$faith_fenzy_high_god_name_possessive$"
+faith_fenzy_water_god_name:0 "$faith_fenzy_health_god_name$"
+faith_fenzy_water_god_name_possessive:0 "$faith_fenzy_health_god_name_possessive$"
