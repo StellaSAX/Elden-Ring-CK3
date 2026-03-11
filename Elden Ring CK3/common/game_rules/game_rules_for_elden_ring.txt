@@ -1,0 +1,11 @@
+﻿
+elden_ring_special_regents_gamerule = {
+	
+	categories = {
+		tweaks
+	}
+	
+	default = special_regents_yes
+	special_regents_yes = {}
+	special_regents_no = {}
+}

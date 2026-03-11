@@ -7,15 +7,29 @@
 on_game_start_after_lobby = {
 	on_actions = { 
 		on_action_give_malenia_prowess 
+		on_action_put_marika_and_radagon_in_the_tree
 	}
 }
 
 on_action_give_malenia_prowess = {
 	effect = {
 		character:malenia = { 
-				add_prowess_skill = 100
+			add_prowess_skill = 100
 		}
 	}
 } 
 
-		
+on_action_put_marika_and_radagon_in_the_tree = {
+	effect = {
+		character:marika = { 
+			death = {
+				death_reason = death_imprisoned_in_erdtree
+			}
+		}
+		character:radagon = { 
+			death = {
+				death_reason = death_imprisoned_in_erdtree
+			}
+		}
+	}
+} 
