@@ -1,0 +1,4 @@
+﻿greatrune_godrick_visual = {
+	icon = "er_greatrune_godrick.dds"
+	asset = greatrune_godrick
+}

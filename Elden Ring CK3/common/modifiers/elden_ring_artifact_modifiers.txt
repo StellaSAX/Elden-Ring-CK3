@@ -15,3 +15,8 @@ artifact_seduce_scheme_phase_duration_add_5_modifier = { seduce_scheme_phase_dur
 artifact_glory_hound_vassal_opinion_5_modifier = { glory_hound_opinion = 10 }
 artifact_uncontrolled_province_advantage_4_modifier = { uncontrolled_province_advantage = 4 }
 artifact_uncontrolled_province_advantage_10_modifier = { uncontrolled_province_advantage = 10 }
+artifact_diplomacy_5_modifier = { diplomacy = 5 }
+artifact_martial_5_modifier = { martial = 5 }
+artifact_stewardship_5_modifier = { stewardship = 5 }
+artifact_intrigue_5_modifier = { intrigue = 5 }
+artifact_learning_5_modifier = { learning = 5 }

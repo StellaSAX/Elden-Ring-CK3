@@ -5,12 +5,31 @@ er_historical_artifacts.0001 = {
 	hidden = yes
 
 	immediate = {
-		character:hoarah_loux ?= {
-			elden_ring_axe_of_godfrey_effect = { OWNER = this }
+		if = {
+			limit = {
+				current_date > 734.1.1
+			}
+			character:hoarah_loux ?= {
+				elden_ring_axe_of_godfrey_effect = { OWNER = this }
+			}
 		}
 		
-		character:godrick ?= {
-			elden_ring_axe_of_godrick_effect = { OWNER = this }
+		if = {
+			limit = {
+				current_date > 7202.1.1
+			}
+			character:godrick ?= {
+				elden_ring_axe_of_godrick_effect = { OWNER = this }
+			}
+		}
+		
+		if = {
+			limit = {
+				current_date > 7213.1.1
+			}
+			character:godrick ?= {
+				elden_ring_greatrune_godrick_effect = { OWNER = this }
+			}
 		}
 	}
 }

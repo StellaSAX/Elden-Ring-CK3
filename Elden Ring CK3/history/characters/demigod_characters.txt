@@ -311,7 +311,9 @@ godwyn = {
 	}
 
 	7211.1.25 = {
-		death = yes
+		death = {
+			death_reason = death_murder
+		}
 	}
 }
 
@@ -771,15 +773,17 @@ godwald = {
 	disallow_random_traits = yes
 	father = godwyn
 	
-	4864.1.1 = {
+	4258.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
 		trait = demigod_elden_ring_3
 	}
-	7215.1.25 = {
-		death = yes
+	7211.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
 	}
 }
 
@@ -809,14 +813,14 @@ godefroy = {
 	disallow_random_traits = yes
 	father = godwald
 	
-	5000.1.1 = {
+	5977.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
 		trait = demigod_elden_ring_2
 	}
-	7215.1.25 = {
+	7240.1.1 = {
 		death = yes
 	}
 }
@@ -828,7 +832,6 @@ godrick = {
 	dynasty = dynn_erdtree
 	religion = faith_golden	
 	culture = cul_royal
-	give_nickname = nick_the_grafted
 	
 	
 	trait = education_stewardship_2
@@ -837,7 +840,6 @@ godrick = {
 	trait = craven
 	trait = sadistic
 	#trait = order_affinity he didn't show any order skills, he actually showed wind
-	trait = grafting
 	trait = no_marry
 	
 	disallow_random_traits = yes
@@ -850,13 +852,19 @@ godrick = {
 		}
 	}
 	
-	7000.1.1 = {
+	7140.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
-			add_trait_xp = { trait = grafting value=80 }
 		}
 		trait = demigod_elden_ring_1
+	}
+	7748.1.1 = {
+		add_trait = grafting
+		give_nickname = nick_the_grafted
+		effect = {
+			add_trait_xp = { trait = grafting value=80 }
+		}
 	}
 	9999.1.25 = {
 		death = yes

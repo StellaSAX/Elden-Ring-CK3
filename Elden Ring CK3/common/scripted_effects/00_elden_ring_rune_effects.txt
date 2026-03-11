@@ -1,0 +1,37 @@
+elden_ring_greatrune_godrick_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = greatrune_godrick_name
+		visuals = greatrune_godrick_visual
+		description = greatrune_godrick_description
+		type = journal
+		wealth = scope:wealth
+		quality = scope:quality
+		template = greatrune_godrick_template
+		history = {
+			type = created
+			date = 7213.1.1
+			recipient = character:godrick
+			location = scope:location
+			actor = character:godrick
+		}
+		modifier = artifact_diplomacy_5_modifier
+		modifier = artifact_martial_5_modifier
+		modifier = artifact_stewardship_5_modifier
+		modifier = artifact_intrigue_5_modifier
+		modifier = artifact_learning_5_modifier
+		modifier = artifact_prowess_5_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+	}
+}
