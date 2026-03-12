@@ -1,0 +1,119 @@
+cul_badlands = {
+	color = { 0.80 0.50 0.1 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_lands_between
+	language = language_lands_between
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_battlefield_looters
+		tradition_only_the_strong
+		tradition_quarrelsome
+		tradition_warrior_culture
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+cul_reedlander = {
+	color = { 0.99 0.05 0.05 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_reedlander
+	language = language_reedlander
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_quarrelsome
+		tradition_warriors_by_merit
+		tradition_isolationist
+		tradition_tgp_bushido
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_dark_hair
+	}
+}
+
+cul_numen = {
+	color = { 0.10 0.8 0.10 }
+	created = 246.5.3
+	ethos = ethos_spiritual
+	heritage = heritage_numen
+	language = language_numen
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_culture_blending
+		tradition_religion_blending
+		tradition_diasporic
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+cul_eochaid = { #elmer of the briar in shaded castle
+	color = { 0.80 0.50 0.1 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_eochaid
+	language = language_eochaid
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_pastoralists
+		tradition_monastic_communities
+		tradition_pacifism
+		tradition_storytellers
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}

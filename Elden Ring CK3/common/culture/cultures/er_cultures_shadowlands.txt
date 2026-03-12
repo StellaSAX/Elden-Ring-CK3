@@ -1,0 +1,192 @@
+cul_rauh = {
+	color = { 0.93 0.99 0.59 }
+	created = 288.10.3
+	ethos = ethos_spiritual
+	heritage = heritage_rauh
+	language = language_rauh
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_culture_blending
+		tradition_religion_blending
+		tradition_diasporic
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+cul_hornsent = {
+	color = { 0.77 0.77 0.05 }
+	created = 476.11.4
+	ethos = ethos_spiritual
+	heritage = heritage_hornsent
+	language = language_hornsent
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hornsent_spiral
+		tradition_by_the_sword
+		tradition_fervent_temple_builders
+		tradition_zealous_people
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+cul_follow_messmer = {
+	color = { 0.99 0.46 0.14 }
+	parents = { cul_royal }
+	history_loc_override = mixed_lands_between_messmer_loc
+	created = 1810.1.1
+	ethos = ethos_bellicose
+	heritage = heritage_lands_between
+	language = language_lands_between
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_by_the_sword
+		tradition_faith_bound
+		tradition_eye_for_an_eye
+		tradition_golden_order
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+cul_jagged = {
+	color = { 0.7 0.5 0.5 }
+	parents = { cul_draconian }
+	created = 476.11.4
+	history_loc_override = created_long_ago_loc
+	ethos = ethos_bellicose
+	heritage = heritage_draconian
+	language = language_draconian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ruling_caste
+		tradition_dragon_communion #make something separated for them later
+		tradition_mountaineers
+		tradition_martial_admiration
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+cul_frezyhorn = {
+	color = { 0.94 0.67 0.10 }
+	parents = { cul_hornsent }
+	history_loc_override = created_long_ago_loc
+	created = 655.7.4
+	ethos = ethos_spiritual
+	heritage = heritage_hornsent
+	language = language_hornsent
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_frenzied_flame
+		tradition_zealous_people
+		tradition_wetlanders
+		tradition_philosopher_culture
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+cul_shaman = {
+	color = { 0.3 0.8 0.10 }
+	parents = { cul_numen }
+	history_loc_override = created_long_ago_loc
+	created = 476.11.4
+	ethos = ethos_spiritual
+	heritage = heritage_numen
+	language = language_numen
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_forbearing
+		tradition_pacifism
+		tradition_female_only_inheritance
+		tradition_monastic_communities
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
