@@ -192,6 +192,18 @@ cul_beast_prefix: "Beastman"
 cul_beast: "Beastman"
 cul_beast_collective_noun: "Beastmen"
 
+cul_demihuman_group: "Demi-Human"
+cul_demihuman_group_collective_noun: "Demi-Humans"
+cul_demihuman_prefix: "Demi-Human"
+cul_demihuman: "Demi-Human"
+cul_demihuman_collective_noun: "Demi-Humans"
+
+cul_misbegotten_group: "Misbegotten"
+cul_misbegotten_group_collective_noun: "Misbegotten"
+cul_misbegotten_prefix: "Misbegotten"
+cul_misbegotten: "Misbegotten"
+cul_misbegotten_collective_noun: "Misbegotten"
+
 heritage_lands_between_name:0 "Lands Between"
 heritage_giant_name:0 "Giant"
 heritage_beast_name:0 "Beastman"

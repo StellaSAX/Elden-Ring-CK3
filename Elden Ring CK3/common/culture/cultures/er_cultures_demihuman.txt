@@ -28,3 +28,65 @@ cul_beast = { #gurranq
 		30 = caucasian_dark_hair
 	}
 }
+
+cul_demihuman = {
+	color = { 0.80 0.50 0.1 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_demihuman
+	language = language_demihuman
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_faith_bound
+		tradition_frugal_armorsmiths
+		tradition_beast_clergy
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+cul_misbegotten = {
+	color = { 0.80 0.50 0.1 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_misbegotten
+	language = language_misbegotten
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_faith_bound
+		tradition_frugal_armorsmiths
+		tradition_beast_clergy
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
