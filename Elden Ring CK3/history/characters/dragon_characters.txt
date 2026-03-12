@@ -27,11 +27,6 @@ placidusax  = {
 		trait = ancient_dragon_elden_ring
 		effect = {
 			add_character_flag = do_not_generate_starting_family
-			# set_relation_nemesis = { 
-				# reason = hate_him 
-				# copy_reason = rival 
-				# target = bayle
-			# }
 			set_relation_nemesis = character:bayle
 		}
 	}
@@ -72,5 +67,37 @@ bayle  = {
 	}
 	9999.5.25 = {
 		death = yes
+	}
+}
+
+tarassax = { #a dragon to rule Farum Azula while Placidusax sleeps, named by CLAW on discord
+	name = "Tarassax"
+	
+	#dna = marika_dna
+	sexuality = heterosexual
+	dynasty = dynn_azula
+	religion = faith_ancient_dragon	
+	culture = cul_farum
+	
+	trait = education_stewardship_4
+	
+	trait = zealous
+	trait = content
+	trait = patient 
+	
+	disallow_random_traits = yes
+	
+	1000.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		trait = ancient_dragon_elden_ring
+		
+	}
+	9999.5.25 = {
+		death = {
+			death_reason = death_went_missing_elden_ring
+		}
 	}
 }

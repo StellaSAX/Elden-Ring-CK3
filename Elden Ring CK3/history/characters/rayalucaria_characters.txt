@@ -101,7 +101,7 @@ rellana = {
 	culture = cul_caria
 	
 	trait = twin
-	trait = education_martial_4
+	trait = education_martial_5
 	trait = diligent
 	trait = patient
 	trait = brave
