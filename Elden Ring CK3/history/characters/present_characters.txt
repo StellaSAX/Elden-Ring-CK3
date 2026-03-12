@@ -301,7 +301,9 @@ haight  = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
 	}
 	9999.5.25 = {
 		death = yes
@@ -333,7 +335,10 @@ edgar  = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
-		}		
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
 	}
 	9999.5.25 = {
 		death = yes
@@ -359,7 +364,10 @@ irina  = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
-		}		
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
 	}
 	9999.5.25 = {
 		death = yes
@@ -383,7 +391,10 @@ elemer  = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
-		}		
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
 	}
 	9999.5.25 = {
 		death = yes
@@ -408,7 +419,10 @@ maleigh  = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
-		}		
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
 	}
 	9999.5.25 = {
 		death = yes
@@ -447,6 +461,9 @@ gostoc = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 			set_relation_grudge = character:godrick
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
 		}
 		employer = godrick
 		give_council_position = councillor_steward

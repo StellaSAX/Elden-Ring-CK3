@@ -29,39 +29,54 @@ dynn_jagged = {
 	culture = "cul_jagged"
 	motto = jagged_motto
 }
-
 dynn_farum = {
 	name = "dynn_farum"
 	culture = cul_farum
 	motto = farum_motto
 }
-
 dynn_morne = {
 	name = "dynn_morne"
 	culture = cul_weeping_peninsula
 	motto = morne_motto
 }
-
 dynn_briar = {
 	name = "dynn_briar"
 	culture = cul_eochaid
 	motto = briar_motto
 }
-
 dynn_marais = {
 	name = "dynn_marais"
 	culture = cul_altus
 	motto = marais_motto
 }
-
 dynn_beast = {
 	name = "dynn_beast"
 	culture = cul_beast
 	motto = beast_motto
 }
-
 dynn_golden_order = {
 	name = "dynn_golden_order"
 	culture = cul_altus
 	motto = golden_order_motto
+}
+
+dynn_eccentric = {
+	name = "dynn_eccentric"
+	culture = cul_caelid
+	motto = dynn_eccentric
+}
+dynn_blue_knight  = {
+	name = "dynn_blue_knight"
+	culture = cul_liurnia
+	motto = dynn_blue_knight
+}
+dynn_snakesong  = {
+	name = "dynn_snakesong"
+	culture = cul_gelmir
+	motto = dynn_snakesong
+}
+dynn_azula  = {
+	name = "dynn_azula"
+	culture = cul_farum
+	motto = dynn_azula
 }

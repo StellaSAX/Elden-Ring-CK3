@@ -56,6 +56,7 @@ crusader_m = {
 	tier = kingdom
 	priority = 50
 	religions = { faith_messmer }
+	titles = { k_messmer_army }
 }
 crusader_f = {
 	type = character
@@ -63,6 +64,7 @@ crusader_f = {
 	tier = kingdom
 	priority = 50
 	religions = { faith_messmer }
+	titles = { k_messmer_army }
 }
 
 stormlord_m = {
@@ -96,7 +98,7 @@ protector_m = {
 	priority = 282
 	titles = { k_haligtree }
 }
-protector_m = {
+protector_f = {
 	type = character
 	gender = female
 	special = holder
@@ -122,4 +124,21 @@ headmistress = {
 	priority = 100
 	titles = { k_rayalucaria }
 	religions = { cosmos_religion }
+}
+
+preator_m = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 282
+	titles = { k_lord_of_blasphemy }
+}
+preator_f = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 282
+	titles = { k_lord_of_blasphemy }
 }

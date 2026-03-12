@@ -28,6 +28,9 @@
  headmaster:0 "Headmaster"
  headmistress:0 "Headmistress"
  
+ preator_m:0 "Preator"
+ preator_f:0 "Praetrix"
+ 
  d_R109G206B144:0 "Western Weeping Peninsula"
  c_R125G179B212:0 "Forest Lookout"
  b_R151G119B226:0 "Placeholder"

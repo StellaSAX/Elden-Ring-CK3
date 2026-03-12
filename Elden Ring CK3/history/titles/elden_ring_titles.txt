@@ -2,7 +2,7 @@ h_lands_between = {
 	500.1.1 = {
 		holder = marika
 	}
-	801.1.1 = {
+	7214.1.1 = {
 		holder = 0
 	}
 }
@@ -277,6 +277,7 @@ d_R176G192B184 = {
 d_R47G88B108 = {	
 	810.1.1 = {
 		holder = ranni
+		liege = k_raya_lucaria_leader
 	}
 }
 d_R59G8B195 = {	
@@ -327,6 +328,34 @@ c_R106G127B189 = {
 c_R248G133B56 = {	
 	800.1.1 = {
 		holder = maleigh
+	}
+}
+
+c_R226G72B233 = {	
+	7000.1.1 = {
+		holder = loretta
+		liege = k_haligtree
+	}
+}
+
+c_R76G134B129 = {	
+	7000.1.1 = {
+		holder = jerren
+		liege = k_radahn_remnants
+	}
+}
+
+c_gelmir = {	
+	7000.1.1 = {
+		holder = tanith
+		liege = k_lord_of_blasphemy
+	}
+}
+
+c_R114G183B215 = {	
+	7000.1.1 = {
+		holder = tarassax
+		liege = e_farum_azula
 	}
 }
 

@@ -45,3 +45,7 @@ nick_big = { is_prefix = yes }
 nick_needle_knight = { is_prefix = yes }
 nick_dryleaf = { is_prefix = yes }
 nick_soldier_of_god = { is_prefix = yes }
+
+nick_witch_hunter = { is_prefix = yes }
+nick_knight_of_the_haligtree = {}
+nick_volcano_manor_proprietress = {}

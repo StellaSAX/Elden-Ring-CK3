@@ -136,7 +136,7 @@
 }
 
 bm_867_elden_ring_land_of_shadows = { #lands of shadow
-	start_date = 867.1.1
+	start_date = 8301.1.1
 	is_playable = yes
 	group = bm_group_867
 
@@ -235,7 +235,7 @@ bm_867_elden_ring_land_of_shadows = { #lands of shadow
 }
 
 bm_867_elden_ring_meek_or_forgotten = { #smaller importance
-	start_date = 867.1.1
+	start_date = 8301.1.1
 	is_playable = yes
 	group = bm_group_867
 
