@@ -41,6 +41,12 @@ cul_numen_prefix: "Numen"
 cul_numen: "Numen"
 cul_numen_collective_noun: "Numen"
 
+cul_rauh_group: "Rauh"
+cul_rauh_group_collective_noun: "Rauh"
+cul_rauh_prefix: "Rauh"
+cul_rauh: "Rauh"
+cul_rauh_collective_noun: "Rauh"
+
 cul_astrologer_group: "Astrologer"
 cul_astrologer_group_collective_noun: "Astrologer"
 cul_astrologer_prefix: "Astrologer"
@@ -81,13 +87,19 @@ cul_altus_group: "Altusan"
 cul_altus_group_collective_noun: "Altusan"
 cul_altus_prefix: "Altusan"
 cul_altus: "Altusan"
-cul_altus_collective_noun: "Altusan"'
+cul_altus_collective_noun: "Altusan"
 
 cul_gelmir_group: "Gelmirian"
 cul_gelmir_group_collective_noun: "Gelmirian"
 cul_gelmir_prefix: "Gelmirian"
 cul_gelmir: "Gelmirian"
 cul_gelmir_collective_noun: "Gelmirian"
+
+cul_haligtree_group: "Haligtree-Folk"
+cul_haligtree_group_collective_noun: "Haligtree-Folk"
+cul_haligtree_prefix: "Haligtree-Folk"
+cul_haligtree: "Haligtree-Folk"
+cul_haligtree_collective_noun: "Haligtree-Folk"
 
 cul_zamor_group: "Zamoran"
 cul_zamor_group_collective_noun: "Zamoran"

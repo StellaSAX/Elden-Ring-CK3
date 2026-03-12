@@ -2,8 +2,9 @@
 1.1.1 = The Arrival of the First Stars, specifically Metyr
 100.1.1 = The Age of the Ancient Dragons
 513.1.1 = Rennala and Rellana are born
+682.1.1 = Godfrey is born
 688.1.1 = Marika is born
-690.1.1 = Radagon is born
+690.1.1 = Radagon is too confusing
 707.1.1 = Marika is recognized as an Empyrean and granted Maliketh
 714.1.1 = Marika's rise to Godhood
 728.1.1 = Messmer and Melina are born
@@ -19,8 +20,8 @@
 1343.1.1 = War against the Storm Lord
 1587.1.1 = Siege of Castle Morne
 1602.1.1 = Banishment of Godfrey and the Long March
+1603.1.1 = Radagon returns to Marika and becomes the second Elden Lord
 1710.1.1 = Messmer's Crusade
-1954.1.1 = Radagon returns to Marika and becomes the second Elden Lord
 2020.1.1 = Miquella and Malenia are born
 4258.1.1 = Godwald is born (OC)
 4864.1.1 = War of the Ancient Dragons

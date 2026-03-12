@@ -32,7 +32,6 @@ marika = {
 	religion = faith_golden	
 	culture = cul_royal
 	health = 10
-	give_nickname = nick_the_eternal
 	
 	trait = education_learning_5
 	trait = intellect_good_3
@@ -63,9 +62,8 @@ marika = {
 	}
 	714.1.1 = {	
 		#remove_trait = empyrean_elden_ring
-	}
-	714.2.1 = {	
 		trait = god_elden_ring
+		give_nickname = nick_the_eternal
 	}
 	733.1.1 = {
 		add_matrilineal_spouse = hoarah_loux
@@ -73,7 +71,7 @@ marika = {
 	1602.1.1 = {
 		remove_spouse = hoarah_loux
 	}
-	1954.2.1 = {
+	1603.1.1 = {
 		add_matrilineal_spouse = radagon
 	}
 	7211.2.1 = {
@@ -98,7 +96,7 @@ radagon = {
 	learning = 10
 	health = 10
 	religion = faith_golden	
-	culture = cul_altus
+	culture = cul_royal
 	
 	trait = education_martial_4
 	trait = intellect_good_3
@@ -124,6 +122,8 @@ radagon = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
+	}
+	714.1.1 = {	
 		trait = demigod_elden_ring_4
 	}
 	# 7211.2.1 = {
@@ -147,8 +147,7 @@ hoarah_loux = {
 	stewardship = 10
 	learning = 9
 	prowess = 30
-	health = 10
-	give_nickname = nick_first_elden_lord
+	health = 20
 	
 	religion = faith_golden	
 	culture = cul_badlands
@@ -172,12 +171,15 @@ hoarah_loux = {
 		}
 	}
 	
-	700.1.1 = {
+	682.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_4
+	}
+	733.1.1 = {
+		give_nickname = nick_first_elden_lord
+		add_trait = demigod_elden_ring_4
 	}
 	9999.5.25 = {
 		death = yes
@@ -195,7 +197,6 @@ messmer = {
 	stewardship = 10
 	learning = 10
 	health = 10
-	give_nickname = nick_the_impaler
 	
 	religion = faith_messmer	
 	culture = cul_royal
@@ -224,6 +225,9 @@ messmer = {
 			add_character_flag = do_not_generate_starting_family
 		}
 		trait = demigod_elden_ring_4
+	}
+	1810.1.1 = {
+		give_nickname = nick_the_impaler
 	}
 	9999.5.25 = {
 		death = yes
@@ -259,7 +263,7 @@ melina = {
 		}
 	}
 	
-	7211.1.1 = {
+	728.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -285,7 +289,6 @@ godwyn = {
 	religion = faith_golden	
 	culture = cul_royal
 	give_nickname = nick_the_golden
-	
 	
 	trait = education_martial_5
 	trait = physique_good_3
@@ -334,7 +337,6 @@ morgott = {
 	stewardship = 10
 	learning = 10
 	health = 10
-	give_nickname = nick_the_omen_kingqueen
 	
 	religion = faith_golden	
 	culture = cul_royal
@@ -366,6 +368,9 @@ morgott = {
 		}
 		trait = demigod_elden_ring_4
 	}
+	7213.1.1 = {
+		give_nickname = nick_the_omen_kingqueen
+	}
 	9999.5.25 = {
 		death = yes
 	}
@@ -384,7 +389,6 @@ mohg = {
 	stewardship = 10
 	learning = 10
 	health = 10
-	give_nickname = nick_the_lordlady_of_blood
 	
 	religion = faith_formless	
 	culture = cul_royal
@@ -409,13 +413,15 @@ mohg = {
 		}
 	}
 	
-	
 	912.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
 		trait = demigod_elden_ring_4
+	}
+	7217.1.1 = {
+		give_nickname = nick_the_lordlady_of_blood
 	}
 	9999.5.25 = {
 		death = yes
@@ -433,7 +439,6 @@ radahn = {
 	stewardship = 10
 	learning = 10
 	health = 10
-	give_nickname = nick_starscourge
 	
 	religion = faith_golden	
 	culture = cul_royal
@@ -466,7 +471,12 @@ radahn = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_4
+	}
+	1603.1.1 = {
+		add_trait = demigod_elden_ring_4
+	}
+	1654.1.1 = {
+		give_nickname = nick_starscourge
 	}
 	7211.1.25 = {
 		add_pressed_claim = title:h_lands_between
@@ -500,7 +510,6 @@ rykard = {
 	stewardship = 10
 	learning = 10
 	health = 10
-	give_nickname = nick_lordlady_of_blasphemy
 	
 	religion = faith_god_snake	
 	culture = cul_royal
@@ -529,13 +538,18 @@ rykard = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_4
+	}
+	1603.1.1 = {
+		add_trait = demigod_elden_ring_4
 	}
 	7211.1.25 = {
 		add_pressed_claim = title:h_lands_between
 		add_pressed_claim = title:e_altus_plateau
 		add_pressed_claim = title:k_leyndell
 		add_spouse = tanith
+	}
+	7241.1.1 = {
+		give_nickname = nick_lordlady_of_blasphemy
 	}
 	9999.5.25 = {
 		death = yes
@@ -554,7 +568,6 @@ ranni = {
 	stewardship = 10
 	learning = 10
 	health = 10
-	give_nickname = nick_the_witch
 	
 	religion = faith_moons	
 	culture = cul_caria
@@ -584,8 +597,10 @@ ranni = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_4
-		
+	}
+	1603.1.1 = {
+		add_trait = demigod_elden_ring_4
+		give_nickname = nick_the_witch
 	}
 	7211.1.25 = {
 		add_pressed_claim = title:h_lands_between
@@ -611,7 +626,6 @@ miquella = {
 	health = 10
 	religion = faith_kind	
 	culture = cul_royal
-	give_nickname = nick_the_kind
 	
 	trait = twin
 	disallow_random_traits = yes
@@ -641,7 +655,10 @@ miquella = {
 		}
 		trait = demigod_elden_ring_4
 	}
-	7955.1.1 = {
+	3020.1.1 = {
+		give_nickname = nick_the_kind
+	}
+	8305.1.1 = {
 		effect = {
 			remove_trait = compassionate
 			add_trait = arbitrary
@@ -664,7 +681,6 @@ trina = {
 	stewardship = 10
 	learning = 10
 	health = 10
-	give_nickname = nick_st_for_trina
 	
 	religion = faith_st_trina	
 	culture = cul_royal
@@ -697,6 +713,9 @@ trina = {
 		}
 		trait = demigod_elden_ring_4
 	}
+	3020.1.1 = {
+		give_nickname = nick_st_for_trina
+	}
 	9999.5.25 = {
 		death = yes
 	}
@@ -707,9 +726,7 @@ malenia = {
 	female = yes
 	dna = malenia_dna
 	sexuality = bisexual
-	
 	dynasty = dynn_erdtree
-	give_nickname = nick_blade_of_miquella
 	
 	martial = 10
 	diplomacy = 10
@@ -750,6 +767,9 @@ malenia = {
 		}
 		trait = demigod_elden_ring_4
 	}
+	3020.1.1 = {
+		give_nickname = nick_blade_of_miquella
+	}
 	9999.5.25 = {
 		death = yes
 	}
@@ -767,7 +787,6 @@ godwald = {
 	learning = 10
 	religion = faith_golden	
 	culture = cul_royal
-	
 	
 	trait = education_learning_4
 	trait = physique_good_1
@@ -808,7 +827,6 @@ godefroy = {
 	culture = cul_royal
 	give_nickname = nick_the_grafted
 	
-	
 	trait = education_martial_3
 	trait = physique_good_1
 	trait = arrogant
@@ -839,7 +857,6 @@ godrick = {
 	dynasty = dynn_erdtree
 	religion = faith_golden	
 	culture = cul_royal
-	
 	
 	trait = education_stewardship_2
 	trait = physique_bad_1
