@@ -135,7 +135,7 @@
 	
 }
 
-bm_867_elden_ring_land_of_shadows = { #lands of shadow
+bm_867_elden_ring_land_of_shadows = { #land of shadows
 	start_date = 8301.1.1
 	is_playable = yes
 	group = bm_group_867
@@ -341,6 +341,89 @@ bm_867_elden_ring_meek_or_forgotten = { #smaller importance
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = maleigh
 		position = { 220 500 }
+		
+		animation = war_over_win
+		
+	}
+	
+}
+
+bm_867_elden_ring_regents = { #regents to important people
+	start_date = 8301.1.1
+	is_playable = yes
+	group = bm_group_867
+
+	weight = {
+		value = 0
+	}
+
+	character = {
+		name = "bookmark_jerren_elden_ring"
+		dynasty = dynn_eccentric
+		dynasty_splendor_level = 1
+		type = male
+		birth = 5000.1.1
+		title = c_R76G134B129
+		government = feudal_government
+		religion = faith_golden	
+		culture = cul_caelid
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = jerren
+		position = { 800 600 }
+		
+		animation = war_over_win
+		
+	}
+	
+	character = {
+		name = "bookmark_loretta_elden_ring"
+		dynasty = dynn_blue_knight
+		dynasty_splendor_level = 1
+		type = female
+		birth = 5000.1.1
+		title = c_R226G72B233
+		government = feudal_government
+		religion = faith_unalloyed	
+		culture = cul_liurnia
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = loretta
+		position = { 800 150 }
+		
+		animation = war_over_win
+		
+	}
+	
+	character = {
+		name = "bookmark_tanith_elden_ring"
+		dynasty = dynn_snakesong
+		dynasty_splendor_level = 1
+		type = female
+		birth = 5000.1.1
+		title = c_gelmir
+		government = feudal_government
+		religion = faith_god_snake
+		culture = cul_gelmir 
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = tanith
+		position = { 200 200 }
+		
+		animation = war_over_win
+		
+	}
+	
+	character = {
+		name = "bookmark_ranni_elden_ring"
+		dynasty = dynn_caria
+		dynasty_splendor_level = 1
+		type = female
+		birth = 1165.1.1
+		title = d_R47G88B108
+		government = feudal_government
+		religion = faith_moons	
+		culture = cul_caria  
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = ranni
+		position = { 100 500 }
 		
 		animation = war_over_win
 		

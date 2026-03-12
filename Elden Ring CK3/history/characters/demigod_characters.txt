@@ -520,7 +520,6 @@ rykard = {
 	trait = ambitious
 	trait = sadistic
 	trait = fire_affinity
-	trait = no_marry
 	
 	disallow_random_traits = yes
 	father = radagon
@@ -547,6 +546,9 @@ rykard = {
 		add_pressed_claim = title:e_altus_plateau
 		add_pressed_claim = title:k_leyndell
 		add_spouse = tanith
+		effect = {
+			set_relation_lover = { reason = lover_history target = character:tanith }
+		}
 	}
 	7241.1.1 = {
 		give_nickname = nick_lordlady_of_blasphemy

@@ -41,7 +41,6 @@ rennala = {
 	trait = ambitious
 	trait = trusting
 	trait = chaste
-	trait = twin
 	trait = glintstone_affinity
 	trait = no_marry
 	
@@ -100,7 +99,6 @@ rellana = {
 	religion = faith_messmer	
 	culture = cul_caria
 	
-	trait = twin
 	trait = education_martial_5
 	trait = diligent
 	trait = patient
@@ -111,7 +109,7 @@ rellana = {
 	
 	disallow_random_traits = yes
 	mother = carian_family
-	513.1.1 = {
+	523.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family

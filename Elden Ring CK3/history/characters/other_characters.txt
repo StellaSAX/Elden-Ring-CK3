@@ -122,8 +122,6 @@ tanith = {
 	trait = zealous
 	trait = humble
 	
-	trait = no_marry
-	
 	disallow_random_traits = yes
 	
 	5000.1.1 = {

@@ -1,0 +1,7 @@
+﻿l_english:
+ 
+ rule_elden_ring_special_regents_gamerule:0 "Regents on gamestart"
+ setting_special_regents_yes:0 "Yes"
+ setting_special_regents_no:0 "No"
+ setting_special_regents_yes_desc:0 "The characters in the regent booksmark will begin as regents to ther liege."
+ setting_special_regents_no_desc:0 "The characters in the regent booksmark will be normal vassals."
