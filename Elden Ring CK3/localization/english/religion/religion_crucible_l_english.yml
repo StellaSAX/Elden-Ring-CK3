@@ -1,6 +1,91 @@
 ﻿l_english:
+
+ crucible_religion:0 "The Crucible"
+ crucible_religion_adj:0 "The Crucible"
+ crucible_religion_adherent:0 "Disciple of the Crucible"
+ crucible_religion_adherent_plural:0 "Disciples of the Crucible"
+ crucible_religion_desc:0 "All life find its origination in the Crucible, be it man or beast or the melding of the two and it is a raw and utter power that bestows its gifts seemingly at random. Those who wish to draw themselves closer to the originator often venerate and even bear animalistic traits such as horns, fangs and even wings in reverence for that which all came from."
+ crucible_high_god_name:0 "The Crucible"
+ crucible_high_god_name_2:0 "The Originator" # Optional translation alt
+ crucible_high_god_name_3:0 "Primordial Crucible" # Optional translation alt
+ crucible_high_god_name_possessive:0 "The Crucible's"
+ crucible_devil_name:0 "The Greater Will"
+ crucible_devil_name_possessive:0 "The Greater Will's"
+ crucible_evil_god_decay:0 "The Flame of Frenzy"
+ crucible_death_deity_name:0 "Death"
+ crucible_death_deity_name_possessive:0 "Death's"
+ crucible_house_of_worship:0 "church"
+ crucible_house_of_worship_2:0 "$crucible_house_of_worship$" # Optional translation alt
+ crucible_house_of_worship_3:0 "$crucible_house_of_worship$" # Optional translation alt
+ crucible_house_of_worship_plural:0 "churches"
+ crucible_religious_symbol:0 "calcus"
+ crucible_religious_symbol_2:0 "$crucible_religious_symbol$" # Optional translation alt
+ crucible_religious_symbol_3:0 "$crucible_religious_symbol$" # Optional translation alt
+ crucible_religious_text:0 "scriptures"
+ crucible_religious_text_2:0 "$crucible_religious_text$" # Optional translation alt
+ crucible_religious_text_3:0 "$crucible_religious_text$" # Optional translation alt
+ crucible_religious_head_title:0 "Pope" #Leaving this as default as there is no religious head
+ crucible_religious_head_title_name:0 "Papacy"
+ crucible_devotee_male:0 "Crucible Follower"
+ crucible_devotee_male_plural:0 "Crucible Followers"
+ crucible_devotee_female:0 "Crucible Follower"
+ crucible_devotee_female_plural:0 "Crucible Follower"
+ crucible_devotee_neuter:0 "Crucible Knight"
+ crucible_devotee_neuter_plural:0 "Crucible Knight"
+ crucible_priest_male:0 "Horned Sage"
+ crucible_priest_male_plural:0 "Horned Sage"
+ crucible_priest_female:0 "Horned Sage"
+ crucible_priest_female_plural:0 "Horned Sage"
+ crucible_priest_alternate_plural:0 "Horned Assembly"
+ crucible_bishop:0 "Aspect"
+ crucible_bishop_plural:0 "Aspects"
+ crucible_positive_afterlife:0 "The Crucible"
+ crucible_positive_afterlife_2:1 "the Primordial" # Optional translation alt
+ crucible_positive_afterlife_3:1 "$christianity_high_god_name_possessive$ Kingdom" # Optional translation alt
+ crucible_negative_afterlife:0 "the Erdtree"
+ crucible_negative_afterlife_2:1 "stagnation" # Optional translation alt
+ crucible_negative_afterlife_3:1 "$crucible_negative_afterlife$" # Optional translation alt
+ crucible_witchgodname_the_horned_god:0 "the Gloam Eyed Queen"
+ crucible_witchgodname_the_horned_god_possessive:0 "the Gloam Eyed Queen's"
+
+ crucible_creator_god_name:0 "$crucible_high_god_name$"
+ crucible_creator_god_name_possessive:0 "$crucible_high_god_name_possessive$"
+ crucible_health_god_name:0 "$crucible_high_god_name$"
+ crucible_health_god_name_possessive:0 "$crucible_high_god_name_possessive$'"
+ crucible_fertility_god_name:0 "$crucible_high_god_name$"
+ crucible_fertility_god_name_possessive:0 "$crucible_high_god_name_possessive$"
+ crucible_wealth_god_name:0 "$crucible_high_god_name$"
+ crucible_wealth_god_name_possessive:0 "$crucible_high_god_name_possessive$"
+ crucible_household_god_name:0 "$crucible_health_god_name$"
+ crucible_household_god_name_possessive:0 "$crucible_health_god_name_possessive$"
+ crucible_fate_god_name:0 "$crucible_high_god_name$"
+ crucible_fate_god_name_possessive:0 "$crucible_high_god_name_possessive$"
+ crucible_knowledge_god_name:0 "$crucible_high_god_name$"
+ crucible_knowledge_god_name_possessive:0 "$crucible_high_god_name_possessive$"
+ crucible_war_god_name:0 "$crucible_high_god_name$"
+ crucible_war_god_name_possessive:0 "$crucible_high_god_name_possessive$"
+ crucible_trickster_god_name:0 "$crucible_high_god_name$"
+ crucible_trickster_god_name_possessive:0 "$crucible_high_god_name_possessive$"
+ crucible_night_god_name:0 "$crucible_high_god_name$"
+ crucible_night_god_name_possessive:0 "$crucible_high_god_name_possessive$"
+ crucible_water_god_name:0 "$crucible_health_god_name$"
+ crucible_water_god_name_possessive:0 "$crucible_health_god_name_possessive$"
+
+ #Subfaiths
+
+ faith_spiral:0 "Spiral Path"
+ faith_spiral_adj:0 "Spiral Path"
+ faith_spiral_adherent:0 "One who walks the Spiraled Path"
+ faith_spiral_adherent_plural:0 "Those who walk the Spiraled Path"
+ faith_spiral_trickster_god_name:0 "Queen Marika the Eternal"
+ faith_spiral_trickster_god_name:0 "Queen Marika the Eternal's"
+ faith_spiral_religious_symbol:0 "Spiral-Carved Amber"
+ faith_spiral_desc:0 "For some lost in the Lands of Shadow the idea of being abandoned was too much to bare and in their desperation they began to seek for an answer in something new, in the end they found it in something old. Taking the Hornsent beliefs and merging it with the teachings of the Erdtree they created the Spiral Path and carved icons of the distant Erdtree onto amber, marking the ancient still warm remnants of the lost Crucible with that which would come after forever linking the two in silver light."
  
  crucible_elden_ring:0 "The Crucible"
  crucible_elden_ring_desc:0 "To worship The Crucible is to worship the ancient state of the world, and more specifically, the primordial form of the Erdtree, before Marika made it into its current form, alongside the Golden Order."
  crucible_elden_ring_adj:0 "The Crucible"
+ crucible_elden_ring_adherent:0 "Follower of The Primordial Crucible"
  crucible_elden_ring_adherent_plural:0 "Followers of The Primordial Crucible"
+ 
+ 
