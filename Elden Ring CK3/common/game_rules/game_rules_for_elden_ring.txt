@@ -5,7 +5,7 @@ elden_ring_special_regents_gamerule = {
 		tweaks
 	}
 	
-	default = special_regents_yes
+	default = special_regents_no
 	special_regents_yes = {}
 	special_regents_no = {}
 }

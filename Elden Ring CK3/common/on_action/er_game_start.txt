@@ -7,7 +7,8 @@
 on_game_start_after_lobby = {
 	on_actions = { 
 		on_action_give_malenia_prowess 
-		on_action_put_marika_and_radagon_in_the_tree
+		#on_action_put_marika_and_radagon_in_the_tree
+		#on_action_put_regents_in_charge
 	}
 }
 
@@ -33,3 +34,54 @@ on_action_put_marika_and_radagon_in_the_tree = {
 		}
 	}
 } 
+
+on_action_put_regents_in_charge = {
+	effect = {
+		if = {
+			limit = { 
+				#game_start_date = 8301.1.1
+				has_game_rule = special_regents_yes
+			}
+			character:placidusax = { 
+				#designate_diarch = character:tarassax 
+				set_diarch = character:tarassax 
+			}
+			# character:placidusax = {
+				# designate_diarch = character:tarassax
+				# add_hook = {
+					# type = predecessor_loyalty_hook
+					# target = character:tarassax				
+				# }
+			# }
+			character:rykard = {
+				designate_diarch = character:tanith
+				add_hook = {
+					type = predecessor_loyalty_hook
+					target = character:tanith					
+				}
+			}
+			character:rennala = {
+				designate_diarch = character:ranni
+				add_hook = {
+					type = predecessor_loyalty_hook
+					target = character:ranni
+				}
+			}
+			character:malenia = {
+				designate_diarch = character:loretta
+				add_hook = {
+					type = predecessor_loyalty_hook
+					target = character:loretta
+				}
+			}
+			character:radahn = {
+				designate_diarch = character:jerren
+				add_hook = {
+					type = predecessor_loyalty_hook
+					target = character:jerren
+				}
+			}
+		}
+	}
+} 
+
