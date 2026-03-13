@@ -1,11 +1,10 @@
 ﻿elden_ring_bed = { priority = 10 }
-elden_ring_bed_old = { priority = 10 }
 elden_ring_corpses = { priority = 10 }
 elden_ring_field = { priority = 10 }
 elden_ring_marika = { priority = 10 }
 elden_ring_tree = { priority = 10 }
-elden_ring_tree_old = { priority = 10 }
 elden_ring_giantskeleton = { priority = 10 }
+elden_ring_aeonia = { priority = 10 }
 
 assassin = { priority = 0 }
 baghdad = { priority = 0 }
