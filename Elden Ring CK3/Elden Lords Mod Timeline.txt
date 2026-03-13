@@ -20,8 +20,8 @@
 1343.1.1 = War against the Storm Lord
 1587.1.1 = Siege of Castle Morne
 1602.1.1 = Banishment of Godfrey and the Long March
-1603.1.1 = Radagon returns to Marika and becomes the second Elden Lord
 1710.1.1 = Messmer's Crusade
+1782.1.1 = Radagon returns to Marika and becomes the second Elden Lord
 2020.1.1 = Miquella and Malenia are born
 4258.1.1 = Godwald is born (OC)
 4864.1.1 = War of the Ancient Dragons

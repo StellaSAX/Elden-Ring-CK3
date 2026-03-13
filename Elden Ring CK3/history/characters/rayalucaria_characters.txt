@@ -64,7 +64,7 @@ rennala = {
 	987.1.1 = {
 		add_matrilineal_spouse = radagon
 	}
-	1954.1.1 = {
+	1782.1.1 = {
 		effect = {
 			add_trait = lunatic_1
 		}
