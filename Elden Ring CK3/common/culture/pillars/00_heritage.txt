@@ -1,0 +1,130 @@
+heritage_lands_between = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_lands_between
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_giant = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_giant
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_demihuman = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_demihuman
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_misbegotten = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_misbegotten
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_beast = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_beast
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_eochaid = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_eochaid
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_reedlander = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_reedlander
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_draconian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_draconian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_nightfolk = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_nightfolk
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_numen = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_numen
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_astrologer = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			heritage = heritage_astrologer
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ancenstral_followers = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			heritage = heritage_ancenstral_followers
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_hornsent = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			heritage = heritage_hornsent
+		}
+	}
+	audio_parameter = european
+}
+
