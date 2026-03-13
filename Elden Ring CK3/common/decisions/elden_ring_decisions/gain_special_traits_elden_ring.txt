@@ -414,3 +414,54 @@ gain_nickname_elden_ring = {
 		base = 0
 	}
 }
+
+god_serpent_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/fp1_decisons_hold_bolt.dds"
+	}
+	decision_group_type = major
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 120
+		empire = 120
+		hegemony = 120
+	}
+
+	desc = god_serpent_decision_desc
+	selection_tooltip = god_serpent_decision_tooltip
+	
+
+	is_shown = {
+		root = {
+			character:rykard = this
+		}
+
+	}
+
+	is_valid = {
+
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		add_trait = god_serpent
+	}
+
+	cost = {
+		piety = 1000
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

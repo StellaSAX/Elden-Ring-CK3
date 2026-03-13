@@ -1,0 +1,128 @@
+﻿
+placidusax_throne_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_al_qarawiyyin_university.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 5000
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 1.5
+		monthly_dynasty_prestige_mult = 0.5
+		dread_gain_mult = 1
+		dread_baseline_add = 50
+		monthly_piety = 0.5
+		monthly_prestige = 0.5
+		martial_per_prestige_level = 1
+		diplomacy_per_prestige_level = 1
+	}
+	county_modifier = {
+		development_growth = 0.5
+		development_growth_factor = 0.5
+		fort_level = 5
+	}
+	duchy_capital_county_modifier = {
+		levy_size = 0.25
+		tax_mult = 0.25
+		fort_level = 10
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_wonder
+}
+
+dragon_temple_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_duomo_florence.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.5
+		monthly_dynasty_prestige_mult = 0.10
+		monthly_piety = 2
+		monthly_prestige = 0.5
+		learning_per_piety_level = 1
+	}
+	county_modifier = {
+		development_growth = 0.20
+		development_growth_factor = 0.1
+		fort_level = 2
+	}
+	duchy_capital_county_modifier = {
+		levy_size = 0.25
+		tax_mult = 0.25
+		fort_level = 10
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_wonder
+}
+
+farum_azula_southern_wall_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_york_walls.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.5
+		monthly_dynasty_prestige_mult = 0.15
+		monthly_prestige = 1
+		martial_per_prestige_level = 1
+	}
+	county_modifier = {
+		development_growth = 0.20
+		development_growth_factor = 0.1
+		fort_level = 8
+	}
+	duchy_capital_county_modifier = {
+		levy_size = 0.50
+		tax_mult = 0.15
+		fort_level = 12
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_wonder
+}

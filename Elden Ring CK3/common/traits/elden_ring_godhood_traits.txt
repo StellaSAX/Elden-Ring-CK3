@@ -364,3 +364,24 @@ scarlet_rot_child = {
 		infirm
 	}
 }
+
+god_serpent = {
+	icon = "immortal.dds"
+	shown_in_ruler_designer = no
+	diplomacy = -10
+	stewardship = -2
+	martial = 5
+	prowess = 20
+	different_faith_opinion = -100
+	general_opinion = -10
+	dread_gain_mult = 0.5
+	dread_baseline_add = 50
+	immortal = yes
+	# Dummy flags — just here for loc really.
+	flag = is_immortal
+	flag = immortal_visuals
+	flag = immortal_fertility
+	flag = immortal_incapability
+	long_reign_bonus_mult = -1000
+	no_prowess_loss_from_age = yes
+}
