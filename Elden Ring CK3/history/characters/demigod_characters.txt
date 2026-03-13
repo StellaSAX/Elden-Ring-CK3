@@ -252,6 +252,7 @@ melina = {
 	trait = beauty_good_1
 	trait = fire_affinity
 	trait = no_marry
+	trait = bodiless
 	
 	disallow_random_traits = yes
 	mother = marika

@@ -23,6 +23,9 @@ trait_shadowbound_beast_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an 
 trait_scarlet_rot_child:0 "Child of the Rot"
 trait_scarlet_rot_child_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a child of Rot, having been born from a sprouting bud in the heart of Caelid."
 
+trait_bodiless:0 "Bodiless"
+trait_bodiless_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is without body, existing as a drifting spirit bound to Grace."
+
 trait_god_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a God, a being of great power that will cause an impact on the world."
 trait_demigod_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the descendant of a God, in their blood exist the potential for greatness."
 trait_demigod_elden_ring_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the descendant of a God, in their blood exists the potential for greatness."

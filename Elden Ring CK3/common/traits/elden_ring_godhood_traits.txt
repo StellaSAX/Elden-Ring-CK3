@@ -39,6 +39,7 @@
 		incapable
 		cancer
 		disfigured
+		infirm
 	}
 }
 
@@ -68,6 +69,7 @@ demigod_elden_ring_4 = {
 		incapable
 		cancer
 		disfigured
+		infirm
 	}
 }
 
@@ -97,6 +99,7 @@ demigod_elden_ring_3 = {
 		incapable
 		cancer
 		disfigured
+		infirm
 	}
 }
 
@@ -126,6 +129,7 @@ demigod_elden_ring_2 = {
 		incapable
 		cancer
 		disfigured
+		infirm
 	}
 }
 
@@ -155,6 +159,7 @@ demigod_elden_ring_1 = {
 		incapable
 		cancer
 		disfigured
+		infirm
 	}
 }
 
@@ -207,6 +212,7 @@ eternal_youth_elden_ring = {
 	
 	opposites = {
 		god_elden_ring
+		infirm
 	}
 }
 
@@ -237,6 +243,7 @@ tarnished_elden_ring = {
 		disfigured
 		incapable
 		cancer
+		infirm
 	}
 }
 
@@ -264,6 +271,7 @@ special_tarnished = { #discord dudes, tarnished of some renown
 		disfigured
 		incapable
 		cancer
+		infirm
 	}
 }
 
@@ -328,6 +336,7 @@ shadowbound_beast = {
 		incapable
 		cancer
 		disfigured
+		infirm
 	}
 }
 
@@ -352,5 +361,6 @@ scarlet_rot_child = {
 		incapable
 		cancer
 		disfigured
+		infirm
 	}
 }

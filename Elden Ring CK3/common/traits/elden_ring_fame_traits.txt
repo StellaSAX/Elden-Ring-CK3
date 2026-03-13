@@ -152,3 +152,31 @@ perfumer = {
 		craven = @pos_compat_low
 	}
 }
+
+bodiless = {
+	category = health
+	icon = "bodiless.dds"
+	shown_in_ruler_designer = no
+	
+	ruler_designer_cost = 100
+	
+	can_have_children = no
+	negate_health_penalty_add = 5
+	no_prowess_loss_from_age = yes
+	character_travel_speed = 1000
+	character_travel_safety = 1000
+	diplomatic_range_mult = 0.5
+	
+	opposites = {
+		incapable
+		cancer
+		disfigured
+		maimed
+		wounded_1
+		wounded_2
+		wounded_3
+		infirm
+	}
+	
+	flag = immortal_incapability
+}
