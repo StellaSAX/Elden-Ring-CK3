@@ -1,17 +1,18 @@
 maliketh = {
 	name = "Gurranq"
 	
-	#dna = marika_dna
+	#dna = maliketh_dna
 	sexuality = asexual
 	dynasty = dynn_beast
+	
 	martial = 10
 	learning = 10
 	health = 10
+	
 	religion = faith_golden	
 	culture = cul_beast
-	give_nickname = nick_beast_clergyman
-	trait = education_learning_4
 	
+	trait = education_learning_4
 	trait = zealous
 	trait = brave
 	trait = diligent
@@ -27,6 +28,9 @@ maliketh = {
 		}
 		trait = shadowbound_beast
 	}
+	7212.1.1 = {
+		give_nickname = nick_beast_clergyman
+	}
 	9999.5.25 = {
 		death = {
 			death_reason = death_went_missing_elden_ring
@@ -37,23 +41,30 @@ maliketh = {
 jerren = {
 	name = "Jerren"
 	
-	#dna = marika_dna
+	#dna = jerren_dna
 	sexuality = asexual
 	dynasty = dynn_eccentric
-	religion = faith_golden	
-	culture = cul_caelid
-	give_nickname = nick_witch_hunter
-	trait = education_martial_4
 	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 6
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_caelid
+	
+	trait = education_martial_4
 	trait = gregarious
 	trait = brave
 	trait = calm
-	
 	trait = no_marry
 	
 	disallow_random_traits = yes
 	
-	5000.1.1 = {
+	1130.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -61,7 +72,9 @@ jerren = {
 		add_character_modifier = {
 			modifier = gift_from_the_eternal
 		}
-		
+	}
+	1192.1.1 = {
+		give_nickname = nick_witch_hunter
 	}
 	9999.5.25 = {
 		death = {
@@ -73,23 +86,32 @@ jerren = {
 loretta = {
 	name = "Loretta"
 	female = yes
-	#dna = marika_dna
+	#dna = loretta_dna
 	sexuality = asexual
 	dynasty = dynn_blue_knight
-	religion = faith_unalloyed	
-	culture = cul_liurnia
-	give_nickname = nick_knight_of_the_haligtree
-	trait = education_martial_4
 	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 6
+	health = 10
+	
+	religion = faith_unalloyed
+	culture = cul_liurnia
+	
+	trait = education_martial_4
 	trait = diligent
 	trait = brave
 	trait = compassionate
-	
 	trait = no_marry
+	
+	give_nickname = nick_knight_of_the_haligtree
 	
 	disallow_random_traits = yes
 	
-	5000.1.1 = {
+	934.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -97,7 +119,6 @@ loretta = {
 		add_character_modifier = {
 			modifier = gift_from_the_eternal
 		}
-		
 	}
 	9999.5.25 = {
 		death = {
@@ -109,22 +130,29 @@ loretta = {
 tanith = {
 	name = "Tanith"
 	female = yes
-	#dna = marika_dna
+	#dna = tanith_dna
 	sexuality = heterosexual
 	dynasty = dynn_snakesong
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 6
+	health = 10
+	
 	religion = faith_god_snake
 	culture = cul_gelmir
-	give_nickname = nick_volcano_manor_proprietress
-	diplomacy = 10
-	trait = education_intrigue_3
 	
+	trait = education_intrigue_3
 	trait = calm
 	trait = zealous
 	trait = humble
 	
 	disallow_random_traits = yes
 	
-	5000.1.1 = {
+	7163.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -132,7 +160,9 @@ tanith = {
 		add_character_modifier = {
 			modifier = gift_from_the_eternal
 		}
-		
+	}
+	7190.1.1 = {
+		give_nickname = nick_volcano_manor_proprietress
 	}
 	9999.5.25 = {
 		death = {
@@ -140,4 +170,3 @@ tanith = {
 		}
 	}
 }
-
