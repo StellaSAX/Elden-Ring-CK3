@@ -8,7 +8,6 @@ carian_family = {
 	religion = faith_moons
 	culture = cul_caria
 	
-	
 	disallow_random_traits = yes
 	780.1.1 = {
 		birth = yes

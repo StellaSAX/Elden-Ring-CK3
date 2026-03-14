@@ -167,6 +167,8 @@ bodiless = {
 	character_travel_safety = 1000
 	diplomatic_range_mult = 0.5
 	
+	disables_combat_leadership = yes
+	
 	opposites = {
 		incapable
 		cancer

@@ -214,8 +214,8 @@ nepheli_loux = {
 	culture = cul_badlands
 	
 	disallow_random_traits = yes
-	trait = stubborn
 	
+	trait = stubborn
 	trait = just
 	trait = brave
 	trait = education_martial_4
@@ -239,7 +239,7 @@ nepheli_loux = {
 zorayas = {
 	name = "Zorayas"
 	female = yes
-	##dna = marika_dna
+	##dna = rya_dna
 	sexuality = heterosexual
 	dynasty_house = house_gelmir_caria
 	#dynasty = dynn_caria
@@ -255,7 +255,7 @@ zorayas = {
 	trait = trusting
 	trait = diligent
 	trait = education_diplomacy_3
-	# trait = scaly
+	#trait = scaly
 	#trait = hunchbacked
 	trait = manserpent
 	trait = no_marry
@@ -292,7 +292,6 @@ haight  = {
 			custom_hair=m_hair_ep3_byzantine_01
 		}
 	}
-	
 	
 	disallow_random_traits = yes
 	
@@ -431,11 +430,9 @@ maleigh  = {
 
 gostoc = {
 	name = "Gostoc"
-	
 	dna = gostoc_dna
 	sexuality = heterosexual
 	#dynasty = dynn_gostoc
-
 	religion = faith_golden	
 	culture = cul_limgrave
 	trait = education_stewardship_2

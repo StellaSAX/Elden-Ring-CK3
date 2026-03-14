@@ -82,7 +82,7 @@ scarlet_rot = {
 }
 
 crucified_erdtree = {
-	icon = "scarlet_rot.dds"
+	icon = "crucified_erdtree.dds"
 	category = health
 
 	incapacitating = yes

@@ -72,7 +72,6 @@ bayle  = {
 
 tarassax = { #a dragon to rule Farum Azula while Placidusax sleeps, named by CLAW on discord
 	name = "Tarassax"
-	
 	#dna = marika_dna
 	sexuality = heterosexual
 	dynasty = dynn_azula
