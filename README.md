@@ -1,7 +1,3 @@
-Map data is in:
-terrain+colour map.rar
-
-Uncompress it on your end in order for mod to work.
 
 Wiki for lore - https://eldenring.fandom.com/wiki/Elden_Ring_Wiki
 

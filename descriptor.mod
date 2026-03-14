@@ -5,7 +5,7 @@ tags={
 	"Total Conversion"
 	"Religion"
 }
-name="Elden Ring"
+name="Elden Ring Dev"
 replace_path="common/landed_titles"
 replace_path="common/province_terrain"
 replace_path="common/flavorization/00_flavorization.txt"
@@ -20,4 +20,3 @@ replace_path="gfx/map/map_object_data/generated"
 replace_path="gfx/map/map_object_data"
 replace_path="map_data"
 supported_version="1.18.3.1"
-remote_file_id="3665830902"
