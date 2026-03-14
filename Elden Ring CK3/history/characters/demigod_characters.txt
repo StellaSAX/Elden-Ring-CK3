@@ -521,9 +521,7 @@ rykard = {
 	dna = rykard_dna
 	sexuality = heterosexual
 	
-	dynasty_house = house_gelmir_caria
-	#dynasty = dynn_caria
-	set_house = house_gelmir_caria
+	dynasty = dynn_caria
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
@@ -531,10 +529,10 @@ rykard = {
 	learning = 10
 	health = 10
 	
-	religion = faith_god_snake	
-	culture = cul_royal
-	trait = education_intrigue_5
+	religion = faith_moons
+	culture = cul_caria
 	
+	trait = education_intrigue_5
 	trait = intellect_good_2 
 	trait = cynical
 	trait = ambitious
@@ -560,19 +558,30 @@ rykard = {
 	}
 	1782.1.1 = {
 		add_trait = demigod_elden_ring_4
+		culture = cul_royal
+		religion = faith_golden
+	}
+	7190.1.1 = {
+		add_spouse = tanith
+		effect = {
+			set_relation_lover = { reason = lover_history target = character:tanith }
+		}
 	}
 	7216.1.1 = {
 		add_pressed_claim = title:h_lands_between
 		add_pressed_claim = title:e_altus_plateau
 		add_pressed_claim = title:k_leyndell
-		add_spouse = tanith
-		effect = {
-			set_relation_lover = { reason = lover_history target = character:tanith }
-		}
-		add_trait = god_serpent
+	}
+	7217.1.1 = {
+		dynasty_house = house_gelmir_caria
+		set_house = house_gelmir_caria
+	}
+	7221.1.1 = {
+		religion = faith_god_snake
 	}
 	7241.1.1 = {
 		give_nickname = nick_lordlady_of_blasphemy
+		add_trait = god_serpent
 	}
 	9999.5.25 = {
 		death = yes
