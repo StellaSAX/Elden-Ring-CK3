@@ -78,7 +78,7 @@ marika = {
 	1782.1.1 = {
 		add_matrilineal_spouse = radagon
 	}
-	7211.2.1 = {
+	7213.1.1 = {
 		#trait = crucified_erdtree 
 	}
 	9999.5.25 = {
@@ -100,7 +100,7 @@ radagon = {
 	learning = 10
 	health = 10
 	religion = faith_golden
-	culture = cul_rauh
+	culture = cul_royal
 	
 	trait = education_martial_4
 	trait = intellect_good_3
@@ -130,10 +130,7 @@ radagon = {
 	714.1.1 = {	
 		trait = demigod_elden_ring_4
 	}
-	727.1.1 = {
-		culture = cul_royal
-	}
-	# 7211.2.1 = {
+	# 7213.1.1 = {
 		# trait = crucified_erdtree #need to create something for him to hidde the secret
 	# }
 	9999.5.25 = {

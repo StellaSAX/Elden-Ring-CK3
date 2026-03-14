@@ -4,7 +4,6 @@
 513.1.1 = Rennala and Rellana are born
 682.1.1 = Godfrey is born
 688.1.1 = Marika is born
-690.1.1 = Radagon is too confusing
 707.1.1 = Marika is recognized as an Empyrean and granted Maliketh
 714.1.1 = Marika's rise to Godhood
 728.1.1 = Messmer and Melina are born
