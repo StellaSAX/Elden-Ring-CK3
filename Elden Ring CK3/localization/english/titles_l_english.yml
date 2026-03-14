@@ -30,7 +30,18 @@
  
  preator_m:0 "Preator"
  preator_f:0 "Praetrix"
+
+ ### Lands Between Hegemony ###
+ h_lands_between:0 "The Lands Between"
+
+ ################
+ ### Limgrave ###
+ ################
+ e_limgrave:0 "Limgrave"
  
+ ### Weeping Peninsula ###
+
+ k_weeping_peninsula:0 "Weeping Peninsula"
  d_R109G206B144:0 "Western Weeping Peninsula"
  c_R125G179B212:0 "Forest Lookout"
  b_R151G119B226:0 "Placeholder"
@@ -110,12 +121,102 @@
  c_R121G120B196:0 "Northern Weeping Coast"
  b_R40G116B88:0 "Bridge Garrison"
  b_R21G165B219:0 "Northern Weeping Coast"
+
+ ### Stormveil ###
+ k_stormveil:0 "Stormveil"
  
- 
+ ###################
+ ### Underground ###
+ ###################
  e_underground:0 "Underground"
+
+ ### Deeproot Depths ###
  k_deeproot_depths:0 "Deeproots Depths"
  d_deeproot_depths:0 "Deeproots Depths"
  c_nameless_city:0 "Nameless City"
  c_death_throne:0 "Death's Throne"
  c_deeproot:0 "Deeproots"
  c_rootcliffs:0 "Rootcliffs"
+
+ ### Ainsel ###
+ k_ainsel:0 "Ainsel"
+
+ ### Siofra ###
+ k_siofra:0 "Siofra"
+
+ ##############
+ ### Caelid ###
+ ##############
+ e_caelid:0 "Caelid"
+
+ ### Redmane ###
+ k_redmane:0 "Redmane"
+
+ ### Dragonbarrow ###
+ k_dragonbarrow:0 "Dragonbarrow"
+
+ ###############
+ ### Liurnia ###
+ ###############
+ e_liurnia:0 "Liurnia"
+
+ ### Caria ###
+ k_caria:0 "Caria"
+
+ ### Raya Lucaria ###
+ k_rayalucaria:0 "Raya Lucaria"
+
+ #####################
+ ### Altus Plateau ###
+ #####################
+ e_altus_plateau:0 "Altus Plateau"
+
+ ### Leyndel ###
+ k_leyndel:0 "Leyndel"
+
+ ### Gelmir ###
+ k_gelmir:0 "Gelmir"
+
+ #####################
+ ### Mountain Tops ###
+ ##################### 
+ e_mountain_tops:0 "Mountain Tops"
+
+ ### Giant Tops ###
+ k_giattops:0 "Giant Tops"
+
+ ### Snowfields ###
+ k_snowfields:0 "Snowfields"
+
+ ###################
+ ### Farum Azula ###
+ ###################
+ e_farum_azula:0 "Farum Azula" 
+ k_farum_azula:0 "Farum Azula"
+
+ #######################
+ ### Land of Shadows ###
+ #######################
+ e_land_shadows:0 "Land of Shadows"
+
+ ### Belurat ###
+ k_belurat:0 "Belurat"
+
+ ### Cerulean Coast ###
+ k_cerulean_coast:0 "Cerulean Coast"
+
+ ### Scadu Altus ###
+ k_scadu_altus:0 "Scadu Altus"
+
+ ### Abyssal Woods ###
+ k_abyssal_woods:0 "Abyssal Woods"
+
+ ### Jagged Peak ###
+ k_jagged_peak:0 "Jagged Peak"
+
+ #################
+ ### Haligtree ###
+ #################
+ e_haligtree:0 "Haligtree's Domain"
+ k_haligtree:0 "Haligtree Isles"
+ d_R14G111B75:0 "Miquella's Retreat"
