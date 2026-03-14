@@ -17,6 +17,7 @@ nick_beast_clergyman = {}
 nick_the_dread = {}
 nick_the_scout = {}
 nick_the_grafted = {}
+nick_the_unalloyed = {}
 nick_kindling_maiden = {}
 nick_lordlady_of_blasphemy = {}
 nick_the_omen_kingqueen = {}

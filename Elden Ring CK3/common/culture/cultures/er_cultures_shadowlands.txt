@@ -59,10 +59,10 @@ cul_hornsent = {
 	}
 }
 
-cul_follow_messmer = {
+cul_shadowlander = {
 	color = { 0.99 0.46 0.14 }
 	parents = { cul_royal }
-	history_loc_override = mixed_lands_between_messmer_loc
+	history_loc_override = mixed_leyndell_shadowlander_loc
 	created = 1810.1.1
 	ethos = ethos_bellicose
 	heritage = heritage_lands_between

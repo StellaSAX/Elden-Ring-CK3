@@ -31,7 +31,7 @@ rennala = {
 	learning = 10
 	health = 10
 	give_nickname = nick_kingqueen_of_the_full_moon
-	religion = faith_moons	
+	religion = faith_moons
 	culture = cul_caria
 	
 	trait = intellect_good_3
@@ -65,10 +65,9 @@ rennala = {
 		add_matrilineal_spouse = radagon
 	}
 	1782.1.1 = {
-		effect = {
-			add_trait = lunatic_1
-		}
 		remove_spouse = radagon
+		add_trait = lunatic_1
+		add_trait = depressed_1
 	}
 	9999.5.25 = {
 		death = yes
@@ -87,7 +86,6 @@ rellana = {
 	stewardship = 10
 	learning = 10
 	health = 10
-	give_nickname = nick_twin_moon_knight
 	
 	portrait_override = {	
 		portrait_modifier_overrides={
@@ -96,7 +94,7 @@ rellana = {
 		}
 	}
 	
-	religion = faith_messmer	
+	religion = faith_moons
 	culture = cul_caria
 	
 	trait = education_martial_5
@@ -104,18 +102,28 @@ rellana = {
 	trait = patient
 	trait = brave
 	trait = glintstone_affinity
-	trait = lifestyle_blademaster
 	trait = no_marry
 	
 	disallow_random_traits = yes
 	mother = carian_family
+	
 	523.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
-			add_trait_xp = { trait = lifestyle_blademaster value=100 }
 		}
 		trait = carian_sorcerer
+	}
+	1708.1.1 = {
+		give_nickname = nick_twin_moon_knight
+		add_trait = lifestyle_blademaster
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+		}
+	}
+	1710.1.1 = {
+		add_trait = disinherited
+		religion = faith_messmer
 	}
 	9999.5.25 = {
 		death = yes

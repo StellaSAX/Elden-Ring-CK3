@@ -11,8 +11,6 @@ tarnished_1 = {
 	religion = faith_golden	
 	culture = cul_royal
 	
-	
-	
 	disallow_random_traits = yes
 	father = hoarah_loux
 	
@@ -41,8 +39,6 @@ tarnished_2 = {
 	religion = faith_golden	
 	culture = cul_royal
 	
-	
-	
 	disallow_random_traits = yes
 	father = tarnished_1
 	
@@ -70,8 +66,6 @@ tarnished_3 = {
 	learning = 10
 	religion = faith_golden	
 	culture = cul_royal
-	
-	
 	
 	disallow_random_traits = yes
 	father = tarnished_2

@@ -29,8 +29,8 @@ marika = {
 	intrigue = 10
 	stewardship = 10
 	learning = 10
-	religion = faith_golden	
-	culture = cul_royal
+	religion = faith_shaman
+	culture = cul_shaman
 	health = 10
 	
 	trait = education_learning_5
@@ -60,10 +60,14 @@ marika = {
 	707.1.1 = {
 		#trait = empyrean_elden_ring
 	}
-	714.1.1 = {	
+	714.1.1 = {
 		#remove_trait = empyrean_elden_ring
+		religion = faith_golden
 		trait = god_elden_ring
 		give_nickname = nick_the_eternal
+	}
+	727.1.1 = {
+		culture = cul_royal
 	}
 	733.1.1 = {
 		add_matrilineal_spouse = hoarah_loux
@@ -95,8 +99,8 @@ radagon = {
 	stewardship = 10
 	learning = 10
 	health = 10
-	religion = faith_golden	
-	culture = cul_royal
+	religion = faith_golden
+	culture = cul_rauh
 	
 	trait = education_martial_4
 	trait = intellect_good_3
@@ -108,9 +112,9 @@ radagon = {
 	trait = diligent
 	trait = order_affinity
 	disallow_random_traits = yes
-	mother = shaman_line
+	#mother = shaman_line
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_beards=male_empty
 			custom_hair=male_hair_fp1_05
@@ -125,6 +129,9 @@ radagon = {
 	}
 	714.1.1 = {	
 		trait = demigod_elden_ring_4
+	}
+	727.1.1 = {
+		culture = cul_royal
 	}
 	# 7211.2.1 = {
 		# trait = crucified_erdtree #need to create something for him to hidde the secret
@@ -149,7 +156,7 @@ hoarah_loux = {
 	prowess = 30
 	health = 20
 	
-	religion = faith_golden	
+	religion = faith_badlands
 	culture = cul_badlands
 	
 	trait = education_martial_5
@@ -158,9 +165,6 @@ hoarah_loux = {
 	trait = stubborn
 	trait = physique_good_3
 	trait = strong
-	
-	trait = tarnished_elden_ring
-	trait = no_marry
 	
 	disallow_random_traits = yes
 	
@@ -178,8 +182,13 @@ hoarah_loux = {
 		}
 	}
 	733.1.1 = {
-		give_nickname = nick_first_elden_lord
 		add_trait = demigod_elden_ring_4
+		give_nickname = nick_first_elden_lord
+		religion = faith_golden
+	}
+	1602.1.1 = {
+		add_trait = tarnished_elden_ring
+		add_trait = no_marry
 	}
 	9999.5.25 = {
 		death = yes
@@ -198,14 +207,13 @@ messmer = {
 	learning = 10
 	health = 10
 	
-	religion = faith_messmer	
 	culture = cul_royal
+	religion = faith_golden
 	
 	trait = education_martial_5
 	trait = stubborn
 	trait = arbitrary
 	trait = arrogant
-	trait = depressed_1
 	trait = fire_affinity
 	trait = no_marry
 	
@@ -226,8 +234,13 @@ messmer = {
 		}
 		trait = demigod_elden_ring_4
 	}
+	1710.1.1 = {
+		religion = faith_messmer
+	}
 	1810.1.1 = {
+		culture = cul_shadowlander
 		give_nickname = nick_the_impaler
+		add_trait = depressed_1
 	}
 	9999.5.25 = {
 		death = yes
@@ -244,8 +257,8 @@ melina = {
 	
 	religion = faith_golden	
 	culture = cul_royal
-	trait = education_diplomacy_3
 	
+	trait = education_diplomacy_3
 	trait = calm
 	trait = patient
 	trait = content
@@ -381,9 +394,7 @@ mohg = {
 	name = "Mohg"
 	dna = mohg_dna
 	sexuality = bisexual
-	dynasty_house = house_mohgwyn_erdtree
-	#dynasty = dynn_erdtree
-	set_house = house_mohgwyn_erdtree
+	dynasty = dynn_erdtree
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
@@ -391,10 +402,10 @@ mohg = {
 	learning = 10
 	health = 10
 	
-	religion = faith_formless	
+	religion = faith_golden
 	culture = cul_royal
-	trait = education_intrigue_4
 	
+	trait = education_intrigue_4
 	trait = omen_horn_trait
 	trait = twin
 	trait = diligent
@@ -421,8 +432,15 @@ mohg = {
 		}
 		trait = demigod_elden_ring_4
 	}
+	2405.1.1 = {
+		religion = faith_formless
+	}
 	7217.1.1 = {
 		give_nickname = nick_the_lordlady_of_blood
+	}
+	7748.1.1 = {
+		dynasty_house = house_mohgwyn_erdtree
+		set_house = house_mohgwyn_erdtree
 	}
 	9999.5.25 = {
 		death = yes
@@ -441,8 +459,8 @@ radahn = {
 	learning = 10
 	health = 10
 	
-	religion = faith_golden	
-	culture = cul_royal
+	religion = faith_moons
+	culture = cul_caria
 	trait = education_martial_5
 	
 	trait = physique_good_2
@@ -454,8 +472,6 @@ radahn = {
 	trait = no_marry
 	
 	disallow_random_traits = yes
-	
-	trait = scarlet_rot
 	
 	father = radagon
 	mother = rennala
@@ -478,15 +494,18 @@ radahn = {
 	}
 	1782.1.1 = {
 		add_trait = demigod_elden_ring_4
+		culture = cul_royal
+		religion = faith_golden
 	}
-	7211.1.25 = {
+	7216.1.1 = {
 		add_pressed_claim = title:h_lands_between
 		add_pressed_claim = title:e_altus_plateau
 		add_pressed_claim = title:k_leyndell
 	}
-	7700.1.1 = { #got nuked by malenia
+	7748.1.1 = { #got nuked by malenia
 		effect = {
 			add_trait = lunatic_1
+			add_trait = scarlet_rot
 			remove_trait = just
 			remove_trait = diligent
 			remove_trait = brave
@@ -542,7 +561,7 @@ rykard = {
 	1782.1.1 = {
 		add_trait = demigod_elden_ring_4
 	}
-	7211.1.25 = {
+	7216.1.1 = {
 		add_pressed_claim = title:h_lands_between
 		add_pressed_claim = title:e_altus_plateau
 		add_pressed_claim = title:k_leyndell
@@ -573,10 +592,10 @@ ranni = {
 	learning = 10
 	health = 10
 	
-	religion = faith_moons	
+	religion = faith_moons
 	culture = cul_caria
-	trait = education_learning_5
 	
+	trait = education_learning_5
 	trait = callous
 	trait = calm
 	trait = ambitious
@@ -604,9 +623,12 @@ ranni = {
 	}
 	1782.1.1 = {
 		add_trait = demigod_elden_ring_4
+	}
+	3759.1.1 = {
+		religion = faith_stars
 		give_nickname = nick_the_witch
 	}
-	7211.1.25 = {
+	7216.1.1 = {
 		add_pressed_claim = title:h_lands_between
 		add_pressed_claim = title:e_altus_plateau
 		add_pressed_claim = title:k_leyndell
@@ -628,10 +650,10 @@ miquella = {
 	stewardship = 10
 	learning = 10
 	health = 10
-	religion = faith_kind	
+	
+	religion = faith_golden
 	culture = cul_royal
 	
-	trait = twin
 	disallow_random_traits = yes
 	trait = beauty_good_3
 	trait = intellect_good_3
@@ -640,6 +662,7 @@ miquella = {
 	trait = gregarious
 	trait = compassionate
 	trait = order_affinity
+	trait = twin
 	trait = no_marry
 	
 	mother = marika
@@ -660,7 +683,12 @@ miquella = {
 		trait = demigod_elden_ring_4
 	}
 	3020.1.1 = {
+		give_nickname = nick_the_unalloyed
+		religion = faith_unalloyed
+	}
+	8200.1.1 = {
 		give_nickname = nick_the_kind
+		religion = faith_kind
 	}
 	8305.1.1 = {
 		effect = {
@@ -686,7 +714,7 @@ trina = {
 	learning = 10
 	health = 10
 	
-	religion = faith_st_trina	
+	religion = faith_st_trina
 	culture = cul_royal
 	
 	trait = beauty_good_3
@@ -739,16 +767,17 @@ malenia = {
 	learning = 10
 	health = 10
 
-	religion = faith_unalloyed	
+	religion = faith_golden
 	culture = cul_royal
+	
 	trait = education_martial_5
 	trait = brave
 	trait = trusting
 	trait = patient
 	trait = nugget
-	trait = twin
 	trait = rot_affinity
 	trait = blind
+	trait = twin
 	trait = no_marry
 	
 	trait = scarlet_rot
@@ -764,6 +793,7 @@ malenia = {
 	
 	mother = marika
 	father = radagon
+	
 	2020.1.1 = {
 		birth = yes
 		effect = {
@@ -773,6 +803,7 @@ malenia = {
 	}
 	3020.1.1 = {
 		give_nickname = nick_blade_of_miquella
+		religion = faith_unalloyed
 	}
 	9999.5.25 = {
 		death = yes

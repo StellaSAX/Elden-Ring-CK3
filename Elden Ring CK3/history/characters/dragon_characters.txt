@@ -21,7 +21,7 @@ placidusax  = {
 	
 	disallow_random_traits = yes
 	
-	1.1.1 = {
+	50.1.1 = {
 		birth = yes
 		
 		trait = ancient_dragon_elden_ring
@@ -58,7 +58,7 @@ bayle  = {
 	
 	disallow_random_traits = yes
 	
-	1.1.1 = {
+	60.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -87,7 +87,7 @@ tarassax = { #a dragon to rule Farum Azula while Placidusax sleeps, named by CLA
 	
 	disallow_random_traits = yes
 	
-	1000.1.1 = {
+	420.6.9 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family

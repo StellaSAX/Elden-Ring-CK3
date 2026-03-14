@@ -74,7 +74,7 @@
 	holding = castle_holding
 }
 16 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -94,7 +94,7 @@
 	holding = castle_holding
 }
 20 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -114,7 +114,7 @@
 	holding = castle_holding
 }
 24 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -124,7 +124,7 @@
 	holding = castle_holding
 }
 26 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -196,7 +196,7 @@
 	holding = none
 }
 44 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_st_trina
 	holding = castle_holding
 }
@@ -256,7 +256,7 @@
 	holding = castle_holding
 }
 58 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -266,7 +266,7 @@
 	holding = castle_holding
 }
 60 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -334,7 +334,7 @@
 	holding = none
 }
 74 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -358,7 +358,7 @@
 	holding = none
 }
 80 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -464,12 +464,12 @@
 	holding = castle_holding
 }
 104 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_st_trina
 	holding = castle_holding
 }
 105 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -580,7 +580,7 @@
 	holding = castle_holding
 }
 130 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -606,7 +606,7 @@
 	holding = tribal_holding
 }
 136 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -687,7 +687,7 @@
 	holding = none
 }
 155 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_st_trina
 	holding = castle_holding
 }
@@ -698,7 +698,7 @@
 	holding = none
 }
 158 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_st_trina
 	holding = castle_holding
 }
@@ -779,7 +779,7 @@
 	holding = none
 }
 179 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -911,7 +911,7 @@
 	holding = castle_holding
 }
 211 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -948,7 +948,7 @@
 	holding = castle_holding
 }
 220 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_st_trina
 	holding = castle_holding
 }
@@ -964,7 +964,7 @@
 	holding = none
 }
 224 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -1065,7 +1065,7 @@
 	holding = castle_holding
 }
 251 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -1111,7 +1111,7 @@
 	holding = castle_holding
 }
 261 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -1225,7 +1225,7 @@
 	holding = castle_holding
 }
 289 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -1279,7 +1279,7 @@
 	holding = none
 }
 303 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_st_trina
 	holding = castle_holding
 }
@@ -1362,12 +1362,12 @@
 	holding = none
 }
 324 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
 325 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -1393,7 +1393,7 @@
 	holding = castle_holding
 }
 331 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -1443,7 +1443,7 @@
 	holding = none
 }
 345 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -1506,7 +1506,7 @@
 	holding = castle_holding
 }
 360 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -1529,7 +1529,7 @@
 	holding = castle_holding
 }
 365 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_st_trina
 	holding = castle_holding
 }
@@ -1537,7 +1537,7 @@
 	holding = none
 }
 367 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -2094,7 +2094,7 @@
 	holding = castle_holding
 }
 522 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -2111,7 +2111,7 @@
 	holding = none
 }
 527 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -2156,7 +2156,7 @@
 	holding = none
 }
 540 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -2468,7 +2468,7 @@
 	holding = none
 }
 628 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -2787,7 +2787,7 @@
 	holding = none
 }
 719 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -2946,7 +2946,7 @@
 	holding = none
 }
 768 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -3015,7 +3015,7 @@
 	holding = none
 }
 789 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -3059,7 +3059,7 @@
 	holding = none
 }
 803 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_st_trina
 	holding = castle_holding
 }
@@ -3149,7 +3149,7 @@
 	holding = none
 }
 831 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_st_trina
 	holding = castle_holding
 }
@@ -3166,7 +3166,7 @@
 	holding = none
 }
 836 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -3264,7 +3264,7 @@
 	holding = none
 }
 866 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -3321,7 +3321,7 @@
 	holding = none
 }
 883 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_crucible
 	holding = castle_holding
 }
@@ -3390,7 +3390,7 @@
 	holding = none
 }
 904 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -3479,7 +3479,7 @@
 	holding = none
 }
 933 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_st_trina
 	holding = castle_holding
 }
@@ -3617,7 +3617,7 @@
 	holding = none
 }
 975 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -3859,7 +3859,7 @@
 	holding = none
 }
 1051 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }
@@ -4270,7 +4270,7 @@
 	holding = none
 }
 1182 = {
-	culture = cul_follow_messmer
+	culture = cul_shadowlander
 	religion = faith_messmer
 	holding = castle_holding
 }

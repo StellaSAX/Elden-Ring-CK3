@@ -310,7 +310,7 @@ carian_sorcerer = {
 	opposites = {
 		incapable
 		cancer
-		disfigured
+		infirm
 	}
 }
 
