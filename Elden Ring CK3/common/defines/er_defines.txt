@@ -1,3 +1,18 @@
 ﻿NGame = {
 	END_DATE = "9999.1.1"
 }
+
+NCharacter = {
+	MALE_ATTRACTION_CUTOFF_AGE = 9999		# After this age, the attraction of traits no longer have any effect
+	FEMALE_ATTRACTION_CUTOFF_AGE = 9999	    # After this age, the attraction of traits no longer have any effect
+}
+
+NOldAge = {
+	LOWER_HEALTH_START_AGE = 35 # At this age characters start getting the chance to lose health each year
+
+	LOWER_PROWESS_START_AGE = 9999 # At this age characters start getting the chance to lose prowess each year
+	LOWER_PROWESS_BASE_CHANCE = 0.1 # This is the base chance of losing prowess at the START_AGE
+	LOWER_PROWESS_YEARLY_INCREASE = 0.015 # This is the yearly increase of the chance to lose prowess
+	LOWER_PROWESS_MAX_CHANCE = 0.75 # This is the maximum chance to lose prowess
+	LOWER_PROWESS_FACTOR = 0.1 # This is the prowess change mutliplier on each failed yearly roll
+}
