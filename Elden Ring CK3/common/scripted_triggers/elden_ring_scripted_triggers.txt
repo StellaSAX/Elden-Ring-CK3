@@ -51,6 +51,15 @@ has_godhood_elden_ring = {
 	}
 }
 
+is_demigod_elden_ring = {
+	OR = {
+		has_trait = demigod_elden_ring_4
+		has_trait = demigod_elden_ring_3
+		has_trait = demigod_elden_ring_2
+		has_trait = demigod_elden_ring_1
+	}
+}
+
 is_godfrey = {
 	this = character:hoarah_loux
 }

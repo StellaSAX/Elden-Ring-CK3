@@ -376,6 +376,7 @@ god_serpent = {
 	general_opinion = -10
 	dread_gain_mult = 0.5
 	dread_baseline_add = 50
+	can_have_children = no
 	immortal = yes
 	# Dummy flags — just here for loc really.
 	flag = is_immortal

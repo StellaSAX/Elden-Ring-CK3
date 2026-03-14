@@ -550,6 +550,7 @@ rykard = {
 		effect = {
 			set_relation_lover = { reason = lover_history target = character:tanith }
 		}
+		add_trait = god_serpent
 	}
 	7241.1.1 = {
 		give_nickname = nick_lordlady_of_blasphemy

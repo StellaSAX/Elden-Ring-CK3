@@ -5,3 +5,13 @@
 death_went_missing_elden_ring = {
 	icon = "death_natural.dds"
 }
+
+death_consumed_by_serpent = {
+	public_knowledge = yes
+	icon = "death_murder.dds"
+}
+
+death_grafted = {
+	public_knowledge = yes
+	icon = "death_murder.dds"
+}

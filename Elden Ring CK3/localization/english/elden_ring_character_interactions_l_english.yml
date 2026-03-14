@@ -14,3 +14,26 @@ cure_wound_elden_ring_interaction_desc:0 "Heal any wound that affects them."
 
 regrow_lost_elden_ring_interaction:0 "Regrow Lost"
 regrow_lost_elden_ring_interaction_desc:0 "Regrow lost limb"
+
+immortal_serpent_absorption_interaction:0 "Consume Them"
+immortal_serpent_absorption_interaction_desc:0 "The God-Devouring Serpent grows in power by consuming, all people consumed become part of the family.\nTogether, we will devour the very Gods!"
+serpent_eat.consumed_god:0 "We consumed a God!"
+serpent_eat.consumed_demigod:0 "We consumed a demigod"
+serpent_eat.martial:0 "We gained some martial skill"
+serpent_eat.stewardship:0 "We gained some stewardship skill"
+serpent_eat.learning:0 "We gained some learning skill"
+serpent_eat.intrigue:0 "We gained some intrigue skill"
+serpent_eat.diplomacy:0 "We gained some diplomacy skill"
+serpent_eat.prowess:0 "We gained some physical prowess"
+serpent_eat.nothing_happened:0 "We gained nothing, but are happy to consume"
+
+death_consumed_by_serpent:0 "Consumed"
+death_consumed_by_serpent_killer:0 "Consumed by [TARGET_CHARACTER.GetUIName]"
+
+grafting_interaction:0 "Graft them"
+grafting_interaction_desc:0 "There are many ways to obtain power, and taking it from others is as good as any other."
+grafting_people.succes:0 "Successful Grafting"
+grafting_people.fail:0 "Failed Grafting"
+
+death_grafted:0 "Grafted"
+death_grafted_killer:0 "Grafted by [TARGET_CHARACTER.GetUIName]"

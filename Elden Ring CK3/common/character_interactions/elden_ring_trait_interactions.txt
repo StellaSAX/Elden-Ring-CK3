@@ -1,0 +1,149 @@
+﻿cut_omen_elden_ring_interaction = {
+	category = interaction_category_hostile
+	icon = secret
+
+	desc = cut_omen_elden_ring_interaction_desc
+	
+	greeting = negative
+	
+	auto_accept = yes
+	
+	is_shown = {
+		scope:recipient = {
+			AND = {
+				has_trait = omen_horn_trait
+				is_courtier_of = scope:actor
+			}
+		}
+	}
+
+	cost = {
+		prestige = 100
+	}
+	
+	on_auto_accept = {
+		scope:recipient = {
+			remove_trait = omen_horn_trait
+			add_trait = omen_no_horn_trait
+			hidden_effect = {
+				increase_wounds_no_death_effect = { REASON = fall }
+			}
+			add_opinion = {
+				modifier = tortured_me
+				target = scope:actor
+			}
+		}
+		
+		scope:actor = {
+			if = {
+				stress_impact = {
+					just = medium_stress_impact_gain
+					compassionate = medium_stress_impact_gain
+				}
+			}
+		}
+		imprison_attempt_escalates_rivalry_effect = yes
+
+	}
+
+}
+
+grafting_interaction = {
+	icon = icon_scheme_murder
+	category = interaction_category_prison
+	desc = grafting_interaction_desc
+	
+	ai_targets = {
+		ai_recipients = prisoners
+	}
+	
+	is_shown = {
+		NOT = {
+			scope:recipient = scope:actor
+		}
+		scope:actor = {
+			has_trait = grafting
+		}
+		scope:recipient = {
+			is_imprisoned_by = scope:actor
+		}
+	}
+	
+	on_accept = {
+		scope:actor = {
+		random_list = {
+			50 = {
+				send_interface_toast = {
+					title = grafting_people.succes
+				}
+				if = {
+					limit = {
+						scope:recipient = {
+							OR = {
+								is_demigod_elden_ring = yes
+								has_trait = ancient_dragon_elden_ring
+								has_trait = lesser_dragon_elden_ring
+								has_trait = god_elden_ring
+							}
+							
+						}
+						has_trait_xp = {
+							trait = grafting
+							value < 100
+						}
+					}
+					add_trait_xp = {
+						trait = grafting
+						value = 25
+					}
+				}
+				else_if = {
+					limit = {
+						scope:recipient = {
+							prowess >= 20
+						}
+						has_trait_xp = {
+							trait = grafting
+							value < 100
+						}
+					}
+					add_trait_xp = {
+						trait = grafting
+						value = 5
+					}
+				}
+				else = {
+					limit = {
+						has_trait_xp = {
+							trait = grafting
+							value < 100
+						}
+					}
+					add_trait_xp = {
+						trait = grafting
+						value = 1
+					}
+				}
+			}
+			50 = { 
+				send_interface_toast = {
+					title = grafting_people.fail
+				}
+			}
+		}
+		scope:recipient = {
+			death = {
+				death_reason = death_grafted
+				killer = scope:actor
+			}
+		}
+	}
+	auto_accept = yes
+	ai_accept = {
+		base = 50
+
+	}
+	ai_will_do = {
+		base = 100
+	}
+}

@@ -434,15 +434,26 @@ god_serpent_decision = {
 	selection_tooltip = god_serpent_decision_tooltip
 	
 
-	is_shown = {
-		root = {
-			character:rykard = this
+	is_shown = {	
+		religion = religion:serpent_religion
+		NOT = {
+			any_living_character = {
+				has_trait = god_serpent
+			}
 		}
-
 	}
 
 	is_valid = {
-
+		OR = {
+			is_demigod_elden_ring = yes #so that other demigods can do it even if rykard died at some point
+			root = {
+				character:rykard = this
+			}
+		}
+		any_sub_realm_county = {
+			this = title:c_gelmir
+		}
+		religion = religion:serpent_religion
 	}
 
 	is_valid_showing_failures_only = {
@@ -454,7 +465,7 @@ god_serpent_decision = {
 	}
 
 	cost = {
-		piety = 1000
+		piety = 2500
 	}
 
 	ai_potential = {

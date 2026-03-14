@@ -218,3 +218,173 @@ regrow_lost_elden_ring_interaction = {
 		piety = 100
 	}
 }
+
+immortal_serpent_absorption_interaction = {
+	icon = icon_scheme_murder
+	category = interaction_category_prison
+	desc = immortal_serpent_absorption_interaction_desc
+	
+	ai_targets = {
+		ai_recipients = prisoners
+	}
+	
+	is_shown = {
+		NOT = {
+			scope:recipient = scope:actor
+		}
+		scope:actor = {
+			has_trait = god_serpent
+		}
+		scope:recipient = {
+			is_imprisoned_by = scope:actor
+		}
+	}
+	
+	on_accept = {
+		scope:actor = {
+			if = {
+				limit = {
+					scope:recipient = {
+						has_trait = god_elden_ring
+					}
+				}
+				send_interface_toast = {
+					title = serpent_eat.consumed_god
+				}
+				add_martial_skill = 10
+				add_stewardship_skill = 10
+				add_learning_skill = 10
+				add_intrigue_skill = 10
+				add_diplomacy_skill = 10
+				add_prowess_skill = 10
+			}
+			else_if = {
+				limit = {
+					scope:recipient = {
+						has_trait = demigod_elden_ring_4
+					}
+				}
+				send_interface_toast = {
+					title = serpent_eat.consumed_demigod
+				}
+				add_martial_skill = 4
+				add_stewardship_skill = 4
+				add_learning_skill = 4
+				add_intrigue_skill = 4
+				add_diplomacy_skill = 4
+				add_prowess_skill = 4
+			}
+			else_if = {
+				limit = {
+					scope:recipient = {
+						has_trait = demigod_elden_ring_3
+					}
+				}
+				send_interface_toast = {
+					title = serpent_eat.consumed_demigod
+				}
+				add_martial_skill = 3
+				add_stewardship_skill = 3
+				add_learning_skill = 3
+				add_intrigue_skill = 3
+				add_diplomacy_skill = 3
+				add_prowess_skill = 3
+			}
+			else_if = {
+				limit = {
+					scope:recipient = {
+						has_trait = demigod_elden_ring_2
+					}
+				}
+				send_interface_toast = {
+					title = serpent_eat.consumed_demigod
+				}
+				add_martial_skill = 2
+				add_stewardship_skill = 2
+				add_learning_skill = 2
+				add_intrigue_skill = 2
+				add_diplomacy_skill = 2
+				add_prowess_skill = 2
+			}
+			else_if = {
+				limit = {
+					scope:recipient = {
+						has_trait = demigod_elden_ring_1
+					}
+				}
+				send_interface_toast = {
+					title = serpent_eat.consumed_demigod
+				}
+				add_martial_skill = 1
+				add_stewardship_skill = 1
+				add_learning_skill = 1
+				add_intrigue_skill = 1
+				add_diplomacy_skill = 1
+				add_prowess_skill = 1
+			}
+			else = {
+				random_list = {
+					2 = { 
+						add_martial_skill = 1
+						send_interface_toast = {
+							title = serpent_eat.martial
+						}
+					}
+					2 = { 
+						add_stewardship_skill = 1
+						send_interface_toast = {
+							title = serpent_eat.stewardship
+						}
+					}
+					2 = { 
+						add_learning_skill = 1
+						send_interface_toast = {
+							title = serpent_eat.learning
+						}
+					}
+					2 = { 
+						add_intrigue_skill = 1
+						send_interface_toast = {
+							title = serpent_eat.intrigue
+						}
+					}
+					2 = { 
+						add_diplomacy_skill = 1
+						send_interface_toast = {
+							title = serpent_eat.diplomacy
+						}
+					}
+					2 = { 
+						add_prowess_skill = 1
+						send_interface_toast = {
+							title = serpent_eat.prowess
+						}
+					}
+					88 = { 
+						send_interface_toast = {
+							title = serpent_eat.nothing_happened
+						}
+						stress_impact = { base = medium_stress_loss }
+					}
+				}
+
+			}
+			
+
+		}
+		scope:recipient = {
+			death = {
+				death_reason = death_consumed_by_serpent
+				killer = scope:actor
+			}
+		}
+	}
+	auto_accept = yes
+	ai_accept = {
+		base = 50
+
+	}
+	ai_will_do = {
+		base = 100
+	}
+}
