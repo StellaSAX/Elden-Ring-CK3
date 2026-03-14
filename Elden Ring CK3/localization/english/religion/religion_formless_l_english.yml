@@ -1,0 +1,79 @@
+﻿l_english:
+
+ formless_religion:0 "Formless Mother"
+ formless_religion_adj:0 "bloody"
+ formless_religion_adherent:0 "Mother's child"
+ formless_religion_adherent_plural:0 "Mother's children"
+ formless_religion_desc:0 "The Formless Mother takes the curs, the downtrodden, the persecuted of this world under her wing. All she aks in exchange is blood and wounds, but what little price for acceptance!"
+ formless_high_god_name:0 "The Formless Mother"
+ formless_high_god_name_2:0 "Mother of Truth" # Optional translation alt
+ formless_high_god_name_3:0 "$formless_high_god_name$" # Optional translation alt
+ formless_high_god_name_possessive:0 "Mother's"
+ formless_devil_name:0 "Greater Will"
+ formless_devil_name_possessive:0 "Greater Will's"
+ formless_death_deity_name:0 "Destined Death"
+ formless_death_deity_name_possessive:0 "Destined Death's"
+ formless_house_of_worship:0 "palace"
+ formless_house_of_worship_2:0 "church" # Optional translation alt
+ formless_house_of_worship_3:0 "$formless_house_of_worship$" # Optional translation alt
+ formless_house_of_worship_plural:0 "palaces"
+ formless_religious_symbol:0 "trident"
+ formless_religious_symbol_2:0 "blood" # Optional translation alt
+ formless_religious_symbol_3:0 "$formless_religious_symbol$" # Optional translation alt
+ formless_religious_text:0 "prayerbook"
+ formless_religious_text_2:0 "$formless_religious_text$"  
+ formless_religious_text_3:0 "$formless_religious_text$"
+ formless_religious_head_title:0 "Glimpser"
+ formless_religious_head_title_name:0 "Glimpsary"
+ formless_devotee_male:0 "Blood follower" #"war surgeon"
+ formless_devotee_male_plural:0 "Blood followers" #"war surgeons"
+ formless_devotee_female:0 "Blood follower" #"hemmoragic nutrix"
+ formless_devotee_female_plural:0 "Blood followers" #"hemmoragic nutricis"
+ formless_devotee_neuter:0 "bloody finger"
+ formless_devotee_neuter_plural:0 "bloody finger"
+ formless_priest_male:0 "White Mask"
+ formless_priest_male_plural:0 "White Masks"
+ formless_priest_female:0 "White Mask"
+ formless_priest_female_plural:0 "White Masks"
+ formless_priest_alternate_plural:0 "scholar"
+ formless_bishop:0 "Sanguine Noble"
+ formless_bishop_plural:0 "Sanguine Nobles"
+ formless_positive_afterlife:0 "Mother's arms"
+ formless_positive_afterlife_2:1 "Mother's embrace" # Optional translation alt
+ formless_positive_afterlife_3:1 "Mother's realm" # Optional translation alt
+ formless_negative_afterlife:0 "the terror of Frenzy"
+ formless_negative_afterlife_2:1 "eternal servitude" # Optional translation alt
+ formless_negative_afterlife_3:1 "taken by the Golden Order" # Optional translation alt
+ formless_witchgodname_the_horned_god:0 "$formless_high_god_name$"
+ formless_witchgodname_the_horned_god_possessive:0 "$formless_high_god_name_possessive$"
+ 
+ formless_creator_god_name:0 "$formless_high_god_name$"
+ formless_creator_god_name_possessive:0 "$formless_high_god_name_possessive$"
+ formless_health_god_name:0 "$formless_high_god_name$"
+ formless_health_god_name_possessive:0 "$formless_high_god_name_possessive$'"
+ formless_fertility_god_name:0 "$formless_high_god_name$"
+ formless_fertility_god_name_possessive:0 "$$formless_high_god_name_possessive$"
+ formless_wealth_god_name:0 "$formless_high_god_name$"
+ formless_wealth_god_name_possessive:0 "$formless_high_god_name_possessive$"
+ formless_household_god_name:0 "$formless_high_god_name$"
+ formless_household_god_name_possessive:0 "$formless_high_god_name_possessive$"
+ formless_fate_god_name:0 "$formless_high_god_name$"
+ formless_fate_god_name_possessive:0 "$formless_high_god_name_possessive$"
+ formless_knowledge_god_name:0 "$formless_high_god_name$"
+ formless_knowledge_god_name_possessive:0 "$formless_high_god_name_possessive$"
+ formless_war_god_name:0 "$formless_high_god_name$"
+ formless_war_god_name_possessive:0 "$formless_high_god_name_possessive$"
+ formless_trickster_god_name:0 "$formless_high_god_name$"
+ formless_trickster_god_name_possessive:0 "$formless_high_god_name_possessive$"
+ formless_night_god_name:0 "$formless_high_god_name$"
+ formless_night_god_name_possessive:0 "$formless_high_god_name_possessive$"
+ formless_water_god_name:0 "$formless_high_god_name$"
+ formless_water_god_name_possessive:0 "$formless_high_god_name_possessive$"
+
+ #Subfaiths
+
+ faith_formless:0 "Mohg's Order"
+ faith_formlesss_adj:0 "dynastic"
+ faith_formless_adherent:0 "bondservant"
+ faith_formless_adherent_plural:0 "bondservants"
+ faith_formless_desc:0 "Mohg, once saved by the Mother, now seeks to repay her by establishing a new dynasty. Through it, he can rule the Lands Between in her name, and share her love all throughout it! But first, the empyrean Miquella needs to wake up..."

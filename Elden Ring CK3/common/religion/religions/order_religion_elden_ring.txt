@@ -285,7 +285,7 @@
 			}
 			
 		}
-		faith_unalloyed = {
+		faith_unalloyed = { #Miquella before going
 			color = { 0.99 0.99 0.0 }
 			icon = faith_unalloyed
 			reformed_icon = faith_unalloyed
@@ -401,7 +401,7 @@
 				
 			}
 		}
-		faith_kind = {
+		faith_kind = { #Miquella in the Land of Shadows
 			color = { 0.9 0.9 0.5 }
 			icon = faith_kind
 			reformed_icon = faith_kind

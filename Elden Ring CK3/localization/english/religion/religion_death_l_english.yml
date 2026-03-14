@@ -1,0 +1,88 @@
+﻿l_english:
+ 
+ death_religion:0 "the Way of the Dead"
+ death_religion_adj:0 "undead"
+ death_religion_adherent:0 "One Who lives in Death"
+ death_religion_adherent_plural:0 "Those Who live in Death"
+ death_religion_desc:0 " Most Who follow this religion do it because they had no choice in the matter of their afterlife. Indeed, deathroot prevents the soul from leaving the body and rejoin the Erdtree, a fate heretical to the Golden Order. They seek refuge within the power of Godwyn, the first to die among the demigods."
+ death_high_god_name:0 "Godwyn, the first of the Dead"
+ death_high_god_name_2:0 "Godwyn the Golden" # Optional translation alt
+ death_high_god_name_3:0 "Godwyn the Fallen" # Optional translation alt
+ death_high_god_name_possessive:0 "Godwyn's"
+ death_high_god_name_alternate:0 "Prince of Death"
+ death_high_god_name_alternate_possesive:0 "Prince of Death's"
+ death_devil_name:0 "Marika"
+ death_devil_name_possessive:0 "Marika's"
+ death_death_deity_name:0 "$death_high_god_name$"
+ death_death_deity_name_possessive:0 "$death_high_god_name_possessive$"
+ death_house_of_worship:0 "catacomb"
+ death_house_of_worship_2:0 "graveyard" # Optional translation alt
+ death_house_of_worship_3:0 "$death_house_of_worship$" # Optional translation alt
+ death_house_of_worship_plural:0 "catacombs"
+ death_religious_symbol:0 "half-wheel"
+ death_religious_symbol_2:0 "centipede" # Optional translation alt
+ death_religious_symbol_3:0 "$death_religious_symbol$" # Optional translation alt
+ death_religious_text:0 "epitaph"
+ death_religious_text_2:0 "elegy"  
+ death_religious_text_3:0 "scroll"
+ death_religious_head_title:0 "Lordship of the Dead"
+ death_religious_head_title_name:0 "Lord of the Dead"
+ death_devotee_male:0 "death follower"
+ death_devotee_male_plural:0 "death followers"
+ death_devotee_female:0 "death follower"
+ death_devotee_female_plural:0 "death followers"
+ death_devotee_neuter:0 "$death_devotee_male$"
+ death_devotee_neuter_plural:0 "$death_devotee_male_plural$"
+ death_priest_male:0 "necromancer"
+ death_priest_male_plural:0 "necromancers"
+ death_priest_female:0 "necromancer" #"deathbed companion"
+ death_priest_female_plural:0 "necromancers" #"deathbed companion"
+ death_priest_alternate_plural:0 "necromancers"
+ death_bishop:0 "Tibia Mariner"
+ death_bishop_plural:0 "Tibia Mariners"
+ death_positive_afterlife:0 "in Undeath"
+ death_positive_afterlife_2:1 "become One Who Lives in Death" # Optional translation alt
+ death_positive_afterlife_3:1 "has been touched by deathroot" # Optional translation alt
+ death_negative_afterlife:0 "the terror of Frenzy"
+ death_negative_afterlife_2:1 "taken by the Erdtree" # Optional translation alt
+ death_negative_afterlife_3:1 "far from the roots" # Optional translation alt
+ death_witchgodname_the_horned_god:0 "the Twinbird"
+ death_witchgodname_the_horned_god_possessive:0 "the Twinbird's"
+ 
+ death_creator_god_name:0 "$death_high_god_name$"
+ death_creator_god_name_possessive:0 "$death_high_god_name_possessive$"
+ death_health_god_name:0 "$death_high_god_name$"
+ death_health_god_name_possessive:0 "$death_high_god_name_possessive$'"
+ death_fertility_god_name:0 "$death_high_god_name$"
+ death_fertility_god_name_possessive:0 "$$death_high_god_name_possessive$"
+ death_wealth_god_name:0 "$death_high_god_name$"
+ death_wealth_god_name_possessive:0 "$death_high_god_name_possessive$"
+ death_household_god_name:0 "$death_high_god_name$"
+ death_household_god_name_possessive:0 "$death_high_god_name_possessive$"
+ death_fate_god_name:0 "$death_high_god_name$"
+ death_fate_god_name_possessive:0 "$death_high_god_name_possessive$"
+ death_knowledge_god_name:0 "$death_high_god_name$"
+ death_knowledge_god_name_possessive:0 "$death_high_god_name_possessive$"
+ death_war_god_name:0 "$death_high_god_name$"
+ death_war_god_name_possessive:0 "$death_high_god_name_possessive$"
+ death_trickster_god_name:0 "$death_high_god_name$"
+ death_trickster_god_name_possessive:0 "$death_high_god_name_possessive$"
+ death_night_god_name:0 "$death_high_god_name$"
+ death_night_god_name_possessive:0 "$death_high_god_name_possessive$"
+ death_water_god_name:0 "$death_high_god_name$"
+ death_water_god_name_possessive:0 "$death_high_god_name_possessive$"
+
+ #Subfaiths
+
+ faith_death_prince:0 "Godwyn's Order"
+ faith_death_prince_adj:0 "Undead"
+ faith_death_prince_adherent:0 "Fias' follower"
+ faith_death_prince_adherent_plural:0 "Fias' followers"
+ faith_death_prince_desc:0 "The revelations deathbed companion Fia recieved show that, one day, Godwyn will rise once again. It will finally end the purge of our kin by the fundamentalists by reintroducing Death to the Elden Ring, and he will take his rightful place as Lord of the Dead!"
+ 
+ faith_old_death:0 "Ancient Death"
+ faith_old_death_adj:0 "Ancient Rites"
+ faith_old_death_adherent:0 "Death follower"
+ faith_old_death_adherent_plural:0 "Death's followers"
+ faith_old_death_desc:0 "Ancient rituals that separate the soul from the body, if you burn the bones of the death, it's possible to release the spirit trapped inside as ghostflame.\nIronically most of these practices are slowly dying out. the Twinbird it's their symbol and her children, the death birds, are the keepers of the ghostflame."
+ 
