@@ -475,6 +475,30 @@
 		id       = "plains_01_altus"
 	}
 	{
+		name     = "caelid_desert"
+		diffuse  = "caelid_desert_diffuse.dds"
+		normal   = "caelid_desert_normal.dds"
+		material = "caelid_desert_properties.dds"
+		mask     = "masks/caelid_desert_mask.png"
+		id       = "caelid_desert"
+	}
+	{
+		name     = "caelid_desert_wavy"
+		diffuse  = "caelid_desert_wavy_diffuse.dds"
+		normal   = "caelid_desert_wavy_normal.dds"
+		material = "caelid_desert_wavy_properties.dds"
+		mask     = "masks/caelid_desert_wavy_mask.png"
+		id       = "caelid_desert_wavy"
+	}
+	{
+		name     = "caelid_swamp"
+		diffuse  = "caelid_swamp_diffuse.dds"
+		normal   = "caelid_swamp_normal.dds"
+		material = "caelid_swamp_properties.dds"
+		mask     = "masks/caelid_swamp_mask.png"
+		id       = "caelid_swamp"
+	}
+	{
 		name     = "gelmir_rock"
 		diffuse  = "gelmir_rock_diffuse.dds"
 		normal   = "gelmir_rock_normal.dds"
