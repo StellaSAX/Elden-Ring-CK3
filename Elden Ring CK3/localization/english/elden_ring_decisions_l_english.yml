@@ -12,7 +12,6 @@
   lose_knight_trait_elden_ring_confirm:0 "let's take a rest"
   lose_knight_trait_elden_ring_tooltip:0 "Lose Knighthood"
 
-
   elden_ring_knight_events.0001.desc:0 "I have Great potential beyond that of my peers, with some special training i could exploit it and become a better warrior, but what should be my specialty? my options depend on what affinities and skills i posses."
   elden_ring_knight_events.0001.a:0 "I will become a Knight of Order"
   elden_ring_knight_events.0001.b:0 "I will become a Mounted Knight"
@@ -35,7 +34,11 @@
   become_god_being_empyrean_elden_ring_desc:0 "The time has come, i am ready to take my place in history as a God. A being beyond all mostals, i will rule Forever."
   become_god_being_empyrean_elden_ring_confirm:0 "Prepare the rituals!"
   become_god_being_empyrean_elden_ring_tooltip:0 "Become a God"
-
+  
+  GOD_INVASION_CB_NAME:0 "God Conquest"
+  GOD_INVASION_WAR_NAME:2 "$ORDER$ Godly Invasion of [TITLE.GetBaseName]"
+  GOD_INVASION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+  
   gain_trait_death_companion:0 "Become a Deathcompanion"
   gain_trait_black_assassin:0 "Become a Black Knife Assassin"
   gain_trait_godskin_apostle:0 "Become a Godskin Apostle"

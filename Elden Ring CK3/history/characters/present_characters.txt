@@ -23,7 +23,7 @@ millicent = {
 	trait = rot_affinity
 	trait = no_marry
 	
-	trait = scarlet_rot
+	trait = scarlet_rot_child
 	
 	disallow_random_traits = yes
 
@@ -33,7 +33,6 @@ millicent = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = scarlet_rot_child
 	}
 	9999.5.25 = {
 		death = yes
@@ -65,7 +64,7 @@ polyanna = {
 	trait = one_eyed
 	trait = no_marry
 	
-	trait = scarlet_rot
+	trait = scarlet_rot_child
 	
 	mother = malenia
 	7748.1.15 = {
@@ -73,7 +72,6 @@ polyanna = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = scarlet_rot_child
 	}
 	9999.5.25 = {
 		death = yes
@@ -105,7 +103,7 @@ amy = {
 	trait = blind
 	trait = no_marry
 	
-	trait = scarlet_rot
+	trait = scarlet_rot_child
 	
 	mother = malenia
 	7748.1.10 = {
@@ -113,7 +111,6 @@ amy = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = scarlet_rot_child
 	}
 	9999.5.25 = {
 		death = yes
@@ -145,7 +142,7 @@ maureen = {
 	trait = one_eyed
 	trait = no_marry
 	
-	trait = scarlet_rot
+	trait = scarlet_rot_child
 	
 	mother = malenia
 	7748.1.5 = {
@@ -153,7 +150,6 @@ maureen = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = scarlet_rot_child
 	}
 	9999.5.25 = {
 		death = yes
@@ -185,7 +181,7 @@ mary = {
 	trait = blind
 	trait = no_marry
 	
-	trait = scarlet_rot
+	trait = scarlet_rot_child
 	
 	mother = malenia
 	7748.1.1 = {
@@ -193,7 +189,6 @@ mary = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = scarlet_rot_child
 	}
 	9999.5.25 = {
 		death = yes

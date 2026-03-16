@@ -118,12 +118,21 @@ crucified_erdtree = {
 	inheritance_blocker = all
 	claim_inheritance_blocker = all
 	
+	monthly_lifestyle_xp_gain_mult = -1.0
+	monthly_prestige_gain_mult = -1.0
+	monthly_piety_gain_mult = -1.0
+	monthly_influence_mult = -1.0
+	monthly_merit_mult = -1.0
+	diplomatic_range_mult = -1.0
+	
 	diplomacy = -100
 	stewardship = -100
 	intrigue = -100
 	learning = -100
 	martial = -100
 	prowess = -100
+	
+	flag = can_not_marry
 	
 	ai_energy = -100
 }

@@ -186,7 +186,6 @@ bodiless = {
 tarnished = {
 	category = fame
 	icon = "tarnished.dds"
-	desc = tarnished_desc
 	ruler_designer_cost = 0
 	
 	monthly_prestige_gain_mult = -0.15
@@ -216,7 +215,6 @@ tarnished = {
 graceless_tarnished = {
 	category = fame
 	icon = "tarnished_graceless.dds"
-	desc = graceless_tarnished_desc
 	ruler_designer_cost = 0
 	
 	monthly_prestige_gain_mult = -0.25

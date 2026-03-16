@@ -11,6 +11,16 @@
   trait_eternal_youth_elden_ring:0 "Eternal Youth"
   trait_shardbearer_elden_ring:0 "Shardbearer"
   
+  trait_god_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a God, a being of great power that will cause an impact on the world."
+  trait_demigod_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the descendant of a God, in their blood exist the potential for greatness."
+  trait_demigod_elden_ring_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the descendant of a God, in their blood exists the potential for greatness."
+  trait_demigod_elden_ring_2_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] carries the sacred blood of a God, their lineage marked by undeniable grace and quiet power."
+  trait_demigod_elden_ring_3_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] bears the potent blood of a God, their very presence a reminder of divine authority and ancient might."
+  trait_demigod_elden_ring_4_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] stands as near to godhood as one may without ascending, the divine blood within them burning bright and terrible."
+  trait_empyrean_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was Chosen by the two fingers to have the potential to become a God, but for now they are a natural leader."
+  trait_eternal_youth_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born with a condition that make them incapable of growing their body."
+  trait_shardbearer_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has a fragment of the elden ring, giving them great power."
+  
   trait_scarlet_rot_malenia:0 "Scarlet Rot"
   trait_scarlet_rot_malenia_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born with a terrible and ancient affliction which is consuming [ROOT.GetCharacter.GetHerHis] body, leaving [ROOT.GetCharacter.GetHerHim] with a deformed appearance and terrible nightmares."
 
@@ -23,27 +33,12 @@
 
   trait_shadowbound_beast:0 "Shadowbound Beast"
   trait_shadowbound_beast_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an ever loyal servant to [ROOT.GetCharacter.GetHerHis] master Empyrean, sworn to aid them through their ascension to godhood, or to stop them if they falter."
+  
+  trait_crucified_erdtree:0 "Crucified"
+  trait_crucified_erdtree_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been crucified within the Erdtree, being rendered immobile and incapable of action."
 
   trait_bodiless:0 "Bodiless"
   trait_bodiless_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is without body, existing as a drifting spirit bound to Grace."
-
-  trait_god_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a God, a being of great power that will cause an impact on the world."
-  trait_demigod_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the descendant of a God, in their blood exist the potential for greatness."
-  trait_demigod_elden_ring_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the descendant of a God, in their blood exists the potential for greatness."
-  trait_demigod_elden_ring_2_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] carries the sacred blood of a God, their lineage marked by undeniable grace and quiet power."
-  trait_demigod_elden_ring_3_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] bears the potent blood of a God, their very presence a reminder of divine authority and ancient might."
-  trait_demigod_elden_ring_4_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] stands as near to godhood as one may without ascending, the divine blood within them burning bright and terrible."
-  trait_empyrean_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was Chosen by the two fingers to have the potential to become a God, but for now they are a natural leader."
-  trait_eternal_youth_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born with a condition that make them incapable of growing their body."
-  trait_shardbearer_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has a fragment of the elden ring, giving them great power."
-
-  become_god_elden_ring.0001.desc:0 "After much effort i have finally reach the pinacle of power, it's only a matter of time until the world bends to my will."
-  become_god_elden_ring.0001.title:0 "The Birth of a God"
-  become_god_elden_ring.0001.a:0 "Tremble before me"
-
-  GOD_INVASION_CB_NAME:0 "God Conquest"
-  GOD_INVASION_WAR_NAME:2 "$ORDER$ Godly Invasion of [TITLE.GetBaseName]"
-  GOD_INVASION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
 
   trait_golden_knight:0 "Golden Knight"
   trait_golden_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that believes in Order, trained in the art of defence."
@@ -197,6 +192,7 @@
   trait_grafting_2: "Intermediate Grafter"
   trait_grafting_3: "Fearsome Grafter"
   trait_grafting_4: "Monstrous Grafter"
+  trait_grafting_5: "Obscene Grafter"
   trait_grafting_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has turned to the arts of Grafting."
   trait_track_grafting: "Grafter"
   trait_track_grafting_desc: "Are you going to keep grafting innocents..."

@@ -58,12 +58,12 @@ marika = {
 		}
 	}
 	707.1.1 = {
-		#trait = empyrean_elden_ring
+		add_trait = empyrean_elden_ring
 	}
 	714.1.1 = {
-		#remove_trait = empyrean_elden_ring
+		remove_trait = empyrean_elden_ring
 		religion = faith_golden
-		trait = god_elden_ring
+		add_trait = god_elden_ring
 		give_nickname = nick_the_eternal
 	}
 	727.1.1 = {
@@ -79,7 +79,7 @@ marika = {
 		add_matrilineal_spouse = radagon
 	}
 	7213.1.1 = {
-		#trait = crucified_erdtree 
+		add_trait = crucified_erdtree
 	}
 	9999.5.25 = {
 		death = {
@@ -130,9 +130,13 @@ radagon = {
 	714.1.1 = {	
 		trait = demigod_elden_ring_4
 	}
-	# 7213.1.1 = {
-		# trait = crucified_erdtree #need to create something for him to hidde the secret
-	# }
+	1782.1.1 = {
+		remove_trait = demigod_elden_ring_4
+		add_trait = god_elden_ring
+	}
+	7213.1.1 = {
+		add_trait = crucified_erdtree
+	}
 	9999.5.25 = {
 		death = {
 			death_reason = death_went_missing_elden_ring
@@ -630,6 +634,9 @@ ranni = {
 	1782.1.1 = {
 		add_trait = demigod_elden_ring_4
 	}
+	1785.1.1 = {
+		add_trait = empyrean_elden_ring
+	}
 	3759.1.1 = {
 		religion = faith_stars
 		give_nickname = nick_the_witch
@@ -687,6 +694,9 @@ miquella = {
 			add_character_flag = do_not_generate_starting_family
 		}
 		trait = demigod_elden_ring_4
+	}
+	2630.1.1 = {
+		add_trait = empyrean_elden_ring
 	}
 	3020.1.1 = {
 		give_nickname = nick_the_unalloyed
@@ -771,6 +781,7 @@ malenia = {
 	intrigue = 10
 	stewardship = 10
 	learning = 10
+	prowess = 20
 	health = 10
 
 	religion = faith_golden
@@ -805,6 +816,9 @@ malenia = {
 			add_character_flag = do_not_generate_starting_family
 		}
 		trait = demigod_elden_ring_4
+	}
+	2630.1.1 = {
+		add_trait = empyrean_elden_ring
 	}
 	3020.1.1 = {
 		give_nickname = nick_blade_of_miquella
