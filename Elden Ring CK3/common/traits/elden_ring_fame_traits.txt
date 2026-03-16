@@ -307,3 +307,27 @@ shadowbound_beast = {
 		infirm
 	}
 }
+
+imprisoned_evergaol = {
+	icon = "imprisoned_evergaol.dds"
+	category = fame
+
+	incapacitating = yes
+	can_have_children = no
+	disables_combat_leadership = yes
+	shown_in_ruler_designer = no
+	inheritance_blocker = all
+	claim_inheritance_blocker = all
+	
+	monthly_lifestyle_xp_gain_mult = -1.0
+	monthly_prestige_gain_mult = -1.0
+	monthly_piety_gain_mult = -1.0
+	monthly_influence_mult = -1.0
+	monthly_merit_mult = -1.0
+	diplomatic_range_mult = -1.0
+	general_opinion = -25
+	
+	flag = can_not_marry
+	
+	ai_energy = -100
+}
