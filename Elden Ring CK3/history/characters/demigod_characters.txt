@@ -184,7 +184,7 @@ hoarah_loux = {
 		religion = faith_golden
 	}
 	1602.1.1 = {
-		add_trait = tarnished_elden_ring
+		add_trait = tarnished
 		add_trait = no_marry
 	}
 	9999.5.25 = {
@@ -785,8 +785,7 @@ malenia = {
 	trait = blind
 	trait = twin
 	trait = no_marry
-	
-	trait = scarlet_rot
+	trait = scarlet_rot_malenia
 	
 	disallow_random_traits = yes
 	

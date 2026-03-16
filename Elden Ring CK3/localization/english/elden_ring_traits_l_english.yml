@@ -3,14 +3,16 @@
   ### Zelt tip, loc files should always have a space or tab before the loc itself - this improves game performance ###
 
   trait_god_elden_ring:0 "God"
-  trait_demigod_elden_ring:0 "Demigod"
-  trait_demigod_elden_ring_1:0 "Inkling Demigod"
-  trait_demigod_elden_ring_2:0 "Diluted Demigod"
-  trait_demigod_elden_ring_3:0 "Lesser Demigod"
   trait_demigod_elden_ring_4:0 "Demigod"
+  trait_demigod_elden_ring_3:0 "Lesser Demigod"
+  trait_demigod_elden_ring_2:0 "Diluted Demigod"
+  trait_demigod_elden_ring_1:0 "Inkling Demigod"
   trait_empyrean_elden_ring:0 "Empyrean"
   trait_eternal_youth_elden_ring:0 "Eternal Youth"
   trait_shardbearer_elden_ring:0 "Shardbearer"
+  
+  trait_scarlet_rot_malenia:0 "Scarlet Rot"
+  trait_scarlet_rot_malenia_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born with a terrible and ancient affliction which is consuming [ROOT.GetCharacter.GetHerHis] body, leaving [ROOT.GetCharacter.GetHerHim] with a deformed appearance and terrible nightmares."
 
   trait_carian_sorcerer_neutral:0 "Carian Sorcerer"
   trait_carian_sorcerer_neutral_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has mastered the royal art of Carian sorcery, becoming adept at summoning projectiles and weapons matching even the Order’s strength."
@@ -21,9 +23,6 @@
 
   trait_shadowbound_beast:0 "Shadowbound Beast"
   trait_shadowbound_beast_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an ever loyal servant to [ROOT.GetCharacter.GetHerHis] master Empyrean, sworn to aid them through their ascension to godhood, or to stop them if they falter."
-
-  trait_scarlet_rot_child:0 "Child of the Rot"
-  trait_scarlet_rot_child_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a child of Rot, having been born from a sprouting bud in the heart of Caelid."
 
   trait_bodiless:0 "Bodiless"
   trait_bodiless_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is without body, existing as a drifting spirit bound to Grace."
@@ -82,7 +81,6 @@
   trait_ice_knight:0 "Ice Knight"
   trait_ice_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that has control over ice and snow, they move like a hail and hit like an avalanche, they are a master of winter."
 
-
   golden_knight_decision:0 "Golden Knight"
   mounted_knight_decision:0 "Mounted Knight"
   crucible_knight_decision:0 "Crucible Knight"
@@ -131,31 +129,29 @@
   more_than_twenty_prowess:0 "Have more than 20 Prowess"
 
   trait_sleep_cleric:0 "Sleep Cleric"
-  trait_beast_clergy:0 "Beast Cleric"
-  trait_horned_warrior:0 "Horned Warrior"
-  trait_divine_beast_warrior:0 "Divine Beast Warrior"
-
   trait_sleep_cleric_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a cleric of sleep, triying to use elixirs and weapons thay cause their enemies to fall asleep."
+  trait_beast_clergy:0 "Beast Cleric"
   trait_beast_clergy_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] uses their learning in bestial incantations to deal physical damage, they center around primal and feral abilities."
+  trait_horned_warrior:0 "Horned Warrior"
   trait_horned_warrior_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a warrior that uses the connection to the Crucible to invoke divinity, and use it to bolsters their strength."
+  trait_divine_beast_warrior:0 "Divine Beast Warrior"
   trait_divine_beast_warrior_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a great warrior that has mastered using the power of the Crucible to invoke divinity, the way they use the power of the Crucible resembles a spiral."
 
   trait_misbegotten_trait:0 "Misbegotten"
   trait_track_horns:0 "Horns"
-  trait_track_feather:0 "Feathers"
-  trait_track_tail:0 "Tail"
-  trait_track_scales:0 "Scales"
-
   trait_track_horns_desc:0 "Horns surround their body"
+  trait_track_feather:0 "Feathers"
   trait_track_feather_desc:0 "Feathers grow from their back"
+  trait_track_tail:0 "Tail"
   trait_track_tail_desc:0 "They have a strong Tail"
+  trait_track_scales:0 "Scales"
   trait_track_scales_desc:0 "Scales cover their arms and shoulders"
 
   trait_omen_horn_trait:0 "Omen"
   trait_omen_no_horn_trait:0 "Hornless Omen"
+  
   trait_ancient_dragon_elden_ring:0 "Ancient Dragon"
   trait_lesser_dragon_elden_ring:0 "Drake"
-
 
   trait_misbegotten_trait_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born with the power of the Crucible, it can be seen as a blessing or curse depending on how it's used."
   trait_omen_horn_trait_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born as a Omen, with great physical strength and horns protecting their body, sadly their horns get in the way of everyday life."
@@ -196,17 +192,28 @@
   trait_bestial_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for using Bestial incantations, they center on using strength to do damage, they were used by the beast clergy of Farum Azula."
   trait_sleep_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for artifacts and weapons that relate to sleep, they have an easier time resting their mind and body, and are very friendly."
   trait_spiral_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for the Crucible that is more controled, and centered on reaching the divine power of the gods."
+  
+  trait_grafting:0 "Grafter"
+  trait_grafting_2: "Intermediate Grafter"
+  trait_grafting_3: "Fearsome Grafter"
+  trait_grafting_4: "Monstrous Grafter"
+  trait_grafting_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has turned to the arts of Grafting."
+  trait_track_grafting: "Grafter"
+  trait_track_grafting_desc: "Are you going to keep grafting innocents..."
 
   trait_nugget:0 "Lost Limbs"
   trait_nugget_character_desc:0 "Whether lost in battle or ill fortune, [ROOT.GetCharacter.GetFirstNameNoTooltip] is without both leg and arm."
 
-  trait_tarnished_elden_ring:0 "Tarnished"
-  trait_tarnished_elden_ring_desc:0 "Exiles who lost the grace of gold long ago, they now come back to the Lands Between guided by grace, to stand before the Elden Ring. And chance to become the Elden Lord."
-
-  trait_grafted:0 "Grafted"
+  trait_tarnished:0 "Tarnished"
+  trait_tarnished_desc:0 "Exiles who lost the grace of gold long ago, they now come back to the Lands Between guided by grace, to stand before the Elden Ring. And chance to become the Elden Lord."
+  trait_graceless_tarnished:0 "Graceless Tarnished"
+  trait_graceless_tarnished_desc:0 "Exiles who lost the grace of gold long ago, they now come back to the Lands Between guided by grace, to stand before the Elden Ring. And chance to become the Elden Lord."
 
   trait_scarlet_rot:0 "Scarlet Rot"
-  trait_scarlet_rot_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has caught a terrible and ancient affliction which is consuming [ROOT.GetCharacter.GetHerHis] body, leaving [ROOT.GetCharacter.GetHerHim] with a deformed body and terrible nightmares."
+  trait_scarlet_rot_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has caught a terrible and ancient affliction which is consuming [ROOT.GetCharacter.GetHerHis] body, leaving [ROOT.GetCharacter.GetHerHim] with a deformed appearance and terrible nightmares."
+  
+  trait_scarlet_rot_child:0 "Child of the Rot"
+  trait_scarlet_rot_child_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a child of Rot, having been born from a sprouting bud in the heart of Caelid."
 
   trait_no_marry:0 "Refusing Marriage"
   trait_no_marry_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is for one reason or another refusing to marry."

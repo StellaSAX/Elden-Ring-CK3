@@ -81,6 +81,32 @@ scarlet_rot = {
 	ai_energy = -50
 }
 
+scarlet_rot_child = {
+	category = health
+	icon = "scarlet_rot_child.dds"
+	shown_in_ruler_designer = no
+	ruler_designer_cost = 500
+	#immortal = yes
+	#set_immortal_age = 25
+	life_expectancy = 99999
+	years_of_fertility = 99999
+	negate_health_penalty_add = 10
+	health = 5
+	no_prowess_loss_from_age = yes
+	
+	ai_greed = very_high_positive_ai_value
+	ai_energy = very_high_positive_ai_value
+	ai_boldness = high_positive_ai_value
+	
+	opposites = {
+		incapable
+		cancer
+		disfigured
+		infirm
+		scarlet_rot
+	}
+}
+
 crucified_erdtree = {
 	icon = "crucified_erdtree.dds"
 	category = health
