@@ -31,5 +31,14 @@ er_historical_artifacts.0001 = {
 				elden_ring_greatrune_godrick_effect = { OWNER = this }
 			}
 		}
+		
+		if = {
+			limit = {
+				current_date > 810.1.1
+			}
+			character:maliketh ?= {
+				elden_ring_eldenrune_death_effect = { OWNER = this }
+			}
+		}
 	}
 }

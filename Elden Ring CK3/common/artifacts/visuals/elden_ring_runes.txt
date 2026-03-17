@@ -2,3 +2,8 @@
 	icon = "er_greatrune_godrick.dds"
 	asset = greatrune_godrick
 }
+
+eldenrune_death_visual = {
+	icon = "er_eldenrune_death.dds"
+	asset = eldenrune_death
+}

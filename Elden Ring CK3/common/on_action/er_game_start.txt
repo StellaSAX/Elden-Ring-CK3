@@ -2,6 +2,15 @@
 	events = {
 		er_historical_artifacts.0001
 	}
+	if = {
+		limit = {
+			current_date > 810.1.1
+		}
+		set_global_variable = {
+			name = rune_of_death_bound
+			value = 1
+		}
+	}
 }
 
 on_game_start_after_lobby = {
@@ -11,14 +20,6 @@ on_game_start_after_lobby = {
 		on_action_put_regents_in_charge
 	}
 }
-
-on_action_give_malenia_prowess = {
-	effect = {
-		character:malenia = { 
-			add_prowess_skill = 100
-		}
-	}
-} 
 
 on_action_put_marika_and_radagon_in_the_tree = {
 	effect = {

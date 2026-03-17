@@ -35,3 +35,34 @@ elden_ring_greatrune_godrick_effect = {
 		}
 	}
 }
+
+elden_ring_eldenrune_death_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = eldenrune_death_name
+		visuals = eldenrune_death_visual
+		description = eldenrune_death_description
+		type = journal
+		wealth = scope:wealth
+		quality = scope:quality
+		template = eldenrune_death_template
+		history = {
+			type = created
+			date = 1.1.1
+		}
+		modifier = artifact_diplomacy_5_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = runeofdeath
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+	}
+}

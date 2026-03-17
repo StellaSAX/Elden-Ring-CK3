@@ -67,3 +67,11 @@ is_godfrey = {
 is_godrick = {
 	this = character:godrick
 }
+
+holds_deathrune = {
+	$CHARACTER$ = {
+		any_character_artifact = {
+			has_variable = runeofdeath
+		}
+	}
+}
