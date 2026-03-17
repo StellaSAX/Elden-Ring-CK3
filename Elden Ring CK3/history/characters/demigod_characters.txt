@@ -538,6 +538,7 @@ rykard = {
 	trait = cynical
 	trait = ambitious
 	trait = sadistic
+	trait = arbitrary
 	trait = fire_affinity
 	
 	disallow_random_traits = yes
