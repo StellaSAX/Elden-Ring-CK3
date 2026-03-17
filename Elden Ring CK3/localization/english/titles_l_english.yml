@@ -151,9 +151,18 @@
 
  ### Redmane ###
  k_redmane:0 "Redmane"
-
+ d_R156G4B117:0 "Fort Gael"
+ d_R163G63B13:0 "South Highway"
+ d_R219G100B203:0 "Outer Redmane"
+ d_R181G19B130:0 "Redmane Isle"
+ d_R21G221B218:0 "Sellia"
+ d_R59G149B25:0 "Wailing Dunes"
+ 
  ### Dragonbarrow ###
  k_dragonbarrow:0 "Dragonbarrow"
+ d_R193G112B21:0 "Caelid Tower"
+ d_R87G95B32:0 "Fort Faroth"
+ d_R145G171B56:0 "Sanctum Grounds"
 
  ###############
  ### Liurnia ###
