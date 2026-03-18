@@ -16,7 +16,7 @@ prosthesis_modifier = {
 }
 
 gift_from_the_eternal = {
-	icon = compass_positive
+	icon = rune_of_death
 	life_expectancy = 99999
 	years_of_fertility = 99999
 	health = 10
