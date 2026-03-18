@@ -252,9 +252,9 @@ on_action_children_born_during_death_bound = {
 	effect = {
 		if = {
 			limit = {
-				global_var:rune_of_death_bound = 1
+				global_var:rune_of_death_bound = yes
 			}
-			add_character_modifier = gift_from_the_eternal		
+			add_character_modifier = gift_from_the_eternal
 		}
 	}
 }
@@ -263,7 +263,7 @@ on_action_become_immortal_becouse_death_bound = {
 	effect = {
 		if = {
 			limit = {
-				global_var:rune_of_death_bound = 1
+				global_var:rune_of_death_bound = yes
 				NOT = {
 					has_character_modifier = gift_from_the_eternal
 				}

@@ -9,11 +9,10 @@
 			}
 			set_global_variable = {
 				name = rune_of_death_bound
-				value = 1
+				value = yes
 			}
 		}
 	}
-	
 }
 
 on_game_start_after_lobby = {
@@ -124,12 +123,11 @@ on_action_make_everyone_immortal_at_start = {
 		if = {
 			limit = { 
 				game_start_date > 810.1.1
-				global_var:rune_of_death_bound = 1
+				global_var:rune_of_death_bound = yes
 			}
 			every_living_character = {
 				add_character_modifier = gift_from_the_eternal
 			}
-			
 		}
 	}
 } 
