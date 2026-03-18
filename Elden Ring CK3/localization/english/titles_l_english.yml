@@ -31,6 +31,12 @@
  preator_m:0 "Preator"
  preator_f:0 "Praetrix"
 
+ ########################
+ ### Demigod Titulars ###
+ ########################
+ k_fallen_capital:0 "The Fallen Capital"
+ k_lord_of_blasphemy:0 "Volcano Manor"
+ 
  ### Lands Between Hegemony ###
  h_lands_between:0 "The Lands Between"
 
