@@ -36,6 +36,8 @@ nick_the_untethered = {}
 nick_the_lionhearted = {}
 nick_the_beast_claw = {}
 nick_pastor_of_vows = {}
+nick_knight_of_the_haligtree = {}
+nick_volcano_manor_proprietress = {}
 
 nick_starscourge = { is_prefix = yes }
 nick_dragonlordlady = { is_prefix = yes }
@@ -46,7 +48,4 @@ nick_big = { is_prefix = yes }
 nick_needle_knight = { is_prefix = yes }
 nick_dryleaf = { is_prefix = yes }
 nick_soldier_of_god = { is_prefix = yes }
-
 nick_witch_hunter = { is_prefix = yes }
-nick_knight_of_the_haligtree = {}
-nick_volcano_manor_proprietress = {}
