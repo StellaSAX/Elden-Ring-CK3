@@ -3,6 +3,7 @@
         on_action_child_birth_god
 		on_action_special_tarnished_produce_normal_ones
 		on_action_marais_children_born_sick
+		on_action_children_born_during_death_bound
     }
 }
 
@@ -10,6 +11,7 @@ five_year_everyone_pulse = {
     on_actions = {
         on_action_ai_become_empyrean
 		on_action_gods_or_dragons_immune_to_old_age
+		on_action_become_immortal_becouse_death_bound
     }
 }
 
@@ -128,7 +130,7 @@ on_action_child_birth_god = {
 					}		
 				}
 			}
-			#too many demigods in the world
+			# removed this becouse too many demigods in the world
 			# else_if = { # high chance to lose divine blood, but low chance to go big
 				# limit = {
 					# OR = {
@@ -211,14 +213,14 @@ on_action_special_tarnished_produce_normal_ones = {
 			limit = {
 				OR = {
 					scope:real_father = {
-						has_trait = special_tarnished
+						has_trait = graceless_tarnished
 					}
 					scope:mother = {
-						has_trait = special_tarnished
+						has_trait = graceless_tarnished
 					}
 				}
 			}
-			add_trait = tarnished_elden_ring			
+			add_trait = tarnished			
 		}
 	}
 }
@@ -242,12 +244,31 @@ on_action_add_scarlet_rot_caelid = {
 				type = scarlet_rot
 				intensity = apocalyptic
 			}
-		}		
-		# geographical_region = {
-			# create_epidemic_outbreak = {
-				# type = scarlet_rot
-				# intensity = apocalyptic
-			# }
-		# }	
+		}
+	}
+}
+
+on_action_children_born_during_death_bound = {
+	effect = {
+		if = {
+			limit = {
+				global_var:rune_of_death_bound = 1
+			}
+			add_character_modifier = gift_from_the_eternal		
+		}
+	}
+}
+
+on_action_become_immortal_becouse_death_bound = {
+	effect = {
+		if = {
+			limit = {
+				global_var:rune_of_death_bound = 1
+				NOT = {
+					has_character_modifier = gift_from_the_eternal
+				}
+			}
+			add_character_modifier = gift_from_the_eternal		
+		}
 	}
 }
