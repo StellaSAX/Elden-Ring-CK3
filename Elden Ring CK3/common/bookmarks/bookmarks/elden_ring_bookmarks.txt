@@ -21,7 +21,7 @@
 		history_id = morgott
 		position = { 440 380 }
 		
-		animation = war_over_win
+		animation = personality_honorable
 		
 	}
 	
@@ -39,7 +39,7 @@
 		history_id = godrick
 		position = { 300 750 }
 		
-		animation = war_over_win
+		animation = personality_coward
 		
 	}
 	
@@ -57,7 +57,7 @@
 		history_id = rykard
 		position = { 200 200 }
 		
-		animation = war_over_win
+		animation = personality_callous
 		
 	}
 	
@@ -75,7 +75,7 @@
 		history_id = malenia
 		position = { 800 150 }
 		
-		animation = war_over_win
+		animation = personality_bold
 		
 	}
 	
@@ -93,7 +93,7 @@
 		history_id = radahn
 		position = { 800 600 }
 		
-		animation = war_over_win
+		animation = disapproval
 		
 	}
 	
@@ -111,7 +111,7 @@
 		history_id = rennala
 		position = { 100 500 }
 		
-		animation = war_over_win
+		animation = sadness
 		
 	}
 	
@@ -129,7 +129,7 @@
 		history_id = mohg
 		position = { 1400 800 }
 		
-		animation = war_over_win
+		animation = personality_dishonorable
 		
 	}
 }
@@ -157,7 +157,7 @@ bm_8301_elden_ring_land_of_shadows = {
 		history_id = trina
 		position = { 1000 800 }
 		
-		animation = war_over_win
+		animation = personality_content
 		
 	}
 	
@@ -175,7 +175,7 @@ bm_8301_elden_ring_land_of_shadows = {
 		history_id = miquella
 		position = { 1000 500 }
 		
-		animation = war_over_win
+		animation = personality_compassionate
 		
 	}
 	
@@ -193,7 +193,7 @@ bm_8301_elden_ring_land_of_shadows = {
 		history_id = messmer
 		position = { 1000 200 }
 		
-		animation = war_over_win
+		animation = sadness
 		
 	}
 	
@@ -211,7 +211,7 @@ bm_8301_elden_ring_land_of_shadows = {
 		history_id = rellana
 		position = { 440 380 }
 		
-		animation = war_over_win
+		animation = marshal
 	}
 	
 	character = {
@@ -228,7 +228,7 @@ bm_8301_elden_ring_land_of_shadows = {
 		history_id = bayle
 		position = { 1400 800 }
 		
-		animation = war_over_win
+		animation = anger
 		
 	}
 }
@@ -256,7 +256,7 @@ bm_8301_elden_ring_meek_or_forgotten = { #smaller importance
 		history_id = placidusax
 		position = { 1110 450 }
 		
-		animation = war_over_win
+		animation = menacing
 		
 	}	
 	character = {
@@ -273,7 +273,7 @@ bm_8301_elden_ring_meek_or_forgotten = { #smaller importance
 		history_id = maliketh
 		position = { 750 630 }
 		
-		animation = war_over_win
+		animation = personality_vengeful
 		
 	}		
 	character = {
@@ -290,7 +290,7 @@ bm_8301_elden_ring_meek_or_forgotten = { #smaller importance
 		history_id = haight
 		position = { 800 870 }
 		
-		animation = war_over_win
+		animation = personality_content
 		
 	}
 	character = {
@@ -307,7 +307,7 @@ bm_8301_elden_ring_meek_or_forgotten = { #smaller importance
 		history_id = edgar
 		position = { 440 870 }
 		
-		animation = war_over_win
+		animation = marshal
 		
 	}
 	character = {
@@ -324,7 +324,7 @@ bm_8301_elden_ring_meek_or_forgotten = { #smaller importance
 		history_id = elemer
 		position = { 300 250 }
 		
-		animation = war_over_win
+		animation = personality_callous
 		
 	}
 	character = {
@@ -341,7 +341,7 @@ bm_8301_elden_ring_meek_or_forgotten = { #smaller importance
 		history_id = maleigh
 		position = { 220 500 }
 		
-		animation = war_over_win
+		animation = menacing
 		
 	}
 }
@@ -369,7 +369,7 @@ bm_8301_elden_ring_regents = { #regents to important people
 		history_id = jerren
 		position = { 800 600 }
 		
-		animation = war_over_win
+		animation = marshal
 		
 	}
 	
@@ -387,7 +387,7 @@ bm_8301_elden_ring_regents = { #regents to important people
 		history_id = loretta
 		position = { 800 150 }
 		
-		animation = war_over_win
+		animation = marshal
 		
 	}
 	
@@ -405,7 +405,7 @@ bm_8301_elden_ring_regents = { #regents to important people
 		history_id = tanith
 		position = { 200 200 }
 		
-		animation = war_over_win
+		animation = personality_zealous
 		
 	}
 	
@@ -423,7 +423,7 @@ bm_8301_elden_ring_regents = { #regents to important people
 		history_id = ranni
 		position = { 100 500 }
 		
-		animation = war_over_win
+		animation = personality_rational
 		
 	}
 }
