@@ -1,0 +1,17 @@
+﻿challenge_character_morgott = {
+	start_date = 8301.1.1
+	character = {
+		name = "challenge_character_morgott"
+		dynasty = dynn_erdtree
+		dynasty_splendor_level = 6
+		type = male
+		birth = 912.1.1
+		title = k_fallen_capital
+		government = feudal_government
+		culture = cul_royal
+		religion = faith_golden	
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = morgott
+		animation = personality_compassionate
+	}
+}
