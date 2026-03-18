@@ -5,11 +5,7 @@
 
 	# can this character benefit from the full modifiers of the artifact?
 	can_benefit = {
-		OR = {
-			has_trait = god_elden_ring
-			has_trait = demigod_elden_ring
-			has_trait = empyrean_elden_ring
-		}
+		has_godhood_elden_ring = yes
 	}
 
 	# if a given character does not pass the "can_benefit" trigger then this modifier will be applied instead.
