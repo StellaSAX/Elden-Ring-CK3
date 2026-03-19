@@ -37,7 +37,7 @@
 		religion = faith_golden
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = godrick
-		position = { 300 750 }
+		position = { 280 750 }
 		
 		animation = personality_coward
 		
@@ -55,7 +55,7 @@
 		religion = faith_god_snake
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = rykard
-		position = { 200 200 }
+		position = { 300 150 }
 		
 		animation = personality_callous
 		
@@ -73,7 +73,7 @@
 		religion = faith_unalloyed
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = malenia
-		position = { 800 150 }
+		position = { 800 100 }
 		
 		animation = personality_bold
 		
@@ -91,7 +91,7 @@
 		religion = faith_golden
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = radahn
-		position = { 800 600 }
+		position = { 650 550 }
 		
 		animation = disapproval
 		
@@ -127,7 +127,7 @@
 		religion = faith_formless
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = mohg
-		position = { 1400 800 }
+		position = { 1100 650 }
 		
 		animation = personality_dishonorable
 		

@@ -3,10 +3,19 @@
  #Morgott
  bookmark_morgott_elden_ring:0 "Morgott, The Omen King"
  bookmark_morgott_elden_ring_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_morgott_elden_ring_desc:0 "Morgott, a cursed Omen of royal blood, rules over the ruins of Leyndell. Though he is secure in his halls, few are those who see him as more than a regent of his city, his insistance on upholding the Golden Order despite his Omen birth having brough him little loyalty. For now, Morgott, Last of All Kings, rules through strength but that strength is not great enough to make him Elden Lord. \n\nWill Morogtt forge himself a place of power in the Golden Order or is he doomed to see his world come crashing down?"
+ bookmark_morgott_elden_ring_desc:0 "Morgott, a cursed Omen of royal blood, rules over the ruins of Leyndell. Though he is secure in his halls, few are those who see him as more than a regent of his city, his insistence on upholding the Golden Order despite his Omen birth having brought him little loyalty. For now, Morgott, Last of All Kings, rules through strength but that strength is not great enough to make him Elden Lord. \n\nWill Morogtt forge himself a place of power in the Golden Order or is he doomed to see his world come crashing down?"
 
  #Rykard
  bookmark_rykard_elden_ring:0 "Rykard, Lord of Blasphemy"
  bookmark_rykard_elden_ring_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_rykard_elden_ring_desc:0 "Rykard, once one of the many demigods figthing to become Elden Lord, has grown into a being both greater and more terrible. Taking the flesh of the eternal God-Devouring Serpent, Rykard embraced pure sin and blasphemy. Though this crime against nature has left him deeply isolated and despised by all but his mad followers, Rykard's intent to make himself Elden Lord has not wavered. \n\nRykard has the power to devour the very gods, yet his rise is far from certain. Will blasphemy rise to conquer the Lands Between or will the Devourer of Gods fall by the hands of his many foes?"
+ bookmark_rykard_elden_ring_desc:0 "Rykard, once one of the many demigods fighting to become Elden Lord, has grown into a being both greater and more terrible. Taking the flesh of the eternal God-Devouring Serpent, Rykard embraced pure sin and blasphemy. Though this crime against nature has left him deeply isolated and despised by all but his mad followers, Rykard's intent to make himself Elden Lord has not wavered. \n\nRykard has the power to devour the very gods, yet his rise is far from certain. Will blasphemy rise to conquer the Lands Between or will the Devourer of Gods fall by the hands of his many foes?"
  
+ #Malenia
+ bookmark_malenia_elden_ring:0 "Malenia, Blade of Miquella"
+ bookmark_malenia_elden_ring_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_malenia_elden_ring_desc:0 "After the battle of Aenoia and the disappearance of her beloved lord and brother Miquella, Melania is left as a shadow of her former self, consumed by the scarlet rot which has plagued her since her birth. Slumbering in the Haligtree, awaiting the orders of her lost master, Malenia waits for one to dare disturb her peace. Yet, the corruption of the rot grows greater by the day and its worshippers call upon Malenia to rise as their queen... \n\nWill you stay true to your oaths to Miquella or will you embrace your curse and become a terrible goddess of rot and plague?"
+
+ #Mogh
+ bookmark_mohg_elden_ring:0 "Mohg, Lord of Blood"
+ bookmark_mohg_elden_ring_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_mohg_elden_ring_desc:0 "If any of the demigods could be called a victor of the shattering war, it would be Mohg: the capture of the empyrean Miquella seemingly assuring the rise of a new God of Blood over the lands between. Yet, the secrets of divine ascension evaded Mohg and the Formless Mother, his beloved Goddess. Despite this, Mohg remains secure in the hidden Mohgwyn Palace where he and his sanguine nobles await the day of their ascension as a new divine dynasty. \n\nWill you cast down gold and raise blood in its place or are you doomed to decay and die in the depths of the world?"
