@@ -52,6 +52,15 @@ is_demigod_elden_ring = {
 	}
 }
 
+has_special_body = {
+	OR = {
+		has_trait = god_serpent
+		has_trait = bodiless
+		has_trait = shadowbound_beast
+		has_trait = ranni_doll_body
+	}
+}
+
 is_tarnished = {
 	OR = {
 		has_trait = tarnished
