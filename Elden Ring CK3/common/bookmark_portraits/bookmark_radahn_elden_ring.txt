@@ -126,7 +126,7 @@ bookmark_radahn_elden_ring={
  }
 	override={
 		portrait_modifier_overrides={
-			custom_hair=male_hair_northern_02
+			custom_hair=m_hair_ep3_byzantine_04
 			custom_beards=male_empty
 		}
 	}

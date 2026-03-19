@@ -354,12 +354,6 @@ radahn_dna = {
 			beards={ "no_beard" 255 "no_beard" 0 }
 			clothes={ "western_bedchamber" 79 "most_clothes" 0 }
 	 }
-		# override={
-			# portrait_modifier_overrides={
-				# custom_hair=male_hair_northern_02
-				# custom_beards=male_empty
-			# }
-		# }
 	}
 	enabled=yes
 }

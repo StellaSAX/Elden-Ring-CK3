@@ -1,0 +1,43 @@
+﻿historical_characters_accessories = {
+	usage = game
+	selection_behavior = max
+	priority = 2
+	
+	radahn_portrait = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = ep3_byzantine_hairstyle
+				accessory = m_hair_ep3_byzantine_04
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = tgp_chinese_war_legwear
+				accessory = m_legwear_sec_tgp_chinese_war_nob_01
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = tgp_chinese_war_nobility_clothes
+				accessory = m_clothes_sec_tgp_chinese_war_nob_02
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = tgp_southeast_nobility
+				accessory = m_headgear_sec_tgp_southeast_nob_01
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:radahn
+				this = character:radahn
+			}
+		}
+	}
+}

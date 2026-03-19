@@ -18,4 +18,9 @@
  #Mogh
  bookmark_mohg_elden_ring:0 "Mohg, Lord of Blood"
  bookmark_mohg_elden_ring_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_mohg_elden_ring_desc:0 "If any of the demigods could be called a victor of the shattering war, it would be Mohg: the capture of the empyrean Miquella seemingly assuring the rise of a new God of Blood over the lands between. Yet, the secrets of divine ascension evaded Mohg and the Formless Mother, his beloved Goddess. Despite this, Mohg remains secure in the hidden Mohgwyn Palace where he and his sanguine nobles await the day of their ascension as a new divine dynasty. \n\nWill you cast down gold and raise blood in its place or are you doomed to decay and die in the depths of the world?"
+ bookmark_mohg_elden_ring_desc:0 "If any of the demigods could be called a victor of the shattering war, it would be Mohg: the capture of the empyrean Miquella seemingly assuring the rise of a new God of Blood over the Lands Between. Yet, the secrets of divine ascension evaded Mohg and the Formless Mother, his beloved Goddess. Despite this, Mohg remains secure in the hidden Mohgwyn Palace where he and his sanguine nobles await the day of their ascension as a new divine dynasty. \n\nWill you cast down gold and raise blood in its place or are you doomed to decay and die in the depths of the world?"
+ 
+ #Radahn
+ bookmark_radahn_elden_ring:0 "Starsourge Radahn"
+ bookmark_radahn_elden_ring_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_radahn_elden_ring_desc:0 "The once mighty Radahn, the Starsourge, the Red Lion, has fallen far: from great demigod to mad beast. The scarlet rot, unleashed by Malenia after her near defeat in her last stand against Radahn, has stripped him of his wits and left him with nothing but mad primal strength. Yet, perhaps, some small lingering shard of humanity remains within the proud Starscourge... \n\nIs there any hope left for Radahn to rise out of madness or is there no better fate left for him than an honorable death?"
