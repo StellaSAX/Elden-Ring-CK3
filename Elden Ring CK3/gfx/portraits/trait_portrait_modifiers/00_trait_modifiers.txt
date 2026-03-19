@@ -1915,6 +1915,11 @@ blind = {
 		traits = {
 			blind
 		}
+		trigger = {
+			trigger_if = {
+				is_malenia = no
+			}
+		}
 		dna_modifiers = {
 			human = {
 				accessory = {
@@ -1936,6 +1941,11 @@ blind = {
 	one_eyed = {
 		traits = {
 			one_eyed
+		}
+		trigger = {
+			trigger_if = {
+				is_malenia = no
+			}
 		}
 		dna_modifiers = {
 			human = {

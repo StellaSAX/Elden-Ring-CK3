@@ -80,6 +80,10 @@ is_godrick = {
 	this = character:godrick
 }
 
+is_malenia = {
+	this = character:malenia
+}
+
 holds_deathrune = {
 	$CHARACTER$ = {
 		any_character_artifact = {
