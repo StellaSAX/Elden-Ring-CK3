@@ -40,4 +40,35 @@
 			}
 		}
 	}
+	marika_portrait = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ep2_western_era1_low_nobility_clothes
+				accessory = f_clothes_sec_ep2_western_era1_nob_01_lo
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep1_italian_royalty
+				accessory = female_headgear_secular_ep1_crown_of_lombardy
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = fp1_hairstyles_straight
+				accessory = female_hair_fp1_02
+			}			
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:marika
+				this = character:marika
+			}
+		}
+	}	
 }

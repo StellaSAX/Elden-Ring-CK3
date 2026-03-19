@@ -38,6 +38,8 @@
  k_lord_of_blasphemy:0 "Volcano Manor"
  k_godwyn_dynasty:0 "Mohgwyn Palace"
  k_radahn_remnants:0 "The Redmane Knights"
+ k_ocupied_stormveil:0 "Stormveil Castle"
+ k_raya_lucaria_leader:0 "The Raya Lucaria Academy"
 
  ### Lands Between Hegemony ###
  h_lands_between:0 "The Lands Between"
@@ -132,6 +134,15 @@
 
  ### Stormveil ###
  k_stormveil:0 "Stormveil"
+ d_R220G183B15:0 "Summonwater"
+ d_R56G144B43:0 "Caelid Pass"
+ d_R133G19B234:0 "Limgrave Tower"
+ d_R212G180B243:0 "Mistwood"
+ d_R51G117B79:0 "Fort Haight"
+ d_R186G165B173:0 "Agheel Lake"
+ d_R56G179B82:0 "Stormhill"
+ d_R213G77B113:0 "Stormveil Castle"
+ d_R221G140B78:0 "Church's Isle"
  
  ###################
  ### Underground ###
