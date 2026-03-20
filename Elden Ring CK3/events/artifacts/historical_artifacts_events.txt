@@ -9,7 +9,7 @@ er_historical_artifacts.0001 = {
 			limit = {
 				current_date > 734.1.1
 			}
-			character:hoarah_loux ?= {
+			character:lineofhoarah_loux ?= {
 				elden_ring_axe_of_godfrey_effect = { OWNER = this }
 			}
 		}
@@ -18,7 +18,7 @@ er_historical_artifacts.0001 = {
 			limit = {
 				current_date > 7202.1.1
 			}
-			character:godrick ?= {
+			character:lineofgodrick ?= {
 				elden_ring_axe_of_godrick_effect = { OWNER = this }
 			}
 		}
@@ -27,7 +27,7 @@ er_historical_artifacts.0001 = {
 			limit = {
 				current_date > 7213.1.1
 			}
-			character:godrick ?= {
+			character:lineofgodrick ?= {
 				elden_ring_greatrune_godrick_effect = { OWNER = this }
 			}
 		}

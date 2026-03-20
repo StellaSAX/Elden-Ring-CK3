@@ -26,12 +26,12 @@ on_game_start_after_lobby = {
 
 # on_action_put_marika_and_radagon_in_the_tree = {
 	# effect = {
-		# character:marika = { 
+		# character:lineofmarika = { 
 			# death = {
 				# death_reason = death_imprisoned_in_erdtree
 			# }
 		# }
-		# character:radagon = { 
+		# character:lineofradagon = { 
 			# death = {
 				# death_reason = death_imprisoned_in_erdtree
 			# }
@@ -60,7 +60,7 @@ on_action_put_regents_in_charge = {
 				}
 				set_diarchy_swing = 100
 			}
-			character:rykard = {
+			character:lineofryakrd = {
 				designate_diarch = character:tanith
 				try_start_diarchy = regency		
 				set_variable = {
@@ -74,19 +74,19 @@ on_action_put_regents_in_charge = {
 				set_diarchy_swing = 100
 			}
 			character:rennala = {
-				designate_diarch = character:ranni
+				designate_diarch = character:lineofranni
 				try_start_diarchy = regency		
 				set_variable = {
 					name = my_vizier
-					value = character:ranni
+					value = character:lineofranni
 				}
 				add_hook = {
 					type = loyalty_hook
-					target = character:ranni				
+					target = character:lineofranni				
 				}
 				set_diarchy_swing = 100
 			}
-			character:malenia = {
+			character:lineofmalenia = {
 				designate_diarch = character:loretta
 				try_start_diarchy = regency		
 				set_variable = {
@@ -99,7 +99,7 @@ on_action_put_regents_in_charge = {
 				}
 				set_diarchy_swing = 100
 			}
-			character:radahn = {
+			character:lineofradahn = {
 				designate_diarch = character:jerren
 				try_start_diarchy = regency		
 				set_variable = {

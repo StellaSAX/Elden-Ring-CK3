@@ -14,9 +14,9 @@ elden_ring_greatrune_godrick_effect = {
 		history = {
 			type = created
 			date = 7213.1.1
-			recipient = character:godrick
+			recipient = character:lineofgodrick
 			location = scope:location
-			actor = character:godrick
+			actor = character:lineofgodrick
 		}
 		modifier = artifact_diplomacy_5_modifier
 		modifier = artifact_martial_5_modifier

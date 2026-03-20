@@ -1,5 +1,5 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
-# History database id:ranni
+# History database id:lineofranni
 bookmark_ranni_elden_ring={
 	type=female
 	id=23

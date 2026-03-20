@@ -12,7 +12,7 @@ tarnished_1 = {
 	culture = cul_royal
 	
 	disallow_random_traits = yes
-	father = hoarah_loux
+	father = lineofhoarah_loux
 	
 	800.1.1 = {
 		birth = yes

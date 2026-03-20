@@ -415,7 +415,7 @@
 		}
 	}
 	
-	tenet_destroy_golden_order = { #this makes evil all the other faiths in the order family(you need to be part of it, for the dungeater and ranni)
+	tenet_destroy_golden_order = { #this makes evil all the other faiths in the order family(you need to be part of it, for the dungeater and lineofranni)
 		icon = tenet_golden_order
 		piety_cost = {
 			if = {
@@ -495,7 +495,7 @@
 		}
 	}
 	
-	tenet_golden_exile = { #for messmer and his band
+	tenet_golden_exile = { #for lineofmessmer and his band
 		icon = tenet_golden_exile
 		piety_cost = {
 			value = faith_tenet_cost_high

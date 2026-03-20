@@ -35,8 +35,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:radahn
-				this = character:radahn
+				exists = character:lineofradahn
+				this = character:lineofradahn
 			}
 		}
 	}
@@ -66,8 +66,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:marika
-				this = character:marika
+				exists = character:lineofmarika
+				this = character:lineofmarika
 			}
 		}
 	}	

@@ -1,5 +1,5 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
-# History database id:radahn
+# History database id:lineofradahn
 bookmark_radahn_elden_ring={
 	type=male
 	id=20
