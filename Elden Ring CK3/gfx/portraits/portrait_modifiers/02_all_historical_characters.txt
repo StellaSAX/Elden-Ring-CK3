@@ -7,9 +7,15 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
+				gene = cloaks
+				template = ep1_cloak_adventurer
+				accessory = male_cloaks_secular_ep1_adventurer_01
+			}
+			accessory = {
+				mode = add
 				gene = hairstyles
-				template = ep3_byzantine_hairstyle
-				accessory = m_hair_ep3_byzantine_04
+				template = northern_hairstyles_straight
+				accessory = male_hair_northern_02
 			}
 			accessory = {
 				mode = add
@@ -26,8 +32,8 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = tgp_southeast_nobility
-				accessory = m_headgear_sec_tgp_southeast_nob_01
+				template = ep3_byzantine_era1_war_nobility
+				accessory = m_headgear_sec_ep3_byzantine_era1_war_nob_01
 			}
 		}   
 		weight = {
@@ -35,8 +41,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:radahn
-				this = character:radahn
+				exists = character:lineofradahn
+				this = character:lineofradahn
 			}
 		}
 	}
@@ -44,31 +50,413 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
+				gene = hairstyles
+				template = fp1_hairstyles_straight
+				accessory = female_hair_fp1_02
+				type = female
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = western_common_legwear
+				accessory = female_legwear_secular_western_common_01
+				type = female
+			}
+			accessory = {
+				mode = add
 				gene = clothes
-				template = ep2_western_era1_low_nobility_clothes
-				accessory = f_clothes_sec_ep2_western_era1_nob_01_lo
+				template = sp2_western_royalty_clothes
+				accessory = f_clothes_sec_sp2_western_imp_01
+				type = female
 			}
 			accessory = {
 				mode = add
 				gene = headgear
 				template = ep1_italian_royalty
 				accessory = female_headgear_secular_ep1_crown_of_lombardy
-			}
-			accessory = {
-				mode = add
-				gene = hairstyles
-				template = fp1_hairstyles_straight
-				accessory = female_hair_fp1_02
-			}			
+				type = female
+			}	
 		}   
 		weight = {
 			base = 0
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:marika
-				this = character:marika
+				exists = character:lineofmarika
+				this = character:lineofmarika
 			}
 		}
-	}	
+	}
+	malenia_portrait = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = ep2_cloak_western_travel
+				accessory = f_cloaks_sec_ep2_western_travel_01
+				type = female
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = fp2_hairstyles_iberian_christian_straight
+				accessory = female_hair_fp2_iberian_christian_02
+				type = female
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = western_common_legwear
+				accessory = female_legwear_secular_western_common_01
+				type = female
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = dde_abbasid_war_nobility_clothes
+				accessory = f_clothes_sec_dde_abbasid_war_nob_01_hi
+				type = female
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mena_war
+				accessory = f_headgear_sec_mena_war_nob_01_hi
+				type = female
+			}
+			accessory = {
+				mode = add
+				gene = special_headgear_spectacles
+				template = blindfold
+				accessory = female_headgear_special_blindfold_01
+				type = female
+			}		
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofmalenia
+				this = character:lineofmalenia
+			}
+		}
+	}
+	morgott_portrait = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = beards
+				template = tgp_chinese_beards
+				accessory = m_beard_tgp_chinese_09
+			}
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = fp1_cloak
+				accessory = male_cloaks_secular_fp1_nobility_02
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = fp3_hairstyles_iranian_straight
+				accessory = m_hair_fp3_iranian_01
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = western_common_legwear
+				accessory = male_legwear_secular_western_common_01
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = northern_low_nobility_clothes
+				accessory = male_clothes_secular_northern_nobility_01_low
+			}		
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofmorgott
+				this = character:lineofmorgott
+			}
+		}
+	}
+	godrick_portrait = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = ep1_cloak_adventurer
+				accessory = male_cloaks_secular_ep1_adventurer_01
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = rtt_hairstyles
+				accessory = male_hair_rtt_01
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = western_common_legwear
+				accessory = male_legwear_secular_western_common_01
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = northern_high_nobility_clothes
+				accessory = male_clothes_secular_northern_nobility_01_high
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep1_italian_royalty
+				accessory = male_headgear_secular_ep1_crown_of_lombardy
+			}		
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofgodrick
+				this = character:lineofgodrick
+			}
+		}
+	}
+	mohg_portrait = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = beards
+				template = ep3_beards_straight
+				accessory = m_beard_ep3_byzantine_02
+			}
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = ep3_byzantine_era2_roy_01_loros
+				accessory = m_cloaks_sec_ep3_byzantine_era2_roy_01_loros
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = fp3_hairstyles_iranian_straight
+				accessory = m_hair_fp3_iranian_01
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = western_common_legwear
+				accessory = male_legwear_secular_western_common_01
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = tgp_chinese_ministers
+				accessory = m_clothes_sec_tgp_chinese_nob_02_m1
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep2_western_era1_high_nobility
+				accessory = m_headgear_sec_ep2_western_era1_nob_01
+			}	
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofmohg
+				this = character:lineofmohg
+			}
+		}
+	}
+	rennala_portrait = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = fp1_cloak
+				accessory = female_cloaks_secular_fp1_nobility_02
+				type = female
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = ep3_byzantine_hairstyle
+				accessory = f_hair_ep3_byzantine_01_common
+				type = female
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = western_common_legwear
+				accessory = female_legwear_secular_western_common_01
+				type = female
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = dde_hre_high_nobility_clothes
+				accessory = female_clothes_secular_dde_hre_nobility_03_high
+				type = female
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = tgp_chinese_high_nobility
+				accessory = f_headgear_sec_tgp_chinese_hi_nob_02
+				type = female
+			}	
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofrennala
+				this = character:lineofrennala
+			}
+		}
+	}
+	ranni_portrait = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = fp1_cloak
+				accessory = female_furs_secular_fp1_nobility_02
+				type = female
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = fp2_hairstyles_iberian_muslim_straight
+				accessory = female_hair_fp2_iberian_muslim_01_common
+				type = female
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = western_common_legwear
+				accessory = female_legwear_secular_western_common_01
+				type = female
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ep3_byzantine_era1_low_nobility_clothes
+				accessory = f_clothes_sec_ep3_byzantine_era1_nob_01_lo
+				type = female
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp3_turkic_low_nobility
+				accessory = female_headgear_secular_steppe_common_01
+				type = female
+			}	
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofranni
+				this = character:lineofranni
+			}
+		}
+	}
+	messmer_portrait = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = sp2_cloak_imperial
+				accessory = m_cloaks_sec_sp2_western_imp_01
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = fp1_hairstyles_straight
+				accessory = male_hair_fp1_05
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = ep2_western_war_legwear
+				accessory = m_legwear_sec_ep2_western_era4_war_nob_01
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ep2_western_era1_war_nobility_clothes
+				accessory = m_clothes_sec_ep2_western_era1_war_nob_02_lo
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep2_western_era1_war_nobility
+				accessory = m_headgear_sec_ep2_western_era1_war_nob_01
+			}	
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofmessmer
+				this = character:lineofmessmer
+			}
+		}
+	}
+	miquella_portrait = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = sp3_cloak
+				accessory = m_cloaks_sec_sp3_western_roy_01
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = fp3_hairstyles_iranian_straight
+				accessory = m_hair_fp3_iranian_01
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = tgp_southeast_commoner_legwear
+				accessory = m_legwear_sec_tgp_southeast_com_01
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ep2_western_era3_low_nobility_clothes
+				accessory = m_clothes_sec_ep2_western_era3_nob_02_lo
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep1_italian_royalty
+				accessory = male_headgear_secular_ep1_crown_of_lombardy
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:miquella
+				this = character:miquella
+			}
+		}
+	}											
 }
