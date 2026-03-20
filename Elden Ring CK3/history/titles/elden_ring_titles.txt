@@ -1,6 +1,6 @@
 h_lands_between = {
 	500.1.1 = {
-		holder = lineofmarika
+		holder = marika
 	}
 	7214.1.1 = {
 		holder = 0
@@ -8,7 +8,7 @@ h_lands_between = {
 }
 e_altus_plateau = {
 	500.1.1 = {
-		holder = lineofmarika
+		holder = marika
 	}
 	801.1.1 = {
 		holder = 0
@@ -16,7 +16,7 @@ e_altus_plateau = {
 }
 k_leyndell = {
 	500.1.1 = {
-		holder = lineofmarika
+		holder = marika
 	}
 	801.1.1 = {
 		holder = 0
@@ -25,107 +25,107 @@ k_leyndell = {
 
 d_R144G46B216 = {
 	500.1.1 = {
-		holder = lineofmarika
+		holder = marika
 	}
 	810.1.1 = {
-		holder = lineofmorgott
+		holder = morgott
 	}
 }
 
 k_fallen_capital = {
 	810.1.1 = {
-		holder = lineofmorgott
+		holder = morgott
 	}
 }
 
 c_R118G251B72 = {	
 	810.1.1 = {
-		holder = lineofmorgott
+		holder = morgott
 	}
 }
 
 c_R22G77B84 = {
 	500.1.1 = {
-		holder = lineofmarika
+		holder = marika
 	}
 	810.1.1 = {
-		holder = lineofmorgott
+		holder = morgott
 	}
 }
 
 c_R115G234B238 = {
 	500.1.1 = {
-		holder = lineofmarika
+		holder = marika
 	}
 	810.1.1 = {
-		holder = lineofmorgott
+		holder = morgott
 	}
 }
 
 c_R186G239B120 = {
 	500.1.1 = {
-		holder = lineofmarika
+		holder = marika
 	}
 	810.1.1 = {
-		holder = lineofmorgott
+		holder = morgott
 	}
 }
 
 c_R66G91B114 = {
 	
 	810.1.1 = {
-		holder = lineofmorgott
+		holder = morgott
 	}
 }
 
 # c_R216G23B95 = {
 	# 500.1.1 = {
-		# holder = lineofmarika
+		# holder = marika
 	# }
 	# 810.1.1 = {
-		# holder = lineofmorgott
+		# holder = morgott
 	# }
 # }
 
 c_R108G207B157 = {	
 	810.1.1 = {
-		holder = lineofgodrick
+		holder = godrick
 	}
 }
 
 c_R25G43B92 = {	
 	810.1.1 = {
-		holder = lineofgodrick
+		holder = godrick
 	}
 }
 
 c_R41G192B213 = {	
 	810.1.1 = {
-		holder = lineofgodrick
+		holder = godrick
 	}
 }
 
 c_R71G251B116 = {	
 	810.1.1 = {
-		holder = lineofgodrick
+		holder = godrick
 	}
 }
 
 c_R58G244B68 = {	
 	810.1.1 = {
-		holder = lineofgodrick
+		holder = godrick
 	}
 }
 
 d_R213G77B113 = {	
 	810.1.1 = {
-		holder = lineofgodrick
+		holder = godrick
 	}
 }
 
 k_ocupied_stormveil = {	
 	810.1.1 = {
-		holder = lineofgodrick
+		holder = godrick
 	}
 }
 
@@ -143,104 +143,104 @@ k_raya_lucaria_leader = {
 
 d_R81G9B214 = {	
 	810.1.1 = {
-		holder = lineofryakrd
+		holder = rykard
 	}
 }
 
 k_lord_of_blasphemy = {	
 	810.1.1 = {
-		holder = lineofryakrd
+		holder = rykard
 	}
 }
 
 k_haligtree = {	
 	810.1.1 = {
-		holder = lineofmalenia
+		holder = malenia
 	}
 }
 
 d_R181G19B130 = {	
 	810.1.1 = {
-		holder = lineofradahn
+		holder = radahn
 	}
 }
 
 d_R219G100B203 = {	
 	810.1.1 = {
-		holder = lineofradahn
+		holder = radahn
 	}
 }
 
 c_R193G136B95 = {	
 	810.1.1 = {
-		holder = lineofradahn
+		holder = radahn
 	}
 }
 
 
 c_R28G85B63 = {	
 	810.1.1 = {
-		holder = lineofradahn
+		holder = radahn
 	}
 }
 k_radahn_remnants = {	
 	810.1.1 = {
-		holder = lineofradahn
+		holder = radahn
 	}
 }
 
 d_dynasty_mausoleum = {	
 	810.1.1 = {
-		holder = lineofmohg
+		holder = mohg
 	}
 }
 
 k_godwyn_dynasty = {	
 	810.1.1 = {
-		holder = lineofmohg
+		holder = mohg
 	}
 }
 
 k_sweet_sleep = {	
 	810.1.1 = {
-		holder = lineoftrina
+		holder = trina
 	}
 }
 
 d_R1G62B244 = {	
 	810.1.1 = {
-		holder = lineoftrina
+		holder = trina
 	}
 }
 
 k_miquellas_followers = {	
 	810.1.1 = {
-		holder = lineofmiquella
+		holder = miquella
 	}
 }
 
 d_R16G155B181 = {	
 	810.1.1 = {
-		holder = lineofmiquella
+		holder = miquella
 	}
 }
 
 d_R225G206B96 = {	
 	810.1.1 = {
-		holder = lineofmiquella
+		holder = miquella
 	}
 }
 
 
 d_R63G97B79 = {	
 	810.1.1 = {
-		holder = lineofmessmer
+		holder = messmer
 	}
 }
 
 k_messmer_army = {	
 	810.1.1 = {
-		holder = lineofmessmer
+		holder = messmer
 	}
 }
 
@@ -276,13 +276,13 @@ d_R176G192B184 = {
 }
 d_R47G88B108 = {	
 	810.1.1 = {
-		holder = lineofranni
+		holder = ranni
 		liege = k_raya_lucaria_leader
 	}
 }
 d_R59G8B195 = {	
 	810.1.1 = {
-		holder = lineofranni
+		holder = ranni
 	}
 }
 

@@ -43,9 +43,9 @@ elden_ring_axe_of_godfrey_effect = {
 		history = {
 			type = created
 			date = 734.1.1
-			recipient = character:lineofhoarah_loux
+			recipient = character:hoarah_loux
 			location = scope:location
-			actor = character:lineofhoarah_loux
+			actor = character:hoarah_loux
 		}
 		modifier = artifact_prowess_18_modifier
 		modifier = artifact_pursue_efficiency_3_modifier
@@ -81,9 +81,9 @@ elden_ring_axe_of_godrick_effect = {
 		history = {
 			type = created
 			date = 7202.1.1
-			recipient = character:lineofgodrick
+			recipient = character:godrick
 			location = scope:location
-			actor = character:lineofgodrick
+			actor = character:godrick
 		}
 		modifier = artifact_prowess_10_modifier
 		modifier = artifact_enemy_hard_casualty_modifier_9_modifier

@@ -73,15 +73,15 @@ is_grace_tarnished = {
 }
 
 is_godfrey = {
-	this = character:lineofhoarah_loux
+	this = character:hoarah_loux
 }
 
 is_godrick = {
-	this = character:lineofgodrick
+	this = character:godrick
 }
 
 is_malenia = {
-	this = character:lineofmalenia
+	this = character:malenia
 }
 
 holds_deathrune = {

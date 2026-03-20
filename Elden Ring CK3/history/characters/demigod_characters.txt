@@ -1,4 +1,4 @@
-lineofmarikaancestors = {
+shaman_line = {
 	name = "Marika" #so that new children aren't named "Shaman line"
 	female = yes
 	sexuality = bisexual
@@ -14,13 +14,11 @@ lineofmarikaancestors = {
 	}
 	
 	690.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
-lineofmarika = {
+marika = {
 	name = "Marika"
 	female = yes
 	dna = marika_dna
@@ -47,11 +45,11 @@ lineofmarika = {
 	disallow_random_traits = yes
 	mother = shaman_line
 	
-#	portrait_override = { #I've found a better hairstyle for her but keeping this in case people prefer this for some reason
-#		portrait_modifier_overrides={
-#			custom_hair=female_hair_mena_01
-#		}
-#	}
+	portrait_override = {	
+		portrait_modifier_overrides={
+			custom_hair=female_hair_mena_01
+		}
+	}
 	
 	688.1.1 = {
 		birth = yes
@@ -72,13 +70,13 @@ lineofmarika = {
 		culture = cul_royal
 	}
 	733.1.1 = {
-		add_matrilineal_spouse = lineofhoarah_loux
+		add_matrilineal_spouse = hoarah_loux
 	}
 	1602.1.1 = {
-		remove_spouse = lineofhoarah_loux
+		remove_spouse = hoarah_loux
 	}
 	1782.1.1 = {
-		add_matrilineal_spouse = lineofradagon
+		add_matrilineal_spouse = radagon
 	}
 	7211.1.1 = {
 		add_trait = cynical
@@ -93,7 +91,7 @@ lineofmarika = {
 	}
 }
 
-lineofradagon = {
+radagon = {
 	name = "Radagon"
 	dna = radagon_dna
 	sexuality = bisexual
@@ -149,7 +147,7 @@ lineofradagon = {
 	}
 }
 
-lineofhoarah_loux = {
+hoarah_loux = {
 	name = "Godfrey"
 	dna = hoarah_loux_dna
 	sexuality = heterosexual
@@ -198,13 +196,11 @@ lineofhoarah_loux = {
 		add_trait = no_marry
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
-lineofmessmer = {
+messmer = {
 	name = "Messmer"
 	dna = messmer_dna
 	sexuality = heterosexual
@@ -228,7 +224,7 @@ lineofmessmer = {
 	trait = no_marry
 	
 	disallow_random_traits = yes
-	mother = lineofmarika
+	mother = marika
 	
 	portrait_override = {	
 		portrait_modifier_overrides={
@@ -253,13 +249,11 @@ lineofmessmer = {
 		add_trait = depressed_1
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
-lineofmelina = {
+melina = {
 	name = "Melina"
 	female = yes
 	dna = melina_dna
@@ -280,7 +274,7 @@ lineofmelina = {
 	trait = bodiless
 	
 	disallow_random_traits = yes
-	mother = lineofmarika
+	mother = marika
 	
 	portrait_override = {	
 		portrait_modifier_overrides={
@@ -297,13 +291,11 @@ lineofmelina = {
 		trait = demigod_elden_ring_4
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
-lineofgodwyn = {
+godwyn = {
 	name = "Godwyn"
 	dna = godwyn_dna
 	sexuality = heterosexual
@@ -329,8 +321,8 @@ lineofgodwyn = {
 	trait = no_marry
 	
 	disallow_random_traits = yes
-	father = lineofhoarah_loux
-	mother = lineofmarika
+	father = hoarah_loux
+	mother = marika
 	
 	portrait_override = {	
 		portrait_modifier_overrides={
@@ -354,7 +346,7 @@ lineofgodwyn = {
 	}
 }
 
-lineofmorgott = {
+morgott = {
 	name = "Morgott"
 	dna = morgott_dna
 	sexuality = heterosexual
@@ -387,8 +379,8 @@ lineofmorgott = {
 	}
 	
 	disallow_random_traits = yes
-	father = lineofhoarah_loux
-	mother = lineofmarika
+	father = hoarah_loux
+	mother = marika
 	
 	912.1.1 = {
 		birth = yes
@@ -401,13 +393,11 @@ lineofmorgott = {
 		give_nickname = nick_the_omen_kingqueen
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
-lineofmohg = {
+mohg = {
 	name = "Mohg"
 	dna = mohg_dna
 	sexuality = bisexual
@@ -432,8 +422,8 @@ lineofmohg = {
 	trait = no_marry
 	
 	disallow_random_traits = yes
-	father = lineofhoarah_loux
-	mother = lineofmarika
+	father = hoarah_loux
+	mother = marika
 	
 	portrait_override = {	
 		portrait_modifier_overrides={
@@ -460,13 +450,11 @@ lineofmohg = {
 		set_house = house_mohgwyn_erdtree
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
-lineofradahn = {
+radahn = {
 	name = "Radahn"
 	dna = radahn_dna
 	sexuality = bisexual
@@ -492,7 +480,7 @@ lineofradahn = {
 	
 	disallow_random_traits = yes
 	
-	father = lineofradagon
+	father = radagon
 	mother = rennala
 	
 	portrait_override = {	
@@ -521,7 +509,7 @@ lineofradahn = {
 		add_pressed_claim = title:e_altus_plateau
 		add_pressed_claim = title:k_leyndell
 	}
-	7748.1.1 = { #got nuked by lineofmalenia
+	7748.1.1 = { #got nuked by malenia
 		effect = {
 			add_trait = lunatic_1
 			add_trait = scarlet_rot
@@ -531,13 +519,11 @@ lineofradahn = {
 		}
 	}	
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
-lineofryakrd = {
+rykard = {
 	name = "Rykard"
 	dna = rykard_dna
 	sexuality = heterosexual
@@ -562,7 +548,7 @@ lineofryakrd = {
 	trait = fire_affinity
 	
 	disallow_random_traits = yes
-	father = lineofradagon
+	father = radagon
 	mother = rennala
 	
 	portrait_override = {	
@@ -606,13 +592,11 @@ lineofryakrd = {
 		add_trait = god_serpent
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
-lineofranni = {
+ranni = {
 	name = "Ranni"
 	female = yes
 	dna = ranni_one_dna
@@ -638,7 +622,7 @@ lineofranni = {
 	trait = no_marry
 	
 	disallow_random_traits = yes
-	father = lineofradagon
+	father = radagon
 	mother = rennala
 	
 	portrait_override = {	
@@ -670,13 +654,11 @@ lineofranni = {
 		add_pressed_claim = title:k_leyndell
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
-lineofmiquella = {
+miquella = {
 	name = "Miquella"
 
 	dna = miquella_dna
@@ -704,8 +686,8 @@ lineofmiquella = {
 	trait = twin
 	trait = no_marry
 	
-	mother = lineofmarika
-	father = lineofradagon
+	mother = marika
+	father = radagon
 	
 	portrait_override = {	
 		portrait_modifier_overrides={
@@ -739,13 +721,11 @@ lineofmiquella = {
 		}
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
-lineoftrina = {
+trina = {
 	name = "Trina"
 	female = yes
 	dna = trina_dna
@@ -772,8 +752,8 @@ lineoftrina = {
 	trait = no_marry
 	
 	disallow_random_traits = yes
-	mother = lineofmarika
-	father = lineofradagon
+	mother = marika
+	father = radagon
 	
 	portrait_override = {	
 		portrait_modifier_overrides={
@@ -793,13 +773,11 @@ lineoftrina = {
 		give_nickname = nick_st_for_trina
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
-lineofmalenia = {
+malenia = {
 	name = "Malenia"
 	female = yes
 	dna = malenia_dna
@@ -838,8 +816,8 @@ lineofmalenia = {
 		}
 	}
 	
-	mother = lineofmarika
-	father = lineofradagon
+	mother = marika
+	father = radagon
 	
 	2020.1.1 = {
 		birth = yes
@@ -856,13 +834,11 @@ lineofmalenia = {
 		religion = faith_unalloyed
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
-lineofgodwald = {
+godwald = {
 	name = "Godwald"
 	
 	sexuality = heterosexual
@@ -884,7 +860,7 @@ lineofgodwald = {
 	trait = order_affinity
 	
 	disallow_random_traits = yes
-	father = lineofgodwyn
+	father = godwyn
 	
 	4258.1.1 = {
 		birth = yes
@@ -900,7 +876,7 @@ lineofgodwald = {
 	}
 }
 
-lineofgodfroy = {
+godefroy = {
 	name = "Godefroy"
 	
 	sexuality = heterosexual
@@ -923,7 +899,7 @@ lineofgodfroy = {
 	trait = grafting
 	
 	disallow_random_traits = yes
-	father = lineofgodwald
+	father = godwald
 	
 	5977.1.1 = {
 		birth = yes
@@ -933,13 +909,11 @@ lineofgodfroy = {
 		trait = demigod_elden_ring_2
 	}
 	7240.1.1 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
-lineofgodrick = {
+godrick = {
 	name = "Godrick"
 	dna = godrick_dna
 	sexuality = heterosexual
@@ -957,7 +931,7 @@ lineofgodrick = {
 	trait = no_marry
 	
 	disallow_random_traits = yes
-	father = lineofgodfroy
+	father = godefroy
 	
 	portrait_override = {	
 		portrait_modifier_overrides={
@@ -981,10 +955,6 @@ lineofgodrick = {
 		}
 	}
 	9999.1.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
-
-

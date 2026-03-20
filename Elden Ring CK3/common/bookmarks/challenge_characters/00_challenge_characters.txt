@@ -11,7 +11,7 @@
 		culture = cul_royal
 		religion = faith_golden	
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = lineofmorgott
+		history_id = morgott
 		animation = personality_compassionate
 	}
 }

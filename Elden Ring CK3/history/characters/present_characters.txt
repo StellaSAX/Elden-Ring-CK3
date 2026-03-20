@@ -27,7 +27,7 @@ millicent = {
 	
 	disallow_random_traits = yes
 
-	mother = lineofmalenia
+	mother = malenia
 	7748.1.1 = {
 		birth = yes
 		effect = {
@@ -35,9 +35,7 @@ millicent = {
 		}
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
@@ -68,7 +66,7 @@ polyanna = {
 	
 	trait = scarlet_rot_child
 	
-	mother = lineofmalenia
+	mother = malenia
 	7748.1.15 = {
 		birth = yes
 		effect = {
@@ -76,9 +74,7 @@ polyanna = {
 		}
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
@@ -109,7 +105,7 @@ amy = {
 	
 	trait = scarlet_rot_child
 	
-	mother = lineofmalenia
+	mother = malenia
 	7748.1.10 = {
 		birth = yes
 		effect = {
@@ -117,9 +113,7 @@ amy = {
 		}
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
@@ -150,7 +144,7 @@ maureen = {
 	
 	trait = scarlet_rot_child
 	
-	mother = lineofmalenia
+	mother = malenia
 	7748.1.5 = {
 		birth = yes
 		effect = {
@@ -158,9 +152,7 @@ maureen = {
 		}
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
@@ -191,7 +183,7 @@ mary = {
 	
 	trait = scarlet_rot_child
 	
-	mother = lineofmalenia
+	mother = malenia
 	7748.1.1 = {
 		birth = yes
 		effect = {
@@ -199,9 +191,7 @@ mary = {
 		}
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
@@ -230,7 +220,7 @@ zorayas = {
 	trait = no_marry
 	
 	disallow_random_traits = yes
-	father = lineofryakrd
+	father = rykard
 
 	7800.1.1 = {
 		birth = yes
@@ -239,9 +229,7 @@ zorayas = {
 		}
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
@@ -276,9 +264,7 @@ haight  = {
 		}
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
@@ -313,9 +299,7 @@ edgar  = {
 		}
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
@@ -344,9 +328,7 @@ irina  = {
 		}
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
@@ -373,9 +355,7 @@ elemer  = {
 		}
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
@@ -403,9 +383,7 @@ maleigh  = {
 		}
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
 
@@ -438,21 +416,16 @@ gostoc = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
-			set_relation_grudge = character:lineofgodrick
+			set_relation_grudge = character:godrick
 		}
 		add_character_modifier = {
 			modifier = gift_from_the_eternal
 		}
-		employer = lineofgodrick
+		employer = godrick
 		give_council_position = councillor_steward
 		
 	}
 	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
+		death = yes
 	}
 }
-	death = {
-		death_reason = death_went_missing_elden_ring
-	}
