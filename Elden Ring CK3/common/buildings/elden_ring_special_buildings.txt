@@ -126,3 +126,82 @@ farum_azula_southern_wall_01 = {
 
 	flag = travel_point_of_interest_wonder
 }
+
+dragon_communion_church_01 = {
+	construction_time = very_quick_construction_time
+
+	type_icon = "icon_structure_mont_st_michel.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = expensive_building_tier_1_cost
+
+	next_building = dragon_communion_church_02
+
+	character_modifier = {
+		monthly_piety = 0.1
+		zealot_opinion = 5
+		same_faith_opinion = 5
+		life_expectancy = 5
+	}
+
+	province_modifier = {
+		fort_level = 1
+		defender_holding_advantage = 2
+	}
+
+	county_modifier = {
+		county_opinion_add = 5
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+dragon_communion_church_02 = {
+	construction_time = very_quick_construction_time
+
+	type_icon = "icon_structure_mont_st_michel.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = expensive_building_tier_1_cost
+
+	character_modifier = {
+		monthly_piety = 0.15
+		zealot_opinion = 5
+		zealot_tax_contribution_mult = 0.05
+		same_faith_opinion = 5
+		zealot_tax_contribution_mult = 0.1
+		life_expectancy = 5
+	}
+
+	province_modifier = {
+		fort_level = 3
+		defender_holding_advantage = 2
+		monthly_income = 0.2
+	}
+
+	county_modifier = {
+		tax_mult = 0.05
+		monthly_county_control_growth_add = 0.1
+		county_opinion_add = 10
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}

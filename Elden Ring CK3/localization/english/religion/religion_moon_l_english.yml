@@ -1,5 +1,10 @@
 ﻿l_english:
- 
+ cosmos_religion:0 "Cosmic Faith"
+ cosmos_religion_adj:0 "Cosmic"
+ cosmos_religion_adherent:0 "PLACEHOLDER"
+ cosmos_religion_adherent_plural:0 "PLACEHOLDER" 
+ cosmos_religion_desc:0 "Placeholder"
+
  moon_religion:0 "Moon"
  moon_religion_adj:0 "Moon"
  moon_religion_adherent:0 "Moon Worshiper"
@@ -72,18 +77,42 @@
 
  #Subfaiths
 
- faith_moons:0 "Full Moon"
- faith_moons_adj:0 "Full Moon's
+ faith_moons:0 "Order of the Full Moon"
+ faith_moons_adj:0 "Full Moon"
  faith_moons_adherent:0 "Scholar of the Full Moon"
  faith_moons_adherent_plural:0 "Scholars of the Full Moon"
  faith_moons_desc:0 "First glimpsed by Renalla, Queen of the Full Moon, the followers of this most powerful and beautiful celestial body believe utterly that it is through great power and sorcerery that mankind can achieve its true potential. Great libraries, studies and writings have been formed around the path of intellect, with many of their number believing that one of their greatest virtues is to pass on as much as they have learned as possible for those who follow after to learn from. It is no surprise then that the greatest libraries in Caria serve both as repositories of knowledge but also a conduit to the light of the Full Moon"
 
- faith_stars:0 "Dark Moon"
- faith_stars_adj:0 "Dark Moon's"
+ faith_stars:0 "Order of the Dark Moon"
+ faith_stars_adj:0 "Dark Moon"
  faith_stars_adherent:0 "Scholar of the Dark Moon"
- faith_stars_adherent_plural:0 "Scholar of the Dark Moon's"
+ faith_stars_adherent_plural:0 "Scholars of the Dark Moon"
  moondark_high_god_name:0 "the Dark Moon"
  mooncold_high_god_name:0 "the Cold Moon"
  faith_stars_trickster_god_name:0 "the Greater Will"
  faith_stars_trickster_god_name_possessive:0 "the Greater Will's"
- faith_stars_desc:0 "First glimpsed by Ranni, thereafter called the With of the Dark Moon, it is said that the Dark Moon is the herald of a new age and perhaps indeed there is some truth to that for often the image of a dark and lightless moon is considered a symbol of a new season in some ancient texts. Those who follow the Dark Moon believe strongly in a personal independence from the will and commandments of others perhaps even more so than those who study the other Moons, thrashing fiercely against attempts to control or stifle them as they seek to liberate their minds and wills from any who would command them. It is believed by many that under the shadow of the Dark Moon will come the Age of Stars and with it a Night Lord who will reign over a thousand year voyage of peaceful night and freedom."
+ faith_stars_desc:0 "First glimpsed by Ranni, thereafter called the Witch of the Dark Moon, it is said that the Dark Moon is the herald of a new age and perhaps indeed there is some truth to that for often the image of a dark and lightless moon is considered a symbol of a new season in some ancient texts. Those who follow the Dark Moon believe strongly in a personal independence from the will and commandments of others perhaps even more so than those who study the other Moons, thrashing fiercely against attempts to control or stifle them as they seek to liberate their minds and wills from any who would command them. It is believed by many that under the shadow of the Dark Moon will come the Age of Stars and with it a Night Lord who will reign over a thousand year voyage of peaceful night and freedom."
+
+ faith_academy:0 "Academia of Raya Lucaria"
+ faith_academy_adj:0 "Lucarian Academia"
+ faith_academy_adherent:0 "Lucarian Scholar"
+ faith_academy_adherent_plural:0 "Lucarian Scholars"
+ faith_academy_desc:0 "The Academy of Raya Lucaria institutionalized sorcery and primarially pursues the study of glintstone, founded by the primeval sorcerers Azur and Lusat. Later, Queen Rennala would become the Academy's master and would heavily limit the study of the primeval current and exiled Azur and Lusat."
+
+ faith_primeval:0 "Primeval Current"
+ faith_primeval_adj:0 "Primeval"
+ faith_primeval_adherent:0 "Primeval Sorcerer"
+ faith_primeval_adherent_plural:0 "Primeval Sorcerers"
+ faith_primeval_desc:0 "Placeholder"
+
+ faith_gravity:0 "Gravity Sorcery"
+ faith_gravity_adj:0 "Gravity"
+ faith_gravity_adherent:0 "PLACEHOLDER"
+ faith_gravity_adherent_plural:0 "PLACEHOLDER"
+ faith_gravity_desc:0 "Placeholder."
+
+ faith_night:0 "Night Sorcery"
+ faith_night_adj:0 "Night"
+ faith_night_adherent:0 "Night Sorcerer"
+ faith_night_adherent_plural:0 "Night Sorcerers"
+ faith_night_desc:0 "Placeholder"

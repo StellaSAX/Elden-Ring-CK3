@@ -1,10 +1,10 @@
 ﻿l_english:
  
- serpent_religion:0 "Immortal Serpent"
- serpent_religion_adj:0 "serpentine"
+ serpent_religion:0 "God-Devouring Serpent"
+ serpent_religion_adj:0 "Serpentine Cult"
  serpent_religion_adherent:0 "Follower of the Immortal Serpent"
  serpent_religion_adherent_plural:0 "Followers of the Immortal Serpent"
- serpent_religion_desc:0 "The Immortal serpent gives strength and eternity by becoming one with it."
+ serpent_religion_desc:0 "Rykard, Lord of Blasphemy, abandoned his godhood and rejected the Golden Order by feeding himself and his Great Rune to the ancient serpent of Mt. Gelmir, merging with it in the ultimate act of blasphemy. In a vision, Rykard witnessed a serpent devouring the world. After becoming one with the serpent, his unsatiable gluttony drives him to devour the gods and the world with it."
  serpent_high_god_name:0 "the Immortal Serpent"
  serpent_high_god_name_2:0 "the God Snake" # Optional translation alt
  serpent_high_god_name_3:0 "the Blasphemous Serpent" # Optional translation alt
@@ -72,8 +72,8 @@
 
  #Subfaiths
 
- faith_god_snake:0 "The God Devouring Serpent's Order"
+ faith_god_snake:0 "God-Devouring Serpent"
  faith_god_snake_adj:0 "Recusant"
  faith_god_snake_adherent:0 "Recusant of the God Devouring Serpent"
  faith_god_snake_adherent_plural:0 "Recusants of the God Devouring Serpent"
- faith_god_snake_desc:0 "Praetor Rykard fused himself with the God Devouring Serpent, and seeks to unify all in blasphemy and in flesh to drive away the Greater Will. Join, one and all, to devour the very Gods as Family!"
+ faith_god_snake_desc:0 "Rykard, Lord of Blasphemy, abandoned his godhood and rejected the Golden Order by feeding himself and his Great Rune to the ancient serpent of Mt. Gelmir, merging with it in the ultimate act of blasphemy. In a vision, Rykard witnessed a serpent devouring the world. After becoming one with the serpent, his unsatiable gluttony drives him to devour the gods and the world with it."

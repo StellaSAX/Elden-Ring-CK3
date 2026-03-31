@@ -229,9 +229,10 @@
 			holy_site = leyndell_colosseum
 
 			#Generic pagan tenets
-			doctrine = tenet_astrology
+			doctrine = tenet_communal_identity
 			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_cranial_trophies
+			doctrine = tenet_consolamentum
 		}
 	}
 	
