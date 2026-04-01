@@ -162,7 +162,7 @@ dragon_communion_church_01 = {
 
 	type = special
 
-	flag = travel_point_of_interest_martial
+	flag = travel_point_of_interest_learning
 }
 
 dragon_communion_church_02 = {
@@ -203,5 +203,545 @@ dragon_communion_church_02 = {
 
 	type = special
 
-	flag = travel_point_of_interest_martial
+	flag = travel_point_of_interest_learning
+}
+
+evergaol = {
+	construction_time = very_quick_construction_time
+
+	type_icon = "evergaol.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = expensive_building_tier_1_cost
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+	}
+
+	province_modifier = {
+		defender_holding_advantage = 1
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+minor_erdtree = {
+	construction_time = very_quick_construction_time
+
+	type_icon = "minor_erdtree.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = expensive_building_tier_1_cost
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.1
+		monthly_piety = 0.15
+		health = 0.25
+	}
+
+	county_modifier = {
+		adevelopment_growth = 0.2
+		development_growth_factor = 0.025
+		county_opinion_add = 25
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_wonder
+}
+
+bridge_of_sacrifice = {
+	construction_time = very_quick_construction_time
+
+	type_icon = "icon_structure_london_bridge.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = expensive_building_tier_1_cost
+
+	province_modifier = {
+		travel_danger = -5
+		stationed_maa_toughness_mult = 0.05
+		defender_holding_advantage = 3
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial_minor
+}
+
+castle_morne_1 = {
+	construction_time = very_quick_construction_time
+
+	type_icon = "icon_structure_alamut_castle.dds"
+
+	next_building = castle_morne_2
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = expensive_building_tier_1_cost
+
+	character_modifier = {
+		monthly_prestige_gain_mult = -0.05
+		monthly_dynasty_prestige_mult = 0.02
+	}
+
+	province_modifier = {
+		travel_danger = 15
+		fort_level = 2
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial_minor
+}
+
+castle_morne_2 = {
+	construction_time = very_quick_construction_time
+
+	type_icon = "icon_structure_alamut_castle.dds"
+
+	can_construct = {
+		scope:holder = {
+			highest_held_title_tier >= tier_duchy
+			prestige_level >= 2
+		}
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+		
+	}
+
+	cost_gold = 650
+
+	character_modifier = {
+		martial_per_prestige_level = 1
+		martial = 2
+		monthly_dynasty_prestige_mult = 0.05
+	}
+
+	province_modifier = {
+		fort_level = 5
+		travel_danger = -5
+		stationed_maa_toughness_mult = 0.15
+		stationed_maa_damage_mult = 0.15
+		defender_holding_advantage = 3
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial_minor
+}
+
+fort_haight_1 = {
+	construction_time = very_quick_construction_time
+
+	type_icon = "icon_structure_kassiopi_castle.dds"
+
+	next_building = fort_haight_2
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = expensive_building_tier_1_cost
+
+	province_modifier = {
+		travel_danger = 5
+		fort_level = 1
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial_minor
+}
+
+fort_haight_2 = {
+	construction_time = very_quick_construction_time
+
+	type_icon = "icon_structure_kassiopi_castle.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = expensive_building_tier_1_cost
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.02
+	}
+
+	province_modifier = {
+		travel_danger = -5
+		fort_level = 1
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial_minor
+}
+
+stormgate = {
+	construction_time = very_quick_construction_time
+
+	type_icon = "icon_structure_walls_of_genoa.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = expensive_building_tier_1_cost
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.02
+	}
+
+	province_modifier = {
+		fort_level = 5
+		travel_danger = -5
+		stationed_pikemen_damage_mult = 0.05
+		stationed_pikemen_toughness_mult = 0.1
+		stationed_heavy_infantry_damage_mult = 0.05
+		stationed_heavy_infantry_toughness_mult = 0.1
+		defender_holding_advantage = 4
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial_minor
+}
+
+sellia_gateway = {
+	construction_time = very_quick_construction_time
+
+	type_icon = "icon_structure_walls_of_genoa.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = expensive_building_tier_1_cost
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+	}
+
+	province_modifier = {
+		fort_level = 5
+		travel_danger = -5
+		stationed_pikemen_damage_mult = 0.05
+		stationed_pikemen_toughness_mult = 0.1
+		stationed_heavy_infantry_damage_mult = 0.05
+		stationed_heavy_infantry_toughness_mult = 0.1
+		defender_holding_advantage = 4
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial_minor
+}
+
+
+grand_lift_dectus = {
+	construction_time = very_quick_construction_time
+
+	type_icon = "icon_structure_besakih.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = expensive_building_tier_1_cost
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+	}
+
+	province_modifier = {
+		travel_danger = -5
+		fort_level = 1
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_wonder
+}
+
+beastial_sanctum = {
+	construction_time = very_quick_construction_time
+
+	type_icon = "icon_structure_soltaniyeh.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = expensive_building_tier_1_cost
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+	}
+
+	province_modifier = {
+		travel_danger = -5
+		fort_level = 3
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_wonder
+}
+
+# unused, fort gael is in a pretty intact state.
+fort_gael_0 = { 
+	construction_time = very_quick_construction_time
+
+	type_icon = "icon_structure_falak_ol_aflak_citadel.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = expensive_building_tier_1_cost
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+	}
+
+	province_modifier = {
+		travel_danger = 15
+		fort_level = 1
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial_minor
+}
+
+fort_gael_1 = {
+	construction_time = very_quick_construction_time
+
+	type_icon = "icon_structure_falak_ol_aflak_citadel.dds"
+
+	can_construct = {
+		scope:holder = {
+			highest_held_title_tier >= tier_duchy
+			prestige_level >= 2
+		}
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+		
+	}
+
+	cost_gold = 650
+
+	character_modifier = {
+		martial_per_prestige_level = 1
+		martial = 2
+	}
+
+	province_modifier = {
+		fort_level = 4
+		travel_danger = -5
+		stationed_maa_toughness_mult = 0.15
+		stationed_maa_damage_mult = 0.15
+		defender_holding_advantage = 3
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial_minor
+}
+
+redmane_castle = {
+	construction_time = very_quick_construction_time
+
+	type_icon = "icon_structure_the_citadel_of_aleppo.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = expensive_building_tier_1_cost
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.1
+		monthly_dynasty_prestige_mult = 0.08
+	}
+
+	province_modifier = {
+		fort_level = 6
+		travel_danger = -5
+		stationed_pikemen_damage_mult = 0.05
+		stationed_pikemen_toughness_mult = 0.1
+		stationed_heavy_infantry_damage_mult = 0.05
+		stationed_heavy_infantry_toughness_mult = 0.1
+		defender_holding_advantage = 4
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial_minor
+}
+
+shaded_castle = {
+	construction_time = very_quick_construction_time
+
+	type_icon = "icon_structure_kyz_kala.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = expensive_building_tier_1_cost
+
+	province_modifier = {
+		travel_danger = 10
+		fort_level = 3
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_wonder
+}
+
+fort_laiedd = {
+	construction_time = very_quick_construction_time
+
+	type_icon = "icon_structure_falak_ol_aflak_citadel.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = expensive_building_tier_1_cost
+
+	province_modifier = {
+		fort_level = 3
+		defender_holding_advantage = 3
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial_minor
+}
+
+volcano_manor = {
+	construction_time = very_quick_construction_time
+
+	type_icon = "alcazar_segovia.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = expensive_building_tier_1_cost
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.1
+		monthly_dynasty_prestige_mult = 0.08
+	}
+
+	province_modifier = {
+		fort_level = 6
+		travel_danger = -5
+		stationed_pikemen_damage_mult = 0.05
+		stationed_pikemen_toughness_mult = 0.1
+		stationed_heavy_infantry_damage_mult = 0.05
+		stationed_heavy_infantry_toughness_mult = 0.1
+		defender_holding_advantage = 4
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial_minor
 }

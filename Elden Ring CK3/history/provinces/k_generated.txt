@@ -254,6 +254,7 @@
 	culture = cul_gelmir
 	religion = faith_god_snake
 	holding = castle_holding
+	special_building = volcano_manor
 }
 58 = {
 	culture = cul_shadowlander
@@ -485,6 +486,7 @@
 	culture = cul_reedlander
 	religion = faith_reedlander
 	holding = castle_holding
+	special_building = fort_gael_1
 }
 109 = {
 	culture = cul_liurnia
@@ -669,6 +671,7 @@
 	culture = cul_caelid
 	religion = faith_rot
 	holding = castle_holding
+	special_building = sellia_gateway
 }
 151 = {
 	culture = cul_northerner
@@ -808,6 +811,7 @@
 	culture = cul_caelid
 	religion = faith_rot
 	holding = castle_holding
+	special_building = sellia_crystal_mines_01
 }
 186 = {
 	holding = none
@@ -816,6 +820,7 @@
 	culture = cul_limgrave
 	religion = faith_golden
 	holding = castle_holding
+	special_building = evergaol
 }
 188 = {
 	holding = none
@@ -1109,6 +1114,7 @@
 	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
+	special_building = bridge_of_sacrifice
 }
 261 = {
 	culture = cul_shadowlander
@@ -1156,9 +1162,8 @@
 	holding = none
 }
 272 = {
-	culture = cul_limgrave
-	religion = faith_golden
 	holding = castle_holding
+	special_building = limgrave_tunnel_mines_01
 }
 273 = {
 	holding = none
@@ -1745,9 +1750,7 @@
 	holding = none
 }
 423 = {
-	culture = cul_limgrave
-	religion = faith_crucible
-	holding = castle_holding
+	holding = none
 }
 424 = {
 	holding = none
@@ -2027,8 +2030,9 @@
 }
 504 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	religion = faith_ancient_dragon
 	holding = castle_holding
+	special_building = dragon_communion_church_01
 }
 505 = {
 	holding = none
@@ -2597,6 +2601,7 @@
 	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
+	special_building = castle_morne_1
 }
 665 = {
 	holding = none
@@ -2738,6 +2743,7 @@
 	culture = cul_limgrave
 	religion = faith_golden
 	holding = castle_holding
+	special_building = bridge_of_sacrifice
 }
 706 = {
 	culture = cul_northerner
@@ -2770,9 +2776,7 @@
 	holding = castle_holding
 }
 714 = {
-	culture = cul_altus
-	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 715 = {
 	holding = none
@@ -3174,6 +3178,7 @@
 	culture = cul_limgrave
 	religion = faith_golden
 	holding = castle_holding
+	special_building = minor_erdtree
 }
 838 = {
 	holding = none
@@ -3295,6 +3300,7 @@
 	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
+	special_building = morne_tunnel_mines_01
 }
 875 = {
 	holding = none
@@ -3362,6 +3368,7 @@
 	culture = cul_gelmir
 	religion = faith_rot
 	holding = castle_holding
+	special_building = shaded_castle
 }
 896 = {
 	holding = none
@@ -4073,7 +4080,10 @@
 	holding = none
 }
 1119 = {
-	holding = none
+	culture = cul_limgrave
+	religion = faith_crucible
+	holding = castle_holding
+	special_building = evergaol
 }
 1120 = {
 	holding = none
@@ -4223,7 +4233,10 @@
 	holding = none
 }
 1167 = {
-	holding = none
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+	special_building = stormgate
 }
 1168 = {
 	holding = none
@@ -4469,9 +4482,7 @@
 	holding = none
 }
 1247 = {
-	culture = cul_weeping_peninsula
-	religion = faith_dragon_cult
-	holding = castle_holding
+	holding = none
 }
 1248 = {
 	holding = none
@@ -4831,7 +4842,10 @@
 	holding = none
 }
 1363 = {
-	holding = none
+	culture = cul_altus
+	religion = faith_golden
+	holding = castle_holding
+	special_building = grand_lift_dectus
 }
 1364 = {
 	holding = none
@@ -4983,7 +4997,9 @@
 	holding = none
 }
 1413 = {
-	holding = none
+	culture = cul_weeping_peninsula
+	religion = faith_crucible
+	special_building = minor_erdtree
 }
 1414 = {
 	holding = none
@@ -5846,6 +5862,7 @@
 	culture = cul_caelid
 	religion = faith_golden
 	holding = castle_holding
+	special_building = redmane_castle
 }
 1692 = {
 	holding = none
@@ -6482,7 +6499,8 @@
 	holding = none
 }
 1900 = {
-	holding = none
+	holding = castle_holding
+	special_building = raya_lucaria_crystal_mines_01
 }
 1901 = {
 	holding = none
@@ -7045,7 +7063,8 @@
 	holding = none
 }
 2087 = {
-	holding = none
+	holding = castle_holding
+	special_building = fort_laiedd
 }
 2088 = {
 	holding = none
@@ -7087,7 +7106,7 @@
 	holding = none
 }
 2101 = {
-	holding = none
+	holding = castle_holding
 }
 2102 = {
 	holding = none
@@ -7156,6 +7175,7 @@
 	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
+	special_building = fort_haight_1
 }
 2124 = {
 	holding = none
@@ -8070,6 +8090,7 @@
 	culture = cul_dragonbarrow
 	religion = faith_golden
 	holding = castle_holding
+	special_building = beastial_sanctum
 }
 2426 = {
 	holding = none

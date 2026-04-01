@@ -1,11 +1,7 @@
 ﻿nugget = {
-
-    diplomacy = -2
+	prowess = -10
 	martial = -2
-	stewardship = -2
-	intrigue = -2
-	learning = -3
-	prowess = -8
+	health = -0.05
 	
 	culture_modifier = {
 		parameter = wounds_and_scars_give_bonuses
@@ -19,9 +15,6 @@
 	}
 
 	category = health
-
-	dread_baseline_add = -25
-	dread_loss_mult = 2
 	
 	attraction_opinion = -20
 	
