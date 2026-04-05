@@ -25,6 +25,38 @@ elden_ring_ruins_greatsword_effect = {
 		save_scope_as = newly_created_artifact
 		decaying = no
 	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		
+		set_variable = {
+			name = prowess_upgrade
+			value = 0
+		}
+		set_variable = {
+			name = diplomacy_upgrade
+			value = 0
+		}
+		set_variable = {
+			name = martial_upgrade
+			value = 0
+		}
+		set_variable = {
+			name = stewardship_upgrade
+			value = 0
+		}
+		set_variable = {
+			name = intrigue_upgrade
+			value = 0
+		}
+		set_variable = {
+			name = learning_upgrade
+			value = 0
+		}
+	}
 }
 
 elden_ring_axe_of_godfrey_effect = {
@@ -62,6 +94,31 @@ elden_ring_axe_of_godfrey_effect = {
 			name = historical_unique_artifact
 			value = yes
 		}
+		
+		set_variable = {
+			name = prowess_upgrade
+			value = 0
+		}
+		set_variable = {
+			name = diplomacy_upgrade
+			value = 0
+		}
+		set_variable = {
+			name = martial_upgrade
+			value = 0
+		}
+		set_variable = {
+			name = stewardship_upgrade
+			value = 0
+		}
+		set_variable = {
+			name = intrigue_upgrade
+			value = 0
+		}
+		set_variable = {
+			name = learning_upgrade
+			value = 0
+		}
 	}
 }
 
@@ -98,6 +155,31 @@ elden_ring_axe_of_godrick_effect = {
 		set_variable = {
 			name = historical_unique_artifact
 			value = yes
+		}
+		
+		set_variable = {
+			name = prowess_upgrade
+			value = 0
+		}
+		set_variable = {
+			name = diplomacy_upgrade
+			value = 0
+		}
+		set_variable = {
+			name = martial_upgrade
+			value = 0
+		}
+		set_variable = {
+			name = stewardship_upgrade
+			value = 0
+		}
+		set_variable = {
+			name = intrigue_upgrade
+			value = 0
+		}
+		set_variable = {
+			name = learning_upgrade
+			value = 0
 		}
 	}
 }
