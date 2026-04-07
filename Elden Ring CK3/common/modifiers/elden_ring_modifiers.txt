@@ -19,5 +19,11 @@ gift_from_the_eternal = {
 	icon = rune_of_death
 	life_expectancy = 99999
 	years_of_fertility = 99999
+	immortal = yes
+	flag = is_immortal
+	flag = immortal_visuals
+	flag = immortal_fertility
+	flag = immortal_incapability
+	no_prowess_loss_from_age = yes
 	health = 10
 }

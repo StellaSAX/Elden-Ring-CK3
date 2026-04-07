@@ -154,3 +154,15 @@
   god_serpent_decision_tooltip:0 "You merge with the God-Devouring Serpent, becoming an abomination of pure sin and blasphemy."
   god_serpent_decision_confirm:0 "All shall join us as #italic family!#!"
 
+
+  restore_raya_lucaria_decision:0 "Restoration of the Academy"
+  restore_raya_lucaria_decision_desc:0 "The Carian nobles have maintained their tyrannical grip over the academy for far too long. Authority must be restored to its scholars, and leadership entrusted to those with the wisdom and merit to guide us forward."
+  restore_raya_lucaria_decision_tooltip:0 "Seize control of the Academy from the clutches of the Carian nobles, back into the hands of the scholars. This will change you government to meritocratic."
+  restore_raya_lucaria_decision_confirm:0 "Lets do it."
+  elden_major.0001.t:0 "Restoration of the Raya Lucaria Academy"
+  elden_major.0001.desc:0 "You did it!"
+  elden_major.0001.a:0 "Yipee! Yay for me!"
+  elden_major.0002.t:0 "Restoration of the Raya Lucaria Academy"
+  elden_major.0002.desc:0 "They did it!"
+
+

@@ -1,0 +1,144 @@
+﻿###DECISIONS LIST###
+restore_raya_lucaria_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_restore_raya_lucaria.dds"
+	}
+	decision_group_type = major
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 120
+		kingdom = 120
+		empire = 120
+		hegemony = 120
+	}
+	desc = restore_raya_lucaria_decision_desc
+
+	is_shown = {
+		culture = { has_cultural_tradition = tradition_liurnian_scholarship }
+		has_ep3_dlc_trigger = yes
+
+		NOT = {
+			title:k_rayalucaria = {
+				holder = {
+					has_government = meritocratic_government
+				}
+			}
+		}
+	}
+
+	is_valid = {
+		culture = { has_cultural_tradition = tradition_liurnian_scholarship }
+		faith = { religion = religion:cosmos_religion }
+		has_title = title:k_rayalucaria
+		prestige_level >= 2
+		learning >= 10
+		top_liege = {
+			NOR = {
+				has_government = meritocratic_government
+			}
+		}       
+	}
+	
+	is_valid_showing_failures_only = {
+		is_landed = yes
+	}
+
+	cost = {
+		prestige = 750
+		piety = 500
+	}
+
+	effect = {
+		save_scope_as = raya_lucaria_uniter
+		#Events
+		trigger_event = elden_major.0001
+		every_player = {
+			trigger_event = elden_major.0002
+		}
+		convert_to_administrative_from_feudalism_effect = { GOVERNMENT_TO_ADOPT = flag:meritocratic }
+		if = {
+			limit = {
+				is_independent_ruler = yes
+			}
+			add_legitimacy_effect = { LEGITIMACY = admin_convert_legitimacy_value } #One Time Legitimacy Boost
+		}
+	}
+	
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0	
+		modifier = {
+			culture = {
+				OR = {
+					has_cultural_pillar = ethos_bureaucratic 
+					has_cultural_pillar = ethos_courtly 
+					has_cultural_pillar = ethos_egalitarian 
+				}
+			}
+			add = 30
+		}
+		modifier = {
+			culture = {
+				has_cultural_tradition = tradition_liurnian_scholarship
+			}
+			add = 50
+		}
+		modifier = {
+			culture = {
+				OR = {
+					has_cultural_tradition = tradition_fp3_enlightened_magnates 
+					has_cultural_tradition = tradition_fp3_beacon_of_learning_name
+					has_cultural_tradition = tradition_philosopher_culture
+				}
+			add = 30
+			}
+		}
+		modifier = {
+			culture = {
+				OR = {
+					has_cultural_tradition = tradition_staunch_traditionalists
+					has_cultural_tradition = tradition_ep3_audacious_cadets
+					has_cultural_tradition = tradition_fp3_fierce_independence
+				}
+			}
+			add = -20
+		}
+		modifier = {
+			culture = {
+				has_cultural_tradition = tradition_hereditary_hierarchy
+				has_cultural_tradition = tradition_loyal_soldiers
+			}
+			add = -40
+		}
+		modifier = {
+			culture = {
+				OR = {
+					has_cultural_tradition = tradition_quarrelsome
+					has_cultural_tradition = tradition_warrior_culture
+				}
+			}
+			add = -50
+		}
+		modifier = {
+			culture = {
+				OR = {
+					has_cultural_pillar = ethos_stoic
+					has_cultural_pillar = ethos_bellicose 
+					has_cultural_pillar = ethos_communal 
+				}
+			}
+			add = -60
+		}
+		modifier = {
+			culture = {
+				has_cultural_tradition = tradition_carian_royal
+			}
+			add = -250
+		}
+	}
+}

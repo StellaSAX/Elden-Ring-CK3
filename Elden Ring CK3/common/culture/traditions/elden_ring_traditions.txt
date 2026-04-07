@@ -90,6 +90,134 @@ tradition_carian_royal = {
 	ai_will_do = { value = 100 }
 }
 
+tradition_liurnian_scholarship = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = liurnian_scholarship.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_hornsent_spiral 
+			has_cultural_tradition = tradition_golden_order
+			has_cultural_tradition = tradition_giants_fire
+		}
+		custom_description = {
+			text = culture_not_bellicose
+			NOT = {
+				culture_pillar:ethos_bellicose = { is_in_list = traits }
+			}
+		}
+		NOT = { has_cultural_tradition = tradition_warrior_culture }
+	}
+	
+	parameters = {
+		gender_equal_inheritance = yes
+		glintstone_affinity_more_common = yes
+		pensive_trait_more_common = yes
+		rowdy_trait_less_common = yes
+		innovation_from_learning_traits = yes
+	}
+	character_modifier = {
+		learning = 2
+		monthly_learning_lifestyle_xp_gain_mult = 0.2
+		learning_per_prestige_level = 1
+		cultural_head_fascination_mult = 0.15
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_courtly = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_courtly_communal_or_spiritual_desc
+				}
+			}
+			if = {
+				limit = {
+					trigger_if = {
+						limit = {
+							scope:character = {
+								is_ai = no
+							}
+						}
+						NOT = {
+							any_ruler = {
+								count >= 5
+								culture = prev
+								primary_title.tier >= tier_county
+								has_trait = scholar
+							}
+						}
+					}
+					trigger_else = {
+						always = no
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = rulers_with_scholar_desc
+				}
+			}
+
+			if = {
+				limit = {
+					scope:character = {
+						has_variable = tradition_philosopher_culture_travel_discount
+					}
+				}
+
+				add = {
+					value = tradition_travel_discount
+					desc = tradition_travel_discount_desc
+				}
+			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_philosopher_culture }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+		if = {
+			limit = {
+				NOR = {
+					culture_pillar:ethos_communal = { is_in_list = traits }
+					culture_pillar:ethos_courtly = { is_in_list = traits }
+					culture_pillar:ethos_spiritual = { is_in_list = traits }
+				}
+			}
+			multiply = 0
+		}
+	}
+}
+
+
 tradition_golden_order = {
 	category = regional
 

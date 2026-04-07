@@ -3298,7 +3298,7 @@
 }
 874 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	religion = faith_frenzy
 	holding = castle_holding
 	special_building = morne_tunnel_mines_01
 }
