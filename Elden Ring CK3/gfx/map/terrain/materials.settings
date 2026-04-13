@@ -587,6 +587,46 @@
 		id       = "deeproot_purplecrap"
 	}
 	{
+		name     = "plains_cerulean"
+		diffuse  = "plains_cerulean_diffuse.dds"
+		normal   = "plains_cerulean_normal.dds"
+		material = "plains_cerulean_properties.dds"
+		mask     = "masks/plains_cerulean_mask.png"
+		id       = "plains_cerulean"
+	}
+	{
+		name     = "plains_charo"
+		diffuse  = "plains_charo_diffuse.dds"
+		normal   = "plains_charo_normal.dds"
+		material = "plains_charo_properties.dds"
+		mask     = "masks/plains_charo_mask.png"
+		id       = "plains_charo"
+	}
+	{
+		name     = "plains_crimson"
+		diffuse  = "plains_crimson_diffuse.dds"
+		normal   = "plains_crimson_normal.dds"
+		material = "plains_crimson_properties.dds"
+		mask     = "masks/plains_crimson_mask.png"
+		id       = "plains_crimson"
+	}
+	{
+		name     = "plains_gravesite"
+		diffuse  = "plains_gravesite_diffuse.dds"
+		normal   = "plains_gravesite_normal.dds"
+		material = "plains_gravesite_properties.dds"
+		mask     = "masks/plains_gravesite_mask.png"
+		id       = "plains_gravesite"
+	}
+	{
+		name     = "plains_scaduview"
+		diffuse  = "plains_scaduview_diffuse.dds"
+		normal   = "plains_scaduview_normal.dds"
+		material = "plains_scaduview_properties.dds"
+		mask     = "masks/plains_scaduview_mask.png"
+		id       = "plains_scaduview"
+	}
+	{
 		name     = "steppe_bushes"
 		diffuse  = "steppe_bushes_diffuse.dds"
 		normal   = "steppe_bushes_normal.dds"
