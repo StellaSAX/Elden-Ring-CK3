@@ -8,9 +8,10 @@
 		OR = {
 			has_godhood_elden_ring = yes
 			is_demigod_elden_ring = yes
+			is_tarnished = yes
 		}
 	}
-
+	unique = yes
 	# if a given character does not pass the "can_benefit" trigger then this modifier will be applied instead.
 	fallback = {
 		monthly_prestige_gain_mult = 0.1
