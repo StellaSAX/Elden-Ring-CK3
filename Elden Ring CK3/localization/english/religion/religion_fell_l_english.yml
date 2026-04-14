@@ -1,0 +1,86 @@
+﻿l_english:
+ 
+ giant_religion:0 "Fell religion"
+ giant_religion_adj:0 "fell"
+ giant_religion_adherent:0 "fell Worshiper"
+ giant_religion_adherent_plural:0 "fell Worshipers"
+ giant_religion_desc:0 "The fell god of the giants once held great power in the form of a fire that could burn the Erdtree. But now, it is reduced to beguile its wardens to gain influence"
+ fell_high_god_name:0 "The Fell God"
+ fell_high_god_name_2:0 "$fell_high_god_name$" # Optional translation alt
+ fell_high_god_name_3:0 "$fell_high_god_name$" # Optional translation alt
+ fell_high_god_name_possessive:0 "the Fell God's"
+ fell_high_god_name_alternate:0 "the Flame of Ruin"
+ fell_high_god_name_alternate_possesive:0 "the Flame of Ruin's"
+ fell_devil_name:0 "Greater Will"
+ fell_devil_name_possessive:0 "Greater Will's"
+ fell_death_deity_name:0 "Destined Death"
+ fell_death_deity_name_possessive:0 "Destined Death's"
+ fell_house_of_worship:0 "furnace"
+ fell_house_of_worship_2:0 "church" # Optional translation alt
+ fell_house_of_worship_3:0 "$fell_house_of_worship$" # Optional translation alt
+ fell_house_of_worship_plural:0 "furnaces"
+ fell_religious_symbol:0 "eye"
+ fell_religious_symbol_2:0 "$fell_religious_symbol$" # Optional translation alt
+ fell_religious_symbol_3:0 "$fell_religious_symbol$" # Optional translation alt
+ fell_religious_text:0 "prayerbook"
+ fell_religious_text_2:0 "$fell_religious_text$"  
+ fell_religious_text_3:0 "$fell_religious_text$"
+ fell_religious_head_title:0 "Chief Gardianship"
+ fell_religious_head_title_name:0 "Chief Guardian"
+ fell_devotee_male:0 "Fire Monk"
+ fell_devotee_male_plural:0 "Fire Monks"
+ fell_devotee_female:0 "$fell_devotee_male$"
+ fell_devotee_female_plural:0 "$fell_devotee_male_plural$"
+ fell_devotee_neuter:0 "$fell_devotee_male$"
+ fell_devotee_neuter_plural:0 "$fell_devotee_male_plural$"
+ fell_priest_male:0 "fire guardian"
+ fell_priest_male_plural:0 "fire guardians"
+ fell_priest_alternate_plural:0 "guardianss"
+ fell_bishop:0 "Fire Prelate"
+ fell_bishop_plural:0 "Fire Prelates"
+ fell_positive_afterlife:0 "rendered to ash"
+ fell_positive_afterlife_2:1 "became spirit ash" # Optional translation alt
+ fell_positive_afterlife_3:1 "$fell_positive_afterlife$" # Optional translation alt
+ fell_negative_afterlife:0 "the terror of Frenzy"
+ fell_negative_afterlife_2:1 "in eternal servitude" # Optional translation alt
+ fell_negative_afterlife_3:1 "bound to the Erdtree" # Optional translation alt
+ fell_witchgodname_the_horned_god:0 "the Blood Star"
+ fell_witchgodname_the_horned_god_possessive:0 "the Blood Star's"
+ 
+ fell_creator_god_name:0 "$fell_high_god_name$"
+ fell_creator_god_name_possessive:0 "$fell_high_god_name_possessive$"
+ fell_health_god_name:0 "$fell_high_god_name$"
+ fell_health_god_name_possessive:0 "$fell_high_god_name_possessive$'"
+ fell_fertility_god_name:0 "$fell_high_god_name$"
+ fell_fertility_god_name_possessive:0 "$$fell_high_god_name_possessive$"
+ fell_wealth_god_name:0 "$fell_high_god_name$"
+ fell_wealth_god_name_possessive:0 "$fell_high_god_name_possessive$"
+ fell_household_god_name:0 "$fell_high_god_name$"
+ fell_household_god_name_possessive:0 "$fell_high_god_name_possessive$"
+ fell_fate_god_name:0 "$fell_high_god_name$"
+ fell_fate_god_name_possessive:0 "$fell_high_god_name_possessive$"
+ fell_knowledge_god_name:0 "$fell_high_god_name$"
+ fell_knowledge_god_name_possessive:0 "$fell_high_god_name_possessive$"
+ fell_war_god_name:0 "$fell_high_god_name$"
+ fell_war_god_name_possessive:0 "$fell_high_god_name_possessive$"
+ fell_trickster_god_name:0 "$fell_high_god_name$"
+ fell_trickster_god_name_possessive:0 "$fell_high_god_name_possessive$"
+ fell_night_god_name:0 "$fell_high_god_name$"
+ fell_night_god_name_possessive:0 "$fell_high_god_name_possessive$"
+ fell_water_god_name:0 "$fell_high_god_name$"
+ fell_water_god_name_possessive:0 "$fell_high_god_name_possessive$"
+
+ #Subfaiths
+
+ faith_fire_monk:0 "Fallen Brotherhood"
+ faith_fire_monk_adj:0 "Fire Monks"
+ faith_fire_monk_adherent:0 "Monk"
+ faith_fire_monk_adherent_plural:0 "Monks"
+ faith_fire_monk_desc:0 "An old order of monks once ordered by Marika to guard the forge for eternity. But now, the flame has seduced them all and the fell monks serve its will."
+
+
+ faith_giant:0 "Fell Fire"
+ faith_giant_adj:0 "Forgotten Fire"
+ faith_giant_adherent:0 "Follower"
+ faith_giant_adherent_plural:0 "Followers"
+ faith_giant_desc:0 "The Fire Giants once worshipped the Flame of Ruin, but now it has been forgotten by time in all places... Except one. The guardian of the forge, last of the giants, vaguely remembers the rites of his ancestors."
