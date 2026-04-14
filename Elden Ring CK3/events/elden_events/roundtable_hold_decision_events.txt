@@ -1,0 +1,470 @@
+﻿namespace = roundtable_hold_decision_events
+################
+# roundtable_hold_decision_events.0001#get to the table
+# roundtable_hold_decision_events.0002#talk to leader
+# roundtable_hold_decision_events.0003#buy artifact
+################
+#get to the table
+roundtable_hold_decision_events.0001 = {
+	type = character_event
+	title = roundtable_hold_decision_events.0001.t	
+	window = visit_settlement_window
+	desc = roundtable_hold_decision_events.0001.desc
+	theme = landless_adventurer
+
+	override_background = { reference = elden_ring_main_hall }
+	
+	center_portrait = {
+		character = root
+		triggered_animation = {
+			trigger = { 1010_has_irrational_traits = yes }
+			animation = personality_irrational
+		}
+		triggered_animation = {
+			trigger = { 1010_has_standoffish_traits = yes }
+			animation = personality_coward
+		}
+		triggered_animation = {
+			trigger = { 1010_has_uninterested_traits = yes }
+			animation = personality_callous
+		}
+		animation = personality_content
+	}
+	
+	#talk to leader
+	option = {
+		name = roundtable_hold_decision_events.1000.a
+		trigger = {
+			custom_tooltip = {
+				text = roundtable_hold_decision_events.0002.cooldown.tt
+				NAND = {
+					has_variable = hired_tarnished_in_roundtable
+					has_variable = increse_skill_in_roundtable
+				}
+			}
+		}
+		
+		#Actual transition event
+		custom_tooltip = roundtable_hold_decision_events.1000.a.tt
+		trigger_event = roundtable_hold_decision_events.0002
+		ai_chance = { base = 0 }
+	}
+	#buy artifact
+	option = {
+		name = roundtable_hold_decision_events.1000.b
+		
+		#Actual transition event
+		custom_tooltip = roundtable_hold_decision_events.1000.b.tt
+		trigger_event = roundtable_hold_decision_events.0003
+		ai_chance = { base = 0 }
+	}
+	#change faith
+	option = {
+		name = roundtable_hold_decision_events.1000.b
+		
+		#Actual transition event
+		custom_tooltip = roundtable_hold_decision_events.1000.c.tt
+		trigger_event = roundtable_hold_decision_events.1050
+		ai_chance = { base = 0 }
+	}
+	#get out
+	option = {
+		name = roundtable_hold_decision_events.1000.i
+		custom_tooltip = roundtable_hold_decision_events.1000.i.tt
+		#For loc reasons
+		1000_remember_settlement_effect = yes
+		1000_clean_up_effect = yes
+		ai_chance = { base = 50 }
+	}
+	# after = {
+		# remove_variable ?= 1000_is_currently_raining
+		# remove_variable ?= 1000_is_currently_snowing
+		# remove_variable ?= 1000_is_currently_foggy
+		# #For all options that are NOT Page 2
+		# if = {
+			# limit = {
+				# has_variable = return_from_location
+				# NOT = { var:return_from_location = flag:main_square }
+			# }
+			# #We got kick-off!
+			# 1000_update_last_location_effect = { LOCATION_FLAG = flag:main_square }	
+		# }
+	# }
+}
+#talk to other tarnished
+roundtable_hold_decision_events.0002 = {
+	type = character_event
+	title = roundtable_hold_decision_events.0001.t	
+	window = visit_settlement_window
+	desc = roundtable_hold_decision_events.0001.desc
+	theme = landless_adventurer
+
+	override_background = { reference = elden_ring_main_hall }
+	
+	center_portrait = { #player
+		character = root
+		triggered_animation = {
+			trigger = { 1010_has_irrational_traits = yes }
+			animation = personality_irrational
+		}
+		triggered_animation = {
+			trigger = { 1010_has_standoffish_traits = yes }
+			animation = personality_coward
+		}
+		triggered_animation = {
+			trigger = { 1010_has_uninterested_traits = yes }
+			animation = personality_callous
+		}
+		animation = personality_content
+	}
+
+	#gain skill
+	option = {
+		name = roundtable_hold_decision_events.0002.a
+		trigger = {
+			custom_tooltip = {
+				text = roundtable_hold_decision_events.0002.cooldown.tt
+				NOT = { has_variable = increse_skill_in_roundtable }
+			}
+		}
+		set_variable = {
+			name = increse_skill_in_roundtable
+			days = 365
+		}
+
+		trigger_event = roundtable_hold_decision_events.0001
+		random_list = {
+			20 = { 
+				add_martial_skill = 1
+			}
+			20 = {
+				add_stewardship_skill = 1
+			}
+			20 = {
+				add_learning_skill = 1
+			}
+			20 = {
+				add_intrigue_skill = 1
+			}
+			20 = {
+				add_diplomacy_skill = 1
+			}
+		}
+		
+		
+		if = {
+			limit = {
+				has_trait = zealous
+				NOT = { has_trait = eccentric }
+			}
+			stress_impact = { zealous = miniscule_stress_impact_gain }
+		}
+
+		ai_chance = {
+			base = 100
+			modifier = {
+				has_variable = 1031_skill_gain_variable
+				var:1031_skill_gain_variable < visit_settlement_skill_gain_cap_value
+				add = 400 #Just do it
+			}
+		}
+	}
+	#recruit a tarnished
+	option = {
+		name = roundtable_hold_decision_events.0002.b
+		trigger = {
+			custom_tooltip = {
+				text = roundtable_hold_decision_events.0002.cooldown.tt
+				NOT = { has_variable = hired_tarnished_in_roundtable }
+			}
+		}
+		set_variable = {
+			name = hired_tarnished_in_roundtable
+			days = 365
+		}
+	
+		pay_short_term_gold = {
+			target = scope:random_tarnished_to_hire
+			gold = 250
+		}
+		create_character = {
+			template = template_random_tarnished
+			location = root.location
+			gender_female_chance = 50
+			save_scope_as = random_tarnished_to_hire
+		}
+		scope:random_tarnished_to_hire = {
+			add_trait = tarnished		
+			random_list = {
+				40 = {
+					if = {
+						limit = {
+							martial >= 15
+						}
+						set_culture = culture:cul_badlands
+					}
+					else = {
+						set_culture = culture:cul_altus
+					}
+				}
+				15 = {
+					set_culture = culture:cul_northerner
+				}
+				15 = {
+					if = {
+						limit = {
+							learning >= 15
+						}
+						set_culture = culture:cul_caria
+					}
+					else = {
+						set_culture = culture:cul_liurnia
+					}
+				}
+				10 = {
+					set_culture = culture:cul_caelid
+				}
+				10 = {
+					set_culture = culture:cul_limgrave
+				}
+				5 = {
+					set_culture = culture:cul_draconian
+				}
+				5 = {
+					set_culture = culture:cul_reedlander
+				}
+				
+			}
+			random_list = {
+				20 = {
+					set_character_faith = faith:faith_golden
+				}
+				20 = {
+					set_character_faith = faith:faith_fundamentalism
+				}
+				1 = {
+					set_character_faith = faith:faith_perfect
+				}
+				
+			}
+		
+		}
+		trigger_event = roundtable_hold_decision_events.0001
+		add_courtier = scope:random_tarnished_to_hire
+		ai_chance = {
+			base = 50
+			modifier = {
+				short_term_gold < scope:second_recruit_cost
+				short_term_gold < laamp_ai_spending_pants_value
+				any_courtier = { count <= 2 }
+				factor = 0
+			}
+		}
+	}
+	
+	#get out
+	option = {
+		name = roundtable_hold_decision_events.0002.c
+		trigger_event = roundtable_hold_decision_events.0001
+		ai_chance = {
+			base = 1
+		}
+	}
+
+}
+#buy artifact
+roundtable_hold_decision_events.0003 = {
+	type = character_event
+	title = roundtable_hold_decision_events.0003.t	
+	window = visit_settlement_window
+	desc = roundtable_hold_decision_events.0003.desc
+	theme = landless_adventurer
+
+	override_background = { reference = elden_ring_study }
+	center_portrait = {
+		character = root
+		animation = thinking
+	}
+	
+	artifact = {
+		target = scope:1061_first_weapon
+		position = lower_left_portrait
+	}
+	artifact = {
+		target = scope:1061_second_weapon
+		position = lower_center_portrait
+	}
+	artifact = {
+		target = scope:1061_third_weapon
+		position = lower_right_portrait
+	}
+	
+	immediate = {
+		#Find our weapons
+		if = {
+			limit = {
+				NOT = { exists = scope:1061_first_weapon }
+			}
+			
+			#If we don't have any old weapons; generate new ones!
+			hidden_effect_new_object = { #HAZMAT SUIT OF ERROR SUPRESSION  ///I don't know what they meant by this, but i am scared
+				if = {
+					limit = {
+						NOT = { exists = scope:1061_first_weapon }
+					}
+					#Set rarity, maybe
+					1041_chance_to_buff_item_rarity_effect = { VENDOR = scope:laamp_armorer_craftsman }
+					#Generate weapon
+					create_artifact_weapon_effect = {
+						OWNER = scope:laamp_armorer_craftsman
+						CREATOR = scope:laamp_armorer_craftsman
+						SET_WEAPON_TYPE = flag:no
+					}
+					#Finalization
+					scope:newly_created_artifact ?= {
+						1061_set_weapon_variable_effect = yes
+						1061_buff_item_modifiers_effect = yes
+						#Don't need no notification about this
+						1020_suppress_artifact_notifications_effect = yes
+						save_scope_as = 1061_first_weapon
+					}
+				}
+				if = {
+					limit = {
+						NOT = { exists = scope:1061_second_weapon }
+					}
+					#Set rarity, maybe
+					1041_chance_to_buff_item_rarity_effect = { VENDOR = scope:laamp_armorer_craftsman }
+					#Generate weapon
+					create_artifact_armor_effect = {
+						OWNER = scope:laamp_armorer_craftsman
+						CREATOR = scope:laamp_armorer_craftsman
+						SET_ARMOR_TYPE = flag:armor_type_scale
+					}
+					#Finalization
+					scope:newly_created_artifact ?= {
+						1063_set_armor_variable_effect = yes
+						1061_buff_item_modifiers_effect = yes
+						#Don't need no notification about this
+						1020_suppress_artifact_notifications_effect = yes
+						save_scope_as = 1063_third_armor
+					}
+				}
+				if = {
+					limit = {
+						NOT = { exists = scope:1061_third_weapon }
+					}
+					#Set rarity, maybe
+					1041_chance_to_buff_item_rarity_effect = { VENDOR = scope:laamp_armorer_craftsman }
+					#Generate weapon
+					random_list = {
+						50 = {
+							create_artifact_brooch_effect = {
+								OWNER = scope:laamp_armorer_craftsman
+								SMITH = scope:laamp_armorer_craftsman
+							}
+						}
+						50 = {
+							create_artifact_ring_effect = {
+								OWNER = scope:laamp_armorer_craftsman
+								SMITH = scope:laamp_armorer_craftsman
+							}
+						}
+						50 = {
+							create_artifact_necklace_effect = {
+								OWNER = scope:laamp_armorer_craftsman
+								SMITH = scope:laamp_armorer_craftsman
+							}
+						}
+					}
+					#Finalization
+					scope:newly_created_artifact ?= {
+						1065_set_accessory_variable_effect = yes
+						1061_buff_item_modifiers_effect = yes
+						#Don't need no notification about this
+						1020_suppress_artifact_notifications_effect = yes
+						save_scope_as = 1065_first_accessory
+					}
+				}
+				#Set the value of the weapons
+				scope:1061_first_weapon = { 1041_set_item_value_effect = yes }
+				scope:1061_second_weapon = { 1041_set_item_value_effect = yes }
+				scope:1061_third_weapon = { 1041_set_item_value_effect = yes }
+			}
+			
+
+		}
+	}
+	#weapon
+	option = {
+		name = ep3_laamp_decision_event.1061.a
+		#Pay gold, transfer weapon
+		scope:1061_first_weapon = { 1061_buy_item_effect = yes }
+		#Then set correct variables and reroute us to the craftsmen
+		1061_bought_weapon_effect = yes
+		ai_chance = {
+			base = 100
+			modifier = {
+				short_term_gold < scope:1061_first_weapon.var:1061_weapon_value
+				short_term_gold < laamp_ai_spending_pants_value
+				factor = 0
+			}
+		}
+	}
+	#armor
+	option = {
+		name = ep3_laamp_decision_event.1061.b
+		#Pay gold, transfer weapon
+		scope:1063_third_armor = { 1061_buy_item_effect = yes }
+		#Then set correct variables and reroute us to the craftsmen
+		1061_bought_weapon_effect = yes
+		ai_chance = {
+			base = 100
+			modifier = {
+				short_term_gold < scope:1063_third_armor.var:1061_weapon_value
+				short_term_gold < laamp_ai_spending_pants_value
+				factor = 0
+			}
+		}
+	}
+	#artifact
+	option = {
+		name = ep3_laamp_decision_event.1061.c
+		#Pay gold, transfer weapon
+		scope:1065_first_accessory = { 1061_buy_item_effect = yes }
+		#Then set correct variables and reroute us to the craftsmen
+		1061_bought_weapon_effect = yes
+		ai_chance = {
+			base = 100
+			modifier = {
+				short_term_gold < scope:1065_first_accessory.var:1061_weapon_value
+				short_term_gold < laamp_ai_spending_pants_value
+				factor = 0
+			}
+		}
+	}
+	
+	#get out
+	option = {
+		name = roundtable_hold_decision_events.1000.i
+		custom_tooltip = roundtable_hold_decision_events.1000.i.tt
+		#For loc reasons
+		trigger_event = roundtable_hold_decision_events.0001
+		1000_clean_up_effect = yes
+		ai_chance = { base = 50 }
+	}
+	after = {
+		remove_variable ?= 1000_is_currently_raining
+		remove_variable ?= 1000_is_currently_snowing
+		remove_variable ?= 1000_is_currently_foggy
+		#For all options that are NOT Page 2
+		if = {
+			limit = {
+				has_variable = return_from_location
+				NOT = { var:return_from_location = flag:main_square }
+			}
+			#We got kick-off!
+			1000_update_last_location_effect = { LOCATION_FLAG = flag:main_square }	
+		}
+	}
+}

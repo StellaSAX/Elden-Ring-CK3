@@ -1,0 +1,31 @@
+﻿elden_ring_equipment = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/elden_ring_equipment.dds"
+		environment = "environment_event_battlefield"
+		ambience = "event:/SFX/Events/Backgrounds/battlefield_gloomy"
+	}
+}
+
+elden_ring_main_hall = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/elden_ring_main_hall.dds"
+		environment = "environment_event_battlefield"
+		ambience = "event:/SFX/Events/Backgrounds/battlefield_gloomy"
+	}
+}
+
+elden_ring_study = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/elden_ring_study.dds"
+		environment = "environment_event_battlefield"
+		ambience = "event:/SFX/Events/Backgrounds/battlefield_gloomy"
+	}
+}
+
+elden_ring_fingers = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/elden_ring_fingers.dds"
+		environment = "environment_event_battlefield"
+		ambience = "event:/SFX/Events/Backgrounds/battlefield_gloomy"
+	}
+}
