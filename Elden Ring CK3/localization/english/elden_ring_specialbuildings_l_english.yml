@@ -1,0 +1,57 @@
+﻿l_english:
+
+ building_type_dragon_communion_church_01:0 "Church of the Dragon Communion"
+
+ building_dragon_communion_church_01:0 "Church of the Dragon Communion, Ruined"
+ building_dragon_communion_church_01_desc:0 "The dilapidated remains of a church, where the corpse of an Ancient Dragon rests behind an altar. At this altar, practicioners of the Dragon Communion would consume the hearts of fallen dragons to inherit ther draconic abilities."
+
+ building_dragon_communion_church_02:0 "Church of the Dragon Communion"
+ building_dragon_communion_church_02_desc:0 "The sanctuary restored to its former glory, this church is built around the corpse of an Ancient Dragon, who rests behind an altar. At this altar, practitioners of the Dragon Communion would consume the hearts of fallen dragons to inherit ther draconic abilities."
+
+ building_evergaol:0 "Evergaol"
+ building_evergaol_desc:0 "A stone circle with some sort of waygate in the center to enter the gaol. It is used to imprison some of the most dangerous individuals in the Lands Between for an eternity, unless someone successfully liberates or slays the prisoner."
+
+ building_minor_erdtree:0 "Minor Erdtree"
+ building_minor_erdtree_desc:0 "Gargantuan deciduous trees with dense canopies of golden leaves, visible from great distances. The bark of young Minor Erdtrees gives of a golden glow that fades as they reach maturity. After the Shattering, Erdtree Avatars were made to be the guardians of these trees.\n\nBeneath the Minor Erdtrees are catacombs for the ritual known as the 'Erdtree Burial', where a select few are granted the honor of a proper death by returning to the Erdtree."
+
+ building_bridge_of_sacrifice:0 "Bridge of Sacrifice"
+ building_bridge_of_sacrifice_desc:0 "A short, heavily fortified bridge connecting mainland Limgrave to the Weeping Peninsula"
+
+ building_castle_morne_1:0 "Castle Morne, Occupied"
+ building_castle_morne_1_desc:0 "A heavily fortified castle that rises from the southern tip of the Weeping Peninsula, where in the Age of the Erdtree the nameless champion known only as the Revenger fought the First Elden Lord Godfrey, seeking revenge for his fallen kinsmen.\n\nIt is currently overran by it's former Misbegotten servants, after a recent slave revolt successfully left most of the facilities in ruins and the depleted garrison driven to remain in a select few strongholds."
+
+ building_castle_morne_2:0 "Castle Morne"
+ building_castle_morne_2_desc:0 "A heavily fortified castle that rises from the southern tip of the Weeping Peninsula, where in the Age of the Erdtree the nameless champion known only as the Revenger fought the First Elden Lord Godfrey, seeking revenge for his fallen kinsmen.\n\nWith the slave revolt crushed, the castle has been successfully repaired alongside having its garrison replenished. Once again, this castle is back to its former glory and proudly towers over the Weeping Peninsula as the seat of power within the region."
+
+ building_fort_haight_1:0 "Fort Haight, Neglected"
+ building_fort_haight_1_desc:0 "This fort sits alongside the eartern coast of Limgrave, the ancestral holding for House Haight.\n\nDuring it's occupation at the hands of the soldiers of Godrick the Grafted, it has fallen into disrepair and is known as a rather pitiful excuse of a fort."
+
+ building_fort_haight_2:0 "Fort Haight"
+ building_fort_haight_2_desc:0 "This fort sits alongside the eartern coast of Limgrave, the ancestral holding for House Haight.\n\nAfter extensive repairs, the fort has been reinforced and has been given a new lease on life as a respectable and strategic holding in Limgrave."
+
+ building_stormgate:0 "Stormgate"
+ building_stormgate_desc:0 "Protected by a giant troll, this gate stands as the chokepoint for access into Stormhill and the road towards Stormveil Castle."
+
+ building_sellia_gateway:0 "Sellia Gateway"
+ building_sellia_gateway_desc:0 "This gate stands as the chokepoint for access into Sellia, the 'Town of Sorcery'"
+
+ building_grand_lift_dectus:0 "Grand Lift of Dectus"
+ building_grand_lift_dectus_desc:0 "A colossal structure reaching gargantuan heights, it is a lift that connects Liurnia to Altus Plateau."
+
+ building_beastial_sanctum:0 "Bestial Sanctum"
+ building_beastial_sanctum_desc:0 "An ancient structure on the northernmost tip of Caelid. It is rumored to house a beast clergyman that is obsessed with obtaining and consuming Deathroot."
+
+ building_fort_gael_1:0 "Fort Gael"
+ building_fort_gael_1_desc:0 "This heavily fortified fort sits in a strategic spot on the western edge of Caelid, overlooking the region. It's garrison is renowned for their efforts in combatting the spread of the Crimson Rot via using fire-based techniques and Flame Chariots."
+
+ building_redmane_castle:0 "Redmane Castle"
+ building_redmane_castle_desc:0 "A fortress on an island to the south of Caelid, connected to the mainland by a heavily fortified greatbridge. The castle is the stronghold of General Radahn's army, beaten yet unbowed after their defeat at the hands of Malenia and her Cleanrot Knights."
+
+ building_shaded_castle:0 "The Shaded Castle"
+ building_shaded_castle_desc:0 "A derelict castle sinking into a poisonous mire in the north of Altus Plateau.\n\nFor generations, the Shaded Castle was ruled over by House Marais, who served as both executioners and castellans."
+
+ building_fort_laiedd:0 "Fort Laiedd"
+ building_fort_laiedd_desc:0 "A fort on the north-western side of Mt. Gelmir, which contains a Fire Prelate and a Magma Wyrm within it's depths."
+
+ building_volcano_manor:0 "Volcano Manor"
+ building_volcano_manor_desc:0 "Volcano Manor was the home of Praetor Rykard and his Recusant (needs detailed loc)"
