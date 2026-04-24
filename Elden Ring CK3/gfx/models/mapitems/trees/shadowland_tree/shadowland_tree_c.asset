@@ -1,0 +1,20 @@
+pdxmesh = {
+	name = "shadowland_tree_c_mesh"
+	file = "shadowland_tree_c.mesh"
+
+	meshsettings = {
+		name = "|tree_leaf_01_c|tree_leaf_01_c|tree_leaf_01_cShape"
+		index = 0
+		texture_diffuse = "shadowland_tree_diffuse.dds"
+		texture_normal = "shadowland_tree_normal.dds"
+		texture_specular = "shadowland_tree_properties.dds"
+		texture = { file = "shadowland_tree_tint.dds" index = 3 srgb = yes } 
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+}
+
+entity = {
+	name = "shadowland_tree_c_entity"
+	pdxmesh = "shadowland_tree_c_mesh"
+}

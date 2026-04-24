@@ -1,0 +1,20 @@
+pdxmesh = {
+	name = "scaduview_tree_c_mesh"
+	file = "scaduview_tree_c.mesh"
+
+	meshsettings = {
+		name = "|tree_leaf_01_c|tree_leaf_01_c|tree_leaf_01_cShape"
+		index = 0
+		texture_diffuse = "scaduview_tree_diffuse.dds"
+		texture_normal = "scaduview_tree_normal.dds"
+		texture_specular = "scaduview_tree_properties.dds"
+		texture = { file = "scaduview_tree_tint.dds" index = 3 srgb = yes } 
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+}
+
+entity = {
+	name = "scaduview_tree_c_entity"
+	pdxmesh = "scaduview_tree_c_mesh"
+}

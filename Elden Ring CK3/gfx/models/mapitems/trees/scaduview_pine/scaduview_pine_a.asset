@@ -1,0 +1,20 @@
+pdxmesh = {
+	name = "scaduview_pine_a_mesh"
+	file = "scaduview_pine_a.mesh"
+
+	meshsettings = {
+		name = "tree_pine_01_aShape"
+		index = 0
+		texture_diffuse = "scaduview_pine_diffuse.dds"
+		texture_normal = "scaduview_pine_normal.dds"
+		texture_specular = "scaduview_pine_properties.dds"
+		texture = { file = "scaduview_pine_tint.dds" index = 3 srgb = yes }
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+}
+
+entity = {
+	name = "scaduview_pine_a_entity"
+	pdxmesh = "scaduview_pine_a_mesh"
+}

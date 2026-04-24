@@ -1,0 +1,47 @@
+pdxmesh = {
+	name = "cerulean_pine_b_mesh"
+	file = "cerulean_pine_b.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 9.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "LOD_0|tree_pine_01_b|tree_pine_01_bShape"
+		index = 0
+		texture_diffuse = "cerulean_pine_diffuse.dds"
+		texture_normal = "cerulean_pine_normal.dds"
+		texture_specular = "cerulean_pine_properties.dds"
+		texture = { file = "cerulean_pine_tint.dds" index = 3 srgb = yes }
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_1|tree_pine_01_b|tree_pine_01_bShape"
+		index = 0
+		texture_diffuse = "cerulean_pine_diffuse.dds"
+		texture_normal = "cerulean_pine_normal.dds"
+		texture_specular = "cerulean_pine_properties.dds"
+		texture = { file = "cerulean_pine_tint.dds" index = 3 srgb = yes }
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_2|tree_pine_01_b|tree_pine_01_bShape"
+		index = 0
+		texture_diffuse = "cerulean_pine_diffuse.dds"
+		texture_normal = "cerulean_pine_normal.dds"
+		texture_specular = "cerulean_pine_properties.dds"
+		texture = { file = "cerulean_pine_tint.dds" index = 3 srgb = yes }
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+}
+
+entity = {
+	name = "cerulean_pine_b_entity"
+	pdxmesh = "cerulean_pine_b_mesh"
+}

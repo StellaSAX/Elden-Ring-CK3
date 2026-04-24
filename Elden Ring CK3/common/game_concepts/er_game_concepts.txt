@@ -1,0 +1,4 @@
+﻿light_infantry = {
+	texture = "gfx/interface/icons/regimenttypes/light_infantry.dds"
+	parent = men_at_arms
+}

@@ -21,7 +21,143 @@
 
 @cultural_maa_extra_ai_score = 80
 
-#HORNSENT
+
+
+#LIMGRAVE FACTION
+godrick_footsoldier = {
+	type = skirmishers
+
+	damage = 10
+	toughness = 16
+	pursuit = 10
+	screen = 16
+
+	terrain_bonus = {
+		forest = { damage = 4 toughness = 6 }
+		taiga = { damage = 4 toughness = 6 }
+		jungle = { damage = 4 toughness = 6 }
+	}
+
+	counters = {
+		heavy_infantry = 1
+	}
+
+	can_recruit = {
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_cheap
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = { value = culture_ai_weight_skirmishers }
+
+	illustration = {
+		reference = godrick_footsoldier
+	}
+}
+
+godrick_soldier = {
+	type = light_infantry
+
+	damage = 28
+	toughness = 18
+	pursuit = 0
+	screen = 0
+
+	counters = {
+		peasant_militia = 1
+	}
+
+	can_recruit = {
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { gold = 110 }
+	low_maintenance_cost = { gold = 0.49 }
+	high_maintenance_cost = { gold = 1.46 }
+	provision_cost = @provisions_cost_infantry_moderate
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = {
+		value = culture_ai_weight_heavy_infantry
+		add = counter_synergy_ai_weight_heavy_infantry
+	}
+
+	illustration = {
+		reference = godrick_soldier
+	}
+}
+
+godrick_knight = {
+	type = heavy_infantry
+
+	damage = 32
+	toughness = 22
+	pursuit = 0
+	screen = 0
+
+	counters = {
+		pikemen = 1
+		peasant_militia = 2
+	}
+
+	can_recruit = {
+		culture = {
+			has_innovation = innovation_quilted_armor
+		}
+		NOT = {
+			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+		}
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { gold = heavy_infantry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_moderate
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = {
+		value = culture_ai_weight_heavy_infantry
+		add = counter_synergy_ai_weight_heavy_infantry
+	}
+
+	illustration = {
+		reference = godrick_knight
+	}
+}
+
+#HORNSENT FACTION
 horned_warrior = {
 	type = heavy_infantry
 	
@@ -146,10 +282,10 @@ hornsent_curseblade = {
 
 	stack = 50
 	allowed_in_hired_troops = no
-	icon = wyvern_rider
+	icon = hornsent_curseblade
 }
 
-#CARIAN
+#CARIAN FACTION
 troll_knight = {
 	type = heavy_infantry
 	
@@ -209,7 +345,7 @@ glintstone_miner = {
 	icon = glintstone_miner
 }
 
-battlemage_carian = {
+carian_battlemage = {
 	type = archers
 	
 	damage = 60
@@ -273,8 +409,8 @@ lazuli_sorcerer = {
 	icon = lazuli_sorcerer
 }
 
-#ORDER
-gold_knight = {
+#LEYNDELL FACTION
+leyndell_knight = {
 	type = heavy_infantry
 	
 	damage = 50
@@ -301,10 +437,10 @@ gold_knight = {
 
 	stack = 100
 	allowed_in_hired_troops = no
-	icon = gold_knight
+	icon = leyndell_knight
 }
 
-golden_soldier = {
+leyndell_soldier = {
 	type = skirmishers
 	
 	damage = 15
@@ -324,7 +460,7 @@ golden_soldier = {
 
 	stack = 100
 	allowed_in_hired_troops = no
-	icon = golden_soldier
+	icon = leyndell_soldier
 }
 
 tree_sentinel = {

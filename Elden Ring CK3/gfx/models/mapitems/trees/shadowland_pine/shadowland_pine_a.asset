@@ -1,0 +1,20 @@
+pdxmesh = {
+	name = "shadowland_pine_a_mesh"
+	file = "shadowland_pine_a.mesh"
+
+	meshsettings = {
+		name = "tree_pine_01_aShape"
+		index = 0
+		texture_diffuse = "shadowland_pine_diffuse.dds"
+		texture_normal = "shadowland_pine_normal.dds"
+		texture_specular = "shadowland_pine_properties.dds"
+		texture = { file = "shadowland_pine_tint.dds" index = 3 srgb = yes }
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+}
+
+entity = {
+	name = "shadowland_pine_a_entity"
+	pdxmesh = "shadowland_pine_a_mesh"
+}
