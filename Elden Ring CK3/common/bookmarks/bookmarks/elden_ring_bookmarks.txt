@@ -1,4 +1,4 @@
-﻿bm_8301_elden_ring_demigods = { #the demigods
+﻿bm_8301_er_demigods = { #the demigods
 	start_date = 8301.1.1
 	is_playable = yes
 	group = bm_group_8301
@@ -8,7 +8,7 @@
 	}
 
 	character = {
-		name = "bookmark_morgott_elden_ring"
+		name = "bookmark_morgott"
 		dynasty = dynn_erdtree
 		dynasty_splendor_level = 4
 		type = male
@@ -19,14 +19,14 @@
 		religion = faith_golden
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = morgott
-		position = { 440 380 }
+		position = { 710 410 }
 		
 		animation = personality_honorable
 		
 	}
 	
 	character = {
-		name = "bookmark_godrick_elden_ring"
+		name = "bookmark_godrick"
 		dynasty = dynn_erdtree
 		dynasty_splendor_level = 4
 		type = male
@@ -37,14 +37,14 @@
 		religion = faith_golden
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = godrick
-		position = { 280 750 }
+		position = { 420 820 }
 		
 		animation = personality_coward
 		
 	}
 	
 	character = {
-		name = "bookmark_rykard_elden_ring"
+		name = "bookmark_rykard"
 		dynasty_house = house_gelmir_caria
 		dynasty_splendor_level = 4
 		type = male
@@ -55,14 +55,14 @@
 		religion = faith_god_snake
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = rykard
-		position = { 300 150 }
+		position = { 320 200 }
 		
 		animation = personality_callous
 		
 	}
 	
 	character = {
-		name = "bookmark_malenia_elden_ring"
+		name = "bookmark_malenia"
 		dynasty = dynn_erdtree
 		dynasty_splendor_level = 4
 		type = female
@@ -73,14 +73,14 @@
 		religion = faith_unalloyed
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = malenia
-		position = { 800 100 }
+		position = { 900 170 }
 		
 		animation = personality_bold
 		
 	}
 	
 	character = {
-		name = "bookmark_radahn_elden_ring"
+		name = "bookmark_radahn"
 		dynasty = dynn_golden_order
 		dynasty_splendor_level = 4
 		type = male
@@ -91,32 +91,14 @@
 		religion = faith_golden
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = radahn
-		position = { 750 550 }
+		position = { 900 740 }
 		
 		animation = disapproval
 		
 	}
 	
 	character = {
-		name = "bookmark_rennala_elden_ring"
-		dynasty = dynn_caria
-		dynasty_splendor_level = 4
-		type = female
-		birth = 513.1.1
-		title = k_raya_lucaria_leader
-		government = feudal_government
-		culture = cul_caria
-		religion = faith_moons
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = rennala
-		position = { 100 500 }
-		
-		animation = sadness
-		
-	}
-	
-	character = {
-		name = "bookmark_mohg_elden_ring"
+		name = "bookmark_mohg"
 		dynasty_house = house_mohgwyn_erdtree
 		dynasty_splendor_level = 4
 		type = male
@@ -127,14 +109,14 @@
 		religion = faith_formless
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = mohg
-		position = { 1100 650 }
+		position = { 1150 530 }
 		
 		animation = personality_dishonorable
 		
 	}
 }
 
-bm_8301_elden_ring_land_of_shadows = {
+bm_8301_er_land_of_shadows = {
 	start_date = 8301.1.1
 	is_playable = yes
 	group = bm_group_8301
@@ -144,7 +126,7 @@ bm_8301_elden_ring_land_of_shadows = {
 	}
 
 	character = {
-		name = "bookmark_trina_elden_ring"
+		name = "bookmark_trina"
 		dynasty = dynn_slumber
 		dynasty_splendor_level = 1
 		type = female
@@ -155,14 +137,14 @@ bm_8301_elden_ring_land_of_shadows = {
 		religion = faith_st_trina
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = trina
-		position = { 1000 800 }
+		position = { 670 820 }
 		
 		animation = personality_content
 		
 	}
 	
 	character = {
-		name = "bookmark_miquella_elden_ring"
+		name = "bookmark_miquella"
 		dynasty = dynn_erdtree
 		dynasty_splendor_level = 4
 		type = male
@@ -173,14 +155,14 @@ bm_8301_elden_ring_land_of_shadows = {
 		religion = faith_st_trina
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = miquella
-		position = { 1000 500 }
+		position = { 220 560 }
 		
 		animation = personality_compassionate
 		
 	}
 	
 	character = {
-		name = "bookmark_messmer_elden_ring"
+		name = "bookmark_messmer"
 		dynasty = dynn_erdtree
 		dynasty_splendor_level = 4
 		type = male
@@ -191,14 +173,14 @@ bm_8301_elden_ring_land_of_shadows = {
 		religion = faith_messmer
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = messmer
-		position = { 1000 200 }
+		position = { 820 220 }
 		
 		animation = sadness
 		
 	}
 	
 	character = {
-		name = "bookmark_rellana_elden_ring"
+		name = "bookmark_rellana"
 		dynasty = dynn_caria
 		dynasty_splendor_level = 4
 		type = female
@@ -209,13 +191,13 @@ bm_8301_elden_ring_land_of_shadows = {
 		religion = faith_messmer
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = rellana
-		position = { 440 380 }
+		position = { 440 340 }
 		
 		animation = marshal
 	}
 	
 	character = {
-		name = "bookmark_bayle_elden_ring"
+		name = "bookmark_bayle"
 		dynasty = dynn_jagged
 		dynasty_splendor_level = 4
 		type = male
@@ -226,14 +208,14 @@ bm_8301_elden_ring_land_of_shadows = {
 		religion = faith_bayle_dragon
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = bayle
-		position = { 1400 800 }
+		position = { 1020 740 }
 		
 		animation = anger
 		
 	}
 }
 
-bm_8301_elden_ring_meek_or_forgotten = { #smaller importance
+bm_8301_er_meek_or_forgotten = { #smaller importance
 	start_date = 8301.1.1
 	is_playable = yes
 	group = bm_group_8301
@@ -243,7 +225,7 @@ bm_8301_elden_ring_meek_or_forgotten = { #smaller importance
 	}
 
 	character = {
-		name = "bookmark_placidusax_elden_ring"
+		name = "bookmark_placidusax"
 		dynasty = dynn_farum
 		dynasty_splendor_level = 5
 		type = male
@@ -254,13 +236,13 @@ bm_8301_elden_ring_meek_or_forgotten = { #smaller importance
 		religion = faith_ancient_dragon
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = placidusax
-		position = { 1110 450 }
+		position = { 1080 280 }
 		
 		animation = menacing
 		
 	}	
 	character = {
-		name = "bookmark_maliketh_elden_ring"
+		name = "bookmark_maliketh"
 		dynasty = dynn_beast
 		dynasty_splendor_level = 5
 		type = male
@@ -271,13 +253,13 @@ bm_8301_elden_ring_meek_or_forgotten = { #smaller importance
 		religion = faith_golden
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = maliketh
-		position = { 750 630 }
+		position = { 880 580 }
 		
 		animation = personality_vengeful
 		
 	}		
 	character = {
-		name = "bookmark_haight_elden_ring"
+		name = "bookmark_haight"
 		dynasty = dynn_haight
 		dynasty_splendor_level = 1
 		type = male
@@ -288,13 +270,13 @@ bm_8301_elden_ring_meek_or_forgotten = { #smaller importance
 		religion = faith_golden
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = haight
-		position = { 800 870 }
+		position = { 730 820 }
 		
 		animation = personality_content
 		
 	}
 	character = {
-		name = "bookmark_edgar_elden_ring"
+		name = "bookmark_edgar"
 		dynasty = dynn_morne
 		dynasty_splendor_level = 2
 		type = male
@@ -305,13 +287,13 @@ bm_8301_elden_ring_meek_or_forgotten = { #smaller importance
 		religion = faith_golden
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = edgar
-		position = { 440 870 }
+		position = { 340 800 }
 		
 		animation = marshal
 		
 	}
 	character = {
-		name = "bookmark_elemer_elden_ring"
+		name = "bookmark_elemer"
 		dynasty = dynn_briar
 		dynasty_splendor_level = 2
 		type = male
@@ -322,13 +304,13 @@ bm_8301_elden_ring_meek_or_forgotten = { #smaller importance
 		religion = faith_golden
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = elemer
-		position = { 300 250 }
+		position = { 640 270 }
 		
 		animation = personality_callous
 		
 	}
 	character = {
-		name = "bookmark_maleigh_elden_ring"
+		name = "bookmark_maleigh"
 		dynasty = dynn_marais
 		dynasty_splendor_level = 2
 		type = male
@@ -339,14 +321,14 @@ bm_8301_elden_ring_meek_or_forgotten = { #smaller importance
 		religion = faith_rot #hide it
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = maleigh
-		position = { 220 500 }
+		position = { 240 440 }
 		
 		animation = menacing
 		
 	}
 }
 
-bm_8301_elden_ring_regents = { #regents to important people
+bm_8301_er_regents = { #regents to important people
 	start_date = 8301.1.1
 	is_playable = yes
 	group = bm_group_8301
@@ -354,9 +336,27 @@ bm_8301_elden_ring_regents = { #regents to important people
 	weight = {
 		value = 0
 	}
+	
+	character = {
+		name = "bookmark_rennala"
+		dynasty = dynn_caria
+		dynasty_splendor_level = 4
+		type = female
+		birth = 513.1.1
+		title = k_raya_lucaria_leader
+		government = feudal_government
+		culture = cul_caria
+		religion = faith_moons
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = rennala
+		position = { 180 570 }
+		
+		animation = sadness
+		
+	}
 
 	character = {
-		name = "bookmark_jerren_elden_ring"
+		name = "bookmark_jerren"
 		dynasty = dynn_eccentric
 		dynasty_splendor_level = 1
 		type = male
@@ -367,14 +367,14 @@ bm_8301_elden_ring_regents = { #regents to important people
 		culture = cul_caelid
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = jerren
-		position = { 800 600 }
+		position = { 880 760 }
 		
 		animation = marshal
 		
 	}
 	
 	character = {
-		name = "bookmark_loretta_elden_ring"
+		name = "bookmark_loretta"
 		dynasty = dynn_blue_knight
 		dynasty_splendor_level = 1
 		type = female
@@ -385,14 +385,14 @@ bm_8301_elden_ring_regents = { #regents to important people
 		culture = cul_liurnia
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = loretta
-		position = { 800 150 }
+		position = { 900 170 }
 		
 		animation = marshal
 		
 	}
 	
 	character = {
-		name = "bookmark_tanith_elden_ring"
+		name = "bookmark_tanith"
 		dynasty = dynn_snakesong
 		dynasty_splendor_level = 1
 		type = female
@@ -403,14 +403,14 @@ bm_8301_elden_ring_regents = { #regents to important people
 		culture = cul_gelmir 
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = tanith
-		position = { 200 200 }
+		position = { 340 200 }
 		
 		animation = personality_zealous
 		
 	}
 	
 	character = {
-		name = "bookmark_ranni_elden_ring"
+		name = "bookmark_ranni"
 		dynasty = dynn_caria
 		dynasty_splendor_level = 1
 		type = female
@@ -421,7 +421,7 @@ bm_8301_elden_ring_regents = { #regents to important people
 		culture = cul_caria  
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = ranni
-		position = { 100 500 }
+		position = { 640 460 }
 		
 		animation = personality_rational
 		

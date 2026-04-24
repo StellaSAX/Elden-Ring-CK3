@@ -1,6 +1,6 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:morgott
-challenge_character_morgott={
+bookmark_morgott={
 	type=male
 	id=17
 	random_seed=3195954018
