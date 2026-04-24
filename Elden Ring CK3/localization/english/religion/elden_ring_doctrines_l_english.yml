@@ -57,3 +57,6 @@
  rf_fell:0 "Fell"
  rf_shaman:0 "Shaman"
  rf_beyonder:0 "Beyond"
+ 
+ doctrine_grafting_type_name:0 "Grafting"
+ doctrine_omen_type_name:0 "Omen"

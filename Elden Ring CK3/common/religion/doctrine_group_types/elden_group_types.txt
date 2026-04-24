@@ -1,4 +1,4 @@
-﻿doctrine_grafting_type = {
+﻿doctrine_grafting = {
 	category = "crimes"
 
 	doctrine_types = {
@@ -9,7 +9,7 @@
 	}
 }
 
-doctrine_omen_type = {
+doctrine_omen = {
 	category = "crimes"
 
 	doctrine_types = {
