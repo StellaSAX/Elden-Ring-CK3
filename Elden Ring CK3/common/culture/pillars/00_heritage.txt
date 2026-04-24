@@ -128,3 +128,13 @@ heritage_hornsent = {
 	audio_parameter = european
 }
 
+heritage_rauh = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			heritage = heritage_rauh
+		}
+	}
+	audio_parameter = european
+}
+

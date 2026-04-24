@@ -218,3 +218,20 @@ language_hornsent = {
 	}
 	color = { 0.18 0.15 0.69 }
 }
+
+language_rauh = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_rauh
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_rauh }
+			multiply = 10
+		}
+	}
+	color = { 0.18 0.15 0.69 }
+}

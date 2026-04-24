@@ -151,7 +151,7 @@ cul_ancenstral_followers = {
 
 cul_limgrave = {
 	color = { 0.95 0.87 0.06 }
-	parents = { cul_lands_between }
+	parents = { cul_landsbetween }
 	created = 576.11.4
 	history_loc_override = created_long_ago_loc
 	ethos = ethos_communal
@@ -217,7 +217,7 @@ cul_weeping_peninsula = {
 
 cul_caelid = {
 	color = { 0.5 0.05 0.05 }
-	parents = { cul_lands_between }
+	parents = { cul_landsbetween }
 	history_loc_override = created_long_ago_loc
 	created = 576.11.4
 	ethos = ethos_bellicose
@@ -250,7 +250,7 @@ cul_caelid = {
 
 cul_altus = {
 	color = { 0.98 0.79 0.24 }
-	parents = { cul_lands_between cul_badlands }
+	parents = { cul_landsbetween cul_badlands }
 	history_loc_override = created_long_ago_loc
 	created = 576.11.4
 	ethos = ethos_courtly
@@ -350,7 +350,7 @@ cul_haligtree = {
 
 cul_zamor = {
 	color = { 0.84 0.95 0.99 }
-	parents = { cul_lands_between }
+	parents = { cul_landsbetween }
 	history_loc_override = created_long_ago_loc
 	created = 476.11.4
 	ethos = ethos_stoic
@@ -450,7 +450,7 @@ cul_nox = {
 
 cul_royal = {
 	color = { 0.9 0.80 0.50 }
-	parents = { cul_numen cul_lands_between }
+	parents = { cul_numen cul_landsbetween }
 	history_loc_override = created_long_ago_loc
 	created = 739.11.4
 	ethos = ethos_courtly
@@ -483,7 +483,7 @@ cul_royal = {
 
 cul_northerner = {
 	color = { 0.8 0.2 0.1 }
-	parents = { cul_giant cul_lands_between }
+	parents = { cul_giant cul_landsbetween }
 	history_loc_override = created_long_ago_loc
 	created = 576.11.4
 	ethos = ethos_courtly
@@ -516,7 +516,7 @@ cul_northerner = {
 
 cul_liurnia = {
 	color = { 0.10 0.10 0.80 }
-	parents = { cul_astrologer cul_lands_between }
+	parents = { cul_astrologer cul_landsbetween }
 	history_loc_override = created_long_ago_loc
 	created = 676.10.4
 	ethos = ethos_bureaucratic
@@ -551,7 +551,7 @@ cul_liurnia = {
 
 cul_caria = {
 	color = { 0.25 0.05 0.80 }
-	parents = { cul_astrologer cul_lands_between }
+	parents = { cul_astrologer cul_landsbetween }
 	history_loc_override = created_long_ago_loc
 	created = 676.10.4
 	ethos = ethos_courtly
