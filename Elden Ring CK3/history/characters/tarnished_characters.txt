@@ -1,4 +1,4 @@
-tarnished_1 = {
+﻿tarnished_1 = {
 	name = "Tarnished Descendants"
 	
 	sexuality = heterosexual

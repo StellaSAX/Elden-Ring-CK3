@@ -313,8 +313,8 @@ drake_knight = {
 	compatibility = {
 		brave = @pos_compat_low
 		craven = @neg_compat_low
-		ancient_dragon_opinion = @pos_compat_medium
-		lesser_dragon_opinion = @neg_compat_high
+		#ancient_dragon_opinion = @pos_compat_medium
+		#lesser_dragon_opinion = @neg_compat_high
 	}
 	
 }

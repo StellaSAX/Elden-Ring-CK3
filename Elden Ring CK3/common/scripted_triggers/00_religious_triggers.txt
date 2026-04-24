@@ -480,13 +480,13 @@ trait_is_criminal_in_faith_trigger = {
 			scope:criminal_trait_check = flag:witch
 			$FAITH$ = { has_doctrine_parameter = witchcraft_illegal }
 		}
-		#CANNIBAL
-		AND = {
-			scope:criminal_trait_check = flag:cannibal
-			NOT = {
-				$FAITH$ = { has_doctrine_parameter = cannibalism_legal }
-			}
-		}
+		# #CANNIBAL
+		# AND = {
+			# scope:criminal_trait_check = flag:cannibal
+			# NOT = {
+				# $FAITH$ = { has_doctrine_parameter = cannibalism_legal }
+			# }
+		# }
 		#SODOMITE
 		AND = {
 			scope:criminal_trait_check = flag:sodomite
@@ -549,13 +549,13 @@ scoped_trait_is_criminal_in_faith_trigger = {
 			$TRAIT$ = trait:witch
 			$FAITH$ = { has_doctrine_parameter = witchcraft_illegal }
 		}
-		#CANNIBAL
-		AND = {
-			$TRAIT$ = trait:cannibal
-			NOT = {
-				$FAITH$ = { has_doctrine_parameter = cannibalism_legal }
-			}
-		}
+		# #CANNIBAL
+		# AND = {
+			# $TRAIT$ = trait:cannibal
+			# NOT = {
+				# $FAITH$ = { has_doctrine_parameter = cannibalism_legal }
+			# }
+		# }
 		#SODOMITE
 		AND = {
 			$TRAIT$ = trait:sodomite

@@ -63,9 +63,9 @@ demigod_elden_ring_4 = {
 	ai_boldness = high_positive_ai_value
 	
 	opposites = {
-		god_elden_ring_1
-		god_elden_ring_2
-		god_elden_ring_3
+		demigod_elden_ring_1
+		demigod_elden_ring_2
+		demigod_elden_ring_3
 		incapable
 		cancer
 		disfigured
@@ -93,9 +93,9 @@ demigod_elden_ring_3 = {
 	ai_boldness = high_positive_ai_value
 	
 	opposites = {
-		god_elden_ring_1
-		god_elden_ring_2
-		god_elden_ring_4
+		demigod_elden_ring_1
+		demigod_elden_ring_2
+		demigod_elden_ring_4
 		incapable
 		cancer
 		disfigured
@@ -123,9 +123,9 @@ demigod_elden_ring_2 = {
 	ai_boldness = high_positive_ai_value
 	
 	opposites = {
-		god_elden_ring_1
-		god_elden_ring_3
-		god_elden_ring_4
+		demigod_elden_ring_1
+		demigod_elden_ring_3
+		demigod_elden_ring_4
 		incapable
 		cancer
 		disfigured
@@ -153,9 +153,9 @@ demigod_elden_ring_1 = {
 	ai_boldness = high_positive_ai_value
 	
 	opposites = {
-		god_elden_ring_2
-		god_elden_ring_3
-		god_elden_ring_4
+		demigod_elden_ring_2
+		demigod_elden_ring_3
+		demigod_elden_ring_4
 		incapable
 		cancer
 		disfigured

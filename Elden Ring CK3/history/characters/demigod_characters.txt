@@ -1,4 +1,4 @@
-shaman_line = {
+﻿shaman_line = {
 	name = "Marika" #so that new children aren't named "Shaman line"
 	female = yes
 	sexuality = bisexual
@@ -447,7 +447,7 @@ mohg = {
 	}
 	7748.1.1 = {
 		dynasty_house = house_mohgwyn_erdtree
-		set_house = house_mohgwyn_erdtree
+		house = house_mohgwyn_erdtree
 	}
 	9999.5.25 = {
 		death = yes
@@ -582,7 +582,7 @@ rykard = {
 	}
 	7217.1.1 = {
 		dynasty_house = house_gelmir_caria
-		set_house = house_gelmir_caria
+		house = house_gelmir_caria
 	}
 	7221.1.1 = {
 		religion = faith_god_snake

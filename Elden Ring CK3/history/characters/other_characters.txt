@@ -1,4 +1,4 @@
-maliketh = {
+﻿maliketh = {
 	name = "Gurranq"
 	
 	#dna = maliketh_dna

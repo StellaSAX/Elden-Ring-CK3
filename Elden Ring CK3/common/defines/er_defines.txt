@@ -16,3 +16,10 @@ NOldAge = {
 	LOWER_PROWESS_MAX_CHANCE = 0.75 # This is the maximum chance to lose prowess
 	LOWER_PROWESS_FACTOR = 0.1 # This is the prowess change mutliplier on each failed yearly roll
 }
+
+NJominiMap = {
+    WORLD_EXTENTS_X = 4095
+    WORLD_EXTENTS_Y = 50
+    WORLD_EXTENTS_Z = 2047
+    WATERLEVEL = 3
+}
