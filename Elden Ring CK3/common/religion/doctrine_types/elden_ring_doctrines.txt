@@ -1,0 +1,192 @@
+#GRAFTING
+doctrine_grafting_crime = {
+	piety_cost = {
+		value = faith_doctrine_cost_low
+		if = {
+			limit = { has_doctrine = doctrine_grafting_crime }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_grafting_accepted }
+			multiply = faith_changed_doctrine_cost_mult_two_step
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_grafting_virtuous }
+			multiply = faith_changed_doctrine_cost_mult_three_step
+		}
+	}
+	parameters = {
+		grafting_illegal = yes
+	}
+
+}
+doctrine_grafting_shunned = {
+	piety_cost = {
+		value = faith_doctrine_cost_low
+		if = {
+			limit = { has_doctrine = doctrine_grafting_shunned }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_grafting_virtuous }
+			multiply = faith_changed_doctrine_cost_mult_two_step
+		}
+	}
+	parameters = {
+		grafting_shunned = yes
+	}
+}
+doctrine_grafting_accepted = {
+	piety_cost = {
+		value = faith_doctrine_cost_low
+		if = {
+			limit = { has_doctrine = doctrine_grafting_accepted }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_grafting_crime }
+			multiply = faith_changed_doctrine_cost_mult_two_step
+		}
+	}
+	parameters = {
+		grafting_accepted = yes
+	}
+}
+doctrine_grafting_virtuous = {
+	piety_cost = {
+		value = faith_tenet_cost_massive
+		if = {
+			limit = { has_doctrine = doctrine_grafting_virtuous }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_grafting_shunned }
+			multiply = faith_changed_doctrine_cost_mult_two_step
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_grafting_crime }
+			multiply = faith_changed_doctrine_cost_mult_three_step
+		}
+	}
+	traits = {
+		virtues = { grafting }
+	}
+	parameters = {
+		grafting_accepted = yes
+	}
+}
+
+#OMEN
+doctrine_omen_crime = {
+	piety_cost = {
+		value = faith_doctrine_cost_low
+		if = {
+			limit = { has_doctrine = doctrine_omen_crime }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_omen_accepted }
+			multiply = faith_changed_doctrine_cost_mult_two_step
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_omen_virtuous }
+			multiply = faith_changed_doctrine_cost_mult_three_step
+		}
+	}
+	parameters = {
+		omen_illegal = yes
+	}
+	traits = {
+		sins = { omen_horn_trait }
+	}
+}
+doctrine_omen_shunned = {
+	piety_cost = {
+		value = faith_doctrine_cost_low
+		if = {
+			limit = { has_doctrine = doctrine_omen_shunned }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_omen_virtuous }
+			multiply = faith_changed_doctrine_cost_mult_two_step
+		}
+	}
+	parameters = {
+		omen_shunned = yes
+	}
+}
+doctrine_omen_accepted = {
+	piety_cost = {
+		value = faith_doctrine_cost_low
+		if = {
+			limit = { has_doctrine = doctrine_omen_accepted }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_omen_crime }
+			multiply = faith_changed_doctrine_cost_mult_two_step
+		}
+	}
+	parameters = {
+		omen_accepted = yes
+	}
+}
+doctrine_omen_virtuous = {
+	piety_cost = {
+		value = faith_tenet_cost_massive
+		if = {
+			limit = { has_doctrine = doctrine_omen_virtuous }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_omen_shunned }
+			multiply = faith_changed_doctrine_cost_mult_two_step
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_omen_crime }
+			multiply = faith_changed_doctrine_cost_mult_three_step
+		}
+	}
+	traits = {
+		virtues = { omen_horn_trait }
+	}
+	parameters = {
+		omen_accepted = yes
+	}
+}
+
+#SPECIAL
+is_dragon_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_dragon_faith
+	}
+
+	special_doctrine_is_dragon_faith = {
+		parameters = {
+			# Since doctrines cannot modify other faith's views of us, only our view of others, all Christian faiths are given this special doctrine which makes them friendlier to Faiths with the Christian Syncretism tenet.
+			hostility_override_tenet_dragon_cult = 1
+			dragon_syncretic_recipient_opinion_active = yes
+			opinion_of_dragon_syncretic_actor_opinion_active = 30
+		}
+	}
+}
+
+is_golden_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_golden_faith
+	}
+
+	special_doctrine_is_golden_faith = {
+		parameters = {
+			# Since doctrines cannot modify other faith's views of us, only our view of others, all Christian faiths are given this special doctrine which makes them friendlier to Faiths with the Christian Syncretism tenet.
+			hostility_override_tenet_golden_order_syncretism = 1
+			golden_syncretic_recipient_opinion_active = yes
+			opinion_of_golden_syncretic_actor_opinion_active = 30
+		}
+	}
+}
