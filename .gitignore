@@ -54,8 +54,3 @@ Temporary Items
 
 # Visual Studio stuff
 /.vs
-
-#Fonts
-*.font
-*.ttf
-*.otf

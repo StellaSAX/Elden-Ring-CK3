@@ -1,0 +1,509 @@
+### Open Sans
+fontfiles = {
+	name = "OpenSans-SemiBold"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" "l_french" "l_german" "l_russian" "l_spanish" "l_polish"}
+		files = { "fonts/Open_Sans/OpenSans-SemiBold.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Korean_fontset/IropkeBatangM.ttf" }
+	}
+
+	group = {
+		languages = { "l_simp_chinese" }
+		files = { "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Open_Sans/OpenSans-SemiBold.ttf" "fonts/Korean_fontset/IropkeBatangM.ttf" }
+	}
+
+	group = {
+		languages = { "l_korean" }
+		files = { "fonts/Korean_fontset/IropkeBatangM.ttf" "fonts/Open_Sans/OpenSans-SemiBold.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" }
+	}
+
+	group = {
+		languages = { "l_japanese" }
+		files = { "fonts/Open_Sans/OpenSans-SemiBold.ttf" "fonts/Genryu_JP/GenRyuMin2JP-B.otf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Korean_fontset/IropkeBatangM.ttf" }
+	}
+}
+
+fontfiles = {
+	name = "OpenSans-SemiBoldItalic"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" "l_french" "l_german" "l_russian" "l_spanish" "l_polish"}
+		files = { "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Korean_fontset/IBMPlexSansKR-Medium.otf" }
+	}
+
+	group = {
+		languages = { "l_simp_chinese" }
+		files = { "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Korean_fontset/IBMPlexSansKR-Medium.otf" }
+	}
+
+	group = {
+		languages = { "l_korean" }
+		files = { "fonts/Korean_fontset/IBMPlexSansKR-Medium.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" }
+	}
+
+	group = {
+		languages = { "l_japanese" }
+		files = { "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Genryu_JP/GenRyuMin2JP-B.otf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Korean_fontset/IBMPlexSansKR-Medium.otf" }
+	}
+}
+
+fontfiles = {
+	name = "OpenSansCondensed-Bold"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" "l_french" "l_german" "l_russian" "l_spanish" "l_polish"}
+		files = { "fonts/Open_Sans_Condensed/OpenSansCondensed-Bold.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Korean_fontset/IropkeBatangB.ttf" }
+	}
+
+	group = {
+		languages = { "l_simp_chinese" }
+		files = { "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Open_Sans_Condensed/OpenSansCondensed-Bold.ttf" "fonts/Korean_fontset/IropkeBatangB.ttf" }
+	}
+
+	group = {
+		languages = { "l_korean" }
+		files = { "fonts/Korean_fontset/IropkeBatangB.ttf" "fonts/Open_Sans_Condensed/OpenSansCondensed-Bold.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" }
+	}
+
+	group = {
+		languages = { "l_japanese" }
+		files = { "fonts/Open_Sans_Condensed/OpenSansCondensed-Bold.ttf" "fonts/Genryu_JP/GenRyuMin2JP-B.otf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Korean_fontset/IropkeBatangB.ttf" }
+	}
+}
+
+### Gitan
+fontfiles = {
+	name = "Gitan-Regular"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" "l_french" "l_german" "l_spanish" "l_polish"}
+		files = { "fonts/Gitan/GitanLatin-Regular.otf" "fonts/Open_Sans/OpenSans-SemiBold.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" "fonts/Korean_fontset/IropkeBatangM.ttf" }
+	}
+
+	group = {
+		languages = { "l_russian" }
+		files = { "fonts/Open_Sans/OpenSans-SemiBold.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" "fonts/Korean_fontset/IropkeBatangM.ttf" }
+	}
+
+	group = {
+		languages = { "l_simp_chinese" }
+		files = { "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" "fonts/Open_Sans/OpenSans-SemiBold.ttf" "fonts/Korean_fontset/IropkeBatangM.ttf" }
+	}
+
+	group = {
+		languages = { "l_korean" }
+		files = { "fonts/Korean_fontset/IropkeBatangM.ttf" "fonts/Open_Sans/OpenSans-SemiBold.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" }
+	}
+
+	group = {
+		languages = { "l_japanese" }
+		files = { "fonts/Gitan/GitanLatin-Regular.otf" "fonts/Genryu_JP/GenRyuMin2JP-B.otf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" "fonts/Open_Sans/OpenSans-SemiBold.ttf" "fonts/Korean_fontset/IropkeBatangM.ttf" }
+	}
+}
+
+fontfiles = {
+	name = "Gitan-Bold"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" "l_french" "l_german" "l_spanish" "l_polish"}
+		files = { "fonts/Gitan/GitanLatin-Bold.otf" "fonts/Open_Sans/OpenSans-Bold.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Korean_fontset/IropkeBatangB.ttf" }
+	}
+
+	group = {
+		languages = { "l_russian" }
+		files = { "fonts/Open_Sans/OpenSans-Bold.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Korean_fontset/IropkeBatangB.ttf" }
+	}
+
+	group = {
+		languages = { "l_simp_chinese" }
+		files = { "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Open_Sans/OpenSans-Bold.ttf" "fonts/Korean_fontset/IropkeBatangB.ttf" }
+	}
+
+	group = {
+		languages = { "l_korean" }
+		files = { "fonts/Korean_fontset/IropkeBatangB.ttf" "fonts/Open_Sans/OpenSans-Bold.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" }
+	}
+
+	group = {
+		languages = { "l_japanese" }
+		files = { "fonts/Gitan/GitanLatin-Bold.otf" "fonts/Genryu_JP/GenRyuMin2JP-B.otf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Open_Sans/OpenSans-Bold.ttf" "fonts/Korean_fontset/IropkeBatangB.ttf" }
+	}
+}
+
+fontfiles = {
+	name = "Gitan-Italic"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" "l_french" "l_german" "l_spanish" "l_polish"}
+		files = { "fonts/Gitan/GitanLatin-Italic.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Light.otf" "fonts/Korean_fontset/IBMPlexSansKR-Medium.otf" }
+	}
+
+	group = {
+		languages = { "l_russian" }
+		files = { "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Light.otf" "fonts/Korean_fontset/IBMPlexSansKR-Medium.otf" }
+	}
+
+	group = {
+		languages = { "l_simp_chinese" }
+		files = { "fonts/Noto_Sans_SC/NotoSansSC-Light.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Korean_fontset/IBMPlexSansKR-Medium.otf" }
+	}
+
+	group = {
+		languages = { "l_korean" }
+		files = { "fonts/Korean_fontset/IBMPlexSansKR-Medium.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Light.otf" }
+	}
+
+	group = {
+		languages = { "l_japanese" }
+		files = { "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Genryu_JP/GenRyuMin2JP-B.otf" "fonts/Noto_Sans_SC/NotoSansSC-Light.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Korean_fontset/IBMPlexSansKR-Medium.otf" }
+	}
+}
+
+fontfiles = {
+	name = "Gitan-Bold-Italic"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" "l_french" "l_german" "l_spanish" "l_polish"}
+		files = { "fonts/Gitan/GitanLatin-Bold-Italic.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Korean_fontset/IBMPlexSansKR-SemiBold.otf" }
+	}
+
+	group = {
+		languages = { "l_russian" }
+		files = { "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Korean_fontset/IBMPlexSansKR-SemiBold.otf" }
+	}
+
+	group = {
+		languages = { "l_simp_chinese" }
+		files = { "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Korean_fontset/IBMPlexSansKR-SemiBold.otf" }
+	}
+
+	group = {
+		languages = { "l_korean" }
+		files = { "fonts/Korean_fontset/IBMPlexSansKR-SemiBold.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" }
+	}
+
+	group = {
+		languages = { "l_japanese" }
+		files = { "fonts/Gitan/GitanLatin-Bold-Italic.otf" "fonts/Genryu_JP/GenRyuMin2JP-B.otf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Korean_fontset/IBMPlexSansKR-SemiBold.otf" }
+	}
+}
+
+### Fondamento
+fontfiles = {
+	name = "Fondamento-Regular"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" "l_french" "l_german" "l_spanish" "l_polish"}
+		files = { "fonts/Fondamento/Fondamento-Regular.ttf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Korean_fontset/ON_YeossiB.ttf" }
+	}
+
+	group = {
+		languages = { "l_russian" }
+		files = { "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Korean_fontset/ON_YeossiB.ttf" }
+	}
+
+	group = {
+		languages = { "l_simp_chinese" }
+		files = { "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Korean_fontset/ON_YeossiB.ttf" }
+	}
+
+	group = {
+		languages = { "l_korean" }
+		files = { "fonts/Korean_fontset/ON_YeossiB.ttf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" }
+	}
+
+	group = {
+		languages = { "l_japanese" }
+		files = { "fonts/Genryu_JP/GenRyuMin2JP-B.otf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Korean_fontset/ON_YeossiB.ttf" }
+	}
+}
+
+### Paradox Kings Script // Missale Lunea custom
+fontfiles = {
+	name = "Paradox_King_Script"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" "l_french" "l_german" "l_spanish" "l_polish"}
+		files = { "fonts/mapfont/Paradox_King_Script.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/MonomakhUnicode/MonomakhUnicode.otf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" "fonts/Korean_fontset/GunglipbakmulgwanClassicB.ttf" "fonts/LxgwZhenKai/LXGWZhenKaiGB_alphabet_removed.otf" }
+	}
+
+	group = {
+		languages = { "l_russian" }
+		files = { "fonts/MonomakhUnicode/MonomakhUnicode.otf" "fonts/mapfont/Paradox_King_Script.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" "fonts/Korean_fontset/GunglipbakmulgwanClassicB.ttf" "fonts/LxgwZhenKai/LXGWZhenKaiGB_alphabet_removed.otf" }
+	}
+
+	group = {
+		languages = { "l_simp_chinese" }
+		files = { "fonts/LxgwZhenKai/LXGWZhenKaiGB_alphabet_removed.otf" "fonts/mapfont/Paradox_King_Script.otf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf"  "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/MonomakhUnicode/MonomakhUnicode.otf" "fonts/Korean_fontset/GunglipbakmulgwanClassicB.ttf" }
+	}
+
+	group = {
+		languages = { "l_korean" }
+		files = { "fonts/Korean_fontset/GunglipbakmulgwanClassicB.ttf" "fonts/mapfont/Paradox_King_Script.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/MonomakhUnicode/MonomakhUnicode.otf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" "fonts/LxgwZhenKai/LXGWZhenKaiGB_alphabet_removed.otf" }
+	}
+
+	group = {
+		languages = { "l_japanese" }
+		files = { "fonts/mapfont/Paradox_King_Script.otf" "fonts/Genryu_JP/GenRyuMin2JP-B.otf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/MonomakhUnicode/MonomakhUnicode.otf" "fonts/Korean_fontset/GunglipbakmulgwanClassicB.ttf" }
+	}
+}
+
+### Agmena Pro
+fontfiles = {
+	name = "AgmenaPro-Regular"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" "l_french" "l_german" "l_spanish" "l_polish"}
+		files = { "fonts/AgmenaPro/AgmenaPro-Regular.otf" "fonts/Open_Sans/OpenSans-SemiBold.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" "fonts/Korean_fontset/IropkeBatangM.ttf" }
+	}
+
+	group = {
+		languages = { "l_russian" }
+		files = { "fonts/Open_Sans/OpenSans-SemiBold.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" "fonts/Korean_fontset/IropkeBatangM.ttf" }
+	}
+
+	group = {
+		languages = { "l_simp_chinese" }
+		files = { "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" "fonts/Open_Sans/OpenSans-SemiBold.ttf" "fonts/Korean_fontset/IropkeBatangM.ttf" }
+	}
+
+	group = {
+		languages = { "l_korean" }
+		files = { "fonts/Korean_fontset/IropkeBatangM.ttf" "fonts/Open_Sans/OpenSans-SemiBold.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" }
+	}
+
+	group = {
+		languages = { "l_japanese" }
+		files = { "fonts/Gitan/GitanLatin-Regular.otf" "fonts/Genryu_JP/GenRyuMin2JP-B.otf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" "fonts/Open_Sans/OpenSans-SemiBold.ttf" "fonts/Korean_fontset/IropkeBatangM.ttf" }
+	}
+}
+
+fontfiles = {
+	name = "AgmenaPro-Bold"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" "l_french" "l_german" "l_spanish" "l_polish"}
+		files = { "fonts/AgmenaPro/AgmenaPro-Bold.otf" "fonts/Open_Sans/OpenSans-Bold.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Korean_fontset/IropkeBatangB.ttf" }
+	}
+
+	group = {
+		languages = { "l_russian" }
+		files = { "fonts/Open_Sans/OpenSans-Bold.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Korean_fontset/IropkeBatangB.ttf" }
+	}
+
+	group = {
+		languages = { "l_simp_chinese" }
+		files = { "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Open_Sans/OpenSans-Bold.ttf" "fonts/Korean_fontset/IropkeBatangB.ttf" }
+	}
+
+	group = {
+		languages = { "l_korean" }
+		files = { "fonts/Korean_fontset/IropkeBatangB.ttf" "fonts/Open_Sans/OpenSans-Bold.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" }
+	}
+
+	group = {
+		languages = { "l_japanese" }
+		files = { "fonts/Gitan/GitanLatin-Bold.otf" "fonts/Genryu_JP/GenRyuMin2JP-B.otf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Open_Sans/OpenSans-Bold.ttf" "fonts/Korean_fontset/IropkeBatangB.ttf" }
+	}
+}
+
+fontfiles = {
+	name = "AgmenaPro-Italic"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" "l_french" "l_german" "l_spanish" "l_polish"}
+		files = { "fonts/AgmenaPro/AgmenaPro-Italic.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Light.otf" "fonts/Korean_fontset/IBMPlexSansKR-Medium.otf" }
+	}
+
+	group = {
+		languages = { "l_russian" }
+		files = { "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Light.otf" "fonts/Korean_fontset/IBMPlexSansKR-Medium.otf" }
+	}
+
+	group = {
+		languages = { "l_simp_chinese" }
+		files = { "fonts/Noto_Sans_SC/NotoSansSC-Light.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Korean_fontset/IBMPlexSansKR-Medium.otf" }
+	}
+
+	group = {
+		languages = { "l_korean" }
+		files = { "fonts/Korean_fontset/IBMPlexSansKR-Medium.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Light.otf" }
+	}
+
+	group = {
+		languages = { "l_japanese" }
+		files = { "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Genryu_JP/GenRyuMin2JP-B.otf" "fonts/Noto_Sans_SC/NotoSansSC-Light.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Korean_fontset/IBMPlexSansKR-Medium.otf" }
+	}
+}
+
+fontfiles = {
+	name = "AgmenaPro-Bold-Italic"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" "l_french" "l_german" "l_spanish" "l_polish"}
+		files = { "fonts/AgmenaPro/AgmenaPro-Bold-Italic.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Korean_fontset/IBMPlexSansKR-SemiBold.otf" }
+	}
+
+	group = {
+		languages = { "l_russian" }
+		files = { "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Korean_fontset/IBMPlexSansKR-SemiBold.otf" }
+	}
+
+	group = {
+		languages = { "l_simp_chinese" }
+		files = { "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Korean_fontset/IBMPlexSansKR-SemiBold.otf" }
+	}
+
+	group = {
+		languages = { "l_korean" }
+		files = { "fonts/Korean_fontset/IBMPlexSansKR-SemiBold.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" }
+	}
+
+	group = {
+		languages = { "l_japanese" }
+		files = { "fonts/Gitan/GitanLatin-Bold-Italic.otf" "fonts/Genryu_JP/GenRyuMin2JP-B.otf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Korean_fontset/IBMPlexSansKR-SemiBold.otf" }
+	}
+}
+
+### Imperator
+fontfiles = {
+	name = "Imperator"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" "l_french" "l_german" "l_spanish" "l_polish"}
+		files = { "fonts/Imperator/Imperator.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Korean_fontset/ON_YeossiB.ttf" }
+	}
+
+	group = {
+		languages = { "l_russian" }
+		files = { "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Korean_fontset/ON_YeossiB.ttf" }
+	}
+
+	group = {
+		languages = { "l_simp_chinese" }
+		files = { "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Korean_fontset/ON_YeossiB.ttf" }
+	}
+
+	group = {
+		languages = { "l_korean" }
+		files = { "fonts/Korean_fontset/ON_YeossiB.ttf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" }
+	}
+
+	group = {
+		languages = { "l_japanese" }
+		files = { "fonts/Genryu_JP/GenRyuMin2JP-B.otf" "fonts/Noto_Sans_SC/NotoSansSC-Bold.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Korean_fontset/ON_YeossiB.ttf" }
+	}
+}
+
+### Cinzel
+fontfiles = {
+	name = "CinzelDecorative-Regular"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" "l_french" "l_german" "l_spanish" "l_polish"}
+		files = { "fonts/Cinzel/CinzelDecorative-Regular.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/MonomakhUnicode/MonomakhUnicode.otf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" "fonts/Korean_fontset/GunglipbakmulgwanClassicB.ttf" "fonts/LxgwZhenKai/LXGWZhenKaiGB_alphabet_removed.otf" }
+	}
+
+	group = {
+		languages = { "l_russian" }
+		files = { "fonts/MonomakhUnicode/MonomakhUnicode.otf" "fonts/Cinzel/CinzelDecorative-Regular.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" "fonts/Korean_fontset/GunglipbakmulgwanClassicB.ttf" "fonts/LxgwZhenKai/LXGWZhenKaiGB_alphabet_removed.otf" }
+	}
+
+	group = {
+		languages = { "l_simp_chinese" }
+		files = { "fonts/LxgwZhenKai/LXGWZhenKaiGB_alphabet_removed.otf" "fonts/Cinzel/CinzelDecorative-Regular.otf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf"  "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/MonomakhUnicode/MonomakhUnicode.otf" "fonts/Korean_fontset/GunglipbakmulgwanClassicB.ttf" }
+	}
+
+	group = {
+		languages = { "l_korean" }
+		files = { "fonts/Korean_fontset/GunglipbakmulgwanClassicB.ttf" "fonts/Cinzel/CinzelDecorative-Regular.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/MonomakhUnicode/MonomakhUnicode.otf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" "fonts/LxgwZhenKai/LXGWZhenKaiGB_alphabet_removed.otf" }
+	}
+
+	group = {
+		languages = { "l_japanese" }
+		files = { "fonts/Cinzel/CinzelDecorative-Regular.otf" "fonts/Genryu_JP/GenRyuMin2JP-B.otf" "fonts/Noto_Sans_SC/NotoSansSC-Medium.otf" "fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" "fonts/MonomakhUnicode/MonomakhUnicode.otf" "fonts/Korean_fontset/GunglipbakmulgwanClassicB.ttf" }
+	}
+}
+
+#######################################################################
+#######################################################################
+#######################################################################
+
+# Each font should specify what it is used for.
+# Name fonts after intented usage, not after source file names.
+
+font = {
+	name = "Debug"
+
+	fontstyle = {
+		style = regular
+		fontfiles = "OpenSans-SemiBold"
+	}
+}
+
+## Font used in-game
+font = {
+	name = "StandardGameFont"
+
+	fontstyle = {
+		style = regular
+		fontfiles = "AgmenaPro-Regular"
+	}
+
+	fontstyle = {
+		style = bold
+		fontfiles = "AgmenaPro-Bold"
+	}
+
+	fontstyle = {
+		style = italic
+		fontfiles = "AgmenaPro-Italic"
+	}
+
+	fontstyle = {
+		style = bold|italic
+		fontfiles = "AgmenaPro-Bold-Italic"
+	}
+
+	underlineformats = {
+		default = {
+			thickness = 1
+			offset = 0.12
+		}
+	}
+}
+
+# Title font
+font = {
+	name = "TitleFont"
+
+	fontstyle = {
+		style = regular
+		fontfiles = "Imperator"
+	}
+}
+
+# For map names
+font = {
+	name = "MapFont"
+
+	fontstyle = {
+		style = regular
+		fontfiles = "CinzelDecorative-Regular"
+	}
+}
