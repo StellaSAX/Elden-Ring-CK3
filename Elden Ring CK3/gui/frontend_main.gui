@@ -456,9 +456,9 @@ widget = {
 
 						text_single = {
 							layoutpolicy_horizontal = expanding
-							margin_left = 5
+							margin_left = 119
 							text = "SINGLE_PLAYER"
-							default_format = "#weak;italic;glow_color:{0.1,0.1,0.1,1}"
+							default_format = "weak;italic;glow_color:{0.1,0.1,0.1,1}"
 						}
 
 						vbox = {
@@ -641,9 +641,9 @@ widget = {
 					vbox = {
 						text_single = {
 							layoutpolicy_horizontal = expanding
-							margin_left = 5
+							margin_left = 121
 							text = "MULTI_PLAYER"
-							default_format = "#weak;italic;glow_color:{0.1,0.1,0.1,1}"
+							default_format = "weak;italic;glow_color:{0.1,0.1,0.1,1}"
 						}
 
 						spacer = {
@@ -803,7 +803,7 @@ widget = {
 								fontsize = 13
 
 								text = "ACHIEVEMENTS"
-								default_format = "#low;glow_color:{0.1,0.1,0.1,1}"
+								default_format = "low;glow_color:{0.1,0.1,0.1,1}"
 							}
 						}
 					}
@@ -829,7 +829,7 @@ widget = {
 								fontsize_min = 10
 
 								text = "HEADING_ENCYCLOPEDIA"
-								default_format = "#low;glow_color:{0.1,0.1,0.1,1}"
+								default_format = "low;glow_color:{0.1,0.1,0.1,1}"
 							}
 						}
 					}
@@ -842,7 +842,7 @@ widget = {
 
 							button_credits = {
 								parentanchor = hcenter
-								size = { 25 25 }
+								size = { 30 30 }
 								alpha = 0.7
 							}
 
@@ -855,15 +855,15 @@ widget = {
 								fontsize = 13
 
 								text = "CREDITS"
-								default_format = "#low;glow_color:{0.1,0.1,0.1,1}"
+								default_format = "low;glow_color:{0.1,0.1,0.1,1}"
 							}
 						}
 					}
 				}
 
 				hbox = {
-					margin_top = 33
-					margin_bottom = 92
+					margin_top = 10
+					margin_bottom = 100
 					spacing = 20
 
 					button_group = {
