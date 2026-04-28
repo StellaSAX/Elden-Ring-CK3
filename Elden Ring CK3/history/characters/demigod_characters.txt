@@ -458,7 +458,7 @@ radahn = {
 	name = "Radahn"
 	dna = radahn_dna
 	sexuality = bisexual
-	dynasty = dynn_golden_order
+	dynasty = dynn_caria
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
@@ -498,6 +498,8 @@ radahn = {
 	}
 	1654.1.1 = {
 		give_nickname = nick_starscourge
+		dynasty_house = house_starscourge_caria
+		house = house_starscourge_caria
 	}
 	1782.1.1 = {
 		add_trait = demigod_elden_ring_4
@@ -946,6 +948,10 @@ godrick = {
 			add_character_flag = do_not_generate_starting_family
 		}
 		trait = demigod_elden_ring_1
+	}
+	7721.1.1 = {
+		dynasty_house = house_godrick_erdtree
+		house = house_godrick_erdtree
 	}
 	7748.1.1 = {
 		add_trait = grafting

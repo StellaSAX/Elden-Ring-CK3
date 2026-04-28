@@ -37,6 +37,7 @@ dynn_caria={
 	}
 
 }
+
 dynn_loux={
 	custom=yes
 	pattern="pattern_solid.dds"
@@ -506,6 +507,244 @@ house_gelmir_caria={
 
 }
 
+house_starscourge_caria={
+	custom=yes
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 108 12 0 }
+	color2=yellow
+	color3=blue
+	colored_emblem={
+		color1=rgb { 42 11 140 }
+		color2=rgb { 20 19 18 }
+		texture="ce_waves_03.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_religion_druze.dds"
+		instance={
+			position={ 0.300000 0.800000 }
+			scale={ 0.200000 0.200000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.600000 0.600000 }
+			scale={ 0.200000 0.200000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.400000 0.600000 }
+			scale={ 0.200000 0.200000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.200000 0.600000 }
+			scale={ 0.200000 0.200000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.000000 0.600000 }
+			scale={ 0.200000 0.200000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.900000 0.400000 }
+			scale={ 0.200000 0.200000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.700000 0.400000 }
+			scale={ 0.200000 0.200000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 0.200000 0.200000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.300000 0.400000 }
+			scale={ 0.200000 0.200000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.100000 0.400000 }
+			scale={ 0.200000 0.200000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 1.000000 0.200000 }
+			scale={ 0.200000 0.200000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.800000 0.200000 }
+			scale={ 0.200000 0.200000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.600000 0.200000 }
+			scale={ 0.200000 0.200000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.400000 0.200000 }
+			scale={ 0.200000 0.200000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.200000 0.200000 }
+			scale={ 0.200000 0.200000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.000000 0.200000 }
+			scale={ 0.200000 0.200000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.900000 0.000000 }
+			scale={ 0.200000 0.200000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.700000 0.000000 }
+			scale={ 0.200000 0.200000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.500000 0.000000 }
+			scale={ 0.200000 0.200000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.300000 0.000000 }
+			scale={ 0.200000 0.200000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.100000 0.000000 }
+			scale={ 0.200000 0.200000 }
+			depth=34.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		color2=purple
+		texture="ce_religion_druze.dds"
+		instance={
+			position={ 1.000000 1.000000 }
+			scale={ 0.200000 0.200000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.800000 1.000000 }
+			scale={ 0.200000 0.200000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.600000 1.000000 }
+			scale={ 0.200000 0.200000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.400000 1.000000 }
+			scale={ 0.200000 0.200000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.200000 1.000000 }
+			scale={ 0.200000 0.200000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.000000 1.000000 }
+			scale={ 0.200000 0.200000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.900000 0.800000 }
+			scale={ 0.200000 0.200000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.700000 0.800000 }
+			scale={ 0.200000 0.200000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.500000 0.800000 }
+			scale={ 0.200000 0.200000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.100000 0.800000 }
+			scale={ 0.200000 0.200000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 1.000000 0.600000 }
+			scale={ 0.200000 0.200000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.800000 0.600000 }
+			scale={ 0.200000 0.200000 }
+			depth=14.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 152 0 }
+		color2=rgb { 177 21 1 }
+		texture="ce_gotland_banner.dds"
+		instance={
+			position={ 0.560000 0.580000 }
+			rotation=316
+		}
+
+	}
+
+}
+
 house_malenia_erdtree={
 	custom=yes
 	pattern="pattern_diagonal_split_01.dds"
@@ -558,6 +797,71 @@ house_mohgwyn_erdtree={
 			depth=1.010000
 		}
 
+	}
+
+}
+
+house_godrick_erdtree={
+	custom=yes
+	pattern="pattern_vertical_split_01.dds"
+	color1=green
+	color2=orange
+	color3=black
+	colored_emblem={
+		color1=yellow
+		color2=green
+		texture="ce_norse_triquetra.dds"
+		instance={
+			position={ 0.280000 0.240000 }
+			scale={ 0.200001 -0.200001 }
+			depth=1.010000
+		}
+ 
+	}
+ 
+	colored_emblem={
+		color1=yellow
+		texture="ce_yggdrasil_ockelbo.dds"
+		instance={
+			position={ 0.280000 0.500000 }
+			scale={ 0.550000 0.700000 }
+			depth=3.010000
+		}
+ 
+	}
+ 
+	colored_emblem={
+		color1=yellow
+		texture="ce_fess_engrailed.dds"
+		instance={
+			scale={ 0.100001 -1.000000 }
+			rotation=90
+		}
+ 
+	}
+ 
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=orange
+		texture="ce_lion_rampant_per_pale.dds"
+		instance={
+			position={ 0.730000 0.480000 }
+			scale={ 0.700000 0.720000 }
+			depth=4.010000
+		}
+ 
+	}
+ 
+	colored_emblem={
+		color1=green
+		texture="ce_circle.dds"
+		instance={
+			position={ 0.280000 0.255000 }
+			scale={ 0.190000 0.190000 }
+			depth=2.010000
+		}
+ 
 	}
 
 }

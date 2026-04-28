@@ -4,6 +4,12 @@
 	motto = gelmir_caria_motto
 }
 
+house_starscourge_caria = {
+	name = "house_starscourge_caria"
+	dynasty = dynn_caria
+	motto = starscourge_caria_motto
+}
+
 house_malenia_erdtree = {
 	name = "house_malenia_erdtree"
 	dynasty = dynn_erdtree
@@ -14,4 +20,10 @@ house_mohgwyn_erdtree = {
 	name = "house_mohgwyn_erdtree"
 	dynasty = dynn_erdtree
 	motto = mohgwyn_erdtree_motto
+}
+
+house_godrick_erdtree = {
+	name = "house_godrick_erdtree"
+	dynasty = dynn_erdtree
+	motto = godrick_erdtree_motto
 }

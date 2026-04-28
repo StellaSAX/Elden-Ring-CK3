@@ -27,7 +27,7 @@
 	
 	character = {
 		name = "bookmark_godrick"
-		dynasty = dynn_erdtree
+		dynasty_house = house_godrick_erdtree
 		dynasty_splendor_level = 4
 		type = male
 		birth = 7140.1.1
@@ -81,7 +81,7 @@
 	
 	character = {
 		name = "bookmark_radahn"
-		dynasty = dynn_golden_order
+		dynasty_house = house_starscourge_caria
 		dynasty_splendor_level = 4
 		type = male
 		birth = 993.1.1
