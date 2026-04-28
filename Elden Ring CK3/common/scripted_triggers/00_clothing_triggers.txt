@@ -716,12 +716,12 @@ portrait_fp2_iberian_muslim_clothing_spouse_trigger = {
 			CULTURE_SCOPE = culture
 			CULTURE_FLAG = iberian_muslim
 		}
-		AND = {
-			religion = religion:islam_religion
-			capital_province ?= {
-				geographical_region = world_europe_west_iberia
-			}
-		}
+		# AND = {
+			# religion = religion:islam_religion
+			# capital_province ?= {
+				# geographical_region = world_europe_west_iberia
+			# }
+		# }
 	}
 }
 
@@ -1953,14 +1953,14 @@ portrait_royalty_african_headgear_trigger = {
 				NOT = { government_has_flag = government_is_republic }
 				OR = {
 					portrait_african_clothing_trigger = yes
-					AND = {
-						culture = {
-							has_cultural_pillar = heritage_east_african
-						}
-						NOT = {
-							religion = religion:islam_religion
-						}
-					}
+					# AND = {
+						# culture = {
+							# has_cultural_pillar = heritage_east_african
+						# }
+						# NOT = {
+							# religion = religion:islam_religion
+						# }
+					# }
 				}
 			}
 			AND = {
@@ -1991,14 +1991,14 @@ portrait_royalty_african_headgear_trigger = {
 					NOT = { government_has_flag = government_is_republic }
 					OR = {
 						portrait_african_clothing_spouse_trigger = yes
-						AND = {
-							culture = {
-								has_cultural_pillar = heritage_east_african
-							}
-							NOT = {
-								religion = religion:islam_religion
-							}
-						}
+						# AND = {
+							# culture = {
+								# has_cultural_pillar = heritage_east_african
+							# }
+							# NOT = {
+								# religion = religion:islam_religion
+							# }
+						# }
 					}
 				}
 			}
@@ -2557,7 +2557,7 @@ portrait_religious_head_popes_trigger = {
 	exists = this
 	OR = {
 		AND = {
-			faith = faith:catholic
+			# faith = faith:catholic
 			is_adult = yes
 			#religion = religion:christianity_religion
 			primary_title ?= {
@@ -2583,17 +2583,17 @@ portrait_religious_head_ruler_trigger = {
 	}
 }
 
-portrait_religious_head_caliph_trigger = {
-	exists = this
-	is_ruler = yes
-	religion = religion:$RELIGION_INPUT$_religion
-	any_held_title = {
-		any_controlled_faith = {
-			religion = religion:$RELIGION_INPUT$_religion
-		}
-	}
-	NOT = { portrait_wear_armor_trigger = yes }
-}
+# portrait_religious_head_caliph_trigger = {
+	# exists = this
+	# is_ruler = yes
+	# religion = religion:$RELIGION_INPUT$_religion
+	# any_held_title = {
+		# any_controlled_faith = {
+			# religion = religion:$RELIGION_INPUT$_religion
+		# }
+	# }
+	# NOT = { portrait_wear_armor_trigger = yes }
+# }
 
 portrait_religious_faith_or_foundational_trigger = {
 	OR = {
@@ -2615,111 +2615,111 @@ portrait_religious_catholic_trigger = {
 portrait_religious_orthodox_trigger = {
 	faith = {
 		OR = {
-			portrait_religious_faith_or_foundational_trigger = { FAITH = faith:orthodox }
-			portrait_religious_faith_or_foundational_trigger = { FAITH = faith:armenian_apostolic }
-			portrait_religious_faith_or_foundational_trigger = { FAITH = faith:coptic }
-			portrait_religious_faith_or_foundational_trigger = { FAITH = faith:messalian }
-			portrait_religious_faith_or_foundational_trigger = { FAITH = faith:bogomilist }
-			portrait_religious_faith_or_foundational_trigger = { FAITH = faith:paulician }
-			portrait_religious_faith_or_foundational_trigger = { FAITH = faith:nestorian }
+			# portrait_religious_faith_or_foundational_trigger = { FAITH = faith:orthodox }
+			# portrait_religious_faith_or_foundational_trigger = { FAITH = faith:armenian_apostolic }
+			# portrait_religious_faith_or_foundational_trigger = { FAITH = faith:coptic }
+			# portrait_religious_faith_or_foundational_trigger = { FAITH = faith:messalian }
+			# portrait_religious_faith_or_foundational_trigger = { FAITH = faith:bogomilist }
+			# portrait_religious_faith_or_foundational_trigger = { FAITH = faith:paulician }
+			# portrait_religious_faith_or_foundational_trigger = { FAITH = faith:nestorian }
 		}
 	}
 }
 
 portrait_religious_jewish_trigger = {
-	religion = religion:judaism_religion
+	# religion = religion:judaism_religion
 }
 
 portrait_religious_hellenism_trigger = {
-	religion = religion:hellenism_religion
+	# religion = religion:hellenism_religion
 }
 
 portrait_religious_muslim_trigger = {
-	religion = religion:islam_religion
+	# religion = religion:islam_religion
 }
 
 portrait_religious_norse_trigger = {
-	OR = {
-		religion = religion:germanic_religion
-		religion = religion:baltic_religion
-		religion = religion:finno_ugric_religion
-		religion = religion:paganism_religion
-		religion = religion:slavic_religion
-	}
+	# OR = {
+		# religion = religion:germanic_religion
+		# religion = religion:baltic_religion
+		# religion = religion:finno_ugric_religion
+		# religion = religion:paganism_religion
+		# religion = religion:slavic_religion
+	# }
 }
 
 ## CCP4 KHANTY / SAMI ##
 
 portrait_religious_siberian_trigger = { # these probably need dlc check?
-	has_cp4_dlc_trigger = yes
-	religion = religion:siberian_religion
+	# has_cp4_dlc_trigger = yes
+	# religion = religion:siberian_religion
 }
 
 
 portrait_religious_sami_trigger = {
-	has_cp4_dlc_trigger = yes
-	religion = religion:finno_ugric_religion
+	# has_cp4_dlc_trigger = yes
+	# religion = religion:finno_ugric_religion
 	portrait_sami_clothing_trigger = yes
 }
 
 
 portrait_religious_steppe_trigger = {
 	OR = {
-		religion = religion:tengrism_religion
-		religion = religion:qiangic_religion
-		religion = religion:siberian_religion
-		religion = religion:mundhum_religion
-		religion = religion:tani_religion
-		religion = religion:magyar_religion
-		faith = {
-			portrait_religious_faith_or_foundational_trigger = { FAITH = faith:old_bon }
-		}
+		# religion = religion:tengrism_religion
+		# religion = religion:qiangic_religion
+		# religion = religion:siberian_religion
+		# religion = religion:mundhum_religion
+		# religion = religion:tani_religion
+		# religion = religion:magyar_religion
+		# faith = {
+			# portrait_religious_faith_or_foundational_trigger = { FAITH = faith:old_bon }
+		# }
 	}
 }
 
 portrait_religious_buddhist_trigger = {
 	OR = {
-		religion = religion:buddhism_religion
-		faith = {
-			portrait_religious_faith_or_foundational_trigger = { FAITH = faith:bon }
-		}
+		# religion = religion:buddhism_religion
+		# faith = {
+			# portrait_religious_faith_or_foundational_trigger = { FAITH = faith:bon }
+		# }
 	}
 }
 
 portrait_religious_taoist_trigger = {
-	religion = religion:taoism_religion
+	# religion = religion:taoism_religion
 }
 
 portrait_religious_hindu_trigger = {
-	religion = religion:hinduism_religion
+	# religion = religion:hinduism_religion
 }
 
 portrait_religious_jain_trigger = {
-	religion = religion:jainism_religion
+	# religion = religion:jainism_religion
 }
 
 portrait_religious_zoroastrian_trigger = {
 	OR = {
-		religion = religion:zoroastrianism_religion
-		religion = religion:yazidi_religion
-		religion = religion:zunism_religion
+		# religion = religion:zoroastrianism_religion
+		# religion = religion:yazidi_religion
+		# religion = religion:zunism_religion
 		faith = {
 			portrait_religious_faith_or_foundational_trigger = { FAITH = faith:mandeaism }
 		}
-		religion = religion:dualism_religion
-		religion = religion:basque_religion
+		# religion = religion:dualism_religion
+		# religion = religion:basque_religion
 	}
 }
 
 portrait_religious_african_trigger = {
 	OR = {
-		religion = religion:akom_religion
-		religion = religion:waaqism_religion
-		religion = religion:west_african_religion
-		religion = religion:west_african_bori_religion
-		religion = religion:west_african_roog_religion
-		religion = religion:kushitism_religion
-		religion = religion:west_african_orisha_religion
+		# religion = religion:akom_religion
+		# religion = religion:waaqism_religion
+		# religion = religion:west_african_religion
+		# religion = religion:west_african_bori_religion
+		# religion = religion:west_african_roog_religion
+		# religion = religion:kushitism_religion
+		# religion = religion:west_african_orisha_religion
 	}
 }
 

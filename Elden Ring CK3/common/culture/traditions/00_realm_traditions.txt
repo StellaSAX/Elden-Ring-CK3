@@ -644,16 +644,16 @@ tradition_tribe_unity = {
 	}
 	
 	is_shown = { #Replaced by Strong Kinship
-		NOR = {
-			this = culture:gaelic
-			this = culture:scottish
-			any_parent_culture_or_above = {
-				OR = {
-					this = culture:gaelic
-					this = culture:scottish
-				}
-			}
-		}
+		# NOR = {
+			# this = culture:gaelic
+			# this = culture:scottish
+			# any_parent_culture_or_above = {
+				# OR = {
+					# this = culture:gaelic
+					# this = culture:scottish
+				# }
+			# }
+		# }
 	}
 	can_pick = {
 		custom_tooltip = {

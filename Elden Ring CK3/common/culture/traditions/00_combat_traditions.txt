@@ -1630,8 +1630,8 @@ tradition_quarrelsome = {
 		if = {
 			limit = {
 				NOR = {
-					culture_pillar:heritage_turkic = { is_in_list = traits }
-					culture_pillar:heritage_mongolic = { is_in_list = traits }
+					# culture_pillar:heritage_turkic = { is_in_list = traits }
+					# culture_pillar:heritage_mongolic = { is_in_list = traits }
 					is_divergent_culture = yes
 				}
 			}
@@ -2028,8 +2028,8 @@ tradition_battlefield_looters = {
 		if = {
 			limit = {
 				NOR = {
-					culture_pillar:heritage_turkic = { is_in_list = traits }
-					culture_pillar:heritage_mongolic = { is_in_list = traits }
+					# culture_pillar:heritage_turkic = { is_in_list = traits }
+					# culture_pillar:heritage_mongolic = { is_in_list = traits }
 					scope:character = {
 						government_has_flag = government_is_tribal
 					}

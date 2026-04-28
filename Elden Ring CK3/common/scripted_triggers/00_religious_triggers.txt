@@ -1626,25 +1626,51 @@ can_afford_create_head_of_faith_title_cost_trigger = {
 # FAITH = The faith we are trying to make the head of faith title for
 # this = Person trying to create the title
 can_create_head_of_faith_title_trigger = {
-	$FAITH$ = {
-		trigger_if = {
-			limit = {
-				has_doctrine_parameter = spiritual_head_of_faith
+	if = {
+		limit = { exists = $FAITH$ }
+
+		$FAITH$ = {
+			trigger_if = {
+				limit = {
+					has_doctrine_parameter = spiritual_head_of_faith
+				}
+				can_create_spiritual_head_of_faith_title_trigger = yes
 			}
-			can_create_spiritual_head_of_faith_title_trigger = yes
-		}
-		trigger_else_if = {
-			limit = {
+			trigger_else_if = {
+				limit = {
+					has_doctrine_parameter = temporal_head_of_faith
+				}
+				can_create_temporal_head_of_faith_title_trigger = yes
+			}
+			trigger_else = {
+				# We shouldn't hit this point, but if we do use the following as error messages.
+				has_doctrine_parameter = spiritual_head_of_faith
 				has_doctrine_parameter = temporal_head_of_faith
 			}
-			can_create_temporal_head_of_faith_title_trigger = yes
-		}
-		trigger_else = {
-			# We shouldn't hit this point, but if we do use the following as error messages.
-			has_doctrine_parameter = spiritual_head_of_faith
-			has_doctrine_parameter = temporal_head_of_faith
 		}
 	}
+	else = {
+		root.faith = {
+			trigger_if = {
+				limit = {
+					has_doctrine_parameter = spiritual_head_of_faith
+				}
+				can_create_spiritual_head_of_faith_title_trigger = yes
+			}
+			trigger_else_if = {
+				limit = {
+					has_doctrine_parameter = temporal_head_of_faith
+				}
+				can_create_temporal_head_of_faith_title_trigger = yes
+			}
+			trigger_else = {
+				# We shouldn't hit this point, but if we do use the following as error messages.
+				has_doctrine_parameter = spiritual_head_of_faith
+				has_doctrine_parameter = temporal_head_of_faith
+			}
+		}
+	}
+	
 	can_afford_create_head_of_faith_title_cost_trigger = yes
 }
 
