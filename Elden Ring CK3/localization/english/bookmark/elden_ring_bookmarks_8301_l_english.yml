@@ -15,11 +15,11 @@
 
  bookmark_mohg:0 "Mohg, Lord of Blood"
  bookmark_mohg_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_mohg_desc:0 "If any of the demigods could be called a victor of the shattering war, it would be Mohg: the capture of the empyrean Miquella seemingly assuring the rise of a new God of Blood over the Lands Between. Yet, the secrets of divine ascension evaded Mohg and the Formless Mother, his beloved Goddess. Despite this, Mohg remains secure in the hidden Mohgwyn Palace where he and his sanguine nobles await the day of their ascension as a new divine dynasty. \n\nWill you cast down gold and raise blood in its place or are you doomed to decay and die in the depths of the world?"
+ bookmark_mohg_desc:0 "If any of the demigods could be called a victor of the shattering war, it would be Mohg; the capture of the empyrean Miquella seemingly assuring the rise of a new God of Blood over the Lands Between. Yet, the secrets of divine ascension evaded Mohg and the Formless Mother, his beloved Goddess. Despite this, Mohg remains secure in the hidden Mohgwyn Palace where he and his sanguine nobles await the day of their ascension as a new divine dynasty. \n\nWill you cast down gold and raise blood in its place or are you doomed to decay and die in the depths of the world?"
  
  bookmark_radahn:0 "Starsourge Radahn"
  bookmark_radahn_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_radahn_desc:0 "The once mighty Radahn, the Starsourge, the Red Lion, has fallen far: from great demigod to mad beast. The scarlet rot, unleashed by Malenia after her near defeat in her last stand against Radahn, has stripped him of his wits and left him with nothing but mad primal strength. Yet, perhaps, some small lingering shard of humanity remains within the proud Starscourge... \n\nIs there any hope left for Radahn to rise out of madness or is there no better fate left for him than an honorable death?"
+ bookmark_radahn_desc:0 "The once mighty Radahn, the Starsourge, the Red Lion, has fallen far; from great demigod to mad beast. The scarlet rot, unleashed by Malenia after her near defeat in her last stand against Radahn, has stripped him of his wits and left him with nothing but mad primal strength. Yet, perhaps, some small lingering shard of humanity remains within the proud Starscourge... \n\nIs there any hope left for Radahn to rise out of madness or is there no better fate left for him than an honorable death?"
 
  bookmark_godrick:0 "Godrick the Grafted"
  bookmark_godrick_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
@@ -28,48 +28,48 @@
  #The Land of Shadows
  bookmark_miquella:0 "Miquella the Kind"
  bookmark_miquella_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_miquella_desc:0 "Miquella is sussing hard, venting all over the place, making people delirious... Who will put a stop to his sussiness?"
+  bookmark_miquella_desc:0 "The most beloved of all Empyreans, Miquella has abandoned everything. His golden flesh, his blinding strength, even his love and set off for the tower sealed by shadow, in pursuit of the Gate of Divinity that lies beyond it. His husk lies cradled in the bloody bedchamber of the Lord of Blood, who keeps a long and unanswered vigil for a consort who has not stirred.\n\nThe Empyrean Miquella is loved by many, and has learned very well how to compel such affection. Whether the Tender shall return as the dawn of his promised Age of Compassion, or whether his charm shall prove the most binding chain of all, the realm follows the trail of his footprints or his gravestones, depending on who one asks."
 
  bookmark_trina:0 "St. Trina"
  bookmark_trina_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_trina_desc:0 "Shh! St. Trina is asleep..."
+ bookmark_trina_desc:0 "The sleeping saint at the edge of the world, Saint Trina is whispered to be Miquella's discarded half. The part of him that fled when he cast off his name. Her body lies untouched in a quiet ruin upon the Cerulean Coast, breathing slow, her devotees haunted by her memory and lulled by her poison.\n\nHer counsel is dispensed in dreams, and her gift is endless sleep. Whether the saint shall be permitted her eternal rest, or whether the world shall come knocking at the door of her bower, the choice is not hers to make."
 
  bookmark_messmer:0 "Messmer the Impaler"
  bookmark_messmer_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_messmer_desc:0 "Will he defeat any mongrel intruder, or will he go Grah! A-Argh... Gah... hah... Gah... Phew..."
+ bookmark_messmer_desc:0 "The son of Queen Marika, Messmer the Impaler took upon himself the maledictions, the ire and the grief of his mother, and bid her direct them towards him alone. With serpent and fire he carried her vengeance into the Land of Shadow, putting the Hornsent to the spear in answer for what had been done to her and to her people, and the Soreseal she gave him keeps the base serpent within him at bay.\n\nHis crusade is ended, the Hornsent have been cleansed from the Land of Shadow, and the gate of the Shadow Keep stands sealed at the centre of his army's plateau. Whether the Impaler shall remain forever the silent son of a now absent god, or whether the fire he has so long suppressed shall yet find another purpose, the serpent coils within him still."
 
  bookmark_rellana:0 "Rellana, Twin Moon Knight"
  bookmark_rellana_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_rellana_desc:0 "INT builds beware, this one requires dodging..."
+ bookmark_rellana_desc:0 "A Carian princess who disavowed her birthright, Rellana left her home to stand at Messmer's side, knowing full well that not even the brilliance of the moon could grant him succor. Her tutor Count Ymir long ago abandoned his allegiance to the moon; she did not, and the unparalleled devotion of those who left their homelands to serve her has been engraved upon her remembrance.\n\nHer twin moons hang at her side, and her fidelity to Messmer is absolute. Whether the Twin Moon Knight shall hold the gate to her lord's keep, or whether her vigil shall end in another's gain, depends upon the blade that finds her."
 
  bookmark_bayle:0 "Bayle the Dread"
  bookmark_bayle_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_bayle_desc:0 "CURSE YOU BAYLEEEEEEEEE!!!"
+ bookmark_bayle_desc:0 "The foul dragon, the terrible harbinger of destruction, Bayle once challenged the ancient Dragonlord Placidusax and left both of them in grievous mutual injury. He nests now upon the jagged peak, his hide still hated, many drake warriors attempted to have the glory of killing him to no avail.\n\nThe whole of dragonkind awaits his ending, and yet the throbbing heart of Bayle resists its subjugation; one day, it is said, the fire within shall consume the very soul of the one who consumed him."
 
  #The Meek and Forgotten
  bookmark_placidusax:0 "Dragonlord Placidusax"
  bookmark_placidusax_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_placidusax_desc:0 "He is standing very still, therefore you cannot see him."
+ bookmark_placidusax_desc:0 "The Dragonlord whose seat lies at the heart of the storm beyond time, Placidusax was Elden Lord in a prehistoric age before the Erdtree was raised. His god has fled the world, his age has ended, and once his god was gone he continued to await their return; the cries he gives now in the storm-wracked ruins of Crumbling Farum Azula are the wails of a lord who once dwelled eternally beyond time.\n\nHe is the Elden Lord that came before, and the Elden Lord that few remember. The Dragonlord's long stillness may yet be broken, or his vigil may go unanswered for another age but no living hand can yet say which."
 
  bookmark_maliketh:0 "Maliketh, the Black Blade"
  bookmark_maliketh_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_maliketh_desc:0 "He is hungry for deathroot."
+ bookmark_maliketh_desc:0 "The Black Blade, Maliketh is the loyal shadow of Queen Marika, entrusted in the elder days with the sealing of Destined Death to establish the Golden Order. His Empyrean betrayed him when she shattered the Elden Ring; and he hungers constantly for the deathroot that festers from the corpse of Godwyn the Golden.\n\nMarika unmade the Golden Order into which Maliketh's duty as seal was bound, rejecting the very arrangement she had established, and thereby splitting the shadow's loyalties between the God he was bound to and the Golden Order. Whether Maliketh shall unleash the rune entrusted to him, or whether he shall keep the bargain he made with a queen who broke hers, the Black Blade remains in two minds, and in two names."
 
  bookmark_haight:0 "Kenneth Haight, Limgrave Heir"
  bookmark_haight_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_haight_desc:0 "Hello? Is anybody there? Hello? Is anybody there? Hello? Is anybody there? Hello? Is anybody there? Hello? Is anybody there? Hello? Is anybody there? Hello? Is anybody there? Hello? Is anybody there? Hello? Is anybody there? Hello? Is anybody there?"
+ bookmark_haight_desc:0 "The eldest son of a feudal lord and self-proclaimed steward of Limgrave, Kenneth Haight is the lord of Fort Haight. He despises Godrick the Grafted as an illegitimate tyrant and unworthy of the Golden Lineage, and considers himself by right the heir to Limgrave.\n\nHis pomp is long-winded, but his cause is the proper order of succession. Whether the heir shall reclaim Limgrave and seat a worthy ruler upon Stormveil's throne, or whether his appeals shall avail him nothing in the chaos of the Shattering remains to be seen."
 
  bookmark_edgar:0 "Castellan Edgar"
  bookmark_edgar_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_edgar_desc:0 "Will he finally stand up and leave with Irina, or will he keep sitting in that goofy-ahh wooden plank?"
+ bookmark_edgar_desc:0 "The castellan of Castle Morne in the Weeping Peninsula, Edgar holds his post by Godrick's appointment while the demi-human servants of the castle riot through its halls. He helped his blind daughter Irina to escape ahead of the rebellion, then chose to remain at Morne for, as he says, his duty as commander does not end with the castle, and Morne's treasured sword cannot fall into the hands of those rotten things.\n\nHis daughter waits on the road; his blade is drawn upon the rebellion. The next events shall settle whether the castellan fulfils his charge in time to find his daughter Irina, or whether his loyalty shall cost him the only person in the world he loves."
 
  bookmark_elemer:0 "Elemer of the Briar"
  bookmark_elemer_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_elemer_desc:0 "This nigga somehow sucks ass in Nightreign ngl im supposed to be able to dodge him properly but he keeps hitting wtf."
+ bookmark_elemer_desc:0 "A foreign warrior from the long-vanished domain of Eochaid, land of proudly solitary ascetics, Elemer of the Briar was condemned to die at the executioner's hands and chose, in the moment of his sentencing, to take the executioner's sword for himself. He wears battered iron from a country no one in the Lands Between can name, his greatshield is wound about with iron thorns, and the swords of Eochaid still dance through the skies wherever the bell-bearing hunter walks.\n\nHis past is foreign; his fury is wholly his own. Whether the briar-clad outlaw shall be cut down for his transgressions against House Marais, or whether the Marais executioner's blade shall continue to dance unchecked through the skies of the Shaded Castle he now controls, the road to him lies open."
 
  bookmark_maleigh:0 "Maleigh Marais, Shaded Castle Castellan"
  bookmark_maleigh_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_maleigh_desc:0 "Maleigh who?"
+ bookmark_maleigh_desc:0 "The Lord of the Shaded Castle, Maleigh Marais was sickly born, as all the sons of his house are sickly born, and he was a private believer in the old legend of the scarlet rot when none others were. His prayers found a listener at last, and when he embraces the prosthesis left behind by a young Malenia, he claims to feel the presence of his own personal goddess; the beautiful and fierce one who was born into rot has, it seems, beguiled him entirely.\n\nThe bud of the Shaded Castle has already begun to open. Whether Maleigh Marais shall bloom at last into a martyr of the Order of Rot, or whether his goddess shall remain a solitary delusion known only to her sole devotee, remains to be seen."
 
  #The Regents
  bookmark_rennala:0 "Rennala, Queen of the Full Moon"
@@ -78,16 +78,16 @@
 
  bookmark_ranni:0 "Ranni the Witch"
  bookmark_ranni_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_ranni_desc:0 "Blue cunny. Well actually not so blue yet we gotta add in blue skin colors."
+ bookmark_ranni_desc:0 "The Witch who would not be a god, Ranni cast off her Empyrean flesh on the Night of the Black Knives and severed her tie to the Two Fingers in a single ritual stroke. Her doll-body sits upon Ranni's Rise, her servants can be found in all corners of the realm, her vision plain; the Elden Ring and the Dark Moon, taken far away, beyond the reach of mortal hands.\n\nThe solitude beyond the night is better hers alone. Whether the Lunar Princess shall lead the Lands Between into her cold Age of Stars, or whether her conspiracy shall be undone by other forces, she walks the dark path with fear, doubt, and solitude."
 
  bookmark_jerren:0 "Witch-Hunter Jerren"
  bookmark_jerren_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_jerren_desc:0 "Kill Radahn so he can go hunt witches at last."
+ bookmark_jerren_desc:0 "The Castellan of Redmane Castle and the organiser of the Radahn Festival, Jerren is an old witness who has outlived the age he belonged to. He calls warriors from across the Lands Between to challenge what is left of General Radahn. Not for sport, he says, but in mercy, that the mightiest of Marika's children might be granted the warrior's death the Scarlet Rot has denied him.\n\nHis patience is long, and his blade is older. Whether the witch-hunter shall close the festival when its purpose is done, or whether he shall yet ride out to deliver the long-deferred justice owed to the Graven Witch who once escaped him, his old work is not yet ended."
 
  bookmark_loretta:0 "Loretta, Knight of the Haligtree"
  bookmark_loretta_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_loretta_desc:0 "Big woman."
+ bookmark_loretta_desc:0 "A royal Carian knight in her former life, Loretta took up her silver war-sickle and her lapis-lazuli cape and walked away from the Academy and the Carian royals upon a long, bloody journey to find a haven for the Albinaurics, the broken people whom no realm of the Lands Between would shelter. She determined that Miquella's Haligtree was their best chance for eventual salvation, and there she remains, the foremost guardian of its gate, her bow her favoured weapon and her duty unconditional.\n\nHer faith outlasted her lord's body; her watch has not ended. Whether the Knight of the Haligtree shall yet shepherd the Albinaurics into Miquella's promised dawn, or whether she shall be only the last witness of their long withering, the gate is hers to hold."
  
  bookmark_tanith:0 "Tanith, Volcano Manor Proprietress"
  bookmark_tanith_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_tanith_desc:0 "She likes to eat faces."
+ bookmark_tanith_desc:0 "The proprietress of the Volcano Manor atop Mt. Gelmir, Lady Tanith is the public face of Praetor Rykard's blasphemous rebellion against the Erdtree as well as his consort, and the manageress of his family of champions. She speaks softly and persuades easily, telling those whom the Two Fingers have abandoned that there is no need to obey the arrogant ramblings of the Fingers; she has also kept a hidden bastard serpent-daughter of Rykard in her care, and named her Rya.\n\nHer lord lies in wait to consume both Lords and Gods alike, and her devotion to him remains steadfast. The seat of his blasphemy stands or falls upon her charm alone, and the assassins of Mt. Gelmir answer to her name."
