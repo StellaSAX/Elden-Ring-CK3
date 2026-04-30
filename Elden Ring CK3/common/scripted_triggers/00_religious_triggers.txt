@@ -1,4 +1,4 @@
-
+﻿
 ###TRIGGER LIST
 
 # has_strong_religious_conviction_trigger

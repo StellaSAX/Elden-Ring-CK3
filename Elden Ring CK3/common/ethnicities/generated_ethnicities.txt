@@ -1,4 +1,4 @@
-heritage_0 = {
+﻿heritage_0 = {
 
 	skin_color = {
 		10 = { 0.19 0.70 0.19 0.85 }

@@ -1,4 +1,4 @@
-culture_descriptions = {
+﻿culture_descriptions = {
 	scope = culture
 
 	effect = {

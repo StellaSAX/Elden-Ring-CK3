@@ -1,4 +1,4 @@
-elden_ring_ruins_greatsword_effect = {
+﻿elden_ring_ruins_greatsword_effect = {
 	$OWNER$ = {
 		save_scope_as = owner
 	}
