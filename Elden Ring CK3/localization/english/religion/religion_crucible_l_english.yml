@@ -78,7 +78,6 @@
  faith_spiral_adherent:0 "One who walks the Spiraled Path"
  faith_spiral_adherent_plural:0 "Those who walk the Spiraled Path"
  faith_spiral_trickster_god_name:0 "Queen Marika the Eternal"
- faith_spiral_trickster_god_name:0 "Queen Marika the Eternal's"
  faith_spiral_religious_symbol:0 "Spiral-Carved Amber"
  faith_spiral_desc:0 "For some lost in the Lands of Shadow the idea of being abandoned was too much to bare and in their desperation they began to seek for an answer in something new, in the end they found it in something old. Taking the Hornsent beliefs and merging it with the teachings of the Erdtree they created the Spiral Path and carved icons of the distant Erdtree onto amber, marking the ancient still warm remnants of the lost Crucible with that which would come after forever linking the two in silver light."
  
@@ -87,27 +86,3 @@
  faith_crucible_adj:0 "The Crucible"
  faith_crucible_adherent:0 "Follower of The Primordial Crucible"
  faith_crucible_adherent_plural:0 "Followers of The Primordial Crucible"
-
- faith_shaman:0 "Shamanism"
- faith_shaman_adj:0 "Shamanic"
- faith_shaman_adherent:0 "Shaman"
- faith_shaman_adherent_plural:0 "Shamans"
- faith_shaman_desc:0 "Shamanism is derived from folk traditions, usually tied with nature and ancestral spirits."
-
- faith_ancient_dragon:0 "Ancient Dragon Worship"
- faith_ancient_dragon_adj:0 "Ancient Dragon"
- faith_ancient_dragon_adherent:0 "Dragon Apostle"
- faith_ancient_dragon_adherent_plural:0 "Dragon Apostles"
- faith_ancient_dragon_desc:0 "In an age before the Erdtree, before Marika, before even the Golden Order was dreamed of, the ancient dragons ruled beneath Placidusax, the Elden Lord who served a god now long forgotten within Farum Azula. Followers of the Ancient Dragons reject the Golden Order and believe that one day they will reclaim their dominion over the Lands Between and rule with their infinite wisdom."
-
- faith_bayle_dragon:0 "Servants of Bayle"
- faith_bayle_dragon_adj:0 "Servant of Bayle"
- faith_bayle_dragon_adherent:0 "Servant of Bayle"
- faith_bayle_dragon_adherent_plural:0 "Servants of Bayle"
- faith_bayle_dragon_desc:0 "White the followers Ancient Dragons looks to Farum Azula and the memory of Placidusax, those who align with Bayle the Dread stands with him not only in defiance against the Golden Order, but also the traditions of the ancient Dragonlords. They are hunted by those who participate in the Dragon Communion after Bayle betrayed and battled Placidusax long ago."
-
- faith_ancestor_spirit:0 "Ancestor Spirit Worship"
- faith_ancestor_spirit_adj:0 "Ancestor Spirit"
- faith_ancestor_spirit_adherent:0 "Ancestor Follower"
- faith_ancestor_spirit_adherent_plural:0 "Ancestor Followers"
- faith_ancestor_spirit_desc:0 "Deep beneath the earth, in the caverns of the underground, the great glowing Ancestor Spirits are worshipped by those who dwell in the dark."
