@@ -1,3 +1,7 @@
+﻿#############################################
+# ELDEN LORDS NICKNAMES
+#############################################
+
 nick_the_eternal = {}
 nick_the_order_kingqueen = {}
 nick_the_golden = {}
