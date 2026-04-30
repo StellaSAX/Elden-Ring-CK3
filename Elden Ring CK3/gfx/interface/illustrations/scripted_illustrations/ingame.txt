@@ -6,39 +6,39 @@ character_view_bg = {
 	# Dead
 
 	# Tengri generic holy site
-	# texture = {
-		# reference = "event_scenes/mpo_temple_steppe.dds"
+	texture = {
+		reference = "event_scenes/mpo_temple_steppe.dds"
 
-		# trigger = {
-			# is_alive = no
-			# OR = {
-				# religion = religion:tengrism_religion
-				# religion = religion:magyar_religion
-				# religion = religion:siberian_religion
-				# religion = religion:shamanism_religion
-				# religion = religion:kamuyism_religion
-			# }
-		# }
-	# }
+		trigger = {
+			is_alive = no
+			OR = {
+				religion = religion:tengrism_religion
+				religion = religion:magyar_religion
+				religion = religion:siberian_religion
+				religion = religion:shamanism_religion
+				religion = religion:kamuyism_religion
+			}
+		}
+	}
 
-	# texture = { # Zoroastrian
-		# reference = "event_scenes/fp3_temple.dds"
+	texture = { # Zoroastrian
+		reference = "event_scenes/fp3_temple.dds"
 
-		# trigger = {
-			# is_alive = no
-			# religion = religion:zoroastrianism_religion
-		# }
-	# }
+		trigger = {
+			is_alive = no
+			religion = religion:zoroastrianism_religion
+		}
+	}
 
 	texture = { # Iberian
 		reference = "event_scenes/fp2_temple.dds"
 
 		trigger = {
 			is_alive = no
-			# OR = {
-				# religion = religion:christianity_religion
-				# religion = religion:islam_religion
-			# }
+			OR = {
+				religion = religion:christianity_religion
+				religion = religion:islam_religion
+			}
 			trigger_if = {
 				limit = { exists = liege }
 				liege.culture = { has_building_gfx = iberian_building_gfx }
@@ -49,75 +49,75 @@ character_view_bg = {
 		}
 	}
 
-	# texture = {
-		# reference = "event_scenes/ep3_hagia_sophia.dds"
+	texture = {
+		reference = "event_scenes/ep3_hagia_sophia.dds"
 
-		# trigger = {
-			# is_alive = no
-			# religion = religion:christianity_religion
-			# primary_title = title:e_byzantium
-		# }
-	# }
+		trigger = {
+			is_alive = no
+			religion = religion:christianity_religion
+			primary_title = title:e_byzantium
+		}
+	}
 
-	# texture = { # Christian
-		# reference = "event_scenes/church.dds"
+	texture = { # Christian
+		reference = "event_scenes/church.dds"
 
-		# trigger = {
-			# is_alive = no
-			# religion = religion:christianity_religion
-		# }
-	# }
+		trigger = {
+			is_alive = no
+			religion = religion:christianity_religion
+		}
+	}
 
-	# texture = { # Islam
-		# reference = "event_scenes/mosque.dds"
+	texture = { # Islam
+		reference = "event_scenes/mosque.dds"
 
-		# trigger = {
-			# is_alive = no
-			# religion = religion:islam_religion
-		# }
-	# }
+		trigger = {
+			is_alive = no
+			religion = religion:islam_religion
+		}
+	}
 
 	texture = { # Dharmic India / Southeast Asia
 		reference = "event_scenes/ep2_holysite_indian.dds"
 
 		trigger = {
 			is_alive = no
-			# religion = {
-				# is_in_family = rf_eastern
-			# }
+			religion = {
+				is_in_family = rf_eastern
+			}
 			culture = {
 				has_graphical_india_culture_group_trigger = yes
 			}
 		}
 	}
 
-	# texture = { # FP1
-		# reference = "event_scenes/fp1_tribal_temple.dds"
+	texture = { # FP1
+		reference = "event_scenes/fp1_tribal_temple.dds"
 
-		# trigger = {
-			# is_alive = no
-			# religion = religion:germanic_religion
-		# }
-	# }
+		trigger = {
+			is_alive = no
+			religion = religion:germanic_religion
+		}
+	}
 
-	# texture = { # Dharmic East Asia
-		# reference = "event_scenes/tgp_temple_asia.dds"
+	texture = { # Dharmic East Asia
+		reference = "event_scenes/tgp_temple_asia.dds"
 
-		# trigger = {
-			# is_alive = no
-			# religion = {
-				# OR = {
-					# is_in_family = rf_eastern
-					# is_in_family = rf_sinitic
-				# }
-			# }
-		# }
-	# }
+		trigger = {
+			is_alive = no
+			religion = {
+				OR = {
+					is_in_family = rf_eastern
+					is_in_family = rf_sinitic
+				}
+			}
+		}
+	}
 
 	texture = { # Pagans
 		trigger = {
 			is_alive = no
-			#religion = { is_in_family = rf_pagan }
+			religion = { is_in_family = rf_pagan }
 			OR = {
 				government_has_flag = government_is_tribal
 				government_has_flag = government_is_nomadic
@@ -529,7 +529,7 @@ character_view_bg = {
 					geographical_region = graphical_mena
 					AND = {
 						geographical_region = world_europe_west_iberia
-						#root = { faith = { religion = religion:islam_religion } }
+						root = { faith = { religion = religion:islam_religion } }
 					}
 				}
 			}
@@ -547,7 +547,7 @@ character_view_bg = {
 					geographical_region = graphical_mena
 					AND = {
 						geographical_region = world_europe_west_iberia
-						#root = { faith = { religion = religion:islam_religion } }
+						root = { faith = { religion = religion:islam_religion } }
 					}
 				}
 			}
@@ -570,7 +570,7 @@ character_view_bg = {
 								geographical_region = graphical_mena
 								AND = {
 									geographical_region = world_europe_west_iberia
-									#root = { faith = { religion = religion:islam_religion } }
+									root = { faith = { religion = religion:islam_religion } }
 								}
 							}
 						}
@@ -586,7 +586,7 @@ character_view_bg = {
 								geographical_region = graphical_mena
 								AND = {
 									geographical_region = world_europe_west_iberia
-									#root = { faith = { religion = religion:islam_religion } }
+									root = { faith = { religion = religion:islam_religion } }
 								}
 							}
 						}
@@ -602,7 +602,7 @@ character_view_bg = {
 								geographical_region = graphical_mena
 								AND = {
 									geographical_region = world_europe_west_iberia
-									#root = { faith = { religion = religion:islam_religion } }
+									root = { faith = { religion = religion:islam_religion } }
 								}
 							}
 						}
@@ -9011,49 +9011,49 @@ character_view_bg = {
 
 	##########################################
 
-	# texture = { # FP1
-		# reference = "event_scenes/fp1_tribal_temple.dds"
+	texture = { # FP1
+		reference = "event_scenes/fp1_tribal_temple.dds"
 
-		# trigger = {
-			# should_use_temple_character_background_trigger = yes
-			# religion = religion:germanic_religion
-		# }
-	# }
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:germanic_religion
+		}
+	}
 
-	# environment = {
-		# reference = "environment_event_fp1_tribal_temple"
+	environment = {
+		reference = "environment_event_fp1_tribal_temple"
 
-		# trigger = {
-			# should_use_temple_character_background_trigger = yes
-			# religion = religion:germanic_religion
-			# is_character_window_main_character = yes
-		# }
-	# }
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:germanic_religion
+			is_character_window_main_character = yes
+		}
+	}
 
-	# environment = {
-		# reference = "environment_event_fp1_tribal_temple"
+	environment = {
+		reference = "environment_event_fp1_tribal_temple"
 
-		# trigger = {
-			# OR = {
-				# primary_spouse ?= {
-					# should_use_temple_character_background_trigger = yes
-					# religion = religion:germanic_religion
-				# }
-				# betrothed ?= {
-					# should_use_temple_character_background_trigger = yes
-					# religion = religion:germanic_religion
-				# }
-				# AND = {
-					# liege.diarch ?= this
-					# liege ?= {
-						# should_use_temple_character_background_trigger = yes
-						# religion = religion:germanic_religion
-					# }
-				# }
-			# }
-			# is_character_window_main_character = no
-		# }
-	# }
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:germanic_religion
+				}
+				betrothed ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:germanic_religion
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						should_use_temple_character_background_trigger = yes
+						religion = religion:germanic_religion
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
 
 	##########################################
 
@@ -9700,8 +9700,7 @@ character_view_bg = {
 									primary_title.tier >= tier_kingdom
 								}
 								OR = {
-									#culture = culture:norse
-									#religion = religion:germanic_religion
+									religion = religion:germanic_religion
 									has_graphical_scandinavia_region_trigger = yes
 								}
 							}
@@ -9716,8 +9715,7 @@ character_view_bg = {
 									primary_title.tier >= tier_kingdom
 								}
 								OR = {
-									#culture = culture:norse
-									#religion = religion:germanic_religion
+									religion = religion:germanic_religion
 									has_graphical_scandinavia_region_trigger = yes
 								}
 							}
@@ -9733,8 +9731,7 @@ character_view_bg = {
 						primary_title.tier >= tier_kingdom
 					}
 					OR = {
-						#culture = culture:norse
-						#religion = religion:germanic_religion
+						religion = religion:germanic_religion
 						has_graphical_scandinavia_region_trigger = yes
 					}
 				}
@@ -9761,8 +9758,7 @@ character_view_bg = {
 									primary_title.tier >= tier_kingdom
 								}
 								OR = {
-									#culture = culture:norse
-									#religion = religion:germanic_religion
+									religion = religion:germanic_religion
 									has_graphical_scandinavia_region_trigger = yes
 								}
 							}
@@ -9777,8 +9773,7 @@ character_view_bg = {
 									primary_title.tier >= tier_kingdom
 								}
 								OR = {
-									#culture = culture:norse
-									#religion = religion:germanic_religion
+									religion = religion:germanic_religion
 									has_graphical_scandinavia_region_trigger = yes
 								}
 							}
@@ -9794,8 +9789,7 @@ character_view_bg = {
 						primary_title.tier >= tier_kingdom
 					}
 					OR = {
-						#culture = culture:norse
-						#religion = religion:germanic_religion
+						religion = religion:germanic_religion
 						has_graphical_scandinavia_region_trigger = yes
 					}
 				}
@@ -9820,8 +9814,7 @@ character_view_bg = {
 							primary_title.tier >= tier_kingdom
 						}
 						OR = {
-							#culture = culture:norse
-							#religion = religion:germanic_religion
+							religion = religion:germanic_religion
 							has_graphical_scandinavia_region_trigger = yes
 						}
 					}
@@ -9837,8 +9830,7 @@ character_view_bg = {
 							primary_title.tier >= tier_kingdom
 						}
 						OR = {
-							#culture = culture:norse
-							#religion = religion:germanic_religion
+							religion = religion:germanic_religion
 							has_graphical_scandinavia_region_trigger = yes
 						}
 					}
@@ -9854,8 +9846,7 @@ character_view_bg = {
 							primary_title.tier >= tier_kingdom
 						}
 						OR = {
-							#culture = culture:norse
-							#religion = religion:germanic_religion
+							religion = religion:germanic_religion
 							has_graphical_scandinavia_region_trigger = yes
 						}
 					}
@@ -10056,7 +10047,6 @@ character_view_bg = {
 							liege = {
 								government_has_flag = government_is_tribal
 								OR = {
-									culture = culture:norse
 									religion = religion:germanic_religion
 									has_graphical_scandinavia_region_trigger = yes
 								}
@@ -10067,7 +10057,6 @@ character_view_bg = {
 							host = {
 								government_has_flag = government_is_tribal
 								OR = {
-									culture = culture:norse
 									religion = religion:germanic_religion
 									has_graphical_scandinavia_region_trigger = yes
 								}
@@ -10078,10 +10067,7 @@ character_view_bg = {
 				AND = {
 					is_ruler = yes
 					government_has_flag = government_is_tribal
-					OR = {
-						culture = culture:norse
-						religion = religion:germanic_religion
-					}
+					religion = religion:germanic_religion
 				}
 			}
 		}
@@ -10101,7 +10087,6 @@ character_view_bg = {
 							liege = {
 								government_has_flag = government_is_tribal
 								OR = {
-									culture = culture:norse
 									religion = religion:germanic_religion
 									has_graphical_scandinavia_region_trigger = yes
 								}
@@ -10112,7 +10097,6 @@ character_view_bg = {
 							host = {
 								government_has_flag = government_is_tribal
 								OR = {
-									culture = culture:norse
 									religion = religion:germanic_religion
 									has_graphical_scandinavia_region_trigger = yes
 								}
@@ -10123,10 +10107,7 @@ character_view_bg = {
 				AND = {
 					is_ruler = yes
 					government_has_flag = government_is_tribal
-					OR = {
-						culture = culture:norse
-						religion = religion:germanic_religion
-					}
+					religion = religion:germanic_religion
 				}
 			}
 			is_character_window_main_character = yes
@@ -10143,10 +10124,7 @@ character_view_bg = {
 					primary_spouse = {
 						government_has_flag = government_is_tribal
 						has_fp1_dlc_trigger = yes
-						OR = {
-							culture = culture:norse
-							religion = religion:germanic_religion
-						}
+						religion = religion:germanic_religion
 					}
 				}
 				AND = {
@@ -10154,10 +10132,7 @@ character_view_bg = {
 					betrothed = {
 						government_has_flag = government_is_tribal
 						has_fp1_dlc_trigger = yes
-						OR = {
-							culture = culture:norse
-							religion = religion:germanic_religion
-						}
+						religion = religion:germanic_religion
 					}
 				}
 				AND = {
@@ -10165,10 +10140,7 @@ character_view_bg = {
 					liege ?= {
 						government_has_flag = government_is_tribal
 						has_fp1_dlc_trigger = yes
-						OR = {
-							culture = culture:norse
-							religion = religion:germanic_religion
-						}
+						religion = religion:germanic_religion
 					}
 				}
 			}
@@ -11769,7 +11741,7 @@ religion_holding = {
 		trigger = {
 			religion = religion:christianity_religion
 			NOT = {
-				faith = faith:nestorian
+				this = faith:nestorian
 			}
 		}
 		reference = "holding_types/temple_christian.dds"
@@ -12364,7 +12336,6 @@ character_private = {
 		trigger = {
 			exists = primary_title
 			OR = {
-				culture = culture:norse
 				religion = religion:germanic_religion
 				has_graphical_scandinavia_region_trigger = yes
 			}
@@ -12377,7 +12348,6 @@ character_private = {
 
 		trigger = {
 			OR = {
-				culture = culture:norse
 				religion = religion:germanic_religion
 				has_graphical_scandinavia_region_trigger = yes
 			}
