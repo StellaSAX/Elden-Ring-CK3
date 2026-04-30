@@ -21,24 +21,11 @@ character_view_bg = {
 		}
 	}
 
-	texture = { # Zoroastrian
-		reference = "event_scenes/fp3_temple.dds"
-
-		trigger = {
-			is_alive = no
-			religion = religion:zoroastrianism_religion
-		}
-	}
-
 	texture = { # Iberian
 		reference = "event_scenes/fp2_temple.dds"
 
 		trigger = {
 			is_alive = no
-			OR = {
-				religion = religion:christianity_religion
-				religion = religion:islam_religion
-			}
 			trigger_if = {
 				limit = { exists = liege }
 				liege.culture = { has_building_gfx = iberian_building_gfx }
@@ -49,31 +36,12 @@ character_view_bg = {
 		}
 	}
 
-	texture = {
-		reference = "event_scenes/ep3_hagia_sophia.dds"
-
-		trigger = {
-			is_alive = no
-			religion = religion:christianity_religion
-			primary_title = title:e_byzantium
-		}
-	}
-
 	texture = { # Christian
 		reference = "event_scenes/church.dds"
 
 		trigger = {
 			is_alive = no
-			religion = religion:christianity_religion
-		}
-	}
-
-	texture = { # Islam
-		reference = "event_scenes/mosque.dds"
-
-		trigger = {
-			is_alive = no
-			religion = religion:islam_religion
+			religion = religion:order_religion
 		}
 	}
 
@@ -88,15 +56,6 @@ character_view_bg = {
 			culture = {
 				has_graphical_india_culture_group_trigger = yes
 			}
-		}
-	}
-
-	texture = { # FP1
-		reference = "event_scenes/fp1_tribal_temple.dds"
-
-		trigger = {
-			is_alive = no
-			religion = religion:germanic_religion
 		}
 	}
 
@@ -527,10 +486,7 @@ character_view_bg = {
 			involved_activity.activity_location = {
 				OR = {
 					geographical_region = graphical_mena
-					AND = {
-						geographical_region = world_europe_west_iberia
-						root = { faith = { religion = religion:islam_religion } }
-					}
+					geographical_region = world_europe_west_iberia
 				}
 			}
 		}
@@ -545,10 +501,7 @@ character_view_bg = {
 			involved_activity.activity_location = {
 				OR = {
 					geographical_region = graphical_mena
-					AND = {
-						geographical_region = world_europe_west_iberia
-						root = { faith = { religion = religion:islam_religion } }
-					}
+					geographical_region = world_europe_west_iberia
 				}
 			}
 			is_character_window_main_character = yes
@@ -568,10 +521,7 @@ character_view_bg = {
 						involved_activity.activity_location = {
 							OR = {
 								geographical_region = graphical_mena
-								AND = {
-									geographical_region = world_europe_west_iberia
-									root = { faith = { religion = religion:islam_religion } }
-								}
+								geographical_region = world_europe_west_iberia
 							}
 						}
 					}
@@ -584,10 +534,7 @@ character_view_bg = {
 						involved_activity.activity_location = {
 							OR = {
 								geographical_region = graphical_mena
-								AND = {
-									geographical_region = world_europe_west_iberia
-									root = { faith = { religion = religion:islam_religion } }
-								}
+								geographical_region = world_europe_west_iberia
 							}
 						}
 					}
@@ -600,10 +547,7 @@ character_view_bg = {
 						involved_activity.activity_location = {
 							OR = {
 								geographical_region = graphical_mena
-								AND = {
-									geographical_region = world_europe_west_iberia
-									root = { faith = { religion = religion:islam_religion } }
-								}
+								geographical_region = world_europe_west_iberia
 							}
 						}
 					}
@@ -1427,366 +1371,6 @@ character_view_bg = {
 						involved_activity ?= { has_activity_type = activity_feast }
 						location ?= involved_activity.activity_location
 						involved_activity.activity_location.culture = { has_building_gfx = mediterranean_building_gfx }
-					}
-				}
-			}
-			is_character_window_main_character = no
-		}
-	}
-
-	####
-	# feast, norse
-	####
-	texture = {
-		reference = "event_scenes/fp1_viking_feast.dds"
-
-		trigger = {
-			involved_activity ?= { has_activity_type = activity_feast }
-			location ?= involved_activity.activity_location
-			OR = {
-				involved_activity.activity_location.culture = { has_building_gfx = norse_building_gfx }
-				involved_activity.activity_location.province_owner ?= {
-					should_use_tribal_realm_palace_graphics_trigger = yes
-				}
-			}
-		}
-	}
-
-	environment = {
-		reference = "environment_event_fp1_viking_feast"
-
-		trigger = {
-			involved_activity ?= { has_activity_type = activity_feast }
-			location ?= involved_activity.activity_location
-			OR = {
-				involved_activity.activity_location.culture = { has_building_gfx = norse_building_gfx }
-				involved_activity.activity_location.province_owner ?= {
-					should_use_tribal_realm_palace_graphics_trigger = yes
-				}
-			}
-			is_character_window_main_character = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_event_fp1_viking_feast"
-
-		trigger = {
-			OR = {
-				AND = {
-					exists = primary_spouse
-					primary_spouse = {
-						involved_activity ?= { has_activity_type = activity_feast }
-						location ?= involved_activity.activity_location
-						OR = {
-							involved_activity.activity_location.culture = { has_building_gfx = norse_building_gfx }
-							involved_activity.activity_location.province_owner ?= {
-								should_use_tribal_realm_palace_graphics_trigger = yes
-							}
-						}
-					}
-				}
-				AND = {
-					exists = betrothed
-					betrothed = {
-						involved_activity ?= { has_activity_type = activity_feast }
-						location ?= involved_activity.activity_location
-						OR = {
-							involved_activity.activity_location.culture = { has_building_gfx = norse_building_gfx }
-							involved_activity.activity_location.province_owner ?= {
-								should_use_tribal_realm_palace_graphics_trigger = yes
-							}
-						}
-					}
-				}
-				AND = {
-					liege.diarch ?= this
-					liege ?= {
-						involved_activity ?= { has_activity_type = activity_feast }
-						location ?= involved_activity.activity_location
-						OR = {
-							involved_activity.activity_location.culture = { has_building_gfx = norse_building_gfx }
-							involved_activity.activity_location.province_owner ?= {
-								should_use_tribal_realm_palace_graphics_trigger = yes
-							}
-						}
-					}
-				}
-			}
-			is_character_window_main_character = no
-		}
-	}
-
-	####
-	# feast, indian
-	####
-	texture = {
-		reference = "event_scenes/ep2_feast_indian.dds"
-
-		trigger = {
-			involved_activity ?= { has_activity_type = activity_feast }
-			location ?= involved_activity.activity_location
-			involved_activity.activity_location.culture = {
-				OR = {
-					has_building_gfx = indian_building_gfx
-					has_building_gfx = tibetan_building_gfx
-				}
-			}
-		}
-	}
-
-	environment = {
-		reference = "environment_indian_feast"
-
-		trigger = {
-			involved_activity ?= { has_activity_type = activity_feast }
-			location ?= involved_activity.activity_location
-			involved_activity.activity_location.culture = {
-				OR = {
-					has_building_gfx = indian_building_gfx
-					has_building_gfx = tibetan_building_gfx
-				}
-			}
-			is_character_window_main_character = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_indian_feast"
-
-		trigger = {
-			OR = {
-				AND = {
-					exists = primary_spouse
-					primary_spouse = {
-						involved_activity ?= { has_activity_type = activity_feast }
-						location ?= involved_activity.activity_location
-						involved_activity.activity_location.culture = {
-							OR = {
-								has_building_gfx = indian_building_gfx
-								has_building_gfx = tibetan_building_gfx
-							}
-						}
-					}
-				}
-				AND = {
-					exists = betrothed
-					betrothed = {
-						involved_activity ?= { has_activity_type = activity_feast }
-						location ?= involved_activity.activity_location
-						involved_activity.activity_location.culture = {
-							OR = {
-								has_building_gfx = indian_building_gfx
-								has_building_gfx = tibetan_building_gfx
-							}
-						}
-					}
-				}
-				AND = {
-					liege.diarch ?= this
-					liege ?= {
-						involved_activity ?= { has_activity_type = activity_feast }
-						location ?= involved_activity.activity_location
-						involved_activity.activity_location.culture = {
-							OR = {
-								has_building_gfx = indian_building_gfx
-								has_building_gfx = tibetan_building_gfx
-							}
-						}
-					}
-				}
-			}
-			is_character_window_main_character = no
-		}
-	}
-
-	####
-	# feast, mena
-	####
-	texture = {
-		reference = "event_scenes/ep2_feast_mena.dds"
-
-		trigger = {
-			involved_activity ?= { has_activity_type = activity_feast }
-			location ?= involved_activity.activity_location
-			OR = {
-				involved_activity.activity_location.culture = { has_building_gfx = arabic_group_building_gfx }
-				involved_activity.activity_location.culture = { has_building_gfx = berber_group_building_gfx }
-				involved_activity.activity_location.culture = { has_building_gfx = iberian_building_gfx }
-			}
-		}
-	}
-
-	environment = {
-		reference = "environment_mena_feast"
-
-		trigger = {
-			involved_activity ?= { has_activity_type = activity_feast }
-			location ?= involved_activity.activity_location
-			OR = {
-				involved_activity.activity_location.culture = { has_building_gfx = arabic_group_building_gfx }
-				involved_activity.activity_location.culture = { has_building_gfx = berber_group_building_gfx }
-				involved_activity.activity_location.culture = { has_building_gfx = iberian_building_gfx }
-			}
-			is_character_window_main_character = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_mena_feast"
-
-		trigger = {
-			OR = {
-				AND = {
-					exists = primary_spouse
-					primary_spouse = {
-						involved_activity ?= { has_activity_type = activity_feast }
-						location ?= involved_activity.activity_location
-						OR = {
-							involved_activity.activity_location.culture = { has_building_gfx = arabic_group_building_gfx }
-							involved_activity.activity_location.culture = { has_building_gfx = berber_group_building_gfx }
-							involved_activity.activity_location.culture = { has_building_gfx = iberian_building_gfx }
-						}
-					}
-				}
-				AND = {
-					exists = betrothed
-					betrothed = {
-						involved_activity ?= { has_activity_type = activity_feast }
-						location ?= involved_activity.activity_location
-						OR = {
-							involved_activity.activity_location.culture = { has_building_gfx = arabic_group_building_gfx }
-							involved_activity.activity_location.culture = { has_building_gfx = berber_group_building_gfx }
-							involved_activity.activity_location.culture = { has_building_gfx = iberian_building_gfx }
-						}
-					}
-				}
-				AND = {
-					liege.diarch ?= this
-					liege ?= {
-						involved_activity ?= { has_activity_type = activity_feast }
-						location ?= involved_activity.activity_location
-						OR = {
-							involved_activity.activity_location.culture = { has_building_gfx = arabic_group_building_gfx }
-							involved_activity.activity_location.culture = { has_building_gfx = berber_group_building_gfx }
-							involved_activity.activity_location.culture = { has_building_gfx = iberian_building_gfx }
-						}
-					}
-				}
-			}
-			is_character_window_main_character = no
-		}
-	}
-
-	####
-	# feast, steppe
-	####
-	texture = {
-		reference = "event_scenes/ep2_feast_steppe.dds"
-
-		trigger = {
-			involved_activity ?= { has_activity_type = activity_feast }
-			location ?= involved_activity.activity_location
-			involved_activity.activity_location.culture = { has_building_gfx = steppe_building_gfx }
-		}
-	}
-
-	environment = {
-		reference = "environment_steppe_feast"
-
-		trigger = {
-			involved_activity ?= { has_activity_type = activity_feast }
-			location ?= involved_activity.activity_location
-			involved_activity.activity_location.culture = { has_building_gfx = steppe_building_gfx }
-			is_character_window_main_character = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_steppe_feast"
-
-		trigger = {
-			OR = {
-				AND = {
-					exists = primary_spouse
-					primary_spouse = {
-						involved_activity ?= { has_activity_type = activity_feast }
-						location ?= involved_activity.activity_location
-						involved_activity.activity_location.culture = { has_building_gfx = steppe_building_gfx }
-					}
-				}
-				AND = {
-					exists = betrothed
-					betrothed = {
-						involved_activity ?= { has_activity_type = activity_feast }
-						location ?= involved_activity.activity_location
-						involved_activity.activity_location.culture = { has_building_gfx = steppe_building_gfx }
-					}
-				}
-				AND = {
-					liege.diarch ?= this
-					liege ?= {
-						involved_activity ?= { has_activity_type = activity_feast }
-						location ?= involved_activity.activity_location
-						involved_activity.activity_location.culture = { has_building_gfx = steppe_building_gfx }
-					}
-				}
-			}
-			is_character_window_main_character = no
-		}
-	}
-
-	####
-	# feast, sub-saharan
-	####
-	texture = {
-		reference = "event_scenes/ep2_feast_sub_saharan.dds"
-
-		trigger = {
-			involved_activity ?= { has_activity_type = activity_feast }
-			location ?= involved_activity.activity_location
-			involved_activity.activity_location.culture = { has_building_gfx = african_building_gfx }
-		}
-	}
-
-	environment = {
-		reference = "environment_sub-saharan_feast"
-
-		trigger = {
-			involved_activity ?= { has_activity_type = activity_feast }
-			location ?= involved_activity.activity_location
-			involved_activity.activity_location.culture = { has_building_gfx = african_building_gfx }
-			is_character_window_main_character = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_sub-saharan_feast"
-
-		trigger = {
-			OR = {
-				AND = {
-					exists = primary_spouse
-					primary_spouse = {
-						involved_activity ?= { has_activity_type = activity_feast }
-						location ?= involved_activity.activity_location
-						involved_activity.activity_location.culture = { has_building_gfx = african_building_gfx }
-					}
-				}
-				AND = {
-					exists = betrothed
-					betrothed = {
-						involved_activity ?= { has_activity_type = activity_feast }
-						location ?= involved_activity.activity_location
-						involved_activity.activity_location.culture = { has_building_gfx = african_building_gfx }
-					}
-				}
-				AND = {
-					liege.diarch ?= this
-					liege ?= {
-						involved_activity ?= { has_activity_type = activity_feast }
-						location ?= involved_activity.activity_location
-						involved_activity.activity_location.culture = { has_building_gfx = african_building_gfx }
 					}
 				}
 			}
@@ -7991,117 +7575,6 @@ character_view_bg = {
 		}
 	}
 
-	# Wandering East Asia
-	texture = {
-		reference = "event_scenes/tgp_crossroad_inn_asia.dds"
-
-		trigger = {
-			exists = location
-			location = {
-				OR = {
-					geographical_region = world_asia_china
-					geographical_region = world_asia_japan
-					geographical_region = world_asia_korea
-				}
-			}
-			NOR = {
-				exists = liege
-				exists = host
-				is_travelling = yes
-				exists = involved_activity
-			}
-		}
-	}
-
-	environment = {
-		reference = "environment_tgp_crossroad_inn_asia"
-
-		trigger = {
-			exists = location
-			location = {
-				OR = {
-					geographical_region = world_asia_china
-					geographical_region = world_asia_japan
-					geographical_region = world_asia_korea
-				}
-			}
-			NOR = {
-				exists = liege
-				exists = host
-				is_travelling = yes
-				exists = involved_activity
-			}
-			is_character_window_main_character = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_tgp_crossroad_inn_asia"
-
-		trigger = {
-			OR = {
-				AND = {
-					exists = primary_spouse
-					primary_spouse = {
-						exists = location
-						location = {
-							OR = {
-								geographical_region = world_asia_china
-								geographical_region = world_asia_japan
-								geographical_region = world_asia_korea
-							}
-						}
-						NOR = {
-							exists = liege
-							exists = host
-							is_travelling = yes
-							exists = involved_activity
-						}
-					}
-				}
-				AND = {
-					exists = betrothed
-					betrothed = {
-						exists = location
-						location = {
-							OR = {
-								geographical_region = world_asia_china
-								geographical_region = world_asia_japan
-								geographical_region = world_asia_korea
-							}
-						}
-						NOR = {
-							exists = liege
-							exists = host
-							is_travelling = yes
-							exists = involved_activity
-						}
-					}
-				}
-				AND = {
-					liege.diarch ?= this
-					liege ?= {
-						exists = location
-						location = {
-							OR = {
-								geographical_region = world_asia_china
-								geographical_region = world_asia_japan
-								geographical_region = world_asia_korea
-							}
-						}
-						NOR = {
-							exists = liege
-							exists = host
-							is_travelling = yes
-							exists = involved_activity
-						}
-					}
-				}
-			}
-			is_character_window_main_character = no
-		}
-	}
-
 	#wandering steppe - scary!
 	texture = {
 		reference = "event_scenes/mpo_campfire_steppe.dds"
@@ -8615,64 +8088,11 @@ character_view_bg = {
 		}
 	}
 
-	##########################################
-	# TEMPLES
-
-	texture = { # Zoroastrian
-		reference = "event_scenes/fp3_temple.dds"
-
-		trigger = {
-			should_use_temple_character_background_trigger = yes
-			religion = religion:zoroastrianism_religion
-		}
-	}
-
-	environment = {
-		reference = "environment_event_fp3_temple"
-
-		trigger = {
-			should_use_temple_character_background_trigger = yes
-			religion = religion:zoroastrianism_religion
-			is_character_window_main_character = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_event_fp3_temple"
-
-		trigger = {
-			OR = {
-				primary_spouse ?= {
-					should_use_temple_character_background_trigger = yes
-					religion = religion:zoroastrianism_religion
-				}
-				betrothed ?= {
-					should_use_temple_character_background_trigger = yes
-					religion = religion:zoroastrianism_religion
-				}
-				AND = {
-					liege.diarch ?= this
-					liege ?= {
-						should_use_temple_character_background_trigger = yes
-						religion = religion:zoroastrianism_religion
-					}
-				}
-			}
-			is_character_window_main_character = no
-		}
-	}
-
-	##########################################
-
 	texture = { # Iberian
 		reference = "event_scenes/fp2_temple.dds"
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
-			OR = {
-				religion = religion:christianity_religion
-				religion = religion:islam_religion
-			}
 			trigger_if = {
 				limit = { exists = liege }
 				liege.culture = { has_building_gfx = iberian_building_gfx }
@@ -8688,10 +8108,6 @@ character_view_bg = {
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
-			OR = {
-				religion = religion:christianity_religion
-				religion = religion:islam_religion
-			}
 			trigger_if = {
 				limit = { exists = liege }
 				liege.culture = { has_building_gfx = iberian_building_gfx }
@@ -8709,10 +8125,6 @@ character_view_bg = {
 			OR = {
 				primary_spouse ?= {
 					should_use_temple_character_background_trigger = yes
-					OR = {
-						religion = religion:christianity_religion
-						religion = religion:islam_religion
-					}
 					trigger_if = {
 						limit = { exists = liege }
 						liege.culture = { has_building_gfx = iberian_building_gfx }
@@ -8723,10 +8135,6 @@ character_view_bg = {
 				}
 				betrothed ?= {
 					should_use_temple_character_background_trigger = yes
-					OR = {
-						religion = religion:christianity_religion
-						religion = religion:islam_religion
-					}
 					trigger_if = {
 						limit = { exists = liege }
 						liege.culture = { has_building_gfx = iberian_building_gfx }
@@ -8739,10 +8147,6 @@ character_view_bg = {
 					liege.diarch ?= this
 					liege ?= {
 						should_use_temple_character_background_trigger = yes
-						OR = {
-							religion = religion:christianity_religion
-							religion = religion:islam_religion
-						}
 						trigger_if = {
 							limit = { exists = liege }
 							liege.culture = { has_building_gfx = iberian_building_gfx }
@@ -8750,7 +8154,6 @@ character_view_bg = {
 						trigger_else = {
 							culture = { has_building_gfx = iberian_building_gfx }
 						}
-						religion = religion:zoroastrianism_religion
 					}
 				}
 			}
@@ -8765,7 +8168,7 @@ character_view_bg = {
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
-			religion = religion:christianity_religion
+			religion = religion:order_religion
 		}
 	}
 
@@ -8774,7 +8177,7 @@ character_view_bg = {
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
-			religion = religion:christianity_religion
+			religion = religion:order_religion
 			is_character_window_main_character = yes
 		}
 	}
@@ -8786,73 +8189,25 @@ character_view_bg = {
 			OR = {
 				primary_spouse ?= {
 					should_use_temple_character_background_trigger = yes
-					religion = religion:christianity_religion
+					religion = religion:order_religion
 					is_character_window_main_character = yes
 				}
 				betrothed ?= {
 					should_use_temple_character_background_trigger = yes
-					religion = religion:christianity_religion
+					religion = religion:order_religion
 					is_character_window_main_character = yes
 				}
 				AND = {
 					liege.diarch ?= this
 					liege ?= {
 						should_use_temple_character_background_trigger = yes
-						religion = religion:christianity_religion
+						religion = religion:order_religion
 					}
 				}
 			}
 			is_character_window_main_character = no
 		}
 	}
-
-	##########################################
-
-	texture = { # Islam
-		reference = "event_scenes/mosque.dds"
-
-		trigger = {
-			should_use_temple_character_background_trigger = yes
-			religion = religion:islam_religion
-		}
-	}
-
-	environment = {
-		reference = "environment_event_mosque"
-
-		trigger = {
-			should_use_temple_character_background_trigger = yes
-			religion = religion:islam_religion
-			is_character_window_main_character = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_event_mosque"
-
-		trigger = {
-			OR = {
-				primary_spouse ?= {
-					should_use_temple_character_background_trigger = yes
-					religion = religion:islam_religion
-				}
-				betrothed ?= {
-					should_use_temple_character_background_trigger = yes
-					religion = religion:islam_religion
-				}
-				AND = {
-					liege.diarch ?= this
-					liege ?= {
-						should_use_temple_character_background_trigger = yes
-						religion = religion:islam_religion
-					}
-				}
-			}
-			is_character_window_main_character = no
-		}
-	}
-
-	##########################################
 
 	texture = { # Dharmic India / Southeast Asia
 		reference = "event_scenes/ep2_holysite_indian.dds"
@@ -9008,54 +8363,6 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
-	##########################################
-
-	texture = { # FP1
-		reference = "event_scenes/fp1_tribal_temple.dds"
-
-		trigger = {
-			should_use_temple_character_background_trigger = yes
-			religion = religion:germanic_religion
-		}
-	}
-
-	environment = {
-		reference = "environment_event_fp1_tribal_temple"
-
-		trigger = {
-			should_use_temple_character_background_trigger = yes
-			religion = religion:germanic_religion
-			is_character_window_main_character = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_event_fp1_tribal_temple"
-
-		trigger = {
-			OR = {
-				primary_spouse ?= {
-					should_use_temple_character_background_trigger = yes
-					religion = religion:germanic_religion
-				}
-				betrothed ?= {
-					should_use_temple_character_background_trigger = yes
-					religion = religion:germanic_religion
-				}
-				AND = {
-					liege.diarch ?= this
-					liege ?= {
-						should_use_temple_character_background_trigger = yes
-						religion = religion:germanic_religion
-					}
-				}
-			}
-			is_character_window_main_character = no
-		}
-	}
-
-	##########################################
 
 	texture = { # Fallback
 		reference = "event_scenes/temple.dds"
@@ -9338,136 +8645,6 @@ character_view_bg = {
 	##########################################
 	# THRONE ROOMS
 
-	# Byzantium
-	texture = { # Emperor
-		reference = "event_scenes/ep3_byzantine_throne_room.dds"
-
-		trigger = {
-			OR = {
-				AND = { # Emperor
-					is_roman_emperor_primary_title_trigger = yes
-					culture = {
-						OR = {
-							has_cultural_pillar = heritage_byzantine
-							has_cultural_pillar = heritage_caucasian
-						}
-					}
-					primary_title.tier >= tier_empire
-				}
-				AND = { # Primary Spouse
-					primary_spouse ?= {
-						is_landed = yes
-						exists = top_liege
-						is_roman_emperor_primary_title_trigger = yes
-						culture = {
-							OR = {
-								has_cultural_pillar = heritage_byzantine
-								has_cultural_pillar = heritage_caucasian
-							}
-						}
-						primary_title.tier >= tier_empire
-					}
-				}
-				AND = { # Close family in the same location
-					any_close_family_member = {
-						location = prev.location
-						is_landed = yes
-						exists = top_liege
-						is_roman_emperor_primary_title_trigger = yes
-						culture = {
-							OR = {
-								has_cultural_pillar = heritage_byzantine
-								has_cultural_pillar = heritage_caucasian
-							}
-						}
-						primary_title.tier >= tier_empire
-					}
-				}
-			}
-		}
-	}
-
-	environment = {
-		reference = "environment_ep3_byzantine_throne_room"
-
-		trigger = {
-			OR = {
-				is_roman_emperor_primary_title_trigger = yes
-				AND = {
-					culture = {
-						OR = {
-							has_cultural_pillar = heritage_byzantine
-							has_cultural_pillar = heritage_caucasian
-						}
-					}
-					primary_title.tier >= tier_empire
-				}
-			}
-			is_character_window_main_character = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_ep3_byzantine_throne_room_spouse"
-
-		trigger = {
-			OR = {
-				AND = {
-					exists = primary_spouse
-					primary_spouse = {
-						OR = {
-							is_roman_emperor_primary_title_trigger = yes
-							AND = {
-								culture = {
-									OR = {
-										has_cultural_pillar = heritage_byzantine
-										has_cultural_pillar = heritage_caucasian
-									}
-								}
-								primary_title.tier >= tier_empire
-							}
-						}
-					}
-				}
-				AND = {
-					exists = betrothed
-					betrothed = {
-						OR = {
-							is_roman_emperor_primary_title_trigger = yes
-							AND = {
-								culture = {
-									OR = {
-										has_cultural_pillar = heritage_byzantine
-										has_cultural_pillar = heritage_caucasian
-									}
-								}
-								primary_title.tier >= tier_empire
-							}
-						}
-					}
-				}
-				AND = {
-					liege.diarch ?= this
-					liege ?= {
-						OR = {
-							is_roman_emperor_primary_title_trigger = yes
-							AND = {
-								culture = {
-									OR = {
-										has_cultural_pillar = heritage_byzantine
-										has_cultural_pillar = heritage_caucasian
-									}
-								}
-								primary_title.tier >= tier_empire
-							}
-						}
-					}
-				}
-			}
-			is_character_window_main_character = no
-		}
-	}
-
 	texture = { # Governors
 		reference = "event_scenes/ep3_relaxing_room.dds"
 
@@ -9699,10 +8876,7 @@ character_view_bg = {
 									}
 									primary_title.tier >= tier_kingdom
 								}
-								OR = {
-									religion = religion:germanic_religion
-									has_graphical_scandinavia_region_trigger = yes
-								}
+								has_graphical_scandinavia_region_trigger = yes
 							}
 						}
 						AND = {
@@ -9714,10 +8888,7 @@ character_view_bg = {
 									}
 									primary_title.tier >= tier_kingdom
 								}
-								OR = {
-									religion = religion:germanic_religion
-									has_graphical_scandinavia_region_trigger = yes
-								}
+								has_graphical_scandinavia_region_trigger = yes
 							}
 						}
 					}
@@ -9730,10 +8901,7 @@ character_view_bg = {
 						}
 						primary_title.tier >= tier_kingdom
 					}
-					OR = {
-						religion = religion:germanic_religion
-						has_graphical_scandinavia_region_trigger = yes
-					}
+					has_graphical_scandinavia_region_trigger = yes
 				}
 			}
 		}
@@ -9757,10 +8925,7 @@ character_view_bg = {
 									}
 									primary_title.tier >= tier_kingdom
 								}
-								OR = {
-									religion = religion:germanic_religion
-									has_graphical_scandinavia_region_trigger = yes
-								}
+								has_graphical_scandinavia_region_trigger = yes
 							}
 						}
 						AND = {
@@ -9772,10 +8937,7 @@ character_view_bg = {
 									}
 									primary_title.tier >= tier_kingdom
 								}
-								OR = {
-									religion = religion:germanic_religion
-									has_graphical_scandinavia_region_trigger = yes
-								}
+								has_graphical_scandinavia_region_trigger = yes
 							}
 						}
 					}
@@ -9788,10 +8950,7 @@ character_view_bg = {
 						}
 						primary_title.tier >= tier_kingdom
 					}
-					OR = {
-						religion = religion:germanic_religion
-						has_graphical_scandinavia_region_trigger = yes
-					}
+					has_graphical_scandinavia_region_trigger = yes
 				}
 			}
 			is_character_window_main_character = yes
@@ -9813,10 +8972,7 @@ character_view_bg = {
 							}
 							primary_title.tier >= tier_kingdom
 						}
-						OR = {
-							religion = religion:germanic_religion
-							has_graphical_scandinavia_region_trigger = yes
-						}
+						has_graphical_scandinavia_region_trigger = yes
 					}
 				}
 				AND = {
@@ -9829,10 +8985,7 @@ character_view_bg = {
 							}
 							primary_title.tier >= tier_kingdom
 						}
-						OR = {
-							religion = religion:germanic_religion
-							has_graphical_scandinavia_region_trigger = yes
-						}
+						has_graphical_scandinavia_region_trigger = yes
 					}
 				}
 				AND = {
@@ -9845,10 +8998,7 @@ character_view_bg = {
 							}
 							primary_title.tier >= tier_kingdom
 						}
-						OR = {
-							religion = religion:germanic_religion
-							has_graphical_scandinavia_region_trigger = yes
-						}
+						has_graphical_scandinavia_region_trigger = yes
 					}
 				}
 			}
@@ -10026,122 +9176,6 @@ character_view_bg = {
 					has_realm_law = nomadic_authority_4
 					has_realm_law = nomadic_authority_5
 					has_trait = greatest_of_khans
-				}
-			}
-			is_character_window_main_character = no
-		}
-	}
-
-	# Tribal Norse
-	texture = { # FP1 Norse
-		reference = "character_view/fp1_throneroom_tribal.dds"
-
-		trigger = {
-			has_fp1_dlc_trigger = yes
-			OR = {
-				AND = {
-					is_ruler = no
-					OR = {
-						AND = {
-							exists = liege
-							liege = {
-								government_has_flag = government_is_tribal
-								OR = {
-									religion = religion:germanic_religion
-									has_graphical_scandinavia_region_trigger = yes
-								}
-							}
-						}
-						AND = {
-							exists = host
-							host = {
-								government_has_flag = government_is_tribal
-								OR = {
-									religion = religion:germanic_religion
-									has_graphical_scandinavia_region_trigger = yes
-								}
-							}
-						}
-					}
-				}
-				AND = {
-					is_ruler = yes
-					government_has_flag = government_is_tribal
-					religion = religion:germanic_religion
-				}
-			}
-		}
-	}
-
-	environment = {
-		reference = "environment_fp1_cw_tribal_main"
-
-		trigger = {
-			has_fp1_dlc_trigger = yes
-			OR = {
-				AND = {
-					is_ruler = no
-					OR = {
-						AND = {
-							exists = liege
-							liege = {
-								government_has_flag = government_is_tribal
-								OR = {
-									religion = religion:germanic_religion
-									has_graphical_scandinavia_region_trigger = yes
-								}
-							}
-						}
-						AND = {
-							exists = host
-							host = {
-								government_has_flag = government_is_tribal
-								OR = {
-									religion = religion:germanic_religion
-									has_graphical_scandinavia_region_trigger = yes
-								}
-							}
-						}
-					}
-				}
-				AND = {
-					is_ruler = yes
-					government_has_flag = government_is_tribal
-					religion = religion:germanic_religion
-				}
-			}
-			is_character_window_main_character = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_fp1_cw_tribal_spouse"
-
-		trigger = {
-			OR = {
-				AND = {
-					exists = primary_spouse
-					primary_spouse = {
-						government_has_flag = government_is_tribal
-						has_fp1_dlc_trigger = yes
-						religion = religion:germanic_religion
-					}
-				}
-				AND = {
-					exists = betrothed
-					betrothed = {
-						government_has_flag = government_is_tribal
-						has_fp1_dlc_trigger = yes
-						religion = religion:germanic_religion
-					}
-				}
-				AND = {
-					liege.diarch ?= this
-					liege ?= {
-						government_has_flag = government_is_tribal
-						has_fp1_dlc_trigger = yes
-						religion = religion:germanic_religion
-					}
 				}
 			}
 			is_character_window_main_character = no
@@ -10660,151 +9694,6 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
-	##########################################
-
-	# Japan, regular (above East Asia regular so it is caught first)
-	texture = {
-		reference = "event_scenes/tgp_study_japan.dds"
-
-		trigger = {
-			trigger_if = {
-				limit = { is_in_prison_type = house_arrest }
-				imprisoner.culture = { has_cultural_pillar = heritage_japonic }
-			}
-			trigger_else = {
-				culture = { has_cultural_pillar = heritage_japonic }
-			}
-		}
-	}
-
-
-	environment = {
-		reference = "environment_tgp_study_japan"
-
-		trigger = {
-			trigger_if = {
-				limit = { is_in_prison_type = house_arrest }
-				imprisoner.culture = { has_cultural_pillar = heritage_japonic }
-			}
-			trigger_else = {
-				culture = { has_cultural_pillar = heritage_japonic }
-			}
-			is_character_window_main_character = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_tgp_study_japan"
-		trigger = {
-			OR = {
-				primary_spouse ?= {
-					trigger_if = {
-						limit = { is_in_prison_type = house_arrest }
-						imprisoner.culture = { has_cultural_pillar = heritage_japonic }
-					}
-					trigger_else = {
-						culture = { has_cultural_pillar = heritage_japonic }
-					}
-				}
-				betrothed ?= {
-					trigger_if = {
-						limit = { is_in_prison_type = house_arrest }
-						imprisoner.culture = { has_cultural_pillar = heritage_japonic }
-					}
-					trigger_else = {
-						culture = { has_cultural_pillar = heritage_japonic }
-					}
-				}
-				AND = {
-					liege ?= {
-						diarch ?= this
-						trigger_if = {
-							limit = { is_in_prison_type = house_arrest }
-							imprisoner.culture = { has_cultural_pillar = heritage_japonic }
-						}
-						trigger_else = {
-							culture = { has_cultural_pillar = heritage_japonic }
-						}
-					}
-				}
-			}
-			is_character_window_main_character = no
-		}
-	}
-
-	##########################################
-
-	# East Asia, regular
-	texture = {
-		reference = "event_scenes/tgp_study_asia.dds"
-
-		trigger = {
-			trigger_if = {
-				limit = { is_in_prison_type = house_arrest }
-				imprisoner = { has_graphical_east_asia_region_trigger = yes }
-			}
-			trigger_else = {
-				has_graphical_east_asia_region_trigger = yes
-			}
-		}
-	}
-
-	environment = {
-		reference = "environment_tgp_study_asia"
-
-		trigger = {
-			trigger_if = {
-				limit = { is_in_prison_type = house_arrest }
-				imprisoner = { has_graphical_east_asia_region_trigger = yes }
-			}
-			trigger_else = {
-				has_graphical_east_asia_region_trigger = yes
-			}
-			is_character_window_main_character = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_tgp_study_asia"
-		trigger = {
-			OR = {
-				primary_spouse ?= {
-					trigger_if = {
-						limit = { is_in_prison_type = house_arrest }
-						imprisoner = { has_graphical_east_asia_region_trigger = yes }
-					}
-					trigger_else = {
-						has_graphical_east_asia_region_trigger = yes
-					}
-				}
-				betrothed ?= {
-					trigger_if = {
-						limit = { is_in_prison_type = house_arrest }
-						imprisoner = { has_graphical_east_asia_region_trigger = yes }
-					}
-					trigger_else = {
-						has_graphical_east_asia_region_trigger = yes
-					}
-				}
-				AND = {
-					liege ?= {
-						diarch ?= this
-						trigger_if = {
-							limit = { is_in_prison_type = house_arrest }
-							imprisoner = { has_graphical_east_asia_region_trigger = yes }
-						}
-						trigger_else = {
-							has_graphical_east_asia_region_trigger = yes
-						}
-					}
-				}
-			}
-			is_character_window_main_character = no
-		}
-	}
-
-	##########################################
 
 	# Eastern, high rank
 	texture = {
@@ -11482,18 +10371,6 @@ character_religion_interior = {
 		reference = "environment_mpo_temple_steppe"
 	}
 
-	# FP3
-
-	texture = {
-		trigger = { religion = religion:zoroastrianism_religion }
-		reference = "event_scenes/fp3_temple.dds"
-	}
-
-	environment = {
-		trigger = { religion = religion:zoroastrianism_religion }
-		reference = "environment_event_fp3_temple"
-	}
-
 	# Christianity
 
 	texture = {
@@ -11513,25 +10390,13 @@ character_religion_interior = {
 	# Christianity
 
 	texture = {
-		trigger = { religion = religion:christianity_religion }
+		trigger = { religion = religion:order_religion }
 		reference = "event_scenes/church.dds"
 	}
 
 	environment = {
-		trigger = { religion = religion:christianity_religion }
+		trigger = { religion = religion:order_religion }
 		reference = "environment_event_church"
-	}
-
-	# Islam
-
-	texture = {
-		trigger = { religion = religion:islam_religion }
-		reference = "event_scenes/mosque.dds"
-	}
-
-	environment = {
-		trigger = {	religion = religion:islam_religion }
-		reference = "environment_event_mosque"
 	}
 
 	# FP1
@@ -11631,74 +10496,16 @@ character_religion_interior = {
 ### Religious interior - Faith Scope
 religion_interior = {
 
-	# FP3
-
-	texture = {
-		trigger = { religion = religion:zoroastrianism_religion }
-		reference = "event_scenes/fp3_temple.dds"
-	}
-
-	environment = {
-		trigger = { religion = religion:zoroastrianism_religion }
-		reference = "environment_event_fp3_temple"
-	}
-
 	# Christianity
 
 	texture = {
-		trigger = {
-			OR = {
-				this = faith:mozarabic_church
-				this = faith:muwalladi
-			}
-		}
-		reference = "event_scenes/fp2_temple.dds"
-	}
-
-	environment = {
-		trigger = {
-			OR = {
-				this = faith:mozarabic_church
-				this = faith:muwalladi
-			}
-		}
-		reference = "environment_event_fp2_temple"
-	}
-
-	# Christianity
-
-	texture = {
-		trigger = { religion = religion:christianity_religion }
+		trigger = { religion = religion:order_religion }
 		reference = "event_scenes/church.dds"
 	}
 
 	environment = {
-		trigger = { religion = religion:christianity_religion }
+		trigger = { religion = religion:order_religion }
 		reference = "environment_event_church"
-	}
-
-	# Islam
-
-	texture = {
-		trigger = { religion = religion:islam_religion }
-		reference = "event_scenes/mosque.dds"
-	}
-
-	environment = {
-		trigger = {	religion = religion:islam_religion }
-		reference = "environment_event_mosque"
-	}
-
-	# FP1
-
-	texture = { # FP1
-		trigger = { religion = religion:germanic_religion }
-		reference = "event_scenes/fp1_tribal_temple.dds"
-	}
-
-	environment = { # FP1
-		trigger = { religion = religion:germanic_religion }
-		reference = "environment_event_fp1_tribal_temple"
 	}
 
 	# Fallback
@@ -11739,19 +10546,9 @@ religion_interior = {
 religion_holding = {
 	texture = {
 		trigger = {
-			religion = religion:christianity_religion
-			NOT = {
-				this = faith:nestorian
-			}
+			religion = religion:order_religion
 		}
 		reference = "holding_types/temple_christian.dds"
-	}
-
-	texture = {
-		trigger = {
-			religion = religion:islam_religion
-		}
-		reference = "holding_types/temple_islamic.dds"
 	}
 
 	texture = {
@@ -12010,95 +10807,10 @@ title_holding = {
 					has_holding_type = church_holding
 					has_holding_type = temple_citadel_holding
 				}
-				faith.religion = religion:christianity_religion
+				faith.religion = religion:order_religion
 			}
 		}
 		reference = "holding_types/temple_christian.dds"
-	}
-	texture = {
-		trigger = {
-			title_illustration_save_province_temporary = yes
-			scope:province = {
-				OR = {
-					has_holding_type = church_holding
-					has_holding_type = temple_citadel_holding
-				}
-				faith.religion = { is_in_family = rf_pagan }
-				OR = {
-					faith.religion = religion:baltic_religion
-					faith.religion = religion:finno_ugric_religion
-					faith.religion = religion:germanic_religion
-					faith.religion = religion:paganism_religion
-					faith.religion = religion:slavic_religion
-				}
-			}
-		}
-		reference = "holding_types/temple_northern_pagan.dds"
-	}
-	texture = {
-		trigger = {
-			title_illustration_save_province_temporary = yes
-			scope:province = {
-				OR = {
-					has_holding_type = church_holding
-					has_holding_type = temple_citadel_holding
-				}
-				religion = religion:shintoism_religion
-			}
-		}
-		reference = "holding_types/tgp_shinto_temple.dds"
-	}
-	texture = {
-		trigger = {
-			title_illustration_save_province_temporary = yes
-			scope:province = {
-				OR = {
-					has_holding_type = church_holding
-					has_holding_type = temple_citadel_holding
-				}
-				faith.religion = {
-					OR = {
-						is_in_family = rf_eastern
-						is_in_family = rf_sinitic
-					}
-				}
-				culture = {
-					has_graphical_east_asia_culture_group_trigger = yes
-				}
-			}
-		}
-		reference = "holding_types/tgp_chinese_pagoda.dds"
-	}
-	texture = {
-		trigger = {
-			title_illustration_save_province_temporary = yes
-			scope:province = {
-				OR = {
-					has_holding_type = church_holding
-					has_holding_type = temple_citadel_holding
-				}
-				faith.religion = {
-					OR = {
-						is_in_family = rf_eastern
-						is_in_family = rf_sinitic
-					}
-				}
-			}
-		}
-		reference = "holding_types/temple_india.dds"
-	}
-	texture = {
-		trigger = {
-			title_illustration_save_province_temporary = yes
-			scope:province = {
-				OR = {
-					has_holding_type = church_holding
-					has_holding_type = temple_citadel_holding
-				}
-				faith.religion = religion:islam_religion
-			}
-		}
-		reference = "holding_types/temple_islamic.dds"
 	}
 	texture = {
 		trigger = {
@@ -12335,10 +11047,7 @@ character_private = {
 
 		trigger = {
 			exists = primary_title
-			OR = {
-				religion = religion:germanic_religion
-				has_graphical_scandinavia_region_trigger = yes
-			}
+			has_graphical_scandinavia_region_trigger = yes
 		}
 	}
 
@@ -12347,10 +11056,7 @@ character_private = {
 		reference = "event_scenes/fp1_tribal_temple.dds"
 
 		trigger = {
-			OR = {
-				religion = religion:germanic_religion
-				has_graphical_scandinavia_region_trigger = yes
-			}
+			has_graphical_scandinavia_region_trigger = yes
 		}
 	}
 
