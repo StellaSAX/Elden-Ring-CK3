@@ -727,5 +727,35 @@
 	religion = faith_golden
 	holding = none
 }
+# R93G59B124
+729 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# R241G211B24
+2170 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# R112G235B142
+2492 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# R33G239B76
+2495 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# R121G133B102
+2493 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
 
 

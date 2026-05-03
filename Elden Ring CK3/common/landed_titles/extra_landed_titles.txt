@@ -617,6 +617,31 @@
 					color = { 62 216 236 }
 					province = 2619
 				}
+
+				b_r93g59b124 = {
+					color = { 93 59 124 }
+					province = 729
+				}
+
+				b_r241g211b24 = {
+					color = { 241 211 24 }
+					province = 2170
+				}
+
+				b_r112g235b142 = {
+					color = { 112 235 142 }
+					province = 2492
+				}
+
+				b_r33g239b76 = {
+					color = { 33 239 76 }
+					province = 2495
+				}
+
+				b_r121g133b102 = {
+					color = { 121 133 102 }
+					province = 2493
+				}
 			}
 		}
 	}

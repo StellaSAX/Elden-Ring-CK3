@@ -29,12 +29,12 @@ rennala = {
 	stewardship = 10
 	learning = 10
 	health = 10
-	give_nickname = nick_kingqueen_of_the_full_moon
 	religion = faith_moons
 	culture = cul_caria
 	
-	trait = intellect_good_3
+	give_nickname = nick_kingqueen_of_the_full_moon
 	
+	trait = intellect_good_3
 	trait = lifestyle_mystic
 	trait = education_learning_5
 	trait = ambitious

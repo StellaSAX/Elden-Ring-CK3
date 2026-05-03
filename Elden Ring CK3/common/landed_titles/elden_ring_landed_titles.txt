@@ -1,12 +1,12 @@
 ﻿e_ainsel = {
 	color = { 196 0 54 }
 
-	capital = c_R252G65B249
+	capital = c_R155G253B249
 
 	k_ainsel = {
 		color = { 191 85 103 }
 
-		capital = c_R252G65B249
+		capital = c_R155G253B249
 
 		d_R224G6B67 = {
 			color = { 224 6 67 }
@@ -701,12 +701,12 @@
 e_farum_azula = {
 	color = { 149 147 126 }
 
-	capital = c_placidusax
+	capital = c_R231G102B162
 
 	k_farum_azula = {
 		color = { 149 147 126 }
 
-		capital = c_placidusax
+		capital = c_R231G102B162
 
 		d_R175G97B121 = {
 			color = { 175 97 121 }
@@ -905,12 +905,12 @@ e_farum_azula = {
 e_land_shadows = {
 	color = { 81 55 87 }
 
-	capital = c_R254G148B196
+	capital = c_R242G91B126
 
 	k_jagged_peak = {
 		color = { 119 80 83 }
 
-		capital = c_R190G185B40
+		capital = c_R242G91B126
 
 		d_R190G154B138 = {
 			color = { 190 154 138 }
@@ -2069,7 +2069,7 @@ e_land_shadows = {
 	k_cerulean_coast = {
 		color = { 0 68 167 }
 
-		capital = c_R93G179B89
+		capital = c_R94G127B57
 
 		d_R145G53B50 = {
 			color = { 145 53 50 }
@@ -2483,7 +2483,7 @@ e_land_shadows = {
 	k_abyssal_woods = {
 		color = { 74 51 0 }
 
-		capital = c_R20G112B205
+		capital = c_R170G232B127
 
 		d_R191G132B221 = {
 			color = { 191 132 221 }
@@ -3027,7 +3027,7 @@ e_land_shadows = {
 	k_belurat = {
 		color = { 201 215 72 }
 
-		capital = c_R254G148B196
+		capital = c_R214G63B80
 
 		d_R236G50B142 = {
 			color = { 236 50 142 }
@@ -3907,7 +3907,7 @@ e_land_shadows = {
 	k_scadu_altus = {
 		color = { 139 121 46 }
 
-		capital = c_R174G55B194
+		capital = c_R187G146B157
 
 		d_R185G27B6 = {
 			color = { 185 27 6 }
@@ -4820,7 +4820,7 @@ e_land_shadows = {
 	k_rauh = {
 		color = { 0 100 0 }
 
-		capital = c_R93G179B89
+		capital = c_R62G25B88
 		definite_form = yes
 		ruler_uses_title_name = no
 		no_automatic_claims = yes
@@ -5320,12 +5320,12 @@ e_land_shadows = {
 e_siofra = {
 	color = { 97 0 203 }
 
-	capital = c_nameless_city
+	capital = c_R188G65B204
 
 	k_siofra = {
 		color = { 70 51 94 }
 
-		capital = c_R115G242B10
+		capital = c_R188G65B204
 
 		d_R230G63B234 = {
 			color = { 230 63 234 }
@@ -5885,17 +5885,17 @@ e_siofra = {
 h_lands_between = {
 	color = { 247 251 117 }
 
-	capital = c_R22G77B84
+	capital = c_R254G216B86
 
 	e_limgrave = {
 		color = { 39 150 45 }
 
-		capital = c_R108G207B157
+		capital = c_R254G216B86
 
 		k_stormveil = {
 			color = { 151 189 31 }
 
-			capital = c_R108G207B157
+			capital = c_R254G216B86
 
 			d_R232G236B13 = {
 				color = { 232 236 13 }
@@ -7186,7 +7186,7 @@ h_lands_between = {
 		k_weeping_peninsula = {
 			color = { 35 147 92 }
 
-			capital = c_R148G215B151
+			capital = c_R52G82B165
 
 			d_R214G126B66 = {
 				color = { 214 126 66 }
@@ -7663,12 +7663,12 @@ h_lands_between = {
 	e_caelid = {
 		color = { 186 47 47 }
 
-		capital = c_R28G85B63
+		capital = c_R16G94B216
 
 		k_dragonbarrow = {
 			color = { 117 123 66 }
 
-			capital = c_R45G72B18
+			capital = c_R16G94B216
 
 			d_R88G75B16 = {
 				color = { 88 75 16 }
@@ -8154,7 +8154,7 @@ h_lands_between = {
 		k_redmane = {
 			color = { 145 41 6 }
 
-			capital = c_R28G85B63
+			capital = c_R247G32B99
 
 			d_R132G203B162 = {
 				color = { 132 203 162 }
@@ -8966,12 +8966,12 @@ h_lands_between = {
 	e_liurnia = {
 		color = { 31 69 167 }
 
-		capital = c_R9G108B122
+		capital = c_R62G9B218
 
 		k_rayalucaria = {
 			color = { 98 54 194 }
 
-			capital = c_R235G6B230
+			capital = c_R62G9B218
 
 			d_R135G6B171 = {
 				color = { 135 6 171 }
@@ -10338,7 +10338,7 @@ h_lands_between = {
 		k_caria = {
 			color = { 75 176 235 }
 
-			capital = c_R9G108B122
+			capital = c_R225G11B201
 
 			d_R42G65B253 = {
 				color = { 42 65 253 }
@@ -11280,12 +11280,12 @@ h_lands_between = {
 	e_leyndell = {
 		color = { 242 245 66 }
 
-		capital = c_R22G77B84
+		capital = c_R149G180B129
 
 		k_leyndell = {
 			color = { 245 236 61 }
 
-			capital = c_R22G77B84
+			capital = c_R149G180B129
 
 			d_R254G93B95 = {
 				color = { 254 93 95 }
@@ -12444,7 +12444,7 @@ h_lands_between = {
 		k_gelmir = {
 			color = { 108 54 36 }
 
-			capital = c_R245G139B8
+			capital = c_R107G139B182
 
 			d_R225G48B48 = {
 				color = { 225 48 48 }
@@ -12865,7 +12865,7 @@ h_lands_between = {
 		k_deeproot_depths = {
 			color = { 85 76 76 }
 
-			capital = c_nameless_city
+			capital = c_R134G113B99
 
 			d_R202G21B180 = {
 				color = { 202 21 180 }
@@ -13111,7 +13111,7 @@ h_lands_between = {
 		k_altus_plateau = {
 			color = { 234 182 31 }
 
-			capital = c_R108G207B157
+			capital = c_R213G221B90
 			definite_form = yes
 			ruler_uses_title_name = no
 			no_automatic_claims = yes
@@ -14051,12 +14051,12 @@ h_lands_between = {
 	e_mountain_tops = {
 		color = { 204 239 240 }
 
-		capital = c_R197G190B49
+		capital = c_R157G115B54
 
 		k_giattops = {
 			color = { 208 237 240 }
 
-			capital = c_R197G190B49
+			capital = c_R157G115B54
 
 			d_R227G235B181 = {
 				color = { 227 235 181 }
@@ -15225,7 +15225,7 @@ h_lands_between = {
 		k_snowfields = {
 			color = { 139 247 236 }
 
-			capital = c_R28G85B63
+			capital = c_R168G168B120
 
 			d_R254G249B244 = {
 				color = { 254 249 244 }
@@ -15756,12 +15756,12 @@ h_lands_between = {
 	e_haligtree = {
 		color = { 164 196 18 }
 
-		capital = c_R234G143B203
+		capital = c_R142G40B72
 
 		k_haligtree = {
 			color = { 164 196 18 }
 
-			capital = c_R234G143B203
+			capital = c_R142G40B72
 
 			d_R169G82B219 = {
 				color = { 169 82 219 }
@@ -15971,7 +15971,7 @@ k_messmer_army = {
 	color = { 150 41 10 }
 	landless = yes
 
-	capital = c_R174G55B194
+	capital = c_R154G175B186
 	definite_form = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
