@@ -49,8 +49,5 @@ Temporary Items
 # Notepad++ backup
 .bak
 
-# Other .mod files
-*.mod
-
 # Visual Studio stuff
 /.vs

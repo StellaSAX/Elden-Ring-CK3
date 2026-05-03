@@ -447,7 +447,6 @@ mohg = {
 	}
 	7748.1.1 = {
 		dynasty_house = house_mohgwyn_erdtree
-		house = house_mohgwyn_erdtree
 	}
 	9999.5.25 = {
 		death = yes
@@ -499,7 +498,6 @@ radahn = {
 	1654.1.1 = {
 		give_nickname = nick_starscourge
 		dynasty_house = house_starscourge_caria
-		house = house_starscourge_caria
 	}
 	1782.1.1 = {
 		add_trait = demigod_elden_ring_4
@@ -508,7 +506,7 @@ radahn = {
 	}
 	7216.1.1 = {
 		add_pressed_claim = title:h_lands_between
-		add_pressed_claim = title:e_altus_plateau
+		add_pressed_claim = title:e_leyndell
 		add_pressed_claim = title:k_leyndell
 	}
 	7748.1.1 = { #got nuked by malenia
@@ -579,12 +577,11 @@ rykard = {
 	}
 	7216.1.1 = {
 		add_pressed_claim = title:h_lands_between
-		add_pressed_claim = title:e_altus_plateau
+		add_pressed_claim = title:e_leyndell
 		add_pressed_claim = title:k_leyndell
 	}
 	7217.1.1 = {
 		dynasty_house = house_gelmir_caria
-		house = house_gelmir_caria
 	}
 	7221.1.1 = {
 		religion = faith_god_snake
@@ -652,7 +649,7 @@ ranni = {
 	}
 	7216.1.1 = {
 		add_pressed_claim = title:h_lands_between
-		add_pressed_claim = title:e_altus_plateau
+		add_pressed_claim = title:e_leyndell
 		add_pressed_claim = title:k_leyndell
 	}
 	9999.5.25 = {
@@ -951,7 +948,6 @@ godrick = {
 	}
 	7721.1.1 = {
 		dynasty_house = house_godrick_erdtree
-		house = house_godrick_erdtree
 	}
 	7748.1.1 = {
 		add_trait = grafting
