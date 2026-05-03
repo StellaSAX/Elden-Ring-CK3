@@ -45,7 +45,7 @@
  serpent_negative_afterlife_2:1 "in the cycle of the Erdtree" # Optional translation alt
  serpent_negative_afterlife_3:1 "separated from the Snake" # Optional translation alt
  serpent_witchgodname_the_horned_god:0 "the Base Serpent"
- serpent_witchgodname_the_horned_god_possessive:0 "the Base Serpent"
+ serpent_witchgodname_the_horned_god_possessive:0 "the Base Serpent's"
  
  serpent_creator_god_name:0 "$serpent_high_god_name$"
  serpent_creator_god_name_possessive:0 "$serpent_high_god_name_possessive$"
