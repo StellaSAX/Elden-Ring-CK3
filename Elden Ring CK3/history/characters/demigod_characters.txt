@@ -1,5 +1,5 @@
 ﻿shaman_line = {
-	name = "Marika" #so that new children aren't named "Shaman line"
+	name = "Neris" #so that new children aren't named "Shaman line"
 	female = yes
 	sexuality = bisexual
 	dynasty = dynn_erdtree

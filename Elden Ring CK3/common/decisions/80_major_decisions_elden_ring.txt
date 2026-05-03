@@ -1,4 +1,4 @@
-﻿###DECISIONS LIST###
+﻿### ELDEN LORDS MAJOR DECISIONS ###
 restore_raya_lucaria_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_restore_raya_lucaria.dds"
@@ -65,7 +65,6 @@ restore_raya_lucaria_decision = {
 		}
 	}
 	
-
 	ai_potential = {
 		always = yes
 	}

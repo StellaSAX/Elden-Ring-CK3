@@ -1,0 +1,624 @@
+﻿e_extra_lands = {
+	color = { 0 233 159 }
+	capital = c_extras_or_leftovers
+
+	k_extrus = {
+		color = { 206 108 170 }
+		capital = c_extras_or_leftovers
+
+		d_poop = {
+			color = { 106 121 197 }
+			capital = c_extras_or_leftovers
+
+			c_extras_or_leftovers = {
+				color = { 255 255 255 }
+
+				b_R40G198B141 = {
+					color = { 46 144 143 }
+					province = 2553
+				}
+
+				b_R35G120B6 = {
+					color = { 72 214 196 }
+					province = 2556
+				}
+
+				b_R55G74B212 = {
+					color = { 90 29 170 }
+					province = 2542
+				}
+
+				b_R250G76B75 = {
+					color = { 40 114 131 }
+					province = 2527
+				}
+
+				b_R218G154B27 = {
+					color = { 46 254 67 }
+					province = 2526
+				}
+
+				b_R54G56B79 = {
+					color = { 218 110 16 }
+					province = 2524
+				}
+
+				b_R173G12B129 = {
+					color = { 181 24 59 }
+					province = 2499
+				}
+
+				b_R85G244B223 = {
+					color = { 78 209 251 }
+					province = 2498
+				}
+
+				b_R255G77B115 = {
+					color = { 102 221 9 }
+					province = 2503
+				}
+
+				b_R26G200B243 = {
+					color = { 72 172 239 }
+					province = 2504
+				}
+
+				b_R186G188B117 = {
+					color = { 32 235 175 }
+					province = 2505
+				}
+
+				b_R123G216B155 = {
+					color = { 27 94 14 }
+					province = 2508
+				}
+
+				b_lake23 = {
+					color = { 108 241 252 }
+					province = 3234
+				}
+
+				b_lake24 = {
+					color = { 29 12 62 }
+					province = 3229
+				}
+
+				b_lake9 = {
+					color = { 86 2 67 }
+					province = 3358
+				}
+
+				b_lake8 = {
+					color = { 103 124 27 }
+					province = 3341
+				}
+
+				b_lake7 = {
+					color = { 179 168 14 }
+					province = 3354
+				}
+
+				b_lake6 = {
+					color = { 254 36 46 }
+					province = 3360
+				}
+
+				b_lake5 = {
+					color = { 104 213 68 }
+					province = 3378
+				}
+
+				b_lake10 = {
+					color = { 102 217 174 }
+					province = 3330
+				}
+
+				b_lake11 = {
+					color = { 28 234 71 }
+					province = 3315
+				}
+
+				b_lake12 = {
+					color = { 60 127 211 }
+					province = 3329
+				}
+
+				b_lake13 = {
+					color = { 34 130 135 }
+					province = 3314
+				}
+
+				b_delete_11 = {
+					color = { 71 198 55 }
+					province = 3482
+				}
+
+				b_delete_10 = {
+					color = { 106 73 218 }
+					province = 3486
+				}
+
+				b_delete_13 = {
+					color = { 0 117 129 }
+					province = 3295
+				}
+
+				b_lake2 = {
+					color = { 251 75 85 }
+					province = 3445
+				}
+
+				b_delete_9 = {
+					color = { 206 1 78 }
+					province = 3297
+				}
+
+				b_delete_14 = {
+					color = { 206 165 180 }
+					province = 3288
+				}
+
+				b_lake3 = {
+					color = { 61 97 78 }
+					province = 3287
+				}
+
+				b_ocean = {
+					color = { 54 125 97 }
+					province = 3284
+				}
+
+				b_lake4 = {
+					color = { 229 70 135 }
+					province = 3283
+				}
+
+				b_delete_8 = {
+					color = { 113 143 191 }
+					province = 2617
+				}
+
+				b_delete_7 = {
+					color = { 103 145 132 }
+					province = 3439
+				}
+
+				b_delete_1 = {
+					color = { 124 156 90 }
+					province = 3300
+				}
+
+				b_delete_2 = {
+					color = { 210 116 126 }
+					province = 3443
+				}
+
+				b_delete_5 = {
+					color = { 192 214 90 }
+					province = 3441
+				}
+
+				b_delete_3 = {
+					color = { 190 200 242 }
+					province = 3442
+				}
+
+				b_delete_4 = {
+					color = { 2 144 4 }
+					province = 3468
+				}
+
+				b_delete_6 = {
+					color = { 235 106 226 }
+					province = 3477
+				}
+
+				b_ocean1 = {
+					color = { 232 83 71 }
+					province = 3242
+				}
+
+				b_lake22 = {
+					color = { 97 215 252 }
+					province = 3256
+				}
+
+				b_lake21 = {
+					color = { 54 78 220 }
+					province = 3248
+				}
+
+				b_lake20 = {
+					color = { 232 54 12 }
+					province = 3249
+				}
+
+				b_lake18 = {
+					color = { 104 109 113 }
+					province = 3280
+				}
+
+				b_lake19 = {
+					color = { 125 187 95 }
+					province = 3258
+				}
+
+				b_lake15 = {
+					color = { 72 66 204 }
+					province = 3262
+				}
+
+				b_lake16 = {
+					color = { 202 20 125 }
+					province = 3264
+				}
+
+				b_lake17 = {
+					color = { 184 160 158 }
+					province = 3272
+				}
+
+				b_ocean2 = {
+					color = { 14 79 59 }
+					province = 3447
+				}
+
+				b_R40G155B156 = {
+					color = { 105 36 109 }
+					province = 2574
+				}
+
+				b_R42G49B46 = {
+					color = { 191 46 120 }
+					province = 2575
+				}
+
+				b_lake31 = {
+					color = { 143 146 133 }
+					province = 3516
+				}
+
+				b_lake30 = {
+					color = { 128 150 8 }
+					province = 3457
+				}
+
+				b_lake29 = {
+					color = { 41 206 168 }
+					province = 3469
+				}
+
+				b_lake28 = {
+					color = { 137 14 244 }
+					province = 3474
+				}
+
+				b_lake27 = {
+					color = { 205 68 179 }
+					province = 3465
+				}
+
+				b_R230G186B13 = {
+					color = { 229 194 49 }
+					province = 2591
+				}
+
+				b_R56G212B7 = {
+					color = { 57 149 33 }
+					province = 2593
+				}
+
+				b_lake25 = {
+					color = { 191 54 120 }
+					province = 3450
+				}
+
+				b_lake14 = {
+					color = { 188 91 163 }
+					province = 3449
+				}
+
+				b_lake50 = {
+					color = { 146 114 184 }
+					province = 3584
+				}
+
+				b_lake49 = {
+					color = { 152 209 187 }
+					province = 3587
+				}
+
+				b_lake48 = {
+					color = { 15 239 251 }
+					province = 3591
+				}
+
+				b_lake47 = {
+					color = { 183 190 254 }
+					province = 3590
+				}
+
+				b_lake46 = {
+					color = { 69 239 136 }
+					province = 3603
+				}
+
+				b_R159G179B106 = {
+					color = { 248 188 246 }
+					province = 2699
+				}
+
+				b_lake45 = {
+					color = { 10 221 214 }
+					province = 3617
+				}
+
+				b_lake44 = {
+					color = { 150 141 151 }
+					province = 3623
+				}
+
+				b_R184G159B158 = {
+					color = { 208 247 33 }
+					province = 2701
+				}
+
+				b_lake35 = {
+					color = { 52 192 80 }
+					province = 3597
+				}
+
+				b_lake36 = {
+					color = { 16 238 195 }
+					province = 3583
+				}
+
+				b_lake37 = {
+					color = { 87 155 33 }
+					province = 3576
+				}
+
+				b_R85G39B150 = {
+					color = { 119 243 5 }
+					province = 1693
+				}
+
+				b_R210G193B134 = {
+					color = { 169 65 20 }
+					province = 2684
+				}
+
+				b_R50G86B168 = {
+					color = { 32 44 227 }
+					province = 1242
+				}
+
+				b_R166G2B8 = {
+					color = { 96 105 118 }
+					province = 2690
+				}
+
+				b_R61G57B102 = {
+					color = { 250 19 234 }
+					province = 2708
+				}
+
+				b_R61G163B26 = {
+					color = { 10 218 197 }
+					province = 2709
+				}
+
+				b_lake41 = {
+					color = { 219 229 135 }
+					province = 3630
+				}
+
+				b_lake42 = {
+					color = { 87 129 240 }
+					province = 3627
+				}
+
+				b_R85G16B69 = {
+					color = { 223 104 16 }
+					province = 9
+				}
+
+				b_R45G3B101 = {
+					color = { 87 144 196 }
+					province = 2707
+				}
+
+				b_lake39 = {
+					color = { 199 213 60 }
+					province = 3621
+				}
+
+				b_lake40 = {
+					color = { 134 33 118 }
+					province = 3625
+				}
+
+				b_R198G48B34 = {
+					color = { 208 13 114 }
+					province = 2675
+				}
+
+				b_R244G241B40 = {
+					color = { 145 118 84 }
+					province = 2680
+				}
+
+				b_R181G49B209 = {
+					color = { 20 72 17 }
+					province = 2676
+				}
+
+				b_R166G147B186 = {
+					color = { 115 64 97 }
+					province = 2674
+				}
+
+				b_lake51 = {
+					color = { 91 187 104 }
+					province = 3568
+				}
+
+				b_lake55 = {
+					color = { 220 64 180 }
+					province = 3555
+				}
+
+				b_lake56 = {
+					color = { 112 189 71 }
+					province = 3550
+				}
+
+				b_lake59 = {
+					color = { 212 234 106 }
+					province = 3361
+				}
+
+				b_lake58 = {
+					color = { 246 248 205 }
+					province = 3382
+				}
+
+				b_R80G86B231 = {
+					color = { 49 196 24 }
+					province = 2563
+				}
+
+				b_lake62 = {
+					color = { 38 249 178 }
+					province = 3538
+				}
+
+				b_R202G3B23 = {
+					color = { 30 114 1 }
+					province = 2659
+				}
+
+				b_R59G137B150 = {
+					color = { 239 130 27 }
+					province = 2658
+				}
+
+				b_R135G252B47 = {
+					color = { 203 227 186 }
+					province = 2627
+				}
+
+				b_R119G134B194 = {
+					color = { 145 39 149 }
+					province = 2628
+				}
+
+				b_R164G81B157 = {
+					color = { 189 10 85 }
+					province = 2629
+				}
+
+				b_R73G90B35 = {
+					color = { 213 136 48 }
+					province = 2648
+				}
+
+				b_R161G218B127 = {
+					color = { 216 117 208 }
+					province = 2654
+				}
+
+				b_R196G239B64 = {
+					color = { 122 144 141 }
+					province = 2653
+				}
+
+				b_R200G161B165 = {
+					color = { 76 241 195 }
+					province = 2655
+				}
+
+				b_R196G63B151 = {
+					color = { 180 207 155 }
+					province = 2656
+				}
+
+				b_lake63 = {
+					color = { 239 136 192 }
+					province = 3528
+				}
+
+				b_lake64 = {
+					color = { 172 250 143 }
+					province = 3525
+				}
+
+				b_lake65 = {
+					color = { 128 227 41 }
+					province = 3523
+				}
+
+				b_R57G149B217 = {
+					color = { 249 36 40 }
+					province = 2644
+				}
+
+				b_lake66 = {
+					color = { 156 40 255 }
+					province = 3517
+				}
+
+				b_R54G174B208 = {
+					color = { 222 179 99 }
+					province = 2581
+				}
+
+				b_lake34 = {
+					color = { 189 208 129 }
+					province = 3433
+				}
+
+				b_lake67 = {
+					color = { 9 153 5 }
+					province = 3432
+				}
+
+				b_lake32 = {
+					color = { 136 57 187 }
+					province = 3431
+				}
+
+				b_lake33 = {
+					color = { 54 199 11 }
+					province = 3434
+				}
+
+				b_R249G92B189 = {
+					color = { 68 32 166 }
+					province = 187
+				}
+
+				b_lake26 = {
+					color = { 23 5 46 }
+					province = 3463
+				}
+
+				b_R47G127B18 = {
+					color = { 199 90 87 }
+					province = 2620
+				}
+
+				b_R118G186B179 = {
+					color = { 237 26 185 }
+					province = 2594
+				}
+
+				b_R226G167B139 = {
+					color = { 62 216 236 }
+					province = 2619
+				}
+			}
+		}
+	}
+}
+

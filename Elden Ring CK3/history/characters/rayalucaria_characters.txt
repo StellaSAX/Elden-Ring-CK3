@@ -1,5 +1,5 @@
 ﻿carian_family = {
-	name = "Rennala" #so that new children aren't named Carian Family
+	name = "Maralda" #so that new children aren't named Carian Family
 	female = yes
 	dna = rennala_dna
 	sexuality = heterosexual
@@ -46,7 +46,7 @@ rennala = {
 	disallow_random_traits = yes
 	mother = carian_family
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_hair=f_hair_ep3_byzantine_01_common
 			custom_beards=female_empty

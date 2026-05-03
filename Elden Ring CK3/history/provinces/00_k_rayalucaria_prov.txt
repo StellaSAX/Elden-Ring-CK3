@@ -1,0 +1,1488 @@
+﻿##### d_R135G6B171 ############################
+
+### c_R62G9B218
+# R177G190B131
+20 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R231G11B143
+1039 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R25G255B15
+# R4G253B154
+2053 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R244G62B28
+1469 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R107G12B128
+722 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R88G136B231
+1813 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R29G199B88
+# R137G19B109
+1999 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R254G81B205
+2372 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R200G77B233
+2488 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R135G36B72
+# R42G181B235
+2072 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R211G0B103
+1982 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R199G137B48
+404 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R83G11B217
+938 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R182G240B101
+1414 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R130G102B18
+# R33G49B183
+1027 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R147G97B158
+2328 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R244G237B219
+1114 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R169G146B105
+1918 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R7G221B236 ############################
+
+### c_R89G12B203
+# R250G181B141
+640 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R28G122B36
+350 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R236G28B216
+2423 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R213G41B252
+72 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R129G218B92
+883 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R32G67B25
+271 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R222G219B134
+# R165G135B206
+889 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R85G8B86
+967 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R214G174B245
+1811 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R29G249B127
+# R151G178B4
+1527 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R228G145B122
+1287 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R8G181B116
+1574 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R233G62B207
+1395 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R122G186B42
+# R201G14B67
+441 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R64G254B76
+2123 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R167G222B149
+1317 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R106G135B5
+2076 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R77G74B74
+2027 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R45G186B160 ############################
+
+### c_R227G12B39
+# R182G238B174
+1399 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R96G169B165
+2236 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R42G122B109
+135 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R23G17B203
+1783 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R255G192B43
+222 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R195G207B73
+2373 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R119G243B190
+# R227G159B218
+838 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R175G86B76
+412 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R254G91B176
+1634 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R112G205B132
+1024 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R198G171B225
+703 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R91G34B176
+# R59G26B5
+987 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R95G249B75
+2449 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R246G207B3
+168 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R126G31B243
+# R255G173B76
+500 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R205G109B66
+1351 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R31G34B177
+511 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R220G94B78
+991 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R118G14B143
+1000 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R131G185B162
+# R110G134B183
+2146 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R36G62B177
+1236 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R207G119B194
+1270 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R111G96B28
+685 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R61G104B50 ############################
+
+### c_R230G88B203
+# R40G121B149
+1860 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R119G44B199
+237 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R135G240B24
+657 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R119G0B59
+989 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R31G124B117
+2188 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R113G22B205
+# R45G215B234
+1285 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R75G28B4
+1759 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R106G66B120
+1350 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R60G188B30
+2480 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R57G223B172
+1442 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R53G162B180
+# R136G59B231
+2222 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R209G71B74
+548 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R249G224B167
+272 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R130G181B113
+1123 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R227G216B171
+2001 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R250G73B138
+# R236G152B138
+2144 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R63G175B175
+1100 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R164G235B99
+1555 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R21G119B78
+178 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R68G63B10
+1646 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R215G30B231
+# R148G34B69
+923 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R249G153B31
+253 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R230G187B191
+1356 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R240G49B126
+1612 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R171G78B90
+# R131G38B164
+2228 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R37G129B252
+2254 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R219G143B127
+423 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R190G65B55
+64 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R31G81B70
+1113 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R222G11B194 ############################
+
+### c_R91G26B38
+# R210G97B37
+2302 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R215G225B212
+974 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R98G196B175
+1330 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R135G77B209
+1245 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R70G103B181
+1378 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R250G130B152
+# R169G38B131
+862 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R109G31B102
+851 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R246G16B138
+140 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R8G85B210
+# R65G224B48
+789 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R91G60B5
+389 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R104G149B4
+401 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R88G15B117
+1492 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R30G24B30 ############################
+
+### c_R52G75B231
+# R148G37B245
+482 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R83G51B157
+1468 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R43G169B74
+204 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R86G1B49
+# R24G148B94
+383 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R221G199B45
+1310 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R205G77B20
+# R162G130B250
+1977 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R188G103B146
+1938 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R205G244B69
+1009 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R51G7B111
+1080 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R125G48B4
+1571 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R60G64B148
+# R37G151B202
+1600 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R133G137B107
+1552 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R106G169B229
+2013 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R147G129B217
+2239 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R171G192B21
+# R215G234B186
+1084 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R180G238B236
+2350 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R131G2B127
+1881 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R196G200B107
+2275 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R223G72B85 ############################
+
+### c_R207G43B88
+# R129G198B188
+2469 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R221G92B114
+1083 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R16G7B187
+2306 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R109G201B198
+912 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R39G91B161
+# R147G222B119
+877 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R96G167B94
+1998 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R110G42B9
+109 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R27G128B211
+1971 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R130G237B62
+# R131G183B30
+2080 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R103G161B194
+1626 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R201G85B165
+1095 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R36G24B161
+2279 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R170G67B87
+# R125G31B243
+1774 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R62G228B43
+349 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R197G155B60
+1102 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R69G58B123
+# R4G67B247
+1799 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R205G191B124
+29 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R81G35B24
+886 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R101G185B214
+1899 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R134G214B152 ############################
+
+### c_R84G230B69
+# R169G178B166
+2116 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R194G237B19
+2287 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R152G61B111
+1424 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R189G202B56
+2296 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R27G227B84
+1247 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R183G87B47
+# R53G210B52
+2214 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R13G29B69
+2205 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R38G197B31
+1708 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R251G148B137
+# R56G156B217
+1181 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R92G145B42
+1433 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R124G13B55
+952 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R18G175B134
+2145 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R240G122B73
+1589 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R226G248B204
+# R236G245B147
+836 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R3G189B186
+1943 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R187G97B199
+1092 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R154G63B203
+# divinetower_liurnia_1
+258 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# divinetower_liurnia_3
+738 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# divinetower_liurnia_2
+2028 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# divinetower_liurnia_4
+2165 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R95G106B32 ############################
+
+### c_R217G228B180
+# R251G247B130
+1055 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R179G95B223
+715 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R4G34B106
+334 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R53G105B51
+141 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R220G98B136
+2035 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R32G253B197
+# R187G187B243
+1341 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R146G114B193
+2199 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R21G235B17
+167 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R10G214B151
+824 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R154G182B141
+# R169G20B60
+1461 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R168G249B96
+504 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R235G89B61
+1161 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R233G33B242
+# R40G43B101
+1428 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R151G158B63
+1431 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R62G249B43
+1587 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R164G125B207
+1737 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R140G122B255 ############################
+
+### c_R139G227B57
+# R9G42B41
+1828 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R119G241B128
+519 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R183G163B10
+1303 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R218G175B161
+2322 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R218G27B194
+# R183G84B210
+1550 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R29G168B178
+1730 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R178G65B44
+449 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R15G250B4
+1278 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R17G105B16
+# R74G171B154
+847 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R50G244B67
+760 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R15G113B189
+396 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R91G134B217
+2268 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R162G90B31
+795 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R172G117B116 ############################
+
+### c_R60G9B23
+# R79G116B72
+1477 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R203G173B53
+1292 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R23G54B41
+1416 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R125G116B159
+1379 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R142G24B120
+174 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R28G8B78
+# R172G250B90
+817 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R92G172B185
+363 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R23G125B22
+2257 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R99G85B195
+1956 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R35G202B45
+956 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R175G59B161
+# R144G19B255
+190 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R235G162B177
+1732 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R244G193B104
+699 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R100G10B143
+1212 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R30G169B6
+# R31G200B191
+2265 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R218G206B232
+1470 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R173G164B213
+1230 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R173G98B49 ############################
+
+### c_R163G173B50
+# R76G237B51
+648 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R156G232B217
+719 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R65G231B179
+1182 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R142G40B72
+# R202G122B30
+1734 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R247G155B50
+979 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R6G166B32
+# R246G28B120
+1011 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R139G37B30
+2196 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R146G142B195
+1846 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R61G100B249
+# R23G171B112
+1570 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R4G3B89
+467 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R135G64B126
+# R216G55B64
+149 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# R6G39B136
+2040 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R190G236B232
+1162 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# R0G25B82
+2009 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+

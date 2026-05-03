@@ -1,0 +1,1390 @@
+﻿##### d_R232G236B13 ############################
+
+### c_R77G149B250
+# limgrave_barony_178
+1524 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_179
+48 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_180
+228 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R242G38B193
+# limgrave_barony_172
+1601 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_171
+1694 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R128G188B36
+# limgrave_barony_140
+1942 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_173
+2007 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_174
+1940 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R214G63B80
+# limgrave_barony_142
+1153 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_143
+814 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_146
+1869 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_145
+2430 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R47G250B69
+# limgrave_barony_175
+1456 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_144
+1752 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_176
+1603 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_177
+1927 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R171G73B56 ############################
+
+### c_R178G194B97
+# limgrave_barony_183
+1415 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_184
+110 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_185
+1661 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_186
+1367 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R180G53B147
+# limgrave_barony_187
+24 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_188
+1065 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_192
+2248 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R165G102B69
+# limgrave_barony_182
+1277 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_181
+1862 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R115G255B31
+# limgrave_barony_191
+966 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_190
+2489 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_189
+259 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R79G101B163
+# limgrave_barony_193
+1273 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_195
+1611 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_194
+2247 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_196
+3634 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R240G13B130 ############################
+
+### c_R120G65B103
+# limgrave_barony_92
+2414 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_138
+2421 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_139
+1385 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R164G188B19
+# limgrave_barony_137
+803 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_141
+1300 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_148
+434 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_149
+1690 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_147
+1523 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R18G54B201
+# limgrave_barony_93
+1593 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_136
+597 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_135
+2263 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R51G251B70
+# limgrave_barony_151
+214 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_150
+2008 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_152
+871 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R157G152B114
+# limgrave_barony_156
+653 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_157
+1963 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_160
+1824 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_161
+921 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+##### d_R55G51B222 ############################
+
+### c_R137G89B52
+# limgrave_barony_90
+2483 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_89
+1665 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_70
+1337 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R193G152B142
+# limgrave_barony_68
+2361 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_69
+1832 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R227G32B223
+# limgrave_barony_71
+2085 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_87
+413 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_95
+74 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R89G115B164
+# limgrave_barony_88
+2304 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_91
+1294 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_94
+2060 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R7G131B30 ############################
+
+### c_R86G16B75
+# limgrave_barony_18
+1276 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_24
+1893 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R43G223B61
+# limgrave_barony_14
+2252 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_17
+1320 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_16
+2036 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_19
+1540 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_23
+1763 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R212G35B28
+# limgrave_barony_25
+503 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_26
+2057 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_27
+2082 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R130G23B61
+# limgrave_barony_31
+2358 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_32
+1868 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_28
+2147 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_29
+2337 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_30
+1325 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R55G187B173
+# limgrave_barony_15
+60 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_20
+1744 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_22
+682 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R139G242B216
+# limgrave_barony_33
+370 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_21
+2283 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R229G196B45
+# limgrave_barony_36
+818 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_37
+532 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_35
+1306 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_34
+2368 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R82G2B218 ############################
+
+### c_R159G59B34
+# limgrave_barony_42
+1649 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_40
+307 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_41
+754 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R71G179B202
+# limgrave_barony_38
+1238 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_39
+2216 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R196G222B11 ############################
+
+### c_R28G195B34
+# limgrave_barony_84
+1672 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_85
+2217 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_86
+1204 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R253G101B3
+# limgrave_barony_74
+1460 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_73
+2221 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_72
+3637 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R230G127B224
+# limgrave_barony_76
+743 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_75
+156 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_83
+382 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_82
+1670 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_100
+2201 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R17G29B204
+# limgrave_barony_96
+2240 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_97
+211 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R219G238B5
+# limgrave_barony_99
+96 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_98
+1792 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_102
+200 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_131
+1870 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R198G223B153
+# limgrave_barony_134
+2433 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_133
+159 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R132G21B228
+# limgrave_barony_132
+28 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_158
+873 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_159
+2486 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_130
+282 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R138G13B225
+# limgrave_barony_11
+1127 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_78
+1354 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_77
+2079 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R102G161B71 ############################
+
+### c_R4G42B114
+# limgrave_barony_60
+1814 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_59
+1610 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_62
+1803 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_61
+1111 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R74G183B42
+# limgrave_barony_1
+686 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_2
+2195 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_3
+181 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R50G202B162
+# limgrave_barony_7
+1754 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_10
+1831 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_43
+975 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R51G46B174
+# limgrave_barony_6
+1487 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_5
+1421 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_4
+1630 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R111G72B27
+# limgrave_barony_13
+1903 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_8
+772 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_12
+2229 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_9
+3638 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R238G60B233
+# limgrave_barony_44
+691 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_47
+1369 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_48
+1740 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_49
+573 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R170G151B243
+# limgrave_barony_52
+376 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_51
+2250 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_58
+362 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_57
+498 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R90G194B237
+# limgrave_barony_79
+963 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_45
+2110 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_46
+1446 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R22G187B133 ############################
+
+### c_R49G46B16
+# limgrave_barony_101
+672 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_103
+1082 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_81
+1098 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_80
+1358 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_104
+278 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R217G163B39
+# limgrave_barony_120
+1633 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_129
+620 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_119
+805 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_118
+2058 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_121
+977 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R135G144B115
+# limgrave_barony_117
+2142 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_105
+1847 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_116
+1006 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R0G137B22
+# limgrave_barony_50
+1676 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_53
+1502 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_106
+619 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R218G183B139
+# limgrave_barony_107
+861 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_54
+2470 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R12G146B177 ############################
+
+### c_R65G224B20
+# limgrave_barony_67
+485 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_66
+1411 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_65
+502 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_63
+615 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R120G72B118
+# limgrave_barony_56
+917 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_55
+1839 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_64
+1208 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R167G246B57
+# limgrave_barony_112
+1518 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_111
+1172 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_110
+1622 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_108
+1919 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R109G159B34
+# limgrave_barony_127
+2327 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_122
+2355 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_115
+172 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_113
+898 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_109
+1882 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R251G205B65
+# limgrave_barony_114
+497 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_123
+793 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_125
+287 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R12G100B69
+# limgrave_barony_162
+468 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_126
+1606 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_128
+484 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R125G214B29 ############################
+
+### c_R199G107B6
+# divinetower_limgrave_1
+235 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# divinetower_limgrave_2
+2270 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R114G164B236
+# limgrave_barony_165
+1696 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_124
+1512 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R53G188B216
+# limgrave_barony_164
+1990 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_163
+767 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_167
+629 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R115G70B106
+# limgrave_barony_168
+212 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_169
+1223 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_166
+2092 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R135G154B184
+# limgrave_barony_154
+1628 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_153
+1226 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_170
+786 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_155
+621 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+
+

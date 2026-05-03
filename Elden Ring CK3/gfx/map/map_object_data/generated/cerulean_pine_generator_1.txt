@@ -1,0 +1,9 @@
+﻿object={
+	name="cerulean_pine_generator_1_0"
+	render_pass=Map
+	clamp_to_water_level=no
+	generated_content=yes
+	layer="tree_high_layer"
+	pdxmesh="cerulean_pine_c_mesh"
+	count=0
+}

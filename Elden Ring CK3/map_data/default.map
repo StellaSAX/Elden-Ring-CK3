@@ -1,35 +1,74 @@
-#max_provinces = 3665
-definitions = "definition.csv"
+﻿definitions = "definition.csv"
 provinces = "provinces.png"
-#positions = "positions.txt"
 rivers = "rivers.png"
-#terrain_definition = "terrain.txt"
 topology = "heightmap.heightmap"
-#tree_definition = "trees.bmp"
 continent = "continent.txt"
 adjacencies = "adjacencies.csv"
-#climate = "climate.txt"
 island_region = "island_region.txt"
+geographical_region = "geographical_region.txt"
 seasons = "seasons.txt"
 
-#############
-# SEA ZONES
-#############
-sea_zones = RANGE { 2496 2618 }
-sea_zones = RANGE { 2620 2745 }
 
-###############
-# MAJOR RIVERS
-###############
-# (No major rivers)
 
-########
-# LAKES
-########
-lakes = RANGE { 2746 3665 }
-lakes = LIST { 2619 }
+sea_zones = RANGE { 2509 2523 }
+sea_zones = RANGE { 2528 2537 }
+sea_zones = RANGE { 2543 2552 }
+sea_zones = RANGE { 2557 2562 }
+sea_zones = RANGE { 2569 2573 }
+sea_zones = RANGE { 2576 2580 }
+sea_zones = RANGE { 2582 2590 }
+sea_zones = RANGE { 2595 2616 }
+sea_zones = RANGE { 2621 2626 }
+sea_zones = RANGE { 2636 2643 }
+sea_zones = RANGE { 2649 2652 }
+sea_zones = RANGE { 2660 2663 }
+sea_zones = RANGE { 2665 2670 }
+sea_zones = RANGE { 2685 2689 }
+sea_zones = RANGE { 2691 2698 }
+sea_zones = RANGE { 2702 2706 }
+sea_zones = RANGE { 2721 2839 }
+sea_zones = RANGE { 2841 2984 }
+sea_zones = RANGE { 2986 3013 }
+sea_zones = RANGE { 3015 3066 }
+sea_zones = RANGE { 3068 3118 }
+sea_zones = RANGE { 3120 3219 }
+sea_zones = LIST { 2496 2497 2500 2501 2502 2506 2507 2525 2539 2540 2541 2554 2555 2564 2565 2567 2592 2618 2630 2632 2645 2647 2657 2672 2673 2678 2679 2681 2682 2683 2700 2710 2714 2715 2717 2719 }
 
-#####################
-# IMPASSABLE TERRAIN
-#####################
-# (Add impassable_mountains / impassable_seas here if you tag them)
+
+
+
+
+lakes = RANGE { 3220 3228 }
+lakes = RANGE { 3230 3233 }
+lakes = RANGE { 3235 3241 }
+lakes = RANGE { 3243 3247 }
+lakes = RANGE { 3250 3255 }
+lakes = RANGE { 3265 3271 }
+lakes = RANGE { 3273 3279 }
+lakes = RANGE { 3289 3294 }
+lakes = RANGE { 3301 3313 }
+lakes = RANGE { 3316 3319 }
+lakes = RANGE { 3321 3328 }
+lakes = RANGE { 3331 3340 }
+lakes = RANGE { 3342 3353 }
+lakes = RANGE { 3362 3377 }
+lakes = RANGE { 3383 3430 }
+lakes = RANGE { 3435 3438 }
+lakes = RANGE { 3451 3455 }
+lakes = RANGE { 3470 3473 }
+lakes = RANGE { 3478 3481 }
+lakes = RANGE { 3487 3505 }
+lakes = RANGE { 3507 3515 }
+lakes = RANGE { 3518 3522 }
+lakes = RANGE { 3529 3537 }
+lakes = RANGE { 3539 3548 }
+lakes = RANGE { 3560 3567 }
+lakes = RANGE { 3570 3575 }
+lakes = RANGE { 3577 3582 }
+lakes = RANGE { 3592 3596 }
+lakes = RANGE { 3598 3602 }
+lakes = RANGE { 3604 3607 }
+lakes = RANGE { 3609 3616 }
+lakes = LIST { 2840 2985 3014 3067 3119 3257 3259 3260 3261 3263 3281 3282 3285 3286 3296 3298 3299 3355 3356 3357 3359 3379 3380 3381 3440 3444 3446 3448 3458 3459 3460 3462 3464 3466 3467 3475 3476 3483 3484 3485 3524 3526 3527 3551 3552 3553 3556 3557 3558 3585 3586 3588 3589 3618 3619 3620 3622 3624 3626 3628 3629 3631 3632 3633 3636 3639 3640 }
+
+
