@@ -18,7 +18,7 @@
  serpent_house_of_worship:0 "church"
  serpent_house_of_worship_2:0 "$serpent_house_of_worship$" # Optional translation alt
  serpent_house_of_worship_3:0 "$serpent_house_of_worship$" # Optional translation alt
- serpent_house_of_worship_plural:0 "Libraries"
+ serpent_house_of_worship_plural:0 "churches"
  serpent_religious_symbol:0 "snake"
  serpent_religious_symbol_2:0 "$serpent_religious_symbol$" # Optional translation alt
  serpent_religious_symbol_3:0 "$serpent_religious_symbol$" # Optional translation alt
