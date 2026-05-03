@@ -189,7 +189,7 @@
 
 ### c_R89G221B254
 # R120G131B86
-2716 = {
+2558 = {
 	culture = cul_ancenstral_followers
 	religion = faith_ancestor_spirit
 	holding = castle_holding

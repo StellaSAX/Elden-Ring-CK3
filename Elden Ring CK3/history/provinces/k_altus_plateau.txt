@@ -497,7 +497,7 @@
 	holding = none
 }
 # R54G153B196
-2538 = {
+2509 = {
 	culture = cul_altus
 	religion = faith_golden
 	holding = none
@@ -986,7 +986,7 @@
 	holding = none
 }
 # LAKE
-3320 = {
+3079 = {
 	culture = cul_altus
 	religion = faith_golden
 	holding = none

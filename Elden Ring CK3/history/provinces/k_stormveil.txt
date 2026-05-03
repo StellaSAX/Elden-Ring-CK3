@@ -217,7 +217,7 @@
 	holding = none
 }
 # limgrave_barony_196
-3634 = {
+3141 = {
 	culture = cul_limgrave
 	religion = faith_golden
 	holding = none
@@ -671,7 +671,7 @@
 	holding = none
 }
 # limgrave_barony_72
-3637 = {
+3143 = {
 	culture = cul_limgrave
 	religion = faith_golden
 	holding = none
@@ -928,7 +928,7 @@
 	holding = none
 }
 # limgrave_barony_9
-3638 = {
+3144 = {
 	culture = cul_limgrave
 	religion = faith_golden
 	holding = none

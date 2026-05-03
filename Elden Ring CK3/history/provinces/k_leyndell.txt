@@ -47,7 +47,7 @@
 	holding = none
 }
 # R24G150B75
-2677 = {
+2546 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = castle_holding
@@ -83,7 +83,7 @@
 	holding = castle_holding
 }
 # R161G139B115
-2671 = {
+2542 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = none
@@ -101,7 +101,7 @@
 	holding = castle_holding
 }
 # LAKE
-3549 = {
+3119 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = none
@@ -286,7 +286,7 @@
 	holding = none
 }
 # LAKE
-3608 = {
+3134 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = none
@@ -682,7 +682,7 @@
 	holding = none
 }
 # LAKE
-3569 = {
+3125 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = none
@@ -715,13 +715,13 @@
 	holding = none
 }
 # LAKE
-3559 = {
+3123 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3554 = {
+3121 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = none
@@ -787,7 +787,7 @@
 	holding = castle_holding
 }
 # LAKE
-3461 = {
+3103 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = none
@@ -813,13 +813,13 @@
 
 ### c_R76G166B204
 # R38G160B111
-2635 = {
+2531 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = castle_holding
 }
 # R93G252B206
-2631 = {
+2528 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = none
@@ -831,7 +831,7 @@
 	holding = castle_holding
 }
 # R154G225B112
-2634 = {
+2530 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = none
@@ -891,13 +891,13 @@
 	holding = none
 }
 # R24G219B88
-2633 = {
+2529 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = none
 }
 # R108G229B144
-2646 = {
+2533 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = none
@@ -908,13 +908,13 @@
 
 ### c_R69G26B229
 # R13G129B124
-2566 = {
+2514 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = castle_holding
 }
 # R247G121B238
-2568 = {
+2515 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = castle_holding
@@ -1061,7 +1061,7 @@
 	holding = none
 }
 # LAKE
-3456 = {
+3101 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = none
@@ -1174,7 +1174,7 @@
 	holding = none
 }
 # LAKE
-3506 = {
+3112 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = none
@@ -1201,7 +1201,7 @@
 	holding = none
 }
 # R119G208B97
-2664 = {
+2541 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = castle_holding

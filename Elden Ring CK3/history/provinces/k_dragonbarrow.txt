@@ -220,7 +220,7 @@
 	holding = none
 }
 # LAKE
-3635 = {
+3142 = {
 	culture = cul_dragonbarrow
 	religion = faith_golden
 	holding = none

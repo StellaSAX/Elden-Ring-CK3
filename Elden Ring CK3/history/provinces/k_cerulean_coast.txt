@@ -151,7 +151,7 @@
 	holding = none
 }
 # R185G159B201
-2713 = {
+2557 = {
 	culture = cul_shadowlander
 	religion = faith_golden
 	holding = none

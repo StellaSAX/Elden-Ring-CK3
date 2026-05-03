@@ -2,37 +2,37 @@
 
 ### c_extras_or_leftovers
 # R40G198B141
-2553 = {
+2511 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = castle_holding
 }
 # R35G120B6
-2556 = {
+2512 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R55G74B212
-2542 = {
+2510 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # DELETE_12
-2527 = {
+2504 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # DELETE_15
-2526 = {
+2507 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R54G56B79
-2524 = {
+2506 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
@@ -50,391 +50,391 @@
 	holding = none
 }
 # R255G77B115
-2503 = {
+2501 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R26G200B243
-2504 = {
+2502 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R186G188B117
-2505 = {
+2503 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R123G216B155
-2508 = {
+2504 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3234 = {
+3060 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3229 = {
+3059 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3358 = {
+3084 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3341 = {
+3082 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3354 = {
+3083 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3360 = {
+3085 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3378 = {
+3087 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3330 = {
+3081 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3315 = {
+3078 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3329 = {
+3080 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3314 = {
+3077 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # DELETE_11
-3482 = {
+3110 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # DELETE_10
-3486 = {
+3111 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # DELETE_13
-3295 = {
+3074 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3445 = {
+3097 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # DELETE_9
-3297 = {
+3075 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # DELETE_14
-3288 = {
+3073 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3287 = {
+3072 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # OCEAN
-3284 = {
+3071 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3283 = {
+3070 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # DELETE_8
-2617 = {
+2522 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # DELETE_7
-3439 = {
+3093 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # DELETE_1
-3300 = {
+3076 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # DELETE_2
-3443 = {
+3096 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # DELETE_5
-3441 = {
+3094 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # DELETE_3
-3442 = {
+3095 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # DELETE_4
-3468 = {
+3106 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # DELETE_6
-3477 = {
+3109 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # OCEAN
-3242 = {
+3061 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3256 = {
+3064 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3248 = {
+3062 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3249 = {
+3063 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3280 = {
+3069 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3258 = {
+3065 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3262 = {
+3066 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3264 = {
+3067 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3272 = {
+3068 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # OCEAN
-3447 = {
+3098 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R40G155B156
-2574 = {
+2516 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R42G49B46
-2575 = {
+2517 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3516 = {
+3113 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3457 = {
+3102 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3469 = {
+3107 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3474 = {
+3108 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3465 = {
+3105 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R230G186B13
-2591 = {
+2519 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R56G212B7
-2593 = {
+2520 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3450 = {
+3100 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3449 = {
+3099 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3584 = {
+3128 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3587 = {
+3129 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3591 = {
+3131 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3590 = {
+3130 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3603 = {
+3133 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R159G179B106
-2699 = {
+2550 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3617 = {
+3135 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3623 = {
+3137 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R184G159B158
-2701 = {
+2551 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3597 = {
+3132 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3583 = {
+3127 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3576 = {
+3126 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
@@ -446,7 +446,7 @@
 	holding = none
 }
 # R210G193B134
-2684 = {
+2548 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
@@ -458,31 +458,31 @@
 	holding = none
 }
 # R166G2B8
-2690 = {
+2549 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R61G57B102
-2708 = {
+2553 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R61G163B26
-2709 = {
+2554 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3630 = {
+3140 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3627 = {
+3139 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
@@ -494,205 +494,205 @@
 	holding = none
 }
 # R45G3B101
-2707 = {
+2552 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3621 = {
+3136 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3625 = {
+3138 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R198G48B34
-2675 = {
+2544 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R244G241B40
-2680 = {
+2547 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R181G49B209
-2676 = {
+2545 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R166G147B186
-2674 = {
+2543 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3568 = {
+3124 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3555 = {
+3122 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3550 = {
+3120 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3361 = {
+3086 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3382 = {
+3088 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R80G86B231
-2563 = {
+2513 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3538 = {
+3118 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R202G3B23
-2659 = {
+2540 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R59G137B150
-2658 = {
+2539 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R135G252B47
-2627 = {
+2525 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R119G134B194
-2628 = {
+2526 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R164G81B157
-2629 = {
+2527 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R73G90B35
-2648 = {
+2534 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R161G218B127
-2654 = {
+2536 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R196G239B64
-2653 = {
+2535 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R200G161B165
-2655 = {
+2537 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R196G63B151
-2656 = {
+2538 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3528 = {
+3117 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3525 = {
+3116 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3523 = {
+3115 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R57G149B217
-2644 = {
+2532 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3517 = {
+3114 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R54G174B208
-2581 = {
+2518 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3433 = {
+3091 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3432 = {
+3090 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3431 = {
+3089 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # LAKE
-3434 = {
+3092 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
@@ -704,25 +704,25 @@
 	holding = none
 }
 # LAKE
-3463 = {
+3104 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R47G127B18
-2620 = {
+2524 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R118G186B179
-2594 = {
+2521 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
 # R226G167B139
-2619 = {
+2523 = {
 	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
