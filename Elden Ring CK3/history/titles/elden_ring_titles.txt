@@ -1,3834 +1,3195 @@
-﻿c_weeping_swamp = {
+﻿c_R0G137B22 = {
 	1.1.1 = {
 		holder = godfrey
-		
-	}
-}
-c_callu = {
-	1.1.1 = {
-		holder = godfrey
-		
-	}
-}
-c_extras_or_leftovers = {
-	1.1.1 = {
-		holder = godfrey
-
-	}
-}
-c_R0G137B22 = {
-	1.1.1 = {
-		holder = godfrey
-		
 	}
 }
 c_R0G169B193 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R102G166B98 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R104G210B121 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R105G36B109 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R106G24B96 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R106G42B222 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R107G139B182 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R107G205B141 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R107G91B167 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R108G10B193 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R108G244B7 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R109G159B34 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R109G207B10 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R109G242B113 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R10G242B228 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R10G254B217 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R10G26B212 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R10G64B120 = {
 	1.1.1 = {
 		holder = trina
-		
 	}
 }
 c_R10G90B117 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R110G11B202 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R110G154B243 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R110G251B135 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R111G72B206 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R111G72B27 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R112G199B50 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R113G22B205 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R113G28B212 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R113G2B172 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R113G64B88 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R113G94B59 = {
 	1.1.1 = {
 		holder = placidusax
-		
 	}
 }
 c_R114G116B204 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R114G164B236 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R114G175B171 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R115G240B101 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R115G255B31 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R115G32B243 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R115G70B106 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R116G126B123 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R116G161B150 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R116G19B168 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R116G208B104 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R116G31B41 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R116G77B124 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R117G146B109 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R117G151B27 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R117G234B127 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R117G59B54 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R118G139B22 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R118G221B82 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R118G227B206 = {
 	1.1.1 = {
 		holder = rellana
-		
 	}
 }
 c_R119G155B77 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R119G206B146 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R119G243B190 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R119G243B5 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R11G176B119 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R11G44B192 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R120G160B83 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R120G208B88 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R120G31B58 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R120G65B103 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R120G72B118 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R122G148B192 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R122G186B42 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R122G21B167 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R122G232B63 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R126G139B10 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R126G31B243 = {
 	1.1.1 = {
 		holder = rennala
-		
 	}
 }
 c_R127G10B82 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R127G119B214 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R127G79B165 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R128G172B92 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R128G188B36 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R12G100B69 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R12G130B228 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R130G102B18 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R130G161B146 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R130G210B42 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R130G237B162 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R130G237B62 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R130G23B61 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R130G70B238 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R131G185B162 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R132G110B163 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R132G124B23 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R132G21B228 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R132G248B176 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R132G9B56 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R133G131B239 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R133G13B0 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R133G254B39 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R133G43B28 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R134G113B99 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R134G249B26 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R135G144B115 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R135G154B184 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R135G168B96 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R135G19B244 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R135G36B72 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R135G64B126 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R136G138B154 = {
 	1.1.1 = {
 		holder = ranni
-		
 	}
 }
 c_R136G213B128 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R137G127B116 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R137G196B154 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R137G89B52 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R138G13B225 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R138G247B167 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R139G134B68 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R139G151B181 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R139G198B100 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R139G227B57 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R139G242B216 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R139G243B203 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R140G177B9 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R140G55B152 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R140G70B12 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R142G40B72 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R143G127B106 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R143G156B185 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R143G231B106 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R144G229B21 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R146G134B57 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R147G11B147 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R147G42B191 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R148G104B220 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R148G86B98 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R149G112B57 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R149G180B129 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R149G183B49 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R149G2B38 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R149G67B13 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R14G13B238 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R14G28B242 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R150G39B233 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R152G112B65 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R152G50B16 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R152G78B237 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R154G175B186 = {
 	1.1.1 = {
 		holder = messmer
-		
 	}
 }
 c_R154G182B141 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R154G182B156 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R154G210B198 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R154G63B203 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R154G6B244 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R155G107B92 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R155G12B151 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R155G250B223 = {
 	1.1.1 = {
 		holder = miquella
-		
 	}
 }
 c_R155G253B249 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R156G65B150 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R156G6B42 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R157G115B54 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R157G152B114 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R157G172B85 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R157G205B58 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R157G242B24 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R158G172B73 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R158G2B9 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R158G74B190 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R159G165B162 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R159G235B118 = {
 	1.1.1 = {
 		holder = mohg
-		
 	}
 }
 c_R159G59B34 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R159G62B227 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R15G181B36 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R15G37B249 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R160G182B233 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R160G46B46 = {
 	1.1.1 = {
 		holder = morgott
-		
 	}
 }
 c_R160G4B161 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R160G90B103 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R161G155B84 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R161G210B199 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R162G6B142 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R163G173B50 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R163G194B254 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R163G34B133 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R163G56B221 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R164G188B19 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R165G102B69 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R165G69B198 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R165G83B45 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R166G176B174 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R166G190B113 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R166G231B3 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R166G54B122 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R167G144B135 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R167G224B138 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R167G246B57 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R168G168B120 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R168G173B219 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R168G201B201 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R168G215B43 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R168G246B103 = {
 	1.1.1 = {
 		holder = elemer
-		
 	}
 }
 c_R169G116B138 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R169G149B50 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R169G25B214 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R16G33B125 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R16G67B90 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R16G94B216 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R170G151B243 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R170G232B127 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R170G52B124 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R170G67B87 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R171G178B62 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R171G192B21 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R171G192B213 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R171G33B41 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R171G78B90 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R172G161B3 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R172G209B1 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R172G231B129 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R173G0B203 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R173G88B35 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R174G188B56 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R174G83B131 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R175G59B161 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R175G9B27 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R177G116B161 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R178G168B247 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R178G17B9 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R178G190B4 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R178G194B97 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R179G92B162 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R17G105B16 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R17G151B160 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R17G29B204 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R180G53B147 = {
 	1.1.1 = {
 		holder = godrick
-		
 	}
 }
 c_R181G105B70 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R181G127B130 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R181G132B213 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R181G160B187 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R181G192B91 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R181G29B212 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R182G212B50 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R182G50B30 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R183G112B248 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R183G151B110 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R183G87B47 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R184G162B207 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R185G248B196 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R185G57B158 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R186G51B168 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R187G138B5 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R187G146B157 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R187G243B163 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R187G51B238 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R188G27B54 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R188G4B252 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R188G62B36 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R188G65B204 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R189G216B111 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R18G197B254 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R18G54B201 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R191G188B209 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R191G81B42 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R192G105B44 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R193G111B118 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R193G152B142 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R193G208B69 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R194G152B188 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R195G230B23 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R196G134B19 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R196G145B58 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R196G163B77 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R196G95B40 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R197G114B197 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R197G174B24 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R197G62B129 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R198G202B117 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R198G208B75 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R198G223B153 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R199G100B206 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R199G106B120 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R199G107B6 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R199G154B217 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R199G90B87 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R1G33B151 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R200G28B26 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R201G156B133 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R201G249B4 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R201G34B253 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R202G119B235 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R202G183B81 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R202G71B186 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R203G28B16 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R203G43B252 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R204G138B199 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R204G8B151 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R205G103B151 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R205G128B94 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R205G77B20 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R206G131B37 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R206G173B124 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R207G43B88 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R208G201B194 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R209G114B233 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R209G186B78 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R209G18B23 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R209G216B231 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R209G36B126 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R20G154B111 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R20G178B183 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R20G46B152 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R20G7B117 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R210G20B153 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R210G24B243 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R211G168B150 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R212G35B28 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R213G187B235 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R213G221B90 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R214G25B245 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R214G51B116 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R214G63B80 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R215G30B231 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R216G151B134 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R216G165B159 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R216G215B226 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R216G84B31 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R217G14B104 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R217G163B39 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R217G228B180 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R217G37B234 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R218G183B139 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R218G27B194 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R219G238B5 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R21G179B31 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R21G93B21 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R220G165B16 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R220G186B32 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R220G209B71 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R220G91B148 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R221G185B184 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R221G201B46 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R221G8B204 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R222G219B134 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R222G243B228 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R222G244B19 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R223G104B16 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R223G129B238 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R223G151B52 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R224G111B123 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R224G176B24 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R225G11B201 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R225G229B128 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R225G54B2 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R225G98B220 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R226G221B185 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R226G248B204 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R227G12B39 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R227G171B184 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R227G178B69 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R227G32B223 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R228G49B1 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R228G64B60 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R229G188B238 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R229G194B49 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R229G196B45 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R22G139B35 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R230G0B204 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R230G127B224 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R230G163B53 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R230G219B202 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R230G88B203 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R231G100B171 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R231G102B162 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R231G128B194 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R231G233B195 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R233G120B237 = {
 	1.1.1 = {
 		holder = tanith
-		
 	}
 }
 c_R233G178B21 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R233G242B4 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R233G33B242 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R233G37B123 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R233G40B194 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R234G212B59 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R234G49B122 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R237G84B243 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R238G176B49 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R238G60B233 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R239G254B199 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R239G55B205 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R23G40B171 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R240G232B197 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R241G90B120 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R242G188B140 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R242G38B193 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R242G91B126 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R243G156B3 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R243G188B85 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R243G227B55 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R244G148B165 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R244G36B163 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R244G82B221 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R246G17B68 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R246G55B83 = {
 	1.1.1 = {
 		holder = malenia
-		
 	}
 }
 c_R247G32B99 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R248G141B130 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R248G141B40 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R248G160B230 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R248G215B140 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R248G253B132 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R248G44B252 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R248G51B67 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R24G27B99 = {
 	1.1.1 = {
 		holder = bayle
-		
 	}
 }
 c_R24G71B150 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R24G98B252 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R250G130B152 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R250G153B73 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R250G73B138 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R251G148B137 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R251G197B171 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R251G205B65 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R251G219B210 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R251G60B103 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R252G149B76 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R252G203B224 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R252G211B157 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R253G101B3 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R254G115B179 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R254G129B80 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R254G216B86 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R255G104B146 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R255G218B119 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R255G233B148 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R255G25B234 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R255G44B24 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R25G109B201 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R25G117B22 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R25G255B15 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R25G91B249 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R26G116B111 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R26G182B100 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R26G192B141 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R26G196B169 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R26G236B158 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R27G188B77 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R27G235B47 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R27G72B238 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R27G79B141 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R27G95B75 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R28G12B15 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R28G186B233 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R28G195B34 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R28G81B60 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R28G8B78 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R29G15B221 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R29G199B88 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R29G249B127 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R2G108B180 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R30G169B6 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R30G53B50 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R32G253B197 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R32G44B227 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R33G27B10 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R33G59B210 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R34G154B38 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R35G113B61 = {
 	1.1.1 = {
 		holder = loretta
-		
 	}
 }
 c_R36G79B117 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R37G170B30 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R37G240B148 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R38G204B30 = {
 	1.1.1 = {
 		holder = radahn
-		
 	}
 }
 c_R39G119B125 = {
 	1.1.1 = {
 		holder = maliketh
-		
 	}
 }
 c_R39G31B191 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R39G91B161 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R40G201B98 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R40G254B15 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R41G150B56 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R41G162B118 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R41G168B113 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R42G118B40 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R42G164B22 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R42G175B234 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R42G71B13 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R43G129B152 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R43G223B61 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R44G119B137 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R44G128B225 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R44G47B105 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R46G254B67 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R47G109B231 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R47G133B21 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R47G250B69 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R47G66B197 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R48G16B13 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R49G196B24 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R49G46B16 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R4G147B223 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R4G42B114 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R4G56B80 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R50G139B78 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R50G159B159 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R50G202B162 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R50G22B131 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R51G205B115 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R51G251B70 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R51G46B174 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R52G161B47 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R52G167B50 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R52G75B231 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R52G82B165 = {
 	1.1.1 = {
 		holder = edgar
-		
 	}
 }
 c_R53G162B180 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R53G177B174 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R53G188B216 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R53G213B51 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R54G124B112 = {
 	1.1.1 = {
 		holder = rykard
-		
 	}
 }
 c_R54G128B100 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R54G222B142 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R54G252B133 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R55G13B112 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R55G187B173 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R55G70B123 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R57G159B197 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R57G212B153 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R57G71B121 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R58G249B64 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R5G28B174 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R5G50B153 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R5G82B238 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R60G147B203 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R60G184B102 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R60G64B148 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R60G73B10 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R60G82B199 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R60G9B23 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R61G100B249 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R61G159B94 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R61G184B11 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R61G79B7 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R62G216B236 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R62G25B88 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R62G59B55 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R62G87B196 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R62G9B218 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R64G159B251 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R65G129B195 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R65G224B20 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R66G183B193 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R66G187B105 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R67G185B77 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R67G219B103 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R67G57B148 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R68G32B166 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R69G133B47 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R69G26B229 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R69G58B123 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R69G80B222 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R6G166B32 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R70G153B91 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R71G179B202 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R71G195B29 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R71G52B50 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R72G192B155 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R73G200B132 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R74G117B241 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R74G182B65 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R74G183B42 = {
 	1.1.1 = {
 		holder = haight
-		
 	}
 }
 c_R74G26B161 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R76G166B204 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R76G4B57 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R76G62B214 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R77G149B250 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R77G174B149 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R77G209B51 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R77G27B81 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R77G29B156 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R77G91B217 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R77G96B88 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R78G138B2 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R78G159B103 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R79G101B163 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R79G241B125 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R7G60B200 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R80G111B223 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R80G154B223 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R80G245B68 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R80G49B149 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R80G52B10 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R80G55B36 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R81G178B160 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R81G9B13 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R82G143B167 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R82G212B218 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R82G240B194 = {
 	1.1.1 = {
 		holder = maleigh
-		
 	}
 }
 c_R82G5B154 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R82G65B200 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R83G215B213 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R83G49B198 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R83G95B35 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R84G218B9 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R84G230B69 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R84G25B254 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R84G41B234 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R85G126B247 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R85G18B155 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R85G235B133 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R85G79B69 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R86G16B75 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R86G1B49 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R86G250B97 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R87G59B92 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R87G81B131 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R88G243B116 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R88G80B204 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R89G115B164 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R89G12B203 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R89G159B43 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R89G18B211 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R89G221B254 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R89G92B215 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R8G255B104 = {
 	1.1.1 = {
 		holder = jerren
-		
 	}
 }
 c_R8G85B210 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R90G194B237 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R90G210B202 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R91G246B65 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R91G26B38 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R91G34B176 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R92G180B254 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R93G113B140 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R94G127B57 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R94G166B62 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R94G182B92 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R94G187B165 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R95G183B146 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R95G214B251 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R95G229B225 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R95G84B92 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R96G225B111 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R97G21B13 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R98G110B173 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R98G122B49 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R98G183B82 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R98G235B239 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R98G60B49 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R98G80B141 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R99G203B57 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R99G251B8 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R99G27B58 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R99G46B11 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R99G94B159 = {
 	1.1.1 = {
 		holder = godfrey
-		
 	}
 }
 c_R9G89B92 = {
 	1.1.1 = {
 		holder = godfrey
-		
+	}
+}
+c_callu = {
+	1.1.1 = {
+		holder = godfrey
+	}
+}
+c_extras_or_leftovers = {
+	1.1.1 = {
+		holder = godfrey
+	}
+}
+c_weeping_swamp = {
+	1.1.1 = {
+		holder = godfrey
 	}
 }

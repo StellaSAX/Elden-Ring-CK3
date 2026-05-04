@@ -159,17 +159,17 @@
 ##### d_R15G80B29 ############################
 
 ### c_R166G54B122
-# lilland_2
-446 = {
-	culture = cul_royal
-	religion = faith_golden
-	holding = castle_holding
-}
 # lilland_1
 1697 = {
 	culture = cul_royal
 	religion = faith_golden
 	holding = castle_holding
+}
+# DELETE_2
+3096 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
 }
 
 
@@ -290,6 +290,15 @@
 	culture = cul_royal
 	religion = faith_golden
 	holding = none
+}
+
+
+### c_smallboi_island
+# lilland_2
+446 = {
+	culture = cul_royal
+	religion = faith_golden
+	holding = castle_holding
 }
 
 
@@ -794,21 +803,6 @@
 }
 
 
-### c_R60G82B199
-# divinetower_caelid_2
-604 = {
-	culture = cul_royal
-	religion = faith_golden
-	holding = castle_holding
-}
-# divinetower_caelid_1
-1119 = {
-	culture = cul_royal
-	religion = faith_golden
-	holding = castle_holding
-}
-
-
 ##### d_R162G8B120 ############################
 
 ### c_R76G166B204
@@ -1262,6 +1256,17 @@
 	culture = cul_royal
 	religion = faith_golden
 	holding = none
+}
+
+
+##### d_divinetower_leyndell ############################
+
+### c_R60G82B199
+# divinetower_caelid_2
+604 = {
+	culture = cul_royal
+	religion = faith_golden
+	holding = castle_holding
 }
 
 

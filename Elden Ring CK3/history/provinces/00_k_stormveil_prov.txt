@@ -385,6 +385,12 @@
 	religion = faith_golden
 	holding = none
 }
+# LAKE
+3082 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
 
 
 ### c_R227G32B223
@@ -617,6 +623,12 @@
 	religion = faith_golden
 	holding = castle_holding
 }
+# limgrave_barony_39
+2216 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
 
 
 ### c_R71G179B202
@@ -626,9 +638,21 @@
 	religion = faith_golden
 	holding = castle_holding
 }
-# limgrave_barony_39
-2216 = {
-	culture = cul_limgrave
+# DELETE_3
+3095 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# DELETE_5
+3094 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# DELETE_7
+3093 = {
+	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
@@ -960,6 +984,18 @@
 	religion = faith_golden
 	holding = none
 }
+# DELETE_15
+2507 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# LAKE
+3072 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
 
 
 ### c_R170G151B243
@@ -986,6 +1022,24 @@
 	culture = cul_limgrave
 	religion = faith_golden
 	holding = castle_holding
+}
+# R54G56B79
+2506 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# DELETE_14
+3073 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# R35G66B250
+985 = {
+	culture = cul_caelid
+	religion = faith_golden
+	holding = none
 }
 
 
@@ -1289,21 +1343,6 @@
 
 ##### d_R125G214B29 ############################
 
-### c_R199G107B6
-# divinetower_limgrave_1
-235 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = castle_holding
-}
-# divinetower_limgrave_2
-2270 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = none
-}
-
-
 ### c_R114G164B236
 # limgrave_barony_165
 1696 = {
@@ -1385,6 +1424,97 @@
 	culture = cul_limgrave
 	religion = faith_golden
 	holding = castle_holding
+}
+
+
+##### d_divinetower_limgrave ############################
+
+### c_R199G107B6
+# divinetower_limgrave_1
+235 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# divinetower_limgrave_2
+2270 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# LAKE
+3085 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# R40G198B141
+2511 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+##### d_limgrave_beach_duchy ############################
+
+### c_limgrave_beach_west
+# R55G74B212
+2510 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = castle_holding
+}
+# LAKE
+3077 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# LAKE
+3078 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# DELETE_6
+3109 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# DELETE_4
+3106 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_limgrave_beach_east
+# R35G120B6
+2512 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = castle_holding
+}
+# LAKE
+3084 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# LAKE
+3081 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# LAKE
+3080 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
 }
 
 

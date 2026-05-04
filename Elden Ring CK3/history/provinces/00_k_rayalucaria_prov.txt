@@ -1043,33 +1043,6 @@
 }
 
 
-### c_R154G63B203
-# divinetower_liurnia_1
-258 = {
-	culture = cul_liurnia
-	religion = faith_golden
-	holding = castle_holding
-}
-# divinetower_liurnia_3
-738 = {
-	culture = cul_liurnia
-	religion = faith_golden
-	holding = none
-}
-# divinetower_liurnia_2
-2028 = {
-	culture = cul_liurnia
-	religion = faith_golden
-	holding = none
-}
-# divinetower_liurnia_4
-2165 = {
-	culture = cul_liurnia
-	religion = faith_golden
-	holding = none
-}
-
-
 ##### d_R95G106B32 ############################
 
 ### c_R217G228B180
@@ -1480,6 +1453,35 @@
 }
 # R0G25B82
 2009 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_divinetower_liurnia ############################
+
+### c_R154G63B203
+# divinetower_liurnia_1
+258 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = castle_holding
+}
+# divinetower_liurnia_3
+738 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# divinetower_liurnia_2
+2028 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
+# divinetower_liurnia_4
+2165 = {
 	culture = cul_liurnia
 	religion = faith_golden
 	holding = none

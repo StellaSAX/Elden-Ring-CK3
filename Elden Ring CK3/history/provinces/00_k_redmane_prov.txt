@@ -365,12 +365,6 @@
 	religion = faith_golden
 	holding = none
 }
-# R35G66B250
-985 = {
-	culture = cul_caelid
-	religion = faith_golden
-	holding = none
-}
 
 
 ### c_R60G147B203

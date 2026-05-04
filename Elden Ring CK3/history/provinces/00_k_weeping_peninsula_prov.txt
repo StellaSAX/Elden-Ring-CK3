@@ -25,9 +25,15 @@
 	religion = faith_golden
 	holding = none
 }
-# wp_barony_73
-2560 = {
+# LAKE
+3083 = {
 	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# DELETE_11
+3110 = {
+	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
@@ -79,6 +85,18 @@
 	religion = faith_golden
 	holding = none
 }
+# DELETE_1
+3076 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# LAKE
+3097 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
 
 
 ### c_weeping_swamp
@@ -120,6 +138,15 @@
 	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
+}
+
+
+### c_morne_rear
+# wp_barony_73
+2560 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
 }
 
 
@@ -400,11 +427,29 @@
 	religion = faith_golden
 	holding = castle_holding
 }
-# wp_barony_56
-297 = {
-	culture = cul_weeping_peninsula
+# DELETE_8
+2522 = {
+	culture = cul_astrologer
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
+}
+# DELETE_10
+3111 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# LAKE
+3070 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# OCEAN
+3071 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
 }
 
 
@@ -423,6 +468,28 @@
 }
 # wp_barony_54
 301 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# DELETE_13
+3074 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# DELETE_12
+2508 = {
+	holding = castle_holding
+}
+# DELETE_9
+3075 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_56
+297 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
@@ -484,6 +551,12 @@
 # wp_barony_48
 2246 = {
 	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# LAKE
+3099 = {
+	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }

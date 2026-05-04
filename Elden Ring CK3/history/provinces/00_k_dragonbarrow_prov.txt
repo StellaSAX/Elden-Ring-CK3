@@ -186,12 +186,6 @@
 	religion = faith_golden
 	holding = none
 }
-# R70G212B241
-509 = {
-	culture = cul_dragonbarrow
-	religion = faith_golden
-	holding = castle_holding
-}
 
 
 ### c_R27G79B141
@@ -251,12 +245,6 @@
 	culture = cul_dragonbarrow
 	religion = faith_golden
 	holding = castle_holding
-}
-# R51G28B67
-689 = {
-	culture = cul_dragonbarrow
-	religion = faith_golden
-	holding = none
 }
 
 
@@ -339,6 +327,12 @@
 	religion = faith_golden
 	holding = none
 }
+# divinetower_caelid_1
+1119 = {
+	culture = cul_royal
+	religion = faith_golden
+	holding = castle_holding
+}
 
 
 ### c_R227G171B184
@@ -353,6 +347,18 @@
 	culture = cul_dragonbarrow
 	religion = faith_golden
 	holding = none
+}
+# R51G28B67
+689 = {
+	culture = cul_dragonbarrow
+	religion = faith_golden
+	holding = none
+}
+# R70G212B241
+509 = {
+	culture = cul_dragonbarrow
+	religion = faith_golden
+	holding = castle_holding
 }
 
 
