@@ -1,0 +1,585 @@
+﻿##### d_R214G126B66 ############################
+
+### c_R52G82B165
+# wp_barony_72
+2314 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_70
+298 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_71
+978 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_69
+1728 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# LAKE
+3083 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# DELETE_11
+3110 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R197G114B197
+# wp_barony_65
+227 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_66
+130 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_63
+815 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_64
+2559 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R233G178B21
+# wp_barony_68
+1533 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_67
+618 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_61
+1345 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# DELETE_1
+3076 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# LAKE
+3097 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_weeping_swamp
+# wp_barony_62
+863 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_59
+1969 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_58
+850 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R86G250B97
+# wp_barony_60
+1429 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_36
+1528 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_35
+2343 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_morne_rear
+# wp_barony_73
+2560 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+##### d_R249G32B40 ############################
+
+### c_R20G46B152
+# wp_barony_10
+1275 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_11
+1340 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_9
+387 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_8
+1713 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R220G209B71
+# wp_barony_7
+1066 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_14
+1883 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_13
+744 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_15
+205 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_callu
+# wp_barony_27
+433 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_28
+426 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_26
+2005 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R80G49B149
+# wp_barony_12
+1453 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_30
+1896 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_29
+2485 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_32
+2197 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_31
+458 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R39G31B191
+# wp_barony_57
+465 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_33
+642 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_34
+2062 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R81G123B191 ############################
+
+### c_R183G112B248
+# wp_barony_1
+1912 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_3
+495 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_2
+970 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_19
+1583 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_18
+2458 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_4
+1764 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R47G133B21
+# wp_barony_5
+875 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_6
+136 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_17
+1727 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_16
+574 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R52G161B47
+# wp_barony_20
+170 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_21
+1224 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_22
+2467 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R77G174B149
+# wp_barony_23
+2428 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_24
+1738 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_38
+1624 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R149G183B49
+# wp_barony_37
+1206 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_25
+701 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+
+
+##### d_R34G103B166 ############################
+
+### c_R53G177B174
+# wp_barony_42
+714 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_41
+1075 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_43
+147 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# DELETE_8
+2522 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# DELETE_10
+3111 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# LAKE
+3070 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# OCEAN
+3071 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R127G10B82
+# wp_barony_55
+2260 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_53
+1091 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_54
+301 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# DELETE_13
+3074 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# DELETE_12
+2508 = {
+	holding = castle_holding
+}
+# DELETE_9
+3075 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_56
+297 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R231G233B195
+# wp_barony_40
+1616 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_44
+535 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_45
+8 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_52
+1592 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_39
+2473 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R206G173B124
+# wp_barony_50
+1031 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_49
+2086 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_51
+567 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_48
+2246 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# LAKE
+3099 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R220G186B32
+# R243G106B21
+999 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
+# wp_barony_46
+1486 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+# wp_barony_47
+2015 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
+
+

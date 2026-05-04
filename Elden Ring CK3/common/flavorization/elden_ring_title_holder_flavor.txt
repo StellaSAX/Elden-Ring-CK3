@@ -15,41 +15,6 @@ dragonlady_e = {
 	titles = { e_farum_azula }
 }
 
-dragonlord_k = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 282
-	titles = { k_dread_dragon }
-}
-dragonlady_k = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 282
-	titles = { k_dread_dragon }
-}
-
-general_m = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 282
-	titles = { k_radahn_remnants }
-}
-
-general_f = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 282
-	titles = { k_radahn_remnants }
-}
-
 crusader_m = {
 	type = character
 	gender = male
@@ -124,21 +89,4 @@ headmistress = {
 	priority = 100
 	titles = { k_rayalucaria }
 	religions = { cosmos_religion }
-}
-
-preator_m = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 282
-	titles = { k_lord_of_blasphemy }
-}
-preator_f = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 282
-	titles = { k_lord_of_blasphemy }
 }

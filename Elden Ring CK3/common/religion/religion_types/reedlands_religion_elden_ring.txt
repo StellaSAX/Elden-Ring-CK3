@@ -1,5 +1,5 @@
-﻿beyonder_religion = {
-	family = rf_beyonder
+﻿reedlands_religion = {
+	family = rf_reedlands
 
 	doctrine = pagan_hostility_doctrine
 
@@ -233,25 +233,6 @@
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_cranial_trophies
 			doctrine = tenet_consolamentum
-		}
-	}
-	
-	faiths = {
-		faith_badlands = {
-			color = { 0.9 0.1 0.1 }
-			icon = faith_badlands
-			reformed_icon = faith_badlands
-
-			doctrine = unreformed_faith_doctrine
-
-			holy_site = limgrave_colosseum
-			holy_site = caelid_colosseum
-			holy_site = leyndell_colosseum
-
-			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
 		}
 	}
 }

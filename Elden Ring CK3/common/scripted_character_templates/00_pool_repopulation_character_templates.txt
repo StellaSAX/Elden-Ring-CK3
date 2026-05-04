@@ -822,7 +822,7 @@ pool_repopulate_local_flavor = {
 	
 	random_culture = {
         root.culture = { trigger = { always = yes } }
-		culture:culture_altus_elden_ring = { trigger = { always = yes } }
+		culture:cul_altus = { trigger = { always = yes } }
 	}
 	
 	learning = {

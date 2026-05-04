@@ -1,6 +1,7 @@
 ﻿order_religion = {
 	family = rf_order
 
+	doctrine_background_icon = core_tenet_banner_christian.dds
 	doctrine = pagan_hostility_doctrine
 
 	#Main Group
@@ -44,7 +45,6 @@
 	#for them to be friendly with faiths with order syncretism
 	doctrine = special_doctrine_is_golden_faith
 	
-
 	traits = {
 		virtues = { brave just }
 		sins = { craven arbitrary }
@@ -150,7 +150,6 @@
 		WaterGodHerHis = CHARACTER_HERHIS_HER
 		WaterGodHerHim = CHARACTER_HERHIM_HER
 
-
 		PantheonTerm = order_high_god_name
 		PantheonTerm2 = order_high_god_name_2
 		PantheonTerm3 = order_high_god_name_3
@@ -235,7 +234,6 @@
 			holy_site = caelid_divine_tower
 			holy_site = isolated_divine_tower
 			
-			
 			doctrine = tenet_legalism
 			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_golden_order
@@ -256,7 +254,6 @@
 			holy_site = caelid_divine_tower
 			holy_site = isolated_divine_tower
 
-			
 			doctrine = tenet_literalism
 			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_legalism
@@ -283,7 +280,6 @@
 				ReligiousHeadName = faith_fundamentalism_religious_head_name
 				ReligiousHeadTitleName = faith_fundamentalism_religious_head_name
 			}
-			
 		}
 		faith_unalloyed = { #Miquella before going
 			color = { 0.99 0.99 0.0 }
@@ -355,7 +351,6 @@
 				
 				ReligiousHeadName = faith_perfect_religious_head_name
 				ReligiousHeadTitleName = faith_perfect_religious_head_name	
-				
 			}
 		}
 		faith_messmer = {
@@ -376,7 +371,6 @@
 			doctrine = tenet_golden_exile
 			
 			localization = {
-				
 				WarGodName = faith_messmer_war_god_name
 				WarGodNamePossessive = faith_messmer_war_god_name_possesive
 				WarGodSheHe = CHARACTER_SHEHE_HE
@@ -398,7 +392,6 @@
 				BishopFemalePlural = faith_messmer_bishop_plural
 				BishopNeuter = faith_messmer_bishop
 				BishopNeuterPlural = faith_messmer_bishop_plural
-				
 			}
 		}
 		faith_kind = { #Miquella in the Land of Shadows
@@ -473,8 +466,7 @@
 				
 				DivineRealm = faith_st_trina_positive_afterlife
 				PositiveAfterLife = faith_st_trina_positive_afterlife
-			}
-			
+			}	
 		}
 		faith_dragon_cult = {
 			color = { 0.9 0.6 0.1 }
@@ -528,7 +520,6 @@
 				DevilHerselfHimself = paganism_devil_herselfhimself
 				EvilGodNames = { faith_dragon_cult_devil_name order_devil_name order_death_deity_name }
 			}
-			
 		}
 	}
 }

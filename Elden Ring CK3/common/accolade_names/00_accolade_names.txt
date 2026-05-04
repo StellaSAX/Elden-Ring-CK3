@@ -3899,18 +3899,6 @@ accolade_the_foe_of_enemy_faith = {
 			}
 			triggered_desc = {
 				trigger = {
-					faith.religion = religion:islam_religion
-				}
-				desc = accolade_infidels
-			}
-			triggered_desc = {
-				trigger = {
-					faith.religion = religion:christianity_religion
-				}
-				desc = accolade_heathens
-			}
-			triggered_desc = {
-				trigger = {
 					NOR = {
 						faith.religion = religion:christianity_religion
 						faith = {
@@ -3952,29 +3940,6 @@ accolade_the_foe_of_enemy_faith = {
 					}
 				}
 				desc = accolade_christendom
-			}
-			triggered_desc = {
-				trigger = {
-					NOR = {
-						faith.religion = religion:islam_religion
-						faith = {
-							has_doctrine_parameter = islamic_syncretic_actor_opinion_active
-						}
-					}
-					liege.capital_county.title_province ?= {
-						OR = {
-							geographical_region = world_europe_west_iberia
-							geographical_region = world_europe_south_italy
-							geographical_region = world_asia_minor
-							geographical_region = world_middle_east
-							geographical_region = world_africa_north
-							geographical_region = world_africa_east
-							geographical_region = world_india_rajastan
-							geographical_region = world_steppe_west
-						}
-					}
-				}
-				desc = accolade_muslims
 			}
 			triggered_desc = {
 				trigger = {

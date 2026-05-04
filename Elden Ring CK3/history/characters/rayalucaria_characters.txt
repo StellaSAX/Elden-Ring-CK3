@@ -1,5 +1,5 @@
 ﻿carian_family = {
-	name = "Rennala" #so that new children aren't named Carian Family
+	name = "Maralda" #so that new children aren't named Carian Family
 	female = yes
 	dna = rennala_dna
 	sexuality = heterosexual
@@ -29,12 +29,12 @@ rennala = {
 	stewardship = 10
 	learning = 10
 	health = 10
-	give_nickname = nick_kingqueen_of_the_full_moon
 	religion = faith_moons
 	culture = cul_caria
 	
-	trait = intellect_good_3
+	give_nickname = nick_kingqueen_of_the_full_moon
 	
+	trait = intellect_good_3
 	trait = lifestyle_mystic
 	trait = education_learning_5
 	trait = ambitious
@@ -46,7 +46,7 @@ rennala = {
 	disallow_random_traits = yes
 	mother = carian_family
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_hair=f_hair_ep3_byzantine_01_common
 			custom_beards=female_empty
