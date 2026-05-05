@@ -21,7 +21,7 @@
 			culture:cul_altus = { custom_tooltip = cul_altus_desc }
 			culture:cul_gelmir = { custom_tooltip = cul_gelmir_desc }
 			culture:cul_zamor = { custom_tooltip = cul_zamor_desc }
-			culture:cul_follow_messmer = { custom_tooltip = cul_follow_messmer_desc }
+			culture:cul_shadowlander = { custom_tooltip = cul_shadowlander_desc }
 			culture:cul_dragonbarrow = { custom_tooltip = cul_dragonbarrow_desc }
 			culture:cul_farum = { custom_tooltip = cul_farum_desc }
 			culture:cul_jagged = { custom_tooltip = cul_jagged_desc }
