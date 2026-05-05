@@ -1,7 +1,5 @@
 ﻿###ELDEN RING EMBLEMS###
 
-amongus_smooth.dds = { colors = 3 category = elden_ring }
-amongus_pixel.dds = { colors = 3 category = elden_ring }
 all_knowing.dds = { colors = 2 category = elden_ring }
 all_knowing_eye.dds = { colors = 2 category = elden_ring }
 beastial.dds = { colors = 1 category = elden_ring }
@@ -11,6 +9,7 @@ blood.dds = { colors = 1 category = elden_ring }
 brass_shield.dds = { colors = 2 category = elden_ring }
 carian.dds = { colors = 1 category = elden_ring }
 crucible.dds = { colors = 1 category = elden_ring }
+crucible2.dds = { colors = 1 category = elden_ring }
 dragon_communion.dds = { colors = 1 category = elden_ring }
 dragon_cult.dds = { colors = 2 category = elden_ring }
 dragon_cult_alt.dds = { colors = 2 category = elden_ring }
@@ -21,13 +20,13 @@ eclipse2.dds = { colors = 1 category = elden_ring }
 erdtree.dds = { colors = 1 category = elden_ring }
 elden_logo1.dds = { colors = 1 category = elden_ring }
 elden_logo2.dds = { colors = 1 category = elden_ring }
-elden_text.dds = { colors = 1 category = elden_ring }
 fell_god.dds = { colors = 1 category = elden_ring }
 frenzied_flame.dds = { colors = 1 category = elden_ring }
 finger_sorcery.dds = { colors = 1 category = elden_ring }
 giants_flame.dds = { colors = 1 category = elden_ring }
 golden_order.dds = { colors = 1 category = elden_ring }
-golden_order_textless.dds = { colors = 1 category = elden_ring }
+golden_order_text.dds = { colors = 1 category = elden_ring }
+golden_order2.dds = { colors = 1 category = elden_ring }
 gravity.dds = { colors = 1 category = elden_ring }
 haligtree.dds = { colors = 1 category = elden_ring }
 hornsent_spiral.dds = { colors = 1 category = elden_ring }
@@ -42,6 +41,8 @@ nihil_curse.dds = { colors = 1 category = elden_ring }
 omen.dds = { colors = 1 category = elden_ring }
 raya_lucaria.dds = { colors = 1 category = elden_ring }
 red_thorn.dds = { colors = 1 category = elden_ring }
+rot.dds = { colors = 1 category = elden_ring }
+rot2.dds = { colors = 1 category = elden_ring }
 sellia.dds  = { colors = 1 category = elden_ring }
 storm.dds = { colors = 1 category = elden_ring }
 sun_realm.dds = { colors = 3 category = elden_ring }
@@ -56,6 +57,22 @@ twinbird_shield.dds = { colors = 3 category = elden_ring }
 
 ###MISC EMBLEMS###
 
-cakemoth1.dds = { colors = 3 category = elden_ring }
-cakemoth2.dds = { colors = 3 category = elden_ring }
-cakemoth3.dds = { colors = 3 category = elden_ring }
+elden_text.dds = { colors = 1 category = elden_ring_misc }
+misc_line.dds = { colors = 1 category = elden_ring_misc }
+misc_cross.dds = { colors = 1 category = elden_ring_misc }
+misc_scars.dds = { colors = 1 category = elden_ring_misc }
+misc_thickline.dds = { colors = 1 category = elden_ring_misc }
+misc_ears.dds = { colors = 1 category = elden_ring_misc }
+misc_crown.dds = { colors = 1 category = elden_ring_misc }
+misc_tattoo.dds = { colors = 1 category = elden_ring_misc }
+misc_tattoo_single.dds = { colors = 1 category = elden_ring_misc }
+misc_veil.dds = { colors = 1 category = elden_ring_misc }
+misc_dots.dds = { colors = 1 category = elden_ring_misc }
+
+###GIGAFUNNY###
+
+amongus_smooth.dds = { colors = 3 category = fun_emblems }
+amongus_pixel.dds = { colors = 3 category = fun_emblems }
+cakemoth1.dds = { colors = 3 category = fun_emblems }
+cakemoth2.dds = { colors = 3 category = fun_emblems }
+cakemoth3.dds = { colors = 3 category = fun_emblems }
