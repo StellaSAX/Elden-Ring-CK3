@@ -1,0 +1,30 @@
+﻿l_english:
+ cosmos_religion:0 "Cosmic Faith"
+ cosmos_religion_adj:0 "Cosmic"
+ cosmos_religion_adherent:0 "PLACEHOLDER"
+ cosmos_religion_adherent_plural:0 "PLACEHOLDER" 
+ cosmos_religion_desc:0 "Placeholder"
+ 
+ faith_academy:0 "Academia of Raya Lucaria"
+ faith_academy_adj:0 "Lucarian Academia"
+ faith_academy_adherent:0 "Lucarian Scholar"
+ faith_academy_adherent_plural:0 "Lucarian Scholars"
+ faith_academy_desc:0 "The Academy of Raya Lucaria institutionalized sorcery and primarially pursues the study of glintstone, founded by the primeval sorcerers Azur and Lusat. Later, Queen Rennala would become the Academy's master and would heavily limit the study of the primeval current and exiled Azur and Lusat."
+
+ faith_primeval:0 "Primeval Current"
+ faith_primeval_adj:0 "Primeval"
+ faith_primeval_adherent:0 "Primeval Sorcerer"
+ faith_primeval_adherent_plural:0 "Primeval Sorcerers"
+ faith_primeval_desc:0 "Placeholder"
+
+ faith_gravity:0 "Gravity Sorcery"
+ faith_gravity_adj:0 "Gravity"
+ faith_gravity_adherent:0 "PLACEHOLDER"
+ faith_gravity_adherent_plural:0 "PLACEHOLDER"
+ faith_gravity_desc:0 "Placeholder."
+
+ faith_night:0 "Night Sorcery"
+ faith_night_adj:0 "Night"
+ faith_night_adherent:0 "Night Sorcerer"
+ faith_night_adherent_plural:0 "Night Sorcerers"
+ faith_night_desc:0 "Placeholder"
