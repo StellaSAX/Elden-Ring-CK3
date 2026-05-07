@@ -103,7 +103,7 @@
 		dynasty_splendor_level = 4
 		type = male
 		birth = 912.1.1
-		title = k_godwyn_dynasty
+		title = k_mohgwyn_dynasty
 		government = feudal_government
 		culture = cul_royal
 		religion = faith_formless

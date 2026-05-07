@@ -16271,7 +16271,7 @@ k_fallen_capital = {
 	}
 }
 
-k_godwyn_dynasty = {
+k_mohgwyn_dynasty = {
 	color = { 200 41 6 }
 	landless = yes
 
