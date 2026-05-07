@@ -7,6 +7,42 @@
  TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME_DEFINITE_FORM:0 "the $NAME$ $TIER|U$ #F ($BASE_NAME$) #!"
  TITLE_TIER_AS_NAME:0 "$TIER|U$"
  
+ dragonlord_e:0 "Dragonlord"
+ dragonlady_e:0 "Dragonlady"
+ 
+ dragonlord_k:0 "Tyrant"
+ dragonlady_k:0 "Tyrant"
+ 
+ general_m:0 "General"
+ general_f:0 "General"
+ 
+ crusader_m:0 "Crusader"
+ crusader_f:0 "Crusader"
+ 
+ stormlord_m:0 "Stormlord"
+ stormlord_f:0 "Stormlady"
+ 
+ protector_m:0 "Protector"
+ protector_f:0 "Protector"
+ 
+ headmaster:0 "Headmaster"
+ headmistress:0 "Headmistress"
+ 
+ preator_m:0 "Preator"
+ preator_f:0 "Praetrix"
+ 
+ ########################
+ ### Demigod Titulars ###
+ ########################
+ k_fallen_capital:0 "The Fallen Capital"
+ k_lord_of_blasphemy:0 "Volcano Manor"
+ k_godwyn_dynasty:0 "Mohgwyn Palace"
+ k_radahn_remnants:0 "The Redmane Knights"
+ k_ocupied_stormveil:0 "Stormveil Castle"
+ k_raya_lucaria_leader:0 "The Raya Lucaria Academy"
+ k_miquellas_followers:0 "Land of the Beloved"
+ k_messmer_army:0 "Messmer's Tyranny"
+ 
  
  k_ainsel: "Ainsel"
  k_farum_azula: "Farum Azula"
