@@ -2,6 +2,7 @@
 
 all_knowing.dds = { colors = 2 category = elden_ring }
 all_knowing_eye.dds = { colors = 2 category = elden_ring }
+azula_elden.dds = { colors = 1 category = elden_ring }
 beastial.dds = { colors = 1 category = elden_ring }
 baldachin.dds = { colors = 1 category = elden_ring }
 black_knife.dds = { colors = 1 category = elden_ring }
@@ -37,12 +38,14 @@ multiplayer_runes.dds = { colors = 1 category = elden_ring }
 mt_gelmir.dds = { colors = 1 category = elden_ring }
 messmer_flame.dds = { colors = 1 category = elden_ring }
 miquella_sigil.dds = { colors = 1 category = elden_ring }
+murk.dds = { colors = 1 category = elden_ring }
 nihil_curse.dds = { colors = 1 category = elden_ring }
 omen.dds = { colors = 1 category = elden_ring }
 raya_lucaria.dds = { colors = 1 category = elden_ring }
 red_thorn.dds = { colors = 1 category = elden_ring }
 rot.dds = { colors = 1 category = elden_ring }
 rot2.dds = { colors = 1 category = elden_ring }
+saint_trina.dds  = { colors = 1 category = elden_ring }
 sellia.dds  = { colors = 1 category = elden_ring }
 storm.dds = { colors = 1 category = elden_ring }
 sun_realm.dds = { colors = 3 category = elden_ring }
@@ -68,6 +71,14 @@ misc_tattoo.dds = { colors = 1 category = elden_ring_misc }
 misc_tattoo_single.dds = { colors = 1 category = elden_ring_misc }
 misc_veil.dds = { colors = 1 category = elden_ring_misc }
 misc_dots.dds = { colors = 1 category = elden_ring_misc }
+hero_duchess.dds = { colors = 1 category = elden_ring_misc }
+hero_executor.dds = { colors = 1 category = elden_ring_misc }
+hero_guardian.dds = { colors = 1 category = elden_ring_misc }
+hero_ironeye.dds = { colors = 1 category = elden_ring_misc }
+hero_raider.dds = { colors = 1 category = elden_ring_misc }
+hero_recluse.dds = { colors = 1 category = elden_ring_misc }
+hero_revenant.dds = { colors = 1 category = elden_ring_misc }
+hero_wylder.dds = { colors = 1 category = elden_ring_misc }
 
 ###GIGAFUNNY###
 
@@ -76,3 +87,6 @@ amongus_pixel.dds = { colors = 3 category = fun_emblems }
 cakemoth1.dds = { colors = 3 category = fun_emblems }
 cakemoth2.dds = { colors = 3 category = fun_emblems }
 cakemoth3.dds = { colors = 3 category = fun_emblems }
+fazer_logo.dds = { colors = 2 category = fun_emblems }
+fazer_logo2.dds = { colors = 1 category = fun_emblems }
+puikula_text.dds = { colors = 1 category = fun_emblems }

@@ -13,7 +13,7 @@
 	learning = 10
 	health = 10
 	religion = faith_golden	
-	culture = cul_altus
+	culture = cul_sellia
 	
 	trait = cynical
 	trait = beauty_good_2
@@ -52,7 +52,7 @@ polyanna = {
 	learning = 10
 	health = 10
 	religion = faith_rot	
-	culture = cul_altus
+	culture = cul_sellia
 	
 	trait = zealous
 	trait = trusting
@@ -90,7 +90,7 @@ amy = {
 	learning = 10
 	health = 10
 	religion = faith_rot	
-	culture = cul_altus
+	culture = cul_sellia
 	
 	trait = zealous
 	disallow_random_traits = yes
@@ -128,7 +128,7 @@ maureen = {
 	learning = 10
 	health = 10
 	religion = faith_rot	
-	culture = cul_altus
+	culture = cul_sellia
 	
 	trait = zealous
 	disallow_random_traits = yes
@@ -166,7 +166,7 @@ mary = {
 	learning = 10
 	health = 10
 	religion = faith_rot	
-	culture = cul_altus
+	culture = cul_sellia
 	
 	trait = zealous
 	disallow_random_traits = yes
@@ -233,7 +233,7 @@ haight  = {
 	dynasty = dynn_haight
 	dna = kenneth_dna
 	religion = faith_golden
-	culture = cul_altus
+	culture = cul_limgrave
 	trait = education_stewardship_2
 	trait = content
 	trait = zealous

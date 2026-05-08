@@ -1,15 +1,18 @@
-cul_rauh = {
-	color = { 0.93 0.99 0.59 }
-	created = 288.10.3
-	ethos = ethos_spiritual
-	heritage = heritage_rauh
-	language = language_rauh
+cul_shadowlander = {
+	color = { 0.99 0.46 0.14 }
+	parents = { cul_landsbetween } #This culture is the mix of all the ones that accompanied Messmer, not Messmer himself. From altus, liurnia and anywhere else, who knows, i imagine a lot of people from all over the lands between. I put their common ancestor as their parent.
+	history_loc_override = mixed_leyndell_shadowlander_loc
+	created = 1810.1.1
+	ethos = ethos_bellicose
+	heritage = heritage_lands_between
+	language = language_lands_between
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_culture_blending
-		tradition_religion_blending
-		tradition_diasporic
+		tradition_by_the_sword
+		tradition_faith_bound
+		tradition_eye_for_an_eye
+		tradition_golden_order
 	}
 
 	name_list = name_list_frankish
@@ -41,39 +44,6 @@ cul_hornsent = {
 		tradition_by_the_sword
 		tradition_fervent_temple_builders
 		tradition_zealous_people
-	}
-
-	name_list = name_list_frankish
-
-	coa_gfx = { german_group_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
-
-	ethnicities = {
-		30 = caucasian_blond
-		30 = caucasian_ginger
-		30 = caucasian_brown_hair
-		30 = caucasian_dark_hair
-	}
-}
-
-cul_shadowlander = {
-	color = { 0.99 0.46 0.14 }
-	parents = { cul_landsbetween } #This culture is the mix of all the ones that accompanied Messmer, not Messmer himself. From altus, liurnia and anywhere else, who knows, i imagine a lot of people from all over the lands between. I put their common ancestor as their parent.
-	history_loc_override = mixed_leyndell_shadowlander_loc
-	created = 1810.1.1
-	ethos = ethos_bellicose
-	heritage = heritage_lands_between
-	language = language_lands_between
-	martial_custom = martial_custom_male_only
-	head_determination = head_determination_domain
-	traditions = {
-		tradition_by_the_sword
-		tradition_faith_bound
-		tradition_eye_for_an_eye
-		tradition_golden_order
 	}
 
 	name_list = name_list_frankish
@@ -125,21 +95,108 @@ cul_jagged = {
 	}
 }
 
-cul_frezyhorn = {
-	color = { 0.94 0.67 0.10 }
-	parents = { cul_hornsent }
-	history_loc_override = created_long_ago_loc
-	created = 655.7.4
+cul_rauh = {
+	color = { 0.93 0.99 0.59 }
+	created = 288.10.3
 	ethos = ethos_spiritual
-	heritage = heritage_hornsent
-	language = language_hornsent
+	heritage = heritage_rauh
+	language = language_rauh
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_frenzied_flame
-		tradition_zealous_people
-		tradition_wetlanders
-		tradition_philosopher_culture
+		tradition_culture_blending
+		tradition_religion_blending
+		tradition_diasporic
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+cul_cerulean = {
+	color = { 0.93 0.99 0.59 }
+	created = 988.10.3
+	ethos = ethos_spiritual
+	heritage = heritage_lands_between
+	language = language_lands_between
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_culture_blending
+		tradition_religion_blending
+		tradition_diasporic
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+cul_charolean = {
+	color = { 0.93 0.99 0.59 }
+	created = 988.10.3
+	ethos = ethos_spiritual
+	heritage = heritage_lands_between
+	language = language_lands_between
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_culture_blending
+		tradition_religion_blending
+		tradition_diasporic
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+cul_hinterlander = {
+	color = { 0.93 0.99 0.59 }
+	created = 502.3.6
+	ethos = ethos_spiritual
+	heritage = heritage_lands_between
+	language = language_lands_between
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_culture_blending
+		tradition_religion_blending
+		tradition_diasporic
 	}
 
 	name_list = name_list_frankish

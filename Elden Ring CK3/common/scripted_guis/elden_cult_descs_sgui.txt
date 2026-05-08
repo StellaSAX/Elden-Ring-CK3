@@ -13,31 +13,37 @@
 			culture:cul_nightfolk = { custom_tooltip = cul_nightfolk_desc }
 			culture:cul_numen = { custom_tooltip = cul_numen_desc }
 			culture:cul_astrologer = { custom_tooltip = cul_astrologer_desc }
-			culture:cul_ancenstral_followers = { custom_tooltip = cul_ancenstral_followers_desc }
+			culture:cul_ancestral_follower = { custom_tooltip = cul_ancestral_follower_desc }
 			culture:cul_hornsent = { custom_tooltip = cul_hornsent_desc }
 			culture:cul_limgrave = { custom_tooltip = cul_limgrave_desc }
+			culture:cul_mistwood = { custom_tooltip = cul_mistwood_desc }
+			culture:cul_stormhill = { custom_tooltip = cul_stormhill_desc }
 			culture:cul_weeping_peninsula = { custom_tooltip = cul_weeping_peninsula_desc }
 			culture:cul_caelid = { custom_tooltip = cul_caelid_desc }
 			culture:cul_altus = { custom_tooltip = cul_altus_desc }
 			culture:cul_gelmir = { custom_tooltip = cul_gelmir_desc }
 			culture:cul_zamor = { custom_tooltip = cul_zamor_desc }
-			culture:cul_shadowlander = { custom_tooltip = cul_shadowlander_desc }
 			culture:cul_dragonbarrow = { custom_tooltip = cul_dragonbarrow_desc }
 			culture:cul_farum = { custom_tooltip = cul_farum_desc }
 			culture:cul_jagged = { custom_tooltip = cul_jagged_desc }
 			culture:cul_nox = { custom_tooltip = cul_nox_desc }
-			culture:cul_frezyhorn = { custom_tooltip = cul_frezyhorn_desc }
 			culture:cul_shaman = { custom_tooltip = cul_shaman_desc }
-			culture:cul_royal = { custom_tooltip = cul_royal_desc }
+			culture:cul_leyndell = { custom_tooltip = cul_leyndell_desc }
 			culture:cul_northerner = { custom_tooltip = cul_northerner_desc }
+			culture:cul_low_northerner = { custom_tooltip = cul_low_northerner_desc }
 			culture:cul_liurnia = { custom_tooltip = cul_liurnia_desc }
 			culture:cul_sellia = { custom_tooltip = cul_sellia_desc }
 			culture:cul_caria = { custom_tooltip = cul_caria_desc }
 			culture:cul_eochaid = { custom_tooltip = cul_eochaid_desc }
+			culture:cul_shadowlander = { custom_tooltip = cul_shadowlander_desc }
+			culture:cul_hinterlander = { custom_tooltip = cul_hinterlander_desc }
+			culture:cul_cerulean = { custom_tooltip = cul_cerulean_desc }
+			culture:cul_charolean = { custom_tooltip = cul_charolean_desc }
+			culture:cul_rauh = { custom_tooltip = cul_rauh_desc }
+			culture:cul_ranah = { custom_tooltip = cul_ranah_desc }
 			culture:cul_beast = { custom_tooltip = cul_beast_desc }
-
-			
-
+			culture:cul_demihuman = { custom_tooltip = cul_demihuman_desc }
+			culture:cul_misbegotten = { custom_tooltip = cul_misbegotten_desc }
 		}
 	}
 }

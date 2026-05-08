@@ -111,56 +111,6 @@
 }
 
 
-##### d_R171G73B56 ############################
-
-### c_R178G194B97
-# limgrave_barony_183
-1415 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = castle_holding
-}
-# limgrave_barony_184
-110 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = castle_holding
-}
-# limgrave_barony_185
-1661 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = none
-}
-# limgrave_barony_186
-1367 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = none
-}
-
-
-### c_R180G53B147
-# limgrave_barony_187
-24 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = castle_holding
-}
-# limgrave_barony_188
-1065 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = castle_holding
-}
-# limgrave_barony_192
-2248 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = none
-}
-
-
 ### c_R165G102B69
 # limgrave_barony_182
 1277 = {
@@ -173,27 +123,6 @@
 	culture = cul_limgrave
 	religion = faith_golden
 	holding = none
-}
-
-
-### c_R115G255B31
-# limgrave_barony_191
-966 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = castle_holding
-}
-# limgrave_barony_190
-2489 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = none
-}
-# limgrave_barony_189
-259 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = castle_holding
 }
 
 
@@ -855,15 +784,27 @@
 	religion = faith_golden
 	holding = none
 }
-# limgrave_barony_62
-1803 = {
+# limgrave_barony_61
+1111 = {
 	culture = cul_limgrave
 	religion = faith_golden
 	holding = none
 }
-# limgrave_barony_61
-1111 = {
-	culture = cul_limgrave
+# R35G155B204
+2090 = {
+	culture = cul_caelid
+	religion = faith_golden
+	holding = castle_holding
+}
+# R255G31B105
+2365 = {
+	culture = cul_caelid
+	religion = faith_golden
+	holding = none
+}
+# LAKE
+3117 = {
+	culture = cul_astrologer
 	religion = faith_golden
 	holding = none
 }
@@ -1212,6 +1153,12 @@
 }
 # limgrave_barony_63
 615 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_62
+1803 = {
 	culture = cul_limgrave
 	religion = faith_golden
 	holding = none

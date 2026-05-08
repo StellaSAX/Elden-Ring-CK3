@@ -1,4 +1,4 @@
-cul_beast = { #gurranq
+cul_beast = {
 	color = { 0.80 0.50 0.1 }
 
 	ethos = ethos_bellicose
