@@ -16630,11 +16630,11 @@ h_lands_between = {
 	}
 }
 
-k_messmer_army = {
+k_dread_dragon = {
 	color = { 150 41 10 }
-	capital = c_R154G175B186
 	landless = yes
 
+	capital = c_R190G185B40
 	definite_form = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
@@ -16644,11 +16644,25 @@ k_messmer_army = {
 	}
 }
 
-k_mohgwyn_dynasty = {
+k_fallen_capital = {
+	color = { 245 236 61 }
+	landless = yes
+
+	capital = c_R22G77B84
+	definite_form = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+k_godwyn_dynasty = {
 	color = { 200 41 6 }
 	landless = yes
 
-	capital = c_R159G235B118
+	capital = c_R82G158B63
 	definite_form = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
@@ -16657,3 +16671,102 @@ k_mohgwyn_dynasty = {
 		add = @never_primary_score
 	}
 }
+
+k_lord_of_blasphemy = {
+	color = { 110 38 18 }
+	landless = yes
+
+	capital = c_R245G139B8
+	definite_form = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+k_messmer_army = {
+	color = { 150 41 10 }
+	landless = yes
+
+	capital = c_R174G55B194
+	definite_form = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+k_miquellas_followers = {
+	color = { 200 200 200 }
+	landless = yes
+
+	capital = c_R254G148B196
+	definite_form = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+k_ocupied_stormveil = {
+	color = { 245 236 61 }
+	landless = yes
+
+	capital = c_R108G207B157
+	definite_form = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+k_radahn_remnants = {
+	color = { 145 41 6 }
+	landless = yes
+
+	capital = c_R28G85B63
+	definite_form = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+k_raya_lucaria_leader = {
+	color = { 98 54 194 }
+	landless = yes
+
+	capital = c_R235G6B230
+	definite_form = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+k_sweet_sleep = {
+	color = { 200 20 200 }
+	landless = yes
+
+	capital = c_R93G179B89
+	definite_form = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+

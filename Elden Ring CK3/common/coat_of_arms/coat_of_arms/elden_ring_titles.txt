@@ -2,7 +2,7 @@
 @smLysX = 0.23
 @smLysY = 0.26
 
-k_fallen_capital={
+k_leyndell={
 	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=black
@@ -21,7 +21,7 @@ k_fallen_capital={
 
 }
 
-k_ocupied_stormveil ={
+k_stormveil={
 	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=yellow

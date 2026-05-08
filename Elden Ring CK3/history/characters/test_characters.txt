@@ -1,0 +1,68 @@
+﻿test1 = {
+	name = "Test1"
+	
+	#dna = maliketh_dna
+	sexuality = asexual
+	dynasty = dynn_beast
+
+	religion = faith_golden	
+	culture = cul_beast
+
+	disallow_random_traits = no
+	
+	707.1.1 = {
+		birth = yes
+		
+	}
+	9999.5.25 = {
+		death = {
+			death_reason = death_went_missing_elden_ring
+		}
+	}
+}
+
+test2 = {
+	name = "Test2"
+	
+	#dna = maliketh_dna
+	sexuality = asexual
+	dynasty = dynn_beast
+
+	religion = faith_golden	
+	culture = cul_beast
+
+	disallow_random_traits = no
+	
+	707.1.1 = {
+		birth = yes
+		
+	}
+	9999.5.25 = {
+		death = {
+			death_reason = death_went_missing_elden_ring
+		}
+	}
+}
+
+test2 = {
+	name = "Test2"
+	
+	#dna = maliketh_dna
+	sexuality = asexual
+	dynasty = dynn_beast
+
+	religion = faith_golden	
+	culture = cul_beast
+
+	disallow_random_traits = no
+	
+	707.1.1 = {
+		birth = yes
+		
+	}
+	9999.5.25 = {
+		death = {
+			death_reason = death_went_missing_elden_ring
+		}
+	}
+}
