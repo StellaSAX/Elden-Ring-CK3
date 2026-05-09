@@ -18,7 +18,7 @@ cul_landsbetween = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_03
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -53,7 +53,7 @@ cul_limgrave = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_02
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -86,7 +86,7 @@ cul_mistwood = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_02
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -119,7 +119,7 @@ cul_stormhill = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_02
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -152,7 +152,7 @@ cul_weeping_peninsula = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_02
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -222,7 +222,7 @@ cul_caria = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_23
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -257,7 +257,7 @@ cul_caelid = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_22
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -290,7 +290,7 @@ cul_dragonbarrow = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_22
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -323,7 +323,7 @@ cul_sellia = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_20
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -358,7 +358,7 @@ cul_leyndell = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_03
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -392,7 +392,7 @@ cul_altus = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_03
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -425,7 +425,7 @@ cul_gelmir = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_27
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -460,7 +460,7 @@ cul_northerner = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_21
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -493,7 +493,7 @@ cul_low_northerner = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_21
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -524,7 +524,7 @@ cul_giant = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_04
 
 	ethnicities = {
 		30 = caucasian_ginger
@@ -555,7 +555,7 @@ cul_zamor = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_14
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -590,7 +590,7 @@ cul_haligtree = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_19
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -686,7 +686,7 @@ cul_astrologer = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_29
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -716,7 +716,7 @@ cul_ancestral_follower = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_15
 
 	ethnicities = {
 		30 = caucasian_blond

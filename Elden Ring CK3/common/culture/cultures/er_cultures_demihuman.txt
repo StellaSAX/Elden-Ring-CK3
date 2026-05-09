@@ -19,7 +19,7 @@ cul_beast = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_17
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -50,7 +50,7 @@ cul_demihuman = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_17
 
 	ethnicities = {
 		30 = caucasian_blond
@@ -81,7 +81,7 @@ cul_misbegotten = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_05
+	house_coa_frame = house_frame_09
 
 	ethnicities = {
 		30 = caucasian_blond
