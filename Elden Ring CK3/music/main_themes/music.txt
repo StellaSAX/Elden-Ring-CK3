@@ -1,6 +1,6 @@
 ﻿##### MAINTHEME
 
 main_theme_track = {
-	music = "file:/music/menu/flame_of_ambition.mp3"
+	music = "file:/music/menu/limgrave_a.mp3"
 	can_be_interrupted = yes
 }
