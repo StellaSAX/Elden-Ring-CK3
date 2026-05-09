@@ -73,20 +73,8 @@
 	religion = faith_golden
 	holding = none
 }
-# R96G173B164
-184 = {
-	culture = cul_leyndell
-	religion = faith_golden
-	holding = castle_holding
-}
 # R244G36B226
 2359 = {
-	culture = cul_leyndell
-	religion = faith_golden
-	holding = none
-}
-# R29G102B47
-690 = {
 	culture = cul_leyndell
 	religion = faith_golden
 	holding = none
