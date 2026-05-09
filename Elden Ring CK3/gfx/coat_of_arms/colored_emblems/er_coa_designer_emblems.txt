@@ -11,6 +11,7 @@ brass_shield.dds = { colors = 2 category = elden_ring }
 carian.dds = { colors = 1 category = elden_ring }
 crucible.dds = { colors = 1 category = elden_ring }
 crucible2.dds = { colors = 1 category = elden_ring }
+circlet_marika.dds = { colors = 1 category = elden_ring }
 dragon_communion.dds = { colors = 1 category = elden_ring }
 dragon_cult.dds = { colors = 2 category = elden_ring }
 dragon_cult_alt.dds = { colors = 2 category = elden_ring }
@@ -24,6 +25,7 @@ elden_logo2.dds = { colors = 1 category = elden_ring }
 fell_god.dds = { colors = 1 category = elden_ring }
 frenzied_flame.dds = { colors = 1 category = elden_ring }
 finger_sorcery.dds = { colors = 1 category = elden_ring }
+fullmoon.dds = { colors = 3 category = elden_ring }
 giants_flame.dds = { colors = 1 category = elden_ring }
 golden_order.dds = { colors = 1 category = elden_ring }
 golden_order_text.dds = { colors = 1 category = elden_ring }
@@ -45,6 +47,12 @@ raya_lucaria.dds = { colors = 1 category = elden_ring }
 red_thorn.dds = { colors = 1 category = elden_ring }
 rot.dds = { colors = 1 category = elden_ring }
 rot2.dds = { colors = 1 category = elden_ring }
+rune_marika.dds = { colors = 1 category = elden_ring }
+rune_morgott.dds = { colors = 1 category = elden_ring }
+rune_mohg.dds = { colors = 1 category = elden_ring }
+rune_unborn.dds = { colors = 1 category = elden_ring }
+rune_radagon.dds = { colors = 1 category = elden_ring }
+rune_moon.dds = { colors = 1 category = elden_ring }
 saint_trina.dds  = { colors = 1 category = elden_ring }
 sellia.dds  = { colors = 1 category = elden_ring }
 storm.dds = { colors = 1 category = elden_ring }
@@ -89,4 +97,6 @@ cakemoth2.dds = { colors = 3 category = fun_emblems }
 cakemoth3.dds = { colors = 3 category = fun_emblems }
 fazer_logo.dds = { colors = 2 category = fun_emblems }
 fazer_logo2.dds = { colors = 1 category = fun_emblems }
+maymay.dds = { colors = 3 category = fun_emblems }
 puikula_text.dds = { colors = 1 category = fun_emblems }
+soviet_star.dds = { colors = 2 category = fun_emblems }
