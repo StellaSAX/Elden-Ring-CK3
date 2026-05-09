@@ -142,7 +142,7 @@
 
 		d_R77G174B54 = {
 			color = { 77 174 54 }
-			capital = c_R202G71B186
+			capital = c_R143G156B185
 
 			c_R42G175B234 = {
 				color = { 42 175 234 }
@@ -609,7 +609,7 @@
 
 		d_R213G198B27 = {
 			color = { 213 198 27 }
-			capital = c_R49G196B24
+			capital = c_R16G33B125
 
 			c_R107G205B141 = {
 				color = { 107 205 141 }
@@ -698,15 +698,15 @@
 
 e_farum_azula = {
 	color = { 149 147 126 }
-	capital = c_R231G102B162
+	capital = c_R113G94B59
 
 	k_farum_azula = {
 		color = { 149 147 126 }
-		capital = c_R231G102B162
+		capital = c_R113G94B59
 
 		d_R175G97B121 = {
 			color = { 175 97 121 }
-			capital = c_R231G102B162
+			capital = c_R113G94B59
 
 			c_R113G94B59 = {
 				color = { 113 94 59 }
@@ -1076,7 +1076,7 @@ e_land_shadows = {
 
 		d_R235G202B106 = {
 			color = { 235 202 106 }
-			capital = c_R165G69B198
+			capital = c_R88G243B116
 
 			c_R196G95B40 = {
 				color = { 196 95 40 }
@@ -1312,7 +1312,7 @@ e_land_shadows = {
 
 		d_R125G66B234 = {
 			color = { 125 66 234 }
-			capital = c_R139G151B181
+			capital = c_R174G83B131
 
 			c_R136G213B128 = {
 				color = { 136 213 128 }
@@ -1436,7 +1436,7 @@ e_land_shadows = {
 
 		d_R92G249B79 = {
 			color = { 92 249 79 }
-			capital = c_R224G176B24
+			capital = c_R67G185B77
 
 			c_R67G185B77 = {
 				color = { 67 185 77 }
@@ -2062,11 +2062,11 @@ e_land_shadows = {
 
 	k_cerulean_coast = {
 		color = { 0 68 167 }
-		capital = c_R94G127B57
+		capital = c_R224G176B24
 
 		d_R145G53B50 = {
 			color = { 145 53 50 }
-			capital = c_R94G127B57
+			capital = c_R224G176B24
 
 			c_R237G84B243 = {
 				color = { 237 84 243 }
@@ -2167,7 +2167,7 @@ e_land_shadows = {
 
 		d_R197G239B139 = {
 			color = { 197 239 139 }
-			capital = c_R58G249B64
+			capital = c_R224G111B123
 
 			c_R95G183B146 = {
 				color = { 95 183 146 }
@@ -2330,7 +2330,7 @@ e_land_shadows = {
 
 		d_R2G117B171 = {
 			color = { 2 117 171 }
-			capital = c_R99G203B57
+			capital = c_R82G5B154
 
 			c_R222G244B19 = {
 				color = { 222 244 19 }
@@ -2859,7 +2859,7 @@ e_land_shadows = {
 
 		d_R97G248B49 = {
 			color = { 97 248 49 }
-			capital = c_R171G178B62
+			capital = c_R137G127B116
 
 			c_R137G127B116 = {
 				color = { 137 127 116 }
@@ -3018,11 +3018,11 @@ e_land_shadows = {
 
 	k_belurat = {
 		color = { 201 215 72 }
-		capital = c_R214G63B80
+		capital = c_R189G216B111
 
 		d_R236G50B142 = {
 			color = { 236 50 142 }
-			capital = c_R214G63B80
+			capital = c_R189G216B111
 
 			c_R252G211B157 = {
 				color = { 252 211 157 }
@@ -3166,7 +3166,7 @@ e_land_shadows = {
 
 		d_R194G124B83 = {
 			color = { 194 124 83 }
-			capital = c_R53G188B216
+			capital = c_R116G126B123
 
 			c_R181G192B91 = {
 				color = { 181 192 91 }
@@ -3373,7 +3373,7 @@ e_land_shadows = {
 
 		d_R120G111B38 = {
 			color = { 120 111 38 }
-			capital = c_R82G212B218
+			capital = c_R157G115B54
 
 			c_R83G49B198 = {
 				color = { 83 49 198 }
@@ -3694,7 +3694,7 @@ e_land_shadows = {
 
 		d_R91G76B138 = {
 			color = { 91 76 138 }
-			capital = c_R220G209B71
+			capital = c_R118G227B206
 
 			c_R2G108B180 = {
 				color = { 2 108 180 }
@@ -4721,7 +4721,7 @@ e_land_shadows = {
 
 		d_R120G168B114 = {
 			color = { 120 168 114 }
-			capital = c_R96G225B111
+			capital = c_R172G231B129
 
 			c_R154G182B156 = {
 				color = { 154 182 156 }
@@ -5620,7 +5620,7 @@ e_siofra = {
 
 		d_R131G149B164 = {
 			color = { 131 149 164 }
-			capital = c_R169G25B214
+			capital = c_R226G221B185
 
 			c_R149G2B38 = {
 				color = { 149 2 38 }
@@ -5872,19 +5872,19 @@ e_siofra = {
 
 h_lands_between = {
 	color = { 247 251 117 }
-	capital = c_R254G216B86
+	capital = c_R41G168B113
 
 	e_limgrave = {
 		color = { 39 150 45 }
-		capital = c_R254G216B86
+		capital = c_R165G102B69
 
 		k_stormveil = {
 			color = { 151 189 31 }
-			capital = c_R254G216B86
+			capital = c_R165G102B69
 
 			d_R232G236B13 = {
 				color = { 232 236 13 }
-				capital = c_R254G216B86
+				capital = c_R165G102B69
 
 				c_R77G149B250 = {
 					color = { 77 149 250 }
@@ -6142,7 +6142,7 @@ h_lands_between = {
 
 			d_R55G51B222 = {
 				color = { 55 51 222 }
-				capital = c_R87G81B131
+				capital = c_R89G115B164
 
 				c_R137G89B52 = {
 					color = { 137 89 52 }
@@ -6223,7 +6223,7 @@ h_lands_between = {
 
 			d_R7G131B30 = {
 				color = { 7 131 30 }
-				capital = c_R120G160B83
+				capital = c_R86G16B75
 
 				c_R86G16B75 = {
 					color = { 86 16 75 }
@@ -6376,7 +6376,7 @@ h_lands_between = {
 
 			d_R82G2B218 = {
 				color = { 82 2 218 }
-				capital = c_R26G196B169
+				capital = c_R159G59B34
 
 				c_R159G59B34 = {
 					color = { 159 59 34 }
@@ -6596,7 +6596,7 @@ h_lands_between = {
 
 			d_R102G161B71 = {
 				color = { 102 161 71 }
-				capital = c_R4G42B114
+				capital = c_R74G183B42
 
 				c_R4G42B114 = {
 					color = { 4 42 114 }
@@ -7067,7 +7067,7 @@ h_lands_between = {
 
 			d_R125G214B29 = {
 				color = { 125 214 29 }
-				capital = c_R222G243B228
+				capital = c_R115G70B106
 
 				c_R114G164B236 = {
 					color = { 114 164 236 }
@@ -7378,7 +7378,7 @@ h_lands_between = {
 
 			d_R249G32B40 = {
 				color = { 249 32 40 }
-				capital = c_R171G33B41
+				capital = c_R20G46B152
 
 				c_R20G46B152 = {
 					color = { 20 46 152 }
@@ -7498,7 +7498,7 @@ h_lands_between = {
 
 			d_R81G123B191 = {
 				color = { 81 123 191 }
-				capital = c_R37G240B148
+				capital = c_R183G112B248
 
 				c_R183G112B248 = {
 					color = { 183 112 248 }
@@ -7775,15 +7775,15 @@ h_lands_between = {
 
 	e_caelid = {
 		color = { 186 47 47 }
-		capital = c_R16G94B216
+		capital = c_R8G255B104
 
 		k_dragonbarrow = {
 			color = { 117 123 66 }
-			capital = c_R16G94B216
+			capital = c_R167G224B138
 
 			d_R88G75B16 = {
 				color = { 88 75 16 }
-				capital = c_R16G94B216
+				capital = c_R167G224B138
 
 				c_R167G224B138 = {
 					color = { 167 224 138 }
@@ -7971,7 +7971,7 @@ h_lands_between = {
 
 			d_R18G34B124 = {
 				color = { 18 34 124 }
-				capital = c_R10G26B212
+				capital = c_R39G119B125
 
 				c_R27G79B141 = {
 					color = { 27 79 141 }
@@ -8082,7 +8082,7 @@ h_lands_between = {
 
 			d_R20G134B21 = {
 				color = { 20 134 21 }
-				capital = c_R135G144B115
+				capital = c_R10G242B228
 
 				c_R25G91B249 = {
 					color = { 25 91 249 }
@@ -8174,11 +8174,11 @@ h_lands_between = {
 
 		k_redmane = {
 			color = { 145 41 6 }
-			capital = c_R247G32B99
+			capital = c_R8G255B104
 
 			d_R132G203B162 = {
 				color = { 132 203 162 }
-				capital = c_R247G32B99
+				capital = c_R8G255B104
 
 				c_R247G32B99 = {
 					color = { 247 32 99 }
@@ -8414,7 +8414,7 @@ h_lands_between = {
 
 			d_R45G4B31 = {
 				color = { 45 4 31 }
-				capital = c_R175G9B27
+				capital = c_R60G147B203
 
 				c_R175G9B27 = {
 					color = { 175 9 27 }
@@ -8636,7 +8636,7 @@ h_lands_between = {
 
 			d_R77G224B115 = {
 				color = { 77 224 115 }
-				capital = c_R193G111B118
+				capital = c_R117G146B109
 
 				c_R196G163B77 = {
 					color = { 196 163 77 }
@@ -8794,7 +8794,7 @@ h_lands_between = {
 
 			d_R66G1B158 = {
 				color = { 66 1 158 }
-				capital = c_R6G166B32
+				capital = c_R38G204B30
 
 				c_R201G249B4 = {
 					color = { 201 249 4 }
@@ -9450,7 +9450,7 @@ h_lands_between = {
 
 			d_R7G221B236 = {
 				color = { 7 221 236 }
-				capital = c_R81G9B13
+				capital = c_R216G84B31
 
 				c_R222G219B134 = {
 					color = { 222 219 134 }
@@ -9903,7 +9903,7 @@ h_lands_between = {
 
 			d_R222G11B194 = {
 				color = { 222 11 194 }
-				capital = c_R98G235B239
+				capital = c_R91G26B38
 
 				c_R91G26B38 = {
 					color = { 91 26 38 }
@@ -9980,7 +9980,7 @@ h_lands_between = {
 
 			d_R30G24B30 = {
 				color = { 30 24 30 }
-				capital = c_R161G210B199
+				capital = c_R89G12B203
 
 				c_R52G75B231 = {
 					color = { 52 75 231 }
@@ -10105,7 +10105,7 @@ h_lands_between = {
 
 			d_R223G72B85 = {
 				color = { 223 72 85 }
-				capital = c_R27G235B47
+				capital = c_R130G237B62
 
 				c_R207G43B88 = {
 					color = { 207 43 88 }
@@ -10225,7 +10225,7 @@ h_lands_between = {
 
 			d_R134G214B152 = {
 				color = { 134 214 152 }
-				capital = c_R166G190B113
+				capital = c_R183G87B47
 
 				c_R84G230B69 = {
 					color = { 84 230 69 }
@@ -10794,7 +10794,7 @@ h_lands_between = {
 
 			d_R94G31B110 = {
 				color = { 94 31 110 }
-				capital = c_R130G161B146
+				capital = c_R156G6B42
 
 				c_R156G6B42 = {
 					color = { 156 6 42 }
@@ -10842,7 +10842,7 @@ h_lands_between = {
 
 			d_R161G83B124 = {
 				color = { 161 83 124 }
-				capital = c_R48G16B13
+				capital = c_R209G186B78
 
 				c_R14G13B238 = {
 					color = { 14 13 238 }
@@ -10905,7 +10905,7 @@ h_lands_between = {
 
 			d_R138G219B184 = {
 				color = { 138 219 184 }
-				capital = c_R90G194B237
+				capital = c_R239G254B199
 
 				c_R47G109B231 = {
 					color = { 47 109 231 }
@@ -11198,7 +11198,7 @@ h_lands_between = {
 
 			d_R164G79B58 = {
 				color = { 164 79 58 }
-				capital = c_R44G128B225
+				capital = c_R209G114B233
 
 				c_R209G114B233 = {
 					color = { 209 114 233 }
@@ -11256,7 +11256,7 @@ h_lands_between = {
 
 			d_R113G189B245 = {
 				color = { 113 189 245 }
-				capital = c_R36G79B117
+				capital = c_carian_study_county
 
 				c_R158G2B9 = {
 					color = { 158 2 9 }
@@ -11555,7 +11555,7 @@ h_lands_between = {
 
 			d_R173G98B49 = {
 				color = { 173 98 49 }
-				capital = c_R92G180B254
+				capital = c_R163G173B50
 
 				c_R163G173B50 = {
 					color = { 163 173 50 }
@@ -11689,7 +11689,7 @@ h_lands_between = {
 
 			d_R254G93B95 = {
 				color = { 254 93 95 }
-				capital = c_R149G180B129
+				capital = c_R255G104B146
 
 				c_R187G138B5 = {
 					color = { 187 138 5 }
@@ -11776,7 +11776,7 @@ h_lands_between = {
 
 			d_R15G80B29 = {
 				color = { 15 80 29 }
-				capital = c_R166G54B122
+				capital = c_R26G196B169
 
 				c_R26G196B169 = {
 					color = { 26 196 169 }
@@ -11926,7 +11926,7 @@ h_lands_between = {
 
 			d_R239G144B97 = {
 				color = { 239 144 97 }
-				capital = c_R133G13B0
+				capital = c_R89G92B215
 
 				c_R95G214B251 = {
 					color = { 95 214 251 }
@@ -12088,7 +12088,7 @@ h_lands_between = {
 
 			d_R120G98B115 = {
 				color = { 120 98 115 }
-				capital = c_R122G186B42
+				capital = c_R42G164B22
 
 				c_R42G164B22 = {
 					color = { 42 164 22 }
@@ -12541,7 +12541,7 @@ h_lands_between = {
 
 			d_R40G134B65 = {
 				color = { 40 134 65 }
-				capital = c_R229G194B49
+				capital = c_R238G176B49
 
 				c_R238G176B49 = {
 					color = { 238 176 49 }
@@ -12905,11 +12905,11 @@ h_lands_between = {
 
 		k_gelmir = {
 			color = { 108 54 36 }
-			capital = c_R107G139B182
+			capital = c_manor_area_one
 
 			d_R225G48B48 = {
 				color = { 225 48 48 }
-				capital = c_R107G139B182
+				capital = c_manor_area_one
 
 				c_R54G124B112 = {
 					color = { 54 124 112 }
@@ -13010,7 +13010,7 @@ h_lands_between = {
 
 			d_R92G220B182 = {
 				color = { 92 220 182 }
-				capital = c_R218G183B139
+				capital = c_R155G12B151
 
 				c_R82G240B194 = {
 					color = { 82 240 194 }
@@ -13593,7 +13593,7 @@ h_lands_between = {
 
 		k_altus_plateau = {
 			color = { 234 182 31 }
-			capital = c_R213G221B90
+			capital = c_R168G246B103
 
 			definite_form = yes
 			ruler_uses_title_name = no
@@ -13605,7 +13605,7 @@ h_lands_between = {
 
 			d_R249G28B79 = {
 				color = { 249 28 79 }
-				capital = c_R213G221B90
+				capital = c_R84G25B254
 
 				c_R140G70B12 = {
 					color = { 140 70 12 }
@@ -13716,7 +13716,7 @@ h_lands_between = {
 
 			d_R71G220B1 = {
 				color = { 71 220 1 }
-				capital = c_R192G105B44
+				capital = c_R80G154B223
 
 				c_R80G154B223 = {
 					color = { 80 154 223 }
@@ -13865,7 +13865,7 @@ h_lands_between = {
 
 			d_R181G183B245 = {
 				color = { 181 183 245 }
-				capital = c_R37G170B30
+				capital = c_R168G246B103
 
 				c_R210G24B243 = {
 					color = { 210 24 243 }
@@ -14082,7 +14082,7 @@ h_lands_between = {
 
 			d_R182G142B103 = {
 				color = { 182 142 103 }
-				capital = c_R253G101B3
+				capital = c_R171G33B41
 
 				c_R95G229B225 = {
 					color = { 95 229 225 }
@@ -14288,7 +14288,7 @@ h_lands_between = {
 
 			d_R178G79B53 = {
 				color = { 178 79 53 }
-				capital = c_R163G194B254
+				capital = c_R71G52B50
 
 				c_R71G52B50 = {
 					color = { 71 52 50 }
@@ -14337,7 +14337,7 @@ h_lands_between = {
 
 			d_R179G159B82 = {
 				color = { 179 159 82 }
-				capital = c_R168G215B43
+				capital = c_R11G176B119
 
 				c_R11G176B119 = {
 					color = { 11 176 119 }
@@ -14517,7 +14517,7 @@ h_lands_between = {
 
 			d_R139G91B183 = {
 				color = { 139 91 183 }
-				capital = c_R60G184B102
+				capital = c_R55G70B123
 
 				c_R213G221B90 = {
 					color = { 213 221 90 }
@@ -14606,15 +14606,15 @@ h_lands_between = {
 
 	e_mountain_tops = {
 		color = { 204 239 240 }
-		capital = c_R157G115B54
+		capital = c_R49G196B24
 
 		k_giattops = {
 			color = { 208 237 240 }
-			capital = c_R157G115B54
+			capital = c_R49G196B24
 
 			d_R227G235B181 = {
 				color = { 227 235 181 }
-				capital = c_R157G115B54
+				capital = c_R49G196B24
 
 				c_R44G119B137 = {
 					color = { 44 119 137 }
@@ -14821,7 +14821,7 @@ h_lands_between = {
 
 			d_R162G21B65 = {
 				color = { 162 21 65 }
-				capital = c_R233G120B237
+				capital = c_R174G188B56
 
 				c_R166G231B3 = {
 					color = { 166 231 3 }
@@ -14950,7 +14950,7 @@ h_lands_between = {
 
 			d_R26G233B177 = {
 				color = { 26 233 177 }
-				capital = c_R154G182B141
+				capital = c_R44G47B105
 
 				c_R15G181B36 = {
 					color = { 15 181 36 }
@@ -15171,7 +15171,7 @@ h_lands_between = {
 
 			d_R82G166B251 = {
 				color = { 82 166 251 }
-				capital = c_R154G63B203
+				capital = c_R231G100B171
 
 				c_R163G34B133 = {
 					color = { 163 34 133 }
@@ -15604,7 +15604,7 @@ h_lands_between = {
 
 			d_R122G35B75 = {
 				color = { 122 35 75 }
-				capital = c_R133G254B39
+				capital = c_R154G6B244
 
 				c_R4G147B223 = {
 					color = { 4 147 223 }
@@ -15992,7 +15992,7 @@ h_lands_between = {
 
 			d_R105G231B9 = {
 				color = { 105 231 9 }
-				capital = c_R157G205B58
+				capital = c_R122G148B192
 
 				c_R122G148B192 = {
 					color = { 122 148 192 }
@@ -16293,15 +16293,15 @@ h_lands_between = {
 
 	e_haligtree = {
 		color = { 164 196 18 }
-		capital = c_R142G40B72
+		capital = c_R35G113B61
 
 		k_haligtree = {
 			color = { 164 196 18 }
-			capital = c_R142G40B72
+			capital = c_R35G113B61
 
 			d_R240G155B228 = {
 				color = { 240 155 228 }
-				capital = c_R132G21B228
+				capital = c_R35G113B61
 
 				c_R35G113B61 = {
 					color = { 35 113 61 }
@@ -16436,7 +16436,7 @@ h_lands_between = {
 
 			d_R90G97B180 = {
 				color = { 90 97 180 }
-				capital = c_R98G183B82
+				capital = c_R244G36B163
 
 				c_R196G134B19 = {
 					color = { 196 134 19 }
@@ -16630,11 +16630,11 @@ h_lands_between = {
 	}
 }
 
-k_dread_dragon = {
+k_messmer_army = {
 	color = { 150 41 10 }
+	capital = c_R154G175B186
 	landless = yes
 
-	capital = c_R190G185B40
 	definite_form = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
@@ -16644,25 +16644,11 @@ k_dread_dragon = {
 	}
 }
 
-k_fallen_capital = {
-	color = { 245 236 61 }
-	landless = yes
-
-	capital = c_R22G77B84
-	definite_form = yes
-	ruler_uses_title_name = no
-	no_automatic_claims = yes
-	destroy_if_invalid_heir = yes
-	ai_primary_priority = {
-		add = @never_primary_score
-	}
-}
-
-k_godwyn_dynasty = {
+k_mohgwyn_dynasty = {
 	color = { 200 41 6 }
 	landless = yes
 
-	capital = c_R82G158B63
+	capital = c_R159G235B118
 	definite_form = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
@@ -16672,101 +16658,14 @@ k_godwyn_dynasty = {
 	}
 }
 
-k_lord_of_blasphemy = {
-	color = { 110 38 18 }
-	landless = yes
-
-	capital = c_R245G139B8
-	definite_form = yes
-	ruler_uses_title_name = no
-	no_automatic_claims = yes
-	destroy_if_invalid_heir = yes
-	ai_primary_priority = {
-		add = @never_primary_score
-	}
-}
-
-k_messmer_army = {
+k_dread_dragon = { #to be removed later
 	color = { 150 41 10 }
+	capital = c_R190G185B40
+	definite_form = yes
 	landless = yes
 
-	capital = c_R174G55B194
-	definite_form = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
-	ai_primary_priority = {
-		add = @never_primary_score
-	}
+	ai_primary_priority = { add = @never_primary_score }
 }
-
-k_miquellas_followers = {
-	color = { 200 200 200 }
-	landless = yes
-
-	capital = c_R254G148B196
-	definite_form = yes
-	ruler_uses_title_name = no
-	no_automatic_claims = yes
-	destroy_if_invalid_heir = yes
-	ai_primary_priority = {
-		add = @never_primary_score
-	}
-}
-
-k_ocupied_stormveil = {
-	color = { 245 236 61 }
-	landless = yes
-
-	capital = c_R108G207B157
-	definite_form = yes
-	ruler_uses_title_name = no
-	no_automatic_claims = yes
-	destroy_if_invalid_heir = yes
-	ai_primary_priority = {
-		add = @never_primary_score
-	}
-}
-
-k_radahn_remnants = {
-	color = { 145 41 6 }
-	landless = yes
-
-	capital = c_R28G85B63
-	definite_form = yes
-	ruler_uses_title_name = no
-	no_automatic_claims = yes
-	destroy_if_invalid_heir = yes
-	ai_primary_priority = {
-		add = @never_primary_score
-	}
-}
-
-k_raya_lucaria_leader = {
-	color = { 98 54 194 }
-	landless = yes
-
-	capital = c_R235G6B230
-	definite_form = yes
-	ruler_uses_title_name = no
-	no_automatic_claims = yes
-	destroy_if_invalid_heir = yes
-	ai_primary_priority = {
-		add = @never_primary_score
-	}
-}
-
-k_sweet_sleep = {
-	color = { 200 20 200 }
-	landless = yes
-
-	capital = c_R93G179B89
-	definite_form = yes
-	ruler_uses_title_name = no
-	no_automatic_claims = yes
-	destroy_if_invalid_heir = yes
-	ai_primary_priority = {
-		add = @never_primary_score
-	}
-}
-
