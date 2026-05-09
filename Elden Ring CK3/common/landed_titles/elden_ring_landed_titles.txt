@@ -9225,11 +9225,11 @@ h_lands_between = {
 
 	e_liurnia = {
 		color = { 31 69 167 }
-		capital = c_R62G9B218
+		capital = c_raya_lucaria
 
 		k_rayalucaria = {
 			color = { 98 54 194 }
-			capital = c_R62G9B218
+			capital = c_raya_lucaria
 
 			d_R135G6B171 = {
 				color = { 135 6 171 }
@@ -9255,11 +9255,6 @@ h_lands_between = {
 					b_R4G253B154 = {
 						color = { 25 255 15 }
 						province = 2053
-					}
-
-					b_R244G62B28 = {
-						color = { 244 82 221 }
-						province = 1469
 					}
 
 					b_R107G12B128 = {
@@ -9589,39 +9584,34 @@ h_lands_between = {
 
 			d_R45G186B160 = {
 				color = { 45 186 160 }
-				capital = c_R227G12B39
+				capital = c_raya_lucaria
 
-				c_R227G12B39 = {
-					color = { 227 12 39 }
+				c_raya_lucaria = {
+					color = { 45 35 146 }
 
-					b_R182G238B174 = {
-						color = { 227 12 39 }
-						province = 1399
+					b_R244G62B28 = {
+						color = { 244 82 221 }
+						province = 1469
 					}
 
-					b_R96G169B165 = {
-						color = { 168 168 120 }
-						province = 2236
+					b_R148G34B69 = {
+						color = { 215 30 231 }
+						province = 923
 					}
 
-					b_R42G122B109 = {
-						color = { 120 160 83 }
-						province = 135
+					b_R220G94B78 = {
+						color = { 10 242 228 }
+						province = 991
 					}
 
-					b_R23G17B203 = {
-						color = { 97 21 13 }
-						province = 1783
+					b_R110G134B183 = {
+						color = { 131 185 162 }
+						province = 2146
 					}
 
-					b_R255G192B43 = {
-						color = { 182 212 50 }
-						province = 222
-					}
-
-					b_R195G207B73 = {
-						color = { 77 149 250 }
-						province = 2373
+					b_R36G62B177 = {
+						color = { 222 243 228 }
+						province = 1236
 					}
 				}
 
@@ -9691,11 +9681,6 @@ h_lands_between = {
 						province = 511
 					}
 
-					b_R220G94B78 = {
-						color = { 10 242 228 }
-						province = 991
-					}
-
 					b_R118G14B143 = {
 						color = { 147 180 204 }
 						province = 1000
@@ -9705,16 +9690,6 @@ h_lands_between = {
 				c_R131G185B162 = {
 					color = { 131 185 162 }
 
-					b_R110G134B183 = {
-						color = { 131 185 162 }
-						province = 2146
-					}
-
-					b_R36G62B177 = {
-						color = { 222 243 228 }
-						province = 1236
-					}
-
 					b_R207G119B194 = {
 						color = { 160 239 113 }
 						province = 1270
@@ -9723,6 +9698,40 @@ h_lands_between = {
 					b_R111G96B28 = {
 						color = { 178 194 97 }
 						province = 685
+					}
+				}
+
+				c_R227G12B39 = {
+					color = { 227 12 39 }
+
+					b_R182G238B174 = {
+						color = { 227 12 39 }
+						province = 1399
+					}
+
+					b_R96G169B165 = {
+						color = { 168 168 120 }
+						province = 2236
+					}
+
+					b_R42G122B109 = {
+						color = { 120 160 83 }
+						province = 135
+					}
+
+					b_R23G17B203 = {
+						color = { 97 21 13 }
+						province = 1783
+					}
+
+					b_R255G192B43 = {
+						color = { 182 212 50 }
+						province = 222
+					}
+
+					b_R195G207B73 = {
+						color = { 77 149 250 }
+						province = 2373
 					}
 				}
 			}
@@ -9849,11 +9858,6 @@ h_lands_between = {
 
 				c_R215G30B231 = {
 					color = { 215 30 231 }
-
-					b_R148G34B69 = {
-						color = { 215 30 231 }
-						province = 923
-					}
 
 					b_R249G153B31 = {
 						color = { 111 72 27 }
@@ -16630,6 +16634,20 @@ h_lands_between = {
 	}
 }
 
+k_dread_dragon = {
+	color = { 150 41 10 }
+	landless = yes
+
+	capital = c_R190G185B40
+	definite_form = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
 k_messmer_army = {
 	color = { 150 41 10 }
 	capital = c_R154G175B186
@@ -16646,9 +16664,9 @@ k_messmer_army = {
 
 k_mohgwyn_dynasty = {
 	color = { 200 41 6 }
+	capital = c_R159G235B118
 	landless = yes
 
-	capital = c_R159G235B118
 	definite_form = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
@@ -16658,14 +16676,3 @@ k_mohgwyn_dynasty = {
 	}
 }
 
-k_dread_dragon = { #to be removed later
-	color = { 150 41 10 }
-	capital = c_R190G185B40
-	definite_form = yes
-	landless = yes
-
-	ruler_uses_title_name = no
-	no_automatic_claims = yes
-	destroy_if_invalid_heir = yes
-	ai_primary_priority = { add = @never_primary_score }
-}

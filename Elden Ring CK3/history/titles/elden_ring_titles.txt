@@ -65,6 +65,12 @@ c_R25G255B15 = {
 	}
 }
 
+c_raya_lucaria = {	
+	810.1.1 = {
+		holder = rennala
+	}
+}
+
 k_rayalucaria = {	
 	810.1.1 = {
 		holder = rennala
@@ -207,6 +213,18 @@ c_R242G91B126 = {
 	}
 }
 
+c_R98G122B49 = {	
+	8300.1.1 = {
+		holder = bayle
+	}
+}
+
+c_R61G159B94 = {	
+	810.1.1 = {
+		holder = morgott
+	}
+}
+
 k_dread_dragon = {	
 	8300.1.1 = {
 		holder = bayle
@@ -222,21 +240,12 @@ d_R99G49B215 = {
 		holder = bayle
 	}
 }
-d_R92G249B79 = {	
+k_jagged_peak = {	
 	8300.1.1 = {
 		holder = bayle
 	}
 }
-d_R17G169B72 = {	
-	8300.1.1 = {
-		holder = bayle
-	}
-}
-d_R235G202B106 = {	
-	8300.1.1 = {
-		holder = bayle
-	}
-}
+
 
 c_R225G11B201 = {	
 	8300.1.1 = {

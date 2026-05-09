@@ -1,5 +1,5 @@
 ﻿leyndell_capital = {
-	county = c_R22G77B84
+	county = c_R149G180B129
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -7,7 +7,7 @@
 }
 
 west_altus_divine_tower = {
-	county = c_R34G24B137
+	county = c_R26G196B169
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -15,7 +15,7 @@ west_altus_divine_tower = {
 }
 
 east_altus_divine_tower = {
-	county = c_R145G137B200
+	county = c_R42G164B22
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -23,7 +23,7 @@ east_altus_divine_tower = {
 }
 
 liurnia_divine_tower = {
-	county = c_R20G197B100
+	county = c_R154G63B203
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -31,7 +31,7 @@ liurnia_divine_tower = {
 }
 
 limgrave_divine_tower = {
-	county = c_R162G207B175
+	county = c_R199G107B6
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -39,7 +39,7 @@ limgrave_divine_tower = {
 }
 
 caelid_divine_tower = {
-	county = c_R22G68B102
+	county = c_R167G224B138
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -47,7 +47,7 @@ caelid_divine_tower = {
 }
 
 isolated_divine_tower = {
-	county = c_R33G211B206
+	county = c_R60G82B199
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -55,7 +55,7 @@ isolated_divine_tower = {
 }
 
 raya_lucaria = {
-	county = c_R235G6B230
+	county = c_R25G255B15
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -63,7 +63,7 @@ raya_lucaria = {
 }
 
 caria_manor = {
-	county = c_R9G108B122
+	county = c_R225G11B201
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -71,7 +71,7 @@ caria_manor = {
 }
 
 haligtree = {
-	county = c_R234G143B203
+	county = c_R246G55B83
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -79,7 +79,7 @@ haligtree = {
 }
 
 farum_azula = {
-	county = c_placidusax
+	county = c_R113G94B59
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -87,7 +87,7 @@ farum_azula = {
 }
 
 dragon_church = {
-	county = c_R127G136B33
+	county = c_R159G59B34
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -95,7 +95,7 @@ dragon_church = {
 }
 
 dragon_cathedral = {
-	county = c_R83G94B4
+	county = c_R166G176B174
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -103,7 +103,7 @@ dragon_cathedral = {
 }
 
 redmane_castle = {
-	county = c_R28G85B63
+	county = c_R113G64B88
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -111,7 +111,7 @@ redmane_castle = {
 }
 
 sellia_sorcery = {
-	county = c_R168G216B50
+	county = c_R117G146B109
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -119,8 +119,8 @@ sellia_sorcery = {
 }
 
 sorcerer_azur = {
-	county = c_R55G203B143
-	barony = b_R150G139B143
+	county = c_R117G146B109
+	#barony = b_R150G139B143
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -128,7 +128,7 @@ sorcerer_azur = {
 }
 
 giant_forge = {
-	county = c_R197G190B49
+	county = c_R206G131B37
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -136,7 +136,7 @@ giant_forge = {
 }
 
 star_gazer_ruin = {
-	county = c_R224G208B238
+	county = c_R77G29B156
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -144,7 +144,7 @@ star_gazer_ruin = {
 }
 
 castle_sol = {
-	county = c_R168G151B40
+	county = c_R26G236B158
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -152,15 +152,15 @@ castle_sol = {
 }
 
 lake_of_rot = {
-	county = c_grand_cloister
+	county = c_R155G253B249
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
 	}
 }
 
-frenzy_village = {
-	county = c_R208G161B48
+frenzy_tower = {
+	county = c_R110G251B135
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -168,8 +168,8 @@ frenzy_village = {
 }
 
 three_fingers = {
-	county = c_R216G23B95
-	barony = b_R202G138B202
+	county = c_R7G60B200
+	#barony = b_R202G138B202
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -177,8 +177,8 @@ three_fingers = {
 }
 
 death_catacombs = {
-	county = c_deathtouched
-	barony = b_R104G182B195
+	county = c_R251G205B65
+	#barony = b_R104G182B195
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -186,7 +186,7 @@ death_catacombs = {
 }
 
 stormveil = {
-	county = c_R108G207B157
+	county = c_R165G102B69
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -194,7 +194,7 @@ stormveil = {
 }
 
 deeproot = {
-	county = c_death_throne
+	county = c_R30G53B50
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -202,7 +202,7 @@ deeproot = {
 }
 
 limgrave_colosseum = {
-	county = c_R36G141B228
+	county = c_R115G70B106
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -210,7 +210,7 @@ limgrave_colosseum = {
 }
 
 caelid_colosseum = {
-	county = c_R235G85B34
+	county = c_R181G127B130
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -218,7 +218,7 @@ caelid_colosseum = {
 }
 
 leyndell_colosseum = {
-	county = c_R217G225B102
+	county = c_R208G201B194
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -226,7 +226,7 @@ leyndell_colosseum = {
 }
 
 stone_coffin_fissure = {
-	county = c_R93G179B89
+	county = c_R10G64B120
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -234,7 +234,7 @@ stone_coffin_fissure = {
 }
 
 jagged_peak = {
-	county = c_R190G185B40
+	county = c_R24G27B99
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -242,7 +242,7 @@ jagged_peak = {
 }
 
 abyssal_woods = {
-	county = c_R20G112B205
+	county = c_R78G159B103
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -250,7 +250,7 @@ abyssal_woods = {
 }
 
 belurat = {
-	county = c_R254G148B196
+	county = c_R80G55B36
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -258,7 +258,7 @@ belurat = {
 }
 
 castle_ensis = {
-	county = c_R154G95B210
+	county = c_R203G43B252
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -266,7 +266,7 @@ castle_ensis = {
 }
 
 church_of_the_bud = {
-	county = c_R2G28B181
+	county = c_R24G71B150
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -274,8 +274,7 @@ church_of_the_bud = {
 }
 
 manus_metyr = {
-	county = c_R252G75B229
-	barony = b_R126G164B87
+	county = c_R67G219B103
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -283,8 +282,7 @@ manus_metyr = {
 }
 
 shaman_village = {
-	county = c_R162G252B143
-	barony = b_R222G34B234
+	county = c_R227G178B69
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -292,8 +290,7 @@ shaman_village = {
 }
 
 bonny_village = {
-	county = c_R189G89B46
-	barony = b_R223G101B179
+	county = c_R9G89B92
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -301,8 +298,7 @@ bonny_village = {
 }
 
 enir_illim = {
-	county = c_R254G148B196
-	barony = b_R180G5B66
+	county = c_R189G216B111
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -310,7 +306,7 @@ enir_illim = {
 }
 
 scadutree_chalice = {
-	county = c_R64G59B186
+	county = c_R149G67B13
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -318,8 +314,7 @@ scadutree_chalice = {
 }
 
 scadutree_base = {
-	county = c_R134G168B16
-	barony = b_R130G189B235
+	county = c_R198G208B75
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -327,7 +322,7 @@ scadutree_base = {
 }
 
 mount_gelmir = {
-	county = c_R245G139B8
+	county = c_R54G124B112
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -335,8 +330,7 @@ mount_gelmir = {
 }
 
 grand_altar_dragon = {
-	county = c_R153G211B215
-	barony = b_R120G255B116
+	county = c_R221G185B184
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -344,7 +338,7 @@ grand_altar_dragon = {
 }
 
 shadow_keep = {
-	county = с_R174G556B194
+	county = c_R33G59B210
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -352,7 +346,7 @@ shadow_keep = {
 }
 
 blood_palace = {
-	county = c_R82G158B63
+	county = c_R159G235B118
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -360,7 +354,7 @@ blood_palace = {
 }
 
 malenia_bloom = {
-	county = c_R86G168B111
+	county = c_R55G13B112
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -368,7 +362,7 @@ malenia_bloom = {
 }
 
 ancestor_spirit = {
-	county = c_R201G181B248
+	county = c_R169G25B214
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -376,8 +370,7 @@ ancestor_spirit = {
 }
 
 regal_spirit = {
-	county = c_R23G234B155
-	barony = b_R95G197B39
+	county = c_R21G179B31
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -385,7 +378,7 @@ regal_spirit = {
 }
 
 nokron = {
-	county = c_R115G242B10
+	county = c_R226G221B185
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -393,8 +386,7 @@ nokron = {
 }
 
 nokstella= {
-	county = c_R41G47B213
-	barony = b_R131G67B192
+	county = c_R132G110B163
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -402,7 +394,7 @@ nokstella= {
 }
 
 nameless_city = {
-	county = c_nameless_city
+	county = c_deeproot_county_one
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -410,7 +402,7 @@ nameless_city = {
 }
 
 astel = {
-	county = c_naturalborn
+	county = c_R155G253B249
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2

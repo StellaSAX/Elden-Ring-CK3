@@ -226,7 +226,7 @@
 
 			holy_site = abyssal_woods
 			holy_site = three_fingers
-			holy_site = frenzy_village
+			holy_site = frenzy_tower
 			holy_site = giant_forge
 			
 			doctrine = tenet_extinction_of_dharma
