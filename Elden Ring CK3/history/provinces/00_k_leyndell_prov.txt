@@ -1,32 +1,8 @@
 ﻿##### d_R254G93B95 ############################
 
 ### c_R187G138B5
-# R83G87B164
-71 = {
-	culture = cul_leyndell
-	religion = faith_golden
-	holding = castle_holding
-}
-# R220G17B252
-315 = {
-	culture = cul_leyndell
-	religion = faith_golden
-	holding = castle_holding
-}
-# R65G166B112
-2362 = {
-	culture = cul_leyndell
-	religion = faith_golden
-	holding = none
-}
 # R33G10B20
 491 = {
-	culture = cul_leyndell
-	religion = faith_golden
-	holding = none
-}
-# R228G183B186
-1151 = {
 	culture = cul_leyndell
 	religion = faith_golden
 	holding = none
@@ -54,27 +30,6 @@
 }
 # R182G112B187
 973 = {
-	culture = cul_leyndell
-	religion = faith_golden
-	holding = none
-}
-
-
-### c_R255G104B146
-# R231G40B104
-11 = {
-	culture = cul_leyndell
-	religion = faith_golden
-	holding = castle_holding
-}
-# R139G91B16
-2187 = {
-	culture = cul_leyndell
-	religion = faith_golden
-	holding = none
-}
-# R244G36B226
-2359 = {
 	culture = cul_leyndell
 	religion = faith_golden
 	holding = none
