@@ -234,7 +234,6 @@ tarnished = {
 	opposites = {
 		disfigured
 		incapable
-		cancer
 		infirm
 		graceless_tarnished
 	}
@@ -263,7 +262,6 @@ graceless_tarnished = {
 	opposites = {
 		disfigured
 		incapable
-		cancer
 		infirm
 		tarnished
 	}
@@ -292,7 +290,6 @@ special_tarnished = { #for the people in discord
 	opposites = {
 		disfigured
 		incapable
-		cancer
 		infirm
 		tarnished
 	}

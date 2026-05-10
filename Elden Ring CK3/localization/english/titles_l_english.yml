@@ -36,6 +36,10 @@
  d_laamp_maleigh_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_laamp_haight: "Camp of Haight"
  d_laamp_haight_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_laamp_bigjeffepic: "Epic Stormbringers"
+ d_laamp_bigjeffepic_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_laamp_chiptooth: "Blind Camp"
+ d_laamp_chiptooth_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  
  d_grand_cloister: "Grand Cloister"
  d_rot_lake: "Lake of Rot"

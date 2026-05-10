@@ -47,3 +47,33 @@ d_laamp_haight = {
 		add = @never_primary_score
 	}
 }
+
+d_laamp_bigjeffepic = {
+	color = { 100 100 100 }
+	capital = c_R53G188B216
+	landless = yes
+
+	definite_form = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+d_laamp_chiptooth = {
+	color = { 100 100 100 }
+	capital = c_R192G105B44
+	landless = yes
+
+	definite_form = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}

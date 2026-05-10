@@ -56,7 +56,8 @@
  rf_formless:0 "":0 "Formless"
  rf_fell:0 "Fell"
  rf_shaman:0 "Shaman"
- rf_beyonder:0 "Beyond"
+ rf_badlands:0 "Badlands"
+ rf_reedlands:0 "Reedlands"
  
  doctrine_grafting_type_name:0 "Grafting"
  doctrine_omen_type_name:0 "Omen"

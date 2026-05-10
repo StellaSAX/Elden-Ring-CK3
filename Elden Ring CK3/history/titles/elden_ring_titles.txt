@@ -46,11 +46,6 @@ c_R168G246B103 = {
 		holder = elemer
 	}
 }
-c_R205G103B151 = {
-	8300.1.1 = {
-		holder = radahn
-	}
-}
 c_R214G63B80 = {
 	810.1.1 = {
 		holder = morgott
@@ -126,7 +121,7 @@ c_R88G80B204 = {
 }
 c_R8G255B104 = {
 	8300.1.1 = {
-		holder = radahn
+		holder = jerren
 	}
 }
 c_R98G122B49 = {
@@ -193,9 +188,14 @@ d_palace_approach = {
 		holder = mohg
 	}
 }
-d_redmane_castle = {
-	8300.1.1 = {
+d_wailing_dunes = {
+	7748.1.1 = {
 		holder = radahn
+	}
+}
+d_redmane_castle = {
+	7748.1.1 = {
+		holder = jerren
 	}
 }
 d_scadu_altus = {

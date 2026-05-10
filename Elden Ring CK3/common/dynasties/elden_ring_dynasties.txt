@@ -1,6 +1,6 @@
 ﻿dynn_erdtree = {
 	name = "dynn_erdtree"
-	culture = "cul_royal"
+	culture = "cul_leyndell"
 	motto = erdtree_motto
 }
 dynn_caria = {
@@ -15,12 +15,12 @@ dynn_loux = {
 }
 dynn_haight = {
 	name = "dynn_haight"
-	culture = "cul_altus"
+	culture = "cul_limgrave"
 	motto = haight_motto
 }
 dynn_slumber = {
 	name = "dynn_slumber"
-	culture = "cul_royal"
+	culture = "cul_leyndell"
 	motto = slumber_motto
 }
 dynn_jagged = {
@@ -55,7 +55,7 @@ dynn_beast = {
 }
 dynn_golden_order = {
 	name = "dynn_golden_order"
-	culture = cul_altus
+	culture = cul_leyndell
 	motto = golden_order_motto
 }
 dynn_eccentric = {
@@ -63,18 +63,28 @@ dynn_eccentric = {
 	culture = cul_caelid
 	motto = eccentric_motto
 }
-dynn_blue_knight  = {
+dynn_blue_knight = {
 	name = "dynn_blue_knight"
 	culture = cul_liurnia
 	motto = blue_knight_motto
 }
-dynn_snakesong  = {
+dynn_snakesong = {
 	name = "dynn_snakesong"
-	culture = cul_gelmir
+	culture = cul_ranah
 	motto = snakesong_motto
 }
-dynn_azula  = {
+dynn_azula = {
 	name = "dynn_azula"
 	culture = cul_farum
 	motto = azula_motto
+}
+dynn_epikus = {
+	name = "dynn_epikus"
+	culture = cul_stormhill
+	motto = epikus_motto
+}
+dynn_finngolian = {
+	name = "dynn_finngolian"
+	culture = cul_altus
+	motto = finngolian_motto
 }

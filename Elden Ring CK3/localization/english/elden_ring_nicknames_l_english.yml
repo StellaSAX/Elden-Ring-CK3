@@ -19,6 +19,7 @@
  nick_the_sleeping_kingqueen:0 "the Sleeping [CHARACTER.Custom('GetQueenKing')|U]"
  nick_the_gloam_eyed_kingqueen:0 "the Gloam Eyed [CHARACTER.Custom('GetQueenKing')|U]"
  nick_blade_of_miquella:0 "Blade of Miquella"
+ nick_conqueror_of_the_stars:0 "the Conqueror of the Stars"
 
  nick_lordlady_of_the_battlefield:0 "[CHARACTER.GetLadyLord|U] of the Battlefield"
  nick_beast_clergyman:0 "Beast Clergyman"
@@ -34,6 +35,7 @@
  nick_twin_moon_knight:0 "Twin Moon Knight"
  nick_kingqueen_of_the_full_moon:0 "of the Full Moon"
  nick_first_elden_lord:0 "the First Elden Lord"
+ nick_the_broken:0 "the Broken"
 
  nick_deathbed_companion:0 "Deathbed Companion"
  nick_the_all_knowing:0 "the All-Knowing"

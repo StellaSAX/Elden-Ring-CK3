@@ -105,6 +105,8 @@ nepheli_loux = {
 	trait = beauty_good_1
 	trait = no_marry
 	
+	trait = tarnished
+	
 	father = tarnished_3
 	
 	7900.1.1 = {
@@ -112,6 +114,109 @@ nepheli_loux = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = tarnished
+	}
+}
+
+bigjeffepic = {
+	name = "Jeff"
+	dna = bigjeffepic_dna
+	sexuality = heterosexual
+	dynasty = dynn_epikus
+	martial = 16
+	diplomacy = 5
+	intrigue = 9
+	stewardship = 10
+	learning = 8
+	prowess = 29
+	religion = faith_golden
+	culture = cul_stormhill
+	
+	disallow_random_traits = yes
+	
+	trait = ambitious
+	trait = stubborn
+	trait = vengeful
+	trait = arrogant
+	trait = education_martial_3
+	trait = gravity_affinity
+	trait = cautious_leader
+	trait = lifestyle_blademaster
+	trait = strong
+	trait = aggressive_attacker
+	
+	trait = tarnished
+	
+	give_nickname = nick_big
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_beards=male_beard_western_07
+			custom_hair=no_hair
+		}
+	}
+	
+	8266.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+			set_landless_government_effect = yes
+		}
+	}
+	8300.1.1 = {
+		effect = {
+			set_relation_rival = character:chiptooth
+		}
+	}
+}
+
+chiptooth = {
+	name = "Chiptooth"
+	dna = chiptooth_dna
+	sexuality = heterosexual
+	dynasty = dynn_finngolian
+	martial = 7
+	diplomacy = 17
+	intrigue = 17
+	stewardship = 11
+	learning = 17
+	prowess = 5
+	religion = faith_rot
+	culture = cul_altus
+	
+	disallow_random_traits = yes
+	
+	trait = shy
+	trait = humble
+	trait = honest
+	trait = paranoid
+	trait = education_diplomacy_2
+	trait = lifestyle_mystic
+	trait = scholar
+	trait = reclusive
+	trait = lunatic_genetic
+	trait = cancer
+	
+	trait = tarnished
+	
+	give_nickname = nick_the_broken
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_western_02
+			custom_beards=male_empty
+		}
+	}
+	
+	8283.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+			set_landless_government_effect = yes
+		}
+	}
+	8300.1.1 = {
+		effect = {
+			set_relation_rival = character:bigjeffepic
+		}
 	}
 }

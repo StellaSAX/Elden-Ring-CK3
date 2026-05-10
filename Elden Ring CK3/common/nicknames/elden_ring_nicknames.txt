@@ -42,6 +42,8 @@ nick_the_beast_claw = {}
 nick_pastor_of_vows = {}
 nick_knight_of_the_haligtree = {}
 nick_volcano_manor_proprietress = {}
+nick_the_broken = {}
+nick_conqueror_of_the_stars = {}
 
 nick_starscourge = { is_prefix = yes }
 nick_dragonlordlady = { is_prefix = yes }

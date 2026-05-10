@@ -865,3 +865,41 @@ house_godrick_erdtree={
 	}
 
 }
+
+dynn_epikus={
+	custom=yes
+	pattern="pattern_solid.dds"
+	color1=rgb { 47 7 1 }
+	color2=white
+	color3=purple
+	colored_emblem={
+		color1=rgb { 234 140 0 }
+		color2=rgb { 255 202 125 }
+		color3=rgb { 80 65 0 }
+		texture="brass_shield2.dds"
+		instance={
+			position={ 0.500000 0.510000 }
+			scale={ 0.840000 0.840000 }
+		}
+
+	}
+
+}
+
+dynn_finngolian={
+	pattern="pattern_cross_01.dds"
+	color1=white
+	color2=blue
+	color3=red
+	colored_emblem={
+		color1=yellow_light
+		color2=white
+		color3=white
+		texture="ce_griffin_rampant.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
