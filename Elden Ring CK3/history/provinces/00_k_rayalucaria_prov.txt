@@ -1,4 +1,4 @@
-﻿##### d_R135G6B171 ############################
+﻿##### d_glintstone_lake ############################
 
 ### c_R62G9B218
 # R177G190B131
@@ -234,7 +234,7 @@
 }
 
 
-##### d_R7G221B236 ############################
+##### d_crystal_lake ############################
 
 ### c_R222G219B134
 # R165G135B206
@@ -407,7 +407,7 @@
 }
 
 
-##### d_R45G186B160 ############################
+##### d_rose_lake ############################
 
 ### c_R119G243B190
 # R227G159B218
@@ -523,7 +523,7 @@
 }
 
 
-##### d_R61G104B50 ############################
+##### d_four_belfries ############################
 
 ### c_R230G88B203
 # R40G121B149
@@ -717,7 +717,7 @@
 }
 
 
-##### d_R222G11B194 ############################
+##### d_roads_end ############################
 
 ### c_R91G26B38
 # R210G97B37
@@ -800,7 +800,7 @@
 }
 
 
-##### d_R30G24B30 ############################
+##### d_mudlake ############################
 
 ### c_R52G75B231
 # R148G37B245
@@ -937,7 +937,7 @@
 }
 
 
-##### d_R223G72B85 ############################
+##### d_laskyar ############################
 
 ### c_R207G43B88
 # R129G198B188
@@ -1068,7 +1068,7 @@
 }
 
 
-##### d_R134G214B152 ############################
+##### d_liurnia_highway ############################
 
 ### c_R84G230B69
 # R169G178B166
@@ -1190,7 +1190,7 @@
 }
 
 
-##### d_R95G106B32 ############################
+##### d_stillwater ############################
 
 ### c_R217G228B180
 # R251G247B130
@@ -1297,6 +1297,81 @@
 	culture = cul_liurnia
 	religion = faith_golden
 	holding = none
+}
+
+
+### c_R178G194B97
+# limgrave_barony_183
+1415 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_184
+110 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_185
+1661 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_186
+1367 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_187
+24 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+
+
+### c_R180G53B147
+# limgrave_barony_188
+1065 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_192
+2248 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# LAKE
+3114 = {
+	culture = cul_astrologer
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R115G255B31
+# limgrave_barony_191
+966 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
+}
+# limgrave_barony_190
+2489 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = none
+}
+# limgrave_barony_189
+259 = {
+	culture = cul_limgrave
+	religion = faith_golden
+	holding = castle_holding
 }
 
 
@@ -1416,84 +1491,7 @@
 }
 
 
-##### d_R171G73B56 ############################
-
-### c_R178G194B97
-# limgrave_barony_183
-1415 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = castle_holding
-}
-# limgrave_barony_184
-110 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = castle_holding
-}
-# limgrave_barony_185
-1661 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = none
-}
-# limgrave_barony_186
-1367 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = none
-}
-# limgrave_barony_187
-24 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = castle_holding
-}
-
-
-### c_R180G53B147
-# limgrave_barony_188
-1065 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = castle_holding
-}
-# limgrave_barony_192
-2248 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = none
-}
-# LAKE
-3114 = {
-	culture = cul_astrologer
-	religion = faith_golden
-	holding = none
-}
-
-
-### c_R115G255B31
-# limgrave_barony_191
-966 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = castle_holding
-}
-# limgrave_barony_190
-2489 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = none
-}
-# limgrave_barony_189
-259 = {
-	culture = cul_limgrave
-	religion = faith_golden
-	holding = castle_holding
-}
-
-
-##### d_R94G31B110 ############################
+##### d_raya_lucaria ############################
 
 ### c_raya_lucaria
 # R244G62B28

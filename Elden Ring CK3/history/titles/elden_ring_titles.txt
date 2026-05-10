@@ -145,83 +145,83 @@ c_raya_lucaria = {
 		holder = rennala
 	}
 }
-d_R102G161B71 = {
+d_mistwood = {
 	7000.1.1 = {
 		holder = test3
 		liege = 0
 	}
 }
-d_R12G146B177 = {
+d_summonwater = {
 	7000.1.1 = {
 		holder = test1
 		liege = 0
 	}
 }
-d_R132G203B162 = {
+d_redmane_castle = {
 	8300.1.1 = {
 		holder = radahn
 	}
 }
-d_R17G62B1 = {
+d_scadu_altus = {
 	8300.1.1 = {
 		holder = messmer
 	}
 }
-d_R190G154B138 = {
+d_jagged_peak_summit = {
 	8300.1.1 = {
 		holder = bayle
 	}
 }
-d_R196G222B11 = {
+d_agheel_lake = {
 	8251.1.1 = {
 		liege = 0
 	}
 }
-d_R214G126B66 = {
+d_morne = {
 	8251.1.1 = {
 		liege = k_stormveil
 		holder = edgar
 	}
 }
-d_R225G48B48 = {
+d_volcano_manor = {
 	8300.1.1 = {
 		holder = rykard
 	}
 }
-d_R22G187B133 = {
+d_murkwater = {
 	7000.1.1 = {
 		holder = test2
 		liege = 0
 	}
 }
-d_R230G63B234 = {
+d_dynasty_mausoleum = {
 	8300.1.1 = {
 		holder = mohg
 	}
 }
-d_R42G65B253 = {
+d_caria = {
 	8300.1.1 = {
 		holder = ranni
 		liege = k_rayalucaria
 	}
 }
-d_R55G51B222 = {
+d_elleh = {
 	8251.1.1 = {
 		liege = 0
 	}
 }
-d_R64G101B42 = {
+d_palace_approach = {
 	8300.1.1 = {
 		holder = mohg
 	}
 }
-d_R91G76B138 = {
+d_ensis = {
 	8300.1.1 = {
 		holder = rellana
 		liege = k_messmer_army
 	}
 }
-d_R99G49B215 = {
+d_jagged_north = {
 	8300.1.1 = {
 		holder = bayle
 	}
