@@ -27,3 +27,11 @@ gift_from_the_eternal = {
 	no_prowess_loss_from_age = yes
 	health = 10
 }
+
+renown_debt_for_kenneth = {
+	icon = renown_debt
+	monthly_dynasty_prestige_mult = -1
+	monthly_prestige_gain_mult = -1
+	monthly_piety_gain_mult = -1
+	legitimacy_gain_mult = -1
+}

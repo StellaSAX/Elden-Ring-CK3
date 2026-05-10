@@ -12,15 +12,16 @@
 				value = yes
 			}
 		}
+		
 	}
 }
 
 on_game_start_after_lobby = {
 	on_actions = { 
-		#on_action_give_malenia_prowess #the idea of this is that if you give her prowess in the character history it will be removed by old age
 		#on_action_put_marika_and_radagon_in_the_tree #kill them
 		on_action_put_regents_in_charge
 		on_action_make_everyone_immortal_at_start
+		on_action_give_splendor_and_remove_points
 	}
 }
 
@@ -128,6 +129,28 @@ on_action_make_everyone_immortal_at_start = {
 			every_living_character = {
 				add_character_modifier = gift_from_the_eternal
 			}
+		}
+	}
+} 
+
+on_action_give_splendor_and_remove_points = {
+	effect = {
+		dynasty:dynn_haight ?= {
+			add_dynasty_modifier = renown_debt_for_kenneth
+			add_dynasty_prestige = -10062
+		}
+		
+		dynasty:dynn_erdtree ?= {
+			add_dynasty_prestige = -197601
+		}
+		dynn_caria ?= {
+			add_dynasty_prestige = -135054
+		}
+		dynn_farum ?= {
+			add_dynasty_prestige = -99012
+		}
+		dynn_jagged ?= {
+			add_dynasty_prestige = -49446
 		}
 	}
 } 
