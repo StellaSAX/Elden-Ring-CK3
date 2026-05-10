@@ -87,6 +87,11 @@ hero_raider.dds = { colors = 1 category = elden_ring_misc }
 hero_recluse.dds = { colors = 1 category = elden_ring_misc }
 hero_revenant.dds = { colors = 1 category = elden_ring_misc }
 hero_wylder.dds = { colors = 1 category = elden_ring_misc }
+ruined_castle.dds = { colors = 1 category = elden_ring_misc }
+sharp_mountain.dds = { colors = 1 category = elden_ring_misc }
+sharp_mountain2.dds = { colors = 2 category = elden_ring_misc }
+skull.dds = { colors = 1 category = elden_ring_misc }
+skull2.dds = { colors = 1 category = elden_ring_misc }
 
 ###GIGAFUNNY###
 
