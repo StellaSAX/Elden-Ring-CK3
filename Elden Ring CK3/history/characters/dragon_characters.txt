@@ -1,4 +1,4 @@
-﻿placidusax  = {
+﻿placidusax = {
 	name = "Placidusax"
 	sexuality = heterosexual
 	dynasty = dynn_farum
@@ -32,7 +32,7 @@
 	}
 }
 
-bayle  = {
+bayle = {
 	name = "Bayle"
 	sexuality = heterosexual
 	dynasty = dynn_jagged

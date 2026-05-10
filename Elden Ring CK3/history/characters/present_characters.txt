@@ -209,7 +209,7 @@ zorayas = {
 	}
 }
 
-haight  = {
+haight = {
 	name = "Kenneth"
 	sexuality = heterosexual
 	dynasty = dynn_haight
@@ -239,9 +239,16 @@ haight  = {
 			modifier = gift_from_the_eternal
 		}
 	}
+	8300.9.11 = {
+		add_pressed_claim = title:c_R74G183B42
+		add_pressed_claim = title:d_mistwood
+		effect = {
+			set_landless_government_effect = yes
+		}
+	}
 }
 
-edgar  = {
+edgar = {
 	name = "Edgar"
 	sexuality = heterosexual
 	dynasty = dynn_morne
@@ -273,7 +280,7 @@ edgar  = {
 	}
 }
 
-irina  = {
+irina = {
 	name = "Irina"
 	sexuality = heterosexual
 	dynasty = dynn_morne
@@ -299,7 +306,7 @@ irina  = {
 	}
 }
 
-elemer  = {
+elemer = {
 	name = "Elemer"
 	sexuality = heterosexual
 	dynasty = dynn_briar	
@@ -323,7 +330,7 @@ elemer  = {
 	}
 }
 
-maleigh  = {
+maleigh = {
 	name = "Maleigh"
 	sexuality = heterosexual
 	dynasty = dynn_marais

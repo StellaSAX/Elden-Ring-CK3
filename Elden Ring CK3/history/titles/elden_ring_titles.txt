@@ -111,12 +111,6 @@ c_R61G159B94 = {
 		holder = morgott
 	}
 }
-c_R74G183B42 = {
-	8261.1.1 = {
-		liege = 0
-		holder = haight
-	}
-}
 c_R77G27B81 = {
 	8300.1.1 = {
 		holder = rykard

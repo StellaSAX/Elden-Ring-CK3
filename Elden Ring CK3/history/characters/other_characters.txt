@@ -128,7 +128,7 @@ tanith = {
 	health = 10
 	
 	religion = faith_god_snake
-	culture = cul_gelmir
+	culture = cul_ranah
 	
 	trait = education_intrigue_3
 	trait = calm
