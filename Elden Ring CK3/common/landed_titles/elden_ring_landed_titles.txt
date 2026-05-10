@@ -13305,7 +13305,7 @@ h_lands_between = {
 			color = { 85 76 76 }
 			capital = c_R134G113B99
 
-			d_R202G21B180 = {
+			d_nameless_city = {
 				color = { 202 21 180 }
 				capital = c_R134G113B99
 
@@ -13431,7 +13431,7 @@ h_lands_between = {
 				}
 			}
 
-			d_R236G226B169 = {
+			d_waterfall_crest = {
 				color = { 236 226 169 }
 				capital = c_R183G151B110
 
@@ -16274,7 +16274,7 @@ h_lands_between = {
 			color = { 164 196 18 }
 			capital = c_R35G113B61
 
-			d_R240G155B228 = {
+			d_elphael = {
 				color = { 240 155 228 }
 				capital = c_R35G113B61
 
@@ -16332,7 +16332,7 @@ h_lands_between = {
 				}
 			}
 
-			d_R233G31B36 = {
+			d_haligtowers_west = {
 				color = { 233 31 36 }
 				capital = c_R33G27B10
 
@@ -16409,7 +16409,7 @@ h_lands_between = {
 				}
 			}
 
-			d_R90G97B180 = {
+			d_haligtowers_east = {
 				color = { 90 97 180 }
 				capital = c_R244G36B163
 
