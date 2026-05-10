@@ -84,11 +84,6 @@ marika = {
 	7213.1.1 = {
 		add_trait = crucified_erdtree
 	}
-	9999.5.25 = {
-		death = {
-			death_reason = death_imprisoned_in_erdtree
-		}
-	}
 }
 
 radagon = {
@@ -140,11 +135,6 @@ radagon = {
 	7213.1.1 = {
 		add_trait = crucified_erdtree
 	}
-	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
-	}
 }
 
 hoarah_loux = {
@@ -194,9 +184,6 @@ hoarah_loux = {
 	1602.1.1 = {
 		add_trait = tarnished
 		add_trait = no_marry
-	}
-	9999.5.25 = {
-		death = yes
 	}
 }
 
@@ -248,9 +235,6 @@ messmer = {
 		give_nickname = nick_the_impaler
 		add_trait = depressed_1
 	}
-	9999.5.25 = {
-		death = yes
-	}
 }
 
 melina = {
@@ -289,9 +273,6 @@ melina = {
 			add_character_flag = do_not_generate_starting_family
 		}
 		trait = demigod_elden_ring_4
-	}
-	9999.5.25 = {
-		death = yes
 	}
 }
 
@@ -392,9 +373,6 @@ morgott = {
 	7213.1.1 = {
 		give_nickname = nick_the_omen_kingqueen
 	}
-	9999.5.25 = {
-		death = yes
-	}
 }
 
 mohg = {
@@ -447,9 +425,6 @@ mohg = {
 	}
 	7748.1.1 = {
 		dynasty_house = house_mohgwyn_erdtree
-	}
-	9999.5.25 = {
-		death = yes
 	}
 }
 
@@ -517,9 +492,6 @@ radahn = {
 			remove_trait = diligent
 			remove_trait = brave
 		}
-	}	
-	9999.5.25 = {
-		death = yes
 	}
 }
 
@@ -590,9 +562,6 @@ rykard = {
 		give_nickname = nick_lordlady_of_blasphemy
 		add_trait = god_serpent
 	}
-	9999.5.25 = {
-		death = yes
-	}
 }
 
 ranni = {
@@ -652,9 +621,6 @@ ranni = {
 		add_pressed_claim = title:e_leyndell
 		add_pressed_claim = title:k_leyndell
 	}
-	9999.5.25 = {
-		death = yes
-	}
 }
 
 miquella = {
@@ -713,14 +679,16 @@ miquella = {
 		give_nickname = nick_the_kind
 		religion = faith_kind
 	}
+	8230.1.1 = {
+		effect = {
+			set_landless_government_effect = yes
+		}
+	}
 	8305.1.1 = {
 		effect = {
 			remove_trait = compassionate
 			add_trait = arbitrary
 		}
-	}
-	9999.5.25 = {
-		death = yes
 	}
 }
 
@@ -770,9 +738,6 @@ trina = {
 	}
 	3020.1.1 = {
 		give_nickname = nick_st_for_trina
-	}
-	9999.5.25 = {
-		death = yes
 	}
 }
 
@@ -831,9 +796,6 @@ malenia = {
 	3020.1.1 = {
 		give_nickname = nick_blade_of_miquella
 		religion = faith_unalloyed
-	}
-	9999.5.25 = {
-		death = yes
 	}
 }
 
@@ -955,8 +917,5 @@ godrick = {
 		effect = {
 			add_trait_xp = { trait = grafting value=80 }
 		}
-	}
-	9999.1.25 = {
-		death = yes
 	}
 }

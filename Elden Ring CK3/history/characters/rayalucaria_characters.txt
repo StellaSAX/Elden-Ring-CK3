@@ -68,9 +68,6 @@ rennala = {
 		add_trait = lunatic_1
 		add_trait = depressed_1
 	}
-	9999.5.25 = {
-		death = yes
-	}
 }
 
 rellana = {
@@ -123,8 +120,5 @@ rellana = {
 	1710.1.1 = {
 		add_trait = disinherited
 		religion = faith_messmer
-	}
-	9999.5.25 = {
-		death = yes
 	}
 }

@@ -31,11 +31,6 @@
 	7212.1.1 = {
 		give_nickname = nick_beast_clergyman
 	}
-	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
-	}
 }
 
 jerren = {
@@ -76,11 +71,6 @@ jerren = {
 	1192.1.1 = {
 		give_nickname = nick_witch_hunter
 	}
-	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
-	}
 }
 
 loretta = {
@@ -118,11 +108,6 @@ loretta = {
 		}
 		add_character_modifier = {
 			modifier = gift_from_the_eternal
-		}
-	}
-	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
 		}
 	}
 }
@@ -163,10 +148,5 @@ tanith = {
 	}
 	7190.1.1 = {
 		give_nickname = nick_volcano_manor_proprietress
-	}
-	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
 	}
 }

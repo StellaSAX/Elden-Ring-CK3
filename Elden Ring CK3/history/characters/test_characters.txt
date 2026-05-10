@@ -14,11 +14,6 @@
 		birth = yes
 		
 	}
-	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
-	}
 }
 
 test2 = {
@@ -37,11 +32,6 @@ test2 = {
 		birth = yes
 		
 	}
-	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
-	}
 }
 
 test2 = {
@@ -59,10 +49,5 @@ test2 = {
 	707.1.1 = {
 		birth = yes
 		
-	}
-	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
 	}
 }

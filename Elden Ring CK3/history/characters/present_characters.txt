@@ -33,9 +33,6 @@
 			add_character_flag = do_not_generate_starting_family
 		}
 	}
-	9999.5.25 = {
-		death = yes
-	}
 }
 
 polyanna = {
@@ -70,9 +67,6 @@ polyanna = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-	}
-	9999.5.25 = {
-		death = yes
 	}
 }
 
@@ -109,9 +103,6 @@ amy = {
 			add_character_flag = do_not_generate_starting_family
 		}
 	}
-	9999.5.25 = {
-		death = yes
-	}
 }
 
 maureen = {
@@ -146,9 +137,6 @@ maureen = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-	}
-	9999.5.25 = {
-		death = yes
 	}
 }
 
@@ -185,9 +173,6 @@ mary = {
 			add_character_flag = do_not_generate_starting_family
 		}
 	}
-	9999.5.25 = {
-		death = yes
-	}
 }
 
 zorayas = {
@@ -222,9 +207,6 @@ zorayas = {
 			add_character_flag = do_not_generate_starting_family
 		}
 	}
-	9999.5.25 = {
-		death = yes
-	}
 }
 
 haight  = {
@@ -256,9 +238,6 @@ haight  = {
 		add_character_modifier = {
 			modifier = gift_from_the_eternal
 		}
-	}
-	9999.5.25 = {
-		death = yes
 	}
 }
 
@@ -292,9 +271,6 @@ edgar  = {
 			modifier = gift_from_the_eternal
 		}
 	}
-	9999.5.25 = {
-		death = yes
-	}
 }
 
 irina  = {
@@ -321,9 +297,6 @@ irina  = {
 			modifier = gift_from_the_eternal
 		}
 	}
-	9999.5.25 = {
-		death = yes
-	}
 }
 
 elemer  = {
@@ -347,9 +320,6 @@ elemer  = {
 		add_character_modifier = {
 			modifier = gift_from_the_eternal
 		}
-	}
-	9999.5.25 = {
-		death = yes
 	}
 }
 
@@ -375,9 +345,6 @@ maleigh  = {
 		add_character_modifier = {
 			modifier = gift_from_the_eternal
 		}
-	}
-	9999.5.25 = {
-		death = yes
 	}
 }
 
@@ -422,8 +389,5 @@ gostoc = {
 		employer = godrick
 		give_council_position = councillor_steward
 		
-	}
-	9999.5.25 = {
-		death = yes
 	}
 }

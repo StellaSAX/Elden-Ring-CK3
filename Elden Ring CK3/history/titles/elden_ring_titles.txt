@@ -1,9 +1,4 @@
-﻿c_R10G64B120 = {
-	8300.1.1 = {
-		holder = trina
-	}
-}
-c_R113G94B59 = {
+﻿c_R113G94B59 = {
 	8300.1.1 = {
 		holder = placidusax
 	}
@@ -49,11 +44,6 @@ c_R167G246B57 = {
 c_R168G246B103 = {
 	8300.1.1 = {
 		holder = elemer
-	}
-}
-c_R189G216B111 = {
-	8300.1.1 = {
-		holder = miquella
 	}
 }
 c_R205G103B151 = {
@@ -177,11 +167,6 @@ d_R132G203B162 = {
 		holder = radahn
 	}
 }
-d_R145G53B50 = {
-	8300.1.1 = {
-		holder = trina
-	}
-}
 d_R17G62B1 = {
 	8300.1.1 = {
 		holder = messmer
@@ -190,11 +175,6 @@ d_R17G62B1 = {
 d_R190G154B138 = {
 	8300.1.1 = {
 		holder = bayle
-	}
-}
-d_R194G124B83 = {
-	8300.1.1 = {
-		holder = miquella
 	}
 }
 d_R196G222B11 = {
@@ -222,11 +202,6 @@ d_R22G187B133 = {
 d_R230G63B234 = {
 	8300.1.1 = {
 		holder = mohg
-	}
-}
-d_R236G50B142 = {
-	8300.1.1 = {
-		holder = miquella
 	}
 }
 d_R42G65B253 = {

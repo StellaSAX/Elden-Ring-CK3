@@ -30,9 +30,6 @@
 			set_relation_nemesis = character:bayle
 		}
 	}
-	9999.5.25 = {
-		death = yes
-	}
 }
 
 bayle  = {
@@ -65,9 +62,6 @@ bayle  = {
 		}
 		trait = lesser_dragon_elden_ring
 	}
-	9999.5.25 = {
-		death = yes
-	}
 }
 
 tarassax = { #a dragon to rule Farum Azula while Placidusax sleeps, named by CLAW on discord
@@ -93,10 +87,5 @@ tarassax = { #a dragon to rule Farum Azula while Placidusax sleeps, named by CLA
 		}
 		trait = ancient_dragon_elden_ring
 		
-	}
-	9999.5.25 = {
-		death = {
-			death_reason = death_went_missing_elden_ring
-		}
 	}
 }
