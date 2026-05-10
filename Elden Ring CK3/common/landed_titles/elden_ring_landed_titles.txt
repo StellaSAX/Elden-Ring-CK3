@@ -14310,11 +14310,6 @@ h_lands_between = {
 				}
 			}
 
-			d_R178G79B53 = {
-				color = { 178 79 53 }
-				capital = 
-			}
-
 			d_R179G159B82 = {
 				color = { 179 159 82 }
 				capital = c_R11G176B119

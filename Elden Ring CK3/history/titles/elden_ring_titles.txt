@@ -122,11 +122,6 @@ c_R77G27B81 = {
 		holder = rykard
 	}
 }
-c_R82G240B194 = {
-	8300.1.1 = {
-		holder = maleigh
-	}
-}
 c_R88G80B204 = {
 	500.1.1 = {
 		holder = marika
