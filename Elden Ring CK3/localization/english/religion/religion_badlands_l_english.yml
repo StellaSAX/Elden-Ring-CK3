@@ -1,5 +1,11 @@
 ﻿l_english:
 
+ badlands_religion:0 "Badlands"
+ badlands_religion_adj:0 "Badlander"
+ badlands_religion_adherent:0 "Badlander"
+ badlands_religion_adherent_plural:0 "Badlander"
+ badlands_religion_desc:0 "We are bad in this land."
+ 
  faith_badlander:0 "Badlands"
  faith_badlander_adj:0 "Badlander"
  faith_badlander_adherent:0 "Badlander"

@@ -1,13 +1,13 @@
 ﻿l_english:
 
- scarlet_rot_religion:0 "the Order of Rot"
- scarlet_rot_religion_adj:0 "Rot"
- scarlet_rot_religion_adherent:0 "Rot-touched"
- scarlet_rot_religion_adherent_plural:0 "Rot-touched"
- scarlet_rot_religion_desc:0 "An old legend grown into worship, the Order of Rot venerates the scarlet bloom as a holy thing. An Outer God's gift gestated in the body of Malenia, Blade of Miquella, who at last would bloom into the Goddess of Rot.\n\nTo those enraptured, the rotted vestments are holy robes that root one to the earth; decay is not an ending but a flowering, and each sickened soul is a bud awaiting its final, scarlet bloom."
+ rot_religion:0 "The Order of Rot"
+ rot_religion_adj:0 "Rot"
+ rot_religion_adherent:0 "Rot-Touched"
+ rot_religion_adherent_plural:0 "Rot-Touched"
+ rot_religion_desc:0 "An old legend grown into worship, the Order of Rot venerates the scarlet bloom as a holy thing. An Outer God's gift gestated in the body of Malenia, Blade of Miquella, who at last would bloom into the Goddess of Rot.\n\nTo those enraptured, the rotted vestments are holy robes that root one to the earth; decay is not an ending but a flowering, and each sickened soul is a bud awaiting its final, scarlet bloom."
 
- scarlet_rot_high_god_name:0 "the Goddess of Rot"
- scarlet_rot_high_god_name_possessive:0 "the Goddess of Rot's"
+ scarlet_rot_high_god_name:0 "The Goddess of Rot"
+ scarlet_rot_high_god_name_possessive:0 "The Rot Goddess'"
  scarlet_rot_high_god_name_alternate:0 "Malenia"
  scarlet_rot_high_god_name_alternate_possessive:0 "Malenia's"
  scarlet_rot_house_of_worship:0 "rotgarden"

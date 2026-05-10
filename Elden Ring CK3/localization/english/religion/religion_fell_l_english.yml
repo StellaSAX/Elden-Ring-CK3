@@ -1,9 +1,9 @@
 ﻿l_english:
  
  giant_religion:0 "Fell Religion"
- giant_religion_adj:0 "fell"
- giant_religion_adherent:0 "fell Worshiper"
- giant_religion_adherent_plural:0 "fell Worshipers"
+ giant_religion_adj:0 "Fell"
+ giant_religion_adherent:0 "Fell Worshipper"
+ giant_religion_adherent_plural:0 "Fell Worshippers"
  giant_religion_desc:0 "The fell god of the giants once held great power in the form of a fire that could burn the Erdtree. But now, it is reduced to beguile its wardens to gain influence"
  fell_high_god_name:0 "The Fell God"
  fell_high_god_name_2:0 "$fell_high_god_name$" # Optional translation alt

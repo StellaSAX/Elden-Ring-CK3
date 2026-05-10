@@ -1,5 +1,11 @@
 ﻿l_english:
 
+ shaman_religion:0 "Shamanism"
+ shaman_religion_adj:0 "Shamanic"
+ shaman_religion_adherent:0 "Shaman"
+ shaman_religion_adherent_plural:0 "Shamans"
+ shaman_religion_desc:0 "Shamanism is derived from folk traditions, usually tied with nature and ancestral spirits."
+ 
  faith_shaman:0 "Shamanism"
  faith_shaman_adj:0 "Shamanic"
  faith_shaman_adherent:0 "Shaman"

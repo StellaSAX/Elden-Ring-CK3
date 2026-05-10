@@ -1,7 +1,7 @@
 ﻿l_english:
  
- death_religion:0 "the Way of the Dead"
- death_religion_adj:0 "undead"
+ death_religion:0 "The Way of the Dead"
+ death_religion_adj:0 "Death"
  death_religion_adherent:0 "One Who lives in Death"
  death_religion_adherent_plural:0 "Those Who live in Death"
  death_religion_desc:0 " Most Who follow this religion do it because they had no choice in the matter of their afterlife. Indeed, deathroot prevents the soul from leaving the body and rejoin the Erdtree, a fate heretical to the Golden Order. They seek refuge within the power of Godwyn, the first to die among the demigods."
@@ -76,8 +76,8 @@
 
  faith_death_prince:0 "Godwyn's Order"
  faith_death_prince_adj:0 "Undead"
- faith_death_prince_adherent:0 "Fias' follower"
- faith_death_prince_adherent_plural:0 "Fias' followers"
+ faith_death_prince_adherent:0 "Follower of Godwyn"
+ faith_death_prince_adherent_plural:0 "Followers of Godwyn"
  faith_death_prince_desc:0 "The revelations deathbed companion Fia recieved show that, one day, Godwyn will rise once again. It will finally end the purge of our kin by the fundamentalists by reintroducing Death to the Elden Ring, and he will take his rightful place as Lord of the Dead!"
  
  faith_old_death:0 "Ancient Death"
@@ -85,4 +85,3 @@
  faith_old_death_adherent:0 "Death follower"
  faith_old_death_adherent_plural:0 "Death's followers"
  faith_old_death_desc:0 "Ancient rituals that separate the soul from the body, if you burn the bones of the death, it's possible to release the spirit trapped inside as ghostflame.\nIronically most of these practices are slowly dying out. the Twinbird is their symbol and her children, the death birds, are the keepers of the ghostflame."
- 

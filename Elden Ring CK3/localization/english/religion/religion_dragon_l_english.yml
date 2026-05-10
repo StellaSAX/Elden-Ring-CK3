@@ -1,10 +1,10 @@
 ﻿l_english:
  
- faith_ancient_dragon:0 "Ancient Dragons"
- faith_ancient_dragon_adj:0 "Ancient Dragon"
- faith_ancient_dragon_adherent:0 "Dragon Communer"
- faith_ancient_dragon_adherent_plural:0 "Dragon Communers"
- faith_ancient_dragon_desc:0 "Before the Erdtree rose, the Ancient Dragons were the keepers of the Elden Ring, and their Dragonlord Placidusax sat as Elden Lord in the age beyond time.\n\nThough their god has long since fled, the old cult endures in the storm-wracked ruins of Farum Azula, wielding red lightning and gravel-scale as the weapons of a vanished age, awaiting a return that may never come."
+ dragon_religion:0 "Ancient Dragons"
+ dragon_religion_adj:0 "Ancient Dragon"
+ dragon_religion_adherent:0 "Dragon Communer"
+ dragon_religion_adherent_plural:0 "Dragon Communers"
+ dragon_religion_desc:0 "Before the Erdtree rose, the Ancient Dragons were the keepers of the Elden Ring, and their Dragonlord Placidusax sat as Elden Lord in the age beyond time.\n\nThough their god has long since fled, the old cult endures in the storm-wracked ruins of Farum Azula, wielding red lightning and gravel-scale as the weapons of a vanished age, awaiting a return that may never come."
 
  dragon_religion_high_god_name:0 "Placidusax"
  dragon_religion_high_god_name_possessive:0 "Placidusax's"
@@ -46,8 +46,20 @@
 
  # Ancient Dragon-Group Faiths
 
- placidusax_cult:0 "the Ancient Dragons Faith"
+ placidusax_cult:0 "The Ancient Dragons Faith"
  placidusax_cult_adj:0 "Dragon-Faith"
  placidusax_cult_adherent:0 "Communer"
  placidusax_cult_adherent_plural:0 "Communers"
  placidusax_cult_desc:0 "In the crumbling ruins of Farum Azula, said to be a mausoleum raised to enshrine an ancient dragon, the Dragons await the return of Placidusax, the Dragonlord whose seat lies beyond time.\n\nChosen beastmen stand guard with weapons clad in lightning, and the priestesss of the Dragon Communion bestows her favour in the name of the lord who was once Elden Lord, and never ceased to wait for his fled god's return."
+ 
+ faith_ancient_dragon:0 "Ancient Dragons"
+ faith_ancient_dragon_adj:0 "Ancient"
+ faith_ancient_dragon_adherent:0 "Ancient Dragon"
+ faith_ancient_dragon_adherent_plural:0 "Ancient Dragons"
+ faith_ancient_dragon_desc:0 "We are ancient."
+ 
+ faith_bayle_dragon:0 "Bayle's Tyranny"
+ faith_bayle_dragon_adj:0 "Bayle's Tyranny"
+ faith_bayle_dragon_adherent:0 "Bayle Tyrant"
+ faith_bayle_dragon_adherent_plural:0 "Bayle Tyrants"
+ faith_bayle_dragon_desc:0 "Curse you bayle!"

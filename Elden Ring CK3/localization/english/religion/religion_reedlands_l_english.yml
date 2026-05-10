@@ -1,5 +1,11 @@
 ﻿l_english:
 
+ reedlands_religion:0 "Art of the Blade"
+ reedlands_religion_adj:0 "Art of the Blade"
+ reedlands_religion_adherent:0 "Sword Artist"
+ reedlands_religion_adherent_plural:0 "Sword Artists"
+ reedlands_religion_desc:0 "From the distant Land of Reeds across the sea come the Samurai who carry their own traditional faiths.\n\nRiddled by constant civil wars and brutal bloodshed, the Reedlanders venerate the art of martial prowess and their honor the ancestors that came before them. Tales have been told of devout swordsmen who renounced the absurdity of the world and with only themselves, their katana, and the mastery of the blade they become 'demons of the sword.'"
+ 
  faith_reedlander:0 "Art of the Blade"
  faith_reedlander_adj:0 "Art of the Blade"
  faith_reedlander_adherent:0 "Sword Artist"

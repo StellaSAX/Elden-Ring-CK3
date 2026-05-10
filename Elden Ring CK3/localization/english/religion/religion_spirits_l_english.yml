@@ -1,6 +1,6 @@
 ﻿l_english:
 
- spirits_religion:0 "the Ancestral Faith"
+ spirits_religion:0 "The Ancestral Faith"
  spirits_religion_adj:0 "Ancestral"
  spirits_religion_adherent:0 "Ancestral Follower"
  spirits_religion_adherent_plural:0 "Ancestral Followers"
@@ -40,7 +40,7 @@
 
  # Ancestral-Group Faiths
 
- faith_ancestor_spirit:0 "the Ancestral Followers"
+ faith_ancestor_spirit:0 "The Ancestral Followers"
  faith_ancestor_spirit_adj:0 "Ancestral"
  faith_ancestor_spirit_adherent:0 "Ancestral Follower"
  faith_ancestor_spirit_adherent_plural:0 "Ancestral Followers"
