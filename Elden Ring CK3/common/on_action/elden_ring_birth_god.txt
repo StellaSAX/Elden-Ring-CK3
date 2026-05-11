@@ -27,10 +27,17 @@ on_action_child_birth_god = {
 			limit = {
 				OR = {
 					scope:real_father = {
-						has_godhood_elden_ring = yes
+						OR = {
+							has_godhood_elden_ring = yes
+							is_demigod_elden_ring = yes
+						}
+						
 					}
 					scope:mother = {
-						has_godhood_elden_ring = yes
+						OR = {
+							has_godhood_elden_ring = yes
+							is_demigod_elden_ring = yes
+						}
 					}
 				}
 			}
@@ -130,31 +137,6 @@ on_action_child_birth_god = {
 					}		
 				}
 			}
-			# removed this becouse too many demigods in the world
-			# else_if = { # high chance to lose divine blood, but low chance to go big
-				# limit = {
-					# OR = {
-						# scope:real_father = {
-							# has_trait = demigod_elden_ring_1
-						# }
-						# scope:mother = {
-							# has_trait = demigod_elden_ring_1
-						# }
-					# }
-				# }
-				# random_list = {
-					# 1 = {
-						# add_trait = demigod_elden_ring_4
-					# }
-					# 19 = {
-						# add_trait = demigod_elden_ring_1
-					# }
-					# 80 = {
-						
-					# }		
-				# }
-			# }
-		
 		}
 		
 	}
@@ -194,6 +176,8 @@ on_action_gods_or_dragons_immune_to_old_age = {
 			limit = {
 				OR = {
 					has_godhood_elden_ring = yes
+					is_demigod_elden_ring = yes
+						
 					has_trait = ancient_dragon_elden_ring
 					has_trait = lesser_dragon_elden_ring
 				}
@@ -213,10 +197,10 @@ on_action_special_tarnished_produce_normal_ones = {
 			limit = {
 				OR = {
 					scope:real_father = {
-						has_trait = graceless_tarnished
+						is_tarnished = yes
 					}
 					scope:mother = {
-						has_trait = graceless_tarnished
+						is_tarnished = yes
 					}
 				}
 			}

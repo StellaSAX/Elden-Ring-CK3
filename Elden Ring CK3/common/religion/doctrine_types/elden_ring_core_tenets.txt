@@ -95,15 +95,19 @@ tenet_primordial_curse = {
 	}
 
 	parameters = {
-		
+		blessed_by_the_crucible = yes #for giving opinion bonuses to traits that could be considered "deformities"
 	}
 	character_modifier = {
-		health = 0.5		#Representing the vitality that the crucible grants to one
-		
+		same_faith_opinion = 5
+		dread_gain_mult = 0.15
+		health = 0.25
+		fertility = 0.1
+		heavy_infantry_damage_mult = 0.1
+		knight_effectiveness_mult = 0.15
 	}
 	
 	traits = {
-		virtues = { crucible_affinity crucible_knight }
+		virtues = { crucible_affinity crucible_knight scaly }
 	}
 }
 
@@ -142,8 +146,11 @@ tenet_great_spiral = {
 		
 	}
 	character_modifier = {
-		health = 0.5		#Representing the vitality that the crucible grants to one
+		same_faith_opinion = 
+		dread_gain_mult = 0.5
+		health = 0.25
 		
+		knight_effectiveness_mult = 0.3
 	}
 	
 	traits = {
@@ -187,6 +194,9 @@ tenet_ancient_dragon = {
 	}
 	character_modifier = {
 		advantage = 5
+		army_toughness_mult = 0.1
+		prestige_gain_mult = 0.1
+		short_reign_duration_mult = -0.15
 	}
 	
 	traits = {
@@ -230,7 +240,10 @@ tenet_bayle_dragon = {
 		
 	}
 	character_modifier = {
+		tyranny_gain_mult = 0.1
 		levy_size = 0.1
+		advantage = 10
+		short_reign_duration_mult = 0.05
 	}
 	
 	traits = {
@@ -275,6 +288,8 @@ tenet_dragon_cult = {
 	}
 	character_modifier = {
 		advantage = 5
+		prestige_gain_mult = 0.1
+		short_reign_duration_mult = -0.15
 	}
 	
 	traits = {
@@ -403,7 +418,7 @@ tenet_glintstone = { #all things glintstone related, we love magic here
 	}
 }
 
-tenet_destroy_golden_order = { #this makes evil all the other faiths in the order family(you need to be part of it, for the dungeater and ranni)
+tenet_destroy_golden_order = { #enemy of all the order faiths( for the dungeater and ranni)
 	icon = tenet_golden_order
 	piety_cost = {
 		if = {
@@ -601,5 +616,233 @@ tenet_golden_order_syncretism = {
 	traits = {
 		virtues = { order_affinity }
 		sins = { }
+	}
+}
+
+####################################
+tenet_children_of_the_badlands = {
+	icon = tenet_children_of_the_badlands
+	piety_cost = {
+		if = {
+			limit = { religion_tag = crucible_religion_elden_ring }
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_high
+		}
+
+		
+	}
+
+	is_shown = {
+		# OR = {
+			# religion_tag = crucible_religion_elden_ring
+		# }
+	}
+
+	can_pick = {
+		
+	}
+
+	parameters = {
+		
+	}
+	character_modifier = {
+		stress_loss_mult = 0.15
+		monthly_prestige = 0.3
+		development_growth_factor = -0.05
+		army_damage_mult = 0.1
+		pursuit_mult = 0.15
+		county_conversion_speed = 0.1
+	}
+	
+	traits = {
+		virtues = { strong physique_good_3 }
+
+	}
+}
+
+tenet_giants_flame = {
+	icon = tenet_giants_flame
+	piety_cost = {
+		if = {
+			limit = { religion_tag = crucible_religion_elden_ring }
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_high
+		}
+
+		
+	}
+
+	is_shown = {
+		# OR = {
+			# religion_tag = crucible_religion_elden_ring
+		# }
+	}
+
+	can_pick = {
+		custom_description = {
+			text = compatible_tenet_golden_order_desc
+			doctrine:tenet_golden_order = { is_in_list = selected_doctrines }
+		}
+	}
+
+	parameters = {
+		
+	}
+	character_modifier = {
+		dread_gain_mult = 0.3
+		hostile_scheme_power_mult = 0.1
+		siege_phase_time = -0.1
+		conversion_resistance = 0.2
+	}
+	
+	traits = {
+		virtues = { fire_affinity }
+
+	}
+}
+
+tenet_frenzied_flame = {
+	icon = tenet_frenzied_flame
+	piety_cost = {
+		if = {
+			limit = { religion_tag = crucible_religion_elden_ring }
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_high
+		}
+
+		
+	}
+
+	is_shown = {
+		# OR = {
+			# religion_tag = crucible_religion_elden_ring
+		# }
+	}
+
+	can_pick = {
+		custom_description = {
+			text = compatible_tenet_golden_order_desc
+			doctrine:tenet_golden_order = { is_in_list = selected_doctrines }
+		}
+	}
+
+	parameters = {
+		
+	}
+	character_modifier = {
+		dread_gain_mult = 0.4
+	hostile_scheme_power_mult = 0.15
+	general_opinion = -15
+	same_faith_opinion = 5
+	stress_gain_mult = 0.25
+	monthly_piety_per_stress_level = 0.2
+	faith_hostility_advantage = 10
+	monthly_control_growth = -0.1
+	army_damage_mult = 0.15
+	fatal_casualties_mult = 0.1
+	}
+	
+	traits = {
+		virtues = { frenzy_affinity }
+
+	}
+}
+
+tenet_rot = {
+	icon = tenet_rot
+	piety_cost = {
+		if = {
+			limit = { religion_tag = crucible_religion_elden_ring }
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_high
+		}
+
+		
+	}
+
+	is_shown = {
+		# OR = {
+			# religion_tag = crucible_religion_elden_ring
+		# }
+	}
+
+	can_pick = {
+		custom_description = {
+			text = compatible_tenet_golden_order_desc
+			doctrine:tenet_golden_order = { is_in_list = selected_doctrines }
+		}
+	}
+
+	parameters = {
+		
+	}
+	character_modifier = {
+		health = 1
+		disease_resistance = 1
+		natural_dread = 10
+		fertility = 0.15
+		different_faith_opinion = -10
+		attraction_opinion = -10
+		garrison_toughness = 0.2
+		army_toughness_mult = 0.15
+	}
+	
+	traits = {
+		virtues = { rot_affinity scarlet_rot scarlet_rot_child scarlet_rot_malenia }
+
+	}
+}
+
+tenet_serpents = {
+	icon = tenet_serpents
+	piety_cost = {
+		if = {
+			limit = { religion_tag = crucible_religion_elden_ring }
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_high
+		}
+
+		
+	}
+
+	is_shown = {
+		# OR = {
+			# religion_tag = crucible_religion_elden_ring
+		# }
+	}
+
+	can_pick = {
+		custom_description = {
+			text = compatible_tenet_golden_order_desc
+			doctrine:tenet_golden_order = { is_in_list = selected_doctrines }
+		}
+	}
+
+	parameters = {
+		human_sacrifice_active = yes
+		flower_war_cb_active = yes
+	}
+	character_modifier = {
+		hostile_scheme_power_mult = 0.2
+		scheme_discovery_chance_mult = -0.1
+		knight_effectiveness_mult = 0.1
+		health = 0.5
+		ai_war_chance = 1
+		ai_war_cooldown = -0.5
+	}
+	
+	traits = {
+		virtues = { manserpent god_serpent fire_affinity cannibal }
+
 	}
 }

@@ -156,7 +156,7 @@ doctrine_omen_virtuous = {
 	}
 }
 
-#SPECIAL
+#SPECIAL/for Syncretism
 is_dragon_faith = {
 	group = "special"
 	

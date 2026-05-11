@@ -232,7 +232,7 @@
 			
 			
 			doctrine = tenet_gruesome_festivals
-			doctrine = tenet_human_sacrifice
+			doctrine = tenet_serpents #this is human sacrifice+
 			doctrine = tenet_fp3_fedayeen
 			doctrine = tenet_hedonistic
 		}

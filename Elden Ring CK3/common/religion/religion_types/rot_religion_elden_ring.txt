@@ -227,11 +227,29 @@
 			holy_site = leyndell_capital
 			holy_site = isolated_divine_tower
 			holy_site = lake_of_rot
+			holy_site = haligtree
+			holy_site = malenia_bloom
+			
+			doctrine = tenet_rot
+			
+			#replace this ones
+			doctrine = tenet_astrology
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_sanctity_of_nature
+		}
+		faith_rot_romina = {
+			color = { 0.9 0.5 0.3 }
+			icon = faith_rot_romina
+			reformed_icon = faith_rot_romina
+
+			holy_site = lake_of_rot
 			holy_site = church_of_the_bud
 			holy_site = haligtree
 			holy_site = malenia_bloom
 			
-			#Generic pagan tenets
+			doctrine = tenet_rot
+			
+			#replace this ones
 			doctrine = tenet_astrology
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_sanctity_of_nature

@@ -227,11 +227,14 @@
 			holy_site = limgrave_colosseum
 			holy_site = caelid_colosseum
 			holy_site = leyndell_colosseum
+			
+			doctrine = tenet_children_of_the_badlands
 
-			#Generic pagan tenets
+			#replace this ones
 			doctrine = tenet_astrology
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_sanctity_of_nature
+			
 		}
 	}
 }
