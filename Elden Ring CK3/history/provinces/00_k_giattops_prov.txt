@@ -69,12 +69,6 @@
 	religion = faith_golden
 	holding = none
 }
-# R113G152B113
-930 = {
-	culture = cul_northerner
-	religion = faith_golden
-	holding = none
-}
 
 
 ### c_R128G172B92
