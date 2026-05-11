@@ -48,6 +48,141 @@ d_laamp_haight = {
 	}
 }
 
+d_laamp_zarion = {
+	color = { 100 100 100 }
+	capital = c_R193G208B69
+	landless = yes
+
+	definite_form = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+d_laamp_tructa = {
+	color = { 100 100 100 }
+	capital = c_R130G237B62
+	landless = yes
+
+	definite_form = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+d_laamp_grace = {
+	color = { 100 100 100 }
+	capital = c_R224G111B123
+	landless = yes
+
+	definite_form = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+d_laamp_judith = {
+	color = { 100 100 100 }
+	capital = c_R53G213B51
+	landless = yes
+
+	definite_form = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+d_laamp_hyrumar = {
+	color = { 100 100 100 }
+	capital = c_R98G183B82
+	landless = yes
+
+	definite_form = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+d_laamp_elizabeth = {
+	color = { 100 100 100 }
+	capital = c_R77G27B81
+	landless = yes
+
+	definite_form = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+d_laamp_caius = {
+	color = { 100 100 100 }
+	capital = c_R117G59B54
+	landless = yes
+
+	definite_form = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+d_laamp_samuel = {
+	color = { 100 100 100 }
+	capital = c_R208G201B194
+	landless = yes
+
+	definite_form = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+d_laamp_saerys = {
+	color = { 100 100 100 }
+	capital = c_R132G248B176
+	landless = yes
+
+	definite_form = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
 d_laamp_bigjeffepic = {
 	color = { 100 100 100 }
 	capital = c_R53G188B216

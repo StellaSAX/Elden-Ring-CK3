@@ -122,12 +122,12 @@ bigjeffepic = {
 	dna = bigjeffepic_dna
 	sexuality = heterosexual
 	dynasty = dynn_epikus
-	martial = 16
-	diplomacy = 5
-	intrigue = 9
-	stewardship = 10
-	learning = 8
-	prowess = 29
+	martial = 9
+	diplomacy = 6
+	intrigue = 6
+	stewardship = 6
+	learning = 6
+	prowess = 16
 	religion = faith_golden
 	culture = cul_stormhill
 	
@@ -174,11 +174,11 @@ chiptooth = {
 	dna = chiptooth_dna
 	sexuality = heterosexual
 	dynasty = dynn_finngolian
-	martial = 7
-	diplomacy = 17
-	intrigue = 17
-	stewardship = 11
-	learning = 17
+	martial = 8
+	diplomacy = 16
+	intrigue = 19
+	stewardship = 12
+	learning = 12
 	prowess = 5
 	religion = faith_rot
 	culture = cul_altus
@@ -217,6 +217,407 @@ chiptooth = {
 	8300.1.1 = {
 		effect = {
 			set_relation_rival = character:bigjeffepic
+		}
+	}
+}
+
+zarion = {
+	name = "Zarion"
+	dna = zarion_dna
+	sexuality = heterosexual
+	dynasty = dynn_zeste
+	martial = 12
+	diplomacy = 9
+	intrigue = 9
+	stewardship = 6
+	learning = 3
+	prowess = 14
+	religion = faith_frenzy
+	culture = cul_northerner
+	
+	disallow_random_traits = yes
+	
+	trait = sadistic
+	trait = eccentric
+	trait = paranoid
+	trait = education_intrigue_3
+	trait = strong
+	trait = possessed_genetic
+	trait = one_eyed
+	
+	trait = tarnished
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_northern_01
+			custom_beards=male_beard_rtt_01
+		}
+	}
+	
+	8273.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+			set_landless_government_effect = yes
+		}
+	}
+}
+
+tructa = {
+	name = "Tructa"
+	dna = tructa_dna
+	sexuality = heterosexual
+	dynasty = dynn_zafish
+	martial = 7
+	diplomacy = 10
+	intrigue = 3
+	stewardship = 15
+	learning = 13
+	prowess = 13
+	religion = faith_academy
+	culture = cul_liurnia
+	
+	disallow_random_traits = yes
+	
+	trait = gluttonous
+	trait = gregarious
+	trait = fickle
+	trait = education_diplomacy_3
+	trait = physique_good_1
+	trait = reckless
+	trait = reclusive
+	
+	trait = tarnished
+	
+	give_nickname = nick_trout_eater
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=m_hair_fp3_iranian_01
+			custom_beards=m_beard_ep3_byzantine_03
+		}
+	}
+	
+	8278.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+			set_landless_government_effect = yes
+		}
+	}
+}
+
+grace = {
+	name = "Grace"
+	female = yes
+	dna = grace_dna
+	sexuality = heterosexual
+	dynasty = dynn_burningmoon
+	martial = 5
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	learning = 5
+	prowess = 5
+	religion = faith_moons
+	culture = cul_cerulean
+	
+	disallow_random_traits = yes
+	
+	trait = patient
+	trait = zealous
+	trait = compassionate
+	trait = education_martial_3
+	trait = beauty_good_3
+	trait = confider
+	trait = faith_warrior
+	trait = shieldmaiden
+	trait = loyal
+	trait = holy_warrior
+	
+	trait = tarnished
+	
+	give_nickname = nick_the_crusader
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_beards=female_empty
+			custom_hair=female_hair_fp2_iberian_christian_03
+		}
+	}
+	
+	8283.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+			set_landless_government_effect = yes
+		}
+	}
+}
+
+judith = {
+	name = "Judith"
+	female = yes
+	dna = judith_dna
+	sexuality = heterosexual
+	dynasty = dynn_fiennes
+	martial = 4
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 10
+	learning = 12
+	prowess = 5
+	religion = faith_golden
+	culture = cul_altus
+	
+	disallow_random_traits = yes
+	
+	trait = patient
+	trait = humble
+	trait = trusting
+	trait = education_learning_4
+	trait = physique_bad_1
+	trait = intellect_good_2
+	trait = confider
+	trait = loyal
+	
+	trait = tarnished
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=female_hair_fp1_02
+			custom_beards=female_empty
+		}
+	}
+	
+	8280.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+			set_landless_government_effect = yes
+		}
+	}
+}
+
+hyrumar = {
+	name = "Hyrumar"
+	dna = hyrumar_dna
+	sexuality = heterosexual
+	dynasty = dynn_singorn
+	martial = 9
+	diplomacy = 8
+	intrigue = 1
+	stewardship = 4
+	learning = 0
+	prowess = 13
+	religion = faith_golden
+	culture = cul_leyndell
+	
+	disallow_random_traits = yes
+	
+	trait = brave
+	trait = ambitious
+	trait = diligent
+	trait = education_martial_4
+	trait = physique_good_2
+	trait = beauty_good_1
+	
+	trait = tarnished
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_western_08
+			custom_beards=male_empty
+		}
+	}
+	
+	8281.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+			set_landless_government_effect = yes
+		}
+	}
+}
+
+elizabeth = {
+	name = "Elizabeth"
+	female = yes
+	dna = elizabeth_dna
+	sexuality = heterosexual
+	dynasty = dynn_maho
+	martial = 8
+	diplomacy = 5
+	intrigue = 3
+	stewardship = 9
+	learning = 5
+	prowess = 14
+	religion = faith_god_snake
+	culture = cul_gelmir
+	
+	disallow_random_traits = yes
+	
+	trait = arrogant
+	trait = brave
+	trait = lustful
+	trait = education_martial_3
+	trait = physique_good_3
+	
+	trait = tarnished
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=female_hair_western_08
+			custom_beards=female_empty
+		}
+	}
+	
+	8276.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+			set_landless_government_effect = yes
+		}
+	}
+}
+
+caius = {
+	name = "Caius"
+	dna = caius_dna
+	sexuality = heterosexual
+	dynasty = dynn_eored
+	martial = 12
+	diplomacy = 8
+	intrigue = 13
+	stewardship = 8
+	learning = 8
+	prowess = 5
+	religion = faith_golden
+	culture = cul_altus
+	
+	disallow_random_traits = yes
+	
+	trait = humble
+	trait = stubborn
+	trait = gregarious
+	trait = education_learning_3
+	trait = lifestyle_physician
+	trait = lifestyle_herbalist
+	
+	trait = tarnished
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_western_02
+			custom_beards=male_empty
+		}
+	}
+	
+	8263.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+			set_landless_government_effect = yes
+		}
+	}
+}
+
+samuel = {
+	name = "Samuel"
+	dna = samuel_dna
+	sexuality = heterosexual
+	dynasty = dynn_tasawi
+	martial = 5
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	learning = 5
+	prowess = 5
+	religion = faith_golden
+	culture = cul_altus
+	
+	disallow_random_traits = yes
+	
+	trait = cynical
+	trait = wrathful
+	trait = eccentric
+	trait = education_learning_4
+	trait = lifestyle_mystic
+	trait = lifestyle_physician
+	trait = lifestyle_herbalist
+	trait = journaller
+	trait = lunatic_genetic
+	trait = witch
+	trait = spindly
+	trait = physique_bad_1
+	trait = intellect_good_1
+	trait = wheezing
+	trait = comfort_eater
+	trait = confucian_education
+	
+	trait = tarnished
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_northern_02
+			custom_beards=male_beard_indian_02
+		}
+	}
+	
+	8251.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+			set_landless_government_effect = yes
+			#add_secret = { type = secret_non_believer }
+		}
+		make_character_crypto_religionist_effect = {
+			CRYPTO_RELIGION = faith:faith_frenzy
+        }
+	}
+}
+
+saerys = {
+	name = "Saerys"
+	female = yes
+	dna = saerys_dna
+	sexuality = heterosexual
+	dynasty = dynn_arvant
+	martial = 3
+	diplomacy = 1
+	intrigue = 9
+	stewardship = 8
+	learning = 6
+	prowess = 7
+	religion = faith_golden
+	culture = cul_leyndell
+	
+	disallow_random_traits = yes
+	
+	trait = lustful
+	trait = honest
+	trait = shy
+	trait = education_intrigue_3
+	trait = intellect_good_2
+	trait = beauty_good_2
+	trait = physique_bad_1
+	trait = depressed_genetic
+	trait = whole_of_body
+	
+	trait = tarnished
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_beards=female_empty
+			custom_hair=f_hair_sp4_mena_01
+		}
+	}
+	
+	8283.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+			set_landless_government_effect = yes
 		}
 	}
 }

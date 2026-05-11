@@ -78,6 +78,51 @@ dynn_azula = {
 	culture = cul_farum
 	motto = azula_motto
 }
+dynn_zeste = {
+	name = "dynn_zeste"
+	culture = cul_northerner
+	motto = zeste_motto
+}
+dynn_zafish = {
+	name = "dynn_zafish"
+	culture = cul_liurnia
+	motto = zafish_motto
+}
+dynn_burningmoon = {
+	name = "dynn_burningmoon"
+	culture = cul_cerulean
+	motto = burningmoon_motto
+}
+dynn_fiennes = {
+	name = "dynn_fiennes"
+	culture = cul_altus
+	motto = fiennes_motto
+}
+dynn_singorn = {
+	name = "dynn_singorn"
+	culture = cul_leyndell
+	motto = singorn_motto
+}
+dynn_maho = {
+	name = "dynn_maho"
+	culture = cul_gelmir
+	motto = maho_motto
+}
+dynn_eored = {
+	name = "dynn_eored"
+	culture = cul_altus
+	motto = eored_motto
+}
+dynn_tasawi = {
+	name = "dynn_tasawi"
+	culture = cul_altus
+	motto = tasawi_motto
+}
+dynn_arvant = {
+	name = "dynn_arvant"
+	culture = cul_leyndell
+	motto = arvant_motto
+}
 dynn_epikus = {
 	name = "dynn_epikus"
 	culture = cul_stormhill

@@ -209,6 +209,416 @@ d_laamp_nightcavalry={
  
 }
 
+d_laamp_zarion={
+	custom=yes
+    pattern="pattern_solid.dds"
+    color1=rgb { 93 13 37 }
+    color2=blue
+    color3=yellow
+    colored_emblem={
+    	color1=orange
+    	color2=orange
+    	texture="ce_fire.dds"
+    	instance={
+    		position={ 0.690000 0.210000 }
+    		scale={ 0.370000 0.370000 }
+    		depth=1.010000
+    		rotation=360
+    	}
+
+    }
+
+    colored_emblem={
+    	color1=rgb { 82 10 0 }
+    	color2=rgb { 80 12 2 }
+    	texture="ce_sun.dds"
+    	instance={
+    		position={ 0.500000 0.560000 }
+    		depth=2.010000
+    	}
+
+    }
+
+    colored_emblem={
+    	color1=orange
+    	color2=white
+    	color3=red
+    	texture="ce_lion_rampant_forked.dds"
+    	instance={
+    		position={ 0.500000 0.510000 }
+    		scale={ 0.810000 0.810000 }
+    	}
+
+    }
+
+}
+
+d_laamp_tructa={
+	pattern="pattern_waves_01.dds"
+	color1=white
+	color2=blue_light
+	color3=red
+	colored_emblem={
+		color1=rgb { 82 61 27 }
+		color2=purple
+		texture="ce_religion_custom_faith_8.dds"
+		instance={
+			position={ 0.590000 0.360000 }
+			scale={ 0.440000 0.440000 }
+			rotation=348
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_star_16.dds"
+		instance={
+			position={ 0.030000 0.060000 }
+			scale={ 0.790000 0.710000 }
+			depth=1.010000
+			rotation=26
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 153 148 140 }
+		texture="ce_jumping_fish.dds"
+		instance={
+			position={ 0.400000 0.780000 }
+			scale={ 0.450000 0.440000 }
+			depth=2.010000
+			rotation=76
+		}
+
+	}
+
+}
+
+d_laamp_grace={
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=black
+		color2=orange
+		texture="ce_tamgha_roundel_frame.dds"
+		instance={
+			scale={ 0.760000 0.760000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=white
+		texture="ce_circle_mask.dds"
+		instance={
+			depth=5.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		color2=black
+		texture="ce_sun_frame.dds"
+		instance={
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 149 75 35 }
+		color2=rgb { 152 76 34 }
+		color3=white
+		texture="ce_bee.dds"
+		instance={
+			scale={ 0.690000 0.690000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_escallop_vannet.dds"
+		instance={
+			position={ 0.610000 0.380000 }
+			scale={ 0.580000 0.350000 }
+			depth=1.010000
+			rotation=57
+		}
+
+		instance={
+			position={ 0.390000 0.380000 }
+			scale={ 0.570000 0.320000 }
+			depth=2.010000
+			rotation=293
+		}
+
+	}
+
+}
+
+d_laamp_judith={
+	pattern="pattern_solid.dds"
+	color1=rgb { 36 30 0 }
+	color2=black
+	color3=white
+	colored_emblem={
+		color1=rgb { 42 33 0 }
+		color2=rgb { 128 76 0 }
+		texture="ce_african_frame_bg_10.dds"
+		instance={
+			position={ 0.500000 0.610000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 187 131 48 }
+		texture="ce_religion_custom_faith_6.dds"
+		instance={
+			position={ 0.500000 0.380000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 160 113 43 }
+		texture="ce_vair_single.dds"
+		instance={
+			position={ 0.360000 1.000000 }
+			depth=5.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 222 158 0 }
+		texture="ce_religion_custom_faith_6.dds"
+		instance={
+			position={ 0.500000 0.390000 }
+			scale={ 0.870000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 163 113 39 }
+		texture="ce_vair_single.dds"
+		instance={
+			position={ 0.630000 1.000000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 158 111 41 }
+		texture="ce_vair_single.dds"
+		instance={
+			position={ 0.500000 0.860000 }
+			depth=3.010000
+		}
+
+	}
+
+}
+
+d_laamp_hyrumar={
+	pattern="pattern_solid.dds"
+	color1=blue
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=grey
+		color2=brown
+		texture="ce_axe_long.dds"
+		instance={
+			position={ 0.300000 0.740000 }
+			scale={ 0.500000 0.500000 }
+			depth=2.010000
+			rotation=180
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_crown.dds"
+		instance={
+			position={ 0.290000 0.250000 }
+			scale={ 0.240000 0.240000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=red
+		color3=black
+		texture="ce_lion_rampant_wide_stance.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+
+d_laamp_elizabeth={
+	pattern="pattern__solid_designer.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_laurels.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_letter_i.dds"
+		instance={
+			position={ 0.510000 0.890000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.740000 0.820000 }
+			depth=3.010000
+			rotation=142
+		}
+
+		instance={
+			position={ 0.230000 0.860000 }
+			depth=4.010000
+			rotation=35
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=black
+		color3=yellow
+		texture="ce_flower.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+
+d_laamp_caius={
+	pattern="pattern_solid.dds"
+	color1=rgb { 147 138 67 }
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=white
+		texture="ce_mena_bend.dds"
+		instance={
+			position={ 0.670000 0.240000 }
+			scale={ 0.230000 0.230000 }
+			rotation=172
+		}
+
+		instance={
+			position={ 0.510000 0.400000 }
+			scale={ 0.370000 0.370000 }
+			depth=1.010000
+			rotation=83
+		}
+
+		instance={
+			position={ 0.520000 0.470000 }
+			scale={ 0.420000 0.420000 }
+			depth=2.010000
+			rotation=83
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.400000 0.620000 }
+			scale={ 0.400000 0.400000 }
+			depth=3.010000
+		}
+
+	}
+
+}
+
+d_laamp_samuel={
+	pattern="pattern_vertical_split_jagged_01.dds"
+	color1=blue
+	color2=yellow_light
+	color3=green
+	colored_emblem={
+		color1=orange
+		texture="ce_ordroerir.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+
+d_laamp_saerys={
+    pattern="pattern__solid_designer.dds"
+    color1=rgb { 60 0 0 }
+    color2=white
+    color3=black
+    colored_emblem={
+        color1=orange
+        texture="ce_pagan_circle_frame_02.dds"
+        instance={
+            position={ 0.500000 0.490000 }
+            depth=1.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=yellow
+        texture="ce_wreath_circle.dds"
+        instance={
+            position={ 0.500000 0.490000 }
+        }
+
+    }
+
+    colored_emblem={
+        color1=rgb { 193 129 52 }
+        texture="ce_yggdrasil.dds"
+        instance={
+            position={ 0.500000 0.490000 }
+            scale={ 0.900000 0.900000 }
+            depth=2.010000
+        }
+
+    }
+
+}
+
 d_laamp_bigjeffepic={
 	custom=yes
 	pattern="pattern_solid.dds"

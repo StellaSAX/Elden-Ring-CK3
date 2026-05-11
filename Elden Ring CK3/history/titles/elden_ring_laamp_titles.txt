@@ -74,6 +74,240 @@ d_laamp_haight = {
 	}
 }
 
+d_laamp_zarion = {
+	8301.1.1 = {
+		liege = 0
+		holder = zarion
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc_feature = roads_to_power
+					}
+				}
+				holder = {
+					destroy_title = prev
+				}
+			}
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = {
+				name = adventurer_creation_reason
+				value = flag:historical
+			}
+		}
+	}
+}
+
+d_laamp_tructa = {
+	8301.1.1 = {
+		liege = 0
+		holder = tructa
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc_feature = roads_to_power
+					}
+				}
+				holder = {
+					destroy_title = prev
+				}
+			}
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = {
+				name = adventurer_creation_reason
+				value = flag:historical
+			}
+		}
+	}
+}
+
+d_laamp_grace = {
+	8301.1.1 = {
+		liege = 0
+		holder = grace
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc_feature = roads_to_power
+					}
+				}
+				holder = {
+					destroy_title = prev
+				}
+			}
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = {
+				name = adventurer_creation_reason
+				value = flag:historical
+			}
+		}
+	}
+}
+
+d_laamp_judith = {
+	8301.1.1 = {
+		liege = 0
+		holder = judith
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc_feature = roads_to_power
+					}
+				}
+				holder = {
+					destroy_title = prev
+				}
+			}
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = {
+				name = adventurer_creation_reason
+				value = flag:historical
+			}
+		}
+	}
+}
+
+d_laamp_hyrumar = {
+	8301.1.1 = {
+		liege = 0
+		holder = hyrumar
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc_feature = roads_to_power
+					}
+				}
+				holder = {
+					destroy_title = prev
+				}
+			}
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = {
+				name = adventurer_creation_reason
+				value = flag:historical
+			}
+		}
+	}
+}
+
+d_laamp_elizabeth = {
+	8301.1.1 = {
+		liege = 0
+		holder = elizabeth
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc_feature = roads_to_power
+					}
+				}
+				holder = {
+					destroy_title = prev
+				}
+			}
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = {
+				name = adventurer_creation_reason
+				value = flag:historical
+			}
+		}
+	}
+}
+
+d_laamp_caius = {
+	8301.1.1 = {
+		liege = 0
+		holder = caius
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc_feature = roads_to_power
+					}
+				}
+				holder = {
+					destroy_title = prev
+				}
+			}
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = {
+				name = adventurer_creation_reason
+				value = flag:historical
+			}
+		}
+	}
+}
+
+d_laamp_samuel = {
+	8301.1.1 = {
+		liege = 0
+		holder = samuel
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc_feature = roads_to_power
+					}
+				}
+				holder = {
+					destroy_title = prev
+				}
+			}
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = {
+				name = adventurer_creation_reason
+				value = flag:historical
+			}
+		}
+	}
+}
+
+d_laamp_saerys = {
+	8301.1.1 = {
+		liege = 0
+		holder = saerys
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc_feature = roads_to_power
+					}
+				}
+				holder = {
+					destroy_title = prev
+				}
+			}
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = {
+				name = adventurer_creation_reason
+				value = flag:historical
+			}
+		}
+	}
+}
+
 d_laamp_bigjeffepic = {
 	8301.1.1 = {
 		liege = 0
