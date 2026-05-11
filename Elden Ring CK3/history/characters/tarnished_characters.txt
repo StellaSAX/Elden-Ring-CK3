@@ -247,6 +247,8 @@ zarion = {
 	
 	trait = tarnished
 	
+	give_nickname = nick_the_mad
+	
 	portrait_override={
 		portrait_modifier_overrides={
 			custom_hair=male_hair_northern_01
@@ -286,6 +288,7 @@ tructa = {
 	trait = physique_good_1
 	trait = reckless
 	trait = reclusive
+	trait = viking
 	
 	trait = tarnished
 	
@@ -556,6 +559,8 @@ samuel = {
 	trait = confucian_education
 	
 	trait = tarnished
+	
+	give_nickname = nick_the_ever_wheezing
 	
 	portrait_override={
 		portrait_modifier_overrides={

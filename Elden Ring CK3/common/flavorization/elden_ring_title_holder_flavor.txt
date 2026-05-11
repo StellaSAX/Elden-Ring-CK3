@@ -6,6 +6,7 @@
 	priority = 282
 	titles = { e_farum_azula }
 }
+
 dragonlady_e = {
 	type = character
 	gender = female
@@ -13,6 +14,24 @@ dragonlady_e = {
 	tier = empire
 	priority = 282
 	titles = { e_farum_azula }
+}
+
+dragonlord_k = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 282
+	titles = { k_farum_azula }
+}
+
+dragonlady_k = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 282
+	titles = { k_farum_azula }
 }
 
 crusader_m = {
@@ -23,6 +42,7 @@ crusader_m = {
 	religions = { faith_messmer }
 	titles = { k_messmer_army }
 }
+
 crusader_f = {
 	type = character
 	gender = female
@@ -43,6 +63,7 @@ stormlord_m = {
 		only_independent = yes
 	}
 }
+
 stormlord_f = {
 	type = character
 	gender = female
@@ -63,6 +84,7 @@ protector_m = {
 	priority = 282
 	titles = { k_haligtree }
 }
+
 protector_f = {
 	type = character
 	gender = female
@@ -81,6 +103,7 @@ headmaster = {
 	titles = { k_rayalucaria }
 	religions = { cosmos_religion }
 }
+
 headmistress = {
 	type = character
 	gender = female
@@ -89,4 +112,28 @@ headmistress = {
 	priority = 100
 	titles = { k_rayalucaria }
 	religions = { cosmos_religion }
+}
+
+mothlord_m = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 282
+	titles = { k_motharingia }
+	flavourization_rules = { 
+		only_independent = yes
+	}
+}
+
+mothlord_f = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 282
+	titles = { k_motharingia }
+	flavourization_rules = { 
+		only_independent = yes
+	}
 }

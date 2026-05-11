@@ -29,6 +29,9 @@
 
  preator_m:0 "Preator"
  preator_f:0 "Praetrix"
+ 
+ mothlord_m:0 "Mothlord"
+ mothlord_f:0 "Mothlady"
 
  d_laamp_miquella: "Followers of Miquella"
  d_laamp_miquella_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
@@ -203,6 +206,7 @@
  k_haligtree: "Haligtree"
  k_messmer_army: "Messmer's Crusade"
  k_mohgwyn_dynasty: "Mohgwyn Palace"
+ k_motharingia: "Motharingia"
  e_ainsel: "Great Ainsel"
  e_farum_azula: "Farum Azula"
  e_land_shadows: "Land of Shadows"
