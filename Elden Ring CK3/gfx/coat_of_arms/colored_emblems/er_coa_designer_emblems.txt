@@ -108,3 +108,4 @@ fazer_logo2.dds = { colors = 1 category = fun_emblems }
 maymay.dds = { colors = 3 category = fun_emblems }
 puikula_text.dds = { colors = 1 category = fun_emblems }
 soviet_star.dds = { colors = 2 category = fun_emblems }
+tomato.dds = { colors = 3 category = fun_emblems }
