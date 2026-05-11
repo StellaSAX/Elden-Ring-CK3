@@ -1,13 +1,78 @@
 ﻿l_english:
 
  shaman_religion:0 "Shamanism"
- shaman_religion_adj:0 "Shamanic"
- shaman_religion_adherent:0 "Shaman"
- shaman_religion_adherent_plural:0 "Shamans"
- shaman_religion_desc:0 "Shamanism is derived from folk traditions, usually tied with nature and ancestral spirits."
+ shaman_religion_adj:0 "shamanic"
+ shaman_religion_adherent:0 "shaman"
+ shaman_religion_adherent_plural:0 "shamans"
+ shaman_religion_desc:0 "Shamanism is a belief in the presence of spirits throughout the Lands Between, and practitionners may ingest various substances to interact with them."
+ shaman_high_god_name:0 "the Benevolent spirits"
+ shaman_high_god_name_2:0 "the First tree" # Optional translation alt
+ shaman_high_god_name_3:0 "the roots of the world" # Optional translation alt
+ shaman_high_god_name_possessive:0 "the spirit's"
+ shaman_devil_name:0 "Frenzied Flame"
+ shaman_devil_name_possessive:0 "Flame's"
+ shaman_death_deity_name:0 "Destined Death"
+ shaman_death_deity_name_possessive:0 "Destined Death's"
+ shaman_house_of_worship:0 "church"
+ shaman_house_of_worship_2:0 "$shaman_house_of_worship$" # Optional translation alt
+ shaman_house_of_worship_3:0 "$shaman_house_of_worship$" # Optional translation alt
+ shaman_house_of_worship_plural:0 "treehouse"
+ shaman_religious_symbol:0 "trees"
+ shaman_religious_symbol_2:0 "$shaman_religious_symbol$" # Optional translation alt
+ shaman_religious_symbol_3:0 "$shaman_religious_symbol$" # Optional translation alt
+ shaman_religious_text:0 "tomes"
+ shaman_religious_text_2:0 "$shaman_religious_text"
+ shaman_religious_text_3:0 "$shaman_religious_text"
+ shaman_religious_head_title:0 "head shaman"
+ shaman_religious_head_title_name:0 "head shaman"
+ shaman_devotee_male:0 "shaman"
+ shaman_devotee_male_plural:0 "shamans"
+ shaman_devotee_female:0 "shaman"
+ shaman_devotee_female_plural:0 "shamans"
+ shaman_devotee_neuter:0 "shaman"
+ shaman_devotee_neuter_plural:0 "shamans"
+ shaman_priest_male:0 "sage"
+ shaman_priest_male_plural:0 "sages"
+ shaman_priest_alternate_plural:0 "scholar"
+ shaman_bishop:0 "Great Sage"
+ shaman_bishop_plural:0 "Great Sages"
+ shaman_positive_afterlife:0 "laying between the roots"
+ shaman_positive_afterlife_2:1 "going back to the Great Tree" # Optional translation alt
+ shaman_positive_afterlife_3:1 "$shaman_positive_afterlife$" 
+ shaman_negative_afterlife:0 "within the clutches of the Hornsent"
+ shaman_negative_afterlife_2:1 "in the damned jars" # Optional translation alt
+ shaman_negative_afterlife_3:1 "Burning in the yellow flame" # Optional translation alt
+ shaman_witchgodname_the_horned_god:0 "the empyrean"
+ shaman_witchgodname_the_horned_god_possessive:0 "the empyrean's"
  
+ shaman_creator_god_name:0 "$shaman_high_god_name$"
+ shaman_creator_god_name_possessive:0 "$shaman_high_god_name_possessive$"
+ shaman_health_god_name:0 "$shaman_high_god_name$"
+ shaman_health_god_name_possessive:0 "$shaman_high_god_name_possessive$'"
+ shaman_fertility_god_name:0 "$shaman_high_god_name$"
+ shaman_fertility_god_name_possessive:0 "$$shaman_high_god_name_possessive$"
+ shaman_wealth_god_name:0 "$shaman_high_god_name$"
+ shaman_wealth_god_name_possessive:0 "$shaman_high_god_name_possessive$"
+ shaman_household_god_name:0 "$shaman_high_god_name$"
+ shaman_household_god_name_possessive:0 "$shaman_high_god_name_possessive$"
+ shaman_fate_god_name:0 "$shaman_high_god_name$"
+ shaman_fate_god_name_possessive:0 "$shaman_high_god_name_possessive$"
+ shaman_knowledge_god_name:0 "$shaman_high_god_name$"
+ shaman_knowledge_god_name_possessive:0 "$shaman_high_god_name_possessive$"
+ shaman_war_god_name:0 "$shaman_high_god_name$"
+ shaman_war_god_name_possessive:0 "$shaman_high_god_name_possessive$"
+ shaman_trickster_god_name:0 "$shaman_high_god_name$"
+ shaman_trickster_god_name_possessive:0 "$shaman_high_god_name_possessive$"
+ shaman_night_god_name:0 "$shaman_high_god_name$"
+ shaman_night_god_name_possessive:0 "$shaman_high_god_name_possessive$"
+ shaman_water_god_name:0 "$shaman_high_god_name$"
+ shaman_water_god_name_possessive:0 "$shaman_high_god_name_possessive$"
+
+ #Subfaiths
+
  faith_shaman:0 "Shamanism"
  faith_shaman_adj:0 "Shamanic"
  faith_shaman_adherent:0 "Shaman"
  faith_shaman_adherent_plural:0 "Shamans"
- faith_shaman_desc:0 "Shamanism is derived from folk traditions, usually tied with nature and ancestral spirits."
+ faith_shaman_desc:0 "This branch of shamanism was born in isolation within the lands now know as the Realm of Shadows. It is slightly influenced by the effects of the Crucible."
+ 
