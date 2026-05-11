@@ -188,11 +188,6 @@ d_palace_approach = {
 		holder = mohg
 	}
 }
-d_wailing_dunes = {
-	7748.1.1 = {
-		holder = radahn
-	}
-}
 d_redmane_castle = {
 	7748.1.1 = {
 		holder = jerren
@@ -218,6 +213,11 @@ d_three_sisters = {
 d_volcano_manor = {
 	8300.1.1 = {
 		holder = rykard
+	}
+}
+d_wailing_dunes = {
+	7748.1.1 = {
+		holder = radahn
 	}
 }
 e_farum_azula = {

@@ -1,21 +1,6 @@
 ﻿##### d_R254G93B95 ############################
 
-### c_R187G138B5
-# R33G10B20
-491 = {
-	culture = cul_leyndell
-	religion = faith_golden
-	holding = none
-}
-
-
 ### c_R223G104B16
-# R26G137B77
-2253 = {
-	culture = cul_leyndell
-	religion = faith_golden
-	holding = castle_holding
-}
 # R147G202B194
 2207 = {
 	culture = cul_leyndell
