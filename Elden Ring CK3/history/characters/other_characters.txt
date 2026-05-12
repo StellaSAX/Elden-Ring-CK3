@@ -26,7 +26,7 @@
 	trait = irritable
 	trait = disloyal
 	
-	trait = tarnished
+	trait = graceless_tarnished
 	
 	give_nickname = nick_the_bloated
 	

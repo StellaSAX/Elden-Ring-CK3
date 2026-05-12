@@ -506,6 +506,7 @@ caius = {
 	trait = education_learning_3
 	trait = lifestyle_physician
 	trait = lifestyle_herbalist
+	trait = perfumer
 	
 	trait = tarnished
 	
