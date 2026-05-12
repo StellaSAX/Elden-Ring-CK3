@@ -23,9 +23,11 @@ eclipse2.dds = { colors = 1 category = elden_ring }
 erdtree.dds = { colors = 1 category = elden_ring }
 elden_logo1.dds = { colors = 1 category = elden_ring }
 elden_logo2.dds = { colors = 1 category = elden_ring }
+elden_tree.dds = { colors = 1 category = elden_ring }
 fell_god.dds = { colors = 1 category = elden_ring }
 frenzied_flame.dds = { colors = 1 category = elden_ring }
 finger_sorcery.dds = { colors = 1 category = elden_ring }
+falling_star.dds = { colors = 1 category = elden_ring }
 fullmoon.dds = { colors = 3 category = elden_ring }
 giants_flame.dds = { colors = 1 category = elden_ring }
 golden_order.dds = { colors = 1 category = elden_ring }
@@ -44,6 +46,7 @@ miquella_sigil.dds = { colors = 1 category = elden_ring }
 murk.dds = { colors = 1 category = elden_ring }
 nihil_curse.dds = { colors = 1 category = elden_ring }
 omen.dds = { colors = 1 category = elden_ring }
+perfumer_bottle.dds = { colors = 1 category = elden_ring }
 raya_lucaria.dds = { colors = 1 category = elden_ring }
 red_thorn.dds = { colors = 1 category = elden_ring }
 rot.dds = { colors = 1 category = elden_ring }
@@ -68,6 +71,9 @@ tear_portal.dds = { colors = 1 category = elden_ring }
 two_fingers.dds = { colors = 1 category = elden_ring }
 three_fingers.dds = { colors = 1 category = elden_ring }
 twinbird_shield.dds = { colors = 3 category = elden_ring }
+twinbirds.dds = { colors = 3 category = elden_ring }
+twintwisted_trees.dds = { colors = 1 category = elden_ring }
+twintwisted_trees2.dds = { colors = 2 category = elden_ring }
 
 ###MISC EMBLEMS###
 

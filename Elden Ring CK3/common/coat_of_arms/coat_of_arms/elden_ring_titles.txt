@@ -262,6 +262,45 @@ e_farum_azula ={
 
 }
 
+e_mountain_tops={
+	custom=yes
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 113 116 127 }
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=rgb { 33 33 33 }
+		texture="sharp_mountain2.dds"
+		instance={
+			position={ 0.500000 0.820000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 134 50 0 }
+		texture="giants_flame.dds"
+		instance={
+			position={ 0.500000 0.460000 }
+			scale={ 0.650000 0.650000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 96 50 34 }
+		color2=black
+		texture="ce_fire.dds"
+		instance={
+			position={ 0.500000 0.800000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+
 e_haligtree={
 	custom=yes
 	pattern="pattern_solid.dds"
@@ -274,6 +313,75 @@ e_haligtree={
 		texture="haligtree.dds"
 		instance={
 			scale={ 0.840000 0.840000 }
+		}
+
+	}
+
+}
+
+e_leyndell={
+	custom=yes
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 189 148 0 }
+	color2=rgb { 67 80 51 }
+	color3=purple
+	colored_emblem={
+		color1=rgb { 220 220 220 }
+		color2=black
+		color3=black
+		texture="elden_tree.dds"
+		instance={
+			position={ 0.500000 0.540000 }
+		}
+
+	}
+
+}
+
+e_liurnia={
+	custom=yes
+	pattern="pattern_vertical_stripes_02.dds"
+	color1=rgb { 41 28 107 }
+	color2=rgb { 130 35 22 }
+	color3=black
+	colored_emblem={
+		color1=white
+		texture="falling_star.dds"
+		instance={
+			position={ 0.500000 0.740000 }
+			scale={ 0.450000 0.450000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=rgb { 73 73 73 }
+		color3=black
+		texture="twinbirds.dds"
+		instance={
+			position={ 0.500000 0.420000 }
+			scale={ 0.880000 0.880000 }
+		}
+
+	}
+
+}
+
+e_caelid={
+	custom=yes
+	pattern="pattern_horizontal_stripes_01.dds"
+	color1=rgb { 131 24 24 }
+	color2=rgb { 60 9 88 }
+	color3=blue
+	colored_emblem={
+		color1=white
+		color2=rgb { 51 51 51 }
+		color3=black
+		texture="ce_lion_rampant_per_pale.dds"
+		instance={
+			scale={ 0.940000 0.940000 }
 		}
 
 	}
@@ -486,9 +594,9 @@ k_leyndell={
 	color2=rgb { 67 80 51 }
 	color3=purple
 	colored_emblem={
-		color1=green_light
-		color2=green_light
-		color3=green_light
+		color1=rgb { 85 101 68 }
+		color2=rgb { 159 145 109 }
+		color3=rgb { 50 80 53 }
 		texture="ce_iranian_floral_pattern.dds"
 		instance={
 			position={ 0.500000 0.520000 }
@@ -503,9 +611,10 @@ k_leyndell={
 		color1=rgb { 220 220 220 }
 		color2=black
 		color3=black
-		texture="erdtree.dds"
+		texture="elden_tree.dds"
 		instance={
-			scale={ 0.700000 0.700000 }
+			position={ 0.500000 0.520000 }
+			scale={ 0.800000 0.800000 }
 		}
 
 	}
@@ -522,7 +631,12 @@ k_altus_plateau={
 		color1=rgb { 220 220 220 }
 		color2=black
 		color3=black
-		texture="ce_yggdrasil.dds"
+		texture="elden_tree.dds"
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 0.800000 0.800000 }
+		}
+
 	}
 
 }
@@ -557,14 +671,15 @@ k_gelmir={
 k_caria={
 	custom=yes
 	pattern="pattern_solid.dds"
-	color1=blue
+	color1=rgb { 36 96 167 }
 	color2=yellow
 	color3=red
 	colored_emblem={
-		color1=rgb { 189 218 244 }
+		color1=rgb { 226 226 226 }
 		texture="carian.dds"
 		instance={
-			scale={ 0.820000 0.820000 }
+			position={ 0.500000 0.510000 }
+			scale={ 0.830000 0.830000 }
 		}
 
 	}
@@ -578,7 +693,7 @@ k_rayalucaria={
 	color2=yellow
 	color3=red
 	colored_emblem={
-		color1=rgb { 215 215 215 }
+		color1=rgb { 226 226 226 }
 		texture="raya_lucaria.dds"
 		instance={
 			position={ 0.500000 0.510000 }
@@ -678,6 +793,42 @@ k_jagged_peak={
 			position={ 0.670000 0.660000 }
 			scale={ 0.500000 1.000000 }
 			depth=2.010000
+		}
+
+	}
+
+}
+
+k_belurat={
+	custom=yes
+	pattern="pattern_solid.dds"
+	color1=rgb { 125 108 72 }
+	color2=yellow
+	color3=blue
+	colored_emblem={
+		color1=rgb { 43 18 0 }
+		texture="hornsent_spiral.dds"
+		instance={
+			scale={ 0.810000 0.810000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		color3=yellow
+		texture="ce_iranian_floral_pattern.dds"
+		instance={
+			position={ 1.000000 0.500000 }
+			rotation=90
+		}
+
+		instance={
+			position={ 0.000000 0.500000 }
+			depth=1.010000
+			rotation=90
 		}
 
 	}
