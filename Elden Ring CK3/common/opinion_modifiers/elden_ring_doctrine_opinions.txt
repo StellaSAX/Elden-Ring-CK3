@@ -1,5 +1,5 @@
 ﻿grafting_crime = {
-	opinion = -25
+	opinion = -35
 	imprisonment_reason = yes
 	execute_reason = yes
 }

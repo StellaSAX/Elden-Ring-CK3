@@ -108,11 +108,11 @@ heritage_astrologer = {
 	audio_parameter = european
 }
 
-heritage_ancenstral_followers = {
+heritage_ancestral_follower = {
 	type = heritage
 	is_shown = {
 		heritage_is_shown_trigger = {
-			heritage = heritage_ancenstral_followers
+			heritage = heritage_ancestral_follower
 		}
 	}
 	audio_parameter = european
@@ -138,3 +138,12 @@ heritage_rauh = {
 	audio_parameter = european
 }
 
+heritage_ranah = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			heritage = heritage_ranah
+		}
+	}
+	audio_parameter = european
+}

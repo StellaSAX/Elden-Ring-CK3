@@ -185,17 +185,17 @@ language_astrologer = {
 	color = { 0.18 0.15 0.69 }
 }
 
-language_ancenstral_followers = {
+language_ancestral_follower = {
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
-			LANGUAGE = language_ancenstral_followers
+			LANGUAGE = language_ancestral_follower
 		}
 	}
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_ancenstral_followers }
+			limit = { has_cultural_pillar = language_ancestral_follower }
 			multiply = 10
 		}
 	}
@@ -230,6 +230,23 @@ language_rauh = {
 		value = 10
 		if = {
 			limit = { has_cultural_pillar = language_rauh }
+			multiply = 10
+		}
+	}
+	color = { 0.18 0.15 0.69 }
+}
+
+language_ranah = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_ranah
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_ranah }
 			multiply = 10
 		}
 	}

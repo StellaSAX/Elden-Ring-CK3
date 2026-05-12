@@ -2,8 +2,8 @@
 
  formless_religion:0 "Formless Mother"
  formless_religion_adj:0 "Formless"
- formless_religion_adherent:0 "Mother's child"
- formless_religion_adherent_plural:0 "Mother's children"
+ formless_religion_adherent:0 "Mother's Child"
+ formless_religion_adherent_plural:0 "Mother's Children"
  formless_religion_desc:0 "The Formless Mother takes the curs, the downtrodden, the persecuted of this world under her wing. All she aks in exchange is blood and wounds, but what little price for acceptance!"
  formless_high_god_name:0 "The Formless Mother"
  formless_high_god_name_2:0 "Mother of Truth" # Optional translation alt
@@ -72,8 +72,8 @@
 
  #Subfaiths
 
- faith_formless:0 "Mohg's Order"
- faith_formlesss_adj:0 "dynastic"
- faith_formless_adherent:0 "bondservant"
- faith_formless_adherent_plural:0 "bondservants"
- faith_formless_desc:0 "Mohg, once saved by the Mother, now seeks to repay her by establishing a new dynasty. Through it, he can rule the Lands Between in her name, and share her love all throughout it! But first, the empyrean Miquella needs to wake up..."
+ faith_formless:0 "Formless Mother"
+ faith_formless_adj:0 "Formless"
+ faith_formless_adherent:0 "Mother's Child"
+ faith_formless_adherent_plural:0 "Mother's Children"
+ faith_formless_desc:0 "The Formless Mother takes the curs, the downtrodden, the persecuted of this world under her wing. All she aks in exchange is blood and wounds, but what little price for acceptance!"

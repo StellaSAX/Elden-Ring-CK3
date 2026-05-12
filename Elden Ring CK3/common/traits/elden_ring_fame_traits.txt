@@ -15,7 +15,7 @@ grafting = {
 			fertility = -0.1
 			diplomacy = -2
 			martial = 1
-			prowess = 4
+			prowess = 3
 		}
 		40 = {
 			dread_baseline_add = 5
@@ -23,7 +23,7 @@ grafting = {
 			fertility = -0.1
 			diplomacy = -2
 			martial = 1
-			prowess = 4
+			prowess = 3
 		}
 		60 = {
 			dread_baseline_add = 5
@@ -31,7 +31,7 @@ grafting = {
 			fertility = -0.1
 			diplomacy = -2
 			martial = 1
-			prowess = 4
+			prowess = 3
 		}
 		80 = {
 			dread_baseline_add = 5
@@ -39,7 +39,7 @@ grafting = {
 			fertility = -0.1
 			diplomacy = -2
 			martial = 1
-			prowess = 4
+			prowess = 3
 		}
 		100 = {
 			dread_baseline_add = 10
@@ -47,7 +47,7 @@ grafting = {
 			fertility = -0.2
 			diplomacy = -2
 			martial = 2
-			prowess = 6
+			prowess = 3
 		}
 	}
 	
