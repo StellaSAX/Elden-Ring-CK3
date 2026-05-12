@@ -9399,11 +9399,11 @@ h_lands_between = {
 	}
 
 	e_liurnia = {
-		color = { 23 55 135 }
+		color = { 41 28 107 }
 		capital = c_raya_lucaria
 
 		k_rayalucaria = {
-			color = { 96 68 164 }
+			color = { 70 28 110 }
 			capital = c_raya_lucaria
 
 			d_glintstone_lake = {
@@ -10819,7 +10819,7 @@ h_lands_between = {
 		}
 
 		k_caria = {
-			color = { 37 86 174 }
+			color = { 37 72 208 }
 			capital = c_carian_manor
 
 			d_caria = {
