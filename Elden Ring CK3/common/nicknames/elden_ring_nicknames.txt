@@ -45,6 +45,7 @@ nick_volcano_manor_proprietress = {}
 nick_the_broken = {}
 nick_conqueror_of_the_stars = {}
 nick_the_ever_wheezing = {}
+nick_the_bloated = {}
 
 nick_starscourge = { is_prefix = yes }
 nick_dragonlordlady = { is_prefix = yes }

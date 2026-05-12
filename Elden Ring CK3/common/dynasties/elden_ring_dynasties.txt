@@ -78,6 +78,11 @@ dynn_azula = {
 	culture = cul_farum
 	motto = azula_motto
 }
+dynn_gallevile = {
+	name = "dynn_gallevile"
+	culture = cul_dragonbarrow
+	motto = gallevile_motto
+}
 dynn_zeste = {
 	name = "dynn_zeste"
 	culture = cul_northerner
@@ -113,10 +118,10 @@ dynn_eored = {
 	culture = cul_altus
 	motto = eored_motto
 }
-dynn_tasawi = {
-	name = "dynn_tasawi"
+dynn_carignan = {
+	name = "dynn_carignan"
 	culture = cul_altus
-	motto = tasawi_motto
+	motto = carignan_motto
 }
 dynn_arvant = {
 	name = "dynn_arvant"

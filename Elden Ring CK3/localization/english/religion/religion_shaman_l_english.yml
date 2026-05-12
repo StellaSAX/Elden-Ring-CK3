@@ -1,9 +1,9 @@
 ﻿l_english:
 
  shaman_religion:0 "Shamanism"
- shaman_religion_adj:0 "shamanic"
- shaman_religion_adherent:0 "shaman"
- shaman_religion_adherent_plural:0 "shamans"
+ shaman_religion_adj:0 "Shamanic"
+ shaman_religion_adherent:0 "Shaman"
+ shaman_religion_adherent_plural:0 "Shamans"
  shaman_religion_desc:0 "Shamanism is a belief in the presence of spirits throughout the Lands Between, and practitionners may ingest various substances to interact with them."
  shaman_high_god_name:0 "the Benevolent spirits"
  shaman_high_god_name_2:0 "the First tree" # Optional translation alt

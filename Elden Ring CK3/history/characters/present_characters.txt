@@ -403,3 +403,156 @@ gostoc = {
 		
 	}
 }
+
+jerren = {
+	name = "Jerren"
+	
+	#dna = jerren_dna
+	sexuality = asexual
+	dynasty = dynn_eccentric
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 6
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_caelid
+	
+	trait = education_martial_4
+	trait = gregarious
+	trait = brave
+	trait = calm
+	trait = no_marry
+	
+	disallow_random_traits = yes
+	
+	1130.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	1192.1.1 = {
+		give_nickname = nick_witch_hunter
+	}
+}
+
+loretta = {
+	name = "Loretta"
+	female = yes
+	#dna = loretta_dna
+	sexuality = asexual
+	dynasty = dynn_blue_knight
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 6
+	health = 10
+	
+	religion = faith_unalloyed
+	culture = cul_liurnia
+	
+	trait = education_martial_4
+	trait = diligent
+	trait = brave
+	trait = compassionate
+	trait = no_marry
+	
+	give_nickname = nick_knight_of_the_haligtree
+	
+	disallow_random_traits = yes
+	
+	934.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+tanith = {
+	name = "Tanith"
+	female = yes
+	#dna = tanith_dna
+	sexuality = heterosexual
+	dynasty = dynn_snakesong
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 6
+	health = 10
+	
+	religion = faith_god_snake
+	culture = cul_ranah
+	
+	trait = education_intrigue_3
+	trait = calm
+	trait = zealous
+	trait = humble
+	
+	disallow_random_traits = yes
+	
+	7163.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	7190.1.1 = {
+		give_nickname = nick_volcano_manor_proprietress
+	}
+}
+
+maliketh = {
+	name = "Gurranq"
+	
+	#dna = maliketh_dna
+	sexuality = asexual
+	dynasty = dynn_beast
+	
+	martial = 10
+	learning = 10
+	health = 10
+	
+	religion = faith_golden	
+	culture = cul_beast
+	
+	trait = education_learning_4
+	trait = zealous
+	trait = brave
+	trait = diligent
+	trait = death_affinity
+	trait = no_marry
+	
+	disallow_random_traits = yes
+	
+	707.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		trait = shadowbound_beast
+	}
+	7212.1.1 = {
+		give_nickname = nick_beast_clergyman
+	}
+}
