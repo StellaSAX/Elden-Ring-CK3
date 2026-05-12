@@ -230,7 +230,7 @@ haight = {
 	
 	disallow_random_traits = yes
 	
-	8260.1.1 = {
+	7531.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -239,7 +239,7 @@ haight = {
 			modifier = gift_from_the_eternal
 		}
 	}
-	8300.9.11 = {
+	7684.9.11 = {
 		add_pressed_claim = title:c_R74G183B42
 		add_pressed_claim = title:d_mistwood
 		effect = {

@@ -5,16 +5,16 @@
 dynn_erdtree={
 	custom=yes
 	pattern="pattern__solid_designer.dds"
-	color1=black
+	color1=rgb { 20 23 28 }
 	color2=yellow
 	color3=purple
 	colored_emblem={
-		color1=yellow_light
+		color1=rgb { 204 155 27 }
 		color2=black
 		color3=black
-		texture="erdtree.dds"
+		texture="elden_tree.dds"
 		instance={
-			scale={ 0.700000 0.700000 }
+			scale={ 0.970000 0.970000 }
 		}
 
 	}
@@ -24,14 +24,15 @@ dynn_erdtree={
 dynn_caria={
 	custom=yes
 	pattern="pattern_solid.dds"
-	color1=blue
+	color1=rgb { 30 50 116 }
 	color2=yellow
 	color3=red
 	colored_emblem={
-		color1=rgb { 189 218 244 }
+		color1=rgb { 226 226 226 }
 		texture="carian.dds"
 		instance={
-			scale={ 0.820000 0.820000 }
+			position={ 0.500000 0.510000 }
+			scale={ 0.830000 0.830000 }
 		}
 
 	}
@@ -40,28 +41,47 @@ dynn_caria={
 
 dynn_loux={
 	custom=yes
-	pattern="pattern_solid.dds"
-	color1=red
-	color2=white
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 108 101 87 }
+	color2=orange
 	color3=black
 	colored_emblem={
-		color1=yellow
-		color2=black
-		color3=black
-		texture="ce_lion_rampant_axe.dds"
+		color1=white
+		color2=white
+		texture="ce_axe_long.dds"
+		instance={
+			position={ 0.550000 0.520000 }
+			scale={ -1.000000 1.000000 }
+		}
+
+		instance={
+			position={ 0.450000 0.520000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 114 40 21 }
+		texture="misc_crown.dds"
+		instance={
+			position={ 0.500000 1.000000 }
+			depth=2.010000
+		}
+
 	}
 
 }
 
-dynn_haight ={
+dynn_haight={
 	custom=yes
 	pattern="pattern_solid.dds"
-	color1=green
+	color1=rgb { 78 117 82 }
 	color2=white
 	color3=black
 	colored_emblem={
-		color1=yellow_light
-		color2=yellow_light
+		color1=rgb { 166 130 76 }
+		color2=rgb { 255 212 0 }
 		texture="ce_tree.dds"
 		instance={
 			depth=2.010000
@@ -70,7 +90,19 @@ dynn_haight ={
 	}
 
 	colored_emblem={
-		color1=green
+		color1=rgb { 39 39 39 }
+		color2=black
+		color3=black
+		texture="ce_castle_random.dds"
+		instance={
+			position={ 0.500000 0.940000 }
+			scale={ 0.580000 0.580000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 94 71 37 }
 		texture="ce_circle_mask.dds"
 		instance={
 			position={ 0.500000 0.930000 }
@@ -80,48 +112,19 @@ dynn_haight ={
 
 	}
 
-	colored_emblem={
-		color1=black
-		color2=black
-		color3=black
-		texture="ce_castle_random.dds"
-		instance={
-			position={ 0.500000 0.810000 }
-			scale={ 0.580000 0.580000 }
-		}
-
-	}
-
 }
 
-dynn_slumber ={
+dynn_slumber={
 	custom=yes
 	pattern="pattern_solid.dds"
-	color1=black
+	color1=rgb { 36 23 49 }
 	color2=white
 	color3=blue
 	colored_emblem={
-		color1=rgb { 147 6 247 }
-		texture="ce_letter_z.dds"
+		color1=rgb { 133 0 182 }
+		texture="saint_trina.dds"
 		instance={
-			position={ 0.750000 0.750000 }
-			scale={ 0.300000 0.300000 }
-		}
-
-	}
-
-	colored_emblem={
-		color1=rgb { 158 0 255 }
-		texture="ce_letter_z.dds"
-		instance={
-			scale={ 0.300000 0.300000 }
-			depth=1.010000
-		}
-
-		instance={
-			position={ 0.250000 0.250000 }
-			scale={ 0.300000 0.300000 }
-			depth=2.010000
+			scale={ 0.740000 0.740000 }
 		}
 
 	}
@@ -168,7 +171,7 @@ dynn_jagged={
 
 }
 
-dynn_farum ={
+dynn_farum={
 	custom=yes
 	pattern="pattern_solid.dds"
 	color1=yellow_light
@@ -219,31 +222,7 @@ dynn_farum ={
 
 }
 
-house_mohgwyn_erdtree ={
-	custom=yes
-	pattern="pattern_solid.dds"
-	color1=black
-	color2=yellow
-	color3=purple
-	colored_emblem={
-		color1=rgb { 255 0 0 }
-		color2=rgb { 255 0 0 }
-		texture="blood.dds"
-		instance={
-			scale={ 0.700000 0.700000 }
-			depth=1.010000
-		}
-
-	}
-
-	colored_emblem={
-		color1=rgb { 255 0 0 }
-		texture="nihil_curse.dds"
-	}
-
-}
-
-dynn_morne ={
+dynn_morne={
 	custom=yes
 	pattern="pattern_solid.dds"
 	color1=blue
@@ -324,7 +303,7 @@ dynn_morne ={
 
 }
 
-dynn_briar ={
+dynn_briar={
 	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 74 26 20 }
@@ -389,7 +368,7 @@ dynn_briar ={
 
 }
 
-dynn_marais ={
+dynn_marais={
 	custom=yes
 	pattern="pattern_solid.dds"
 	color1=green
@@ -445,7 +424,7 @@ dynn_marais ={
 
 }
 
-dynn_beast ={
+dynn_beast={
 	custom=yes
 	pattern="pattern_solid.dds"
 	color1=yellow_light
@@ -483,7 +462,7 @@ dynn_golden_order={
 		color1=yellow_light
 		color2=black
 		color3=black
-		texture="golden_order_blank.dds"
+		texture="golden_order2.dds"
 		instance={
 			scale={ 0.700000 0.700000 }
 		}
@@ -492,17 +471,65 @@ dynn_golden_order={
 
 }
 
-house_gelmir_caria={
+house_mohgwyn_erdtree={
 	custom=yes
 	pattern="pattern_solid.dds"
-	color1=red
+	color1=black
+	color2=yellow
+	color3=purple
+	colored_emblem={
+		color1=rgb { 255 0 0 }
+		color2=rgb { 255 0 0 }
+		texture="blood.dds"
+		instance={
+			position={ 0.500000 0.630000 }
+			scale={ 0.730000 0.730000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 0 0 }
+		texture="nihil_curse.dds"
+		instance={
+			position={ 0.500000 0.270000 }
+			scale={ 0.310000 0.310000 }
+			rotation=116
+		}
+
+		instance={
+			position={ 0.700000 0.400000 }
+			scale={ 0.310000 0.310000 }
+			depth=1.010000
+			rotation=42
+		}
+
+		instance={
+			position={ 0.300000 0.390000 }
+			scale={ 0.310000 0.310000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+
+house_gelmir_caria={
+	custom=yes
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 103 29 18 }
 	color2=white
 	color3=blue
 	colored_emblem={
-		color1=white
+		color1=rgb { 26 12 0 }
 		color2=black
 		color3=black
 		texture="mt_gelmir.dds"
+		instance={
+			scale={ 0.950000 0.950000 }
+		}
+
 	}
 
 }
@@ -768,32 +795,6 @@ house_malenia_erdtree={
 		instance={
 			position={ 0.340000 0.340000 }
 			scale={ 0.670000 0.670000 }
-			depth=1.010000
-		}
-
-	}
-
-}
-
-house_mohgwyn_erdtree={
-	custom=yes
-	pattern="pattern_solid.dds"
-	color1=black
-	color2=white
-	color3=green
-	colored_emblem={
-		color1=rgb { 255 30 0 }
-		texture="blood.dds"
-		instance={
-			scale={ 0.680000 0.680000 }
-		}
-
-	}
-
-	colored_emblem={
-		color1=rgb { 255 30 0 }
-		texture="nihil_curse.dds"
-		instance={
 			depth=1.010000
 		}
 
