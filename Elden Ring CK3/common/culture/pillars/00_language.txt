@@ -100,6 +100,23 @@ language_reedlander = {
 	color = { 0.18 0.15 0.69 }
 }
 
+language_dragon = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_dragon
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_dragon }
+			multiply = 10
+		}
+	}
+	color = { 0.18 0.15 0.69 }
+}
+
 language_draconian = {
 	type = language
 	is_shown = {
@@ -117,17 +134,17 @@ language_draconian = {
 	color = { 0.18 0.15 0.69 }
 }
 
-language_beast = {
+language_beastman = {
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
-			LANGUAGE = language_beast
+			LANGUAGE = language_beastman
 		}
 	}
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_beast }
+			limit = { has_cultural_pillar = language_beastman }
 			multiply = 10
 		}
 	}

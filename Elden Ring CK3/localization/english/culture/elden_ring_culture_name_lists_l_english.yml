@@ -4,7 +4,6 @@
  name_list_nightfolk:0 "Nightfolk"
  name_list_numen:0 "Numen"
  name_list_astrologer:0 "Astrologer"
- name_list_draconian:0 "Draconic"
  name_list_ancestral_follower:0 "Ancestral Follower"
  name_list_nox:0 "Nox"
 
@@ -25,7 +24,10 @@
  name_list_low_northerner:0 "Low Northerner"
  name_list_zamor:0 "Zamor"
  name_list_giant:0 "Giants"
- name_list_farum_azula:0 "Farum Azula"
+
+ name_list_ancient_dragon:0 "Ancient Dragon"
+ name_list_draconian:0 "Draconian"
+ name_list_drake:0 "Drake"
 
  name_list_hornsent:0 "Hornsent"
  name_list_shadowlander:0 "Shadowland"
@@ -41,6 +43,6 @@
  name_list_reedlander:0 "Reedlands"
  name_list_ranah:0 "Ranah"
 
- name_list_beast:0 "Beastman"
+ name_list_beastman:0 "Beastman"
  name_list_demihuman:0 "Demi-Human"
  name_list_misbegotten:0 "Misbegotten"

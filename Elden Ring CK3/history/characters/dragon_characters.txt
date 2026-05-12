@@ -10,7 +10,7 @@
 	health = 10
 	#give_nickname = nick_dragonlordlady
 	religion = faith_ancient_dragon	
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	trait = education_stewardship_5
 	
 	trait = ambitious
@@ -44,7 +44,7 @@ bayle = {
 	health = 10
 	give_nickname = nick_the_dread
 	religion = faith_bayle_dragon	
-	culture = cul_jagged
+	culture = cul_drake
 	trait = education_martial_4
 	
 	trait = ambitious
@@ -70,7 +70,7 @@ tarassax = { #a dragon to rule Farum Azula while Placidusax sleeps, named by CLA
 	sexuality = heterosexual
 	dynasty = dynn_azula
 	religion = faith_ancient_dragon	
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	
 	trait = education_stewardship_4
 	

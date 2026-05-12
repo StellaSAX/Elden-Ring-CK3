@@ -38,11 +38,11 @@ heritage_misbegotten = {
 	audio_parameter = european
 }
 
-heritage_beast = {
+heritage_beastman = {
 	type = heritage
 	is_shown = {
 		heritage_is_shown_trigger = {
-			HERITAGE = heritage_beast
+			HERITAGE = heritage_beastman
 		}
 	}
 	audio_parameter = european
@@ -63,6 +63,16 @@ heritage_reedlander = {
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_reedlander
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ancient_dragon = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ancient_dragon
 		}
 	}
 	audio_parameter = european

@@ -1,6 +1,38 @@
+cul_ancient_dragon = {
+	color = { 0.5 0.5 0.7 }
+	history_loc_override = created_long_ago_loc
+	created = 36.8.12
+	ethos = ethos_spiritual
+	heritage = heritage_ancient_dragon
+	language = language_dragon
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_dragon_communion
+		tradition_by_the_sword
+		tradition_philosopher_culture
+		tradition_ruling_caste
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_04
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
 cul_draconian = {
 	color = { 0.05 0.05 0.05 }
-
+	created = 187.3.5
 	ethos = ethos_stoic
 	heritage = heritage_draconian
 	language = language_draconian
@@ -28,14 +60,14 @@ cul_draconian = {
 	}
 }
 
-cul_farum = {
+cul_drake = {
 	color = { 0.5 0.5 0.7 }
-	parents = { cul_draconian }
+	parents = { cul_ancient_dragon }
 	history_loc_override = created_long_ago_loc
-	created = 100.1.1
+	created = 581.2.7
 	ethos = ethos_spiritual
-	heritage = heritage_draconian
-	language = language_draconian
+	heritage = heritage_ancient_dragon
+	language = language_dragon
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {

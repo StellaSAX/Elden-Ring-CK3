@@ -24,7 +24,8 @@
 			culture:cul_gelmir = { custom_tooltip = cul_gelmir_desc }
 			culture:cul_zamor = { custom_tooltip = cul_zamor_desc }
 			culture:cul_dragonbarrow = { custom_tooltip = cul_dragonbarrow_desc }
-			culture:cul_farum = { custom_tooltip = cul_farum_desc }
+			culture:cul_ancient_dragon = { custom_tooltip = cul_ancient_dragon_desc }
+			culture:cul_drake = { custom_tooltip = cul_drake_desc }
 			culture:cul_jagged = { custom_tooltip = cul_jagged_desc }
 			culture:cul_nox = { custom_tooltip = cul_nox_desc }
 			culture:cul_shaman = { custom_tooltip = cul_shaman_desc }
@@ -41,7 +42,7 @@
 			culture:cul_charolean = { custom_tooltip = cul_charolean_desc }
 			culture:cul_rauh = { custom_tooltip = cul_rauh_desc }
 			culture:cul_ranah = { custom_tooltip = cul_ranah_desc }
-			culture:cul_beast = { custom_tooltip = cul_beast_desc }
+			culture:cul_beastman = { custom_tooltip = cul_beastman_desc }
 			culture:cul_demihuman = { custom_tooltip = cul_demihuman_desc }
 			culture:cul_misbegotten = { custom_tooltip = cul_misbegotten_desc }
 		}

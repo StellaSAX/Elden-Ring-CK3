@@ -534,7 +534,7 @@ maliketh = {
 	health = 10
 	
 	religion = faith_golden	
-	culture = cul_beast
+	culture = cul_beastman
 	
 	trait = education_learning_4
 	trait = zealous

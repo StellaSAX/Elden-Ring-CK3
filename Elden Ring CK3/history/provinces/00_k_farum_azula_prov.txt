@@ -3,25 +3,25 @@
 ### c_R113G94B59
 # R245G58B170
 644 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = castle_holding
 }
 # R234G189B90
 2153 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = none
 }
 # R233G48B17
 531 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = none
 }
 # R22G18B243
 1016 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = castle_holding
 }
@@ -30,25 +30,25 @@
 ### c_R148G104B220
 # R211G0B215
 958 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = castle_holding
 }
 # R162G115B159
 932 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = none
 }
 # R152G123B58
 1264 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = none
 }
 # R107G145B197
 2316 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = none
 }
@@ -57,25 +57,25 @@
 ### c_R94G166B62
 # R38G56B3
 1887 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = castle_holding
 }
 # R103G236B97
 2280 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = none
 }
 # R193G97B22
 116 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = castle_holding
 }
 # R28G240B151
 1928 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = none
 }
@@ -86,19 +86,19 @@
 ### c_R213G187B235
 # R250G251B73
 922 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = castle_holding
 }
 # R0G122B187
 2472 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = none
 }
 # R66G239B190
 73 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = castle_holding
 }
@@ -107,25 +107,25 @@
 ### c_R110G11B202
 # R88G203B45
 561 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = castle_holding
 }
 # R18G108B0
 164 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = castle_holding
 }
 # R136G51B237
 296 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = castle_holding
 }
 # R155G131B56
 1222 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = none
 }
@@ -134,25 +134,25 @@
 ### c_R231G102B162
 # R128G224B74
 429 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = castle_holding
 }
 # R18G121B110
 1627 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = none
 }
 # R123G17B222
 533 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = none
 }
 # R89G105B214
 284 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = castle_holding
 }
@@ -163,25 +163,25 @@
 ### c_R143G231B106
 # R238G135B19
 918 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = castle_holding
 }
 # R128G177B84
 1348 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = none
 }
 # R19G243B159
 832 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = none
 }
 # R53G38B34
 1669 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = none
 }
@@ -190,13 +190,13 @@
 ### c_R252G149B76
 # R236G64B255
 2024 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = castle_holding
 }
 # R10G10B234
 1115 = {
-	culture = cul_farum
+	culture = cul_ancient_dragon
 	religion = faith_ancient_dragon
 	holding = none
 }
