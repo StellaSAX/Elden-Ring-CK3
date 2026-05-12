@@ -797,20 +797,8 @@
 	religion = faith_golden
 	holding = castle_holding
 }
-# R238G66B17
-1985 = {
-	culture = cul_altus
-	religion = faith_golden
-	holding = none
-}
 # R160G112B205
 1952 = {
-	culture = cul_altus
-	religion = faith_golden
-	holding = none
-}
-# R165G182B242
-2468 = {
 	culture = cul_altus
 	religion = faith_golden
 	holding = none
@@ -826,30 +814,6 @@
 	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
-}
-# R170G45B233
-1258 = {
-	culture = cul_altus
-	religion = faith_golden
-	holding = none
-}
-# R240G2B1
-327 = {
-	culture = cul_altus
-	religion = faith_golden
-	holding = castle_holding
-}
-# R54G153B196
-2509 = {
-	culture = cul_altus
-	religion = faith_golden
-	holding = none
-}
-# R75G230B13
-505 = {
-	culture = cul_altus
-	religion = faith_golden
-	holding = none
 }
 
 
