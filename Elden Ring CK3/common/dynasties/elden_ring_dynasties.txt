@@ -58,10 +58,35 @@ dynn_golden_order = {
 	culture = cul_leyndell
 	motto = golden_order_motto
 }
-dynn_eccentric = {
-	name = "dynn_eccentric"
-	culture = cul_caelid
-	motto = eccentric_motto
+dynn_arrvol = {
+	name = "dynn_arrvol"
+	culture = cul_liurnia
+	motto = arrvol_motto
+}
+dynn_neresse = {
+	name = "dynn_neresse"
+	culture = cul_liurnia
+	motto = neresse_motto
+}
+dynn_veletta = {
+	name = "dynn_veletta"
+	culture = cul_reedlander
+	motto = veletta_motto
+}
+dynn_eire = {
+	name = "dynn_eire"
+	culture = cul_limgrave
+	motto = eire_motto
+}
+dynn_dargatzes = {
+	name = "dynn_dargatzes"
+	culture = cul_altus
+	motto = dargatzes_motto
+}
+dynn_nightingale = {
+	name = "dynn_nightingale"
+	culture = cul_shadowlander
+	motto = nightingale_motto
 }
 dynn_blue_knight = {
 	name = "dynn_blue_knight"
@@ -77,6 +102,16 @@ dynn_azula = {
 	name = "dynn_azula"
 	culture = cul_farum
 	motto = azula_motto
+}
+dynn_pacchi = {
+	name = "dynn_pacchi"
+	culture = cul_limgrave
+	motto = pacchi_motto
+}
+dynn_ofnir = {
+	name = "dynn_ofnir"
+	culture = cul_leyndell
+	motto = ofnir_motto
 }
 dynn_gallevile = {
 	name = "dynn_gallevile"

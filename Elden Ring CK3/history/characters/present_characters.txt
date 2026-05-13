@@ -406,29 +406,36 @@ gostoc = {
 
 jerren = {
 	name = "Jerren"
-	
-	#dna = jerren_dna
+	dna = jerren_dna
 	sexuality = asexual
-	dynasty = dynn_eccentric
+	dynasty = dynn_arrvol
 	
-	diplomacy = 10
+	diplomacy = 9
 	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 6
+	stewardship = 8
+	intrigue = 6
+	learning = 7
+	prowess = 7
 	health = 10
 	
 	religion = faith_golden
-	culture = cul_caelid
+	culture = cul_liurnia
 	
-	trait = education_martial_4
 	trait = gregarious
 	trait = brave
 	trait = calm
+	trait = eccentric
+	trait = education_martial_4
 	trait = no_marry
 	
 	disallow_random_traits = yes
+	
+	portrait_override = {	
+		portrait_modifier_overrides={
+			custom_beards=m_beard_ep3_byzantine_02
+			custom_hair=no_hair
+		}
+	}
 	
 	1130.1.1 = {
 		birth = yes
@@ -439,8 +446,115 @@ jerren = {
 			modifier = gift_from_the_eternal
 		}
 	}
-	1192.1.1 = {
+	1292.1.1 = {
 		give_nickname = nick_witch_hunter
+		effect = {
+			set_relation_nemesis = character:sellen
+		}
+	}
+}
+
+sellen = {
+	name = "Sellen"
+	female = yes
+	dna = sellen_dna
+	sexuality = heterosexual
+	dynasty = dynn_neresse
+	
+	diplomacy = 6
+	martial = 4
+	stewardship = 5
+	intrigue = 8
+	learning = 13
+	prowess = 6
+	health = 10
+	
+	religion = faith_primeval
+	culture = cul_liurnia
+	
+	trait = ambitious
+	trait = patient
+	trait = gregarious
+	trait = education_learning_4
+	trait = intellect_good_2
+	trait = beauty_good_1
+	trait = glintstone_affinity
+	trait = witch
+	trait = no_marry
+	
+	disallow_random_traits = yes
+	
+	portrait_override = {	
+		portrait_modifier_overrides={
+			custom_hair=female_hair_fp2_iberian_muslim_01_common
+		}
+	}
+	
+	983.5.7 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	1292.1.1 = {
+		effect = {
+			set_relation_nemesis = character:jerren
+		}
+	}
+}
+
+anna = {
+	name = "Anna"
+	female = yes
+	dna = anna_dna
+	sexuality = heterosexual
+	dynasty = dynn_nightingale
+	
+	diplomacy = 4
+	martial = 9
+	stewardship = 2
+	intrigue = 5
+	learning = 3
+	prowess = 11
+	health = 10
+	
+	religion = faith_night
+	culture = cul_shadowlander
+	
+	trait = calm
+	trait = vengeful
+	trait = patient
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = beauty_good_2
+	trait = flexible_leader
+	trait = no_marry
+	
+	disallow_random_traits = yes
+	
+	portrait_override = {	
+		portrait_modifier_overrides={
+			custom_beards=female_empty
+			custom_hair=f_hair_sp4_mena_01
+		}
+	}
+	
+	658.6.3 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	700.1.1 = {
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+		}
 	}
 }
 

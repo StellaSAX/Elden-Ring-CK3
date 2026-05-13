@@ -15,8 +15,8 @@
  general_m:0 "General"
  general_f:0 "General"
 
- crusader_m:0 "Crusader"
- crusader_f:0 "Crusader"
+ crusader_m:0 "Lord"
+ crusader_f:0 "Lady"
 
  stormlord_m:0 "Stormlord"
  stormlord_f:0 "Stormlady"
@@ -39,6 +39,12 @@
  d_laamp_maleigh_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_laamp_haight: "Camp of Haight"
  d_laamp_haight_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_laamp_sellen: "Graven Witch's Group"
+ d_laamp_sellen_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_laamp_patches: "Patches' Emporium"
+ d_laamp_patches_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_laamp_gideon: "Camp of the All-Knowing"
+ d_laamp_gideon_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_laamp_zarion: "Spear of Zeste"
  d_laamp_zarion_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_laamp_tructa: "Sea Rovers"
@@ -61,6 +67,8 @@
  d_laamp_bigjeffepic_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_laamp_chiptooth: "Blind Camp"
  d_laamp_chiptooth_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_laamp_bloodyfinger: "Bloody Fingers"
+ d_laamp_bloodyfinger_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  
  d_grand_cloister: "Grand Cloister"
  d_rot_lake: "Lake of Rot"

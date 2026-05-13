@@ -7,9 +7,11 @@ beastial.dds = { colors = 1 category = elden_ring }
 baldachin.dds = { colors = 1 category = elden_ring }
 black_knife.dds = { colors = 1 category = elden_ring }
 blood.dds = { colors = 1 category = elden_ring }
+bloody_finger.dds = { colors = 2 category = elden_ring }
 brass_shield.dds = { colors = 2 category = elden_ring }
 brass_shield2.dds = { colors = 3 category = elden_ring }
 carian.dds = { colors = 1 category = elden_ring }
+cleanrot.dds = { colors = 1 category = elden_ring }
 crucible.dds = { colors = 1 category = elden_ring }
 crucible2.dds = { colors = 1 category = elden_ring }
 circlet_marika.dds = { colors = 1 category = elden_ring }
@@ -66,6 +68,7 @@ sun_realm2.dds = { colors = 2 category = elden_ring }
 scorpion.dds = { colors = 1 category = elden_ring }
 soulblood.dds = { colors = 1 category = elden_ring }
 swordknot.dds = { colors = 1 category = elden_ring }
+sword_staff.dds = { colors = 2 category = elden_ring }
 tangled_horn.dds = { colors = 1 category = elden_ring }
 tear_portal.dds = { colors = 1 category = elden_ring }
 two_fingers.dds = { colors = 1 category = elden_ring }
@@ -115,3 +118,5 @@ maymay.dds = { colors = 3 category = fun_emblems }
 puikula_text.dds = { colors = 1 category = fun_emblems }
 soviet_star.dds = { colors = 2 category = fun_emblems }
 tomato.dds = { colors = 3 category = fun_emblems }
+ainz_ooal_gown.dds = { colors = 1 category = fun_emblems }
+slane_theocracy.dds = { colors = 1 category = fun_emblems }
