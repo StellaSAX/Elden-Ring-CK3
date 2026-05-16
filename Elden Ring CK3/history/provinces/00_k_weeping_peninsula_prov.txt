@@ -11,13 +11,13 @@
 298 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # wp_barony_71
 978 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # wp_barony_69
 1728 = {
@@ -33,7 +33,7 @@
 }
 # DELETE_11
 3110 = {
-	culture = cul_astrologer
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
 }
@@ -41,7 +41,7 @@
 1533 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 
 
@@ -81,13 +81,13 @@
 }
 # DELETE_1
 3076 = {
-	culture = cul_astrologer
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
 }
 # LAKE
 3097 = {
-	culture = cul_astrologer
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
 }
@@ -126,7 +126,7 @@
 ### c_R187G138B5
 # R33G10B20
 491 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -138,7 +138,7 @@
 }
 # R26G137B77
 2253 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -167,13 +167,13 @@
 }
 # R74G248B154
 81 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
 }
 # R108G181B184
 410 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
 }
@@ -194,13 +194,13 @@
 }
 # R42G221B219
 42 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
 }
 # R115G136B109
 1939 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
 }
@@ -221,7 +221,7 @@
 }
 # LAKE
 3121 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
 }
@@ -260,7 +260,7 @@
 }
 # R182G112B187
 973 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
 }
@@ -290,19 +290,19 @@
 ### c_R223G104B16
 # R147G202B194
 2207 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
 }
 # LAKE
 3125 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
 }
 # R255G87B167
 1359 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
 }
@@ -317,7 +317,7 @@
 ### c_R65G129B195
 # R9G200B151
 807 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -332,7 +332,7 @@
 ### c_pepega_hill
 # R254G5B15
 545 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -460,13 +460,13 @@
 ### c_R238G176B49
 # R191G255B251
 2019 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
 }
 # R70G52B158
 866 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -510,25 +510,25 @@
 ### c_R53G177B174
 # DELETE_8
 2522 = {
-	culture = cul_astrologer
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
 }
 # LAKE
 3070 = {
-	culture = cul_astrologer
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
 }
 # OCEAN
 3071 = {
-	culture = cul_astrologer
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
 }
 # R248G15B185
 1033 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
 }
@@ -543,13 +543,13 @@
 }
 # DELETE_9
 3075 = {
-	culture = cul_astrologer
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
 }
 # DELETE_10
 3111 = {
-	culture = cul_astrologer
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
 }
@@ -570,7 +570,7 @@
 }
 # R232G34B174
 1326 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -627,13 +627,13 @@
 ### c_R182G212B50
 # R78G242B185
 43 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
 }
 # R26G143B17
 1353 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
 }
@@ -681,7 +681,7 @@
 ### c_R149G183B49
 # R161G210B231
 2067 = {
-	culture = cul_leyndell
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -723,7 +723,7 @@
 ### c_weeping_corner
 # DELETE_13
 3074 = {
-	culture = cul_astrologer
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -735,7 +735,7 @@
 }
 # LAKE
 3099 = {
-	culture = cul_astrologer
+	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
 }
