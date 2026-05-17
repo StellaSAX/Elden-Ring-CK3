@@ -27,7 +27,7 @@
 }
 # LAKE
 3138 = {
-	culture = cul_astrologer
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
@@ -114,7 +114,7 @@
 }
 # LAKE
 3136 = {
-	culture = cul_astrologer
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
@@ -132,7 +132,7 @@
 }
 # R45G3B101
 2552 = {
-	culture = cul_astrologer
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
@@ -209,7 +209,7 @@
 }
 # LAKE
 3126 = {
-	culture = cul_astrologer
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
@@ -218,7 +218,7 @@
 ### c_R74G182B65
 # LAKE
 3127 = {
-	culture = cul_astrologer
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -247,13 +247,13 @@
 }
 # R184G159B158
 2551 = {
-	culture = cul_astrologer
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
 # LAKE
 3132 = {
-	culture = cul_astrologer
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
@@ -274,7 +274,7 @@
 }
 # LAKE
 3139 = {
-	culture = cul_astrologer
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
@@ -292,7 +292,7 @@
 }
 # LAKE
 3140 = {
-	culture = cul_astrologer
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
@@ -313,7 +313,7 @@
 }
 # R85G16B69
 9 = {
-	culture = cul_astrologer
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }

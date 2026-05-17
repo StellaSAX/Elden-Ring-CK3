@@ -15,7 +15,7 @@
 }
 # R231G40B104
 11 = {
-	culture = cul_leyndell
+	culture = cul_caria
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -42,7 +42,7 @@
 }
 # R220G17B252
 315 = {
-	culture = cul_leyndell
+	culture = cul_caria
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -69,7 +69,7 @@
 }
 # R83G87B164
 71 = {
-	culture = cul_leyndell
+	culture = cul_caria
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -131,7 +131,7 @@
 }
 # R215G72B3
 420 = {
-	culture = cul_leyndell
+	culture = cul_caria
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -170,7 +170,7 @@
 }
 # R249G70B226
 853 = {
-	culture = cul_leyndell
+	culture = cul_caria
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -1033,14 +1033,14 @@
 ##### d_divinetower_liurnia ############################
 
 ### c_R154G63B203
-# divinetower_liurnia_1
-258 = {
+# divinetower_liurnia_3
+738 = {
 	culture = cul_liurnia
 	religion = faith_golden
 	holding = castle_holding
 }
-# divinetower_liurnia_3
-738 = {
+# divinetower_liurnia_1
+258 = {
 	culture = cul_liurnia
 	religion = faith_golden
 	holding = none
@@ -1064,7 +1064,7 @@
 ### c_R136G138B154
 # R65G166B112
 2362 = {
-	culture = cul_leyndell
+	culture = cul_caria
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -1082,7 +1082,7 @@
 }
 # R228G183B186
 1151 = {
-	culture = cul_leyndell
+	culture = cul_caria
 	religion = faith_golden
 	holding = none
 }
@@ -1112,13 +1112,13 @@
 ### c_carian_prov_one
 # R139G91B16
 2187 = {
-	culture = cul_leyndell
+	culture = cul_caria
 	religion = faith_golden
 	holding = castle_holding
 }
 # R244G36B226
 2359 = {
-	culture = cul_leyndell
+	culture = cul_caria
 	religion = faith_golden
 	holding = none
 }

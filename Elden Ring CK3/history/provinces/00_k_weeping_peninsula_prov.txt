@@ -56,7 +56,7 @@
 130 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # wp_barony_64
 2559 = {
@@ -124,23 +124,23 @@
 
 
 ### c_R187G138B5
-# R33G10B20
-491 = {
-	culture = cul_weeping_peninsula
-	religion = faith_golden
-	holding = castle_holding
-}
 # wp_barony_57
 465 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
 }
+# R33G10B20
+491 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = none
+}
 # R26G137B77
 2253 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # wp_barony_58
 850 = {
@@ -163,13 +163,13 @@
 1453 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # R74G248B154
 81 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # R108G181B184
 410 = {
@@ -196,7 +196,7 @@
 42 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # R115G136B109
 1939 = {
@@ -208,7 +208,7 @@
 1206 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 
 
@@ -292,7 +292,7 @@
 2207 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = none
+	holding = castle_holding
 }
 # LAKE
 3125 = {
@@ -310,7 +310,7 @@
 744 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 
 
@@ -362,14 +362,14 @@
 ##### d_tombsward_hill ############################
 
 ### c_R183G112B248
-# wp_barony_1
-1912 = {
+# wp_barony_3
+495 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
 }
-# wp_barony_3
-495 = {
+# wp_barony_1
+1912 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
@@ -378,7 +378,7 @@
 970 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # wp_barony_4
 1764 = {
@@ -419,14 +419,14 @@
 
 
 ### c_R77G174B149
-# wp_barony_23
-2428 = {
+# wp_barony_24
+1738 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
 }
-# wp_barony_24
-1738 = {
+# wp_barony_23
+2428 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
@@ -441,13 +441,13 @@
 701 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # R243G106B21
 999 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # wp_barony_46
 1486 = {
@@ -468,22 +468,28 @@
 866 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # wp_barony_15
 205 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 
 
 ### c_R220G209B71
+# wp_barony_6
+136 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
 # wp_barony_7
 1066 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # wp_barony_14
 1883 = {
@@ -491,28 +497,28 @@
 	religion = faith_golden
 	holding = none
 }
-# wp_barony_6
-136 = {
-	culture = cul_weeping_peninsula
-	religion = faith_golden
-	holding = castle_holding
-}
 # wp_barony_5
 875 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 
 
 ##### d_weeping_coast ############################
 
 ### c_R53G177B174
+# R248G15B185
+1033 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
 # DELETE_8
 2522 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # LAKE
 3070 = {
@@ -526,23 +532,17 @@
 	religion = faith_golden
 	holding = none
 }
-# R248G15B185
-1033 = {
-	culture = cul_weeping_peninsula
-	religion = faith_golden
-	holding = none
-}
 
 
 ### c_R127G10B82
-# DELETE_12
-2508 = {
+# DELETE_9
+3075 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
 }
-# DELETE_9
-3075 = {
+# DELETE_12
+2508 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
@@ -566,13 +566,13 @@
 535 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # R232G34B174
 1326 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # wp_barony_53
 1091 = {
@@ -598,17 +598,23 @@
 
 
 ### c_R220G186B32
+# wp_barony_49
+2086 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
 # wp_barony_47
 2015 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # wp_barony_45
 8 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # wp_barony_48
 2246 = {
@@ -616,20 +622,20 @@
 	religion = faith_golden
 	holding = none
 }
-# wp_barony_49
-2086 = {
-	culture = cul_weeping_peninsula
-	religion = faith_golden
-	holding = none
-}
 
 
 ### c_R182G212B50
+# wp_barony_19
+1583 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
 # R78G242B185
 43 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # R26G143B17
 1353 = {
@@ -641,22 +647,22 @@
 170 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
-}
-# wp_barony_19
-1583 = {
-	culture = cul_weeping_peninsula
-	religion = faith_golden
 	holding = none
 }
 
 
 ### c_R62G216B236
+# R113G152B113
+930 = {
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+}
 # wp_barony_43
 147 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # wp_barony_41
 1075 = {
@@ -664,17 +670,11 @@
 	religion = faith_golden
 	holding = none
 }
-# R113G152B113
-930 = {
-	culture = cul_northerner
-	religion = faith_golden
-	holding = none
-}
 # wp_barony_42
 714 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 
 
@@ -689,13 +689,13 @@
 297 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # wp_barony_55
 2260 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 
 
@@ -710,7 +710,7 @@
 1031 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # wp_barony_39
 2473 = {
@@ -731,7 +731,7 @@
 301 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # LAKE
 3099 = {

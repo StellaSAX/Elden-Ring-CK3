@@ -96,7 +96,7 @@
 }
 # R59G137B150
 2539 = {
-	culture = cul_astrologer
+	culture = cul_dragonbarrow
 	religion = faith_golden
 	holding = none
 }
@@ -114,7 +114,7 @@
 }
 # R202G3B23
 2540 = {
-	culture = cul_astrologer
+	culture = cul_dragonbarrow
 	religion = faith_golden
 	holding = none
 }
@@ -147,7 +147,7 @@
 }
 # R164G81B157
 2527 = {
-	culture = cul_astrologer
+	culture = cul_dragonbarrow
 	religion = faith_golden
 	holding = none
 }
@@ -340,13 +340,13 @@
 }
 # R135G252B47
 2525 = {
-	culture = cul_astrologer
+	culture = cul_dragonbarrow
 	religion = faith_golden
 	holding = none
 }
 # R119G134B194
 2526 = {
-	culture = cul_astrologer
+	culture = cul_dragonbarrow
 	religion = faith_golden
 	holding = none
 }
@@ -403,7 +403,7 @@
 ### c_R113G2B172
 # R73G90B35
 2534 = {
-	culture = cul_astrologer
+	culture = cul_dragonbarrow
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -415,13 +415,13 @@
 }
 # R196G239B64
 2535 = {
-	culture = cul_astrologer
+	culture = cul_dragonbarrow
 	religion = faith_golden
 	holding = none
 }
 # R161G218B127
 2536 = {
-	culture = cul_astrologer
+	culture = cul_dragonbarrow
 	religion = faith_golden
 	holding = none
 }

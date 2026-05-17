@@ -17,7 +17,7 @@
 231 = {
 	culture = cul_gelmir
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # R219G3B59
 1750 = {
@@ -30,7 +30,7 @@
 ### c_manor_lavalake
 # R50G86B168
 1242 = {
-	culture = cul_astrologer
+	culture = cul_gelmir
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -42,7 +42,7 @@
 }
 # R166G2B8
 2549 = {
-	culture = cul_astrologer
+	culture = cul_gelmir
 	religion = faith_golden
 	holding = none
 }
@@ -57,7 +57,7 @@
 }
 # R210G193B134
 2548 = {
-	culture = cul_astrologer
+	culture = cul_gelmir
 	religion = faith_golden
 	holding = none
 }
@@ -71,7 +71,7 @@
 438 = {
 	culture = cul_gelmir
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # R137G121B85
 560 = {
@@ -96,7 +96,7 @@
 }
 # R85G39B150
 1693 = {
-	culture = cul_astrologer
+	culture = cul_gelmir
 	religion = faith_golden
 	holding = none
 }
@@ -121,19 +121,19 @@
 46 = {
 	culture = cul_gelmir
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # R12G152B60
 2409 = {
-	culture = cul_altus
+	culture = cul_gelmir
 	religion = faith_golden
 	holding = none
 }
 # R152G90B86
 781 = {
-	culture = cul_altus
+	culture = cul_gelmir
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 
 
@@ -152,7 +152,7 @@
 }
 # R61G163B26
 2554 = {
-	culture = cul_astrologer
+	culture = cul_gelmir
 	religion = faith_golden
 	holding = none
 }
@@ -176,13 +176,13 @@
 ### c_fallingstar_crater
 # LAKE
 3133 = {
-	culture = cul_astrologer
+	culture = cul_gelmir
 	religion = faith_golden
 	holding = castle_holding
 }
 # LAKE
 3130 = {
-	culture = cul_astrologer
+	culture = cul_gelmir
 	religion = faith_golden
 	holding = none
 }
@@ -191,27 +191,27 @@
 ##### d_hermit_road ############################
 
 ### c_R114G116B204
-# R153G162B111
-1621 = {
-	culture = cul_gelmir
-	religion = faith_golden
-	holding = castle_holding
-}
 # R98G76B96
 525 = {
 	culture = cul_gelmir
 	religion = faith_golden
 	holding = castle_holding
 }
+# R153G162B111
+1621 = {
+	culture = cul_gelmir
+	religion = faith_golden
+	holding = none
+}
 # R16G144B140
 453 = {
 	culture = cul_gelmir
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # R61G57B102
 2553 = {
-	culture = cul_astrologer
+	culture = cul_gelmir
 	religion = faith_golden
 	holding = none
 }
@@ -255,7 +255,7 @@
 2381 = {
 	culture = cul_gelmir
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 
 
@@ -276,19 +276,19 @@
 }
 # R159G179B106
 2550 = {
-	culture = cul_astrologer
+	culture = cul_gelmir
 	religion = faith_golden
 	holding = none
 }
 # LAKE
 3129 = {
-	culture = cul_astrologer
+	culture = cul_gelmir
 	religion = faith_golden
 	holding = none
 }
 # LAKE
 3128 = {
-	culture = cul_astrologer
+	culture = cul_gelmir
 	religion = faith_golden
 	holding = none
 }
@@ -315,7 +315,7 @@
 }
 # LAKE
 3131 = {
-	culture = cul_astrologer
+	culture = cul_gelmir
 	religion = faith_golden
 	holding = none
 }
@@ -324,20 +324,20 @@
 ##### d_seethewater ############################
 
 ### c_R77G27B81
-# R200G159B136
-1558 = {
+# R49G251B15
+2272 = {
 	culture = cul_gelmir
 	religion = faith_golden
 	holding = castle_holding
 }
-# R14G82B155
-713 = {
+# R200G159B136
+1558 = {
 	culture = cul_gelmir
 	religion = faith_golden
 	holding = none
 }
-# R49G251B15
-2272 = {
+# R14G82B155
+713 = {
 	culture = cul_gelmir
 	religion = faith_golden
 	holding = none
@@ -346,32 +346,32 @@
 415 = {
 	culture = cul_gelmir
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # LAKE
 3134 = {
-	culture = cul_leyndell
+	culture = cul_gelmir
 	religion = faith_golden
 	holding = none
 }
 
 
 ### c_R72G192B155
-# R13G57B162
-466 = {
-	culture = cul_leyndell
+# R140G19B125
+1051 = {
+	culture = cul_gelmir
 	religion = faith_golden
 	holding = castle_holding
 }
-# R140G19B125
-1051 = {
-	culture = cul_leyndell
+# R13G57B162
+466 = {
+	culture = cul_gelmir
 	religion = faith_golden
 	holding = none
 }
 # LAKE
 3135 = {
-	culture = cul_astrologer
+	culture = cul_gelmir
 	religion = faith_golden
 	holding = none
 }
@@ -380,7 +380,7 @@
 ### c_gelmir_pass_one
 # LAKE
 3137 = {
-	culture = cul_astrologer
+	culture = cul_gelmir
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -388,7 +388,7 @@
 1565 = {
 	culture = cul_gelmir
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # R14G250B89
 1966 = {

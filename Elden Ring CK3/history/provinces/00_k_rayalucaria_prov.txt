@@ -1384,31 +1384,31 @@
 ### c_R178G194B97
 # limgrave_barony_183
 1415 = {
-	culture = cul_limgrave
+	culture = cul_liurnia
 	religion = faith_golden
 	holding = castle_holding
 }
 # limgrave_barony_184
 110 = {
-	culture = cul_limgrave
+	culture = cul_liurnia
 	religion = faith_golden
 	holding = castle_holding
 }
 # limgrave_barony_185
 1661 = {
-	culture = cul_limgrave
+	culture = cul_liurnia
 	religion = faith_golden
 	holding = none
 }
 # limgrave_barony_186
 1367 = {
-	culture = cul_limgrave
+	culture = cul_liurnia
 	religion = faith_golden
 	holding = none
 }
 # limgrave_barony_187
 24 = {
-	culture = cul_limgrave
+	culture = cul_liurnia
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -1417,13 +1417,13 @@
 ### c_R180G53B147
 # limgrave_barony_188
 1065 = {
-	culture = cul_limgrave
+	culture = cul_liurnia
 	religion = faith_golden
 	holding = castle_holding
 }
 # limgrave_barony_192
 2248 = {
-	culture = cul_limgrave
+	culture = cul_liurnia
 	religion = faith_golden
 	holding = none
 }
@@ -1438,19 +1438,19 @@
 ### c_R115G255B31
 # limgrave_barony_191
 966 = {
-	culture = cul_limgrave
+	culture = cul_liurnia
 	religion = faith_golden
 	holding = castle_holding
 }
 # limgrave_barony_190
 2489 = {
-	culture = cul_limgrave
+	culture = cul_liurnia
 	religion = faith_golden
 	holding = none
 }
 # limgrave_barony_189
 259 = {
-	culture = cul_limgrave
+	culture = cul_liurnia
 	religion = faith_golden
 	holding = castle_holding
 }

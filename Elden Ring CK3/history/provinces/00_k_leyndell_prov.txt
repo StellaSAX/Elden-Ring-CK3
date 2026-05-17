@@ -32,13 +32,13 @@
 }
 # R180G173B190
 1195 = {
-	culture = cul_altus
+	culture = cul_leyndell
 	religion = faith_golden
 	holding = none
 }
 # R118G96B249
 2377 = {
-	culture = cul_altus
+	culture = cul_leyndell
 	religion = faith_golden
 	holding = none
 }
@@ -83,7 +83,7 @@
 }
 # R190G65B24
 527 = {
-	culture = cul_altus
+	culture = cul_leyndell
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -98,19 +98,19 @@
 ### c_R208G201B194
 # R15G172B46
 1128 = {
-	culture = cul_altus
+	culture = cul_leyndell
 	religion = faith_golden
 	holding = castle_holding
 }
 # R97G140B47
 1457 = {
-	culture = cul_altus
+	culture = cul_leyndell
 	religion = faith_golden
 	holding = none
 }
 # R80G86B231
 2513 = {
-	culture = cul_astrologer
+	culture = cul_leyndell
 	religion = faith_golden
 	holding = none
 }
@@ -137,25 +137,25 @@
 ### c_R181G29B212
 # R19G2B88
 1346 = {
-	culture = cul_altus
+	culture = cul_leyndell
 	religion = faith_golden
 	holding = castle_holding
 }
 # R37G69B81
 951 = {
-	culture = cul_altus
+	culture = cul_leyndell
 	religion = faith_golden
 	holding = castle_holding
 }
 # R51G195B223
 1231 = {
-	culture = cul_altus
+	culture = cul_leyndell
 	religion = faith_golden
 	holding = none
 }
 # R23G205B135
 2047 = {
-	culture = cul_altus
+	culture = cul_leyndell
 	religion = faith_golden
 	holding = none
 }
@@ -244,7 +244,7 @@
 ### c_R248G215B140
 # R149G32B85
 257 = {
-	culture = cul_altus
+	culture = cul_leyndell
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -331,7 +331,7 @@
 }
 # R79G24B177
 1725 = {
-	culture = cul_altus
+	culture = cul_leyndell
 	religion = faith_golden
 	holding = none
 }
@@ -728,7 +728,7 @@
 }
 # DELETE_2
 3096 = {
-	culture = cul_astrologer
+	culture = cul_leyndell
 	religion = faith_golden
 	holding = none
 }

@@ -48,7 +48,7 @@
 }
 # R125G185B115
 905 = {
-	culture = cul_liurnia
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -334,7 +334,7 @@
 }
 # R15G251B9
 21 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -754,31 +754,31 @@
 ### c_R152G78B237
 # R53G59B214
 2436 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
 }
 # R183G174B117
 1237 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
 # R139G170B244
 1136 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
 # R206G88B143
 1246 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
 # R126G197B129
 1867 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
@@ -787,31 +787,31 @@
 ### c_R243G156B3
 # R236G9B202
 1088 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
 }
 # R207G23B142
 1483 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
 }
 # R245G145B234
 435 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
 }
 # R222G3B203
 1143 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
 }
 # LAKE
 3120 = {
-	culture = cul_astrologer
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
@@ -820,25 +820,25 @@
 ### c_R53G213B51
 # R244G184B212
 1464 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
 }
 # R64G163B174
 846 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
 # R145G241B111
 496 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
 }
 # R7G178B124
 1134 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -849,37 +849,37 @@
 ### c_R213G221B90
 # R97G185B133
 2369 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
 }
 # R70G41B247
 925 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
 # R172G16B139
 2416 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
 # R228G53B208
 2148 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
 # R49G86B168
 132 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
 }
 # R33G11B247
 1663 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
 }
@@ -888,25 +888,25 @@
 ### c_R55G70B123
 # R194G154B18
 1957 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
 }
 # R210G64B146
 2070 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
 # R2G155B116
 1793 = {
-	culture = cul_gelmir
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
 # LAKE
 3122 = {
-	culture = cul_astrologer
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
@@ -927,13 +927,13 @@
 }
 # R161G26B238
 1286 = {
-	culture = cul_liurnia
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
 # R200G161B165
 2537 = {
-	culture = cul_astrologer
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
 }
