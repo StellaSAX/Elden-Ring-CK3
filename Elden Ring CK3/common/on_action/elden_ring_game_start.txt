@@ -125,6 +125,15 @@ on_action_make_everyone_immortal_at_start = {
 			limit = { 
 				game_start_date > 810.1.1
 				global_var:rune_of_death_bound = yes
+				NOR = {
+					has_cultural_pillar = heritage_albinauric
+					has_cultural_pillar = heritage_ancient_dragon
+					has_cultural_pillar = heritage_misbegotten
+					has_cultural_pillar = heritage_demihuman
+					has_cultural_pillar = heritage_giant
+					has_cultural_pillar = heritage_beastman
+					has_cultural_pillar = heritage_ancestral_follower
+				}
 			}
 			every_living_character = {
 				add_character_modifier = gift_from_the_eternal

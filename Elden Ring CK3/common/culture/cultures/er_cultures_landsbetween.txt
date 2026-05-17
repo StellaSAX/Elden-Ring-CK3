@@ -725,3 +725,33 @@ cul_ancestral_follower = {
 		30 = caucasian_dark_hair
 	}
 }
+
+cul_albinauric = {
+	color = { 0.80 0.80 0.80 }
+
+	ethos = ethos_courtly
+	heritage = heritage_albinauric
+	language = language_albinauric
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_sorcerous_metallurgy
+		tradition_city_keepers
+		tradition_artisans
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}

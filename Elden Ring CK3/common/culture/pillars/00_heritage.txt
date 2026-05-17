@@ -157,3 +157,13 @@ heritage_ranah = {
 	}
 	audio_parameter = european
 }
+
+heritage_albinauric = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			heritage = heritage_albinauric
+		}
+	}
+	audio_parameter = european
+}

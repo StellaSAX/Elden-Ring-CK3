@@ -42,6 +42,7 @@
 			culture:cul_charolean = { custom_tooltip = cul_charolean_desc }
 			culture:cul_rauh = { custom_tooltip = cul_rauh_desc }
 			culture:cul_ranah = { custom_tooltip = cul_ranah_desc }
+			culture:cul_albinauric = { custom_tooltip = cul_albinauric_desc }
 			culture:cul_beastman = { custom_tooltip = cul_beastman_desc }
 			culture:cul_demihuman = { custom_tooltip = cul_demihuman_desc }
 			culture:cul_misbegotten = { custom_tooltip = cul_misbegotten_desc }

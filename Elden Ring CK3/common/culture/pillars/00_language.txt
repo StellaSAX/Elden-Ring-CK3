@@ -269,3 +269,20 @@ language_ranah = {
 	}
 	color = { 0.18 0.15 0.69 }
 }
+
+language_albinauric = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_albinauric
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_albinauric }
+			multiply = 10
+		}
+	}
+	color = { 0.18 0.15 0.69 }
+}
