@@ -164,9 +164,14 @@
 ### c_R18G54B201
 # R137G242B129
 1997 = {
+	special_building_slot = stormgate
 	culture = cul_limgrave
 	religion = faith_golden
 	holding = castle_holding
+	
+	1000.1.1 = {
+		special_building = stormgate
+	}
 }
 # R9G157B62
 1002 = {
@@ -606,9 +611,14 @@
 ### c_R130G23B61
 # limgrave_barony_28
 2147 = {
+	special_building_slot = evergaol
 	culture = cul_limgrave
 	religion = faith_golden
 	holding = castle_holding
+	
+	1000.1.1 = {
+		special_building = evergaol
+	}
 }
 # R226G43B35
 826 = {
@@ -1035,9 +1045,14 @@
 ### c_R74G183B42
 # limgrave_barony_1
 686 = {
+	special_building_slot = fort_haight_1
 	culture = cul_mistwood
 	religion = faith_golden
 	holding = castle_holding
+	
+	1000.1.1 = {
+		special_building = fort_haight_1
+	}
 }
 # limgrave_barony_2
 2195 = {
@@ -1230,9 +1245,14 @@
 ### c_R11G176B119
 # limgrave_barony_44
 691 = {
+	special_building_slot = minor_erdtree
 	culture = cul_mistwood
 	religion = faith_golden
 	holding = castle_holding
+	
+	1000.1.1 = {
+		special_building = minor_erdtree
+	}
 }
 # R160G112B205
 1952 = {
@@ -1251,9 +1271,14 @@
 ### c_R20G7B117
 # limgrave_barony_51
 2250 = {
+	special_building_slot = church_of_marika
 	culture = cul_mistwood
 	religion = faith_golden
 	holding = castle_holding
+	
+	1000.1.1 = {
+		special_building = church_of_marika
+	}
 }
 # limgrave_barony_52
 376 = {
@@ -1764,9 +1789,14 @@
 ### c_R115G70B106
 # limgrave_barony_169
 1223 = {
+	special_building_slot = limgrave_colosseum
 	culture = cul_stormhill
 	religion = faith_golden
 	holding = castle_holding
+	
+	1000.1.1 = {
+		special_building = limgrave_colosseum
+	}
 }
 # limgrave_barony_166
 2092 = {

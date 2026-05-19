@@ -3,9 +3,14 @@
 ### c_R52G82B165
 # wp_barony_72
 2314 = {
+	special_building_slot = castle_morne_1
 	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
+	
+	1000.1.1 = {
+		special_building = castle_morne_1
+	}
 }
 # wp_barony_70
 298 = {
@@ -215,9 +220,14 @@
 ### c_R80G49B149
 # wp_barony_33
 642 = {
+	special_building_slot = oridys_rise
 	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = castle_holding
+	
+	1000.1.1 = {
+		special_building = oridys_rise
+	}
 }
 # LAKE
 3121 = {
@@ -356,6 +366,20 @@
 	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
+}
+
+
+### c_R160G182B233
+# R91G74B221
+304 = {
+	special_building_slot = bridge_of_sacrifice
+	culture = cul_weeping_peninsula
+	religion = faith_golden
+	holding = castle_holding
+	
+	1000.1.1 = {
+		special_building = bridge_of_sacrifice
+	}
 }
 
 

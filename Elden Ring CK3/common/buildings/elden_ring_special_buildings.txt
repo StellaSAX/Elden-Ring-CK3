@@ -207,26 +207,27 @@ dragon_communion_church_02 = {
 }
 
 evergaol = {
-	construction_time = very_quick_construction_time
+	construction_time = very_slow_construction_time
 
 	type_icon = "evergaol.dds"
 
 	can_construct_potential = {
-		building_requirement_tribal = no
 	}
-	cost_gold = expensive_building_tier_1_cost
+	
+	cost_gold = 600
 
 	character_modifier = {
-		monthly_prestige_gain_mult = 0.05
+		dread_gain_mult = 0.1
+		general_opinion = -5
 	}
 
 	province_modifier = {
-		defender_holding_advantage = 1
+		defender_holding_advantage = 2
+		travel_danger = 10
 	}
 
 	ai_value = {
 		base = 100
-		culture_likely_to_fortify_modifier = yes
 	}
 
 	type = special
@@ -235,30 +236,30 @@ evergaol = {
 }
 
 minor_erdtree = {
-	construction_time = very_quick_construction_time
+	construction_time = very_slow_construction_time
 
 	type_icon = "minor_erdtree.dds"
 
 	can_construct_potential = {
-		building_requirement_tribal = no
 	}
-	cost_gold = expensive_building_tier_1_cost
+	
+	cost_gold = 2500
 
 	character_modifier = {
-		monthly_dynasty_prestige_mult = 0.1
-		monthly_piety = 0.15
-		health = 0.25
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_piety = 0.25
+		clergy_opinion = 10
+		#health = 0.25
+		learning = 1
+		stress_loss_mult = 0.1
 	}
 
 	county_modifier = {
-		adevelopment_growth = 0.2
-		development_growth_factor = 0.025
-		county_opinion_add = 25
+		development_growth_factor = 0.25
 	}
 
 	ai_value = {
 		base = 100
-		culture_likely_to_fortify_modifier = yes
 	}
 
 	type = special
@@ -267,19 +268,29 @@ minor_erdtree = {
 }
 
 bridge_of_sacrifice = {
-	construction_time = very_quick_construction_time
+	asset = {
+		type = pdxmesh
+		name = bridge_western_mesh
+	}
+	
+	construction_time = very_slow_construction_time
 
 	type_icon = "icon_structure_london_bridge.dds"
 
 	can_construct_potential = {
-		building_requirement_tribal = no
 	}
-	cost_gold = expensive_building_tier_1_cost
+	
+	cost_gold = 1000
 
 	province_modifier = {
-		travel_danger = -5
-		stationed_maa_toughness_mult = 0.05
-		defender_holding_advantage = 3
+		fort_level = 4
+		stationed_maa_toughness_mult = 0.1
+		defender_holding_advantage = 10
+	}
+	
+	county_modifier = {
+		monthly_county_control_growth_factor = 0.1
+		hostile_raid_time = 0.75
 	}
 
 	ai_value = {
@@ -293,25 +304,21 @@ bridge_of_sacrifice = {
 }
 
 castle_morne_1 = {
-	construction_time = very_quick_construction_time
+	construction_time = very_slow_construction_time
 
 	type_icon = "icon_structure_alamut_castle.dds"
 
 	next_building = castle_morne_2
 
 	can_construct_potential = {
-		building_requirement_tribal = no
 	}
-	cost_gold = expensive_building_tier_1_cost
-
-	character_modifier = {
-		monthly_prestige_gain_mult = -0.05
-		monthly_dynasty_prestige_mult = 0.02
-	}
+	
+	cost_gold = 800
 
 	province_modifier = {
-		travel_danger = 15
+		travel_danger = 20
 		fort_level = 2
+		hostile_raid_time = 0.25
 	}
 
 	ai_value = {
@@ -321,40 +328,90 @@ castle_morne_1 = {
 
 	type = special
 
-	flag = travel_point_of_interest_martial_minor
+	flag = travel_point_of_interest_martial
 }
 
 castle_morne_2 = {
-	construction_time = very_quick_construction_time
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_alamut_castle.dds"
+	
+	next_building = castle_morne_3
+
+	can_construct = {
+		scope:holder = {
+			has_title = title:d_morne
+		}
+	}
+
+	can_construct_potential = {
+	}
+
+	cost_gold = 1200
+
+	character_modifier = {
+		monthly_prestige = 0.1
+	}
+
+	province_modifier = {
+		fort_level = 6
+		hostile_raid_time = 1.0
+		garrison_size = 0.25
+		stationed_maa_toughness_mult = 0.15
+		stationed_maa_damage_mult = 0.15
+		defender_holding_advantage = 6
+	}
+	
+	county_modifier = {
+		monthly_county_control_growth_factor = 0.1
+		levy_size = 0.1
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+castle_morne_3 = {
+	construction_time = very_slow_construction_time
 
 	type_icon = "icon_structure_alamut_castle.dds"
 
 	can_construct = {
 		scope:holder = {
-			highest_held_title_tier >= tier_duchy
-			prestige_level >= 2
+			has_title = title:d_morne
 		}
 	}
 
 	can_construct_potential = {
-		building_requirement_tribal = no
-		
 	}
 
-	cost_gold = 650
+	cost_gold = 2400
 
 	character_modifier = {
+		monthly_prestige = 0.25
 		martial_per_prestige_level = 1
-		martial = 2
-		monthly_dynasty_prestige_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.1
+		monthly_martial_lifestyle_xp_gain_mult = 0.1
 	}
 
 	province_modifier = {
-		fort_level = 5
-		travel_danger = -5
-		stationed_maa_toughness_mult = 0.15
-		stationed_maa_damage_mult = 0.15
-		defender_holding_advantage = 3
+		fort_level = 10
+		hostile_raid_time = 2.0
+		garrison_size = 0.5
+		stationed_maa_toughness_mult = 0.25
+		stationed_maa_damage_mult = 0.25
+		defender_holding_advantage = 12
+	}
+	
+	county_modifier = {
+		monthly_county_control_growth_factor = 0.3
+		levy_size = 0.25
 	}
 
 	ai_value = {
@@ -364,24 +421,29 @@ castle_morne_2 = {
 
 	type = special
 
-	flag = travel_point_of_interest_martial_minor
+	flag = travel_point_of_interest_martial
 }
 
 fort_haight_1 = {
-	construction_time = very_quick_construction_time
+	construction_time = very_slow_construction_time
 
 	type_icon = "icon_structure_kassiopi_castle.dds"
 
 	next_building = fort_haight_2
 
 	can_construct_potential = {
-		building_requirement_tribal = no
 	}
-	cost_gold = expensive_building_tier_1_cost
+	
+	cost_gold = 600
 
 	province_modifier = {
-		travel_danger = 5
 		fort_level = 1
+		defender_holding_advantage = 4
+		garrison_size = 0.1
+	}
+	
+	county_modifier = {
+		hostile_raid_time = 0.1
 	}
 
 	ai_value = {
@@ -395,23 +457,31 @@ fort_haight_1 = {
 }
 
 fort_haight_2 = {
-	construction_time = very_quick_construction_time
+	construction_time = very_slow_construction_time
 
 	type_icon = "icon_structure_kassiopi_castle.dds"
 
 	can_construct_potential = {
-		building_requirement_tribal = no
 	}
-	cost_gold = expensive_building_tier_1_cost
+	
+	cost_gold = 1000
 
 	character_modifier = {
-		monthly_prestige_gain_mult = 0.05
-		monthly_dynasty_prestige_mult = 0.02
+		monthly_prestige_gain_mult = 0.1
 	}
 
 	province_modifier = {
-		travel_danger = -5
-		fort_level = 1
+		travel_danger = -10
+		fort_level = 4
+		defender_holding_advantage = 8
+		garrison_size = 0.5
+	}
+	
+	county_modifier = {
+		monthly_county_control_growth_factor = 0.3
+		hostile_raid_time = 0.5
+		supply_limit_mult = 0.25
+		tax_mult = 0.1
 	}
 
 	ai_value = {
@@ -425,28 +495,26 @@ fort_haight_2 = {
 }
 
 stormgate = {
-	construction_time = very_quick_construction_time
+	construction_time = very_slow_construction_time
 
 	type_icon = "icon_structure_walls_of_genoa.dds"
 
 	can_construct_potential = {
-		building_requirement_tribal = no
 	}
-	cost_gold = expensive_building_tier_1_cost
-
-	character_modifier = {
-		monthly_prestige_gain_mult = 0.05
-		monthly_dynasty_prestige_mult = 0.02
-	}
-
+	
+	cost_gold = 2000
+	
 	province_modifier = {
-		fort_level = 5
-		travel_danger = -5
-		stationed_pikemen_damage_mult = 0.05
-		stationed_pikemen_toughness_mult = 0.1
-		stationed_heavy_infantry_damage_mult = 0.05
-		stationed_heavy_infantry_toughness_mult = 0.1
-		defender_holding_advantage = 4
+		fort_level = 6
+		travel_danger = -10
+		#stationed_maa_damage_mult = 0.1
+		stationed_maa_toughness_mult = 0.2
+		defender_holding_advantage = 10
+		hostile_raid_time = 1.0
+	}
+	
+	county_modifier = {
+		monthly_county_control_growth_add = 0.5
 	}
 
 	ai_value = {
@@ -492,7 +560,6 @@ sellia_gateway = {
 
 	flag = travel_point_of_interest_martial_minor
 }
-
 
 grand_lift_dectus = {
 	construction_time = very_quick_construction_time
@@ -744,4 +811,178 @@ volcano_manor = {
 	type = special
 
 	flag = travel_point_of_interest_martial_minor
+}
+
+limgrave_colosseum = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_colosseum.dds"
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 1500
+
+	character_modifier = {
+		monthly_prestige = 0.2
+		prowess_per_prestige_level = 1
+		glory_hound_opinion = 5
+	}
+	province_modifier = {
+		defender_holding_advantage = 5
+		garrison_size = 0.25
+		fort_level = 2
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+caelid_colosseum = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_colosseum.dds"
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 1500
+
+	character_modifier = {
+		monthly_prestige = 0.2
+		prowess_per_prestige_level = 1
+		glory_hound_opinion = 5
+	}
+	province_modifier = {
+		defender_holding_advantage = 5
+		garrison_size = 0.25
+		fort_level = 2
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+royal_colosseum = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_colosseum.dds"
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 1500
+
+	character_modifier = {
+		monthly_prestige = 0.2
+		prowess_per_prestige_level = 1
+		glory_hound_opinion = 5
+	}
+	province_modifier = {
+		defender_holding_advantage = 5
+		garrison_size = 0.25
+		fort_level = 2
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+church_of_marika = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "church_of_marika.dds"
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 600
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_piety = 0.2
+		same_faith_opinion = 10
+		different_faith_opinion = -10
+		domain_tax_same_faith_mult = 0.05
+	}
+	county_modifier = {
+		county_opinion_add = 10
+		monthly_county_control_growth_factor = 0.05
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_learning_minor
+}
+
+oridys_rise = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_legendary_watchtower.dds"
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 800
+
+	character_modifier = {
+		monthly_learning_lifestyle_xp_gain_mult = 0.15
+		learning = 1
+	}
+	province_modifier = {
+		fort_level = 1
+	}
+	county_modifier = {
+		epidemic_resistance = 10
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_learning
 }
