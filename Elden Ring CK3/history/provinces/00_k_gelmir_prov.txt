@@ -4,25 +4,25 @@
 # R246G141B106
 1086 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = castle_holding
 }
 # R143G182B104
 2066 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R180G202B169
 231 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R219G3B59
 1750 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 
@@ -31,19 +31,19 @@
 # R50G86B168
 1242 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = castle_holding
 }
 # R50G144B161
 1288 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R166G2B8
 2549 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 
@@ -52,31 +52,31 @@
 # R77G168B6
 961 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = castle_holding
 }
 # R210G193B134
 2548 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R145G172B201
 990 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R219G91B85
 438 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R137G121B85
 560 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 
@@ -85,25 +85,25 @@
 # R76G110B15
 67 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = castle_holding
 }
 # R176G116B174
 1122 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R85G39B150
 1693 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R89G163B192
 1013 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 
@@ -114,25 +114,25 @@
 # R33G248B4
 2482 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = castle_holding
 }
 # R26G233B88
 46 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R12G152B60
 2409 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R152G90B86
 781 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 
@@ -141,19 +141,19 @@
 # R31G1B0
 455 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = castle_holding
 }
 # R83G75B20
 1689 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R61G163B26
 2554 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 
@@ -162,13 +162,13 @@
 # R171G87B96
 171 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = castle_holding
 }
 # R158G191B53
 919 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 
@@ -177,13 +177,13 @@
 # LAKE
 3133 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = castle_holding
 }
 # LAKE
 3130 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 
@@ -194,25 +194,25 @@
 # R98G76B96
 525 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = castle_holding
 }
 # R153G162B111
 1621 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R16G144B140
 453 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R61G57B102
 2553 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 
@@ -221,19 +221,19 @@
 # R177G228B84
 267 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = castle_holding
 }
 # R172G153B44
 1548 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R190G44B221
 2039 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 
@@ -242,19 +242,19 @@
 # R25G39B119
 1227 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = castle_holding
 }
 # R176G79B219
 1714 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R68G27B137
 2381 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 
@@ -265,31 +265,31 @@
 # R227G162B25
 2102 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = castle_holding
 }
 # R225G1B95
 338 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R159G179B106
 2550 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # LAKE
 3129 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # LAKE
 3128 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 
@@ -298,25 +298,25 @@
 # R88G175B44
 1996 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = castle_holding
 }
 # R170G255B43
 2402 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R43G134B151
 758 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # LAKE
 3131 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 
@@ -327,31 +327,31 @@
 # R49G251B15
 2272 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = castle_holding
 }
 # R200G159B136
 1558 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R14G82B155
 713 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R66G250B79
 415 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # LAKE
 3134 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 
@@ -360,19 +360,19 @@
 # R140G19B125
 1051 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = castle_holding
 }
 # R13G57B162
 466 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # LAKE
 3135 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 
@@ -381,25 +381,25 @@
 # LAKE
 3137 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = castle_holding
 }
 # R184G78B93
 1565 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R14G250B89
 1966 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 # R109G211B80
 587 = {
 	culture = cul_gelmir
-	religion = faith_golden
+	religion = faith_god_snake
 	holding = none
 }
 
