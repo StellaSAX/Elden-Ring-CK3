@@ -186,9 +186,12 @@ cul_liurnia = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_liurnian_scholarship
-		tradition_loyal_soldiers
 		tradition_wetlanders
-		tradition_city_keepers
+		tradition_agrarian
+		tradition_strength_in_numbers
+		tradition_talent_acquisition
+		tradition_fp3_beacon_of_learning
+		tradition_ce1_ritual_washing
 	}
 
 	name_list = name_list_frankish
@@ -221,9 +224,12 @@ cul_caria = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_carian_royal
-		tradition_philosopher_culture
 		tradition_wetlanders
+		tradition_wedding_ceremonies
 		tradition_hereditary_hierarchy
+		tradition_warrior_monks
+		tradition_philosopher_culture
+		tradition_sorcerous_metallurgy
 	}
 
 	name_list = name_list_frankish
@@ -255,10 +261,13 @@ cul_caelid = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_dryland_dwellers
+		tradition_pastoralists
+		tradition_warriors_of_the_dry
 		tradition_warriors_by_merit
-		tradition_faith_bound
-		tradition_ce1_ritual_washing #make something for them later, like "purified by fire"
-		tradition_hard_working
+		tradition_warrior_culture
+		tradition_festivities
+		#tradition_ce1_ritual_washing #make something for them later, like "purified by fire"
 	}
 
 	name_list = name_list_frankish
@@ -288,10 +297,13 @@ cul_dragonbarrow = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_battlefield_looters
 		tradition_dragon_communion
+		tradition_dryland_dwellers
+		tradition_hill_dwellers
+		tradition_battlefield_looters
+		tradition_warriors_of_the_dry
 		tradition_xenophilic
-		tradition_life_is_just_a_joke
+		tradition_sacred_mountains
 	}
 
 	name_list = name_list_frankish
@@ -322,9 +334,12 @@ cul_sellia = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_carian_royal
-		tradition_sorcerous_metallurgy
-		tradition_mendicant_mystics
 		tradition_city_keepers
+		tradition_dryland_dwellers
+		tradition_only_the_strong
+		tradition_mendicant_mystics
+		tradition_zealous_people
+		tradition_sorcerous_metallurgy
 	}
 
 	name_list = name_list_frankish
@@ -357,9 +372,13 @@ cul_leyndell = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_golden_order
-		tradition_by_the_sword
-		tradition_ruling_caste
+		tradition_castle_keepers
+		tradition_metal_craftsmanship
 		tradition_astute_diplomats
+		tradition_ruling_caste
+		tradition_formation_fighting
+		tradition_stand_and_fight
+		tradition_martial_admiration
 	}
 
 	name_list = name_list_frankish
@@ -390,10 +409,11 @@ cul_altus = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_golden_order
-		tradition_by_the_sword
+		tradition_agrarian
+		tradition_metal_craftsmanship
 		tradition_stalwart_defenders
-		tradition_fervent_temple_builders
-		tradition_pastoralists
+		tradition_welcoming
+		tradition_festivities
 		#tradition_zealous_people that would fit, but it would make it a pain to change the religion of huge parts of the map
 	}
 
@@ -424,9 +444,12 @@ cul_gelmir = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_eye_for_an_eye
+		tradition_mountain_homes
+		tradition_staunch_traditionalists
+		tradition_battlefield_looters
+		tradition_highland_warriors
 		tradition_mountaineers
-		tradition_stalwart_defenders
+		tradition_eye_for_an_eye
 		tradition_by_the_sword
 	}
 
@@ -460,9 +483,13 @@ cul_northerner = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_giants_fire
-		tradition_loyal_soldiers
 		tradition_mountain_homes
+		tradition_isolationist
+		tradition_winter_warriors
+		tradition_mountaineers
+		tradition_highland_warriors
 		tradition_spartan
+		tradition_sacred_mountains
 	}
 
 	name_list = name_list_frankish
@@ -492,10 +519,12 @@ cul_low_northerner = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_giants_fire
-		tradition_loyal_soldiers
 		tradition_mountain_homes
-		tradition_spartan
+		tradition_isolationist
+		tradition_winter_warriors
+		tradition_highland_warriors
+		tradition_charitable
+		tradition_xenophilic
 	}
 
 	name_list = name_list_frankish
@@ -527,6 +556,7 @@ cul_giant = {
 		tradition_mountain_homes
 		tradition_isolationist
 		tradition_mountaineers
+		tradition_highland_warriors
 	}
 
 	name_list = name_list_frankish
