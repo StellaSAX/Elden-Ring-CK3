@@ -20,12 +20,19 @@ Rykard (Human)
 Kenneth Haight
 Edgar
 Gostoc
+Gideon Ofnir
+Patches
+Sellen
+Jerren
+Vyke
+Bloody Finger Nerijus
+Eleonora, Violet Bloody Finger
+Anna
 
 To-Do:
 
 Roderika
 Brother Corhyn
-Gideon Ofnir
 Darian (D)
 Devin (Other D)
 Diallos
@@ -33,9 +40,7 @@ Dung Eater
 Nepheli Loux
 Fia
 Rogier
-Patches
 Seluvis
-Sellen
 Gowry
 Thops
 Big Boggart
@@ -43,7 +48,6 @@ Varre
 Tanith
 Yura
 Goldmask
-Jerren
 Azur
 Lusat
 Millicent
@@ -56,12 +60,9 @@ Latenna
 Rya
 Anastasia, Tarnished Eater
 Ensha
-Vyke
 Inquisitor Ghiza
 Mad Tongue Alberich
-Bloody Finger Nerijus
 Bloody Finger Okina
-Eleonora, Violet Bloody Finger
 Bernahl
 Dryleaf Dane
 Moore
@@ -89,7 +90,6 @@ Lanya
 Juno Hoslow
 Necromancer Garris
 Lionel the Lionhearted
-Anna
 Jolan
 Queelign
 Madding Hand
