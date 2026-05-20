@@ -41,10 +41,12 @@ cul_limgrave = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_castle_keepers
-		tradition_stormlords
-		tradition_loyal_soldiers
-		tradition_ruling_caste
+		tradition_agrarian
+		tradition_culture_blending
+		tradition_horse_breeder
+		tradition_swords_for_hire
+		tradition_welcoming
+		tradition_culinary_art
 	}
 
 	name_list = name_list_frankish
@@ -74,10 +76,12 @@ cul_mistwood = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_eye_for_an_eye
-		tradition_castle_keepers
-		tradition_loyal_soldiers
-		tradition_reverence_for_veterans
+		tradition_forest_folk
+		tradition_staunch_traditionalists
+		tradition_adaptive_skirmishing
+		tradition_forest_fighters
+		tradition_storytellers
+		tradition_medicinal_plants
 	}
 
 	name_list = name_list_frankish
@@ -101,16 +105,20 @@ cul_stormhill = {
 	parents = { cul_limgrave }
 	history_loc_override = created_long_ago_loc
 	created = 676.11.4
-	ethos = ethos_stoic
+	ethos = ethos_bellicose
 	heritage = heritage_lands_between
 	language = language_lands_between
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_eye_for_an_eye
+		tradition_stormlords
 		tradition_castle_keepers
-		tradition_loyal_soldiers
+		tradition_ruling_caste
+		tradition_stand_and_fight
 		tradition_reverence_for_veterans
+		tradition_eye_for_an_eye
+		tradition_loyal_soldiers
+		tradition_fp2_strategy_gamers
 	}
 
 	name_list = name_list_frankish
@@ -140,10 +148,12 @@ cul_weeping_peninsula = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_eye_for_an_eye
-		tradition_castle_keepers
-		tradition_loyal_soldiers
-		tradition_reverence_for_veterans
+		tradition_forest_folk
+		tradition_isolationist
+		tradition_forest_fighters
+		tradition_stalwart_defenders
+		tradition_modest
+		tradition_forbearing
 	}
 
 	name_list = name_list_frankish
@@ -177,7 +187,7 @@ cul_liurnia = {
 	traditions = {
 		tradition_liurnian_scholarship
 		tradition_loyal_soldiers
-		tradition_wetlanders	
+		tradition_wetlanders
 		tradition_city_keepers
 	}
 
@@ -212,7 +222,7 @@ cul_caria = {
 	traditions = {
 		tradition_carian_royal
 		tradition_philosopher_culture
-		tradition_wetlanders	
+		tradition_wetlanders
 		tradition_hereditary_hierarchy
 	}
 
@@ -373,16 +383,17 @@ cul_altus = {
 	parents = { cul_landsbetween cul_badlands }
 	history_loc_override = created_long_ago_loc
 	created = 576.11.4
-	ethos = ethos_courtly
+	ethos = ethos_egalitarian
 	heritage = heritage_lands_between
 	language = language_lands_between
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_golden_order
 		tradition_by_the_sword
 		tradition_stalwart_defenders
-		tradition_golden_order
 		tradition_fervent_temple_builders
+		tradition_pastoralists
 		#tradition_zealous_people that would fit, but it would make it a pain to change the religion of huge parts of the map
 	}
 
@@ -407,7 +418,7 @@ cul_gelmir = {
 	parents = { cul_altus }
 	history_loc_override = created_long_ago_loc
 	created = 676.11.4
-	ethos = ethos_bureaucratic
+	ethos = ethos_bellicose
 	heritage = heritage_lands_between
 	language = language_lands_between
 	martial_custom = martial_custom_male_only
@@ -442,7 +453,7 @@ cul_northerner = {
 	parents = { cul_giant cul_landsbetween }
 	history_loc_override = created_long_ago_loc
 	created = 576.11.4
-	ethos = ethos_courtly
+	ethos = ethos_communal
 	heritage = heritage_lands_between
 	language = language_lands_between
 	martial_custom = martial_custom_male_only
@@ -475,7 +486,7 @@ cul_low_northerner = {
 	parents = { cul_northerner }
 	history_loc_override = created_long_ago_loc
 	created = 876.11.4
-	ethos = ethos_courtly
+	ethos = ethos_communal
 	heritage = heritage_lands_between
 	language = language_lands_between
 	martial_custom = martial_custom_male_only
@@ -572,7 +583,7 @@ cul_haligtree = {
 	parents = { cul_leyndell cul_altus }
 	history_loc_override = created_long_ago_loc
 	created = 5144.6.6
-	ethos = ethos_courtly
+	ethos = ethos_egalitarian
 	heritage = heritage_lands_between
 	language = language_lands_between
 	martial_custom = martial_custom_male_only
@@ -637,7 +648,6 @@ cul_nox = {
 
 cul_nightfolk = {
 	color = { 0.80 0.80 0.80 }
-
 	ethos = ethos_courtly
 	heritage = heritage_nightfolk
 	language = language_nightfolk
@@ -698,7 +708,6 @@ cul_astrologer = {
 
 cul_ancestral_follower = {
 	color = { 0.11 0.90 0.67 }
-
 	ethos = ethos_spiritual
 	heritage = heritage_ancestral_follower
 	language = language_ancestral_follower
@@ -728,8 +737,7 @@ cul_ancestral_follower = {
 
 cul_albinauric = {
 	color = { 0.80 0.80 0.80 }
-
-	ethos = ethos_courtly
+	ethos = ethos_communal
 	heritage = heritage_albinauric
 	language = language_albinauric
 	martial_custom = martial_custom_male_only

@@ -1,6 +1,5 @@
 cul_beastman = {
 	color = { 0.80 0.50 0.1 }
-
 	ethos = ethos_bellicose
 	heritage = heritage_beastman
 	language = language_beastman
@@ -31,7 +30,6 @@ cul_beastman = {
 
 cul_demihuman = {
 	color = { 0.80 0.50 0.1 }
-
 	ethos = ethos_bellicose
 	heritage = heritage_demihuman
 	language = language_demihuman
@@ -62,7 +60,6 @@ cul_demihuman = {
 
 cul_misbegotten = {
 	color = { 0.80 0.50 0.1 }
-
 	ethos = ethos_bellicose
 	heritage = heritage_misbegotten
 	language = language_misbegotten

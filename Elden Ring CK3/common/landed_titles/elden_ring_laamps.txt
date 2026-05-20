@@ -3,9 +3,9 @@
 @always_primary_score = 1000
 @never_primary_score = -1000
 
-d_laamp_bloodyfinger = {
+d_laamp_bigjeffepic = {
 	color = { 100 100 100 }
-	capital = c_R66G183B193
+	capital = c_R135G154B184
 	landless = yes
 
 	definite_form = yes
@@ -18,9 +18,9 @@ d_laamp_bloodyfinger = {
 	}
 }
 
-d_laamp_bigjeffepic = {
+d_laamp_bloodyfinger = {
 	color = { 100 100 100 }
-	capital = c_R53G188B216
+	capital = c_R66G183B193
 	landless = yes
 
 	definite_form = yes
@@ -230,7 +230,7 @@ d_laamp_samuel = {
 
 d_laamp_sellen = {
 	color = { 100 100 100 }
-	capital = c_R55G187B173
+	capital = c_R82G212B218
 	landless = yes
 
 	definite_form = yes
