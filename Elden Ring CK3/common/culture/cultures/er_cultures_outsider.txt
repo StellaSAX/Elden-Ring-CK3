@@ -1,5 +1,5 @@
 cul_badlands = {
-	color = { 0.80 0.50 0.1 }
+	color = { 0.69 0.52 0.3 }
 	ethos = ethos_stoic
 	heritage = heritage_lands_between
 	language = language_lands_between
@@ -29,7 +29,7 @@ cul_badlands = {
 }
 
 cul_reedlander = {
-	color = { 0.99 0.05 0.05 }
+	color = { 0.69 0.31 0.59 }
 	ethos = ethos_bellicose
 	heritage = heritage_reedlander
 	language = language_reedlander
@@ -57,7 +57,7 @@ cul_reedlander = {
 }
 
 cul_numen = {
-	color = { 0.10 0.8 0.10 }
+	color = { 0.7 0.68 0.75 }
 	created = 246.5.3
 	ethos = ethos_spiritual
 	heritage = heritage_numen
@@ -87,7 +87,7 @@ cul_numen = {
 }
 
 cul_eochaid = {
-	color = { 0.80 0.50 0.1 }
+	color = { 0.77 0.28 0.0 }
 	ethos = ethos_bellicose
 	heritage = heritage_eochaid
 	language = language_eochaid
@@ -117,7 +117,7 @@ cul_eochaid = {
 }
 
 cul_ranah = {
-	color = { 0.80 0.50 0.1 }
+	color = { 0.77 0.62 0.77 }
 	ethos = ethos_courtly
 	heritage = heritage_ranah
 	language = language_ranah

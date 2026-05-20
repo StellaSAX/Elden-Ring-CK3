@@ -1,5 +1,5 @@
 cul_landsbetween = {
-	color = { 0.98 0.79 0.24 }
+	color = { 0.89 0.88 0.1 }
 
 	ethos = ethos_communal
 	heritage = heritage_lands_between
@@ -31,7 +31,7 @@ cul_landsbetween = {
 ### LIMGRAVE REGION ###
 
 cul_limgrave = {
-	color = { 0.95 0.87 0.06 }
+	color = { 0.61 0.86 0.12 }
 	parents = { cul_landsbetween }
 	created = 576.11.4
 	history_loc_override = created_long_ago_loc
@@ -66,7 +66,7 @@ cul_limgrave = {
 }
 
 cul_mistwood = {
-	color = { 0.93 0.99 0.59 }
+	color = { 0.28 0.5 0.05 }
 	parents = { cul_limgrave }
 	history_loc_override = created_long_ago_loc
 	created = 676.11.4
@@ -101,7 +101,7 @@ cul_mistwood = {
 }
 
 cul_stormhill = {
-	color = { 0.93 0.99 0.59 }
+	color = { 0.73 0.8 0.1 }
 	parents = { cul_limgrave }
 	history_loc_override = created_long_ago_loc
 	created = 676.11.4
@@ -138,7 +138,7 @@ cul_stormhill = {
 }
 
 cul_weeping_peninsula = {
-	color = { 0.93 0.99 0.59 }
+	color = { 0.15 0.6 0.28 }
 	parents = { cul_limgrave }
 	history_loc_override = created_long_ago_loc
 	created = 676.11.4
@@ -175,7 +175,7 @@ cul_weeping_peninsula = {
 ### LIURNIA REGION ###
 
 cul_liurnia = {
-	color = { 0.10 0.10 0.80 }
+	color = { 0.22 0.39 0.73 }
 	parents = { cul_astrologer cul_landsbetween }
 	history_loc_override = created_long_ago_loc
 	created = 676.10.4
@@ -210,7 +210,7 @@ cul_liurnia = {
 }
 
 cul_caria = {
-	color = { 0.25 0.05 0.80 }
+	color = { 0.06 0.62 0.82 }
 	parents = { cul_astrologer cul_landsbetween }
 	history_loc_override = created_long_ago_loc
 	created = 676.10.4
@@ -245,7 +245,7 @@ cul_caria = {
 ### CAELID REGION ###
 
 cul_caelid = {
-	color = { 0.5 0.05 0.05 }
+	color = { 0.82 0.7 0.49 }
 	parents = { cul_landsbetween }
 	history_loc_override = created_long_ago_loc
 	created = 576.11.4
@@ -278,7 +278,7 @@ cul_caelid = {
 }
 
 cul_dragonbarrow = {
-	color = { 0.5 0.7 0.5 }
+	color = { 0.55 0.41 0.22 }
 	parents = { cul_draconian }
 	history_loc_override = created_long_ago_loc
 	created = 576.11.4
@@ -311,7 +311,7 @@ cul_dragonbarrow = {
 }
 
 cul_sellia = {
-	color = { 0.6 0.10 0.6 }
+	color = { 0.12 0.84 0.85 }
 	parents = { cul_liurnia cul_nox }
 	history_loc_override = created_long_ago_loc
 	created = 792.6.9
@@ -346,7 +346,7 @@ cul_sellia = {
 ### ALTUS REGION ###
 
 cul_leyndell = {
-	color = { 0.9 0.80 0.50 }
+	color = { 0.92 0.93 0.04 }
 	parents = { cul_numen cul_landsbetween }
 	history_loc_override = created_long_ago_loc
 	created = 739.11.4
@@ -379,7 +379,7 @@ cul_leyndell = {
 }
 
 cul_altus = {
-	color = { 0.98 0.79 0.24 }
+	color = { 0.86 0.72 0.09 }
 	parents = { cul_landsbetween cul_badlands }
 	history_loc_override = created_long_ago_loc
 	created = 576.11.4
@@ -414,7 +414,7 @@ cul_altus = {
 }
 
 cul_gelmir = {
-	color = { 0.99 0.53 0.10 }
+	color = { 0.6 0.53 0.47 }
 	parents = { cul_altus }
 	history_loc_override = created_long_ago_loc
 	created = 676.11.4
@@ -449,7 +449,7 @@ cul_gelmir = {
 ### MOUNTAINTOP REGION ###
 
 cul_northerner = {
-	color = { 0.8 0.2 0.1 }
+	color = { 0.36 0.6 0.66 }
 	parents = { cul_giant cul_landsbetween }
 	history_loc_override = created_long_ago_loc
 	created = 576.11.4
@@ -482,7 +482,7 @@ cul_northerner = {
 }
 
 cul_low_northerner = {
-	color = { 0.8 0.2 0.1 }
+	color = { 0.74 0.91 0.93 }
 	parents = { cul_northerner }
 	history_loc_override = created_long_ago_loc
 	created = 876.11.4
@@ -515,7 +515,7 @@ cul_low_northerner = {
 }
 
 cul_giant = {
-	color = { 0.68 0.11 0.0 }
+	color = { 0.77 0.38 0.0 }
 	created = 476.11.4
 	ethos = ethos_spiritual
 	heritage = heritage_giant
@@ -544,7 +544,7 @@ cul_giant = {
 }
 
 cul_zamor = {
-	color = { 0.84 0.95 0.99 }
+	color = { 0.52 0.56 0.57 }
 	parents = { cul_landsbetween }
 	history_loc_override = created_long_ago_loc
 	created = 476.11.4
@@ -579,7 +579,7 @@ cul_zamor = {
 ### HALIGTREE REGION ###
 
 cul_haligtree = {
-	color = { 0.9 0.80 0.50 }
+	color = { 0.81 0.88 0.1 }
 	parents = { cul_leyndell cul_altus }
 	history_loc_override = created_long_ago_loc
 	created = 5144.6.6
@@ -614,7 +614,7 @@ cul_haligtree = {
 ### OTHER ###
 
 cul_nox = {
-	color = { 0.80 0.80 0.80 }
+	color = { 0.18 0.07 0.57 }
 	parents = { cul_nightfolk }
 	history_loc_override = created_long_ago_loc
 	created = 502.9.2
@@ -647,7 +647,7 @@ cul_nox = {
 }
 
 cul_nightfolk = {
-	color = { 0.80 0.80 0.80 }
+	color = { 0.23 0.18 0.42 }
 	ethos = ethos_courtly
 	heritage = heritage_nightfolk
 	language = language_nightfolk
@@ -676,7 +676,7 @@ cul_nightfolk = {
 }
 
 cul_astrologer = {
-	color = { 0.10 0.10 0.80 }
+	color = { 0.38 0.58 0.79 }
 	created = 476.11.4
 	ethos = ethos_bureaucratic
 	heritage = heritage_astrologer
@@ -707,7 +707,7 @@ cul_astrologer = {
 }
 
 cul_ancestral_follower = {
-	color = { 0.11 0.90 0.67 }
+	color = { 0.04 0.84 0.84 }
 	ethos = ethos_spiritual
 	heritage = heritage_ancestral_follower
 	language = language_ancestral_follower
@@ -736,7 +736,7 @@ cul_ancestral_follower = {
 }
 
 cul_albinauric = {
-	color = { 0.80 0.80 0.80 }
+	color = { 0.69 0.69 0.69 }
 	ethos = ethos_communal
 	heritage = heritage_albinauric
 	language = language_albinauric

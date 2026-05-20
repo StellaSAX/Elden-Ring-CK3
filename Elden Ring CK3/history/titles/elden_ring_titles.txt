@@ -270,7 +270,21 @@ k_rayalucaria = {
 	}
 }
 k_stormveil = {
-	810.1.1 = {
+	1332.4.9 = {
+		holder = gaiser_stormlord
+	}
+	1352.7.6 = {
+		holder = 0
+	}
+	7621.3.7 = {
 		holder = godrick
+	}
+}
+e_limgrave = {
+	1332.4.9 = {
+		holder = gaiser_stormlord
+	}
+	1352.7.6 = {
+		holder = 0
 	}
 }

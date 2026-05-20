@@ -37,12 +37,12 @@
 
 scarlet_rot = {
 	icon = "scarlet_rot.dds"
-	diplomacy = -5
-	stewardship = -5
-	intrigue = -5
-	learning = -5
-	martial = -5
-	prowess = -10
+	diplomacy_mult = -0.1
+	stewardship_mult = -0.1
+	intrigue_mult = -0.1
+	learning_mult = -0.1
+	martial_mult = -0.1
+	prowess_mult = -0.5
 	health = -7
 	elderly_health = -2
 	fertility = -0.2
@@ -51,7 +51,7 @@ scarlet_rot = {
 
 	attraction_opinion = -10
 	
-	ruler_designer_cost = 0
+	ruler_designer_cost = -20
 
 	flag = illness
 	flag = debilitating_illness
@@ -118,12 +118,12 @@ crucified_erdtree = {
 	monthly_merit_mult = -1.0
 	diplomatic_range_mult = -1.0
 	
-	diplomacy = -100
-	stewardship = -100
-	intrigue = -100
-	learning = -100
-	martial = -100
-	prowess = -100
+	diplomacy_mult = -1
+	stewardship_mult = -1
+	intrigue_mult = -1
+	learning_mult = -1
+	martial_mult = -1
+	prowess_mult = -1
 	
 	flag = can_not_marry
 	

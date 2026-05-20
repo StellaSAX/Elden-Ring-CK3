@@ -1,5 +1,5 @@
 cul_shadowlander = {
-	color = { 0.99 0.46 0.14 }
+	color = { 0.72 0.6 0.4 }
 	parents = { cul_landsbetween } #This culture is the mix of all the ones that accompanied Messmer, not Messmer himself. From altus, liurnia and anywhere else, who knows, i imagine a lot of people from all over the lands between. I put their common ancestor as their parent.
 	history_loc_override = mixed_leyndell_shadowlander_loc
 	created = 1810.1.1
@@ -32,7 +32,7 @@ cul_shadowlander = {
 }
 
 cul_hornsent = {
-	color = { 0.77 0.77 0.05 }
+	color = { 0.82 0.82 0.0 }
 	created = 476.11.4
 	ethos = ethos_spiritual
 	heritage = heritage_hornsent
@@ -63,7 +63,7 @@ cul_hornsent = {
 }
 
 cul_jagged = {
-	color = { 0.7 0.5 0.5 }
+	color = { 0.48 0.29 0.09 }
 	parents = { cul_draconian } #draconians that accompanied Bayle
 	created = 476.11.4
 	history_loc_override = created_long_ago_loc
@@ -96,7 +96,7 @@ cul_jagged = {
 }
 
 cul_rauh = {
-	color = { 0.93 0.99 0.59 }
+	color = { 0.25 0.93 0.04 }
 	created = 288.10.3
 	ethos = ethos_spiritual
 	heritage = heritage_rauh
@@ -126,7 +126,7 @@ cul_rauh = {
 }
 
 cul_cerulean = {
-	color = { 0.93 0.99 0.59 }
+	color = { 0.07 0.58 0.81 }
 	created = 988.10.3
 	ethos = ethos_communal
 	heritage = heritage_lands_between
@@ -156,7 +156,7 @@ cul_cerulean = {
 }
 
 cul_charolean = {
-	color = { 0.93 0.99 0.59 }
+	color = { 0.82 0.08 0.16 }
 	created = 988.10.3
 	ethos = ethos_stoic
 	heritage = heritage_lands_between
@@ -186,7 +186,7 @@ cul_charolean = {
 }
 
 cul_hinterlander = {
-	color = { 0.93 0.99 0.59 }
+	color = { 0.7 0.93 0.31 }
 	created = 502.3.6
 	ethos = ethos_egalitarian
 	heritage = heritage_lands_between
@@ -216,7 +216,7 @@ cul_hinterlander = {
 }
 
 cul_shaman = {
-	color = { 0.3 0.8 0.10 }
+	color = { 0.86 0.91 0.59 }
 	parents = { cul_numen }
 	history_loc_override = created_long_ago_loc
 	created = 476.11.4

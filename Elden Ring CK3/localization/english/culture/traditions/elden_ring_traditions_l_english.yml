@@ -9,7 +9,7 @@
  culture_parameter_glintstone_affinity_more_common:0 "[GetTrait('glintstone_affinity').GetName( GetNullCharacter )] will be more common in births."
 
  tradition_golden_order_name:0 "Order"
- tradition_golden_order_desc:0 "There is one god, and they walk amoung us, their word is law and they gifted us with a long life, may their order last eternal!"
+ tradition_golden_order_desc:0 "There is one god, and they walk among us, their word is law and they gifted us with eternal life, may their order last forever and ever!"
  culture_parameter_order_affinity_more_common:0 "[GetTrait('order_affinity').GetName( GetNullCharacter )] will be more common in births."
 
  tradition_giants_fire_name:0 "Giants' Flame"

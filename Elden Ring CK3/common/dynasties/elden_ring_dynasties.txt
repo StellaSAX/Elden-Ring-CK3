@@ -113,6 +113,11 @@ dynn_ofnir = {
 	culture = cul_leyndell
 	motto = ofnir_motto
 }
+dynn_stormveil = {
+	name = "dynn_stormveil"
+	culture = cul_stormhill
+	motto = stormveil_motto
+}
 dynn_gallevile = {
 	name = "dynn_gallevile"
 	culture = cul_dragonbarrow

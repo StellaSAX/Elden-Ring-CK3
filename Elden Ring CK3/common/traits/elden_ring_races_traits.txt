@@ -106,8 +106,7 @@ albinauric_trait = {
 	category = health
 	icon = "albinauric.dds"
 	same_opinion = 50
-	immortal = yes
-	can_have_children = no
+	fertility = -0.5
 	life_expectancy = -20
 	shown_in_ruler_designer = no
 }

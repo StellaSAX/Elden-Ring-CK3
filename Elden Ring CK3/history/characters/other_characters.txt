@@ -44,3 +44,57 @@
 		}
 	}
 }
+
+gaiser_stormlord = {
+	name = "Gaiser"
+	dna = stormlord_dna
+	sexuality = heterosexual
+	dynasty = dynn_stormveil
+	martial = 15
+	diplomacy = 8
+	intrigue = 11
+	stewardship = 9
+	learning = 6
+	prowess = 13
+	religion = faith_crucible
+	culture = cul_stormhill
+	
+	disallow_random_traits = yes
+	
+	trait = arrogant
+	trait = brave
+	trait = ambitious
+	trait = stubborn
+	trait = education_martial_5
+	trait = physique_good_1
+	trait = strong
+	trait = rough_terrain_expert
+	trait = logistician
+	trait = organizer
+	trait = crucible_affinity
+	trait = lifestyle_blademaster
+	trait = overseer
+	trait = whole_of_body
+	trait = strategist
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_fp1_08
+			custom_beards=m_beard_fp3_iranian_03
+		}
+	}
+	
+	1307.3.8 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+		}
+	}
+	1352.7.6 = {
+		death = {
+			death_reason = death_duel
+			killer = hoarah_loux
+		}
+	}
+}
