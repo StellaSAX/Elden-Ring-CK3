@@ -69,15 +69,16 @@ godrick_footsoldier = {
 }
 
 godrick_soldier = {
-	type = light_infantry
+	type = heavy_infantry
 
-	damage = 28
-	toughness = 18
+	damage = 32
+	toughness = 22
 	pursuit = 0
 	screen = 0
 
 	counters = {
-		peasant_militia = 1
+		pikemen = 1
+		peasant_militia = 2
 	}
 
 	can_recruit = {
@@ -91,9 +92,9 @@ godrick_soldier = {
 		government_allows = subject_men_at_arms
 	}
 
-	buy_cost = { gold = 110 }
-	low_maintenance_cost = { gold = 0.49 }
-	high_maintenance_cost = { gold = 1.46 }
+	buy_cost = { gold = heavy_infantry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost }
 	provision_cost = @provisions_cost_infantry_moderate
 
 	holy_order_fallback = yes
@@ -110,16 +111,17 @@ godrick_soldier = {
 }
 
 godrick_knight = {
-	type = heavy_infantry
+	type = knight_infantry
 
-	damage = 32
-	toughness = 22
+	damage = 38
+	toughness = 40
 	pursuit = 0
 	screen = 0
 
 	counters = {
 		pikemen = 1
-		peasant_militia = 2
+		skirmishers = 1
+		peasant_militia = 3
 	}
 
 	can_recruit = {
@@ -139,14 +141,15 @@ godrick_knight = {
 		government_allows = subject_men_at_arms
 	}
 
-	buy_cost = { gold = heavy_infantry_recruitment_cost }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost }
-	provision_cost = @provisions_cost_infantry_moderate
+	buy_cost = { gold = 140 }
+	low_maintenance_cost = { gold = 0.54 }
+	high_maintenance_cost = { gold = 1.8 }
+	provision_cost = @provisions_cost_infantry_expensive
 
 	holy_order_fallback = yes
 
-	stack = 100
+	stack = 50
+	allowed_in_hired_troops = no
 	ai_quality = {
 		value = culture_ai_weight_heavy_infantry
 		add = counter_synergy_ai_weight_heavy_infantry
@@ -287,7 +290,7 @@ hornsent_curseblade = {
 
 #CARIAN FACTION
 troll_knight = {
-	type = heavy_infantry
+	type = troll
 	
 	damage = 100
 	toughness = 100
@@ -346,7 +349,7 @@ glintstone_miner = {
 }
 
 carian_battlemage = {
-	type = archers
+	type = sorcerer
 	
 	damage = 60
 	toughness = 10
@@ -374,13 +377,13 @@ carian_battlemage = {
 	low_maintenance_cost = { gold = 0.50 }
 	high_maintenance_cost = { gold = 1 }
 
-	stack = 50
+	stack = 60
 	allowed_in_hired_troops = no
 	icon = battlemage_carian
 }
 
 lazuli_sorcerer = {
-	type = skirmishers
+	type = sorcerer
 	
 	damage = 50
 	toughness = 20
@@ -404,25 +407,24 @@ lazuli_sorcerer = {
 	low_maintenance_cost = { gold = 0.50 }
 	high_maintenance_cost = { gold = 1 }
 
-	stack = 50
+	stack = 60
 	allowed_in_hired_troops = no
 	icon = lazuli_sorcerer
 }
 
 #LEYNDELL FACTION
 leyndell_knight = {
-	type = heavy_infantry
+	type = knight_infantry
 	
-	damage = 50
+	damage = 38
 	toughness = 40
 	pursuit = 0
 	screen = 0
-	
+
 	counters = {
 		pikemen = 1
 		skirmishers = 1
-		light_cavalry = 1
-		heavy_cavalry = 1
+		peasant_militia = 3
 	}
 	
 	can_recruit = {
@@ -431,11 +433,12 @@ leyndell_knight = {
 		}
 	}
 
-	buy_cost = { gold = 250 }
-	low_maintenance_cost = { gold = 0.50 }
-	high_maintenance_cost = { gold = 1 }
+	buy_cost = { gold = 140 }
+	low_maintenance_cost = { gold = 0.54 }
+	high_maintenance_cost = { gold = 1.8 }
+	provision_cost = @provisions_cost_infantry_expensive
 
-	stack = 100
+	stack = 50
 	allowed_in_hired_troops = no
 	icon = leyndell_knight
 }
@@ -464,7 +467,7 @@ leyndell_soldier = {
 }
 
 tree_sentinel = {
-	type = heavy_infantry
+	type = heavy_cavalry
 	
 	damage = 100
 	toughness = 50

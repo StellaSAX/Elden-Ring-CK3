@@ -1,4 +1,14 @@
-﻿light_infantry = {
-	texture = "gfx/interface/icons/regimenttypes/light_infantry.dds"
+﻿knight_infantry = {
+	texture = "gfx/interface/icons/regimenttypes/knight_infantry.dds"
+	parent = men_at_arms
+}
+
+troll = {
+	texture = "gfx/interface/icons/regimenttypes/troll.dds"
+	parent = men_at_arms
+}
+
+sorcerer = {
+	texture = "gfx/interface/icons/regimenttypes/sorcerer.dds"
 	parent = men_at_arms
 }
