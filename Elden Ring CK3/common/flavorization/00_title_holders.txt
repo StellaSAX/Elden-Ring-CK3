@@ -8,7 +8,7 @@
 #	gender = male
 #	special = holder
 #	tier = kingdom
-#	priority = 301
+#	priority = 302
 #	titles = { k_orthodox }
 #
 #	flavourization_rules = { 
@@ -21,7 +21,7 @@
 #	gender = female
 #	special = holder
 #	tier = kingdom
-#	priority = 301
+#	priority = 302
 #	titles = { k_orthodox }
 #	flavourization_rules = { 
 #		top_liege = no
@@ -32,7 +32,7 @@
 #	type = character
 #	gender = male
 #	special = holder
-#	priority = 301
+#	priority = 302
 #	titles = { d_sunni d_shiite h_dar_al_islam }
 #	flavourization_rules = { 
 #		top_liege = no
@@ -44,29 +44,17 @@ head_of_faith_male = {
 	type = character
 	gender = male
 	special = head_of_faith
-	priority = 300
+	priority = 301
 	flavourization_rules = { 
 		top_liege = no
 	}
-}
-
-head_of_faith_pope = {
-	type = character
-	gender = male
-	special = head_of_faith
-	priority = 1
-	flavourization_rules = { 
-		top_liege = no
-	}
-	governments = { theocracy_government }
-	faith = catholic
 }
 
 head_of_faith_female = {
 	type = character
 	gender = female
 	special = head_of_faith
-	priority = 300
+	priority = 301
 	flavourization_rules = { 
 		top_liege = no
 	}
@@ -76,7 +64,7 @@ realm_priest_male = {
 	type = character
 	gender = male
 	special = councillor
-	priority = 299
+	priority = 300
 	council_position = councillor_court_chaplain
 }
 
@@ -84,233 +72,8 @@ realm_priest_female = {
 	type = character
 	gender = female
 	special = councillor
-	priority = 299
+	priority = 300
 	council_position = councillor_court_chaplain
-}
-
-title_prince = {
-	type = character
-	gender = male
-	special = holder
-	priority = 60
-	titles = { k_switzerland k_armenian_principality k_saxony }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-title_princess = {
-	type = character
-	gender = female
-	special = holder
-	priority = 60
-	titles = { k_switzerland k_armenian_principality k_saxony }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-title_principality = {
-	type = title
-	titles = { k_armenian_principality k_saxony }
-	priority = 60
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-
-swiss_confederation = {
-	type = title
-	titles = { k_switzerland }
-	priority = 60
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-
-archduke = {
-	type = character
-	gender = male
-	special = holder
-	priority = 47
-	titles = { k_austria }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-archduchess = {
-	type = character
-	gender = female
-	special = holder
-	priority = 47
-	titles = { k_austria }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-archduchy = {
-	type = title
-	tier = kingdom
-	titles = { k_austria }
-	priority = 47
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-
-title_high_king = {
-	type = character
-	tier = empire
-	gender = male
-	special = holder
-	priority = 102
-	titles = { e_north_sea }
-}
-title_high_queen = {
-	type = character
-	tier = empire
-	gender = female
-	special = holder
-	priority = 102
-	titles = { e_north_sea }
-}
-title_high_kingdom = {
-	type = title
-	tier = empire
-	titles = { e_north_sea }
-	priority = 102
-}
-
-dauphin_male_french = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 40
-	heritages = { heritage_frankish }
-	titles = { d_dauphine }
-	governments = { feudal_government }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-dauphin_female_french = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 40
-	heritages = { heritage_frankish }
-	titles = { d_dauphine }
-	governments = { feudal_government }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-dauphinate_french = {
-	type = title
-	tier = duchy
-	priority = 40
-	heritages = { heritage_frankish }
-	titles = { d_dauphine }
-	governments = { feudal_government }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-
-count_feudal_male_e_britannia = { # Earl
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 17
-	governments = { feudal_government }
-	de_jure_liege = { e_britannia }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-count_feudal_female_e_britannia = { # Countess
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 17
-	governments = { feudal_government }
-	de_jure_liege = { e_britannia }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-county_feudal_e_britannia = {
-	type = title
-	tier = county
-	priority = 17
-	governments = { feudal_government tribal_government }
-	de_jure_liege = { e_britannia }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-
-count_feudal_male_k_wales = { # Lord
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 19
-	governments = { feudal_government }
-	de_jure_liege = { k_wales }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-count_feudal_female_k_wales = { # Lady
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 19
-	governments = { feudal_government }
-	de_jure_liege = { k_wales }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-county_feudal_k_wales = { # Lordship
-	type = title
-	tier = county
-	priority = 19
-	governments = { feudal_government tribal_government }
-	de_jure_liege = { k_wales }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-
-king_feudal_male_k_ireland_irish = { # High King
-	type = character
-	gender = male
-	special = holder
-	priority = 47
-	name_lists = { name_list_irish }
-	governments = { tribal_government clan_government feudal_government administrative_government }
-	titles = { k_ireland }
-	flavourization_rules = { 
-		only_independent = yes
-	}
-}
-
-king_feudal_female_k_ireland_irish = { # High Queen
-	type = character
-	gender = female
-	special = holder
-	priority = 47
-	name_lists = { name_list_irish }
-	governments = { tribal_government clan_government feudal_government administrative_government }
-	titles = { k_ireland }
-	flavourization_rules = { 
-		only_independent = yes
-	}
 }
 
 #############################################
