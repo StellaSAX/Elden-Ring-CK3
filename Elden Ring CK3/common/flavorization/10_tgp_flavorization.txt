@@ -1,0 +1,108 @@
+﻿emperor_prime_minister_male = {
+	type = character
+	special = holder
+	gender = male
+	tier = empire
+	priority = 200
+	governments = { meritocratic_government }
+	flag = ceremonial_regent_flag
+	flavourization_rules = { 
+		only_holder = yes
+	}
+}
+emperor_prime_minister_female = {
+	type = character
+	special = holder
+	gender = female
+	tier = empire
+	priority = 200
+	governments = { meritocratic_government }
+	flag = ceremonial_regent_flag
+	flavourization_rules = { 
+		only_holder = yes
+	}
+}
+
+prince_king_male_administrative = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	governments = { administrative_government meritocratic_government steppe_admin_government }
+	priority = 35
+	flavourization_rules = { 
+		top_liege = no
+		only_independent = yes
+		spouse_takes_title = no
+	}
+}
+
+prince_king_female_administrative = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	governments = { administrative_government meritocratic_government steppe_admin_government }
+	priority = 35
+	flavourization_rules = { 
+		top_liege = no
+		only_independent = yes
+		spouse_takes_title = no
+	}
+}
+
+prince_emperor_male_administrative = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	governments = { administrative_government meritocratic_government steppe_admin_government }
+	priority = 35
+	flavourization_rules = { 
+		top_liege = no
+		only_independent = yes
+		spouse_takes_title = no
+	}
+}
+
+prince_emperor_female_administrative = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	governments = { administrative_government meritocratic_government steppe_admin_government }
+	priority = 35
+	flavourization_rules = { 
+		top_liege = no
+		only_independent = yes
+		spouse_takes_title = no
+	}
+}
+
+prince_hegemon_male_administrative = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = hegemony
+	governments = { administrative_government meritocratic_government steppe_admin_government }
+	priority = 35
+	flavourization_rules = { 
+		top_liege = no
+		only_independent = yes
+		spouse_takes_title = no
+	}
+}
+
+prince_hegemon_female_administrative = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = hegemony
+	governments = { administrative_government meritocratic_government steppe_admin_government }
+	priority = 35
+	flavourization_rules = { 
+		top_liege = no
+		only_independent = yes
+		spouse_takes_title = no
+	}
+}

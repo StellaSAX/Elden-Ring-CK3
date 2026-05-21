@@ -2,6 +2,7 @@
 #############################################
 
 # Special Titles
+
 #ecumenical_patriarch = {
 #	type = character
 #	gender = male
@@ -15,158 +16,27 @@
 #	}
 #}
 
-ecumenical_matriarch = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 301
-	titles = { k_orthodox }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-
-caliph = {
-	type = character
-	gender = male
-	special = holder
-	priority = 301
-	titles = { d_sunni d_shiite h_dar_al_islam }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-
-#emperor_male_carthaginian = {
-#	type = character
-#	gender = male
-#	tier = empire
-#	priority = 301
-#	heritages = { heritage_phoenician }
-#}
-
-# emperor_female_carthaginian = {
+#ecumenical_matriarch = {
 #	type = character
 #	gender = female
-#	tier = empire
-#	priority = 301
-#	heritages = { heritage_phoenician }
-#}
-
-#banim = {
-#	type = character
-#	gender = male
-#	special = ruler_child
-#	priority = 300
-#	heritages = { heritage_phoenician }
-#}
-
-#banut = {
-#	type = character
-#	gender = female
-#	special = ruler_child
-#	priority = 300
-#	heritages = { heritage_phoenician }
-#}
-
-king_male_carthaginian = {
-	type = character
-	gender = male
-	tier = kingdom
-	priority = 301
-	heritages = { heritage_phoenician }
-}
-
-king_female_carthaginian = {
-	type = character
-	gender = female
-	tier = kingdom
-	priority = 301
-	heritages = { heritage_phoenician }
-}
-
-duke_male_carthaginian = {
-	type = character
-	gender = male
-	tier = duchy
-	priority = 301
-	heritages = { heritage_phoenician }
-}
-
-duke_female_carthaginian = {
-	type = character
-	gender = female
-	tier = duchy
-	priority = 301
-	heritages = { heritage_phoenician }
-}
-
-count_male_carthaginian = {
-	type = character
-	gender = male
-	tier = county
-	priority = 301
-	heritages = { heritage_phoenician }
-}
-
-count_female_carthaginian = {
-	type = character
-	gender = female
-	tier = county
-	priority = 301
-	heritages = { heritage_phoenician }
-}
-
-baron_male_carthaginian = {
-	type = character
-	gender = male
-	tier = barony
-	priority = 301
-	heritages = { heritage_phoenician }
-}
-
-baron_female_carthaginian = {
-	type = character
-	gender = female
-	tier = barony
-	priority = 301
-	heritages = { heritage_phoenician }
-}
-
-#empire_carthaginian = {
-#	type = title
-#	tier = empire
-#	priority = 301
-#	heritages = { heritage_phoenician }
-#}
-
-#kingdom_carthaginian = {
-#	type = title
+#	special = holder
 #	tier = kingdom
 #	priority = 301
-#	heritages = { heritage_phoenician }
+#	titles = { k_orthodox }
+#	flavourization_rules = { 
+#		top_liege = no
+#	}
 #}
 
-#duchy_carthaginian = {
-#	type = title
-#	tier = duchy
+#caliph = {
+#	type = character
+#	gender = male
+#	special = holder
 #	priority = 301
-#	heritages = { heritage_phoenician }
-#}
-
-#county_carthaginian = {
-#	type = title
-#	tier = county
-#	priority = 301
-#	heritages = { heritage_phoenician }
-#}
-
-#barony_carthaginian = {
-#	type = title
-#	tier = barony
-#	priority = 301
-#	heritages = { heritage_phoenician }
+#	titles = { d_sunni d_shiite h_dar_al_islam }
+#	flavourization_rules = { 
+#		top_liege = no
+#	}
 #}
 
 # Religious Titles
