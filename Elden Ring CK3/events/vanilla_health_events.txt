@@ -46,6 +46,223 @@ namespace = health
 # LANDS BETWEEN PEOPLE ARE HEALTHY
 ##################
 
+# You have become infirm
+health.7000 = {
+	type = character_event
+	title = health.7000.t
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					age <= 40
+				}
+				desc = health.7000.desc_collapse
+			}
+			desc = health.7000.desc
+		}
+		desc = health.7000.desc_closing
+	}
+
+	left_portrait = {
+		character = root
+		animation = sick
+	}
+	theme = physical_health
+
+	trigger = {
+		NOR = {
+			has_trait = infirm
+			has_game_rule = off_elderly_health
+			has_trait_with_flag = is_immortal
+			
+			has_godhood_elden_ring = yes
+			is_demigod_elden_ring = yes
+			has_special_body = yes
+			is_tarnished = yes
+			global_var:rune_of_death_bound = yes
+		}
+		OR = {
+			age >= 45
+			AND = {
+				age >= 30
+				OR = {
+					has_trait = physique_bad
+					has_trait = spindly
+					has_trait = weak
+				}
+			}
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+
+		modifier = { #Shouldn't happen randomly for healthy characters
+			health >= good_health
+			age < 60
+			factor = 0
+		}
+		modifier = {
+			health >= fine_health
+			age < 60
+			factor = 0.8
+		}
+		modifier = {
+			health < fine_health
+			factor = 2
+		}
+		modifier = {
+			health <= poor_health
+			factor = 5
+		}
+		modifier = {
+			has_trait = physique_bad_2
+			factor = 1.2
+		}
+		modifier = {
+			has_trait = physique_bad_3
+			factor = 1.5
+		}
+		modifier = {
+			age < 50
+			factor = 0.7
+		}
+		modifier = {
+			age > 60
+			factor = 2
+		}
+		modifier = {
+			age > 70
+			factor = 2
+		}
+		modifier = {
+			age > 80
+			factor = 3
+		}
+		modifier = {
+			has_trait = athletic
+			factor = 0.8
+		}
+		modifier = {
+			has_trait = whole_of_body
+			factor = 0.8
+		}
+		modifier = {
+			has_trait = physique_good
+			factor = 0.8
+		}
+		modifier = {
+			has_trait = cancer
+			factor = 3
+		}
+		modifier = { # More likely if you have 2+ elderly traits
+			any_character_trait = {
+				count >= 2
+				has_trait_flag = age_related_ailment
+			}
+			factor = 3
+		}
+		modifier = {
+			faith = { has_doctrine_parameter = less_likely_to_become_infirm }
+			factor = 0.5
+		}
+		modifier = {
+			culture = { has_cultural_parameter = less_likely_to_gain_elder_health_traits }
+			factor = 0.5
+		}
+		modifier = { # Less likely before developing another age-related trait
+			trigger_if = {
+				limit = {
+					has_game_rule = infirm_only_elderly_health
+				}
+				always = no
+			}
+			NOT = {
+				has_trait_with_flag = age_related_ailment
+			}
+			factor = 0.25
+		}
+	}
+
+	option = {
+		name = {
+			trigger = { has_trait = lazy }
+			text = health.7000.a.lazy
+		}
+		name = {
+			text = health.7000.a
+		}
+
+		add_trait = infirm
+
+		stress_impact = {
+			lazy = minor_stress_loss
+			diligent = medium_stress_gain
+		}
+	}
+}
+
+# What day is it? You become depressed while infirm
+health.7100 = {
+	type = character_event
+	title = health.7000.t
+
+	desc = health.7100.desc
+
+	left_portrait = {
+		character = root
+		animation = sick
+	}
+	theme = physical_health
+
+	trigger = {
+		OR = {
+			has_trait = infirm
+			has_trait = incapable
+			has_trait = withering_mind
+		}
+		NOR = {
+			has_trait = depressed
+			has_character_flag = had_event_health_7100
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			factor = 0
+			ai_energy >= medium_positive_energy
+		}
+		modifier = {
+			factor = 1.2
+			ai_energy <= low_positive_energy
+		}
+		modifier = {
+			factor = 2
+			ai_energy <= low_negative_energy
+		}
+		modifier = {
+			factor = 3
+			ai_energy <= medium_negative_energy
+		}
+		modifier = {
+			factor = 4
+			ai_energy <= high_negative_energy
+		}
+	}
+
+	immediate = {
+		add_character_flag = had_event_health_7100
+	}
+
+	option = {
+		name = health.7100.a
+
+		add_trait = depressed_1
+	}
+}
+
 # Your mind starts to wither
 health.7200 = {
 	type = character_event
