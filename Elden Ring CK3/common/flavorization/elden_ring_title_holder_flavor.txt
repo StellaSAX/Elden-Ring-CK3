@@ -52,7 +52,7 @@ crusader_f = {
 	titles = { k_messmer_army }
 }
 
-stormlord_m = {
+stormlord = {
 	type = character
 	gender = male
 	special = holder
@@ -62,9 +62,11 @@ stormlord_m = {
 	flavourization_rules = { 
 		only_independent = yes
 	}
+	heritages = { heritage_lands_between }
+	faiths = { faith_crucible faith_spiral }
 }
 
-stormlord_f = {
+stormlady = {
 	type = character
 	gender = female
 	special = holder
@@ -74,6 +76,8 @@ stormlord_f = {
 	flavourization_rules = { 
 		only_independent = yes
 	}
+	heritages = { heritage_lands_between }
+	faiths = { faith_crucible faith_spiral }
 }
 
 protector_m = {
@@ -114,7 +118,7 @@ headmistress = {
 	religions = { cosmos_religion }
 }
 
-mothlord_m = {
+mothlord = {
 	type = character
 	gender = male
 	special = holder
@@ -126,7 +130,7 @@ mothlord_m = {
 	}
 }
 
-mothlord_f = {
+mothlady = {
 	type = character
 	gender = female
 	special = holder

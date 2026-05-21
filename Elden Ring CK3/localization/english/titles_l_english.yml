@@ -18,8 +18,8 @@
  crusader_m:0 "Lord"
  crusader_f:0 "Lady"
 
- stormlord_m:0 "Stormlord"
- stormlord_f:0 "Stormlady"
+ stormlord:0 "Stormlord"
+ stormlady:0 "Stormlady"
 
  protector_m:0 "Protector"
  protector_f:0 "Protector"
@@ -30,8 +30,8 @@
  preator_m:0 "Preator"
  preator_f:0 "Praetrix"
  
- mothlord_m:0 "Mothlord"
- mothlord_f:0 "Mothlady"
+ mothlord:0 "Mothlord"
+ mothlady:0 "Mothlady"
 
  d_laamp_miquella: "Followers of Miquella"
  d_laamp_miquella_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
