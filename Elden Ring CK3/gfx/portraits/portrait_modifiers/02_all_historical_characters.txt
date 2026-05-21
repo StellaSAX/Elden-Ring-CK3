@@ -41,8 +41,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:lineofradahn
-				this = character:lineofradahn
+				exists = character:radahn
+				this = character:radahn
 			}
 		}
 	}
@@ -82,8 +82,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:lineofmarika
-				this = character:lineofmarika
+				exists = character:marika
+				this = character:marika
 			}
 		}
 	}
@@ -137,8 +137,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:lineofmalenia
-				this = character:lineofmalenia
+				exists = character:malenia
+				this = character:malenia
 			}
 		}
 	}
@@ -180,8 +180,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:lineofmorgott
-				this = character:lineofmorgott
+				exists = character:morgott
+				this = character:morgott
 			}
 		}
 	}
@@ -223,8 +223,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:lineofgodrick
-				this = character:lineofgodrick
+				exists = character:godrick
+				this = character:godrick
 			}
 		}
 	}
@@ -272,8 +272,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:lineofmohg
-				this = character:lineofmohg
+				exists = character:mohg
+				this = character:mohg
 			}
 		}
 	}
@@ -320,8 +320,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:lineofrennala
-				this = character:lineofrennala
+				exists = character:rennala
+				this = character:rennala
 			}
 		}
 	}
@@ -368,8 +368,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:lineofranni
-				this = character:lineofranni
+				exists = character:ranni
+				this = character:ranni
 			}
 		}
 	}
@@ -411,8 +411,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:lineofmessmer
-				this = character:lineofmessmer
+				exists = character:messmer
+				this = character:messmer
 			}
 		}
 	}
