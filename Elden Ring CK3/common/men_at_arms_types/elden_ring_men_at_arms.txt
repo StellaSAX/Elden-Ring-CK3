@@ -47,6 +47,13 @@ godrick_footsoldier = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
 		}
+		OR = {
+			is_godrick = yes
+			
+			has_primary_title = title:e_limgrave
+			has_primary_title = title:k_stormveil
+			has_primary_title = title:d_stormveil
+		}
 	}
 
 	should_show_when_unavailable = {
@@ -66,6 +73,8 @@ godrick_footsoldier = {
 	illustration = {
 		reference = godrick_footsoldier
 	}
+	
+	icon = skirmishers
 }
 
 godrick_soldier = {
@@ -85,6 +94,13 @@ godrick_soldier = {
 		NOR = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
+		}
+		OR = {
+			is_godrick = yes
+			
+			has_primary_title = title:e_limgrave
+			has_primary_title = title:k_stormveil
+			has_primary_title = title:d_stormveil
 		}
 	}
 
@@ -108,6 +124,8 @@ godrick_soldier = {
 	illustration = {
 		reference = godrick_soldier
 	}
+	
+	icon = heavy_infantry
 }
 
 godrick_knight = {
@@ -135,6 +153,13 @@ godrick_knight = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
 		}
+		OR = {
+			is_godrick = yes
+			
+			has_primary_title = title:e_limgrave
+			has_primary_title = title:k_stormveil
+			has_primary_title = title:d_stormveil
+		}
 	}
 
 	should_show_when_unavailable = {
@@ -158,13 +183,119 @@ godrick_knight = {
 	illustration = {
 		reference = godrick_knight
 	}
+	
+	icon = knight_infantry
 }
 
-#HORNSENT FACTION
-horned_warrior = {
-	type = heavy_infantry
+#CAELID FACTION
+redmane_footsoldier = {
+	type = skirmishers
+
+	damage = 10
+	toughness = 16
+	pursuit = 10
+	screen = 16
+
+	terrain_bonus = {
+		forest = { damage = 4 toughness = 6 }
+		taiga = { damage = 4 toughness = 6 }
+		jungle = { damage = 4 toughness = 6 }
+	}
+
+	counters = {
+		heavy_infantry = 1
+	}
+
+	can_recruit = {
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+		OR = {
+			#is_radahn = yes
+			
+			has_primary_title = title:e_caelid
+			has_primary_title = title:k_redmane
+			has_primary_title = title:d_redmane_castle
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_cheap
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = { value = culture_ai_weight_skirmishers }
+
+	illustration = {
+		reference = redmane_footsoldier
+	}
 	
-	damage = 40
+	icon = skirmishers
+}
+
+redmane_soldier = {
+	type = heavy_infantry
+
+	damage = 32
+	toughness = 22
+	pursuit = 0
+	screen = 0
+
+	counters = {
+		pikemen = 1
+		peasant_militia = 2
+	}
+
+	can_recruit = {
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+		OR = {
+			#is_radahn = yes
+			
+			has_primary_title = title:e_caelid
+			has_primary_title = title:k_redmane
+			has_primary_title = title:d_redmane_castle
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { gold = heavy_infantry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_moderate
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = {
+		value = culture_ai_weight_heavy_infantry
+		add = counter_synergy_ai_weight_heavy_infantry
+	}
+
+	illustration = {
+		reference = redmane_soldier
+	}
+	
+	icon = heavy_infantry
+}
+
+redmane_knight = {
+	type = knight_infantry
+
+	damage = 38
 	toughness = 40
 	pursuit = 0
 	screen = 0
@@ -172,123 +303,218 @@ horned_warrior = {
 	counters = {
 		pikemen = 1
 		skirmishers = 1
-		light_cavalry = 1
-		heavy_cavalry = 1
+		peasant_militia = 3
 	}
-	
+
 	can_recruit = {
 		culture = {
-			has_cultural_parameter = convert_crucible_to_spiral
+			has_innovation = innovation_quilted_armor
+		}
+		NOT = {
+			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+		}
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+		OR = {
+			#is_radahn = yes
+			
+			has_primary_title = title:e_caelid
+			has_primary_title = title:k_redmane
+			has_primary_title = title:d_redmane_castle
 		}
 	}
 
-	buy_cost = { gold = 250 }
-	low_maintenance_cost = { gold = 0.50 }
-	high_maintenance_cost = { gold = 1 }
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { gold = 140 }
+	low_maintenance_cost = { gold = 0.54 }
+	high_maintenance_cost = { gold = 1.8 }
+	provision_cost = @provisions_cost_infantry_expensive
+
+	holy_order_fallback = yes
 
 	stack = 50
 	allowed_in_hired_troops = no
-	icon = horned_warrior
-}
-
-divine_bird_warrior = {
-	type = heavy_infantry
-	
-	damage = 100
-	toughness = 50
-	pursuit = 10
-	screen = 10
-	
-	siege_tier = 3
-	siege_value = 0.4
-	
-	counters = {
-		pikemen = 1
-		skirmishers = 1
-		light_cavalry = 1
-		heavy_cavalry = 1
+	ai_quality = {
+		value = culture_ai_weight_heavy_infantry
+		add = counter_synergy_ai_weight_heavy_infantry
 	}
 
-	can_recruit = {
-		culture = {
-			has_cultural_parameter = convert_crucible_to_spiral
-		}
-	}
-
-	buy_cost = { gold = 250 }
-	low_maintenance_cost = { gold = 0.50 }
-	high_maintenance_cost = { gold = 1 }
-
-	stack = 10
-	allowed_in_hired_troops = no
-	icon = divine_bird_warrior
-}
-
-hornsent_inquisitor = {
-	type = archers
-	
-	damage = 60
-	toughness = 10
-	pursuit = 0
-	screen = 0
-	
-	siege_tier = 3
-	siege_value = 0.4
-	
-	counters = {
-		skirmishers = 1
-		heavy_infantry = 1
-		light_cavalry = 1
-		heavy_cavalry = 1
-		pikemen = 1
+	illustration = {
+		reference = redmane_knight
 	}
 	
-	can_recruit = {
-		culture = {
-			has_cultural_parameter = convert_crucible_to_spiral
-		}
-	}
-
-	buy_cost = { gold = 250 }
-	low_maintenance_cost = { gold = 0.50 }
-	high_maintenance_cost = { gold = 1 }
-
-	stack = 50
-	allowed_in_hired_troops = no
-	icon = hornsent_inquisitor
-}
-
-hornsent_curseblade = {
-	type = skirmishers
-	
-	damage = 40
-	toughness = 20
-	pursuit = 50
-	screen = 50
-	
-	counters = {
-		heavy_infantry = 1
-		light_cavalry = 1
-		heavy_cavalry = 1
-		pikemen = 1
-	}
-
-	can_recruit = {
-		culture = {
-			has_cultural_parameter = convert_crucible_to_spiral
-		}
-	}
-
-	buy_cost = { gold = 250 }
-	low_maintenance_cost = { gold = 0.50 }
-	high_maintenance_cost = { gold = 1 }
-
-	stack = 50
-	allowed_in_hired_troops = no
-	icon = hornsent_curseblade
+	icon = knight_infantry
 }
 
 #CARIAN FACTION
+rayalucaria_footsoldier = {
+	type = skirmishers
+
+	damage = 10
+	toughness = 16
+	pursuit = 10
+	screen = 16
+
+	terrain_bonus = {
+		forest = { damage = 4 toughness = 6 }
+		taiga = { damage = 4 toughness = 6 }
+		jungle = { damage = 4 toughness = 6 }
+	}
+
+	counters = {
+		heavy_infantry = 1
+	}
+
+	can_recruit = {
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+		OR = {
+			has_primary_title = title:e_liurnia
+			has_primary_title = title:k_caria
+			has_primary_title = title:k_rayalucaria
+			has_primary_title = title:d_caria
+			has_primary_title = title:d_raya_lucaria
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_cheap
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = { value = culture_ai_weight_skirmishers }
+
+	illustration = {
+		reference = rayalucaria_footsoldier
+	}
+	
+	icon = skirmishers
+}
+
+rayalucaria_soldier = {
+	type = heavy_infantry
+
+	damage = 32
+	toughness = 22
+	pursuit = 0
+	screen = 0
+
+	counters = {
+		pikemen = 1
+		peasant_militia = 2
+	}
+
+	can_recruit = {
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+		OR = {
+			has_primary_title = title:e_liurnia
+			has_primary_title = title:k_caria
+			has_primary_title = title:k_rayalucaria
+			has_primary_title = title:d_caria
+			has_primary_title = title:d_raya_lucaria
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { gold = heavy_infantry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_moderate
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = {
+		value = culture_ai_weight_heavy_infantry
+		add = counter_synergy_ai_weight_heavy_infantry
+	}
+
+	illustration = {
+		reference = rayalucaria_soldier
+	}
+	
+	icon = heavy_infantry
+}
+
+cuckoo_knight = {
+	type = knight_infantry
+
+	damage = 38
+	toughness = 40
+	pursuit = 0
+	screen = 0
+
+	counters = {
+		pikemen = 1
+		skirmishers = 1
+		peasant_militia = 3
+	}
+
+	can_recruit = {
+		culture = {
+			has_innovation = innovation_quilted_armor
+		}
+		NOT = {
+			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+		}
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+		OR = {
+			has_primary_title = title:e_liurnia
+			has_primary_title = title:k_caria
+			has_primary_title = title:k_rayalucaria
+			has_primary_title = title:d_caria
+			has_primary_title = title:d_raya_lucaria
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { gold = 140 }
+	low_maintenance_cost = { gold = 0.54 }
+	high_maintenance_cost = { gold = 1.8 }
+	provision_cost = @provisions_cost_infantry_expensive
+
+	holy_order_fallback = yes
+
+	stack = 50
+	allowed_in_hired_troops = no
+	ai_quality = {
+		value = culture_ai_weight_heavy_infantry
+		add = counter_synergy_ai_weight_heavy_infantry
+	}
+
+	illustration = {
+		reference = cuckoo_knight
+	}
+	
+	icon = knight_infantry
+}
+
 troll_knight = {
 	type = troll
 	
@@ -319,7 +545,12 @@ troll_knight = {
 
 	stack = 10
 	allowed_in_hired_troops = no
-	icon = troll_knight
+	
+	illustration = {
+		reference = troll_knight
+	}
+	
+	icon = troll
 }
 
 glintstone_miner = {
@@ -345,6 +576,11 @@ glintstone_miner = {
 
 	stack = 100
 	allowed_in_hired_troops = no
+	
+	illustration = {
+		reference = glintstone_miner
+	}
+	
 	icon = glintstone_miner
 }
 
@@ -379,7 +615,12 @@ carian_battlemage = {
 
 	stack = 60
 	allowed_in_hired_troops = no
-	icon = battlemage_carian
+	
+	illustration = {
+		reference = carian_battlemage
+	}
+	
+	icon = sorcerer
 }
 
 lazuli_sorcerer = {
@@ -409,10 +650,267 @@ lazuli_sorcerer = {
 
 	stack = 60
 	allowed_in_hired_troops = no
-	icon = lazuli_sorcerer
+	
+	illustration = {
+		reference = lazuli_sorcerer
+	}
+	
+	icon = sorcerer
+}
+
+#GELMIR FACTION
+gelmir_footsoldier = {
+	type = skirmishers
+
+	damage = 10
+	toughness = 16
+	pursuit = 10
+	screen = 16
+
+	terrain_bonus = {
+		forest = { damage = 4 toughness = 6 }
+		taiga = { damage = 4 toughness = 6 }
+		jungle = { damage = 4 toughness = 6 }
+	}
+
+	counters = {
+		heavy_infantry = 1
+	}
+
+	can_recruit = {
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+		OR = {
+			has_primary_title = title:k_gelmir
+			has_primary_title = title:d_volcano_manor
+		}
+		NOT = {
+			has_trait = god_serpent
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_cheap
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = { value = culture_ai_weight_skirmishers }
+
+	illustration = {
+		reference = gelmir_footsoldier
+	}
+	
+	icon = skirmishers
+}
+
+gelmir_soldier = {
+	type = heavy_infantry
+
+	damage = 32
+	toughness = 22
+	pursuit = 0
+	screen = 0
+
+	counters = {
+		pikemen = 1
+		peasant_militia = 2
+	}
+
+	can_recruit = {
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+		OR = {
+			has_primary_title = title:k_gelmir
+			has_primary_title = title:d_volcano_manor
+		}
+		NOT = {
+			has_trait = god_serpent
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { gold = heavy_infantry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_moderate
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = {
+		value = culture_ai_weight_heavy_infantry
+		add = counter_synergy_ai_weight_heavy_infantry
+	}
+
+	illustration = {
+		reference = gelmir_soldier
+	}
+	
+	icon = heavy_infantry
+}
+
+gelmir_knight = {
+	type = knight_infantry
+
+	damage = 38
+	toughness = 40
+	pursuit = 0
+	screen = 0
+
+	counters = {
+		pikemen = 1
+		skirmishers = 1
+		peasant_militia = 3
+	}
+
+	can_recruit = {
+		culture = {
+			has_innovation = innovation_quilted_armor
+		}
+		NOT = {
+			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+		}
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+		OR = {
+			has_primary_title = title:k_gelmir
+			has_primary_title = title:d_volcano_manor
+		}
+		NOT = {
+			has_trait = god_serpent
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { gold = 140 }
+	low_maintenance_cost = { gold = 0.54 }
+	high_maintenance_cost = { gold = 1.8 }
+	provision_cost = @provisions_cost_infantry_expensive
+
+	holy_order_fallback = yes
+
+	stack = 50
+	allowed_in_hired_troops = no
+	ai_quality = {
+		value = culture_ai_weight_heavy_infantry
+		add = counter_synergy_ai_weight_heavy_infantry
+	}
+
+	illustration = {
+		reference = gelmir_knight
+	}
+	
+	icon = knight_infantry
 }
 
 #LEYNDELL FACTION
+leyndell_footsoldier = {
+	type = skirmishers
+
+	damage = 10
+	toughness = 16
+	pursuit = 10
+	screen = 16
+
+	terrain_bonus = {
+		forest = { damage = 4 toughness = 6 }
+		taiga = { damage = 4 toughness = 6 }
+		jungle = { damage = 4 toughness = 6 }
+	}
+
+	counters = {
+		heavy_infantry = 1
+	}
+
+	can_recruit = {
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+		OR = {
+			is_morgott = yes
+			
+			has_primary_title = title:e_leyndell
+			has_primary_title = title:k_leyndell
+			has_primary_title = title:d_royal_capital
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_cheap
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = { value = culture_ai_weight_skirmishers }
+
+	illustration = {
+		reference = leyndell_footsoldier
+	}
+	
+	icon = skirmishers
+}
+
+leyndell_soldier = {
+	type = skirmishers
+	
+	damage = 15
+	toughness = 10
+	pursuit = 0
+	screen = 0
+
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = order_affinity_more_common
+		}
+		OR = {
+			is_morgott = yes
+			
+			has_primary_title = title:e_leyndell
+			has_primary_title = title:k_leyndell
+			has_primary_title = title:d_royal_capital
+		}
+	}
+
+	buy_cost = { gold = 100 }
+	low_maintenance_cost = { gold = 0.1 }
+	high_maintenance_cost = { gold = 0.25 }
+
+	stack = 100
+	allowed_in_hired_troops = no
+	
+	illustration = {
+		reference = leyndell_soldier
+	}
+	
+	icon = heavy_infantry
+}
+
 leyndell_knight = {
 	type = knight_infantry
 	
@@ -431,6 +929,13 @@ leyndell_knight = {
 		culture = {
 			has_cultural_parameter = order_affinity_more_common
 		}
+		OR = {
+			is_morgott = yes
+			
+			has_primary_title = title:e_leyndell
+			has_primary_title = title:k_leyndell
+			has_primary_title = title:d_royal_capital
+		}
 	}
 
 	buy_cost = { gold = 140 }
@@ -440,30 +945,12 @@ leyndell_knight = {
 
 	stack = 50
 	allowed_in_hired_troops = no
-	icon = leyndell_knight
-}
-
-leyndell_soldier = {
-	type = skirmishers
 	
-	damage = 15
-	toughness = 10
-	pursuit = 0
-	screen = 0
-
-	can_recruit = {
-		culture = {
-			has_cultural_parameter = order_affinity_more_common
-		}
+	illustration = {
+		reference = leyndell_knight
 	}
-
-	buy_cost = { gold = 100 }
-	low_maintenance_cost = { gold = 0.1 }
-	high_maintenance_cost = { gold = 0.25 }
-
-	stack = 100
-	allowed_in_hired_troops = no
-	icon = leyndell_soldier
+	
+	icon = knight_infantry
 }
 
 tree_sentinel = {
@@ -486,6 +973,13 @@ tree_sentinel = {
 		culture = {
 			has_cultural_parameter = order_affinity_more_common
 		}
+		OR = {
+			is_morgott = yes
+			
+			has_primary_title = title:e_leyndell
+			has_primary_title = title:k_leyndell
+			has_primary_title = title:d_royal_capital
+		}
 	}
 
 	buy_cost = { gold = 250 }
@@ -494,25 +988,97 @@ tree_sentinel = {
 
 	stack = 10
 	allowed_in_hired_troops = no
-	icon = tree_sentinel
+	
+	illustration = {
+		reference = tree_sentinel
+	}
+	
+	icon = heavy_cavalry
 }
 
-banished_knights = {
+#HALIGTREE FACTION
+haligtree_footsoldier = {
+	type = skirmishers
+
+	damage = 10
+	toughness = 16
+	pursuit = 10
+	screen = 16
+
+	terrain_bonus = {
+		forest = { damage = 4 toughness = 6 }
+		taiga = { damage = 4 toughness = 6 }
+		jungle = { damage = 4 toughness = 6 }
+	}
+
+	counters = {
+		heavy_infantry = 1
+	}
+
+	can_recruit = {
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+		OR = {
+			is_malenia = yes
+			
+			has_primary_title = title:e_haligtree
+			has_primary_title = title:k_haligtree
+			has_primary_title = title:d_elphael
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_cheap
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = { value = culture_ai_weight_skirmishers }
+
+	illustration = {
+		reference = haligtree_footsoldier
+	}
+	
+	icon = skirmishers
+}
+
+haligtree_soldier = {
 	type = heavy_infantry
 
-	damage = 40
-	toughness = 30
-	pursuit = 15
-	screen = 20
+	damage = 32
+	toughness = 22
+	pursuit = 0
+	screen = 0
 
 	counters = {
 		pikemen = 1
-		archers = 1
 		peasant_militia = 2
 	}
-		can_recruit = {
-		valid_for_maa_trigger = { PARAMETER = unlock_maa_banished_knights }
 
+	can_recruit = {
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+		OR = {
+			is_malenia = yes
+			
+			has_primary_title = title:e_haligtree
+			has_primary_title = title:k_haligtree
+			has_primary_title = title:d_elphael
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
 	}
 
 	buy_cost = { gold = heavy_infantry_recruitment_cost }
@@ -526,6 +1092,272 @@ banished_knights = {
 	ai_quality = {
 		value = culture_ai_weight_heavy_infantry
 		add = counter_synergy_ai_weight_heavy_infantry
+	}
+
+	illustration = {
+		reference = haligtree_soldier
+	}
+	
+	icon = heavy_infantry
+}
+
+haligtree_knight = {
+	type = knight_infantry
+
+	damage = 38
+	toughness = 40
+	pursuit = 0
+	screen = 0
+
+	counters = {
+		pikemen = 1
+		skirmishers = 1
+		peasant_militia = 3
+	}
+
+	can_recruit = {
+		culture = {
+			has_innovation = innovation_quilted_armor
+		}
+		NOT = {
+			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+		}
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+		OR = {
+			is_malenia = yes
+			
+			has_primary_title = title:e_haligtree
+			has_primary_title = title:k_haligtree
+			has_primary_title = title:d_elphael
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { gold = 140 }
+	low_maintenance_cost = { gold = 0.54 }
+	high_maintenance_cost = { gold = 1.8 }
+	provision_cost = @provisions_cost_infantry_expensive
+
+	holy_order_fallback = yes
+
+	stack = 50
+	allowed_in_hired_troops = no
+	ai_quality = {
+		value = culture_ai_weight_heavy_infantry
+		add = counter_synergy_ai_weight_heavy_infantry
+	}
+
+	illustration = {
+		reference = haligtree_knight
+	}
+	
+	icon = knight_infantry
+}
+
+#HORNSENT FACTION
+horned_warrior = {
+	type = heavy_infantry
+	
+	damage = 40
+	toughness = 40
+	pursuit = 0
+	screen = 0
+
+	counters = {
+		pikemen = 1
+		skirmishers = 1
+		light_cavalry = 1
+		heavy_cavalry = 1
+	}
+	
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = convert_crucible_to_spiral
+		}
+		OR = {
+			culture = culture:cul_hornsent
+			culture = { any_parent_culture_or_above = { this = culture:cul_hornsent } }
+		}
+	}
+
+	buy_cost = { gold = 250 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1 }
+
+	stack = 60
+	allowed_in_hired_troops = no
+	
+	illustration = {
+		reference = horned_warrior
+	}
+	
+	icon = heavy_infantry
+}
+
+divine_bird_warrior = {
+	type = heavy_infantry
+	
+	damage = 100
+	toughness = 50
+	pursuit = 10
+	screen = 10
+	
+	siege_tier = 3
+	siege_value = 0.4
+	
+	counters = {
+		pikemen = 1
+		skirmishers = 1
+		light_cavalry = 1
+		heavy_cavalry = 1
+	}
+
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = convert_crucible_to_spiral
+		}
+		OR = {
+			culture = culture:cul_hornsent
+			culture = { any_parent_culture_or_above = { this = culture:cul_hornsent } }
+		}
+	}
+
+	buy_cost = { gold = 250 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1 }
+
+	stack = 10
+	allowed_in_hired_troops = no
+	
+	illustration = {
+		reference = divine_bird_warrior
+	}
+	
+	icon = heavy_infantry
+}
+
+hornsent_inquisitor = {
+	type = sorcerer
+	
+	damage = 60
+	toughness = 10
+	pursuit = 0
+	screen = 0
+	
+	siege_tier = 3
+	siege_value = 0.4
+	
+	counters = {
+		skirmishers = 1
+		heavy_infantry = 1
+		light_cavalry = 1
+		heavy_cavalry = 1
+		pikemen = 1
+	}
+	
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = convert_crucible_to_spiral
+		}
+		OR = {
+			culture = culture:cul_hornsent
+			culture = { any_parent_culture_or_above = { this = culture:cul_hornsent } }
+		}
+	}
+
+	buy_cost = { gold = 250 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1 }
+
+	stack = 50
+	allowed_in_hired_troops = no
+	
+	illustration = {
+		reference = hornsent_inquisitor
+	}
+	
+	icon = sorcerer
+}
+
+hornsent_curseblade = {
+	type = skirmishers
+	
+	damage = 40
+	toughness = 20
+	pursuit = 50
+	screen = 50
+	
+	counters = {
+		heavy_infantry = 1
+		light_cavalry = 1
+		heavy_cavalry = 1
+		pikemen = 1
+	}
+
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = convert_crucible_to_spiral
+		}
+		OR = {
+			culture = culture:cul_hornsent
+			culture = { any_parent_culture_or_above = { this = culture:cul_hornsent } }
+		}
+	}
+
+	buy_cost = { gold = 250 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1 }
+
+	stack = 25
+	allowed_in_hired_troops = no
+	
+	illustration = {
+		reference = hornsent_curseblade
+	}
+	
+	icon = skirmishers
+}
+
+#OTHER
+banished_knights = {
+	type = heavy_infantry
+
+	damage = 40
+	toughness = 30
+	pursuit = 15
+	screen = 20
+
+	counters = {
+		pikemen = 1
+		archers = 1
+		peasant_militia = 2
+	}
+	
+	can_recruit = {
+		valid_for_maa_trigger = { PARAMETER = unlock_maa_banished_knights }
+	}
+
+	buy_cost = { gold = heavy_infantry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_moderate
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = {
+		value = culture_ai_weight_heavy_infantry
+		add = counter_synergy_ai_weight_heavy_infantry
+	}
+	
+	illustration = {
+		reference = banished_knight
 	}
 
 	icon = banished_knight

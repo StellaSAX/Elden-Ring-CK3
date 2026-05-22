@@ -85,6 +85,18 @@ is_malenia = {
 	this = character:malenia
 }
 
+is_radahn = {
+	this = character:radahn
+}
+
+is_rykard = {
+	this = character:rykard
+}
+
+is_morgott = {
+	this = character:morgott
+}
+
 holds_deathrune = {
 	$CHARACTER$ = {
 		any_character_artifact = {

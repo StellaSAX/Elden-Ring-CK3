@@ -1,4 +1,73 @@
 ﻿l_english:
- 
+ #MaA types
+ knight_infantry:2 "[knight_infantry|E]"
+ troll:2 "[troll|E]"
+ sorcerer:2 "[sorcerer|E]"
+
  banished_knights:0 "Banished Knights"
  banished_knights_flavor:0 "Sent to the fringe lands of the Golden Order, the Banished Knights are nonetheless among the fiercest warriors of the Lands Between. Wielding the remaining glory of the Storm, they are able to launch themselves forward with surprising speed, as well as completely negate arrow volleys."
+
+ glintstone_miner:0 "Glintstone Miners"
+ glintstone_miner_flavor:0 "We yearn for the mines."
+
+ godrick_footsoldier:0 "Godrick Footsoldiers"
+ godrick_footsoldier_flavor:0 "We are footing it."
+ godrick_soldier:0 "Godrick Soldiers"
+ godrick_soldier_flavor:0 "Now thats soldiering."
+ godrick_knight:0 "Godrick Knights"
+ godrick_knight_flavor:0 "Good night mister knight."
+ 
+ redmane_footsoldier:0 "Redmane Footsoldiers"
+ redmane_footsoldier_flavor:0 "We are footing it."
+ redmane_soldier:0 "Redmane Soldiers"
+ redmane_soldier_flavor:0 "Now thats soldiering."
+ redmane_knight:0 "Redmane Knights"
+ redmane_knight_flavor:0 "Good night mister knight."
+ 
+ rayalucaria_footsoldier:0 "Raya Lucaria Footsoldiers"
+ rayalucaria_footsoldier_flavor:0 "We are footing it."
+ rayalucaria_soldier:0 "Raya Lucaria Soldiers"
+ rayalucaria_soldier_flavor:0 "Now thats soldiering."
+ cuckoo_knight:0 "Cuckoo Knights"
+ cuckoo_knight_flavor:0 "Good night mister knight."
+ 
+ gelmir_footsoldier:0 "Gelmir Footsoldiers"
+ gelmir_footsoldier_flavor:0 "We are footing it."
+ gelmir_soldier:0 "Gelmir Soldiers"
+ gelmir_soldier_flavor:0 "Now thats soldiering."
+ gelmir_knight:0 "Gelmir Knights"
+ gelmir_knight_flavor:0 "Good night mister knight."
+
+ leyndell_footsoldier:0 "Leyndell Footsoldiers"
+ leyndell_footsoldier_flavor:0 "We are footing it."
+ leyndell_soldier:0 "Leyndell Soldiers"
+ leyndell_soldier_flavor:0 "Now thats soldiering."
+ leyndell_knight:0 "Leyndell Knights"
+ leyndell_knight_flavor:0 "Good night mister knight."
+ 
+ haligtree_footsoldier:0 "Haligtree Footsoldiers"
+ haligtree_footsoldier_flavor:0 "We are footing it."
+ haligtree_soldier:0 "Haligtree Soldiers"
+ haligtree_soldier_flavor:0 "Now thats soldiering."
+ haligtree_knight:0 "Haligtree Knights"
+ haligtree_knight_flavor:0 "Good night mister knight."
+
+ tree_sentinel:0 "Tree Sentinels"
+ tree_sentinel_flavor:0 "It takes 100 tries to beat us."
+
+ troll_knight:0 "Troll Knight"
+ troll_knight_flavor:0 "Biggest trolls in the lands between."
+
+ carian_battlemage:0 "Carian Battlemages"
+ carian_battlemage_flavor:0 "Battlemages assemble!"
+ lazuli_sorcerer:0 "Lazuli Sorcerer"
+ lazuli_sorcerer_flavor:0 "These are some sore sorcerers."
+
+ horned_warrior:0 "Horned Warrior"
+ horned_warrior_flavor:0 "The hardest and horniest warriors of the hornsent."
+ divine_bird_warrior:0 "Divine Bird Warriors"
+ divine_bird_warrior_flavor:0 "Birb."
+ hornsent_inquisitor:0 "Hornsent Inquisitors"
+ hornsent_inquisitor_flavor:0 "Throwing light discs at people since year 800."
+ hornsent_curseblade:0 "Hornsent Curseblades"
+ hornsent_curseblade_flavor:0 "Curse these blades."

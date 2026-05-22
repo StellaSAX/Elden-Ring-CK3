@@ -20,6 +20,8 @@
 
  stormlord:0 "Stormlord"
  stormlady:0 "Stormlady"
+ stormlord_e:0 "Stormlord"
+ stormlady_e:0 "Stormlady"
 
  protector_m:0 "Protector"
  protector_f:0 "Protector"

@@ -62,7 +62,10 @@ stormlord = {
 	flavourization_rules = { 
 		only_independent = yes
 	}
-	heritages = { heritage_lands_between }
+	OR = {
+		culture = culture:cul_stormhill
+		culture = { any_parent_culture_or_above = { this = culture:cul_stormhill } }
+	}
 	faiths = { faith_crucible faith_spiral }
 }
 
@@ -76,7 +79,44 @@ stormlady = {
 	flavourization_rules = { 
 		only_independent = yes
 	}
-	heritages = { heritage_lands_between }
+	OR = {
+		culture = culture:cul_stormhill
+		culture = { any_parent_culture_or_above = { this = culture:cul_stormhill } }
+	}
+	faiths = { faith_crucible faith_spiral }
+}
+
+stormlord_e = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 282
+	titles = { e_limgrave }
+	flavourization_rules = { 
+		only_independent = yes
+	}
+	OR = {
+		culture = culture:cul_stormhill
+		culture = { any_parent_culture_or_above = { this = culture:cul_stormhill } }
+	}
+	faiths = { faith_crucible faith_spiral }
+}
+
+stormlady_e = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 282
+	titles = { e_limgrave }
+	flavourization_rules = { 
+		only_independent = yes
+	}
+	OR = {
+		culture = culture:cul_stormhill
+		culture = { any_parent_culture_or_above = { this = culture:cul_stormhill } }
+	}
 	faiths = { faith_crucible faith_spiral }
 }
 

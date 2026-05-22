@@ -2,9 +2,9 @@
 
  game_concept_knight_infantry:0 "Elite Knights"
  game_concept_knight_infantry_desc:0 "Knights are [men_at_arms|E] who kick ass and eat rowa fruit."
- 
+
  game_concept_troll:0 "Trolls"
  game_concept_troll_desc:0 "Trolls are [men_at_arms|E] who are very large."
- 
+
  game_concept_sorcerer:0 "Sorcerers"
  game_concept_sorcerer_desc:0 "Sorcerers are [men_at_arms|E] who put all their levels into INT."
