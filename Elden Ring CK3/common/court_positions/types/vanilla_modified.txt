@@ -1,0 +1,443 @@
+minister_bureaucrat_court_position = {
+	sort_order = 1200
+	max_available_positions = 1
+	minimum_rank = empire
+	skill = diplomacy
+
+	court_position_asset = {
+		animation = chancellor
+		background = "gfx/interface/illustrations/event_scenes/tgp_study_asia.dds"
+	}
+
+	opinion = {
+		value = 10
+	}
+
+	# How high the aptitude has to be to reach the 5 different modifier levels
+	aptitude_level_breakpoints = { 20 40 60 80 }
+
+	# How good is this character in this position? root scope is the holder of the court position
+	aptitude = {
+		value = 1
+		# Merit
+		add = {
+			value = merit_level
+			multiply = 2
+			max = 50
+			desc = court_position_merit_level
+		}
+		# Primary skill of the minister
+		if = {
+			limit = {
+				liege = {
+					OR = {
+						has_council_position = councillor_chancellor
+						has_council_position = minister_personnel
+					}
+				}
+			}
+			add = {
+				value = diplomacy
+				multiply = 1.75
+				max = 50
+				desc = court_position_skill_diplomacy
+			}
+		}
+		else_if = {
+			limit = {
+				liege = {
+					OR = {
+						has_council_position = councillor_marshal
+						has_council_position = minister_grand_marshal
+					}
+				}
+			}
+			add = {
+				value = martial
+				multiply = 1.75
+				max = 50
+				desc = court_position_skill_martial
+			}
+		}
+		else_if = {
+			limit = {
+				liege = {
+					OR = {
+						has_council_position = councillor_steward
+						has_council_position = minister_works
+					}
+				}
+			}
+			add = {
+				value = stewardship
+				multiply = 1.75
+				max = 50
+				desc = court_position_skill_stewardship
+			}
+		}
+		else_if = {
+			limit = {
+				liege = { has_council_position = councillor_spymaster }
+			}
+			add = {
+				value = intrigue
+				multiply = 1.75
+				max = 50
+				desc = court_position_skill_intrigue
+			}
+		}
+		else_if = {
+			limit = {
+				liege = {
+					OR = {
+						has_council_position = councillor_court_chaplain
+						has_council_position = minister_justice
+					}
+				}
+			}
+			add = {
+				value = learning
+				multiply = 1.75
+				max = 50
+				desc = court_position_skill_learning
+			}
+		}
+		
+		# Disciple
+		if = {
+			limit = {
+				has_relation_elder = liege
+			}
+			add = {
+				value = 10
+				desc = court_position_your_disciple
+			}
+		}
+
+		# Dynasty Legacy
+		# Dynasty Members Have better aptitude both when employing and employed
+		if = {
+			limit = {
+				OR = {
+					dynasty ?= {
+						has_dynasty_perk = tgp_chinese_legacy_5
+					}
+					liege.dynasty ?= {
+						has_dynasty_perk = tgp_chinese_legacy_5
+					}
+				}
+			}
+			add = {
+				value = court_position_tgp_dynasty_legacy_aptitude_bonus
+				desc = court_position_tgp_dynasty_legacy
+			}
+		}
+		
+		# Traits
+		if = {
+			limit = {
+				has_trait = confucian_education
+			}
+			add = {
+				value = "has_trait_xp(confucian_education)"
+				desc = court_position_confucian_education_trait
+			}
+		}
+		if = {
+			limit = {
+				has_trait = administrator
+			}
+			add = {
+				value = 10
+				desc = court_position_administrator_trait
+			}
+		}
+		if = {
+			limit = {
+				has_trait = scholar
+			}
+			add = {
+				value = 10
+				desc = court_position_scholar_trait
+			}
+		}
+		if = {
+			limit = {
+				has_trait = diplomat
+			}
+			add = {
+				value = 10
+				desc = court_position_diplomat_trait
+			}
+		}
+		if = {
+			limit = {
+				has_trait = lifestyle_surveyor
+			}
+			add = {
+				value = 10
+				desc = court_position_surveyor_trait
+			}
+		}
+		if = {
+			limit = {
+				has_trait = shrewd
+			}
+			add = {
+				value = 10
+				desc = court_position_shrewd_trait
+			}
+		}
+		
+		# Personality traits
+		if = {
+			limit = {
+				has_trait = patient
+			}
+			add = {
+				value = 5
+				desc = court_position_patient_trait
+			}
+		}
+		if = {
+			limit = {
+				has_trait = diligent
+			}
+			add = {
+				value = 5
+				desc = court_position_diligent_trait
+			}
+		}
+		if = {
+			limit = {
+				has_trait = just
+			}
+			add = {
+				value = 5
+				desc = court_position_just_trait
+			}
+		}
+		if = {
+			limit = {
+				has_trait = stubborn
+			}
+			add = {
+				value = 5
+				desc = court_position_stubborn_trait
+			}
+		}
+		if = {
+			limit = {
+				has_trait = lazy
+			}
+			add = {
+				value = -5
+				desc = court_position_lazy_trait
+			}
+		}
+		if = {
+			limit = {
+				has_trait = impatient
+			}
+			add = {
+				value = -5
+				desc = court_position_impatient_trait
+			}
+		}
+		
+		# Influence
+		if = {
+			limit = {
+				government_allows = administrative
+			}
+			add = {
+				value = influence_level
+				subtract = 1
+				multiply = 4
+				desc = "[influence_level|E]"
+			}
+		}
+		
+		# Domicile buildings
+		if = {
+			limit = {
+				liege ?= {
+					domicile ?= {
+						OR = {
+							has_domicile_parameter = estate_minister_bureaucrat_aptitude_1
+							has_domicile_parameter = estate_minister_bureaucrat_aptitude_2
+							has_domicile_parameter = estate_minister_bureaucrat_aptitude_3
+							has_domicile_parameter = estate_minister_bureaucrat_aptitude_4
+						}
+					}
+				}
+			}
+			add = {
+				value = 0
+				liege ?= {
+					domicile ?= {
+						if = {
+							limit = {
+								has_domicile_parameter = estate_minister_bureaucrat_aptitude_4
+							}
+							add = estate_minister_bureaucrat_aptitude_4_value
+						}
+						else_if = {
+							limit = {
+								has_domicile_parameter = estate_minister_bureaucrat_aptitude_3
+							}
+							add = estate_minister_bureaucrat_aptitude_3_value
+						}
+						else_if = {
+							limit = {
+								has_domicile_parameter = estate_minister_bureaucrat_aptitude_2
+							}
+							add = estate_minister_bureaucrat_aptitude_2_value
+						}
+						else = {
+							add = estate_minister_bureaucrat_aptitude_1_value
+						}
+					}
+				}
+				desc = estate_minister_bureaucrat_aptitude_desc
+			}
+		}
+		
+		#add = court_position_aptitude_low_penalty_value
+		add = general_aptitude_bonus
+	}
+
+	# Is this an available position for this court? (root is court owner)
+	is_shown = {
+		tgp_has_minister_title = yes
+		government_has_flag = government_is_celestial
+	}
+
+	valid_position = {
+		tgp_has_minister_title = yes
+		government_has_flag = government_is_celestial
+	}
+
+	is_shown_character = {
+		scope:employee = {
+			OR = {
+				is_courtier_of = scope:liege
+				has_relation_elder = scope:liege
+			}
+			court_position_employee_shown_trigger = yes
+		}
+	}
+
+	valid_character = {
+		scope:employee = {
+			OR = {
+				is_landed = no
+				custom_tooltip = {
+					text = they_are_your_disciple_desc
+					has_relation_elder = scope:liege
+				}
+			}
+		}
+	}
+
+	revoke_cost = { # root is the liege, no other scopes are passed here!
+		# No revoke cost for this position
+	}
+
+	salary = {
+		gold = {
+			value = 0
+			if = {
+				limit = {
+					scope:liege = {
+						has_treasury = no
+					}
+				}
+				add = minister_bureaucrat_total_salary_value
+			}
+		}
+		treasury = {
+			value = 0
+			if = {
+				limit = {
+					scope:liege = {
+						has_treasury = yes
+					}
+				}
+				add = minister_bureaucrat_total_salary_value
+			}
+		}
+		prestige = {
+			value = major_court_position_prestige_salary
+		}
+	}
+
+	received_salary = {
+		gold = {
+			value = minister_bureaucrat_total_salary_value
+		}
+		prestige = {
+			value = major_court_position_prestige_salary
+		}
+	}
+
+	is_powerful_agent = yes
+
+	# These modifiers are employed based on what level the aptitude reaches (levels are defined as breakpoints)
+	scaling_employer_modifiers = {
+		terrible = {
+			monthly_influence_mult = 0.03
+			monthly_treasury_from_ministry_budget_mult = 0.01
+		}
+		poor = {
+			monthly_influence_mult = 0.06
+			monthly_treasury_from_ministry_budget_mult = 0.02
+		}
+		average = {
+			monthly_influence_mult = 0.09
+			monthly_treasury_from_ministry_budget_mult = 0.03
+		}
+		good = {
+			monthly_influence_mult = 0.12
+			monthly_treasury_from_ministry_budget_mult = 0.04
+		}
+		excellent = {
+			monthly_influence_mult = 0.15
+			monthly_treasury_from_ministry_budget_mult = 0.05
+		}
+	}
+	
+	custom_employer_modifier_description = minister_bureaucrat_court_position_mod_desc
+
+	modifier = {
+		monthly_merit = 1
+		monthly_influence = 3
+		monthly_lifestyle_xp_gain_mult = 0.1
+	}
+
+	on_court_position_received = {
+		basic_gained_court_position_effect = yes
+	}
+	on_court_position_revoked = {
+		basic_revoked_court_position_effect = yes
+	}
+	on_court_position_invalidated = {
+		basic_invalidated_court_position_effect = yes
+	}
+	on_court_position_vacated = {
+		court_position_vacated_event_effect = {
+			COURT_POSITION_TYPE = minister_bureaucrat_court_position
+		}
+	}
+	# Scripted value to determine whether an AI will hire/fire a position or not. Hires over 0, fires under -50. Look in _court_positions.info for more extensive documentation!
+	ai_position_score = {
+		value = 500
+		add = court_position_debt_considerations_value
+	}
+	ai_candidate_score = {
+		value = 50
+		add = scope:base_value
+		add = court_position_candidate_score_base_value
+		add = court_position_candidate_aptitude_value
+	}
+}

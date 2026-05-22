@@ -5662,8 +5662,11 @@ chief_qadi_court_position = {
 
 	valid_position = {
 		is_landed_or_landless_administrative = yes
-		# has_religion = religion:islam_religion
+		has_religion = religion:faith_crucible
 		highest_held_title_tier >= tier_kingdom
+		culture = {
+			has_cultural_pillar = heritage_hornsent
+		}
 	}
 
 	is_shown_character = {
@@ -9977,7 +9980,7 @@ keeper_of_swans_court_position = {
 		is_landed_or_landless_administrative = yes
 		highest_held_title_tier >= tier_kingdom
 		culture = {
-			has_cultural_pillar = heritage_west_germanic
+			has_cultural_pillar = heritage_ranah
 		}
 	}
 
