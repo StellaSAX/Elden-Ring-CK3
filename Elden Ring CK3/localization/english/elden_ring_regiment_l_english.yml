@@ -4,8 +4,8 @@
  troll:2 "[troll|E]"
  sorcerer:2 "[sorcerer|E]"
  
- knight_infantry:0 "Lordsworn Knights"
- knight_infantry_flavor:0 "Swearing to lords is cool."
+ lordsworn_knight:0 "Lordsworn Knights"
+ lordsworn_knight_flavor:0 "Swearing to lords is cool."
 
  banished_knights:0 "Banished Knights"
  banished_knights_flavor:0 "Sent to the fringe lands of the Golden Order, the Banished Knights are nonetheless among the fiercest warriors of the Lands Between. Wielding the remaining glory of the Storm, they are able to launch themselves forward with surprising speed, as well as completely negate arrow volleys."

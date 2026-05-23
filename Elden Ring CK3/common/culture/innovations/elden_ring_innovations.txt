@@ -3,7 +3,7 @@
 innovation_elite_knights = {
 	skill = martial
 	group = culture_group_military
-	culture_era = culture_era_early_medieval
+	culture_era = culture_era_eight_millenium_late
 	icon = @elite_knights
 
 	custom = unlock_maa_elite_knights

@@ -1,0 +1,105 @@
+﻿
+culture_era_first_millenium_early = {
+	year = 0
+}
+culture_era_first_millenium_late = {
+	year = 500
+}
+culture_era_second_millenium_early = {
+	year = 1000
+	
+	culture_modifier = {
+		culture_tradition_max_add = 1
+	}
+	
+	character_modifier = {
+		mercenary_hire_cost_mult = 0.15
+	}
+
+	custom = more_expensive_court_positions
+	custom = increased_activity_cost
+}
+culture_era_second_millenium_late = {
+	year = 1500
+}
+culture_era_third_millenium_early = {
+	year = 2000
+}
+culture_era_third_millenium_late = {
+	year = 2500
+}
+culture_era_fourth_millenium_early = {
+	year = 3000
+}
+culture_era_fourth_millenium_late = {
+	year = 3500
+}
+culture_era_fifth_millenium_early = {
+	year = 4000
+	
+	culture_modifier = {
+		culture_tradition_max_add = 1
+	}
+	
+	character_modifier = {
+		mercenary_hire_cost_mult = 0.15
+	}
+
+	custom = more_expensive_court_positions
+	custom = increased_activity_cost
+}
+culture_era_fifth_millenium_late = {
+	year = 4500
+}
+culture_era_sixth_millenium_early = {
+	year = 5000
+}
+culture_era_sixth_millenium_late = {
+	year = 5500
+}
+culture_era_seventh_millenium_early = {
+	year = 6000
+}
+culture_era_seventh_millenium_late = {
+	year = 6500
+}
+culture_era_eight_millenium_early = {
+	year = 7000
+	
+	culture_modifier = {
+		culture_tradition_max_add = 1
+	}
+	
+	character_modifier = {
+		mercenary_hire_cost_mult = 0.15
+	}
+
+	custom = more_expensive_court_positions
+	custom = increased_activity_cost
+}
+culture_era_eight_millenium_late = {
+	year = 7500
+}
+culture_era_ninth_millenium_early = {
+	year = 8000
+}
+culture_era_ninth_millenium_late = {
+	year = 8500
+}
+culture_era_tenth_millenium_early = {
+	year = 9000
+	
+	culture_modifier = {
+		culture_tradition_max_add = 1
+	}
+	
+	character_modifier = {
+		mercenary_hire_cost_mult = 0.15
+	}
+
+	custom = more_expensive_court_positions
+	custom = increased_activity_cost
+}
+culture_era_tenth_millenium_late = {
+	year = 9500
+}

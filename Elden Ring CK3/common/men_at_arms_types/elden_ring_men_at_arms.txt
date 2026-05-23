@@ -24,7 +24,7 @@
 
 
 #BASE
-knight_infantry = {
+lordsworn_knight = {
 	type = knight_infantry
 
 	damage = 38
@@ -243,7 +243,7 @@ godrick_knight = {
 		reference = godrick_knight
 	}
 	
-	icon = knight_infantry
+	icon = godrick_knight
 }
 
 #CAELID FACTION
@@ -413,7 +413,7 @@ redmane_knight = {
 		reference = redmane_knight
 	}
 	
-	icon = knight_infantry
+	icon = redmane_knight
 }
 
 #CARIAN FACTION
@@ -583,7 +583,7 @@ cuckoo_knight = {
 		reference = cuckoo_knight
 	}
 	
-	icon = knight_infantry
+	icon = cuckoo_knight
 }
 
 troll_knight = {
@@ -896,7 +896,7 @@ gelmir_knight = {
 		reference = gelmir_knight
 	}
 	
-	icon = knight_infantry
+	icon = gelmir_knight
 }
 
 #LEYNDELL FACTION
@@ -1033,7 +1033,7 @@ leyndell_knight = {
 		reference = leyndell_knight
 	}
 	
-	icon = knight_infantry
+	icon = leyndell_knight
 }
 
 tree_sentinel = {
@@ -1246,7 +1246,7 @@ haligtree_knight = {
 		reference = haligtree_knight
 	}
 	
-	icon = knight_infantry
+	icon = haligtree_knight
 }
 
 #HORNSENT FACTION

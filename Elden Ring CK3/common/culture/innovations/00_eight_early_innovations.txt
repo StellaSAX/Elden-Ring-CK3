@@ -45,34 +45,34 @@
 innovation_motte = { # Earthworks in-game
 	skill = stewardship
 	group = culture_group_military
-	culture_era = culture_era_tribal
+	culture_era = culture_era_eight_millenium_early
 	icon = @fortifications
 
-	# asset = {
-		# trigger = {
-			# # OR = {
-				# # has_cultural_pillar = heritage_frankish
-				# # has_cultural_pillar = heritage_central_germanic
-				# # has_cultural_pillar = heritage_west_germanic
-				# # has_cultural_pillar = heritage_north_germanic
-				# # has_cultural_pillar = heritage_iberian
-				# # has_cultural_pillar = heritage_brythonic
-				# # has_cultural_pillar = heritage_goidelic
-				# # has_cultural_pillar = heritage_latin
-				# # has_cultural_pillar = heritage_west_slavic
-			# # }
-		# }
-		# icon = @fortifications
-		# name = innovation_motte_actual_motte
-	# }
+	asset = {
+		trigger = {
+			OR = {
+				has_cultural_pillar = heritage_frankish
+				has_cultural_pillar = heritage_central_germanic
+				has_cultural_pillar = heritage_west_germanic
+				has_cultural_pillar = heritage_north_germanic
+				has_cultural_pillar = heritage_iberian
+				has_cultural_pillar = heritage_brythonic
+				has_cultural_pillar = heritage_goidelic
+				has_cultural_pillar = heritage_latin
+				has_cultural_pillar = heritage_west_slavic
+			}
+		}
+		icon = @fortifications
+		name = innovation_motte_actual_motte
+	}
 
-	# asset = {
-		# trigger = {
-			# has_cultural_pillar = heritage_chinese
-		# }
-		# icon = @fortifications
-		# name = innovation_motte_chinese
-	# }
+	asset = {
+		trigger = {
+			has_cultural_pillar = heritage_chinese
+		}
+		icon = @fortifications
+		name = innovation_motte_chinese
+	}
 
 	custom = unlock_tribal_fortification_buildings
 
@@ -91,22 +91,22 @@ innovation_motte = { # Earthworks in-game
 innovation_catapult = {
 	skill = learning
 	group = culture_group_military
-	culture_era = culture_era_tribal
+	culture_era = culture_era_eight_millenium_early
 	icon = @siege_weapons
 
 	custom = unlock_siege_maa_first_level
 
-	# asset = {
-		# trigger = {
-			# # OR = {
-				# # has_cultural_pillar = heritage_chinese
-				# # has_cultural_pillar = heritage_japonic
-				# # has_cultural_pillar = heritage_korean
-			# # }
-		# }
-		# icon = @siege_crossbow
-		# name = innovation_catapult_chinese
-	# }
+	asset = {
+		trigger = {
+			OR = {
+				has_cultural_pillar = heritage_chinese
+				has_cultural_pillar = heritage_japonic
+				has_cultural_pillar = heritage_korean
+			}
+		}
+		icon = @siege_crossbow
+		name = innovation_catapult_chinese
+	}
 
 	flag = global_regular
 	flag = tribal_era_regular
@@ -119,7 +119,7 @@ innovation_catapult = {
 innovation_barracks = {
 	skill = martial
 	group = culture_group_military
-	culture_era = culture_era_tribal
+	culture_era = culture_era_eight_millenium_early
 	icon = @levy_building
 
 	custom = unlock_tribal_military_buildings
@@ -139,7 +139,7 @@ innovation_barracks = {
 innovation_mustering_grounds = {
 	skill = martial
 	group = culture_group_military
-	culture_era = culture_era_tribal
+	culture_era = culture_era_eight_millenium_early
 	icon = @leadership_2
 
 	character_modifier = {
@@ -158,7 +158,7 @@ innovation_mustering_grounds = {
 innovation_bannus = {
 	skill = martial
 	group = culture_group_military
-	culture_era = culture_era_tribal
+	culture_era = culture_era_eight_millenium_early
 	icon = @raised_banner
 
 	custom = unlock_march_contract
@@ -166,7 +166,7 @@ innovation_bannus = {
 
 	character_modifier = {
 		levy_reinforcement_rate = 0.15
-		active_accolades = 1
+		accolades = 1
 		herd_conversion = 0.005
 	}
 
@@ -181,7 +181,7 @@ innovation_bannus = {
 innovation_quilted_armor = {
 	skill = martial
 	group = culture_group_military
-	culture_era = culture_era_tribal
+	culture_era = culture_era_eight_millenium_early
 	icon = @quilted_armor
 
 	custom = unlock_maa_armored_footmen
@@ -202,7 +202,7 @@ innovation_quilted_armor = {
 innovation_development_01 = {
 	skill = stewardship
 	group = culture_group_civic
-	culture_era = culture_era_tribal
+	culture_era = culture_era_eight_millenium_early
 	icon = @civil_construction_1
 
 	custom = reduce_develop_county_penalty_01
@@ -222,7 +222,7 @@ innovation_development_01 = {
 innovation_currency_01 = {
 	skill = stewardship
 	group = culture_group_civic
-	culture_era = culture_era_tribal
+	culture_era = culture_era_eight_millenium_early
 	icon = @currency
 
 	character_modifier = {
@@ -242,7 +242,7 @@ innovation_currency_01 = {
 innovation_gavelkind = {
 	skill = diplomacy
 	group = culture_group_civic
-	culture_era = culture_era_tribal
+	culture_era = culture_era_eight_millenium_early
 	icon = @administration_3
 
 	unlock_law = confederate_partition_succession_law
@@ -262,7 +262,7 @@ innovation_gavelkind = {
 innovation_crop_rotation = {
 	skill = stewardship
 	group = culture_group_civic
-	culture_era = culture_era_tribal
+	culture_era = culture_era_eight_millenium_early
 	icon = @farm
 
 	custom = unlock_tribal_economic_buildings
@@ -282,7 +282,7 @@ innovation_crop_rotation = {
 innovation_city_planning = {
 	skill = stewardship
 	group = culture_group_civic
-	culture_era = culture_era_tribal
+	culture_era = culture_era_eight_millenium_early
 	icon = @civil_construction_2
 
 	unlock_building = city_01
@@ -306,7 +306,7 @@ innovation_city_planning = {
 innovation_casus_belli = {
 	skill = diplomacy
 	group = culture_group_civic
-	culture_era = culture_era_tribal
+	culture_era = culture_era_eight_millenium_early
 	icon = @administration_1
 
 	unlock_casus_belli = individual_county_de_jure_cb
@@ -323,7 +323,7 @@ innovation_casus_belli = {
 innovation_plenary_assemblies = {
 	skill = diplomacy
 	group = culture_group_civic
-	culture_era = culture_era_tribal
+	culture_era = culture_era_eight_millenium_early
 	icon = @plenary_assemblies
 
 	unlock_law = crown_authority_1
@@ -345,7 +345,7 @@ innovation_plenary_assemblies = {
 innovation_ledger = {
 	skill = stewardship
 	group = culture_group_civic
-	culture_era = culture_era_tribal
+	culture_era = culture_era_eight_millenium_early
 	icon = @administration_2
 
 	county_modifier = {
@@ -368,16 +368,16 @@ innovation_ledger = {
 innovation_table_of_princes = {
 	skill = diplomacy
 	group = culture_group_civic
-	culture_era = culture_era_tribal
+	culture_era = culture_era_eight_millenium_early
 	icon = @nobility_01
 	
-	# potential = {
-		# OR = {
-			# #West Slavic
-			# this = culture:czech
-			# this = culture:slovien
-		# }
-	# }
+	potential = {
+		OR = {
+			#West Slavic
+			this = culture:czech
+			this = culture:slovien
+		}
+	}
 	
 	unlock_law = single_heir_dynasty_house
 	custom = unlock_single_heir_dynasty_house_changing
@@ -393,8 +393,8 @@ innovation_table_of_princes = {
 innovation_longboats = {
 	skill = martial
 	group = culture_group_military
-	culture_era = culture_era_tribal
-	region = world_europe_north
+	culture_era = culture_era_eight_millenium_early
+	region = world_liurnia
 	icon = @longboats
 
 	character_modifier = {
@@ -417,8 +417,8 @@ innovation_longboats = {
 innovation_elephantry = {
 	skill = stewardship
 	group = culture_group_military
-	culture_era = culture_era_tribal
-	region = world_innovation_elephants
+	culture_era = culture_era_eight_millenium_early
+	region = world_mountaintops
 	icon = @elephant
 
 	unlock_building = elephant_pens_01
@@ -437,8 +437,8 @@ innovation_elephantry = {
 innovation_war_camels = {
 	skill = stewardship
 	group = culture_group_military
-	culture_era = culture_era_tribal
-	region = world_innovation_camels
+	culture_era = culture_era_eight_millenium_early
+	region = world_caelid
 	icon = @camel
 
 	unlock_maa = camel_rider
@@ -457,8 +457,8 @@ innovation_war_camels = {
 innovation_wootz_steel = {
 	skill = learning
 	group = culture_group_civic
-	culture_era = culture_era_tribal
-	region = world_india_deccan
+	culture_era = culture_era_eight_millenium_early
+	region = world_leyndell
 	icon = @weapons_and_armor_01
 
 	character_modifier = {
@@ -477,8 +477,8 @@ innovation_wootz_steel = {
 innovation_african_canoes = {
 	skill = martial
 	group = culture_group_military
-	culture_era = culture_era_tribal
-	region = world_africa_west
+	culture_era = culture_era_eight_millenium_early
+	region = world_liurnia
 	icon = @majesty_01
 
 	character_modifier = {
