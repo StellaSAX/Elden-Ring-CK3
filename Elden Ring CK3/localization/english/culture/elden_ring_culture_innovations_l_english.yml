@@ -1,0 +1,6 @@
+﻿l_english:
+
+ innovation_elite_knights:0 "Lordsworn Knights"
+ innovation_elite_knights_desc:0 "We need knightlier men to join our armies!"
+
+ unlock_maa_elite_knights: "Can recruit [GetMaA('knight_infantry').GetName] as [men_at_arms|E]"

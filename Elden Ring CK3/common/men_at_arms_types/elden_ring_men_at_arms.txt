@@ -23,6 +23,59 @@
 
 
 
+#BASE
+knight_infantry = {
+	type = knight_infantry
+
+	damage = 38
+	toughness = 40
+	pursuit = 0
+	screen = 0
+
+	counters = {
+		pikemen = 1
+		skirmishers = 1
+		peasant_militia = 3
+	}
+
+	can_recruit = {
+		culture = {
+			has_innovation = innovation_elite_knights
+		}
+		NOT = {
+			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+		}
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { gold = 140 }
+	low_maintenance_cost = { gold = 0.54 }
+	high_maintenance_cost = { gold = 1.8 }
+	provision_cost = @provisions_cost_infantry_expensive
+
+	holy_order_fallback = yes
+
+	stack = 50
+	allowed_in_hired_troops = no
+	ai_quality = {
+		value = culture_ai_weight_heavy_infantry
+		add = counter_synergy_ai_weight_heavy_infantry
+	}
+
+	illustration = {
+		reference = knight_infantry
+	}
+	
+	icon = knight_infantry
+}
+
 #LIMGRAVE FACTION
 godrick_footsoldier = {
 	type = skirmishers
@@ -91,6 +144,12 @@ godrick_soldier = {
 	}
 
 	can_recruit = {
+		culture = {
+			has_innovation = innovation_quilted_armor
+		}
+		NOT = {
+			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+		}
 		NOR = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
@@ -144,7 +203,7 @@ godrick_knight = {
 
 	can_recruit = {
 		culture = {
-			has_innovation = innovation_quilted_armor
+			has_innovation = innovation_elite_knights
 		}
 		NOT = {
 			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
@@ -255,6 +314,12 @@ redmane_soldier = {
 	}
 
 	can_recruit = {
+		culture = {
+			has_innovation = innovation_quilted_armor
+		}
+		NOT = {
+			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+		}
 		NOR = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
@@ -308,7 +373,7 @@ redmane_knight = {
 
 	can_recruit = {
 		culture = {
-			has_innovation = innovation_quilted_armor
+			has_innovation = innovation_elite_knights
 		}
 		NOT = {
 			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
@@ -419,6 +484,12 @@ rayalucaria_soldier = {
 	}
 
 	can_recruit = {
+		culture = {
+			has_innovation = innovation_quilted_armor
+		}
+		NOT = {
+			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+		}
 		NOR = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
@@ -472,7 +543,7 @@ cuckoo_knight = {
 
 	can_recruit = {
 		culture = {
-			has_innovation = innovation_quilted_armor
+			has_innovation = innovation_elite_knights
 		}
 		NOT = {
 			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
@@ -726,6 +797,12 @@ gelmir_soldier = {
 	}
 
 	can_recruit = {
+		culture = {
+			has_innovation = innovation_quilted_armor
+		}
+		NOT = {
+			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+		}
 		NOR = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
@@ -779,7 +856,7 @@ gelmir_knight = {
 
 	can_recruit = {
 		culture = {
-			has_innovation = innovation_quilted_armor
+			has_innovation = innovation_elite_knights
 		}
 		NOT = {
 			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
@@ -877,7 +954,7 @@ leyndell_footsoldier = {
 }
 
 leyndell_soldier = {
-	type = skirmishers
+	type = heavy_infantry
 	
 	damage = 15
 	toughness = 10
@@ -886,7 +963,10 @@ leyndell_soldier = {
 
 	can_recruit = {
 		culture = {
-			has_cultural_parameter = order_affinity_more_common
+			has_innovation = innovation_quilted_armor
+		}
+		NOT = {
+			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
 		}
 		OR = {
 			is_morgott = yes
@@ -927,7 +1007,10 @@ leyndell_knight = {
 	
 	can_recruit = {
 		culture = {
-			has_cultural_parameter = order_affinity_more_common
+			has_innovation = innovation_elite_knights
+		}
+		NOT = {
+			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
 		}
 		OR = {
 			is_morgott = yes
@@ -993,7 +1076,7 @@ tree_sentinel = {
 		reference = tree_sentinel
 	}
 	
-	icon = heavy_cavalry
+	icon = tree_sentinel
 }
 
 #HALIGTREE FACTION
@@ -1064,6 +1147,12 @@ haligtree_soldier = {
 	}
 
 	can_recruit = {
+		culture = {
+			has_innovation = innovation_quilted_armor
+		}
+		NOT = {
+			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+		}
 		NOR = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
@@ -1117,7 +1206,7 @@ haligtree_knight = {
 
 	can_recruit = {
 		culture = {
-			has_innovation = innovation_quilted_armor
+			has_innovation = innovation_elite_knights
 		}
 		NOT = {
 			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }

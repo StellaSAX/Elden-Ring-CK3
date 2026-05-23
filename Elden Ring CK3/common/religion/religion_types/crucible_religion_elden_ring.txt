@@ -215,7 +215,9 @@
 		
 		GHWName = ghw_great_holy_war
 		GHWNamePlural = ghw_great_holy_wars
-	}	
+	}
+	
+	piety_icon_group = "christian"
 
 	faiths = {
 		faith_crucible = {
