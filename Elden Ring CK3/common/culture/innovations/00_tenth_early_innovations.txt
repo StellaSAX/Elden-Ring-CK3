@@ -1,0 +1,17 @@
+﻿@rocket_carts = "gfx/interface/icons/culture_innovations/innovation_rocket_carts.dds"
+
+innovation_rocket_carts = {
+	skill = martial
+	group = culture_group_military
+	culture_era = culture_era_tenth_millenium_early
+	icon = @rocket_carts
+
+	custom = unlock_maa_rocket_carts
+
+	flag = global_regular
+	#flag = early_medieval_era_regular
+	
+	ai_weight_for_fascination = {
+		value = 100
+	}
+}

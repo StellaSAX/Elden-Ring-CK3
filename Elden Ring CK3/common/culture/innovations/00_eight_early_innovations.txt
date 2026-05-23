@@ -66,14 +66,6 @@ innovation_motte = { # Earthworks in-game
 		name = innovation_motte_actual_motte
 	}
 
-	asset = {
-		trigger = {
-			has_cultural_pillar = heritage_chinese
-		}
-		icon = @fortifications
-		name = innovation_motte_chinese
-	}
-
 	custom = unlock_tribal_fortification_buildings
 
 	parameters = {
@@ -94,19 +86,7 @@ innovation_catapult = {
 	culture_era = culture_era_eight_millenium_early
 	icon = @siege_weapons
 
-	custom = unlock_siege_maa_first_level
-
-	asset = {
-		trigger = {
-			OR = {
-				has_cultural_pillar = heritage_chinese
-				has_cultural_pillar = heritage_japonic
-				has_cultural_pillar = heritage_korean
-			}
-		}
-		icon = @siege_crossbow
-		name = innovation_catapult_chinese
-	}
+	custom = unlock_maa_onager
 
 	flag = global_regular
 	flag = tribal_era_regular

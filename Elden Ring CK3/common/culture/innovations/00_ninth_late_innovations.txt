@@ -73,18 +73,7 @@ innovation_gunpowder = {
 		unlock_powder_magazines = yes
 	}
 
-	asset = {
-		trigger = {
-			OR = {
-				has_cultural_pillar = heritage_chinese
-				has_cultural_pillar = heritage_japonic
-				has_cultural_pillar = heritage_korean
-			}
-		}
-		icon = @fire_dragon
-	}
-
-	custom = unlock_siege_maa_fourth_level
+	custom = unlock_maa_bombard
 
 	flag = global_regular
 	flag = late_medieval_era_regular

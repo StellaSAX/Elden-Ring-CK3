@@ -1069,7 +1069,7 @@ tree_sentinel = {
 	low_maintenance_cost = { gold = 0.50 }
 	high_maintenance_cost = { gold = 1 }
 
-	stack = 10
+	stack = 20
 	allowed_in_hired_troops = no
 	
 	illustration = {

@@ -6,10 +6,6 @@ innovation_placeholder_1era_early = {
 	culture_era = culture_era_first_millenium_early
 	icon = @placeholder_image
 
-	character_modifier = {
-		vassal_herd_contribution_mult = 0.01
-	}
-	
 	ai_weight_for_fascination = {
 		value = 100
 	}
@@ -21,10 +17,6 @@ innovation_placeholder_1era_late = {
 	culture_era = culture_era_first_millenium_late
 	icon = @placeholder_image
 
-	character_modifier = {
-		vassal_herd_contribution_mult = 0.01
-	}
-	
 	ai_weight_for_fascination = {
 		value = 100
 	}
@@ -36,10 +28,6 @@ innovation_placeholder_2era_early = {
 	culture_era = culture_era_second_millenium_early
 	icon = @placeholder_image
 
-	character_modifier = {
-		vassal_herd_contribution_mult = 0.01
-	}
-	
 	ai_weight_for_fascination = {
 		value = 100
 	}
@@ -51,10 +39,6 @@ innovation_placeholder_2era_late = {
 	culture_era = culture_era_second_millenium_late
 	icon = @placeholder_image
 
-	character_modifier = {
-		vassal_herd_contribution_mult = 0.01
-	}
-	
 	ai_weight_for_fascination = {
 		value = 100
 	}
@@ -66,10 +50,6 @@ innovation_placeholder_3era_early = {
 	culture_era = culture_era_third_millenium_early
 	icon = @placeholder_image
 
-	character_modifier = {
-		vassal_herd_contribution_mult = 0.01
-	}
-	
 	ai_weight_for_fascination = {
 		value = 100
 	}
@@ -81,10 +61,6 @@ innovation_placeholder_3era_late = {
 	culture_era = culture_era_third_millenium_late
 	icon = @placeholder_image
 
-	character_modifier = {
-		vassal_herd_contribution_mult = 0.01
-	}
-	
 	ai_weight_for_fascination = {
 		value = 100
 	}
@@ -96,10 +72,6 @@ innovation_placeholder_4era_early = {
 	culture_era = culture_era_fourth_millenium_early
 	icon = @placeholder_image
 
-	character_modifier = {
-		vassal_herd_contribution_mult = 0.01
-	}
-	
 	ai_weight_for_fascination = {
 		value = 100
 	}
@@ -111,10 +83,6 @@ innovation_placeholder_4era_late = {
 	culture_era = culture_era_fourth_millenium_late
 	icon = @placeholder_image
 
-	character_modifier = {
-		vassal_herd_contribution_mult = 0.01
-	}
-	
 	ai_weight_for_fascination = {
 		value = 100
 	}
@@ -126,10 +94,6 @@ innovation_placeholder_5era_early = {
 	culture_era = culture_era_fifth_millenium_early
 	icon = @placeholder_image
 
-	character_modifier = {
-		vassal_herd_contribution_mult = 0.01
-	}
-	
 	ai_weight_for_fascination = {
 		value = 100
 	}
@@ -141,10 +105,6 @@ innovation_placeholder_5era_late = {
 	culture_era = culture_era_fifth_millenium_late
 	icon = @placeholder_image
 
-	character_modifier = {
-		vassal_herd_contribution_mult = 0.01
-	}
-	
 	ai_weight_for_fascination = {
 		value = 100
 	}
@@ -156,10 +116,6 @@ innovation_placeholder_6era_early = {
 	culture_era = culture_era_sixth_millenium_early
 	icon = @placeholder_image
 
-	character_modifier = {
-		vassal_herd_contribution_mult = 0.01
-	}
-	
 	ai_weight_for_fascination = {
 		value = 100
 	}
@@ -171,10 +127,6 @@ innovation_placeholder_6era_late = {
 	culture_era = culture_era_sixth_millenium_late
 	icon = @placeholder_image
 
-	character_modifier = {
-		vassal_herd_contribution_mult = 0.01
-	}
-	
 	ai_weight_for_fascination = {
 		value = 100
 	}
@@ -185,10 +137,6 @@ innovation_placeholder_7era_early = {
 	group = culture_group_military
 	culture_era = culture_era_seventh_millenium_early
 	icon = @placeholder_image
-
-	character_modifier = {
-		vassal_herd_contribution_mult = 0.01
-	}
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -201,10 +149,6 @@ innovation_placeholder_7era_late = {
 	culture_era = culture_era_seventh_millenium_late
 	icon = @placeholder_image
 
-	character_modifier = {
-		vassal_herd_contribution_mult = 0.01
-	}
-	
 	ai_weight_for_fascination = {
 		value = 100
 	}

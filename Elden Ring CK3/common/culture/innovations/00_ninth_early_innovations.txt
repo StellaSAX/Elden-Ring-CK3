@@ -70,19 +70,7 @@ innovation_trebuchet = {
 	culture_era = culture_era_ninth_millenium_early
 	icon = @siege_weapons
 
-	custom = unlock_siege_maa_third_level
-
-	asset = {
-		trigger = {
-			OR = {
-				has_cultural_pillar = heritage_chinese
-				has_cultural_pillar = heritage_japonic
-				has_cultural_pillar = heritage_korean
-			}
-		}
-		icon = @siege_tower
-		name = innovation_trebuchet_chinese
-	}
+	custom = unlock_maa_trebuchet
 
 	flag = global_regular
 	flag = high_medieval_era_regular

@@ -74,21 +74,9 @@ innovation_mangonel = {
 	culture_era = culture_era_eight_millenium_late
 	icon = @siege_weapons
 
-	custom = unlock_siege_maa_second_level
+	custom = unlock_maa_mangonel
 	
 	custom = eligible_accolade_besieger_attribute
-
-	asset = {
-		trigger = {
-			OR = {
-				has_cultural_pillar = heritage_chinese
-				has_cultural_pillar = heritage_japonic
-				has_cultural_pillar = heritage_korean
-			}
-		}
-		icon = @cloud_ladder
-		name = innovation_mangonel_chinese
-	}
 
 	flag = global_regular
 	flag = early_medieval_era_regular
@@ -111,24 +99,6 @@ innovation_burhs = { # Stone Forts in-game
 	group = culture_group_military
 	culture_era = culture_era_eight_millenium_late
 	icon = @civil_construction_2
-
-	# Suki (柵)
-	asset = {
-		trigger = {
-			has_cultural_pillar = heritage_japonic
-		}
-		icon = @civil_construction_2
-		name = innovation_burhs_japan
-	}
-
-	# Wu Bi/Wū Bì (塢壁)
-	asset = {
-		trigger = {
-			has_cultural_pillar = heritage_chinese
-		}
-		icon = @civil_construction_2
-		name = innovation_burhs_chinese
-	}
 
 	# Burhs
 	asset = {
