@@ -5,7 +5,7 @@
  innovation_rocket_carts:0 "Rocket Carts"
  innovation_rocket_carts_desc:0 "These carts are the bomb!"
 
- unlock_maa_elite_knights: "Can recruit [GetMaA('knight_infantry').GetName] as [men_at_arms|E]"
+ unlock_maa_elite_knights: "Can recruit [GetMaA('lordsworn_knight').GetName] as [men_at_arms|E]"
  unlock_maa_rocket_carts: "Can recruit [GetMaA('rocket_carts').GetName] as [men_at_arms|E]"
  
  innovation_placeholder_1era_early:0 "Innovations of Ages Past"

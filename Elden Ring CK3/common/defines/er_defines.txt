@@ -29,4 +29,6 @@ NCulture = {
 	ERA_PROGRESS_GAIN_BASE_MONTHLY = 0.05									# Base percentage gain every month for era spread
 	ERA_PROGRESS_GAIN_MONTHLY_PER_AVERAGE_DEVELOPMENT_LEVEL = 0.05			# How much extra per average development level
 	FIRST_ERA_START_YEAR = 1												# When did the first era start?
+	
+	INNOVATION_PROGRESS_GAIN_BASE = 0.2
 }

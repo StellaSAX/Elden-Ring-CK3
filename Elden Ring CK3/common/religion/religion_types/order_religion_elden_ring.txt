@@ -223,6 +223,7 @@
 	faiths = {
 		faith_golden = {
 			color = { 0.9 0.9 0.1 }
+			graphical_faith = "catholic_gfx"
 			icon = faith_golden_order
 			reformed_icon = faith_golden_order
 
@@ -244,6 +245,7 @@
 		}
 		faith_fundamentalism = {
 			color = { 0.5 0.5 0.05 }
+			graphical_faith = "catholic_gfx"
 			icon = faith_fundamentalism
 			reformed_icon = faith_fundamentalism
 
@@ -285,6 +287,7 @@
 		}
 		faith_unalloyed = { #Miquella before going
 			color = { 0.99 0.99 0.0 }
+			graphical_faith = "catholic_gfx"
 			icon = faith_unalloyed
 			reformed_icon = faith_unalloyed
 
@@ -325,6 +328,7 @@
 		}
 		faith_perfect = {
 			color = { 0.7 0.7 0.05 }
+			graphical_faith = "catholic_gfx"
 			icon = faith_perfect_order
 			reformed_icon = faith_perfect_order
 
@@ -357,6 +361,7 @@
 		}
 		faith_messmer = {
 			color = { 0.9 0.5 0.0 }
+			graphical_faith = "catholic_gfx"
 			icon = faith_messmer
 			reformed_icon = faith_messmer
 			
@@ -398,6 +403,7 @@
 		}
 		faith_kind = { #Miquella in the Land of Shadows
 			color = { 0.9 0.9 0.5 }
+			graphical_faith = "catholic_gfx"
 			icon = faith_kind
 			reformed_icon = faith_kind
 
@@ -433,6 +439,7 @@
 		}		
 		faith_st_trina = {
 			color = { 0.7 0.1 0.7 }
+			graphical_faith = "catholic_gfx"
 			icon = faith_st_trina
 			reformed_icon = faith_st_trina
 
@@ -472,6 +479,7 @@
 		}
 		faith_dragon_cult = {
 			color = { 0.9 0.6 0.1 }
+			graphical_faith = "orthodox_gfx"
 			icon = faith_dragon_cult
 			reformed_icon = faith_dragon_cult
 			

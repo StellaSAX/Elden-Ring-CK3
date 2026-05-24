@@ -1451,3 +1451,43 @@ banished_knights = {
 
 	icon = banished_knight
 }
+
+#DLC RESHUFFLED
+rocket_carts = {
+	type = archers
+
+	damage = 45
+	toughness = 12
+	pursuit = 0
+	screen = 0
+
+	siege_value = 0.1
+	
+	can_recruit = {
+		culture = {
+			has_innovation = innovation_rocket_carts
+		}
+	}
+
+	terrain_bonus = {
+		farmlands = { damage = 8 toughness = 6 }
+		plains = { damage = 8 }
+		hills = { damage = 8 }
+		terraced_hills = { damage = 8 }
+	}
+
+	counters = {
+		pikemen = 0.5
+		peasant_militia = 1
+		heavy_infantry = 0.5
+	}
+
+	buy_cost = { gold = rocket_carts_recruitment_cost }
+	low_maintenance_cost = { gold = rocket_carts_low_maint_cost }
+	high_maintenance_cost = { gold = rocket_carts_high_maint_cost }
+	provision_cost = @provisions_cost_special_moderate
+
+	stack = 50
+	ai_quality = { value = @[cultural_maa_extra_ai_score + 200] }
+	icon = hwacha
+}

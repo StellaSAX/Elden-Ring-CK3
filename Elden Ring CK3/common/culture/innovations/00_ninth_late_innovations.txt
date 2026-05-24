@@ -38,7 +38,10 @@
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
 
-#culture_group_military
+
+
+### culture_group_military ###
+
 innovation_machicolations = {
 	skill = stewardship
 	group = culture_group_military
@@ -47,7 +50,7 @@ innovation_machicolations = {
 	custom = unlock_late_medieval_fortification_buildings
 
 	flag = global_regular
-	flag = late_medieval_era_regular
+	#flag = late_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -76,7 +79,7 @@ innovation_gunpowder = {
 	custom = unlock_maa_bombard
 
 	flag = global_regular
-	flag = late_medieval_era_regular
+	#flag = late_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -104,7 +107,7 @@ innovation_royal_armory = {
 	}
 
 	flag = global_regular
-	flag = late_medieval_era_regular
+	#flag = late_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -133,7 +136,7 @@ innovation_standing_armies = {
 	custom = more_belligerents
 
 	flag = global_regular
-	flag = late_medieval_era_regular
+	#flag = late_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -159,7 +162,7 @@ innovation_sappers = {
 	}
 
 	flag = global_regular
-	flag = late_medieval_era_regular
+	#flag = late_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -190,7 +193,7 @@ innovation_plate_armor = {
 	}
 
 	flag = global_regular
-	flag = late_medieval_era_regular
+	#flag = late_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -205,7 +208,8 @@ innovation_plate_armor = {
 	}
 }
 
-#culture_group_civic
+### culture_group_civic ###
+
 innovation_primogeniture = {
 	skill = diplomacy
 	group = culture_group_civic
@@ -218,7 +222,7 @@ innovation_primogeniture = {
 	custom = more_zealot
 
 	flag = global_regular
-	flag = late_medieval_era_regular
+	#flag = late_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -246,7 +250,7 @@ innovation_cranes = {
 	}
 
 	flag = global_regular
-	flag = late_medieval_era_regular
+	#flag = late_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -275,7 +279,7 @@ innovation_noblesse_oblige = {
 	}
 
 	flag = global_regular
-	flag = late_medieval_era_regular
+	#flag = late_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -348,7 +352,7 @@ innovation_ermine_cloaks = { # now 'Exotic Regalia' in-game
 	}
 
 	flag = global_regular
-	flag = late_medieval_era_regular
+	#flag = late_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -377,7 +381,7 @@ innovation_court_officials = {
 	custom = more_courtly
 
 	flag = global_regular
-	flag = late_medieval_era_regular
+	#flag = late_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -402,7 +406,7 @@ innovation_development_04 = {
 	custom = more_parochial
 
 	flag = global_regular
-	flag = late_medieval_era_regular
+	#flag = late_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -428,7 +432,7 @@ innovation_currency_04 = {
 	}
 
 	flag = global_regular
-	flag = late_medieval_era_regular
+	#flag = late_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -447,7 +451,7 @@ innovation_currency_04 = {
 
 innovation_wierdijks = {
 	skill = stewardship
-	group = culture_group_civic
+	group = culture_group_regional
 	culture_era = culture_era_ninth_millenium_late
 	region = world_liurnia
 	icon = @civil_construction_2
@@ -461,7 +465,7 @@ innovation_wierdijks = {
 	}
 
 	flag = global_regional
-	flag = late_medieval_era_regional
+	#flag = late_medieval_era_regional
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -478,7 +482,7 @@ innovation_wierdijks = {
 
 innovation_condottieri = {
 	skill = intrigue
-	group = culture_group_military
+	group = culture_group_regional
 	culture_era = culture_era_ninth_millenium_late
 	region = world_limgrave
 	icon = @maa_01
@@ -492,7 +496,7 @@ innovation_condottieri = {
 	}
 
 	flag = global_regional
-	flag = late_medieval_era_regional
+	#flag = late_medieval_era_regional
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -509,7 +513,7 @@ innovation_condottieri = {
 
 innovation_deccan_unity = {
 	skill = diplomacy
-	group = culture_group_civic
+	group = culture_group_regional
 	culture_era = culture_era_ninth_millenium_late
 	region = world_haligtree
 	icon = @nobility_04
@@ -519,7 +523,7 @@ innovation_deccan_unity = {
 	}
 
 	flag = global_regional
-	flag = late_medieval_era_regional
+	#flag = late_medieval_era_regional
 	
 	ai_weight_for_fascination = {
 		value = 100

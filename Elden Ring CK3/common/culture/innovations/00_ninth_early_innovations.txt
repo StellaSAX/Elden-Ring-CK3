@@ -33,13 +33,17 @@
 @heraldry = "gfx/interface/icons/culture_innovations/innovation_heraldry.dds"
 @windmills = "gfx/interface/icons/culture_innovations/innovation_windmills.dds"
 @siege_tower = "gfx/interface/icons/culture_innovations/innovation_auh_siege_tower.dds"
+@innovation_welfare_02 = "gfx/interface/icons/culture_innovations/innovation_welfare_02.dds"
 
 @camel = "gfx/interface/icons/culture_innovations/innovation_camel.dds"
 @elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
 
-#culture_group_military
+
+
+### culture_group_military ###
+
 innovation_hoardings = {
 	skill = stewardship
 	group = culture_group_military
@@ -49,7 +53,7 @@ innovation_hoardings = {
 	custom = unlock_high_medieval_fortification_buildings
 
 	flag = global_regular
-	flag = high_medieval_era_regular
+	#flag = high_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -73,7 +77,7 @@ innovation_trebuchet = {
 	custom = unlock_maa_trebuchet
 
 	flag = global_regular
-	flag = high_medieval_era_regular
+	#flag = high_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -101,7 +105,7 @@ innovation_castle_baileys = {
 	}
 
 	flag = global_regular
-	flag = high_medieval_era_regular
+	#flag = high_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -129,7 +133,7 @@ innovation_men_at_arms = {
 	}
 
 	flag = global_regular
-	flag = high_medieval_era_regular
+	#flag = high_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -160,7 +164,7 @@ innovation_knighthood = {
 	custom = more_glory_hounds
 
 	flag = global_regular
-	flag = high_medieval_era_regular
+	#flag = high_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -191,7 +195,7 @@ innovation_advanced_bowmaking = {
 	custom = eligible_accolade_crossbower_attribute
 
 	flag = global_regular
-	flag = high_medieval_era_regular
+	#flag = high_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -206,7 +210,8 @@ innovation_advanced_bowmaking = {
 	}
 }
 
-#culture_group_civic
+### culture_group_civic ###
+
 innovation_heraldry = {
 	skill = diplomacy
 	group = culture_group_civic
@@ -218,7 +223,7 @@ innovation_heraldry = {
 	custom = more_courtly
 
 	flag = global_regular
-	flag = high_medieval_era_regular
+	#flag = high_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -247,7 +252,7 @@ innovation_windmills = {
 	}
 
 	flag = global_regular
-	flag = high_medieval_era_regular
+	#flag = high_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -283,7 +288,7 @@ innovation_divine_right = {
 	}
 
 	flag = global_regular
-	flag = high_medieval_era_regular
+	#flag = high_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -309,7 +314,7 @@ innovation_land_grants = {
 	custom = more_parochial
 
 	flag = global_regular
-	flag = high_medieval_era_regular
+	#flag = high_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -337,7 +342,7 @@ innovation_scutage = {
 	}
 
 	flag = global_regular
-	flag = high_medieval_era_regular
+	#flag = high_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -365,7 +370,7 @@ innovation_guilds = {
 	}
 
 	flag = global_regular
-	flag = high_medieval_era_regular
+	#flag = high_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -389,7 +394,7 @@ innovation_development_03 = {
 	custom = reduce_develop_county_penalty_03
 
 	flag = global_regular
-	flag = high_medieval_era_regular
+	#flag = high_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -415,7 +420,39 @@ innovation_currency_03 = {
 	}
 
 	flag = global_regular
-	flag = high_medieval_era_regular
+	#flag = high_medieval_era_regular
+	
+	ai_weight_for_fascination = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_ninth_millenium_early
+				}
+			}
+			multiply = 0
+		}
+	}
+}
+
+innovation_sanitation = {
+	skill = stewardship
+	group = culture_group_civic
+	culture_era = culture_era_ninth_millenium_early
+	icon = @innovation_welfare_02
+	
+	potential = {
+		has_cultural_pillar = heritage_lands_between
+	}
+
+	county_modifier = {
+		epidemic_resistance = 10
+	}
+
+	custom = unlocks_innovation_sanitation
+
+	flag = global_regional
+	#flag = high_medieval_era_regional
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -434,7 +471,7 @@ innovation_currency_03 = {
 
 innovation_east_settling = {
 	skill = stewardship
-	group = culture_group_civic
+	group = culture_group_regional
 	culture_era = culture_era_ninth_millenium_early
 	region = world_caelid
 	icon = @misc_inventions
@@ -445,7 +482,7 @@ innovation_east_settling = {
 	}
 
 	flag = global_regional
-	flag = high_medieval_era_regional
+	#flag = high_medieval_era_regional
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -462,7 +499,7 @@ innovation_east_settling = {
 
 innovation_seigneurialism = {
 	skill = stewardship
-	group = culture_group_civic
+	group = culture_group_regional
 	culture_era = culture_era_ninth_millenium_early
 	region = world_leyndell
 	icon = @administration_1
@@ -472,7 +509,7 @@ innovation_seigneurialism = {
 	}
 
 	flag = global_regional
-	flag = high_medieval_era_regional
+	#flag = high_medieval_era_regional
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -489,7 +526,7 @@ innovation_seigneurialism = {
 
 innovation_muladi = {
 	skill = diplomacy
-	group = culture_group_civic
+	group = culture_group_regional
 	culture_era = culture_era_ninth_millenium_early
 	region = world_shadowland
 	icon = @nobility_02
@@ -500,7 +537,7 @@ innovation_muladi = {
 	}
 
 	flag = global_regional
-	flag = high_medieval_era_regional
+	#flag = high_medieval_era_regional
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -517,7 +554,7 @@ innovation_muladi = {
 
 innovation_french_peerage = {
 	skill = diplomacy
-	group = culture_group_civic
+	group = culture_group_regional
 	culture_era = culture_era_ninth_millenium_early
 	region = world_limgrave
 	icon = @nobility_03
@@ -539,7 +576,7 @@ innovation_french_peerage = {
 	}
 
 	flag = global_regional
-	flag = high_medieval_era_regional
+	#flag = high_medieval_era_regional
 	
 	ai_weight_for_fascination = {
 		value = 100

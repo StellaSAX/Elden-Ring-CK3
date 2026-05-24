@@ -36,8 +36,12 @@
 @elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
+@elite_knights = "gfx/interface/icons/culture_innovations/innovation_elite_knights.dds"
 
-#culture_group_military
+
+
+### culture_group_military ###
+
 innovation_battlements = {
 	skill = stewardship
 	group = culture_group_military
@@ -53,7 +57,7 @@ innovation_battlements = {
 	}
 
 	flag = global_regular
-	flag = early_medieval_era_regular
+	#flag = early_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -79,7 +83,7 @@ innovation_mangonel = {
 	custom = eligible_accolade_besieger_attribute
 
 	flag = global_regular
-	flag = early_medieval_era_regular
+	#flag = early_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -109,15 +113,6 @@ innovation_burhs = { # Stone Forts in-game
 		name = innovation_burhs_anglo_saxon
 	}
 
-	# Castra
-	asset = {
-		trigger = {
-			has_cultural_pillar = heritage_latin
-		}
-		icon = @civil_construction_2
-		name = innovation_burhs_latin
-	}
-
 	custom = unlock_early_medieval_military_buildings
 	
 	character_modifier = {
@@ -125,7 +120,7 @@ innovation_burhs = { # Stone Forts in-game
 	}
 
 	flag = global_regular
-	flag = early_medieval_era_regular
+	#flag = early_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -152,7 +147,7 @@ innovation_house_soldiers = {
 	}
 
 	flag = global_regular
-	flag = early_medieval_era_regular
+	#flag = early_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -178,7 +173,7 @@ innovation_horseshoes = {
 	}
 
 	flag = global_regular
-	flag = early_medieval_era_regular
+	#flag = early_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -203,7 +198,7 @@ innovation_arched_saddle = {
 	custom = eligible_accolade_lancer_attribute
 
 	flag = global_regular
-	flag = early_medieval_era_regular
+	#flag = early_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -218,7 +213,24 @@ innovation_arched_saddle = {
 	}
 }
 
-#culture_group_civic
+innovation_elite_knights = {
+	skill = martial
+	group = culture_group_military
+	culture_era = culture_era_eight_millenium_late
+	icon = @elite_knights
+
+	custom = unlock_maa_elite_knights
+
+	flag = global_regular
+	#flag = early_medieval_era_regular
+	
+	ai_weight_for_fascination = {
+		value = 100
+	}
+}
+
+### culture_group_civic ###
+
 innovation_hereditary_rule = {
 	skill = diplomacy
 	group = culture_group_civic
@@ -228,7 +240,7 @@ innovation_hereditary_rule = {
 	unlock_law = partition_succession_law
 
 	flag = global_regular
-	flag = early_medieval_era_regular
+	#flag = early_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -257,7 +269,7 @@ innovation_manorialism = {
 	}
 
 	flag = global_regular
-	flag = early_medieval_era_regular
+	#flag = early_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -281,7 +293,7 @@ innovation_development_02 = {
 	custom = reduce_develop_county_penalty_02
 
 	flag = global_regular
-	flag = early_medieval_era_regular
+	#flag = early_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -309,7 +321,7 @@ innovation_currency_02 = {
 	}
 
 	flag = global_regular
-	flag = early_medieval_era_regular
+	#flag = early_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -335,7 +347,7 @@ innovation_royal_prerogative = {
 	custom = more_courtly
 
 	flag = global_regular
-	flag = early_medieval_era_regular
+	#flag = early_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -361,7 +373,7 @@ innovation_chronicle_writing = {
 	custom = more_zealot
 
 	flag = global_regular
-	flag = early_medieval_era_regular
+	#flag = early_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -387,7 +399,7 @@ innovation_armilary_sphere = {
 	}
 
 	flag = global_regular
-	flag = early_medieval_era_regular
+	#flag = early_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -423,17 +435,6 @@ innovation_baliffs = { # Magistrates in-game
 		name = innovation_baliffs_bailiffs
 	}
 
-	asset = {
-		trigger = {
-			OR = {
-				has_cultural_pillar = heritage_latin
-				has_cultural_pillar = heritage_byzantine
-			}
-		}
-		icon = @leadership_1
-		name = innovation_baliffs_latin
-	}
-
 	county_modifier = {
 		building_slot_add = 1
 	}
@@ -444,7 +445,7 @@ innovation_baliffs = { # Magistrates in-game
 	custom = more_glory_hounds
 
 	flag = global_regular
-	flag = early_medieval_era_regular
+	#flag = early_medieval_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -463,7 +464,7 @@ innovation_baliffs = { # Magistrates in-game
 
 innovation_reconquista = {
 	skill = martial
-	group = culture_group_military
+	group = culture_group_regional
 	culture_era = culture_era_eight_millenium_late
 	region = world_shadowland
 	icon = @leadership_2
@@ -475,7 +476,7 @@ innovation_reconquista = {
 	}
 
 	flag = global_regional
-	flag = early_medieval_era_regional
+	#flag = early_medieval_era_regional
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -492,7 +493,7 @@ innovation_reconquista = {
 
 innovation_stem_duchies = {
 	skill = diplomacy
-	group = culture_group_civic
+	group = culture_group_regional
 	culture_era = culture_era_eight_millenium_late
 	region = world_limgrave
 	icon = @majesty_03
@@ -503,7 +504,7 @@ innovation_stem_duchies = {
 	}
 
 	flag = global_regional
-	flag = early_medieval_era_regional
+	#flag = early_medieval_era_regional
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -520,7 +521,7 @@ innovation_stem_duchies = {
 
 innovation_ghilman = {
 	skill = martial
-	group = culture_group_military
+	group = culture_group_regional
 	culture_era = culture_era_eight_millenium_late
 	region = region_gelmir
 	icon = @maa_02
@@ -530,7 +531,7 @@ innovation_ghilman = {
 	}
 
 	flag = global_regional
-	flag = early_medieval_era_regional
+	#flag = early_medieval_era_regional
 	
 	ai_weight_for_fascination = {
 		value = 100

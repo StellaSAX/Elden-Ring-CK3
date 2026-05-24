@@ -1,4 +1,9 @@
 ﻿@rocket_carts = "gfx/interface/icons/culture_innovations/innovation_rocket_carts.dds"
+@misc_inventions = "gfx/interface/icons/culture_innovations/innovation_misc_inventions.dds"
+
+
+
+### culture_group_military ###
 
 innovation_rocket_carts = {
 	skill = martial
@@ -13,5 +18,67 @@ innovation_rocket_carts = {
 	
 	ai_weight_for_fascination = {
 		value = 100
+	}
+}
+
+### culture_group_civic ###
+
+fp3_innovation_mural_sextant = {
+	skill = learning
+	group = culture_group_civic
+	culture_era = culture_era_tenth_millenium_early
+	icon = @misc_inventions
+
+	potential = {
+		has_fp3_dlc_trigger = yes
+		#has_innovation = fp3_innovation_mural_sextant
+	}
+
+	character_modifier = {
+		monthly_learning_lifestyle_xp_gain_mult = 0.05
+		character_capital_county_monthly_development_growth_add = 0.2
+		character_capital_monthly_county_fertility_growth_add = 0.2
+	}
+	
+	ai_weight_for_fascination = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_tenth_millenium_early
+				}
+			}
+			multiply = 0
+		}
+	}
+}
+
+fp3_innovation_fritware = {
+	skill = learning
+	group = culture_group_civic
+	culture_era = culture_era_tenth_millenium_early
+	icon = @misc_inventions
+
+	potential = {
+		has_fp3_dlc_trigger = yes
+		#has_innovation = fp3_innovation_fritware
+	}
+
+	character_modifier = {
+		domain_tax_mult = 0.05
+	}
+
+	custom = fp3_innovation_fritware_tooltip
+	
+	ai_weight_for_fascination = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_tenth_millenium_early
+				}
+			}
+			multiply = 0
+		}
 	}
 }
