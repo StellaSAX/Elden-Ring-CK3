@@ -204,8 +204,9 @@
  trait_tarnished_desc:0 "Exiles who lost the grace of gold long ago, they now come back to the Lands Between guided by grace, to stand before the Elden Ring. And chance to become the Elden Lord.\nThis one is guided by ambition and grace."
  trait_graceless_tarnished:0 "Graceless Tarnished"
  trait_graceless_tarnished_desc:0 "Exiles who lost the grace of gold long ago, they now come back to the Lands Between guided by grace, to stand before the Elden Ring. And chance to become the Elden Lord.\nThis one had their ambition extinguished."
- trait_special_tarnished:0 "Renowned Tarnished" #for the people of the discord
- trait_special_tarnished_desc:0 "Exiles who lost the grace of gold long ago, they now come back to the Lands Between guided by grace, to stand before the Elden Ring. And chance to become the Elden Lord.\nThis one has gained some recognition, but they remain a tarnished."
+
+ trait_roundtable_leader:0 "Leader of the Roundtable Hold"
+ trait_roundtable_leader_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the current leader of the Roundtable Hold, a place where [GetTrait('tarnished').GetName( GetNullCharacter )] gather in their quest for the Elden Ring."
 
  trait_scarlet_rot:0 "Scarlet Rot"
  trait_scarlet_rot_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has caught a terrible and ancient affliction which is consuming [ROOT.GetCharacter.GetHerHis] body, leaving [ROOT.GetCharacter.GetHerHim] with a deformed appearance and terrible nightmares."

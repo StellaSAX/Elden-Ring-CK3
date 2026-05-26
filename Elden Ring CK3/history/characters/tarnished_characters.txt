@@ -219,6 +219,7 @@ gideon = {
 	trait = scholar
 	trait = schemer
 	trait = glintstone_affinity
+	trait = roundtable_leader
 	trait = no_marry
 	
 	trait = tarnished
