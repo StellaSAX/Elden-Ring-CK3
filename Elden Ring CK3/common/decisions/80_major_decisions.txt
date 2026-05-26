@@ -3236,6 +3236,7 @@ restore_carthage_decision = {
 	selection_tooltip = restore_carthage_decision_tooltip
 
 	is_shown = {
+	always = no # ER
 		is_ruler = yes
 		is_playable_character = yes
 
