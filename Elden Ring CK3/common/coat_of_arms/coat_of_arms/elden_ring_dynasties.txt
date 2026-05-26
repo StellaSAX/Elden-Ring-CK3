@@ -459,6 +459,25 @@ dynn_stormveil={
 
 }
 
+dynn_aeonia={
+	custom=yes
+	pattern="pattern_solid.dds"
+	color1=rgb { 69 19 25 }
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=rgb { 138 12 12 }
+		color2=rgb { 174 54 54 }
+		color3=rgb { 231 106 106 }
+		texture="aeonia_bloom.dds"
+		instance={
+			scale={ 0.790000 0.790000 }
+		}
+
+	}
+
+}
+
 dynn_beast={
 	custom=yes
 	pattern="pattern_solid.dds"

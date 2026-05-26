@@ -1,11 +1,10 @@
 ﻿millicent = {
 	name = "Millicent"
 	female = yes
-	##dna = marika_dna
+	#dna = millicent_dna
 	sexuality = bisexual
-	dynasty_house = house_malenia_erdtree
 	
-	#dynasty = dynn_erdtree
+	dynasty = dynn_aeonia
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
@@ -38,10 +37,10 @@
 polyanna = {
 	name = "Polyanna"
 	female = yes
-	##dna = marika_dna
+	#dna = polyanna_dna
 	sexuality = bisexual
-	dynasty_house = house_malenia_erdtree
-	#dynasty = dynn_erdtree
+	
+	dynasty = dynn_aeonia
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
@@ -73,10 +72,10 @@ polyanna = {
 amy = {
 	name = "Amy"
 	female = yes
-	##dna = marika_dna
+	#dna = amy_dna
 	sexuality = bisexual
-	dynasty_house = house_malenia_erdtree
-	#dynasty = dynn_erdtree
+	
+	dynasty = dynn_aeonia
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
@@ -108,10 +107,10 @@ amy = {
 maureen = {
 	name = "Maureen"
 	female = yes
-	##dna = marika_dna
+	#dna = maureen_dna
 	sexuality = bisexual
-	dynasty_house = house_malenia_erdtree
-	#dynasty = dynn_erdtree
+	
+	dynasty = dynn_aeonia
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
@@ -143,10 +142,10 @@ maureen = {
 mary = {
 	name = "Mary"
 	female = yes
-	##dna = marika_dna
+	#dna = mary_dna
 	sexuality = bisexual
-	dynasty_house = house_malenia_erdtree
-	#dynasty = dynn_erdtree
+	
+	dynasty = dynn_aeonia
 	martial = 10
 	diplomacy = 10
 	intrigue = 10

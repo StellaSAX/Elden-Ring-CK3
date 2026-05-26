@@ -3,4 +3,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1276;304;sea;2888;-1;-1;-1;-1;Bridge of Sacrifice
 304;387;sea;2888;-1;-1;-1;-1;Bridge of Sacrifice
 2482;171;river_large;2852;-1;-1;-1;-1;Crossing in Gelmir
+2247;1611;river_large;2798;-1;-1;-1;-1;South Crossing in Chapel of Anticipation
+1273;3141;river_large;2798;-1;-1;-1;-1;North Crossing in Chapel of Anticipation
 -1;-1;;-1;-1;-1;-1;-1;

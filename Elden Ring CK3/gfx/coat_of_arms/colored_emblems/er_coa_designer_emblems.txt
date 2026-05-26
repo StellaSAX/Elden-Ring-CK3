@@ -1,5 +1,6 @@
 ﻿###ELDEN RING EMBLEMS###
 
+aeonia_bloom.dds = { colors = 3 category = elden_ring }
 all_knowing.dds = { colors = 2 category = elden_ring }
 all_knowing_eye.dds = { colors = 2 category = elden_ring }
 azula_elden.dds = { colors = 1 category = elden_ring }
