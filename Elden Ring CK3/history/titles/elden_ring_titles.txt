@@ -88,7 +88,7 @@ c_R52G82B165 = {
 c_R54G124B112 = {
 	8300.1.1 = {
 		holder = tanith
-		liege = k_lord_of_blasphemy
+		liege = d_volcano_manor
 	}
 }
 c_R61G159B94 = {
@@ -163,8 +163,8 @@ d_mistwood = {
 }
 d_morne = {
 	8251.1.1 = {
-		liege = k_stormveil
 		holder = edgar
+		liege = k_stormveil
 	}
 }
 d_murkwater = {
