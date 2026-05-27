@@ -20,3 +20,4 @@ artifact_martial_5_modifier = { martial = 5 }
 artifact_stewardship_5_modifier = { stewardship = 5 }
 artifact_intrigue_5_modifier = { intrigue = 5 }
 artifact_learning_5_modifier = { learning = 5 }
+artifact_monthly_prestige_add_9_modifier = { monthly_dynasty_prestige = 0.2 }

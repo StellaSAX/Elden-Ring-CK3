@@ -1,18 +1,21 @@
 ﻿l_english:
  ruins_greatsword_name:0 "Ruins Greatsword"
  ruins_greatsword_description:0 "Originally rubble from a ruin which fell from the sky, this surviving fragment was honed into a weapon. One of the legendary armaments.\n\nThe ruin it came from crumbled when struck by a meteorite, as such this weapon harbors its destructive power."
- 
+
  axe_of_godfrey_name:0 "Axe of Godfrey"
  axe_of_godfrey_description:0 "Weapon of Godfrey, Elden Lord. It was broken in a battle fought as leader of the Tarnished during the Long March.\n\nThis weapon is symbolic of Godfrey's vow to conduct himself as a lord, later becoming an emblem of the golden lineage. In the days of the past, a crown was warranted with strength."
- 
+
  axe_of_godrick_name:0 "Axe of Godrick"
  axe_of_godrick_description:0 "Greataxe wielded by Godrick the Grafted. This golden battleaxe is emblazoned with the figure of a beast, representing the strength of Godfrey, First Elden Lord and patriarch of the golden lineage.\n\n#italic I command thee kneel! For I am the lord of all that is golden!#"
- 
+
  eldenrune_death_name:0 "Rune of Death"
  eldenrune_death_description:0 "#italicThe Rune of Death goes by two names; the other is Destined Death. The forbidden shadow, plucked from the Golden Order upon its creation...#"
- 
+
  greatrune_godrick_name:0 "Godrick's Great Rune"
  greatrune_godrick_description:0 "A Great Rune of the shardbearer Godrick. Its blessing raises all attributes.\n\nThis Great Rune is known as the anchor ring, found in the center of the Elden Ring.\n\nThe first demigods were The Elden Lord Godfrey and his offspring, the golden lineage."
- 
+
  deathbed_smalls_name:0 "Deathbed Smalls"
  deathbed_smalls_description:0 "Skirt worn by Fia, the Deathbed Companion."
+
+ dragon_heart_name:0 "Dragon Heart"
+ dragon_heart_description:0 "Dragon heart gained by slaying a dragon.\nRiddled with Gravel Stone, this grotesque organ continues to beat vivaciously.\n\nAn offering used in the Dragon Communion. Consume a dragon's heart at the altar to make its power yours."

@@ -1,0 +1,4 @@
+﻿dragon_heart_visual = {
+	icon = "er_dragon_heart.dds"
+	asset = dragon_heart
+}

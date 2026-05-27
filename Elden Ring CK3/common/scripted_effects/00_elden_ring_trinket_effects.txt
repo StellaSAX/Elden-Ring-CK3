@@ -1,0 +1,27 @@
+﻿elden_ring_dragon_heart_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = dragon_heart_name
+		visuals = dragon_heart_visual
+		description = dragon_heart_description
+		type = miscellaneous
+		wealth = scope:wealth
+		quality = scope:quality
+		template = dragon_heart_template
+		
+		modifier = artifact_monthly_prestige_10_modifier
+		modifier = artifact_monthly_prestige_add_9_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+	}
+}
