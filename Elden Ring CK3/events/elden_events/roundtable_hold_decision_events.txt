@@ -12,7 +12,7 @@ roundtable_hold_decision_events.0001 = {
 	desc = roundtable_hold_decision_events.0001.desc
 	theme = landless_adventurer
 
-	override_background = { reference = elden_ring_main_hall }
+	override_background = { reference = roundtable_main_hall }
 	
 	center_portrait = {
 		character = root
@@ -99,7 +99,7 @@ roundtable_hold_decision_events.0002 = {
 	desc = roundtable_hold_decision_events.0001.desc
 	theme = landless_adventurer
 
-	override_background = { reference = elden_ring_main_hall }
+	override_background = { reference = roundtable_main_hall }
 	
 	center_portrait = { #player
 		character = root
@@ -280,7 +280,7 @@ roundtable_hold_decision_events.0003 = {
 	desc = roundtable_hold_decision_events.0003.desc
 	theme = landless_adventurer
 
-	override_background = { reference = elden_ring_study }
+	override_background = { reference = roundtable_study }
 	center_portrait = {
 		character = root
 		animation = thinking
