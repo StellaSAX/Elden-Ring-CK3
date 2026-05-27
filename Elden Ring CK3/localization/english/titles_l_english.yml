@@ -72,6 +72,42 @@
  d_laamp_bloodyfinger: "Bloody Fingers"
  d_laamp_bloodyfinger_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  
+ #Weeping Peninsula
+ k_weeping_peninsula: "Weeping Peninsula"
+ 
+ d_tombsward_hill: "Tombsward Hill"
+ 
+ d_weeping_road: "Weeping Road"
+ 
+ c_road_morne: "Road to Morne"
+ b_outer_wall_gates: "Gates of Morne"
+ 
+ c_east_lookout: "East Lookout"
+ b_morne_outer_wall_w: "Harbor's Watch"
+ b_morne_outer_wall_towers: "Outer Wall of Morne Castle"
+ 
+ d_weeping_coast: "Weeping Coast"
+ 
+ c_west_lookout: "West Lookout"
+ b_tower_of_return: "Tower of Return"
+ 
+ c_weeping_coast_south: "South Weeping Coast"
+ b_weeping_shack: "Isolated Weeping Shack"
+ 
+ c_weeping_coast_north: "North Weeping Coast"
+ 
+ d_morne: "Morne"
+ 
+ c_morne: "Castle Morne"
+ b_morne: "Morne Keep"
+ b_morne_gates: "Gates of Morne Keep"
+ b_morne_swords: "Morne Greatsword Monument"
+ b_morne_lookout_tower: "Morne Lookout Tower"
+ b_morne_road: "Road to Morne Keep"
+ 
+ c_morne_rear: "Morne Moangrave"
+ b_moangrave: "Morne Moangrave"
+ 
  d_grand_cloister: "Grand Cloister"
  d_rot_lake: "Lake of Rot"
  d_nokstella: "Nokstella"
@@ -126,10 +162,6 @@
  d_limgrave_colosseum: "Limgrave Colosseum"
  d_divinetower_limgrave: "Divine Tower of Limgrave"
  d_stranded_coast: "Stranded Coast"
- d_morne: "Morne"
- d_weeping_road: "Weeping Road"
- d_tombsward_hill: "Tombsward Hill"
- d_weeping_coast: "Weeping Coast"
  d_dragonbarrow: "Dragonbarrow East"
  d_dragonbarrow_west: "Dragonbarrow West"
  d_bestial_sanctum: "Bestial Sanctum"
@@ -203,7 +235,6 @@
  k_rauh: "Rauh"
  k_siofra: "Siofra"
  k_stormveil: "Stormveil"
- k_weeping_peninsula: "Weeping Peninsula"
  k_dragonbarrow: "Dragonbarrow"
  k_redmane: "Red Wastes"
  k_rayalucaria: "Raya Lucaria"

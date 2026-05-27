@@ -7707,15 +7707,15 @@ h_lands_between = {
 				color = { 45 46 76 }
 				capital = c_R52G82B165
 
-				c_R52G82B165 = {
+				c_morne = {
 					color = { 52 82 165 }
 
-					b_R183G242B53 = {
+					b_morne = {
 						color = { 52 82 165 }
 						province = 2314
 					}
 
-					b_R138G58B83 = {
+					b_morne_swords = {
 						color = { 116 77 124 }
 						province = 298
 					}
@@ -7725,12 +7725,12 @@ h_lands_between = {
 						province = 978
 					}
 
-					b_R176G54B238 = {
+					b_morne_gates = {
 						color = { 22 139 35 }
 						province = 1728
 					}
 
-					b_lake7 = {
+					b_morne_lookout_tower = {
 						color = { 179 168 14 }
 						province = 3083
 					}
@@ -7740,7 +7740,7 @@ h_lands_between = {
 						province = 3110
 					}
 
-					b_R60G55B125 = {
+					b_morne_road = {
 						color = { 233 178 21 }
 						province = 1533
 					}
@@ -7811,7 +7811,7 @@ h_lands_between = {
 				c_morne_rear = {
 					color = { 137 212 174 }
 
-					b_R253G6B190 = {
+					b_moangrave = {
 						color = { 35 223 54 }
 						province = 2560
 					}
@@ -7923,10 +7923,10 @@ h_lands_between = {
 					}
 				}
 
-				c_R39G31B191 = {
+				c_road_morne = {
 					color = { 39 31 191 }
 
-					b_R176G112B51 = {
+					b_outer_wall_gates = {
 						color = { 84 230 69 }
 						province = 2062
 					}
@@ -7947,10 +7947,10 @@ h_lands_between = {
 					}
 				}
 
-				c_R86G250B97 = {
+				c_east_lookout = {
 					color = { 86 250 97 }
 
-					b_R96G229B77 = {
+					b_morne_outer_wall_w = {
 						color = { 86 250 97 }
 						province = 1429
 					}
@@ -7960,7 +7960,7 @@ h_lands_between = {
 						province = 1528
 					}
 
-					b_R233G2B13 = {
+					b_morne_outer_wall_towers = {
 						color = { 47 66 197 }
 						province = 2343
 					}
@@ -8125,16 +8125,17 @@ h_lands_between = {
 
 				c_R238G176B49 = {
 					color = { 238 176 49 }
+					
+					b_R70G52B158 = {
+						color = { 122 232 63 }
+						province = 866
+					}
 
 					b_R191G255B251 = {
 						color = { 238 176 49 }
 						province = 2019
 					}
 
-					b_R70G52B158 = {
-						color = { 122 232 63 }
-						province = 866
-					}
 
 					b_R127G40B153 = {
 						color = { 102 10 244 }
@@ -8171,7 +8172,7 @@ h_lands_between = {
 				color = { 68 95 87 }
 				capital = c_R62G216B236
 
-				c_R53G177B174 = {
+				c_weeping_coast_north = {
 					color = { 53 177 174 }
 
 					b_R248G15B185 = {
@@ -8195,10 +8196,10 @@ h_lands_between = {
 					}
 				}
 
-				c_R127G10B82 = {
+				c_weeping_coast_south = {
 					color = { 127 10 82 }
 
-					b_delete_9 = {
+					b_weeping_shack = {
 						color = { 206 1 78 }
 						province = 3075
 					}
@@ -8252,10 +8253,10 @@ h_lands_between = {
 					}
 				}
 
-				c_R220G186B32 = {
+				c_west_lookout = {
 					color = { 220 186 32 }
 
-					b_R80G141B110 = {
+					b_tower_of_return = {
 						color = { 199 106 120 }
 						province = 2086
 					}

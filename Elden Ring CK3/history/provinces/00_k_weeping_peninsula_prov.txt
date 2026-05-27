@@ -1,7 +1,7 @@
 ﻿##### d_morne ############################
 
-### c_R52G82B165
-# wp_barony_72
+### c_morne
+# b_morne
 2314 = {
 	special_building_slot = castle_morne_1
 	culture = cul_weeping_peninsula
@@ -12,7 +12,7 @@
 		special_building = castle_morne_1
 	}
 }
-# wp_barony_70
+# b_morne_swords
 298 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
@@ -24,13 +24,13 @@
 	religion = faith_golden
 	holding = none
 }
-# wp_barony_69
+# b_morne_road
 1728 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
 	holding = none
 }
-# LAKE
+# b_morne_lookout_tower
 3083 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
@@ -120,7 +120,7 @@
 
 
 ### c_morne_rear
-# wp_barony_73
+# b_moangrave
 2560 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
@@ -276,7 +276,7 @@
 }
 
 
-### c_R86G250B97
+### c_east_lookout
 # wp_barony_60
 1429 = {
 	culture = cul_weeping_peninsula
@@ -486,13 +486,18 @@
 2019 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # R70G52B158
 866 = {
+	special_building_slot = morne_tunnel_mines_01
 	culture = cul_weeping_peninsula
 	religion = faith_golden
-	holding = none
+	holding = castle_holding
+	
+		1000.1.1 = {
+		special_building = morne_tunnel_mines_01
+	}
 }
 # wp_barony_15
 205 = {
@@ -621,8 +626,8 @@
 }
 
 
-### c_R220G186B32
-# wp_barony_49
+### c_west_lookout
+# b_tower_of_return
 2086 = {
 	culture = cul_weeping_peninsula
 	religion = faith_golden

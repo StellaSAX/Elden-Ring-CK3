@@ -79,7 +79,7 @@ c_R49G46B16 = {
 		liege = 0
 	}
 }
-c_R52G82B165 = {
+c_morne = {
 	8251.1.1 = {
 		liege = k_stormveil
 		holder = edgar
