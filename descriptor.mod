@@ -5,7 +5,7 @@ tags={
 	"Total Conversion"
 	"Religion"
 }
-name="Elden Ring Alpha"
+name="Elden Ring Pre-Alpha"
 replace_path="common/landed_titles"
 replace_path="common/province_terrain"
 replace_path="common/dynasties"
