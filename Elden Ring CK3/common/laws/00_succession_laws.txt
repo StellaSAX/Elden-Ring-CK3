@@ -550,58 +550,58 @@
 		}
 	}
 
-	acclamation_succession_law = {
-		can_keep = {
-			can_keep_acclamation_succession_law_trigger = yes
-		}
-		can_pass = {
-			can_change_acclamation_succession_law_trigger = yes
-		}
-		can_have = {
-			NOT = { government_has_flag = government_is_nomadic }
-			can_have_acclamation_succession_law_trigger = yes
-		}
-		can_title_have = {
-			this = title:e_byzantium
-		}
-		should_start_with = {
-			has_ep3_dlc_trigger = yes
-			has_title = title:e_byzantium
-			government_allows = administrative
-		}
-		succession = {
-			order_of_succession = appointment
-			appointment_type = admin_emperor
-		}
-		flag = advanced_succession_law
-		flag = can_designate_heirs
-		flag = appointment_type_succession
-		pass_cost = {
-			prestige = {
-				value = change_succession_law_prestige_cost
-				multiply = {
-					value = 0.5 # We reduce the cost to ensure that going back to acclamation is easy
-					desc = "[administrative_government|E]"
-				}
-			}
-		}
-		ai_will_do = {
-			if = {
-				limit = { has_realm_law = confederate_partition_succession_law }
-				value = 1
-			}
-		}
-		potential = {
-			government_allows = administrative
-			is_independent_ruler = yes
-			NOR = {
-				government_has_flag = government_is_celestial
-				government_has_flag = government_is_japan_administrative
-				government_has_flag = government_is_meritocratic
-				government_has_flag = government_is_steppe_admin
-			}
-		}
-	}
+#	acclamation_succession_law = {
+#		can_keep = {
+#			can_keep_acclamation_succession_law_trigger = yes
+#		}
+#		can_pass = {
+#			can_change_acclamation_succession_law_trigger = yes
+#		}
+#		can_have = {
+#			NOT = { government_has_flag = government_is_nomadic }
+#			can_have_acclamation_succession_law_trigger = yes
+#		}
+#		can_title_have = {
+#			this = title:e_byzantium
+#		}
+#		should_start_with = {
+#			has_ep3_dlc_trigger = yes
+#			has_title = title:e_byzantium
+#			government_allows = administrative
+#		}
+#		succession = {
+#			order_of_succession = appointment
+#			appointment_type = admin_emperor
+#		}
+#		flag = advanced_succession_law
+#		flag = can_designate_heirs
+#		flag = appointment_type_succession
+#		pass_cost = {
+#			prestige = {
+#				value = change_succession_law_prestige_cost
+#				multiply = {
+#					value = 0.5 # We reduce the cost to ensure that going back to acclamation is easy
+#					desc = "[administrative_government|E]"
+#				}
+#			}
+#		}
+#		ai_will_do = {
+#			if = {
+#				limit = { has_realm_law = confederate_partition_succession_law }
+#				value = 1
+#			}
+#		}
+#		potential = {
+#			government_allows = administrative
+#			is_independent_ruler = yes
+#			NOR = {
+#				government_has_flag = government_is_celestial
+#				government_has_flag = government_is_japan_administrative
+#				government_has_flag = government_is_meritocratic
+#				government_has_flag = government_is_steppe_admin
+#			}
+#		}
+#	}
 
 	appointment_succession_law = {
 		can_keep = {
@@ -1149,16 +1149,17 @@
 		}
 
 		ai_will_do = {
-			if = {
-				limit = {
-					OR = {
-						has_realm_law = confederate_partition_succession_law
-						has_realm_law = partition_succession_law
-						has_realm_law = high_partition_succession_law
-					}
-				}
-				value = 3
-			}
+		#	if = {
+		#		limit = {
+		#			OR = {
+		#				has_realm_law = confederate_partition_succession_law
+		#				has_realm_law = partition_succession_law
+		#				has_realm_law = high_partition_succession_law
+		#			}
+		#		}
+		#		value = 3
+		#	}
+		value = 0
 		}
 
 		potential = {
@@ -1221,16 +1222,17 @@
 		}
 
 		ai_will_do = {
-			if = {
-				limit = {
-					OR = {
-						has_realm_law = confederate_partition_succession_law
-						has_realm_law = partition_succession_law
-						has_realm_law = high_partition_succession_law
-					}
-				}
-				value = 3
-			}
+		#	if = {
+		#		limit = {
+		#			OR = {
+		#				has_realm_law = confederate_partition_succession_law
+		#				has_realm_law = partition_succession_law
+		#				has_realm_law = high_partition_succession_law
+		#			}
+		#		}
+		#		value = 3
+		#	}
+		value = 0
 		}
 
 		potential = {
@@ -1272,10 +1274,11 @@
 			prestige = change_succession_law_prestige_cost
 		}
 		ai_will_do = {
-			if = {
-				limit = { has_realm_law = confederate_partition_succession_law }
-				value = 1
-			}
+		#	if = {
+		#		limit = { has_realm_law = confederate_partition_succession_law }
+		#		value = 1
+		#	}
+		value = 0
 		}
 		potential = {
 			government_has_flag = government_is_japan_administrative
@@ -1330,16 +1333,17 @@
 		}
 
 		ai_will_do = {
-			if = {
-				limit = {
-					OR = {
-						has_realm_law = confederate_partition_succession_law
-						has_realm_law = partition_succession_law
-						has_realm_law = high_partition_succession_law
-					}
-				}
-				value = 3
-			}
+		#	if = {
+		#		limit = {
+		#			OR = {
+		#				has_realm_law = confederate_partition_succession_law
+		#				has_realm_law = partition_succession_law
+		#				has_realm_law = high_partition_succession_law
+		#			}
+		#		}
+		#		value = 3
+		#	}
+		value = 0
 		}
 
 		potential = {
@@ -1403,16 +1407,17 @@
 		}
 
 		ai_will_do = {
-			if = {
-				limit = {
-					OR = {
-						has_realm_law = confederate_partition_succession_law
-						has_realm_law = partition_succession_law
-						has_realm_law = high_partition_succession_law
-					}
-				}
-				value = 3
-			}
+		#	if = {
+		#		limit = {
+		#			OR = {
+		#				has_realm_law = confederate_partition_succession_law
+		#				has_realm_law = partition_succession_law
+		#				has_realm_law = high_partition_succession_law
+		#			}
+		#		}
+		#		value = 3
+		#	}
+		value = 0
 		}
 
 		potential = {
@@ -1510,16 +1515,17 @@
 		}
 
 		ai_will_do = {
-			if = {
-				limit = {
-					OR = {
-						has_realm_law = confederate_partition_succession_law
-						has_realm_law = partition_succession_law
-						has_realm_law = high_partition_succession_law
-					}
-				}
-				value = 3
-			}
+		#	if = {
+		#		limit = {
+		#			OR = {
+		#				has_realm_law = confederate_partition_succession_law
+		#				has_realm_law = partition_succession_law
+		#				has_realm_law = high_partition_succession_law
+		#			}
+		#		}
+		#		value = 3
+		#	}
+		value = 0
 		}
 
 		potential = {
@@ -1588,16 +1594,17 @@
 		}
 
 		ai_will_do = {
-			if = {
-				limit = {
-					OR = {
-						has_realm_law = confederate_partition_succession_law
-						has_realm_law = partition_succession_law
-						has_realm_law = high_partition_succession_law
-					}
-				}
-				value = 3
-			}
+		#	if = {
+		#		limit = {
+		#			OR = {
+		#				has_realm_law = confederate_partition_succession_law
+		#				has_realm_law = partition_succession_law
+		#				has_realm_law = high_partition_succession_law
+		#			}
+		#		}
+		#		value = 3
+		#	}
+		value = 0
 		}
 
 		potential = {
@@ -1642,10 +1649,11 @@
 			prestige = change_succession_law_prestige_cost
 		}
 		ai_will_do = {
-			if = {
-				limit = { has_realm_law = confederate_partition_succession_law }
-				value = 1
-			}
+		#	if = {
+		#		limit = { has_realm_law = confederate_partition_succession_law }
+		#		value = 1
+		#	}
+		value = 0
 		}
 		potential = {
 			government_allows = administrative

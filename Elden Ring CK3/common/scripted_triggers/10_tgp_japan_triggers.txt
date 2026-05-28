@@ -6,6 +6,105 @@
 	#}
 }
 
+realm_law_use_imperial_policy_trigger = {
+	always = no
+	#top_liege = { 
+	#	highest_held_title_tier >= tier_empire
+	#	government_is_japanese_trigger = yes 
+	#}
+}
+
+tgp_japan_valid_restore_monarchy_scion_trigger = {
+	always = no
+	#is_landed = no
+	#can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:kampaku }
+	#is_healthy = yes
+}
+
+tgp_japan_imperial_expansion_internal_peace_trigger = {
+	always = no
+	#custom_tooltip = {
+	#	text = imperial_expansion_internal_peace_trigger
+	#	top_liege = {
+	#		NOT = {
+	#			any_vassal_or_below = {
+	#				any_primary_war_enemy = {
+	#					top_liege = prev.top_liege
+	#				}
+	#			}
+	#		}
+	#	}
+	#}
+}
+
+tgp_install_regent_faction_target_valid_trigger = {
+	always = no
+	#is_independent_ruler = yes
+	#tgp_realm_has_ceremonial_liege_trigger = yes
+}
+
+tgp_install_regent_faction_can_create_trigger = {
+	always = no
+	#has_tgp_dlc_trigger = yes
+	#scope:target ?= { tgp_install_regent_faction_target_valid_trigger = yes }
+	#custom_tooltip = {
+	#	text = replace_ceremonial_regent_faction_kampaku_trigger
+	#	NOR = {
+	#		has_global_variable = shogunate_established
+	#		has_global_variable = tenno_restored
+	#	}
+	#}
+	#is_adult = yes
+	#custom_tooltip = {
+	#	text = is_faith_dominant_gender_tt
+	#	is_faith_dominant_gender = yes
+	#}
+	#japan_faction_cohesion_hard_trigger = yes
+	#trigger_if = {
+	#	limit = {
+	#		scope:target ?= {
+	#			government_is_japanese_trigger = yes # am I a compatible government type?
+	#		}
+	#	}
+	#	government_is_japanese_trigger = yes
+	#}
+	#trigger_if = {
+	#	limit = {
+	#		scope:target ?= {
+	#			has_government = meritocratic_government # am I a compatible government type?
+	#		}
+	#	}
+	#	has_government = meritocratic_government
+	#}
+}
+
+japan_faction_cohesion_trigger = {
+	always = no
+	#trigger_if = {
+	#	limit = { 
+	#		government_has_flag = government_has_house_blocs 
+	#		is_confederation_member = yes
+	#	}
+	#	custom_tooltip = {
+	#		text = house_head_create_faction_cohesion_tt
+	#		OR = {
+	#			house.house_confederation ?= { cohesion >= 50 }
+	#			joined_faction ?= {
+	#				OR = {
+	#					faction_is_at_war = yes
+	#					any_faction_member = {
+	#						OR = {
+	#							this = root.house.house_confederation.leading_house.house_head
+	#							is_ai = no
+	#						}
+	#					}
+	#				}
+	#			}
+	#		}
+	#	}
+	#}
+}
+
 any_liege_or_above_is_descendant = {
 	any_liege_or_above = {
 		is_liege_or_above_of = root
@@ -73,6 +172,25 @@ realm_law_use_imperial_policy_trigger = {
 	#top_liege = { 
 	#	highest_held_title_tier >= tier_empire
 	#	government_is_japanese_trigger = yes 
+	#}
+}
+
+tgp_japan_offensive_wars_ban_trigger = {
+	always = no
+	#trigger_if = {
+	#	limit = {
+	#		exists = scope:defender.top_liege
+	#		scope:attacker.top_liege ?= {
+	#			has_title = title:e_japan
+	#			scope:defender.top_liege != this
+	#			government_is_japanese_trigger = yes
+	#			realm_law_use_imperial_policy_trigger = yes
+	#		}
+	#	}
+	#	custom_tooltip = {
+	#		text = japan_offensive_wars_ban_tt
+	#		scope:attacker.top_liege = { has_realm_law = imperial_expansion_law }
+	#	}
 	#}
 }
 
