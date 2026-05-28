@@ -45,6 +45,7 @@ has_godhood_elden_ring = {
 
 is_demigod_elden_ring = {
 	OR = {
+		has_trait = empyrean_elden_ring
 		has_trait = demigod_elden_ring_4
 		has_trait = demigod_elden_ring_3
 		has_trait = demigod_elden_ring_2

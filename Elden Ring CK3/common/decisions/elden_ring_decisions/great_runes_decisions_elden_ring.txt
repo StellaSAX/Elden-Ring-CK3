@@ -30,7 +30,11 @@
 		is_independent_ruler = yes
         is_landed = yes
 		piety_level >= high_piety_level
-		has_godhood_elden_ring = yes
+		OR = {
+			has_godhood_elden_ring = yes
+			is_demigod_elden_ring = yes
+		}
+		
 	}
 
 	is_valid_showing_failures_only = {
