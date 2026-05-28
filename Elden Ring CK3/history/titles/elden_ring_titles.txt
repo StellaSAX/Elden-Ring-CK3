@@ -9,12 +9,6 @@ c_R118G227B206 = {
 		liege = k_messmer_army
 	}
 }
-c_R148G104B220 = {
-	8300.1.1 = {
-		holder = tarassax
-		liege = e_farum_azula
-	}
-}
 c_R154G175B186 = {
 	8300.1.1 = {
 		holder = messmer
@@ -62,12 +56,6 @@ c_R25G255B15 = {
 		holder = rennala
 	}
 }
-c_R35G113B61 = {
-	8300.1.1 = {
-		holder = loretta
-		liege = k_haligtree
-	}
-}
 c_R39G119B125 = {
 	8300.1.1 = {
 		holder = maliketh
@@ -89,11 +77,6 @@ c_R54G124B112 = {
 	8300.1.1 = {
 		holder = tanith
 		liege = d_volcano_manor
-	}
-}
-c_R61G159B94 = {
-	810.1.1 = {
-		holder = morgott
 	}
 }
 c_R77G27B81 = {
@@ -139,12 +122,6 @@ d_elleh = {
 		liege = 0
 	}
 }
-d_ensis = {
-	8300.1.1 = {
-		holder = rellana
-		liege = k_messmer_army
-	}
-}
 d_jagged_north = {
 	8300.1.1 = {
 		holder = bayle
@@ -168,6 +145,12 @@ d_morne = {
 	}
 }
 d_murkwater = {
+	7000.1.1 = {
+		holder = test2
+		liege = 0
+	}
+}
+d_forlorn_hills = {
 	7000.1.1 = {
 		holder = test2
 		liege = 0
@@ -215,6 +198,12 @@ e_farum_azula = {
 		holder = placidusax
 	}
 }
+c_R148G104B220 = {
+	8300.1.1 = {
+		holder = tarassax
+		liege = e_farum_azula
+	}
+}
 e_leyndell = {
 	500.1.1 = {
 		holder = marika
@@ -241,6 +230,12 @@ k_haligtree = {
 		holder = malenia
 	}
 }
+c_R35G113B61 = {
+	8300.1.1 = {
+		holder = loretta
+		liege = k_haligtree
+	}
+}
 k_jagged_peak = {
 	8300.1.1 = {
 		holder = bayle
@@ -257,6 +252,12 @@ k_leyndell = {
 k_messmer_army = {
 	8300.1.1 = {
 		holder = messmer
+	}
+}
+d_ensis = {
+	8300.1.1 = {
+		holder = rellana
+		liege = k_messmer_army
 	}
 }
 k_mohgwyn_dynasty = {

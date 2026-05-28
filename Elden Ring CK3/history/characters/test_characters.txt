@@ -3,7 +3,7 @@
 	
 	#dna = maliketh_dna
 	sexuality = asexual
-	dynasty = dynn_beast
+	dynasty = dynn_test
 
 	religion = faith_golden	
 	culture = cul_beast
@@ -24,7 +24,7 @@ test2 = {
 	
 	#dna = maliketh_dna
 	sexuality = asexual
-	dynasty = dynn_beast
+	dynasty = dynn_test
 
 	religion = faith_golden	
 	culture = cul_beast
@@ -40,12 +40,12 @@ test2 = {
 	}
 }
 
-test2 = {
-	name = "Test2"
+test3 = {
+	name = "Test3"
 	
 	#dna = maliketh_dna
 	sexuality = asexual
-	dynasty = dynn_beast
+	dynasty = dynn_test
 
 	religion = faith_golden	
 	culture = cul_beast

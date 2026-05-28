@@ -183,3 +183,10 @@ dynn_finngolian = {
 	culture = cul_altus
 	motto = finngolian_motto
 }
+
+
+dynn_test = {
+	name = "dynn_test"
+	culture = cul_altus
+	motto = test_motto
+}
