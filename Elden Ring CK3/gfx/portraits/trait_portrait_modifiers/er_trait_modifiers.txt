@@ -1,0 +1,56 @@
+﻿blind = {
+	blind = {
+		traits = {
+			blind
+		}
+		trigger = {
+			trigger_if = {
+				is_malenia = no
+			}
+		}
+		dna_modifiers = {
+			human = {
+				accessory = {
+					mode = add
+					gene = special_headgear_spectacles
+					template = blindfold
+					value = 0.5
+				}
+			}
+		}
+	}
+	temporarily_blind = {
+		base = blind
+		trigger = {
+			exists = root
+			has_character_flag = temporarily_blinded
+		}
+	}
+	one_eyed = {
+		traits = {
+			one_eyed
+		}
+		trigger = {
+			trigger_if = {
+				is_malenia = no
+			}
+		}
+		dna_modifiers = {
+			human = {
+				accessory = {
+					mode = add
+					gene = special_headgear_spectacles
+					template = eye_patch
+					value = 0.5
+				}
+			}
+		}
+	}
+	temporarily_one_eyed = {
+		base = one_eyed
+		trigger = {
+			exists = root
+			has_character_flag = wears_fake_eye_patch
+		}
+	}
+}
