@@ -1,5 +1,5 @@
 ﻿order_affinity = {
-	ruler_designer_cost = 10
+	ruler_designer_cost = 25
 	icon = affinity_order.dds
 	same_opinion = 5
 	diplomacy = 1
@@ -8,7 +8,7 @@
 }
 
 frenzy_affinity = {
-	ruler_designer_cost = 10
+	ruler_designer_cost = 25
 	icon = affinity_frenzy.dds
 	same_opinion = 5
 	prowess = 3
@@ -18,7 +18,7 @@ frenzy_affinity = {
 }
 
 glintstone_affinity = {
-	ruler_designer_cost = 10
+	ruler_designer_cost = 25
 	icon = "affinity_glintstone.dds"
 	same_opinion = 5
 	learning = 2
@@ -26,7 +26,7 @@ glintstone_affinity = {
 }
 
 rot_affinity = {
-	ruler_designer_cost = 10
+	ruler_designer_cost = 25
 	icon = "affinity_rot.dds"
 	same_opinion = 5
 	health = 1
@@ -35,9 +35,9 @@ rot_affinity = {
 	fertility = 0.10
 }
 
-crucible_affinity = {
-	ruler_designer_cost = 10
-	icon = "affinity_crucible.dds"
+erdtree_affinity = {
+	ruler_designer_cost = 25
+	icon = "affinity_erdtree.dds"
 	same_opinion = 5
 	martial = 1
 	prowess = 3
@@ -45,7 +45,7 @@ crucible_affinity = {
 }
 
 fire_affinity = {
-	ruler_designer_cost = 10
+	ruler_designer_cost = 25
 	icon = "affinity_fire.dds"
 	same_opinion = 5
 	negate_health_penalty_add = 1
@@ -54,7 +54,7 @@ fire_affinity = {
 }
 
 ice_affinity = {
-	ruler_designer_cost = 10
+	ruler_designer_cost = 25
 	icon = "affinity_ice.dds"
 	same_opinion = 5
 	learning = 1
@@ -63,7 +63,7 @@ ice_affinity = {
 }
 
 gravity_affinity = {
-	ruler_designer_cost = 10
+	ruler_designer_cost = 25
 	icon = "affinity_gravity.dds"
 	same_opinion = 5
 	learning = 1
@@ -72,7 +72,7 @@ gravity_affinity = {
 }
 
 lightning_affinity = {
-	ruler_designer_cost = 10
+	ruler_designer_cost = 25
 	icon = "affinity_lightning.dds"
 	same_opinion = 5
 	diplomacy = 1
@@ -81,7 +81,7 @@ lightning_affinity = {
 }
 
 death_affinity = {
-	ruler_designer_cost = 10
+	ruler_designer_cost = 25
 	icon = "affinity_death.dds"
 	same_opinion = 5
 	negate_health_penalty_add = 1
@@ -90,7 +90,7 @@ death_affinity = {
 }
 
 blood_affinity = {
-	ruler_designer_cost = 10
+	ruler_designer_cost = 25
 	icon = "affinity_blood.dds"
 	same_opinion = 5
 	martial = 1
@@ -99,7 +99,7 @@ blood_affinity = {
 }
 
 dragon_affinity = {
-	ruler_designer_cost = 10
+	ruler_designer_cost = 25
 	icon = "affinity_dragon.dds"
 	same_opinion = 5
 	prowess = 6
@@ -107,7 +107,7 @@ dragon_affinity = {
 }
 
 black_flame_affinity = {
-	ruler_designer_cost = 10
+	ruler_designer_cost = 25
 	icon = "affinity_blackflame.dds"
 	same_opinion = 5
 	prowess = 3
@@ -116,7 +116,7 @@ black_flame_affinity = {
 }
 
 sleep_affinity = {
-	ruler_designer_cost = 10
+	ruler_designer_cost = 25
 	icon = "affinity_sleep.dds"
 	same_opinion = 5
 	stress_loss_mult = 0.1
@@ -125,20 +125,18 @@ sleep_affinity = {
 }
 
 spiral_affinity = {
-	ruler_designer_cost = 10
+	ruler_designer_cost = 25
 	icon = "affinity_spiral.dds"
 	same_opinion = 5
-	
 	learning = 3
 	prowess = 5
 	health = 1
 }
 
 bestial_affinity = {
-	ruler_designer_cost = 10
+	ruler_designer_cost = 25
 	icon = "affinity_bestial.dds"
 	same_opinion = 5
-	
 	learning = 1
 	prowess = 3
 	martial = 1
