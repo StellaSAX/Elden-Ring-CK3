@@ -1,494 +1,13 @@
 ﻿on_birth_child = {
     on_actions = {
-        on_action_child_with_affinity
-		on_action_tradition_hornsent_birth
-		on_action_tradition_glintstone_birth
-		on_action_tradition_order_birth
-		on_action_tradition_giants_fire
-		on_action_child_aspect_crucible
 		on_action_omen_birth
     }
 }
 
-
-on_action_child_with_affinity = {
-	effect = {
-		if = { #one of the parents has an affinity
-			limit = {
-				OR = {
-					scope:real_father = {
-						has_affinity_elden_ring = yes
-					}
-					scope:mother = {
-						has_affinity_elden_ring = yes
-					}
-				}
-			}
-			if = {
-				limit = {
-					OR = {
-						scope:real_father = {
-							has_trait = order_affinity
-						}
-						scope:mother = {
-							has_trait = order_affinity
-						}
-					}
-				}
-				random_list = {
-					40 = {
-						add_trait = order_affinity
-					}
-					60 = {
-					
-					}		
-				}
-			}
-			if = {
-				limit = {
-					OR = {
-						scope:real_father = {
-							has_trait = frenzy_affinity
-						}
-						scope:mother = {
-							has_trait = frenzy_affinity
-						}
-					}
-				}
-				random_list = {
-					40 = {
-						add_trait = frenzy_affinity
-					}
-					60 = {
-					
-					}		
-				}
-			}
-			if = {
-				limit = {
-					OR = {
-						scope:real_father = {
-							has_trait = glintstone_affinity
-						}
-						scope:mother = {
-							has_trait = glintstone_affinity
-						}
-					}
-				}
-				random_list = {
-					40 = {
-						add_trait = glintstone_affinity
-					}
-					60 = {
-					
-					}		
-				}
-			}
-			if = {
-				limit = {
-					OR = {
-						scope:real_father = {
-							has_trait = rot_affinity
-						}
-						scope:mother = {
-							has_trait = rot_affinity
-						}
-					}
-				}
-				random_list = {
-					40 = {
-						add_trait = rot_affinity
-					}
-					60 = {
-					
-					}		
-				}
-			}
-			if = {
-				limit = {
-					OR = {
-						scope:real_father = {
-							has_trait = crucible_affinity
-						}
-						scope:mother = {
-							has_trait = crucible_affinity
-						}
-					}
-				}
-				random_list = {
-					40 = {
-						add_trait = crucible_affinity
-					}
-					60 = {
-					
-					}		
-				}
-			}
-			if = {
-				limit = {
-					OR = {
-						scope:real_father = {
-							has_trait = fire_affinity
-						}
-						scope:mother = {
-							has_trait = fire_affinity
-						}
-					}
-				}
-				random_list = {
-					40 = {
-						add_trait = fire_affinity
-					}
-					60 = {
-					
-					}		
-				}
-			}
-			if = {
-				limit = {
-					OR = {
-						scope:real_father = {
-							has_trait = ice_affinity
-						}
-						scope:mother = {
-							has_trait = ice_affinity
-						}
-					}
-				}
-				random_list = {
-					40 = {
-						add_trait = ice_affinity
-					}
-					60 = {
-					
-					}		
-				}
-			}
-			if = {
-				limit = {
-					OR = {
-						scope:real_father = {
-							has_trait = gravity_affinity
-						}
-						scope:mother = {
-							has_trait = gravity_affinity
-						}
-					}
-				}
-				random_list = {
-					40 = {
-						add_trait = gravity_affinity
-					}
-					60 = {
-					
-					}		
-				}
-			}
-			if = {
-				limit = {
-					OR = {
-						scope:real_father = {
-							has_trait = death_affinity
-						}
-						scope:mother = {
-							has_trait = death_affinity
-						}
-					}
-				}
-				random_list = {
-					40 = {
-						add_trait = death_affinity
-					}
-					60 = {
-					
-					}		
-				}
-			}
-			if = {
-				limit = {
-					OR = {
-						scope:real_father = {
-							has_trait = blood_affinity
-						}
-						scope:mother = {
-							has_trait = blood_affinity
-						}
-					}
-				}
-				random_list = {
-					40 = {
-						add_trait = blood_affinity
-					}
-					60 = {
-					
-					}		
-				}
-			}
-			if = {
-				limit = {
-					OR = {
-						scope:real_father = {
-							has_trait = black_flame_affinity
-						}
-						scope:mother = {
-							has_trait = black_flame_affinity
-						}
-					}
-				}
-				random_list = {
-					40 = {
-						add_trait = black_flame_affinity
-					}
-					60 = {
-					
-					}		
-				}
-			}
-			if = {
-				limit = {
-					OR = {
-						scope:real_father = {
-							has_trait = sleep_affinity
-						}
-						scope:mother = {
-							has_trait = sleep_affinity
-						}
-					}
-				}
-				random_list = {
-					40 = {
-						add_trait = sleep_affinity
-					}
-					60 = {
-					
-					}		
-				}
-	
-			}
-		}
-		if = { # the parents don't have affinities
-			limit = {
-				AND = {
-					scope:real_father = {
-						has_affinity_elden_ring = no
-					}
-					scope:mother = {
-						has_affinity_elden_ring = no
-					}
-				}
-			}
-			random_list = {
-				1 = {
-				    add_trait = order_affinity
-				}
-				1 = {
-					add_trait = frenzy_affinity
-				}
-				1 = {
-					add_trait = glintstone_affinity
-				}
-				1 = {
-					add_trait = rot_affinity
-				}
-				1 = {
-					add_trait = crucible_affinity
-				}
-				1 = {
-					add_trait = fire_affinity
-				}
-				1 = {
-					add_trait = ice_affinity
-				}
-				1 = {
-					add_trait = gravity_affinity
-				}
-				1 = {
-					add_trait = death_affinity
-				}
-				1 = {
-					add_trait = blood_affinity
-				}
-				1 = {
-					add_trait = black_flame_affinity
-				}
-				1 = {
-					add_trait = sleep_affinity
-				}
-				88 = {
-				
-				}	
-			}
-		}
-	}
-}
-
-on_action_tradition_hornsent_birth = {
-	effect = {
-		if = { # one of the parents has a hornsent culture
-			limit = {
-				OR = {
-					scope:real_father = {
-						culture = {
-							has_cultural_parameter = convert_crucible_to_spiral
-						}
-					}
-					scope:mother = {
-						culture = {
-							has_cultural_parameter = convert_crucible_to_spiral
-						}
-					}
-				}
-			}
-			random_list = {
-				50 = {
-					remove_trait = crucible_affinity
-					add_trait = spiral_affinity
-				}
-				50 = {
-				
-				}				
-			}
-		}
-	}
-}
-
-on_action_tradition_glintstone_birth = {
-	effect = {
-		if = { # one of the parents has a carian culture
-			limit = {
-				OR = {
-					scope:real_father = {
-						culture = {
-							has_cultural_parameter = glintstone_affinity_more_common
-						}
-					}
-					scope:mother = {
-						culture = {
-							has_cultural_parameter = glintstone_affinity_more_common
-						}
-					}
-				}
-			}
-			random_list = {
-				50 = {
-					add_trait = glintstone_affinity
-				}
-				50 = {
-				
-				}				
-			}
-		}
-	}
-}
-
-on_action_tradition_order_birth = {
-	effect = {
-		if = { # one of the parents has a golden order culture
-			limit = {
-				OR = {
-					scope:real_father = {
-						culture = {
-							has_cultural_parameter = order_affinity_more_common
-						}
-					}
-					scope:mother = {
-						culture = {
-							has_cultural_parameter = order_affinity_more_common
-						}
-					}
-				}
-			}
-			random_list = {
-				50 = {
-					add_trait = order_affinity
-				}
-				50 = {
-				
-				}				
-			}
-		}
-	}
-}
-
-on_action_tradition_giants_fire = {
-	effect = {
-		if = { # one of the parents has a giants fire culture
-			limit = {
-				OR = {
-					scope:real_father = {
-						culture = {
-							has_cultural_parameter = giants_and_fire_at_birth
-						}
-					}
-					scope:mother = {
-						culture = {
-							has_cultural_parameter = giants_and_fire_at_birth
-						}
-					}
-				}
-			}
-			random_list = {
-				50 = {
-					add_trait = fire_affinity
-				}
-				50 = {
-				
-				}				
-			}
-			random_list = {
-				10 = {
-					add_trait = giant
-				}
-				90 = {
-				
-				}				
-			}
-		}
-	}
-}
-
-on_action_child_aspect_crucible = {
-	effect = {
-		if = { # the parents have crucible affinity or is omen or misbegotten
-			limit = {
-				OR = {
-					scope:real_father = {
-						OR = {
-							has_trait = crucible_affinity
-							has_trait = omen_horn_trait
-							has_trait = omen_no_horn_trait
-							has_trait = spiral_affinity
-						}
-						
-					}
-					scope:mother = {
-						OR = {
-							has_trait = crucible_affinity
-							has_trait = omen_horn_trait
-							has_trait = omen_no_horn_trait
-							has_trait = spiral_affinity
-						}
-					}
-				}
-			}
-			random_list = {
-				10 = {
-					add_trait = omen_horn_trait
-				}
-				90 = {
-				
-				}		
-			}
-			random_list = {
-				10 = {
-					add_trait = crucible_affinity
-				}
-				90 = {
-				
-				}		
-			}
-		}
-		
+on_birthday = {
+	on_actions = {
+		teach_child_about_magic
+		child_gains_random_magic
 	}
 }
 
@@ -498,9 +17,590 @@ on_action_omen_birth = {
 			1 = {
 				add_trait = omen_horn_trait
 			}
-			99 = {
+			500 = {
 			
 			}		
 		}	
+	}
+}
+
+teach_child_about_magic = {
+	trigger = {
+		is_adult = no
+		age >= childhood_education_start_age
+		OR = {
+			has_affinity_elden_ring = no
+			AND = {
+				has_affinity_elden_ring = yes
+				OR = {
+					learning >= 10
+					probably_intelligent_trigger = yes
+				}
+			}
+			has_trait = intellect_good_3
+		}
+	}
+	effect = {
+		save_scope_as = child
+		court_owner ?= {
+			save_scope_as = court_owner
+			court_position:magic_teacher_court_position ?= {
+				#Culture
+				if = {
+					limit = { has_variable = court_magic_teacher_teach_culture }
+					save_scope_as = court_tutor_scope
+					random = {
+						chance = {
+							value = 1
+							add = {
+								value = "aptitude(magic_teacher_court_position)"
+								multiply = 20
+							}
+						}
+						scope:court_tutor_scope = {
+							random_list = {
+								1 = {
+									modifier = { 
+										add = 10
+										culture = {
+											has_cultural_parameter = glintstone_affinity_more_common
+										} 
+									}
+									scope:child = {
+										random_list = {
+											50 = {
+												add_trait = glintstone_affinity
+											}
+											10 = {
+												add_trait = ice_affinity
+											}
+											10 = {
+												add_trait = gravity_affinity
+											}
+											30 = {
+												
+											}
+										}	
+									}
+								}
+								1 = {
+									modifier = { 
+										add = 10
+										culture = {
+											has_cultural_parameter = order_affinity_more_common
+										} 
+									}
+									scope:child = {
+										random_list = {
+											25 = {
+												add_trait = order_affinity
+											}
+											75 = {
+												
+											}
+										}	
+									}
+								}
+								1 = {
+									modifier = { 
+										add = 10
+										culture = {
+											has_cultural_parameter = fire_affinity_more_common
+										} 
+									}
+									scope:child = {
+										random_list = {
+											25 = {
+												add_trait = fire_affinity
+											}
+											75 = {
+												
+											}
+										}	
+									}
+								}
+								1 = {
+									modifier = { 
+										add = 10
+										culture = {
+											has_cultural_parameter = frenzied_flame_at_birth
+										} 
+									}
+									scope:child = {
+										random_list = {
+											25 = {
+												add_trait = frenzy_affinity
+											}
+											75 = {
+												
+											}
+										}	
+									}
+								}
+								1 = {
+									modifier = { 
+										add = 10
+										culture = {
+											has_cultural_parameter = scarletrot_at_birth
+										} 
+									}
+									scope:child = {
+										random_list = {
+											25 = {
+												add_trait = rot_affinity
+											}
+											75 = {
+												
+											}
+										}	
+									}
+								}
+								1 = {
+									modifier = { 
+										add = 10
+										culture = {
+											has_cultural_parameter = can_become_beast_clergy
+										} 
+									}
+									scope:child = {
+										random_list = {
+											25 = {
+												add_trait = bestial_affinity
+											}
+											75 = {
+												
+											}
+										}	
+									}
+								}
+								1 = {
+									modifier = { 
+										add = 10
+										culture = {
+											has_cultural_parameter = crucible_affinity_more_common
+										} 
+									}
+									scope:child = {
+										random_list = {
+											25 = {
+												add_trait = crucible_affinity
+											}
+											75 = {
+												
+											}
+										}	
+									}
+								}
+								65 = {}
+							}
+						}
+						
+					}
+				}
+				#Religion, all traits considered virtues have a higher chance
+				else_if = {
+					limit = { has_variable = court_magic_teacher_teach_faith }
+					save_scope_as = court_tutor_scope
+					scope:court_tutor_scope = {
+						random_list = {
+							1 = {
+								modifier = { 
+									add = 25
+									faith = {
+										trait_is_virtue = order_affinity
+									}
+								}
+								scope:child = {
+									add_trait = order_affinity							
+								}
+							}
+							1 = {
+								modifier = { 
+									add = 25
+									faith = {
+										trait_is_virtue = frenzy_affinity
+									}
+								}
+								scope:child = {
+									add_trait = frenzy_affinity
+								}
+							}
+							1 = {
+								modifier = { 
+									add = 25
+									faith = {
+										trait_is_virtue = glintstone_affinity
+									}
+								}
+								scope:child = {
+									add_trait = glintstone_affinity
+								}
+							}
+							1 = {
+								modifier = { 
+									add = 25
+									faith = {
+										trait_is_virtue = rot_affinity
+									}
+								}
+								scope:child = {
+									add_trait = rot_affinity
+								}
+							}
+							1 = {
+								modifier = { 
+									add = 25
+									faith = {
+										trait_is_virtue = crucible_affinity
+									}
+								}
+								scope:child = {
+									add_trait = crucible_affinity
+								}
+							}
+							1 = {
+								modifier = { 
+									add = 25
+									faith = {
+										trait_is_virtue = fire_affinity
+									}
+								}
+								scope:child = {
+									add_trait = fire_affinity
+								}
+							}
+							1 = {
+								modifier = { 
+									add = 25
+									faith = {
+										trait_is_virtue = ice_affinity
+									}
+								}
+								scope:child = {
+									add_trait = ice_affinity
+								}
+							}
+							1 = {
+								modifier = { 
+									add = 25
+									faith = {
+										trait_is_virtue = gravity_affinity
+									}
+								}
+								scope:child = {
+									add_trait = gravity_affinity
+								}
+							}
+							1 = {
+								modifier = { 
+									add = 25
+									faith = {
+										trait_is_virtue = lightning_affinity
+									}
+								}
+								scope:child = {
+										add_trait = lightning_affinity
+								}
+							}
+							1 = {
+								modifier = { 
+									add = 25
+									faith = {
+										trait_is_virtue = death_affinity
+									}
+								}
+								scope:child = {
+									add_trait = death_affinity
+								}
+							}
+							1 = {
+								modifier = { 
+									add = 25
+									faith = {
+										trait_is_virtue = blood_affinity
+									}
+								}
+								scope:child = {
+									add_trait = blood_affinity
+								}
+							}
+							1 = {
+								modifier = { 
+									add = 25
+									faith = {
+										trait_is_virtue = black_flame_affinity
+									}
+								}
+								scope:child = {
+									add_trait = black_flame_affinity
+								}
+							}
+							1 = {
+								modifier = { 
+									add = 25
+									faith = {
+										trait_is_virtue = sleep_affinity
+									}
+								}
+								scope:child = {
+									add_trait = sleep_affinity
+								}
+							}
+							1 = {
+								modifier = { 
+									add = 25
+									faith = {
+										trait_is_virtue = spiral_affinity
+									}
+								}
+								scope:child = {
+									add_trait = spiral_affinity
+								}
+							}
+							1 = {
+								modifier = { 
+									add = 25
+									faith = {
+										trait_is_virtue = bestial_affinity
+									}
+								}
+								scope:child = {
+									add_trait = bestial_affinity
+								}
+							}
+							65 = { }
+						}
+					}
+				}
+				#Affinity of the teacher
+				else_if = {
+					limit = { has_variable = court_magic_teacher_own }
+					save_scope_as = court_tutor_scope
+					random = {
+						chance = {
+							value = 2
+							add = {
+								value = "aptitude(magic_teacher_court_position)"
+								multiply = 7
+							}
+						}
+						scope:court_tutor_scope = {
+							random_list = {
+								50 = {
+									switch = {
+										trigger = has_trait
+										order_affinity = {
+											scope:child = {
+												add_trait = order_affinity
+											}
+										}
+										frenzy_affinity = {
+											scope:child = {
+												add_trait = frenzy_affinity
+											}
+										}
+										glintstone_affinity = {
+											scope:child = {
+												add_trait = glintstone_affinity
+											}
+										}
+										rot_affinity = {
+											scope:child = {
+												add_trait = rot_affinity
+											}
+										}										
+										crucible_affinity = {
+											scope:child = {
+												add_trait = crucible_affinity
+											}
+										}
+										fire_affinity = {
+											scope:child = {
+												add_trait = fire_affinity
+											}
+										}
+										ice_affinity = {
+											scope:child = {
+												add_trait = ice_affinity
+											}
+										}
+										gravity_affinity = {
+											scope:child = {
+												add_trait = gravity_affinity
+											}
+										}																		
+										lightning_affinity = {
+											scope:child = {
+												add_trait = lightning_affinity
+											}
+										}
+										death_affinity = {
+											scope:child = {
+												add_trait = death_affinity
+											}
+										}
+										blood_affinity = {
+											scope:child = {
+												add_trait = blood_affinity
+											}
+										}
+										black_flame_affinity = {
+											scope:child = {
+												add_trait = black_flame_affinity
+											}
+										}
+										sleep_affinity = {
+											scope:child = {
+												add_trait = sleep_affinity
+											}
+										}
+										spiral_affinity = {
+											scope:child = {
+												add_trait = spiral_affinity
+											}
+										}
+										bestial_affinity = {
+											scope:child = {
+												add_trait = bestial_affinity
+											}
+										}
+									}
+								}
+								50 = {}
+							}
+						}
+						
+					}
+				}
+				#random affinity
+				if = {
+					limit = { employs_court_position = court_physician_court_position }
+					random = {
+						chance = {
+							value = 2
+							add = {
+								value = "aptitude(magic_teacher_court_position)"
+								multiply = 20
+							}
+						}				
+						scope:child = {
+							random_list = {
+								1 = {
+									add_trait = order_affinity
+								}
+								1 = {
+									add_trait = frenzy_affinity
+								}
+								1 = {
+									add_trait = glintstone_affinity
+								}
+								1 = {
+									add_trait = rot_affinity
+								}
+								1 = {
+									add_trait = crucible_affinity
+								}
+								1 = {
+									add_trait = fire_affinity
+								}
+								1 = {
+									add_trait = ice_affinity
+								}
+								1 = {
+									add_trait = gravity_affinity
+								}
+								1 = {
+									add_trait = lightning_affinity
+								}
+								1 = {
+									add_trait = death_affinity
+								}
+								1 = {
+									add_trait = blood_affinity
+								}
+								1 = {
+									add_trait = black_flame_affinity
+								}
+								1 = {
+									add_trait = sleep_affinity
+								}
+								1 = {
+									add_trait = spiral_affinity
+								}
+								1 = {
+									add_trait = bestial_affinity
+								}
+								25 = {
+									
+								}
+							}
+						}
+						
+					}
+				}
+			
+			}
+			
+		}
+	}
+}
+
+child_gains_random_magic = {
+	trigger = {
+		is_adult = no
+		age >= childhood_education_start_age
+		has_affinity_elden_ring = no
+	}
+	effect = {
+		random_list = {
+			1 = {
+				add_trait = order_affinity
+			}
+			1 = {
+				add_trait = frenzy_affinity
+			}
+			1 = {
+				add_trait = glintstone_affinity
+			}
+			1 = {
+				add_trait = rot_affinity
+			}
+			1 = {
+				add_trait = crucible_affinity
+			}
+			1 = {
+				add_trait = fire_affinity
+			}
+			1 = {
+				add_trait = ice_affinity
+			}
+			1 = {
+				add_trait = gravity_affinity
+			}
+			1 = {
+				add_trait = lightning_affinity
+			}
+			1 = {
+				add_trait = death_affinity
+			}
+			1 = {
+				add_trait = blood_affinity
+			}
+			1 = {
+				add_trait = black_flame_affinity
+			}
+			1 = {
+				add_trait = sleep_affinity
+			}
+			1 = {
+				add_trait = spiral_affinity
+			}
+			1 = {
+				add_trait = bestial_affinity
+			}
+			99 = {
+				
+			}
+		}
 	}
 }

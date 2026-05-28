@@ -1,0 +1,86 @@
+﻿### Court Tutor Tasks ###
+
+court_magic_teacher_teach_culture = {
+	court_position_types = { magic_teacher_court_position }
+
+	# Monthly cost for the task
+	cost = {
+		round = no
+		prestige = 5
+	}
+
+	employee_modifier = {
+		stress_gain_mult = 0.25
+	}
+
+	on_start = {
+		set_variable = court_magic_teacher_teach_culture
+		custom_tooltip = court_magic_teacher_teach_culture_tt
+	}
+
+	on_end = {
+		remove_variable = court_magic_teacher_teach_culture
+	}
+
+	ai_will_do = {
+		value = 0 # Never used by AI
+	}
+}
+
+court_magic_teacher_teach_faith = {
+	court_position_types = { magic_teacher_court_position }
+
+	# Monthly cost for the task
+	cost = {
+		round = no
+		piety = 5
+	}
+
+	employee_modifier = {
+		stress_gain_mult = 0.25
+	}
+
+	on_start = {
+		set_variable = court_magic_teacher_teach_faith
+		custom_tooltip = court_magic_teacher_teach_faith_tt
+	}
+
+	on_end = {
+		remove_variable = court_magic_teacher_teach_faith
+	}
+
+	ai_will_do = {
+		value = 0 # Never used by AI
+	}
+}
+
+court_magic_teacher_own = {
+	court_position_types = { magic_teacher_court_position }
+
+	# Monthly cost for the task
+	cost = {
+		round = no
+		gold = 5
+	}
+
+	employee_modifier = {
+		stress_gain_mult = 0.25
+	}
+	
+	is_valid_showing_failures_only = {
+		has_affinity_elden_ring = yes
+	}
+
+	on_start = {
+		set_variable = court_magic_teacher_own
+		custom_tooltip = court_magic_teacher_own_tt
+	}
+
+	on_end = {
+		remove_variable = court_magic_teacher_own
+	}
+
+	ai_will_do = {
+		value = 0 # Never used by AI
+	}
+}
