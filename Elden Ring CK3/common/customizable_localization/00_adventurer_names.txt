@@ -6883,14 +6883,14 @@ GetAdventureNameSuffix = {
 			house ?= { save_scope_as = new_landless_adventurer_house }
 			location ?= { save_scope_as = new_landless_adventurer_location }
 		}
-		trigger = {
-			OR = {
-				NOT = { exists = scope:new_landless_adventurer }
-				scope:new_landless_adventurer ?= {
-					faith_forbids_alcohol_trigger = no
-				}
-			}
-		}
+		#trigger = {
+		#	OR = {
+		#		NOT = { exists = scope:new_landless_adventurer }
+		#		scope:new_landless_adventurer ?= {
+		#			faith_forbids_alcohol_trigger = no
+		#		}
+		#	}
+		#}
 		localization_key = keg
 	}
 	text = {

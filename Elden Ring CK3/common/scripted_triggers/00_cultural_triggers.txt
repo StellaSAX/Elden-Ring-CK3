@@ -15,7 +15,7 @@ drinks_alcohol_trigger = {
 		text = drinks_alcohol
 		OR = {
 			has_trait = drunkard
-			faith_forbids_alcohol_trigger = no
+			#faith_forbids_alcohol_trigger = no
 		}
 	}
 }

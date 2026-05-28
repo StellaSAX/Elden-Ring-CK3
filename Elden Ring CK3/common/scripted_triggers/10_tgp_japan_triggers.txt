@@ -1,1 +1,89 @@
-﻿
+﻿government_is_japanese_trigger = {
+	always = no
+	#OR = {
+	#	government_has_flag = government_is_japan_administrative
+	#	government_has_flag = government_is_japan_feudal
+	#}
+}
+
+any_liege_or_above_is_descendant = {
+	any_liege_or_above = {
+		is_liege_or_above_of = root
+		OR = {
+			is_child_of = root
+			is_grandchild_of = root
+			is_great_grandchild_of = root
+		}
+	}
+}
+
+is_a_previous_title_holder_trigger = {
+	save_temporary_scope_as = previous_holder_compare
+	$TITLE$ ?= {
+		# Easy out
+		trigger_if = {
+			limit = { previous_holder ?= scope:previous_holder_compare }
+			always = yes
+		}
+		# Hard out
+		trigger_else = {
+			any_past_holder = { this = scope:previous_holder_compare }
+		}
+	}
+}
+
+# Filter out dynasties of Emperors further away from you
+# e.g. your father's brother's son
+target_shares_nearest_related_title_holder_trigger = {
+	trigger_if = {
+		limit = {
+			any_parent = {
+				even_if_dead = yes
+				is_a_previous_title_holder_trigger = { TITLE = $TITLE$ }
+			}
+		}
+		is_child_of = $COMPARE$
+	}
+	trigger_else_if = {
+		limit = {
+			any_parent = {
+				even_if_dead = yes
+				any_parent = {	
+					even_if_dead = yes
+					is_a_previous_title_holder_trigger = { TITLE = $TITLE$ }
+				}
+			}
+		}
+		is_grandchild_of = $COMPARE$
+	}
+	trigger_else = { is_great_grandchild_of = $COMPARE$ }
+}
+
+is_culture_or_descended_from_trigger = {
+	culture = {
+		OR = {
+			this = $CULTURE$
+			any_parent_culture_or_above = { this = $CULTURE$ }
+		}
+	}
+}
+
+realm_law_use_imperial_policy_trigger = {
+	always = no
+	#top_liege = { 
+	#	highest_held_title_tier >= tier_empire
+	#	government_is_japanese_trigger = yes 
+	#}
+}
+
+tgp_has_house_relation_level_trigger = {
+	exists = $HOUSE_1_MEMBER$.house
+	exists = $HOUSE_2_MEMBER$.house
+	$HOUSE_1_MEMBER$.house != $HOUSE_2_MEMBER$.house
+	$HOUSE_1_MEMBER$.house = {
+		any_house_relation = {
+			has_house_relation_level = $LEVEL$
+			any_relation_house = { this = $HOUSE_2_MEMBER$.house }
+		}
+	}
+}

@@ -1202,47 +1202,48 @@ poi_mandala_capital = {
 
 			if = { #Small XP Boost based on Mandala holders aspect
 				limit = {
-					government_has_flag = government_is_mandala
-					scope:province.county.holder.capital_province = scope:province
-					scope:province.county.holder = { has_mandala_aspect_trigger = yes }
+					always = no
+					#government_has_flag = government_is_mandala
+					#cope:province.county.holder.capital_province = scope:province
+					#scope:province.county.holder = { has_mandala_aspect_trigger = yes }
 				}
-				scope:province.county.holder.house ?= {
-					switch = {
-						trigger = has_house_power_parameter
-						aspect_of_creation = {
-							root = {
-								poi_lifestyle_experience_effect = {
-									LIFESTYLE = stewardship
-									VALUE = minor_lifestyle_xp
-								}
-							}
-						}
-						aspect_of_serenity = {
-							root = {
-								poi_lifestyle_experience_effect = {
-									LIFESTYLE = diplomacy
-									VALUE = minor_lifestyle_xp
-								}
-							}
-						}
-						aspect_of_destruction = {
-							root = {
-								poi_lifestyle_experience_effect = {
-									LIFESTYLE = martial
-									VALUE = minor_lifestyle_xp
-								}
-							}
-						}
-						aspect_of_trickery = {
-							root = {
-								poi_lifestyle_experience_effect = {
-									LIFESTYLE = intrigue
-									VALUE = minor_lifestyle_xp
-								}
-							}
-						}
-					}
-				}
+				#scope:province.county.holder.house ?= {
+				#	switch = {
+				#		trigger = has_house_power_parameter
+				#		aspect_of_creation = {
+				#			root = {
+				#				poi_lifestyle_experience_effect = {
+				#					LIFESTYLE = stewardship
+				#					VALUE = minor_lifestyle_xp
+				#				}
+				#			}
+				#		}
+				#		aspect_of_serenity = {
+				#			root = {
+				#				poi_lifestyle_experience_effect = {
+				#					LIFESTYLE = diplomacy
+				#					VALUE = minor_lifestyle_xp
+				#				}
+				#			}
+				#		}
+				#		aspect_of_destruction = {
+				#			root = {
+				#				poi_lifestyle_experience_effect = {
+				#					LIFESTYLE = martial
+				#					VALUE = minor_lifestyle_xp
+				#				}
+				#			}
+				#		}
+				#		aspect_of_trickery = {
+				#			root = {
+				#				poi_lifestyle_experience_effect = {
+				#					LIFESTYLE = intrigue
+				#					VALUE = minor_lifestyle_xp
+				#				}
+				#			}
+				#		}
+				#	}
+				#}
 			}
 
 			if = {
