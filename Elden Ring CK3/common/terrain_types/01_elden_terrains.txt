@@ -10,11 +10,14 @@ bog_poison = {
 	travel_danger_score = wetlands_danger_value
 	provision_cost = @provisions_cost_extreme
 	county_fertility = 0
+
 	
 	province_modifier = {
 		supply_limit_mult = -1
 		travel_danger = wetlands_danger_value
 		attrition_mult = 0.9
+		tax_mult = -0.7
+		levy_size = -0.9
 	}
 
 	county_capital_modifier = {

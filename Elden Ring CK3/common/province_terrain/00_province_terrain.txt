@@ -2,6 +2,22 @@
 default_sea=sea
 default_coastal_sea=coastal_sea
 
+#mountains
+#hills
+#plains
+#jungle
+#forest
+#wetlands
+#farmlands
+#bog_poison
+#desert
+#desert_mountains
+#oasis
+#taiga
+#steppe
+#floodplains
+#drylands
+#terraced_hills
 
 1=mountains
 2=mountains
@@ -2064,7 +2080,7 @@ default_coastal_sea=coastal_sea
 2064=wetlands
 2065=plains
 2066=mountains
-2067=hills
+2067=bog_poison
 2068=hills
 2069=hills
 2070=hills
