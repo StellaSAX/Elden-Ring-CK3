@@ -79,12 +79,21 @@
  
  d_weeping_road: "Weeping Road"
  
+ b_sorrow_pass: "Sorrow's Pass"
+ 
+ c_tear_cliffs: "Tearstone Cliffs"
+ 
  c_road_morne: "Road to Morne"
  b_outer_wall_gates: "Gates of Morne"
+ b_morne_app: "Morne's Approach"
+ b_cavalry_downs: "Night's Cavalry Downs"
+ b_troll_pass: "Troll's Carriage Way"
  
  c_east_lookout: "East Lookout"
  b_morne_outer_wall_w: "Harbor's Watch"
  b_morne_outer_wall_towers: "Castle Morne Rampart"
+ 
+ c_lookout_ascent: "Forest Lookout Ascent"
  
  d_weeping_coast: "Weeping Coast"
  

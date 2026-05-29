@@ -7854,7 +7854,7 @@ h_lands_between = {
 						province = 387
 					}
 
-					b_R55G20B98 = {
+					b_sorrow_pass = {
 						color = { 80 49 149 }
 						province = 1453
 					}
@@ -7899,7 +7899,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R80G49B149 = {
+				c_tear_cliffs = {
 					color = { 80 49 149 }
 
 					b_R97G1B254 = {
@@ -7931,17 +7931,17 @@ h_lands_between = {
 						province = 2062
 					}
 
-					b_R239G168B102 = {
+					b_morne_app = {
 						color = { 62 87 196 }
 						province = 426
 					}
 
-					b_R170G0B19 = {
+					b_cavalry_downs = {
 						color = { 242 91 126 }
 						province = 2485
 					}
 
-					b_R182G112B187 = {
+					b_troll_pass = {
 						color = { 48 16 13 }
 						province = 973
 					}
@@ -7966,7 +7966,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R223G104B16 = {
+				c_lookout_ascent = {
 					color = { 223 104 16 }
 
 					b_R147G202B194 = {
