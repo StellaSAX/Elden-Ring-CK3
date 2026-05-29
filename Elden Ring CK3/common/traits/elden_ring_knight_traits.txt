@@ -3,16 +3,9 @@
 @combat_mult_medium = 0.15
 @combat_mult_low = 0.10
 
-#Elden Ring Knights
-
-#Leyndell Knight
 golden_knight = {
 	category = lifestyle
 	icon = "golden_knight.dds"
-	
-	opposites = {
-		
-	}
 	
 	ruler_designer_cost = 20
 	
@@ -23,46 +16,33 @@ golden_knight = {
 	heavy_infantry_toughness_mult = @combat_mult_medium
 	pikemen_toughness_mult = @combat_mult_medium
 	
-	
 	compatibility = {
 		brave = @pos_compat_low
 		craven = @neg_compat_low
 	}
 }
 
-#Mounted Knight
 mounted_knight = {
 	category = lifestyle
 	icon = "mounted_knight.dds"
 	
-	opposites = {
-		
-	}
-	
 	ruler_designer_cost = 20
+	
 	prowess_per_prestige_level = 2
 	light_cavalry_damage_mult = @combat_mult_low
 	light_cavalry_toughness_mult = @combat_mult_low
 	heavy_cavalry_damage_mult = @combat_mult_low
 	heavy_cavalry_toughness_mult = @combat_mult_low
 
-	
 	compatibility = {
 		brave = @pos_compat_low
 		craven = @neg_compat_low
 	}
-	
-
 }
 
-#Crucible Knight
 crucible_knight = {
 	category = lifestyle
 	icon = "crucible_knight.dds"
-	
-	opposites = {
-		
-	}
 	
 	ruler_designer_cost = 20
 	
@@ -73,23 +53,15 @@ crucible_knight = {
 	health = 0.5
 	attacker_advantage = 5
 
-	
 	compatibility = {
 		brave = @pos_compat_low
 		craven = @neg_compat_low
 	}
-	
-	
 }
 
-#Mausoleum Knight
 mausoleum_knight = {
 	category = lifestyle
 	icon = "mausoleum_knight.dds"
-	
-	opposites = {
-		
-	}
 	
 	ruler_designer_cost = 20
 	
@@ -104,18 +76,11 @@ mausoleum_knight = {
 		brave = @pos_compat_low
 		craven = @neg_compat_low
 	}
-	
-
 }
 
-#sorcerous knight
 sorcerous_knight = {
 	category = lifestyle
 	icon = "sorcerous_knight.dds"
-	
-	opposites = {
-		
-	}
 	
 	ruler_designer_cost = 20
 	
@@ -123,22 +88,15 @@ sorcerous_knight = {
 	prowess_per_prestige_level = 2
 	learning_per_piety_level = 1
 	
-	
 	compatibility = {
 		brave = @pos_compat_low
 		craven = @neg_compat_low
 	}
-	
 }
 
-#Bloodhound Knight
 bloodhound_knight = {
 	category = lifestyle
 	icon = "bloodhound_knight.dds"
-	
-	opposites = {
-		
-	}
 	
 	ruler_designer_cost = 20
 	
@@ -152,17 +110,11 @@ bloodhound_knight = {
 		brave = @pos_compat_low
 		craven = @neg_compat_low
 	}
-	
 }
 
-#rot Knight 
 rot_knight = {
 	category = lifestyle
 	icon = "rot_knight.dds"
-	
-	opposites = {
-		
-	}
 	
 	ruler_designer_cost = 20
 	
@@ -170,24 +122,16 @@ rot_knight = {
 	same_opinion = 50
 	prowess_per_prestige_level = 2
 	negate_health_penalty_add = 2
-
 	
 	compatibility = {
 		brave = @pos_compat_low
 		craven = @neg_compat_low
 	}
-	
-	
 }
 
-#frenzied Knight
 frenzied_knight = {
 	category = lifestyle
 	icon = "frenzied_knight.dds"
-	
-	opposites = {
-		
-	}
 	
 	ruler_designer_cost = 20
 	
@@ -196,22 +140,15 @@ frenzied_knight = {
 	learning = 2
 	general_opinion = -10
 	
-	
 	compatibility = {
 		brave = @pos_compat_low
 		craven = @neg_compat_low
 	}
-	
 }
 
-#cuckoo knight
 cuckoo_knight = {
 	category = lifestyle
 	icon = "cuckoo_knight.dds"
-	
-	opposites = {
-
-	}
 	
 	ruler_designer_cost = 20
 	
@@ -219,22 +156,15 @@ cuckoo_knight = {
 	prowess_per_prestige_level = 1
 	learning = 3
 	
-	
 	compatibility = {
 		brave = @pos_compat_low
 		craven = @neg_compat_low
 	}
-	
 }
 
-#drake knight
 drake_knight = {
 	category = lifestyle
 	icon = "drake_knight.dds"
-	
-	opposites = {
-		lesser_dragon_elden_ring
-	}
 	
 	track = { #how much dragon have you eaten?
 		10 = {
@@ -316,17 +246,12 @@ drake_knight = {
 		#ancient_dragon_opinion = @pos_compat_medium
 		#lesser_dragon_opinion = @neg_compat_high
 	}
-	
 }
 
 #Knight of zamor(ice)
 ice_knight = {
 	category = lifestyle
 	icon = "ice_knight.dds"
-	
-	opposites = {
-		
-	}
 	
 	ruler_designer_cost = 20
 	
@@ -339,17 +264,12 @@ ice_knight = {
 		brave = @pos_compat_low
 		craven = @neg_compat_low
 	}
-	
 }
 
 #death knight(from the deathbirds, raptor set)
 death_knight = {
 	category = lifestyle
 	icon = "death_knight.dds"
-	
-	opposites = {
-		
-	}
 	
 	ruler_designer_cost = 20
 	
@@ -363,17 +283,11 @@ death_knight = {
 		brave = @pos_compat_low
 		craven = @neg_compat_low
 	}
-	
-
 }
 
 horned_warrior = {
 	category = lifestyle
 	icon = "horned_warrior.dds"
-	
-	opposites = {
-		
-	}
 	
 	ruler_designer_cost = 20
 	
@@ -392,10 +306,6 @@ horned_warrior = {
 divine_beast_warrior = {
 	category = lifestyle
 	icon = "divine_beast_warrior.dds"
-	
-	opposites = {
-		
-	}
 	
 	ruler_designer_cost = 20
 	

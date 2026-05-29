@@ -141,3 +141,256 @@ bestial_affinity = {
 	prowess = 3
 	martial = 1
 }
+
+sorcery_glintstone = {
+	category = lifestyle
+	icon = "sorcery_glintstone.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_sorcery_glintstone
+			}
+			triggered_desc = {
+				trigger = {
+					is_female = no
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_glintstone_6
+			}
+			triggered_desc = {
+				trigger = {
+					is_female = yes
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_glintstone_6_female
+			}
+			triggered_desc = {
+				trigger = {
+					is_female = no
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_glintstone_5
+			}
+			triggered_desc = {
+				trigger = {
+					is_female = yes
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_glintstone_5_female
+			}
+			triggered_desc = {
+				trigger = {
+					is_female = no
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_glintstone_4
+			}
+			triggered_desc = {
+				trigger = {
+					is_female = yes
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_glintstone_4_female
+			}
+			triggered_desc = {
+				trigger = {
+					is_female = no
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_glintstone_3
+			}
+			triggered_desc = {
+				trigger = {
+					is_female = yes
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_glintstone_3_female
+			}
+			triggered_desc = {
+				trigger = {
+					is_female = no
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_glintstone_2
+			}
+			triggered_desc = {
+				trigger = {
+					is_female = yes
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_glintstone_2_female
+			}
+			triggered_desc = {
+				trigger = {
+					is_female = no
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value < 20
+					}
+				}
+				desc = trait_sorcery_glintstone_1
+			}
+			triggered_desc = {
+				trigger = {
+					is_female = yes
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value < 20
+					}
+				}
+				desc = trait_sorcery_glintstone_1_female
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_sorcery_glintstone_female
+			}
+			desc = trait_sorcery_glintstone
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this } 
+				}
+				desc = trait_sorcery_glintstone_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_glintstone_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_glintstone_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_glintstone_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					is_female = no
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_glintstone_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					is_female = yes
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_glintstone_3_female_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_glintstone_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					is_female = no
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value < 20
+					}
+				}
+				desc = trait_sorcery_glintstone_1_desc
+			}
+			triggered_desc = {
+				trigger = {
+					is_female = yes
+					has_trait_xp = {
+						trait = sorcery_glintstone
+						value < 20
+					}
+				}
+				desc = trait_sorcery_glintstone_1_female_desc
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_sorcery_glintstone_female_desc
+			}
+			desc = trait_sorcery_glintstone_desc
+		}
+	}
+}

@@ -1,8 +1,8 @@
 grafting = {
-	category = fame
+	category = lifestyle
 	icon = "grafting_trait.dds"
 	
-	ruler_designer_cost = -10
+	ruler_designer_cost = 0
 	
 	attraction_opinion = -5
 	diplomacy = -1
@@ -51,6 +51,118 @@ grafting = {
 		}
 	}
 	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_grafting
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = grafting
+						value >= 100
+					}
+				}
+				desc = trait_grafting_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = grafting
+						value >= 80
+					}
+				}
+				desc = trait_grafting_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = grafting
+						value >= 60
+					}
+				}
+				desc = trait_grafting_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = grafting
+						value >= 40
+					}
+				}
+				desc = trait_grafting_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = grafting
+						value >= 20
+					}
+				}
+				desc = trait_grafting_2
+			}
+			desc = trait_grafting
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this } 
+				}
+				desc = trait_grafting_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = grafting
+						value >= 100
+					}
+				}
+				desc = trait_grafting_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = grafting
+						value >= 80
+					}
+				}
+				desc = trait_grafting_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = grafting
+						value >= 60
+					}
+				}
+				desc = trait_grafting_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = grafting
+						value >= 40
+					}
+				}
+				desc = trait_grafting_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = grafting
+						value >= 20
+					}
+				}
+				desc = trait_grafting_2_desc
+			}
+			desc = trait_grafting_desc
+		}
+	}
+	
 	triggered_opinion = {
 		parameter = grafting_illegal
 		opinion_modifier = grafting_crime
@@ -66,10 +178,14 @@ grafting = {
 perfumer = {
 	category = lifestyle
 	icon = "perfumer.dds"
+	
+	ruler_designer_cost = 20
+	
 	#the idea is that at the most basic level they are healers, but the higher the trait level, the more horrible work they do
 	learning = 3
 	negate_health_penalty_add = 1
 	monthly_learning_lifestyle_xp_gain_mult = 0.05
+	
 	track = {
 		50 = {
 			prowess = 2
@@ -92,14 +208,11 @@ perfumer = {
 		}		
 	}
 
-	ruler_designer_cost = 20
-
-	# # Loc
 	desc = {
 		first_valid = {
 			#The trait can never go higher than the first level if it's not assigned to a character
 			triggered_desc = {
-				trigger = { 
+				trigger = {
 					NOT = { exists = this } 
 				}
 				desc = perfumer_1_desc
@@ -107,16 +220,16 @@ perfumer = {
 			triggered_desc = {
 				trigger = { 
 					has_trait_xp = {
-						trait = lifestyle_blademaster
+						trait = perfumer
 						value >= 100
 					}
 				}
 				desc = perfumer_3_character_desc
 			}
 			triggered_desc = {
-				trigger = { 
+				trigger = {
 					has_trait_xp = {
-						trait = lifestyle_blademaster
+						trait = perfumer
 						value >= 50
 					}
 				}
@@ -211,9 +324,6 @@ tarnished = {
 	ai_boldness = high_positive_ai_value
 	
 	opposites = {
-		disfigured
-		incapable
-		infirm
 		graceless_tarnished
 	}
 }
@@ -239,9 +349,6 @@ graceless_tarnished = {
 	ai_boldness = high_negative_ai_value
 	
 	opposites = {
-		disfigured
-		incapable
-		infirm
 		tarnished
 	}
 }
@@ -262,7 +369,7 @@ roundtable_leader = {
 }
 
 carian_sorcerer = {
-	category = health
+	category = lifestyle
 	icon = "carian_sorcerer.dds"
 	#shown_in_ruler_designer = no
 	ruler_designer_cost = 500
@@ -292,12 +399,6 @@ carian_sorcerer = {
 	ai_greed = very_high_positive_ai_value
 	ai_energy = very_high_positive_ai_value
 	ai_boldness = high_positive_ai_value
-	
-	opposites = {
-		incapable
-		cancer
-		infirm
-	}
 }
 
 shadowbound_beast = {
@@ -317,13 +418,6 @@ shadowbound_beast = {
 	ai_greed = very_high_positive_ai_value
 	ai_energy = very_high_positive_ai_value
 	ai_boldness = high_positive_ai_value
-	
-	opposites = {
-		incapable
-		cancer
-		disfigured
-		infirm
-	}
 }
 
 imprisoned_evergaol = {
@@ -350,8 +444,8 @@ imprisoned_evergaol = {
 	ai_energy = -100
 }
 
-no_marry = { 
-	category = fame
+no_marry = {
+	category = lifestyle
 	icon = "refusing_marriage.dds"
 	flag = can_not_marry
 	shown_in_ruler_designer = no

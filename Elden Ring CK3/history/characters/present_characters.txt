@@ -478,6 +478,7 @@ sellen = {
 	trait = intellect_good_2
 	trait = beauty_good_1
 	trait = glintstone_affinity
+	trait = sorcery_glintstone
 	trait = witch
 	trait = no_marry
 	
@@ -496,6 +497,11 @@ sellen = {
 		}
 		add_character_modifier = {
 			modifier = gift_from_the_eternal
+		}
+	}
+	984.1.1 = {
+		effect = {
+			add_trait_xp = { trait = sorcery_glintstone value=85 }
 		}
 	}
 	1292.1.1 = {

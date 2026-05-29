@@ -1,8 +1,4 @@
-﻿
-#Elden Ring other classes
-
-#snow witch
-snow_witch = {
+﻿snow_witch = {
 	category = lifestyle
 	icon = "snow_witch.dds"
 	
@@ -20,10 +16,8 @@ snow_witch = {
 	learning_per_piety_level = 1
 	siege_phase_time = -0.10
 	army_siege_value_mult = 0.5
-
 }
 
-#fire monk
 fire_monk = {
 	category = lifestyle
 	icon = "fire_monk.dds"
@@ -46,7 +40,6 @@ fire_monk = {
 	enemy_hard_casualty_modifier = 0.1
 }
 
-#godskin apostle
 godskin_apostle = {
 	category = lifestyle
 	icon = "godskin_apostle.dds"
@@ -94,7 +87,6 @@ black_assassin = {
 		deceitful = @pos_compat_low
 		honest = @neg_compat_low
 	}
-	
 }
 
 death_companion = {
@@ -113,8 +105,6 @@ death_companion = {
 	attraction_opinion = 30
 	seduce_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
 	courting_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
-
-	
 }
 
 sanguine_noble = {
@@ -136,9 +126,6 @@ sanguine_noble = {
 	health = 1
 	
 	ruler_designer_cost = 20
-	
-	
-	
 }
 
 lord_of_blood = {
@@ -164,7 +151,6 @@ lord_of_blood = {
 	ruler_designer_cost = 20
 }
 
-
 beast_clergy = {
 	category = lifestyle
 	icon = "beast_clergy.dds"
@@ -182,8 +168,8 @@ beast_clergy = {
 	prowess_per_piety_level = 1
 	martial_per_piety_level = 1
 	learning = 2
-
 }
+
 sleep_cleric = {
 	category = lifestyle
 	icon = "sleep_cleric.dds"

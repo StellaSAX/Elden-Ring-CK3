@@ -34,7 +34,6 @@ omen_horn_trait = {
 	stress_gain_mult = 0.1
 	
 	opposites = {
-		
 		omen_no_horn_trait
 	}
 	
@@ -59,17 +58,11 @@ omen_no_horn_trait = {
 	health = -0.25
 	
 	opposites = {
-		
 		omen_horn_trait
 	}
 }
 
 ancient_dragon_elden_ring = {
-	opposites = {
-		lightning_affinity
-		dragon_affinity
-		lesser_dragon_elden_ring
-	}
 	category = health
 	ruler_designer_cost = 20
 	same_opinion = 30
@@ -81,14 +74,13 @@ ancient_dragon_elden_ring = {
 	health = 3
 	no_prowess_loss_from_age = yes
 	shown_in_ruler_designer = no
+	
+	opposites = {
+		lesser_dragon_elden_ring
+	}
 }
 
 lesser_dragon_elden_ring = {
-	opposites = {
-		lightning_affinity
-		dragon_affinity
-		ancient_dragon_elden_ring
-	}
 	category = health
 	ruler_designer_cost = 20
 	same_opinion = 30
@@ -100,6 +92,10 @@ lesser_dragon_elden_ring = {
 	prowess = 10
 	health = 1.5
 	shown_in_ruler_designer = no
+	
+	opposites = {
+		ancient_dragon_elden_ring
+	}
 }
 
 albinauric_trait = {

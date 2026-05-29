@@ -36,14 +36,6 @@
 	learning = 10
 	prowess = 20
 	fertility = -0.2
-	
-	opposites = {
-		empyrean_elden_ring
-		incapable
-		cancer
-		disfigured
-		infirm
-	}
 }
 
 demigod_elden_ring_4 = {
@@ -70,10 +62,6 @@ demigod_elden_ring_4 = {
 		demigod_elden_ring_1
 		demigod_elden_ring_2
 		demigod_elden_ring_3
-		incapable
-		cancer
-		disfigured
-		infirm
 	}
 }
 
@@ -101,10 +89,6 @@ demigod_elden_ring_3 = {
 		demigod_elden_ring_1
 		demigod_elden_ring_2
 		demigod_elden_ring_4
-		incapable
-		cancer
-		disfigured
-		infirm
 	}
 }
 
@@ -132,10 +116,6 @@ demigod_elden_ring_2 = {
 		demigod_elden_ring_1
 		demigod_elden_ring_3
 		demigod_elden_ring_4
-		incapable
-		cancer
-		disfigured
-		infirm
 	}
 }
 
@@ -163,15 +143,11 @@ demigod_elden_ring_1 = {
 		demigod_elden_ring_2
 		demigod_elden_ring_3
 		demigod_elden_ring_4
-		incapable
-		cancer
-		disfigured
-		infirm
 	}
 }
 
 empyrean_elden_ring = {
-	category = health
+	category = fame
 	icon = "empyrean.dds"
 	shown_in_ruler_designer = no
 	ruler_designer_cost = 500
@@ -190,13 +166,6 @@ empyrean_elden_ring = {
 	intrigue = 2
 	learning = 2
 	prowess = 5
-	
-	opposites = {
-		god_elden_ring
-		disfigured
-		incapable
-		cancer
-	}
 }
 
 eternal_youth_elden_ring = {
@@ -208,11 +177,6 @@ eternal_youth_elden_ring = {
 	#set_immortal_age = 10
 	can_have_children = no
 	health = 10
-	
-	opposites = {
-		god_elden_ring
-		infirm
-	}
 }
 
 scarlet_rot_malenia = {
@@ -225,16 +189,13 @@ scarlet_rot_malenia = {
 	attraction_opinion = -30
 	
 	opposites = {
-		incapable
-		cancer
-		disfigured
-		infirm
 		scarlet_rot
 	}
 }
 
 god_serpent = {
 	icon = "god_devouring_serpent.dds"
+	category = fame
 	shown_in_ruler_designer = no
 	diplomacy = -10
 	stewardship = -5

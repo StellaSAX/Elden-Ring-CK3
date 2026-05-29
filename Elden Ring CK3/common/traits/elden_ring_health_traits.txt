@@ -92,10 +92,6 @@ scarlet_rot_child = {
 	ai_boldness = high_positive_ai_value
 	
 	opposites = {
-		incapable
-		cancer
-		disfigured
-		infirm
 		scarlet_rot
 	}
 }
