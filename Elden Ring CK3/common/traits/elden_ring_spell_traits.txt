@@ -5,6 +5,17 @@
 	diplomacy = 1
 	stewardship = 1
 	health = 1
+	
+	triggered_opinion = {
+		parameter = order_affinity_illegal
+		opinion_modifier = order_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = order_affinity_shunned
+		opinion_modifier = order_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 frenzy_affinity = {
@@ -15,6 +26,17 @@ frenzy_affinity = {
 	martial = 1
 	dread_baseline_add = 20
 	general_opinion = -10
+	
+	triggered_opinion = {
+		parameter = frenzy_affinity_illegal
+		opinion_modifier = frenzy_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = frenzy_affinity_shunned
+		opinion_modifier = frenzy_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 glintstone_affinity = {
@@ -23,6 +45,35 @@ glintstone_affinity = {
 	same_opinion = 5
 	learning = 2
 	intrigue = 1
+	
+	triggered_opinion = {
+		parameter = glinststone_affinity_illegal
+		opinion_modifier = glinststone_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = glinststone_affinity_shunned
+		opinion_modifier = glinststone_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+}
+
+carian_affinity = {
+	ruler_designer_cost = 25
+	icon = "affinity_carian.dds"
+	same_opinion = 5
+	learning = 3
+	
+	triggered_opinion = {
+		parameter = carian_affinity_illegal
+		opinion_modifier = carian_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = carian_affinity_shunned
+		opinion_modifier = carian_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 rot_affinity = {
@@ -33,6 +84,17 @@ rot_affinity = {
 	intrigue = 1
 	attraction_opinion = -10
 	fertility = 0.10
+	
+	triggered_opinion = {
+		parameter = rot_affinity_illegal
+		opinion_modifier = rot_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = rot_affinity_shunned
+		opinion_modifier = rot_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 erdtree_affinity = {
@@ -42,6 +104,17 @@ erdtree_affinity = {
 	martial = 1
 	prowess = 3
 	health = 1
+	
+	triggered_opinion = {
+		parameter = erdtree_affinity_illegal
+		opinion_modifier = erdtree_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = erdtree_affinity_shunned
+		opinion_modifier = erdtree_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 fire_affinity = {
@@ -51,6 +124,35 @@ fire_affinity = {
 	negate_health_penalty_add = 1
 	stewardship = 1
 	martial = 1
+	
+	triggered_opinion = {
+		parameter = fire_affinity_illegal
+		opinion_modifier = fire_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = fire_affinity_shunned
+		opinion_modifier = fire_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+}
+
+magma_affinity = {
+	ruler_designer_cost = 25
+	icon = "affinity_magma.dds"
+	same_opinion = 5
+	martial = 2
+	
+	triggered_opinion = {
+		parameter = magma_affinity_illegal
+		opinion_modifier = magma_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = magma_affinity_shunned
+		opinion_modifier = magma_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 ice_affinity = {
@@ -60,6 +162,17 @@ ice_affinity = {
 	learning = 1
 	prowess = 3
 	owned_hostile_scheme_success_chance_add = 5
+	
+	triggered_opinion = {
+		parameter = ice_affinity_illegal
+		opinion_modifier = ice_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = ice_affinity_shunned
+		opinion_modifier = ice_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 gravity_affinity = {
@@ -69,6 +182,17 @@ gravity_affinity = {
 	learning = 1
 	attraction_opinion = 5 #this is here for the joke more than anything
 	prowess = 3
+	
+	triggered_opinion = {
+		parameter = gravity_affinity_illegal
+		opinion_modifier = gravity_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = gravity_affinity_shunned
+		opinion_modifier = gravity_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 lightning_affinity = {
@@ -78,6 +202,17 @@ lightning_affinity = {
 	diplomacy = 1
 	martial = 1
 	vassal_opinion = 5
+	
+	triggered_opinion = {
+		parameter = lightning_affinity_illegal
+		opinion_modifier = lightning_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = lightning_affinity_shunned
+		opinion_modifier = lightning_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 death_affinity = {
@@ -87,6 +222,17 @@ death_affinity = {
 	negate_health_penalty_add = 1
 	dread_baseline_add = 10
 	health = 1
+	
+	triggered_opinion = {
+		parameter = death_affinity_illegal
+		opinion_modifier = death_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = death_affinity_shunned
+		opinion_modifier = death_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 blood_affinity = {
@@ -96,6 +242,17 @@ blood_affinity = {
 	martial = 1
 	fertility = 0.1
 	prowess = 3
+	
+	triggered_opinion = {
+		parameter = blood_affinity_illegal
+		opinion_modifier = blood_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = blood_affinity_shunned
+		opinion_modifier = blood_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 dragon_affinity = {
@@ -104,15 +261,37 @@ dragon_affinity = {
 	same_opinion = 5
 	prowess = 6
 	dread_baseline_add = 10
+	
+	triggered_opinion = {
+		parameter = dragon_affinity_illegal
+		opinion_modifier = dragon_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = dragon_affinity_shunned
+		opinion_modifier = dragon_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
-black_flame_affinity = {
+blackflame_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_blackflame.dds"
 	same_opinion = 5
 	prowess = 3
 	intrigue = 1
 	learning = 1
+	
+	triggered_opinion = {
+		parameter = blackflame_affinity_illegal
+		opinion_modifier = blackflame_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = blackflame_affinity_shunned
+		opinion_modifier = blackflame_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 sleep_affinity = {
@@ -122,6 +301,17 @@ sleep_affinity = {
 	stress_loss_mult = 0.1
 	stress_gain_mult = -0.1
 	diplomacy = 1
+	
+	triggered_opinion = {
+		parameter = sleep_affinity_illegal
+		opinion_modifier = sleep_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = sleep_affinity_shunned
+		opinion_modifier = sleep_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 spiral_affinity = {
@@ -131,6 +321,17 @@ spiral_affinity = {
 	learning = 3
 	prowess = 5
 	health = 1
+	
+	triggered_opinion = {
+		parameter = spiral_affinity_illegal
+		opinion_modifier = spiral_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = spiral_affinity_shunned
+		opinion_modifier = spiral_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 bestial_affinity = {
@@ -140,6 +341,17 @@ bestial_affinity = {
 	learning = 1
 	prowess = 3
 	martial = 1
+	
+	triggered_opinion = {
+		parameter = bestial_affinity_illegal
+		opinion_modifier = bestial_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = bestial_affinity_shunned
+		opinion_modifier = bestial_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 sorcery_glintstone = {
@@ -391,6 +603,763 @@ sorcery_glintstone = {
 				desc = trait_sorcery_glintstone_female_desc
 			}
 			desc = trait_sorcery_glintstone_desc
+		}
+	}
+}
+
+sorcery_carian = {
+	category = lifestyle
+	icon = "sorcery_carian.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+sorcery_bloodthorn = {
+	category = lifestyle
+	icon = "sorcery_bloodthorn.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+sorcery_claymen = {
+	category = lifestyle
+	icon = "sorcery_claymen.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+sorcery_crystalian = {
+	category = lifestyle
+	icon = "sorcery_crystalian.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+sorcery_death = {
+	category = lifestyle
+	icon = "sorcery_death.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+sorcery_finger = {
+	category = lifestyle
+	icon = "sorcery_finger.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+sorcery_gelmir = {
+	category = lifestyle
+	icon = "sorcery_gelmir.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+sorcery_gravity = {
+	category = lifestyle
+	icon = "sorcery_gravity.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+sorcery_ice = {
+	category = lifestyle
+	icon = "sorcery_ice.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+sorcery_impenetrable_thorn = {
+	category = lifestyle
+	icon = "sorcery_impenetrable_thorn.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+sorcery_night = {
+	category = lifestyle
+	icon = "sorcery_night.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+incantation_bestial = {
+	category = lifestyle
+	icon = "incantation_bestial.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+incantation_blackflame = {
+	category = lifestyle
+	icon = "incantation_blackflame.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+incantation_blood = {
+	category = lifestyle
+	icon = "incantation_blood.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+incantation_crucible = {
+	category = lifestyle
+	icon = "incantation_crucible.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+incantation_divine_beast = {
+	category = lifestyle
+	icon = "incantation_divine_beast.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+incantation_dragon_communion = {
+	category = lifestyle
+	icon = "incantation_dragon_communion.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+incantation_dragon_cult = {
+	category = lifestyle
+	icon = "incantation_dragon_cult.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+incantation_erdtree = {
+	category = lifestyle
+	icon = "incantation_erdtree.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+incantation_flame = {
+	category = lifestyle
+	icon = "incantation_flame.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+incantation_frenzy = {
+	category = lifestyle
+	icon = "incantation_frenzy.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+incantation_lightning = {
+	category = lifestyle
+	icon = "incantation_lightning.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+incantation_messmers_flame = {
+	category = lifestyle
+	icon = "incantation_messmers_flame.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+incantation_miquella = {
+	category = lifestyle
+	icon = "incantation_miquella.dds"
+	shown_in_ruler_designer = no
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+incantation_order = {
+	category = lifestyle
+	icon = "incantation_order.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+incantation_rot = {
+	category = lifestyle
+	icon = "incantation_rot.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+incantation_spiral = {
+	category = lifestyle
+	icon = "incantation_spiral.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
+		}
+	}
+}
+
+incantation_two_fingers = {
+	category = lifestyle
+	icon = "incantation_two_fingers.dds"
+	
+	ruler_designer_cost = 40
+	
+	same_opinion = 10
+	
+	track = {
+		20 = {
+			prowess = 1
+		}
+		40 = {
+			prowess = 1
+		}
+		60 = {
+			prowess = 1
+		}
+		80 = {
+			prowess = 1
+		}
+		100 = {
+			prowess = 1
 		}
 	}
 }

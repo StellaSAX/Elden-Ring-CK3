@@ -27,6 +27,26 @@
 	doctrine = doctrine_witchcraft_shunned
 	doctrine = doctrine_omen_crime
 	doctrine = doctrine_grafting_crime
+	
+	#Affinities
+	doctrine = doctrine_order_affinity_shunned
+	doctrine = doctrine_erdtree_affinity_shunned
+	doctrine = doctrine_fire_affinity_shunned
+	doctrine = doctrine_ice_affinity_shunned
+	doctrine = doctrine_glintstone_affinity_shunned
+	doctrine = doctrine_carian_affinity_shunned
+	doctrine = doctrine_gravity_affinity_shunned
+	doctrine = doctrine_magma_affinity_shunned
+	doctrine = doctrine_lightning_affinity_shunned
+	doctrine = doctrine_dragon_affinity_crime
+	doctrine = doctrine_bestial_affinity_shunned
+	doctrine = doctrine_spiral_affinity_shunned
+	doctrine = doctrine_blood_affinity_crime
+	doctrine = doctrine_death_affinity_virtuous
+	doctrine = doctrine_blackflame_affinity_shunned
+	doctrine = doctrine_rot_affinity_crime
+	doctrine = doctrine_sleep_affinity_shunned
+	doctrine = doctrine_frenzy_affinity_crime
 
 	#Clerical Functions
 	doctrine = doctrine_clerical_function_recruitment

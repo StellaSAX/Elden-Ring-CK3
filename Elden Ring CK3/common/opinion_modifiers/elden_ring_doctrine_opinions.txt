@@ -3,7 +3,6 @@
 	imprisonment_reason = yes
 	execute_reason = yes
 }
-
 grafting_intolerant = {
 	opinion = -15
 }
@@ -13,7 +12,151 @@ omen_crime = {
 	imprisonment_reason = yes
 	execute_reason = yes
 }
-
 omen_intolerant = {
 	opinion = -15
+}
+
+order_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+order_affinity_intolerant = {
+	opinion = -10
+}
+
+frenzy_affinity_crime = {
+	opinion = -50
+	imprisonment_reason = yes
+	execute_reason = yes
+}
+frenzy_affinity_intolerant = {
+	opinion = -25
+}
+
+glintstone_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+glintstone_affinity_intolerant = {
+	opinion = -10
+}
+
+carian_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+carian_affinity_intolerant = {
+	opinion = -10
+}
+
+rot_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+rot_affinity_intolerant = {
+	opinion = -10
+}
+
+erdtree_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+erdtree_affinity_intolerant = {
+	opinion = -10
+}
+
+fire_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+fire_affinity_intolerant = {
+	opinion = -10
+}
+
+magma_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+magma_affinity_intolerant = {
+	opinion = -10
+}
+
+ice_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+ice_affinity_intolerant = {
+	opinion = -10
+}
+
+gravity_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+gravity_affinity_intolerant = {
+	opinion = -10
+}
+
+lightning_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+lightning_affinity_intolerant = {
+	opinion = -10
+}
+
+death_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+death_affinity_intolerant = {
+	opinion = -10
+}
+
+blood_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+blood_affinity_intolerant = {
+	opinion = -10
+}
+
+dragon_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+dragon_affinity_intolerant = {
+	opinion = -10
+}
+
+blackflame_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+blackflame_affinity_intolerant = {
+	opinion = -10
+}
+
+sleep_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+sleep_affinity_intolerant = {
+	opinion = -10
+}
+
+spiral_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+spiral_affinity_intolerant = {
+	opinion = -10
+}
+
+bestial_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+bestial_affinity_intolerant = {
+	opinion = -10
 }

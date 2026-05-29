@@ -334,7 +334,7 @@ tenet_golden_order = {
 	
 	traits = {
 		virtues = { order_affinity golden_knight }
-		sins = { crucible_affinity frenzy_affinity death_affinity black_flame_affinity spiral_affinity fire_affinity }
+		sins = { incantation_crucible frenzy_affinity death_affinity black_flame_affinity spiral_affinity fire_affinity }
 	}
 }
 

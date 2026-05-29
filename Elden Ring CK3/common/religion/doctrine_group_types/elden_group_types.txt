@@ -1,4 +1,5 @@
-﻿doctrine_grafting = {
+﻿#Crimes Category
+doctrine_grafting = {
 	category = "crimes"
 
 	doctrine_types = {
@@ -17,6 +18,205 @@ doctrine_omen = {
 		doctrine_omen_shunned
 		doctrine_omen_accepted
 		doctrine_omen_virtuous
+	}
+}
+
+#Affinity Category
+doctrine_order_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_order_affinity_crime
+		doctrine_order_affinity_shunned
+		doctrine_order_affinity_accepted
+		doctrine_order_affinity_virtuous
+	}
+}
+
+doctrine_erdtree_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_erdtree_affinity_crime
+		doctrine_erdtree_affinity_shunned
+		doctrine_erdtree_affinity_accepted
+		doctrine_erdtree_affinity_virtuous
+	}
+}
+
+doctrine_fire_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_fire_affinity_crime
+		doctrine_fire_affinity_shunned
+		doctrine_fire_affinity_accepted
+		doctrine_fire_affinity_virtuous
+	}
+}
+
+doctrine_ice_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_ice_affinity_crime
+		doctrine_ice_affinity_shunned
+		doctrine_ice_affinity_accepted
+		doctrine_ice_affinity_virtuous
+	}
+}
+
+doctrine_glintstone_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_glintstone_affinity_crime
+		doctrine_glintstone_affinity_shunned
+		doctrine_glintstone_affinity_accepted
+		doctrine_glintstone_affinity_virtuous
+	}
+}
+
+doctrine_carian_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_carian_affinity_crime
+		doctrine_carian_affinity_shunned
+		doctrine_carian_affinity_accepted
+		doctrine_carian_affinity_virtuous
+	}
+}
+
+doctrine_gravity_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_gravity_affinity_crime
+		doctrine_gravity_affinity_shunned
+		doctrine_gravity_affinity_accepted
+		doctrine_gravity_affinity_virtuous
+	}
+}
+
+doctrine_magma_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_magma_affinity_crime
+		doctrine_magma_affinity_shunned
+		doctrine_magma_affinity_accepted
+		doctrine_magma_affinity_virtuous
+	}
+}
+
+doctrine_lightning_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_lightning_affinity_crime
+		doctrine_lightning_affinity_shunned
+		doctrine_lightning_affinity_accepted
+		doctrine_lightning_affinity_virtuous
+	}
+}
+
+doctrine_dragon_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_dragon_affinity_crime
+		doctrine_dragon_affinity_shunned
+		doctrine_dragon_affinity_accepted
+		doctrine_dragon_affinity_virtuous
+	}
+}
+
+doctrine_bestial_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_bestial_affinity_crime
+		doctrine_bestial_affinity_shunned
+		doctrine_bestial_affinity_accepted
+		doctrine_bestial_affinity_virtuous
+	}
+}
+
+doctrine_spiral_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_spiral_affinity_crime
+		doctrine_spiral_affinity_shunned
+		doctrine_spiral_affinity_accepted
+		doctrine_spiral_affinity_virtuous
+	}
+}
+
+doctrine_blood_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_blood_affinity_crime
+		doctrine_blood_affinity_shunned
+		doctrine_blood_affinity_accepted
+		doctrine_blood_affinity_virtuous
+	}
+}
+
+doctrine_death_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_death_affinity_crime
+		doctrine_death_affinity_shunned
+		doctrine_death_affinity_accepted
+		doctrine_death_affinity_virtuous
+	}
+}
+
+doctrine_blackflame_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_blackflame_affinity_crime
+		doctrine_blackflame_affinity_shunned
+		doctrine_blackflame_affinity_accepted
+		doctrine_blackflame_affinity_virtuous
+	}
+}
+
+doctrine_rot_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_rot_affinity_crime
+		doctrine_rot_affinity_shunned
+		doctrine_rot_affinity_accepted
+		doctrine_rot_affinity_virtuous
+	}
+}
+
+doctrine_sleep_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_sleep_affinity_crime
+		doctrine_sleep_affinity_shunned
+		doctrine_sleep_affinity_accepted
+		doctrine_sleep_affinity_virtuous
+	}
+}
+
+doctrine_frenzy_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_frenzy_affinity_crime
+		doctrine_frenzy_affinity_shunned
+		doctrine_frenzy_affinity_accepted
+		doctrine_frenzy_affinity_virtuous
 	}
 }
 

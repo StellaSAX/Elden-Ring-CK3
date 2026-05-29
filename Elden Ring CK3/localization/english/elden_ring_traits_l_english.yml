@@ -165,11 +165,13 @@
  trait_lightning_affinity:0 "Dragon Cult Affinity"
  trait_death_affinity:0 "Death Affinity"
  trait_blood_affinity:0 "Blood Affinity"
- trait_dragon_affinity:0 "Dragon Affinity"
- trait_black_flame_affinity:0 "Black Flame Affinity"
+ trait_dragon_affinity:0 "Ancient Dragon Affinity"
+ trait_blackflame_affinity:0 "Blackflame Affinity"
  trait_bestial_affinity:0 "Bestial Affinity"
  trait_sleep_affinity:0 "Sleep Affinity"
  trait_spiral_affinity:0 "Spiral Affinity"
+ trait_magma_affinity:0 "Magma Affinity"
+ trait_carian_affinity:0 "Carian Affinity"
 
  trait_order_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for Order, an strict ideology that doesn't allow imperfections or threats to it, but most things can be conjoined, as long as they become subservient."
  trait_frenzy_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity with the Frezied Flame, an origin of Madness and Chaos, and they are willing to Incinerate all that divides and distinguishes. May chaos take the world!"
@@ -182,11 +184,13 @@
  trait_lightning_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for Dragon Cult Incantations used by adherents to the ancient dragon cult and revolve around mostly Lightning-based attacks gifted from the Ancient Dragons to deal damage."
  trait_death_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for Death Sorceries, they revolve around Those Who Live in Death and other undead creatures and forces to deal magic damage."
  trait_blood_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for Blood Incantations, they revolve around the use of fiery blood as a weapon or enhancement to deal damage."
- trait_dragon_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for Dragon Communion, they consume the hearts of Lesser Dragons and gain draconic powers and breath attacks. Dragon Communion is seen as a dangerous practice."
- trait_black_flame_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for Godskin Apostle Incantations, they revolve around drawing power from the god-slaying black flame to deal damage."
+ trait_dragon_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for the natural aptitude of the Ancient Dragons."
+ trait_blackflame_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for Godskin Apostle Incantations, they revolve around drawing power from the god-slaying blackflame to deal damage."
  trait_bestial_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for using Bestial incantations, they center on using strength to do damage, they were used by the beast clergy of Farum Azula."
  trait_sleep_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for artifacts and weapons that relate to sleep, they have an easier time resting their mind and body, and are very friendly."
  trait_spiral_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for the Crucible that is more controled, and centered on reaching the divine power of the gods."
+ trait_magma_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for the Magma sorceries of Gelmir."
+ trait_carian_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for the traditional sorceries of the Carian family."
 
  trait_grafting:0 "Grafter"
  trait_grafting_2:0 "Intermediate Grafter"
@@ -266,3 +270,87 @@
  trait_sorcery_glintstone_6_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]'s knowledge of Glintstone sorceries is unparalleled, with only a select few being their equal."
  trait_track_sorcery_glintstone:0 "Glintstone Sorcery"
  trait_track_sorcery_glintstone_desc:0 "Comet spam forever!"
+ 
+ trait_sorcery_carian:0 "Carian Sorcerer"
+ trait_sorcery_carian_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Carian Sorcerer."
+ 
+ trait_sorcery_bloodthorn:0 "Bloodthorn Sorcerer"
+ trait_sorcery_bloodthorn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Bloodthorn Sorcerer."
+ 
+ trait_sorcery_claymen:0 "Clayman Sorcerer"
+ trait_sorcery_claymen_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Clayman Sorcerer."
+ 
+ trait_sorcery_crystalian:0 "Crystalian Sorcerer"
+ trait_sorcery_crystalian_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Crystalian Sorcerer."
+ 
+ trait_sorcery_death:0 "Death Sorcerer"
+ trait_sorcery_death_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Death Sorcerer."
+ 
+ trait_sorcery_finger:0 "Finger Sorcerer"
+ trait_sorcery_finger_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Finger Sorcerer."
+ 
+ trait_sorcery_gelmir:0 "Gelmir Sorcerer"
+ trait_sorcery_gelmir_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Gelmir Sorcerer."
+ 
+ trait_sorcery_gravity:0 "Gravity Sorcerer"
+ trait_sorcery_gravity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Gravity Sorcerer."
+ 
+ trait_sorcery_ice:0 "Ice Sorcerer"
+ trait_sorcery_ice_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an Ice Sorcerer."
+ 
+ trait_sorcery_impenetrable_thorn:0 "Impenetrable Thorn Sorcerer"
+ trait_sorcery_impenetrable_thorn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an Impenetrable Thorn Sorcerer."
+ 
+ trait_sorcery_night:0 "Night Sorcerer"
+ trait_sorcery_night_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Night Sorcerer."
+ 
+ trait_incantation_bestial:0 "Bestial Cleric"
+ trait_incantation_bestial_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a cleric of the Bestial incantations."
+ 
+ trait_incantation_blackflame:0 "Blackflame Cultist"
+ trait_incantation_blackflame_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a cultist of the Blackflame incantations."
+ 
+ trait_incantation_blood:0 "Blood Cultist"
+ trait_incantation_blood_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a cultist of the Blood incantations."
+ 
+ trait_incantation_crucible:0 "Crucible Cleric"
+ trait_incantation_crucible_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a cleric of the Crucible incantations."
+ 
+ trait_incantation_divine_beast:0 "Divine Beast Cleric"
+ trait_incantation_divine_beast_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a cleric of the Divine Beast incantations."
+ 
+ trait_incantation_dragon_communion:0 "Communion Partaker"
+ trait_incantation_dragon_communion_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has partaken in Dragon Communion."
+ 
+ trait_incantation_dragon_cult:0 "Dragon Cultist"
+ trait_incantation_dragon_cult_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a cultist of the Dragon Cult incantations."
+ 
+ trait_incantation_erdtree:0 "Erdtree Cleric"
+ trait_incantation_erdtree_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a cleric of the Ancient Erdtree incantations."
+ 
+ trait_incantation_flame:0 "Flame Monk"
+ trait_incantation_flame_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a monk of the Flame incantations."
+ 
+ trait_incantation_frenzy:0 "Frenzied Zealot"
+ trait_incantation_frenzy_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a zealot of the Frenzied Flame incantations."
+ 
+ trait_incantation_lightning:0 "Lightning Cultist"
+ trait_incantation_lightning_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a cultist of the Lightning incantations."
+ 
+ trait_incantation_messmers_flame:0 "Messmer's Flame"
+ trait_incantation_messmers_flame_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a user of Messmer's Flame incantations."
+ 
+ trait_incantation_miquella:0 "Miquella's Light"
+ trait_incantation_miquella_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a user of Miquella's incantations."
+ 
+ trait_incantation_order:0 "Order Cleric"
+ trait_incantation_order_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a clerid of the Golden Order incantations."
+ 
+ trait_incantation_rot:0 "Rot Priest"
+ trait_incantation_rot_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a priest of the Rot incantations."
+ 
+ trait_incantation_spiral:0 "Spiral Cleric"
+ trait_incantation_spiral_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a cleric of the Spiral incantations."
+ 
+ trait_incantation_two_fingers:0 "Two Fingers Cleric"
+ trait_incantation_two_fingers_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a cleric of the Two Fingers incantations."
