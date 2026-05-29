@@ -7720,7 +7720,7 @@ h_lands_between = {
 						province = 298
 					}
 
-					b_R248G81B54 = {
+					b_morne_hills = {
 						color = { 169 62 110 }
 						province = 978
 					}
@@ -7735,7 +7735,7 @@ h_lands_between = {
 						province = 3083
 					}
 
-					b_delete_11 = {
+					b_morne_beach = {
 						color = { 71 198 55 }
 						province = 3110
 					}
@@ -7746,20 +7746,20 @@ h_lands_between = {
 					}
 				}
 
-				c_R197G114B197 = {
+				c_morne_grief = {
 					color = { 197 114 197 }
 
-					b_R34G108B15 = {
+					b_grief_hills = {
 						color = { 197 114 197 }
 						province = 227
 					}
 
-					b_R95G141B103 = {
+					b_grief_beach = {
 						color = { 75 75 254 }
 						province = 130
 					}
 
-					b_R8G217B165 = {
+					b_grief_posion = {
 						color = { 4 143 80 }
 						province = 2559
 					}

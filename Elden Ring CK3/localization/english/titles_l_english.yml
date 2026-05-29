@@ -84,7 +84,7 @@
  
  c_east_lookout: "East Lookout"
  b_morne_outer_wall_w: "Harbor's Watch"
- b_morne_outer_wall_towers: "Outer Wall of Morne Castle"
+ b_morne_outer_wall_towers: "Castle Morne Rampart"
  
  d_weeping_coast: "Weeping Coast"
  
@@ -98,12 +98,20 @@
  
  d_morne: "Morne"
  
+ c_morne_grief: "Morne Grief"
+ b_grief_beach: "Lone Beach"
+ b_grief_posion: "Poison Bog"
+ b_grief_hills: "Grave Hills"
+ 
  c_morne: "Castle Morne"
  b_morne: "Morne Keep"
  b_morne_gates: "Gates of Morne Keep"
  b_morne_swords: "Morne Greatsword Monument"
  b_morne_lookout_tower: "Morne Lookout Tower"
  b_morne_road: "Road to Morne Keep"
+ b_morne_beach: "Keep Docks"
+ b_morne_hills: "Morne's Shadow"
+
  
  c_morne_rear: "Morne Moangrave"
  b_moangrave: "Morne Moangrave"

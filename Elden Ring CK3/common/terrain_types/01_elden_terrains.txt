@@ -1,0 +1,38 @@
+@provisions_cost_minimal = 25
+@provisions_cost_light = 50
+@provisions_cost_medium = 80
+@provisions_cost_high = 100
+@provisions_cost_extreme = 150
+
+bog_poison = { 
+	color = { 89 107 0 }
+	travel_danger_color = { 47 128 97 } 
+	travel_danger_score = wetlands_danger_value
+	provision_cost = @provisions_cost_extreme
+	county_fertility = 0
+	
+	province_modifier = {
+		supply_limit_mult = -1
+		travel_danger = wetlands_danger_value
+		attrition_mult = 0.9
+	}
+
+	county_capital_modifier = {
+		development_growth_factor = -0.75
+	}
+	
+	attacker_modifier = {
+		hard_casualty_modifier = 0.5
+		retreat_losses = 0.3
+	}
+	
+	defender_modifier = {
+		hard_casualty_modifier = 0.5
+		retreat_losses = 0.3
+	}
+	
+	movement_speed = 0.2
+	combat_width = 0.6
+	
+	audio_parameter = 3.0
+}

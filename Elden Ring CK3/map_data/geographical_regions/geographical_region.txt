@@ -99,7 +99,7 @@ world_haligtree = {
 	kingdoms = {  k_haligtree }
 }
 world_lands_between = {
-	kingdoms = {              k_leyndell k_stormveil k_snowfields k_weeping_peninsula k_rayalucaria k_redmane k_giattops k_gelmir k_altus_plateau k_caria k_dragonbarrow k_deeproot_depths k_haligtree }
+	kingdoms = {  k_leyndell k_stormveil k_snowfields k_weeping_peninsula k_rayalucaria k_redmane k_giattops k_gelmir k_altus_plateau k_caria k_dragonbarrow k_deeproot_depths k_haligtree }
 }
 world_leyndell = {
 	kingdoms = {    k_leyndell k_altus_plateau k_gelmir }
@@ -126,7 +126,7 @@ material_hsb_ivory_native = {
 	regions = {  world_deeproot }
 }
 graphical_western = {
-	regions = {                    region_weeping_peninsula region_stormveil region_red_wastes region_dragonbarrow region_rayalucaria region_caria region_altus region_royal_capital region_gelmir region_gianttops region_snowfields world_haligtree world_deeproot region_scadu_altus region_rauh region_jagged_peak region_belurat region_cerulean_coast region_abyssal_woods }
+	regions = {  region_weeping_peninsula region_stormveil region_red_wastes region_dragonbarrow region_rayalucaria region_caria region_altus region_royal_capital region_gelmir region_gianttops region_snowfields world_haligtree world_deeproot region_scadu_altus region_rauh region_jagged_peak region_belurat region_cerulean_coast region_abyssal_woods }
 }
 material_hsb_camel_bone = {
 	regions = {   world_liurnia world_deeproot }
