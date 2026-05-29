@@ -7765,44 +7765,44 @@ h_lands_between = {
 					}
 				}
 
-				c_R233G178B21 = {
+				c_forgotten_barrows = {
 					color = { 233 178 21 }
 
-					b_R156G8B163 = {
+					b_morne_watch = {
 						color = { 226 233 232 }
 						province = 618
 					}
 
-					b_R206G160B153 = {
+					b_deathbird_nest = {
 						color = { 82 240 194 }
 						province = 1345
 					}
 
-					b_delete_1 = {
+					b_shore_morne1 = {
 						color = { 124 156 90 }
 						province = 3076
 					}
 
-					b_lake2 = {
+					b_shore_morne2 = {
 						color = { 251 75 85 }
 						province = 3097
 					}
 
-					b_R191G18B23 = {
+					b_mis_moore = {
 						color = { 203 28 16 }
 						province = 815
 					}
 				}
 
-				c_weeping_swamp = {
+				c_mornevale = {
 					color = { 98 40 40 }
 
-					b_R254G10B22 = {
+					b_morne_veil = {
 						color = { 28 8 78 }
 						province = 863
 					}
 
-					b_R230G106B139 = {
+					b_weep_cross = {
 						color = { 122 21 167 }
 						province = 1969
 					}
@@ -7817,25 +7817,25 @@ h_lands_between = {
 					}
 				}
 
-				c_R187G138B5 = {
+				c_moor_mounds = {
 					color = { 187 138 5 }
 
-					b_R240G190B173 = {
+					b_orydis_shadow = {
 						color = { 39 31 191 }
 						province = 465
 					}
 
-					b_R33G10B20 = {
+					b_mis_barrows = {
 						color = { 227 171 184 }
 						province = 491
 					}
 
-					b_R26G137B77 = {
+					b_bramb_hollow = {
 						color = { 223 104 16 }
 						province = 2253
 					}
 
-					b_R35G94B247 = {
+					b_leo_scru = {
 						color = { 154 210 198 }
 						province = 850
 					}

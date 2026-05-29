@@ -98,9 +98,16 @@
  
  d_morne: "Morne"
  
+ c_forgotten_barrows: "Forgotten Barrows"
+ b_morne_watch: "Warden's Watch"
+ b_deathbird_nest: "Deathbird's Eyrie"
+ b_mis_moore: "Misbegotten Moor"
+ b_shore_morne1: "The Tear-Soaked Sands"
+ b_shore_morne2: "Ruin-Touched Shores"
+ 
  c_morne_grief: "Morne Grief"
  b_grief_beach: "Lone Beach"
- b_grief_posion: "Poison Bog"
+ b_grief_posion: "The Weeping Fen"
  b_grief_hills: "Grave Hills"
  
  c_morne: "Castle Morne"
@@ -112,9 +119,18 @@
  b_morne_beach: "Keep Docks"
  b_morne_hills: "Morne's Shadow"
 
- 
  c_morne_rear: "Morne Moangrave"
  b_moangrave: "Morne Moangrave"
+ 
+ c_mornevale: "Mornevale"
+ b_morne_veil: "Morne's Veil"
+ b_weep_cross: "Weeping Crossroads"
+ 
+ c_moor_mounds: "Grave-Moor Mounds"
+ b_orydis_shadow: "Orydis's Shadow"
+ b_mis_barrows: "Misbegotten Barrows"
+ b_bramb_hollow: "Bramblethorn Hollow"
+ b_leo_scru: "Leonine Scrubland"
  
  d_grand_cloister: "Grand Cloister"
  d_rot_lake: "Lake of Rot"
