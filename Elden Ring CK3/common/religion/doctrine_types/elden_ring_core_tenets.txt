@@ -107,7 +107,7 @@ tenet_primordial_curse = {
 	}
 	
 	traits = {
-		virtues = { crucible_affinity crucible_knight scaly }
+		virtues = { crucible_knight scaly }
 	}
 }
 
@@ -154,7 +154,7 @@ tenet_great_spiral = {
 	}
 	
 	traits = {
-		virtues = { spiral_affinity horned_warrior divine_beast_warrior }
+		virtues = { horned_warrior divine_beast_warrior }
 	}
 }
 
@@ -200,7 +200,7 @@ tenet_ancient_dragon = {
 	}
 	
 	traits = {
-		virtues = { ancient_dragon_elden_ring drake_knight dragon_affinity }
+		virtues = { ancient_dragon_elden_ring drake_knight }
 		sins = { lesser_dragon_elden_ring }
 	}
 }
@@ -293,7 +293,7 @@ tenet_dragon_cult = {
 	}
 	
 	traits = {
-		virtues = { ancient_dragon_elden_ring lightning_affinity }
+		virtues = { ancient_dragon_elden_ring }
 	}
 }
 
@@ -334,7 +334,7 @@ tenet_golden_order = {
 	
 	traits = {
 		virtues = { order_affinity golden_knight }
-		sins = { incantation_crucible frenzy_affinity death_affinity black_flame_affinity spiral_affinity fire_affinity }
+		sins = { incantation_crucible }
 	}
 }
 
@@ -373,7 +373,7 @@ tenet_unalloyed_order = {
 	}
 	
 	traits = {
-		virtues = { order_affinity }
+		virtues = { }
 		sins = {    }
 	}
 }
@@ -413,7 +413,7 @@ tenet_glintstone = { #all things glintstone related, we love magic here
 	}
 	
 	traits = {
-		virtues = { glintstone_affinity gravity_affinity sorcerous_knight }
+		virtues = { sorcerous_knight }
 		sins = {    }
 	}
 }
@@ -493,7 +493,7 @@ tenet_live_in_death = {
 	}
 	
 	traits = {
-		virtues = { death_affinity }
+		virtues = { }
 		sins = {    }
 	}
 }
@@ -526,8 +526,8 @@ tenet_golden_exile = { #for messmer and his band
 	}
 	
 	traits = {
-		virtues = { fire_affinity order_affinity glintstone_affinity }
-		sins = { crucible_affinity spiral_affinity }
+		virtues = {  }
+		sins = {  }
 	}
 }
 
@@ -566,7 +566,7 @@ tenet_st_trinas_blessing = {
 	}
 	
 	traits = {
-		virtues = { sleep_affinity }
+		virtues = { }
 
 	}
 }
@@ -614,7 +614,7 @@ tenet_golden_order_syncretism = {
 	}
 	
 	traits = {
-		virtues = { order_affinity }
+		virtues = { }
 		sins = { }
 	}
 }
@@ -700,7 +700,7 @@ tenet_giants_flame = {
 	}
 	
 	traits = {
-		virtues = { fire_affinity }
+		virtues = { }
 
 	}
 }
@@ -749,7 +749,7 @@ tenet_frenzied_flame = {
 	}
 	
 	traits = {
-		virtues = { frenzy_affinity }
+		virtues = { }
 
 	}
 }
@@ -796,7 +796,7 @@ tenet_rot = {
 	}
 	
 	traits = {
-		virtues = { rot_affinity scarlet_rot scarlet_rot_child scarlet_rot_malenia }
+		virtues = { scarlet_rot scarlet_rot_child scarlet_rot_malenia }
 
 	}
 }
@@ -842,7 +842,7 @@ tenet_serpents = {
 	}
 	
 	traits = {
-		virtues = { manserpent god_serpent fire_affinity cannibal }
+		virtues = { manserpent god_serpent cannibal }
 
 	}
 }

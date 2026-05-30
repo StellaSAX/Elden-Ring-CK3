@@ -92,7 +92,7 @@ gain_spiral_affinity_elden_ring = {
 	decision_group_type = major
 
 	is_shown = {
-		has_trait = crucible_affinity
+		has_trait = erdtree_affinity
 		learning >= 20
 	}
 	
@@ -103,7 +103,7 @@ gain_spiral_affinity_elden_ring = {
 	}
 
 	effect = {
-		remove_trait = crucible_affinity
+		remove_trait = erdtree_affinity
 		add_trait = spiral_affinity
 	}
 

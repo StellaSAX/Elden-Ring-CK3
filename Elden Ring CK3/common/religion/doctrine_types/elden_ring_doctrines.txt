@@ -178,7 +178,9 @@ doctrine_order_affinity_crime = {
 	parameters = {
 		order_affinity_illegal = yes
 	}
-
+	traits = {
+		sins = { order_affinity }
+	}
 }
 doctrine_order_affinity_shunned = {
 	piety_cost = {
@@ -256,7 +258,9 @@ doctrine_erdtree_affinity_crime = {
 	parameters = {
 		erdtree_affinity_illegal = yes
 	}
-
+	traits = {
+		sins = { erdtree_affinity }
+	}
 }
 doctrine_erdtree_affinity_shunned = {
 	piety_cost = {
@@ -334,7 +338,9 @@ doctrine_fire_affinity_crime = {
 	parameters = {
 		fire_affinity_illegal = yes
 	}
-
+	traits = {
+		sins = { fire_affinity }
+	}
 }
 doctrine_fire_affinity_shunned = {
 	piety_cost = {
@@ -408,6 +414,9 @@ doctrine_ice_affinity_crime = {
 			limit = { has_doctrine = doctrine_ice_affinity_virtuous }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
+	}
+	traits = {
+		sins = { ice_affinity }
 	}
 	parameters = {
 		ice_affinity_illegal = yes
@@ -487,6 +496,9 @@ doctrine_glintstone_affinity_crime = {
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
+	traits = {
+		sins = { glintstone_affinity }
+	}
 	parameters = {
 		glintstone_affinity_illegal = yes
 	}
@@ -564,6 +576,9 @@ doctrine_carian_affinity_crime = {
 			limit = { has_doctrine = doctrine_carian_affinity_virtuous }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
+	}
+	traits = {
+		sins = { carian_affinity }
 	}
 	parameters = {
 		carian_affinity_illegal = yes
@@ -643,6 +658,9 @@ doctrine_gravity_affinity_crime = {
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
+	traits = {
+		sins = { gravity_affinity }
+	}
 	parameters = {
 		gravity_affinity_illegal = yes
 	}
@@ -720,6 +738,9 @@ doctrine_magma_affinity_crime = {
 			limit = { has_doctrine = doctrine_magma_affinity_virtuous }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
+	}
+	traits = {
+		sins = { magma_affinity }
 	}
 	parameters = {
 		magma_affinity_illegal = yes
@@ -799,6 +820,9 @@ doctrine_lightning_affinity_crime = {
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
+	traits = {
+		sins = { lightning_affinity }
+	}
 	parameters = {
 		lightning_affinity_illegal = yes
 	}
@@ -876,6 +900,9 @@ doctrine_dragon_affinity_crime = {
 			limit = { has_doctrine = doctrine_dragon_affinity_virtuous }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
+	}
+	traits = {
+		sins = { dragon_affinity }
 	}
 	parameters = {
 		dragon_affinity_illegal = yes
@@ -955,6 +982,9 @@ doctrine_bestial_affinity_crime = {
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
+	traits = {
+		sins = { bestial_affinity }
+	}
 	parameters = {
 		bestial_affinity_illegal = yes
 	}
@@ -1032,6 +1062,9 @@ doctrine_spiral_affinity_crime = {
 			limit = { has_doctrine = doctrine_spiral_affinity_virtuous }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
+	}
+	traits = {
+		sins = { spiral_affinity }
 	}
 	parameters = {
 		spiral_affinity_illegal = yes
@@ -1111,6 +1144,9 @@ doctrine_blood_affinity_crime = {
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
+	traits = {
+		sins = { blood_affinity }
+	}
 	parameters = {
 		blood_affinity_illegal = yes
 	}
@@ -1188,6 +1224,9 @@ doctrine_death_affinity_crime = {
 			limit = { has_doctrine = doctrine_death_affinity_virtuous }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
+	}
+	traits = {
+		sins = { death_affinity }
 	}
 	parameters = {
 		death_affinity_illegal = yes
@@ -1267,6 +1306,9 @@ doctrine_blackflame_affinity_crime = {
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
+	traits = {
+		sins = { blackflame_affinity }
+	}
 	parameters = {
 		blackflame_affinity_illegal = yes
 	}
@@ -1344,6 +1386,9 @@ doctrine_rot_affinity_crime = {
 			limit = { has_doctrine = doctrine_rot_affinity_virtuous }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
+	}
+	traits = {
+		sins = { rot_affinity }
 	}
 	parameters = {
 		rot_affinity_illegal = yes
@@ -1423,6 +1468,9 @@ doctrine_sleep_affinity_crime = {
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
+	traits = {
+		sins = { sleep_affinity }
+	}
 	parameters = {
 		sleep_affinity_illegal = yes
 	}
@@ -1500,6 +1548,9 @@ doctrine_frenzy_affinity_crime = {
 			limit = { has_doctrine = doctrine_frenzy_affinity_virtuous }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
+	}
+	traits = {
+		sins = { frenzy_affinity }
 	}
 	parameters = {
 		frenzy_affinity_illegal = yes

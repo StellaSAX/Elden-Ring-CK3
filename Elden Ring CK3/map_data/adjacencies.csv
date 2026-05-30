@@ -6,4 +6,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2247;1611;river_large;2798;-1;-1;-1;-1;South Crossing in Chapel of Anticipation
 1273;3141;river_large;2798;-1;-1;-1;-1;North Crossing in Chapel of Anticipation
 1037;146;river_large;2958;-1;-1;-1;-1;Grand Lift of Rold
+836;258;sea;2832;-1;-1;-1;-1;Liurnia Bridge to Tower
+2098;1189;sea;3002;-1;-1;-1;-1;Bridge to Beastial Sanctum
 -1;-1;;-1;-1;-1;-1;-1;

@@ -1,0 +1,18 @@
+﻿l_english:
+ magic_teacher_court_position:0 "Magic Teacher"
+ magic_teacher_court_position_desc:0 "The use of spells or incantations require a certain level of training, but just having someone supervising them will help. Children will learn by themselves based on their own proclivities if the teacher isn't given any special reading material."
+ court_magic_teacher_employer_custom_effect_description:0 "Children in court have a higher chance of gaining a magic affinity."
+ court_magic_teacher_teach_culture:0 "Cultural Books"
+ court_magic_teacher_teach_faith:0 "Religious Texts"
+ court_magic_teacher_own:0 "Teacher's Affinity"
+ 
+ court_magic_teacher_teach_culture_desc:0 "The children will read about the magic history of their teacher's culture."
+ court_magic_teacher_teach_faith_desc:0 "The children will learn about the magic revered in their teacher's faith."
+ court_magic_teacher_own_desc:0 "The teacher has an affinity, the children should learn it."
+ 
+ court_magic_teacher_teach_culture_tt:0 "Increase the chance of children gaining an affinity based on the cultural traditions of the teacher."
+ court_magic_teacher_teach_faith_tt:0 "Increase the chance of children gaining an affinity considered a virtue in the faith of the teacher."
+ court_magic_teacher_own_tt:0 "Increase the chance of children gaining the affinity of the teacher."
+ 
+ 
+ 

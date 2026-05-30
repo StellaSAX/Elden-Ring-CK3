@@ -116,7 +116,7 @@ gain_trait_godskin_apostle = {
 	decision_group_type = decisions
 
 	is_shown = {
-		has_trait = black_flame_affinity
+		has_trait = blackflame_affinity
 		NOT = {
 			has_trait = godskin_apostle
 		}
