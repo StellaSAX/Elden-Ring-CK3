@@ -1,5 +1,5 @@
 1.1.1 = {
-	join_era = culture_era_first_millenium_early
+	
 	
 	discover_innovation = innovation_placeholder_1era_early
 }
