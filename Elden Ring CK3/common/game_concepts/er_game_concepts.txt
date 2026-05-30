@@ -12,3 +12,8 @@ sorcerer = {
 	texture = "gfx/interface/icons/regimenttypes/sorcerer.dds"
 	parent = men_at_arms
 }
+
+undead = {
+	texture = "gfx/interface/icons/regimenttypes/undead_skeleton.dds"
+	parent = men_at_arms
+}

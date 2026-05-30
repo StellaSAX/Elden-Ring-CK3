@@ -956,10 +956,15 @@ leyndell_footsoldier = {
 leyndell_soldier = {
 	type = heavy_infantry
 	
-	damage = 15
-	toughness = 10
+	damage = 32
+	toughness = 22
 	pursuit = 0
 	screen = 0
+
+	counters = {
+		pikemen = 1
+		peasant_militia = 2
+	}
 
 	can_recruit = {
 		culture = {
@@ -1411,6 +1416,289 @@ hornsent_curseblade = {
 	}
 	
 	icon = skirmishers
+}
+
+#UNDEAD FACTION
+skeletal_militiaman = {
+	type = undead
+
+	damage = 8
+	toughness = 12
+	pursuit = 6
+	screen = 8
+
+	counters = {
+		peasant_militia = 1
+	}
+
+	can_recruit = {
+		NOR = {
+			government_has_flag = government_is_herder
+		}
+		faith = {
+			has_doctrine = tenet_live_in_death
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { piety = skirmisher_recruitment_cost }
+	low_maintenance_cost = { piety = skirmisher_low_maint_cost }
+	high_maintenance_cost = { piety = skirmisher_high_maint_cost }
+	provision_cost = 0
+
+	holy_order_fallback = yes
+
+	stack = 200
+	ai_quality = { value = culture_ai_weight_skirmishers }
+
+	illustration = {
+		reference = skeletal_militiaman
+	}
+	
+	icon = undead_skeleton
+}
+
+skeletal_crossbowman = {
+	type = undead
+
+	damage = 25
+	toughness = 6
+	pursuit = 0
+	screen = 0
+
+	counters = {
+		skirmishers = 1
+		peasant_militia = 1
+	}
+
+	can_recruit = {
+		NOR = {
+			government_has_flag = government_is_herder
+		}
+		faith = {
+			has_doctrine = tenet_live_in_death
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { piety = bowmen_recruitment_cost }
+	low_maintenance_cost = { piety = bowmen_low_maint_cost }
+	high_maintenance_cost = { piety = bowmen_high_maint_cost }
+	provision_cost = 0
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = {
+		value = culture_ai_weight_archers
+		add = counter_synergy_ai_weight_archers
+	}
+
+	illustration = {
+		reference = skeletal_crossbowman
+	}
+
+	illustration = {
+		reference = undead_skeleton
+	}
+}
+
+grave_warden = {
+	type = undead
+
+	damage = 30
+	toughness = 16
+	pursuit = 10
+	screen = 0
+
+	counters = {
+		pikemen = 1
+		skirmishers = 2
+		peasant_militia = 3
+	}
+
+	can_recruit = {
+		NOR = {
+			government_has_flag = government_is_herder
+		}
+		faith = {
+			has_doctrine = tenet_live_in_death
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { piety = heavy_infantry_recruitment_cost }
+	low_maintenance_cost = { piety = heavy_infantry_low_maint_cost }
+	high_maintenance_cost = { piety = heavy_infantry_high_maint_cost }
+	provision_cost = 0
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = {
+		value = culture_ai_weight_heavy_infantry
+		add = counter_synergy_ai_weight_heavy_infantry
+	}
+
+	illustration = {
+		reference = grave_warden
+	}
+	
+	icon = undead_skeleton
+}
+
+skeletal_bandit = {
+	type = undead
+
+	damage = 40
+	toughness = 14
+	pursuit = 0
+	screen = 0
+
+	counters = {
+		skirmishers = 2
+		heavy_infantry = 1
+		peasant_militia = 2
+	}
+
+	can_recruit = {
+		NOR = {
+			government_has_flag = government_is_herder
+		}
+		faith = {
+			has_doctrine = tenet_live_in_death
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { piety = 140 }
+	low_maintenance_cost = { piety = 0.54 }
+	high_maintenance_cost = { piety = 1.8 }
+	provision_cost = 0
+
+	holy_order_fallback = yes
+
+	stack = 100
+	allowed_in_hired_troops = no
+	ai_quality = {
+		value = culture_ai_weight_heavy_infantry
+		add = counter_synergy_ai_weight_heavy_infantry
+	}
+
+	illustration = {
+		reference = skeletal_bandit
+	}
+	
+	icon = undead_skeleton
+}
+
+skeletal_knight = {
+	type = undead
+
+	damage = 32
+	toughness = 30
+	pursuit = 0
+	screen = 0
+
+	counters = {
+		pikemen = 2
+		skirmishers = 2
+		peasant_militia = 2
+	}
+
+	can_recruit = {
+		NOR = {
+			government_has_flag = government_is_herder
+		}
+		faith = {
+			has_doctrine = tenet_live_in_death
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { piety = 140 }
+	low_maintenance_cost = { piety = 0.54 }
+	high_maintenance_cost = { piety = 1.8 }
+	provision_cost = 0
+
+	holy_order_fallback = yes
+
+	stack = 100
+	allowed_in_hired_troops = no
+	ai_quality = {
+		value = culture_ai_weight_heavy_infantry
+		add = counter_synergy_ai_weight_heavy_infantry
+	}
+
+	illustration = {
+		reference = skeletal_knight
+	}
+	
+	icon = undead_skeleton
+}
+
+giant_skeleton = {
+	type = undead
+
+	damage = 52
+	toughness = 28
+	pursuit = 0
+	screen = 0
+
+	counters = {
+		pikemen = 2
+		skirmishers = 2
+		heavy_infantry = 1
+		peasant_militia = 3
+	}
+
+	can_recruit = {
+		NOR = {
+			government_has_flag = government_is_herder
+		}
+		faith = {
+			has_doctrine = tenet_live_in_death
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { piety = 240 }
+	low_maintenance_cost = { piety = 1.54 }
+	high_maintenance_cost = { piety = 2.8 }
+	provision_cost = 0
+
+	holy_order_fallback = yes
+
+	stack = 50
+	allowed_in_hired_troops = no
+	ai_quality = {
+		value = culture_ai_weight_heavy_infantry
+		add = counter_synergy_ai_weight_heavy_infantry
+	}
+
+	illustration = {
+		reference = giant_skeleton
+	}
+	
+	icon = undead_skeleton
 }
 
 #OTHER
