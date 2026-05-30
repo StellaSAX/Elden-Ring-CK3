@@ -82,6 +82,8 @@
  b_sorrow_pass: "Sorrow's Pass"
  
  c_tear_cliffs: "Tearstone Cliffs"
+ b_orysis_tower: "Orysis's Rise"
+ b_crater_glade: "Crater-Pocked Glade"
  
  c_road_morne: "Road to Morne"
  b_outer_wall_gates: "Gates of Morne"
@@ -92,6 +94,7 @@
  c_east_lookout: "East Lookout"
  b_morne_outer_wall_w: "Harbor's Watch"
  b_morne_outer_wall_towers: "Castle Morne Rampart"
+ b_cliffside_ascent: "Cliffside Ascent"
  
  c_lookout_ascent: "Forest Lookout Ascent"
  

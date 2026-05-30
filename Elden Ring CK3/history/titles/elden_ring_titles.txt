@@ -67,6 +67,12 @@ c_R49G46B16 = {
 		liege = 0
 	}
 }
+d_morne = {
+	8251.1.1 = {
+		holder = edgar
+		liege = k_stormveil
+	}
+}
 c_morne = {
 	8251.1.1 = {
 		liege = k_stormveil
@@ -136,12 +142,6 @@ d_mistwood = {
 	7000.1.1 = {
 		holder = test3
 		liege = 0
-	}
-}
-d_morne = {
-	8251.1.1 = {
-		holder = edgar
-		liege = k_stormveil
 	}
 }
 d_murkwater = {

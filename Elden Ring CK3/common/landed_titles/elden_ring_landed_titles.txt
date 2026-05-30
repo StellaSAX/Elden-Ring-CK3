@@ -7902,7 +7902,7 @@ h_lands_between = {
 				c_tear_cliffs = {
 					color = { 80 49 149 }
 
-					b_R97G1B254 = {
+					b_orysis_tower = {
 						color = { 33 59 210 }
 						province = 642
 					}
@@ -7912,7 +7912,7 @@ h_lands_between = {
 						province = 3121
 					}
 
-					b_R102G51B164 = {
+					b_crater_glade = {
 						color = { 230 0 204 }
 						province = 1896
 					}
@@ -7955,7 +7955,7 @@ h_lands_between = {
 						province = 1429
 					}
 
-					b_R2G51B214 = {
+					b_cliffside_ascent = {
 						color = { 171 33 41 }
 						province = 1528
 					}
