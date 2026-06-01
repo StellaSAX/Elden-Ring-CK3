@@ -173,75 +173,6 @@
 
 ##### d_R79G127B3 ############################
 
-### c_R46G254B67
-# R87G144B217
-1886 = {
-	culture = cul_low_northerner
-	religion = faith_golden
-	holding = castle_holding
-}
-# R164G11B250
-248 = {
-	culture = cul_low_northerner
-	religion = faith_golden
-	holding = castle_holding
-}
-# R191G176B236
-460 = {
-	culture = cul_low_northerner
-	religion = faith_golden
-	holding = none
-}
-
-
-### c_R239G55B205
-# R106G61B242
-1531 = {
-	culture = cul_low_northerner
-	religion = faith_golden
-	holding = castle_holding
-}
-# R42G134B146
-305 = {
-	culture = cul_low_northerner
-	religion = faith_golden
-	holding = none
-}
-# R237G212B161
-1651 = {
-	culture = cul_low_northerner
-	religion = faith_golden
-	holding = none
-}
-
-
-### c_R195G230B23
-# R122G224B154
-89 = {
-	culture = cul_low_northerner
-	religion = faith_golden
-	holding = castle_holding
-}
-# R240G110B149
-470 = {
-	culture = cul_low_northerner
-	religion = faith_golden
-	holding = none
-}
-# R236G99B154
-1140 = {
-	culture = cul_low_northerner
-	religion = faith_golden
-	holding = castle_holding
-}
-# R40G83B8
-1675 = {
-	culture = cul_low_northerner
-	religion = faith_golden
-	holding = none
-}
-
-
 ### c_R168G168B120
 # R112G143B213
 1466 = {
@@ -502,12 +433,6 @@
 ##### d_R157G125B0 ############################
 
 ### c_R105G36B109
-# R21G196B177
-2293 = {
-	culture = cul_low_northerner
-	religion = faith_golden
-	holding = castle_holding
-}
 # R247G178B54
 2174 = {
 	culture = cul_low_northerner
@@ -525,45 +450,6 @@
 	culture = cul_low_northerner
 	religion = faith_golden
 	holding = castle_holding
-}
-
-
-### c_R73G200B132
-# R146G122B204
-1532 = {
-	culture = cul_low_northerner
-	religion = faith_golden
-	holding = castle_holding
-}
-# R53G211B183
-1135 = {
-	culture = cul_low_northerner
-	religion = faith_golden
-	holding = none
-}
-# R214G44B145
-2450 = {
-	culture = cul_low_northerner
-	religion = faith_golden
-	holding = none
-}
-# R134G38B235
-929 = {
-	culture = cul_low_northerner
-	religion = faith_golden
-	holding = none
-}
-# R60G222B148
-823 = {
-	culture = cul_low_northerner
-	religion = faith_golden
-	holding = castle_holding
-}
-# R225G245B224
-2251 = {
-	culture = cul_low_northerner
-	religion = faith_golden
-	holding = none
 }
 
 

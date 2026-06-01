@@ -56,21 +56,6 @@
 
 ##### d_R162G21B65 ############################
 
-### c_R166G231B3
-# R126G35B240
-82 = {
-	culture = cul_northerner
-	religion = faith_golden
-	holding = castle_holding
-}
-# R169G241B7
-1218 = {
-	culture = cul_northerner
-	religion = faith_golden
-	holding = none
-}
-
-
 ### c_R128G172B92
 # R181G39B0
 1834 = {
@@ -122,6 +107,12 @@
 	culture = cul_northerner
 	religion = faith_golden
 	holding = none
+}
+# R126G35B240
+82 = {
+	culture = cul_northerner
+	religion = faith_golden
+	holding = castle_holding
 }
 
 

@@ -7,5 +7,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1273;3141;river_large;2798;-1;-1;-1;-1;North Crossing in Chapel of Anticipation
 1037;146;river_large;2958;-1;-1;-1;-1;Grand Lift of Rold
 836;258;sea;2832;-1;-1;-1;-1;Liurnia Bridge to Tower
-2098;1189;sea;3002;-1;-1;-1;-1;Bridge to Beastial Sanctum
+1859;1211;river_large;2827;-1;-1;-1;-1;Bridge to Beastial Sanctum
+2000;1362;sea;2589;-1;-1;-1;-1;Bridge to Epstein Island
+1974;246;sea;2843;-1;-1;-1;-1;Bridge to Redmane Castle
+1441;1522;sea;2589;-1;-1;-1;-1;Radahn Gate
 -1;-1;;-1;-1;-1;-1;-1;
