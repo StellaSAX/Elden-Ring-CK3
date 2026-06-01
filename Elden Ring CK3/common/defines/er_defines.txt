@@ -2,7 +2,15 @@
 	END_DATE = "9999.1.1"
 }
 
+NSkills = {
+	MAX_PROWESS = 200		# Maximum possible prowess skill points per character
+}
+
 NCharacter = {
+	BASE_FERTILITY = 0.1
+	
+	MALE_ELDERLY_AGE = 60
+	FEMALE_ELDERLY_AGE = 60
 	MALE_ATTRACTION_CUTOFF_AGE = 9999		# After this age, the attraction of traits no longer have any effect
 	FEMALE_ATTRACTION_CUTOFF_AGE = 9999	    # After this age, the attraction of traits no longer have any effect
 }
