@@ -35,6 +35,8 @@
 	doctrine = doctrine_ice_affinity_shunned
 	doctrine = doctrine_glintstone_affinity_shunned
 	doctrine = doctrine_carian_affinity_shunned
+	doctrine = doctrine_night_affinity_shunned
+	doctrine = doctrine_claymen_affinity_shunned
 	doctrine = doctrine_gravity_affinity_shunned
 	doctrine = doctrine_magma_affinity_shunned
 	doctrine = doctrine_lightning_affinity_shunned

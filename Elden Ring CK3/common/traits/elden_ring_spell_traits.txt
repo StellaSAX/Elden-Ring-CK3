@@ -5,17 +5,6 @@
 	diplomacy = 1
 	stewardship = 1
 	health = 1
-	
-	triggered_opinion = {
-		parameter = order_affinity_illegal
-		opinion_modifier = order_affinity_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = order_affinity_shunned
-		opinion_modifier = order_affinity_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
 }
 
 frenzy_affinity = {
@@ -26,17 +15,6 @@ frenzy_affinity = {
 	martial = 1
 	dread_baseline_add = 20
 	general_opinion = -10
-	
-	triggered_opinion = {
-		parameter = frenzy_affinity_illegal
-		opinion_modifier = frenzy_affinity_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = frenzy_affinity_shunned
-		opinion_modifier = frenzy_affinity_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
 }
 
 glintstone_affinity = {
@@ -45,17 +23,6 @@ glintstone_affinity = {
 	same_opinion = 5
 	learning = 2
 	intrigue = 1
-	
-	triggered_opinion = {
-		parameter = glinststone_affinity_illegal
-		opinion_modifier = glinststone_affinity_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = glinststone_affinity_shunned
-		opinion_modifier = glinststone_affinity_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
 }
 
 carian_affinity = {
@@ -63,17 +30,6 @@ carian_affinity = {
 	icon = "affinity_carian.dds"
 	same_opinion = 5
 	learning = 3
-	
-	triggered_opinion = {
-		parameter = carian_affinity_illegal
-		opinion_modifier = carian_affinity_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = carian_affinity_shunned
-		opinion_modifier = carian_affinity_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
 }
 
 rot_affinity = {
@@ -84,17 +40,6 @@ rot_affinity = {
 	intrigue = 1
 	attraction_opinion = -10
 	fertility = 0.10
-	
-	triggered_opinion = {
-		parameter = rot_affinity_illegal
-		opinion_modifier = rot_affinity_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = rot_affinity_shunned
-		opinion_modifier = rot_affinity_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
 }
 
 erdtree_affinity = {
@@ -104,17 +49,6 @@ erdtree_affinity = {
 	martial = 1
 	prowess = 3
 	health = 1
-	
-	triggered_opinion = {
-		parameter = erdtree_affinity_illegal
-		opinion_modifier = erdtree_affinity_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = erdtree_affinity_shunned
-		opinion_modifier = erdtree_affinity_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
 }
 
 fire_affinity = {
@@ -124,17 +58,6 @@ fire_affinity = {
 	negate_health_penalty_add = 1
 	stewardship = 1
 	martial = 1
-	
-	triggered_opinion = {
-		parameter = fire_affinity_illegal
-		opinion_modifier = fire_affinity_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = fire_affinity_shunned
-		opinion_modifier = fire_affinity_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
 }
 
 magma_affinity = {
@@ -142,17 +65,6 @@ magma_affinity = {
 	icon = "affinity_magma.dds"
 	same_opinion = 5
 	martial = 2
-	
-	triggered_opinion = {
-		parameter = magma_affinity_illegal
-		opinion_modifier = magma_affinity_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = magma_affinity_shunned
-		opinion_modifier = magma_affinity_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
 }
 
 ice_affinity = {
@@ -162,17 +74,6 @@ ice_affinity = {
 	learning = 1
 	prowess = 3
 	owned_hostile_scheme_success_chance_add = 5
-	
-	triggered_opinion = {
-		parameter = ice_affinity_illegal
-		opinion_modifier = ice_affinity_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = ice_affinity_shunned
-		opinion_modifier = ice_affinity_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
 }
 
 gravity_affinity = {
@@ -182,17 +83,6 @@ gravity_affinity = {
 	learning = 1
 	attraction_opinion = 5 #this is here for the joke more than anything
 	prowess = 3
-	
-	triggered_opinion = {
-		parameter = gravity_affinity_illegal
-		opinion_modifier = gravity_affinity_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = gravity_affinity_shunned
-		opinion_modifier = gravity_affinity_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
 }
 
 lightning_affinity = {
@@ -202,17 +92,6 @@ lightning_affinity = {
 	diplomacy = 1
 	martial = 1
 	vassal_opinion = 5
-	
-	triggered_opinion = {
-		parameter = lightning_affinity_illegal
-		opinion_modifier = lightning_affinity_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = lightning_affinity_shunned
-		opinion_modifier = lightning_affinity_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
 }
 
 death_affinity = {
@@ -222,17 +101,6 @@ death_affinity = {
 	negate_health_penalty_add = 1
 	dread_baseline_add = 10
 	health = 1
-	
-	triggered_opinion = {
-		parameter = death_affinity_illegal
-		opinion_modifier = death_affinity_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = death_affinity_shunned
-		opinion_modifier = death_affinity_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
 }
 
 blood_affinity = {
@@ -242,17 +110,6 @@ blood_affinity = {
 	martial = 1
 	fertility = 0.1
 	prowess = 3
-	
-	triggered_opinion = {
-		parameter = blood_affinity_illegal
-		opinion_modifier = blood_affinity_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = blood_affinity_shunned
-		opinion_modifier = blood_affinity_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
 }
 
 dragon_affinity = {
@@ -261,17 +118,6 @@ dragon_affinity = {
 	same_opinion = 5
 	prowess = 6
 	dread_baseline_add = 10
-	
-	triggered_opinion = {
-		parameter = dragon_affinity_illegal
-		opinion_modifier = dragon_affinity_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = dragon_affinity_shunned
-		opinion_modifier = dragon_affinity_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
 }
 
 blackflame_affinity = {
@@ -281,17 +127,6 @@ blackflame_affinity = {
 	prowess = 3
 	intrigue = 1
 	learning = 1
-	
-	triggered_opinion = {
-		parameter = blackflame_affinity_illegal
-		opinion_modifier = blackflame_affinity_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = blackflame_affinity_shunned
-		opinion_modifier = blackflame_affinity_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
 }
 
 sleep_affinity = {
@@ -301,17 +136,6 @@ sleep_affinity = {
 	stress_loss_mult = 0.1
 	stress_gain_mult = -0.1
 	diplomacy = 1
-	
-	triggered_opinion = {
-		parameter = sleep_affinity_illegal
-		opinion_modifier = sleep_affinity_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = sleep_affinity_shunned
-		opinion_modifier = sleep_affinity_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
 }
 
 spiral_affinity = {
@@ -321,17 +145,6 @@ spiral_affinity = {
 	learning = 3
 	prowess = 5
 	health = 1
-	
-	triggered_opinion = {
-		parameter = spiral_affinity_illegal
-		opinion_modifier = spiral_affinity_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = spiral_affinity_shunned
-		opinion_modifier = spiral_affinity_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
 }
 
 bestial_affinity = {
@@ -341,17 +154,21 @@ bestial_affinity = {
 	learning = 1
 	prowess = 3
 	martial = 1
-	
-	triggered_opinion = {
-		parameter = bestial_affinity_illegal
-		opinion_modifier = bestial_affinity_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = bestial_affinity_shunned
-		opinion_modifier = bestial_affinity_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
+}
+
+claymen_affinity = {
+	ruler_designer_cost = 25
+	icon = "affinity_claymen.dds"
+	same_opinion = 5
+	learning = 2
+	intrigue = 1
+}
+
+night_affinity = {
+	ruler_designer_cost = 25
+	icon = "affinity_night.dds"
+	same_opinion = 5
+	intrigue = 3
 }
 
 sorcery_glintstone = {
@@ -605,6 +422,17 @@ sorcery_glintstone = {
 			desc = trait_sorcery_glintstone_desc
 		}
 	}
+	
+	triggered_opinion = {
+		parameter = glinststone_affinity_illegal
+		opinion_modifier = glinststone_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = glinststone_affinity_shunned
+		opinion_modifier = glinststone_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 sorcery_carian = {
@@ -631,6 +459,17 @@ sorcery_carian = {
 		100 = {
 			prowess = 1
 		}
+	}
+	
+	triggered_opinion = {
+		parameter = carian_affinity_illegal
+		opinion_modifier = carian_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = carian_affinity_shunned
+		opinion_modifier = carian_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
 	}
 }
 
@@ -659,6 +498,17 @@ sorcery_bloodthorn = {
 			prowess = 1
 		}
 	}
+	
+	triggered_opinion = {
+		parameter = blood_affinity_illegal
+		opinion_modifier = blood_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = blood_affinity_shunned
+		opinion_modifier = blood_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 sorcery_claymen = {
@@ -685,6 +535,17 @@ sorcery_claymen = {
 		100 = {
 			prowess = 1
 		}
+	}
+	
+	triggered_opinion = {
+		parameter = claymen_affinity_illegal
+		opinion_modifier = claymen_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = claymen_affinity_shunned
+		opinion_modifier = claymen_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
 	}
 }
 
@@ -713,6 +574,17 @@ sorcery_crystalian = {
 			prowess = 1
 		}
 	}
+	
+	triggered_opinion = {
+		parameter = carian_affinity_illegal
+		opinion_modifier = carian_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = carian_affinity_shunned
+		opinion_modifier = carian_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 sorcery_death = {
@@ -739,6 +611,17 @@ sorcery_death = {
 		100 = {
 			prowess = 1
 		}
+	}
+	
+	triggered_opinion = {
+		parameter = death_affinity_illegal
+		opinion_modifier = death_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = death_affinity_shunned
+		opinion_modifier = death_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
 	}
 }
 
@@ -767,6 +650,17 @@ sorcery_finger = {
 			prowess = 1
 		}
 	}
+	
+	triggered_opinion = {
+		parameter = order_affinity_illegal
+		opinion_modifier = order_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = order_affinity_shunned
+		opinion_modifier = order_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 sorcery_gelmir = {
@@ -793,6 +687,17 @@ sorcery_gelmir = {
 		100 = {
 			prowess = 1
 		}
+	}
+	
+	triggered_opinion = {
+		parameter = magma_affinity_illegal
+		opinion_modifier = magma_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = magma_affinity_shunned
+		opinion_modifier = magma_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
 	}
 }
 
@@ -821,6 +726,17 @@ sorcery_gravity = {
 			prowess = 1
 		}
 	}
+	
+	triggered_opinion = {
+		parameter = gravity_affinity_illegal
+		opinion_modifier = gravity_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = gravity_affinity_shunned
+		opinion_modifier = gravity_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 sorcery_ice = {
@@ -847,6 +763,17 @@ sorcery_ice = {
 		100 = {
 			prowess = 1
 		}
+	}
+	
+	triggered_opinion = {
+		parameter = ice_affinity_illegal
+		opinion_modifier = ice_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = ice_affinity_shunned
+		opinion_modifier = ice_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
 	}
 }
 
@@ -875,6 +802,17 @@ sorcery_impenetrable_thorn = {
 			prowess = 1
 		}
 	}
+	
+	triggered_opinion = {
+		parameter = order_affinity_illegal
+		opinion_modifier = order_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = order_affinity_shunned
+		opinion_modifier = order_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 sorcery_night = {
@@ -901,6 +839,17 @@ sorcery_night = {
 		100 = {
 			prowess = 1
 		}
+	}
+	
+	triggered_opinion = {
+		parameter = night_affinity_illegal
+		opinion_modifier = night_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = night_affinity_shunned
+		opinion_modifier = night_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
 	}
 }
 
@@ -929,6 +878,17 @@ incantation_bestial = {
 			prowess = 1
 		}
 	}
+	
+	triggered_opinion = {
+		parameter = bestial_affinity_illegal
+		opinion_modifier = bestial_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = bestial_affinity_shunned
+		opinion_modifier = bestial_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 incantation_blackflame = {
@@ -955,6 +915,17 @@ incantation_blackflame = {
 		100 = {
 			prowess = 1
 		}
+	}
+	
+	triggered_opinion = {
+		parameter = blackflame_affinity_illegal
+		opinion_modifier = blackflame_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = blackflame_affinity_shunned
+		opinion_modifier = blackflame_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
 	}
 }
 
@@ -983,6 +954,17 @@ incantation_blood = {
 			prowess = 1
 		}
 	}
+	
+	triggered_opinion = {
+		parameter = blood_affinity_illegal
+		opinion_modifier = blood_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = blood_affinity_shunned
+		opinion_modifier = blood_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 incantation_crucible = {
@@ -1010,6 +992,17 @@ incantation_crucible = {
 			prowess = 1
 		}
 	}
+	
+	triggered_opinion = {
+		parameter = erdtree_affinity_illegal
+		opinion_modifier = erdtree_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = erdtree_affinity_shunned
+		opinion_modifier = erdtree_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 incantation_divine_beast = {
@@ -1036,6 +1029,17 @@ incantation_divine_beast = {
 		100 = {
 			prowess = 1
 		}
+	}
+	
+	triggered_opinion = {
+		parameter = spiral_affinity_illegal
+		opinion_modifier = spiral_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = spiral_affinity_shunned
+		opinion_modifier = spiral_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
 	}
 }
 
@@ -1091,6 +1095,17 @@ incantation_dragon_cult = {
 			prowess = 1
 		}
 	}
+	
+	triggered_opinion = {
+		parameter = dragon_affinity_illegal
+		opinion_modifier = dragon_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = dragon_affinity_shunned
+		opinion_modifier = dragon_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 incantation_erdtree = {
@@ -1117,6 +1132,17 @@ incantation_erdtree = {
 		100 = {
 			prowess = 1
 		}
+	}
+	
+	triggered_opinion = {
+		parameter = erdtree_affinity_illegal
+		opinion_modifier = erdtree_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = erdtree_affinity_shunned
+		opinion_modifier = erdtree_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
 	}
 }
 
@@ -1145,6 +1171,17 @@ incantation_flame = {
 			prowess = 1
 		}
 	}
+	
+	triggered_opinion = {
+		parameter = fire_affinity_illegal
+		opinion_modifier = fire_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = fire_affinity_shunned
+		opinion_modifier = fire_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 incantation_frenzy = {
@@ -1171,6 +1208,17 @@ incantation_frenzy = {
 		100 = {
 			prowess = 1
 		}
+	}
+	
+	triggered_opinion = {
+		parameter = frenzy_affinity_illegal
+		opinion_modifier = frenzy_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = frenzy_affinity_shunned
+		opinion_modifier = frenzy_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
 	}
 }
 
@@ -1199,6 +1247,17 @@ incantation_lightning = {
 			prowess = 1
 		}
 	}
+	
+	triggered_opinion = {
+		parameter = lightning_affinity_illegal
+		opinion_modifier = lightning_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = lightning_affinity_shunned
+		opinion_modifier = lightning_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 incantation_messmers_flame = {
@@ -1225,6 +1284,17 @@ incantation_messmers_flame = {
 		100 = {
 			prowess = 1
 		}
+	}
+	
+	triggered_opinion = {
+		parameter = fire_affinity_illegal
+		opinion_modifier = fire_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = fire_affinity_shunned
+		opinion_modifier = fire_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
 	}
 }
 
@@ -1254,6 +1324,17 @@ incantation_miquella = {
 			prowess = 1
 		}
 	}
+	
+	triggered_opinion = {
+		parameter = erdtree_affinity_illegal
+		opinion_modifier = erdtree_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = erdtree_affinity_shunned
+		opinion_modifier = erdtree_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 incantation_order = {
@@ -1280,6 +1361,17 @@ incantation_order = {
 		100 = {
 			prowess = 1
 		}
+	}
+	
+	triggered_opinion = {
+		parameter = order_affinity_illegal
+		opinion_modifier = order_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = order_affinity_shunned
+		opinion_modifier = order_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
 	}
 }
 
@@ -1308,6 +1400,17 @@ incantation_rot = {
 			prowess = 1
 		}
 	}
+	
+	triggered_opinion = {
+		parameter = rot_affinity_illegal
+		opinion_modifier = rot_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = rot_affinity_shunned
+		opinion_modifier = rot_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 incantation_spiral = {
@@ -1335,6 +1438,17 @@ incantation_spiral = {
 			prowess = 1
 		}
 	}
+	
+	triggered_opinion = {
+		parameter = spiral_affinity_illegal
+		opinion_modifier = spiral_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = spiral_affinity_shunned
+		opinion_modifier = spiral_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
 }
 
 incantation_two_fingers = {
@@ -1361,5 +1475,16 @@ incantation_two_fingers = {
 		100 = {
 			prowess = 1
 		}
+	}
+	
+	triggered_opinion = {
+		parameter = order_affinity_illegal
+		opinion_modifier = order_affinity_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = order_affinity_shunned
+		opinion_modifier = order_affinity_intolerant
+		ignore_opinion_value_if_same_trait = yes
 	}
 }

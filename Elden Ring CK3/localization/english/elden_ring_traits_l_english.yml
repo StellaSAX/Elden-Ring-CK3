@@ -172,6 +172,8 @@
  trait_spiral_affinity:0 "Spiral Affinity"
  trait_magma_affinity:0 "Magma Affinity"
  trait_carian_affinity:0 "Carian Affinity"
+ trait_claymen_affinity:0 "Claymen Affinity"
+ trait_night_affinity:0 "Night Affinity"
 
  trait_order_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for Order, an strict ideology that doesn't allow imperfections or threats to it, but most things can be conjoined, as long as they become subservient."
  trait_frenzy_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity with the Frezied Flame, an origin of Madness and Chaos, and they are willing to Incinerate all that divides and distinguishes. May chaos take the world!"
@@ -191,6 +193,8 @@
  trait_spiral_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for the Crucible that is more controled, and centered on reaching the divine power of the gods."
  trait_magma_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for the Magma sorceries of Gelmir."
  trait_carian_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for the traditional sorceries of the Carian family."
+ trait_claymen_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for the arts of the Ancient Dynasty."
+ trait_night_affinity_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has an Affinity for arts of the Eternal Cities."
 
  trait_grafting:0 "Grafter"
  trait_grafting_2:0 "Intermediate Grafter"

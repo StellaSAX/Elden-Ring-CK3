@@ -160,3 +160,19 @@ bestial_affinity_crime = {
 bestial_affinity_intolerant = {
 	opinion = -10
 }
+
+claymen_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+claymen_affinity_intolerant = {
+	opinion = -10
+}
+
+night_affinity_crime = {
+	opinion = -20
+	imprisonment_reason = yes
+}
+night_affinity_intolerant = {
+	opinion = -10
+}

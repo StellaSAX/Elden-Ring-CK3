@@ -88,6 +88,28 @@ doctrine_carian_affinity = {
 	}
 }
 
+doctrine_night_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_night_affinity_crime
+		doctrine_night_affinity_shunned
+		doctrine_night_affinity_accepted
+		doctrine_night_affinity_virtuous
+	}
+}
+
+doctrine_claymen_affinity = {
+	category = "schools"
+
+	doctrine_types = {
+		doctrine_claymen_affinity_crime
+		doctrine_claymen_affinity_shunned
+		doctrine_claymen_affinity_accepted
+		doctrine_claymen_affinity_virtuous
+	}
+}
+
 doctrine_gravity_affinity = {
 	category = "schools"
 

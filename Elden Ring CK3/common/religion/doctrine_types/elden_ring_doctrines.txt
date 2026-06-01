@@ -641,6 +641,168 @@ doctrine_carian_affinity_virtuous = {
 	}
 }
 
+###NIGHT AFFINITY DOCTRINE###
+doctrine_night_affinity_crime = {
+	piety_cost = {
+		value = faith_doctrine_cost_low
+		if = {
+			limit = { has_doctrine = doctrine_night_affinity_crime }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_night_affinity_accepted }
+			multiply = faith_changed_doctrine_cost_mult_two_step
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_night_affinity_virtuous }
+			multiply = faith_changed_doctrine_cost_mult_three_step
+		}
+	}
+	traits = {
+		sins = { night_affinity }
+	}
+	parameters = {
+		night_affinity_illegal = yes
+	}
+
+}
+doctrine_night_affinity_shunned = {
+	piety_cost = {
+		value = faith_doctrine_cost_low
+		if = {
+			limit = { has_doctrine = doctrine_night_affinity_shunned }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_night_affinity_virtuous }
+			multiply = faith_changed_doctrine_cost_mult_two_step
+		}
+	}
+	parameters = {
+		night_affinity_shunned = yes
+	}
+}
+doctrine_night_affinity_accepted = {
+	piety_cost = {
+		value = faith_doctrine_cost_low
+		if = {
+			limit = { has_doctrine = doctrine_night_affinity_accepted }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_night_affinity_crime }
+			multiply = faith_changed_doctrine_cost_mult_two_step
+		}
+	}
+	parameters = {
+		night_affinity_accepted = yes
+	}
+}
+doctrine_night_affinity_virtuous = {
+	piety_cost = {
+		value = faith_tenet_cost_massive
+		if = {
+			limit = { has_doctrine = doctrine_night_affinity_virtuous }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_night_affinity_shunned }
+			multiply = faith_changed_doctrine_cost_mult_two_step
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_night_affinity_crime }
+			multiply = faith_changed_doctrine_cost_mult_three_step
+		}
+	}
+	traits = {
+		virtues = { night_affinity }
+	}
+	parameters = {
+		night_affinity_accepted = yes
+	}
+}
+
+###CLAYMEN AFFINITY DOCTRINE###
+doctrine_claymen_affinity_crime = {
+	piety_cost = {
+		value = faith_doctrine_cost_low
+		if = {
+			limit = { has_doctrine = doctrine_claymen_affinity_crime }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_claymen_affinity_accepted }
+			multiply = faith_changed_doctrine_cost_mult_two_step
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_claymen_affinity_virtuous }
+			multiply = faith_changed_doctrine_cost_mult_three_step
+		}
+	}
+	traits = {
+		sins = { claymen_affinity }
+	}
+	parameters = {
+		claymen_affinity_illegal = yes
+	}
+
+}
+doctrine_claymen_affinity_shunned = {
+	piety_cost = {
+		value = faith_doctrine_cost_low
+		if = {
+			limit = { has_doctrine = doctrine_claymen_affinity_shunned }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_claymen_affinity_virtuous }
+			multiply = faith_changed_doctrine_cost_mult_two_step
+		}
+	}
+	parameters = {
+		claymen_affinity_shunned = yes
+	}
+}
+doctrine_claymen_affinity_accepted = {
+	piety_cost = {
+		value = faith_doctrine_cost_low
+		if = {
+			limit = { has_doctrine = doctrine_claymen_affinity_accepted }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_claymen_affinity_crime }
+			multiply = faith_changed_doctrine_cost_mult_two_step
+		}
+	}
+	parameters = {
+		claymen_affinity_accepted = yes
+	}
+}
+doctrine_claymen_affinity_virtuous = {
+	piety_cost = {
+		value = faith_tenet_cost_massive
+		if = {
+			limit = { has_doctrine = doctrine_claymen_affinity_virtuous }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_claymen_affinity_shunned }
+			multiply = faith_changed_doctrine_cost_mult_two_step
+		}
+		else_if = {
+			limit = { has_doctrine = doctrine_claymen_affinity_crime }
+			multiply = faith_changed_doctrine_cost_mult_three_step
+		}
+	}
+	traits = {
+		virtues = { claymen_affinity }
+	}
+	parameters = {
+		claymen_affinity_accepted = yes
+	}
+}
+
 ###GRAVITY AFFINITY DOCTRINE###
 doctrine_gravity_affinity_crime = {
 	piety_cost = {
