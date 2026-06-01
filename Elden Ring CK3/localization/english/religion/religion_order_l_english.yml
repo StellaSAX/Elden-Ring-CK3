@@ -92,8 +92,8 @@
 
  faith_unalloyed:0 "Unalloyed Gold"
  faith_unalloyed_adj:0 "Unalloyed Gold"
- faith_unalloyed_adherent:0 "Unsullied Follower of Unalloyed Gold"
- faith_unalloyed_adherent_plural:0 "Unsullied Followers of Unalloyed Gold" 
+ faith_unalloyed_adherent:0 "Follower of Unalloyed Gold"
+ faith_unalloyed_adherent_plural:0 "Followers of Unalloyed Gold" 
  faith_unalloyed_house_of_worship:0 "Haligchapel"
  faith_unalloyed_house_of_worship_plural:0 "Haligchapel"
  faith_unalloyed_high_god_name_2:0 "Unalloyed Miquella"

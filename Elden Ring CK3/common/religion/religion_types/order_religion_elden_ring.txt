@@ -322,7 +322,26 @@
 			doctrine = tenet_rite
 			doctrine = tenet_unalloyed_order
 			doctrine = tenet_pacifism
-			doctrine = tenet_pastoral_isolation	
+			doctrine = tenet_pastoral_isolation
+			
+			doctrine = doctrine_order_affinity_accepted
+			doctrine = doctrine_erdtree_affinity_accepted
+			doctrine = doctrine_fire_affinity_shunned
+			doctrine = doctrine_ice_affinity_accepted
+			doctrine = doctrine_glintstone_affinity_accepted
+			doctrine = doctrine_carian_affinity_accepted
+			doctrine = doctrine_gravity_affinity_accepted
+			doctrine = doctrine_magma_affinity_shunned
+			doctrine = doctrine_lightning_affinity_accepted
+			doctrine = doctrine_dragon_affinity_shunned
+			doctrine = doctrine_bestial_affinity_accepted
+			doctrine = doctrine_spiral_affinity_accepted
+			doctrine = doctrine_blood_affinity_shunned
+			doctrine = doctrine_death_affinity_shunned
+			doctrine = doctrine_blackflame_affinity_shunned
+			doctrine = doctrine_rot_affinity_shunned
+			doctrine = doctrine_sleep_affinity_accepted
+			doctrine = doctrine_frenzy_affinity_crime
 
 			localization = {
 				HighGodName = faith_unalloyed_high_god_name_2
