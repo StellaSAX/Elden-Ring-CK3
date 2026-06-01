@@ -1,0 +1,66 @@
+name_list_liurnia = {
+
+	dynasty_names = {
+		# Dunno
+	}
+
+	male_names = {
+		10 = { # common
+			Aroned Arrant
+			Bas Belvovan Bendan Beran Berin Betor Blailus Bleinoran Bren Breulin Bravarrans Branderis
+			Calacheu Camaison Camas Carleins Caunt Ceinodvis Cheu Ciamon Crawain Colain Colis Cos Crinomas
+			Dandrant Darres Disiancan Durberion
+			Egwres Elohes Ernes Ertor Etor Ender
+			Felvan Fes Flon Flonnan Frin
+			Gadelz Garedes Gatostanans Gedor Gher Ginodan Gisteronedrant Gloier
+			Grilant Grillus Grosten Guerin Gwadin Gwalkmy Gwed Galas
+			Harenan Hencard Henal Hesenon Holonenon Hoelin Heglanognant 
+			Idradion Innias Irion Irwalant Isaretrus Indram
+			Kangan
+			Larolon Llygramor Lodadis Lyladan Lyrgarnes Lance
+			Maittus Malain Malen Mallant Man Manes Maranant Marilan Marlyr Mason Maursel Mandrain Melibin Mencard Meres Merucus Moncian Morbes Morter Marius Mescudius
+			Nabrian Nestus Never
+			Palierrant Panans Pangosen Paries Pelenon Peran Perans Pharvan Phases
+			Rielkmour Roncodedan
+			Sadius Sares Segan Senant Sentres Serans Sercus Sondan Sanius
+			Taurtun Talwin
+			Uwinan
+			Velian
+			Yvaines
+		}
+	}
+
+	female_names = {
+		10 = { # common
+			Aellide Agone Agwasade Amude Anains Andranis Arains Argise Arrelene Automne
+			Baelasilla Bagenone Banglance Bergiane Blecarganis Blerephes Brindamare
+			Callogrise Caniane Cembrance Coelirene Colide Coloris Crinsel
+			Defle Durance
+			Ectare Elade Entris Evile Elaine
+			Galolie Gemidis Ginyes Grigrina Grodwene Guissel Gwyllore
+			Helene
+			Illa
+			Kaidanenna Kesieda
+			Lallin Langines Lonieda
+			Mabelan Magiagrant Margan Marvelet Megraine Merena Mogain Molliane Marcia Myva
+			Neline Nengene Nargis
+			Ola Olwide Oraise Ozedis Ozenna
+			Parrinan Perse Pertiana
+			Rhianstias Riesin
+			Tina
+			Ulferiet
+			Vanarese Vevain
+			Ynwlinan
+		}
+	}
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+}

@@ -1,0 +1,86 @@
+name_list_limgrave = {
+
+	dynasty_names = {
+		"dynn_Stormshore" "dynn_Mistwood" "dynn_Mistmere" "dynn_Murkwater" "dynn_Tombsward"
+		"dynn_Coastward" "dynn_Gatefront" "dynn_Wrenmark" "dynn_Eadwulf" "dynn_Aelfric"
+		"dynn_Wulfric" "dynn_Cynewald" "dynn_Hrothward" "dynn_Beorhthelm" "dynn_Halfrey"
+		"dynn_Osric" "dynn_Hadric" "dynn_Wynstead" "dynn_Erlwick" "dynn_Goldwick"
+		"dynn_Goldmark" "dynn_Goldhart" "dynn_Greyveil" "dynn_Greymark" "dynn_Greaveston"
+		"dynn_Hoarshield" "dynn_Hollomere" "dynn_Hawkmoor" "dynn_Crowhold" "dynn_Ravenhelm"
+		"dynn_Saintsford" "dynn_Saintsway" "dynn_Brackmoor" "dynn_Reedmere" "dynn_Pikeford"
+		"dynn_Larchmere" "dynn_Pinerose" "dynn_Yewmere" "dynn_Foldgate" "dynn_Roundbridge"
+		"dynn_Tarnsworth" "dynn_Wickenhall" "dynn_Helmsford" "dynn_Stoneheart" "dynn_Erdhold"
+		"dynn_Erdgard" "dynn_Mournstead" "dynn_Ashvale" "dynn_Wraithwood" "dynn_Belrothen"
+		"dynn_Caelvarn" "dynn_Westmere" "dynn_Vaelford" "dynn_Hewmark" "dynn_Olfrest"
+		"dynn_Drosshelm" "dynn_Garthrow" "dynn_Kellenburg" "dynn_Bellbarrow" "dynn_Boresward"
+		"dynn_Coltvale" "dynn_Greenmark" "dynn_Aethelweard" "dynn_Aelfsige" "dynn_Aescferth"
+		"dynn_Beornoth" "dynn_Brihtwald" "dynn_Cenred" "dynn_Eadberht" "dynn_Forthhere"
+		"dynn_Heahmund" "dynn_Mearcred" "dynn_Ordmaer" "dynn_Saewine" "dynn_Tilberht"
+		"dynn_Wihtgar" "dynn_Wuffa" "dynn_Beaumont" "dynn_Bellecourt" "dynn_Courcy"
+		"dynn_Ferrand" "dynn_Lacy" "dynn_Mortemer" "dynn_Neville" "dynn_Percy" "dynn_Verdon"
+	}
+
+	male_names = {
+		10 = { # common
+			Aethelred Aethelstan Aethelwulf Aelfgar Aelfheah Aelfweard Aimery Albrec Aelfwic Aldwyn Anselm Aubrey Aldric Aelfric
+			Baldwin Bartred Beorhtric Beornwulf Berthold Bertrand Bernhard
+			Caelwyn Ceolwulf Cuthbert Cuthred Cuthwine Cynewulf
+			Diallos Drogo Drystan Daniel
+			Eadred Ecgfrith Edgar Edwin Egbert Elred Eustace Edmund Edric
+			Frewyn Frithwald Fulk
+			Garwic Geoffrey Gerard Gilbert
+			Halric Hardwin Harold Hereric Hugues Hereward
+			Iorwerth
+			Justen
+			Kenelm Kenneth
+			Lambert Leofric Leofwine Lothar
+			Maeric Maurice Merryck Miles Morgar
+			Nialden Norwic
+			Osric Oswald Oswine Owain
+			Patrik Percival
+			Quentyn
+			Raedwald Ralph Reginald Renault Ricmund Robart Rodric Rogier Roland Roderick
+			Selwyn Sigeberht Sigeward Stenward
+			Theobald Theodric Thops Thorwald Tasawi
+			Uthred Ulfar
+			Vargen Varré Vortimer
+			Waldric Warin Wigberht Wigstan Wulfgar Wulfhere Wulfnoth Wynstan Wulfstan
+		}
+	}
+
+	female_names = {
+		10 = { # common
+			Adela Adeline Aelinor Aelfwynn Aelfflaed Aelfgifu Aelfwaru Aelswith Aethelflaed Anwen Aveline
+			Beatrice Brionwyn
+			Carwyn Cecily Celwen Clarissa Constance Cynethryth
+			Eadhild Edith Elaine Eleanor Elsbeth Emeline Hilde Erika
+			Florence Freyna
+			Gisela Gwendolyn
+			Hawise Hilda Hildegyth Hyetta
+			Idony Imogen Isabel Isolde
+			Joscelin Juliana
+			Karin
+			Leofgyth Liadan Loretta
+			Mabel Maerwyn Margery Mariel Mathilda Melisande Mildred Miriel Morgayne
+			Nimue
+			Oriel
+			Petronel
+			Roderika Rosamund
+			Saerith Sibyl Sigrith Sigrun
+			Thora
+			Veralain
+			Wulfwyn Wynflaed
+			Ysolda
+		}
+	}
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+}
