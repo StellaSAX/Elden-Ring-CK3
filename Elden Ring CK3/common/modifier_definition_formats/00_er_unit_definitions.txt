@@ -1,0 +1,537 @@
+﻿knight_infantry_max_size_add = {
+	decimals = 0
+}
+
+knight_infantry_max_size_mult = {
+	decimals = 0
+	percent = yes
+}
+
+knight_infantry_siege_value_add = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 1
+}
+
+knight_infantry_siege_value_mult = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+knight_infantry_damage_add = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+}
+
+knight_infantry_damage_mult = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+knight_infantry_toughness_add = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+}
+
+knight_infantry_toughness_mult = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+knight_infantry_pursuit_add = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+}
+
+knight_infantry_pursuit_mult = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+knight_infantry_screen_add = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+}
+
+knight_infantry_screen_mult = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+knight_infantry_maintenance_mult = {
+	decimals = 2
+	prefix = MOD_GOLD_PREFIX
+	color = bad
+	percent = yes
+}
+
+knight_infantry_recruitment_cost_mult = {
+	decimals = 2
+	prefix = MOD_GOLD_PREFIX
+	color = bad
+	percent = yes
+}
+
+stationed_knight_infantry_damage_add = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+}
+
+stationed_knight_infantry_damage_mult = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_knight_infantry_toughness_add = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+}
+
+stationed_knight_infantry_toughness_mult = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_knight_infantry_pursuit_add = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+}
+
+stationed_knight_infantry_pursuit_mult = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_knight_infantry_screen_add = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+}
+
+stationed_knight_infantry_screen_mult = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_knight_infantry_siege_value_add = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 1
+}
+
+stationed_knight_infantry_siege_value_mult = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+#########################################
+
+troll_max_size_add = {
+	decimals = 0
+}
+
+troll_max_size_mult = {
+	decimals = 0
+	percent = yes
+}
+
+troll_siege_value_add = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 1
+}
+
+troll_siege_value_mult = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+troll_damage_add = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+}
+
+troll_damage_mult = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+troll_toughness_add = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+}
+
+troll_toughness_mult = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+troll_pursuit_add = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+}
+
+troll_pursuit_mult = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+troll_screen_add = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+}
+
+troll_screen_mult = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+troll_maintenance_mult = {
+	decimals = 2
+	prefix = MOD_GOLD_PREFIX
+	color = bad
+	percent = yes
+}
+
+troll_recruitment_cost_mult = {
+	decimals = 2
+	prefix = MOD_GOLD_PREFIX
+	color = bad
+	percent = yes
+}
+
+stationed_troll_damage_add = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+}
+
+stationed_troll_damage_mult = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_troll_toughness_add = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+}
+
+stationed_troll_toughness_mult = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_troll_pursuit_add = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+}
+
+stationed_troll_pursuit_mult = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_troll_screen_add = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+}
+
+stationed_troll_screen_mult = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_troll_siege_value_add = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 1
+}
+
+stationed_troll_siege_value_mult = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+#########################################
+
+sorcerer_max_size_add = {
+	decimals = 0
+}
+
+sorcerer_max_size_mult = {
+	decimals = 0
+	percent = yes
+}
+
+sorcerer_siege_value_add = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 1
+}
+
+sorcerer_siege_value_mult = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+sorcerer_damage_add = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+}
+
+sorcerer_damage_mult = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+sorcerer_toughness_add = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+}
+
+sorcerer_toughness_mult = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+sorcerer_pursuit_add = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+}
+
+sorcerer_pursuit_mult = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+sorcerer_screen_add = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+}
+
+sorcerer_screen_mult = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+sorcerer_maintenance_mult = {
+	decimals = 2
+	prefix = MOD_GOLD_PREFIX
+	color = bad
+	percent = yes
+}
+
+sorcerer_recruitment_cost_mult = {
+	decimals = 2
+	prefix = MOD_GOLD_PREFIX
+	color = bad
+	percent = yes
+}
+
+stationed_sorcerer_damage_add = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+}
+
+stationed_sorcerer_damage_mult = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_sorcerer_toughness_add = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+}
+
+stationed_sorcerer_toughness_mult = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_sorcerer_pursuit_add = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+}
+
+stationed_sorcerer_pursuit_mult = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_sorcerer_screen_add = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+}
+
+stationed_sorcerer_screen_mult = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_sorcerer_siege_value_add = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 1
+}
+
+stationed_sorcerer_siege_value_mult = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+#########################################
+
+undead_max_size_add = {
+	decimals = 0
+}
+
+undead_max_size_mult = {
+	decimals = 0
+	percent = yes
+}
+
+undead_siege_value_add = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 1
+}
+
+undead_siege_value_mult = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+undead_damage_add = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+}
+
+undead_damage_mult = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+undead_toughness_add = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+}
+
+undead_toughness_mult = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+undead_pursuit_add = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+}
+
+undead_pursuit_mult = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+undead_screen_add = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+}
+
+undead_screen_mult = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+undead_maintenance_mult = {
+	decimals = 2
+	prefix = MOD_GOLD_PREFIX
+	color = bad
+	percent = yes
+}
+
+undead_recruitment_cost_mult = {
+	decimals = 2
+	prefix = MOD_GOLD_PREFIX
+	color = bad
+	percent = yes
+}
+
+stationed_undead_damage_add = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+}
+
+stationed_undead_damage_mult = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_undead_toughness_add = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+}
+
+stationed_undead_toughness_mult = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_undead_pursuit_add = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+}
+
+stationed_undead_pursuit_mult = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_undead_screen_add = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+}
+
+stationed_undead_screen_mult = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_undead_siege_value_add = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 1
+}
+
+stationed_undead_siege_value_mult = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 0
+	percent = yes
+}
