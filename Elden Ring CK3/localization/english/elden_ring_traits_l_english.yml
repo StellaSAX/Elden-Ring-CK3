@@ -287,7 +287,7 @@
  trait_sorcery_crystalian:0 "Crystalian Sorcerer"
  trait_sorcery_crystalian_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Crystalian Sorcerer."
  
- trait_sorcery_death:0 "Death Sorcerer"
+ trait_sorcery_death:0 "Death [Select_CString(ROOT.Char.IsFemale,'Sorceress','Sorcerer')]"
  trait_sorcery_death_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Death Sorcerer."
  
  trait_sorcery_finger:0 "Finger Sorcerer"

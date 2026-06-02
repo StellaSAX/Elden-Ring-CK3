@@ -1,0 +1,108 @@
+﻿# Poison Swamp
+bog_poison_attrition_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+}
+
+bog_poison_cancel_negative_supply = {
+	decimals = 0
+}
+
+bog_poison_advantage = {
+	prefix = MOD_ADVANTAGE_PREFIX
+	decimals = 0
+}
+
+bog_poison_min_combat_roll = {
+	decimals = 0
+}
+
+bog_poison_max_combat_roll = {
+	decimals = 0
+}
+
+bog_poison_development_growth = {
+	decimals = 1
+}
+
+bog_poison_development_growth_factor = {
+	decimals = 0
+	percent = yes
+}
+
+bog_poison_construction_gold_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_GOLD_PREFIX
+	percent = yes
+}
+
+bog_poison_holding_construction_gold_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_GOLD_PREFIX
+	percent = yes
+}
+
+bog_poison_construction_piety_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PIETY_PREFIX
+	percent = yes
+}
+
+bog_poison_holding_construction_piety_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PIETY_PREFIX
+	percent = yes
+}
+
+bog_poison_construction_prestige_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PRESTIGE_PREFIX
+	percent = yes
+}
+
+bog_poison_holding_construction_prestige_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PRESTIGE_PREFIX
+	percent = yes
+}
+
+bog_poison_supply_limit = {
+	decimals = 0
+}
+
+bog_poison_supply_limit_mult = {
+	decimals = 0
+	percent = yes
+}
+
+bog_poison_tax_mult = {
+	decimals = 0
+	prefix = MOD_GOLD_PREFIX
+	percent = yes
+}
+
+bog_poison_levy_size = {
+	decimals = 0
+	prefix = MOD_SOLDIER_PREFIX
+	percent = yes
+}
+
+bog_poison_provisions_use_mult = {
+	decimals = 0
+	prefix = MOD_PROVISIONS_PREFIX
+	color = bad
+	percent = yes
+}
+
+bog_poison_barter_goods_mult = {
+	decimals = 0
+	prefix = MOD_MONTHLY_BARTER_GOODS_PREFIX
+	percent = yes
+}
