@@ -2,173 +2,140 @@
 	ruler_designer_cost = 25
 	icon = affinity_order.dds
 	same_opinion = 5
-	diplomacy = 1
-	stewardship = 1
-	health = 1
+	negate_health_penalty_add = 0.1
 }
 
 frenzy_affinity = {
 	ruler_designer_cost = 25
 	icon = affinity_frenzy.dds
 	same_opinion = 5
-	prowess = 3
-	martial = 1
-	dread_baseline_add = 20
-	general_opinion = -10
+	negate_health_penalty_add = 0.1
 }
 
 glintstone_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_glintstone.dds"
 	same_opinion = 5
-	learning = 2
-	intrigue = 1
+	negate_health_penalty_add = 0.1
 }
 
 carian_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_carian.dds"
 	same_opinion = 5
-	learning = 3
+	negate_health_penalty_add = 0.1
 }
 
 rot_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_rot.dds"
 	same_opinion = 5
-	health = 1
-	intrigue = 1
-	attraction_opinion = -10
-	fertility = 0.10
+	negate_health_penalty_add = 0.1
 }
 
 erdtree_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_erdtree.dds"
 	same_opinion = 5
-	martial = 1
-	prowess = 3
-	health = 1
+	negate_health_penalty_add = 0.1
 }
 
 fire_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_fire.dds"
 	same_opinion = 5
-	negate_health_penalty_add = 1
-	stewardship = 1
-	martial = 1
+	negate_health_penalty_add = 0.1
 }
 
 magma_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_magma.dds"
 	same_opinion = 5
-	martial = 2
+	negate_health_penalty_add = 0.1
 }
 
 ice_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_ice.dds"
 	same_opinion = 5
-	learning = 1
-	prowess = 3
-	owned_hostile_scheme_success_chance_add = 5
+	negate_health_penalty_add = 0.1
 }
 
 gravity_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_gravity.dds"
 	same_opinion = 5
-	learning = 1
-	attraction_opinion = 5 #this is here for the joke more than anything
-	prowess = 3
+	negate_health_penalty_add = 0.1
 }
 
 lightning_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_lightning.dds"
 	same_opinion = 5
-	diplomacy = 1
-	martial = 1
-	vassal_opinion = 5
+	negate_health_penalty_add = 0.1
 }
 
 death_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_death.dds"
 	same_opinion = 5
-	negate_health_penalty_add = 1
-	dread_baseline_add = 10
-	health = 1
+	negate_health_penalty_add = 0.1
 }
 
 blood_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_blood.dds"
 	same_opinion = 5
-	martial = 1
-	fertility = 0.1
-	prowess = 3
+	negate_health_penalty_add = 0.1
 }
 
 dragon_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_dragon.dds"
 	same_opinion = 5
-	prowess = 6
-	dread_baseline_add = 10
+	negate_health_penalty_add = 0.1
 }
 
 blackflame_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_blackflame.dds"
 	same_opinion = 5
-	prowess = 3
-	intrigue = 1
-	learning = 1
+	negate_health_penalty_add = 0.1
 }
 
 sleep_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_sleep.dds"
 	same_opinion = 5
-	stress_loss_mult = 0.1
-	stress_gain_mult = -0.1
-	diplomacy = 1
+	negate_health_penalty_add = 0.1
 }
 
 spiral_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_spiral.dds"
 	same_opinion = 5
-	learning = 3
-	prowess = 5
-	health = 1
+	negate_health_penalty_add = 0.1
 }
 
 bestial_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_bestial.dds"
 	same_opinion = 5
-	learning = 1
-	prowess = 3
-	martial = 1
+	negate_health_penalty_add = 0.1
 }
 
 claymen_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_claymen.dds"
 	same_opinion = 5
-	learning = 2
-	intrigue = 1
+	negate_health_penalty_add = 0.1
 }
 
 night_affinity = {
 	ruler_designer_cost = 25
 	icon = "affinity_night.dds"
 	same_opinion = 5
-	intrigue = 3
+	negate_health_penalty_add = 0.1
 }
 
 sorcery_glintstone = {
@@ -177,23 +144,44 @@ sorcery_glintstone = {
 	
 	ruler_designer_cost = 40
 	
+	ai_energy = 40
+	
 	same_opinion = 10
+	monthly_prestige_gain_mult = 0.05
+	prowess = 1
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess = 3
+			enemy_hard_casualty_modifier = 0.03
+			dread_baseline_add = 1
+			courtier_and_guest_opinion = 2
 		}
 		40 = {
-			prowess = 1
+			prowess = 3
+			enemy_hard_casualty_modifier = 0.03
+			dread_baseline_add = 1
+			courtier_and_guest_opinion = 2
 		}
 		60 = {
-			prowess = 1
+			prowess = 4
+			enemy_hard_casualty_modifier = 0.03
+			dread_baseline_add = 1
+			courtier_and_guest_opinion = 3
 		}
 		80 = {
-			prowess = 1
+			prowess = 4
+			enemy_hard_casualty_modifier = 0.03
+			dread_baseline_add = 1
+			courtier_and_guest_opinion = 3
 		}
 		100 = {
-			prowess = 1
+			prowess = 8
+			martial = 3
+			enemy_hard_casualty_modifier = 0.08
+			knight_effectiveness_per_prowess = 0.01
+			dread_baseline_add = 1
+			courtier_and_guest_opinion = 10
 		}
 	}
 	
@@ -442,22 +430,38 @@ sorcery_carian = {
 	ruler_designer_cost = 40
 	
 	same_opinion = 10
+	monthly_prestige_gain_mult = 0.05
+	legitimacy_gain_mult = 0.05
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess = 2
+			enemy_terrain_advantage = -0.03
+			courtier_and_guest_opinion = 2
 		}
 		40 = {
-			prowess = 1
+			prowess = 2
+			enemy_terrain_advantage = -0.03
+			courtier_and_guest_opinion = 2
 		}
 		60 = {
-			prowess = 1
+			prowess = 3
+			enemy_terrain_advantage = -0.03
+			courtier_and_guest_opinion = 3
 		}
 		80 = {
-			prowess = 1
+			prowess = 3
+			enemy_terrain_advantage = -0.03
+			courtier_and_guest_opinion = 3
 		}
 		100 = {
-			prowess = 1
+			prowess = 4
+			learning = 3
+			monthly_prestige_gain_mult = 0.1
+			enemy_terrain_advantage = -0.08
+			monthly_lifestyle_xp_gain_mult = 0.1
+			courtier_and_guest_opinion = 10
+			legitimacy_gain_mult = 0.25
 		}
 	}
 	
@@ -480,22 +484,43 @@ sorcery_bloodthorn = {
 	ruler_designer_cost = 40
 	
 	same_opinion = 10
+	monthly_prestige_gain_mult = 0.05
+	
+	general_opinion = -10
 	
 	track = {
 		20 = {
 			prowess = 1
+			health = -0.15
+			dread_baseline_add = 2
+			stress_gain_mult = -0.05
 		}
 		40 = {
 			prowess = 1
+			health = -0.15
+			dread_baseline_add = 2
+			stress_gain_mult = -0.05
 		}
 		60 = {
-			prowess = 1
+			prowess = 2
+			health = -0.15
+			dread_baseline_add = 2
+			stress_gain_mult = -0.05
 		}
 		80 = {
-			prowess = 1
+			prowess = 2
+			health = -0.15
+			dread_baseline_add = 2
+			stress_gain_mult = -0.05
 		}
 		100 = {
-			prowess = 1
+			prowess = 4
+			learning = 2
+			intrigue = 1
+			health = -0.15
+			dread_baseline_add = 2
+			dread_gain_mult = 0.25
+			stress_gain_mult = -0.1
 		}
 	}
 	
@@ -518,22 +543,36 @@ sorcery_claymen = {
 	ruler_designer_cost = 40
 	
 	same_opinion = 10
+	monthly_prestige_gain_mult = 0.05
 	
 	track = {
 		20 = {
 			prowess = 1
+			negate_health_penalty_add = 0.1
+			opinion_of_different_culture = 2
 		}
 		40 = {
 			prowess = 1
+			negate_health_penalty_add = 0.1
+			opinion_of_different_culture = 2
 		}
 		60 = {
-			prowess = 1
+			prowess = 2
+			negate_health_penalty_add = 0.1
+			opinion_of_different_culture = 2
 		}
 		80 = {
-			prowess = 1
+			prowess = 2
+			negate_health_penalty_add = 0.1
+			opinion_of_different_culture = 2
 		}
 		100 = {
-			prowess = 1
+			prowess = 4
+			learning = 2
+			stewardship = 1
+			negate_health_penalty_add = 0.1
+			opinion_of_different_culture = 2
+			knight_limit = 1
 		}
 	}
 	
@@ -556,22 +595,33 @@ sorcery_crystalian = {
 	ruler_designer_cost = 40
 	
 	same_opinion = 10
+	monthly_prestige_gain_mult = 0.05
 	
 	track = {
 		20 = {
 			prowess = 1
+			max_combat_roll = 2
 		}
 		40 = {
-			prowess = 1
+			prowess = 2
+			max_combat_roll = 2
 		}
 		60 = {
-			prowess = 1
+			prowess = 3
+			max_combat_roll = 2
 		}
 		80 = {
-			prowess = 1
+			prowess = 4
+			max_combat_roll = 2
 		}
 		100 = {
-			prowess = 1
+			prowess = 5
+			learning = 1
+			martial = 1
+			diplomacy = 1
+			max_combat_roll = 2
+			archer_damage_mult = 0.15
+			stress_loss_per_prestige_level = 0.05
 		}
 	}
 	
@@ -594,22 +644,84 @@ sorcery_death = {
 	ruler_designer_cost = 40
 	
 	same_opinion = 10
+	monthly_prestige_gain_mult = 0.05
+	
+	general_opinion = -10
+	dread_baseline_add = 10
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess = 2
+			undead_damage_mult = 0.08
+			undead_toughness_mult = 0.08
+			dread_baseline_add = 4
+			cowed_vassal_tax_contribution_mult = 0.05
+			stress_gain_mult = 0.1
+			
+			faith_modifier = {
+				parameter = death_sorcery_bonuses
+				same_faith_opinion = 4
+				monthly_piety = 0.4
+			}
 		}
 		40 = {
-			prowess = 1
+			prowess = 2
+			undead_damage_mult = 0.08
+			undead_toughness_mult = 0.08
+			dread_baseline_add = 4
+			cowed_vassal_tax_contribution_mult = 0.05
+			stress_gain_mult = 0.1
+			
+			faith_modifier = {
+				parameter = death_sorcery_bonuses
+				same_faith_opinion = 4
+				monthly_piety = 0.4
+			}
 		}
 		60 = {
-			prowess = 1
+			prowess = 3
+			undead_damage_mult = 0.08
+			undead_toughness_mult = 0.08
+			dread_baseline_add = 4
+			cowed_vassal_tax_contribution_mult = 0.05
+			stress_gain_mult = 0.1
+			
+			faith_modifier = {
+				parameter = death_sorcery_bonuses
+				same_faith_opinion = 4
+				monthly_piety = 0.4
+			}
 		}
 		80 = {
-			prowess = 1
+			prowess = 3
+			undead_damage_mult = 0.08
+			undead_toughness_mult = 0.08
+			dread_baseline_add = 4
+			cowed_vassal_tax_contribution_mult = 0.05
+			stress_gain_mult = 0.1
+			
+			faith_modifier = {
+				parameter = death_sorcery_bonuses
+				same_faith_opinion = 4
+				monthly_piety = 0.4
+			}
 		}
 		100 = {
-			prowess = 1
+			prowess = 4
+			intrigue = 2
+			martial = 1
+			undead_damage_mult = 0.28
+			undead_toughness_mult = 0.28
+			dread_baseline_add = 4
+			dread_gain_mult = 0.25
+			cowed_vassal_tax_contribution_mult = 0.1
+			stress_gain_mult = 0.1
+			
+			faith_modifier = {
+				parameter = death_sorcery_bonuses
+				same_faith_opinion = 4
+				monthly_piety = 0.4
+			}
 		}
 	}
 	
@@ -632,22 +744,40 @@ sorcery_finger = {
 	ruler_designer_cost = 40
 	
 	same_opinion = 10
+	monthly_prestige_gain_mult = 0.05
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess = 2
+			zealot_opinion = 2
+			maa_pursuit_add = 1
+			enemy_terrain_advantage = -0.02
 		}
 		40 = {
-			prowess = 1
+			prowess = 2
+			zealot_opinion = 2
+			maa_pursuit_add = 1
+			enemy_terrain_advantage = -0.02
 		}
 		60 = {
-			prowess = 1
+			prowess = 2
+			zealot_opinion = 2
+			maa_pursuit_add = 1
+			enemy_terrain_advantage = -0.02
 		}
 		80 = {
-			prowess = 1
+			prowess = 2
+			zealot_opinion = 2
+			maa_pursuit_add = 1
+			enemy_terrain_advantage = -0.02
 		}
 		100 = {
-			prowess = 1
+			prowess = 4
+			martial = 2
+			learning = 1
+			zealot_opinion = 2
+			maa_pursuit_add = 2
+			enemy_terrain_advantage = -0.02
 		}
 	}
 	
@@ -670,22 +800,46 @@ sorcery_gelmir = {
 	ruler_designer_cost = 40
 	
 	same_opinion = 10
+	monthly_prestige_gain_mult = 0.05
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess = 2
+			raid_speed = 0.1
+			siege_phase_time = -0.05
+			hills_advantage = 1
+			mountains_advantage = 1
 		}
 		40 = {
-			prowess = 1
+			prowess = 2
+			raid_speed = 0.1
+			siege_phase_time = -0.05
+			hills_advantage = 1
+			mountains_advantage = 1
 		}
 		60 = {
-			prowess = 1
+			prowess = 3
+			raid_speed = 0.1
+			siege_phase_time = -0.05
+			hills_advantage = 2
+			mountains_advantage = 2
 		}
 		80 = {
-			prowess = 1
+			prowess = 3
+			raid_speed = 0.1
+			siege_phase_time = -0.05
+			hills_advantage = 2
+			mountains_advantage = 2
 		}
 		100 = {
-			prowess = 1
+			prowess = 5
+			martial = 3
+			raid_speed = 0.2
+			siege_phase_time = -0.1
+			hills_advantage = 4
+			mountains_advantage = 4
+			monthly_prestige = 1
+			monthly_martial_lifestyle_xp_gain_mult = 0.1
 		}
 	}
 	
@@ -708,22 +862,46 @@ sorcery_gravity = {
 	ruler_designer_cost = 40
 	
 	same_opinion = 10
+	monthly_prestige_gain_mult = 0.05
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess = 2
+			siege_phase_time = -0.1
+			advantage = 1
+			attraction_opinion = 2
+			glory_hound_opinion = 2
 		}
 		40 = {
-			prowess = 1
+			prowess = 2
+			siege_phase_time = -0.1
+			advantage = 1
+			attraction_opinion = 2
+			glory_hound_opinion = 2
 		}
 		60 = {
-			prowess = 1
+			prowess = 3
+			siege_phase_time = -0.1
+			advantage = 2
+			attraction_opinion = 2
+			glory_hound_opinion = 2
 		}
 		80 = {
-			prowess = 1
+			prowess = 3
+			siege_phase_time = -0.1
+			advantage = 2
+			attraction_opinion = 2
+			glory_hound_opinion = 2
 		}
 		100 = {
-			prowess = 1
+			prowess = 6
+			martial = 2
+			diplomacy = 1
+			siege_phase_time = -0.2
+			advantage = 4
+			attraction_opinion = 2
+			glory_hound_opinion = 2
+			monthly_martial_lifestyle_xp_gain_mult = 0.1
 		}
 	}
 	
@@ -746,22 +924,53 @@ sorcery_ice = {
 	ruler_designer_cost = 40
 	
 	same_opinion = 10
+	monthly_prestige_gain_mult = 0.05
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess = 2
+			winter_advantage = 1
+			desert_advantage = 1
+			oasis_advantage = 1
+			desert_mountains_advantage = 1
+			epidemic_resistance = 2
 		}
 		40 = {
-			prowess = 1
+			prowess = 2
+			winter_advantage = 1
+			desert_advantage = 1
+			oasis_advantage = 1
+			desert_mountains_advantage = 1
+			epidemic_resistance = 2
 		}
 		60 = {
-			prowess = 1
+			prowess = 2
+			winter_advantage = 2
+			desert_advantage = 2
+			oasis_advantage = 2
+			desert_mountains_advantage = 2
+			epidemic_resistance = 2
+			no_water_crossing_penalty = yes
 		}
 		80 = {
-			prowess = 1
+			prowess = 2
+			winter_advantage = 2
+			desert_advantage = 2
+			oasis_advantage = 2
+			desert_mountains_advantage = 2
+			epidemic_resistance = 2
 		}
 		100 = {
-			prowess = 1
+			prowess = 4
+			martial = 1
+			learning = 1
+			diplomacy = 1
+			winter_advantage = 4
+			desert_advantage = 4
+			oasis_advantage = 4
+			desert_mountains_advantage = 4
+			epidemic_resistance = 2
+			desert_cancel_negative_supply = yes
 		}
 	}
 	
@@ -784,22 +993,59 @@ sorcery_impenetrable_thorn = {
 	ruler_designer_cost = 40
 	
 	same_opinion = 10
+	monthly_prestige_gain_mult = 0.05
+	
+	monthly_piety_gain_mult = -0.05
+	zealot_opinion = -5
 	
 	track = {
 		20 = {
 			prowess = 1
+			monthly_piety_gain_mult = -0.05
+			zealot_opinion = -2
+			stress_loss_mult = 0.05
+			dread_decay_mult = -0.1
+			cowed_vassal_levy_contribution_mult = 0.05
+			character_travel_safety = 2
 		}
 		40 = {
-			prowess = 1
+			prowess = 2
+			monthly_piety_gain_mult = -0.05
+			zealot_opinion = -2
+			stress_loss_mult = 0.05
+			dread_decay_mult = -0.1
+			cowed_vassal_tax_contribution_mult = 0.05
+			character_travel_safety = 2
 		}
 		60 = {
-			prowess = 1
+			prowess = 3
+			monthly_piety_gain_mult = -0.05
+			zealot_opinion = -2
+			stress_loss_mult = 0.05
+			dread_decay_mult = -0.1
+			cowed_vassal_levy_contribution_mult = 0.05
+			character_travel_safety = 3
 		}
 		80 = {
-			prowess = 1
+			prowess = 3
+			monthly_piety_gain_mult = -0.05
+			zealot_opinion = -2
+			stress_loss_mult = 0.05
+			dread_decay_mult = -0.1
+			cowed_vassal_tax_contribution_mult = 0.05
+			character_travel_safety = 3
 		}
 		100 = {
-			prowess = 1
+			prowess = 4
+			martial = 2
+			intrigue = 1
+			monthly_piety_gain_mult = -0.05
+			zealot_opinion = -2
+			stress_loss_mult = 0.1
+			dread_decay_mult = -0.1
+			cowed_vassal_levy_contribution_mult = 0.1
+			cowed_vassal_tax_contribution_mult = 0.1
+			character_travel_safety = 5
 		}
 	}
 	
@@ -822,22 +1068,54 @@ sorcery_night = {
 	ruler_designer_cost = 40
 	
 	same_opinion = 10
+	monthly_prestige_gain_mult = 0.05
+	
+	owned_scheme_secrecy_add = 5
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess = 3
+			enemy_hard_casualty_modifier = 0.02
+			owned_scheme_secrecy_add = 5
+			owned_hostile_scheme_success_chance_add = 3
+			enemy_hostile_scheme_success_chance_growth_add = -1
+			dread_baseline_add = 2
 		}
 		40 = {
-			prowess = 1
+			prowess = 3
+			enemy_hard_casualty_modifier = 0.02
+			owned_scheme_secrecy_add = 5
+			owned_hostile_scheme_success_chance_add = 3
+			enemy_hostile_scheme_success_chance_growth_add = -1
+			dread_baseline_add = 2
 		}
 		60 = {
-			prowess = 1
+			prowess = 3
+			enemy_hard_casualty_modifier = 0.02
+			owned_scheme_secrecy_add = 5
+			owned_hostile_scheme_success_chance_add = 4
+			enemy_hostile_scheme_success_chance_growth_add = -2
+			dread_baseline_add = 2
 		}
 		80 = {
-			prowess = 1
+			prowess = 3
+			enemy_hard_casualty_modifier = 0.02
+			owned_scheme_secrecy_add = 5
+			owned_hostile_scheme_success_chance_add = 4
+			enemy_hostile_scheme_success_chance_growth_add = -2
+			dread_baseline_add = 2
 		}
 		100 = {
-			prowess = 1
+			prowess = 6
+			intrigue = 3
+			enemy_hard_casualty_modifier = 0.02
+			knight_effectiveness_per_dread = 0.01
+			monthly_prestige_gain_per_dread_add = 0.05
+			owned_scheme_secrecy_add = 15
+			owned_hostile_scheme_success_chance_add = 6
+			enemy_hostile_scheme_success_chance_growth_add = -4
+			dread_baseline_add = 2
+			monthly_intrigue_lifestyle_xp_gain_mult = 0.1
 		}
 	}
 	
