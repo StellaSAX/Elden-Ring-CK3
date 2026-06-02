@@ -7701,10 +7701,12 @@ h_lands_between = {
 
 		k_weeping_peninsula = {
 			color = { 35 147 92 }
+
 			capital = c_R52G82B165
 
 			d_morne = {
 				color = { 45 46 76 }
+
 				capital = c_R52G82B165
 
 				c_morne = {
@@ -8031,6 +8033,15 @@ h_lands_between = {
 						province = 458
 					}
 				}
+
+				c_sacrifice_bridge = {
+					color = { 0 192 71 }
+
+					b_r91g74b221 = {
+						color = { 0 175 158 }
+						province = 304
+					}
+				}
 			}
 
 			d_tombsward_hill = {
@@ -8125,7 +8136,7 @@ h_lands_between = {
 
 				c_R238G176B49 = {
 					color = { 238 176 49 }
-					
+
 					b_R70G52B158 = {
 						color = { 122 232 63 }
 						province = 866
@@ -8135,7 +8146,6 @@ h_lands_between = {
 						color = { 238 176 49 }
 						province = 2019
 					}
-
 
 					b_R127G40B153 = {
 						color = { 102 10 244 }
@@ -16273,6 +16283,7 @@ h_lands_between = {
 
 			d_R157G125B0 = {
 				color = { 0 0 0 }
+
 				capital = c_R160G182B233
 
 				c_R105G36B109 = {

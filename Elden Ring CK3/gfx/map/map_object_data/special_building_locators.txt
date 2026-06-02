@@ -1,4 +1,4 @@
-game_object_locator={
+﻿game_object_locator={
 	name="special_building"
 	render_pass=Map
 	clamp_to_water_level=yes
@@ -1819,9 +1819,9 @@ game_object_locator={
 		}
 		{
 			id=304
-			position={ 881.000000 0.000000 295.000000 }
-			rotation={ -0.000000 -0.912028 -0.000000 0.410129 }
-			scale={ 1.000000 1.000000 1.000000 }
+			position={ 879.314575 0.000000 294.155334 }
+			rotation={ -0.000000 -0.971044 -0.000000 0.238904 }
+			scale={ 4.595617 4.595617 4.595617 }
 		}
 		{
 			id=305
