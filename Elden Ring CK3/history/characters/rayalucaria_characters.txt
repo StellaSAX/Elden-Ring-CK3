@@ -41,7 +41,12 @@ rennala = {
 	trait = trusting
 	trait = chaste
 	trait = glintstone_affinity
+	trait = carian_affinity
 	trait = no_marry
+	
+	trait = sorcery_carian
+	trait = sorcery_glintstone
+	trait = sorcery_crystalian
 	
 	disallow_random_traits = yes
 	mother = carian_family
@@ -58,7 +63,18 @@ rennala = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = carian_sorcerer
+		trait = moon_princess
+	}
+	530.1.1 = {
+		effect = {
+			add_trait_xp = { trait = sorcery_carian value=100 }
+		}
+		effect = {
+			add_trait_xp = { trait = sorcery_glintstone value=100 }
+		}
+		effect = {
+			add_trait_xp = { trait = sorcery_crystalian value=90 }
+		}
 	}
 	987.1.1 = {
 		add_matrilineal_spouse = radagon
@@ -67,6 +83,7 @@ rennala = {
 		remove_spouse = radagon
 		add_trait = lunatic_1
 		add_trait = depressed_1
+		add_trait = reclusive
 	}
 }
 
@@ -98,7 +115,13 @@ rellana = {
 	trait = patient
 	trait = brave
 	trait = glintstone_affinity
+	trait = carian_affinity
+	trait = glintstone_affinity
+	trait = fire_affinity
 	trait = no_marry
+	
+	trait = sorcery_carian
+	trait = sorcery_glintstone
 	
 	disallow_random_traits = yes
 	mother = carian_family
@@ -108,7 +131,15 @@ rellana = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = carian_sorcerer
+		trait = moon_princess
+	}
+	530.1.1 = {
+		effect = {
+			add_trait_xp = { trait = sorcery_carian value=100 }
+		}
+		effect = {
+			add_trait_xp = { trait = sorcery_glintstone value=90 }
+		}
 	}
 	1708.1.1 = {
 		give_nickname = nick_twin_moon_knight

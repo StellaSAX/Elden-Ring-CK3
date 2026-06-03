@@ -42,6 +42,8 @@ marika = {
 	trait = vengeful
 	trait = callous
 	trait = order_affinity
+	trait = erdtree_affinity
+	
 	disallow_random_traits = yes
 	mother = shaman_line
 	
@@ -104,11 +106,12 @@ radagon = {
 	trait = intellect_good_3
 	trait = beauty_good_3
 	trait = shrewd
-	
 	trait = zealous
 	trait = stubborn
 	trait = diligent
 	trait = order_affinity
+	trait = erdtree_affinity
+	
 	disallow_random_traits = yes
 	#mother = shaman_line
 	
@@ -254,6 +257,8 @@ melina = {
 	trait = content
 	trait = beauty_good_1
 	trait = fire_affinity
+	trait = erdtree_affinity
+	#trait = blackflame_affinity
 	trait = no_marry
 	trait = bodiless
 	
@@ -298,6 +303,8 @@ godwyn = {
 	trait = brave
 	trait = gregarious
 	trait = forgiving
+	trait = order_affinity
+	trait = erdtree_affinity
 	trait = lightning_affinity
 	trait = no_marry
 	
@@ -349,7 +356,8 @@ morgott = {
 	trait = patient
 	trait = omen_horn_trait
 	trait = twin
-	trait = order_affinity
+	trait = erdtree_affinity
+	trait = fire_affinity
 	trait = no_marry
 	
 	portrait_override = {	
@@ -450,6 +458,7 @@ radahn = {
 	trait = just
 	trait = diligent
 	trait = brave
+	trait = carian_affinity
 	trait = gravity_affinity
 	trait = strong
 	trait = no_marry
@@ -481,6 +490,11 @@ radahn = {
 	1654.1.1 = {
 		give_nickname = nick_conqueror_of_the_stars
 		dynasty_house = house_starscourge_caria
+		
+		add_trait = sorcery_gravity
+		effect = {
+			add_trait_xp = { trait = sorcery_gravity value=100 }
+		}
 	}
 	1782.1.1 = {
 		add_trait = demigod_elden_ring_4
@@ -526,7 +540,9 @@ rykard = {
 	trait = ambitious
 	trait = sadistic
 	trait = arbitrary
+	trait = carian_affinity
 	trait = fire_affinity
+	trait = magma_affinity
 	
 	disallow_random_traits = yes
 	father = radagon
@@ -566,6 +582,11 @@ rykard = {
 	}
 	7221.1.1 = {
 		religion = faith_god_snake
+		
+		add_trait = sorcery_gelmir
+		effect = {
+			add_trait_xp = { trait = sorcery_gelmir value=100 }
+		}
 	}
 	7241.1.1 = {
 		give_nickname = nick_lordlady_of_blasphemy
@@ -595,6 +616,7 @@ ranni = {
 	trait = ambitious
 	trait = intellect_good_2
 	trait = beauty_good_3
+	trait = carian_affinity
 	trait = ice_affinity
 	trait = no_marry
 	
@@ -620,10 +642,20 @@ ranni = {
 	}
 	1785.1.1 = {
 		add_trait = empyrean_elden_ring
+		
+		add_trait = sorcery_carian
+		effect = {
+			add_trait_xp = { trait = sorcery_carian value=100 }
+		}
 	}
 	3759.1.1 = {
 		religion = faith_stars
 		give_nickname = nick_the_witch
+		
+		add_trait = sorcery_ice
+		effect = {
+			add_trait_xp = { trait = sorcery_ice value=100 }
+		}
 	}
 	7216.1.1 = {
 		add_pressed_claim = title:h_lands_between
@@ -657,6 +689,7 @@ miquella = {
 	trait = honest
 	trait = compassionate
 	trait = order_affinity
+	trait = erdtree_affinity
 	trait = twin
 	trait = no_marry
 	
@@ -774,6 +807,7 @@ malenia = {
 	trait = patient
 	trait = calm
 	trait = nugget
+	trait = erdtree_affinity
 	trait = rot_affinity
 	trait = blind
 	trait = twin
@@ -834,6 +868,7 @@ godwald = {
 	trait = content
 	trait = chaste
 	trait = order_affinity
+	trait = erdtree_affinity
 	
 	disallow_random_traits = yes
 	father = godwyn
@@ -903,7 +938,6 @@ godrick = {
 	trait = craven
 	trait = sadistic
 	trait = greedy
-	#trait = order_affinity he didn't show any order skills, he actually showed wind
 	trait = no_marry
 	
 	disallow_random_traits = yes

@@ -219,6 +219,7 @@ gideon = {
 	trait = scholar
 	trait = schemer
 	trait = glintstone_affinity
+	trait = order_affinity
 	trait = roundtable_leader
 	trait = no_marry
 	
@@ -237,6 +238,16 @@ gideon = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
+		}
+	}
+	7923.1.1 = {
+		add_trait = sorcery_glintstone
+		add_trait = sorcery_carian
+		effect = {
+			add_trait_xp = { trait = sorcery_glintstone value=80 }
+		}
+		effect = {
+			add_trait_xp = { trait = sorcery_carian value=80 }
 		}
 	}
 	8301.1.1 = {

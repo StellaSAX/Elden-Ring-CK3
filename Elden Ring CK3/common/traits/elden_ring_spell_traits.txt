@@ -193,7 +193,6 @@ sorcery_glintstone = {
 			}
 			triggered_desc = {
 				trigger = {
-					is_female = no
 					has_trait_xp = {
 						trait = sorcery_glintstone
 						value >= 100
@@ -203,17 +202,6 @@ sorcery_glintstone = {
 			}
 			triggered_desc = {
 				trigger = {
-					is_female = yes
-					has_trait_xp = {
-						trait = sorcery_glintstone
-						value >= 100
-					}
-				}
-				desc = trait_sorcery_glintstone_6_female
-			}
-			triggered_desc = {
-				trigger = {
-					is_female = no
 					has_trait_xp = {
 						trait = sorcery_glintstone
 						value >= 80
@@ -223,17 +211,6 @@ sorcery_glintstone = {
 			}
 			triggered_desc = {
 				trigger = {
-					is_female = yes
-					has_trait_xp = {
-						trait = sorcery_glintstone
-						value >= 80
-					}
-				}
-				desc = trait_sorcery_glintstone_5_female
-			}
-			triggered_desc = {
-				trigger = {
-					is_female = no
 					has_trait_xp = {
 						trait = sorcery_glintstone
 						value >= 60
@@ -243,17 +220,6 @@ sorcery_glintstone = {
 			}
 			triggered_desc = {
 				trigger = {
-					is_female = yes
-					has_trait_xp = {
-						trait = sorcery_glintstone
-						value >= 60
-					}
-				}
-				desc = trait_sorcery_glintstone_4_female
-			}
-			triggered_desc = {
-				trigger = {
-					is_female = no
 					has_trait_xp = {
 						trait = sorcery_glintstone
 						value >= 40
@@ -263,17 +229,6 @@ sorcery_glintstone = {
 			}
 			triggered_desc = {
 				trigger = {
-					is_female = yes
-					has_trait_xp = {
-						trait = sorcery_glintstone
-						value >= 40
-					}
-				}
-				desc = trait_sorcery_glintstone_3_female
-			}
-			triggered_desc = {
-				trigger = {
-					is_female = no
 					has_trait_xp = {
 						trait = sorcery_glintstone
 						value >= 20
@@ -283,37 +238,12 @@ sorcery_glintstone = {
 			}
 			triggered_desc = {
 				trigger = {
-					is_female = yes
-					has_trait_xp = {
-						trait = sorcery_glintstone
-						value >= 20
-					}
-				}
-				desc = trait_sorcery_glintstone_2_female
-			}
-			triggered_desc = {
-				trigger = {
-					is_female = no
 					has_trait_xp = {
 						trait = sorcery_glintstone
 						value < 20
 					}
 				}
 				desc = trait_sorcery_glintstone_1
-			}
-			triggered_desc = {
-				trigger = {
-					is_female = yes
-					has_trait_xp = {
-						trait = sorcery_glintstone
-						value < 20
-					}
-				}
-				desc = trait_sorcery_glintstone_1_female
-			}
-			triggered_desc = {
-				trigger = { is_female = yes }
-				desc = trait_sorcery_glintstone_female
 			}
 			desc = trait_sorcery_glintstone
 		}
@@ -356,23 +286,12 @@ sorcery_glintstone = {
 			}
 			triggered_desc = {
 				trigger = {
-					is_female = no
 					has_trait_xp = {
 						trait = sorcery_glintstone
 						value >= 40
 					}
 				}
 				desc = trait_sorcery_glintstone_3_desc
-			}
-			triggered_desc = {
-				trigger = {
-					is_female = yes
-					has_trait_xp = {
-						trait = sorcery_glintstone
-						value >= 40
-					}
-				}
-				desc = trait_sorcery_glintstone_3_female_desc
 			}
 			triggered_desc = {
 				trigger = {
@@ -385,27 +304,12 @@ sorcery_glintstone = {
 			}
 			triggered_desc = {
 				trigger = {
-					is_female = no
 					has_trait_xp = {
 						trait = sorcery_glintstone
 						value < 20
 					}
 				}
 				desc = trait_sorcery_glintstone_1_desc
-			}
-			triggered_desc = {
-				trigger = {
-					is_female = yes
-					has_trait_xp = {
-						trait = sorcery_glintstone
-						value < 20
-					}
-				}
-				desc = trait_sorcery_glintstone_1_female_desc
-			}
-			triggered_desc = {
-				trigger = { is_female = yes }
-				desc = trait_sorcery_glintstone_female_desc
 			}
 			desc = trait_sorcery_glintstone_desc
 		}
@@ -462,6 +366,136 @@ sorcery_carian = {
 			monthly_lifestyle_xp_gain_mult = 0.1
 			courtier_and_guest_opinion = 10
 			legitimacy_gain_mult = 0.25
+		}
+	}
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_sorcery_carian
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_carian
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_carian_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_carian
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_carian_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_carian
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_carian_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_carian
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_carian_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_carian
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_carian_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_carian
+						value < 20
+					}
+				}
+				desc = trait_sorcery_carian_1
+			}
+			desc = trait_sorcery_carian
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_sorcery_carian_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_carian
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_carian_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_carian
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_carian_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_carian
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_carian_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_carian
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_carian_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_carian
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_carian_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_carian
+						value < 20
+					}
+				}
+				desc = trait_sorcery_carian_1_desc
+			}
+			desc = trait_sorcery_carian_desc
 		}
 	}
 	
@@ -524,6 +558,136 @@ sorcery_bloodthorn = {
 		}
 	}
 	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_sorcery_bloodthorn
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_bloodthorn
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_bloodthorn_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_bloodthorn
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_bloodthorn_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_bloodthorn
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_bloodthorn_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_bloodthorn
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_bloodthorn_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_bloodthorn
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_bloodthorn_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_bloodthorn
+						value < 20
+					}
+				}
+				desc = trait_sorcery_bloodthorn_1
+			}
+			desc = trait_sorcery_bloodthorn
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_sorcery_bloodthorn_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_bloodthorn
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_bloodthorn_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_bloodthorn
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_bloodthorn_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_bloodthorn
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_bloodthorn_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_bloodthorn
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_bloodthorn_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_bloodthorn
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_bloodthorn_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_bloodthorn
+						value < 20
+					}
+				}
+				desc = trait_sorcery_bloodthorn_1_desc
+			}
+			desc = trait_sorcery_bloodthorn_desc
+		}
+	}
+	
 	triggered_opinion = {
 		parameter = blood_affinity_illegal
 		opinion_modifier = blood_affinity_crime
@@ -576,6 +740,136 @@ sorcery_claymen = {
 		}
 	}
 	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_sorcery_claymen
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_claymen
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_claymen_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_claymen
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_claymen_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_claymen
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_claymen_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_claymen
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_claymen_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_claymen
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_claymen_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_claymen
+						value < 20
+					}
+				}
+				desc = trait_sorcery_claymen_1
+			}
+			desc = trait_sorcery_claymen
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_sorcery_claymen_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_claymen
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_claymen_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_claymen
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_claymen_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_claymen
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_claymen_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_claymen
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_claymen_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_claymen
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_claymen_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_claymen
+						value < 20
+					}
+				}
+				desc = trait_sorcery_claymen_1_desc
+			}
+			desc = trait_sorcery_claymen_desc
+		}
+	}
+	
 	triggered_opinion = {
 		parameter = claymen_affinity_illegal
 		opinion_modifier = claymen_affinity_crime
@@ -622,6 +916,136 @@ sorcery_crystalian = {
 			max_combat_roll = 2
 			archer_damage_mult = 0.15
 			stress_loss_per_prestige_level = 0.05
+		}
+	}
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_sorcery_crystalian
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_crystalian
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_crystalian_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_crystalian
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_crystalian_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_crystalian
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_crystalian_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_crystalian
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_crystalian_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_crystalian
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_crystalian_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_crystalian
+						value < 20
+					}
+				}
+				desc = trait_sorcery_crystalian_1
+			}
+			desc = trait_sorcery_crystalian
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_sorcery_crystalian_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_crystalian
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_crystalian_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_crystalian
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_crystalian_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_crystalian
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_crystalian_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_crystalian
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_crystalian_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_crystalian
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_crystalian_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_crystalian
+						value < 20
+					}
+				}
+				desc = trait_sorcery_crystalian_1_desc
+			}
+			desc = trait_sorcery_crystalian_desc
 		}
 	}
 	
@@ -725,6 +1149,136 @@ sorcery_death = {
 		}
 	}
 	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_sorcery_death
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_death
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_death_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_death
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_death_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_death
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_death_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_death
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_death_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_death
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_death_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_death
+						value < 20
+					}
+				}
+				desc = trait_sorcery_death_1
+			}
+			desc = trait_sorcery_death
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_sorcery_death_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_death
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_death_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_death
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_death_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_death
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_death_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_death
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_death_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_death
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_death_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_death
+						value < 20
+					}
+				}
+				desc = trait_sorcery_death_1_desc
+			}
+			desc = trait_sorcery_death_desc
+		}
+	}
+	
 	triggered_opinion = {
 		parameter = death_affinity_illegal
 		opinion_modifier = death_affinity_crime
@@ -778,6 +1332,136 @@ sorcery_finger = {
 			zealot_opinion = 2
 			maa_pursuit_add = 2
 			enemy_terrain_advantage = -0.02
+		}
+	}
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_sorcery_finger
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_finger
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_finger_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_finger
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_finger_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_finger
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_finger_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_finger
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_finger_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_finger
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_finger_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_finger
+						value < 20
+					}
+				}
+				desc = trait_sorcery_finger_1
+			}
+			desc = trait_sorcery_finger
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_sorcery_finger_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_finger
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_finger_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_finger
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_finger_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_finger
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_finger_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_finger
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_finger_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_finger
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_finger_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_finger
+						value < 20
+					}
+				}
+				desc = trait_sorcery_finger_1_desc
+			}
+			desc = trait_sorcery_finger_desc
 		}
 	}
 	
@@ -843,6 +1527,136 @@ sorcery_gelmir = {
 		}
 	}
 	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_sorcery_gelmir
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gelmir
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_gelmir_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gelmir
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_gelmir_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gelmir
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_gelmir_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gelmir
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_gelmir_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gelmir
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_gelmir_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gelmir
+						value < 20
+					}
+				}
+				desc = trait_sorcery_gelmir_1
+			}
+			desc = trait_sorcery_gelmir
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_sorcery_gelmir_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gelmir
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_gelmir_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gelmir
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_gelmir_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gelmir
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_gelmir_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gelmir
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_gelmir_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gelmir
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_gelmir_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gelmir
+						value < 20
+					}
+				}
+				desc = trait_sorcery_gelmir_1_desc
+			}
+			desc = trait_sorcery_gelmir_desc
+		}
+	}
+	
 	triggered_opinion = {
 		parameter = magma_affinity_illegal
 		opinion_modifier = magma_affinity_crime
@@ -902,6 +1716,136 @@ sorcery_gravity = {
 			attraction_opinion = 2
 			glory_hound_opinion = 2
 			monthly_martial_lifestyle_xp_gain_mult = 0.1
+		}
+	}
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_sorcery_gravity
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gravity
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_gravity_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gravity
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_gravity_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gravity
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_gravity_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gravity
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_gravity_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gravity
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_gravity_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gravity
+						value < 20
+					}
+				}
+				desc = trait_sorcery_gravity_1
+			}
+			desc = trait_sorcery_gravity
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_sorcery_gravity_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gravity
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_gravity_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gravity
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_gravity_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gravity
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_gravity_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gravity
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_gravity_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gravity
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_gravity_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_gravity
+						value < 20
+					}
+				}
+				desc = trait_sorcery_gravity_1_desc
+			}
+			desc = trait_sorcery_gravity_desc
 		}
 	}
 	
@@ -971,6 +1915,136 @@ sorcery_ice = {
 			desert_mountains_advantage = 4
 			epidemic_resistance = 2
 			desert_cancel_negative_supply = yes
+		}
+	}
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_sorcery_ice
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_ice
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_ice_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_ice
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_ice_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_ice
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_ice_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_ice
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_ice_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_ice
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_ice_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_ice
+						value < 20
+					}
+				}
+				desc = trait_sorcery_ice_1
+			}
+			desc = trait_sorcery_ice
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_sorcery_ice_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_ice
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_ice_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_ice
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_ice_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_ice
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_ice_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_ice
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_ice_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_ice
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_ice_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_ice
+						value < 20
+					}
+				}
+				desc = trait_sorcery_ice_1_desc
+			}
+			desc = trait_sorcery_ice_desc
 		}
 	}
 	
@@ -1049,6 +2123,136 @@ sorcery_impenetrable_thorn = {
 		}
 	}
 	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_sorcery_impenetrable_thorn
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_impenetrable_thorn
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_impenetrable_thorn_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_impenetrable_thorn
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_impenetrable_thorn_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_impenetrable_thorn
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_impenetrable_thorn_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_impenetrable_thorn
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_impenetrable_thorn_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_impenetrable_thorn
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_impenetrable_thorn_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_impenetrable_thorn
+						value < 20
+					}
+				}
+				desc = trait_sorcery_impenetrable_thorn_1
+			}
+			desc = trait_sorcery_impenetrable_thorn
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_sorcery_impenetrable_thorn_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_impenetrable_thorn
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_impenetrable_thorn_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_impenetrable_thorn
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_impenetrable_thorn_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_impenetrable_thorn
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_impenetrable_thorn_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_impenetrable_thorn
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_impenetrable_thorn_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_impenetrable_thorn
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_impenetrable_thorn_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_impenetrable_thorn
+						value < 20
+					}
+				}
+				desc = trait_sorcery_impenetrable_thorn_1_desc
+			}
+			desc = trait_sorcery_impenetrable_thorn_desc
+		}
+	}
+	
 	triggered_opinion = {
 		parameter = order_affinity_illegal
 		opinion_modifier = order_affinity_crime
@@ -1116,6 +2320,136 @@ sorcery_night = {
 			enemy_hostile_scheme_success_chance_growth_add = -4
 			dread_baseline_add = 2
 			monthly_intrigue_lifestyle_xp_gain_mult = 0.1
+		}
+	}
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_sorcery_night
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_night
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_night_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_night
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_night_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_night
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_night_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_night
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_night_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_night
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_night_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_night
+						value < 20
+					}
+				}
+				desc = trait_sorcery_night_1
+			}
+			desc = trait_sorcery_night
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_sorcery_night_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_night
+						value >= 100
+					}
+				}
+				desc = trait_sorcery_night_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_night
+						value >= 80
+					}
+				}
+				desc = trait_sorcery_night_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_night
+						value >= 60
+					}
+				}
+				desc = trait_sorcery_night_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_night
+						value >= 40
+					}
+				}
+				desc = trait_sorcery_night_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_night
+						value >= 20
+					}
+				}
+				desc = trait_sorcery_night_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = sorcery_night
+						value < 20
+					}
+				}
+				desc = trait_sorcery_night_1_desc
+			}
+			desc = trait_sorcery_night_desc
 		}
 	}
 	
@@ -1765,4 +3099,25 @@ incantation_two_fingers = {
 		opinion_modifier = order_affinity_intolerant
 		ignore_opinion_value_if_same_trait = yes
 	}
+}
+
+###SPECIAL
+
+moon_princess = {
+	category = lifestyle
+	icon = "sorcery_moon_princess.dds"
+	shown_in_ruler_designer = no
+	ruler_designer_cost = 500
+	#immortal = yes
+	#set_immortal_age = 25
+	life_expectancy = 99999
+	years_of_fertility = 99999
+	negate_health_penalty_add = 5
+	health = 10
+	fertility = -0.2
+	no_prowess_loss_from_age = yes
+	
+	ai_greed = very_high_positive_ai_value
+	ai_energy = very_high_positive_ai_value
+	ai_boldness = high_positive_ai_value
 }
