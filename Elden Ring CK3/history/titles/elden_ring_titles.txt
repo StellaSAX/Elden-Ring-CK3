@@ -46,9 +46,8 @@ c_R246G55B83 = {
 	}
 }
 c_R255G104B146 = {
-	8300.1.1 = {
+	7204.3.10 = {
 		holder = ranni
-		liege = k_rayalucaria
 	}
 }
 c_R25G255B15 = {
@@ -178,9 +177,8 @@ d_summonwater = {
 	}
 }
 d_three_sisters = {
-	8300.1.1 = {
+	7204.3.10 = {
 		holder = ranni
-		liege = k_rayalucaria
 	}
 }
 d_volcano_manor = {

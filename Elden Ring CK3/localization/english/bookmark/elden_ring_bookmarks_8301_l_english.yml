@@ -24,11 +24,15 @@
  bookmark_godrick:0 "Godrick the Grafted"
  bookmark_godrick_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
  bookmark_godrick_desc:0 "Though Godrick claims himself a demigod, in truth what divine blood he has is greatly diluted. By far the weakest of any of the pretenders to the title of Elden Lord, Godrick relies on the cruel practice of grafting to make an attempt at reaching greater heights of power. Though Godrick may rule Stormveil Caste, he has few allies beyond those he can keep under direct watch and is regarded as little more than an arrogant upstart by the great powers of the Lands Between. \n\nWill you prove yourself worthy of being Lord of all that is Golden or will Godrick's foolish ambitions be put to rest?"
+ 
+ bookmark_ranni:0 "Ranni the Witch"
+ bookmark_ranni_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_ranni_desc:0 "The Witch who would not be a god, Ranni cast off her Empyrean flesh on the Night of the Black Knives and severed her tie to the Two Fingers in a single ritual stroke. Her doll-body sits upon Ranni's Rise, her servants can be found in all corners of the realm, her vision plain; the Elden Ring and the Dark Moon, taken far away, beyond the reach of mortal hands.\n\nThe solitude beyond the night is better hers alone. Whether the Lunar Princess shall lead the Lands Between into her cold Age of Stars, or whether her conspiracy shall be undone by other forces, she walks the dark path with fear, doubt, and solitude."
 
  #The Land of Shadows
  bookmark_miquella:0 "Miquella the Kind"
  bookmark_miquella_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
-  bookmark_miquella_desc:0 "The most beloved of all Empyreans, Miquella has abandoned everything. His golden flesh, his blinding strength, even his love and set off for the tower sealed by shadow, in pursuit of the Gate of Divinity that lies beyond it. His husk lies cradled in the bloody bedchamber of the Lord of Blood, who keeps a long and unanswered vigil for a consort who has not stirred.\n\nThe Empyrean Miquella is loved by many, and has learned very well how to compel such affection. Whether the Tender shall return as the dawn of his promised Age of Compassion, or whether his charm shall prove the most binding chain of all, the realm follows the trail of his footprints or his gravestones, depending on who one asks."
+ bookmark_miquella_desc:0 "The most beloved of all Empyreans, Miquella has abandoned everything. His golden flesh, his blinding strength, even his love and set off for the tower sealed by shadow, in pursuit of the Gate of Divinity that lies beyond it. His husk lies cradled in the bloody bedchamber of the Lord of Blood, who keeps a long and unanswered vigil for a consort who has not stirred.\n\nThe Empyrean Miquella is loved by many, and has learned very well how to compel such affection. Whether the Tender shall return as the dawn of his promised Age of Compassion, or whether his charm shall prove the most binding chain of all, the realm follows the trail of his footprints or his gravestones, depending on who one asks."
 
  bookmark_trina:0 "St. Trina"
  bookmark_trina_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
@@ -75,10 +79,6 @@
  bookmark_rennala:0 "Rennala, Queen of the Full Moon"
  bookmark_rennala_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
  bookmark_rennala_desc:0 "Though Rennala leads the great and prestigious academy of Raya Lucaria in theory, in practice she rules over little more than a library. Obsessed by the Rune of the Unborn which strangely takes the shape of an amber egg, Rennala gives no mind to the affairs of the outside world. Indeed, what little time she spends away from her rune is spent on her countless failed attempts at achieving true reincarnation. \n\nWill Rennala ever rise to be a queen once more or will she remain devoted to her research and obsessions at all costs?"
-
- bookmark_ranni:0 "Ranni the Witch"
- bookmark_ranni_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_ranni_desc:0 "The Witch who would not be a god, Ranni cast off her Empyrean flesh on the Night of the Black Knives and severed her tie to the Two Fingers in a single ritual stroke. Her doll-body sits upon Ranni's Rise, her servants can be found in all corners of the realm, her vision plain; the Elden Ring and the Dark Moon, taken far away, beyond the reach of mortal hands.\n\nThe solitude beyond the night is better hers alone. Whether the Lunar Princess shall lead the Lands Between into her cold Age of Stars, or whether her conspiracy shall be undone by other forces, she walks the dark path with fear, doubt, and solitude."
 
  bookmark_jerren:0 "Witch-Hunter Jerren"
  bookmark_jerren_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"

@@ -74,19 +74,20 @@ on_action_put_regents_in_charge = {
 				}
 				set_diarchy_swing = 100
 			}
-			character:rennala = {
-				designate_diarch = character:ranni
-				try_start_diarchy = regency		
-				set_variable = {
-					name = my_vizier
-					value = character:ranni
-				}
-				add_hook = {
-					type = loyalty_hook
-					target = character:ranni				
-				}
-				set_diarchy_swing = 100
-			}
+			###Set someone else up as a regent for rennala, since realistically ranni would have nothing to do with the running of Raya Lucaria and instead is focused on her own goals.
+			#character:rennala = {
+			#	designate_diarch = character:ranni
+			#	try_start_diarchy = regency		
+			#	set_variable = {
+			#		name = my_vizier
+			#		value = character:ranni
+			#	}
+			#	add_hook = {
+			#		type = loyalty_hook
+			#		target = character:ranni				
+			#	}
+			#	set_diarchy_swing = 100
+			#}
 			character:malenia = {
 				designate_diarch = character:loretta
 				try_start_diarchy = regency		
