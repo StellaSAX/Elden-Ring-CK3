@@ -82,6 +82,7 @@ twintwisted_trees2.dds = { colors = 2 category = elden_ring }
 ###MISC EMBLEMS###
 
 elden_text.dds = { colors = 1 category = elden_ring_misc }
+elden_lords_text.dds = { colors = 1 category = elden_ring_misc }
 misc_line.dds = { colors = 1 category = elden_ring_misc }
 misc_cross.dds = { colors = 1 category = elden_ring_misc }
 misc_scars.dds = { colors = 1 category = elden_ring_misc }
@@ -105,6 +106,9 @@ sharp_mountain.dds = { colors = 1 category = elden_ring_misc }
 sharp_mountain2.dds = { colors = 2 category = elden_ring_misc }
 skull.dds = { colors = 1 category = elden_ring_misc }
 skull2.dds = { colors = 1 category = elden_ring_misc }
+decoration1.dds = { colors = 1 category = elden_ring_misc }
+decoration2.dds = { colors = 1 category = elden_ring_misc }
+decoration3.dds = { colors = 1 category = elden_ring_misc }
 
 ###GIGAFUNNY###
 
@@ -121,3 +125,6 @@ soviet_star.dds = { colors = 2 category = fun_emblems }
 tomato.dds = { colors = 3 category = fun_emblems }
 ainz_ooal_gown.dds = { colors = 1 category = fun_emblems }
 slane_theocracy.dds = { colors = 1 category = fun_emblems }
+re_estize.dds = { colors = 1 category = fun_emblems }
+roble.dds = { colors = 1 category = fun_emblems }
+draudillion.dds = { colors = 1 category = fun_emblems }
