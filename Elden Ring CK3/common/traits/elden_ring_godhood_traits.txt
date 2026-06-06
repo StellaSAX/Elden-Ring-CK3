@@ -4,24 +4,13 @@
 	shown_in_ruler_designer = no
 	ruler_designer_cost = 1337
 	
-	clergy_opinion = 10
-	zealot_opinion = 10
-	vassal_opinion = 10
-	opinion_of_different_faith = -20
-	
-	ai_war_chance = -100
-	ai_war_cooldown = -100
-	ai_amenity_spending = -0.25
-	ai_amenity_target_baseline = -0.4
-	monthly_legitimacy_add = 5
-	men_at_arms_maintenance = -0.75
+	legitimacy_gain_mult = 1
+	men_at_arms_maintenance = -0.25
 	negate_health_penalty_add = 5
 	negate_prowess_penalty_add = 50
-	health = 10
 	no_prowess_loss_from_age = yes
-	ai_greed = very_high_positive_ai_value
-	ai_energy = very_high_positive_ai_value
-	ai_boldness = high_positive_ai_value
+	monthly_piety_gain_mult = 0.5
+	monthly_prestige_gain_mult = 0.25
 	
 	life_expectancy = 99999
 	years_of_fertility = 99999
@@ -29,13 +18,27 @@
 	immortal = yes
 	set_immortal_age = 25
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 20
-	fertility = -0.2
+	diplomacy_mult = 1
+	martial_mult = 1
+	stewardship_mult = 1
+	intrigue_mult = 1
+	learning_mult = 1
+	prowess_mult = 1
+	health = 10
+	
+	dynasty_opinion = 10
+	same_culture_opinion = 10
+	same_faith_opinion = 20
+	opinion_of_different_faith = -20
+	
+	ai_war_chance = -100
+	ai_war_cooldown = -100
+	ai_amenity_spending = -0.25
+	ai_amenity_target_baseline = -0.4
+	
+	ai_greed = very_high_positive_ai_value
+	ai_energy = very_high_positive_ai_value
+	ai_boldness = high_positive_ai_value
 }
 
 demigod_elden_ring_4 = {
@@ -43,19 +46,28 @@ demigod_elden_ring_4 = {
 	icon = "demigod_tier4.dds"
 	#shown_in_ruler_designer = no
 	ruler_designer_cost = 800
+	
 	#immortal = yes
 	#set_immortal_age = 25
+	
 	life_expectancy = 99999
 	years_of_fertility = 99999
+	
+	legitimacy_gain_mult = 0.75
 	negate_health_penalty_add = 5
 	negate_prowess_penalty_add = 20
-	health = 10
-	fertility = -0.2
 	no_prowess_loss_from_age = yes
+	
+	diplomacy_mult = 0.5
+	martial_mult = 0.5
+	stewardship_mult = 0.5
+	intrigue_mult = 0.5
+	learning_mult = 0.5
+	prowess_mult = 0.5
+	health = 10
 	
 	ai_greed = very_high_positive_ai_value
 	ai_energy = very_high_positive_ai_value
-	###genetic = yes #i am commenting this becouse the blood is not being inherited
 	ai_boldness = high_positive_ai_value
 	
 	opposites = {
@@ -70,19 +82,28 @@ demigod_elden_ring_3 = {
 	icon = "demigod_tier3.dds"
 	#shown_in_ruler_designer = no
 	ruler_designer_cost = 600
+	
 	#immortal = yes
 	#set_immortal_age = 25
+	
 	life_expectancy = 99999
 	years_of_fertility = 99999
+	
+	legitimacy_gain_mult = 0.5
 	negate_health_penalty_add = 4
 	negate_prowess_penalty_add = 15
-	health = 8
-	fertility = -0.2
 	no_prowess_loss_from_age = yes
+	
+	diplomacy_mult = 0.35
+	martial_mult = 0.35
+	stewardship_mult = 0.35
+	intrigue_mult = 0.35
+	learning_mult = 0.35
+	prowess_mult = 0.35
+	health = 8
 	
 	ai_greed = very_high_positive_ai_value
 	ai_energy = very_high_positive_ai_value
-	##genetic = yes #i am commenting this becouse the blood is not being inherited
 	ai_boldness = high_positive_ai_value
 	
 	opposites = {
@@ -97,19 +118,28 @@ demigod_elden_ring_2 = {
 	icon = "demigod_tier2.dds"
 	#shown_in_ruler_designer = no
 	ruler_designer_cost = 400
+	
 	#immortal = yes
 	#set_immortal_age = 25
+	
 	life_expectancy = 99999
 	years_of_fertility = 99999
+	
+	legitimacy_gain_mult = 0.25
 	negate_health_penalty_add = 3
 	negate_prowess_penalty_add = 10
-	health = 6
-	fertility = -0.2
 	no_prowess_loss_from_age = yes
+	
+	diplomacy_mult = 0.2
+	martial_mult = 0.2
+	stewardship_mult = 0.2
+	intrigue_mult = 0.2
+	learning_mult = 0.2
+	prowess_mult = 0.2
+	health = 6
 	
 	ai_greed = very_high_positive_ai_value
 	ai_energy = very_high_positive_ai_value
-	##genetic = yes #i am commenting this becouse the blood is not being inherited
 	ai_boldness = high_positive_ai_value
 	
 	opposites = {
@@ -124,19 +154,28 @@ demigod_elden_ring_1 = {
 	icon = "demigod_tier1.dds"
 	#shown_in_ruler_designer = no
 	ruler_designer_cost = 200
+	
 	#immortal = yes
 	#set_immortal_age = 25
+	
 	life_expectancy = 99999
 	years_of_fertility = 99999
+	
+	legitimacy_gain_mult = 0.1
 	negate_health_penalty_add = 2
 	negate_prowess_penalty_add = 5
-	health = 4
-	fertility = -0.2
 	no_prowess_loss_from_age = yes
+	
+	diplomacy_mult = 0.05
+	martial_mult = 0.05
+	stewardship_mult = 0.05
+	intrigue_mult = 0.05
+	learning_mult = 0.05
+	prowess_mult = 0.05
+	health = 4
 	
 	ai_greed = very_high_positive_ai_value
 	ai_energy = very_high_positive_ai_value
-	##genetic = yes #i am commenting this becouse the blood is not being inherited
 	ai_boldness = high_positive_ai_value
 	
 	opposites = {
@@ -151,21 +190,25 @@ empyrean_elden_ring = {
 	icon = "empyrean.dds"
 	shown_in_ruler_designer = no
 	ruler_designer_cost = 500
-	flag = conqueror_bonuses_modifier
-
-	ai_war_chance = -100
-	ai_war_cooldown = -100
 	
-	# ai_greed = very_high_positive_ai_value
-	# ai_energy = very_high_positive_ai_value
-	# ai_boldness = very_high_positive_ai_value
+	legitimacy_gain_mult = 0.5
+	monthly_piety_gain_mult = 0.25
+	monthly_prestige_gain_mult = 0.25
 
 	diplomacy = 2
 	martial = 2
 	stewardship = 2
 	intrigue = 2
 	learning = 2
-	prowess = 5
+	
+	same_faith_opinion = 10
+	
+	ai_war_chance = -100
+	ai_war_cooldown = -100
+	
+	#ai_greed = very_high_positive_ai_value
+	#ai_energy = very_high_positive_ai_value
+	#ai_boldness = very_high_positive_ai_value
 }
 
 eternal_youth_elden_ring = {

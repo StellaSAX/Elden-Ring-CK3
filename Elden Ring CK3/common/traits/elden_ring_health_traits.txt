@@ -114,12 +114,12 @@ crucified_erdtree = {
 	monthly_merit_mult = -1.0
 	diplomatic_range_mult = -1.0
 	
-	diplomacy_mult = -1
-	stewardship_mult = -1
-	intrigue_mult = -1
-	learning_mult = -1
-	martial_mult = -1
-	prowess_mult = -1
+	diplomacy_mult = -10
+	stewardship_mult = -10
+	intrigue_mult = -10
+	learning_mult = -10
+	martial_mult = -10
+	prowess_mult = -10
 	
 	flag = can_not_marry
 	
