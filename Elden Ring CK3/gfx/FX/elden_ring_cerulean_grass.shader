@@ -294,11 +294,11 @@ PixelShader =
 			float2 WarpedPos = WorldSpacePos.xz + Warp * 50.0f;
 
 			float TerrainNoise = FBM(WarpedPos);
-			TerrainNoise = smoothstep(0.55f, 0.85f, TerrainNoise);
+			TerrainNoise = smoothstep(0.35f, 0.95f, TerrainNoise);
 
 			float PulseA = 0.5f + 0.5f * sin(GlobalTime * 0.74f + TerrainNoise * 12.0f);
 			float PulseB = 0.5f + 0.5f * sin(GlobalTime * 1.66f + TerrainNoise * 31.0f);
-			float Drift = 0.5f + 0.5f * sin(GlobalTime * 0.10f + TerrainNoise * 120.0f);
+			float Drift = 0.5f + 0.5f * sin(GlobalTime * 0.05f + TerrainNoise * 120.0f);
 			float CombinedPulse = PulseA * PulseB * Drift;
 
 			float Spark = pow(saturate(sin(GlobalTime * 0.15f + TerrainNoise * 500.0f)), 20.0f);
