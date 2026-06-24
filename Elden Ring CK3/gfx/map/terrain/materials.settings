@@ -1163,6 +1163,14 @@
 		id       = "gen_mediterranean_mountain_transition"
 		sort_order = 8
 	}
+	{
+		name     = "cerulean_coast_01"
+		diffuse  = "cerulean_coast_01_diffuse.dds"
+		normal   = "cerulean_coast_01_normal.dds"
+		material = "cerulean_coast_01_properties.dds"
+		mask     = "masks/cerulean_coast_01_mask.png"
+		id       = "cerulean_coast_01"
+	}
 }
 
 # unmasked textures
