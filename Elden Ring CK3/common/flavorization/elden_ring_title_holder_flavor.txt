@@ -39,7 +39,7 @@ crusader_m = {
 	gender = male
 	tier = kingdom
 	priority = 50
-	religions = { faith_messmer }
+	faiths = { faith_messmer }
 	titles = { k_messmer_army }
 }
 
@@ -48,7 +48,7 @@ crusader_f = {
 	gender = female
 	tier = kingdom
 	priority = 50
-	religions = { faith_messmer }
+	faiths = { faith_messmer }
 	titles = { k_messmer_army }
 }
 

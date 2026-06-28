@@ -22,15 +22,15 @@
  building_type_lake_of_rot_01_desc:0 "A massive lake filled to the brim with Scarlet Rot infested water, a symbol of the God of Rot."
  building_type_lake_of_rot_desc:0 "A massive lake filled to the brim with Scarlet Rot infested water, a symbol of the God of Rot."
 
- building_type_placidusax_throne: "$building_placidusax_throne"
- building_type_placidusax_throne_desc: "$building_placidusax_throne_desc"
+ building_type_placidusax_throne: "$building_placidusax_throne$"
+ building_type_placidusax_throne_desc: "$building_placidusax_throne_desc$"
  building_placidusax_throne_01: "Throne of Palcidusax"
  building_placidusax_throne_desc_01: "Here, at the heart of Farum Azula, stands the great seat of Dragonlord Palcidusax. Though, like the rest of the ancient city, it fell into disrepair, it may one day once more be a seat worthy of a king - or perhaps even a god."
 
- building_type_dragon_temple: "$building_dragon_temple"
- building_type_dragon_temple_desc: "$building_dragon_temple_desc"
+ building_type_dragon_temple: "$building_dragon_temple$"
+ building_type_dragon_temple_desc: "$building_dragon_temple_desc$"
  building_dragon_temple_01: "Dragon Temple"
  building_dragon_temple_desc_01: "The great and ancient Dragon Temple of Farum Azula is one of the best preserved areas of the ancient city. Though its ancient use has been lost to history, it may yet be repaired and reclaim its place as the greatest temple of the Lands Between." 
 
- building_type_farum_azula_southern_wall_01: "$building_farum_azula_southern_wall"
- building_type_farum_azula_southern_wall_desc_01: "$building_farum_azula_southern_wall_desc"
+ building_type_farum_azula_southern_wall_01: "$building_farum_azula_southern_wall$"
+ building_type_farum_azula_southern_wall_desc_01: "$building_farum_azula_southern_wall_desc$"

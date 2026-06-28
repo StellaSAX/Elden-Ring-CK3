@@ -94,8 +94,8 @@ restore_raya_lucaria_decision = {
 					has_cultural_tradition = tradition_fp3_beacon_of_learning_name
 					has_cultural_tradition = tradition_philosopher_culture
 				}
-			add = 30
 			}
+			add = 30
 		}
 		modifier = {
 			culture = {

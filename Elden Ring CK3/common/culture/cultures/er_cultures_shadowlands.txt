@@ -1,4 +1,4 @@
-cul_shadowlander = {
+﻿cul_shadowlander = {
 	color = { 0.72 0.6 0.4 }
 	parents = { cul_landsbetween } #This culture is the mix of all the ones that accompanied Messmer, not Messmer himself. From altus, liurnia and anywhere else, who knows, i imagine a lot of people from all over the lands between. I put their common ancestor as their parent.
 	history_loc_override = mixed_leyndell_shadowlander_loc

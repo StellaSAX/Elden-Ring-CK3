@@ -16,7 +16,7 @@
 	years_of_fertility = 99999
 	
 	immortal = yes
-	set_immortal_age = 25
+	#set_immortal_age = 25
 	
 	diplomacy_mult = 1
 	martial_mult = 1

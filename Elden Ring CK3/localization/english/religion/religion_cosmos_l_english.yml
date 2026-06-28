@@ -11,7 +11,7 @@
  faith_academy_adherent_plural:0 "Lucarian Scholars"
  faith_academy_desc:0 "The Academy of Raya Lucaria institutionalized sorcery and primarially pursues the study of glintstone, founded by the primeval sorcerers Azur and Lusat. Later, Queen Rennala would become the Academy's master and would heavily limit the study of the primeval current and exiled Azur and Lusat."
 
- faith_primeval:0 "Primeval Current"
+ faith_primeval_current:0 "Primeval Current"
  faith_primeval_adj:0 "Primeval"
  faith_primeval_adherent:0 "Primeval Sorcerer"
  faith_primeval_adherent_plural:0 "Primeval Sorcerers"

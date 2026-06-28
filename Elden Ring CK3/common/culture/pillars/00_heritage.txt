@@ -1,4 +1,4 @@
-heritage_lands_between = {
+﻿heritage_lands_between = {
 	type = heritage
 	is_shown = {
 		heritage_is_shown_trigger = {

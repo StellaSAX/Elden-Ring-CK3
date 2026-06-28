@@ -1,4 +1,4 @@
-language_lands_between = {
+﻿language_lands_between = {
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {

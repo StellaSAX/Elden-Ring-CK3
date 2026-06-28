@@ -33,7 +33,7 @@
 	#cooldown = { years = 5 }
 	cooldown = { months = 5 }
 	
-	ai_check_interval = { 50 }
+	ai_check_interval = 50
 
 
 	effect = {
@@ -91,7 +91,7 @@ gain_trait_black_assassin = {
 	#cooldown = { years = 5 }
 	cooldown = { months = 5 }
 	
-	ai_check_interval = { 50 }
+	ai_check_interval = 50
 
 
 	effect = {
@@ -147,7 +147,7 @@ gain_trait_godskin_apostle = {
 	#cooldown = { years = 5 }
 	cooldown = { months = 5 }
 	
-	ai_check_interval = { 50 }
+	ai_check_interval = 50
 
 
 	effect = {
@@ -198,7 +198,7 @@ gain_trait_fire_monk = {
 	#cooldown = { years = 5 }
 	cooldown = { months = 5 }
 	
-	ai_check_interval = { 50 }
+	ai_check_interval = 50
 
 
 	effect = {
@@ -252,7 +252,7 @@ gain_trait_snow_witch = {
 	#cooldown = { years = 5 }
 	cooldown = { months = 5 }
 	
-	ai_check_interval = { 50 }
+	ai_check_interval = 50
 
 
 	effect = {
@@ -300,7 +300,7 @@ gain_trait_sanguine_noble = {
 	#cooldown = { years = 5 }
 	cooldown = { months = 5 }
 	
-	ai_check_interval = { 50 }
+	ai_check_interval = 50
 
 
 	effect = {
@@ -351,7 +351,7 @@ become_lord_of_blood = {
 	#cooldown = { years = 5 }
 	cooldown = { months = 5 }
 	
-	ai_check_interval = { 50 }
+	ai_check_interval = 50
 
 
 	effect = {
@@ -397,7 +397,7 @@ gain_nickname_elden_ring = {
 	#cooldown = { years = 5 }
 	cooldown = { months = 5 }
 	
-	ai_check_interval = { 0 }
+	ai_check_interval = 0
 
 
 	effect = {

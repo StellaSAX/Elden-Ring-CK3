@@ -7,10 +7,10 @@ hunt_animal_elk_region = { }
 material_woods_pine_and_fir = { }
 hunt_animal_aurochs_region = { }
 region_cerulean_coast = {
-	kingdoms = {  k_cerulean_coast }
+	kingdoms = { k_cerulean_coast }
 }
 region_belurat = {
-	kingdoms = {  k_belurat }
+	kingdoms = { k_belurat }
 }
 hunt_animal_deer_region = { }
 hunt_animal_reindeer_region = { }
@@ -25,7 +25,7 @@ material_metal_wootz = { }
 material_wood_elm = { }
 material_wood_walnut = { }
 region_royal_capital = {
-	kingdoms = {  k_leyndell }
+	kingdoms = { k_leyndell }
 }
 material_wood_yew = { }
 material_woods_ebony = { }
@@ -35,46 +35,46 @@ material_woods_padauk = { }
 material_woods_sri_lanka = { }
 material_woods_subsaharan = { }
 region_abyssal_woods = {
-	kingdoms = {  k_abyssal_woods }
+	kingdoms = { k_abyssal_woods }
 }
 region_altus = {
-	kingdoms = {  k_altus_plateau }
+	kingdoms = { k_altus_plateau }
 }
 region_caria = {
-	kingdoms = {  k_caria }
+	kingdoms = { k_caria }
 }
 region_dragonbarrow = {
-	kingdoms = {  k_dragonbarrow }
+	kingdoms = { k_dragonbarrow }
 }
 region_gelmir = {
-	kingdoms = {  k_gelmir }
+	kingdoms = { k_gelmir }
 }
 region_gianttops = {
-	kingdoms = {  k_giattops }
+	kingdoms = { k_giattops }
 }
 region_jagged_peak = {
-	kingdoms = {  k_jagged_peak }
+	kingdoms = { k_jagged_peak }
 }
 region_rauh = {
-	kingdoms = {  k_rauh }
+	kingdoms = { k_rauh }
 }
 region_rayalucaria = {
-	kingdoms = {  k_rayalucaria }
+	kingdoms = { k_rayalucaria }
 }
 region_red_wastes = {
-	kingdoms = {  k_redmane }
+	kingdoms = { k_redmane }
 }
 region_scadu_altus = {
-	kingdoms = {  k_scadu_altus }
+	kingdoms = { k_scadu_altus }
 }
 region_snowfields = {
-	kingdoms = {  k_snowfields }
+	kingdoms = { k_snowfields }
 }
 region_stormveil = {
-	kingdoms = {  k_stormveil }
+	kingdoms = { k_stormveil }
 }
 region_weeping_peninsula = {
-	kingdoms = {  k_weeping_peninsula }
+	kingdoms = { k_weeping_peninsula }
 }
 sea_ainsel_sea = { }
 sea_farum_sea = { }
@@ -84,72 +84,132 @@ sea_shadowland_sea = { }
 sea_siofra_sea = { }
 sea_south_sea = { }
 world_ainsel = {
-	kingdoms = {  k_ainsel }
+	kingdoms = { k_ainsel }
 }
 world_caelid = {
-	kingdoms = {   k_redmane k_dragonbarrow }
+	kingdoms = { k_redmane k_dragonbarrow }
 }
 world_deeproot = {
-	kingdoms = {  k_deeproot_depths }
+	kingdoms = { k_deeproot_depths }
 }
 world_farum_azula = {
-	kingdoms = {  k_farum_azula }
+	kingdoms = { k_farum_azula }
 }
 world_haligtree = {
-	kingdoms = {  k_haligtree }
+	kingdoms = { k_haligtree }
 }
 world_lands_between = {
-	kingdoms = {  k_leyndell k_stormveil k_snowfields k_weeping_peninsula k_rayalucaria k_redmane k_giattops k_gelmir k_altus_plateau k_caria k_dragonbarrow k_deeproot_depths k_haligtree }
+	kingdoms = { k_leyndell k_stormveil k_snowfields k_weeping_peninsula k_rayalucaria k_redmane k_giattops k_gelmir k_altus_plateau k_caria k_dragonbarrow k_deeproot_depths k_haligtree }
 }
 world_leyndell = {
-	kingdoms = {    k_leyndell k_altus_plateau k_gelmir }
+	kingdoms = { k_leyndell k_altus_plateau k_gelmir }
 }
 world_limgrave = {
-	kingdoms = {   k_stormveil k_weeping_peninsula }
+	kingdoms = { k_stormveil k_weeping_peninsula }
 }
 world_liurnia = {
-	kingdoms = {   k_rayalucaria k_caria }
+	kingdoms = { k_rayalucaria k_caria }
 }
 world_mountaintops = {
-	kingdoms = {   k_giattops k_snowfields }
+	kingdoms = { k_giattops k_snowfields }
 }
 world_shadowland = {
-	kingdoms = {       k_belurat k_scadu_altus k_rauh k_jagged_peak k_cerulean_coast k_abyssal_woods }
+	kingdoms = { k_belurat k_scadu_altus k_rauh k_jagged_peak k_cerulean_coast k_abyssal_woods }
 }
 world_siofra = {
-	kingdoms = {  k_siofra }
+	kingdoms = { k_siofra }
 }
 material_cloth_no_silk = {
-	regions = {  world_deeproot }
+	regions = { world_deeproot }
 }
 material_hsb_ivory_native = {
-	regions = {  world_deeproot }
-}
-graphical_western = {
-	regions = {  region_weeping_peninsula region_stormveil region_red_wastes region_dragonbarrow region_rayalucaria region_caria region_altus region_royal_capital region_gelmir region_gianttops region_snowfields world_haligtree world_deeproot region_scadu_altus region_rauh region_jagged_peak region_belurat region_cerulean_coast region_abyssal_woods }
+	regions = { world_deeproot }
 }
 material_hsb_camel_bone = {
-	regions = {   world_liurnia world_deeproot }
+	regions = { world_liurnia world_deeproot }
 }
 material_hsb_ivory_imported = {
-	regions = {  world_liurnia }
+	regions = { world_liurnia }
 }
 material_hsb_mother_of_pearl = {
-	regions = {  world_liurnia }
+	regions = { world_liurnia }
 }
 material_hsb_seashell = {
-	regions = {  world_liurnia }
+	regions = { world_liurnia }
 }
 material_hsb_tortoiseshell = {
-	regions = {  world_liurnia }
+	regions = { world_liurnia }
 }
 material_woods_mediterranean = {
-	regions = {  world_liurnia }
+	regions = { world_liurnia }
 }
 dlc_ep1_north_africa_trade_region = {
-	regions = {  world_mountaintops }
-}
-graphical_mediterranean = {
-	regions = {    world_farum_azula world_siofra world_ainsel }
+	regions = { world_mountaintops }
 }
 
+# GRAPHICAL REGIONS
+graphical_western = {
+	graphical = yes
+	color = { 255 0 0 }
+	regions = {
+		region_weeping_peninsula
+		region_stormveil
+		region_red_wastes
+		region_dragonbarrow
+		region_rayalucaria
+		region_caria
+		region_altus
+		region_royal_capital
+		region_gelmir
+		region_gianttops
+		region_snowfields
+		world_haligtree
+		world_deeproot
+		region_scadu_altus
+		region_rauh
+		region_jagged_peak
+		region_belurat
+		region_cerulean_coast
+		region_abyssal_woods
+	}
+}
+
+graphical_mena = {
+	graphical = yes
+	color = { 255 255 0 }
+	regions = {}
+}
+
+graphical_india = {
+	graphical = yes
+	color = { 0 255 0 }
+	regions = {}
+}
+
+graphical_mediterranean = {
+	graphical = yes
+	color = { 0 0 255 }
+	regions = {
+		world_farum_azula
+		world_siofra
+		world_ainsel
+	}
+}
+
+graphical_steppe = {
+	graphical = yes
+	color = { 0 255 255 }
+	regions = {}
+}
+
+graphical_siberia = {
+	graphical = yes
+	color = { 0 255 155 }
+	regions = {}
+}
+
+graphical_east_asia = {
+	graphical = yes
+	color = { 155 255 155 }
+	regions = {}
+}

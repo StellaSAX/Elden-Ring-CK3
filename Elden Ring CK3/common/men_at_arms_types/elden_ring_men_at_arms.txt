@@ -73,7 +73,7 @@ lordsworn_knight = {
 		reference = knight_infantry
 	}
 	
-	icon = knight_infantry
+	# icon = knight_infantry
 }
 
 #LIMGRAVE FACTION
@@ -127,7 +127,7 @@ godrick_footsoldier = {
 		reference = godrick_footsoldier
 	}
 	
-	icon = skirmishers
+	# icon = skirmishers
 }
 
 godrick_soldier = {
@@ -184,7 +184,7 @@ godrick_soldier = {
 		reference = godrick_soldier
 	}
 	
-	icon = heavy_infantry
+	# icon = heavy_infantry
 }
 
 godrick_knight = {
@@ -243,7 +243,7 @@ godrick_knight = {
 		reference = godrick_knight
 	}
 	
-	icon = godrick_knight
+	# icon = godrick_knight
 }
 
 #CAELID FACTION
@@ -297,7 +297,7 @@ redmane_footsoldier = {
 		reference = redmane_footsoldier
 	}
 	
-	icon = skirmishers
+	# icon = skirmishers
 }
 
 redmane_soldier = {
@@ -354,7 +354,7 @@ redmane_soldier = {
 		reference = redmane_soldier
 	}
 	
-	icon = heavy_infantry
+	# icon = heavy_infantry
 }
 
 redmane_knight = {
@@ -413,7 +413,7 @@ redmane_knight = {
 		reference = redmane_knight
 	}
 	
-	icon = redmane_knight
+ 	# icon = redmane_knight
 }
 
 #CARIAN FACTION
@@ -467,7 +467,7 @@ rayalucaria_footsoldier = {
 		reference = rayalucaria_footsoldier
 	}
 	
-	icon = skirmishers
+ 	# icon = skirmishers
 }
 
 rayalucaria_soldier = {
@@ -524,7 +524,7 @@ rayalucaria_soldier = {
 		reference = rayalucaria_soldier
 	}
 	
-	icon = heavy_infantry
+ 	# icon = heavy_infantry
 }
 
 cuckoo_knight = {
@@ -583,7 +583,7 @@ cuckoo_knight = {
 		reference = cuckoo_knight
 	}
 	
-	icon = cuckoo_knight
+ 	# icon = cuckoo_knight
 }
 
 troll_knight = {
@@ -621,7 +621,7 @@ troll_knight = {
 		reference = troll_knight
 	}
 	
-	icon = troll
+ 	# icon = troll
 }
 
 glintstone_miner = {
@@ -652,7 +652,7 @@ glintstone_miner = {
 		reference = glintstone_miner
 	}
 	
-	icon = glintstone_miner
+ 	# icon = glintstone_miner
 }
 
 carian_battlemage = {
@@ -691,7 +691,7 @@ carian_battlemage = {
 		reference = carian_battlemage
 	}
 	
-	icon = sorcerer
+ 	# icon = sorcerer
 }
 
 lazuli_sorcerer = {
@@ -726,7 +726,7 @@ lazuli_sorcerer = {
 		reference = lazuli_sorcerer
 	}
 	
-	icon = sorcerer
+ 	# icon = sorcerer
 }
 
 #GELMIR FACTION
@@ -780,7 +780,7 @@ gelmir_footsoldier = {
 		reference = gelmir_footsoldier
 	}
 	
-	icon = skirmishers
+ 	# icon = skirmishers
 }
 
 gelmir_soldier = {
@@ -837,7 +837,7 @@ gelmir_soldier = {
 		reference = gelmir_soldier
 	}
 	
-	icon = heavy_infantry
+ 	# icon = heavy_infantry
 }
 
 gelmir_knight = {
@@ -896,7 +896,7 @@ gelmir_knight = {
 		reference = gelmir_knight
 	}
 	
-	icon = gelmir_knight
+ 	# icon = gelmir_knight
 }
 
 #LEYNDELL FACTION
@@ -950,7 +950,7 @@ leyndell_footsoldier = {
 		reference = leyndell_footsoldier
 	}
 	
-	icon = skirmishers
+ 	# icon = skirmishers
 }
 
 leyndell_soldier = {
@@ -993,7 +993,7 @@ leyndell_soldier = {
 		reference = leyndell_soldier
 	}
 	
-	icon = heavy_infantry
+ 	# icon = heavy_infantry
 }
 
 leyndell_knight = {
@@ -1038,7 +1038,7 @@ leyndell_knight = {
 		reference = leyndell_knight
 	}
 	
-	icon = leyndell_knight
+ 	# icon = leyndell_knight
 }
 
 tree_sentinel = {
@@ -1081,7 +1081,7 @@ tree_sentinel = {
 		reference = tree_sentinel
 	}
 	
-	icon = tree_sentinel
+ 	# icon = tree_sentinel
 }
 
 #HALIGTREE FACTION
@@ -1135,7 +1135,7 @@ haligtree_footsoldier = {
 		reference = haligtree_footsoldier
 	}
 	
-	icon = skirmishers
+ 	# icon = skirmishers
 }
 
 haligtree_soldier = {
@@ -1192,7 +1192,7 @@ haligtree_soldier = {
 		reference = haligtree_soldier
 	}
 	
-	icon = heavy_infantry
+ 	# icon = heavy_infantry
 }
 
 haligtree_knight = {
@@ -1251,7 +1251,7 @@ haligtree_knight = {
 		reference = haligtree_knight
 	}
 	
-	icon = haligtree_knight
+ 	# icon = haligtree_knight
 }
 
 #HORNSENT FACTION
@@ -1291,7 +1291,7 @@ horned_warrior = {
 		reference = horned_warrior
 	}
 	
-	icon = heavy_infantry
+ 	# icon = heavy_infantry
 }
 
 divine_bird_warrior = {
@@ -1333,7 +1333,7 @@ divine_bird_warrior = {
 		reference = divine_bird_warrior
 	}
 	
-	icon = heavy_infantry
+ 	# icon = heavy_infantry
 }
 
 hornsent_inquisitor = {
@@ -1376,7 +1376,7 @@ hornsent_inquisitor = {
 		reference = hornsent_inquisitor
 	}
 	
-	icon = sorcerer
+ 	# icon = sorcerer
 }
 
 hornsent_curseblade = {
@@ -1415,7 +1415,7 @@ hornsent_curseblade = {
 		reference = hornsent_curseblade
 	}
 	
-	icon = skirmishers
+ 	# icon = skirmishers
 }
 
 #UNDEAD FACTION
@@ -1458,7 +1458,7 @@ skeletal_militiaman = {
 		reference = skeletal_militiaman
 	}
 	
-	icon = undead_skeleton
+ 	# icon = undead_skeleton
 }
 
 skeletal_crossbowman = {
@@ -1504,9 +1504,9 @@ skeletal_crossbowman = {
 		reference = skeletal_crossbowman
 	}
 
-	illustration = {
-		reference = undead_skeleton
-	}
+	#illustration = {
+	#	reference = undead_skeleton
+	#}
 }
 
 grave_warden = {
@@ -1553,7 +1553,7 @@ grave_warden = {
 		reference = grave_warden
 	}
 	
-	icon = undead_skeleton
+ 	# icon = undead_skeleton
 }
 
 skeletal_bandit = {
@@ -1601,7 +1601,7 @@ skeletal_bandit = {
 		reference = skeletal_bandit
 	}
 	
-	icon = undead_skeleton
+ 	# icon = undead_skeleton
 }
 
 skeletal_knight = {
@@ -1649,7 +1649,7 @@ skeletal_knight = {
 		reference = skeletal_knight
 	}
 	
-	icon = undead_skeleton
+ 	# icon = undead_skeleton
 }
 
 skeletal_executioner = {
@@ -1698,7 +1698,7 @@ skeletal_executioner = {
 		reference = skeletal_executioner
 	}
 	
-	icon = undead_skeleton
+ 	# icon = undead_skeleton
 }
 
 giant_skeleton = {
@@ -1748,7 +1748,7 @@ giant_skeleton = {
 		reference = giant_skeleton
 	}
 	
-	icon = undead_skeleton
+ 	# icon = undead_skeleton
 }
 
 #OTHER
@@ -1787,7 +1787,7 @@ banished_knights = {
 		reference = banished_knight
 	}
 
-	icon = banished_knight
+ 	# icon = banished_knight
 }
 
 #DLC RESHUFFLED
@@ -1827,5 +1827,5 @@ rocket_carts = {
 
 	stack = 50
 	ai_quality = { value = @[cultural_maa_extra_ai_score + 200] }
-	icon = hwacha
+ 	icon = hwacha
 }

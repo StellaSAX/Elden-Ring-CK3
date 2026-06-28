@@ -3,7 +3,6 @@
 @smLysY = 0.26
 
 dynn_erdtree={
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 20 23 28 }
 	color2=yellow
@@ -22,7 +21,6 @@ dynn_erdtree={
 }
 
 dynn_caria={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 30 50 116 }
 	color2=yellow
@@ -40,7 +38,6 @@ dynn_caria={
 }
 
 dynn_loux={
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 108 101 87 }
 	color2=orange
@@ -74,7 +71,6 @@ dynn_loux={
 }
 
 dynn_haight={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 78 117 82 }
 	color2=white
@@ -115,7 +111,6 @@ dynn_haight={
 }
 
 dynn_slumber={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 36 23 49 }
 	color2=white
@@ -132,7 +127,6 @@ dynn_slumber={
 }
 
 dynn_jagged={
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=black
 	color2=yellow
@@ -172,7 +166,6 @@ dynn_jagged={
 }
 
 dynn_farum={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=yellow_light
 	color2=yellow
@@ -223,7 +216,6 @@ dynn_farum={
 }
 
 dynn_morne={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=blue
 	color2=yellow
@@ -304,7 +296,6 @@ dynn_morne={
 }
 
 dynn_briar={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 74 26 20 }
 	color2=white
@@ -369,7 +360,6 @@ dynn_briar={
 }
 
 dynn_marais={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=green
 	color2=yellow
@@ -425,7 +415,6 @@ dynn_marais={
 }
 
 dynn_ofnir={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 54 49 52 }
 	color2=yellow
@@ -443,7 +432,6 @@ dynn_ofnir={
 }
 
 dynn_stormveil={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 36 37 19 }
 	color2=yellow
@@ -460,7 +448,6 @@ dynn_stormveil={
 }
 
 dynn_aeonia={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 69 19 25 }
 	color2=white
@@ -479,7 +466,6 @@ dynn_aeonia={
 }
 
 dynn_beast={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=yellow_light
 	color2=white
@@ -507,7 +493,6 @@ dynn_beast={
 }
 
 dynn_golden_order={
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=black
 	color2=yellow
@@ -526,7 +511,6 @@ dynn_golden_order={
 }
 
 house_mohgwyn_erdtree={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=black
 	color2=yellow
@@ -570,7 +554,6 @@ house_mohgwyn_erdtree={
 }
 
 house_gelmir_caria={
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 103 29 18 }
 	color2=white
@@ -589,7 +572,6 @@ house_gelmir_caria={
 }
 
 house_starscourge_caria={
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 108 12 0 }
 	color2=yellow
@@ -827,7 +809,6 @@ house_starscourge_caria={
 }
 
 house_malenia_erdtree={
-	custom=yes
 	pattern="pattern_diagonal_split_01.dds"
 	color1=blue_light
 	color2=rgb { 0 0 0 }
@@ -857,7 +838,6 @@ house_malenia_erdtree={
 }
 
 house_godrick_erdtree={
-	custom=yes
 	pattern="pattern_vertical_split_01.dds"
 	color1=green
 	color2=orange

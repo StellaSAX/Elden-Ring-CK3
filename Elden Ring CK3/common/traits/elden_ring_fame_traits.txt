@@ -1,4 +1,4 @@
-grafting = {
+﻿grafting = {
 	category = lifestyle
 	icon = "grafting_trait.dds"
 	

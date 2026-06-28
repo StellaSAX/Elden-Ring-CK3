@@ -1,4 +1,4 @@
-#GRAFTING
+﻿#GRAFTING
 doctrine_grafting_crime = {
 	piety_cost = {
 		value = faith_doctrine_cost_low

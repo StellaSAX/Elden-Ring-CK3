@@ -54,7 +54,7 @@
 
 	#cooldown = { years = 5 }
 	cooldown = { years = 1 }
-	ai_check_interval = { 24 }
+	ai_check_interval = 24
 	effect = {
 		custom_tooltip = {
 			text = becoming_dragonborn_decision_effect_1
@@ -113,7 +113,7 @@ become_empyrean_elden_ring = {
 	#cooldown = { years = 5 }
 	cooldown = { years = 1 }
 	
-	ai_check_interval = { 0 }
+	ai_check_interval = 0
 
 	effect = {
 		add_trait = empyrean_elden_ring

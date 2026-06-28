@@ -71,63 +71,64 @@ grafting_interaction = {
 	
 	on_accept = {
 		scope:actor = {
-		random_list = {
-			50 = {
-				send_interface_toast = {
-					title = grafting_people.succes
-				}
-				if = {
-					limit = {
-						scope:recipient = {
-							OR = {
-								is_demigod_elden_ring = yes
-								has_trait = ancient_dragon_elden_ring
-								has_trait = lesser_dragon_elden_ring
-								has_trait = god_elden_ring
+			random_list = {
+				50 = {
+					send_interface_toast = {
+						title = grafting_people.succes
+					}
+					if = {
+						limit = {
+							scope:recipient = {
+								OR = {
+									is_demigod_elden_ring = yes
+									has_trait = ancient_dragon_elden_ring
+									has_trait = lesser_dragon_elden_ring
+									has_trait = god_elden_ring
+								}
+								
 							}
-							
+							has_trait_xp = {
+								trait = grafting
+								value < 100
+							}
 						}
-						has_trait_xp = {
+						add_trait_xp = {
 							trait = grafting
-							value < 100
+							value = 25
 						}
 					}
-					add_trait_xp = {
-						trait = grafting
-						value = 25
+					else_if = {
+						limit = {
+							scope:recipient = {
+								prowess >= 20
+							}
+							has_trait_xp = {
+								trait = grafting
+								value < 100
+							}
+						}
+						add_trait_xp = {
+							trait = grafting
+							value = 5
+						}
+					}
+					else = {
+						limit = {
+							has_trait_xp = {
+								trait = grafting
+								value < 100
+							}
+						}
+						add_trait_xp = {
+							trait = grafting
+							value = 1
+						}
 					}
 				}
-				else_if = {
-					limit = {
-						scope:recipient = {
-							prowess >= 20
-						}
-						has_trait_xp = {
-							trait = grafting
-							value < 100
-						}
+				50 = { 
+					send_interface_toast = {
+						title = grafting_people.fail
 					}
-					add_trait_xp = {
-						trait = grafting
-						value = 5
-					}
-				}
-				else = {
-					limit = {
-						has_trait_xp = {
-							trait = grafting
-							value < 100
-						}
-					}
-					add_trait_xp = {
-						trait = grafting
-						value = 1
-					}
-				}
-			}
-			50 = { 
-				send_interface_toast = {
-					title = grafting_people.fail
 				}
 			}
 		}

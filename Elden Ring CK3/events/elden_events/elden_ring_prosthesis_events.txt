@@ -10,7 +10,7 @@ wear_prosthesis.0001 = {
     option = {
         name = wear_prosthesis_option
 
-        add_gold = -100
+        remove_short_term_gold = 100
         add_prestige = 100
 
         add_character_modifier = {
