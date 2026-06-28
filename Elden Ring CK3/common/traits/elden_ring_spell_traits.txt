@@ -914,7 +914,7 @@ sorcery_crystalian = {
 			martial = 1
 			diplomacy = 1
 			max_combat_roll = 2
-			archer_damage_mult = 0.15
+			archers_damage_mult = 0.15
 			stress_loss_per_prestige_level = 0.05
 		}
 	}

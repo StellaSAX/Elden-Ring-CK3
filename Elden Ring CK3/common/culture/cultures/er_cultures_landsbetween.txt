@@ -1,4 +1,4 @@
-cul_landsbetween = {
+﻿cul_landsbetween = {
 	color = { 0.89 0.88 0.1 }
 
 	ethos = ethos_communal

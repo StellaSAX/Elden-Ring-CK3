@@ -14,7 +14,8 @@
 	desc = visit_roundtable_hold_desc
 
 	is_shown = {
-		is_tarnished_elden_ring = yes
+		# Uncomment once scripted trigger made
+		# is_tarnished_elden_ring = yes
 	}
 
 	# is_valid = {
@@ -35,7 +36,7 @@
 	# }
 
 	ai_potential = {
-		ai_potential = { always = no }
+		always = no
 	}
 
 	ai_will_do = {

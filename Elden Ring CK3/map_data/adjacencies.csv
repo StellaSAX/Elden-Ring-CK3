@@ -5,7 +5,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2482;171;river_large;2852;-1;-1;-1;-1;Crossing in Gelmir
 2247;1611;river_large;2798;-1;-1;-1;-1;South Crossing in Chapel of Anticipation
 1273;3141;river_large;2798;-1;-1;-1;-1;North Crossing in Chapel of Anticipation
-1037;146;river_large;2958;-1;-1;-1;-1;Grand Lift of Rold
+1037;146;river_large;1267;-1;-1;-1;-1;Grand Lift of Rold
 836;258;sea;2832;-1;-1;-1;-1;Liurnia Bridge to Tower
 1859;1211;river_large;2827;-1;-1;-1;-1;Bridge to Beastial Sanctum
 2000;1362;sea;2589;-1;-1;-1;-1;Bridge to Epstein Island

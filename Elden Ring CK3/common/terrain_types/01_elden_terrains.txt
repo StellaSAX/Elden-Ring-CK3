@@ -1,4 +1,4 @@
-@provisions_cost_minimal = 25
+﻿@provisions_cost_minimal = 25
 @provisions_cost_light = 50
 @provisions_cost_medium = 80
 @provisions_cost_high = 100
@@ -15,7 +15,7 @@ bog_poison = {
 	province_modifier = {
 		supply_limit_mult = -1
 		travel_danger = wetlands_danger_value
-		attrition_mult = 0.9
+		# attrition_mult = 0.9 # Remove or replace with a province-scope modifier
 		tax_mult = -0.7
 		levy_size = -0.9
 	}

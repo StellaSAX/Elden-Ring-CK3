@@ -1,4 +1,4 @@
-cul_ancient_dragon = {
+﻿cul_ancient_dragon = {
 	color = { 0.89 0.89 0.73 }
 	history_loc_override = created_long_ago_loc
 	created = 36.8.12

@@ -153,13 +153,13 @@ on_action_give_splendor_and_remove_points = {
 		dynasty:dynn_erdtree ?= {
 			add_dynasty_prestige = -197601
 		}
-		dynn_caria ?= {
+		dynasty:dynn_caria ?= {
 			add_dynasty_prestige = -135054
 		}
-		dynn_farum ?= {
+		dynasty:dynn_farum ?= {
 			add_dynasty_prestige = -99012
 		}
-		dynn_jagged ?= {
+		dynasty:dynn_jagged ?= {
 			add_dynasty_prestige = -49446
 		}
 	}

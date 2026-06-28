@@ -170,8 +170,11 @@ dragon_events_elden_ring.0002 = { #fight a lesser dragon
 		}
 		name = dragon_events_elden_ring.0002.a
 		ai_chance = {
-			base = 100
-			martial >= 10
+			value = 0
+			if = {
+				limit = { martial >= 10 }
+				add = 100
+			}
 		}
 	}
 	
@@ -205,8 +208,11 @@ dragon_events_elden_ring.0002 = { #fight a lesser dragon
 		}
 		name = dragon_events_elden_ring.0002.b
 		ai_chance = {
-			base = 100
-			prowess >= 20
+			value = 0
+			if = {
+				limit = { prowess >= 20 }
+				add = 100
+			}
 		}
 	}
 	

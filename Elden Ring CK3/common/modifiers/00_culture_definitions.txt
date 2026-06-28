@@ -1,0 +1,4 @@
+﻿# ELDEN RING CULTURE DEFINITIONS
+#akan_opinion = {
+#	decimals = 0
+#}

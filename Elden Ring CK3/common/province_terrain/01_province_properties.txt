@@ -3144,3 +3144,5 @@
 3142 = { winter_severity_bias = 0.54 }
 3143 = { winter_severity_bias = 0.54 }
 3144 = { winter_severity_bias = 0.54 }
+3145 = { winter_severity_bias = 0.54 }
+3146 = { winter_severity_bias = 0.54 }

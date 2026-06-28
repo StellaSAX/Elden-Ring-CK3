@@ -11,6 +11,3 @@
  
  game_concept_undead:0 "Undead"
  game_concept_undead_desc:0 "Undead are spooky scary skeleton [men_at_arms|E]."
- 
- game_concept_end_date:0 "End Date"
- game_concept_end_date_desc:0 "9999 is the End Date, and upon reaching it the game will end."

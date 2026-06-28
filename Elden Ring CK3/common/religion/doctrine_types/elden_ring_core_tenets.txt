@@ -146,7 +146,7 @@ tenet_great_spiral = {
 		
 	}
 	character_modifier = {
-		same_faith_opinion = 
+		same_faith_opinion = 5
 		dread_gain_mult = 0.5
 		health = 0.25
 		

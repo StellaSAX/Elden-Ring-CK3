@@ -241,10 +241,6 @@ elden_ring_artifact_events.0002 = { #CREATE ELDEN RING
 	option = {
 		name = elden_ring_artifact_events.0002.a
 		create_artifact = {
-			set_variable = {
-				name = elden_ring_variable
-				value = yes
-			}
 			name = the_elden_ring
 			description = the_elden_ring_desc
 			template = great_rune_elden_ring

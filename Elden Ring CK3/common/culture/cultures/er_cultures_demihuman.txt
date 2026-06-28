@@ -1,4 +1,4 @@
-cul_beastman = {
+﻿cul_beastman = {
 	color = { 0.68 0.64 0.6 }
 	ethos = ethos_bellicose
 	heritage = heritage_beastman

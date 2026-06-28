@@ -1,4 +1,4 @@
-ask_dragon_cult_elden_ring_interaction = {
+﻿ask_dragon_cult_elden_ring_interaction = {
 	category = interaction_category_friendly
 	icon = alliance
 	desc = ask_dragon_cult_elden_ring_interaction_desc

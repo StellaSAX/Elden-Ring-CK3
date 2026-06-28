@@ -21,8 +21,8 @@
  shaman_religious_symbol_2:0 "$shaman_religious_symbol$" # Optional translation alt
  shaman_religious_symbol_3:0 "$shaman_religious_symbol$" # Optional translation alt
  shaman_religious_text:0 "tomes"
- shaman_religious_text_2:0 "$shaman_religious_text"
- shaman_religious_text_3:0 "$shaman_religious_text"
+ shaman_religious_text_2:0 "$shaman_religious_text$"
+ shaman_religious_text_3:0 "$shaman_religious_text$"
  shaman_religious_head_title:0 "head shaman"
  shaman_religious_head_title_name:0 "head shaman"
  shaman_devotee_male:0 "shaman"
@@ -48,9 +48,9 @@
  shaman_creator_god_name:0 "$shaman_high_god_name$"
  shaman_creator_god_name_possessive:0 "$shaman_high_god_name_possessive$"
  shaman_health_god_name:0 "$shaman_high_god_name$"
- shaman_health_god_name_possessive:0 "$shaman_high_god_name_possessive$'"
+ shaman_health_god_name_possessive:0 "$shaman_high_god_name_possessive$"
  shaman_fertility_god_name:0 "$shaman_high_god_name$"
- shaman_fertility_god_name_possessive:0 "$$shaman_high_god_name_possessive$"
+ shaman_fertility_god_name_possessive:0 "$shaman_high_god_name_possessive$"
  shaman_wealth_god_name:0 "$shaman_high_god_name$"
  shaman_wealth_god_name_possessive:0 "$shaman_high_god_name_possessive$"
  shaman_household_god_name:0 "$shaman_high_god_name$"

@@ -201,6 +201,7 @@ elden_ring_nickname_events.0001 = {
 		trigger = {
 			AND = {
 				has_trait = gravity_affinity
+			}
 		}
 		give_nickname = nick_the_starwatcher
 		ai_chance = {

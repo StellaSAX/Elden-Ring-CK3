@@ -3,7 +3,6 @@
 @smLysY = 0.26
 
 k_lord_of_blasphemy ={
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=black
 	color2=white
@@ -122,7 +121,6 @@ k_motharingia={
 }
 
 k_mohgwyn_dynasty={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=black
 	color2=yellow
@@ -161,7 +159,6 @@ k_mohgwyn_dynasty={
 }
 
 k_radahn_remnants ={
-	custom=yes
 	pattern="pattern_checkers_diagonal_01.dds"
 	color1=black
 	color2=rgb { 134 26 137 }
@@ -198,7 +195,6 @@ k_radahn_remnants ={
 }
 
 k_messmer_army={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 36 13 0 }
 	color2=white
@@ -212,7 +208,6 @@ k_messmer_army={
 }
 
 h_lands_between={
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 189 148 0 }
 	color2=rgb { 67 80 51 }
@@ -242,7 +237,6 @@ h_lands_between={
 }
 
 e_land_shadows={
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 98 72 72 }
 	color2=rgb { 67 80 51 }
@@ -272,7 +266,6 @@ e_land_shadows={
 }
 
 e_farum_azula ={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=yellow_light
 	color2=yellow
@@ -323,7 +316,6 @@ e_farum_azula ={
 }
 
 e_mountain_tops={
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 113 116 127 }
 	color2=white
@@ -362,7 +354,6 @@ e_mountain_tops={
 }
 
 e_haligtree={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 151 151 143 }
 	color2=white
@@ -380,7 +371,6 @@ e_haligtree={
 }
 
 e_leyndell={
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 189 148 0 }
 	color2=rgb { 67 80 51 }
@@ -399,7 +389,6 @@ e_leyndell={
 }
 
 e_liurnia={
-	custom=yes
 	pattern="pattern_vertical_stripes_02.dds"
 	color1=rgb { 41 28 107 }
 	color2=rgb { 130 35 22 }
@@ -430,7 +419,6 @@ e_liurnia={
 }
 
 e_caelid={
-	custom=yes
 	pattern="pattern_horizontal_stripes_01.dds"
 	color1=rgb { 131 24 24 }
 	color2=rgb { 60 9 88 }
@@ -449,7 +437,6 @@ e_caelid={
 }
 
 e_limgrave={
-	custom=yes
 	pattern="pattern_checkers_02.dds"
 	color1=orange
 	color2=green
@@ -630,7 +617,6 @@ e_limgrave={
 }
 
 k_haligtree={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 151 151 143 }
 	color2=white
@@ -648,7 +634,6 @@ k_haligtree={
 }
 
 k_leyndell={
-	custom=yes
 	pattern="pattern_vertical_stripes_02.dds"
 	color1=rgb { 149 117 48 }
 	color2=rgb { 67 80 51 }
@@ -682,7 +667,6 @@ k_leyndell={
 }
 
 k_altus_plateau={
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 149 117 48 }
 	color2=rgb { 67 80 51 }
@@ -702,7 +686,6 @@ k_altus_plateau={
 }
 
 k_gelmir={
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 93 57 30 }
 	color2=white
@@ -729,7 +712,6 @@ k_gelmir={
 }
 
 k_caria={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 30 50 116 }
 	color2=yellow
@@ -747,7 +729,6 @@ k_caria={
 }
 
 k_rayalucaria={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 62 49 121 }
 	color2=yellow
@@ -765,7 +746,6 @@ k_rayalucaria={
 }
 
 k_stormveil={
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 167 160 86 }
 	color2=white
@@ -792,7 +772,6 @@ k_stormveil={
 }
 
 k_weeping_peninsula={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 41 88 46 }
 	color2=yellow
@@ -820,7 +799,6 @@ k_weeping_peninsula={
 }
 
 k_jagged_peak={
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=black
 	color2=yellow
@@ -860,7 +838,6 @@ k_jagged_peak={
 }
 
 k_belurat={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 125 108 72 }
 	color2=yellow
@@ -896,7 +873,6 @@ k_belurat={
 }
 
 c_R68G191B143 ={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=green
 	color2=white
@@ -937,7 +913,6 @@ c_R68G191B143 ={
 }
 
 d_R229G199B117 ={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=blue
 	color2=yellow
@@ -1018,7 +993,6 @@ d_R229G199B117 ={
 }
 
 c_R106G127B189 ={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 74 26 20 }
 	color2=white
@@ -1083,7 +1057,6 @@ c_R106G127B189 ={
 }
 
 c_R248G133B56 ={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=green
 	color2=yellow
@@ -1139,7 +1112,6 @@ c_R248G133B56 ={
 }
 
 c_R252G40B131 ={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=yellow_light
 	color2=white

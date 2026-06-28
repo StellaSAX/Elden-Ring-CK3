@@ -1,4 +1,4 @@
-cul_badlands = {
+﻿cul_badlands = {
 	color = { 0.69 0.52 0.3 }
 	ethos = ethos_stoic
 	heritage = heritage_lands_between

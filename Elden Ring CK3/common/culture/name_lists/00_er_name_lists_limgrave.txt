@@ -1,4 +1,4 @@
-name_list_limgrave = {
+﻿name_list_limgrave = {
 
 	dynasty_names = {
 		"dynn_Stormshore" "dynn_Mistwood" "dynn_Mistmere" "dynn_Murkwater" "dynn_Tombsward"
