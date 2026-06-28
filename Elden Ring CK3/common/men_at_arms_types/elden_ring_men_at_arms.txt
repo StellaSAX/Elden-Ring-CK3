@@ -69,11 +69,7 @@ lordsworn_knight = {
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
 
-	illustration = {
-		reference = knight_infantry
-	}
-	
-	# icon = knight_infantry
+	icon = knight_infantry
 }
 
 #LIMGRAVE FACTION
@@ -122,12 +118,8 @@ godrick_footsoldier = {
 
 	stack = 100
 	ai_quality = { value = culture_ai_weight_skirmishers }
-
-	illustration = {
-		reference = godrick_footsoldier
-	}
 	
-	# icon = skirmishers
+	icon = godrick_footsoldier
 }
 
 godrick_soldier = {
@@ -179,12 +171,8 @@ godrick_soldier = {
 		value = culture_ai_weight_heavy_infantry
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
-
-	illustration = {
-		reference = godrick_soldier
-	}
 	
-	# icon = heavy_infantry
+	icon = godrick_soldier
 }
 
 godrick_knight = {
@@ -238,12 +226,8 @@ godrick_knight = {
 		value = culture_ai_weight_heavy_infantry
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
-
-	illustration = {
-		reference = godrick_knight
-	}
 	
-	# icon = godrick_knight
+	icon = godrick_knight
 }
 
 #CAELID FACTION
@@ -293,11 +277,7 @@ redmane_footsoldier = {
 	stack = 100
 	ai_quality = { value = culture_ai_weight_skirmishers }
 
-	illustration = {
-		reference = redmane_footsoldier
-	}
-	
-	# icon = skirmishers
+	icon = redmane_footsoldier
 }
 
 redmane_soldier = {
@@ -349,12 +329,8 @@ redmane_soldier = {
 		value = culture_ai_weight_heavy_infantry
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
-
-	illustration = {
-		reference = redmane_soldier
-	}
 	
-	# icon = heavy_infantry
+	icon = redmane_soldier
 }
 
 redmane_knight = {
@@ -409,11 +385,7 @@ redmane_knight = {
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
 
-	illustration = {
-		reference = redmane_knight
-	}
-	
- 	# icon = redmane_knight
+ 	icon = redmane_knight
 }
 
 #CARIAN FACTION
@@ -463,11 +435,7 @@ rayalucaria_footsoldier = {
 	stack = 100
 	ai_quality = { value = culture_ai_weight_skirmishers }
 
-	illustration = {
-		reference = rayalucaria_footsoldier
-	}
-	
- 	# icon = skirmishers
+ 	icon = rayalucaria_footsoldier
 }
 
 rayalucaria_soldier = {
@@ -520,11 +488,7 @@ rayalucaria_soldier = {
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
 
-	illustration = {
-		reference = rayalucaria_soldier
-	}
-	
- 	# icon = heavy_infantry
+ 	icon = rayalucaria_soldier
 }
 
 cuckoo_knight = {
@@ -579,11 +543,7 @@ cuckoo_knight = {
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
 
-	illustration = {
-		reference = cuckoo_knight
-	}
-	
- 	# icon = cuckoo_knight
+ 	icon = cuckoo_knight
 }
 
 troll_knight = {
@@ -617,11 +577,7 @@ troll_knight = {
 	stack = 10
 	allowed_in_hired_troops = no
 	
-	illustration = {
-		reference = troll_knight
-	}
-	
- 	# icon = troll
+ 	icon = troll_knight
 }
 
 glintstone_miner = {
@@ -648,11 +604,7 @@ glintstone_miner = {
 	stack = 100
 	allowed_in_hired_troops = no
 	
-	illustration = {
-		reference = glintstone_miner
-	}
-	
- 	# icon = glintstone_miner
+ 	icon = glintstone_miner
 }
 
 carian_battlemage = {
@@ -687,11 +639,7 @@ carian_battlemage = {
 	stack = 60
 	allowed_in_hired_troops = no
 	
-	illustration = {
-		reference = carian_battlemage
-	}
-	
- 	# icon = sorcerer
+ 	icon = carian_battlemage
 }
 
 lazuli_sorcerer = {
@@ -722,11 +670,7 @@ lazuli_sorcerer = {
 	stack = 60
 	allowed_in_hired_troops = no
 	
-	illustration = {
-		reference = lazuli_sorcerer
-	}
-	
- 	# icon = sorcerer
+ 	icon = lazuli_sorcerer
 }
 
 #GELMIR FACTION
@@ -776,11 +720,7 @@ gelmir_footsoldier = {
 	stack = 100
 	ai_quality = { value = culture_ai_weight_skirmishers }
 
-	illustration = {
-		reference = gelmir_footsoldier
-	}
-	
- 	# icon = skirmishers
+ 	icon = gelmir_footsoldier
 }
 
 gelmir_soldier = {
@@ -833,11 +773,7 @@ gelmir_soldier = {
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
 
-	illustration = {
-		reference = gelmir_soldier
-	}
-	
- 	# icon = heavy_infantry
+ 	icon = gelmir_soldier
 }
 
 gelmir_knight = {
@@ -892,11 +828,7 @@ gelmir_knight = {
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
 
-	illustration = {
-		reference = gelmir_knight
-	}
-	
- 	# icon = gelmir_knight
+ 	icon = gelmir_knight
 }
 
 #LEYNDELL FACTION
@@ -946,11 +878,7 @@ leyndell_footsoldier = {
 	stack = 100
 	ai_quality = { value = culture_ai_weight_skirmishers }
 
-	illustration = {
-		reference = leyndell_footsoldier
-	}
-	
- 	# icon = skirmishers
+ 	icon = leyndell_footsoldier
 }
 
 leyndell_soldier = {
@@ -989,11 +917,7 @@ leyndell_soldier = {
 	stack = 100
 	allowed_in_hired_troops = no
 	
-	illustration = {
-		reference = leyndell_soldier
-	}
-	
- 	# icon = heavy_infantry
+ 	icon = leyndell_soldier
 }
 
 leyndell_knight = {
@@ -1034,11 +958,7 @@ leyndell_knight = {
 	stack = 50
 	allowed_in_hired_troops = no
 	
-	illustration = {
-		reference = leyndell_knight
-	}
-	
- 	# icon = leyndell_knight
+ 	icon = leyndell_knight
 }
 
 tree_sentinel = {
@@ -1077,11 +997,7 @@ tree_sentinel = {
 	stack = 20
 	allowed_in_hired_troops = no
 	
-	illustration = {
-		reference = tree_sentinel
-	}
-	
- 	# icon = tree_sentinel
+ 	icon = tree_sentinel
 }
 
 #HALIGTREE FACTION
@@ -1131,11 +1047,7 @@ haligtree_footsoldier = {
 	stack = 100
 	ai_quality = { value = culture_ai_weight_skirmishers }
 
-	illustration = {
-		reference = haligtree_footsoldier
-	}
-	
- 	# icon = skirmishers
+ 	icon = haligtree_footsoldier
 }
 
 haligtree_soldier = {
@@ -1188,11 +1100,7 @@ haligtree_soldier = {
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
 
-	illustration = {
-		reference = haligtree_soldier
-	}
-	
- 	# icon = heavy_infantry
+ 	icon = haligtree_soldier
 }
 
 haligtree_knight = {
@@ -1247,11 +1155,7 @@ haligtree_knight = {
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
 
-	illustration = {
-		reference = haligtree_knight
-	}
-	
- 	# icon = haligtree_knight
+ 	icon = haligtree_knight
 }
 
 #HORNSENT FACTION
@@ -1287,11 +1191,7 @@ horned_warrior = {
 	stack = 60
 	allowed_in_hired_troops = no
 	
-	illustration = {
-		reference = horned_warrior
-	}
-	
- 	# icon = heavy_infantry
+ 	icon = horned_warrior
 }
 
 divine_bird_warrior = {
@@ -1329,11 +1229,7 @@ divine_bird_warrior = {
 	stack = 10
 	allowed_in_hired_troops = no
 	
-	illustration = {
-		reference = divine_bird_warrior
-	}
-	
- 	# icon = heavy_infantry
+ 	icon = divine_bird_warrior
 }
 
 hornsent_inquisitor = {
@@ -1372,11 +1268,7 @@ hornsent_inquisitor = {
 	stack = 50
 	allowed_in_hired_troops = no
 	
-	illustration = {
-		reference = hornsent_inquisitor
-	}
-	
- 	# icon = sorcerer
+ 	icon = hornsent_inquisitor
 }
 
 hornsent_curseblade = {
@@ -1411,11 +1303,7 @@ hornsent_curseblade = {
 	stack = 25
 	allowed_in_hired_troops = no
 	
-	illustration = {
-		reference = hornsent_curseblade
-	}
-	
- 	# icon = skirmishers
+ 	icon = hornsent_curseblade
 }
 
 #UNDEAD FACTION
@@ -1454,11 +1342,7 @@ skeletal_militiaman = {
 	stack = 200
 	ai_quality = { value = culture_ai_weight_skirmishers }
 
-	illustration = {
-		reference = skeletal_militiaman
-	}
-	
- 	# icon = undead_skeleton
+ 	icon = skeletal_militiaman
 }
 
 skeletal_crossbowman = {
@@ -1500,13 +1384,7 @@ skeletal_crossbowman = {
 		add = counter_synergy_ai_weight_archers
 	}
 
-	illustration = {
-		reference = skeletal_crossbowman
-	}
-
-	#illustration = {
-	#	reference = undead_skeleton
-	#}
+	icon = skeletal_crossbowman
 }
 
 grave_warden = {
@@ -1549,11 +1427,7 @@ grave_warden = {
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
 
-	illustration = {
-		reference = grave_warden
-	}
-	
- 	# icon = undead_skeleton
+ 	icon = grave_warden
 }
 
 skeletal_bandit = {
@@ -1597,11 +1471,7 @@ skeletal_bandit = {
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
 
-	illustration = {
-		reference = skeletal_bandit
-	}
-	
- 	# icon = undead_skeleton
+ 	icon = skeletal_bandit
 }
 
 skeletal_knight = {
@@ -1645,11 +1515,7 @@ skeletal_knight = {
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
 
-	illustration = {
-		reference = skeletal_knight
-	}
-	
- 	# icon = undead_skeleton
+ 	icon = skeletal_knight
 }
 
 skeletal_executioner = {
@@ -1694,11 +1560,7 @@ skeletal_executioner = {
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
 
-	illustration = {
-		reference = skeletal_executioner
-	}
-	
- 	# icon = undead_skeleton
+ 	icon = skeletal_executioner
 }
 
 giant_skeleton = {
@@ -1744,11 +1606,7 @@ giant_skeleton = {
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
 
-	illustration = {
-		reference = giant_skeleton
-	}
-	
- 	# icon = undead_skeleton
+ 	icon = giant_skeleton
 }
 
 #OTHER
@@ -1783,11 +1641,7 @@ banished_knights = {
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
 	
-	illustration = {
-		reference = banished_knight
-	}
-
- 	# icon = banished_knight
+ 	icon = banished_knight
 }
 
 #DLC RESHUFFLED
