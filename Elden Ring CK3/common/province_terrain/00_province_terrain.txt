@@ -2,22 +2,6 @@
 default_sea=sea
 default_coastal_sea=coastal_sea
 
-#mountains
-#hills
-#plains
-#jungle
-#forest
-#wetlands
-#farmlands
-#bog_poison
-#desert
-#desert_mountains
-#oasis
-#taiga
-#steppe
-#floodplains
-#drylands
-#terraced_hills
 
 1=mountains
 2=mountains
@@ -173,7 +157,6 @@ default_coastal_sea=coastal_sea
 152=plains
 153=mountains
 154=plains
-155=hills
 156=plains
 157=mountains
 158=plains
@@ -202,14 +185,12 @@ default_coastal_sea=coastal_sea
 181=forest
 182=mountains
 183=plains
-184=wetlands
 185=hills
 186=mountains
 187=hills
 188=mountains
 189=plains
 190=mountains
-191=hills
 192=hills
 193=mountains
 194=mountains
@@ -322,7 +303,7 @@ default_coastal_sea=coastal_sea
 301=wetlands
 302=plains
 303=hills
-304=plains
+304=mountains
 305=plains
 306=hills
 307=wetlands
@@ -774,7 +755,6 @@ default_coastal_sea=coastal_sea
 754=hills
 755=hills
 756=hills
-757=plains
 758=hills
 759=plains
 760=hills
@@ -1199,7 +1179,6 @@ default_coastal_sea=coastal_sea
 1180=mountains
 1181=hills
 1182=hills
-1183=hills
 1184=hills
 1185=hills
 1186=mountains
@@ -1283,7 +1262,6 @@ default_coastal_sea=coastal_sea
 1264=hills
 1265=mountains
 1266=mountains
-1267=hills
 1268=hills
 1269=mountains
 1270=jungle
@@ -1392,7 +1370,6 @@ default_coastal_sea=coastal_sea
 1373=mountains
 1374=mountains
 1375=hills
-1376=forest
 1377=hills
 1378=jungle
 1379=mountains
@@ -1423,7 +1400,6 @@ default_coastal_sea=coastal_sea
 1404=mountains
 1405=hills
 1406=mountains
-1407=jungle
 1408=mountains
 1409=mountains
 1410=mountains
@@ -1475,7 +1451,6 @@ default_coastal_sea=coastal_sea
 1456=mountains
 1457=hills
 1458=hills
-1459=hills
 1460=plains
 1461=hills
 1462=plains
@@ -2167,7 +2142,6 @@ default_coastal_sea=coastal_sea
 2151=forest
 2152=hills
 2153=hills
-2154=forest
 2155=mountains
 2156=plains
 2157=mountains
@@ -2331,7 +2305,7 @@ default_coastal_sea=coastal_sea
 2315=hills
 2316=hills
 2317=plains
-2318=jungle
+2318=plains
 2319=hills
 2320=hills
 2321=mountains
@@ -2515,6 +2489,7 @@ default_coastal_sea=coastal_sea
 2502=plains
 2503=plains
 2504=plains
+2505=hills
 2506=plains
 2507=plains
 2508=plains
@@ -2655,3 +2630,5 @@ default_coastal_sea=coastal_sea
 3142=plains
 3143=plains
 3144=plains
+3145=jungle
+3146=floodplains
