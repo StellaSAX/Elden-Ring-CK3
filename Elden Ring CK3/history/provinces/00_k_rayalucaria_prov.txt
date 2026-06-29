@@ -318,6 +318,12 @@
 	religion = faith_golden
 	holding = none
 }
+# R62G228B43
+349 = {
+	culture = cul_liurnia
+	religion = faith_golden
+	holding = none
+}
 
 
 ### c_R120G31B58
@@ -1458,12 +1464,6 @@
 	religion = faith_golden
 	holding = none
 }
-# R229G156B224
-1372 = {
-	culture = cul_liurnia
-	religion = faith_golden
-	holding = none
-}
 
 
 ### c_R90G210B202
@@ -1530,14 +1530,14 @@
 
 
 ### c_R99G46B11
-# R231G171B100
-1578 = {
+# R229G156B224
+1372 = {
 	culture = cul_liurnia
 	religion = faith_golden
 	holding = castle_holding
 }
-# R62G228B43
-349 = {
+# R231G171B100
+1578 = {
 	culture = cul_liurnia
 	religion = faith_golden
 	holding = none

@@ -9999,7 +9999,7 @@ h_lands_between = {
 
 			d_glintstone_lake = {
 				color = { 7 145 219 }
-				capital = c_R135G36B72
+				capital = c_R49G196B24
 
 				c_R25G255B15 = {
 					color = { 25 255 15 }
@@ -10191,7 +10191,7 @@ h_lands_between = {
 
 			d_crystal_lake = {
 				color = { 98 173 201 }
-				capital = c_R216G84B31
+				capital = c_R222G219B134
 
 				c_R222G219B134 = {
 					color = { 222 219 134 }
@@ -10286,6 +10286,11 @@ h_lands_between = {
 					b_R203G6B92 = {
 						color = { 149 183 49 }
 						province = 2162
+					}
+
+					b_R62G228B43 = {
+						color = { 14 13 238 }
+						province = 349
 					}
 				}
 
@@ -11234,7 +11239,7 @@ h_lands_between = {
 
 			d_liurnia_highway = {
 				color = { 116 193 135 }
-				capital = c_R183G87B47
+				capital = c_R217G228B180
 
 				c_R84G230B69 = {
 					color = { 84 230 69 }
@@ -11320,11 +11325,6 @@ h_lands_between = {
 						color = { 149 112 57 }
 						province = 944
 					}
-
-					b_R229G156B224 = {
-						color = { 62 59 55 }
-						province = 1372
-					}
 				}
 
 				c_R90G210B202 = {
@@ -11387,14 +11387,14 @@ h_lands_between = {
 				c_R99G46B11 = {
 					color = { 99 46 11 }
 
+					b_R229G156B224 = {
+						color = { 62 59 55 }
+						province = 1372
+					}
+
 					b_R231G171B100 = {
 						color = { 136 134 65 }
 						province = 1578
-					}
-
-					b_R62G228B43 = {
-						color = { 14 13 238 }
-						province = 349
 					}
 				}
 

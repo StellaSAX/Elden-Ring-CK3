@@ -11,4 +11,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2000;1362;sea;2589;-1;-1;-1;-1;Bridge to Epstein Island
 1974;246;sea;2843;-1;-1;-1;-1;Bridge to Redmane Castle
 1441;1522;sea;2589;-1;-1;-1;-1;Radahn Gate
+1553;128;river_large;1376;-1;-1;-1;-1;Giants Gravepost Crossing
+293;1077;river_large;1407;-1;-1;-1;-1;Fire Giant Crossing
+655;680;river_large;1459;-1;-1;-1;-1;Forge of the Giants Crossing
+494;1101;river_large;184;-1;-1;-1;-1;TEMPORARY SNOWFIELD CROSSING
 -1;-1;;-1;-1;-1;-1;-1;
