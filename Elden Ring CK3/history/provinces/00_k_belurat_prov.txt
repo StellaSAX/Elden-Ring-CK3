@@ -389,12 +389,6 @@
 ##### d_cliffroad_terminus ############################
 
 ### c_R83G49B198
-# R251G15B19
-2339 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = castle_holding
-}
 # R123G176B179
 572 = {
 	culture = cul_shadowlander
@@ -410,20 +404,8 @@
 	religion = faith_golden
 	holding = castle_holding
 }
-# R163G22B193
-868 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = castle_holding
-}
 # R149G31B229
 607 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = castle_holding
-}
-# R77G5B54
-1968 = {
 	culture = cul_shadowlander
 	religion = faith_golden
 	holding = castle_holding
@@ -431,12 +413,6 @@
 
 
 ### c_R115G32B243
-# R232G197B36
-534 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = castle_holding
-}
 # R13G221B214
 1025 = {
 	culture = cul_shadowlander

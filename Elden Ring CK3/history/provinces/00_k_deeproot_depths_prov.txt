@@ -1,44 +1,5 @@
 ﻿##### d_nameless_city ############################
 
-### c_R134G113B99
-# R43G141B239
-1331 = {
-	culture = cul_altus
-	religion = faith_golden
-	holding = castle_holding
-}
-# R182G194B222
-2101 = {
-	culture = cul_altus
-	religion = faith_golden
-	holding = none
-}
-# R162G107B177
-1164 = {
-	culture = cul_altus
-	religion = faith_golden
-	holding = none
-}
-# R89G242B53
-547 = {
-	culture = cul_altus
-	religion = faith_golden
-	holding = castle_holding
-}
-# LAKE
-3138 = {
-	culture = cul_altus
-	religion = faith_golden
-	holding = none
-}
-# R185G52B249
-2 = {
-	culture = cul_altus
-	religion = faith_golden
-	holding = castle_holding
-}
-
-
 ### c_R30G53B50
 # R4G252B81
 1700 = {

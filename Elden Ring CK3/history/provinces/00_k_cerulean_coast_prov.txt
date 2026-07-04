@@ -150,12 +150,6 @@
 	religion = faith_golden
 	holding = none
 }
-# R185G159B201
-2557 = {
-	culture = cul_cerulean
-	religion = faith_golden
-	holding = none
-}
 
 
 ### c_R41G150B56
@@ -352,12 +346,6 @@
 ### c_R0G169B193
 # R109G184B8
 127 = {
-	culture = cul_cerulean
-	religion = faith_golden
-	holding = castle_holding
-}
-# R139G250B79
-244 = {
 	culture = cul_cerulean
 	religion = faith_golden
 	holding = castle_holding

@@ -986,3 +986,42 @@ oridys_rise = {
 
 	flag = travel_point_of_interest_learning
 }
+
+divine_tower_limgrave = {
+	asset = {
+		type = pdxmesh
+		name = divinetower_mesh
+	}
+	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_legendary_watchtower.dds"
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 2000
+
+	character_modifier = {
+		monthly_learning_lifestyle_xp_gain_mult = 0.15
+		learning = 1
+	}
+	province_modifier = {
+		fort_level = 6
+	}
+	county_modifier = {
+		epidemic_resistance = 10
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_learning
+}

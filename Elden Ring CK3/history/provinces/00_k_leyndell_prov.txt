@@ -403,20 +403,20 @@
 
 
 ### c_R94G127B57
-# R84G86B114
-255 = {
+# R165G240B213
+579 = {
 	culture = cul_leyndell
 	religion = faith_golden
 	holding = castle_holding
 }
-# LAKE
-3112 = {
+# R84G86B114
+255 = {
 	culture = cul_leyndell
 	religion = faith_golden
 	holding = none
 }
-# R165G240B213
-579 = {
+# LAKE
+3112 = {
 	culture = cul_leyndell
 	religion = faith_golden
 	holding = none
@@ -430,17 +430,17 @@
 
 
 ### c_R199G90B87
-# R250G83B60
-804 = {
-	culture = cul_leyndell
-	religion = faith_golden
-	holding = castle_holding
-}
 # R163G227B93
 1037 = {
 	culture = cul_leyndell
 	religion = faith_golden
 	holding = castle_holding
+}
+# R250G83B60
+804 = {
+	culture = cul_leyndell
+	religion = faith_golden
+	holding = none
 }
 # R35G17B217
 1806 = {
@@ -455,8 +455,6 @@
 	holding = none
 }
 
-
-##### d_R85G161B103 ############################
 
 ##### d_divinetower_isolated ############################
 
