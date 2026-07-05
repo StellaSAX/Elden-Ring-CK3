@@ -1,0 +1,12 @@
+﻿l_english:
+
+ magic_education_option_specialization:0 "Specialization to Study"
+ learn_local_magic:0 "Local Techniques"
+ learn_affinity_magic:0 "Affinities"
+ learn_cultural_magic:0 "Cultural"
+ learn_religious_magic:0 "Religious"
+ 
+ learn_local_magic_desc:0 "Learn the techniques used in this place."
+ learn_affinity_magic_desc:0 "Learn based in your natural affinities."
+ learn_cultural_magic_desc:0 "Learn what is common between your kin."
+ learn_religious_magic_desc:0 "Learn to do what is considered a virtue in your faith."

@@ -105,3 +105,80 @@ holds_deathrune = {
 		}
 	}
 }
+
+is_magic_studies_location = {
+	has_building_with_flag = magic_studies_location
+}
+
+has_magic_education_trait_trigger = {
+	OR = {
+		has_trait = sorcery_glintstone
+		has_trait = sorcery_carian
+		has_trait = sorcery_bloodthorn
+		has_trait = sorcery_claymen
+		has_trait = sorcery_crystalian
+		has_trait = sorcery_death
+		has_trait = sorcery_finger
+		has_trait = sorcery_gelmir
+		has_trait = sorcery_gravity
+		has_trait = sorcery_ice
+		has_trait = sorcery_impenetrable_thorn
+		has_trait = sorcery_night
+		has_trait = incantation_bestial
+		has_trait = incantation_blackflame
+		has_trait = incantation_blood
+		has_trait = incantation_crucible
+		has_trait = incantation_divine_beast
+		has_trait = incantation_dragon_communion
+		has_trait = incantation_dragon_cult
+		has_trait = incantation_erdtree
+		has_trait = incantation_flame
+		has_trait = incantation_frenzy
+		has_trait = incantation_lightning
+		has_trait = incantation_messmers_flame
+		has_trait = incantation_miquella
+		has_trait = incantation_order
+		has_trait = incantation_rot
+		has_trait = incantation_spiral
+		has_trait = incantation_two_fingers
+	}
+}
+
+sorcery_trait_trigger = {
+	OR = {
+		has_trait = sorcery_glintstone
+		has_trait = sorcery_carian
+		has_trait = sorcery_bloodthorn
+		has_trait = sorcery_claymen
+		has_trait = sorcery_crystalian
+		has_trait = sorcery_death
+		has_trait = sorcery_finger
+		has_trait = sorcery_gelmir
+		has_trait = sorcery_gravity
+		has_trait = sorcery_ice
+		has_trait = sorcery_impenetrable_thorn
+		has_trait = sorcery_night
+	}
+}
+
+incantation_trait_trigger = {
+	OR = {
+		has_trait = incantation_bestial
+		has_trait = incantation_blackflame
+		has_trait = incantation_blood
+		has_trait = incantation_crucible
+		has_trait = incantation_divine_beast
+		has_trait = incantation_dragon_communion
+		has_trait = incantation_dragon_cult
+		has_trait = incantation_erdtree
+		has_trait = incantation_flame
+		has_trait = incantation_frenzy
+		has_trait = incantation_lightning
+		has_trait = incantation_messmers_flame
+		has_trait = incantation_miquella
+		has_trait = incantation_order
+		has_trait = incantation_rot
+		has_trait = incantation_spiral
+		has_trait = incantation_two_fingers
+	}
+}

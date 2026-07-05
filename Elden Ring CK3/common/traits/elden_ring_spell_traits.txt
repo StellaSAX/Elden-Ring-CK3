@@ -148,35 +148,35 @@ sorcery_glintstone = {
 	
 	same_opinion = 10
 	monthly_prestige_gain_mult = 0.05
-	prowess = 1
+	prowess_no_portrait = 1
 	
 	track = {
 		20 = {
-			prowess = 3
+			prowess_no_portrait = 3
 			enemy_hard_casualty_modifier = 0.03
 			dread_baseline_add = 1
 			courtier_and_guest_opinion = 2
 		}
 		40 = {
-			prowess = 3
+			prowess_no_portrait = 3
 			enemy_hard_casualty_modifier = 0.03
 			dread_baseline_add = 1
 			courtier_and_guest_opinion = 2
 		}
 		60 = {
-			prowess = 4
+			prowess_no_portrait = 4
 			enemy_hard_casualty_modifier = 0.03
 			dread_baseline_add = 1
 			courtier_and_guest_opinion = 3
 		}
 		80 = {
-			prowess = 4
+			prowess_no_portrait = 4
 			enemy_hard_casualty_modifier = 0.03
 			dread_baseline_add = 1
 			courtier_and_guest_opinion = 3
 		}
 		100 = {
-			prowess = 8
+			prowess_no_portrait = 8
 			martial = 3
 			enemy_hard_casualty_modifier = 0.08
 			knight_effectiveness_per_prowess = 0.01
@@ -339,27 +339,27 @@ sorcery_carian = {
 	
 	track = {
 		20 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			enemy_terrain_advantage = -0.03
 			courtier_and_guest_opinion = 2
 		}
 		40 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			enemy_terrain_advantage = -0.03
 			courtier_and_guest_opinion = 2
 		}
 		60 = {
-			prowess = 3
+			prowess_no_portrait = 3
 			enemy_terrain_advantage = -0.03
 			courtier_and_guest_opinion = 3
 		}
 		80 = {
-			prowess = 3
+			prowess_no_portrait = 3
 			enemy_terrain_advantage = -0.03
 			courtier_and_guest_opinion = 3
 		}
 		100 = {
-			prowess = 4
+			prowess_no_portrait = 4
 			learning = 3
 			monthly_prestige_gain_mult = 0.1
 			enemy_terrain_advantage = -0.08
@@ -524,31 +524,31 @@ sorcery_bloodthorn = {
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess_no_portrait = 1
 			health = -0.15
 			dread_baseline_add = 2
 			stress_gain_mult = -0.05
 		}
 		40 = {
-			prowess = 1
+			prowess_no_portrait = 1
 			health = -0.15
 			dread_baseline_add = 2
 			stress_gain_mult = -0.05
 		}
 		60 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			health = -0.15
 			dread_baseline_add = 2
 			stress_gain_mult = -0.05
 		}
 		80 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			health = -0.15
 			dread_baseline_add = 2
 			stress_gain_mult = -0.05
 		}
 		100 = {
-			prowess = 4
+			prowess_no_portrait = 4
 			learning = 2
 			intrigue = 1
 			health = -0.15
@@ -711,27 +711,27 @@ sorcery_claymen = {
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess_no_portrait = 1
 			negate_health_penalty_add = 0.1
 			opinion_of_different_culture = 2
 		}
 		40 = {
-			prowess = 1
+			prowess_no_portrait = 1
 			negate_health_penalty_add = 0.1
 			opinion_of_different_culture = 2
 		}
 		60 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			negate_health_penalty_add = 0.1
 			opinion_of_different_culture = 2
 		}
 		80 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			negate_health_penalty_add = 0.1
 			opinion_of_different_culture = 2
 		}
 		100 = {
-			prowess = 4
+			prowess_no_portrait = 4
 			learning = 2
 			stewardship = 1
 			negate_health_penalty_add = 0.1
@@ -893,23 +893,23 @@ sorcery_crystalian = {
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess_no_portrait = 1
 			max_combat_roll = 2
 		}
 		40 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			max_combat_roll = 2
 		}
 		60 = {
-			prowess = 3
+			prowess_no_portrait = 3
 			max_combat_roll = 2
 		}
 		80 = {
-			prowess = 4
+			prowess_no_portrait = 4
 			max_combat_roll = 2
 		}
 		100 = {
-			prowess = 5
+			prowess_no_portrait = 5
 			learning = 1
 			martial = 1
 			diplomacy = 1
@@ -1075,7 +1075,7 @@ sorcery_death = {
 	
 	track = {
 		20 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			undead_damage_mult = 0.08
 			undead_toughness_mult = 0.08
 			dread_baseline_add = 4
@@ -1089,7 +1089,7 @@ sorcery_death = {
 			}
 		}
 		40 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			undead_damage_mult = 0.08
 			undead_toughness_mult = 0.08
 			dread_baseline_add = 4
@@ -1103,7 +1103,7 @@ sorcery_death = {
 			}
 		}
 		60 = {
-			prowess = 3
+			prowess_no_portrait = 3
 			undead_damage_mult = 0.08
 			undead_toughness_mult = 0.08
 			dread_baseline_add = 4
@@ -1117,7 +1117,7 @@ sorcery_death = {
 			}
 		}
 		80 = {
-			prowess = 3
+			prowess_no_portrait = 3
 			undead_damage_mult = 0.08
 			undead_toughness_mult = 0.08
 			dread_baseline_add = 4
@@ -1131,7 +1131,7 @@ sorcery_death = {
 			}
 		}
 		100 = {
-			prowess = 4
+			prowess_no_portrait = 4
 			intrigue = 2
 			martial = 1
 			undead_damage_mult = 0.28
@@ -1302,31 +1302,31 @@ sorcery_finger = {
 	
 	track = {
 		20 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			zealot_opinion = 2
 			maa_pursuit_add = 1
 			enemy_terrain_advantage = -0.02
 		}
 		40 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			zealot_opinion = 2
 			maa_pursuit_add = 1
 			enemy_terrain_advantage = -0.02
 		}
 		60 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			zealot_opinion = 2
 			maa_pursuit_add = 1
 			enemy_terrain_advantage = -0.02
 		}
 		80 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			zealot_opinion = 2
 			maa_pursuit_add = 1
 			enemy_terrain_advantage = -0.02
 		}
 		100 = {
-			prowess = 4
+			prowess_no_portrait = 4
 			martial = 2
 			learning = 1
 			zealot_opinion = 2
@@ -1488,35 +1488,35 @@ sorcery_gelmir = {
 	
 	track = {
 		20 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			raid_speed = 0.1
 			siege_phase_time = -0.05
 			hills_advantage = 1
 			mountains_advantage = 1
 		}
 		40 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			raid_speed = 0.1
 			siege_phase_time = -0.05
 			hills_advantage = 1
 			mountains_advantage = 1
 		}
 		60 = {
-			prowess = 3
+			prowess_no_portrait = 3
 			raid_speed = 0.1
 			siege_phase_time = -0.05
 			hills_advantage = 2
 			mountains_advantage = 2
 		}
 		80 = {
-			prowess = 3
+			prowess_no_portrait = 3
 			raid_speed = 0.1
 			siege_phase_time = -0.05
 			hills_advantage = 2
 			mountains_advantage = 2
 		}
 		100 = {
-			prowess = 5
+			prowess_no_portrait = 5
 			martial = 3
 			raid_speed = 0.2
 			siege_phase_time = -0.1
@@ -1680,35 +1680,35 @@ sorcery_gravity = {
 	
 	track = {
 		20 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			siege_phase_time = -0.1
 			advantage = 1
 			attraction_opinion = 2
 			glory_hound_opinion = 2
 		}
 		40 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			siege_phase_time = -0.1
 			advantage = 1
 			attraction_opinion = 2
 			glory_hound_opinion = 2
 		}
 		60 = {
-			prowess = 3
+			prowess_no_portrait = 3
 			siege_phase_time = -0.1
 			advantage = 2
 			attraction_opinion = 2
 			glory_hound_opinion = 2
 		}
 		80 = {
-			prowess = 3
+			prowess_no_portrait = 3
 			siege_phase_time = -0.1
 			advantage = 2
 			attraction_opinion = 2
 			glory_hound_opinion = 2
 		}
 		100 = {
-			prowess = 6
+			prowess_no_portrait = 6
 			martial = 2
 			diplomacy = 1
 			siege_phase_time = -0.2
@@ -1872,7 +1872,7 @@ sorcery_ice = {
 	
 	track = {
 		20 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			winter_advantage = 1
 			desert_advantage = 1
 			oasis_advantage = 1
@@ -1880,7 +1880,7 @@ sorcery_ice = {
 			epidemic_resistance = 2
 		}
 		40 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			winter_advantage = 1
 			desert_advantage = 1
 			oasis_advantage = 1
@@ -1888,7 +1888,7 @@ sorcery_ice = {
 			epidemic_resistance = 2
 		}
 		60 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			winter_advantage = 2
 			desert_advantage = 2
 			oasis_advantage = 2
@@ -1897,7 +1897,7 @@ sorcery_ice = {
 			no_water_crossing_penalty = yes
 		}
 		80 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			winter_advantage = 2
 			desert_advantage = 2
 			oasis_advantage = 2
@@ -1905,7 +1905,7 @@ sorcery_ice = {
 			epidemic_resistance = 2
 		}
 		100 = {
-			prowess = 4
+			prowess_no_portrait = 4
 			martial = 1
 			learning = 1
 			diplomacy = 1
@@ -2074,7 +2074,7 @@ sorcery_impenetrable_thorn = {
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess_no_portrait = 1
 			monthly_piety_gain_mult = -0.05
 			zealot_opinion = -2
 			stress_loss_mult = 0.05
@@ -2083,7 +2083,7 @@ sorcery_impenetrable_thorn = {
 			character_travel_safety = 2
 		}
 		40 = {
-			prowess = 2
+			prowess_no_portrait = 2
 			monthly_piety_gain_mult = -0.05
 			zealot_opinion = -2
 			stress_loss_mult = 0.05
@@ -2092,7 +2092,7 @@ sorcery_impenetrable_thorn = {
 			character_travel_safety = 2
 		}
 		60 = {
-			prowess = 3
+			prowess_no_portrait = 3
 			monthly_piety_gain_mult = -0.05
 			zealot_opinion = -2
 			stress_loss_mult = 0.05
@@ -2101,7 +2101,7 @@ sorcery_impenetrable_thorn = {
 			character_travel_safety = 3
 		}
 		80 = {
-			prowess = 3
+			prowess_no_portrait = 3
 			monthly_piety_gain_mult = -0.05
 			zealot_opinion = -2
 			stress_loss_mult = 0.05
@@ -2110,7 +2110,7 @@ sorcery_impenetrable_thorn = {
 			character_travel_safety = 3
 		}
 		100 = {
-			prowess = 4
+			prowess_no_portrait = 4
 			martial = 2
 			intrigue = 1
 			monthly_piety_gain_mult = -0.05
@@ -2278,7 +2278,7 @@ sorcery_night = {
 	
 	track = {
 		20 = {
-			prowess = 3
+			prowess_no_portrait = 3
 			enemy_hard_casualty_modifier = 0.02
 			owned_scheme_secrecy_add = 5
 			owned_hostile_scheme_success_chance_add = 3
@@ -2286,7 +2286,7 @@ sorcery_night = {
 			dread_baseline_add = 2
 		}
 		40 = {
-			prowess = 3
+			prowess_no_portrait = 3
 			enemy_hard_casualty_modifier = 0.02
 			owned_scheme_secrecy_add = 5
 			owned_hostile_scheme_success_chance_add = 3
@@ -2294,7 +2294,7 @@ sorcery_night = {
 			dread_baseline_add = 2
 		}
 		60 = {
-			prowess = 3
+			prowess_no_portrait = 3
 			enemy_hard_casualty_modifier = 0.02
 			owned_scheme_secrecy_add = 5
 			owned_hostile_scheme_success_chance_add = 4
@@ -2302,7 +2302,7 @@ sorcery_night = {
 			dread_baseline_add = 2
 		}
 		80 = {
-			prowess = 3
+			prowess_no_portrait = 3
 			enemy_hard_casualty_modifier = 0.02
 			owned_scheme_secrecy_add = 5
 			owned_hostile_scheme_success_chance_add = 4
@@ -2310,7 +2310,7 @@ sorcery_night = {
 			dread_baseline_add = 2
 		}
 		100 = {
-			prowess = 6
+			prowess_no_portrait = 6
 			intrigue = 3
 			enemy_hard_casualty_modifier = 0.02
 			knight_effectiveness_per_dread = 0.01
@@ -2513,19 +2513,19 @@ incantation_blackflame = {
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		40 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		60 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		80 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		100 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 	}
 	
@@ -2551,19 +2551,19 @@ incantation_blood = {
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		40 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		60 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		80 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		100 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 	}
 	
@@ -2589,19 +2589,19 @@ incantation_crucible = {
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		40 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		60 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		80 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		100 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 	}
 	
@@ -2730,19 +2730,19 @@ incantation_erdtree = {
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		40 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		60 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		80 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		100 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 	}
 	
@@ -2768,19 +2768,19 @@ incantation_flame = {
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		40 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		60 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		80 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		100 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 	}
 	
@@ -2806,19 +2806,19 @@ incantation_frenzy = {
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		40 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		60 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		80 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		100 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 	}
 	
@@ -2844,19 +2844,19 @@ incantation_lightning = {
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		40 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		60 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		80 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		100 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 	}
 	
@@ -2882,19 +2882,19 @@ incantation_messmers_flame = {
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		40 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		60 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		80 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		100 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 	}
 	
@@ -2921,19 +2921,19 @@ incantation_miquella = {
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		40 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		60 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		80 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		100 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 	}
 	
@@ -2959,19 +2959,19 @@ incantation_order = {
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		40 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		60 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		80 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		100 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 	}
 	
@@ -2997,19 +2997,19 @@ incantation_rot = {
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		40 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		60 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		80 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		100 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 	}
 	
@@ -3035,19 +3035,19 @@ incantation_spiral = {
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		40 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		60 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		80 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		100 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 	}
 	
@@ -3073,19 +3073,19 @@ incantation_two_fingers = {
 	
 	track = {
 		20 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		40 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		60 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		80 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 		100 = {
-			prowess = 1
+			prowess_no_portrait = 1
 		}
 	}
 	

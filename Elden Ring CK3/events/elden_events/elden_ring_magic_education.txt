@@ -1,0 +1,205 @@
+﻿namespace = elden_ring_magic_education
+# CONCLUSION EVENT
+elden_ring_magic_education.0009 = {
+	type = activity_event
+	title = elden_ring_magic_education.0009.t
+	desc = {
+		desc = elden_ring_magic_education.0009.desc
+		triggered_desc = {
+			trigger = {
+				scope:teacher_1 = { adult_education_teacher_would_leave_trigger = yes }
+			}
+			desc = elden_ring_magic_education.0009.desc_teacher_1
+		}
+		triggered_desc = {
+			trigger = {
+				scope:teacher_2 = { adult_education_teacher_would_leave_trigger = yes }
+			}
+			desc = elden_ring_magic_education.0009.desc_teacher_2
+		}
+	}
+	theme = university
+
+	center_portrait = {
+		character = root
+		animation = thinking
+	}
+	left_portrait = {
+		character = scope:teacher_1
+		triggered_animation = {
+			trigger = { 
+				scope:teacher_1 = { adult_education_teacher_would_leave_trigger = yes }
+			}
+			animation = admiration
+		}
+		animation = eyeroll
+	}
+	right_portrait = {
+		character = scope:teacher_2
+		triggered_animation = {
+			trigger = { 
+				scope:teacher_2 = { adult_education_teacher_would_leave_trigger = yes }
+			}
+			animation = ecstasy
+		}
+		animation = personality_zealous
+	}
+
+	immediate = {
+		#Reward effects
+		magic_education_completed_log_entry_effect = yes
+		scope:activity = {
+			random_attending_character = {
+				limit = {
+					has_character_flag = teacher_1
+				}
+				save_scope_as = teacher_1
+			}
+			random_attending_character = {
+				limit = {
+					has_character_flag = teacher_2
+				}
+				save_scope_as = teacher_2
+			}
+		}
+	}
+
+	option = {
+		trigger = {
+			has_government = landless_adventurer_government
+		}
+		name = bp2_adult_education.0009.e
+		add_contact = scope:teacher_1
+		add_contact = scope:teacher_2
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		trigger = {
+			NOR = {
+				scope:teacher_1 ?= { adult_education_teacher_would_leave_trigger = yes }
+				scope:teacher_2 ?= { adult_education_teacher_would_leave_trigger = yes }
+			}
+		}
+		name = bp2_adult_education.0009.a
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = {
+		trigger = {
+			scope:teacher_1 ?= { adult_education_teacher_would_leave_trigger = yes }
+		}
+		name = bp2_adult_education.0009.b
+		hidden_effect = { 
+			current_travel_plan ?= { add_companion = scope:teacher_1 } 
+			if = {
+				limit = {
+					scope:teacher_1.liege != root
+				}
+				add_courtier = scope:teacher_1
+			}
+		}
+		show_as_tooltip = { add_courtier = scope:teacher_1 }
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	option = {
+		trigger = {
+			scope:teacher_2 ?= { adult_education_teacher_would_leave_trigger = yes }
+		}
+		name = bp2_adult_education.0009.c
+		hidden_effect = { 
+			current_travel_plan ?= { add_companion = scope:teacher_2 }
+			if = {
+				limit = {
+					scope:teacher_2.liege != root
+				}
+				add_courtier = scope:teacher_2
+			}
+		}
+		show_as_tooltip = { add_courtier = scope:teacher_2 }
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	option = {
+		trigger = {
+			OR = {
+				scope:teacher_1 ?= { adult_education_teacher_would_leave_trigger = yes }
+				scope:teacher_2 ?= { adult_education_teacher_would_leave_trigger = yes }
+			}
+		}
+		name = bp2_adult_education.0009.d
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	after = {
+		if = {
+			limit = {
+				is_ai = yes
+			}
+			scope:activity = {
+				every_attending_character = {
+					limit = {
+						OR = {
+							has_character_flag = teacher_1
+							has_character_flag = teacher_2
+							has_character_flag = student_1
+							has_character_flag = student_2
+						}
+					}
+					silent_disappearance_ai_if_created_effect = yes
+				}
+			}
+		}
+	}
+}
+
+## ARRIVAL EVENT
+elden_ring_magic_education.0010 = {
+	type = activity_event
+	title = elden_ring_magic_education.0010.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					location = {
+						has_university_building_trigger = yes
+					}
+				}
+				desc = elden_ring_magic_education.0010.desc_uni
+			}
+			desc = elden_ring_magic_education.0010.desc_religious
+		}
+		desc = elden_ring_magic_education.0010.desc_end
+		triggered_desc = {
+			trigger = {
+				"scope:host.capital_province.squared_distance(scope:location)" >= squared_distance_massive
+			}
+			desc = elden_ring_magic_education.0010.desc_very_very_far
+		}
+	}
+	theme = university
+
+	center_portrait = {
+		character = root
+		animation = happy_teacher
+	}
+
+	immediate = {
+		scope:activity.activity_location = { save_scope_as = location }
+	}
+
+	option = {
+		name = bp2_adult_education.0010.a
+	}
+}

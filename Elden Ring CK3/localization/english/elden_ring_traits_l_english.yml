@@ -498,3 +498,4 @@
  
  trait_incantation_two_fingers:0 "Two Fingers Cleric"
  trait_incantation_two_fingers_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a cleric of the Two Fingers incantations."
+ 
