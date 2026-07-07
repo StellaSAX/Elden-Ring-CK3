@@ -3,11 +3,12 @@
 # roundtable_hold_decision_events.0001#get to the table
 # roundtable_hold_decision_events.0002#talk to leader
 # roundtable_hold_decision_events.0003#buy artifact
+# roundtable_hold_decision_events.0004#change faith
 ################
 #get to the table
 roundtable_hold_decision_events.0001 = {
 	type = character_event
-	title = roundtable_hold_decision_events.0001.t	
+	title = roundtable_hold_decision_events.0001.t
 	window = visit_settlement_window
 	desc = roundtable_hold_decision_events.0001.desc
 	theme = landless_adventurer
@@ -33,7 +34,7 @@ roundtable_hold_decision_events.0001 = {
 	
 	#talk to leader
 	option = {
-		name = roundtable_hold_decision_events.1000.a
+		name = roundtable_hold_decision_events.0001.a
 		trigger = {
 			custom_tooltip = {
 				text = roundtable_hold_decision_events.0002.cooldown.tt
@@ -45,78 +46,88 @@ roundtable_hold_decision_events.0001 = {
 		}
 		
 		#Actual transition event
-		custom_tooltip = roundtable_hold_decision_events.1000.a.tt
+		custom_tooltip = roundtable_hold_decision_events.0001.a.tt
 		trigger_event = roundtable_hold_decision_events.0002
 		ai_chance = { base = 0 }
 	}
 	#buy artifact
 	option = {
-		name = roundtable_hold_decision_events.1000.b
+		name = roundtable_hold_decision_events.0001.b
 		
 		#Actual transition event
-		custom_tooltip = roundtable_hold_decision_events.1000.b.tt
+		custom_tooltip = roundtable_hold_decision_events.0001.b.tt
 		trigger_event = roundtable_hold_decision_events.0003
 		ai_chance = { base = 0 }
 	}
 	#change faith
 	option = {
-		name = roundtable_hold_decision_events.1000.b
+		name = roundtable_hold_decision_events.0001.c
 		
 		#Actual transition event
-		custom_tooltip = roundtable_hold_decision_events.1000.c.tt
-		trigger_event = roundtable_hold_decision_events.1050
+		custom_tooltip = roundtable_hold_decision_events.0001.c.tt
+		trigger_event = roundtable_hold_decision_events.0004
 		ai_chance = { base = 0 }
 	}
 	#get out
 	option = {
-		name = roundtable_hold_decision_events.1000.i
-		custom_tooltip = roundtable_hold_decision_events.1000.i.tt
+		name = roundtable_hold_decision_events.1000.d
+		custom_tooltip = roundtable_hold_decision_events.1000.d.tt
 		#For loc reasons
 		1000_remember_settlement_effect = yes
 		1000_clean_up_effect = yes
 		ai_chance = { base = 50 }
 	}
-	# after = {
-		# remove_variable ?= 1000_is_currently_raining
-		# remove_variable ?= 1000_is_currently_snowing
-		# remove_variable ?= 1000_is_currently_foggy
-		# #For all options that are NOT Page 2
-		# if = {
-			# limit = {
-				# has_variable = return_from_location
-				# NOT = { var:return_from_location = flag:main_square }
-			# }
-			# #We got kick-off!
-			# 1000_update_last_location_effect = { LOCATION_FLAG = flag:main_square }	
-		# }
-	# }
 }
 #talk to other tarnished
 roundtable_hold_decision_events.0002 = {
 	type = character_event
 	title = roundtable_hold_decision_events.0001.t	
 	window = visit_settlement_window
-	desc = roundtable_hold_decision_events.0001.desc
+	desc = roundtable_hold_decision_events.0002.desc
 	theme = landless_adventurer
 
 	override_background = { reference = roundtable_main_hall }
 	
-	center_portrait = { #player
-		character = root
-		triggered_animation = {
-			trigger = { 1010_has_irrational_traits = yes }
-			animation = personality_irrational
-		}
-		triggered_animation = {
-			trigger = { 1010_has_standoffish_traits = yes }
-			animation = personality_coward
-		}
-		triggered_animation = {
-			trigger = { 1010_has_uninterested_traits = yes }
-			animation = personality_callous
-		}
-		animation = personality_content
-	}
+	# center_portrait = { #player
+		# character = root
+		# triggered_animation = {
+			# trigger = { 1010_has_irrational_traits = yes }
+			# animation = personality_irrational
+		# }
+		# triggered_animation = {
+			# trigger = { 1010_has_standoffish_traits = yes }
+			# animation = personality_coward
+		# }
+		# triggered_animation = {
+			# trigger = { 1010_has_uninterested_traits = yes }
+			# animation = personality_callous
+		# }
+		# animation = personality_content
+	# }
+	
+	# left_portrait = { #leader of the roundtable
+		# character = scope:roundtable_current_leader
+		# triggered_animation = {
+			# trigger = { 1010_has_irrational_traits = yes }
+			# animation = personality_irrational
+		# }
+		# triggered_animation = {
+			# trigger = { 1010_has_standoffish_traits = yes }
+			# animation = personality_coward
+		# }
+		# triggered_animation = {
+			# trigger = { 1010_has_uninterested_traits = yes }
+			# animation = personality_callous
+		# }
+		# animation = personality_content
+	# }
+	
+	# immediate = {
+		# any_character = {
+			# has_trait = roundtable_leader
+			# save_scope_as = roundtable_current_leader
+		# }
+	# }
 
 	#gain skill
 	option = {
@@ -131,22 +142,56 @@ roundtable_hold_decision_events.0002 = {
 			name = increse_skill_in_roundtable
 			days = 365
 		}
+		remove_short_term_gold = 100
 
 		trigger_event = roundtable_hold_decision_events.0001
 		random_list = {
 			20 = { 
+				
+			}
+			1 = { 
+				modifier = {
+					add = 50
+					limit = {
+						martial > 10
+					}
+				}
 				add_martial_skill = 1
 			}
-			20 = {
+			1 = {
+				modifier = {
+					add = 50
+					limit = {
+						stewardship > 10
+					}
+				}
 				add_stewardship_skill = 1
 			}
-			20 = {
+			1 = {
+				modifier = {
+					add = 50
+					limit = {
+						learning > 10
+					}
+				}
 				add_learning_skill = 1
 			}
-			20 = {
+			1 = {
+				modifier = {
+					add = 50
+					limit = {
+						intrigue > 10
+					}
+				}
 				add_intrigue_skill = 1
 			}
-			20 = {
+			1 = {
+				modifier = {
+					add = 50
+					limit = {
+						diplomacy > 10
+					}
+				}
 				add_diplomacy_skill = 1
 			}
 		}
@@ -182,11 +227,12 @@ roundtable_hold_decision_events.0002 = {
 			name = hired_tarnished_in_roundtable
 			days = 365
 		}
+		remove_short_term_gold = 250
 	
-		pay_short_term_gold = {
-			target = scope:random_tarnished_to_hire
-			gold = 250
-		}
+		# pay_short_term_gold = {
+			# target = scope:random_tarnished_to_hire
+			# gold = 250
+		# }
 		create_character = {
 			template = template_random_tarnished
 			location = root.location
@@ -261,10 +307,98 @@ roundtable_hold_decision_events.0002 = {
 			}
 		}
 	}
+	#get claim on land
+	option = {
+		name = roundtable_hold_decision_events.0002.c
+		trigger = {
+			custom_tooltip = {
+				text = roundtable_hold_decision_events.0002.cooldown.tt
+				NOT = { has_variable = got_claim_in_roundtable }
+			}
+		}
+		set_variable = {
+			name = got_claim_in_roundtable
+			days = 365
+		}
+	
+		# pay_short_term_gold = {
+			# target = scope:roundtable_current_leader
+			# gold = 250
+		# }
+		remove_short_term_gold = 500
+		#add_gold = -500
+		
+		add_pressed_claim = location.county
+		add_pressed_claim = location.county.duchy
+		add_pressed_claim = location.county.duchy.kingdom
+		add_pressed_claim = location.county.duchy.kingdom.empire
+	
+		trigger_event = roundtable_hold_decision_events.0001
+		
+		ai_chance = {
+			base = 50
+			modifier = {
+				short_term_gold < scope:second_recruit_cost
+				short_term_gold < laamp_ai_spending_pants_value
+				factor = 0
+			}
+		}
+	}
+	
+	#get claim on great rune
+	option = {
+		name = roundtable_hold_decision_events.0002.d
+		trigger = {
+			custom_tooltip = {
+				text = roundtable_hold_decision_events.0002.cooldown.tt
+				NOT = { has_variable = got_claim_for_rune_in_roundtable }
+			}
+			custom_tooltip = {
+				text = roundtable_hold_decision_events.0002.cooldown.norune
+				root.location.county.holder.top_liege = {
+					every_character_artifact = {
+						limit = {
+							has_variable = great_rune_variable
+						}
+					}
+				}
+			}
+		}
+		set_variable = {
+			name = got_claim_for_rune_in_roundtable
+			days = 365
+		}
+		
+		root.location.county.holder.top_liege = {
+			every_character_artifact = {
+				limit = {
+					has_variable = great_rune_variable
+				}
+				save_scope_as = great_rune
+			}
+		}
+		
+		root = { 
+			add_personal_artifact_claim = scope:great_rune
+			remove_short_term_gold = 100
+		}
+	
+		trigger_event = roundtable_hold_decision_events.0001
+		
+		ai_chance = {
+			base = 50
+			modifier = {
+				short_term_gold < scope:second_recruit_cost
+				short_term_gold < laamp_ai_spending_pants_value
+				factor = 0
+			}
+		}
+	}
+	
 	
 	#get out
 	option = {
-		name = roundtable_hold_decision_events.0002.c
+		name = roundtable_hold_decision_events.0002.e
 		trigger_event = roundtable_hold_decision_events.0001
 		ai_chance = {
 			base = 1

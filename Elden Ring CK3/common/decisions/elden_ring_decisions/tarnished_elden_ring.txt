@@ -1,6 +1,6 @@
 ﻿visit_roundtable_hold = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
+		reference = "gfx/interface/illustrations/decisions/decision_legitimacy.dds"
 	}
 	decision_group_type = major
 	ai_check_interval_by_tier = {
@@ -14,8 +14,7 @@
 	desc = visit_roundtable_hold_desc
 
 	is_shown = {
-		# Uncomment once scripted trigger made
-		# is_tarnished_elden_ring = yes
+		is_tarnished = yes
 	}
 
 	# is_valid = {
@@ -29,6 +28,69 @@
 	effect = {
 		custom_tooltip = visit_roundtable_hold_custom_tooltip
 		trigger_event = roundtable_hold_decision_events.0001
+	}
+
+	# cost = {
+		
+	# }
+
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+turning_runes_into_strength = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/hindu_religious.dds"
+	}
+	decision_group_type = major
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 0
+		empire = 0
+		hegemony = 0
+	}
+	
+	is_shown = {
+		is_tarnished = yes
+	}
+
+	is_valid = {
+		custom_tooltip = {
+			text = have_more_than_0_piety
+			piety > 0
+		}
+		is_married = no
+		custom_tooltip = {
+			text = no_lover_or_soulmate
+			NOR = {
+				any_relation = {
+					type = lover
+					exists = yes
+				}
+				any_relation = {
+					type = soulmate
+					exists = yes
+				}
+			}
+		}
+	}
+	
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+	
+	cooldown = { days = 10 }
+
+	effect = {
+		custom_tooltip = you_will_level_up_custom_tooltip
+		trigger_event = elden_ring_tarnished_events.0001
 	}
 
 	# cost = {

@@ -159,3 +159,21 @@
  elden_major.0001.a:0 "Yipee! Yay for me!"
  elden_major.0002.t:0 "Restoration of the Raya Lucaria Academy"
  elden_major.0002.desc:0 "They did it!"
+
+ #roundtable events
+ 
+ visit_roundtable_hold:0 "Go to the Roundtable Hold"
+ visit_roundtable_hold_desc:0 "The Roundtable Hold is the place where tarnished prepare themselves for our difficult duty.\n\nI should be able to: get equipment, get claims, recruit or reconsider my faith."
+ visit_roundtable_hold_tooltip:0 "Go to the Roundtable Hold"
+ visit_roundtable_hold_confirm:0 "What can i do there?"
+ visit_roundtable_hold_custom_tooltip:0 "See what you can do in the Roundtable Hold."
+ 
+ turning_runes_into_strength:0 "Turn Runes into Strength"
+ turning_runes_into_strength_desc:0 "I have some runes, i could use them to increase my abilities."
+ turning_runes_into_strength_tooltip:0 "Turn Runes into Strength"
+ turning_runes_into_strength_confirm:0 "Where is my maiden?"
+ you_will_level_up_custom_tooltip:0 "Turn Runes into Strength"
+ no_lover_or_soulmate:0 "No Lover or Soulmate"
+ have_more_than_0_piety:0 "More than 0 piety"
+ 
+ 

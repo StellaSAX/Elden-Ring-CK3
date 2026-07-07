@@ -1,5 +1,9 @@
 ﻿l_english:
 
+ magic_education_visit:0 "Arcane Apprenticeship"
+ magic_education_visit_desc:0 "The sorceries of the stars and the incantations of faith are not learned from books alone. A guest who wishes to master either discipline must submit to the discipline of a teacher who has already mastered it, and to a course of study that will test them as thoroughly as any battlefield.\n\nThis activity sends the guest of honor to live and study for a season among those who practice the greater mysteries, that they might return home changed by what they have learned."
+ magic_education_visit_host_desc:0 "A guest who applies themselves to this apprenticeship may return home marked by what they have studied. Those who devote themselves to the stars and the glintstone may come away with a trait reflecting a newfound grounding in sorcery, while those who devote themselves to prayer and doctrine may come away with a trait reflecting a newfound grounding in incantation. The nature of the gift, and whether it comes at all, depends upon the guest's own aptitude and the rigor of their teacher."
+
  magic_education_option_specialization:0 "Specialization to Study"
  learn_local_magic:0 "Local Techniques"
  learn_affinity_magic:0 "Affinities"

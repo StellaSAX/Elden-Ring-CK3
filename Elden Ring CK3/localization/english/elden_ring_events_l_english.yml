@@ -1,0 +1,29 @@
+﻿l_english:
+
+ magic_education_visit_arrival_desc:0 "The road ends at the gates of a place built for study rather than war, and the guest of honor arrives to find its halls already busy with the quiet work of learning. The robed scholars and hooded penitents move between the towers and the cloisters, some bent over old texts, others murmuring the first faltering words of a discipline not yet mastered.\n\nA teacher of the place comes out to meet the new arrival, unhurried and evidently accustomed to receiving strangers at the gate. 'You have come a long way to learn what little we have to teach,' the teacher says. 'Whether you leave this place a sorcerer, a caster of incantations, or simply a more patient soul than the one who arrived, that will be decided by the season ahead and by how well you listen.'"
+ 
+ roundtable_hold_decision_events.0001.t:0 "The Roundtable Hold"
+ roundtable_hold_decision_events.0001.desc:0 "The Roundtable Hold, a place for tarnished to prepare for our grand mission, to become elden lord."
+ roundtable_hold_decision_events.0001.a:0 "Talk to Leader"
+ roundtable_hold_decision_events.0001.b:0 "Buy Artifact"
+ roundtable_hold_decision_events.0001.c:0 "Talk about the two fingers"
+ roundtable_hold_decision_events.0001.d:0 "Go out"
+ 
+ roundtable_hold_decision_events.0002.desc:0 "I get close to the leader of the Roundtable Hold to ask for some counseling regarding the things i could do to continue my duty."
+ roundtable_hold_decision_events.0002.a:0 "Ask for counseling"
+ roundtable_hold_decision_events.0002.b:0 "Recruit a tarnished"
+ roundtable_hold_decision_events.0002.c:0 "Get claims on the surrounding lands"
+ roundtable_hold_decision_events.0002.d:0 "Ask about local Great Rune"
+ roundtable_hold_decision_events.0002.d:0 "Go back"
+ roundtable_hold_decision_events.0002.cooldown.norune:0 "Has a great rune"
+ 
+ elden_ring_tarnished_events.0001.title:0 "A moment to rest"
+ elden_ring_tarnished_events.0001.desc:0 "While you sit down close to a site of grace, your mind wanders, and you begin to think about your situation.\n\nSo many hardships to get to this point, many enemies felled, some easier than others.\n\nAnd while you have many runes, you still don't know how to level up, some dude even called you maidenless.\n\nThen from the bushes you hear something."Hey dude, another tough day in the lands between?" a man wearing most of the Carian Knight Set but with Lazuli Glintstone Crown appears.\n\n"Just give me a moment to fill my Marika piss flask and i be on my way" he says calmly, and after filling the flask of Wondrous Physick he prepares to go, but before he does he talks. "Hey man, you look maidenless, you want some help leveling up? let me just get into character."\n\n"i cAn PlaY tHe ROLe oF MAiDeN. TuRNinG rUNes InTo sTrENgTH." He is not good at doing female voices."Wait wait wait, i think i got it. Let MY hand REST upon YOU, for BUT a moment." He is still bad.\n\n"Anyway what do you want to level up?""
+ 
+ elden_ring_tarnished_events.0001.a:0 "Martial"
+ elden_ring_tarnished_events.0001.b:0 "Stewardship"
+ elden_ring_tarnished_events.0001.c:0 "Diplomacy"
+ elden_ring_tarnished_events.0001.d:0 "Intrigue"
+ elden_ring_tarnished_events.0001.e:0 "Learning"
+ elden_ring_tarnished_events.0001.f:0 "Prowess"
+ elden_ring_tarnished_events.0001.out:0 "Nothing for now"

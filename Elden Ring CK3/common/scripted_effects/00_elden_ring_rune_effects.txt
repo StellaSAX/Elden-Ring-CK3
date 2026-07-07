@@ -33,6 +33,10 @@
 			name = historical_unique_artifact
 			value = yes
 		}
+		set_variable = {
+			name = great_rune_variable
+			value = yes
+		}
 	}
 }
 
@@ -62,6 +66,10 @@ elden_ring_eldenrune_death_effect = {
 		set_variable = runeofdeath
 		set_variable = {
 			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = {
+			name = great_rune_variable
 			value = yes
 		}
 	}

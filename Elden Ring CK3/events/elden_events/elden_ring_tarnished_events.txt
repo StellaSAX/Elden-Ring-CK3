@@ -1,0 +1,232 @@
+﻿namespace = elden_ring_tarnished_events
+elden_ring_tarnished_events.0001 = {
+
+	type = character_event
+	desc = elden_ring_tarnished_events.0001.desc
+	title = elden_ring_tarnished_events.0001.title
+	theme = love
+	override_background = wilderness
+
+	left_portrait = {
+		character = ROOT 
+		animation = thinking 
+	}
+	
+	option = {
+		name = elden_ring_tarnished_events.0001.a
+		add_martial_skill = 1
+		add_piety = -100
+		trigger = {
+			piety > 100
+		}
+		if = {
+			limit = {
+				martial < 5
+			}
+			add_piety = -150
+		}
+		else_if = {
+			limit = {
+				martial < 10
+			}
+			add_piety = -400
+		}
+		else_if = {
+			limit = {
+				martial < 15
+			}
+			add_piety = -900
+		}
+		else_if = {
+			limit = {
+				martial < 20
+			}
+			add_piety = -2400
+		}
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_tarnished_events.0001.b
+		add_stewardship_skill = 1
+		add_piety = -100
+		trigger = {
+			piety > 100
+		}
+		if = {
+			limit = {
+				stewardship < 5
+			}
+			add_piety = -150
+		}
+		else_if = {
+			limit = {
+				stewardship < 10
+			}
+			add_piety = -400
+		}
+		else_if = {
+			limit = {
+				stewardship < 15
+			}
+			add_piety = -900
+		}
+		else_if = {
+			limit = {
+				stewardship < 20
+			}
+			add_piety = -2400
+		}
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_tarnished_events.0001.c
+		add_diplomacy_skill = 1
+		add_piety = -100
+		trigger = {
+			piety > 100
+		}
+		if = {
+			limit = {
+				diplomacy < 5
+			}
+			add_piety = -150
+		}
+		else_if = {
+			limit = {
+				diplomacy < 10
+			}
+			add_piety = -400
+		}
+		else_if = {
+			limit = {
+				diplomacy < 15
+			}
+			add_piety = -900
+		}
+		else_if = {
+			limit = {
+				diplomacy < 20
+			}
+			add_piety = -2400
+		}
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_tarnished_events.0001.d
+		add_intrigue_skill = 1
+		add_piety = -100
+		trigger = {
+			piety > 100
+		}
+		if = {
+			limit = {
+				intrigue < 5
+			}
+			add_piety = -150
+		}
+		else_if = {
+			limit = {
+				intrigue < 10
+			}
+			add_piety = -400
+		}
+		else_if = {
+			limit = {
+				intrigue < 15
+			}
+			add_piety = -900
+		}
+		else_if = {
+			limit = {
+				intrigue < 20
+			}
+			add_piety = -2400
+		}
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_tarnished_events.0001.e
+		add_learning_skill = 1
+		add_piety = -100
+		trigger = {
+			piety > 100
+		}
+		if = {
+			limit = {
+				learning < 5
+			}
+			add_piety = -150
+		}
+		else_if = {
+			limit = {
+				learning < 10
+			}
+			add_piety = -400
+		}
+		else_if = {
+			limit = {
+				learning < 15
+			}
+			add_piety = -900
+		}
+		else_if = {
+			limit = {
+				learning < 20
+			}
+			add_piety = -2400
+		}
+		ai_chance = {
+			base = 50 
+		}
+	}
+	option = {
+		name = elden_ring_tarnished_events.0001.f
+		add_prowess_skill = 1
+		add_piety = -100
+		trigger = {
+			piety > 100
+		}
+		if = {
+			limit = {
+				prowess < 5
+			}
+			add_piety = -150
+		}
+		else_if = {
+			limit = {
+				prowess < 10
+			}
+			add_piety = -400
+		}
+		else_if = {
+			limit = {
+				prowess < 15
+			}
+			add_piety = -900
+		}
+		else_if = {
+			limit = {
+				prowess < 20
+			}
+			add_piety = -2400
+		}
+		ai_chance = {
+			base = 50 
+		}
+	}
+
+	option = { 
+	name = elden_ring_tarnished_events.0001.out
+		ai_chance = {
+			base = 10 
+		}
+	}
+}
