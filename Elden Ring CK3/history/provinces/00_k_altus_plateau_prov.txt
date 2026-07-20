@@ -1115,63 +1115,63 @@
 ### c_R166G190B113
 # R208G50B254
 2171 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
-	culture = cul_altus
 }
 # R89G242B53
 547 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 # R206G127B244
 1094 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 
 
 ### c_R168G215B43
 # R176G152B80
 770 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
-	culture = cul_altus
 }
 # R113G143B56
 1146 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 # R217G119B214
 716 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 # altus_new_1
 3147 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 # R254G4B130
 2386 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 
 
 ### c_R85G235B133
 # R52G113B43
 960 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
-	culture = cul_altus
 }
 # R206G239B96
 469 = {
@@ -1181,36 +1181,36 @@
 }
 # R212G27B192
 797 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 # LAKE
 3138 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 # R95G252B138
 897 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 
 
 ### c_R95G229B225
 # R122G240B210
 254 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
-	culture = cul_altus
 }
 # R197G82B234
 749 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 # R53G108B22
 1213 = {
@@ -1223,150 +1223,150 @@
 ### c_R251G60B103
 # R59G177B105
 1513 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
-	culture = cul_altus
 }
 # R44G195B74
 27 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 # R162G107B177
 1164 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 # R149G123B217
 1906 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 
 
 ### c_R202G71B186
 # R241G153B185
 957 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
-	culture = cul_altus
 }
 # R167G60B108
 559 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 # R109G38B184
 2209 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 
 
 ### c_R134G113B99
 # R27G69B103
 900 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
-	culture = cul_altus
 }
 # R182G194B222
 2101 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 # R153G140B60
 1639 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 
 
 ### c_sigmahill
 # altus_new_5
 3151 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
-	culture = cul_altus
 }
 # R124G88B9
 1404 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 # R75G192B15
 1336 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 # altus_new_6
 3152 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 
 
 ### c_sussusmogu
 # altus_new_4
 3150 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
-	culture = cul_altus
 }
 # R164G82B15
 2071 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 # R156G58B91
 1715 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 # R175G72B85
 364 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 # altus_new_3
 3149 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 
 
 ### c_danelmaster
 # altus_new_2
 3148 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = castle_holding
-	culture = cul_altus
 }
 # R134G152B86
 367 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 # altus_new_7
 3153 = {
+	culture = cul_altus
 	religion = faith_golden
 	holding = none
-	culture = cul_altus
 }
 
 
