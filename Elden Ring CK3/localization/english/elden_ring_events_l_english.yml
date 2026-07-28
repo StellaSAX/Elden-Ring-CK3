@@ -17,6 +17,13 @@
  roundtable_hold_decision_events.0002.d:0 "Go back"
  roundtable_hold_decision_events.0002.cooldown.norune:0 "Has a great rune"
  
+ roundtable_hold_decision_events.0003.a:0 "Banished Knight's Greatsword"
+ roundtable_hold_decision_events.0003.b:0 "Noble's Slender Sword"
+ roundtable_hold_decision_events.0003.c:0 "Knight's Greatsword"
+ roundtable_hold_decision_events.0003.d:0 "Knight's Armor"
+ roundtable_hold_decision_events.0003.e:0 "Chain Armor"
+ roundtable_hold_decision_events.1000.i:0 "Nothing for now"
+ 
  elden_ring_tarnished_events.0001.title:0 "A moment to rest"
  elden_ring_tarnished_events.0001.desc:0 "While you sit down close to a site of grace, your mind wanders, and you begin to think about your situation.\n\nSo many hardships to get to this point, many enemies felled, some easier than others.\n\nAnd while you have many runes, you still don't know how to level up, some dude even called you maidenless.\n\nThen from the bushes you hear something."Hey dude, another tough day in the lands between?" a man wearing most of the Carian Knight Set but with Lazuli Glintstone Crown appears.\n\n"Just give me a moment to fill my Marika piss flask and i be on my way" he says calmly, and after filling the flask of Wondrous Physick he prepares to go, but before he does he talks. "Hey man, you look maidenless, you want some help leveling up? let me just get into character."\n\n"i cAn PlaY tHe ROLe oF MAiDeN. TuRNinG rUNes InTo sTrENgTH." He is not good at doing female voices."Wait wait wait, i think i got it. Let MY hand REST upon YOU, for BUT a moment." He is still bad.\n\n"Anyway what do you want to level up?""
  
@@ -27,3 +34,5 @@
  elden_ring_tarnished_events.0001.e:0 "Learning"
  elden_ring_tarnished_events.0001.f:0 "Prowess"
  elden_ring_tarnished_events.0001.out:0 "Nothing for now"
+ 
+ 

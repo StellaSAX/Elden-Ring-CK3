@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "WP_A_0251_mesh"
+	file = "WP_A_0251.mesh"
+
+	meshsettings = {
+		name = "WP_A_0251"
+		index = 0
+		texture_diffuse = "WP_A_0251_diffuse.dds"
+		texture_normal = "WP_A_0251_normal.dds"
+		texture_specular = "WP_A_0251_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "WP_A_0251_entity"
+	pdxmesh = "WP_A_0251_mesh"
+}

@@ -1,0 +1,145 @@
+﻿get_special_weapon_trina = {#St Trina sword
+	
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_smith.dds"
+	}
+	is_shown = {
+		NOT = {
+			any_character_artifact = {
+				has_variable = crated_special_sword_elden_ring
+			}
+		}
+	}
+	is_valid = {
+		faith = {
+			has_doctrine = doctrine_sleep_affinity_virtuous
+		}
+		is_knight_elden_ring = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult_or_is_commanding = yes
+	}
+	
+	effect = {
+		custom_tooltip = get_special_weapon_trina.tt
+		add_piety = 250
+		#elden_steel_create_artifact_WP_A_0230_effect = yes
+		trigger_event = elden_ring_artifact_events.0003
+	}
+
+	ai_check_interval = 0
+}
+
+get_special_weapon_carian_knight = { #carian sword
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_smith.dds" }
+	cooldown = { days = 1 }
+	desc = get_special_weapon_carian_knight_desc
+	
+	cost = {
+		gold = 250
+	}
+
+	is_shown = {
+		NOT = {
+			any_character_artifact = {
+				has_variable = crated_special_sword_elden_ring
+			}
+		}
+	}
+	
+	is_valid = {
+		OR = {
+			has_trait = sorcerous_knight
+			top_liege = {
+				OR = {
+					culture = {
+						has_cultural_tradition = tradition_carian_royal
+					}
+					has_trait = moon_princess
+				}
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		always = yes
+	}
+	
+	
+	effect = {
+		custom_tooltip = get_special_weapon_carian_knight.tt
+		add_piety = 250
+		trigger_event = elden_ring_artifact_events.0004
+		#elden_steel_create_artifact_WP_A_0227_effect = yes
+	}
+	
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 36
+		duchy = 36
+		kingdom = 36
+		empire = 36
+		hegemony = 36
+	}
+	ai_potential = {
+		is_at_war = no
+		ai_greed > medium_positive_ai_value
+		short_term_gold > ai_war_chest_desired_gold_value
+		war_chest_gold >= halved_ai_war_chest_gold_maximum
+		ai_should_focus_on_building_in_their_capital = no
+	}
+}
+
+get_special_weapon_miquellan_knight = { #Miquellan sword
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_smith.dds" }
+	cooldown = { days = 1 }
+	desc = get_special_weapon_carian_knight_desc
+	
+	cost = {
+		gold = 250
+	}
+
+	is_shown = {
+		NOT = {
+			any_character_artifact = {
+				has_variable = crated_special_sword_elden_ring
+			}
+		}
+	}
+	
+	is_valid = {
+		faith = {
+			has_doctrine = tenet_unalloyed_order
+		}
+		is_knight_elden_ring = yes
+	}
+
+	is_valid_showing_failures_only = {
+		always = yes
+	}
+	
+	
+	effect = {
+		custom_tooltip = get_special_weapon_miquellan_knight.tt
+		add_piety = 250
+		#elden_steel_create_artifact_WP_A_0229_effect = yes
+		trigger_event = elden_ring_artifact_events.0005
+	}
+	
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 36
+		duchy = 36
+		kingdom = 36
+		empire = 36
+		hegemony = 36
+	}
+	ai_potential = {
+		is_at_war = no
+		ai_greed > medium_positive_ai_value
+		short_term_gold > ai_war_chest_desired_gold_value
+		war_chest_gold >= halved_ai_war_chest_gold_maximum
+		ai_should_focus_on_building_in_their_capital = no
+	}
+}

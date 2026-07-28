@@ -19,3 +19,46 @@
 
  dragon_heart_name:0 "Dragon Heart"
  dragon_heart_description:0 "Dragon heart gained by slaying a dragon.\nRiddled with Gravel Stone, this grotesque organ continues to beat vivaciously.\n\nAn offering used in the Dragon Communion. Consume a dragon's heart at the altar to make its power yours."
+ 
+ 
+ WP_A_0203_name:0 "Banished Knight's Greatsword"
+ WP_A_0203_description:0 "A finely-crafted greatsword intricately engraved with an ancient motif. Given to knights who, whether by misfortune or misdeed, were forced to abandon their homes. Most of these knights were sent to the fringes, where they were forced to start anew with only despair for company."
+ 
+ WP_A_0207_name:0 "Lordsworn's Straight Sword"
+ WP_A_0207_description:0 "Well-crafted straight sword with an illustrious design, wielded by regulars of a lord's army."
+ 
+ WP_A_0211_name:0 "Noble's Slender Sword"
+ WP_A_0211_description:0 "Narrow blade carried by wandering nobles. Made to be easy to wield. Daubed with gold from tip to tail, it should fetch a good sum."
+ 
+ WP_A_0215_name:0 "Ornamental Straight Sword"
+ WP_A_0215_description:0 "Slender straight sword patterned after an antique ornament. Superior swordsmen prefer to wield one in each hand. After falling from grace, the dregs of the golden lineage sought power and purpose in the past."
+ 
+ WP_A_0227_name:0 "Carian Knight's Sword"
+ WP_A_0227_description:0 "Straight sword embedded with a blue glintstone. Weapon of knights sworn to Carian royalty. These knights' swords could serve as catalysts, letting them wield sorcerous battle skills. Despite numbering fewer than twenty, this power made them a match for even the champions of gold in battle."
+ 
+ WP_A_0229_name:0 "Miquellan Knight's Sword"
+ WP_A_0229_description:0 "Sword forged by servants of Miquella of the Haligtree, with a design modeled after those carried by Carian knights. Instead of glintstone however, amber from the Haligtree is embedded in the blade."
+ 
+ WP_A_0230_name:0 "Sword of St Trina"
+ WP_A_0230_description:0 "Silver sword carried by clerics of St. Trina. St. Trina is an enigmatic figure. Some say she is a comely young girl, others are sure he is a boy. The only certainty is that their appearance was as sudden as their disappearance."
+ 
+ WP_A_0251_name:0 "Rogier's Rapier"
+ WP_A_0251_description:0 "Piercing sword of superior quality, featuring intricate ornamentation. Signature weapon of the sorcerer Rogier. High dexterity is required to wield the blade to its full potential, but mastery is a sight to behold, characterized by a flowing style which excels in successive attacks."
+ 
+ WP_A_0607_name:0 "Lordsworn's Greatsword"
+ WP_A_0607_description:0 "Well-crafted straight sword with an illustrious design, wielded by regulars of a lord's army."
+ 
+ WP_A_0609_name:0 "Knight's Greatsword"
+ WP_A_0609_description:0 "Greatsword bestowed upon skilled swordsmen in the demigods' service, and yet had no rank or title. Featuring a long grip enabling a dual-handed use, this weapon was designed to dispatch larger foes. Being charged with such a duty was undoubtedly a great honor."
+ 
+ WP_A_0617_name:0 "Dark Moon Greatsword"
+ WP_A_0617_description:0 "A Moon Greatsword, bestowed by a Carian queen upon her spouse to honor long-standing tradition."
+
+ WP_A_0626_name:0 "Grafted Blade Greatsword"
+ WP_A_0626_description:0 "The storied sword of Castle Morne. A revenger's weapon, it is burdened with oceans of anger and regret. A lone surviving champion from a country now vanished was so determined to continue fighting that he claimed the swords of an entire clan of warriors."
+ 
+ er_knight_armor_name:0 "Knight Armor"
+ er_knight_armor_desc:0 "Iron armor of an unknown knight. It is made of thin iron plate. Such metal armor is heavy, but provides considerable damage negation."
+ 
+ er_chain_armor_name:0 "Chain Armor"
+ er_chain_armor_desc:0 "Armor made of woven chain. Standard issue for ordinary soldiers. Though plain in appearance, it offers dependable protection."

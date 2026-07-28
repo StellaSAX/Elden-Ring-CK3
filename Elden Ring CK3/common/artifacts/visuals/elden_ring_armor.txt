@@ -2,3 +2,13 @@
 	icon = "er_deathbed_smalls.dds"
 	asset = deathbed_smalls
 }
+
+knight_armor_visual = {
+	icon = "er_armor_knight_armor.dds"
+	asset = armor_knight_armor
+}
+
+chain_armor_visual = {
+	icon = "er_armor_chain_armor.dds"
+	asset = armor_chain_armor
+}

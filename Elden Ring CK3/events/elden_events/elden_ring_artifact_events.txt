@@ -1,6 +1,5 @@
 ﻿namespace = elden_ring_artifact_events
 
-
 elden_ring_artifact_events.0001 = { #CREATE GREAT RUNE
 
 	type = character_event
@@ -278,6 +277,147 @@ elden_ring_artifact_events.0002 = { #CREATE ELDEN RING
 	
 	option = {
 		name = elden_ring_artifact_events.0001.g
+		
+		ai_chance = {
+			base = 10 
+		}
+	}
+	
+}
+
+elden_ring_artifact_events.0003 = { #st trina sword
+
+	type = character_event
+	desc = elden_ring_artifact_events.0003.desc
+	title = elden_ring_artifact_events.0003.title
+	theme = war
+
+	left_portrait = {
+		character = ROOT 
+		animation = marshal 
+	}
+	
+	option = {
+		name = elden_ring_artifact_events.0003.a
+			create_artifact = {
+			name = WP_A_0230_name
+			description = WP_A_0230_description
+			visuals = WP_A_0230
+			type = sword
+			wealth = scope:wealth
+			quality = scope:quality
+			rarity = famed
+			template = general_unique_template
+			modifier = WP_A_0230_modifier
+			save_scope_as = newly_created_artifact
+			decaying = no
+		}
+		scope:newly_created_artifact ?= {
+			equip_artifact_to_owner_replace = yes
+			set_variable = {
+				name = crated_special_sword_elden_ring
+				value = yes
+			}
+			set_variable = {
+				name = historical_unique_artifact
+				value = yes
+			}
+		}
+		
+		ai_chance = {
+			base = 10 
+		}
+	}
+
+}
+
+elden_ring_artifact_events.0004 = { #carian knight sword
+
+	type = character_event
+	desc = elden_ring_artifact_events.0004.desc
+	title = elden_ring_artifact_events.0004.title
+	theme = war
+
+	left_portrait = {
+		character = ROOT 
+		animation = marshal 
+	}
+	
+	option = {
+		name = elden_ring_artifact_events.0003.a
+		add_trait = sorcerous_knight
+		create_artifact = {
+			name = WP_A_0227_name
+			description = WP_A_0227_description
+			visuals = WP_A_0227
+			type = sword
+			wealth = scope:wealth
+			quality = scope:quality
+			rarity = famed
+			template = general_unique_template
+			modifier = WP_A_0227_modifier
+			save_scope_as = newly_created_artifact
+			decaying = no
+		}
+		scope:newly_created_artifact ?= {
+			equip_artifact_to_owner_replace = yes
+			set_variable = {
+				name = crated_special_sword_elden_ring
+				value = yes
+			}
+			set_variable = {
+				name = historical_unique_artifact
+				value = yes
+			}
+		}
+		
+		ai_chance = {
+			base = 10 
+		}
+	}
+	
+}
+
+elden_ring_artifact_events.0005 = { #miquella knight sword
+
+	type = character_event
+	desc = elden_ring_artifact_events.0005.desc
+	title = elden_ring_artifact_events.0005.title
+	theme = war
+
+	left_portrait = {
+		character = ROOT 
+		animation = marshal 
+	}
+	
+	option = {
+		name = elden_ring_artifact_events.0003.a
+		#elden_steel_create_artifact_WP_A_0229_effect = yes
+		
+		create_artifact = {
+			name = WP_A_0229_name
+			description = WP_A_0229_description
+			visuals = WP_A_0229
+			type = sword
+			wealth = scope:wealth
+			quality = scope:quality
+			rarity = famed
+			template = general_unique_template
+			modifier = WP_A_0229_modifier
+			save_scope_as = newly_created_artifact
+			decaying = no
+		}
+		scope:newly_created_artifact ?= {
+			equip_artifact_to_owner_replace = yes
+			set_variable = {
+				name = crated_special_sword_elden_ring
+				value = yes
+			}
+			set_variable = {
+				name = historical_unique_artifact
+				value = yes
+			}
+		}
 		
 		ai_chance = {
 			base = 10 

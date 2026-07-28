@@ -21,3 +21,99 @@ artifact_stewardship_5_modifier = { stewardship = 5 }
 artifact_intrigue_5_modifier = { intrigue = 5 }
 artifact_learning_5_modifier = { learning = 5 }
 artifact_monthly_prestige_add_9_modifier = { monthly_dynasty_prestige = 0.2 }
+
+
+#For the weapons by https://steamcommunity.com/id/pegasus2137
+WP_A_0203_modifier = {
+	prowess_no_portrait = 5
+	monthly_prestige = 0.05
+	 character_travel_safety = 10
+}
+WP_A_0207_modifier = {
+	prowess_no_portrait = 5
+	monthly_dynasty_prestige_mult = 0.1
+	monthly_prestige = 0.15
+	liege_opinion = 10
+	accolade_glory_gain_mult = 0.2
+}
+WP_A_0211_modifier = {
+	prowess_no_portrait = 5
+	monthly_dynasty_prestige_mult = 0.05
+	monthly_prestige = 0.2
+	vassal_opinion = 5
+	courtier_and_guest_opinion = 10
+}
+WP_A_0215_modifier = {
+	prowess_no_portrait = 5
+	monthly_dynasty_prestige_mult = 0.05
+	monthly_prestige = 0.2
+	general_opinion = 5
+	courtier_and_guest_opinion = 5
+}
+WP_A_0227_modifier = {
+	prowess_no_portrait = 5
+	monthly_prestige = 0.20
+	monthly_dynasty_prestige_mult = 0.1
+	learning_per_piety_level = 1
+	liege_opinion = 10
+}
+WP_A_0229_modifier = {
+	prowess_no_portrait = 5
+	monthly_dynasty_prestige_mult = 0.15
+	monthly_prestige = 0.2
+	accolade_glory_gain_mult = 0.25
+	same_faith_opinion = 10
+}
+WP_A_0230_modifier = {
+	prowess_no_portrait = 5
+	monthly_dynasty_prestige_mult = 0.05
+	monthly_prestige = 0.1
+	same_faith_opinion = 15
+	attraction_opinion = 5
+	stress_gain_mult = -0.1
+}
+WP_A_0251_modifier = {
+	prowess_no_portrait = 5
+	monthly_dynasty_prestige_mult = 0.05
+	monthly_prestige = 0.1
+	attraction_opinion = 10
+}
+WP_A_0607_modifier = {
+	prowess_no_portrait = 10
+	monthly_dynasty_prestige_mult = 0.1
+	monthly_prestige = 0.15
+	liege_opinion = 10
+	accolade_glory_gain_mult = 0.2
+	dread_baseline_add = 5
+}
+WP_A_0609_modifier = {
+	prowess_no_portrait = 10
+	monthly_dynasty_prestige_mult = 0.1
+	monthly_prestige = 0.25
+	monthly_dynasty_prestige_mult = 0.05
+	accolade_glory_gain_mult = 0.2
+	liege_opinion = 10
+}
+WP_A_0617_modifier = {
+	prowess_no_portrait = 15
+	monthly_dynasty_prestige_mult = 0.1
+	monthly_prestige = 0.2
+	dread_baseline_add = 10
+	spouse_opinion = 10
+	monthly_learning_lifestyle_xp_gain_mult = 0.1
+}
+WP_A_0626_modifier = {
+	prowess_no_portrait = 15
+	monthly_dynasty_prestige_mult = 0.1
+	monthly_dynasty_prestige = 0.1
+	monthly_prestige = 0.5
+	dread_baseline_add = 25
+	glory_hound_opinion = 15
+	health = -0.25
+	stress_gain_mult = 0.15
+}
+
+
+
+
+

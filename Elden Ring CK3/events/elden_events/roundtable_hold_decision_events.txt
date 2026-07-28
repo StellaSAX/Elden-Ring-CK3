@@ -1,10 +1,19 @@
 ﻿namespace = roundtable_hold_decision_events
+
+
 ################
 # roundtable_hold_decision_events.0001#get to the table
 # roundtable_hold_decision_events.0002#talk to leader
 # roundtable_hold_decision_events.0003#buy artifact
 # roundtable_hold_decision_events.0004#change faith
 ################
+
+	#for when i want to pay the leader of the roundtable, i am still testing things
+		# pay_short_term_gold = {
+			# target = scope:host
+			# gold = scope:host.minor_gold_value
+		# }
+
 #get to the table
 roundtable_hold_decision_events.0001 = {
 	type = character_event
@@ -414,128 +423,45 @@ roundtable_hold_decision_events.0003 = {
 	desc = roundtable_hold_decision_events.0003.desc
 	theme = landless_adventurer
 
-	override_background = { reference = roundtable_study }
+	override_background = { reference = roundtable_smith }
 	center_portrait = {
 		character = root
 		animation = thinking
 	}
 	
-	artifact = {
-		target = scope:1061_first_weapon
-		position = lower_left_portrait
-	}
-	artifact = {
-		target = scope:1061_second_weapon
-		position = lower_center_portrait
-	}
-	artifact = {
-		target = scope:1061_third_weapon
-		position = lower_right_portrait
-	}
 	
-	immediate = {
-		#Find our weapons
-		if = {
-			limit = {
-				NOT = { exists = scope:1061_first_weapon }
-			}
-			
-			#If we don't have any old weapons; generate new ones!
-			hidden_effect_new_object = { #HAZMAT SUIT OF ERROR SUPRESSION  ///I don't know what they meant by this, but i am scared
-				if = {
-					limit = {
-						NOT = { exists = scope:1061_first_weapon }
-					}
-					#Set rarity, maybe
-					1041_chance_to_buff_item_rarity_effect = { VENDOR = scope:laamp_armorer_craftsman }
-					#Generate weapon
-					create_artifact_weapon_effect = {
-						OWNER = scope:laamp_armorer_craftsman
-						CREATOR = scope:laamp_armorer_craftsman
-						SET_WEAPON_TYPE = flag:no
-					}
-					#Finalization
-					scope:newly_created_artifact ?= {
-						1061_set_weapon_variable_effect = yes
-						1061_buff_item_modifiers_effect = yes
-						#Don't need no notification about this
-						1020_suppress_artifact_notifications_effect = yes
-						save_scope_as = 1061_first_weapon
-					}
-				}
-				if = {
-					limit = {
-						NOT = { exists = scope:1061_second_weapon }
-					}
-					#Set rarity, maybe
-					1041_chance_to_buff_item_rarity_effect = { VENDOR = scope:laamp_armorer_craftsman }
-					#Generate weapon
-					create_artifact_armor_effect = {
-						OWNER = scope:laamp_armorer_craftsman
-						CREATOR = scope:laamp_armorer_craftsman
-						SET_ARMOR_TYPE = flag:armor_type_scale
-					}
-					#Finalization
-					scope:newly_created_artifact ?= {
-						1063_set_armor_variable_effect = yes
-						1061_buff_item_modifiers_effect = yes
-						#Don't need no notification about this
-						1020_suppress_artifact_notifications_effect = yes
-						save_scope_as = 1063_third_armor
-					}
-				}
-				if = {
-					limit = {
-						NOT = { exists = scope:1061_third_weapon }
-					}
-					#Set rarity, maybe
-					1041_chance_to_buff_item_rarity_effect = { VENDOR = scope:laamp_armorer_craftsman }
-					#Generate weapon
-					random_list = {
-						50 = {
-							create_artifact_brooch_effect = {
-								OWNER = scope:laamp_armorer_craftsman
-								SMITH = scope:laamp_armorer_craftsman
-							}
-						}
-						50 = {
-							create_artifact_ring_effect = {
-								OWNER = scope:laamp_armorer_craftsman
-								SMITH = scope:laamp_armorer_craftsman
-							}
-						}
-						50 = {
-							create_artifact_necklace_effect = {
-								OWNER = scope:laamp_armorer_craftsman
-								SMITH = scope:laamp_armorer_craftsman
-							}
-						}
-					}
-					#Finalization
-					scope:newly_created_artifact ?= {
-						1065_set_accessory_variable_effect = yes
-						1061_buff_item_modifiers_effect = yes
-						#Don't need no notification about this
-						1020_suppress_artifact_notifications_effect = yes
-						save_scope_as = 1065_first_accessory
-					}
-				}
-				#Set the value of the weapons
-				scope:1061_first_weapon = { 1041_set_item_value_effect = yes }
-				scope:1061_second_weapon = { 1041_set_item_value_effect = yes }
-				scope:1061_third_weapon = { 1041_set_item_value_effect = yes }
-			}
-			
-
-		}
-	}
-	#weapon
+	#Banished Knight's Greatsword
 	option = {
-		name = ep3_laamp_decision_event.1061.a
-		#Pay gold, transfer weapon
-		scope:1061_first_weapon = { 1061_buy_item_effect = yes }
-		#Then set correct variables and reroute us to the craftsmen
-		1061_bought_weapon_effect = yes
+		name = roundtable_hold_decision_events.0003.a
+		trigger = { gold >= 150 }
+		show_as_unavailable = { always = yes }
+		remove_short_term_gold = 150
+		
+		#elden_steel_create_artifact_WP_A_0203_effect = yes
+		create_artifact = {
+			name = WP_A_0203_name
+			description = WP_A_0203_description
+			visuals = WP_A_0203
+			type = sword
+			wealth = scope:wealth
+			quality = scope:quality
+			rarity = masterwork
+			template = general_unique_template
+			modifier = WP_A_0203_modifier
+			save_scope_as = newly_created_artifact
+			decaying = yes
+		}
+		scope:newly_created_artifact ?= {
+			equip_artifact_to_owner_replace = yes
+			set_variable = {
+				name = elden_steel
+				value = yes
+			}
+			set_variable = {
+				name = historical_unique_artifact
+				value = yes
+			}
+		}
 		ai_chance = {
 			base = 100
 			modifier = {
@@ -545,13 +471,33 @@ roundtable_hold_decision_events.0003 = {
 			}
 		}
 	}
-	#armor
+	#Noble's Slender Sword
 	option = {
-		name = ep3_laamp_decision_event.1061.b
-		#Pay gold, transfer weapon
-		scope:1063_third_armor = { 1061_buy_item_effect = yes }
-		#Then set correct variables and reroute us to the craftsmen
-		1061_bought_weapon_effect = yes
+		name = roundtable_hold_decision_events.0003.b
+		trigger = { gold >= 500 }
+		show_as_unavailable = { always = yes }
+		remove_short_term_gold = 500
+		#elden_steel_create_artifact_WP_A_0211_effect = yes
+		create_artifact = {
+			name = WP_A_0211_name
+			description = WP_A_0211_description
+			visuals = WP_A_0211
+			type = sword
+			wealth = scope:wealth
+			quality = scope:quality
+			template = general_unique_template
+			rarity = masterwork
+			modifier = WP_A_0211_modifier
+			save_scope_as = newly_created_artifact
+			decaying = yes
+		}
+		scope:newly_created_artifact ?= {
+			equip_artifact_to_owner_replace = yes
+			set_variable = {
+				name = historical_unique_artifact
+				value = yes
+			}
+		}
 		ai_chance = {
 			base = 100
 			modifier = {
@@ -561,13 +507,157 @@ roundtable_hold_decision_events.0003 = {
 			}
 		}
 	}
-	#artifact
+	#Knight's Greatsword
+	option = {
+		name = roundtable_hold_decision_events.0003.c
+		#elden_steel_create_artifact_WP_A_0609_effect = yes
+		trigger = { gold >= 200 }
+		show_as_unavailable = { always = yes }
+		remove_short_term_gold = 200
+		create_artifact = {
+			name = WP_A_0609_name
+			description = WP_A_0609_description
+			visuals = WP_A_0609
+			type = sword
+			wealth = scope:wealth
+			quality = scope:quality
+			rarity = masterwork
+			template = general_unique_template
+			modifier = WP_A_0609_modifier
+			save_scope_as = newly_created_artifact
+			decaying = no
+		}
+		
+		ai_chance = {
+			base = 100
+			modifier = {
+				short_term_gold < scope:1065_first_accessory.var:1061_weapon_value
+				short_term_gold < laamp_ai_spending_pants_value
+				factor = 0
+			}
+		}
+	}
+	
+	#knight armor
+	option = {
+		name = roundtable_hold_decision_events.0003.d
+		trigger = { gold >= 400 }
+		show_as_unavailable = { always = yes }
+		remove_short_term_gold = 400
+		#elden_steel_create_artifact_WP_A_0211_effect = yes
+		create_artifact = {
+			name = er_knight_armor_name
+			description = er_knight_armor_desc
+			visuals = knight_armor_visual
+			armor_material = armor_material_steel
+			armor_helmet = armor_helmet_spangenhelm
+			type = armor_plate
+			modifier = artifact_negate_health_penalty_add_3_modifier
+			modifier = artifact_prowess_5_modifier
+			modifier = artifact_monthly_minor_prestige_5_modifier
+			modifier = artifact_travel_safety_1
+			rarity = masterwork
+			wealth = scope:wealth
+			quality = scope:quality
+			save_scope_as = newly_created_artifact
+		}
+		
+		ai_chance = {
+			base = 100
+			modifier = {
+				short_term_gold < scope:1063_third_armor.var:1061_weapon_value
+				short_term_gold < laamp_ai_spending_pants_value
+				factor = 0
+			}
+		}
+	}
+	#chain armor
+	option = {
+		name = roundtable_hold_decision_events.0003.e
+		#elden_steel_create_artifact_WP_A_0609_effect = yes
+		trigger = { gold >= 200 }
+		show_as_unavailable = { always = yes }
+		remove_short_term_gold = 200
+		create_artifact = {
+			name = er_chain_armor_name
+			description = er_chain_armor_desc
+			visuals = chain_armor_visual
+			type = armor_mail
+			visuals = chain_armor_visual
+			armor_material = armor_material_iron
+			modifier = artifact_negate_health_penalty_add_2_modifier
+			modifier = artifact_prowess_3_modifier
+			modifier = artifact_monthly_minor_prestige_3_modifier
+			rarity = common
+			wealth = scope:wealth
+			quality = scope:quality
+			save_scope_as = newly_created_artifact
+		}
+		
+	}
+	
+	
+	#get out
+	option = {
+		name = roundtable_hold_decision_events.1000.i
+		custom_tooltip = roundtable_hold_decision_events.1000.i.tt
+		#For loc reasons
+		trigger_event = roundtable_hold_decision_events.0001
+		1000_clean_up_effect = yes
+		ai_chance = { base = 50 }
+	}
+	
+	after = {
+		trigger_event = roundtable_hold_decision_events.0001
+	}
+}
+
+roundtable_hold_decision_events.0004 = {
+	type = character_event
+	title = roundtable_hold_decision_events.0004.t	
+	window = visit_settlement_window
+	desc = roundtable_hold_decision_events.0004.desc
+	theme = landless_adventurer
+
+	override_background = { reference = roundtable_study }
+	center_portrait = {
+		character = root
+		animation = thinking
+	}
+	
+	#Banished Knight's Greatsword
+	option = {
+		name = ep3_laamp_decision_event.1061.a
+		remove_short_term_gold = 150
+		elden_steel_create_artifact_WP_A_0203_effect = yes
+		ai_chance = {
+			base = 100
+			modifier = {
+				short_term_gold < scope:1061_first_weapon.var:1061_weapon_value
+				short_term_gold < laamp_ai_spending_pants_value
+				factor = 0
+			}
+		}
+	}
+	#Noble's Slender Sword
+	option = {
+		name = ep3_laamp_decision_event.1061.b
+		remove_short_term_gold = 300
+		elden_steel_create_artifact_WP_A_0211_effect = yes
+		ai_chance = {
+			base = 100
+			modifier = {
+				short_term_gold < scope:1063_third_armor.var:1061_weapon_value
+				short_term_gold < laamp_ai_spending_pants_value
+				factor = 0
+			}
+		}
+	}
+	#Knight's Greatsword
 	option = {
 		name = ep3_laamp_decision_event.1061.c
-		#Pay gold, transfer weapon
-		scope:1065_first_accessory = { 1061_buy_item_effect = yes }
-		#Then set correct variables and reroute us to the craftsmen
-		1061_bought_weapon_effect = yes
+		elden_steel_create_artifact_WP_A_0609_effect = yes
+		remove_short_term_gold = 200
 		ai_chance = {
 			base = 100
 			modifier = {

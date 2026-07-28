@@ -12,3 +12,66 @@ axe_of_godrick_visual = {
 	icon = "er_axe_of_godrick.dds"
 	asset = axe_of_godrick
 }
+
+#Weapons by https://steamcommunity.com/id/pegasus2137
+
+WP_A_0203 = {
+	icon = "er_banished_knight_greatsword.dds"
+	asset = WP_A_0203_entity
+}
+
+WP_A_0207 = {
+	icon = "er_lordsworn_straight_sword.dds"
+	asset = WP_A_0207_entity
+}
+
+WP_A_0211 = {
+	icon = "er_noble_slender_sword.dds"
+	asset = WP_A_0211_entity
+}
+
+WP_A_0215 = {
+	icon = "er_ornamental_straight_sword.dds"
+	asset = WP_A_0215_entity
+}
+
+WP_A_0227 = {
+	icon = "er_carian_knight_sword.dds"
+	asset = WP_A_0227_entity
+}
+
+WP_A_0229 = {
+	icon = "er_miquellan_knight_sword.dds"
+	asset = WP_A_0229_entity
+}
+
+WP_A_0230 = {
+	icon = "er_sword_of_st_trina.dds"
+	asset = WP_A_0230_entity
+}
+
+WP_A_0251 = {
+	icon = "er_rogier_rapier.dds"
+	asset = WP_A_0251_entity
+}
+
+WP_A_0607 = {
+	icon = "er_lordsworn_greatsword.dds"
+	asset = WP_A_0607_entity
+}
+
+WP_A_0609 = {
+	icon = "er_knight_greatsword.dds"
+	asset = WP_A_0609_entity
+}
+
+WP_A_0617 = {
+	icon = "er_dark_moon_greatsword.dds"
+	asset = WP_A_0617_entity
+}
+
+WP_A_0626 = {
+	icon = "er_grafted_blade_greatsword.dds"
+	asset = WP_A_0626_entity
+}
+

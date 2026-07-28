@@ -12,7 +12,7 @@ prosthesis_modifier = {
 	icon = treatment_positive
 	monthly_prestige = 0.5
 	martial = 2
-	prowess = 4
+	prowess_no_portrait = 4
 }
 
 gift_from_the_eternal = {
