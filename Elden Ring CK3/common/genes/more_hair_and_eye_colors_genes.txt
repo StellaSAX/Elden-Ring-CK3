@@ -1,0 +1,269 @@
+﻿#got this from https://steamcommunity.com/sharedfiles/filedetails/?id=2944994400 by https://steamcommunity.com/profiles/76561198116718240, that at the same time got it from https://steamcommunity.com/sharedfiles/filedetails/?id=2887120253
+morph_genes = {
+
+	skin_color_hue_mhec = {
+		inheritable = yes
+		group = body
+		sync_inheritance_with = hair_color
+		
+		vanilla_skin_color_hue_mhec = { 
+			index = 0
+			male = {}
+			female = male
+			boy = male
+			girl = male
+		}
+
+		skin_color_hue_mhec = {
+			index = 1
+			male = {
+				skin_hsv_shift_curve = {
+					curve = {
+						{ 0.0   { 0.0 0.0 0.0 } }
+						{ 1.0   { 1.0 0.0 0.0 } }
+					}
+				}
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+	}		
+
+	skin_color_saturation_mhec = {
+		inheritable = yes
+		group = body
+		sync_inheritance_with = hair_color
+		
+		vanilla_skin_color_saturation_mhec = { 
+			index = 0
+			male = {}
+			female = male
+			boy = male
+			girl = male
+		}
+				
+		skin_color_saturation_mhec = {
+		index = 1
+			male = {
+				skin_hsv_shift_curve = {
+					curve = {
+						{ 0.0   { 0.0 -1.0 0.0 } }
+						{ 1.0   { 0.0 1.0 0.0 } }
+					}
+				}
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+	}
+
+	skin_color_value_mhec = {
+		inheritable = yes
+		group = body
+		sync_inheritance_with = hair_color
+		
+		vanilla_skin_color_value_mhec = { 
+			index = 0
+			male = {}
+			female = male
+			boy = male
+			girl = male
+		}
+				
+		skin_color_value_mhec = {
+		index = 1
+			male = {
+				skin_hsv_shift_curve = {
+					curve = {
+						{ 0.0   { 0.0 0.0 -1.0 } }
+						{ 1.0   { 0.0 0.0 1.0 } }
+					}
+				}
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+	}
+
+	eye_color_hue_mhec = {
+		inheritable = yes
+		group = eyes
+		sync_inheritance_with = hair_color
+		
+		vanilla_eye_color_hue_mhec = {
+			visible = yes
+			index = 0
+			male = {}
+			female = male
+			boy = male
+			girl = male
+		}
+				
+		eye_color_hue_mhec = {
+		index = 1
+			male = {
+				eye_hsv_shift_curve = {
+					curve = {
+						{ 0.0   { 0.0 0.0 0.0 } }
+						{ 1.0   { 1.0 0.0 0.0 } }
+					}
+				}
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+	}
+	
+	eye_color_saturation_mhec = {
+		inheritable = yes
+		group = eyes
+		sync_inheritance_with = hair_color
+		
+		vanilla_eye_color_saturation_mhec = {
+			visible = yes
+			index = 0
+			male = {}
+			female = male
+			boy = male
+			girl = male
+		}
+				
+		eye_color_saturation_mhec = {
+		index = 1
+			male = {
+				eye_hsv_shift_curve = {
+					curve = {
+						{ 0.0   { 0.0 -1.0 0.0 } }
+						{ 1.0   { 0.0 1.0 0.0 } }
+					}
+				}
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+	}
+	
+	eye_color_value_mhec = {
+		inheritable = yes
+		group = eyes
+		sync_inheritance_with = hair_color
+		
+		vanilla_eye_color_value_mhec = {
+			visible = yes
+			index = 0
+			male = {}
+			female = male
+			boy = male
+			girl = male
+		}
+				
+		eye_color_value_mhec = {
+		index = 1
+			male = {
+				eye_hsv_shift_curve = {
+					curve = {
+						{ 0.0   { 0.0 0.0 -1.0 } }
+						{ 1.0   { 0.0 0.0 1.0 } }
+					}
+				}
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+	}
+
+	hair_color_hue_mhec = {
+		inheritable = yes
+		group = hair
+		sync_inheritance_with = hair_color
+		
+		vanilla_hair_color_hue_mhec = { 
+			index = 0
+			male = {}
+			female = male
+			boy = male
+			girl = male
+		}
+
+		hair_color_hue_mhec = {
+		index = 1
+			male = {
+				hair_hsv_shift_curve = {
+					curve = {
+						{ 0.0   { 0.0 0.0 0.0 } }
+						{ 1.0   { 1.0 0.0 0.0 } }
+					}
+				}
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+	}
+	
+	hair_color_saturation_mhec = {
+		inheritable = yes
+		group = hair
+		sync_inheritance_with = hair_color
+		
+		vanilla_hair_color_saturation_mhec = { 
+			index = 0
+			male = {}
+			female = male
+			boy = male
+			girl = male
+		}
+
+		hair_color_saturation_mhec = {
+		index = 1
+			male = {
+				hair_hsv_shift_curve = {
+					curve = {
+						{ 0.0   { 0.0 -1.0 0.0 } }
+						{ 1.0   { 0.0 1.0 0.0 } }
+					}
+				}
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+	}
+	
+	hair_color_value_mhec = {
+		inheritable = yes
+		group = hair
+		sync_inheritance_with = hair_color
+		
+		vanilla_hair_color_value_mhec = { 
+			index = 0
+			male = {}
+			female = male
+			boy = male
+			girl = male
+		}
+
+		hair_color_value_mhec = {
+		index = 1
+			male = {
+				hair_hsv_shift_curve = {
+					curve = {
+						{ 0.0   { 0.0 0.0 -1.0 } }
+						{ 1.0   { 0.0 0.0 1.0 } }
+					}
+				}
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+	}
+}
+
+

@@ -661,6 +661,7 @@ ranni = {
 		add_pressed_claim = title:h_lands_between
 		add_pressed_claim = title:e_leyndell
 		add_pressed_claim = title:k_leyndell
+		add_trait = ranni_doll_body
 	}
 }
 

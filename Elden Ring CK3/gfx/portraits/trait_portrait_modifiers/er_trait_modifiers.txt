@@ -54,3 +54,68 @@
 		}
 	}
 }
+
+character_colors  = {
+	rani_doll_body = {
+		traits = { ranni_doll_body }
+		dna_modifiers = {
+			human = {
+				#skin
+				color = {
+					gene = skin_color
+					mode = replace
+
+					x = 0.0
+					y = 0.0
+				}
+				
+				morph = {
+					mode = replace				
+					gene = skin_color_hue_mhec
+					template = skin_color_hue_mhec
+					range = { 0.59 0.60 }
+				}
+				morph = {
+					mode = replace				
+					gene = skin_color_saturation_mhec
+					template = skin_color_saturation_mhec
+					range = { 0.85 0.86 }
+				}
+				morph = {
+					mode = replace				
+					gene = skin_color_value_mhec
+					template = skin_color_value_mhec
+					range = { 0.98 0.99 }	
+				}
+				
+				
+				#hair
+				color = {
+					gene = hair_color
+					mode = replace
+
+					x = 0.0
+					y = 0.0
+				}
+				morph = {
+					mode = replace				
+					gene = hair_color_hue_mhec
+					template = hair_color_hue_mhec
+					range = { 0.60 0.61 }
+				}
+				morph = {
+					mode = replace				
+					gene = hair_color_saturation_mhec
+					template = hair_color_saturation_mhec
+					range = { 0.99 1.0 }
+				}
+				morph = {
+					mode = replace				
+					gene = hair_color_value_mhec
+					template = hair_color_value_mhec
+					range = { 0.61 0.62 }
+				}
+			}
+		}
+	}
+}
