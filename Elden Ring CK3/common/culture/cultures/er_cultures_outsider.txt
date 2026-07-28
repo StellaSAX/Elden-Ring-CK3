@@ -125,7 +125,8 @@ cul_ranah = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_pastoralists
-		tradition_monastic_communities
+		#tradition_monastic_communities
+		tradition_dancer_ranah
 		tradition_pacifism
 		tradition_storytellers
 	}

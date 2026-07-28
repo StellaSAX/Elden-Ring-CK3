@@ -1,4 +1,5 @@
-﻿cul_landsbetween = {
+﻿#Many of these have too many traditions, keep it at 5-6, leave some space for the players to change their culture however they want
+cul_landsbetween = {
 	color = { 0.89 0.88 0.1 }
 
 	ethos = ethos_communal
@@ -116,9 +117,10 @@ cul_stormhill = {
 		tradition_ruling_caste
 		tradition_stand_and_fight
 		tradition_reverence_for_veterans
-		tradition_eye_for_an_eye
-		tradition_loyal_soldiers
-		tradition_fp2_strategy_gamers
+		#8 tradotions is too much
+		# tradition_eye_for_an_eye
+		# tradition_loyal_soldiers
+		# tradition_fp2_strategy_gamers
 	}
 
 	name_list = name_list_frankish
@@ -262,8 +264,9 @@ cul_caelid = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_dryland_dwellers
-		tradition_pastoralists
-		tradition_warriors_of_the_dry
+		#tradition_pastoralists
+		#tradition_warriors_of_the_dry
+		
 		tradition_warriors_by_merit
 		tradition_warrior_culture
 		tradition_festivities
@@ -301,9 +304,10 @@ cul_dragonbarrow = {
 		tradition_dryland_dwellers
 		tradition_hill_dwellers
 		tradition_battlefield_looters
-		tradition_warriors_of_the_dry
-		tradition_xenophilic
 		tradition_sacred_mountains
+		#too many traditions
+		#tradition_warriors_of_the_dry
+		#tradition_xenophilic
 	}
 
 	name_list = name_list_frankish
@@ -315,10 +319,7 @@ cul_dragonbarrow = {
 	house_coa_frame = house_frame_22
 
 	ethnicities = {
-		30 = caucasian_blond
-		30 = caucasian_ginger
-		30 = caucasian_brown_hair
-		30 = caucasian_dark_hair
+		30 = draconian
 	}
 }
 
@@ -336,9 +337,9 @@ cul_sellia = {
 		tradition_carian_royal
 		tradition_city_keepers
 		tradition_dryland_dwellers
-		tradition_only_the_strong
+		#tradition_only_the_strong
 		tradition_mendicant_mystics
-		tradition_zealous_people
+		#tradition_zealous_people
 		tradition_sorcerous_metallurgy
 	}
 
@@ -376,9 +377,9 @@ cul_leyndell = {
 		tradition_metal_craftsmanship
 		tradition_astute_diplomats
 		tradition_ruling_caste
-		tradition_formation_fighting
+		#tradition_formation_fighting
 		tradition_stand_and_fight
-		tradition_martial_admiration
+		#tradition_martial_admiration
 	}
 
 	name_list = name_list_frankish
@@ -413,7 +414,7 @@ cul_altus = {
 		tradition_metal_craftsmanship
 		tradition_stalwart_defenders
 		tradition_welcoming
-		tradition_festivities
+		#tradition_festivities
 		#tradition_zealous_people that would fit, but it would make it a pain to change the religion of huge parts of the map
 	}
 
@@ -448,9 +449,9 @@ cul_gelmir = {
 		tradition_staunch_traditionalists
 		tradition_battlefield_looters
 		tradition_highland_warriors
-		tradition_mountaineers
-		tradition_eye_for_an_eye
-		tradition_by_the_sword
+		tradition_mt_gelmir #modified tradition_mountaineers
+		#tradition_eye_for_an_eye
+		#tradition_by_the_sword
 	}
 
 	name_list = name_list_frankish
@@ -483,12 +484,12 @@ cul_northerner = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_giants_fire
-		tradition_mountain_homes
+		#tradition_mountain_homes
 		tradition_isolationist
 		tradition_winter_warriors
 		tradition_mountaineers
-		tradition_highland_warriors
-		tradition_spartan
+		#tradition_highland_warriors
+		#tradition_spartan
 		tradition_sacred_mountains
 	}
 
@@ -520,7 +521,7 @@ cul_low_northerner = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_mountain_homes
-		tradition_isolationist
+		#tradition_isolationist
 		tradition_winter_warriors
 		tradition_highland_warriors
 		tradition_charitable
@@ -584,7 +585,7 @@ cul_zamor = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_winter_warriors
+		tradition_zamor
 		tradition_only_the_strong
 		tradition_mountain_homes
 		tradition_forbearing
@@ -658,6 +659,7 @@ cul_nox = {
 		tradition_philosopher_culture
 		tradition_adaptive_skirmishing
 		tradition_city_keepers
+		tradition_nox
 	}
 
 	name_list = name_list_frankish
@@ -669,10 +671,7 @@ cul_nox = {
 	house_coa_frame = house_frame_05
 
 	ethnicities = {
-		30 = caucasian_blond
-		30 = caucasian_ginger
-		30 = caucasian_brown_hair
-		30 = caucasian_dark_hair
+		30 = nightfolk
 	}
 }
 
@@ -698,10 +697,7 @@ cul_nightfolk = {
 	house_coa_frame = house_frame_05
 
 	ethnicities = {
-		30 = caucasian_blond
-		30 = caucasian_ginger
-		30 = caucasian_brown_hair
-		30 = caucasian_dark_hair
+		30 = nightfolk
 	}
 }
 
@@ -747,6 +743,7 @@ cul_ancestral_follower = {
 		tradition_tribe_unity
 		tradition_pastoralists
 		tradition_adaptive_skirmishing
+		tradition_ancestral_follower
 	}
 
 	name_list = name_list_frankish
@@ -758,10 +755,7 @@ cul_ancestral_follower = {
 	house_coa_frame = house_frame_15
 
 	ethnicities = {
-		30 = caucasian_blond
-		30 = caucasian_ginger
-		30 = caucasian_brown_hair
-		30 = caucasian_dark_hair
+		30 = ancestral_followers
 	}
 }
 

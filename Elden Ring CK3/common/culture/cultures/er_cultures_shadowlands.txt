@@ -13,6 +13,7 @@
 		tradition_faith_bound
 		tradition_eye_for_an_eye
 		tradition_golden_order
+		tradition_blood_of_landsbetween
 	}
 
 	name_list = name_list_frankish
@@ -74,7 +75,7 @@ cul_jagged = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_ruling_caste
-		tradition_dragon_communion #make something separated for them later
+		tradition_bayle_followers
 		tradition_mountaineers
 		tradition_martial_admiration
 	}
@@ -88,10 +89,7 @@ cul_jagged = {
 	house_coa_frame = house_frame_21
 
 	ethnicities = {
-		30 = caucasian_blond
-		30 = caucasian_ginger
-		30 = caucasian_brown_hair
-		30 = caucasian_dark_hair
+		30 = draconian
 	}
 }
 
@@ -134,9 +132,10 @@ cul_cerulean = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_culture_blending
-		tradition_religion_blending
-		tradition_diasporic
+		tradition_cerulean_coast
+		tradition_esteemed_hospitality
+		tradition_storytellers
+		tradition_ce1_ritual_washing
 	}
 
 	name_list = name_list_frankish

@@ -42,6 +42,7 @@ cul_draconian = {
 		tradition_staunch_traditionalists
 		tradition_ruling_caste
 		tradition_castle_keepers
+		tradition_dragon_communion
 	}
 
 	name_list = name_list_frankish
@@ -53,10 +54,7 @@ cul_draconian = {
 	house_coa_frame = house_frame_04
 
 	ethnicities = {
-		30 = caucasian_blond
-		30 = caucasian_ginger
-		30 = caucasian_brown_hair
-		30 = caucasian_dark_hair
+		30 = draconian
 	}
 }
 
@@ -71,10 +69,10 @@ cul_drake = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_dragon_communion
+		tradition_bayle_followers
 		tradition_by_the_sword
-		tradition_philosopher_culture
 		tradition_ruling_caste
+		tradition_quarrelsome
 	}
 
 	name_list = name_list_frankish
