@@ -1,0 +1,957 @@
+﻿#This ones are in case someone wants to add magic to their culture, but doesn't want the rest of cultural things
+
+#INCANTATIONS#############################################
+tradition_magic_incantation_two_fingers = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		incantation_two_fingers_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_incantation_spiral = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		incantation_spiral_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_incantation_rot = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		incantation_rot_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_incantation_order = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		incantation_order_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_incantation_miquella = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		incantation_miquella_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_incantation_messmers_flame = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		incantation_messmers_flame_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_incantation_frenzy = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		incantation_frenzy_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_incantation_flame = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		incantation_flame_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_incantation_erdtree = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		incantation_erdtree_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_incantation_dragon_cult = { #this is just lightning
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		incantation_dragon_cult_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_incantation_divine_beast = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		incantation_divine_beast_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_incantation_dragon_communion = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		incantation_dragon_communion_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_incantation_crucible = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		incantation_crucible_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_incantation_blood = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		incantation_blood_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_incantation_blackflame = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		incantation_blackflame_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_incantation_bestial = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		incantation_bestial_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+
+#SORCERY###################################################
+
+tradition_magic_sorcery_night = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		sorcery_night_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_sorcery_ice = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		sorcery_ice_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_sorcery_impenetrable_thorn = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		sorcery_impenetrable_thorn_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_sorcery_gravity= {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		sorcery_gravity_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_sorcery_gelmir = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		sorcery_gelmir_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_sorcery_finger = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		sorcery_finger_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_sorcery_death = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		sorcery_death_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_sorcery_claymen = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		sorcery_claymen_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_sorcery_crystalian = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		sorcery_crystalian_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_sorcery_bloodthorn = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		sorcery_bloodthorn_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_sorcery_carian = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		sorcery_carian_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_magic_sorcery_glintstone = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = hornsent.dds
+	}
+
+	can_pick = {
+		
+	}
+	
+	parameters = {
+		sorcery_glintstone_more_common = yes
+	}
+	character_modifier = {
+
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}

@@ -486,7 +486,7 @@
 			icon = faith_st_trina
 			reformed_icon = faith_st_trina
 
-			doctrine = unreformed_faith_doctrine
+			#doctrine = unreformed_faith_doctrine
 
 			holy_site = leyndell_capital
 			holy_site = haligtree
@@ -498,6 +498,8 @@
 			doctrine = tenet_esotericism
 			doctrine = tenet_st_trinas_blessing
 			doctrine = tenet_unalloyed_order
+			
+			doctrine = doctrine_sleep_affinity_virtuous
 			
 			localization = {
 				HighGodName = faith_st_trina_high_god_name

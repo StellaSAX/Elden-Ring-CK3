@@ -18,27 +18,13 @@
 
 on_game_start_after_lobby = {
 	on_actions = { 
-		#on_action_put_marika_and_radagon_in_the_tree #kill them
 		on_action_put_regents_in_charge
 		on_action_make_everyone_immortal_at_start
 		on_action_give_splendor_and_remove_points
+		#on_action_place_scarlet_rot_on_caelid
+		#on_action_add_scarlet_rot_caelid
 	}
 }
-
-# on_action_put_marika_and_radagon_in_the_tree = {
-	# effect = {
-		# character:marika = { 
-			# death = {
-				# death_reason = death_imprisoned_in_erdtree
-			# }
-		# }
-		# character:radagon = { 
-			# death = {
-				# death_reason = death_imprisoned_in_erdtree
-			# }
-		# }
-	# }
-# } 
 
 on_action_put_regents_in_charge = {
 	effect = {
@@ -164,3 +150,28 @@ on_action_give_splendor_and_remove_points = {
 		}
 	}
 } 
+
+
+#Dan:i am just doing some reasearch about plagues
+# on_action_place_scarlet_rot_on_caelid = {
+	# effect = {
+		# every_county_in_region = {
+			# region = world_caelid
+			# create_epidemic_outbreak = {
+				# type = scarlet_rot
+				# intensity = apocalyptic
+			# }
+		# }
+	# }
+# } 
+
+# on_action_add_scarlet_rot_caelid = {
+	# effect = {
+		# province:728 = {
+			# create_epidemic_outbreak = {
+				# type = scarlet_rot
+				# intensity = apocalyptic
+			# }
+		# }
+	# }
+# }

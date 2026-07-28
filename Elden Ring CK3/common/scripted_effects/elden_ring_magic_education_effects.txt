@@ -204,492 +204,1126 @@ get_new_magic_effect = {
 }
 
 get_local_magic_effect = {
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = golden_order_magic
-			}
-		}
-		random_list = {
-			34 = {
-				modifier = {
-					add = 30
-					has_trait = erdtree_affinity
+	random_list = {
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = golden_order_magic
 				}
-				add_trait = incantation_erdtree 
 			}
-			33 = { 
-				modifier = {
-					add = 30
-					has_trait = order_affinity
+			modifier = {
+				add = -50
+				OR = {
+					has_trait = incantation_erdtree
+					has_trait = incantation_order
+					has_trait = incantation_two_fingers
 				}
-				add_trait = incantation_order 
 			}
-			33 = { add_trait = incantation_two_fingers }
-		}
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = cosmos_magic
-			}
-		}
-		random_list = {
-			34 = { add_trait = sorcery_glintstone }
-			33 = { add_trait = sorcery_carian }
-			33 = { add_trait = sorcery_gravity }
-		}
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = dragon_magic
+			random_list = {
+				34 = {
+					modifier = {
+						add = 30
+						has_trait = erdtree_affinity
+					}
+					add_trait = incantation_erdtree 
+				}
+				33 = { 
+					modifier = {
+						add = 30
+						has_trait = order_affinity
+					}
+					add_trait = incantation_order 
+				}
+				33 = { add_trait = incantation_two_fingers }
 			}
 		}
-		random_list = {
-			50 = { add_trait = incantation_dragon_communion }
-			50 = { add_trait = incantation_dragon_cult }
-		}
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = thorn_magic
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = cosmos_magic
+				}
+			}
+			modifier = {
+				add = -50
+				OR = {
+					has_trait = sorcery_glintstone
+					has_trait = sorcery_carian
+					has_trait = sorcery_gravity
+				}
+			}
+			random_list = {
+				34 = { add_trait = sorcery_glintstone }
+				33 = { add_trait = sorcery_carian }
+				33 = { add_trait = sorcery_gravity }
 			}
 		}
-		random_list = {
-			50 = { add_trait = sorcery_bloodthorn }
-			50 = { add_trait = sorcery_impenetrable_thorn }
-		}
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = claymen_magic
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = dragon_magic
+				}
+			}
+			modifier = {
+				add = -50
+				OR = {
+					has_trait = incantation_dragon_communion
+					has_trait = incantation_dragon_cult
+				}
+			}
+			random_list = {
+				50 = { add_trait = incantation_dragon_communion }
+				50 = { add_trait = incantation_dragon_cult }
 			}
 		}
-		add_trait = sorcery_claymen
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = crystalian_magic
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = thorn_magic
+				}
+			}
+			modifier = {
+				add = -50
+				OR = {
+					has_trait = sorcery_bloodthorn
+					has_trait = sorcery_impenetrable_thorn
+				}
+			}
+			random_list = {
+				50 = { add_trait = sorcery_bloodthorn }
+				50 = { add_trait = sorcery_impenetrable_thorn }
 			}
 		}
-		add_trait = sorcery_crystalian
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = death_magic
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = claymen_magic
+				}
 			}
-		}
-		add_trait = sorcery_death
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = finger_magic # finger sorcery from the lands of shadows
+			modifier = {
+				add = -50
+				has_trait = sorcery_claymen			
 			}
+			add_trait = sorcery_claymen
 		}
-		add_trait = sorcery_finger
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = magma_magic
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = crystalian_magic
+				}
 			}
-		}
-		add_trait = sorcery_gelmir
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = ice_magic
+			modifier = {
+				add = -50
+				has_trait = sorcery_crystalian			
 			}
+			add_trait = sorcery_crystalian
 		}
-		add_trait = sorcery_ice
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = night_magic
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = death_magic
+				}
 			}
-		}
-		add_trait = sorcery_night
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = bestial_magic
+			modifier = {
+				add = -50
+				has_trait = sorcery_death			
 			}
+			add_trait = sorcery_death
 		}
-		add_trait = incantation_bestial
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = blackflame_magic
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = finger_magic # finger sorcery from the lands of shadows
+				}
 			}
-		}
-		add_trait = incantation_blackflame
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = blood_magic
+			modifier = {
+				add = -50
+				has_trait = sorcery_finger			
 			}
+			add_trait = sorcery_finger
 		}
-		add_trait = incantation_blood
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = crucible_magic
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = magma_magic
+				}
 			}
-		}
-		add_trait = incantation_crucible
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = divine_beast_magic
+			modifier = {
+				add = -50
+				has_trait = sorcery_gelmir			
 			}
+			add_trait = sorcery_gelmir
 		}
-		add_trait = incantation_divine_beast
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = flame_magic #giant's flame
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = ice_magic
+				}
 			}
-		}
-		add_trait = incantation_flame
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = messmers_flame_magic
+			modifier = {
+				add = -50
+				has_trait = sorcery_ice			
 			}
+			add_trait = sorcery_ice
 		}
-		add_trait = incantation_messmers_flame
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = frenzy_magic
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = night_magic
+				}
 			}
-		}
-		add_trait = incantation_frenzy
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = miquella_magic
+			modifier = {
+				add = -50
+				has_trait = sorcery_night			
 			}
+			add_trait = sorcery_night
 		}
-		add_trait = incantation_miquella
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = rot_magic
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = bestial_magic
+				}
 			}
-		}
-		add_trait = incantation_rot
-	}
-	if = {
-		limit = {
-			location = {
-				has_building_with_flag = spiral_magic
+			modifier = {
+				add = -50
+				has_trait = incantation_bestial			
 			}
+			add_trait = incantation_bestial
 		}
-		add_trait = incantation_spiral
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = blackflame_magic
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_blackflame			
+			}
+			add_trait = incantation_blackflame
+		}
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = blood_magic
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_blood			
+			}
+			add_trait = incantation_blood
+		}
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = crucible_magic
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_crucible			
+			}
+			add_trait = incantation_crucible
+		}
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = divine_beast_magic
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_divine_beast			
+			}
+			add_trait = incantation_divine_beast
+		}
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = flame_magic #giant's flame
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_flame			
+			}
+			add_trait = incantation_flame
+		}
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = messmers_flame_magic
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_messmers_flame			
+			}
+			add_trait = incantation_messmers_flame
+		}
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = frenzy_magic
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_frenzy			
+			}
+			add_trait = incantation_frenzy
+		}
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = miquella_magic
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_miquella			
+			}
+			add_trait = incantation_miquella
+		}
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = rot_magic
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_rot			
+			}
+			add_trait = incantation_rot
+		}
+		1 = {
+			modifier = {
+				add = 50
+				location = {
+					has_building_with_flag = spiral_magic
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_spiral			
+			}
+			add_trait = incantation_spiral
+		}
 	}
+	
 }
 
 get_affinity_magic_effect = {
-	if = {
-		limit = { has_trait = order_affinity }
-		add_trait = incantation_order
+	random_list = {
+		1 = {
+			modifier = {
+				add = 50
+				has_trait = order_affinity
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_order
+			}
+			add_trait = incantation_order
+		}
+		1 = {
+			modifier = {
+				add = 50
+				has_trait = frenzy_affinity
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_frenzy
+			}
+			add_trait = incantation_frenzy
+		}
+		1 = {
+			modifier = {
+				add = 50
+				has_trait = glintstone_affinity
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_glintstone
+			}
+			add_trait = sorcery_glintstone
+		}
+		1 = {
+			modifier = {
+				add = 50
+				has_trait = carian_affinity
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_carian
+			}
+			add_trait = sorcery_carian
+		}
+		1 = {
+			modifier = {
+				add = 50
+				has_trait = rot_affinity
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_rot
+			}
+			add_trait = incantation_rot
+		}
+		1 = {
+			modifier = {
+				add = 50
+				has_trait = erdtree_affinity
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_crucible
+			}
+			add_trait = incantation_crucible
+		}
+		1 = {
+			modifier = {
+				add = 50
+				has_trait = fire_affinity
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_flame
+			}
+			add_trait = incantation_flame
+		}
+		1 = {
+			modifier = {
+				add = 50
+				has_trait = magma_affinity
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_gelmir
+			}
+			add_trait = sorcery_gelmir
+		}
+		1 = {
+			modifier = {
+				add = 50
+				has_trait = ice_affinity
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_ice
+			}
+			add_trait = sorcery_ice
+		}
+		1 = {
+			modifier = {
+				add = 50
+				has_trait = gravity_affinity
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_gravity
+			}
+			add_trait = sorcery_gravity
+		}
+		1 = {
+			modifier = {
+				add = 50
+				has_trait = lightning_affinity
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_dragon_cult
+			}
+			add_trait = incantation_dragon_cult
+		}
+		1 = {
+			modifier = {
+				add = 50
+				has_trait = blood_affinity
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_blood
+			}
+			add_trait = incantation_blood
+		}
+		1 = {
+			modifier = {
+				add = 50
+				has_trait = dragon_affinity
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_dragon_communion
+			}
+			add_trait = incantation_dragon_communion
+		}
+		1 = {
+			modifier = {
+				add = 50
+				has_trait = blackflame_affinity
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_blackflame
+			}
+			add_trait = incantation_blackflame
+		}
+		1 = {
+			modifier = {
+				add = 50
+				has_trait = spiral_affinity
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_spiral
+			}
+			add_trait = incantation_spiral
+		}
+		1 = {
+			modifier = {
+				add = 50
+				has_trait = bestial_affinity
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_bestial
+			}
+			add_trait = incantation_bestial
+		}
+		1 = {
+			modifier = {
+				add = 50
+				has_trait = claymen_affinity
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_claymen
+			}
+			add_trait = sorcery_claymen
+		}
+		1 = {
+			modifier = {
+				add = 50
+				has_trait = night_affinity
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_night
+			}
+			add_trait = sorcery_night
+		}
 	}
-	if = {
-		limit = { has_trait = frenzy_affinity }
-		add_trait = incantation_frenzy
-	}
-	if = {
-		limit = { has_trait = glintstone_affinity }
-		add_trait = sorcery_glintstone
-	}
-	if = {
-		limit = { has_trait = carian_affinity }
-		add_trait = sorcery_carian
-	}
-	if = {
-		limit = { has_trait = rot_affinity }
-		add_trait = incantation_rot
-	}
-	if = {
-		limit = { has_trait = erdtree_affinity }
-		add_trait = incantation_crucible
-	}
-	if = {
-		limit = { has_trait = fire_affinity }
-		add_trait = incantation_flame
-	}
-	if = {
-		limit = { has_trait = magma_affinity }
-		add_trait = sorcery_gelmir
-	}
-	if = {
-		limit = { has_trait = ice_affinity }
-		add_trait = sorcery_ice
-	}
-	if = {
-		limit = { has_trait = gravity_affinity }
-		add_trait = sorcery_gravity
-	}
-	if = {
-		limit = { has_trait = lightning_affinity }
-		add_trait = incantation_dragon_cult
-	}
-	if = {
-		limit = { has_trait = death_affinity }
-		add_trait = sorcery_death
-	}
-	if = {
-		limit = { has_trait = blood_affinity }
-		add_trait = incantation_blood
-	}
-	if = {
-		limit = { has_trait = dragon_affinity }
-		add_trait = incantation_dragon_communion
-	}
-	if = {
-		limit = { has_trait = blackflame_affinity }
-		add_trait = incantation_blackflame
-	}
-	if = {
-		limit = { has_trait = spiral_affinity }
-		add_trait = incantation_spiral
-	}
-	if = {
-		limit = { has_trait = bestial_affinity }
-		add_trait = incantation_bestial
-	}
-	if = {
-		limit = { has_trait = claymen_affinity }
-		add_trait = sorcery_claymen
-	}
-	if = {
-		limit = { has_trait = night_affinity }
-		add_trait = sorcery_night
-	}
+
 }
 
 get_cultural_magic_effect = {
-	if = {
-		limit = {
-			culture ?= { has_cultural_parameter = glintstone_affinity_more_common }
+	random_list = {
+		1 = {#glintstone
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = sorcery_glintstone_more_common }	
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_glintstone
+			}
+			add_trait = sorcery_glintstone
 		}
-		add_trait = sorcery_glintstone
-	}
-	if = {
-		limit = {
-			culture ?= { has_cultural_parameter = order_affinity_more_common }
+		1 = {#order
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = incantation_order_more_common }
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_order
+			}
+			add_trait = incantation_order
 		}
-		add_trait = incantation_order
-	}
-	if = {
-		limit = {
-			culture ?= { has_cultural_parameter = fire_affinity_more_common }
+		1 = {#flame,messmers,magma
+			modifier = {
+				add = 50
+				OR = {
+					culture ?= { has_cultural_parameter = incantation_flame_more_common }
+					culture ?= { has_cultural_parameter = incantation_messmers_flame_more_common }
+					faith = {
+						has_doctrine = doctrine_magma_affinity_virtuous
+					}
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_flame
+			}
+			if = {
+				limit = {
+					culture ?= { has_cultural_parameter = incantation_messmers_flame_more_common }
+				}
+				random_list = {
+					50 = { add_trait = incantation_flame }
+					50 = { add_trait = incantation_messmers_flame }
+				}
+			}
+			if = {
+				limit = {
+					faith = {
+						has_doctrine = doctrine_magma_affinity_virtuous
+					}
+				}
+				random_list = {
+					50 = { add_trait = incantation_flame }
+					50 = { add_trait = sorcery_gelmir }
+				}
+			}
+			else = {
+				add_trait = incantation_flame
+			}
 		}
-		add_trait = incantation_flame
-	}
-	if = {
-		limit = {
-			culture ?= { has_cultural_parameter = frenzied_flame_more_common }
+		1 = {#frenzy
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = incantation_frenzy_more_common }	
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_frenzy
+			}
+			add_trait = incantation_frenzy
 		}
-		add_trait = incantation_frenzy
-	}
-	if = {
-		limit = {
-			culture ?= { has_cultural_parameter = rot_affinity_more_common }
+		1 = {#rot
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = incantation_rot_more_common }
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_rot
+			}
+			add_trait = incantation_rot
 		}
-		add_trait = incantation_rot
-	}
-	if = {
-		limit = {
-			culture ?= { has_cultural_parameter = can_become_beast_clergy }
+		1 = {#beast clergy
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = can_become_beast_clergy }
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_bestial
+			}
+			add_trait = incantation_bestial
 		}
-		add_trait = incantation_bestial
-	}
-	if = {
-		limit = {
-			culture ?= { has_cultural_parameter = honor_crucible_knights }
+		1 = {#crucible
+			modifier = {
+				add = 50
+				OR = {
+					culture ?= { has_cultural_parameter = honor_crucible_knights }
+					culture ?= { has_cultural_parameter = incantation_crucible_more_common }
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_crucible
+			}
+			add_trait = incantation_crucible
 		}
-		add_trait = incantation_crucible
-	}
-	if = {
-		limit = {
-			culture ?= { has_cultural_parameter = better_dragon_communion }
+		1 = {#dragon communion
+			modifier = {
+				add = 50
+				OR = {
+					culture ?= { has_cultural_parameter = better_dragon_communion }
+					culture ?= { has_cultural_parameter = incantation_dragon_communion_more_common }
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_dragon_communion
+			}
+			add_trait = incantation_dragon_communion
 		}
-		add_trait = incantation_dragon_communion
+		1 = {#ice
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = sorcery_ice_more_common }
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_ice
+			}
+			add_trait = sorcery_ice
+		}
+		1 = {#night
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = sorcery_night_more_common }
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_night
+			}
+			add_trait = sorcery_night
+		}
+		1 = {#death
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = sorcery_death_more_common }
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_death
+			}
+			add_trait = sorcery_death
+		}
+		1 = {#lightning
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = incantation_dragon_cult_more_common }
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_lightning
+			}
+			add_trait = incantation_lightning
+		}
+		1 = {#carian
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = sorcery_carian_more_common }
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_carian
+			}
+			add_trait = sorcery_carian
+		}
+		1 = {#bloodthorn
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = sorcery_bloodthorn_more_common }
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_bloodthorn
+			}
+			add_trait = sorcery_bloodthorn
+		}
+		1 = {#crystalian
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = sorcery_crystalian_more_common }
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_crystalian
+			}
+			add_trait = sorcery_crystalian
+		}
+		1 = {#claymen
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = sorcery_claymen_more_common }
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_claymen
+			}
+			add_trait = sorcery_claymen
+		}
+		1 = {#finger
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = sorcery_finger_more_common }
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_finger
+			}
+			add_trait = sorcery_finger
+		}
+		1 = {#bloodthorn
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = sorcery_gravity_more_common }
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_gravity
+			}
+			add_trait = sorcery_gravity
+		}
+		1 = {
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = sorcery_impenetrable_thorn_more_common }
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_impenetrable_thorn
+			}
+			add_trait = sorcery_impenetrable_thorn
+		}
+		1 = {
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = sorcery_impenetrable_thorn_more_common }
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_impenetrable_thorn
+			}
+			add_trait = sorcery_impenetrable_thorn
+		}
+		1 = {
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = incantation_blackflame }
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_blackflame
+			}
+			add_trait = incantation_blackflame
+		}
+		1 = {
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = incantation_blood_more_common }
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_blood
+			}
+			add_trait = incantation_blood
+		}
+		1 = {
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = incantation_divine_beast_more_common }
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_divine_beast
+			}
+			add_trait = incantation_divine_beast
+		}
+		1 = {
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = incantation_erdtree }
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_erdtree
+			}
+			add_trait = incantation_erdtree
+		}
+		1 = {
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = incantation_miquella_more_common }
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_miquella
+			}
+			add_trait = incantation_miquella
+		}
+		1 = {
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = incantation_spiral }
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_spiral
+			}
+			add_trait = incantation_spiral
+		}
+		1 = {
+			modifier = {
+				add = 50
+				culture ?= { has_cultural_parameter = incantation_two_fingers_more_common }
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_two_fingers
+			}
+			add_trait = incantation_two_fingers
+		}
 	}
 }
 
 get_religious_magic_effect = {
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_order_affinity_virtuous
+	random_list = {
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_order_affinity_virtuous
+				}
 			}
-		}
-		add_trait = incantation_order
-	}
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_erdtree_affinity_virtuous
+			modifier = {
+				add = -50
+				has_trait = incantation_order
 			}
+			add_trait = incantation_order
 		}
-		add_trait = incantation_crucible
-	}
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_fire_affinity_virtuous
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_erdtree_affinity_virtuous
+				}
 			}
-		}
-		add_trait = incantation_flame
-	}
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_ice_affinity_virtuous
+			modifier = {
+				add = -50
+				has_trait = incantation_crucible
 			}
+			add_trait = incantation_crucible
 		}
-		add_trait = sorcery_ice
-	}
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_glintstone_affinity_virtuous
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_fire_affinity_virtuous
+				}
 			}
-		}
-		add_trait = sorcery_glintstone
-	}
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_carian_affinity_virtuous
+			modifier = {
+				add = -50
+				has_trait = incantation_flame
 			}
+			add_trait = incantation_flame
 		}
-		add_trait = sorcery_carian
-	}
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_night_affinity_virtuous
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_ice_affinity_virtuous
+				}
 			}
-		}
-		add_trait = sorcery_night
-	}
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_claymen_affinity_virtuous
+			modifier = {
+				add = -50
+				has_trait = sorcery_ice
 			}
+			add_trait = sorcery_ice
 		}
-		add_trait = sorcery_claymen
-	}
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_gravity_affinity_virtuous
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_glintstone_affinity_virtuous
+				}
 			}
-		}
-		add_trait = sorcery_gravity
-	}
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_magma_affinity_virtuous
+			modifier = {
+				add = -50
+				has_trait = sorcery_glintstone
 			}
+			add_trait = sorcery_glintstone
 		}
-		add_trait = sorcery_gelmir
-	}
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_lightning_affinity_virtuous
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_carian_affinity_virtuous
+				}
 			}
-		}
-		add_trait = incantation_dragon_cult
-	}
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_dragon_affinity_virtuous
+			modifier = {
+				add = -50
+				has_trait = sorcery_carian
 			}
+			add_trait = sorcery_carian
 		}
-		add_trait = incantation_dragon_communion
-	}
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_bestial_affinity_virtuous
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_night_affinity_virtuous
+				}
 			}
-		}
-		add_trait = incantation_bestial
-	}
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_spiral_affinity_virtuous
+			modifier = {
+				add = -50
+				has_trait = sorcery_night
 			}
+			add_trait = sorcery_night
 		}
-		add_trait = incantation_spiral
-	}
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_blood_affinity_virtuous
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_claymen_affinity_virtuous
+				}
 			}
-		}
-		add_trait = incantation_blood
-	}
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_death_affinity_virtuous
+			modifier = {
+				add = -50
+				has_trait = sorcery_claymen
 			}
+			add_trait = sorcery_claymen
 		}
-		add_trait = sorcery_death
-	}
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_blackflame_affinity_virtuous
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_gravity_affinity_virtuous
+				}
 			}
-		}
-		add_trait = incantation_blackflame
-	}
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_rot_affinity_virtuous
+			modifier = {
+				add = -50
+				has_trait = sorcery_gravity
 			}
+			add_trait = sorcery_gravity
 		}
-		add_trait = incantation_rot
-	}
-	if = {
-		limit = {
-			faith = {
-				has_doctrine = doctrine_frenzy_affinity_virtuous
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_magma_affinity_virtuous
+				}
 			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_gelmir
+			}
+			add_trait = sorcery_gelmir
 		}
-		add_trait = incantation_frenzy
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_lightning_affinity_virtuous
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_dragon_cult
+			}
+			add_trait = incantation_dragon_cult
+		}
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_dragon_affinity_virtuous
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_dragon_communion
+			}
+			add_trait = incantation_dragon_communion
+		}
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_bestial_affinity_virtuous
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_bestial
+			}
+			add_trait = incantation_bestial
+		}
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_spiral_affinity_virtuous
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_spiral
+			}
+			add_trait = incantation_spiral
+		}
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_blood_affinity_virtuous
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_blood
+			}
+			add_trait = incantation_blood
+		}
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_death_affinity_virtuous
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = sorcery_death
+			}
+			add_trait = sorcery_death
+		}
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_blackflame_affinity_virtuous
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_blackflame
+			}
+			add_trait = incantation_blackflame
+		}
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_rot_affinity_virtuous
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_rot
+			}
+			add_trait = incantation_rot
+		}
+		1 = {
+			modifier = {
+				add = 50
+				faith = {
+					has_doctrine = doctrine_frenzy_affinity_virtuous
+				}
+			}
+			modifier = {
+				add = -50
+				has_trait = incantation_frenzy
+			}
+			add_trait = incantation_frenzy
+		}
 	}
 }
 
@@ -722,12 +1356,26 @@ get_magic_xp_effect = {
 			trait = sorcery_glintstone
 			value = 10
 		}
+		if = {
+			limit = { has_trait = glintstone_affinity }
+			add_trait_xp = {
+				trait = sorcery_glintstone
+				value = 20
+			}
+		}
 	}
 	if = {
 		limit = { has_trait = sorcery_carian }
 		add_trait_xp = {
 			trait = sorcery_carian
 			value = 10
+		}
+		if = {
+			limit = { has_trait = carian_affinity }
+			add_trait_xp = {
+				trait = sorcery_carian
+				value = 20
+			}
 		}
 	}
 	if = {
@@ -743,12 +1391,26 @@ get_magic_xp_effect = {
 			trait = sorcery_claymen
 			value = 10
 		}
+		if = {
+			limit = { has_trait = claymen_affinity }
+			add_trait_xp = {
+				trait = sorcery_claymen
+				value = 20
+			}
+		}
 	}
 	if = {
 		limit = { has_trait = sorcery_crystalian }
 		add_trait_xp = {
 			trait = sorcery_crystalian
 			value = 10
+		}
+		if = {
+			limit = { has_trait = glintstone_affinity }
+			add_trait_xp = {
+				trait = sorcery_crystalian
+				value = 20
+			}
 		}
 	}
 	if = {
@@ -757,12 +1419,26 @@ get_magic_xp_effect = {
 			trait = sorcery_death
 			value = 10
 		}
+		if = {
+			limit = { has_trait = death_affinity }
+			add_trait_xp = {
+				trait = sorcery_death
+				value = 20
+			}
+		}
 	}
 	if = {
 		limit = { has_trait = sorcery_finger }
 		add_trait_xp = {
 			trait = sorcery_finger
 			value = 10
+		}
+		if = {
+			limit = { has_trait = order_affinity }
+			add_trait_xp = {
+				trait = sorcery_finger
+				value = 20
+			}
 		}
 	}
 	if = {
@@ -771,6 +1447,13 @@ get_magic_xp_effect = {
 			trait = sorcery_gelmir
 			value = 10
 		}
+		if = {
+			limit = { has_trait = magma_affinity }
+			add_trait_xp = {
+				trait = sorcery_gelmir
+				value = 20
+			}
+		}
 	}
 	if = {
 		limit = { has_trait = sorcery_gravity }
@@ -778,12 +1461,26 @@ get_magic_xp_effect = {
 			trait = sorcery_gravity
 			value = 10
 		}
+		if = {
+			limit = { has_trait = gravity_affinity }
+			add_trait_xp = {
+				trait = sorcery_gravity
+				value = 20
+			}
+		}
 	}
 	if = {
 		limit = { has_trait = sorcery_ice }
 		add_trait_xp = {
 			trait = sorcery_ice
 			value = 10
+		}
+		if = {
+			limit = { has_trait = ice_affinity }
+			add_trait_xp = {
+				trait = sorcery_ice
+				value = 20
+			}
 		}
 	}
 	if = {
@@ -799,12 +1496,26 @@ get_magic_xp_effect = {
 			trait = sorcery_night
 			value = 10
 		}
+		if = {
+			limit = { has_trait = night_affinity }
+			add_trait_xp = {
+				trait = sorcery_night
+				value = 20
+			}
+		}
 	}
 	if = {
 		limit = { has_trait = incantation_bestial }
 		add_trait_xp = {
 			trait = incantation_bestial
 			value = 10
+		}
+		if = {
+			limit = { has_trait = bestial_affinity }
+			add_trait_xp = {
+				trait = incantation_bestial
+				value = 20
+			}
 		}
 	}
 	if = {
@@ -813,12 +1524,26 @@ get_magic_xp_effect = {
 			trait = incantation_blackflame
 			value = 10
 		}
+		if = {
+			limit = { has_trait = blackflame_affinity }
+			add_trait_xp = {
+				trait = incantation_blackflame
+				value = 20
+			}
+		}
 	}
 	if = {
 		limit = { has_trait = incantation_blood }
 		add_trait_xp = {
 			trait = incantation_blood
 			value = 10
+		}
+		if = {
+			limit = { has_trait = blood_affinity }
+			add_trait_xp = {
+				trait = incantation_blood
+				value = 20
+			}
 		}
 	}
 	if = {
@@ -827,6 +1552,13 @@ get_magic_xp_effect = {
 			trait = incantation_crucible
 			value = 10
 		}
+		if = {
+			limit = { has_trait = erdtree_affinity }
+			add_trait_xp = {
+				trait = incantation_crucible
+				value = 20
+			}
+		}
 	}
 	if = {
 		limit = { has_trait = incantation_divine_beast }
@@ -834,19 +1566,53 @@ get_magic_xp_effect = {
 			trait = incantation_divine_beast
 			value = 10
 		}
+		if = {
+			limit = { has_trait = spiral_affinity }
+			add_trait_xp = {
+				trait = incantation_divine_beast
+				value = 20
+			}
+		}
 	}
 	if = {
-		limit = { has_trait = incantation_dragon_communion }
+		limit = { 
+			has_trait = incantation_dragon_communion
+			has_trait_xp = {
+				trait = incantation_dragon_communion
+				value < 50
+			}
+		}
 		add_trait_xp = {
 			trait = incantation_dragon_communion
 			value = 10
 		}
+		if = {
+			limit = { 
+				has_trait = dragon_affinity 
+				has_trait_xp = {
+					trait = incantation_dragon_communion
+					value < 50
+				}
+			}
+			add_trait_xp = {
+				trait = incantation_dragon_communion
+				value = 40
+			}
+		}
+		
 	}
 	if = {
 		limit = { has_trait = incantation_dragon_cult }
 		add_trait_xp = {
 			trait = incantation_dragon_cult
 			value = 10
+		}
+		if = {
+			limit = { has_trait = lightning_affinity }
+			add_trait_xp = {
+				trait = incantation_dragon_cult
+				value = 20
+			}
 		}
 	}
 	if = {
@@ -855,12 +1621,26 @@ get_magic_xp_effect = {
 			trait = incantation_erdtree
 			value = 10
 		}
+		if = {
+			limit = { has_trait = erdtree_affinity }
+			add_trait_xp = {
+				trait = incantation_erdtree
+				value = 20
+			}
+		}
 	}
 	if = {
 		limit = { has_trait = incantation_flame }
 		add_trait_xp = {
 			trait = incantation_flame
 			value = 10
+		}
+		if = {
+			limit = { has_trait = fire_affinity }
+			add_trait_xp = {
+				trait = incantation_flame
+				value = 20
+			}
 		}
 	}
 	if = {
@@ -869,12 +1649,26 @@ get_magic_xp_effect = {
 			trait = incantation_frenzy
 			value = 10
 		}
+		if = {
+			limit = { has_trait = frenzy_affinity }
+			add_trait_xp = {
+				trait = incantation_frenzy
+				value = 20
+			}
+		}
 	}
 	if = {
 		limit = { has_trait = incantation_lightning }
 		add_trait_xp = {
 			trait = incantation_lightning
 			value = 10
+		}
+		if = {
+			limit = { has_trait = lightning_affinity }
+			add_trait_xp = {
+				trait = incantation_lightning
+				value = 20
+			}
 		}
 	}
 	if = {
@@ -883,12 +1677,26 @@ get_magic_xp_effect = {
 			trait = incantation_messmers_flame
 			value = 10
 		}
+		if = {
+			limit = { has_trait = fire_affinity }
+			add_trait_xp = {
+				trait = incantation_messmers_flame
+				value = 20
+			}
+		}
 	}
 	if = {
 		limit = { has_trait = incantation_miquella }
 		add_trait_xp = {
 			trait = incantation_miquella
 			value = 10
+		}
+		if = {
+			limit = { has_trait = order_affinity }
+			add_trait_xp = {
+				trait = incantation_miquella
+				value = 20
+			}
 		}
 	}
 	if = {
@@ -897,12 +1705,26 @@ get_magic_xp_effect = {
 			trait = incantation_order
 			value = 10
 		}
+		if = {
+			limit = { has_trait = order_affinity }
+			add_trait_xp = {
+				trait = incantation_miquella
+				value = 20
+			}
+		}
 	}
 	if = {
 		limit = { has_trait = incantation_rot }
 		add_trait_xp = {
 			trait = incantation_rot
 			value = 10
+		}
+		if = {
+			limit = { has_trait = rot_affinity }
+			add_trait_xp = {
+				trait = incantation_rot
+				value = 20
+			}
 		}
 	}
 	if = {
@@ -911,12 +1733,26 @@ get_magic_xp_effect = {
 			trait = incantation_spiral
 			value = 10
 		}
+		if = {
+			limit = { has_trait = spiral_affinity }
+			add_trait_xp = {
+				trait = incantation_spiral
+				value = 20
+			}
+		}
 	}
 	if = {
 		limit = { has_trait = incantation_two_fingers }
 		add_trait_xp = {
 			trait = incantation_two_fingers
 			value = 10
+		}
+		if = {
+			limit = { has_trait = order_affinity }
+			add_trait_xp = {
+				trait = incantation_two_fingers
+				value = 20
+			}
 		}
 	}
 }

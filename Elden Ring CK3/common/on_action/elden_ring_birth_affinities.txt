@@ -7,7 +7,12 @@
 on_birthday = {
 	on_actions = {
 		teach_child_about_magic
-		child_gains_random_magic
+	}
+}
+
+on_birth_child = {
+	on_actions = {
+		on_birth_random_magic
 	}
 }
 
@@ -29,9 +34,9 @@ teach_child_about_magic = {
 		is_adult = no
 		age >= childhood_education_start_age
 		OR = {
-			has_affinity_elden_ring = no
+			has_magic_education_trait_trigger = no
 			AND = {
-				has_affinity_elden_ring = yes
+				has_magic_education_trait_trigger = yes
 				OR = {
 					learning >= 10
 					probably_intelligent_trigger = yes
@@ -51,93 +56,348 @@ teach_child_about_magic = {
 					save_scope_as = court_tutor_scope
 					scope:court_tutor_scope = {
 						random_list = {
-							1 = {
-								modifier = { 
-									factor = 30
-									culture = {
-										has_cultural_parameter = glintstone_affinity_more_common
-									} 
+							1 = {#glintstone
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = sorcery_glintstone_more_common }	
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = sorcery_glintstone }
 								}
 								scope:child = {
+									add_trait = sorcery_glintstone
+								}
+							}
+							1 = {#order
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = incantation_order_more_common }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = incantation_order }
+								}
+								scope:child = {
+									add_trait = incantation_order
+								}
+							}
+							1 = {#flame,messmers,magma
+								modifier = {
+									add = 50
+									OR = {
+										culture ?= { has_cultural_parameter = incantation_flame_more_common }
+										culture ?= { has_cultural_parameter = incantation_messmers_flame_more_common }
+										faith = {
+											has_doctrine = doctrine_magma_affinity_virtuous
+										}
+									}
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = incantation_flame }
+								}
+								if = {
+									limit = {
+										culture ?= { has_cultural_parameter = incantation_messmers_flame_more_common }
+									}
 									random_list = {
-										70 = {
-											add_trait = glintstone_affinity
+										50 = { scope:child = { add_trait = incantation_flame } }
+										50 = { scope:child = { add_trait = incantation_messmers_flame } }
+									}
+								}
+								if = {
+									limit = {
+										faith = {
+											has_doctrine = doctrine_magma_affinity_virtuous
 										}
-										15 = {
-											add_trait = ice_affinity
-										}
-										15 = {
-											add_trait = gravity_affinity
-										}
-									}	
+									}
+									random_list = {
+										50 = { scope:child = { add_trait = incantation_flame } }
+										50 = { scope:child = { add_trait = sorcery_gelmir } }
+									}
+								}
+								else = {
+									scope:child = {
+										add_trait = incantation_flame
+									}
 								}
 							}
-							1 = {
-								modifier = { 
-									factor = 30
-									culture = {
-										has_cultural_parameter = order_affinity_more_common
-									} 
+							1 = {#frenzy
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = incantation_frenzy_more_common }	
 								}
-								scope:child = {
-									add_trait = order_affinity
+								modifier = {
+									add = -50
+									scope:child = { has_trait = incantation_frenzy }
 								}
+								scope:child = { add_trait = incantation_frenzy }
 							}
+							1 = {#rot
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = incantation_rot_more_common }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = incantation_rot }
+								}
+								scope:child = { add_trait = incantation_rot }
+							}							
 							1 = {
 								modifier = { 
-									factor = 30
-									culture = {
-										has_cultural_parameter = fire_affinity_more_common
-									} 
-								}
-								scope:child = {
-									add_trait = fire_affinity
-								}
-							}
-							1 = {
-								modifier = { 
-									factor = 30
-									culture = {
-										has_cultural_parameter = frenzied_flame_at_birth
-									} 
-								}
-								scope:child = {
-									add_trait = frenzy_affinity
-								}
-							}
-							1 = {
-								modifier = { 
-									factor = 30
-									culture = {
-										has_cultural_parameter = scarletrot_at_birth
-									} 
-								}
-								scope:child = {
-									add_trait = rot_affinity	
-								}
-							}
-							1 = {
-								modifier = { 
-									factor = 30
+									add = 50
 									culture = {
 										has_cultural_parameter = can_become_beast_clergy
 									} 
 								}
-								scope:child = {
-									add_trait = bestial_affinity	
+								modifier = {
+									add = -50
+									scope:child = { has_trait = incantation_bestial }
 								}
+								scope:child = {
+									add_trait = incantation_bestial	
+								}
+							}
+							1 = {#crucible
+								modifier = {
+									add = 50
+									OR = {
+										culture ?= { has_cultural_parameter = honor_crucible_knights }
+										culture ?= { has_cultural_parameter = incantation_crucible_more_common }
+									}
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = incantation_crucible }
+								}
+								scope:child = { add_trait = incantation_crucible }
+							}
+							1 = {#dragon communion
+								modifier = {
+									add = 50
+									OR = {
+										culture ?= { has_cultural_parameter = better_dragon_communion }
+										culture ?= { has_cultural_parameter = incantation_dragon_communion_more_common }
+									}
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = incantation_dragon_communion }
+								}
+								scope:child = { add_trait = incantation_dragon_communion }
+							}
+							1 = {#ice
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = sorcery_ice_more_common }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = sorcery_ice }
+								}
+								scope:child = { add_trait = sorcery_ice }
+							}
+							1 = {#night
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = sorcery_night_more_common }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = sorcery_night }
+								}
+								scope:child = { add_trait = sorcery_night }
+							}
+							1 = {#death
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = sorcery_death_more_common }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = sorcery_death }
+								}
+								scope:child = { add_trait = sorcery_death }
+							}
+							1 = {#lightning
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = incantation_dragon_cult_more_common }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = incantation_lightning }
+								}
+								scope:child = { add_trait = incantation_lightning }
+							}
+							1 = {#carian
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = sorcery_carian_more_common }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = sorcery_carian }
+								}
+								scope:child = { add_trait = sorcery_carian }
+							}
+							1 = {#bloodthorn
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = sorcery_bloodthorn_more_common }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = sorcery_bloodthorn }
+								}
+								scope:child = { add_trait = sorcery_bloodthorn }
+							}
+							1 = {#crystalian
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = sorcery_crystalian_more_common }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = sorcery_crystalian }
+								}
+								scope:child = { add_trait = sorcery_crystalian }
+							}
+							1 = {#claymen
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = sorcery_claymen_more_common }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = sorcery_claymen }
+								}
+								scope:child = { add_trait = sorcery_claymen }
+							}
+							1 = {#finger
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = sorcery_finger_more_common }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = sorcery_finger }
+								}
+								scope:child = { add_trait = sorcery_finger }
+							}
+							1 = {#bloodthorn
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = sorcery_gravity_more_common }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = sorcery_gravity }
+								}
+								scope:child = { add_trait = sorcery_gravity }
 							}
 							1 = {
-								modifier = { 
-									factor = 30
-									culture = {
-										has_cultural_parameter = crucible_affinity_more_common
-									} 
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = sorcery_impenetrable_thorn_more_common }
 								}
-								scope:child = {
-									add_trait = erdtree_affinity	
+								modifier = {
+									add = -50
+									scope:child = { has_trait = sorcery_impenetrable_thorn }
 								}
+								scope:child = { add_trait = sorcery_impenetrable_thorn }
 							}
+							1 = {
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = sorcery_impenetrable_thorn_more_common }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = sorcery_impenetrable_thorn }
+								}
+								scope:child = { add_trait = sorcery_impenetrable_thorn }
+							}
+							1 = {
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = incantation_blackflame }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = incantation_blackflame }
+								}
+								scope:child = { add_trait = incantation_blackflame }
+							}
+							1 = {
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = incantation_blood_more_common }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = incantation_blood }
+								}
+								scope:child = { add_trait = incantation_blood }
+							}
+							1 = {
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = incantation_divine_beast_more_common }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = incantation_divine_beast }
+								}
+								scope:child = { add_trait = incantation_divine_beast }
+							}
+							1 = {
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = incantation_erdtree }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = incantation_erdtree }
+								}
+								scope:child = { add_trait = incantation_erdtree }
+							}
+							1 = {
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = incantation_miquella_more_common }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = incantation_miquella }
+								}
+								scope:child = { add_trait = incantation_miquella }
+							}
+							1 = {
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = incantation_spiral }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = incantation_spiral }
+								}
+								scope:child = { add_trait = incantation_spiral }
+							}
+							1 = {
+								modifier = {
+									add = 50
+									culture ?= { has_cultural_parameter = incantation_two_fingers_more_common }
+								}
+								modifier = {
+									add = -50
+									scope:child = { has_trait = incantation_two_fingers }
+								}
+								scope:child = { add_trait = incantation_two_fingers }
+							}
+							
 							99 = {}
 						}
 					}
@@ -151,139 +411,139 @@ teach_child_about_magic = {
 						random_list = {
 							1 = {
 								modifier = { 
-									factor = 75
+									add = 50
 									faith = {
 										trait_is_virtue = order_affinity
 									}
 								}
 								scope:child = {
-									add_trait = order_affinity							
+									add_trait = incantation_order							
 								}
 							}
 							1 = {
 								modifier = { 
-									factor = 75
+									add = 50
 									faith = {
 										trait_is_virtue = frenzy_affinity
 									}
 								}
 								scope:child = {
-									add_trait = frenzy_affinity
+									add_trait = incantation_frenzy
 								}
 							}
 							1 = {
 								modifier = { 
-									factor = 75
+									add = 50
 									faith = {
 										trait_is_virtue = glintstone_affinity
 									}
 								}
 								scope:child = {
-									add_trait = glintstone_affinity
+									add_trait = sorcery_glintstone
 								}
 							}
 							1 = {
 								modifier = { 
-									factor = 75
+									add = 50
 									faith = {
 										trait_is_virtue = rot_affinity
 									}
 								}
 								scope:child = {
-									add_trait = rot_affinity
+									add_trait = incantation_rot
 								}
 							}
 							1 = {
 								modifier = { 
-									factor = 75
+									add = 50
 									faith = {
 										trait_is_virtue = erdtree_affinity
 									}
 								}
 								scope:child = {
-									add_trait = erdtree_affinity
+									add_trait = incantation_erdtree
 								}
 							}
 							1 = {
 								modifier = { 
-									factor = 75
+									add = 50
 									faith = {
 										trait_is_virtue = fire_affinity
 									}
 								}
 								scope:child = {
-									add_trait = fire_affinity
+									add_trait = incantation_flame
 								}
 							}
 							1 = {
 								modifier = { 
-									factor = 75
+									add = 50
 									faith = {
 										trait_is_virtue = ice_affinity
 									}
 								}
 								scope:child = {
-									add_trait = ice_affinity
+									add_trait = sorcery_ice
 								}
 							}
 							1 = {
 								modifier = { 
-									factor = 75
+									add = 50
 									faith = {
 										trait_is_virtue = gravity_affinity
 									}
 								}
 								scope:child = {
-									add_trait = gravity_affinity
+									add_trait = sorcery_gravity
 								}
 							}
 							1 = {
 								modifier = { 
-									factor = 75
+									add = 50
 									faith = {
 										trait_is_virtue = lightning_affinity
 									}
 								}
 								scope:child = {
-										add_trait = lightning_affinity
+										add_trait = incantation_dragon_cult
 								}
 							}
 							1 = {
 								modifier = { 
-									factor = 75
+									add = 50
 									faith = {
 										trait_is_virtue = death_affinity
 									}
 								}
 								scope:child = {
-									add_trait = death_affinity
+									add_trait = sorcery_death
 								}
 							}
 							1 = {
 								modifier = { 
-									factor = 75
+									add = 50
 									faith = {
 										trait_is_virtue = blood_affinity
 									}
 								}
 								scope:child = {
-									add_trait = blood_affinity
+									add_trait = incantation_blood
 								}
 							}
 							1 = {
 								modifier = { 
-									factor = 75
+									add = 50
 									faith = {
 										trait_is_virtue = blackflame_affinity
 									}
 								}
 								scope:child = {
-									add_trait = blackflame_affinity
+									add_trait = incantation_blackflame
 								}
 							}
 							1 = {
 								modifier = { 
-									factor = 75
+									add = 50
 									faith = {
 										trait_is_virtue = sleep_affinity
 									}
@@ -294,31 +554,31 @@ teach_child_about_magic = {
 							}
 							1 = {
 								modifier = { 
-									factor = 75
+									add = 50
 									faith = {
 										trait_is_virtue = spiral_affinity
 									}
 								}
 								scope:child = {
-									add_trait = spiral_affinity
+									add_trait = incantation_spiral
 								}
 							}
 							1 = {
 								modifier = { 
-									factor = 75
+									add = 50
 									faith = {
 										trait_is_virtue = bestial_affinity
 									}
 								}
 								scope:child = {
-									add_trait = bestial_affinity
+									add_trait = incantation_bestial
 								}
 							}
 							100 = { }
 						}
 					}
 				}
-				#Affinity of the teacher
+				#Magic of the teacher
 				else_if = {
 					limit = { has_variable = court_magic_teacher_own }
 					save_scope_as = court_tutor_scope
@@ -328,64 +588,64 @@ teach_child_about_magic = {
 							30 = {
 								switch = {
 									trigger = has_trait
-									order_affinity = {
+									incantation_order = {
 										scope:child = {
-											add_trait = order_affinity
+											add_trait = incantation_order
 										}
 									}
-									frenzy_affinity = {
+									incantation_frenzy = {
 										scope:child = {
-											add_trait = frenzy_affinity
+											add_trait = incantation_frenzy
 										}
 									}
-									glintstone_affinity = {
+									sorcery_glintstone = {
 										scope:child = {
-											add_trait = glintstone_affinity
+											add_trait = sorcery_glintstone
 										}
 									}
-									rot_affinity = {
+									incantation_rot = {
 										scope:child = {
-											add_trait = rot_affinity
+											add_trait = incantation_rot
 										}
 									}										
-									erdtree_affinity = {
+									incantation_erdtree = {
 										scope:child = {
-											add_trait = erdtree_affinity
+											add_trait = incantation_erdtree
 										}
 									}
-									fire_affinity = {
+									incantation_flame = {
 										scope:child = {
-											add_trait = fire_affinity
+											add_trait = incantation_flame
 										}
 									}
-									ice_affinity = {
+									sorcery_ice = {
 										scope:child = {
-											add_trait = ice_affinity
+											add_trait = sorcery_ice
 										}
 									}
-									gravity_affinity = {
+									sorcery_gravity = {
 										scope:child = {
-											add_trait = gravity_affinity
+											add_trait = sorcery_gravity
 										}
 									}																		
-									lightning_affinity = {
+									incantation_dragon_cult = {
 										scope:child = {
-											add_trait = lightning_affinity
+											add_trait = incantation_dragon_cult
 										}
 									}
-									death_affinity = {
+									sorcery_death = {
 										scope:child = {
-											add_trait = death_affinity
+											add_trait = sorcery_death
 										}
 									}
-									blood_affinity = {
+									incantation_blood = {
 										scope:child = {
-											add_trait = blood_affinity
+											add_trait = incantation_blood
 										}
 									}
-									blackflame_affinity = {
+									incantation_blackflame = {
 										scope:child = {
-											add_trait = blackflame_affinity
+											add_trait = incantation_blackflame
 										}
 									}
 									sleep_affinity = {
@@ -393,14 +653,14 @@ teach_child_about_magic = {
 											add_trait = sleep_affinity
 										}
 									}
-									spiral_affinity = {
+									incantation_spiral = {
 										scope:child = {
-											add_trait = spiral_affinity
+											add_trait = incantation_spiral
 										}
 									}
-									bestial_affinity = {
+									incantation_bestial = {
 										scope:child = {
-											add_trait = bestial_affinity
+											add_trait = incantation_bestial
 										}
 									}
 								}
@@ -410,54 +670,96 @@ teach_child_about_magic = {
 					}
 					
 				}
-				#random affinity
+				#random magic
 				else = {				
 					scope:child = {
 						random_list = {
 							1 = {
-								add_trait = order_affinity
+								add_trait = sorcery_glintstone
 							}
 							1 = {
-								add_trait = frenzy_affinity
+								add_trait = sorcery_carian
 							}
 							1 = {
-								add_trait = glintstone_affinity
+								add_trait = sorcery_bloodthorn
 							}
 							1 = {
-								add_trait = rot_affinity
+								add_trait = sorcery_claymen
 							}
 							1 = {
-								add_trait = erdtree_affinity
+								add_trait = sorcery_crystalian
 							}
 							1 = {
-								add_trait = fire_affinity
+								add_trait = sorcery_death
 							}
 							1 = {
-								add_trait = ice_affinity
+								add_trait = sorcery_finger
 							}
 							1 = {
-								add_trait = gravity_affinity
+								add_trait = sorcery_gelmir
 							}
 							1 = {
-								add_trait = lightning_affinity
+								add_trait = sorcery_gravity
 							}
 							1 = {
-								add_trait = death_affinity
+								add_trait = sorcery_ice
 							}
 							1 = {
-								add_trait = blood_affinity
+								add_trait = sorcery_impenetrable_thorn
 							}
 							1 = {
-								add_trait = blackflame_affinity
+								add_trait = sorcery_night
 							}
 							1 = {
-								add_trait = sleep_affinity
+								add_trait = incantation_bestial
 							}
 							1 = {
-								add_trait = spiral_affinity
+								add_trait = incantation_blackflame
 							}
 							1 = {
-								add_trait = bestial_affinity
+								add_trait = incantation_blood
+							}
+							1 = {
+								add_trait = incantation_crucible
+							}
+							1 = {
+								add_trait = incantation_divine_beast
+							}
+							1 = {
+								add_trait = incantation_dragon_communion
+							}
+							1 = {
+								add_trait = incantation_dragon_cult
+							}
+							1 = {
+								add_trait = incantation_erdtree
+							}
+							1 = {
+								add_trait = incantation_flame
+							}
+							1 = {
+								add_trait = incantation_frenzy
+							}
+							1 = {
+								add_trait = incantation_lightning
+							}
+							1 = {
+								add_trait = incantation_messmers_flame
+							}
+							1 = {
+								add_trait = incantation_miquella
+							}
+							1 = {
+								add_trait = incantation_order
+							}
+							1 = {
+								add_trait = incantation_rot
+							}
+							1 = {
+								add_trait = incantation_spiral
+							}
+							1 = {
+								add_trait = incantation_two_fingers
 							}
 							25 = {
 								
@@ -473,127 +775,159 @@ teach_child_about_magic = {
 	}
 }
 
-child_gains_random_magic = {
-	trigger = {
-		is_adult = no
-		age >= childhood_education_start_age
-		has_affinity_elden_ring = no
-	}
+on_birth_random_magic = {
 	effect = {
 		random_list = {
 			1 = {
 				modifier = { 
-					factor = 30
+					add = 50
 					culture = {
-						has_cultural_parameter = glintstone_affinity_more_common
+						has_cultural_parameter = sorcery_glintstone_more_common
 					} 
 				}
-				scope:child = {
-					random_list = {
-						30 = {
-							add_trait = glintstone_affinity
-						}
-						15 = {
-							add_trait = ice_affinity
-						}
-						15 = {
-							add_trait = gravity_affinity
-						}
-					}	
-				}
+				random_list = {
+					30 = {
+						add_trait = glintstone_affinity
+					}
+					15 = {
+						add_trait = ice_affinity
+					}
+					15 = {
+						add_trait = gravity_affinity
+					}
+					15 = {
+						add_trait = carian_affinity
+					}
+				}	
+				
 			}
 			1 = {
 				modifier = { 
-					factor = 30
+					add = 50
 					culture = {
-						has_cultural_parameter = order_affinity_more_common
+						has_cultural_parameter = incantation_order_more_common
 					} 
 				}
-				scope:child = {
-					add_trait = order_affinity
-				}
+				add_trait = order_affinity
+				
 			}
 			1 = {
 				modifier = { 
-					factor = 30
+					add = 50
 					culture = {
-						has_cultural_parameter = fire_affinity_more_common
+						has_cultural_parameter = incantation_flame_more_common
 					} 
 				}
-				scope:child = {
-					add_trait = fire_affinity
-				}
+				add_trait = fire_affinity
+				
 			}
 			1 = {
 				modifier = { 
-					factor = 30
+					add = 50
 					culture = {
-						has_cultural_parameter = frenzied_flame_at_birth
+						has_cultural_parameter = incantation_frenzy_more_common
 					} 
 				}
-				scope:child = {
-					add_trait = frenzy_affinity
-				}
+				add_trait = frenzy_affinity
+				
 			}
 			1 = {
 				modifier = { 
-					factor = 30
+					add = 50
 					culture = {
-						has_cultural_parameter = scarletrot_at_birth
+						has_cultural_parameter = incantation_rot_more_common
 					} 
 				}
-				scope:child = {
-					add_trait = rot_affinity	
-				}
+				add_trait = rot_affinity	
+				
 			}
 			1 = {
 				modifier = { 
-					factor = 30
+					add = 50
 					culture = {
 						has_cultural_parameter = can_become_beast_clergy
 					} 
 				}
-				scope:child = {
-					add_trait = bestial_affinity	
-				}
+				add_trait = bestial_affinity	
+				
 			}
 			1 = {
 				modifier = { 
-					factor = 30
+					add = 50
 					culture = {
-						has_cultural_parameter = crucible_affinity_more_common
+						has_cultural_parameter = incantation_crucible_more_common
 					} 
 				}
-				scope:child = {
-					add_trait = erdtree_affinity	
+				modifier = { 
+					add = 50
+					culture = {
+						has_cultural_parameter = incantation_erdtree_more_common
+					} 
 				}
+				add_trait = erdtree_affinity	
 			}
 			1 = {
+				modifier = { 
+					add = 50
+					culture = {
+						has_cultural_parameter = incantation_frenzy_more_common
+					} 
+				}
 				add_trait = frenzy_affinity
 			}
 			
 			1 = {
-				add_trait = rot_affinity
-			}
-			1 = {
-				add_trait = erdtree_affinity
-			}
-			1 = {
+				modifier = { 
+					add = 50
+					culture = {
+						has_cultural_parameter = incantation_dragon_cult_more_common
+					} 
+				}
 				add_trait = lightning_affinity
 			}
 			1 = {
+				modifier = { 
+					add = 50
+					culture = {
+						has_cultural_parameter = sorcery_death_more_common
+					} 
+				}
 				add_trait = death_affinity
 			}
 			1 = {
+				modifier = { 
+					add = 50
+					culture = {
+						has_cultural_parameter = incantation_blood_more_common
+					} 
+				}
 				add_trait = blood_affinity
 			}
 			1 = {
+				modifier = { 
+					add = 50
+					culture = {
+						has_cultural_parameter = incantation_blackflame_more_common
+					} 
+				}
 				add_trait = blackflame_affinity
 			}
 			1 = {
+				modifier = { 
+					add = 50
+					culture = {
+						has_cultural_parameter = sleep_affinity_more_common
+					} 
+				}
 				add_trait = sleep_affinity
 			}
 			1 = {
+				modifier = { 
+					add = 50
+					culture = {
+						has_cultural_parameter = incantation_spiral_more_common
+					} 
+				}
 				add_trait = spiral_affinity
 			}	
 			200 = {
