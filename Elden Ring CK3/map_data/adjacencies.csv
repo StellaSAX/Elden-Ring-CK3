@@ -14,6 +14,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1553;128;river_large;1376;-1;-1;-1;-1;Giants Gravepost Crossing
 293;1077;river_large;1407;-1;-1;-1;-1;Fire Giant Crossing
 655;680;river_large;1459;-1;-1;-1;-1;Forge of the Giants Crossing
-494;1101;river_large;184;-1;-1;-1;-1;TEMPORARY SNOWFIELD CROSSING
+494;218;river_large;184;-1;-1;-1;-1;TEMPORARY SNOWFIELD CROSSING
 276;2074;sea;2697;-1;-1;-1;-1;Deeproot Crossing
+2125;2091;river_large;2680;-1;-1;-1;-1;Ainsel Cloister Crossing
+1152;1034;sea;1322;-1;-1;-1;-1;Liurnia-Ainsel River Well Crossing
+529;812;sea;1791;-1;-1;-1;-1;Deep Ainsel Well-Moonlight Altar Crossing
+1090;756;sea;241;-1;-1;-1;-1;Rennas Rise-Ainsel River Main Portal
 -1;-1;;-1;-1;-1;-1;-1;
