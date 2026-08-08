@@ -25,10 +25,11 @@
 4258.1.1 = Godwald is born (OC)
 4864.1.1 = War of the Ancient Dragons
 5977.1.1 = Godefroy is born
+6280.8.15 = Miquella creates the Haligtree
 7140.1.1 = Godrick is born
 7211.1.1 = The Night of the Black Knives occurs, Godwyn and other Demigods are killed
 7213.1.1 = Marika shatters the Elden Ring, and is thus crucified
 7217.1.1 = The Shattering Wars begin
-7748.1.1 = The Shattering Wars end, Millicent and her sisters are born from Malenia's Bloom
+7748.7.29 = The Shattering Wars end, Millicent and her sisters are born from Malenia's Bloom
 7749.1.1 = The Tarnished are called back
 8301.1.1 = Elden Ring Start

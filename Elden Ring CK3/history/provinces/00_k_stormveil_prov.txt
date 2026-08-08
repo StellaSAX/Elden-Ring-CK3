@@ -78,7 +78,7 @@
 }
 
 
-### c_R79G101B163
+### c_anticipation_chapel
 # limgrave_barony_193
 1273 = {
 	culture = cul_limgrave
@@ -161,7 +161,7 @@
 }
 
 
-### c_R18G54B201
+### c_stormpass
 # R137G242B129
 1997 = {
 	special_building_slot = stormgate
@@ -250,7 +250,7 @@
 }
 
 
-### c_R214G63B80
+### c_castleward_road
 # limgrave_barony_142
 1153 = {
 	culture = cul_stormhill
@@ -507,7 +507,7 @@
 }
 
 
-### c_R37G170B30
+### c_fringefolk_step
 # R196G37B70
 471 = {
 	culture = cul_limgrave
@@ -736,7 +736,7 @@
 }
 
 
-### c_R82G212B218
+### c_waypoint
 # limgrave_barony_77
 2079 = {
 	culture = cul_limgrave
@@ -834,7 +834,7 @@
 
 ##### d_dragon_communion_church ############################
 
-### c_R159G59B34
+### c_dragon_church_limgrave
 # limgrave_barony_42
 1649 = {
 	culture = cul_limgrave
@@ -855,7 +855,7 @@
 }
 
 
-### c_R71G179B202
+### c_communion_coast
 # limgrave_barony_38
 1238 = {
 	culture = cul_limgrave
@@ -941,7 +941,7 @@
 }
 
 
-### c_R240G232B197
+### c_murkwater_coast
 # limgrave_barony_102
 200 = {
 	culture = cul_limgrave
@@ -1042,7 +1042,7 @@
 
 ##### d_mistwood ############################
 
-### c_R74G183B42
+### c_fort_haight
 # limgrave_barony_1
 686 = {
 	special_building_slot = fort_haight_1
@@ -1335,7 +1335,7 @@
 
 ##### d_murkwater ############################
 
-### c_R251G205B65
+### c_murkwater_falls
 # limgrave_barony_114
 497 = {
 	culture = cul_limgrave
@@ -1460,7 +1460,7 @@
 }
 
 
-### c_R120G72B118
+### c_summonwater_village
 # limgrave_barony_55
 1839 = {
 	culture = cul_limgrave
@@ -1786,7 +1786,7 @@
 }
 
 
-### c_R115G70B106
+### c_limgrave_colosseum
 # limgrave_barony_169
 1223 = {
 	special_building_slot = limgrave_colosseum
@@ -1899,7 +1899,7 @@
 }
 
 
-### c_R7G60B200
+### c_saintsroad
 # limgrave_barony_163
 767 = {
 	culture = cul_limgrave
@@ -1922,9 +1922,10 @@
 
 ##### d_divinetower_limgrave ############################
 
-### c_R199G107B6
+### c_limgrave_divinetower
 # divinetower_limgrave_1
 235 = {
+	special_building_slot = divine_tower_limgrave
 	culture = cul_limgrave
 	religion = faith_golden
 	holding = castle_holding

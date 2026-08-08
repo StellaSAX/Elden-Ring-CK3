@@ -1,6 +1,6 @@
 ﻿##### d_divinetower_west_altus ############################
 
-### c_R26G196B169
+### c_westaltus_divinetower
 # R251G38B247
 650 = {
 	culture = cul_leyndell
@@ -436,7 +436,7 @@
 }
 
 
-### c_R149G180B129
+### c_auriza_hero_grave
 # R208G1B234
 430 = {
 	culture = cul_leyndell
@@ -495,7 +495,7 @@
 
 ##### d_forbidden_lands ############################
 
-### c_R42G164B22
+### c_eastaltus_divinetower
 # R90G3B36
 1375 = {
 	culture = cul_leyndell
@@ -585,7 +585,7 @@
 }
 
 
-### c_R199G90B87
+### c_rold
 # R163G227B93
 1037 = {
 	culture = cul_leyndell
@@ -614,7 +614,7 @@
 
 ##### d_divinetower_isolated ############################
 
-### c_R60G82B199
+### c_isolated_divinetower
 # divinetower_caelid_2
 604 = {
 	culture = cul_leyndell
@@ -685,7 +685,7 @@
 }
 
 
-### c_R171G192B213
+### c_royal_colosseum
 # R186G208B0
 857 = {
 	culture = cul_leyndell
@@ -852,7 +852,7 @@
 
 ##### d_smallboi_duchy ############################
 
-### c_R166G54B122
+### c_bigboi_island
 # lilland_1
 1697 = {
 	culture = cul_leyndell

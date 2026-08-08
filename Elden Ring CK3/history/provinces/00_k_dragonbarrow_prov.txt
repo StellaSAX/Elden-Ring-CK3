@@ -1,6 +1,6 @@
 ﻿##### d_dragonbarrow ############################
 
-### c_R223G151B52
+### c_faroth
 # R240G161B252
 1864 = {
 	culture = cul_dragonbarrow
@@ -242,7 +242,7 @@
 }
 
 
-### c_R39G119B125
+### c_bestial_sanctum
 # divinetower_caelid_1
 1119 = {
 	culture = cul_dragonbarrow
@@ -304,7 +304,7 @@
 
 ##### d_dragonbarrow_west ############################
 
-### c_R167G224B138
+### c_caelid_divinetower
 # R222G254B164
 2081 = {
 	culture = cul_dragonbarrow

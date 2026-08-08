@@ -48,7 +48,7 @@
 }
 
 
-### c_carian_manor
+### c_caria_manor
 # R110G28B91
 1657 = {
 	culture = cul_caria
@@ -205,7 +205,7 @@
 }
 
 
-### c_R239G254B199
+### c_lower_dectus
 # R195G118B26
 243 = {
 	culture = cul_caria
@@ -900,7 +900,7 @@
 }
 
 
-### c_carian_study_county
+### c_carian_study_hall
 # R236G245B147
 836 = {
 	culture = cul_caria
@@ -927,7 +927,7 @@
 }
 
 
-### c_R226G248B204
+### c_jarburg
 # R3G189B186
 1943 = {
 	culture = cul_caria
@@ -1377,7 +1377,7 @@
 
 ##### d_divinetower_liurnia ############################
 
-### c_R154G63B203
+### c_liurnia_divinetower
 # divinetower_liurnia_3
 738 = {
 	culture = cul_caria

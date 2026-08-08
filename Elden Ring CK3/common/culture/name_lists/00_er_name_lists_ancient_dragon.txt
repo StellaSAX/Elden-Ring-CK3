@@ -1,0 +1,65 @@
+name_list_ancient_dragon = {
+
+	dynasty_names = {
+		# Mogus
+	}
+
+	male_names = {
+		10 = { # common
+			Arkassax
+			Beressax
+			Cordossax
+			Drogossax Dormissax
+			Elessax
+			Fortissax
+			Gransax Grovossax Gorgossax
+			Heossax
+			Iraessax
+			Jurassax
+			Korssax
+			Lansseax Langssax
+			Morissax
+			Nogossax
+			Orossax
+			Pelissax
+			Ruinassax
+			Senessax
+			Torssax
+			Voltissax
+		}
+	}
+
+	female_names = {
+		10 = { # common
+			Anassax
+			Borassax
+			Carassax
+			Eriessax
+			Florissax
+			Graiassax
+			Heressax
+			Irussax
+			Jalassax
+			Karnassax
+			Leyssax
+			Malossax
+			Nagassax
+			Oriassax
+			Qarrassax
+			Ranassax
+			Sertissax
+			Tarassax
+			Vertassax
+		}
+	}
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+}

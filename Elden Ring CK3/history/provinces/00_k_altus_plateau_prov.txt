@@ -1,6 +1,6 @@
 ﻿##### d_lux ############################
 
-### c_R140G70B12
+### c_upper_dectus
 # R205G39B22
 2059 = {
 	culture = cul_altus
@@ -445,7 +445,7 @@
 }
 
 
-### c_R168G246B103
+### c_shaded_bog
 # R25G136B15
 2190 = {
 	culture = cul_altus
@@ -490,7 +490,7 @@
 }
 
 
-### c_ashenland
+### c_shaded_ashland
 # R15G251B9
 21 = {
 	culture = cul_altus
@@ -723,7 +723,7 @@
 }
 
 
-### c_R135G19B244
+### c_windmill_heights
 # R186G38B166
 2124 = {
 	culture = cul_altus
@@ -758,7 +758,7 @@
 
 ##### d_woodfolk_woods ############################
 
-### c_R171G33B41
+### c_wormwoods
 # R5G142B243
 1117 = {
 	culture = cul_altus
@@ -824,7 +824,7 @@
 }
 
 
-### c_R106G42B222
+### c_bounty_bower
 # R75G246B30
 1817 = {
 	culture = cul_altus

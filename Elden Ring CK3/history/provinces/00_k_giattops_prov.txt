@@ -327,7 +327,7 @@
 }
 
 
-### c_R233G37B123
+### c_castle_sol
 # R123G37B100
 2155 = {
 	culture = cul_northerner
@@ -545,7 +545,7 @@
 }
 
 
-### c_R4G56B80
+### c_whiteridge
 # R76G254B92
 902 = {
 	culture = cul_northerner

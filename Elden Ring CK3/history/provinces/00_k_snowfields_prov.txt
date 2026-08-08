@@ -1,6 +1,6 @@
 ﻿##### d_ordina ############################
 
-### c_R42G175B234
+### c_ordina
 # R227G159B236
 2366 = {
 	culture = cul_low_northerner
@@ -469,7 +469,7 @@
 }
 
 
-### c_R74G26B161
+### c_apostate_derelict
 # R169G16B213
 461 = {
 	culture = cul_low_northerner

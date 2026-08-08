@@ -175,13 +175,13 @@
 
 ### c_fallingstar_crater
 # LAKE
-3133 = {
+3130 = {
 	culture = cul_gelmir
 	religion = faith_god_snake
 	holding = castle_holding
 }
 # LAKE
-3130 = {
+3133 = {
 	culture = cul_gelmir
 	religion = faith_god_snake
 	holding = none
@@ -323,7 +323,7 @@
 
 ##### d_seethewater ############################
 
-### c_R77G27B81
+### c_laiedd
 # R49G251B15
 2272 = {
 	culture = cul_gelmir
@@ -377,7 +377,7 @@
 }
 
 
-### c_gelmir_pass_one
+### c_seethewater
 # LAKE
 3137 = {
 	culture = cul_gelmir

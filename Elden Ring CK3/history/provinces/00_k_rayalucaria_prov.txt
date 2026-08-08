@@ -828,7 +828,7 @@
 }
 
 
-### c_R62G9B218
+### c_four_belfries
 # R192G166B68
 57 = {
 	culture = cul_liurnia
@@ -1741,7 +1741,7 @@
 }
 
 
-### c_R154G182B141
+### c_lakeshore
 # R168G249B96
 504 = {
 	culture = cul_liurnia
@@ -1768,7 +1768,7 @@
 }
 
 
-### c_R180G53B147
+### c_lake_facing_cliffs
 # limgrave_barony_192
 2248 = {
 	culture = cul_liurnia

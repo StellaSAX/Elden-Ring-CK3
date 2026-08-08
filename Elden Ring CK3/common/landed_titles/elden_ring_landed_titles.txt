@@ -5378,7 +5378,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R79G101B163 = {
+				c_anticipation_chapel = {
 					color = { 79 101 163 }
 
 					b_R144G125B118 = {
@@ -5455,7 +5455,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R18G54B201 = {
+				c_stormpass = {
 					color = { 18 54 201 }
 
 					b_R137G242B129 = {
@@ -5531,7 +5531,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R214G63B80 = {
+				c_castleward_road = {
 					color = { 214 63 80 }
 
 					b_R71G88B89 = {
@@ -5662,7 +5662,7 @@ h_lands_between = {
 
 			d_elleh = {
 				color = { 106 184 104 }
-				capital = c_R37G170B30
+				capital = c_fringefolk_step
 
 				c_R137G89B52 = {
 					color = { 137 89 52 }
@@ -5765,7 +5765,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R37G170B30 = {
+				c_fringefolk_step = {
 					color = { 37 170 30 }
 
 					b_R196G37B70 = {
@@ -5970,7 +5970,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R82G212B218 = {
+				c_waypoint = {
 					color = { 82 212 218 }
 
 					b_R127G66B23 = {
@@ -6059,9 +6059,9 @@ h_lands_between = {
 
 			d_dragon_communion_church = {
 				color = { 91 86 0 }
-				capital = c_R159G59B34
+				capital = c_dragon_church_limgrave
 
-				c_R159G59B34 = {
+				c_dragon_church_limgrave = {
 					color = { 159 59 34 }
 
 					b_R148G142B69 = {
@@ -6080,7 +6080,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R71G179B202 = {
+				c_communion_coast = {
 					color = { 71 179 202 }
 
 					b_R142G147B135 = {
@@ -6161,7 +6161,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R240G232B197 = {
+				c_murkwater_coast = {
 					color = { 240 232 197 }
 
 					b_R36G242B133 = {
@@ -6254,9 +6254,9 @@ h_lands_between = {
 
 			d_mistwood = {
 				color = { 20 93 0 }
-				capital = c_R74G183B42
+				capital = c_fort_haight
 
-				c_R74G183B42 = {
+				c_fort_haight = {
 					color = { 74 183 42 }
 
 					b_R107G84B246 = {
@@ -6504,9 +6504,9 @@ h_lands_between = {
 
 			d_murkwater = {
 				color = { 61 83 84 }
-				capital = c_R251G205B65
+				capital = c_murkwater_falls
 
-				c_R251G205B65 = {
+				c_murkwater_falls = {
 					color = { 251 205 65 }
 
 					b_R60G97B249 = {
@@ -6595,7 +6595,7 @@ h_lands_between = {
 
 			d_summonwater = {
 				color = { 34 76 106 }
-				capital = c_R120G72B118
+				capital = c_summonwater_village
 
 				c_R65G224B20 = {
 					color = { 65 224 20 }
@@ -6621,7 +6621,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R120G72B118 = {
+				c_summonwater_village = {
 					color = { 120 72 118 }
 
 					b_R90G218B66 = {
@@ -6867,7 +6867,7 @@ h_lands_between = {
 
 			d_limgrave_colosseum = {
 				color = { 62 80 40 }
-				capital = c_R115G70B106
+				capital = c_limgrave_colosseum
 
 				c_R114G164B236 = {
 					color = { 114 164 236 }
@@ -6917,7 +6917,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R115G70B106 = {
+				c_limgrave_colosseum = {
 					color = { 115 70 106 }
 
 					b_R55G186B232 = {
@@ -7013,7 +7013,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R7G60B200 = {
+				c_saintsroad = {
 					color = { 7 60 200 }
 
 					b_R20G154B115 = {
@@ -7036,7 +7036,7 @@ h_lands_between = {
 			d_divinetower_limgrave = {
 				color = { 58 164 0 }
 
-				c_R199G107B6 = {
+				c_limgrave_divinetower = {
 					color = { 199 107 6 }
 
 					b_R72G35B228 = {
@@ -7818,17 +7818,17 @@ h_lands_between = {
 
 	e_caelid = {
 		color = { 186 47 47 }
-		capital = c_R8G255B104
+		capital = c_castellans_rock
 
 		k_dragonbarrow = {
 			color = { 117 123 66 }
-			capital = c_R223G151B52
+			capital = c_faroth
 
 			d_dragonbarrow = {
 				color = { 103 89 24 }
-				capital = c_R223G151B52
+				capital = c_faroth
 
-				c_R223G151B52 = {
+				c_faroth = {
 					color = { 223 151 52 }
 
 					b_R240G161B252 = {
@@ -7989,7 +7989,7 @@ h_lands_between = {
 
 			d_bestial_sanctum = {
 				color = { 93 82 63 }
-				capital = c_R39G119B125
+				capital = c_bestial_sanctum
 
 				c_R27G79B141 = {
 					color = { 27 79 141 }
@@ -8048,7 +8048,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R39G119B125 = {
+				c_bestial_sanctum = {
 					color = { 39 119 125 }
 
 					b_R84G124B152 = {
@@ -8104,9 +8104,9 @@ h_lands_between = {
 
 			d_dragonbarrow_west = {
 				color = { 121 117 57 }
-				capital = c_R167G224B138
+				capital = c_caelid_divinetower
 
-				c_R167G224B138 = {
+				c_caelid_divinetower = {
 					color = { 167 224 138 }
 
 					b_R222G254B164 = {
@@ -8255,13 +8255,13 @@ h_lands_between = {
 
 		k_redmane = {
 			color = { 145 41 6 }
-			capital = c_R8G255B104
+			capital = c_castellans_rock
 
 			d_redmane_castle = {
 				color = { 213 71 29 }
-				capital = c_R8G255B104
+				capital = c_castellans_rock
 
-				c_R247G32B99 = {
+				c_redroad = {
 					color = { 247 32 99 }
 
 					b_R20G101B37 = {
@@ -8280,7 +8280,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R113G64B88 = {
+				c_castle_redmane = {
 					color = { 113 64 88 }
 
 					b_R85G107B235 = {
@@ -8299,7 +8299,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R221G8B204 = {
+				c_redmane_bridge = {
 					color = { 221 8 204 }
 
 					b_R130G120B223 = {
@@ -8318,7 +8318,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R8G255B104 = {
+				c_castellans_rock = {
 					color = { 8 255 104 }
 
 					b_R121G56B62 = {
@@ -8646,7 +8646,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R60G147B203 = {
+				c_gael = {
 					color = { 60 147 203 }
 
 					b_R29G129B222 = {
@@ -8846,7 +8846,7 @@ h_lands_between = {
 
 			d_sellia = {
 				color = { 47 125 179 }
-				capital = c_R117G146B109
+				capital = c_sellia
 
 				c_R196G163B77 = {
 					color = { 196 163 77 }
@@ -8867,7 +8867,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R117G146B109 = {
+				c_sellia = {
 					color = { 117 146 109 }
 
 					b_R42G165B47 = {
@@ -9087,7 +9087,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R246G17B68 = {
+				c_sellia_chaircrypt = {
 					color = { 246 17 68 }
 
 					b_R56G212B7 = {
@@ -9344,7 +9344,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R10G242B228 = {
+				c_caelid_colosseum = {
 					color = { 10 242 228 }
 
 					b_R75G24B44 = {
@@ -10055,7 +10055,7 @@ h_lands_between = {
 
 			d_four_belfries = {
 				color = { 131 193 1 }
-				capital = c_R62G9B218
+				capital = c_four_belfries
 
 				c_R230G88B203 = {
 					color = { 230 88 203 }
@@ -10162,7 +10162,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R62G9B218 = {
+				c_four_belfries = {
 					color = { 62 9 218 }
 
 					b_R192G166B68 = {
@@ -10974,7 +10974,7 @@ h_lands_between = {
 
 			d_stillwater = {
 				color = { 84 134 150 }
-				capital = c_R180G53B147
+				capital = c_lake_facing_cliffs
 
 				c_R32G253B197 = {
 					color = { 32 253 197 }
@@ -10995,7 +10995,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R154G182B141 = {
+				c_lakeshore = {
 					color = { 154 182 141 }
 
 					b_R168G249B96 = {
@@ -11019,7 +11019,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R180G53B147 = {
+				c_lake_facing_cliffs = {
 					color = { 180 53 147 }
 
 					b_R61G32B78 = {
@@ -11149,11 +11149,11 @@ h_lands_between = {
 
 		k_caria = {
 			color = { 37 72 208 }
-			capital = c_carian_manor
+			capital = c_caria_manor
 
 			d_caria = {
 				color = { 37 72 208 }
-				capital = c_carian_manor
+				capital = c_caria_manor
 
 				c_R248G44B252 = {
 					color = { 248 44 252 }
@@ -11198,7 +11198,7 @@ h_lands_between = {
 					}
 				}
 
-				c_carian_manor = {
+				c_caria_manor = {
 					color = { 57 52 164 }
 
 					b_R110G28B91 = {
@@ -11317,7 +11317,7 @@ h_lands_between = {
 
 			d_bellum = {
 				color = { 64 149 123 }
-				capital = c_R239G254B199
+				capital = c_lower_dectus
 
 				c_R47G109B231 = {
 					color = { 47 109 231 }
@@ -11343,7 +11343,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R239G254B199 = {
+				c_lower_dectus = {
 					color = { 239 254 199 }
 
 					b_R195G118B26 = {
@@ -11934,7 +11934,7 @@ h_lands_between = {
 
 			d_study_road = {
 				color = { 96 110 156 }
-				capital = c_carian_study_county
+				capital = c_carian_study_hall
 
 				c_R158G2B9 = {
 					color = { 158 2 9 }
@@ -11979,7 +11979,7 @@ h_lands_between = {
 					}
 				}
 
-				c_carian_study_county = {
+				c_carian_study_hall = {
 					color = { 0 74 165 }
 
 					b_R236G245B147 = {
@@ -12003,7 +12003,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R226G248B204 = {
+				c_jarburg = {
 					color = { 226 248 204 }
 
 					b_R3G189B186 = {
@@ -12413,9 +12413,9 @@ h_lands_between = {
 
 			d_divinetower_liurnia = {
 				color = { 51 104 155 }
-				capital = c_R154G63B203
+				capital = c_liurnia_divinetower
 
-				c_R154G63B203 = {
+				c_liurnia_divinetower = {
 					color = { 154 63 203 }
 
 					b_R59G24B200 = {
@@ -12581,9 +12581,9 @@ h_lands_between = {
 
 			d_divinetower_west_altus = {
 				color = { 143 155 22 }
-				capital = c_R26G196B169
+				capital = c_westaltus_divinetower
 
-				c_R26G196B169 = {
+				c_westaltus_divinetower = {
 					color = { 26 196 169 }
 
 					b_R251G38B247 = {
@@ -12980,7 +12980,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R149G180B129 = {
+				c_auriza_hero_grave = {
 					color = { 149 180 129 }
 
 					b_R208G1B234 = {
@@ -13035,9 +13035,9 @@ h_lands_between = {
 
 			d_forbidden_lands = {
 				color = { 66 66 66 }
-				capital = c_R42G164B22
+				capital = c_eastaltus_divinetower
 
-				c_R42G164B22 = {
+				c_eastaltus_divinetower = {
 					color = { 42 164 22 }
 
 					b_R90G3B36 = {
@@ -13118,7 +13118,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R199G90B87 = {
+				c_rold = {
 					color = { 199 90 87 }
 
 					b_R163G227B93 = {
@@ -13145,9 +13145,9 @@ h_lands_between = {
 
 			d_divinetower_isolated = {
 				color = { 227 185 0 }
-				capital = c_R60G82B199
+				capital = c_isolated_divinetower
 
-				c_R60G82B199 = {
+				c_isolated_divinetower = {
 					color = { 60 82 199 }
 
 					b_R100G218B82 = {
@@ -13214,7 +13214,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R171G192B213 = {
+				c_royal_colosseum = {
 					color = { 171 192 213 }
 
 					b_R186G208B0 = {
@@ -13365,9 +13365,9 @@ h_lands_between = {
 
 			d_smallboi_duchy = {
 				color = { 163 196 101 }
-				capital = c_R166G54B122
+				capital = c_bigboi_island
 
-				c_R166G54B122 = {
+				c_bigboi_island = {
 					color = { 166 54 122 }
 
 					b_R68G113B5 = {
@@ -13561,14 +13561,14 @@ h_lands_between = {
 				c_fallingstar_crater = {
 					color = { 110 0 210 }
 
-					b_lake46 = {
-						color = { 69 239 136 }
-						province = 3133
-					}
-
 					b_lake47 = {
 						color = { 183 190 254 }
 						province = 3130
+					}
+
+					b_lake46 = {
+						color = { 69 239 136 }
+						province = 3133
 					}
 				}
 			}
@@ -13700,9 +13700,9 @@ h_lands_between = {
 
 			d_seethewater = {
 				color = { 54 54 63 }
-				capital = c_R77G27B81
+				capital = c_laiedd
 
-				c_R77G27B81 = {
+				c_laiedd = {
 					color = { 77 27 81 }
 
 					b_R49G251B15 = {
@@ -13750,7 +13750,7 @@ h_lands_between = {
 					}
 				}
 
-				c_gelmir_pass_one = {
+				c_seethewater = {
 					color = { 191 132 0 }
 
 					b_lake44 = {
@@ -14048,7 +14048,7 @@ h_lands_between = {
 
 		k_altus_plateau = {
 			color = { 234 182 31 }
-			capital = c_R168G246B103
+			capital = c_shaded_bog
 
 			definite_form = yes
 			ruler_uses_title_name = no
@@ -14062,7 +14062,7 @@ h_lands_between = {
 				color = { 168 137 0 }
 				capital = c_R22G139B35
 
-				c_R140G70B12 = {
+				c_upper_dectus = {
 					color = { 140 70 12 }
 
 					b_R205G39B22 = {
@@ -14447,7 +14447,7 @@ h_lands_between = {
 
 			d_shaded_castle = {
 				color = { 79 82 59 }
-				capital = c_R168G246B103
+				capital = c_shaded_bog
 
 				c_R210G24B243 = {
 					color = { 210 24 243 }
@@ -14468,7 +14468,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R168G246B103 = {
+				c_shaded_bog = {
 					color = { 168 246 103 }
 
 					b_R25G136B15 = {
@@ -14507,7 +14507,7 @@ h_lands_between = {
 					}
 				}
 
-				c_ashenland = {
+				c_shaded_ashland = {
 					color = { 141 141 117 }
 
 					b_R15G251B9 = {
@@ -14577,7 +14577,7 @@ h_lands_between = {
 
 			d_windmill_pasture = {
 				color = { 164 201 96 }
-				capital = c_R135G19B244
+				capital = c_windmill_heights
 
 				c_R197G174B24 = {
 					color = { 197 174 24 }
@@ -14718,7 +14718,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R135G19B244 = {
+				c_windmill_heights = {
 					color = { 135 19 244 }
 
 					b_R186G38B166 = {
@@ -14752,7 +14752,7 @@ h_lands_between = {
 				color = { 94 76 0 }
 				capital = c_R116G161B150
 
-				c_R171G33B41 = {
+				c_wormwoods = {
 					color = { 171 33 41 }
 
 					b_R5G142B243 = {
@@ -14810,7 +14810,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R106G42B222 = {
+				c_bounty_bower = {
 					color = { 106 42 222 }
 
 					b_R75G246B30 = {
@@ -15577,7 +15577,7 @@ h_lands_between = {
 
 			d_sol = {
 				color = { 96 102 124 }
-				capital = c_R233G37B123
+				capital = c_castle_sol
 
 				c_R193G208B69 = {
 					color = { 193 208 69 }
@@ -15622,7 +15622,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R233G37B123 = {
+				c_castle_sol = {
 					color = { 233 37 123 }
 
 					b_R123G37B100 = {
@@ -15692,7 +15692,7 @@ h_lands_between = {
 
 			d_freezing_lake = {
 				color = { 0 141 174 }
-				capital = c_R4G56B80
+				capital = c_whiteridge
 
 				c_R50G22B131 = {
 					color = { 50 22 131 }
@@ -15819,7 +15819,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R4G56B80 = {
+				c_whiteridge = {
 					color = { 4 56 80 }
 
 					b_R76G254B92 = {
@@ -16014,13 +16014,13 @@ h_lands_between = {
 
 		k_snowfields = {
 			color = { 139 247 236 }
-			capital = c_R42G175B234
+			capital = c_ordina
 
 			d_ordina = {
 				color = { 237 248 255 }
-				capital = c_R42G175B234
+				capital = c_ordina
 
-				c_R42G175B234 = {
+				c_ordina = {
 					color = { 42 175 234 }
 
 					b_R227G159B236 = {
@@ -16321,7 +16321,7 @@ h_lands_between = {
 
 			d_outer_snowfields = {
 				color = { 94 145 187 }
-				capital = c_R74G26B161
+				capital = c_apostate_derelict
 
 				c_R109G207B10 = {
 					color = { 109 207 10 }
@@ -16443,7 +16443,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R74G26B161 = {
+				c_apostate_derelict = {
 					color = { 74 26 161 }
 
 					b_R169G16B213 = {

@@ -1,6 +1,6 @@
 ﻿##### d_redmane_castle ############################
 
-### c_R247G32B99
+### c_redroad
 # R20G101B37
 1362 = {
 	culture = cul_caelid
@@ -21,7 +21,7 @@
 }
 
 
-### c_R113G64B88
+### c_castle_redmane
 # R85G107B235
 1018 = {
 	culture = cul_caelid
@@ -42,7 +42,7 @@
 }
 
 
-### c_R221G8B204
+### c_redmane_bridge
 # R130G120B223
 1974 = {
 	culture = cul_caelid
@@ -63,7 +63,7 @@
 }
 
 
-### c_R8G255B104
+### c_castellans_rock
 # R121G56B62
 636 = {
 	culture = cul_caelid
@@ -427,7 +427,7 @@
 }
 
 
-### c_R60G147B203
+### c_gael
 # R29G129B222
 1360 = {
 	culture = cul_caelid
@@ -672,7 +672,7 @@
 }
 
 
-### c_R117G146B109
+### c_sellia
 # R42G165B47
 931 = {
 	culture = cul_sellia
@@ -918,7 +918,7 @@
 }
 
 
-### c_R246G17B68
+### c_sellia_chaircrypt
 # R56G212B7
 2520 = {
 	culture = cul_sellia
@@ -1204,7 +1204,7 @@
 }
 
 
-### c_R10G242B228
+### c_caelid_colosseum
 # R75G24B44
 131 = {
 	culture = cul_caelid
