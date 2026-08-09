@@ -1,21 +1,20 @@
-﻿@provisions_cost_minimal = 25
+@provisions_cost_minimal = 25
 @provisions_cost_light = 50
 @provisions_cost_medium = 80
 @provisions_cost_high = 100
 @provisions_cost_extreme = 150
 
-bog_poison = { 
+bog_poison = {
 	color = { 89 107 0 }
-	travel_danger_color = { 47 128 97 } 
+	travel_danger_color = { 47 128 97 }
 	travel_danger_score = wetlands_danger_value
 	provision_cost = @provisions_cost_extreme
 	county_fertility = 0
 
-	
 	province_modifier = {
 		supply_limit_mult = -1
 		travel_danger = wetlands_danger_value
-		# attrition_mult = 0.9 # Remove or replace with a province-scope modifier
+		attrition_mult = 0.9
 		tax_mult = -0.7
 		levy_size = -0.9
 	}
@@ -36,6 +35,125 @@ bog_poison = {
 	
 	movement_speed = 0.2
 	combat_width = 0.6
+	
+	audio_parameter = 3.0
+}
+
+scarlet_swamp = {
+	color = { 184 63 76 }
+	travel_danger_color = { 209 10 20 }
+	travel_danger_score = wetlands_danger_value
+	provision_cost = @provisions_cost_extreme
+	county_fertility = 0
+
+	province_modifier = {
+		supply_limit_mult = -1
+		travel_danger = wetlands_danger_value
+		attrition_mult = 1.0
+		tax_mult = -0.9
+		levy_size = -0.9
+	}
+
+	county_capital_modifier = {
+		development_growth_factor = -0.9
+	}
+	
+	attacker_modifier = {
+		hard_casualty_modifier = 0.8
+		retreat_losses = 0.75
+	}
+	
+	defender_modifier = {
+		hard_casualty_modifier = 0.8
+		retreat_losses = 0.75
+	}
+	
+	movement_speed = 0.1
+	combat_width = 0.3
+	
+	audio_parameter = 3.0
+}
+
+lava_lake = {
+	color = { 209 97 27 }
+	travel_danger_color = { 163 43 0 }
+	travel_danger_score = wetlands_danger_value
+	provision_cost = @provisions_cost_extreme
+	county_fertility = 0
+
+	province_modifier = {
+		supply_limit_mult = -1
+		travel_danger = wetlands_danger_value
+		attrition_mult = 1.0
+		tax_mult = -0.95
+		levy_size = -0.95
+	}
+
+	county_capital_modifier = {
+		development_growth_factor = -0.95
+	}
+	
+	attacker_modifier = {
+		hard_casualty_modifier = 0.9
+		retreat_losses = 0.8
+	}
+	
+	defender_modifier = {
+		hard_casualty_modifier = 0.9
+		retreat_losses = 0.8
+	}
+	
+	movement_speed = 0.1
+	combat_width = 0.2
+	
+	audio_parameter = 3.0
+}
+
+abyssal_woods = {
+	color = { 143 128 82 }
+	travel_danger_color = { 191 137 48 }
+	travel_danger_score = forest_danger_value
+	provision_cost = @provisions_cost_high
+	county_fertility = 0
+
+	province_modifier = {
+		supply_limit_mult = -0.5
+		travel_danger = forest_danger_value
+		attrition_mult = 0.45
+		tax_mult = -0.5
+		levy_size = -0.5
+	}
+
+	county_capital_modifier = {
+		development_growth_factor = -0.5
+	}
+	
+	movement_speed = 0.6
+	
+	audio_parameter = 3.0
+}
+
+narrow_path = {
+	color = { 215 226 230 }
+	travel_danger_color = { 121 134 138 }
+	travel_danger_score = mountains_danger_value
+	provision_cost = @provisions_cost_high
+	county_fertility = 0
+
+	province_modifier = {
+		supply_limit_mult = -0.75
+		travel_danger = mountains_danger_value
+		attrition_mult = 0.2
+		tax_mult = -0.35
+		levy_size = -0.75
+	}
+
+	county_capital_modifier = {
+		development_growth_factor = -0.4
+	}
+	
+	movement_speed = 0.5
+	combat_width = 0.1
 	
 	audio_parameter = 3.0
 }

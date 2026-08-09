@@ -106,3 +106,439 @@ bog_poison_barter_goods_mult = {
 	prefix = MOD_MONTHLY_BARTER_GOODS_PREFIX
 	percent = yes
 }
+
+# Scarlet Rot
+scarlet_swamp_attrition_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+}
+
+scarlet_swamp_cancel_negative_supply = {
+	decimals = 0
+}
+
+scarlet_swamp_advantage = {
+	prefix = MOD_ADVANTAGE_PREFIX
+	decimals = 0
+}
+
+scarlet_swamp_min_combat_roll = {
+	decimals = 0
+}
+
+scarlet_swamp_max_combat_roll = {
+	decimals = 0
+}
+
+scarlet_swamp_development_growth = {
+	decimals = 1
+}
+
+scarlet_swamp_development_growth_factor = {
+	decimals = 0
+	percent = yes
+}
+
+scarlet_swamp_construction_gold_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_GOLD_PREFIX
+	percent = yes
+}
+
+scarlet_swamp_holding_construction_gold_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_GOLD_PREFIX
+	percent = yes
+}
+
+scarlet_swamp_construction_piety_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PIETY_PREFIX
+	percent = yes
+}
+
+scarlet_swamp_holding_construction_piety_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PIETY_PREFIX
+	percent = yes
+}
+
+scarlet_swamp_construction_prestige_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PRESTIGE_PREFIX
+	percent = yes
+}
+
+scarlet_swamp_holding_construction_prestige_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PRESTIGE_PREFIX
+	percent = yes
+}
+
+scarlet_swamp_supply_limit = {
+	decimals = 0
+}
+
+scarlet_swamp_supply_limit_mult = {
+	decimals = 0
+	percent = yes
+}
+
+scarlet_swamp_tax_mult = {
+	decimals = 0
+	prefix = MOD_GOLD_PREFIX
+	percent = yes
+}
+
+scarlet_swamp_levy_size = {
+	decimals = 0
+	prefix = MOD_SOLDIER_PREFIX
+	percent = yes
+}
+
+scarlet_swamp_provisions_use_mult = {
+	decimals = 0
+	prefix = MOD_PROVISIONS_PREFIX
+	color = bad
+	percent = yes
+}
+
+scarlet_swamp_barter_goods_mult = {
+	decimals = 0
+	prefix = MOD_MONTHLY_BARTER_GOODS_PREFIX
+	percent = yes
+}
+
+# Lava Lake
+lava_lake_attrition_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+}
+
+lava_lake_cancel_negative_supply = {
+	decimals = 0
+}
+
+lava_lake_advantage = {
+	prefix = MOD_ADVANTAGE_PREFIX
+	decimals = 0
+}
+
+lava_lake_min_combat_roll = {
+	decimals = 0
+}
+
+lava_lake_max_combat_roll = {
+	decimals = 0
+}
+
+lava_lake_development_growth = {
+	decimals = 1
+}
+
+lava_lake_development_growth_factor = {
+	decimals = 0
+	percent = yes
+}
+
+lava_lake_construction_gold_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_GOLD_PREFIX
+	percent = yes
+}
+
+lava_lake_holding_construction_gold_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_GOLD_PREFIX
+	percent = yes
+}
+
+lava_lake_construction_piety_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PIETY_PREFIX
+	percent = yes
+}
+
+lava_lake_holding_construction_piety_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PIETY_PREFIX
+	percent = yes
+}
+
+lava_lake_construction_prestige_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PRESTIGE_PREFIX
+	percent = yes
+}
+
+lava_lake_holding_construction_prestige_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PRESTIGE_PREFIX
+	percent = yes
+}
+
+lava_lake_supply_limit = {
+	decimals = 0
+}
+
+lava_lake_supply_limit_mult = {
+	decimals = 0
+	percent = yes
+}
+
+lava_lake_tax_mult = {
+	decimals = 0
+	prefix = MOD_GOLD_PREFIX
+	percent = yes
+}
+
+lava_lake_levy_size = {
+	decimals = 0
+	prefix = MOD_SOLDIER_PREFIX
+	percent = yes
+}
+
+lava_lake_provisions_use_mult = {
+	decimals = 0
+	prefix = MOD_PROVISIONS_PREFIX
+	color = bad
+	percent = yes
+}
+
+lava_lake_barter_goods_mult = {
+	decimals = 0
+	prefix = MOD_MONTHLY_BARTER_GOODS_PREFIX
+	percent = yes
+}
+
+# Abyssal Woods
+abyssal_woods_attrition_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+}
+
+abyssal_woods_cancel_negative_supply = {
+	decimals = 0
+}
+
+abyssal_woods_advantage = {
+	prefix = MOD_ADVANTAGE_PREFIX
+	decimals = 0
+}
+
+abyssal_woods_min_combat_roll = {
+	decimals = 0
+}
+
+abyssal_woods_max_combat_roll = {
+	decimals = 0
+}
+
+abyssal_woods_development_growth = {
+	decimals = 1
+}
+
+abyssal_woods_development_growth_factor = {
+	decimals = 0
+	percent = yes
+}
+
+abyssal_woods_construction_gold_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_GOLD_PREFIX
+	percent = yes
+}
+
+abyssal_woods_holding_construction_gold_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_GOLD_PREFIX
+	percent = yes
+}
+
+abyssal_woods_construction_piety_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PIETY_PREFIX
+	percent = yes
+}
+
+abyssal_woods_holding_construction_piety_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PIETY_PREFIX
+	percent = yes
+}
+
+abyssal_woods_construction_prestige_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PRESTIGE_PREFIX
+	percent = yes
+}
+
+abyssal_woods_holding_construction_prestige_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PRESTIGE_PREFIX
+	percent = yes
+}
+
+abyssal_woods_supply_limit = {
+	decimals = 0
+}
+
+abyssal_woods_supply_limit_mult = {
+	decimals = 0
+	percent = yes
+}
+
+abyssal_woods_tax_mult = {
+	decimals = 0
+	prefix = MOD_GOLD_PREFIX
+	percent = yes
+}
+
+abyssal_woods_levy_size = {
+	decimals = 0
+	prefix = MOD_SOLDIER_PREFIX
+	percent = yes
+}
+
+abyssal_woods_provisions_use_mult = {
+	decimals = 0
+	prefix = MOD_PROVISIONS_PREFIX
+	color = bad
+	percent = yes
+}
+
+abyssal_woods_barter_goods_mult = {
+	decimals = 0
+	prefix = MOD_MONTHLY_BARTER_GOODS_PREFIX
+	percent = yes
+}
+
+# Narrow Path
+narrow_path_attrition_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+}
+
+narrow_path_cancel_negative_supply = {
+	decimals = 0
+}
+
+narrow_path_advantage = {
+	prefix = MOD_ADVANTAGE_PREFIX
+	decimals = 0
+}
+
+narrow_path_min_combat_roll = {
+	decimals = 0
+}
+
+narrow_path_max_combat_roll = {
+	decimals = 0
+}
+
+narrow_path_development_growth = {
+	decimals = 1
+}
+
+narrow_path_development_growth_factor = {
+	decimals = 0
+	percent = yes
+}
+
+narrow_path_construction_gold_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_GOLD_PREFIX
+	percent = yes
+}
+
+narrow_path_holding_construction_gold_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_GOLD_PREFIX
+	percent = yes
+}
+
+narrow_path_construction_piety_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PIETY_PREFIX
+	percent = yes
+}
+
+narrow_path_holding_construction_piety_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PIETY_PREFIX
+	percent = yes
+}
+
+narrow_path_construction_prestige_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PRESTIGE_PREFIX
+	percent = yes
+}
+
+narrow_path_holding_construction_prestige_cost = {
+	decimals = 0
+	color = bad
+	prefix = MOD_PRESTIGE_PREFIX
+	percent = yes
+}
+
+narrow_path_supply_limit = {
+	decimals = 0
+}
+
+narrow_path_supply_limit_mult = {
+	decimals = 0
+	percent = yes
+}
+
+narrow_path_tax_mult = {
+	decimals = 0
+	prefix = MOD_GOLD_PREFIX
+	percent = yes
+}
+
+narrow_path_levy_size = {
+	decimals = 0
+	prefix = MOD_SOLDIER_PREFIX
+	percent = yes
+}
+
+narrow_path_provisions_use_mult = {
+	decimals = 0
+	prefix = MOD_PROVISIONS_PREFIX
+	color = bad
+	percent = yes
+}
+
+narrow_path_barter_goods_mult = {
+	decimals = 0
+	prefix = MOD_MONTHLY_BARTER_GOODS_PREFIX
+	percent = yes
+}

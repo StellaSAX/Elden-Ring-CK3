@@ -1,4 +1,11 @@
 ﻿l_english:
  bog_poison:0 "Poisonous Swamp"
  combat_bog_poison:0 "Defending in Poisonous Swamp"
- 
+ scarlet_swamp:0 "Scarlet Rot Swamp"
+ combat_scarlet_swamp:0 "Defending in Scarlet Rot Swamp"
+ lava_lake:0 "Lava Lake"
+ combat_lava_lake:0 "Defending in Lava Lake"
+ abyssal_woods:0 "Abyssal Woods"
+ combat_abyssal_woods:0 "Defending in Abyssal Woods"
+ narrow_path:0 "Narrow Path"
+ combat_narrow_path:0 "Defending in Narrow Path"
