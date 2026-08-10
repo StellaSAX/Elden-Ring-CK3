@@ -35,6 +35,9 @@
 
  trait_bodiless:0 "Bodiless"
  trait_bodiless_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is without body, existing as a drifting spirit bound to Grace."
+ 
+ trait_ranni_doll_body:0 "Doll Body"
+ trait_ranni_doll_body_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has abandoned their original form, their soul now residing within an inanimate doll."
 
  trait_golden_knight:0 "Golden Knight"
  trait_golden_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that believes in Order, trained in the art of defence."
