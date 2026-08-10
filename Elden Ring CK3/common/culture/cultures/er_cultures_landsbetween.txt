@@ -291,12 +291,12 @@ cul_caelid = {
 
 cul_dragonbarrow = {
 	color = { 0.55 0.41 0.22 }
-	parents = { cul_draconian }
+	parents = { cul_landsbetween }
 	history_loc_override = created_long_ago_loc
 	created = 576.11.4
 	ethos = ethos_communal
-	heritage = heritage_draconian
-	language = language_draconian
+	heritage = heritage_lands_between
+	language = language_lands_between
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {

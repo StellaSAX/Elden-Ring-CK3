@@ -42,20 +42,20 @@ nightfolk = {
 	}
 	eye_color = {
 		# random
-		90 = { 0.1 0.9 0.1 0.9 }
+		90 = { 0.3 0.1 0.9 0.1 }
 	}
 	hair_color = {
 		# white
-		100 = { 0.0 0.1 0.0 0.60 }
+		100 = { 0.0 0.6 0.0 0.70 }
 	}
 	skin_color_hue_mhec = {
-	    10 = { name = skin_color_hue_mhec    range = { 0.55 0.56 }    }
+	    10 = { name = skin_color_hue_mhec    range = { 0.59 0.61 }    }
 	}
 	skin_color_saturation_mhec = {
-	    10 = { name = skin_color_saturation_mhec    range = { 0.68 0.69 }    }
+	    10 = { name = skin_color_saturation_mhec    range = { 0.66 0.68 }    }
 	}
 	skin_color_value_mhec = {
-	    10 = { name = skin_color_value_mhec    range = { 0.25 0.30 }    }
+	    10 = { name = skin_color_value_mhec    range = { 0.33 0.36 }    }
 	}
 } 
 
