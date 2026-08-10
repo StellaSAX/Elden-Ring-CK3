@@ -108,3 +108,33 @@
  building_type_oridys_rise_desc:0 "My oridys is rising."
  building_oridys_rise:0 "Oridys' Rise"
  building_oridys_rise_desc:0 "My oridys is rising."
+ 
+ building_type_divine_tower_limgrave:0 "Divine Tower of Limgrave"
+ building_type_divine_tower_limgrave_desc:0 "This tower is very much divine."
+ building_divine_tower_limgrave:0 "Divine Tower of Limgrave"
+ building_divine_tower_limgrave_desc:0 "This tower is very much divine."
+ 
+ building_type_divine_tower_liurnia:0 "Divine Tower of Liurnia"
+ building_type_divine_tower_liurnia_desc:0 "This tower is very much divine."
+ building_divine_tower_liurnia:0 "Divine Tower of Liurnia"
+ building_divine_tower_liurnia_desc:0 "This tower is very much divine."
+ 
+ building_type_divine_tower_caelid:0 "Divine Tower of Caelid"
+ building_type_divine_tower_caelid_desc:0 "This tower is very much divine."
+ building_divine_tower_caelid:0 "Divine Tower of Caelid"
+ building_divine_tower_caelid_desc:0 "This tower is very much divine."
+ 
+ building_type_divine_tower_westaltus:0 "Divine Tower of West Altus"
+ building_type_divine_tower_westaltus_desc:0 "This tower is very much divine."
+ building_divine_tower_westaltus:0 "Divine Tower of West Altus"
+ building_divine_tower_westaltus_desc:0 "This tower is very much divine."
+ 
+ building_type_divine_tower_eastaltus:0 "Divine Tower of East Altus"
+ building_type_divine_tower_eastaltus_desc:0 "This tower is very much divine."
+ building_divine_tower_eastaltus:0 "Divine Tower of East Altus"
+ building_divine_tower_eastaltus_desc:0 "This tower is very much divine."
+ 
+ building_type_divine_tower_isolated:0 "Isolated Divine Tower"
+ building_type_divine_tower_isolated_desc:0 "This tower is very much divine and isolated."
+ building_divine_tower_isolated:0 "Isolated Divine Tower"
+ building_divine_tower_isolated_desc:0 "This tower is very much divine and isolated."
