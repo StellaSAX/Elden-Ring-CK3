@@ -657,11 +657,13 @@ ranni = {
 			add_trait_xp = { trait = sorcery_ice value=100 }
 		}
 	}
+	7211.2.9 = {
+		add_trait = ranni_doll_body
+	}
 	7216.1.1 = {
 		add_pressed_claim = title:h_lands_between
 		add_pressed_claim = title:e_leyndell
 		add_pressed_claim = title:k_leyndell
-		add_trait = ranni_doll_body
 	}
 }
 
