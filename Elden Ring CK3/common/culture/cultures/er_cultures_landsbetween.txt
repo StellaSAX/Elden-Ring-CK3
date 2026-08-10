@@ -319,7 +319,10 @@ cul_dragonbarrow = {
 	house_coa_frame = house_frame_22
 
 	ethnicities = {
-		30 = draconian
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
 	}
 }
 
