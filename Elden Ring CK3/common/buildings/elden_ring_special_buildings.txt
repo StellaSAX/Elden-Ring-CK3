@@ -1005,17 +1005,206 @@ divine_tower_limgrave = {
 	can_construct_potential = {
 	}
 	
-	cost_gold = 2000
+	cost_gold = 4000
 
 	character_modifier = {
-		monthly_learning_lifestyle_xp_gain_mult = 0.15
-		learning = 1
+		same_faith_opinion = 10
 	}
 	province_modifier = {
-		fort_level = 6
+		fort_level = 8
 	}
 	county_modifier = {
-		epidemic_resistance = 10
+		county_opinion_add = 10
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+divine_tower_liurnia = {
+	asset = {
+		type = pdxmesh
+		name = divinetower_mesh
+	}
+	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_legendary_watchtower.dds"
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 4000
+
+	character_modifier = {
+		same_faith_opinion = 10
+	}
+	province_modifier = {
+		fort_level = 8
+	}
+	county_modifier = {
+		county_opinion_add = 10
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+divine_tower_caelid = {
+	asset = {
+		type = pdxmesh
+		name = divinetower_mesh
+	}
+	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_legendary_watchtower.dds"
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 4000
+
+	character_modifier = {
+		same_faith_opinion = 10
+	}
+	province_modifier = {
+		fort_level = 8
+	}
+	county_modifier = {
+		county_opinion_add = 10
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+divine_tower_westaltus = {
+	asset = {
+		type = pdxmesh
+		name = divinetower_mesh
+	}
+	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_legendary_watchtower.dds"
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 4000
+
+	character_modifier = {
+		same_faith_opinion = 10
+	}
+	province_modifier = {
+		fort_level = 8
+	}
+	county_modifier = {
+		county_opinion_add = 10
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+divine_tower_eastaltus = {
+	asset = {
+		type = pdxmesh
+		name = divinetower_mesh
+	}
+	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_legendary_watchtower.dds"
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 4000
+
+	character_modifier = {
+		same_faith_opinion = 10
+	}
+	province_modifier = {
+		fort_level = 8
+	}
+	county_modifier = {
+		county_opinion_add = 10
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+divine_tower_isolated = {
+	asset = {
+		type = pdxmesh
+		name = divinetower_mesh
+	}
+	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_legendary_watchtower.dds"
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 4000
+
+	character_modifier = {
+		same_faith_opinion = 10
+	}
+	province_modifier = {
+		fort_level = 8
+	}
+	county_modifier = {
+		county_opinion_add = 10
 	}
 	
 	ai_value = {
