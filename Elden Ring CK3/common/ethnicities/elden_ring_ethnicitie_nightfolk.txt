@@ -57,7 +57,4 @@ nightfolk = {
 	skin_color_value_mhec = {
 	    10 = { name = skin_color_value_mhec    range = { 0.33 0.36 }    }
 	}
-} 
-
-
-
+}

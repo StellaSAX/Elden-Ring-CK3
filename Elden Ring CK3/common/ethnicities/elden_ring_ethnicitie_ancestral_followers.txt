@@ -41,27 +41,23 @@ ancestral_followers = {
 		100 = { 0.0 0.01 0.0 0.01 }
 	}
 	eye_color = {
-		# random
-		90 = { 0.1 0.9 0.1 0.2 }
+		# blueish
+		90 = { 0.8 0.0 0.9 1.0 }
 	}
 	hair_color = {
 		# white
 		100 = { 0.0 0.1 0.0 0.1 }
 	}
 	skin_color_hue_mhec = {
-	    10 = { name = skin_color_hue_mhec    range = { 0.59 0.60 }    }
+	    10 = { name = skin_color_hue_mhec    range = { 0.60 0.61 }    }
 	}
 	skin_color_saturation_mhec = {
-	    10 = { name = skin_color_saturation_mhec    range = { 0.90 0.91 }    }
+	    10 = { name = skin_color_saturation_mhec    range = { 0.73 0.81 }    }
 	}
 	skin_color_value_mhec = {
-	    10 = { name = skin_color_value_mhec    range = { 0.20 0.21 }    }
+	    10 = { name = skin_color_value_mhec    range = { 0.60 0.71 }    }
 	}
 	gene_height = {
 	    10 = { name = giant_height    range = { 0.0 0.1 }    }
 	}
-
-} 
-
-
-
+}
