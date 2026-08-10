@@ -5,7 +5,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2482;171;river_large;2852;-1;-1;-1;-1;Crossing in Gelmir
 2247;1611;river_large;2798;-1;-1;-1;-1;South Crossing in Chapel of Anticipation
 1273;3141;river_large;2798;-1;-1;-1;-1;North Crossing in Chapel of Anticipation
-1037;146;river_large;1267;-1;-1;-1;-1;Grand Lift of Rold
+1037;292;river_large;1267;-1;-1;-1;-1;Grand Lift of Rold
 836;258;sea;2832;-1;-1;-1;-1;Liurnia Bridge to Tower
 1859;1211;river_large;2827;-1;-1;-1;-1;Bridge to Beastial Sanctum
 2000;1362;sea;2589;-1;-1;-1;-1;Bridge to Epstein Island
@@ -20,4 +20,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1152;1034;sea;1322;-1;-1;-1;-1;Liurnia-Ainsel River Well Crossing
 529;812;sea;1791;-1;-1;-1;-1;Deep Ainsel Well-Moonlight Altar Crossing
 1090;756;sea;241;-1;-1;-1;-1;Rennas Rise-Ainsel River Main Portal
+3169;650;sea;3118;-1;-1;-1;-1;West Altus Divine Tower Connection
+2113;2064;river_large;2836;-1;-1;-1;-1;Siofra River Connection 1
+2558;1967;river_large;2999;-1;-1;-1;-1;Siofra River Connection 2
+937;1952;river_large;3028;-1;-1;-1;-1;Siofra River Well Limgrave
+2418;1581;river_large;2695;-1;-1;-1;-1;Siofra River Well Caelid
+1480;2398;river_large;2660;-1;-1;-1;-1;Siofra-Deeproot Coffin
+589;138;river_large;1129;-1;-1;-1;-1;Mohgwyn Palace Portal
+1890;225;river_large;2999;-1;-1;-1;-1;Four Belfries Nokron
+2247;5;river_large;2798;-1;-1;-1;-1;Four Belfries CoA
 -1;-1;;-1;-1;-1;-1;-1;
