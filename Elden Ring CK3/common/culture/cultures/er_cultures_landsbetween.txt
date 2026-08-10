@@ -50,7 +50,7 @@ cul_limgrave = {
 		tradition_culinary_art
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_limgrave
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -85,7 +85,7 @@ cul_mistwood = {
 		tradition_medicinal_plants
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_limgrave
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -123,7 +123,7 @@ cul_stormhill = {
 		# tradition_fp2_strategy_gamers
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_limgrave
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -196,7 +196,7 @@ cul_liurnia = {
 		tradition_ce1_ritual_washing
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_liurnia
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -385,7 +385,7 @@ cul_leyndell = {
 		#tradition_martial_admiration
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_leyndell
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -421,7 +421,7 @@ cul_altus = {
 		#tradition_zealous_people that would fit, but it would make it a pain to change the religion of huge parts of the map
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_leyndell
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }

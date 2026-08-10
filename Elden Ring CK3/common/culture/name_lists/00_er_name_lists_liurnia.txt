@@ -1,7 +1,7 @@
 ﻿name_list_liurnia = {
 
 	dynasty_names = {
-		# Dunno
+		"Blacklake" "Waters" "Argot" "Bluepine" "Trutting" "Muddit" "Longshore" "Misting" "Whitelake" "Florris" "Cenvale" "Cayne" "Kestigan" "Blueray"
 	}
 
 	male_names = {

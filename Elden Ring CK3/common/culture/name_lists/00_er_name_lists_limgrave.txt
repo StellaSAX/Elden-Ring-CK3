@@ -1,31 +1,31 @@
 ﻿name_list_limgrave = {
 
 	dynasty_names = {
-		"dynn_Stormshore" "dynn_Mistwood" "dynn_Mistmere" "dynn_Murkwater" "dynn_Tombsward"
-		"dynn_Coastward" "dynn_Gatefront" "dynn_Wrenmark" "dynn_Eadwulf" "dynn_Aelfric"
-		"dynn_Wulfric" "dynn_Cynewald" "dynn_Hrothward" "dynn_Beorhthelm" "dynn_Halfrey"
-		"dynn_Osric" "dynn_Hadric" "dynn_Wynstead" "dynn_Erlwick" "dynn_Goldwick"
-		"dynn_Goldmark" "dynn_Goldhart" "dynn_Greyveil" "dynn_Greymark" "dynn_Greaveston"
-		"dynn_Hoarshield" "dynn_Hollomere" "dynn_Hawkmoor" "dynn_Crowhold" "dynn_Ravenhelm"
-		"dynn_Saintsford" "dynn_Saintsway" "dynn_Brackmoor" "dynn_Reedmere" "dynn_Pikeford"
-		"dynn_Larchmere" "dynn_Pinerose" "dynn_Yewmere" "dynn_Foldgate" "dynn_Roundbridge"
-		"dynn_Tarnsworth" "dynn_Wickenhall" "dynn_Helmsford" "dynn_Stoneheart" "dynn_Erdhold"
-		"dynn_Erdgard" "dynn_Mournstead" "dynn_Ashvale" "dynn_Wraithwood" "dynn_Belrothen"
-		"dynn_Caelvarn" "dynn_Westmere" "dynn_Vaelford" "dynn_Hewmark" "dynn_Olfrest"
-		"dynn_Drosshelm" "dynn_Garthrow" "dynn_Kellenburg" "dynn_Bellbarrow" "dynn_Boresward"
-		"dynn_Coltvale" "dynn_Greenmark" "dynn_Aethelweard" "dynn_Aelfsige" "dynn_Aescferth"
-		"dynn_Beornoth" "dynn_Brihtwald" "dynn_Cenred" "dynn_Eadberht" "dynn_Forthhere"
-		"dynn_Heahmund" "dynn_Mearcred" "dynn_Ordmaer" "dynn_Saewine" "dynn_Tilberht"
-		"dynn_Wihtgar" "dynn_Wuffa" "dynn_Beaumont" "dynn_Bellecourt" "dynn_Courcy"
-		"dynn_Ferrand" "dynn_Lacy" "dynn_Mortemer" "dynn_Neville" "dynn_Percy" "dynn_Verdon"
+		"Stormshore" "Mistyr" "Mistmere" "Murklar" "Ferin"
+		"Coastward" "Gatefront" "Wrenmark" "Stormstone"
+		"Wulfric" "Cynewald" "Hrothward" "Beorhthelm" "Halfrey"
+		"Wynstead" "Erlwick" "Golwick"
+		"Goldmark" "Goldhart" "Greyveil" "Greymark" "Greaveston"
+		"Hoarshield" "Hollomere" "Hawkmoor" "Crowhold" "Ravenhelm"
+		"Saintsford" "Saintsway" "Brackmoor" "Reedmere" "Pikes"
+		"Larchmere" "Pinerose" "Yewmere" "Foldgate" "Roundbridge"
+		"Tarnsworth" "Wickenhall" "Helmsford" "Stoneheart" "Erdinac"
+		"Erdgard" "Mournstead" "Ashvale" "Wraithwood" "Belrothen"
+		"Caelvarn" "Westmere" "Vaelford" "Hewmark" "Olfrest"
+		"Drosshelm" "Garthrow" "Kellenburg" "Bellbarrow" "Boresward"
+		"Coltvale" "Greenmark" "Aethelweard" "Aelfsige" "Aescferth"
+		"Beornoth" "Brihtwald" "Cenred" "Eadberht" "Forthhere"
+		"Heahmund" "Mearcred" "Ordmaer" "Saewine" "Tilberht"
+		"Wihtgar" "Wuffa" "Beaumont" "Bellecourt" "Courcy"
+		"Ferrand" "Lacy" "Mortemer" "Nesting" "Verdon"
 	}
 
 	male_names = {
 		10 = { # common
-			Aethelred Aethelstan Aethelwulf Aelfgar Aelfheah Aelfweard Aimery Albrec Aelfwic Aldwyn Anselm Aubrey Aldric Aelfric
+			Aethelred Aethelstan Aethelwulf Aelfgar Aelfheah Aelfweard Aimery Albrec Aelfwic Aldwyn Anselm Aubrey Aldric Aelfric Asric
 			Baldwin Bartred Beorhtric Beornwulf Berthold Bertrand Bernhard
 			Caelwyn Ceolwulf Cuthbert Cuthred Cuthwine Cynewulf
-			Diallos Drogo Drystan Daniel
+			Diallos Drokos Drystan Daniel
 			Eadred Ecgfrith Edgar Edwin Egbert Elred Eustace Edmund Edric
 			Frewyn Frithwald Fulk
 			Garwic Geoffrey Gerard Gilbert

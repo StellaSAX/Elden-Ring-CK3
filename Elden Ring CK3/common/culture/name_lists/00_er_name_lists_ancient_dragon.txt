@@ -1,7 +1,7 @@
 name_list_ancient_dragon = {
 
 	dynasty_names = {
-		# Mogus
+		"Red" "Blue" "Black" "White" "Gray" "Green" "Cyan" "Purple" "Orange" "Crimson" "Yellow" "Brown" "Olive" "Maroon" "Violet" "Charcoal" "Magenta" "Bronze" "Silver" "Gold" "Platinum" "Teal" "Coral" "Mauve" #this is ass
 	}
 
 	male_names = {
@@ -18,7 +18,7 @@ name_list_ancient_dragon = {
 			Jurassax
 			Korssax
 			Lansseax Langssax
-			Morissax
+			Morissax Myvossax
 			Nogossax
 			Orossax
 			Pelissax
