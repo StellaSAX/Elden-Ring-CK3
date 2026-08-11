@@ -476,3 +476,77 @@ god_serpent_decision = {
 		base = 100
 	}
 }
+
+become_perfumer_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_pet_dog.dds"
+	}
+	desc = become_perfumer_decision_desc
+	selection_tooltip = become_perfumer_decision_tooltip
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 200
+		duchy = 200
+		kingdom = 200
+		empire = 200
+		hegemony = 200
+	}
+
+	cooldown = { years = 10 }
+
+	is_shown = {
+		OR = {
+			NOT = { has_trait = perfumer}
+			has_trait_xp = {
+				trait = perfumer
+				value < 100
+			}
+		}
+		OR = {
+			learning > 15
+			intrigue > 15
+		}
+		
+	}
+
+	is_valid_showing_failures_only = {
+		is_available = yes
+	}
+	
+	cost = {
+		gold = 500
+	}
+
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_trait = perfumer }
+			}
+			add_trait = perfumer
+		}
+		else = {
+			add_trait_xp = {
+				trait = gallowsbait
+				value = 25
+			}
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+
+		modifier = {
+			add = 10
+			learning > 15
+		}
+		modifier = {
+			add = 10
+			intrigue > 15
+		}
+	}
+}

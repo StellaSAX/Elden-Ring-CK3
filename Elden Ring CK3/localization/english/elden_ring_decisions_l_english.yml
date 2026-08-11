@@ -176,4 +176,9 @@
  no_lover_or_soulmate:0 "No Lover or Soulmate"
  have_more_than_0_piety:0 "More than 0 piety"
  
+ become_perfumer_decision:0 "Become Perfumer"
+ become_perfumer_decision_desc:0 "The duty of the perfumer is that of an apothecary, they learn the art of mixing spices and flower to heal the people's suffering.\n\nBut this knowledge could be used for nefarious ends like the creation of poisons and explosives."
+ become_perfumer_decision_tooltip:0 "Become Perfumer"
+ become_perfumer_decision_confirm:0 "Bring me books about perfumes"
+ 
  
