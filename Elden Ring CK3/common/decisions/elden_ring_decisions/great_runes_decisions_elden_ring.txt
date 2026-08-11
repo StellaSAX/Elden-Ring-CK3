@@ -1,6 +1,6 @@
 ﻿create_great_rune_decisions = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_legitimacy.dds"
+		reference = "gfx/interface/illustrations/decisions/decision_create_great_rune.dds"
 	}
 	sort_order = 10
 	decision_group_type = decisions
@@ -73,7 +73,7 @@ create_elden_ring_decisions = {
 		hegemony = 36
 	}
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/fp3/fp3_decision_foundation.dds"
+		reference = "gfx/interface/illustrations/decisions/decision_create_great_rune.dds"
 	}
 	sort_order = 10
 	decision_group_type = decisions

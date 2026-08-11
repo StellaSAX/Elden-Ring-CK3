@@ -1,6 +1,6 @@
 ﻿visit_roundtable_hold = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_legitimacy.dds"
+		reference = "gfx/interface/illustrations/decisions/decision_visit_roundtable_hold.dds"
 	}
 	decision_group_type = major
 	ai_check_interval_by_tier = {
@@ -45,7 +45,7 @@
 
 turning_runes_into_strength = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/hindu_religious.dds"
+		reference = "gfx/interface/illustrations/decisions/decision_levelup_runes.dds"
 	}
 	decision_group_type = major
 	ai_check_interval_by_tier = {

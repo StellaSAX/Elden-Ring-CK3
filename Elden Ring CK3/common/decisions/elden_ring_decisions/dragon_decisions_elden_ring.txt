@@ -1,7 +1,7 @@
 ﻿contact_dragon_elden_ring = {
 	ai_check_interval = 60
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+		reference = "gfx/interface/illustrations/decisions/decision_contact_dragon.dds"
 	}
 	sort_order = 10
 	decision_group_type = decisions
@@ -42,7 +42,7 @@
 
 hunt_lesser_dragon_elden_ring = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+		reference = "gfx/interface/illustrations/decisions/decision_hunt_lesser_dragon.dds"
 	}
 	desc = hunt_lesser_dragon_elden_ring_desc
 	selection_tooltip = hunt_lesser_dragon_elden_ring_tooltip

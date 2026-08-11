@@ -1,6 +1,6 @@
 ﻿wear_prosthesis_decision = {
     picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_smith.dds"
+		reference = "gfx/interface/illustrations/decisions/decision_prosthesis_arm.dds"
 	}
     desc = wear_prosthesis_decision_desc
 
@@ -35,7 +35,7 @@
 
 remove_prosthesis_decision = {
     picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_smith.dds"
+		reference = "gfx/interface/illustrations/decisions/decision_prosthesis_arm.dds"
 	}
     desc = remove_prosthesis_decision_desc
 
