@@ -479,7 +479,7 @@ god_serpent_decision = {
 
 become_perfumer_decision = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_pet_dog.dds"
+		reference = "gfx/interface/illustrations/decisions/decision_become_perfumer.dds"
 	}
 	desc = become_perfumer_decision_desc
 	selection_tooltip = become_perfumer_decision_tooltip
