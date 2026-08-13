@@ -1,0 +1,114 @@
+# WATERFALL
+entity = {
+	name = "waterfall"
+	scale = 1
+	locator = {
+		name = part1
+		position = { 0 0 0 }
+		rotation = { 0 90 0 }
+	}
+
+	default_state = "idle"
+	state = {
+		name = "idle"
+		state_time = 5
+		looping = no
+		event = {
+			time = 0
+			node = "part1"
+			particle = "waterfall"
+			trigger_once = yes
+			keep_particle = yes
+			skip_forward = 2
+		}
+	}
+	locator = { name = "temp" position = { 0 -10 0 } }
+}
+
+entity = {
+	name = "waterfall_bottom"
+	scale = 1
+	locator = {
+		name = part1
+		position = { 0 0 0 }
+		rotation = { 0 0 0 }
+	}
+
+	default_state = "idle"
+	state = {
+		name = "idle"
+		state_time = 5
+		looping = no
+		event = {
+			time = 0
+			node = "part1"
+			particle = "waterfall_bottom"
+			trigger_once = yes keep_particle = yes
+			skip_forward = 2
+		}
+	}
+	locator = { name = "temp" position = { 0 -10 0 } }
+}
+
+entity = {
+	name = "waterfall_shallow"
+	scale = 1
+	locator = {
+		name = part1
+		position = { 0 0 0 }
+		rotation = { 0 90 0 }
+	}
+
+	default_state = "idle"
+	state = {
+		name = "idle"
+		state_time = 5
+		looping = no
+		event = {
+			time = 0
+			node = "part1"
+			particle = "waterfall_shallow"
+			trigger_once = yes
+			keep_particle = yes
+			skip_forward = 2
+		}
+	}
+	locator = { name = "temp" position = { 0 -10 0 } }
+}
+
+# FLOATERS
+entity = {
+	name = "cerulean_petals"
+	locator = { name = part1 }
+	
+	default_state = "idle"
+	state = {
+		name = "idle"
+		state_time = 5
+		event = {
+			time = 0
+			node = "part1"
+			particle = "environment/cerulean_petals"
+			trigger_once = yes
+			skip_forward = 2
+		}
+	}
+}
+
+entity = {
+	name = "charo_petals"
+	locator = { name = part1 }
+	
+	default_state = "idle"
+	state = {
+		name = "idle"
+		state_time = 5
+		event = {
+			time = 0
+			node = "part1"
+			particle = "environment/leaves_m"
+			trigger_once = yes
+			skip_forward = 2
+		}
+	}
+}

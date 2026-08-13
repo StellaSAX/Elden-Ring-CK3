@@ -6,3 +6,21 @@
 	masks=""
 	visibility_tags=""
 }
+
+layer={
+	name="elden_ring_coast_foam_layer"
+	fade_in=0
+	fade_out=9
+	category=""
+	masks="medium|high"
+	visibility_tags=""
+}
+
+layer={
+	name="elden_ring_environmental_effects_layer"
+	fade_in=0
+	fade_out=9
+	category=""
+	masks="medium|high"
+	visibility_tags=""
+}

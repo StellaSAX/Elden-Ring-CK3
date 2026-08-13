@@ -1171,6 +1171,14 @@
 		mask     = "masks/cerulean_coast_01_mask.png"
 		id       = "cerulean_coast_01"
 	}
+	{
+		name     = "charo_hidden_grave_01"
+		diffuse  = "charo_hidden_grave_01_diffuse.dds"
+		normal   = "charo_hidden_grave_01_normal.dds"
+		material = "charo_hidden_grave_01_properties.dds"
+		mask     = "masks/charo_hidden_grave_01_mask.png"
+		id       = "charo_hidden_grave_01"
+	}
 }
 
 # unmasked textures

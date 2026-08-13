@@ -1,0 +1,20 @@
+pdxmesh = {
+	name = "charo_hidden_grave_pine_a_mesh"
+	file = "charo_hidden_grave_pine_a.mesh"
+
+	meshsettings = {
+		name = "tree_pine_01_aShape"
+		index = 0
+		texture_diffuse = "charo_hidden_grave_pine_diffuse.dds"
+		texture_normal = "charo_hidden_grave_pine_normal.dds"
+		texture_specular = "charo_hidden_grave_pine_properties.dds"
+		texture = { file = "charo_hidden_grave_pine_tint.dds" index = 3 srgb = yes }
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+}
+
+entity = {
+	name = "charo_hidden_grave_pine_a_entity"
+	pdxmesh = "charo_hidden_grave_pine_a_mesh"
+}

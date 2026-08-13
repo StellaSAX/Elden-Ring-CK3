@@ -146,6 +146,46 @@ posteffect_volume = {
 	posteffect_values_night = cerulean_coast
 
 	position = { 2870 0 500 }
-	size = { 300 2600 400 }
+	size = { 300 2600 350 }
 	fade_distance = 25.0
+}
+
+posteffect_values = {
+	name = gravesite_plain
+	inherit = standard
+	#lut = "gfx/map/post_effects/colorcorrection_cerulean_coast.tga"
+
+	#colorbalance = { 0.88 0.96 1.08 }
+	#colorbalance = { 2.47 1.93 1.42 }
+	#colorbalance = { 1.67 1.33 0.82 }
+
+	tonemap_middlegrey = 0.35
+	#saturation_scale = 0.8
+	#exposure = 1
+	#exposure = 1.5
+	#exposure = 0.75
+	#exposure = 0.8
+
+	#value_scale = 1.0
+	value_scale = 1.25
+	#value_scale = 2
+
+	#bloom_width = 1.90
+	#bloom_scale = 1.80
+	#bright_threshold = 1.0
+
+	fog_color = hsv { 0.06 0.2 1.00 }
+	fog_begin = 50
+	fog_end = 400
+}
+
+posteffect_volume = {
+	name = "gravesite_plain"
+	
+	posteffect_values_day = gravesite_plain
+	posteffect_values_night = gravesite_plain
+	
+	position = { 2800 0 950 }
+	size = { 400 2600 475 }
+	fade_distance =  25.0
 }

@@ -1,0 +1,23 @@
+﻿shadowland_pine_generator_3={
+	mask="shadowland_pine_c_mask"
+	layer="tree_high_layer"
+
+	meshes={
+		"shadowland_pine_c_mesh" = 1.000000
+	}
+
+	max_density=0.6
+	
+	density_curve={
+		{ x = 0.000000 y = 0.000000 }
+		{ x = 1.000000 y = 1.000000 }
+	}
+	scale_curve={
+		{ x = 1.000000 y = 0.6000 }
+	}
+	scale_fuzziness_curve={
+		{ x = 0.000000 y = 0.000000 }
+		{ x = 1.000000 y = 0.000000 }
+	}
+}
+
