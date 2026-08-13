@@ -1,7 +1,7 @@
 pdxmesh = {
 	name = "charo_hidden_grave_flowers_01_tall_grass_mesh"
 	file = "charo_hidden_grave_flowers_01_tall_grass.mesh"
-	scale = 0.4
+	scale = 0.3
 	
 	meshsettings = {
 		name = "charo_hidden_grave_flowers_01_tall_grass_pCylinderShape2"

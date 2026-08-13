@@ -1,7 +1,8 @@
 pdxmesh = {
 	name = "cerulean_grass_01_tall_grass_mesh"
 	file = "cerulean_grass_01_tall_grass.mesh"
-	scale = 0.4
+	scale = 0.3
+
 	meshsettings = {
 		name = "cerulean_grass_01_tall_grass_pCylinderShape2"
 		index = 0
