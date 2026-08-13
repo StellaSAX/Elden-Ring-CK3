@@ -1,0 +1,11 @@
+﻿#####################
+# Construction Time #
+#####################
+
+@super_slow_construction_time_base = 3650
+
+#############################
+# Construction Speed Values #
+#############################
+
+super_slow_construction_time = @[super_slow_construction_time_base]

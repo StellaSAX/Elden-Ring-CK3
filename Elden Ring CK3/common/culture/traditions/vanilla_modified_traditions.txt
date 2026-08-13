@@ -1,0 +1,113 @@
+﻿tradition_sorcerous_metallurgy = {
+	category = ritual
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = tools.dds
+	}
+
+	is_shown = {
+	}
+
+	can_pick = {
+		scope:character = {
+			faith = {
+				NOR = {
+					has_doctrine_parameter = witchcraft_illegal
+					has_doctrine_parameter = witchcraft_shunned
+				}
+			}
+		}
+	}
+
+	parameters = {
+		more_expensive_weapon_inspiration = yes
+		improved_weapon_inspiration = yes
+		building_barracks_piety_bonuses = yes
+		sorcerous_metallurgy_internal_yurt_unlock = yes
+		nomadic_metal_artifact_unlock = yes
+		tower_of_sorcery_buff = yes
+	}
+
+	character_modifier = {
+		prowess_per_piety_level = 2
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_spiritual_or_communal_desc
+				}
+			}
+			if = {
+				limit = {
+					trigger_if = {
+						limit = {
+							scope:character = {
+								is_ai = no
+							}
+						}
+						NOT = {
+							any_ruler = {
+								count >= 3
+								culture = prev
+								primary_title.tier >= tier_county
+								has_trait = witch
+							}
+						}
+					}
+					trigger_else = {
+						always = no
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = three_witch_rulers_desc
+				}
+			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_sorcerous_metallurgy }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					scope:character = {
+						has_trait = witch
+					}
+				}
+			}
+			multiply = 0.5
+		}
+		else = {
+			multiply = 8
+		}
+	}
+}
