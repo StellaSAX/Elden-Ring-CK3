@@ -299,7 +299,7 @@ elden_ring_artifact_events.0003 = { #st trina sword
 	
 	option = {
 		name = elden_ring_artifact_events.0003.a
-			create_artifact = {
+		create_artifact = {
 			name = WP_A_0230_name
 			description = WP_A_0230_description
 			visuals = WP_A_0230

@@ -1,7 +1,7 @@
 ﻿l_english:
 
  magic_education_visit_arrival_desc:0 "The road ends at the gates of a place built for study rather than war, and the guest of honor arrives to find its halls already busy with the quiet work of learning. The robed scholars and hooded penitents move between the towers and the cloisters, some bent over old texts, others murmuring the first faltering words of a discipline not yet mastered.\n\nA teacher of the place comes out to meet the new arrival, unhurried and evidently accustomed to receiving strangers at the gate. 'You have come a long way to learn what little we have to teach,' the teacher says. 'Whether you leave this place a sorcerer, a caster of incantations, or simply a more patient soul than the one who arrived, that will be decided by the season ahead and by how well you listen.'"
- 
+ scarlet_rot:0 "Scarlet Rot"
  roundtable_hold_decision_events.0001.t:0 "The Roundtable Hold"
  roundtable_hold_decision_events.0001.desc:0 "The Roundtable Hold, a place for tarnished to prepare for our grand mission, to become elden lord."
  roundtable_hold_decision_events.0001.a:0 "Talk to Leader"

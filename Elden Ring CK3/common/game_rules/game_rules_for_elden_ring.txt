@@ -9,3 +9,14 @@ elden_ring_special_regents_gamerule = {
 	special_regents_yes = {}
 	special_regents_no = {}
 }
+
+elden_ring_scarlet_rot_in_caelid = {
+	
+	categories = {
+		tweaks
+	}
+	
+	default = yes_scarlet_rot_in_caelid
+	yes_scarlet_rot_in_caelid = {}
+	no_scarlet_rot_in_caelid = {}
+}

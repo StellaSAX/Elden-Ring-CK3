@@ -31,3 +31,8 @@
  vanilla_eye_color_value_mhec:0 "Vanilla Color Value (MHEC)"
  eye_color_value_mhec:0 "Eye Color Value (MHEC)"
  
+ rule_elden_ring_scarlet_rot_in_caelid:0 "Scarlet Rot in Caelid"
+ setting_yes_scarlet_rot_in_caelid:0 "Yes"
+ setting_no_scarlet_rot_in_caelid:0 "No"
+ setting_yes_scarlet_rot_in_caelid_desc:0 "An epidemic of Scarlet Rot will appear in Caelid, making it close to unplayable."
+ setting_no_scarlet_rot_in_caelid_desc:0 "Caelid is normal, if a little red."

@@ -1,0 +1,203 @@
+﻿
+scarlet_rot = {
+	trait = scarlet_rot
+	color = { 200 12 31 }
+	priority = 3
+
+	shader_data = {
+		strength = 0.8
+		edge_fade = 0.25
+		tile_multiplier = 0.004702
+		texture_index = 0
+		channel = alpha
+	}
+
+	name = scarlet_rot
+	
+	on_start = {
+		
+		epidemic_outbreak_legitimacy_effect = { PROVINCE = root.outbreak_province }
+	}
+
+	on_monthly = {
+		#this thing will stay permanently, no reason to spam normal events, maybe make special events for living
+		# trigger_event = {
+			# on_action = epidemic_ongoing_events
+		# }
+	}
+
+	character_infection_chance = {
+		value = character_infection_chance_default_value
+		multiply = 0.02 #The only way we can make it not kill every single character in the game
+	}
+
+	can_infect_character = {
+		can_contract_disease_trigger = { DISEASE = scarlet_rot }
+		immune_to_epidemic = { EPIDEMIC = scope:epidemic }
+	}
+
+	on_character_infected = {
+		contract_disease_notify_effect = { DISEASE = scarlet_rot }
+	}
+
+	infection_levels = {
+		10 = {
+			province_modifier = {
+				monthly_county_control_decline_add = -0.1
+				supply_limit_mult = -0.2
+				county_opinion_add = -5
+				epidemic_travel_danger = 30
+				development_decline = -3
+			}
+		}
+		50 = {
+			province_modifier = {
+				monthly_county_control_decline_add = -0.1
+				supply_limit_mult = -0.2
+				county_opinion_add = -5
+				epidemic_travel_danger = 30
+				development_decline = -3
+			}	
+		}
+		80 = {
+			province_modifier = {
+				monthly_county_control_decline_add = -0.1
+				supply_limit_mult = -0.2
+				county_opinion_add = -5
+				epidemic_travel_danger = 30
+				development_decline = -3
+			}
+		}
+	}
+
+	outbreak_intensities = {
+		minor = {
+			outbreak_chance = {
+				value = outbreak_chance_minor_default_value
+				multiply = outbreak_chance_minor_mult_value
+				multiply = recent_epidemics_outbreak_mult_value
+				multiply = 0.0005 #should almost never be minor
+				if = {
+					limit = {
+						has_game_rule = epidemic_frequency_disabled
+					}
+					multiply = 0
+				}
+			}
+			spread_chance = {
+				value = spread_chance_epidemics_default_value
+				multiply = spread_chance_epidemics_mult_value
+			}
+			max_provinces = { 180 360 }
+
+			infection_duration = {
+				months = { 6 12 }
+			}
+
+			infection_progress_duration = {
+				days = { 40 60 }
+			}
+
+			infection_recovery_duration = {
+				days = { 25 35 }
+			}
+		}
+
+		major = {
+			outbreak_chance = {
+				value = outbreak_chance_major_default_value
+				multiply = outbreak_chance_major_mult_value
+				multiply = recent_epidemics_outbreak_mult_value
+				multiply = 0.005 #should almost never be major
+				if = {
+					limit = {
+						has_game_rule = epidemic_frequency_disabled
+					}
+					multiply = 0
+				}
+			}
+			spread_chance = {
+				value = spread_chance_epidemics_default_value
+				multiply = spread_chance_epidemics_mult_value
+			}
+
+			max_provinces = { 540 900 }
+
+			infection_duration = {
+				#months = { 12 24 }
+				years = { 100 101 }
+			}
+
+			infection_progress_duration = {
+				#days = { 25 35 }
+				years = { 100 101 }
+			}
+
+			infection_recovery_duration = {
+				#days = { 50 70 }
+				years = { 100 101 }
+			}
+		}
+
+		apocalyptic = { 
+		
+			outbreak_chance = 0
+			spread_chance = {
+				value = spread_chance_epidemics_default_value
+				multiply = spread_chance_epidemics_mult_value
+
+				if = {
+					limit = {
+						NOT = { geographical_region = world_caelid }
+					}
+					multiply = 0
+				}
+				if = {
+					limit = {
+						province = 1525
+					}
+					multiply = 10
+				}
+			}
+			max_provinces = { 300 400 }
+
+			infection_duration = {
+				years = { 1000 1001 }
+			}
+			
+			infection_progress_duration = {
+				#days = { 5 9 }
+				years = { 100 101 }
+			}
+
+			infection_recovery_duration = {
+				years = { 100 101 }
+			}
+		}
+	}
+	
+	
+	on_province_infected = {
+		county = {
+			apply_infection_development_loss = { BASE = 5 }
+		}
+		#cant_touch_this_achievement_effect = yes
+	}
+	
+	on_province_recovered = {
+		county = {
+			remove_isolated_capital_modifiers_effect = yes
+		}
+		add_to_variable_list = {
+			name = epidemic_cooldown
+			target = scope:epidemic.epidemic_type
+			years = 50
+		}
+		set_variable = {
+			name = epidemic_cooldown_general
+			years = 15
+		}
+		# Prosperity event
+		plague_recovery_event_effect = yes
+	}
+}

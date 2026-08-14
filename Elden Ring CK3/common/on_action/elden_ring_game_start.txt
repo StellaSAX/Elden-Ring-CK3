@@ -22,7 +22,7 @@ on_game_start_after_lobby = {
 		on_action_make_everyone_immortal_at_start
 		on_action_give_splendor_and_remove_points
 		#on_action_place_scarlet_rot_on_caelid
-		#on_action_add_scarlet_rot_caelid
+		on_action_add_scarlet_rot_caelid
 	}
 }
 
@@ -165,13 +165,18 @@ on_action_give_splendor_and_remove_points = {
 	# }
 # } 
 
-# on_action_add_scarlet_rot_caelid = {
-	# effect = {
-		# province:728 = {
-			# create_epidemic_outbreak = {
-				# type = scarlet_rot
-				# intensity = apocalyptic
-			# }
-		# }
-	# }
-# }
+on_action_add_scarlet_rot_caelid = {
+	effect = {
+		if = {
+			limit = {
+				has_game_rule = yes_scarlet_rot_in_caelid
+			}
+			province:1525 = {
+				create_epidemic_outbreak = {
+					type = scarlet_rot
+					intensity = apocalyptic
+				}
+			}
+		}
+	}
+}
