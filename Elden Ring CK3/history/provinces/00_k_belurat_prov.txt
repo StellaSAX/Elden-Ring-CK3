@@ -386,6 +386,132 @@
 }
 
 
+### c_R71G195B29
+# R17G97B116
+2131 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = castle_holding
+}
+# R162G36B23
+333 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+# R74G179B234
+1775 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+# R214G165B184
+1677 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+# R198G149B246
+1562 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R139G243B203
+# R241G232B101
+182 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = castle_holding
+}
+# R114G3B234
+565 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+# R160G38B150
+106 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+# R243G206B24
+1726 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+# R0G196B27
+1432 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R114G175B171
+# R119G137B126
+638 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = castle_holding
+}
+# R69G125B217
+1747 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+# R75G51B118
+792 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+# R42G184B54
+1897 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_R251G197B171
+# R109G136B171
+1040 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = castle_holding
+}
+# R202G45B237
+2267 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+# R186G15B225
+698 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+# R7G23B182
+1120 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+# R8G205B24
+1797 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+
+
 ##### d_cliffroad_terminus ############################
 
 ### c_R83G49B198
@@ -523,194 +649,30 @@
 }
 
 
-##### d_charo_grave ############################
-
-### c_R251G197B171
-# R109G136B171
-1040 = {
-	culture = cul_shadowlander
+### c_R50G159B159
+# R38G89B87
+1769 = {
+	culture = cul_cerulean
+	religion = faith_golden
+	holding = none
+}
+# R192G225B77
+1538 = {
+	culture = cul_cerulean
+	religion = faith_golden
+	holding = none
+}
+# R160G141B71
+1682 = {
+	culture = cul_cerulean
+	religion = faith_golden
+	holding = none
+}
+# R144G235B220
+537 = {
+	culture = cul_cerulean
 	religion = faith_golden
 	holding = castle_holding
-}
-# R202G45B237
-2267 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-# R186G15B225
-698 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-# R7G23B182
-1120 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-
-
-### c_R98G80B141
-# R60G112B240
-2256 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = castle_holding
-}
-# R46G150B76
-2491 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-# R8G205B24
-1797 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-# R161G118B240
-848 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-
-
-### c_R244G148B165
-# R193G130B105
-555 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = castle_holding
-}
-# R10G24B156
-86 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-# R9G238B157
-94 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = castle_holding
-}
-# R73G101B69
-679 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = castle_holding
-}
-
-
-### c_R248G253B132
-# R57G173B118
-2305 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = castle_holding
-}
-# R157G118B34
-2323 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-# R6G39B236
-1107 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-# R180G37B227
-1329 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-
-
-### c_R77G209B51
-# R101G168B248
-2273 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = castle_holding
-}
-# R248G114B33
-188 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-# R0G196B27
-1432 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-
-
-### c_R139G243B203
-# R241G232B101
-182 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = castle_holding
-}
-# R114G3B234
-565 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-# R160G38B150
-106 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-# R243G206B24
-1726 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-
-
-### c_R71G195B29
-# R17G97B116
-2131 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = castle_holding
-}
-# R162G36B23
-333 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-# R74G179B234
-1775 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-# R214G165B184
-1677 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-# R198G149B246
-1562 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
 }
 
 
@@ -737,33 +699,6 @@
 }
 # R144G117B212
 2278 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-
-
-### c_R114G175B171
-# R119G137B126
-638 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = castle_holding
-}
-# R69G125B217
-1747 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-# R75G51B118
-792 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = none
-}
-# R42G184B54
-1897 = {
 	culture = cul_shadowlander
 	religion = faith_golden
 	holding = none
