@@ -1,0 +1,20 @@
+pdxmesh = {
+	name = "suppressing_pillar_mesh"
+	file = "suppressing_pillar.mesh"
+	scale = 1.0
+
+	meshsettings = {
+		name = "suppressing_pillarShape"
+		index = 0
+		texture_diffuse = "suppressing_pillar_diffuse.dds"
+		texture_normal = "suppressing_pillar_normal.dds"
+		texture_specular = "suppressing_pillar_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "suppressing_pillar_entity"
+	pdxmesh = "suppressing_pillar_mesh"
+}
