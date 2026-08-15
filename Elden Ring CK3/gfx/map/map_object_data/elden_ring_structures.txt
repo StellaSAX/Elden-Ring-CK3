@@ -1,0 +1,10 @@
+﻿object={
+	name="suppressing_pillar"
+	render_pass=Map
+	clamp_to_water_level=no
+	generated_content=no
+	layer="elden_ring_structures_layer"
+	pdxmesh="suppressing_pillar_mesh"
+	count=1
+	transform="2876.471436 0.648193 877.120911 0.000000 -0.988133 0.000000 -0.153599 0.1 0.1 0.1
+"}

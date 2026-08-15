@@ -9,7 +9,7 @@ pdxmesh = {
 		texture_diffuse = "suppressing_pillar_diffuse.dds"
 		texture_normal = "suppressing_pillar_normal.dds"
 		texture_specular = "suppressing_pillar_properties.dds"
-		shader = "standard_winter"
+		shader = "standard"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 }
