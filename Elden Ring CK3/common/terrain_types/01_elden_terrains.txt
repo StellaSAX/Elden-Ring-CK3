@@ -17,6 +17,7 @@ bog_poison = {
 		attrition_mult = 0.9
 		tax_mult = -0.7
 		levy_size = -0.9
+		building_slot_add = -2
 	}
 
 	county_capital_modifier = {
@@ -52,6 +53,7 @@ scarlet_swamp = {
 		attrition_mult = 1.0
 		tax_mult = -0.9
 		levy_size = -0.9
+		building_slot_add = -2
 	}
 
 	county_capital_modifier = {
@@ -87,6 +89,7 @@ lava_lake = {
 		attrition_mult = 1.0
 		tax_mult = -0.95
 		levy_size = -0.95
+		building_slot_add = -2
 	}
 
 	county_capital_modifier = {
@@ -146,6 +149,7 @@ narrow_path = {
 		attrition_mult = 0.2
 		tax_mult = -0.35
 		levy_size = -0.75
+		building_slot_add = -2
 	}
 
 	county_capital_modifier = {
@@ -156,4 +160,70 @@ narrow_path = {
 	combat_width = 0.1
 	
 	audio_parameter = 3.0
+}
+
+### VANILLA MODIFIED ###
+
+mountains = {
+	color = hsv { 0 0 0.392 }
+	travel_danger_color = hsv { 0 0 0.392 }
+	travel_danger_score = mountains_danger_value
+	provision_cost = @provisions_cost_extreme
+	county_fertility = 15
+	
+	province_modifier = {
+		supply_limit_mult = -0.5
+		travel_danger = mountains_danger_value
+		county_fertility_growth_add = mountains_county_fertility_value
+		building_slot_add = -1
+	}
+
+	county_capital_modifier = {
+		development_growth_factor = -0.25
+	}
+	
+	defender_combat_effects = {
+		name = combat_mountain
+		image = combat_mountain
+		advantage = 12
+	}
+	
+	movement_speed = 0.5
+	combat_width = 0.5
+	
+	audio_parameter = 6.0
+}
+
+desert_mountains = {
+	color = hsv { 0.7 0.5 0.15 }
+	travel_danger_color = hsv { 0 0 0.392 }
+	travel_danger_score = desert_mountains_danger_value
+	provision_cost = @provisions_cost_extreme
+	county_fertility = 20
+	
+	province_modifier = {
+		supply_limit_mult = -0.6
+		travel_danger = desert_mountains_danger_value
+		county_fertility_growth_add = desert_mountains_county_fertility_value
+		building_slot_add = -1
+	}
+
+	county_capital_modifier = {
+		development_growth_factor = -0.5
+	}
+	
+	defender_combat_effects = {
+		name = combat_desert_mountains
+		image = defender_desert_mountains
+		advantage = 12
+	}
+	
+	defender_modifier = {
+		retreat_losses = -0.3
+	}
+	
+	movement_speed = 0.5
+	combat_width = 0.5
+	
+	audio_parameter = 7.0
 }

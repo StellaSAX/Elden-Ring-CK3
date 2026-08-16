@@ -42,21 +42,6 @@
 }
 
 
-### c_R10G64B120
-# R127G60B32
-2181 = {
-	culture = cul_cerulean
-	religion = faith_golden
-	holding = castle_holding
-}
-# R1G115B45
-2206 = {
-	culture = cul_cerulean
-	religion = faith_golden
-	holding = none
-}
-
-
 ### c_R224G176B24
 # R181G111B18
 2243 = {
@@ -72,6 +57,12 @@
 }
 # R15G126B11
 176 = {
+	culture = cul_cerulean
+	religion = faith_golden
+	holding = none
+}
+# R127G60B32
+2181 = {
 	culture = cul_cerulean
 	religion = faith_golden
 	holding = none

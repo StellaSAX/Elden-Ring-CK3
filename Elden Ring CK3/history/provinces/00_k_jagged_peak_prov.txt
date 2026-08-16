@@ -109,23 +109,23 @@
 
 
 ### c_R93G113B140
-# R163G26B225
-41 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = castle_holding
-}
 # R57G149B213
 726 = {
 	culture = cul_jagged
 	religion = faith_bayle_dragon
 	holding = none
 }
-# R149G168B50
-300 = {
+# R8G245B205
+676 = {
 	culture = cul_jagged
 	religion = faith_bayle_dragon
-	holding = castle_holding
+	holding = none
+}
+# R1G164B3
+2367 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
 }
 
 
@@ -147,6 +147,12 @@
 	culture = cul_jagged
 	religion = faith_bayle_dragon
 	holding = castle_holding
+}
+# R231G212B86
+1908 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
 }
 
 
@@ -176,12 +182,6 @@
 	culture = cul_jagged
 	religion = faith_bayle_dragon
 	holding = none
-}
-# R217G25B73
-667 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = castle_holding
 }
 
 
@@ -264,12 +264,6 @@
 	religion = faith_bayle_dragon
 	holding = castle_holding
 }
-# R14G146B127
-179 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
 
 
 ### c_R191G81B42
@@ -281,12 +275,6 @@
 }
 # R249G111B50
 2289 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R14G61B125
-2342 = {
 	culture = cul_jagged
 	religion = faith_bayle_dragon
 	holding = none
@@ -396,12 +384,6 @@
 	religion = faith_bayle_dragon
 	holding = none
 }
-# R238G99B192
-118 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
 # R223G152B147
 600 = {
 	culture = cul_jagged
@@ -491,6 +473,12 @@
 	religion = faith_bayle_dragon
 	holding = none
 }
+# R61G124B94
+2312 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
 
 
 ### c_R254G115B179
@@ -527,20 +515,8 @@
 
 
 ### c_R117G234B127
-# R32G199B197
-737 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = castle_holding
-}
 # R91G208B205
 845 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R179G129B35
-833 = {
 	culture = cul_jagged
 	religion = faith_bayle_dragon
 	holding = none
@@ -549,39 +525,6 @@
 
 ##### d_jagged_foot ############################
 
-### c_R167G144B135
-# R51G184B121
-1116 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = castle_holding
-}
-# R231G212B86
-1908 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R98G55B84
-2103 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R243G9B88
-160 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R241G255B249
-623 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-
-
 ### c_R109G242B113
 # R119G131B95
 331 = {
@@ -589,20 +532,8 @@
 	religion = faith_bayle_dragon
 	holding = castle_holding
 }
-# R1G164B3
-2367 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
 # R81G89B54
 1945 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R8G245B205
-676 = {
 	culture = cul_jagged
 	religion = faith_bayle_dragon
 	holding = none

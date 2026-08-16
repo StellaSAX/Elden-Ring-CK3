@@ -153,12 +153,6 @@
 	religion = faith_golden
 	holding = none
 }
-# R179G84B31
-280 = {
-	culture = cul_charolean
-	religion = faith_golden
-	holding = none
-}
 
 
 ### c_R57G212B153
