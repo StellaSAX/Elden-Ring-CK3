@@ -572,32 +572,32 @@
 ### c_R78G159B103
 # R188G42B91
 1507 = {
-	culture = cul_hornsent
-	religion = faith_golden
+	culture = cul_jagged
+	religion = faith_bayle_dragon
 	holding = castle_holding
 }
 # R221G154B131
 206 = {
-	culture = cul_hornsent
-	religion = faith_golden
+	culture = cul_jagged
+	religion = faith_bayle_dragon
 	holding = castle_holding
 }
 # R134G81B143
 910 = {
-	culture = cul_hornsent
-	religion = faith_golden
+	culture = cul_jagged
+	religion = faith_bayle_dragon
 	holding = none
 }
 # R34G62B122
 2464 = {
-	culture = cul_hornsent
-	religion = faith_golden
+	culture = cul_jagged
+	religion = faith_bayle_dragon
 	holding = none
 }
 # R89G220B75
 1035 = {
-	culture = cul_hornsent
-	religion = faith_golden
+	culture = cul_jagged
+	religion = faith_bayle_dragon
 	holding = castle_holding
 }
 
@@ -605,32 +605,32 @@
 ### c_R161G155B84
 # R43G96B181
 251 = {
-	culture = cul_hornsent
-	religion = faith_golden
+	culture = cul_jagged
+	religion = faith_bayle_dragon
 	holding = castle_holding
 }
 # R10G96B197
 1239 = {
-	culture = cul_hornsent
-	religion = faith_golden
+	culture = cul_jagged
+	religion = faith_bayle_dragon
 	holding = none
 }
 # R52G194B5
 949 = {
-	culture = cul_hornsent
-	religion = faith_golden
+	culture = cul_jagged
+	religion = faith_bayle_dragon
 	holding = none
 }
 # R105G49B140
 2466 = {
-	culture = cul_hornsent
-	religion = faith_golden
+	culture = cul_jagged
+	religion = faith_bayle_dragon
 	holding = none
 }
 # R60G112B240
 2256 = {
-	culture = cul_shadowlander
-	religion = faith_golden
+	culture = cul_jagged
+	religion = faith_bayle_dragon
 	holding = castle_holding
 }
 
@@ -638,14 +638,14 @@
 ### c_R185G248B196
 # R191G161B186
 1193 = {
-	culture = cul_hornsent
-	religion = faith_golden
+	culture = cul_jagged
+	religion = faith_bayle_dragon
 	holding = castle_holding
 }
 # R48G68B143
 111 = {
-	culture = cul_hornsent
-	religion = faith_golden
+	culture = cul_jagged
+	religion = faith_bayle_dragon
 	holding = none
 }
 

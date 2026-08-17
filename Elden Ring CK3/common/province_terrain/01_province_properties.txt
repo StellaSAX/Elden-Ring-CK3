@@ -3212,3 +3212,14 @@
 3210 = { winter_severity_bias = 0.54 }
 3211 = { winter_severity_bias = 0.54 }
 3212 = { winter_severity_bias = 0.54 }
+3213 = { winter_severity_bias = 0.54 }
+3214 = { winter_severity_bias = 0.54 }
+3215 = { winter_severity_bias = 0.54 }
+3216 = { winter_severity_bias = 0.54 }
+3217 = { winter_severity_bias = 0.54 }
+3218 = { winter_severity_bias = 0.54 }
+3219 = { winter_severity_bias = 0.54 }
+3220 = { winter_severity_bias = 0.54 }
+3221 = { winter_severity_bias = 0.54 }
+3222 = { winter_severity_bias = 0.54 }
+3223 = { winter_severity_bias = 0.54 }
