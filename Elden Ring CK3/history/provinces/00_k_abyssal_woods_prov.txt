@@ -177,12 +177,6 @@
 	religion = faith_golden
 	holding = none
 }
-# R255G106B63
-1048 = {
-	culture = cul_hornsent
-	religion = faith_golden
-	holding = none
-}
 # R27G239B178
 1936 = {
 	culture = cul_hornsent
@@ -275,12 +269,6 @@
 ### c_R161G210B199
 # R144G14B157
 344 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R43G164B6
-1504 = {
 	culture = cul_jagged
 	religion = faith_bayle_dragon
 	holding = none
