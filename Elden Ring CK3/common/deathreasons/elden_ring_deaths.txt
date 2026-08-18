@@ -13,5 +13,9 @@ death_consumed_by_serpent = {
 
 death_grafted = {
 	public_knowledge = yes
-	icon = "death_murder.dds"
+	icon = "death_grafted.dds"
+}
+
+death_black_knives = {
+	icon = "death_black_knives.dds"
 }

@@ -6,3 +6,4 @@ elden_ring_tree = { priority = 10 }
 elden_ring_giantskeleton = { priority = 10 }
 elden_ring_aeonia = { priority = 10 }
 elden_ring_scadutree = { priority = 10 }
+elden_ring_black_knives = { priority = 10 }
