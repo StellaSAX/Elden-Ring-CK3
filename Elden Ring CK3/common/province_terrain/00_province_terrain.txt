@@ -2666,3 +2666,4 @@ default_coastal_sea=coastal_sea
 3230=plains
 3231=plains
 3232=plains
+3234=plains

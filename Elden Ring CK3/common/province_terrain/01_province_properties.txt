@@ -3232,3 +3232,5 @@
 3230 = { winter_severity_bias = 0.54 }
 3231 = { winter_severity_bias = 0.54 }
 3232 = { winter_severity_bias = 0.54 }
+3233 = { winter_severity_bias = 0.54 }
+3234 = { winter_severity_bias = 0.54 }

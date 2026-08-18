@@ -4736,6 +4736,11 @@ e_land_shadows = {
 					color = { 47 250 69 }
 					province = 1685
 				}
+
+				b_gravesite_new_27 = {
+					color = { 163 148 70 }
+					province = 3234
+				}
 			}
 
 			c_R155G250B223 = {
