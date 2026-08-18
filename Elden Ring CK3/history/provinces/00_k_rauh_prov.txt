@@ -344,11 +344,17 @@
 ##### d_taylew ############################
 
 ### c_R248G141B40
+# R46G255B67
+2034 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = castle_holding
+}
 # R219G116B178
 1662 = {
 	culture = cul_shadowlander
 	religion = faith_golden
-	holding = castle_holding
+	holding = none
 }
 # R193G54B63
 1631 = {
@@ -356,14 +362,14 @@
 	religion = faith_golden
 	holding = none
 }
-# R46G255B67
-2034 = {
+# ruins_base_17
+3229 = {
 	culture = cul_shadowlander
 	religion = faith_golden
 	holding = none
 }
-# R40G137B175
-1001 = {
+# ruins_base_18
+3230 = {
 	culture = cul_shadowlander
 	religion = faith_golden
 	holding = none
@@ -401,20 +407,26 @@
 	religion = faith_golden
 	holding = none
 }
+# ruins_base_19
+3231 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+# ruins_base_20
+3232 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
 
 
 ### c_R25G109B201
-# R16G232B173
-151 = {
-	culture = cul_shadowlander
-	religion = faith_golden
-	holding = castle_holding
-}
 # R200G110B99
 1819 = {
 	culture = cul_shadowlander
 	religion = faith_golden
-	holding = none
+	holding = castle_holding
 }
 # R45G129B231
 308 = {
@@ -424,6 +436,39 @@
 }
 # R138G243B144
 539 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+# ruins_base_14
+3226 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+
+
+### c_tayjew
+# ruins_base_16
+3228 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = castle_holding
+}
+# ruins_base_15
+3227 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+# R16G232B173
+151 = {
+	culture = cul_shadowlander
+	religion = faith_golden
+	holding = none
+}
+# R40G137B175
+1001 = {
 	culture = cul_shadowlander
 	religion = faith_golden
 	holding = none

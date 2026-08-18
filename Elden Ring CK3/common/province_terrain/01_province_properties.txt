@@ -3223,3 +3223,12 @@
 3221 = { winter_severity_bias = 0.54 }
 3222 = { winter_severity_bias = 0.54 }
 3223 = { winter_severity_bias = 0.54 }
+3224 = { winter_severity_bias = 0.54 }
+3225 = { winter_severity_bias = 0.54 }
+3226 = { winter_severity_bias = 0.54 }
+3227 = { winter_severity_bias = 0.54 }
+3228 = { winter_severity_bias = 0.54 }
+3229 = { winter_severity_bias = 0.54 }
+3230 = { winter_severity_bias = 0.54 }
+3231 = { winter_severity_bias = 0.54 }
+3232 = { winter_severity_bias = 0.54 }
