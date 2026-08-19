@@ -358,6 +358,7 @@
  rf_shaman:0 "Shaman"
  rf_badlands:0 "Badlands"
  rf_reedlands:0 "Reedlands"
+ rf_destined_death:0 "Destined Death"
  
  doctrine_grafting_type_name:0 "Grafting"
  doctrine_omen_type_name:0 "Omen"
