@@ -2389,19 +2389,14 @@ e_land_shadows = {
 					color = { 204 19 40 }
 					province = 145
 				}
-
-				b_R111G185B125 = {
-					color = { 130 23 61 }
-					province = 1070
-				}
 			}
 
 			c_R83G95B35 = {
 				color = { 83 95 35 }
 
-				b_R111G180B229 = {
-					color = { 83 95 35 }
-					province = 1473
+				b_R239G12B110 = {
+					color = { 187 51 238 }
+					province = 2026
 				}
 
 				b_R66G54B67 = {
@@ -2414,19 +2409,24 @@ e_land_shadows = {
 					province = 2271
 				}
 
-				b_R33G242B73 = {
-					color = { 37 240 148 }
-					province = 1150
+				b_R239G187B71 = {
+					color = { 181 127 130 }
+					province = 30
 				}
 
-				b_R73G70B195 = {
-					color = { 254 115 179 }
-					province = 1451
+				b_R148G171B81 = {
+					color = { 55 187 173 }
+					province = 628
 				}
 			}
 
 			c_R94G187B165 = {
 				color = { 94 187 165 }
+
+				b_R124G127B88 = {
+					color = { 120 208 88 }
+					province = 1944
+				}
 
 				b_R33G56B76 = {
 					color = { 94 187 165 }
@@ -2438,21 +2438,6 @@ e_land_shadows = {
 					province = 454
 				}
 
-				b_R72G209B224 = {
-					color = { 36 79 117 }
-					province = 2274
-				}
-
-				b_R84G216B31 = {
-					color = { 74 26 161 }
-					province = 1699
-				}
-
-				b_R124G127B88 = {
-					color = { 120 208 88 }
-					province = 1944
-				}
-
 				b_R184G27B128 = {
 					color = { 60 64 148 }
 					province = 605
@@ -2461,30 +2446,6 @@ e_land_shadows = {
 				b_R225G96B250 = {
 					color = { 165 51 157 }
 					province = 139
-				}
-			}
-
-			c_R225G54B2 = {
-				color = { 225 54 2 }
-
-				b_R168G120B57 = {
-					color = { 225 54 2 }
-					province = 1800
-				}
-
-				b_R20G246B123 = {
-					color = { 196 186 146 }
-					province = 166
-				}
-
-				b_R239G187B71 = {
-					color = { 181 127 130 }
-					province = 30
-				}
-
-				b_R148G171B81 = {
-					color = { 55 187 173 }
-					province = 628
 				}
 			}
 
@@ -2545,28 +2506,38 @@ e_land_shadows = {
 			c_R122G21B167 = {
 				color = { 122 21 167 }
 
-				b_R64G98B144 = {
-					color = { 181 105 70 }
-					province = 1201
-				}
-
 				b_R18G45B69 = {
 					color = { 154 194 71 }
 					province = 660
+				}
+
+				b_R64G98B144 = {
+					color = { 181 105 70 }
+					province = 1201
 				}
 
 				b_R73G8B117 = {
 					color = { 4 147 223 }
 					province = 2419
 				}
+
+				b_scadu_altus_new_11 = {
+					color = { 205 101 83 }
+					province = 3246
+				}
+
+				b_scadu_altus_new_14 = {
+					color = { 159 161 64 }
+					province = 3249
+				}
 			}
 
 			c_R107G91B167 = {
 				color = { 107 91 167 }
 
-				b_R218G39B115 = {
-					color = { 85 18 155 }
-					province = 776
+				b_R60G153B222 = {
+					color = { 178 190 4 }
+					province = 1241
 				}
 
 				b_R221G135B187 = {
@@ -2574,29 +2545,119 @@ e_land_shadows = {
 					province = 92
 				}
 
-				b_R234G115B183 = {
-					color = { 5 50 153 }
-					province = 671
-				}
-
-				b_R60G153B222 = {
-					color = { 178 190 4 }
-					province = 1241
-				}
-
 				b_R98G53B247 = {
 					color = { 157 115 54 }
 					province = 1482
+				}
+
+				b_R111G180B229 = {
+					color = { 83 95 35 }
+					province = 1473
+				}
+			}
+
+			c_icanseeensus = {
+				color = { 100 126 129 }
+
+				b_scadu_altus_new_1 = {
+					color = { 174 212 58 }
+					province = 3236
+				}
+
+				b_scadu_altus_new_2 = {
+					color = { 175 115 240 }
+					province = 3237
+				}
+
+				b_scadu_altus_new_3 = {
+					color = { 87 151 229 }
+					province = 3238
+				}
+
+				b_scadu_altus_new_4 = {
+					color = { 226 109 87 }
+					province = 3239
+				}
+			}
+
+			c_rotund = {
+				color = { 184 81 81 }
+
+				b_R202G57B201 = {
+					color = { 55 13 112 }
+					province = 1643
 				}
 
 				b_R124G72B139 = {
 					color = { 201 54 135 }
 					province = 2454
 				}
+			}
 
-				b_R202G57B201 = {
-					color = { 55 13 112 }
-					province = 1643
+			c_loltus_hill = {
+				color = { 66 154 75 }
+
+				b_R218G39B115 = {
+					color = { 85 18 155 }
+					province = 776
+				}
+
+				b_scadu_altus_new_13 = {
+					color = { 229 196 97 }
+					province = 3248
+				}
+
+				b_R234G115B183 = {
+					color = { 5 50 153 }
+					province = 671
+				}
+
+				b_scadu_altus_new_12 = {
+					color = { 121 192 179 }
+					province = 3247
+				}
+			}
+
+			c_hillsus = {
+				color = { 192 220 118 }
+
+				b_R111G185B125 = {
+					color = { 130 23 61 }
+					province = 1070
+				}
+
+				b_scadu_altus_new_5 = {
+					color = { 108 30 157 }
+					province = 3240
+				}
+
+				b_R84G216B31 = {
+					color = { 74 26 161 }
+					province = 1699
+				}
+			}
+
+			c_mountus = {
+				color = { 93 205 177 }
+
+				b_scadu_altus_new_10 = {
+					color = { 51 93 220 }
+					province = 3245
+				}
+
+				b_R73G70B195 = {
+					color = { 254 115 179 }
+					province = 1451
+				}
+
+				b_R33G242B73 = {
+					color = { 37 240 148 }
+					province = 1150
+				}
+
+				b_R72G209B224 = {
+					color = { 36 79 117 }
+					province = 2274
 				}
 			}
 		}
@@ -2684,7 +2745,7 @@ e_land_shadows = {
 
 		d_moorth = {
 			color = { 141 121 0 }
-			capital = c_R220G165B16
+			capital = c_reprimand
 
 			c_R220G165B16 = {
 				color = { 220 165 16 }
@@ -2694,38 +2755,28 @@ e_land_shadows = {
 					province = 782
 				}
 
-				b_R47G14B67 = {
-					color = { 127 10 82 }
-					province = 2106
-				}
-
 				b_R89G77B7 = {
 					color = { 3 189 223 }
 					province = 2180
 				}
 
-				b_R121G123B96 = {
-					color = { 15 37 249 }
-					province = 1688
+				b_scadu_altus_new_15 = {
+					color = { 179 51 86 }
+					province = 3250
 				}
 
-				b_R55G111B178 = {
-					color = { 188 62 36 }
-					province = 442
+				b_scadu_altus_new_16 = {
+					color = { 150 175 130 }
+					province = 3251
 				}
 			}
 
 			c_R108G10B193 = {
 				color = { 108 10 193 }
 
-				b_R215G227B154 = {
-					color = { 108 10 193 }
-					province = 368
-				}
-
-				b_R167G128B208 = {
-					color = { 252 203 224 }
-					province = 1926
+				b_R226G184B20 = {
+					color = { 24 98 252 }
+					province = 2376
 				}
 
 				b_R2G101B38 = {
@@ -2733,23 +2784,23 @@ e_land_shadows = {
 					province = 1934
 				}
 
-				b_R163G75B166 = {
-					color = { 52 161 47 }
-					province = 1454
-				}
-
 				b_R14G56B10 = {
 					color = { 139 134 68 }
 					province = 1298
+				}
+
+				b_R106G119B6 = {
+					color = { 140 70 12 }
+					province = 1282
 				}
 			}
 
 			c_R130G210B42 = {
 				color = { 130 210 42 }
 
-				b_R22G23B50 = {
-					color = { 76 62 214 }
-					province = 1243
+				b_R196G186B35 = {
+					color = { 218 183 139 }
+					province = 2379
 				}
 
 				b_R117G181B223 = {
@@ -2757,18 +2808,18 @@ e_land_shadows = {
 					province = 1235
 				}
 
-				b_R196G186B35 = {
-					color = { 218 183 139 }
-					province = 2379
+				b_scadu_altus_new_17 = {
+					color = { 60 126 130 }
+					province = 3252
 				}
 			}
 
 			c_R70G153B91 = {
 				color = { 70 153 91 }
 
-				b_R223G12B150 = {
-					color = { 70 153 91 }
-					province = 1047
+				b_R192G11B176 = {
+					color = { 162 149 183 }
+					province = 1436
 				}
 
 				b_R55G176B35 = {
@@ -2776,62 +2827,42 @@ e_land_shadows = {
 					province = 2127
 				}
 
-				b_R57G77B101 = {
-					color = { 255 218 119 }
-					province = 1188
-				}
-
 				b_R50G196B68 = {
 					color = { 255 44 24 }
 					province = 1365
-				}
-
-				b_R40G85B27 = {
-					color = { 132 124 23 }
-					province = 656
-				}
-
-				b_R10G215B47 = {
-					color = { 54 252 133 }
-					province = 1338
 				}
 			}
 
 			c_R24G98B252 = {
 				color = { 24 98 252 }
 
-				b_R226G184B20 = {
-					color = { 24 98 252 }
-					province = 2376
-				}
-
-				b_R106G119B6 = {
-					color = { 140 70 12 }
-					province = 1282
-				}
-
-				b_R192G11B176 = {
-					color = { 162 149 183 }
-					province = 1436
+				b_R55G111B178 = {
+					color = { 188 62 36 }
+					province = 442
 				}
 			}
 
 			c_R118G227B206 = {
 				color = { 118 227 206 }
 
+				b_scadu_altus_new_8 = {
+					color = { 220 231 80 }
+					province = 3243
+				}
+
 				b_R103G222B240 = {
 					color = { 107 91 167 }
 					province = 2037
-				}
-
-				b_R239G12B110 = {
-					color = { 187 51 238 }
-					province = 2026
 				}
 			}
 
 			c_R209G36B126 = {
 				color = { 209 36 126 }
+
+				b_R181G176B231 = {
+					color = { 20 46 152 }
+					province = 186
+				}
 
 				b_R18G201B182 = {
 					color = { 209 36 126 }
@@ -2848,9 +2879,9 @@ e_land_shadows = {
 					province = 1396
 				}
 
-				b_R181G176B231 = {
-					color = { 20 46 152 }
-					province = 186
+				b_R57G77B101 = {
+					color = { 255 218 119 }
+					province = 1188
 				}
 			}
 
@@ -2860,6 +2891,87 @@ e_land_shadows = {
 				b_R240G102B77 = {
 					color = { 118 221 82 }
 					province = 1923
+				}
+			}
+
+			c_reprimand = {
+				color = { 109 132 0 }
+
+				b_R121G123B96 = {
+					color = { 15 37 249 }
+					province = 1688
+				}
+
+				b_R47G14B67 = {
+					color = { 127 10 82 }
+					province = 2106
+				}
+
+				b_R215G227B154 = {
+					color = { 108 10 193 }
+					province = 368
+				}
+			}
+
+			c_donut = {
+				color = { 38 142 109 }
+
+				b_R163G75B166 = {
+					color = { 52 161 47 }
+					province = 1454
+				}
+
+				b_R22G23B50 = {
+					color = { 76 62 214 }
+					province = 1243
+				}
+
+				b_R167G128B208 = {
+					color = { 252 203 224 }
+					province = 1926
+				}
+
+				b_scadu_altus_new_7 = {
+					color = { 163 49 47 }
+					province = 3242
+				}
+			}
+
+			c_R225G54B2 = {
+				color = { 225 54 2 }
+
+				b_R168G120B57 = {
+					color = { 225 54 2 }
+					province = 1800
+				}
+
+				b_scadu_altus_new_9 = {
+					color = { 42 190 165 }
+					province = 3244
+				}
+
+				b_R20G246B123 = {
+					color = { 196 186 146 }
+					province = 166
+				}
+			}
+
+			c_bonny_village = {
+				color = { 176 170 70 }
+
+				b_R223G12B150 = {
+					color = { 70 153 91 }
+					province = 1047
+				}
+
+				b_R40G85B27 = {
+					color = { 132 124 23 }
+					province = 656
+				}
+
+				b_R10G215B47 = {
+					color = { 54 252 133 }
+					province = 1338
 				}
 			}
 		}
@@ -4854,6 +4966,11 @@ e_land_shadows = {
 				b_R196G156B241 = {
 					color = { 203 43 252 }
 					province = 2088
+				}
+
+				b_gravesite_new_28 = {
+					color = { 117 86 181 }
+					province = 3235
 				}
 			}
 
