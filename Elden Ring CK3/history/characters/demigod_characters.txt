@@ -907,6 +907,7 @@ moriss = {
 	culture = cul_leyndell
 	
 	trait = education_intrigue_1
+	trait = spindly
 	trait = scaly
 	trait = cynical
 	trait = vengeful
@@ -918,46 +919,6 @@ moriss = {
 	mother = marika
 	
 	2396.7.8 = {
-		birth = yes
-		effect = {
-			add_character_flag = do_not_generate_starting_family
-		}
-		trait = demigod_elden_ring_4
-	}
-	7211.2.8 = {
-		death = {
-			death_reason = death_black_knives
-		}
-	}
-}
-
-menekil = {
-	name = "Menekil"
-	#dna = menekil_dna
-	sexuality = heterosexual
-	dynasty = dynn_erdtree
-	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
-	religion = faith_golden	
-	culture = cul_leyndell
-	
-	trait = education_learning_2
-	trait = spindly
-	trait = clubfooted
-	trait = arrogant
-	trait = greedy
-	trait = brave
-	trait = order_affinity
-	
-	disallow_random_traits = yes
-	father = radagon
-	mother = marika
-	
-	2807.4.18 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -1183,6 +1144,7 @@ mioliss = {
 	
 	trait = education_martial_3
 	trait = inbred
+	trait = clubfooted
 	trait = just
 	trait = wrathful
 	trait = ambitious
