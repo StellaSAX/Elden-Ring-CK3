@@ -187,4 +187,12 @@ sleep_cleric = {
 	learning_per_piety_level = 1
 	diplomacy = 2
 	stress_loss_mult = 0.3
+	
+	culture_modifier = {
+		parameter = sleep_affinity_more_common
+		same_culture_opinion = 10
+		attraction_opinion = 5
+		stress_loss_mult = 0.7
+		diplomacy_per_piety_level = 1
+	}
 }

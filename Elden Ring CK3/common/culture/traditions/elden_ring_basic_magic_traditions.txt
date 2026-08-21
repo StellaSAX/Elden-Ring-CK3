@@ -35,7 +35,7 @@ tradition_magic_incantation_two_fingers = {
 	ai_will_do = { value = 100 }
 }
 
-tradition_magic_incantation_spiral = {
+tradition_magic_incantation_spiral = { #not Connected to the hornsent
 	category = regional
 
 	layers = {
@@ -888,7 +888,7 @@ tradition_magic_sorcery_bloodthorn = {
 	ai_will_do = { value = 100 }
 }
 
-tradition_magic_sorcery_carian = {
+tradition_magic_sorcery_carian = { #for people that don't want to have carian culture
 	category = regional
 
 	layers = {
@@ -922,7 +922,7 @@ tradition_magic_sorcery_carian = {
 	ai_will_do = { value = 100 }
 }
 
-tradition_magic_sorcery_glintstone = {
+tradition_magic_sorcery_glintstone = { #for people that don't want to have carian culture
 	category = regional
 
 	layers = {

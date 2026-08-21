@@ -358,412 +358,6 @@ tradition_stormlords = {
 	}
 }
 
-#Missing localization
-
-tradition_frenzied_flame = {
-	category = regional
-
-	layers = {
-		0 = learning
-		1 = mediterranean
-		4 = frenzied_flame.dds
-	}
-
-	can_pick = {
-		NOR = { 
-			has_cultural_tradition = tradition_carian_royal
-			has_cultural_tradition = tradition_golden_order
-			has_cultural_tradition = tradition_hornsent_spiral
-		}
-	}
-	
-	parameters = {
-		frenzied_flame_at_birth = yes
-		incantation_frenzy_more_common = yes
-	}
-	character_modifier = {
-		dread_per_tyranny_add = 0.3
-		dread_decay_mult = -0.3
-		dread_baseline_add = 10
-		stress_gain_mult = -0.1
-		hostile_county_attrition_raiding = -0.3
-		different_faith_opinion = -25
-		different_faith_county_opinion_mult = -0.25
-	}
-	
-	cost = {
-		prestige = {
-			add = {
-				value = tradition_base_cost
-				desc = BASE
-				format = "BASE_VALUE_FORMAT"
-			}			
-			multiply = tradition_replacement_cost_if_relevant
-		}
-	}
-	ai_will_do = { value = 100 }
-}
-
-tradition_rotborn = {
-	category = regional
-
-	layers = {
-		0 = learning
-		1 = mediterranean
-		4 = scarlet_rot.dds
-	}
-
-	can_pick = {
-		NOR = { 
-			has_cultural_tradition = tradition_carian_royal
-			has_cultural_tradition = tradition_golden_order
-			has_cultural_tradition = tradition_hornsent_spiral
-		}
-	}
-	
-	parameters = {
-		scarletrot_at_birth = yes
-		incantation_rot_more_common = yes
-		better_disease_resistance = yes
-		loyal_trait_more_common = yes
-		courtiers_less_likely_to_leave_same_culture_court = yes
-	}
-	character_modifier = {
-		fertility = 0.2
-	}
-	county_modifier = {
-		development_growth_factor = 0.15
-		county_opinion_add = 10
-	}
-	
-	cost = {
-		prestige = {
-			add = {
-				value = tradition_base_cost
-				desc = BASE
-				format = "BASE_VALUE_FORMAT"
-			}			
-			multiply = tradition_replacement_cost_if_relevant
-		}
-	}
-	ai_will_do = { value = 100 }
-}
-
-tradition_beast_clergy = {
-	category = regional
-
-	layers = {
-		0 = learning
-		1 = mediterranean
-		4 = beast_clergy.dds
-	}
-
-	can_pick = {
-		NOR = { 
-			has_cultural_tradition = tradition_carian_royal
-			has_cultural_tradition = tradition_golden_order
-			has_cultural_tradition = tradition_hornsent_spiral
-		}
-	}
-	
-	parameters = {
-		#can_become_beast_clergy = yes
-		incantation_divine_beast_more_common = yes
-		devoted_trait_bonuses = yes
-		monastic_expectations = yes
-		next_level_monasteries = yes
-		monastic_monastery_learning_bonus = yes
-		prowess_from_religious_traits = yes
-		culture_clergy_can_fight = yes
-		monastery_prowess_martial_bonus = yes
-		prowess_from_learning_education = yes
-	}
-	character_modifier = {
-		knight_effectiveness_mult = 1
-		learning_per_piety_level = 1
-		prowess_per_piety_level = 1
-	}
-	
-	
-	cost = {
-		prestige = {
-			add = {
-				value = tradition_base_cost
-				desc = BASE
-				format = "BASE_VALUE_FORMAT"
-			}			
-			multiply = tradition_replacement_cost_if_relevant
-		}
-	}
-	ai_will_do = { value = 100 }
-}
-
-tradition_crucible_knights = {
-	category = regional
-
-	layers = {
-		0 = learning
-		1 = mediterranean
-		4 = crucible_knights.dds
-	}
-
-	can_pick = {
-		NOR = { 
-			has_cultural_tradition = tradition_carian_royal
-			has_cultural_tradition = tradition_golden_order
-			has_cultural_tradition = tradition_hornsent_spiral
-		}
-	}
-	
-	parameters = {
-		honor_crucible_knights = yes
-		incantation_crucible_more_common = yes
-		high_prowess_ignores_knight_restrictions = yes
-		blademaster_traits_more_common = yes
-		better_knights_from_decision = yes
-	}
-	character_modifier = {
-		knight_effectiveness_mult = 1
-		knight_limit = 10
-		martial_per_piety_level = 1
-	}
-	character_modifier = {
-		fertility = -0.1
-	}
-	province_modifier = {
-		levy_size = -0.5
-	}
-	
-	cost = {
-		prestige = {
-			add = {
-				value = tradition_base_cost
-				desc = BASE
-				format = "BASE_VALUE_FORMAT"
-			}			
-			multiply = tradition_replacement_cost_if_relevant
-		}
-	}
-	ai_will_do = { value = 100 }
-}
-
-tradition_dragon_communion = {
-	category = regional
-
-	layers = {
-		0 = learning
-		1 = mediterranean
-		4 = dragon_communion.dds
-	}
-
-	can_pick = {
-		NOR = { 
-			has_cultural_tradition = tradition_carian_royal
-			has_cultural_tradition = tradition_golden_order
-			has_cultural_tradition = tradition_hornsent_spiral
-		}
-	}
-	
-	parameters = {
-		incantation_dragon_communion_more_common = yes
-		lightning_affinity_more_common = yes
-		less_likely_to_force_conversion = yes
-		ambitious_trait_more_common = yes
-	}
-	character_modifier = {
-		prowess_per_prestige_level = 1
-		martial = 1
-		monthly_martial_lifestyle_xp_gain_mult = 0.15
-	}
-	
-	cost = {
-		prestige = {
-			add = {
-				value = tradition_base_cost
-				desc = BASE
-				format = "BASE_VALUE_FORMAT"
-			}			
-			multiply = tradition_replacement_cost_if_relevant
-		}
-	}
-	ai_will_do = { value = 100 }
-}
-
-tradition_zamor = {
-	category = regional
-
-	layers = {
-		0 = martial
-		1 = western
-		4 = knight_zamor.dds
-	}
-
-	is_shown = {
-		always = no
-	}
-
-	parameters = {
-		sorcery_ice_more_common = yes
-		winter_soldier_trait_more_common = yes
-		winter_trait_bonuses = yes
-		can_recruit_winter_specialist = yes
-		resistant_to_winter_privation = yes
-	}
-
-	character_modifier = {
-		mountains_travel_danger = mountains_low_danger_reduction
-	}
-	province_modifier = {
-		mountains_levy_size = 0.1
-		mountains_supply_limit_mult = 0.25
-	}
-
-	cost = {
-		prestige = {
-			add = {
-				value = tradition_base_cost
-				desc = BASE
-				format = "BASE_VALUE_FORMAT"
-			}
-		}
-	}
-
-	ai_will_do = {
-		value = 100
-	}
-}
-
-tradition_red_manes = {
-	category = regional
-
-	layers = {
-		0 = learning
-		1 = mediterranean
-		4 = red_mane.dds
-	}
-
-	can_pick = {
-		NOR = { 
-			has_cultural_tradition = tradition_carian_royal
-			has_cultural_tradition = tradition_golden_order
-			has_cultural_tradition = tradition_hornsent_spiral
-		}
-	}
-	
-	parameters = {
-		incantation_flame_more_common = yes
-		sorcery_gravity_more_common = yes
-		better_disease_resistance = yes
-	}
-	character_modifier = {
-		negate_health_penalty_add = 2
-		defender_advantage = 10
-		controlled_province_advantage = 5
-	}
-	province_modifier = {
-		garrison_size = 0.25
-	}
-	
-	cost = {
-		prestige = {
-			add = {
-				value = tradition_base_cost
-				desc = BASE
-				format = "BASE_VALUE_FORMAT"
-			}			
-			multiply = tradition_replacement_cost_if_relevant
-		}
-	}
-	
-	ai_will_do = { value = 100 }
-}
-
-tradition_mt_gelmir = {
-	category = regional
-
-	layers = {
-		0 = learning
-		1 = mediterranean
-		4 = gelmir.dds
-	}
-
-	can_pick = {
-		NOR = { 
-			has_cultural_tradition = tradition_carian_royal
-			has_cultural_tradition = tradition_golden_order
-			has_cultural_tradition = tradition_hornsent_spiral
-		}
-	}
-	
-	parameters = {
-		incantation_flame_more_common = yes
-		mountain_trait_bonuses = yes
-		resistant_to_mountain_privation = yes
-		can_recruit_mountain_specialist = yes
-	}
-	character_modifier = {
-		mountains_travel_danger = mountains_low_danger_reduction
-	}
-	province_modifier = {
-		garrison_size = 0.2
-	}
-	
-	cost = {
-		prestige = {
-			add = {
-				value = tradition_base_cost
-				desc = BASE
-				format = "BASE_VALUE_FORMAT"
-			}			
-			multiply = tradition_replacement_cost_if_relevant
-		}
-	}
-	
-	ai_will_do = { value = 100 }
-}
-
-tradition_nox = {
-	category = regional
-
-	layers = {
-		0 = learning
-		1 = mediterranean
-		4 = gelmir.dds
-	}
-
-	can_pick = {
-		NOR = { 
-			has_cultural_tradition = tradition_carian_royal
-			has_cultural_tradition = tradition_golden_order
-			has_cultural_tradition = tradition_hornsent_spiral
-		}
-	}
-	
-	parameters = {
-		sorcery_night_more_common = yes
-		
-	}
-	character_modifier = {
-		#TD maybe create an underground terrain and give them bonuses
-	}
-	province_modifier = {
-		
-	}
-	
-	cost = {
-		prestige = {
-			add = {
-				value = tradition_base_cost
-				desc = BASE
-				format = "BASE_VALUE_FORMAT"
-			}			
-			multiply = tradition_replacement_cost_if_relevant
-		}
-	}
-	
-	ai_will_do = { value = 100 }
-}
-
 tradition_ancestral_follower = {
 	category = regional
 
@@ -834,6 +428,55 @@ tradition_bayle_followers = {
 		prowess_per_stress_level = 3
 		monthly_martial_lifestyle_xp_gain_mult = 0.2
 	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	ai_will_do = { value = 100 }
+}
+
+tradition_beast_clergy = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = beast_clergy.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_carian_royal
+			has_cultural_tradition = tradition_golden_order
+			has_cultural_tradition = tradition_hornsent_spiral
+		}
+	}
+	
+	parameters = {
+		#can_become_beast_clergy = yes
+		incantation_divine_beast_more_common = yes
+		devoted_trait_bonuses = yes
+		monastic_expectations = yes
+		next_level_monasteries = yes
+		monastic_monastery_learning_bonus = yes
+		prowess_from_religious_traits = yes
+		culture_clergy_can_fight = yes
+		monastery_prowess_martial_bonus = yes
+		prowess_from_learning_education = yes
+	}
+	character_modifier = {
+		knight_effectiveness_mult = 1
+		learning_per_piety_level = 1
+		prowess_per_piety_level = 1
+	}
+	
 	
 	cost = {
 		prestige = {
@@ -944,6 +587,100 @@ tradition_cerulean_coast = {
 	ai_will_do = { value = 100 }
 }
 
+tradition_crucible_knights = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = crucible_knights.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_carian_royal
+			has_cultural_tradition = tradition_golden_order
+			has_cultural_tradition = tradition_hornsent_spiral
+		}
+	}
+	
+	parameters = {
+		honor_crucible_knights = yes
+		incantation_crucible_more_common = yes
+		high_prowess_ignores_knight_restrictions = yes
+		blademaster_traits_more_common = yes
+		better_knights_from_decision = yes
+	}
+	character_modifier = {
+		knight_effectiveness_mult = 1
+		knight_limit = 10
+		martial_per_piety_level = 1
+	}
+	character_modifier = {
+		fertility = -0.1
+	}
+	province_modifier = {
+		levy_size = -0.5
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	ai_will_do = { value = 100 }
+}
+
+tradition_rotborn = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = scarlet_rot.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_carian_royal
+			has_cultural_tradition = tradition_golden_order
+			has_cultural_tradition = tradition_hornsent_spiral
+		}
+	}
+	
+	parameters = {
+		scarletrot_at_birth = yes
+		incantation_rot_more_common = yes
+		better_disease_resistance = yes
+		loyal_trait_more_common = yes
+		courtiers_less_likely_to_leave_same_culture_court = yes
+	}
+	character_modifier = {
+		fertility = 0.2
+	}
+	county_modifier = {
+		development_growth_factor = 0.15
+		county_opinion_add = 10
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	ai_will_do = { value = 100 }
+}
+
 tradition_dancer_ranah = {
 	category = regional
 
@@ -986,3 +723,277 @@ tradition_dancer_ranah = {
 	
 	ai_will_do = { value = 100 }
 }
+
+tradition_dragon_communion = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = dragon_communion.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_carian_royal
+			has_cultural_tradition = tradition_golden_order
+			has_cultural_tradition = tradition_hornsent_spiral
+		}
+	}
+	
+	parameters = {
+		incantation_dragon_communion_more_common = yes
+		incantation_dragon_cult_more_common = yes
+		less_likely_to_force_conversion = yes
+		ambitious_trait_more_common = yes
+	}
+	character_modifier = {
+		prowess_per_prestige_level = 1
+		martial = 1
+		monthly_martial_lifestyle_xp_gain_mult = 0.15
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	ai_will_do = { value = 100 }
+}
+
+tradition_frenzied_flame = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = frenzied_flame.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_carian_royal
+			has_cultural_tradition = tradition_golden_order
+			has_cultural_tradition = tradition_hornsent_spiral
+		}
+	}
+	
+	parameters = {
+		frenzied_flame_at_birth = yes
+		incantation_frenzy_more_common = yes
+	}
+	character_modifier = {
+		dread_per_tyranny_add = 0.3
+		dread_decay_mult = -0.3
+		dread_baseline_add = 10
+		stress_gain_mult = -0.1
+		hostile_county_attrition_raiding = -0.3
+		different_faith_opinion = -25
+		different_faith_county_opinion_mult = -0.25
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	ai_will_do = { value = 100 }
+}
+
+tradition_zamor = {
+	category = regional
+
+	layers = {
+		0 = martial
+		1 = western
+		4 = knight_zamor.dds
+	}
+
+	is_shown = {
+		always = yes
+	}
+
+	parameters = {
+		sorcery_ice_more_common = yes
+		winter_soldier_trait_more_common = yes
+		winter_trait_bonuses = yes
+		can_recruit_winter_specialist = yes
+		resistant_to_winter_privation = yes
+	}
+
+	character_modifier = {
+		mountains_travel_danger = mountains_low_danger_reduction
+	}
+	province_modifier = {
+		mountains_levy_size = 0.1
+		mountains_supply_limit_mult = 0.25
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+
+	ai_will_do = {
+		value = 100
+	}
+}
+
+tradition_mt_gelmir = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = gelmir.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_carian_royal
+			has_cultural_tradition = tradition_golden_order
+			has_cultural_tradition = tradition_hornsent_spiral
+		}
+	}
+	
+	parameters = {
+		incantation_flame_more_common = yes
+		mountain_trait_bonuses = yes
+		resistant_to_mountain_privation = yes
+		can_recruit_mountain_specialist = yes
+		hill_farms_building_bonuses = yes
+	}
+	character_modifier = {
+		mountains_travel_danger = hills_medium_danger_reduction
+		hills_travel_danger = hills_medium_danger_reduction
+		drylands_travel_danger = drylands_medium_danger_reduction
+	}
+	province_modifier = {
+		garrison_size = 0.2
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_red_manes = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = red_mane.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_carian_royal
+			has_cultural_tradition = tradition_golden_order
+			has_cultural_tradition = tradition_hornsent_spiral
+		}
+	}
+	
+	parameters = {
+		incantation_flame_more_common = yes
+		sorcery_gravity_more_common = yes
+		better_disease_resistance = yes
+	}
+	character_modifier = {
+		negate_health_penalty_add = 2
+		defender_advantage = 10
+		controlled_province_advantage = 5
+	}
+	province_modifier = {
+		garrison_size = 0.25
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+tradition_nox = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = gelmir.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_carian_royal
+			has_cultural_tradition = tradition_golden_order
+			has_cultural_tradition = tradition_hornsent_spiral
+		}
+	}
+	
+	parameters = {
+		sorcery_night_more_common = yes
+		
+		#FOR NOW, until we give the underground their own terrain
+		rough_terrain_expert_trait_more_common = yes
+		mountain_trait_bonuses = yes
+		can_recruit_mountain_specialist = yes
+		resistant_to_mountain_privation = yes
+	}
+	character_modifier = {
+		#TD maybe create an underground terrain and give them bonuses
+	}
+	province_modifier = {
+		
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { value = 100 }
+}
+
+
+
+
+
