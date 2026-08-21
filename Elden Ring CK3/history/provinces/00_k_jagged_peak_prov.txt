@@ -25,6 +25,12 @@
 	religion = faith_bayle_dragon
 	holding = castle_holding
 }
+# R22G232B225
+706 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = castle_holding
+}
 
 
 ### c_R248G141B130
@@ -46,12 +52,6 @@
 	religion = faith_bayle_dragon
 	holding = none
 }
-# R0G210B31
-108 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
 # R134G87B212
 1374 = {
 	culture = cul_jagged
@@ -61,18 +61,6 @@
 
 
 ### c_R24G27B99
-# R63G253B149
-2022 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = castle_holding
-}
-# R22G232B225
-706 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = castle_holding
-}
 # R58G233B52
 1265 = {
 	culture = cul_jagged
@@ -106,26 +94,11 @@
 	religion = faith_bayle_dragon
 	holding = none
 }
-
-
-### c_R93G113B140
-# R57G149B213
-726 = {
+# R63G253B149
+2022 = {
 	culture = cul_jagged
 	religion = faith_bayle_dragon
-	holding = none
-}
-# R8G245B205
-676 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R1G164B3
-2367 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
+	holding = castle_holding
 }
 
 
@@ -156,32 +129,174 @@
 }
 
 
-##### d_jagged_south ############################
-
-### c_R196G95B40
-# R135G194B79
-809 = {
+### c_R254G115B179
+# R234G74B174
+705 = {
 	culture = cul_jagged
 	religion = faith_bayle_dragon
 	holding = castle_holding
 }
-# R11G103B63
-577 = {
+# R233G224B106
+1012 = {
 	culture = cul_jagged
 	religion = faith_bayle_dragon
 	holding = none
 }
-# R205G126B96
-335 = {
+# R33G64B144
+444 = {
 	culture = cul_jagged
 	religion = faith_bayle_dragon
 	holding = none
 }
-# R21G201B81
-1079 = {
+# R219G218B37
+2341 = {
 	culture = cul_jagged
 	religion = faith_bayle_dragon
 	holding = none
+}
+
+
+### c_R117G234B127
+# R91G208B205
+845 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+# R212G185B19
+2299 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = castle_holding
+}
+# R188G228B125
+876 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = castle_holding
+}
+
+
+### c_R42G71B13
+# R171G19B224
+478 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = castle_holding
+}
+# R255G68B200
+1229 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = castle_holding
+}
+# R6G156B177
+521 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+# R61G124B94
+2312 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+
+
+### c_R132G124B23
+# R118G121B100
+968 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+# R173G214B177
+834 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+# R106G161B66
+1050 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+# R85G1B19
+1109 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = castle_holding
+}
+
+
+### c_R171G178B62
+# R147G106B10
+202 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+# R72G0B48
+2348 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = castle_holding
+}
+# R150G14B233
+1176 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+
+
+### c_R222G243B228
+# R88G31B135
+1295 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+# R223G152B147
+600 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+# R73G5B173
+196 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = castle_holding
+}
+
+
+### c_R209G18B23
+# R73G117B33
+841 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+# R56G100B102
+1342 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+# R30G45B24
+1810 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+# R190G237B157
+208 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = castle_holding
 }
 
 
@@ -218,6 +333,33 @@
 }
 
 
+### c_R196G95B40
+# R135G194B79
+809 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = castle_holding
+}
+# R11G103B63
+577 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+# R205G126B96
+335 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+# R21G201B81
+1079 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+
+
 ### c_R255G233B148
 # R77G40B235
 343 = {
@@ -236,27 +378,6 @@
 	culture = cul_jagged
 	religion = faith_bayle_dragon
 	holding = none
-}
-# R191G219B44
-799 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-
-
-### c_R78G138B2
-# R194G202B74
-1427 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = castle_holding
-}
-# R193G170B4
-513 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = castle_holding
 }
 
 
@@ -287,29 +408,15 @@
 }
 
 
-##### d_lowpeaks ############################
-
-### c_R209G18B23
-# R73G117B33
-841 = {
+### c_R78G138B2
+# R194G202B74
+1427 = {
 	culture = cul_jagged
 	religion = faith_bayle_dragon
-	holding = none
+	holding = castle_holding
 }
-# R56G100B102
-1342 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R30G45B24
-1810 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R190G237B157
-208 = {
+# R193G170B4
+513 = {
 	culture = cul_jagged
 	religion = faith_bayle_dragon
 	holding = castle_holding
@@ -369,159 +476,11 @@
 }
 
 
-##### d_jagged_east ############################
-
-### c_R222G243B228
-# R88G31B135
-1295 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R223G152B147
-600 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R73G5B173
-196 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = castle_holding
-}
-
-
-### c_R171G178B62
-# R147G106B10
-202 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R72G0B48
-2348 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = castle_holding
-}
-# R150G14B233
-1176 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-
-
-##### d_jagged_north ############################
-
-### c_R132G124B23
-# R118G121B100
-968 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R173G214B177
-834 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R106G161B66
-1050 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R85G1B19
-1109 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = castle_holding
-}
-
-
-### c_R42G71B13
-# R212G185B19
-2299 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = castle_holding
-}
-# R171G19B224
-478 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = castle_holding
-}
-# R255G68B200
-1229 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = castle_holding
-}
-# R6G156B177
-521 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R61G124B94
-2312 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-
-
-### c_R254G115B179
-# R234G74B174
-705 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = castle_holding
-}
-# R188G228B125
-876 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = castle_holding
-}
-# R233G224B106
-1012 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R33G64B144
-444 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-# R219G218B37
-2341 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-
-
-### c_R117G234B127
-# R91G208B205
-845 = {
-	culture = cul_jagged
-	religion = faith_bayle_dragon
-	holding = none
-}
-
-
 ##### d_jagged_foot ############################
 
 ### c_R109G242B113
-# R119G131B95
-331 = {
+# R138G72B48
+1409 = {
 	culture = cul_jagged
 	religion = faith_bayle_dragon
 	holding = castle_holding
@@ -536,10 +495,10 @@
 935 = {
 	culture = cul_jagged
 	religion = faith_bayle_dragon
-	holding = castle_holding
+	holding = none
 }
-# R138G72B48
-1409 = {
+# R118G116B119
+526 = {
 	culture = cul_jagged
 	religion = faith_bayle_dragon
 	holding = none
@@ -553,14 +512,47 @@
 	religion = faith_bayle_dragon
 	holding = castle_holding
 }
-# R118G116B119
-526 = {
+# R247G230B201
+1932 = {
 	culture = cul_jagged
 	religion = faith_bayle_dragon
 	holding = none
 }
-# R247G230B201
-1932 = {
+# R119G131B95
+331 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = castle_holding
+}
+# R191G219B44
+799 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+
+
+### c_R93G113B140
+# R57G149B213
+726 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+# R8G245B205
+676 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+# R1G164B3
+2367 = {
+	culture = cul_jagged
+	religion = faith_bayle_dragon
+	holding = none
+}
+# R0G210B31
+108 = {
 	culture = cul_jagged
 	religion = faith_bayle_dragon
 	holding = none
