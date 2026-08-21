@@ -35,3 +35,8 @@ renown_debt_for_kenneth = {
 	monthly_piety_gain_mult = -1
 	legitimacy_gain_mult = -1
 }
+
+land_of_shadows_passage = {
+	icon = realm_of_shadow
+	can_travel_along_rivers = yes
+}
