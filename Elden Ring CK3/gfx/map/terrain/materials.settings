@@ -1179,6 +1179,14 @@
 		mask     = "masks/charo_hidden_grave_01_mask.png"
 		id       = "charo_hidden_grave_01"
 	}
+	{
+		name     = "gravesite_plain_01"
+		diffuse  = "gravesite_plain_01_diffuse.dds"
+		normal   = "gravesite_plain_01_normal.dds"
+		material = "gravesite_plain_01_properties.dds"
+		mask     = "masks/gravesite_plain_01_mask.png"
+		id       = "gravesite_plain_01"
+	}
 }
 
 # unmasked textures
