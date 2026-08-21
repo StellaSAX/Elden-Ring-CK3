@@ -34,6 +34,9 @@
  
  mothlord:0 "Mothlord"
  mothlady:0 "Mothlady"
+ 
+ goldenorder_m:0 "King"
+ goldenorder_f:0 "Queen"
 
  d_laamp_miquella: "Followers of Miquella"
  d_laamp_miquella_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
@@ -269,6 +272,7 @@
  d_haligtowers_west: "Western Watchtowers"
  d_haligtowers_east: "Eastern Watchtowers"
  d_halig_ring: "Inner Wall"
+ k_golden_order: "Golden Order"
  k_ainsel: "Ainsel"
  k_farum_azula: "Farum Azula"
  k_jagged_peak: "Jagged Peak"

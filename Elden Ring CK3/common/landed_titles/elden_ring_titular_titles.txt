@@ -1,0 +1,16 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+@never_primary_score = -1000
+
+### CUSTOM TITULAR TITLES ###
+# Need to set de jure lieges in title history
+
+k_golden_order = {
+	color = { 242 245 66 }
+	capital = c_R41G168B113
+	landless = yes
+	destroy_on_succession = yes
+	always_follows_primary_heir = yes
+	ruler_uses_title_name = no
+}

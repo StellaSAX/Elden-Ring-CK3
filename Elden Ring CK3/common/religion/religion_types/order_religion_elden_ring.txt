@@ -6,13 +6,13 @@
 
 	#Main Group
 	doctrine = doctrine_polytheist
-	doctrine = doctrine_no_head
-	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_temporal_head
+	doctrine = doctrine_gender_equal
 	doctrine = doctrine_pluralism_fundamentalist
-	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_theocracy_lay_clergy
 
 	#Marriage
-	doctrine = doctrine_concubines
+	doctrine = doctrine_monogamy
 	doctrine = doctrine_divorce_allowed
 	doctrine = doctrine_bastardry_legitimization
 	doctrine = doctrine_consanguinity_cousins
@@ -50,10 +50,10 @@
 	doctrine = doctrine_frenzy_affinity_crime
 
 	#Clerical Functions
-	doctrine = doctrine_clerical_function_recruitment
+	doctrine = doctrine_clerical_function_control
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
-	doctrine = doctrine_clerical_succession_temporal_appointment
+	doctrine = doctrine_clerical_succession_temporal_fixed_appointment
 
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
@@ -245,11 +245,10 @@
 	faiths = {
 		faith_golden = {
 			color = { 0.9 0.9 0.1 }
+			religious_head = k_golden_order
 			graphical_faith = "catholic_gfx"
 			icon = faith_golden_order
 			reformed_icon = faith_golden_order
-
-			#doctrine = unreformed_faith_doctrine
 
 			holy_site = leyndell_capital
 			holy_site = west_altus_divine_tower
@@ -259,19 +258,19 @@
 			holy_site = caelid_divine_tower
 			holy_site = isolated_divine_tower
 			
-			doctrine = tenet_legalism
-			doctrine = tenet_unrelenting_faith
-			doctrine = tenet_golden_order
-			doctrine = tenet_religious_legal_pronouncements
+			doctrine = doctrine_temporal_head
 			
+			doctrine = tenet_armed_pilgrimages
+			doctrine = tenet_literalism
+			doctrine = tenet_religious_legal_pronouncements
+			doctrine = tenet_golden_order
 		}
 		faith_fundamentalism = {
 			color = { 0.5 0.5 0.05 }
+			religious_head = k_golden_order
 			graphical_faith = "catholic_gfx"
 			icon = faith_fundamentalism
 			reformed_icon = faith_fundamentalism
-
-			#doctrine = unreformed_faith_doctrine
 
 			holy_site = west_altus_divine_tower
 			holy_site = east_altus_divine_tower
@@ -280,9 +279,9 @@
 			holy_site = caelid_divine_tower
 			holy_site = isolated_divine_tower
 
-			doctrine = tenet_literalism
+			doctrine = tenet_armed_pilgrimages
 			doctrine = tenet_unrelenting_faith
-			doctrine = tenet_legalism
+			doctrine = tenet_communion
 			doctrine = tenet_golden_order
 			
 			localization = {
@@ -307,8 +306,9 @@
 				ReligiousHeadTitleName = faith_fundamentalism_religious_head_name
 			}
 		}
-		faith_unalloyed = { #Miquella before going
+		faith_unalloyed = {
 			color = { 0.99 0.99 0.0 }
+			religious_head = k_golden_order
 			graphical_faith = "catholic_gfx"
 			icon = faith_unalloyed
 			reformed_icon = faith_unalloyed
@@ -322,9 +322,9 @@
 			holy_site = isolated_divine_tower
 			
 			doctrine = tenet_rite
-			doctrine = tenet_unalloyed_order
 			doctrine = tenet_pacifism
 			doctrine = tenet_pastoral_isolation
+			doctrine = tenet_unalloyed_order
 			
 			doctrine = doctrine_order_affinity_accepted
 			doctrine = doctrine_erdtree_affinity_accepted
@@ -371,6 +371,7 @@
 		}
 		faith_perfect = {
 			color = { 0.7 0.7 0.05 }
+			religious_head = k_golden_order
 			graphical_faith = "catholic_gfx"
 			icon = faith_perfect_order
 			reformed_icon = faith_perfect_order
@@ -404,6 +405,7 @@
 		}
 		faith_messmer = {
 			color = { 0.9 0.5 0.0 }
+			religious_head = k_golden_order
 			graphical_faith = "catholic_gfx"
 			icon = faith_messmer
 			reformed_icon = faith_messmer
@@ -416,7 +418,7 @@
 			holy_site = shadow_keep
 
 			doctrine = tenet_warmonger
-			doctrine = tenet_exaltation_of_pain
+			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_sacred_destruction		
 			doctrine = tenet_golden_exile
 			
@@ -444,7 +446,7 @@
 				BishopNeuterPlural = faith_messmer_bishop_plural
 			}
 		}
-		faith_kind = { #Miquella in the Land of Shadows
+		faith_kind = {
 			color = { 0.9 0.9 0.5 }
 			graphical_faith = "catholic_gfx"
 			icon = faith_kind
@@ -524,6 +526,7 @@
 		}
 		faith_dragon_cult = {
 			color = { 0.9 0.6 0.1 }
+			religious_head = k_golden_order
 			graphical_faith = "orthodox_gfx"
 			icon = faith_dragon_cult
 			reformed_icon = faith_dragon_cult

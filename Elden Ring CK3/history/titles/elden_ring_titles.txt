@@ -85,10 +85,10 @@ c_manor_area_one = {
 	}
 }
 c_R41G168B113 = {
-	500.1.1 = {
+	737.5.21 = {
 		holder = marika
 	}
-	810.1.1 = {
+	7213.2.7 = {
 		holder = morgott
 	}
 }
@@ -197,41 +197,9 @@ d_wailing_dunes = {
 		holder = radahn
 	}
 }
-e_farum_azula = {
-	89.7.19 = {
-		holder = placidusax
-	}
-}
-e_leyndell = {
-	737.5.21 = {
+k_golden_order = {
+	714.1.1 = {
 		holder = marika
-	}
-	7213.2.7 = {
-		holder = 0
-	}
-}
-e_limgrave = {
-	1332.4.9 = {
-		holder = gaiser_stormlord
-	}
-	1352.7.6 = {
-		holder = 0
-	}
-}
-e_liurnia = {
-	673.1.17 = {
-		holder = rennala
-	}
-	7592.11.4 = {
-		holder = 0
-	}
-}
-h_lands_between = {
-	737.5.21 = {
-		holder = marika
-	}
-	7213.2.7 = {
-		holder = 0
 	}
 }
 k_altus_plateau = {
@@ -311,5 +279,42 @@ k_stormveil = {
 	}
 	7621.3.7 = {
 		holder = godrick
+	}
+}
+e_farum_azula = {
+	89.7.19 = {
+		holder = placidusax
+	}
+}
+e_leyndell = {
+	737.5.21 = {
+		holder = marika
+	}
+	7213.2.7 = {
+		holder = 0
+	}
+}
+e_limgrave = {
+	1332.4.9 = {
+		holder = gaiser_stormlord
+	}
+	1352.7.6 = {
+		holder = 0
+	}
+}
+e_liurnia = {
+	673.1.17 = {
+		holder = rennala
+	}
+	7592.11.4 = {
+		holder = 0
+	}
+}
+h_lands_between = {
+	737.5.21 = {
+		holder = marika
+	}
+	7213.2.7 = {
+		holder = 0
 	}
 }

@@ -181,3 +181,21 @@ mothlady = {
 		only_independent = yes
 	}
 }
+
+goldenorder_m = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 282
+	titles = { k_golden_order }
+}
+
+goldenorder_f = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 282
+	titles = { k_golden_order }
+}
