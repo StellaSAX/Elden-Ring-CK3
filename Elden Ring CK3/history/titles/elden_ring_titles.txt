@@ -3,19 +3,19 @@
 		holder = placidusax
 	}
 }
-c_R118G227B206 = {
+c_R203G43B252 = {
 	8300.1.1 = {
 		holder = rellana
 		liege = k_messmer_army
 	}
 }
-c_R148G104B220 = {
+c_R143G231B106 = {
 	8300.1.1 = {
 		holder = tarassax
 		liege = e_farum_azula
 	}
 }
-c_R154G175B186 = {
+c_R33G59B210 = {
 	8300.1.1 = {
 		holder = messmer
 	}
@@ -56,11 +56,6 @@ c_R255G104B146 = {
 		holder = ranni
 	}
 }
-c_R25G255B15 = {
-	810.1.1 = {
-		holder = rennala
-	}
-}
 c_R35G113B61 = {
 	8300.1.1 = {
 		holder = loretta
@@ -84,12 +79,12 @@ c_R54G124B112 = {
 		liege = d_volcano_manor
 	}
 }
-c_laiedd = {
+c_manor_area_one = {
 	8300.1.1 = {
 		holder = rykard
 	}
 }
-c_R88G80B204 = {
+c_R41G168B113 = {
 	500.1.1 = {
 		holder = marika
 	}
@@ -100,11 +95,6 @@ c_R88G80B204 = {
 c_castellans_rock = {
 	8300.1.1 = {
 		holder = jerren
-	}
-}
-c_R98G122B49 = {
-	8300.1.1 = {
-		holder = bayle
 	}
 }
 c_morne = {
@@ -143,11 +133,6 @@ d_forlorn_hills = {
 	7000.1.1 = {
 		holder = test2
 		liege = 0
-	}
-}
-d_jagged_north = {
-	474.9.18 = {
-		holder = bayle
 	}
 }
 d_jagged_peak_summit = {
