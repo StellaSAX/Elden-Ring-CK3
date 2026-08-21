@@ -3887,21 +3887,210 @@ incantation_erdtree = {
 	same_opinion = 10
 	monthly_prestige_gain_mult = 0.05
 	
+	character_travel_safety = 2
+	min_combat_roll = 2
+	
+	faith_modifier = {
+		parameter = erdtree_incantation_bonuses
+		monthly_piety = 0.2
+	}
+	
 	track = {
 		20 = {
 			prowess_no_portrait = 1
+			supply_duration = 0.1
+			hostile_county_attrition = -0.1
+			retreat_losses = -0.05
+			character_travel_safety = 2
+			negate_health_penalty_add = 0.25
+			
+			faith_modifier = {
+				parameter = erdtree_incantation_bonuses
+				monthly_piety = 0.2
+			}
 		}
 		40 = {
 			prowess_no_portrait = 1
+			supply_duration = 0.15
+			hostile_county_attrition = -0.1
+			retreat_losses = -0.05
+			character_travel_safety = 2
+			negate_health_penalty_add = 0.25
+			
+			faith_modifier = {
+				parameter = erdtree_incantation_bonuses
+				monthly_piety = 0.2
+			}
 		}
 		60 = {
 			prowess_no_portrait = 1
+			supply_duration = 0.2
+			hostile_county_attrition = -0.15
+			retreat_losses = -0.1
+			character_travel_safety = 4
+			negate_health_penalty_add = 0.25
+			
+			faith_modifier = {
+				parameter = erdtree_incantation_bonuses
+				monthly_piety = 0.2
+			}
 		}
 		80 = {
 			prowess_no_portrait = 1
+			supply_duration = 0.25
+			hostile_county_attrition = -0.15
+			retreat_losses = -0.1
+			character_travel_safety = 4
+			negate_health_penalty_add = 0.25
+			
+			faith_modifier = {
+				parameter = erdtree_incantation_bonuses
+				monthly_piety = 0.2
+			}
 		}
 		100 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 2
+			learning = 3
+			supply_duration = 0.5
+			hostile_county_attrition = -0.3
+			retreat_losses = -0.2
+			character_travel_safety = 6
+			negate_health_penalty_add = 0.5
+			
+			faith_modifier = {
+				parameter = erdtree_incantation_bonuses
+				monthly_piety_gain_mult = 0.1
+			}
+		}
+	}
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_incantation_erdtree
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_erdtree
+						value >= 100
+					}
+				}
+				desc = trait_incantation_erdtree_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_erdtree
+						value >= 80
+					}
+				}
+				desc = trait_incantation_erdtree_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_erdtree
+						value >= 60
+					}
+				}
+				desc = trait_incantation_erdtree_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_erdtree
+						value >= 40
+					}
+				}
+				desc = trait_incantation_erdtree_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_erdtree
+						value >= 20
+					}
+				}
+				desc = trait_incantation_erdtree_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_erdtree
+						value < 20
+					}
+				}
+				desc = trait_incantation_erdtree_1
+			}
+			desc = trait_incantation_erdtree
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_incantation_erdtree_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_erdtree
+						value >= 100
+					}
+				}
+				desc = trait_incantation_erdtree_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_erdtree
+						value >= 80
+					}
+				}
+				desc = trait_incantation_erdtree_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_erdtree
+						value >= 60
+					}
+				}
+				desc = trait_incantation_erdtree_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_erdtree
+						value >= 40
+					}
+				}
+				desc = trait_incantation_erdtree_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_erdtree
+						value >= 20
+					}
+				}
+				desc = trait_incantation_erdtree_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_erdtree
+						value < 20
+					}
+				}
+				desc = trait_incantation_erdtree_1_desc
+			}
+			desc = trait_incantation_erdtree_desc
 		}
 	}
 	
@@ -3928,19 +4117,186 @@ incantation_flame = {
 	
 	track = {
 		20 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 2
+			lava_lake_advantage = 4
+			forest_max_combat_roll = 2
+			taiga_max_combat_roll = 2
+			jungle_max_combat_roll = 2
+			siege_phase_time = -0.4
+			lava_lake_attrition_mult = -0.1
+			winter_advantage = 1
 		}
 		40 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 2
+			lava_lake_advantage = 6
+			forest_max_combat_roll = 3
+			taiga_max_combat_roll = 3
+			jungle_max_combat_roll = 3
+			siege_phase_time = -0.4
+			lava_lake_attrition_mult = -0.1
+			winter_advantage = 1
 		}
 		60 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 3
+			lava_lake_advantage = 8
+			forest_max_combat_roll = 4
+			taiga_max_combat_roll = 4
+			jungle_max_combat_roll = 4
+			siege_phase_time = -0.4
+			lava_lake_attrition_mult = -0.1
+			winter_advantage = 1
 		}
 		80 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 4
+			lava_lake_advantage = 10
+			forest_max_combat_roll = 5
+			taiga_max_combat_roll = 5
+			jungle_max_combat_roll = 5
+			siege_phase_time = -0.4
+			lava_lake_attrition_mult = -0.1
+			winter_advantage = 1
 		}
 		100 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 5
+			stewardship = 2
+			martial = 1
+			lava_lake_advantage = 12
+			forest_max_combat_roll = 6
+			taiga_max_combat_roll = 6
+			jungle_max_combat_roll = 6
+			siege_phase_time = -0.14
+			lava_lake_attrition_mult = -0.2
+			winter_advantage = 4
+		}
+	}
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_incantation_flame
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_flame
+						value >= 100
+					}
+				}
+				desc = trait_incantation_flame_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_flame
+						value >= 80
+					}
+				}
+				desc = trait_incantation_flame_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_flame
+						value >= 60
+					}
+				}
+				desc = trait_incantation_flame_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_flame
+						value >= 40
+					}
+				}
+				desc = trait_incantation_flame_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_flame
+						value >= 20
+					}
+				}
+				desc = trait_incantation_flame_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_flame
+						value < 20
+					}
+				}
+				desc = trait_incantation_flame_1
+			}
+			desc = trait_incantation_flame
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_incantation_flame_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_flame
+						value >= 100
+					}
+				}
+				desc = trait_incantation_flame_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_flame
+						value >= 80
+					}
+				}
+				desc = trait_incantation_flame_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_flame
+						value >= 60
+					}
+				}
+				desc = trait_incantation_flame_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_flame
+						value >= 40
+					}
+				}
+				desc = trait_incantation_flame_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_flame
+						value >= 20
+					}
+				}
+				desc = trait_incantation_flame_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_flame
+						value < 20
+					}
+				}
+				desc = trait_incantation_flame_1_desc
+			}
+			desc = trait_incantation_flame_desc
 		}
 	}
 	
@@ -3965,21 +4321,192 @@ incantation_frenzy = {
 	same_opinion = 10
 	monthly_prestige_gain_mult = 0.05
 	
+	general_opinion = -10
+	dread_baseline_add = 5
+	stress_gain_mult = -0.1
+	
 	track = {
 		20 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 2
+			enemy_terrain_advantage = -0.05
+			general_opinion = -10
+			dread_baseline_add = 5
+			stress_gain_mult = -0.03
+			development_growth_factor = -0.05
+			development_decline_factor = 0.05
+			county_fertility_growth_mult = -0.05
 		}
 		40 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 3
+			enemy_terrain_advantage = -0.1
+			general_opinion = -10
+			dread_baseline_add = 5
+			stress_gain_mult = -0.04
+			development_growth_factor = -0.1
+			development_decline_factor = 0.1
+			county_fertility_growth_mult = -0.1
 		}
 		60 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 4
+			enemy_terrain_advantage = -0.15
+			general_opinion = -10
+			dread_baseline_add = 5
+			stress_gain_mult = -0.05
+			development_growth_factor = -0.15
+			development_decline_factor = 0.15
+			county_fertility_growth_mult = -0.15
 		}
 		80 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 5
+			enemy_terrain_advantage = -0.2
+			general_opinion = -10
+			dread_baseline_add = 5
+			stress_gain_mult = -0.06
+			development_growth_factor = -0.2
+			development_decline_factor = 0.2
+			county_fertility_growth_mult = -0.2
 		}
 		100 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 8
+			intrigue = 3
+			enemy_terrain_advantage = -0.3
+			general_opinion = -10
+			dread_baseline_add = 5
+			dread_gain_mult = 1.0
+			stress_gain_mult = -0.12
+			development_growth_factor = -0.4
+			development_decline_factor = 0.4
+			county_fertility_growth_mult = -0.4
+		}
+	}
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_incantation_frenzy
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_frenzy
+						value >= 100
+					}
+				}
+				desc = trait_incantation_frenzy_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_frenzy
+						value >= 80
+					}
+				}
+				desc = trait_incantation_frenzy_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_frenzy
+						value >= 60
+					}
+				}
+				desc = trait_incantation_frenzy_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_frenzy
+						value >= 40
+					}
+				}
+				desc = trait_incantation_frenzy_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_frenzy
+						value >= 20
+					}
+				}
+				desc = trait_incantation_frenzy_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_frenzy
+						value < 20
+					}
+				}
+				desc = trait_incantation_frenzy_1
+			}
+			desc = trait_incantation_frenzy
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_incantation_frenzy_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_frenzy
+						value >= 100
+					}
+				}
+				desc = trait_incantation_frenzy_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_frenzy
+						value >= 80
+					}
+				}
+				desc = trait_incantation_frenzy_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_frenzy
+						value >= 60
+					}
+				}
+				desc = trait_incantation_frenzy_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_frenzy
+						value >= 40
+					}
+				}
+				desc = trait_incantation_frenzy_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_frenzy
+						value >= 20
+					}
+				}
+				desc = trait_incantation_frenzy_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_frenzy
+						value < 20
+					}
+				}
+				desc = trait_incantation_frenzy_1_desc
+			}
+			desc = trait_incantation_frenzy_desc
 		}
 	}
 	
@@ -4045,19 +4572,176 @@ incantation_messmers_flame = {
 	
 	track = {
 		20 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 2
+			tolerance_advantage_mod = 2
+			maa_pursuit_add = 2
+			hills_max_combat_roll = 2
+			mountains_max_combat_roll = 2
+			desert_mountains_max_combat_roll = 2
 		}
 		40 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 3
+			tolerance_advantage_mod = 3
+			maa_pursuit_add = 2
+			hills_max_combat_roll = 3
+			mountains_max_combat_roll = 3
+			desert_mountains_max_combat_roll = 3
 		}
 		60 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 4
+			tolerance_advantage_mod = 4
+			maa_pursuit_add = 3
+			hills_max_combat_roll = 4
+			mountains_max_combat_roll = 4
+			desert_mountains_max_combat_roll = 4
 		}
 		80 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 5
+			tolerance_advantage_mod = 5
+			maa_pursuit_add = 3
+			hills_max_combat_roll = 5
+			mountains_max_combat_roll = 5
+			desert_mountains_max_combat_roll = 5
 		}
 		100 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 6
+			martial = 2
+			intrigue = 1
+			tolerance_advantage_mod = 6
+			maa_pursuit_add = 6
+			hills_max_combat_roll = 6
+			mountains_max_combat_roll = 6
+			desert_mountains_max_combat_roll = 6
+		}
+	}
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_incantation_messmers_flame
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_messmers_flame
+						value >= 100
+					}
+				}
+				desc = trait_incantation_messmers_flame_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_messmers_flame
+						value >= 80
+					}
+				}
+				desc = trait_incantation_messmers_flame_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_messmers_flame
+						value >= 60
+					}
+				}
+				desc = trait_incantation_messmers_flame_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_messmers_flame
+						value >= 40
+					}
+				}
+				desc = trait_incantation_messmers_flame_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_messmers_flame
+						value >= 20
+					}
+				}
+				desc = trait_incantation_messmers_flame_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_messmers_flame
+						value < 20
+					}
+				}
+				desc = trait_incantation_messmers_flame_1
+			}
+			desc = trait_incantation_messmers_flame
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_incantation_messmers_flame_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_messmers_flame
+						value >= 100
+					}
+				}
+				desc = trait_incantation_messmers_flame_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_messmers_flame
+						value >= 80
+					}
+				}
+				desc = trait_incantation_messmers_flame_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_messmers_flame
+						value >= 60
+					}
+				}
+				desc = trait_incantation_messmers_flame_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_messmers_flame
+						value >= 40
+					}
+				}
+				desc = trait_incantation_messmers_flame_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_messmers_flame
+						value >= 20
+					}
+				}
+				desc = trait_incantation_messmers_flame_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_messmers_flame
+						value < 20
+					}
+				}
+				desc = trait_incantation_messmers_flame_1_desc
+			}
+			desc = trait_incantation_messmers_flame_desc
 		}
 	}
 	
@@ -4083,21 +4767,167 @@ incantation_miquella = {
 	same_opinion = 10
 	monthly_prestige_gain_mult = 0.05
 	
+	courtier_and_guest_opinion = 10
+	
 	track = {
 		20 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 4
+			max_combat_roll = 4
+			courtier_and_guest_opinion = 2
 		}
 		40 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 4
+			max_combat_roll = 4
+			courtier_and_guest_opinion = 2
 		}
 		60 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 6
+			max_combat_roll = 6
+			courtier_and_guest_opinion = 2
 		}
 		80 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 6
+			max_combat_roll = 6
+			courtier_and_guest_opinion = 2
 		}
 		100 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 10
+			learning = 2
+			diplomacy = 1
+			max_combat_roll = 10
+			courtier_and_guest_opinion = 2
+			knight_effectiveness_per_prowess = 0.01
+			legitimacy_gain_mult = 0.5
+		}
+	}
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_incantation_miquella
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_miquella
+						value >= 100
+					}
+				}
+				desc = trait_incantation_miquella_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_miquella
+						value >= 80
+					}
+				}
+				desc = trait_incantation_miquella_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_miquella
+						value >= 60
+					}
+				}
+				desc = trait_incantation_miquella_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_miquella
+						value >= 40
+					}
+				}
+				desc = trait_incantation_miquella_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_miquella
+						value >= 20
+					}
+				}
+				desc = trait_incantation_miquella_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_miquella
+						value < 20
+					}
+				}
+				desc = trait_incantation_miquella_1
+			}
+			desc = trait_incantation_miquella
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_incantation_miquella_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_miquella
+						value >= 100
+					}
+				}
+				desc = trait_incantation_miquella_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_miquella
+						value >= 80
+					}
+				}
+				desc = trait_incantation_miquella_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_miquella
+						value >= 60
+					}
+				}
+				desc = trait_incantation_miquella_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_miquella
+						value >= 40
+					}
+				}
+				desc = trait_incantation_miquella_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_miquella
+						value >= 20
+					}
+				}
+				desc = trait_incantation_miquella_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_miquella
+						value < 20
+					}
+				}
+				desc = trait_incantation_miquella_1_desc
+			}
+			desc = trait_incantation_miquella_desc
 		}
 	}
 	
@@ -4122,21 +4952,206 @@ incantation_order = {
 	same_opinion = 10
 	monthly_prestige_gain_mult = 0.05
 	
+	zealot_opinion = 10
+	
 	track = {
 		20 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 2
+			tolerance_advantage_mod = 2
+			hostile_county_attrition = -0.05
+			knight_limit = 1
+			zealot_opinion = 2
+			monthly_learning_lifestyle_xp_gain_mult = 0.15
+			
+			faith_modifier = {
+				parameter = order_incantation_bonuses
+				monthly_prestige = 0.1
+			}
 		}
 		40 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 2
+			tolerance_advantage_mod = 2
+			hostile_county_attrition = -0.05
+			knight_limit = 1
+			zealot_opinion = 2
+			owned_personal_scheme_success_chance_max_add = 10
+			
+			faith_modifier = {
+				parameter = order_incantation_bonuses
+				monthly_prestige = 0.1
+			}
 		}
 		60 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 3
+			tolerance_advantage_mod = 3
+			hostile_county_attrition = -0.1
+			knight_limit = 1
+			zealot_opinion = 2
+			diplomatic_range_mult = 0.25
+			
+			faith_modifier = {
+				parameter = order_incantation_bonuses
+				monthly_prestige = 0.1
+			}
 		}
 		80 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 4
+			tolerance_advantage_mod = 3
+			hostile_county_attrition = -0.1
+			knight_limit = 1
+			zealot_opinion = 2
+			negate_health_penalty_add = 0.5
+			
+			faith_modifier = {
+				parameter = order_incantation_bonuses
+				monthly_prestige = 0.1
+			}
 		}
 		100 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 5
+			learning = 2
+			diplomacy = 1
+			tolerance_advantage_mod = 10
+			hostile_county_attrition = -0.3
+			knight_limit = 4
+			zealot_opinion = 2
+			levy_siege = 0.1
+			long_reign_bonus_mult = 0.5
+			
+			faith_modifier = {
+				parameter = order_incantation_bonuses
+				monthly_prestige = 0.2
+			}
+		}
+	}
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_incantation_order
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_order
+						value >= 100
+					}
+				}
+				desc = trait_incantation_order_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_order
+						value >= 80
+					}
+				}
+				desc = trait_incantation_order_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_order
+						value >= 60
+					}
+				}
+				desc = trait_incantation_order_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_order
+						value >= 40
+					}
+				}
+				desc = trait_incantation_order_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_order
+						value >= 20
+					}
+				}
+				desc = trait_incantation_order_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_order
+						value < 20
+					}
+				}
+				desc = trait_incantation_order_1
+			}
+			desc = trait_incantation_order
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_incantation_order_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_order
+						value >= 100
+					}
+				}
+				desc = trait_incantation_order_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_order
+						value >= 80
+					}
+				}
+				desc = trait_incantation_order_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_order
+						value >= 60
+					}
+				}
+				desc = trait_incantation_order_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_order
+						value >= 40
+					}
+				}
+				desc = trait_incantation_order_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_order
+						value >= 20
+					}
+				}
+				desc = trait_incantation_order_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_order
+						value < 20
+					}
+				}
+				desc = trait_incantation_order_1_desc
+			}
+			desc = trait_incantation_order_desc
 		}
 	}
 	
@@ -4161,21 +5176,182 @@ incantation_rot = {
 	same_opinion = 10
 	monthly_prestige_gain_mult = 0.05
 	
+	prowess_per_stress_level = 1
+	
 	track = {
 		20 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 2
+			prowess_per_stress_level = 1
+			scarlet_swamp_advantage = 3
+			scarlet_swamp_attrition_mult = -0.1
+			army_pursuit_mult = 0.08
+			attacker_advantage = 2
 		}
 		40 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 3
+			prowess_per_stress_level = 1
+			scarlet_swamp_advantage = 3
+			scarlet_swamp_attrition_mult = -0.1
+			army_pursuit_mult = 0.12
+			attacker_advantage = 3
 		}
 		60 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 4
+			prowess_per_stress_level = 1
+			scarlet_swamp_advantage = 4
+			scarlet_swamp_attrition_mult = -0.15
+			army_pursuit_mult = 0.12
+			attacker_advantage = 4
 		}
 		80 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 4
+			prowess_per_stress_level = 1
+			scarlet_swamp_advantage = 4
+			scarlet_swamp_attrition_mult = -0.2
+			army_pursuit_mult = 0.16
+			attacker_advantage = 5
 		}
 		100 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 7
+			martial = 1
+			intrigue = 1
+			learning = 1
+			prowess_per_stress_level = 1
+			scarlet_swamp_advantage = 16
+			scarlet_swamp_attrition_mult = -0.25
+			army_pursuit_mult = 0.24
+			attacker_advantage = 6
+			siege_phase_time = -0.25
+		}
+	}
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_incantation_rot
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_rot
+						value >= 100
+					}
+				}
+				desc = trait_incantation_rot_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_rot
+						value >= 80
+					}
+				}
+				desc = trait_incantation_rot_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_rot
+						value >= 60
+					}
+				}
+				desc = trait_incantation_rot_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_rot
+						value >= 40
+					}
+				}
+				desc = trait_incantation_rot_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_rot
+						value >= 20
+					}
+				}
+				desc = trait_incantation_rot_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_rot
+						value < 20
+					}
+				}
+				desc = trait_incantation_rot_1
+			}
+			desc = trait_incantation_rot
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_incantation_rot_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_rot
+						value >= 100
+					}
+				}
+				desc = trait_incantation_rot_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_rot
+						value >= 80
+					}
+				}
+				desc = trait_incantation_rot_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_rot
+						value >= 60
+					}
+				}
+				desc = trait_incantation_rot_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_rot
+						value >= 40
+					}
+				}
+				desc = trait_incantation_rot_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_rot
+						value >= 20
+					}
+				}
+				desc = trait_incantation_rot_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_rot
+						value < 20
+					}
+				}
+				desc = trait_incantation_rot_1_desc
+			}
+			desc = trait_incantation_rot_desc
 		}
 	}
 	
@@ -4202,19 +5378,152 @@ incantation_spiral = {
 	
 	track = {
 		20 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 2
 		}
 		40 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 3
 		}
 		60 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 3
 		}
 		80 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 4
 		}
 		100 = {
-			prowess_no_portrait = 1
+			prowess_no_portrait = 4
+			diplomacy = 1
+			stewardship = 1
+			learning = 1
+		}
+	}
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_incantation_spiral
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_spiral
+						value >= 100
+					}
+				}
+				desc = trait_incantation_spiral_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_spiral
+						value >= 80
+					}
+				}
+				desc = trait_incantation_spiral_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_spiral
+						value >= 60
+					}
+				}
+				desc = trait_incantation_spiral_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_spiral
+						value >= 40
+					}
+				}
+				desc = trait_incantation_spiral_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_spiral
+						value >= 20
+					}
+				}
+				desc = trait_incantation_spiral_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_spiral
+						value < 20
+					}
+				}
+				desc = trait_incantation_spiral_1
+			}
+			desc = trait_incantation_spiral
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_incantation_spiral_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_spiral
+						value >= 100
+					}
+				}
+				desc = trait_incantation_spiral_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_spiral
+						value >= 80
+					}
+				}
+				desc = trait_incantation_spiral_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_spiral
+						value >= 60
+					}
+				}
+				desc = trait_incantation_spiral_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_spiral
+						value >= 40
+					}
+				}
+				desc = trait_incantation_spiral_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_spiral
+						value >= 20
+					}
+				}
+				desc = trait_incantation_spiral_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_spiral
+						value < 20
+					}
+				}
+				desc = trait_incantation_spiral_1_desc
+			}
+			desc = trait_incantation_spiral_desc
 		}
 	}
 	
@@ -4241,19 +5550,150 @@ incantation_two_fingers = {
 	
 	track = {
 		20 = {
-			prowess_no_portrait = 1
+			hostile_county_attrition = -0.1
 		}
 		40 = {
-			prowess_no_portrait = 1
+			hostile_county_attrition = -0.1
 		}
 		60 = {
-			prowess_no_portrait = 1
+			hostile_county_attrition = -0.1
 		}
 		80 = {
-			prowess_no_portrait = 1
+			hostile_county_attrition = -0.1
 		}
 		100 = {
-			prowess_no_portrait = 1
+			hostile_county_attrition = -0.1
+			learning = 3
+		}
+	}
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_incantation_two_fingers
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_two_fingers
+						value >= 100
+					}
+				}
+				desc = trait_incantation_two_fingers_6
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_two_fingers
+						value >= 80
+					}
+				}
+				desc = trait_incantation_two_fingers_5
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_two_fingers
+						value >= 60
+					}
+				}
+				desc = trait_incantation_two_fingers_4
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_two_fingers
+						value >= 40
+					}
+				}
+				desc = trait_incantation_two_fingers_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_two_fingers
+						value >= 20
+					}
+				}
+				desc = trait_incantation_two_fingers_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_two_fingers
+						value < 20
+					}
+				}
+				desc = trait_incantation_two_fingers_1
+			}
+			desc = trait_incantation_two_fingers
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_incantation_two_fingers_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_two_fingers
+						value >= 100
+					}
+				}
+				desc = trait_incantation_two_fingers_6_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_two_fingers
+						value >= 80
+					}
+				}
+				desc = trait_incantation_two_fingers_5_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_two_fingers
+						value >= 60
+					}
+				}
+				desc = trait_incantation_two_fingers_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_two_fingers
+						value >= 40
+					}
+				}
+				desc = trait_incantation_two_fingers_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_two_fingers
+						value >= 20
+					}
+				}
+				desc = trait_incantation_two_fingers_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = incantation_two_fingers
+						value < 20
+					}
+				}
+				desc = trait_incantation_two_fingers_1_desc
+			}
+			desc = trait_incantation_two_fingers_desc
 		}
 	}
 	

@@ -1448,7 +1448,6 @@ doctrine_death_affinity_virtuous = {
 	}
 	parameters = {
 		death_affinity_accepted = yes
-		death_sorcery_bonuses = yes
 	}
 }
 

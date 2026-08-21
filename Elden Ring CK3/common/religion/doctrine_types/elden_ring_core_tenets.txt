@@ -82,9 +82,9 @@ tenet_primordial_curse = {
 	}
 
 	is_shown = {
-		# OR = {
-			# religion_tag = crucible_religion_elden_ring
-		# }
+		#OR = {
+		#	religion_tag = crucible_religion_elden_ring
+		#}
 	}
 
 	can_pick = {
@@ -97,6 +97,7 @@ tenet_primordial_curse = {
 	parameters = {
 		blessed_by_the_crucible = yes #for giving opinion bonuses to traits that could be considered "deformities"
 	}
+	
 	character_modifier = {
 		same_faith_opinion = 5
 		dread_gain_mult = 0.15
@@ -130,9 +131,9 @@ tenet_great_spiral = {
 	}
 
 	is_shown = {
-		# OR = {
-			# religion_tag = crucible_religion_elden_ring
-		# }
+		#OR = {
+		#	religion_tag = crucible_religion_elden_ring
+		#}
 	}
 
 	can_pick = {
@@ -143,8 +144,9 @@ tenet_great_spiral = {
 	}
 
 	parameters = {
-		
+	
 	}
+	
 	character_modifier = {
 		same_faith_opinion = 5
 		dread_gain_mult = 0.5
@@ -168,14 +170,12 @@ tenet_ancient_dragon = {
 		else = {
 			value = faith_tenet_cost_high
 		}
-
-		
 	}
 
 	is_shown = {
-		# OR = {
-			# religion_tag = crucible_religion_elden_ring
-		# }
+		#OR = {
+		#	religion_tag = crucible_religion_elden_ring
+		#}
 	}
 
 	can_pick = {
@@ -190,8 +190,9 @@ tenet_ancient_dragon = {
 	}
 
 	parameters = {
-		
+	
 	}
+	
 	character_modifier = {
 		advantage = 5
 		army_toughness_mult = 0.1
@@ -215,14 +216,12 @@ tenet_bayle_dragon = {
 		else = {
 			value = faith_tenet_cost_high
 		}
-
-		
 	}
 
 	is_shown = {
-		# OR = {
-			# religion_tag = crucible_religion_elden_ring
-		# }
+		#OR = {
+		#	religion_tag = crucible_religion_elden_ring
+		#}
 	}
 
 	can_pick = {
@@ -237,8 +236,9 @@ tenet_bayle_dragon = {
 	}
 
 	parameters = {
-		
+	
 	}
+	
 	character_modifier = {
 		tyranny_gain_mult = 0.1
 		levy_size = 0.1
@@ -262,14 +262,12 @@ tenet_dragon_cult = {
 		else = {
 			value = faith_tenet_cost_high
 		}
-
-		
 	}
 
 	is_shown = {
-		# OR = {
-			# religion_tag = crucible_religion_elden_ring
-		# }
+		#OR = {
+		#	religion_tag = crucible_religion_elden_ring
+		#}
 	}
 
 	can_pick = {
@@ -286,6 +284,7 @@ tenet_dragon_cult = {
 		dragon_syncretic_actor_opinion_active = yes
 		opinion_of_dragon_syncretic_recipient_opinion_active = 30 #Sync this to syncretic_mutual_opinion_bonus_value
 	}
+	
 	character_modifier = {
 		advantage = 5
 		prestige_gain_mult = 0.1
@@ -307,14 +306,12 @@ tenet_golden_order = {
 		else = {
 			value = faith_tenet_cost_high
 		}
-
-		
 	}
 
 	is_shown = {
-		# OR = {
-			# religion_tag = crucible_religion_elden_ring
-		# }
+		#OR = {
+		#	religion_tag = crucible_religion_elden_ring
+		#}
 	}
 
 	can_pick = {
@@ -325,8 +322,10 @@ tenet_golden_order = {
 	}
 
 	parameters = {
-		
+		erdtree_incantation_bonuses = yes
+		order_incantation_bonuses = yes
 	}
+	
 	character_modifier = {
 		defender_advantage = 10
 		hard_casualty_modifier = -0.1
@@ -348,14 +347,12 @@ tenet_unalloyed_order = {
 		else = {
 			value = faith_tenet_cost_high
 		}
-
-		
 	}
 
 	is_shown = {
-		# OR = {
-			# religion_tag = crucible_religion_elden_ring
-		# }
+		#OR = {
+		#	religion_tag = crucible_religion_elden_ring
+		#}
 	}
 
 	can_pick = {
@@ -366,15 +363,16 @@ tenet_unalloyed_order = {
 	}
 
 	parameters = {
-		
+	
 	}
+	
 	character_modifier = {
 		hard_casualty_modifier = -0.2
 	}
 	
 	traits = {
 		virtues = { }
-		sins = {    }
+		sins = { }
 	}
 }
 
@@ -388,33 +386,32 @@ tenet_glintstone = { #all things glintstone related, we love magic here
 		else = {
 			value = faith_tenet_cost_high
 		}
-
-		
 	}
 
 	is_shown = {
-		# OR = {
-			# religion_tag = crucible_religion_elden_ring
-		# }
+		#OR = {
+		#	religion_tag = crucible_religion_elden_ring
+		#}
 	}
 
 	can_pick = {
-		# custom_description = {
-			# text = incompatible_tenet_primordial_desc
-			# NOT = { doctrine:tenet_primordial_curse = { is_in_list = selected_doctrines } }	
-		# }
+		#custom_description = {
+		#	text = incompatible_tenet_primordial_desc
+		#	NOT = { doctrine:tenet_primordial_curse = { is_in_list = selected_doctrines } }	
+		#}
 	}
 
 	parameters = {
-		
+	
 	}
+	
 	character_modifier = {
 		learning = 2
 	}
 	
 	traits = {
 		virtues = { sorcerous_knight }
-		sins = {    }
+		sins = { }
 	}
 }
 
@@ -428,33 +425,32 @@ tenet_destroy_golden_order = { #enemy of all the order faiths( for the dungeater
 		else = {
 			value = faith_tenet_cost_high
 		}
-
-		
 	}
 
 	is_shown = {
-		# OR = {
-			# religion_tag = crucible_religion_elden_ring
-		# }
+		#OR = {
+		#	religion_tag = crucible_religion_elden_ring
+		#}
 	}
 
 	can_pick = {
-		# custom_description = {
-			# text = incompatible_tenet_primordial_desc
-			# NOT = { doctrine:tenet_primordial_curse = { is_in_list = selected_doctrines } }	
-		# }
+		#custom_description = {
+		#	text = incompatible_tenet_primordial_desc
+		#	NOT = { doctrine:tenet_primordial_curse = { is_in_list = selected_doctrines } }	
+		#}
 	}
 
 	parameters = {
 		hostility_same_religion = 3
 	}
+	
 	character_modifier = {
 		
 	}
 	
 	traits = {
-		virtues = {   }
-		sins = {    }
+		virtues = { }
+		sins = { }
 	}
 }
 
@@ -468,33 +464,33 @@ tenet_live_in_death = {
 		else = {
 			value = faith_tenet_cost_high
 		}
-
-		
 	}
 
 	is_shown = {
-		# OR = {
-			# religion_tag = crucible_religion_elden_ring
-		# }
+		#OR = {
+		#	religion_tag = crucible_religion_elden_ring
+		#}
 	}
 
 	can_pick = {
-		# custom_description = {
-			# text = incompatible_tenet_primordial_desc
-			# NOT = { doctrine:tenet_primordial_curse = { is_in_list = selected_doctrines } }	
-		# }
+		#custom_description = {
+		#	text = incompatible_tenet_primordial_desc
+		#	NOT = { doctrine:tenet_primordial_curse = { is_in_list = selected_doctrines } }	
+		#}
 	}
 
 	parameters = {
 		hostility_same_religion = 3
+		death_sorcery_bonuses = yes
 	}
+	
 	character_modifier = {
 		
 	}
 	
 	traits = {
 		virtues = { }
-		sins = {    }
+		sins = { }
 	}
 }
 
@@ -505,9 +501,9 @@ tenet_golden_exile = { #for messmer and his band
 	}
 
 	is_shown = {
-		# OR = {
-			# religion_tag = crucible_religion_elden_ring
-		# }
+		#OR = {
+		#	religion_tag = crucible_religion_elden_ring
+		#}
 	}
 
 	can_pick = {
@@ -518,16 +514,17 @@ tenet_golden_exile = { #for messmer and his band
 	}
 
 	parameters = {
-		
+	
 	}
+	
 	character_modifier = {
 		tolerance_advantage_mod = 10
 		hard_casualty_modifier = 0.05
 	}
 	
 	traits = {
-		virtues = {  }
-		sins = {  }
+		virtues = { }
+		sins = { }
 	}
 }
 
@@ -541,14 +538,12 @@ tenet_st_trinas_blessing = {
 		else = {
 			value = faith_tenet_cost_high
 		}
-
-		
 	}
 
 	is_shown = {
-		# OR = {
-			# religion_tag = crucible_religion_elden_ring
-		# }
+		#OR = {
+		#	religion_tag = crucible_religion_elden_ring
+		#}
 	}
 
 	can_pick = {
@@ -559,15 +554,15 @@ tenet_st_trinas_blessing = {
 	}
 
 	parameters = {
-		
+	
 	}
+	
 	character_modifier = {
 		stress_gain_mult = -0.1
 	}
 	
 	traits = {
 		virtues = { }
-
 	}
 }
 
@@ -581,14 +576,12 @@ tenet_golden_order_syncretism = {
 		else = {
 			value = faith_tenet_cost_high
 		}
-
-		
 	}
 
 	is_shown = {
-		# OR = {
-			# religion_tag = crucible_religion_elden_ring
-		# }
+		#OR = {
+		#	religion_tag = crucible_religion_elden_ring
+		#}
 	}
 
 	can_pick = {
@@ -609,6 +602,7 @@ tenet_golden_order_syncretism = {
 		golden_syncretic_actor_opinion_active = yes
 		opinion_of_golden_syncretic_recipient_opinion_active = 30 #Sync this to syncretic_mutual_opinion_bonus_value
 	}
+	
 	character_modifier = {
 		defender_advantage = 5
 	}
@@ -630,14 +624,12 @@ tenet_children_of_the_badlands = {
 		else = {
 			value = faith_tenet_cost_high
 		}
-
-		
 	}
 
 	is_shown = {
-		# OR = {
-			# religion_tag = crucible_religion_elden_ring
-		# }
+		#OR = {
+		#	religion_tag = crucible_religion_elden_ring
+		#}
 	}
 
 	can_pick = {
@@ -645,8 +637,9 @@ tenet_children_of_the_badlands = {
 	}
 
 	parameters = {
-		
+	
 	}
+	
 	character_modifier = {
 		stress_loss_mult = 0.15
 		monthly_prestige = 0.3
@@ -658,7 +651,6 @@ tenet_children_of_the_badlands = {
 	
 	traits = {
 		virtues = { strong physique_good_3 }
-
 	}
 }
 
@@ -672,14 +664,12 @@ tenet_giants_flame = {
 		else = {
 			value = faith_tenet_cost_high
 		}
-
-		
 	}
 
 	is_shown = {
-		# OR = {
-			# religion_tag = crucible_religion_elden_ring
-		# }
+		#OR = {
+		#	religion_tag = crucible_religion_elden_ring
+		#}
 	}
 
 	can_pick = {
@@ -690,8 +680,9 @@ tenet_giants_flame = {
 	}
 
 	parameters = {
-		
+	
 	}
+	
 	character_modifier = {
 		dread_gain_mult = 0.3
 		hostile_scheme_power_mult = 0.1
@@ -701,7 +692,6 @@ tenet_giants_flame = {
 	
 	traits = {
 		virtues = { }
-
 	}
 }
 
@@ -715,14 +705,12 @@ tenet_frenzied_flame = {
 		else = {
 			value = faith_tenet_cost_high
 		}
-
-		
 	}
 
 	is_shown = {
-		# OR = {
-			# religion_tag = crucible_religion_elden_ring
-		# }
+		#OR = {
+		#	religion_tag = crucible_religion_elden_ring
+		#}
 	}
 
 	can_pick = {
@@ -733,24 +721,24 @@ tenet_frenzied_flame = {
 	}
 
 	parameters = {
-		
+	
 	}
+	
 	character_modifier = {
 		dread_gain_mult = 0.4
-	hostile_scheme_power_mult = 0.15
-	general_opinion = -15
-	same_faith_opinion = 5
-	stress_gain_mult = 0.25
-	monthly_piety_per_stress_level = 0.2
-	faith_hostility_advantage = 10
-	monthly_control_growth = -0.1
-	army_damage_mult = 0.15
-	fatal_casualties_mult = 0.1
+		hostile_scheme_power_mult = 0.15
+		general_opinion = -15
+		same_faith_opinion = 5
+		stress_gain_mult = 0.25
+		monthly_piety_per_stress_level = 0.2
+		faith_hostility_advantage = 10
+		monthly_control_growth = -0.1
+		army_damage_mult = 0.15
+		fatal_casualties_mult = 0.1
 	}
 	
 	traits = {
 		virtues = { }
-
 	}
 }
 
@@ -764,14 +752,12 @@ tenet_rot = {
 		else = {
 			value = faith_tenet_cost_high
 		}
-
-		
 	}
 
 	is_shown = {
-		# OR = {
-			# religion_tag = crucible_religion_elden_ring
-		# }
+		#OR = {
+		#	religion_tag = crucible_religion_elden_ring
+		#}
 	}
 
 	can_pick = {
@@ -782,8 +768,9 @@ tenet_rot = {
 	}
 
 	parameters = {
-		
+	
 	}
+	
 	character_modifier = {
 		health = 1
 		disease_resistance = 1
@@ -797,7 +784,6 @@ tenet_rot = {
 	
 	traits = {
 		virtues = { scarlet_rot scarlet_rot_child scarlet_rot_malenia }
-
 	}
 }
 
@@ -811,14 +797,12 @@ tenet_serpents = {
 		else = {
 			value = faith_tenet_cost_high
 		}
-
-		
 	}
 
 	is_shown = {
-		# OR = {
-			# religion_tag = crucible_religion_elden_ring
-		# }
+		#OR = {
+		#	religion_tag = crucible_religion_elden_ring
+		#}
 	}
 
 	can_pick = {
@@ -832,6 +816,7 @@ tenet_serpents = {
 		human_sacrifice_active = yes
 		flower_war_cb_active = yes
 	}
+	
 	character_modifier = {
 		hostile_scheme_power_mult = 0.2
 		scheme_discovery_chance_mult = -0.1
@@ -843,6 +828,5 @@ tenet_serpents = {
 	
 	traits = {
 		virtues = { manserpent god_serpent cannibal }
-
 	}
 }
