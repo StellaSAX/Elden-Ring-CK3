@@ -537,6 +537,7 @@ can_traverse_river = {
 		}
 		government_has_flag = government_enables_river_travel
 		dynasty ?= { has_dynasty_modifier = fp1_legacy_of_piracy_modifier }
+		has_character_modifier = land_of_shadows_passage
 	}
 }
 

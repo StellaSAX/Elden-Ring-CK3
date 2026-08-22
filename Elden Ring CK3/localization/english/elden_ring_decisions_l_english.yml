@@ -181,4 +181,13 @@
  become_perfumer_decision_tooltip:0 "Become Perfumer"
  become_perfumer_decision_confirm:0 "Bring me books about perfumes"
  
+ gain_access_to_shadowland:0 "Gib Land of Shadows"
+ gain_access_to_shadowland_desc:0 "I wanna see the skibidi tree!"
+ gain_access_to_shadowland_confirm:0 "Yee!"
+ gain_access_to_shadowland_tooltip:0 "SKIBID!"
+ 
+ remove_access_to_shadowland:0 "Delete Land of Shadows"
+ remove_access_to_shadowland_desc:0 "I dont want to see the skibidi tree anymore!!!!!"
+ remove_access_to_shadowland_confirm:0 "Yay!"
+ remove_access_to_shadowland_tooltip:0 "POOP!"
  

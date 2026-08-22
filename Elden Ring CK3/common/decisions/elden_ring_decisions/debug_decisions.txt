@@ -1,0 +1,33 @@
+﻿gain_access_to_shadowland = {
+	ai_check_interval = 0
+
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_culture.dds" }
+
+	decision_group_type = debug
+
+	is_shown = {
+		debug_only = yes
+		NOT = { has_character_modifier = land_of_shadows_passage }
+	}
+
+	effect = {
+		add_character_modifier = land_of_shadows_passage
+	}
+}
+
+remove_access_to_shadowland = {
+	ai_check_interval = 0
+
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_culture.dds" }
+
+	decision_group_type = debug
+
+	is_shown = {
+		debug_only = yes
+		has_character_modifier = land_of_shadows_passage
+	}
+
+	effect = {
+		remove_character_modifier = land_of_shadows_passage
+	}
+}
