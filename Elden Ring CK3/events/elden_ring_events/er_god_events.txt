@@ -1,11 +1,11 @@
-﻿namespace = become_god_elden_ring
+﻿namespace = er_god
 
 
-become_god_elden_ring.0001 = { #become a god
+er_god.0001 = { #become a god
 
 	type = character_event
-	desc = become_god_elden_ring.0001.desc
-	title = become_god_elden_ring.0001.title
+	desc = er_god.0001.desc
+	title = er_god.0001.title
 	theme = war
 
 	left_portrait = {
@@ -20,7 +20,7 @@ become_god_elden_ring.0001 = { #become a god
 	}
 	
 	option = { # become GOD
-	name = become_god_elden_ring.0001.a
+	name = er_god.0001.a
 		
 		add_trait = god_elden_ring
 		add_character_modifier = {
@@ -33,11 +33,11 @@ become_god_elden_ring.0001 = { #become a god
 	
 }
 
-become_god_elden_ring.0002 = { #Gain Army
+er_god.0002 = { #Gain Army
 
 	type = character_event
-	desc = become_god_elden_ring.0002.desc
-	title = become_god_elden_ring.0002.title
+	desc = er_god.0002.desc
+	title = er_god.0002.title
 	theme = war
 
 	left_portrait = {
@@ -50,7 +50,7 @@ become_god_elden_ring.0002 = { #Gain Army
 	}
 	
 	option = { # become GOD
-		name = become_god_elden_ring.0002.a
+		name = er_god.0002.a
 		
 		add_pressed_claim = location.county
 		add_pressed_claim = location.county.duchy

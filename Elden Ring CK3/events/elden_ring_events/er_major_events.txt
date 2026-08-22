@@ -1,10 +1,10 @@
-﻿namespace = elden_major
+﻿namespace = er_major
 
 #I restored Raya Lucaria
-elden_major.0001 = { 
+er_major.0001 = { 
 	type = character_event
-	title = elden_major.0001.t
-	desc = elden_major.0001.desc
+	title = er_major.0001.t
+	desc = er_major.0001.desc
 	theme = realm
 	left_portrait = {
 		character = scope:raya_lucaria_uniter
@@ -20,17 +20,17 @@ elden_major.0001 = {
 	}
 	
 	option = {
-		name = elden_major.0001.a
+		name = er_major.0001.a
 		
 		give_nickname = nick_the_enlightened
 	}
 }
 
 #Someone restored Raya Lucaria
-elden_major.0002 = { 
+er_major.0002 = { 
 	type = character_event
-	title = elden_major.0001.t
-	desc = elden_major.0002.desc
+	title = er_major.0001.t
+	desc = er_major.0002.desc
 	theme = realm
 	left_portrait = {
 		character = scope:raya_lucaria_uniter

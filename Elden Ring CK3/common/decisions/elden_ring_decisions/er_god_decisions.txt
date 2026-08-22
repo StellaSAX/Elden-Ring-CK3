@@ -58,7 +58,7 @@
 	effect = {
 		custom_tooltip = {
 			text = becoming_dragonborn_decision_effect_1
-			trigger_event = { id = become_god_elden_ring.0001 }
+			trigger_event = { id = er_god.0001 }
 		}
 	}
 	

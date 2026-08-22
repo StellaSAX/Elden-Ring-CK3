@@ -1,21 +1,21 @@
-﻿namespace = elden_ring_magic_education
+﻿namespace = er_magic
 # CONCLUSION EVENT
-elden_ring_magic_education.0009 = {
+er_magic.0009 = {
 	type = activity_event
-	title = elden_ring_magic_education.0009.t
+	title = er_magic.0009.t
 	desc = {
-		desc = elden_ring_magic_education.0009.desc
+		desc = er_magic.0009.desc
 		triggered_desc = {
 			trigger = {
 				scope:teacher_1 = { adult_education_teacher_would_leave_trigger = yes }
 			}
-			desc = elden_ring_magic_education.0009.desc_teacher_1
+			desc = er_magic.0009.desc_teacher_1
 		}
 		triggered_desc = {
 			trigger = {
 				scope:teacher_2 = { adult_education_teacher_would_leave_trigger = yes }
 			}
-			desc = elden_ring_magic_education.0009.desc_teacher_2
+			desc = er_magic.0009.desc_teacher_2
 		}
 	}
 	theme = university
@@ -165,9 +165,9 @@ elden_ring_magic_education.0009 = {
 }
 
 ## ARRIVAL EVENT
-elden_ring_magic_education.0010 = {
+er_magic.0010 = {
 	type = activity_event
-	title = elden_ring_magic_education.0010.t
+	title = er_magic.0010.t
 	desc = {
 		first_valid = {
 			triggered_desc = {
@@ -176,16 +176,16 @@ elden_ring_magic_education.0010 = {
 						has_university_building_trigger = yes
 					}
 				}
-				desc = elden_ring_magic_education.0010.desc_uni
+				desc = er_magic.0010.desc_uni
 			}
-			desc = elden_ring_magic_education.0010.desc_religious
+			desc = er_magic.0010.desc_religious
 		}
-		desc = elden_ring_magic_education.0010.desc_end
+		desc = er_magic.0010.desc_end
 		triggered_desc = {
 			trigger = {
 				"scope:host.capital_province.squared_distance(scope:location)" >= squared_distance_massive
 			}
-			desc = elden_ring_magic_education.0010.desc_very_very_far
+			desc = er_magic.0010.desc_very_very_far
 		}
 	}
 	theme = university

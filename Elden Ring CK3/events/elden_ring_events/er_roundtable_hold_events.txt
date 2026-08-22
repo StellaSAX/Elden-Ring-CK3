@@ -1,11 +1,11 @@
-﻿namespace = roundtable_hold_decision_events
+﻿namespace = er_roundtable_hold
 
 
 ################
-# roundtable_hold_decision_events.0001#get to the table
-# roundtable_hold_decision_events.0002#talk to leader
-# roundtable_hold_decision_events.0003#buy artifact
-# roundtable_hold_decision_events.0004#change faith
+# er_roundtable_hold.0001#get to the table
+# er_roundtable_hold.0002#talk to leader
+# er_roundtable_hold.0003#buy artifact
+# er_roundtable_hold.0004#change faith
 ################
 
 	#for when i want to pay the leader of the roundtable, i am still testing things
@@ -15,11 +15,11 @@
 		# }
 
 #get to the table
-roundtable_hold_decision_events.0001 = {
+er_roundtable_hold.0001 = {
 	type = character_event
-	title = roundtable_hold_decision_events.0001.t
+	title = er_roundtable_hold.0001.t
 	window = visit_settlement_window
-	desc = roundtable_hold_decision_events.0001.desc
+	desc = er_roundtable_hold.0001.desc
 	theme = landless_adventurer
 
 	override_background = { reference = roundtable_main_hall }
@@ -43,10 +43,10 @@ roundtable_hold_decision_events.0001 = {
 	
 	#talk to leader
 	option = {
-		name = roundtable_hold_decision_events.0001.a
+		name = er_roundtable_hold.0001.a
 		trigger = {
 			custom_tooltip = {
-				text = roundtable_hold_decision_events.0002.cooldown.tt
+				text = er_roundtable_hold.0002.cooldown.tt
 				NAND = {
 					has_variable = hired_tarnished_in_roundtable
 					has_variable = increse_skill_in_roundtable
@@ -55,32 +55,32 @@ roundtable_hold_decision_events.0001 = {
 		}
 		
 		#Actual transition event
-		custom_tooltip = roundtable_hold_decision_events.0001.a.tt
-		trigger_event = roundtable_hold_decision_events.0002
+		custom_tooltip = er_roundtable_hold.0001.a.tt
+		trigger_event = er_roundtable_hold.0002
 		ai_chance = { base = 0 }
 	}
 	#buy artifact
 	option = {
-		name = roundtable_hold_decision_events.0001.b
+		name = er_roundtable_hold.0001.b
 		
 		#Actual transition event
-		custom_tooltip = roundtable_hold_decision_events.0001.b.tt
-		trigger_event = roundtable_hold_decision_events.0003
+		custom_tooltip = er_roundtable_hold.0001.b.tt
+		trigger_event = er_roundtable_hold.0003
 		ai_chance = { base = 0 }
 	}
 	#change faith
 	option = {
-		name = roundtable_hold_decision_events.0001.c
+		name = er_roundtable_hold.0001.c
 		
 		#Actual transition event
-		custom_tooltip = roundtable_hold_decision_events.0001.c.tt
-		trigger_event = roundtable_hold_decision_events.0004
+		custom_tooltip = er_roundtable_hold.0001.c.tt
+		trigger_event = er_roundtable_hold.0004
 		ai_chance = { base = 0 }
 	}
 	#get out
 	option = {
-		name = roundtable_hold_decision_events.1000.d
-		custom_tooltip = roundtable_hold_decision_events.1000.d.tt
+		name = er_roundtable_hold.1000.d
+		custom_tooltip = er_roundtable_hold.1000.d.tt
 		#For loc reasons
 		1000_remember_settlement_effect = yes
 		1000_clean_up_effect = yes
@@ -88,11 +88,11 @@ roundtable_hold_decision_events.0001 = {
 	}
 }
 #talk to other tarnished
-roundtable_hold_decision_events.0002 = {
+er_roundtable_hold.0002 = {
 	type = character_event
-	title = roundtable_hold_decision_events.0001.t	
+	title = er_roundtable_hold.0001.t	
 	window = visit_settlement_window
-	desc = roundtable_hold_decision_events.0002.desc
+	desc = er_roundtable_hold.0002.desc
 	theme = landless_adventurer
 
 	override_background = { reference = roundtable_main_hall }
@@ -140,10 +140,10 @@ roundtable_hold_decision_events.0002 = {
 
 	#gain skill
 	option = {
-		name = roundtable_hold_decision_events.0002.a
+		name = er_roundtable_hold.0002.a
 		trigger = {
 			custom_tooltip = {
-				text = roundtable_hold_decision_events.0002.cooldown.tt
+				text = er_roundtable_hold.0002.cooldown.tt
 				NOT = { has_variable = increse_skill_in_roundtable }
 			}
 		}
@@ -153,7 +153,7 @@ roundtable_hold_decision_events.0002 = {
 		}
 		remove_short_term_gold = 100
 
-		trigger_event = roundtable_hold_decision_events.0001
+		trigger_event = er_roundtable_hold.0001
 		random_list = {
 			20 = { 
 				
@@ -225,10 +225,10 @@ roundtable_hold_decision_events.0002 = {
 	}
 	#recruit a tarnished
 	option = {
-		name = roundtable_hold_decision_events.0002.b
+		name = er_roundtable_hold.0002.b
 		trigger = {
 			custom_tooltip = {
-				text = roundtable_hold_decision_events.0002.cooldown.tt
+				text = er_roundtable_hold.0002.cooldown.tt
 				NOT = { has_variable = hired_tarnished_in_roundtable }
 			}
 		}
@@ -304,7 +304,7 @@ roundtable_hold_decision_events.0002 = {
 			}
 		
 		}
-		trigger_event = roundtable_hold_decision_events.0001
+		trigger_event = er_roundtable_hold.0001
 		add_courtier = scope:random_tarnished_to_hire
 		ai_chance = {
 			base = 50
@@ -318,10 +318,10 @@ roundtable_hold_decision_events.0002 = {
 	}
 	#get claim on land
 	option = {
-		name = roundtable_hold_decision_events.0002.c
+		name = er_roundtable_hold.0002.c
 		trigger = {
 			custom_tooltip = {
-				text = roundtable_hold_decision_events.0002.cooldown.tt
+				text = er_roundtable_hold.0002.cooldown.tt
 				NOT = { has_variable = got_claim_in_roundtable }
 			}
 		}
@@ -342,7 +342,7 @@ roundtable_hold_decision_events.0002 = {
 		add_pressed_claim = location.county.duchy.kingdom
 		add_pressed_claim = location.county.duchy.kingdom.empire
 	
-		trigger_event = roundtable_hold_decision_events.0001
+		trigger_event = er_roundtable_hold.0001
 		
 		ai_chance = {
 			base = 50
@@ -356,14 +356,14 @@ roundtable_hold_decision_events.0002 = {
 	
 	#get claim on great rune
 	option = {
-		name = roundtable_hold_decision_events.0002.d
+		name = er_roundtable_hold.0002.d
 		trigger = {
 			custom_tooltip = {
-				text = roundtable_hold_decision_events.0002.cooldown.tt
+				text = er_roundtable_hold.0002.cooldown.tt
 				NOT = { has_variable = got_claim_for_rune_in_roundtable }
 			}
 			custom_tooltip = {
-				text = roundtable_hold_decision_events.0002.cooldown.norune
+				text = er_roundtable_hold.0002.cooldown.norune
 				root.location.county.holder.top_liege = {
 					every_character_artifact = {
 						limit = {
@@ -392,7 +392,7 @@ roundtable_hold_decision_events.0002 = {
 			remove_short_term_gold = 100
 		}
 	
-		trigger_event = roundtable_hold_decision_events.0001
+		trigger_event = er_roundtable_hold.0001
 		
 		ai_chance = {
 			base = 50
@@ -407,8 +407,8 @@ roundtable_hold_decision_events.0002 = {
 	
 	#get out
 	option = {
-		name = roundtable_hold_decision_events.0002.e
-		trigger_event = roundtable_hold_decision_events.0001
+		name = er_roundtable_hold.0002.e
+		trigger_event = er_roundtable_hold.0001
 		ai_chance = {
 			base = 1
 		}
@@ -416,11 +416,11 @@ roundtable_hold_decision_events.0002 = {
 
 }
 #buy artifact
-roundtable_hold_decision_events.0003 = {
+er_roundtable_hold.0003 = {
 	type = character_event
-	title = roundtable_hold_decision_events.0003.t	
+	title = er_roundtable_hold.0003.t	
 	window = visit_settlement_window
-	desc = roundtable_hold_decision_events.0003.desc
+	desc = er_roundtable_hold.0003.desc
 	theme = landless_adventurer
 
 	override_background = { reference = roundtable_smith }
@@ -432,7 +432,7 @@ roundtable_hold_decision_events.0003 = {
 	
 	#Banished Knight's Greatsword
 	option = {
-		name = roundtable_hold_decision_events.0003.a
+		name = er_roundtable_hold.0003.a
 		trigger = { gold >= 150 }
 		show_as_unavailable = { always = yes }
 		remove_short_term_gold = 150
@@ -473,7 +473,7 @@ roundtable_hold_decision_events.0003 = {
 	}
 	#Noble's Slender Sword
 	option = {
-		name = roundtable_hold_decision_events.0003.b
+		name = er_roundtable_hold.0003.b
 		trigger = { gold >= 500 }
 		show_as_unavailable = { always = yes }
 		remove_short_term_gold = 500
@@ -509,7 +509,7 @@ roundtable_hold_decision_events.0003 = {
 	}
 	#Knight's Greatsword
 	option = {
-		name = roundtable_hold_decision_events.0003.c
+		name = er_roundtable_hold.0003.c
 		#elden_steel_create_artifact_WP_A_0609_effect = yes
 		trigger = { gold >= 200 }
 		show_as_unavailable = { always = yes }
@@ -540,7 +540,7 @@ roundtable_hold_decision_events.0003 = {
 	
 	#knight armor
 	option = {
-		name = roundtable_hold_decision_events.0003.d
+		name = er_roundtable_hold.0003.d
 		trigger = { gold >= 400 }
 		show_as_unavailable = { always = yes }
 		remove_short_term_gold = 400
@@ -573,7 +573,7 @@ roundtable_hold_decision_events.0003 = {
 	}
 	#chain armor
 	option = {
-		name = roundtable_hold_decision_events.0003.e
+		name = er_roundtable_hold.0003.e
 		#elden_steel_create_artifact_WP_A_0609_effect = yes
 		trigger = { gold >= 200 }
 		show_as_unavailable = { always = yes }
@@ -599,24 +599,24 @@ roundtable_hold_decision_events.0003 = {
 	
 	#get out
 	option = {
-		name = roundtable_hold_decision_events.1000.i
-		custom_tooltip = roundtable_hold_decision_events.1000.i.tt
+		name = er_roundtable_hold.1000.i
+		custom_tooltip = er_roundtable_hold.1000.i.tt
 		#For loc reasons
-		trigger_event = roundtable_hold_decision_events.0001
+		trigger_event = er_roundtable_hold.0001
 		1000_clean_up_effect = yes
 		ai_chance = { base = 50 }
 	}
 	
 	after = {
-		trigger_event = roundtable_hold_decision_events.0001
+		trigger_event = er_roundtable_hold.0001
 	}
 }
 
-roundtable_hold_decision_events.0004 = {
+er_roundtable_hold.0004 = {
 	type = character_event
-	title = roundtable_hold_decision_events.0004.t	
+	title = er_roundtable_hold.0004.t	
 	window = visit_settlement_window
-	desc = roundtable_hold_decision_events.0004.desc
+	desc = er_roundtable_hold.0004.desc
 	theme = landless_adventurer
 
 	override_background = { reference = roundtable_study }
@@ -670,10 +670,10 @@ roundtable_hold_decision_events.0004 = {
 	
 	#get out
 	option = {
-		name = roundtable_hold_decision_events.1000.i
-		custom_tooltip = roundtable_hold_decision_events.1000.i.tt
+		name = er_roundtable_hold.1000.i
+		custom_tooltip = er_roundtable_hold.1000.i.tt
 		#For loc reasons
-		trigger_event = roundtable_hold_decision_events.0001
+		trigger_event = er_roundtable_hold.0001
 		1000_clean_up_effect = yes
 		ai_chance = { base = 50 }
 	}

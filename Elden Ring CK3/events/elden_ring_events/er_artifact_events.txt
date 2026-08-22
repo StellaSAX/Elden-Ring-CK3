@@ -1,10 +1,10 @@
-﻿namespace = elden_ring_artifact_events
+﻿namespace = er_artifacts
 
-elden_ring_artifact_events.0001 = { #CREATE GREAT RUNE
+er_artifacts.0001 = { #CREATE GREAT RUNE
 
 	type = character_event
-	desc = elden_ring_artifact_events.0001.desc
-	title = elden_ring_artifact_events.0001.title
+	desc = er_artifacts.0001.desc
+	title = er_artifacts.0001.title
 	theme = war
 
 	left_portrait = {
@@ -13,7 +13,7 @@ elden_ring_artifact_events.0001 = { #CREATE GREAT RUNE
 	}
 	
 	option = {
-		name = elden_ring_artifact_events.0001.a
+		name = er_artifacts.0001.a
 		trigger = {
 			martial >= 20
 		}
@@ -48,7 +48,7 @@ elden_ring_artifact_events.0001 = { #CREATE GREAT RUNE
 	}
 	
 	option = {
-	name = elden_ring_artifact_events.0001.b
+	name = er_artifacts.0001.b
 		trigger = {
 			stewardship >= 20
 		}
@@ -82,7 +82,7 @@ elden_ring_artifact_events.0001 = { #CREATE GREAT RUNE
 	}
 	
 	option = {
-	name = elden_ring_artifact_events.0001.c
+	name = er_artifacts.0001.c
 		trigger = {
 			learning >= 20
 		}
@@ -116,7 +116,7 @@ elden_ring_artifact_events.0001 = { #CREATE GREAT RUNE
 	}
 	
 	option = {
-	name = elden_ring_artifact_events.0001.d
+	name = er_artifacts.0001.d
 		trigger = {
 			diplomacy >= 20
 		}
@@ -150,7 +150,7 @@ elden_ring_artifact_events.0001 = { #CREATE GREAT RUNE
 	}
 	
 	option = {
-	name = elden_ring_artifact_events.0001.e
+	name = er_artifacts.0001.e
 		trigger = {
 			intrigue >= 20
 		}
@@ -184,7 +184,7 @@ elden_ring_artifact_events.0001 = { #CREATE GREAT RUNE
 	}
 	
 	option = {
-		name = elden_ring_artifact_events.0001.f
+		name = er_artifacts.0001.f
 		create_artifact = {
 			name = great_rune_elden_ring
 			description = great_rune_elden_ring_desc
@@ -216,7 +216,7 @@ elden_ring_artifact_events.0001 = { #CREATE GREAT RUNE
 	}
 	
 	option = {
-		name = elden_ring_artifact_events.0001.g
+		name = er_artifacts.0001.g
 		
 		ai_chance = {
 			base = 10 
@@ -225,11 +225,11 @@ elden_ring_artifact_events.0001 = { #CREATE GREAT RUNE
 	
 }
 
-elden_ring_artifact_events.0002 = { #CREATE ELDEN RING
+er_artifacts.0002 = { #CREATE ELDEN RING
 
 	type = character_event
-	desc = elden_ring_artifact_events.0002.desc
-	title = elden_ring_artifact_events.0002.title
+	desc = er_artifacts.0002.desc
+	title = er_artifacts.0002.title
 	theme = war
 
 	left_portrait = {
@@ -238,7 +238,7 @@ elden_ring_artifact_events.0002 = { #CREATE ELDEN RING
 	}
 	
 	option = {
-		name = elden_ring_artifact_events.0002.a
+		name = er_artifacts.0002.a
 		create_artifact = {
 			name = the_elden_ring
 			description = the_elden_ring_desc
@@ -276,7 +276,7 @@ elden_ring_artifact_events.0002 = { #CREATE ELDEN RING
 	}
 	
 	option = {
-		name = elden_ring_artifact_events.0001.g
+		name = er_artifacts.0001.g
 		
 		ai_chance = {
 			base = 10 
@@ -285,11 +285,11 @@ elden_ring_artifact_events.0002 = { #CREATE ELDEN RING
 	
 }
 
-elden_ring_artifact_events.0003 = { #st trina sword
+er_artifacts.0003 = { #st trina sword
 
 	type = character_event
-	desc = elden_ring_artifact_events.0003.desc
-	title = elden_ring_artifact_events.0003.title
+	desc = er_artifacts.0003.desc
+	title = er_artifacts.0003.title
 	theme = war
 
 	left_portrait = {
@@ -298,7 +298,7 @@ elden_ring_artifact_events.0003 = { #st trina sword
 	}
 	
 	option = {
-		name = elden_ring_artifact_events.0003.a
+		name = er_artifacts.0003.a
 		create_artifact = {
 			name = WP_A_0230_name
 			description = WP_A_0230_description
@@ -331,11 +331,11 @@ elden_ring_artifact_events.0003 = { #st trina sword
 
 }
 
-elden_ring_artifact_events.0004 = { #carian knight sword
+er_artifacts.0004 = { #carian knight sword
 
 	type = character_event
-	desc = elden_ring_artifact_events.0004.desc
-	title = elden_ring_artifact_events.0004.title
+	desc = er_artifacts.0004.desc
+	title = er_artifacts.0004.title
 	theme = war
 
 	left_portrait = {
@@ -344,7 +344,7 @@ elden_ring_artifact_events.0004 = { #carian knight sword
 	}
 	
 	option = {
-		name = elden_ring_artifact_events.0003.a
+		name = er_artifacts.0003.a
 		add_trait = sorcerous_knight
 		create_artifact = {
 			name = WP_A_0227_name
@@ -378,11 +378,11 @@ elden_ring_artifact_events.0004 = { #carian knight sword
 	
 }
 
-elden_ring_artifact_events.0005 = { #miquella knight sword
+er_artifacts.0005 = { #miquella knight sword
 
 	type = character_event
-	desc = elden_ring_artifact_events.0005.desc
-	title = elden_ring_artifact_events.0005.title
+	desc = er_artifacts.0005.desc
+	title = er_artifacts.0005.title
 	theme = war
 
 	left_portrait = {
@@ -391,7 +391,7 @@ elden_ring_artifact_events.0005 = { #miquella knight sword
 	}
 	
 	option = {
-		name = elden_ring_artifact_events.0003.a
+		name = er_artifacts.0003.a
 		#elden_steel_create_artifact_WP_A_0229_effect = yes
 		
 		create_artifact = {

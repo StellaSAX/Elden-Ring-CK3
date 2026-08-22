@@ -1,11 +1,11 @@
-﻿namespace = elden_ring_nickname_events
+﻿namespace = er_nicknames
 
 
-elden_ring_nickname_events.0001 = {
+er_nicknames.0001 = {
 
 	type = character_event
-	desc = elden_ring_nickname_events.0001.desc
-	title = elden_ring_nickname_events.0001.title
+	desc = er_nicknames.0001.desc
+	title = er_nicknames.0001.title
 	theme = war
 
 	left_portrait = {
@@ -14,7 +14,7 @@ elden_ring_nickname_events.0001 = {
 	}
 	
 	option = { # eternal
-		name = elden_ring_nickname_events.0001.et
+		name = er_nicknames.0001.et
 		trigger = {
 			AND = {
 				has_trait = god_elden_ring
@@ -29,7 +29,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = { # golden
-		name = elden_ring_nickname_events.0001.go
+		name = er_nicknames.0001.go
 		trigger = {
 			AND = {
 				has_trait = order_affinity
@@ -44,7 +44,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_nickname_events.0001.ork
+		name = er_nicknames.0001.ork
 		trigger = {
 			AND = {
 				has_trait = order_affinity
@@ -57,7 +57,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = { 
-		name = elden_ring_nickname_events.0001.orq
+		name = er_nicknames.0001.orq
 		trigger = {
 			AND = {
 				has_trait = order_affinity
@@ -70,7 +70,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = { 
-		name = elden_ring_nickname_events.0001.mk
+		name = er_nicknames.0001.mk
 		trigger = {
 			AND = {
 				has_trait = frenzy_affinity
@@ -83,7 +83,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = { 
-		name = elden_ring_nickname_events.0001.mq
+		name = er_nicknames.0001.mq
 		trigger = {
 			AND = {
 				has_trait = frenzy_affinity
@@ -96,7 +96,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_nickname_events.0001.fk
+		name = er_nicknames.0001.fk
 		trigger = {
 			AND = {
 				has_trait = fire_affinity
@@ -109,7 +109,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_nickname_events.0001.fq
+		name = er_nicknames.0001.fq
 		trigger = {
 			AND = {
 				has_trait = fire_affinity
@@ -122,7 +122,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_nickname_events.0001.ick
+		name = er_nicknames.0001.ick
 		trigger = {
 			AND = {
 				has_trait = ice_affinity
@@ -135,7 +135,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_nickname_events.0001.ik
+		name = er_nicknames.0001.ik
 		trigger = {
 			AND = {
 				has_trait = ice_affinity
@@ -152,7 +152,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_nickname_events.0001.icq
+		name = er_nicknames.0001.icq
 		trigger = {
 			AND = {
 				has_trait = ice_affinity
@@ -165,7 +165,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_nickname_events.0001.dk
+		name = er_nicknames.0001.dk
 		trigger = {
 			AND = {
 				OR = {
@@ -181,7 +181,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_nickname_events.0001.dq
+		name = er_nicknames.0001.dq
 		trigger = {
 			AND = {
 				OR = {
@@ -197,7 +197,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_nickname_events.0001.sw
+		name = er_nicknames.0001.sw
 		trigger = {
 			AND = {
 				has_trait = gravity_affinity
@@ -209,7 +209,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_nickname_events.0001.ss
+		name = er_nicknames.0001.ss
 		trigger = {
 			has_trait = gravity_affinity
 		}
@@ -219,7 +219,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_nickname_events.0001.lod
+		name = er_nicknames.0001.lod
 		trigger = {
 			AND = {
 				has_trait = death_affinity
@@ -232,7 +232,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_nickname_events.0001.lad
+		name = er_nicknames.0001.lad
 		trigger = {
 			AND = {
 				has_trait = death_affinity
@@ -245,7 +245,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_nickname_events.0001.lob
+		name = er_nicknames.0001.lob
 		trigger = {
 			AND = {
 				has_trait = blood_affinity
@@ -258,7 +258,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_nickname_events.0001.lab
+		name = er_nicknames.0001.lab
 		trigger = {
 			AND = {
 				has_trait = blood_affinity
@@ -271,7 +271,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_nickname_events.0001.sk
+		name = er_nicknames.0001.sk
 		trigger = {
 			AND = {
 				has_trait = sleep_affinity
@@ -284,7 +284,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_nickname_events.0001.sq
+		name = er_nicknames.0001.sq
 		trigger = {
 			AND = {
 				has_trait = sleep_affinity
@@ -297,7 +297,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_nickname_events.0001.bfk
+		name = er_nicknames.0001.bfk
 		trigger = {
 			AND = {
 				has_trait = black_flame_affinity
@@ -310,7 +310,7 @@ elden_ring_nickname_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_nickname_events.0001.bfq
+		name = er_nicknames.0001.bfq
 		trigger = {
 			AND = {
 				has_trait = black_flame_affinity

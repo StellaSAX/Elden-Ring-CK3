@@ -20,7 +20,7 @@
 
 	# effect = {
 		# trigger_event = {
-			# id = create_albinauric_events.0001
+			# id = er_albinauric.0001
 		# }
 	# }
 

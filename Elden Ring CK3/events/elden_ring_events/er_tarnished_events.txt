@@ -1,9 +1,9 @@
-﻿namespace = elden_ring_tarnished_events
-elden_ring_tarnished_events.0001 = {
+﻿namespace = er_tarnished
+er_tarnished.0001 = {
 
 	type = character_event
-	desc = elden_ring_tarnished_events.0001.desc
-	title = elden_ring_tarnished_events.0001.title
+	desc = er_tarnished.0001.desc
+	title = er_tarnished.0001.title
 	theme = love
 	override_background = wilderness
 
@@ -13,7 +13,7 @@ elden_ring_tarnished_events.0001 = {
 	}
 	
 	option = {
-		name = elden_ring_tarnished_events.0001.a
+		name = er_tarnished.0001.a
 		add_martial_skill = 1
 		add_piety = -100
 		trigger = {
@@ -48,7 +48,7 @@ elden_ring_tarnished_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_tarnished_events.0001.b
+		name = er_tarnished.0001.b
 		add_stewardship_skill = 1
 		add_piety = -100
 		trigger = {
@@ -83,7 +83,7 @@ elden_ring_tarnished_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_tarnished_events.0001.c
+		name = er_tarnished.0001.c
 		add_diplomacy_skill = 1
 		add_piety = -100
 		trigger = {
@@ -118,7 +118,7 @@ elden_ring_tarnished_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_tarnished_events.0001.d
+		name = er_tarnished.0001.d
 		add_intrigue_skill = 1
 		add_piety = -100
 		trigger = {
@@ -153,7 +153,7 @@ elden_ring_tarnished_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_tarnished_events.0001.e
+		name = er_tarnished.0001.e
 		add_learning_skill = 1
 		add_piety = -100
 		trigger = {
@@ -188,7 +188,7 @@ elden_ring_tarnished_events.0001 = {
 		}
 	}
 	option = {
-		name = elden_ring_tarnished_events.0001.f
+		name = er_tarnished.0001.f
 		add_prowess_skill = 1
 		add_piety = -100
 		trigger = {
@@ -224,7 +224,7 @@ elden_ring_tarnished_events.0001 = {
 	}
 
 	option = { 
-	name = elden_ring_tarnished_events.0001.out
+	name = er_tarnished.0001.out
 		ai_chance = {
 			base = 10 
 		}

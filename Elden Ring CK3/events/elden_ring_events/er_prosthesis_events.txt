@@ -1,14 +1,14 @@
-﻿namespace = wear_prosthesis
+﻿namespace = er_prosthesis
 
-wear_prosthesis.0001 = {
+er_prosthesis.0001 = {
     theme = crown
     type = character_event
-    title = wear_prosthesis_title
-    desc = wear_prosthesis_desc
+    title = er_prosthesis_title
+    desc = er_prosthesis_desc
     picture = ep2_hunt_snowy_forest
 
     option = {
-        name = wear_prosthesis_option
+        name = er_prosthesis_option
 
         remove_short_term_gold = 100
         add_prestige = 100
@@ -19,7 +19,7 @@ wear_prosthesis.0001 = {
     }
 
     option = {
-        name = wear_prosthesis_cancel_option
+        name = er_prosthesis_cancel_option
     }
 
     # option = {

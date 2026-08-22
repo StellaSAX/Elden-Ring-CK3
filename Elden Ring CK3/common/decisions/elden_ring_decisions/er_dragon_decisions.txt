@@ -27,7 +27,7 @@
 
 	effect = {
 		trigger_event = {
-			id = dragon_events_elden_ring.0001
+			id = er_dragon.0001
 		}
 	}
 	
@@ -64,7 +64,7 @@ hunt_lesser_dragon_elden_ring = {
 	effect = {
 		custom_tooltip = hunt_lesser_dragon_elden_ring_tooltip
 		trigger_event = {
-			id = dragon_events_elden_ring.0002
+			id = er_dragon.0002
 		}		
 	}
 

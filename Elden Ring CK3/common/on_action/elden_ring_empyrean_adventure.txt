@@ -50,7 +50,7 @@ on_action_empyrean_becomes_adventurer = {
 				REASON = flag:voluntary
 				FLAVOR_CHAR = root
 			}
-			trigger_event = become_god_elden_ring.0002
+			trigger_event = er_god.0002
 		}
 		
 	}
@@ -70,7 +70,7 @@ on_action_empyrean_becomes_god_for_ai = {
 					sub_realm_size >= 100
 				}
 			}
-			trigger_event = elden_ring_artifact_events.0002 # Create elden ring
+			trigger_event = er_artifacts.0002 # Create elden ring
 			
 		}
 	}

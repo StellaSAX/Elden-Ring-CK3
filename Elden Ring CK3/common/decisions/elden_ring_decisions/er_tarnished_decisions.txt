@@ -27,7 +27,7 @@
 
 	effect = {
 		custom_tooltip = visit_roundtable_hold_custom_tooltip
-		trigger_event = roundtable_hold_decision_events.0001
+		trigger_event = er_roundtable_hold.0001
 	}
 
 	# cost = {
@@ -90,7 +90,7 @@ turning_runes_into_strength = {
 
 	effect = {
 		custom_tooltip = you_will_level_up_custom_tooltip
-		trigger_event = elden_ring_tarnished_events.0001
+		trigger_event = er_tarnished.0001
 	}
 
 	# cost = {

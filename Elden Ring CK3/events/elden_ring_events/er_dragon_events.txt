@@ -1,11 +1,11 @@
-﻿namespace = dragon_events_elden_ring
+﻿namespace = er_dragon
 
 
-dragon_events_elden_ring.0001 = { #recruit a dragon
+er_dragon.0001 = { #recruit a dragon
 
 	type = character_event
-	desc = dragon_events_elden_ring.0001.desc
-	title = dragon_events_elden_ring.0001.title
+	desc = er_dragon.0001.desc
+	title = er_dragon.0001.title
 
 	left_portrait = {
 		character = scope:dragon_1
@@ -65,7 +65,7 @@ dragon_events_elden_ring.0001 = { #recruit a dragon
 	}
 
 	option = {
-		name = dragon_events_elden_ring.0001.a
+		name = er_dragon.0001.a
 		add_courtier = scope:dragon_1
 		pay_short_term_gold = {
 			target = scope:dragon_1
@@ -86,7 +86,7 @@ dragon_events_elden_ring.0001 = { #recruit a dragon
 	}
 	
 	option = {
-		name = dragon_events_elden_ring.0001.a
+		name = er_dragon.0001.a
 		add_courtier = scope:dragon_2
 		pay_short_term_gold = {
 			target = scope:dragon_2
@@ -116,11 +116,11 @@ dragon_events_elden_ring.0001 = { #recruit a dragon
 	
 }
 
-dragon_events_elden_ring.0002 = { #fight a lesser dragon
+er_dragon.0002 = { #fight a lesser dragon
 
 	type = character_event
-	desc = dragon_events_elden_ring.0002.desc
-	title = dragon_events_elden_ring.0002.title
+	desc = er_dragon.0002.desc
+	title = er_dragon.0002.title
 	left_portrait = {
 		character = ROOT
 		animation = anger
@@ -152,8 +152,8 @@ dragon_events_elden_ring.0002 = { #fight a lesser dragon
 					min = -49
 				}
 				min = 5
-				desc = dragon_events_elden_ring.0002.a.tt.success
-				trigger_event = dragon_events_elden_ring.0003
+				desc = er_dragon.0002.a.tt.success
+				trigger_event = er_dragon.0003
 			}
 			60 = {
 				compare_modifier = {
@@ -162,13 +162,13 @@ dragon_events_elden_ring.0002 = { #fight a lesser dragon
 					min = -49
 				}
 				min = 10
-				desc = dragon_events_elden_ring.0002.a.tt.failure
+				desc = er_dragon.0002.a.tt.failure
 				hidden_effect = {
 					increase_wounds_no_death_effect = { REASON = fall }
 				}
 			}
 		}
-		name = dragon_events_elden_ring.0002.a
+		name = er_dragon.0002.a
 		ai_chance = {
 			value = 0
 			if = {
@@ -189,8 +189,8 @@ dragon_events_elden_ring.0002 = { #fight a lesser dragon
 					min = -49
 				}
 				min = 5
-				desc = dragon_events_elden_ring.0002.a.tt.success
-				trigger_event = dragon_events_elden_ring.0003
+				desc = er_dragon.0002.a.tt.success
+				trigger_event = er_dragon.0003
 			}
 			60 = {
 				compare_modifier = {
@@ -199,14 +199,14 @@ dragon_events_elden_ring.0002 = { #fight a lesser dragon
 					min = -49
 				}
 				min = 10
-				desc = dragon_events_elden_ring.0002.a.tt.failure
+				desc = er_dragon.0002.a.tt.failure
 				hidden_effect = {
 					increase_wounds_no_death_effect = { REASON = fall }
 				}
 				
 			}
 		}
-		name = dragon_events_elden_ring.0002.b
+		name = er_dragon.0002.b
 		ai_chance = {
 			value = 0
 			if = {
@@ -229,11 +229,11 @@ dragon_events_elden_ring.0002 = { #fight a lesser dragon
 }
 
 
-dragon_events_elden_ring.0003 = { #won against a lesser dragon
+er_dragon.0003 = { #won against a lesser dragon
 
 	type = character_event
-	desc = dragon_events_elden_ring.0003.desc
-	title = dragon_events_elden_ring.0003.title
+	desc = er_dragon.0003.desc
+	title = er_dragon.0003.title
 	right_portrait = {
 		character = root
 		animation = personality_rational
@@ -259,7 +259,7 @@ dragon_events_elden_ring.0003 = { #won against a lesser dragon
 			ambitious = minor_stress_impact_loss
 		}
 			
-		name = dragon_events_elden_ring.0003.a
+		name = er_dragon.0003.a
 		ai_chance = {
 			base = 10
 			modifier = {

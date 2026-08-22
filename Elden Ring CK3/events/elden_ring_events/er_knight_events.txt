@@ -1,11 +1,11 @@
-﻿namespace = elden_ring_knight_events
+﻿namespace = er_knights
 
 
-elden_ring_knight_events.0001 = { #become a knight
+er_knights.0001 = { #become a knight
 
 	type = character_event
-	desc = elden_ring_knight_events.0001.desc
-	title = elden_ring_knight_events.0001.title
+	desc = er_knights.0001.desc
+	title = er_knights.0001.title
 	theme = war
 
 	left_portrait = {
@@ -14,7 +14,7 @@ elden_ring_knight_events.0001 = { #become a knight
 	}
 	
 	option = { # become golden_knight
-		name = elden_ring_knight_events.0001.a
+		name = er_knights.0001.a
 		trigger = {
 			OR = {
 				has_trait = order_affinity
@@ -60,7 +60,7 @@ elden_ring_knight_events.0001 = { #become a knight
 		}
 	}
 	option = { # become mounted_knight
-		name = elden_ring_knight_events.0001.b
+		name = er_knights.0001.b
 		trigger = {
 			OR = {
 				martial >= 15
@@ -99,7 +99,7 @@ elden_ring_knight_events.0001 = { #become a knight
 		}
 	}
 	option = { # become crucible_knight
-		name = elden_ring_knight_events.0001.c
+		name = er_knights.0001.c
 		trigger = {
 			OR = {
 				has_trait = crucible_affinity
@@ -151,7 +151,7 @@ elden_ring_knight_events.0001 = { #become a knight
 		}
 	}
 	option = { # become mausoleum_knight
-		name = elden_ring_knight_events.0001.d
+		name = er_knights.0001.d
 		trigger = {
 			OR = {
 				has_trait = death_affinity
@@ -200,7 +200,7 @@ elden_ring_knight_events.0001 = { #become a knight
 		}
 	}
 	option = { # become sorcerous_knight
-		name = elden_ring_knight_events.0001.e
+		name = er_knights.0001.e
 		trigger = {
 			OR = {
 				has_trait = glintstone_affinity
@@ -246,7 +246,7 @@ elden_ring_knight_events.0001 = { #become a knight
 		}
 	}
 	option = { # become bloodhound_knight
-		name = elden_ring_knight_events.0001.f
+		name = er_knights.0001.f
 		trigger = {
 			OR = {
 				has_trait = lifestyle_hunter
@@ -291,7 +291,7 @@ elden_ring_knight_events.0001 = { #become a knight
 		}
 	}
 	option = { # become rot_knight
-		name = elden_ring_knight_events.0001.h
+		name = er_knights.0001.h
 		trigger = {
 			OR = {
 				has_trait = rot_affinity
@@ -328,7 +328,7 @@ elden_ring_knight_events.0001 = { #become a knight
 		}
 	}
 	option = { # become frenzied_knight
-		name = elden_ring_knight_events.0001.j
+		name = er_knights.0001.j
 		trigger = {
 			OR = {
 				has_trait = frenzy_affinity
@@ -380,7 +380,7 @@ elden_ring_knight_events.0001 = { #become a knight
 		}
 	}
 	option = { # become cuckoo_knight
-		name = elden_ring_knight_events.0001.k
+		name = er_knights.0001.k
 		trigger = {
 			AND = {
 				learning >= 15
@@ -425,7 +425,7 @@ elden_ring_knight_events.0001 = { #become a knight
 		}
 	}
 	option = { # become drake_knight
-		name = elden_ring_knight_events.0001.l
+		name = er_knights.0001.l
 		trigger = {
 			OR = {
 				has_trait = dragon_affinity
@@ -475,7 +475,7 @@ elden_ring_knight_events.0001 = { #become a knight
 		}
 	}
 	option = { # become death_knight
-		name = elden_ring_knight_events.0001.m
+		name = er_knights.0001.m
 		trigger = {
 			OR = {
 				has_trait = death_affinity
@@ -525,7 +525,7 @@ elden_ring_knight_events.0001 = { #become a knight
 		}
 	}
 	option = { # become ice_knight
-		name = elden_ring_knight_events.0001.n
+		name = er_knights.0001.n
 		trigger = {
 			OR = {
 				has_trait = ice_affinity
@@ -568,7 +568,7 @@ elden_ring_knight_events.0001 = { #become a knight
 		}
 	}
 	option = { # become horned warrior
-		name = elden_ring_knight_events.0001.o
+		name = er_knights.0001.o
 		trigger = {
 			has_trait = spiral_affinity
 		}
@@ -603,7 +603,7 @@ elden_ring_knight_events.0001 = { #become a knight
 	}
 	
 	option = { # nah, i am good dawg
-	name = elden_ring_knight_events.0001.i
+	name = er_knights.0001.i
 		ai_chance = {
 			base = 10 
 			modifier = {

@@ -1,6 +1,6 @@
 ﻿magic_education_arrival_events = {
 	events = {
-		elden_ring_magic_education.0010
+		er_magic.0010
 	}
 }
 

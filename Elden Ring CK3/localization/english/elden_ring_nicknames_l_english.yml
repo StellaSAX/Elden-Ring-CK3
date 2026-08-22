@@ -61,6 +61,11 @@
  nick_soldier_of_god:0 "Soldier of God"
  nick_witch_hunter:0 "Witch-Hunter"
  nick_trout_eater:0 "Trout-Eater"
+ 
+ nick_champion_of_gelmir:0 "the Champion of Gelmir"
+ nick_champion_of_gelmir_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] reinvigorated the Gelmirian spirit and truly pushed the volcanic mountain to the forefront of great kingdoms."
+ nick_ruin_of_gelmir:0 "the Ruin of Gelmir"
+ nick_ruin_of_gelmir_desc:0 "It was under the rule of [CHARACTER.GetShortUINameNoTooltipNoFormat|U] that Gelmir fell once more into chaos and obscurity, something which [CharYourHerHis(CHARACTER)] peers and countrymen alike will not forget easily."
 
  elden_ring_nickname_events.0001.et:0 "the Eternal"
  elden_ring_nickname_events.0001.go:0 "the Golden"

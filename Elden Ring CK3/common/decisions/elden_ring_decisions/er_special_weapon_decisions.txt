@@ -25,7 +25,7 @@
 		custom_tooltip = get_special_weapon_trina.tt
 		add_piety = 250
 		#elden_steel_create_artifact_WP_A_0230_effect = yes
-		trigger_event = elden_ring_artifact_events.0003
+		trigger_event = er_artifacts.0003
 	}
 
 	ai_check_interval = 0
@@ -70,7 +70,7 @@ get_special_weapon_carian_knight = { #carian sword
 	effect = {
 		custom_tooltip = get_special_weapon_carian_knight.tt
 		add_piety = 250
-		trigger_event = elden_ring_artifact_events.0004
+		trigger_event = er_artifacts.0004
 		#elden_steel_create_artifact_WP_A_0227_effect = yes
 	}
 	
@@ -124,7 +124,7 @@ get_special_weapon_miquellan_knight = { #Miquellan sword
 		custom_tooltip = get_special_weapon_miquellan_knight.tt
 		add_piety = 250
 		#elden_steel_create_artifact_WP_A_0229_effect = yes
-		trigger_event = elden_ring_artifact_events.0005
+		trigger_event = er_artifacts.0005
 	}
 	
 	ai_check_interval_by_tier = {

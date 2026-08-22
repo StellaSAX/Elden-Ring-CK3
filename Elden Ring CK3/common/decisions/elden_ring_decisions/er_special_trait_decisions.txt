@@ -402,7 +402,7 @@ gain_nickname_elden_ring = {
 
 	effect = {
 		trigger_event = {
-			id = elden_ring_nickname_events.0001
+			id = er_nicknames.0001
 		}
 	}
 	
