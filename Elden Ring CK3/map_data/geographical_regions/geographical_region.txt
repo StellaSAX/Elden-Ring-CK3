@@ -9,6 +9,9 @@ hunt_animal_aurochs_region = { }
 region_cerulean_coast = {
 	kingdoms = { k_cerulean_coast }
 }
+region_charo_grave = {
+	kingdoms = { k_charo_hidden_grave }
+}
 region_belurat = {
 	kingdoms = { k_belurat }
 }
@@ -58,6 +61,9 @@ region_jagged_peak = {
 region_rauh = {
 	kingdoms = { k_rauh }
 }
+region_gravesite = {
+	kingdoms = { k_gravesite_plain }
+}
 region_rayalucaria = {
 	kingdoms = { k_rayalucaria }
 }
@@ -66,6 +72,9 @@ region_red_wastes = {
 }
 region_scadu_altus = {
 	kingdoms = { k_scadu_altus }
+}
+region_hinterlands = {
+	kingdoms = { k_hinterlands }
 }
 region_snowfields = {
 	kingdoms = { k_snowfields }
@@ -114,7 +123,7 @@ world_mountaintops = {
 	kingdoms = { k_giattops k_snowfields }
 }
 world_shadowland = {
-	kingdoms = { k_belurat k_scadu_altus k_rauh k_jagged_peak k_cerulean_coast k_abyssal_woods }
+	kingdoms = { k_belurat k_scadu_altus k_rauh k_jagged_peak k_cerulean_coast k_abyssal_woods k_gravesite_plain k_hinterlands k_charo_hidden_grave }
 }
 world_siofra = {
 	kingdoms = { k_siofra }
