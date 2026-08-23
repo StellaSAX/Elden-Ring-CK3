@@ -1,0 +1,106 @@
+﻿namespace = er_gelmir
+
+#Expansion into the coffin lakes.
+er_gelmir.0001 = { 
+	type = character_event
+	title = er_gelmir.0001.t
+	desc = er_gelmir.0001.desc
+	theme = diplomacy_majesty_focus
+	left_portrait = {
+		character = ROOT
+		animation = personality_bold
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+	}
+	
+	option = {
+		name = er_gelmir.0001.a
+	}
+}
+
+#Proclamation of Gelmir Empire, if Kingdom of Leyndell exists
+er_gelmir.0002 = { 
+	type = character_event
+	title = er_gelmir.0002.t
+	desc = er_gelmir.0002.desc
+	theme = war
+	left_portrait = {
+		character = ROOT
+		animation = aggressive_sword
+	}
+	
+	right_portrait = {
+		character = title:k_leyndell.holder
+		animation = dismissal
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+	}
+	
+	option = {
+		name = er_gelmir.0002.a
+	}
+}
+
+#Proclamation of Gelmir Empire, if Kingdom of Leyndell doesnt exist
+er_gelmir.0003 = { 
+	type = character_event
+	title = er_gelmir.0003.t
+	desc = er_gelmir.0003.desc
+	theme = war
+	left_portrait = {
+		character = ROOT
+		animation = aggressive_sword
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+	}
+	
+	option = {
+		name = er_gelmir.0003.a
+	}
+}
+
+#Leyndell is attacking us!
+er_gelmir.0004 = { 
+	type = character_event
+	title = er_gelmir.0004.t
+	desc = er_gelmir.0004.desc
+	theme = war
+	left_portrait = {
+		character = title:e_gelmir_empire.holder
+		animation = worry
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+	}
+	
+	option = {
+		name = er_gelmir.0004.a
+	}
+}
+
+#Leyndell fucked us over!
+er_gelmir.0005 = {
+	type = character_event
+	title = er_gelmir.0005.t
+	desc = er_gelmir.0005.desc
+	theme = war
+	left_portrait = {
+		character = title:e_gelmir_empire.holder
+		animation = disbelief
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+	}
+	
+	option = {
+		name = er_gelmir.0005.a
+	}
+}

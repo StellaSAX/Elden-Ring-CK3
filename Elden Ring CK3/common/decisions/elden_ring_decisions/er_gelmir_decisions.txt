@@ -1,0 +1,267 @@
+﻿expand_gelmir = {
+	ai_check_interval = 72
+
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_expand_gelmir.dds" }
+
+	decision_group_type = major
+
+	is_shown = {
+		title:d_wyndham = {
+			any_this_title_or_de_jure_above = {
+				NOT = {
+					this = title:k_gelmir
+				}
+			}
+		}
+		title:d_coffin_lake = {
+			any_this_title_or_de_jure_above = {
+				NOT = {
+					this = title:k_gelmir
+				}
+			}
+		}
+		NOT = { government_has_flag = government_is_tribal }
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:gelmir_expansion
+			}
+		}
+		is_independent_ruler = yes
+		highest_held_title_tier >= tier_kingdom
+		has_primary_title = title:k_gelmir
+		
+		OR = {
+			is_rykard = yes
+			OR = {
+				culture = culture:cul_gelmir
+				culture = { any_parent_culture_or_above = { this = culture:cul_gelmir } }
+			}
+		}
+	}
+	
+	is_valid = {
+		#prestige_level >= 2
+		completely_controls_region = region_gelmir
+		completely_controls = title:d_wyndham
+		completely_controls = title:d_coffin_lake
+	}
+	
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_adult = yes
+		is_at_war = no
+	}
+	
+	cost = {
+		prestige = {
+			if = {
+				limit = {
+					legitimacy_level = 1
+				}
+				value = 1000
+			}
+			if = {
+				limit = {
+					legitimacy_level = 2
+				}
+				value = 750
+			}
+			if = {
+				limit = {
+					legitimacy_level = 3
+				}
+				value = 500
+			}
+			if = {
+				limit = {
+					legitimacy_level = 4
+				}
+				value = 350
+			}
+			if = {
+				limit = {
+					legitimacy_level = 5
+				}
+				value = 250
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = er_gelmir.0001
+		title:d_wyndham = { set_de_jure_liege_title = title:k_gelmir }
+		title:d_coffin_lake = { set_de_jure_liege_title = title:k_gelmir }
+		add_legitimacy = medium_legitimacy_gain
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:gelmir_expansion
+			}
+		}
+	}
+	
+	ai_potential = { always = yes }
+	ai_will_do = { base = 25 }
+}
+
+proclaim_gelmir_empire = {
+	ai_check_interval = 72
+
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_proclaim_gelmir_empire.dds" }
+
+	decision_group_type = major
+
+	is_shown = {
+		NOT = { government_has_flag = government_is_tribal }
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:gelmir_empire
+			}
+		}
+		OR = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:gelmir_expansion
+			}
+			AND = {
+				title:d_wyndham = {
+					any_this_title_or_de_jure_above = {
+						this = title:k_gelmir
+					}
+				}
+				title:d_coffin_lake = {
+					any_this_title_or_de_jure_above = {
+						this = title:k_gelmir
+					}
+				}
+			}
+		}
+		is_independent_ruler = yes
+		highest_held_title_tier >= tier_kingdom
+		has_primary_title = title:k_gelmir
+		
+		OR = {
+			is_rykard = yes
+			OR = {
+				culture = culture:cul_gelmir
+				culture = { any_parent_culture_or_above = { this = culture:cul_gelmir } }
+			}
+		}
+	}
+	
+	is_valid = {
+		prestige_level >= 4
+		completely_controls = title:k_gelmir
+		completely_controls = title:d_shaded_castle
+		completely_controls = title:d_lux
+	}
+	
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_adult = yes
+		is_at_war = no
+	}
+	
+	cost = {
+		gold = {
+			if = {
+				limit = {
+					legitimacy_level = 1
+				}
+				value = 500
+			}
+			if = {
+				limit = {
+					legitimacy_level = 2
+				}
+				value = 350
+			}
+			if = {
+				limit = {
+					legitimacy_level = 3
+				}
+				value = 250
+			}
+			if = {
+				limit = {
+					legitimacy_level = 4
+				}
+				value = 150
+			}
+			if = {
+				limit = {
+					legitimacy_level = 5
+				}
+				value = 100
+			}
+		}
+		prestige = {
+			if = {
+				limit = {
+					legitimacy_level = 1
+				}
+				value = 2000
+			}
+			if = {
+				limit = {
+					legitimacy_level = 2
+				}
+				value = 1600
+			}
+			if = {
+				limit = {
+					legitimacy_level = 3
+				}
+				value = 1200
+			}
+			if = {
+				limit = {
+					legitimacy_level = 4
+				}
+				value = 800
+			}
+			if = {
+				limit = {
+					legitimacy_level = 5
+				}
+				value = 600
+			}
+		}
+	}
+
+	effect = {
+		if = {
+			limit = {
+				title:k_leyndell = { is_title_created = yes }
+			}
+			trigger_event = er_gelmir.0002
+			title:k_leyndell.holder = { trigger_event = { id = er_leyndell.0001 days = 2 } }
+		}
+		if = {
+			limit = {
+				title:k_leyndell = { is_title_created = no }
+			}
+			trigger_event = er_gelmir.0003
+		}
+		get_title = title:e_gelmir_empire
+		give_nickname = nick_champion_of_gelmir
+		add_character_flag = had_nickname_event
+		dynasty = { add_dynasty_prestige = 600 }
+		add_legitimacy = major_legitimacy_gain
+		title:e_gelmir_empire = { set_de_jure_liege_title = title:h_lands_between }
+		title:k_gelmir = { set_de_jure_liege_title = title:e_gelmir_empire }
+		title:d_shaded_castle = { set_de_jure_liege_title = title:k_gelmir }
+		title:d_lux = { set_de_jure_liege_title = title:k_gelmir }
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:gelmir_empire
+			}
+		}
+	}
+	
+	ai_potential = { always = yes }
+	ai_will_do = { base = 25 }
+}

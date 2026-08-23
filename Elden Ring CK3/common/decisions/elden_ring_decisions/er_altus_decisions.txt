@@ -1,0 +1,97 @@
+﻿reintegrate_coffins = {
+	ai_check_interval = 240
+
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_expand_gelmir.dds" }
+
+	decision_group_type = major
+
+	is_shown = {
+		NOT = { government_has_flag = government_is_tribal }
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:gelmir_empire
+			}
+		}
+		#is_target_in_global_variable_list = {
+		#	name = unavailable_unique_decisions
+		#	target = flag:gelmir_expansion
+		#}
+		title:d_wyndham = {
+			any_this_title_or_de_jure_above = {
+				NOT = {
+					this = title:k_altus_plateau
+				}
+			}
+		}
+		title:d_coffin_lake = {
+			any_this_title_or_de_jure_above = {
+				NOT = {
+					this = title:k_altus_plateau
+				}
+			}
+		}
+		has_title = title:k_altus_plateau
+	}
+	
+	is_valid = {
+		completely_controls = title:d_wyndham
+		completely_controls = title:d_coffin_lake
+	}
+	
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_adult = yes
+		is_at_war = no
+	}
+	
+	cost = {
+		prestige = {
+			if = {
+				limit = {
+					legitimacy_level = 1
+				}
+				value = 750
+			}
+			if = {
+				limit = {
+					legitimacy_level = 2
+				}
+				value = 500
+			}
+			if = {
+				limit = {
+					legitimacy_level = 3
+				}
+				value = 350
+			}
+			if = {
+				limit = {
+					legitimacy_level = 4
+				}
+				value = 250
+			}
+			if = {
+				limit = {
+					legitimacy_level = 5
+				}
+				value = 100
+			}
+		}
+	}
+
+	effect = {
+		title:d_wyndham = { set_de_jure_liege_title = title:k_altus_plateau }
+		title:d_coffin_lake = { set_de_jure_liege_title = title:k_altus_plateau }
+		add_legitimacy = medium_legitimacy_gain
+		hidden_effect = {
+			remove_global_variable = {
+				name = unavailable_unique_decisions
+				target = flag:gelmir_expansion
+			}
+		}	
+	}
+	
+	ai_potential = { always = yes }
+	ai_will_do = { base = 25 }
+}

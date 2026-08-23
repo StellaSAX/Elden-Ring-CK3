@@ -1,0 +1,81 @@
+﻿destroy_gelmir_empire = {
+	ai_check_interval = 72
+
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_destroy_gelmir_empire.dds" }
+
+	decision_group_type = major
+
+	is_shown = {
+		NOT = { government_has_flag = government_is_tribal }
+		exists = title:e_gelmir_empire.holder
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:gelmir_empire
+		}
+		OR = {
+			has_primary_title = title:k_leyndell
+			has_primary_title = title:e_leyndell
+		}
+		NOT = { has_truce = title:e_gelmir_empire.holder }
+		title:e_gelmir_empire.holder = {
+			is_independent_ruler = yes
+		}
+	}
+	
+	is_valid = {
+		
+	}
+	
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_adult = yes
+		is_at_war = no
+	}
+	
+	cost = {
+		prestige = {
+			if = {
+				limit = {
+					legitimacy_level = 1
+				}
+				value = 1000
+			}
+			if = {
+				limit = {
+					legitimacy_level = 2
+				}
+				value = 750
+			}
+			if = {
+				limit = {
+					legitimacy_level = 3
+				}
+				value = 500
+			}
+			if = {
+				limit = {
+					legitimacy_level = 4
+				}
+				value = 350
+			}
+			if = {
+				limit = {
+					legitimacy_level = 5
+				}
+				value = 250
+			}
+		}
+	}
+
+	effect = {
+		start_war = {
+			casus_belli = dismantle_gelmir_cb
+			target = title:e_gelmir_empire.holder
+			target_title = title:e_gelmir_empire
+		}
+		#title:e_gelmir_empire.holder = { trigger_event = { id = er_gelmir.0004 days = 1 } }
+	}
+	
+	ai_potential = { always = yes }
+	ai_will_do = { base = 25 }
+}

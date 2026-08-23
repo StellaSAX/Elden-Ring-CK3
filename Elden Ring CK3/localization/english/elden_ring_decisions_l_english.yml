@@ -12,24 +12,6 @@
  lose_knight_trait_elden_ring_confirm:0 "let's take a rest"
  lose_knight_trait_elden_ring_tooltip:0 "Lose Knighthood"
 
- er_knights.0001.desc:0 "I have Great potential beyond that of my peers, with some special training i could exploit it and become a better warrior, but what should be my specialty? my options depend on what affinities and skills i posses."
- er_knights.0001.a:0 "I will become a Knight of Order"
- er_knights.0001.b:0 "I will become a Mounted Knight"
- er_knights.0001.c:0 "I will become a Crucible Knight"
- er_knights.0001.d:0 "I will become a Mausoleum Knight"
- er_knights.0001.e:0 "I will become a Sorcerous Knight"
- er_knights.0001.f:0 "I will become a Bloodhount Knight"
- er_knights.0001.h:0 "I will become a Rot Knight"
- er_knights.0001.j:0 "I will become a Frenzied Knight"
- er_knights.0001.k:0 "I will become a Cuckoo Knight"
- er_knights.0001.l:0 "I will become a Drake Knight"
- er_knights.0001.m:0 "I will become a Death Knight"
- er_knights.0001.n:0 "I will become a Ice Knight"
- er_knights.0001.o:0 "I will become a Horned Warrior"
-
- er_knights.0001.i:0 "Maybe it's better to leave it for later"
- er_knights.0001.title:0 "Training to become Knight"
-
  become_god_being_empyrean_elden_ring:0 "Become a God"
  become_god_being_empyrean_elden_ring_desc:0 "The time has come, i am ready to take my place in history as a God. A being beyond all mostals, i will rule Forever."
  become_god_being_empyrean_elden_ring_confirm:0 "Prepare the rituals!"
@@ -87,16 +69,6 @@
  create_great_rune_decisions_confirm:0 "Create Great Rune"
  create_great_rune_decisions_tooltip:0 "Create Great Rune"
 
- er_artifacts.0001.desc:0 "The time has come for my to use all the runes i have colected to create a Great Rune, a representation of my power, a tool nedded to become the God of my own order or to mend the Elden Ring."
- er_artifacts.0001.title:0 "Creating a Great Rune"
- er_artifacts.0001.a:0 "A rune to help me in the wars to come."
- er_artifacts.0001.b:0 "A rune to help me oversee my realm."
- er_artifacts.0001.c:0 "A rune to help me understand the truth."
- er_artifacts.0001.d:0 "A rune to help me maintain peace."
- er_artifacts.0001.e:0 "A rune to help me deal in the shadows."
- er_artifacts.0001.f:0 "Sadly i can only create a weak one, it's enough."
- er_artifacts.0001.g:0 "Maybe is better to wait until i am ready."
-
  great_rune_elden_ring:0 "Great Rune of [ROOT.GetCharacter.GetFirstNameNoTooltip]"
  great_rune_elden_ring_desc:0 "A Great Rune is a powerful tool used by those close to godhood, it gives great blessings by itself, and those that are ones step away from becoming gods can use it to create a Elden Ring and define their order."
  has_great_rune_for_elden_ring:0 "Has a Great Rune"
@@ -113,10 +85,6 @@
  become_empyrean_elden_ring_desc:0 "I have acquired enough runes to transform myself into a candidate for godhood, i just need to complete the ritual and in the future i will become a god."
  become_empyrean_elden_ring_confirm:0 "Prepare the ritual!"
  become_empyrean_elden_ring_tooltip:0 "Become Empyrean"
-
- er_artifacts.0002.title:0 "Forge the Elden Ring"
- er_artifacts.0002.desc:0 "I am ready, using my Great Rune as a base, i will create the Elden Ring, the key to godhood."
- er_artifacts.0002.a:0 "Prepare the ritual!"
 
  has_elden_ring:0 "Has Elden Ring"
 
@@ -154,18 +122,13 @@
  restore_raya_lucaria_decision_desc:0 "The Carian nobles have maintained their tyrannical grip over the academy for far too long. Authority must be restored to its scholars, and leadership entrusted to those with the wisdom and merit to guide us forward."
  restore_raya_lucaria_decision_tooltip:0 "Seize control of the Academy from the clutches of the Carian nobles, back into the hands of the scholars. This will change you government to meritocratic."
  restore_raya_lucaria_decision_confirm:0 "Lets do it."
- er_major.0001.t:0 "Restoration of the Raya Lucaria Academy"
- er_major.0001.desc:0 "You did it!"
- er_major.0001.a:0 "Yipee! Yay for me!"
- er_major.0002.t:0 "Restoration of the Raya Lucaria Academy"
- er_major.0002.desc:0 "They did it!"
 
  #roundtable events
  
- visit_roundtable_hold:0 "Go to the Roundtable Hold"
+ visit_roundtable_hold:0 "Visit the Roundtable Hold"
  visit_roundtable_hold_desc:0 "The Roundtable Hold is the place where tarnished prepare themselves for our difficult duty.\n\nI should be able to: get equipment, get claims, recruit or reconsider my faith."
- visit_roundtable_hold_tooltip:0 "Go to the Roundtable Hold"
- visit_roundtable_hold_confirm:0 "What can i do there?"
+ visit_roundtable_hold_tooltip:0 "Visit the Roundtable Hold"
+ visit_roundtable_hold_confirm:0 "What can I do there?"
  visit_roundtable_hold_custom_tooltip:0 "See what you can do in the Roundtable Hold."
  
  turning_runes_into_strength:0 "Turn Runes into Strength"
@@ -180,6 +143,28 @@
  become_perfumer_decision_desc:0 "The duty of the perfumer is that of an apothecary, they learn the art of mixing spices and flower to heal the people's suffering.\n\nBut this knowledge could be used for nefarious ends like the creation of poisons and explosives."
  become_perfumer_decision_tooltip:0 "Become Perfumer"
  become_perfumer_decision_confirm:0 "Bring me books about perfumes"
+ 
+ expand_gelmir:0 "Expand Gelmir Towards the Plateau"
+ expand_gelmir_desc:0 "The lordships of Wyndham and the Coffin Lake are right there on our border. Gelmir has long been isolated within the mountains of our glorious volcano, lacking in fertile lands and fresh water. We must seize this opportunity to expand our borders towards Altus all in the name of a Greater Gelmirian Kingdom!"
+ expand_gelmir_confirm:0 "The lava flows downwards"
+ expand_gelmir_tooltip:0 ""
+ 
+ proclaim_gelmir_empire:0 "Proclaim the Empire of Gelmir"
+ proclaim_gelmir_empire_desc:0 "The Gelmirian people have had enough from the meddling of Altusans or those who live within the walls of the Royal Capital. We have bled and sacrificed much in their wars which have resulted in nothing. It is time for us to stand on our own two feet and show the rest of the realms within the Lands Between that we are worthy of respect. We will no longer be confined merely to our mountains, but we will take to the plains of Altus as well and take what we deserve after all of our past struggles."
+ proclaim_gelmir_empire_confirm:0 "The Volcano stands above all!"
+ proclaim_gelmir_empire_tooltip:0 ""
+ 
+ reintegrate_coffins:0 "Reintegrate the Coffin Lakes"
+ reintegrate_coffins_desc:0 "The lordships of Wyndham and the Coffin Lake have traditionally been part of the Altus Plateau, but in recent times outside interests have laid claim to the western regions and made it part of their realm. We must take what is ours and affirm our rule over our lands as has been the case for thousands of years."
+ reintegrate_coffins_confirm:0 "Let none defy the Golden Plains"
+ reintegrate_coffins_tooltip:0 ""
+ 
+ destroy_gelmir_empire:0 "Bring Down the Empire of Gelmir"
+ destroy_gelmir_empire_desc:0 "The proclamation of this new Gelmirian Empire and the conquest of lands belonging to the Altusan people is a threat to the security of Leyndell. We must not allow them to build up their strength as they could very well be planning further incursions towards the Royal Capital itself. They must be driven back into their volcanic mountain, with all of the rightful Altusan lands returned, and their empire dissolved."
+ destroy_gelmir_empire_confirm:0 "Scatter them back to their mountains"
+ destroy_gelmir_empire_tooltip:0 ""
+ 
+ dismantle_gelmir_cb:0 "Destroy Gelmir"
  
  gain_access_to_shadowland:0 "Gib Land of Shadows"
  gain_access_to_shadowland_desc:0 "I wanna see the skibidi tree!"

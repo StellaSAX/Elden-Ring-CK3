@@ -17240,3 +17240,7 @@ k_mohgwyn_dynasty = {
 	}
 }
 
+e_gelmir_empire = {
+	color = { 162 47 5 }
+	capital = c_manor_area_one
+}

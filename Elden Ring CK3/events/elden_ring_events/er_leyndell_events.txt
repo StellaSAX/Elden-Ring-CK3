@@ -1,0 +1,41 @@
+﻿namespace = er_leyndell
+
+#Mount Gelmir is getting too big for their boots
+er_leyndell.0001 = {
+	type = character_event
+	title = er_leyndell.0001.t
+	desc = er_leyndell.0001.desc
+	theme = war
+	left_portrait = {
+		character = title:k_leyndell.holder
+		animation = dismissal
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+	}
+	
+	option = {
+		name = er_leyndell.0001.a
+	}
+}
+
+#Mount Gelmir is destroyed
+er_leyndell.0002 = { 
+	type = character_event
+	title = er_leyndell.0002.t
+	desc = er_leyndell.0002.desc
+	theme = war
+	left_portrait = {
+		character = title:k_leyndell.holder
+		animation = happiness
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+	}
+	
+	option = {
+		name = er_leyndell.0002.a
+	}
+}

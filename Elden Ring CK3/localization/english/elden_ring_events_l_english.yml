@@ -24,6 +24,44 @@
  er_roundtable_hold.0003.e:0 "Chain Armor"
  er_roundtable_hold.1000.i:0 "Nothing for now"
  
+ er_knights.0001.desc:0 "I have Great potential beyond that of my peers, with some special training i could exploit it and become a better warrior, but what should be my specialty? my options depend on what affinities and skills i posses."
+ er_knights.0001.a:0 "I will become a Knight of Order"
+ er_knights.0001.b:0 "I will become a Mounted Knight"
+ er_knights.0001.c:0 "I will become a Crucible Knight"
+ er_knights.0001.d:0 "I will become a Mausoleum Knight"
+ er_knights.0001.e:0 "I will become a Sorcerous Knight"
+ er_knights.0001.f:0 "I will become a Bloodhount Knight"
+ er_knights.0001.h:0 "I will become a Rot Knight"
+ er_knights.0001.j:0 "I will become a Frenzied Knight"
+ er_knights.0001.k:0 "I will become a Cuckoo Knight"
+ er_knights.0001.l:0 "I will become a Drake Knight"
+ er_knights.0001.m:0 "I will become a Death Knight"
+ er_knights.0001.n:0 "I will become a Ice Knight"
+ er_knights.0001.o:0 "I will become a Horned Warrior"
+
+ er_knights.0001.i:0 "Maybe it's better to leave it for later"
+ er_knights.0001.title:0 "Training to become Knight"
+ 
+ er_artifacts.0001.desc:0 "The time has come for my to use all the runes i have colected to create a Great Rune, a representation of my power, a tool nedded to become the God of my own order or to mend the Elden Ring."
+ er_artifacts.0001.title:0 "Creating a Great Rune"
+ er_artifacts.0001.a:0 "A rune to help me in the wars to come."
+ er_artifacts.0001.b:0 "A rune to help me oversee my realm."
+ er_artifacts.0001.c:0 "A rune to help me understand the truth."
+ er_artifacts.0001.d:0 "A rune to help me maintain peace."
+ er_artifacts.0001.e:0 "A rune to help me deal in the shadows."
+ er_artifacts.0001.f:0 "Sadly i can only create a weak one, it's enough."
+ er_artifacts.0001.g:0 "Maybe is better to wait until i am ready."
+ 
+ er_artifacts.0002.title:0 "Forge the Elden Ring"
+ er_artifacts.0002.desc:0 "I am ready, using my Great Rune as a base, i will create the Elden Ring, the key to godhood."
+ er_artifacts.0002.a:0 "Prepare the ritual!"
+ 
+ er_major.0001.t:0 "Restoration of the Raya Lucaria Academy"
+ er_major.0001.desc:0 "You did it!"
+ er_major.0001.a:0 "Yipee! Yay for me!"
+ er_major.0002.t:0 "Restoration of the Raya Lucaria Academy"
+ er_major.0002.desc:0 "They did it!"
+ 
  er_tarnished.0001.title:0 "A moment to rest"
  er_tarnished.0001.desc:0 "While you sit down close to a site of grace, your mind wanders, and you begin to think about your situation.\n\nSo many hardships to get to this point, many enemies felled, some easier than others.\n\nAnd while you have many runes, you still don't know how to level up, some dude even called you maidenless.\n\nThen from the bushes you hear something."Hey dude, another tough day in the lands between?" a man wearing most of the Carian Knight Set but with Lazuli Glintstone Crown appears.\n\n"Just give me a moment to fill my Marika piss flask and i be on my way" he says calmly, and after filling the flask of Wondrous Physick he prepares to go, but before he does he talks. "Hey man, you look maidenless, you want some help leveling up? let me just get into character."\n\n"i cAn PlaY tHe ROLe oF MAiDeN. TuRNinG rUNes InTo sTrENgTH." He is not good at doing female voices."Wait wait wait, i think i got it. Let MY hand REST upon YOU, for BUT a moment." He is still bad.\n\n"Anyway what do you want to level up?""
  
@@ -35,4 +73,31 @@
  er_tarnished.0001.f:0 "Prowess"
  er_tarnished.0001.out:0 "Nothing for now"
  
+ er_gelmir.0001.t:0 "The Coffin Lake is ours!"
+ er_gelmir.0001.desc:0 "Ahh grain."
+ er_gelmir.0001.a:0 "We must push ever onwards!"
+ 
+ er_gelmir.0002.t:0 "The Empire of Gelmir"
+ er_gelmir.0002.desc:0 "We have done it, but [GetTitleByKey('k_leyndell').GetNameNoTier] might not stand idly by and allow Gelmir to encroach on their doorstep."
+ er_gelmir.0002.a:0 "We should tread carefully."
+ 
+ er_gelmir.0003.t:0 "The Empire of Gelmir"
+ er_gelmir.0003.desc:0 "We have done it!"
+ er_gelmir.0003.a:0 "None can stop us now!"
+ 
+ er_gelmir.0004.t:0 "Leyndell seeks to destroy us!"
+ er_gelmir.0004.desc:0 "WTF!!!"
+ er_gelmir.0004.a:0 "Marika save us!"
+ 
+ er_gelmir.0005.t:0 "Our empire has been destroyed!"
+ er_gelmir.0005.desc:0 "Gone, reduced to atoms..."
+ er_gelmir.0005.a:0 "Curse you [GetTitleByKey('k_leyndell').GetNameNoTier]!"
+ 
+ er_leyndell.0001.t:0 "Gelmir is Expanding"
+ er_leyndell.0001.desc:0 "Not very cool of them."
+ er_leyndell.0001.a:0 "Let's fuck them up boys!"
+ 
+ er_leyndell.0002.t:0 "Gelmir has been destroyed!"
+ er_leyndell.0002.desc:0 "That will teach them!"
+ er_leyndell.0002.a:0 "Back to standing in front of the Erdtree..."
  
