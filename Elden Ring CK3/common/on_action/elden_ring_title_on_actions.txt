@@ -1,0 +1,15 @@
+﻿on_title_gain = {
+	effect = {
+		if = {
+			limit = {
+				NOT = { exists = global_var:fort_haight_reclaimed }
+				root = character:haight
+				scope:title = title:c_fort_haight
+				game_start_date >= 8301
+				#has_title = title:c_fort_haight
+			}
+			set_global_variable = fort_haight_reclaimed
+			trigger_event = er_haight.0001
+		}
+	}
+}

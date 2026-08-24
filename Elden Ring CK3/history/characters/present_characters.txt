@@ -247,8 +247,8 @@ haight = {
 		}
 	}
 	7684.9.11 = {
-		add_pressed_claim = title:c_R74G183B42
-		add_pressed_claim = title:d_mistwood
+		add_pressed_claim = title:c_fort_haight
+		#add_pressed_claim = title:d_mistwood
 		effect = {
 			set_landless_government_effect = yes
 		}

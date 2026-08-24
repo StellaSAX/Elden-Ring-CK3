@@ -40,3 +40,18 @@ land_of_shadows_passage = {
 	icon = realm_of_shadow
 	can_travel_along_rivers = yes
 }
+
+development_focus = {
+	icon = county_modifier_development_positive
+	county_opinion_add = 10
+	development_growth_factor = 0.5
+	county_fertility_growth_mult = 0.35
+	build_gold_cost = -0.05
+}
+
+tax_focus = {
+	icon = economy_positive
+	county_opinion_add = -30
+	tax_mult = 0.35
+	development_growth_factor = -0.25
+}

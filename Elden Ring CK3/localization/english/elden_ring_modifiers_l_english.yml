@@ -9,3 +9,8 @@
  renown_debt_for_kenneth_desc:0 "He and his blood need to prove themselves."
  land_of_shadows_passage:0 "Realm Unveiled"
  land_of_shadows_passage_desc:0 "This character is able to travel between the Lands Between and the Realm of Shadow."
+ 
+ development_focus:0 "Increased Development Efforts"
+ development_focus_desc:0 "A well-maintained castle is the best castle."
+ tax_focus:0 "Increased Taxes"
+ tax_focus_desc:0 "Tax the poor. Tax the rich. Tax them all!"

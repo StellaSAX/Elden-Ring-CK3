@@ -1,0 +1,45 @@
+﻿namespace = er_haight
+
+#Kenneth reclaims fort haight
+er_haight.0001 = {
+	type = character_event
+	title = er_haight.0001.t
+	desc = er_haight.0001.desc
+	theme = realm
+	left_portrait = {
+		character = character:haight #scope:kenneth
+		animation = personality_rational
+	}
+
+	immediate = {
+		#character:haight = { save_scope_as = kenneth }
+		add_pressed_claim = title:d_mistwood
+		add_prestige = 500
+	}
+	
+	option = {
+		name = er_haight.0001.a
+		title:c_fort_haight = {
+			add_county_modifier = {
+				modifier = development_focus
+				years = 10
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+	
+	option = {
+		name = er_haight.0001.b
+		title:c_fort_haight = {
+			add_county_modifier = {
+				modifier = tax_focus
+				years = 10
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+}
