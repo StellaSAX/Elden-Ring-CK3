@@ -1,4 +1,4 @@
-﻿on_title_gain = {
+﻿er_on_title_gain = {
 	effect = {
 		if = {
 			limit = {
