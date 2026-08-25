@@ -9,7 +9,32 @@
 				#has_title = title:c_fort_haight
 			}
 			set_global_variable = fort_haight_reclaimed
-			trigger_event = er_haight.0001
+			trigger_event = er_haight.0001 days = 1
+		}
+		
+		if = {
+			limit = {
+				NOT = { exists = global_var:haight_expands_realm }
+				exists = global_var:fort_haight_reclaimed
+				root = character:haight
+				scope:title = title:d_mistwood
+				game_start_date >= 8301
+			}
+			set_global_variable = haight_expands_realm
+			trigger_event = er_haight.0002 days = 1
+		}
+		
+		if = {
+			limit = {
+				NOT = { exists = global_var:haight_expands_realm }
+				exists = global_var:fort_haight_reclaimed
+				root = character:haight
+				realm_size >= 15
+				#scope:title = title:d_mistwood
+				game_start_date >= 8301
+			}
+			set_global_variable = haight_expands_realm
+			trigger_event = er_haight.0002 days = 1
 		}
 	}
 }

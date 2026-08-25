@@ -228,7 +228,7 @@ haight = {
 	trait = zealous
 	trait = arrogant
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_beards=m_beard_mpo_mongol_03
 			custom_hair=m_hair_ep3_byzantine_01
@@ -248,7 +248,6 @@ haight = {
 	}
 	7684.9.11 = {
 		add_pressed_claim = title:c_fort_haight
-		#add_pressed_claim = title:d_mistwood
 		effect = {
 			set_landless_government_effect = yes
 		}
@@ -269,7 +268,7 @@ edgar = {
 	
 	disallow_random_traits = yes
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_hair=male_hair_fp2_iberian_christian_01
 			custom_beards=m_beard_ep3_byzantine_04
@@ -387,7 +386,7 @@ gostoc = {
 	trait = weak
 	trait = no_marry
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_beards=male_empty
 			custom_hair=m_hair_fp3_iranian_01
@@ -437,7 +436,7 @@ jerren = {
 	
 	disallow_random_traits = yes
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_beards=m_beard_ep3_byzantine_02
 			custom_hair=no_hair
@@ -493,7 +492,7 @@ sellen = {
 	
 	disallow_random_traits = yes
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_hair=female_hair_fp2_iberian_muslim_01_common
 		}
@@ -554,7 +553,7 @@ anna = {
 	
 	disallow_random_traits = yes
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_beards=female_empty
 			custom_hair=f_hair_sp4_mena_01

@@ -101,8 +101,18 @@
  er_leyndell.0002.desc:0 "That will teach them!"
  er_leyndell.0002.a:0 "Back to standing in front of the Erdtree..."
  
+ er_stormveil.0001.t:0 "A Pretender to my Realm"
+ er_stormveil.0001.desc:0 "Some fool lays claim to [GetTitleByKey('k_stormveil').GetNameNoTier]! (TEMP)"
+ er_stormveil.0001.a:0 "None but me may rule [GetTitleByKey('k_stormveil').GetNameNoTier]! I will show this upstart a lesson!"
+ er_stormveil.0001.b:0 "Let them come! The walls of [GetTitleByKey('d_stormveil').GetNameNoTier] will hold against any opponent!"
+ 
  er_haight.0001.t:0 "Fort Haight has been reclaimed!"
  er_haight.0001.desc:0 "Oh, a truly excellent day indeed! After being ousted from my this great fort of mine for far too long, it has fallen back into the rightful hands of me! Kenneth Haight!\n\nBut not all is well. The mad fool who took the fort had no intellect to maintain such a grand abode! It might take years to clean up and rebuild this mess!\n\nNo matter, I am not one to shirk upon my duties, though the question remains what approach I choose to bring this fort back into glory.\n\nI could focus on developing the immediate surroundings, truly it would bring me great prestige should [GetTitleByKey('c_fort_haight').GetNameNoTier] be the shining jewel of [GetTitleByKey('e_limgrave').GetNameNoTier].\n\nI could also raise taxes, it may not be particularly popular with the folk living under my rule, but it would merely be a temporary measure. Good coin will be needed to bolster my armies and defenses so that no other may freely take the fort again."
  er_haight.0001.a:0 "I should invest in development efforts."
  er_haight.0001.b:0 "More money never hurt anybody."
+ 
+ er_haight.0002.t:0 "The realms grows larger"
+ er_haight.0002.desc:0 "The domain of Haight is getting larger. (TEMP)"
+ er_haight.0002.a:0 "[GetTitleByKey('k_stormveil').GetNameNoTier], and by extension [GetTitleByKey('e_limgrave').GetNameNoTier] is my birthright!"
+ er_haight.0002.b:0 "I should take it easy and have a nap on my chair."
  

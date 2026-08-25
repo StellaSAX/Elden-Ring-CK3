@@ -1,0 +1,40 @@
+﻿namespace = er_stormveil
+
+#Stormveil holder gets news that Kenneth is getting a bit too ambitious
+er_stormveil.0001 = {
+	type = character_event
+	title = er_stormveil.0001.t
+	desc = er_stormveil.0001.desc
+	theme = realm
+	left_portrait = {
+		character = title:k_stormveil.holder
+		animation = personality_rational
+	}
+	
+	option = {
+		name = er_stormveil.0001.a
+		
+		remove_short_term_gold = 150
+		
+		add_unpressed_claim = scope:target_county
+		
+		character:haight = {
+            every_held_title = {
+                title_tier >= county
+                root = { add_unpressed_claim ?= prev }
+            }
+        }
+		
+		ai_chance = {
+			base = 50
+		}
+	}
+	
+	option = {
+		name = er_stormveil.0001.b
+		
+		ai_chance = {
+			base = 50
+		}
+	}
+}

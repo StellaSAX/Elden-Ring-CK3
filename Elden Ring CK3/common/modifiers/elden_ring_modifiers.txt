@@ -51,7 +51,7 @@ development_focus = {
 
 tax_focus = {
 	icon = economy_positive
-	county_opinion_add = -30
+	county_opinion_add = -50
 	tax_mult = 0.35
 	development_growth_factor = -0.25
 }
