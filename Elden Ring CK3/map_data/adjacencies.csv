@@ -30,4 +30,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1890;225;river_large;2999;-1;-1;-1;-1;Four Belfries Nokron
 2247;5;river_large;2798;-1;-1;-1;-1;Four Belfries CoA
 2460;397;river_large;2183;-1;-1;-1;-1;Castle Ensus Crossing
+1047;656;river_large;3255;-1;-1;-1;-1;Bonny Village Bridge
+656;1923;river_large;3256;-1;-1;-1;-1;Bonny Village Bridge to Manus Metyr 1
+1923;1435;river_large;3260;-1;-1;-1;-1;Bonny Village Bridge to Manus Metyr 2
+1047;442;river_large;3256;-1;-1;-1;-1;Bonny Village Bridge to Bonny Gaol
 -1;-1;;-1;-1;-1;-1;-1;

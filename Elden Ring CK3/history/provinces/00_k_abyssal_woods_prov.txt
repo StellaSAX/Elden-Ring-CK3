@@ -243,26 +243,11 @@
 	religion = faith_golden
 	holding = none
 }
-
-
-### c_R160G90B103
 # R63G134B196
 54 = {
 	culture = cul_hornsent
 	religion = faith_golden
 	holding = castle_holding
-}
-# R146G229B142
-365 = {
-	culture = cul_hornsent
-	religion = faith_golden
-	holding = none
-}
-# R69G3B152
-1148 = {
-	culture = cul_hornsent
-	religion = faith_golden
-	holding = none
 }
 
 
