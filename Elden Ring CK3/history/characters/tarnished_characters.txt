@@ -293,7 +293,7 @@ eleonora = {
 	
 	disallow_random_traits = yes
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_beards=female_empty
 			custom_hair=female_hair_fp2_iberian_christian_02
@@ -347,7 +347,7 @@ nerijus = {
 	
 	disallow_random_traits = yes
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_beards=male_empty
 			custom_hair=no_hair
@@ -397,7 +397,7 @@ vyke = {
 	
 	disallow_random_traits = yes
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_beards=male_empty
 			custom_hair=m_hair_ep3_byzantine_01

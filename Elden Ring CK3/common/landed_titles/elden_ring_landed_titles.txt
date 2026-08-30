@@ -5746,19 +5746,19 @@ e_siofra = {
 
 h_lands_between = {
 	color = { 247 251 117 }
-	capital = c_R41G168B113
+	capital = c_elden_throne
 
 	e_limgrave = {
 		color = { 39 150 45 }
-		capital = c_R165G102B69
+		capital = c_stormveil_throne
 
 		k_stormveil = {
 			color = { 151 189 31 }
-			capital = c_R165G102B69
+			capital = c_stormveil_throne
 
 			d_stormveil = {
 				color = { 232 236 13 }
-				capital = c_R165G102B69
+				capital = c_stormveil_throne
 
 				c_R77G149B250 = {
 					color = { 77 149 250 }
@@ -5812,7 +5812,7 @@ h_lands_between = {
 					}
 				}
 
-				c_R165G102B69 = {
+				c_stormveil_throne = {
 					color = { 165 102 69 }
 
 					b_R196G191B135 = {
@@ -13027,11 +13027,11 @@ h_lands_between = {
 
 	e_leyndell = {
 		color = { 242 245 66 }
-		capital = c_R41G168B113
+		capital = c_elden_throne
 
 		k_leyndell = {
 			color = { 245 236 61 }
-			capital = c_R41G168B113
+			capital = c_elden_throne
 
 			d_divinetower_west_altus = {
 				color = { 143 155 22 }
@@ -13613,9 +13613,9 @@ h_lands_between = {
 
 			d_royal_capital = {
 				color = { 226 209 0 }
-				capital = c_R41G168B113
+				capital = c_elden_throne
 
-				c_R41G168B113 = {
+				c_elden_throne = {
 					color = { 41 168 113 }
 
 					b_R140G223B208 = {

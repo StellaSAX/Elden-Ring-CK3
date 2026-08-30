@@ -1,22 +1,22 @@
-﻿shaman_line = {
-	name = "Neris" #so that new children aren't named "Shaman line"
-	female = yes
-	sexuality = bisexual
-	dynasty = dynn_erdtree
-	
-	religion = faith_shaman
-	culture = cul_shaman
-	
-	disallow_random_traits = yes
-	
-	660.1.1 = {
-		birth = yes
-	}
-	
-	690.5.25 = {
-		death = yes
-	}
-}
+﻿#shaman_line = {
+#	name = "Neris" #so that new children aren't named "Shaman line"
+#	female = yes
+#	sexuality = bisexual
+#	dynasty = dynn_erdtree
+#	
+#	religion = faith_shaman
+#	culture = cul_shaman
+#	
+#	disallow_random_traits = yes
+#	
+#	660.1.1 = {
+#		birth = yes
+#	}
+#	
+#	690.5.25 = {
+#		death = yes
+#	}
+#}
 
 marika = {
 	name = "Marika"
@@ -45,7 +45,7 @@ marika = {
 	trait = erdtree_affinity
 	
 	disallow_random_traits = yes
-	mother = shaman_line
+	#mother = shaman_line
 	
 	portrait_override = {
 		portrait_modifier_overrides={
@@ -166,7 +166,7 @@ hoarah_loux = {
 	
 	disallow_random_traits = yes
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_beards=male_beard_fp1_04
 			custom_hair=male_hair_fp1_08
@@ -216,7 +216,7 @@ messmer = {
 	disallow_random_traits = yes
 	mother = marika
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_beards=male_empty
 			custom_hair=male_hair_fp1_05
@@ -265,7 +265,7 @@ melina = {
 	disallow_random_traits = yes
 	mother = marika
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_hair=female_hair_fp2_iberian_christian_03
 			custom_beards=female_empty
@@ -312,7 +312,7 @@ godwyn = {
 	father = hoarah_loux
 	mother = marika
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_beards=male_empty
 			custom_hair=m_hair_fp3_iranian_03
@@ -360,7 +360,7 @@ morgott = {
 	trait = fire_affinity
 	trait = no_marry
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_hair=m_hair_fp3_iranian_01
 			custom_beards=m_beard_tgp_chinese_09
@@ -411,7 +411,7 @@ mohg = {
 	father = hoarah_loux
 	mother = marika
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_beards=m_beard_ep3_byzantine_02
 			custom_hair=m_hair_fp3_iranian_01
@@ -468,7 +468,7 @@ radahn = {
 	father = radagon
 	mother = rennala
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_hair=male_hair_northern_02
 			custom_beards=male_empty
@@ -548,7 +548,7 @@ rykard = {
 	father = radagon
 	mother = rennala
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_hair=male_hair_western_07
 			custom_beards=m_beard_ep3_byzantine_03
@@ -624,7 +624,7 @@ ranni = {
 	father = radagon
 	mother = rennala
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_hair=female_hair_fp2_iberian_muslim_01_common
 			custom_beards=female_empty
@@ -740,7 +740,7 @@ miquella = {
 	mother = marika
 	father = radagon
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_beards=male_empty
 			custom_hair=m_hair_fp3_iranian_01
@@ -808,7 +808,7 @@ trina = {
 	mother = marika
 	father = radagon
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_hair=female_hair_fp2_iberian_christian_01
 			custom_beards=male_empty
@@ -860,7 +860,7 @@ malenia = {
 	
 	disallow_random_traits = yes
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_hair=female_hair_fp2_iberian_christian_02
 			custom_beards=female_empty
@@ -1187,7 +1187,7 @@ godrick = {
 	disallow_random_traits = yes
 	father = godefroy
 	
-	portrait_override = {	
+	portrait_override = {
 		portrait_modifier_overrides={
 			custom_hair=male_hair_rtt_01
 			custom_beards=male_empty

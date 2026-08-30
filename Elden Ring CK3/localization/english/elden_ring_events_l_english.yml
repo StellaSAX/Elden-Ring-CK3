@@ -75,7 +75,8 @@
  
  er_gelmir.0001.t:0 "The Coffin Lake is ours!"
  er_gelmir.0001.desc:0 "Ahh grain."
- er_gelmir.0001.a:0 "We must push ever onwards!"
+ er_gelmir.0001.a:0 "Invest in these new territories of ours."
+ er_gelmir.0001.b:0 "Excellent work."
  
  er_gelmir.0002.t:0 "The Empire of Gelmir"
  er_gelmir.0002.desc:0 "We have done it, but [GetTitleByKey('k_leyndell').GetNameNoTier] might not stand idly by and allow Gelmir to encroach on their doorstep."
@@ -115,4 +116,12 @@
  er_haight.0002.desc:0 "The domain of Haight is getting larger. (TEMP)"
  er_haight.0002.a:0 "[GetTitleByKey('k_stormveil').GetNameNoTier], and by extension [GetTitleByKey('e_limgrave').GetNameNoTier] is my birthright!"
  er_haight.0002.b:0 "I should take it easy and have a nap on my chair."
+ 
+ er_haight.0003.t:0 "The Kingdom of Stormveil"
+ er_haight.0003.desc:0 "I rule! (TEMP)"
+ er_haight.0003.a:0 "None can stop me now!"
+ 
+ er_haight.0004.t:0 "The Empire of Limgrave"
+ er_haight.0004.desc:0 "I rule even more! (TEMP)"
+ er_haight.0004.a:0 "Now I can truly rest."
  

@@ -625,7 +625,7 @@
 
 ##### d_royal_capital ############################
 
-### c_R41G168B113
+### c_elden_throne
 # R140G223B208
 1648 = {
 	culture = cul_leyndell

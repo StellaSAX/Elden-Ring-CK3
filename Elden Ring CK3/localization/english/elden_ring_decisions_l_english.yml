@@ -166,6 +166,31 @@
  
  dismantle_gelmir_cb:0 "Destroy Gelmir"
  
+ reclaim_capital_stormveil:0 "Reclaim the Capital of [GetTitleByKey('k_stormveil').GetNameNoTooltip]"
+ reclaim_capital_stormveil_desc:0 "I am the [Select_CString(ROOT.Char.IsFemale,'Lady','Lord')] of [GetTitleByKey('k_stormveil').GetNameNoTier], yet I do not directly hold the It's capital. It is being held by a subject within my realm, therefore it will be a simple matter to take control of this key province myself."
+ reclaim_capital_stormveil_confirm:0 "The castle is mine"
+ reclaim_capital_stormveil_tooltip:0 ""
+ 
+ reclaim_capital_redmane:0 "Reclaim the Capital of [GetTitleByKey('k_redmane').GetNameNoTooltip]"
+ reclaim_capital_redmane_desc:0 "I am the [Select_CString(ROOT.Char.IsFemale,'Lady','Lord')] of [GetTitleByKey('k_redmane').GetNameNoTier], yet I do not directly hold the It's capital. It is being held by a subject within my realm, therefore it will be a simple matter to take control of this key province myself."
+ reclaim_capital_redmane_confirm:0 "The castle is mine"
+ reclaim_capital_redmane_tooltip:0 ""
+ 
+ reclaim_capital_rayalucaria:0 "Reclaim the Capital of [GetTitleByKey('k_rayalucaria').GetNameNoTooltip]"
+ reclaim_capital_rayalucaria_desc:0 "I am the [Select_CString(ROOT.Char.IsFemale,'Lady','Lord')] of [GetTitleByKey('k_rayalucaria').GetNameNoTier], yet I do not directly hold the It's capital. It is being held by a subject within my realm, therefore it will be a simple matter to take control of this key province myself."
+ reclaim_capital_rayalucaria_confirm:0 "The academy is mine"
+ reclaim_capital_rayalucaria_tooltip:0 ""
+ 
+ reclaim_capital_caria_manor:0 "Reclaim the Capital of [GetTitleByKey('k_caria').GetNameNoTooltip]"
+ reclaim_capital_caria_manor_desc:0 "I am the [Select_CString(ROOT.Char.IsFemale,'Lady','Lord')] of [GetTitleByKey('k_caria').GetNameNoTier], yet I do not directly hold the It's capital. It is being held by a subject within my realm, therefore it will be a simple matter to take control of this key province myself."
+ reclaim_capital_caria_manor_confirm:0 "The manor is mine"
+ reclaim_capital_caria_manor_tooltip:0 ""
+ 
+ reclaim_capital_leyndell:0 "Reclaim the Capital of [GetTitleByKey('k_leyndell').GetNameNoTooltip]"
+ reclaim_capital_leyndell_desc:0 "I am the [Select_CString(ROOT.Char.IsFemale,'Lady','Lord')] of [GetTitleByKey('k_leyndell').GetNameNoTier], yet I do not directly hold the It's capital. It is being held by a subject within my realm, therefore it will be a simple matter to take control of this key province myself."
+ reclaim_capital_leyndell_confirm:0 "The royal seat is mine"
+ reclaim_capital_leyndell_tooltip:0 ""
+ 
  gain_access_to_shadowland:0 "Gib Land of Shadows"
  gain_access_to_shadowland_desc:0 "I wanna see the skibidi tree!"
  gain_access_to_shadowland_confirm:0 "Yee!"

@@ -7,13 +7,14 @@ er_haight.0001 = {
 	desc = er_haight.0001.desc
 	theme = realm
 	left_portrait = {
-		character = character:haight
+		character = root
 		animation = personality_rational
 	}
 
 	immediate = {
 		add_pressed_claim = title:d_mistwood
 		add_prestige = 500
+		dynasty = { add_dynasty_prestige = 100 }
 	}
 	
 	option = {
@@ -50,12 +51,13 @@ er_haight.0002 = {
 	desc = er_haight.0002.desc
 	theme = realm
 	left_portrait = {
-		character = character:haight
+		character = root
 		animation = personality_rational
 	}
 
 	immediate = {
 		add_prestige = 1500
+		dynasty = { add_dynasty_prestige = 150 }
 	}
 	
 	option = {
@@ -69,18 +71,23 @@ er_haight.0002 = {
 		#}
 		
 		hidden_effect = {
-			title:k_stormveil.holder = {
-				set_relation_rival = {
-					target = character:haight
-					reason = rival_claimed_my_title
-					involved_character = root
+			if = {
+				limit = {
+					title:k_stormveil = { is_title_created = yes }
 				}
-				trigger_event = { id = er_stormveil.0001 }
-			}
-			reverse_add_opinion = {
-				modifier = angry_opinion
-				target = title:k_stormveil.holder
-				opinion = -100
+				title:k_stormveil.holder = {
+					set_relation_rival = {
+						target = character:haight
+						reason = rival_claimed_my_title
+						involved_character = root
+					}
+					trigger_event = { id = er_stormveil.0001 }
+				}
+				reverse_add_opinion = {
+					modifier = angry_opinion
+					target = title:k_stormveil.holder
+					opinion = -100
+				}
 			}
 		}
 		
@@ -98,6 +105,69 @@ er_haight.0002 = {
 		
 		ai_chance = {
 			base = 70
+		}
+	}
+}
+
+#Kenneth gains the kingdom of stormveil
+er_haight.0003 = {
+	type = character_event
+	title = er_haight.0003.t
+	desc = er_haight.0003.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	immediate = {
+		add_prestige = 4000
+		dynasty = { add_dynasty_prestige = 250 }
+		add_legitimacy = 250
+	}
+	
+	option = {
+		name = er_haight.0003.a
+		
+		if = {
+			limit = {
+				title:e_limgrave = { is_title_created = yes }
+			}
+			add_pressed_claim = title:e_limgrave
+		}
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+#Kenneth gains the empire of limgrave
+er_haight.0004 = {
+	type = character_event
+	title = er_haight.0004.t
+	desc = er_haight.0004.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	immediate = {
+		add_prestige = 10000
+		dynasty = { add_dynasty_prestige = 500 }
+		add_legitimacy = 500
+	}
+	
+	option = {
+		name = er_haight.0004.a
+		
+		dynasty:dynn_haight = {
+			remove_dynasty_modifier = renown_debt_for_kenneth
+		}
+		
+		ai_chance = {
+			base = 100
 		}
 	}
 }

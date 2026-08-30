@@ -1,0 +1,214 @@
+﻿reclaim_capital_stormveil = {
+	ai_check_interval = 240
+
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_legitimacy.dds" }
+
+	decision_group_type = minor
+
+	is_shown = {
+		NOT = { government_has_flag = government_is_tribal }
+		NOT = { has_title = title:c_stormveil_throne }
+		
+		title:c_stormveil_throne.holder = {
+			top_liege = title:k_stormveil.holder
+		}
+		
+		OR = {
+			has_primary_title = title:k_stormveil
+			has_primary_title = title:e_limgrave
+		}
+	}
+	
+	is_valid = {
+		
+	}
+	
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		#is_adult = yes
+		is_at_war = no
+	}
+	
+	cost = {
+		
+	}
+
+	effect = {
+		get_title = title:c_stormveil_throne
+	}
+	
+	ai_potential = { always = yes }
+	ai_will_do = { base = 25 }
+}
+
+reclaim_capital_redmane = {
+	ai_check_interval = 240
+
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_legitimacy.dds" }
+
+	decision_group_type = minor
+
+	is_shown = {
+		NOT = { government_has_flag = government_is_tribal }
+		NOT = { has_title = title:c_castellans_rock }
+		
+		title:c_castellans_rock.holder = {
+			top_liege = title:k_redmane.holder
+		}
+		
+		OR = {
+			has_primary_title = title:k_redmane
+			has_primary_title = title:e_caelid
+		}
+	}
+	
+	is_valid = {
+		
+	}
+	
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		#is_adult = yes
+		is_at_war = no
+	}
+	
+	cost = {
+		
+	}
+
+	effect = {
+		get_title = title:c_castellans_rock
+	}
+	
+	ai_potential = { always = yes }
+	ai_will_do = { base = 25 }
+}
+
+reclaim_capital_rayalucaria = {
+	ai_check_interval = 240
+
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_legitimacy.dds" }
+
+	decision_group_type = minor
+
+	is_shown = {
+		NOT = { government_has_flag = government_is_tribal }
+		NOT = { has_title = title:c_raya_lucaria }
+		
+		title:c_raya_lucaria.holder = {
+			top_liege = title:k_rayalucaria.holder
+		}
+		
+		OR = {
+			has_primary_title = title:k_rayalucaria
+			has_primary_title = title:e_liurnia
+		}
+	}
+	
+	is_valid = {
+		
+	}
+	
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		#is_adult = yes
+		is_at_war = no
+	}
+	
+	cost = {
+		
+	}
+
+	effect = {
+		get_title = title:c_raya_lucaria
+	}
+	
+	ai_potential = { always = yes }
+	ai_will_do = { base = 25 }
+}
+
+reclaim_capital_caria_manor = {
+	ai_check_interval = 240
+
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_legitimacy.dds" }
+
+	decision_group_type = minor
+
+	is_shown = {
+		NOT = { government_has_flag = government_is_tribal }
+		NOT = { has_title = title:c_caria_manor }
+		
+		dynasty = dynasty:dynn_caria
+		
+		title:c_caria_manor.holder = {
+			top_liege = title:k_caria.holder
+		}
+		
+		has_primary_title = title:k_caria
+	}
+	
+	is_valid = {
+		
+	}
+	
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		#is_adult = yes
+		is_at_war = no
+	}
+	
+	cost = {
+		
+	}
+
+	effect = {
+		get_title = title:c_caria_manor
+	}
+	
+	ai_potential = { always = yes }
+	ai_will_do = { base = 25 }
+}
+
+reclaim_capital_leyndell = {
+	ai_check_interval = 240
+
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_legitimacy.dds" }
+
+	decision_group_type = minor
+
+	is_shown = {
+		NOT = { government_has_flag = government_is_tribal }
+		NOT = { has_title = title:c_elden_throne }
+		
+		title:c_elden_throne.holder = {
+			top_liege = title:k_leyndell.holder
+		}
+		
+		OR = {
+			has_primary_title = title:k_leyndell
+			has_primary_title = title:e_leyndell
+			has_primary_title = title:h_lands_between
+		}
+	}
+	
+	is_valid = {
+		
+	}
+	
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		#is_adult = yes
+		is_at_war = no
+	}
+	
+	cost = {
+		
+	}
+
+	effect = {
+		get_title = title:c_elden_throne
+	}
+	
+	ai_potential = { always = yes }
+	ai_will_do = { base = 25 }
+}

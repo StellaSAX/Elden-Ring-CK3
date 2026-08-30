@@ -61,6 +61,7 @@
  nick_soldier_of_god:0 "Soldier of God"
  nick_witch_hunter:0 "Witch-Hunter"
  nick_trout_eater:0 "Trout-Eater"
+ nick_trout_eater_desc:0 "Say what you want about the [CHARACTER.GetWomanMan], [CharYouSheHe(CHARACTER)] loves [CharYourHerHis(CHARACTER)] trout."
  
  nick_champion_of_gelmir:0 "the Champion of Gelmir"
  nick_champion_of_gelmir_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] reinvigorated the Gelmirian spirit and truly pushed the volcanic mountain to the forefront of great kingdoms."

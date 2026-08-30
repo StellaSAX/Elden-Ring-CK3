@@ -12,11 +12,36 @@ er_gelmir.0001 = {
 	}
 
 	immediate = {
-		play_music_cue = "mx_cue_epic_sacral_moment"
+		
 	}
 	
 	option = {
 		name = er_gelmir.0001.a
+		
+		remove_short_term_gold = 100
+		
+		title:d_wyndham = {
+			every_de_jure_county = {
+				add_county_modifier = encouraged_improvement_modifier years = 6
+			}
+		}
+		title:d_coffin_lake = {
+			every_de_jure_county = {
+				add_county_modifier = encouraged_improvement_modifier years = 6
+			}
+		}
+		
+		ai_chance = {
+			base = 50
+		}
+	}
+	
+	option = {
+		name = er_gelmir.0001.b
+		
+		ai_chance = {
+			base = 50
+		}
 	}
 }
 
@@ -37,7 +62,7 @@ er_gelmir.0002 = {
 	}
 
 	immediate = {
-		play_music_cue = "mx_cue_epic_sacral_moment"
+		
 	}
 	
 	option = {
@@ -77,7 +102,7 @@ er_gelmir.0004 = {
 	}
 
 	immediate = {
-		play_music_cue = "mx_cue_epic_sacral_moment"
+		
 	}
 	
 	option = {
@@ -97,7 +122,7 @@ er_gelmir.0005 = {
 	}
 
 	immediate = {
-		play_music_cue = "mx_cue_epic_sacral_moment"
+		
 	}
 	
 	option = {
