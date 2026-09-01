@@ -212,3 +212,61 @@ reclaim_capital_leyndell = {
 	ai_potential = { always = yes }
 	ai_will_do = { base = 25 }
 }
+
+#construct_a_rise = {
+#	picture = {
+#		reference = "gfx/interface/illustrations/decisions/decision_build_rise.dds"
+#	}
+#	decision_group_type = minor
+#
+#	is_shown = {
+#		culture = { has_cultural_parameter = can_construct_rises }
+#	}
+#
+#	is_valid = {
+#	
+#	}
+#	
+#	widget = {
+#		controller = create_holy_order
+#		barony_valid = {
+#			trigger_if = {
+#				limit = { exists = this }
+#				title_province = { has_special_building_slot = no }
+#				is_capital_barony = yes
+#				holder = scope:ruler
+#				is_leased_out = no
+#			}
+#		}
+#	}
+#
+#	is_valid_showing_failures_only = { # Error suppressing
+#		has_variable = clear_ground
+#	}
+#
+#	cost = {
+#	
+#	}
+#	
+#	effect = {
+#		send_interface_toast = {
+#			type = event_toast_effect_good
+#			title = clear_ground_for_legendary_building.toast
+#			switch = {
+#				trigger = root.var:clear_ground
+#				flag:generic_rise = {
+#					scope:barony.title_province ?= {
+#						add_special_building_slot = generic_rise
+#					}
+#				}
+#			}
+#		}
+#	}
+#
+#	ai_potential = {
+#		always = no
+#	}
+#	ai_will_do = {
+#		base = 0
+#	}
+#}

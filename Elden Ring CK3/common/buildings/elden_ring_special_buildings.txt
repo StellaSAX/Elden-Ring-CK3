@@ -1,5 +1,4 @@
-﻿
-placidusax_throne_01 = {
+﻿placidusax_throne_01 = {
 	construction_time = very_slow_construction_time
 
 	type_icon = "icon_structure_al_qarawiyyin_university.dds"
@@ -593,7 +592,7 @@ grand_lift_dectus = {
 	flag = travel_point_of_interest_wonder
 }
 
-beastial_sanctum = {
+bestial_sanctum = {
 	construction_time = very_quick_construction_time
 
 	type_icon = "icon_structure_soltaniyeh.dds"
@@ -625,7 +624,7 @@ beastial_sanctum = {
 }
 
 # unused, fort gael is in a pretty intact state.
-fort_gael_0 = { 
+fort_gael_0 = {
 	construction_time = very_quick_construction_time
 
 	type_icon = "icon_structure_falak_ol_aflak_citadel.dds"
@@ -819,7 +818,7 @@ volcano_manor = {
 limgrave_colosseum = {
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_colosseum.dds"
+	type_icon = "colosseum.dds"
 	
 	can_construct_potential = {
 	}
@@ -854,7 +853,7 @@ limgrave_colosseum = {
 caelid_colosseum = {
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_colosseum.dds"
+	type_icon = "colosseum.dds"
 	
 	can_construct_potential = {
 	}
@@ -889,7 +888,7 @@ caelid_colosseum = {
 royal_colosseum = {
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_colosseum.dds"
+	type_icon = "colosseum.dds"
 	
 	can_construct_potential = {
 	}
@@ -958,10 +957,44 @@ church_of_marika = {
 	flag = golden_order_magic
 }
 
+generic_rise = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "rise_tower.dds"
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 800
+
+	character_modifier = {
+		monthly_learning_lifestyle_xp_gain_mult = 0.20
+		learning = 2
+	}
+	province_modifier = {
+		fort_level = 2
+	}
+	county_modifier = {
+		epidemic_resistance = 10
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
 oridys_rise = {
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_building_legendary_watchtower.dds"
+	type_icon = "rise_tower.dds"
 	
 	can_construct_potential = {
 	}
@@ -1000,7 +1033,7 @@ divine_tower_limgrave = {
 	
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_building_legendary_watchtower.dds"
+	type_icon = "divine_tower.dds"
 	
 	can_construct_potential = {
 	}
@@ -1038,7 +1071,7 @@ divine_tower_liurnia = {
 	
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_building_legendary_watchtower.dds"
+	type_icon = "divine_tower.dds"
 	
 	can_construct_potential = {
 	}
@@ -1076,7 +1109,7 @@ divine_tower_caelid = {
 	
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_building_legendary_watchtower.dds"
+	type_icon = "divine_tower.dds"
 	
 	can_construct_potential = {
 	}
@@ -1114,7 +1147,7 @@ divine_tower_westaltus = {
 	
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_building_legendary_watchtower.dds"
+	type_icon = "divine_tower.dds"
 	
 	can_construct_potential = {
 	}
@@ -1152,7 +1185,7 @@ divine_tower_eastaltus = {
 	
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_building_legendary_watchtower.dds"
+	type_icon = "divine_tower.dds"
 	
 	can_construct_potential = {
 	}
@@ -1190,7 +1223,7 @@ divine_tower_isolated = {
 	
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_building_legendary_watchtower.dds"
+	type_icon = "divine_tower.dds"
 	
 	can_construct_potential = {
 	}

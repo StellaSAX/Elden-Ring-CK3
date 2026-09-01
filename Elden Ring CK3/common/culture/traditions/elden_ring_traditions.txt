@@ -69,6 +69,7 @@ tradition_carian_royal = {
 		sorcery_glintstone_more_common = yes
 		sorcery_carian_more_common = yes
 		can_change_glintstone_to_carian = yes
+		can_construct_rises = yes
 	}
 	character_modifier = {
 		learning = 2

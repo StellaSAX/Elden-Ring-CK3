@@ -54,10 +54,10 @@
  building_grand_lift_dectus:0 "Grand Lift of Dectus"
  building_grand_lift_dectus_desc:0 "A colossal structure reaching gargantuan heights, it is a lift that connects Liurnia to Altus Plateau."
 
- building_type_beastial_sanctum:0 "Bestial Sanctum"
- building_type_beastial_sanctum_desc:0 "An ancient structure on the northernmost tip of Caelid."
- building_beastial_sanctum:0 "Bestial Sanctum"
- building_beastial_sanctum_desc:0 "An ancient structure on the northernmost tip of Caelid. It is rumored to house a beast clergyman that is obsessed with obtaining and consuming Deathroot."
+ building_type_bestial_sanctum:0 "Bestial Sanctum"
+ building_type_bestial_sanctum_desc:0 "An ancient structure on the northernmost tip of Caelid."
+ building_bestial_sanctum:0 "Bestial Sanctum"
+ building_bestial_sanctum_desc:0 "An ancient structure on the northernmost tip of Caelid. It is rumored to house a beast clergyman that is obsessed with obtaining and consuming Deathroot."
 
  building_type_fort_gael:0 "Fort Gael"
  building_type_fort_gael_desc:0 "This heavily fortified fort sits on a strategic spot on the western edge of Caelid, overlooking the region."
@@ -103,6 +103,11 @@
  building_type_church_of_marika_desc:0 "One of the four churches of Marika."
  building_church_of_marika:0 "Church of Marika"
  building_church_of_marika_desc:0 "One of the four churches of Marika."
+ 
+ building_type_generic_rise:0 "Generic Rise"
+ building_type_generic_rise_desc:0 "My rise is rising."
+ building_generic_rise:0 "Generic Rise"
+ building_generic_rise_desc:0 "My rise is rising."
 
  building_type_oridys_rise:0 "Oridys' Rise"
  building_type_oridys_rise_desc:0 "My oridys is rising."
