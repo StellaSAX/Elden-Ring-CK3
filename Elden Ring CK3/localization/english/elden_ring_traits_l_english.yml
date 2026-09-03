@@ -20,6 +20,9 @@
  trait_empyrean_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was Chosen by the two fingers to have the potential to become a God, but for now they are a natural leader."
  trait_eternal_youth_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born with a condition that make them incapable of growing their body."
  trait_shardbearer_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has a fragment of the elden ring, giving them great power."
+ 
+ trait_mute:0 "Mute"
+ trait_mute_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is unable to speak [ROOT.GetCharacter.GetHerHis] mind — or at all."
 
  trait_scarlet_rot_malenia:0 "Scarlet Rot"
  trait_scarlet_rot_malenia_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born with a terrible and ancient affliction which is consuming [ROOT.GetCharacter.GetHerHis] body, leaving [ROOT.GetCharacter.GetHerHim] with a deformed appearance and terrible nightmares."

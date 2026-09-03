@@ -123,11 +123,144 @@ dynn_aeonia = {
 	culture = cul_sellia
 	motto = aeonia_motto
 }
+dynn_black_knight = {
+	name = "dynn_black_knight"
+	culture = cul_leyndell
+	motto = black_knight_motto
+}
+dynn_hoslow = {
+	name = "dynn_hoslow"
+	culture = cul_leyndell
+	motto = hoslow_motto
+}
+dynn_shoriegan = {
+	name = "dynn_shoriegan"
+	culture = cul_reedlander
+	motto = shoriegan_motto
+}
+dynn_ravenmount = {
+	name = "dynn_ravenmount"
+	culture = cul_stormhill
+	motto = ravenmount_motto
+}
+dynn_boulle = {
+	name = "dynn_boulle"
+	culture = cul_caelid
+	motto = boulle_motto
+}
+dynn_fagan = {
+	name = "dynn_fagan"
+	culture = cul_liurnia
+	motto = fagan_motto
+}
+dynn_tarnbar = {
+	name = "dynn_tarnbar"
+	culture = cul_altus
+	motto = tarnbar_motto
+}
+dynn_golhuw = {
+	name = "dynn_golhuw"
+	culture = cul_leyndell
+	motto = golhuw_motto
+}
+dynn_huna = {
+	name = "dynn_huna"
+	culture = cul_altus
+	motto = huna_motto
+}
+dynn_kuso = {
+	name = "dynn_kuso"
+	culture = cul_leyndell
+	motto = kuso_motto
+}
+dynn_gordeor = {
+	name = "dynn_gordeor"
+	culture = cul_leyndell
+	motto = gordeor_motto
+}
+dynn_estasa = {
+	name = "dynn_estasa"
+	culture = cul_caria
+	motto = estasa_motto
+}
+dynn_berouan = {
+	name = "dynn_berouan"
+	culture = cul_leyndell
+	motto = berouan_motto
+}
+dynn_stonebull = {
+	name = "dynn_stonebull"
+	culture = cul_limgrave
+	motto = stonebull_motto
+}
+dynn_feregen = {
+	name = "dynn_feregen"
+	culture = cul_stormhill
+	motto = feregen_motto
+}
+dynn_ludd = {
+	name = "dynn_ludd"
+	culture = cul_liurnia
+	motto = ludd_motto
+}
+dynn_corin = {
+	name = "dynn_corin"
+	culture = cul_altus
+	motto = corin_motto
+}
+dynn_whiteglade = {
+	name = "dynn_whiteglade"
+	culture = cul_haligtree
+	motto = whiteglade_motto
+}
+dynn_orog = {
+	name = "dynn_orog"
+	culture = cul_stormhill
+	motto = orog_motto
+}
+dynn_seth = {
+	name = "dynn_seth"
+	culture = cul_limgrave
+	motto = seth_motto
+}
+dynn_manning = {
+	name = "dynn_manning"
+	culture = cul_altus
+	motto = manning_motto
+}
+dynn_mello = {
+	name = "dynn_mello"
+	culture = cul_limgrave
+	motto = mello_motto
+}
+dynn_shev = {
+	name = "dynn_shev"
+	culture = cul_low_northerner
+	motto = shev_motto
+}
+dynn_jalau = {
+	name = "dynn_jalau"
+	culture = cul_caria
+	motto = jalau_motto
+}
+dynn_mistel = {
+	name = "dynn_mistel"
+	culture = cul_altus
+	motto = mistel_motto
+}
+dynn_beoluf = {
+	name = "dynn_beoluf"
+	culture = cul_limgrave
+	motto = beoluf_motto
+}
 dynn_gallevile = {
 	name = "dynn_gallevile"
 	culture = cul_dragonbarrow
 	motto = gallevile_motto
 }
+
+###CUSTOM TARNISHED DYNASTIES###
+
 dynn_zeste = {
 	name = "dynn_zeste"
 	culture = cul_northerner

@@ -65,9 +65,9 @@ d_laamp_chiptooth = {
 
 d_laamp_elizabeth = {
 	color = { 100 100 100 }
-	capital = c_R77G27B81
 	landless = yes
 
+	capital = c_R77G27B81
 	definite_form = yes
 	require_landless = yes
 	ruler_uses_title_name = no
@@ -155,9 +155,9 @@ d_laamp_judith = {
 
 d_laamp_maleigh = {
 	color = { 100 100 100 }
-	capital = c_R168G246B103
 	landless = yes
 
+	capital = c_R168G246B103
 	definite_form = yes
 	require_landless = yes
 	ruler_uses_title_name = no
@@ -185,9 +185,9 @@ d_laamp_miquella = {
 
 d_laamp_patches = {
 	color = { 100 100 100 }
-	capital = c_R251G205B65
 	landless = yes
 
+	capital = c_R251G205B65
 	definite_form = yes
 	require_landless = yes
 	ruler_uses_title_name = no
@@ -230,9 +230,9 @@ d_laamp_samuel = {
 
 d_laamp_sellen = {
 	color = { 100 100 100 }
-	capital = c_R82G212B218
 	landless = yes
 
+	capital = c_R82G212B218
 	definite_form = yes
 	require_landless = yes
 	ruler_uses_title_name = no
@@ -273,3 +273,17 @@ d_laamp_zarion = {
 	}
 }
 
+d_laamp_nightscavalry = {
+	color = { 100 100 100 }
+	capital = c_R89G92B215
+	landless = yes
+
+	definite_form = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}

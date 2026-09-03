@@ -152,3 +152,18 @@ ranni_doll_body = {
 	
 	flag = immortal_incapability
 }
+
+mute = {
+	diplomacy = -5
+	intrigue = 2
+
+	owned_scheme_secrecy_add = 30
+
+	physical = yes
+
+	same_opinion = 30
+
+	ruler_designer_cost = -15
+
+	ai_sociability = high_negative_ai_value
+}

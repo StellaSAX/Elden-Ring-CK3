@@ -46,6 +46,12 @@ nick_the_broken = {}
 nick_conqueror_of_the_stars = {}
 nick_the_ever_wheezing = {}
 nick_the_bloated = {}
+nick_ravenmount_assassin = {}
+nick_the_silent_hunter = {}
+nick_the_sleeping_arrow = {}
+nick_of_royal_remains = {}
+nick_knight_of_blood = {}
+nick_raging_wolf = {}
 
 nick_starscourge = { is_prefix = yes }
 nick_dragonlordlady = { is_prefix = yes }
@@ -58,3 +64,4 @@ nick_dryleaf = { is_prefix = yes }
 nick_soldier_of_god = { is_prefix = yes }
 nick_witch_hunter = { is_prefix = yes }
 nick_trout_eater = { is_prefix = yes }
+nick_great_horned = { is_prefix = yes }

@@ -74,6 +74,8 @@
  d_laamp_chiptooth_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_laamp_bloodyfinger: "Bloody Fingers"
  d_laamp_bloodyfinger_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_laamp_nightscavalry: "Night's Cavalry"
+ d_laamp_nightscavalry_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  
  #Weeping Peninsula
  k_weeping_peninsula: "Weeping Peninsula"

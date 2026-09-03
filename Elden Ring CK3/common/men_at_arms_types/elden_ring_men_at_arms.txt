@@ -964,7 +964,7 @@ leyndell_knight = {
 tree_sentinel = {
 	type = heavy_cavalry
 	
-	damage = 100
+	damage = 120
 	toughness = 50
 	pursuit = 50
 	screen = 30
@@ -1642,6 +1642,36 @@ banished_knights = {
 	}
 	
  	icon = banished_knight
+}
+
+nights_cavalry = {
+	type = heavy_cavalry
+	
+	damage = 110
+	toughness = 44
+	pursuit = 42
+	screen = 40
+	
+	counters = {
+		skirmishers = 2
+		heavy_infantry = 2
+		light_cavalry = 1
+		heavy_cavalry = 1
+		pikemen = 1
+	}
+	
+	can_recruit = {
+		has_primary_title = title:d_laamp_nightscavalry
+	}
+
+	buy_cost = { gold = 250 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1 }
+
+	stack = 50
+	allowed_in_hired_troops = no
+	
+ 	icon = nights_cavalry
 }
 
 #DLC RESHUFFLED

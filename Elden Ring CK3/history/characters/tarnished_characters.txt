@@ -92,10 +92,9 @@ nepheli_loux = {
 	intrigue = 10
 	stewardship = 10
 	learning = 10
+	
 	religion = faith_golden
 	culture = cul_badlands
-	
-	disallow_random_traits = yes
 	
 	trait = stubborn
 	trait = just
@@ -107,9 +106,11 @@ nepheli_loux = {
 	
 	trait = graceless_tarnished
 	
+	disallow_random_traits = yes
+	
 	father = tarnished_3
 	
-	7900.1.1 = {
+	7703.6.17 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -365,6 +366,84 @@ nerijus = {
 	}
 }
 
+okina = {
+	name = "Okina"
+	#dna = okina_dna
+	sexuality = asexual
+	dynasty = dynn_shoriegan
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_formless
+	culture = cul_reedlander
+	
+	trait = brave
+	trait = callous
+	trait = vengeful
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = blood_affinity
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	6898.12.4 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+ravenmount_assassin = {
+	name = "Regius"
+	#dna = regius_dna
+	sexuality = heterosexual
+	dynasty = dynn_ravenmount
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_formless
+	culture = cul_stormhill
+	
+	trait = ambitious
+	trait = arbitrary
+	trait = impatient
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = blood_affinity
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	7190.1.16 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
 vyke = {
 	name = "Vyke"
 	dna = vyke_dna
@@ -424,6 +503,1170 @@ vyke = {
 	}
 	7909.1.1 = {
 		add_trait = imprisoned_evergaol
+	}
+}
+
+anastasia = {
+	name = "Anastasia"
+	female = yes
+	#dna = anastasia_dna
+	sexuality = heterosexual
+	dynasty = dynn_boulle
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_god_snake
+	culture = cul_caelid
+	
+	trait = sadistic
+	trait = brave
+	trait = arbitrary
+	trait = education_martial_3
+	trait = lifestyle_blademaster
+	trait = aggressive_attacker
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	give_nickname = nick_tarnished_eater
+	
+	7220.9.9 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+boggart = {
+	name = "Boggart"
+	#dna = boggart_dna
+	sexuality = heterosexual
+	dynasty = dynn_fagan
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_liurnia
+	
+	trait = calm
+	trait = temperate
+	trait = cynical
+	trait = education_stewardship_2
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	give_nickname = nick_big
+	
+	7167.6.7 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+corhyn = {
+	name = "Corhyn"
+	#dna = corhyn_dna
+	sexuality = heterosexual
+	dynasty = dynn_tarnbar
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_altus
+	
+	trait = zealous
+	trait = honest
+	trait = content
+	trait = education_learning_3
+	trait = order_affinity
+	trait = blind
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	7903.7.18 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+devin = {
+	name = "Devin"
+	#dna = devin_dna
+	sexuality = heterosexual
+	dynasty = dynn_golhuw
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_leyndell
+	
+	trait = zealous
+	trait = paranoid
+	trait = vengeful
+	trait = education_martial_3
+	trait = lifestyle_blademaster
+	trait = order_affinity
+	trait = twin
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	give_nickname = nick_beholder_of_death
+	
+	6721.11.10 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+darian = {
+	name = "Darian"
+	#dna = darian_dna
+	sexuality = heterosexual
+	dynasty = dynn_golhuw
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_leyndell
+	
+	trait = zealous
+	trait = diligent
+	trait = patient
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = order_affinity
+	trait = twin
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	give_nickname = nick_hunter_of_the_dead
+	
+	6721.11.10 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+dolores = {
+	name = "Dolores"
+	female = yes
+	#dna = dolores_dna
+	sexuality = heterosexual
+	dynasty = dynn_huna
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_st_trina
+	culture = cul_altus
+	
+	trait = chaste
+	trait = honest
+	trait = stubborn
+	trait = education_diplomacy_4
+	trait = beauty_good_2
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	give_nickname = nick_the_sleeping_arrow
+	
+	7209.5.18 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+dungeater = {
+	name = "Dung Eater"
+	#dna = dungeater_dna
+	sexuality = asexual
+	dynasty = dynn_kuso
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_despair
+	culture = cul_leyndell
+	
+	trait = sadistic
+	trait = zealous
+	trait = diligent
+	trait = arrogant
+	trait = education_martial_3
+	trait = lifestyle_blademaster
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	6666.11.13 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+ensha = {
+	name = "Ensha"
+	#dna = ensha_dna
+	sexuality = asexual
+	dynasty = dynn_gordeor
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_leyndell
+	
+	trait = impatient
+	trait = cynical
+	trait = callous
+	trait = education_martial_3
+	trait = lifestyle_blademaster
+	trait = mute
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	give_nickname = nick_of_royal_remains
+	
+	2477.10.7 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+wilhelm = {
+	name = "Wilhelm"
+	#dna = wilhelm_dna
+	sexuality = heterosexual
+	dynasty = dynn_estasa
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_primeval
+	culture = cul_caria
+	
+	trait = gregarious
+	trait = wrathful
+	trait = ambitious
+	trait = education_learning_3
+	trait = glintstone_affinity
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	5203.4.9 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+fia = {
+	name = "Fia"
+	female = yes
+	#dna = fia_dna
+	sexuality = bisexual
+	dynasty = dynn_berouan
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_death_prince
+	culture = cul_leyndell
+	
+	trait = lustful
+	trait = zealous
+	trait = gregarious
+	trait = calm
+	trait = education_intrigue_5
+	trait = seducer
+	trait = beauty_good_3
+	trait = witch
+	trait = infertile
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	give_nickname = nick_deathbed_companion
+	
+	5796.9.6 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+goldmask = {
+	name = "Goldmask"
+	#dna = goldmask_dna
+	sexuality = asexual
+	#dynasty = dynn_goldmask
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_fundamentalism
+	culture = cul_altus
+	
+	trait = patient
+	trait = humble
+	trait = content
+	trait = zealous
+	trait = education_learning_5
+	trait = intellect_good_3
+	trait = scholar
+	trait = theologian
+	trait = lifestyle_mystic
+	trait = lifestyle_traveler
+	trait = mute
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	give_nickname = nick_ever_brilliant
+	
+	7002.3.2 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+tragoth = {
+	name = "Tragoth"
+	#dna = tragoth_dna
+	sexuality = heterosexual
+	dynasty = dynn_stonebull
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_limgrave
+	
+	trait = brave
+	trait = just
+	trait = diligent
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = physique_good_2
+	trait = strong
+	trait = flexible_leader
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	give_nickname = nick_great_horned
+	
+	7553.8.15 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+#OC Hoslow so that Diallos and Juno can be considered brothers in-game
+albart_hoslow = {
+	name = "Albart"
+	#dna = albart_dna
+	sexuality = heterosexual
+	dynasty = dynn_hoslow
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_limgrave
+	
+	trait = ambitious
+	trait = brave
+	trait = arrogant
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = blood_affinity
+	
+	disallow_random_traits = yes
+	
+	6805.9.22 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	7562.5.28 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+juno_hoslow = {
+	name = "Juno"
+	#dna = juno_dna
+	sexuality = heterosexual
+	dynasty = dynn_hoslow
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_limgrave
+	
+	trait = stubborn
+	trait = just
+	trait = brave
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = blood_affinity
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	father = albart_hoslow
+	
+	give_nickname = nick_knight_of_blood
+	
+	7114.7.9 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+diallos_hoslow = {
+	name = "Diallos"
+	#dna = diallos_dna
+	sexuality = heterosexual
+	dynasty = dynn_hoslow
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_limgrave
+	
+	trait = honest
+	trait = vengeful
+	trait = temperate
+	trait = education_martial_1
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	father = albart_hoslow
+	
+	7350.3.16 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+bernahl = {
+	name = "Bernahl"
+	#dna = bernahl_dna
+	sexuality = heterosexual
+	dynasty = dynn_feregen
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_stormhill
+	
+	trait = brave
+	trait = cynical
+	trait = diligent
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = physique_good_1
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	7004.10.3 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+lanya = {
+	name = "Lanya"
+	female = yes
+	#dna = lanya_dna
+	sexuality = heterosexual
+	#dynasty = dynn_lalala
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_limgrave
+	
+	trait = fickle
+	trait = brave
+	trait = compassionate
+	trait = education_martial_2
+	trait = beauty_good_1
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	7352.7.19 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+alberich = {
+	name = "Alberich"
+	#dna = alberich_dna
+	sexuality = heterosexual
+	dynasty = dynn_ludd
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_primeval
+	culture = cul_liurnia
+	
+	trait = eccentric
+	trait = cynical
+	trait = diligent
+	trait = education_intrigue_3
+	trait = lifestyle_blademaster
+	trait = lunatic_1
+	trait = ice_affinity
+	trait = blood_affinity
+	trait = sorcery_ice
+	trait = sorcery_bloodthorn
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	7244.8.17 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	7466.1.1 = {
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=50 }
+			add_trait_xp = { trait = sorcery_ice value=60 }
+			add_trait_xp = { trait = sorcery_bloodthorn value=40 }
+		}
+	}
+}
+
+magnus = {
+	name = "Magnus"
+	#dna = magnus_dna
+	sexuality = heterosexual
+	dynasty = dynn_corin
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_altus
+	
+	trait = wrathful
+	trait = arrogant
+	trait = greedy
+	trait = education_martial_2
+	trait = lifestyle_blademaster
+	trait = strong
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	give_nickname = nick_the_beast_claw
+	
+	7608.1.5 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+leda = {
+	name = "Leda"
+	female = yes
+	#dna = leda_dna
+	sexuality = heterosexual
+	dynasty = dynn_whiteglade
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_unalloyed
+	culture = cul_haligtree
+	
+	trait = zealous
+	trait = brave
+	trait = stubborn
+	trait = diligent
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = beauty_good_2
+	trait = order_affinity
+	trait = incantation_order
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	give_nickname = nick_needle_knight
+	
+	6863.12.2 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	7489.5.27 = {
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+			add_trait_xp = { trait = incantation_order value=60 }
+		}
+	}
+}
+
+istvan = {
+	name = "Istvan"
+	#dna = istvan_dna
+	sexuality = heterosexual
+	dynasty = dynn_orog
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_stormhill
+	
+	trait = gregarious
+	trait = just
+	trait = trusting
+	trait = education_martial_3
+	trait = lifestyle_blademaster
+	trait = physique_good_1
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	6612.4.13 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+henricus = {
+	name = "Henricus"
+	#dna = henricus_dna
+	sexuality = heterosexual
+	dynasty = dynn_seth
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_god_snake
+	culture = cul_limgrave
+	
+	trait = deceitful
+	trait = fickle
+	trait = patient
+	trait = education_martial_3
+	trait = lifestyle_blademaster
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	6907.5.3 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+rileigh = {
+	name = "Rileigh"
+	#dna = rileigh_dna
+	sexuality = heterosexual
+	dynasty = dynn_manning
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_fundamentalism
+	culture = cul_altus
+	
+	trait = zealous
+	trait = lazy
+	trait = patient
+	trait = education_martial_3
+	trait = lifestyle_blademaster
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	give_nickname = nick_the_idle
+	
+	4988.3.27 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+roderika = {
+	name = "Roderika"
+	female = yes
+	#dna = roderika_dna
+	sexuality = heterosexual
+	dynasty = dynn_mello
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_limgrave
+	
+	trait = compassionate
+	trait = forgiving
+	trait = calm
+	trait = education_learning_3
+	trait = beauty_good_1
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	8218.7.10 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+sanguine_invader = {
+	name = "Rasgey"
+	#dna = rasgey_dna
+	sexuality = heterosexual
+	dynasty = dynn_shev
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_formless
+	culture = cul_low_northerner
+	
+	trait = callous
+	trait = cynical
+	trait = ambitious
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = blood_affinity
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	5600.8.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+rogier = {
+	name = "Rogier"
+	#dna = rogier_dna
+	sexuality = heterosexual
+	dynasty = dynn_jalau
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_academy
+	culture = cul_caria
+	
+	trait = diligent
+	trait = patient
+	trait = gregarious
+	trait = education_learning_4
+	trait = lifestyle_blademaster
+	trait = glintstone_affinity
+	trait = sorcery_glintstone
+	trait = shrewd
+	trait = lifestyle_traveler
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	4733.3.8 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	5267.10.18 = {
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+			add_trait_xp = { trait = sorcery_glintstone value=60 }
+		}
+	}
+}
+
+thiollier = {
+	name = "Thiollier"
+	#dna = thiollier_dna
+	sexuality = heterosexual
+	dynasty = dynn_mistel
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_st_trina
+	culture = cul_altus
+	
+	trait = shy
+	trait = honest
+	trait = zealous
+	trait = education_intrigue_4
+	trait = lifestyle_mystic
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	7619.11.30 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+vargram = {
+	name = "Vargram"
+	#dna = vargram_dna
+	sexuality = heterosexual
+	dynasty = dynn_beoluf
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_limgrave
+	
+	trait = brave
+	trait = temperate
+	trait = stubborn
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = reckless
+	
+	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
+	
+	give_nickname = nick_raging_wolf
+	
+	5926.11.12 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
 	}
 }
 

@@ -40,5 +40,14 @@ er_historical_artifacts.0001 = {
 				elden_ring_eldenrune_death_effect = { OWNER = this }
 			}
 		}
+		
+		if = {
+			limit = {
+				current_date > 5796.9.6
+			}
+			character:fia ?= {
+				elden_ring_deathbed_smalls_effect = { OWNER = this }
+			}
+		}
 	}
 }
