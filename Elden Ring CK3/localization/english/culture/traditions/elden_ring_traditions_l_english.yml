@@ -51,7 +51,7 @@
  
  tradition_crucible_knights_name:0 "Crucible Knights"
  tradition_crucible_knights_desc:0 "The Crucible Knights were an ancient order of warriors devoted to the primordial Crucible of life, Much like the Crucible they venerated, the Crucible Knights possessed the ability to manifest the forms of various beasts. It is said the vitalic power they drew from inhabited their very armor."
- culture_parameter_honor_crucible_knights:0 "We venerate those get the honor of being a [GetTrait('crucible_knight').GetName( GetNullCharacter )]."
+ culture_parameter_honor_crucible_knights:0 "We venerate those that get the honor of being a [GetTrait('crucible_knight').GetName( GetNullCharacter )]."
  
  tradition_dancer_ranah_name:0 "Dancers of Ranah"
  tradition_dancer_ranah_desc:0 "The dance of Ranah is one of burning passion, and the most passionate dancers never allow their fiery dance to end, losing even their names as they dance on. The passionate dance comprises no seductiveness, but merely a dignified beauty."

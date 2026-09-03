@@ -7,11 +7,23 @@ tradition_magic_incantation_two_fingers = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/incantation_two_fingers.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = incantation_two_fingers
+				has_trait = order_affinity
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = incantation_two_fingers
+				has_trait = order_affinity
+			}
+		}
 	}
 	
 	parameters = {
@@ -41,11 +53,24 @@ tradition_magic_incantation_spiral = { #not Connected to the hornsent
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/incantation_spiral.dds
+	}
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = incantation_spiral
+				has_trait = spiral_affinity
+			}
+		}
 	}
 
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = incantation_spiral
+				has_trait = spiral_affinity
+			}
+		}
 	}
 	
 	parameters = {
@@ -75,11 +100,24 @@ tradition_magic_incantation_rot = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/incantation_rot.dds
+	}
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = incantation_rot
+				has_trait = rot_affinity
+			}
+		}
 	}
 
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = incantation_rot
+				has_trait = rot_affinity
+			}
+		}
 	}
 	
 	parameters = {
@@ -109,11 +147,24 @@ tradition_magic_incantation_order = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/incantation_order.dds
+	}
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = incantation_order
+				has_trait = order_affinity
+			}
+		}
 	}
 
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = incantation_order
+				has_trait = order_affinity
+			}
+		}
 	}
 	
 	parameters = {
@@ -143,11 +194,24 @@ tradition_magic_incantation_miquella = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/incantation_miquella.dds
+	}
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = incantation_miquella
+				has_trait = order_affinity
+			}
+		}
 	}
 
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = incantation_miquella
+				has_trait = order_affinity
+			}
+		}
 	}
 	
 	parameters = {
@@ -177,11 +241,24 @@ tradition_magic_incantation_messmers_flame = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/incantation_messmers_flame.dds
+	}
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = incantation_messmers_flame
+
+			}
+		}
 	}
 
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = incantation_messmers_flame
+
+			}
+		}
 	}
 	
 	parameters = {
@@ -211,11 +288,24 @@ tradition_magic_incantation_frenzy = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/incantation_frenzy.dds
+	}
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = incantation_frenzy
+				has_trait = frenzy_affinity
+			}
+		}
 	}
 
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = incantation_frenzy
+				has_trait = frenzy_affinity
+			}
+		}
 	}
 	
 	parameters = {
@@ -245,11 +335,25 @@ tradition_magic_incantation_flame = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/incantation_flame.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = fire_affinity
+				has_trait = magma_affinity
+				has_trait = incantation_flame
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = fire_affinity
+				has_trait = magma_affinity
+				has_trait = incantation_flame
+			}
+		}
 	}
 	
 	parameters = {
@@ -279,11 +383,23 @@ tradition_magic_incantation_erdtree = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/incantation_erdtree.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = erdtree_affinity
+				has_trait = incantation_erdtree
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = erdtree_affinity
+				has_trait = incantation_erdtree
+			}
+		}
 	}
 	
 	parameters = {
@@ -313,11 +429,23 @@ tradition_magic_incantation_dragon_cult = { #this is just lightning
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/incantation_dragon_cult.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = erdtree_affinity
+				has_trait = incantation_dragon_cult
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = erdtree_affinity
+				has_trait = incantation_dragon_cult
+			}
+		}
 	}
 	
 	parameters = {
@@ -347,11 +475,23 @@ tradition_magic_incantation_divine_beast = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/incantation_divine_beast.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = spiral_affinity
+				has_trait = incantation_divine_beast
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = spiral_affinity
+				has_trait = incantation_divine_beast
+			}
+		}
 	}
 	
 	parameters = {
@@ -381,11 +521,23 @@ tradition_magic_incantation_dragon_communion = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/incantation_dragon_communion.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = dragon_affinity
+				has_trait = incantation_dragon_communion
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = dragon_affinity
+				has_trait = incantation_dragon_communion
+			}
+		}
 	}
 	
 	parameters = {
@@ -415,11 +567,23 @@ tradition_magic_incantation_crucible = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/incantation_crucible.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = erdtree_affinity
+				has_trait = incantation_crucible
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = erdtree_affinity
+				has_trait = incantation_crucible
+			}
+		}
 	}
 	
 	parameters = {
@@ -449,11 +613,23 @@ tradition_magic_incantation_blood = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/incantation_blood.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = blood_affinity
+				has_trait = incantation_blood
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = blood_affinity
+				has_trait = incantation_blood
+			}
+		}
 	}
 	
 	parameters = {
@@ -483,11 +659,23 @@ tradition_magic_incantation_blackflame = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/incantation_blackflame.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = blackflame_affinity
+				has_trait = incantation_blackflame
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = blackflame_affinity
+				has_trait = incantation_blackflame
+			}
+		}
 	}
 	
 	parameters = {
@@ -517,11 +705,23 @@ tradition_magic_incantation_bestial = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/incantation_bestial.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = bestial_affinity
+				has_trait = incantation_bestial
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = bestial_affinity
+				has_trait = incantation_bestial
+			}
+		}
 	}
 	
 	parameters = {
@@ -554,11 +754,23 @@ tradition_magic_sorcery_night = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/sorcery_night.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = night_affinity
+				has_trait = sorcery_night
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = night_affinity
+				has_trait = sorcery_night
+			}
+		}
 	}
 	
 	parameters = {
@@ -588,11 +800,23 @@ tradition_magic_sorcery_ice = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/sorcery_ice.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = ice_affinity
+				has_trait = sorcery_ice
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = ice_affinity
+				has_trait = sorcery_ice
+			}
+		}
 	}
 	
 	parameters = {
@@ -622,11 +846,17 @@ tradition_magic_sorcery_impenetrable_thorn = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/impenetrable_thorn.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			has_trait = sorcery_impenetrable_thorn
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			has_trait = sorcery_impenetrable_thorn
+		}
 	}
 	
 	parameters = {
@@ -650,17 +880,29 @@ tradition_magic_sorcery_impenetrable_thorn = {
 	ai_will_do = { value = 100 }
 }
 
-tradition_magic_sorcery_gravity= {
+tradition_magic_sorcery_gravity = {
 	category = regional
 
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/sorcery_gravity.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = gravity_affinity
+				has_trait = sorcery_gravity
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = gravity_affinity
+				has_trait = sorcery_gravity
+			}
+		}
 	}
 	
 	parameters = {
@@ -690,11 +932,23 @@ tradition_magic_sorcery_gelmir = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/sorcery_gelmir.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = magma_affinity
+				has_trait = sorcery_gelmir
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = magma_affinity
+				has_trait = sorcery_gelmir
+			}
+		}
 	}
 	
 	parameters = {
@@ -724,11 +978,23 @@ tradition_magic_sorcery_finger = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/hornsent.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = glintstone_affinity
+				has_trait = sorcery_finger
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = glintstone_affinity
+				has_trait = sorcery_finger
+			}
+		}
 	}
 	
 	parameters = {
@@ -758,11 +1024,23 @@ tradition_magic_sorcery_death = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/sorcery_death.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = death_affinity
+				has_trait = sorcery_death
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = death_affinity
+				has_trait = sorcery_death
+			}
+		}
 	}
 	
 	parameters = {
@@ -792,11 +1070,23 @@ tradition_magic_sorcery_claymen = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/sorcery_claymen.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = claymen_affinity
+				has_trait = sorcery_claymen
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = claymen_affinity
+				has_trait = sorcery_claymen
+			}
+		}
 	}
 	
 	parameters = {
@@ -826,11 +1116,23 @@ tradition_magic_sorcery_crystalian = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/sorcery_crystalian.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = glintstone_affinity
+				has_trait = sorcery_crystalian
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = glintstone_affinity
+				has_trait = sorcery_crystalian
+			}
+		}
 	}
 	
 	parameters = {
@@ -860,11 +1162,17 @@ tradition_magic_sorcery_bloodthorn = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/sorcery_bloodthorn.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			has_trait = sorcery_bloodthorn
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			has_trait = sorcery_bloodthorn
+		}
 	}
 	
 	parameters = {
@@ -894,11 +1202,25 @@ tradition_magic_sorcery_carian = { #for people that don't want to have carian cu
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/sorcery_carian.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = glintstone_affinity
+				has_trait = carian_affinity
+				has_trait = sorcery_carian
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = glintstone_affinity
+				has_trait = carian_affinity
+				has_trait = sorcery_carian
+			}
+		}
 	}
 	
 	parameters = {
@@ -928,11 +1250,23 @@ tradition_magic_sorcery_glintstone = { #for people that don't want to have caria
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = hornsent.dds
+		4 = generic_magic/sorcery_glintstone.dds
 	}
-
+	is_shown = {
+		culture_head = {
+			OR = {
+				has_trait = glintstone_affinity
+				has_trait = sorcery_glintstone
+			}
+		}
+	}
 	can_pick = {
-		
+		culture_head = {
+			OR = {
+				has_trait = glintstone_affinity
+				has_trait = sorcery_glintstone
+			}
+		}
 	}
 	
 	parameters = {
