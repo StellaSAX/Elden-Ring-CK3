@@ -119,7 +119,7 @@ d_laamp_bloodyfinger={
 
 }
 
-d_laamp_nightcavalry={
+d_laamp_nightscavalry={
 	pattern="pattern_solid.dds"
 	color1=black
 	color2=white

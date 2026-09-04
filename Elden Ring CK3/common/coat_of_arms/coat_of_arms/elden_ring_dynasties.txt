@@ -1347,3 +1347,164 @@ dynn_finngolian={
 	}
 
 }
+
+dynn_black_knight={
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=white
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=black
+		texture="ce_polish_leliwa.dds"
+		instance={
+			position={ 0.500000 0.140000 }
+			scale={ 0.300000 0.300000 }
+			depth=2.010000
+		}
+ 
+	}
+ 
+	colored_emblem={
+		color1=white
+		texture="ce_mace.dds"
+		instance={
+			position={ 0.585000 0.530000 }
+			scale={ 0.800000 0.800000 }
+			depth=6.010000
+			rotation=321
+		}
+ 
+		instance={
+			position={ 0.415000 0.530000 }
+			scale={ 0.800000 0.800000 }
+			depth=10.010000
+			rotation=39
+		}
+ 
+	}
+ 
+	colored_emblem={
+		color1=white
+		texture="ce_crozier.dds"
+		instance={
+			position={ 0.475000 0.390000 }
+			scale={ 0.980000 0.980000 }
+			depth=8.010000
+			rotation=140
+		}
+ 
+		instance={
+			position={ 0.525000 0.390000 }
+			scale={ 0.980000 0.980000 }
+			depth=12.010000
+			rotation=220
+		}
+ 
+	}
+ 
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=white
+		texture="ce_moon_flame.dds"
+		instance={
+			position={ 0.500000 0.700000 }
+			scale={ 0.550001 -0.350001 }
+			depth=4.010000
+		}
+ 
+	}
+ 
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=red
+		texture="ce_horse_rampant.dds"
+		instance={
+			position={ 0.500000 0.505000 }
+			scale={ 0.370001 0.370001 }
+			depth=1.010000
+		}
+ 
+	}
+ 
+	colored_emblem={
+		color1=black
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.500000 0.085000 }
+			scale={ 0.150001 0.150001 }
+		}
+ 
+		instance={
+			position={ 0.685000 0.645000 }
+			scale={ 0.300000 0.300000 }
+			depth=7.010000
+		}
+ 
+		instance={
+			position={ 0.310000 0.660000 }
+			scale={ 0.300001 0.300001 }
+			depth=11.010000
+		}
+ 
+	}
+ 
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_border_banner.dds"
+		instance={
+			position={ 0.500000 0.515000 }
+			scale={ 0.500000 0.500000 }
+			depth=5.010000
+		}
+ 
+	}
+ 
+	colored_emblem={
+		color1=black
+		color2=black
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.740000 0.165000 }
+			scale={ 0.300001 0.300001 }
+			depth=14.010000
+		}
+ 
+	}
+ 
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_axe.dds"
+		instance={
+			position={ 0.290000 0.245000 }
+			scale={ 0.380000 0.380000 }
+			depth=9.010000
+			rotation=320
+		}
+ 
+		instance={
+			position={ 0.710000 0.245000 }
+			scale={ -0.380001 0.380001 }
+			depth=13.010000
+			rotation=40
+		}
+ 
+	}
+ 
+	colored_emblem={
+		color1=black
+		color2=black
+		texture="ce_border_banner.dds"
+		instance={
+			position={ 0.500000 0.515000 }
+			scale={ 0.470000 0.470000 }
+			depth=3.010000
+		}
+ 
+	}
+ 
+}

@@ -58,6 +58,9 @@
 
  tree_sentinel:0 "Tree Sentinels"
  tree_sentinel_flavor:0 "It takes 100 tries to beat us."
+ 
+ nights_cavalry:0 "Night's Cavalry"
+ nights_cavalry_flavor:0 "Cower in fear. Of the night."
 
  troll_knight:0 "Troll Knight"
  troll_knight_flavor:0 "Biggest trolls in the lands between."
