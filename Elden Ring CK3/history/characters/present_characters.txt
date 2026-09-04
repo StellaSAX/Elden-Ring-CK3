@@ -3,21 +3,23 @@
 	female = yes
 	#dna = millicent_dna
 	sexuality = bisexual
-	
 	dynasty = dynn_aeonia
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
 	stewardship = 10
 	learning = 10
 	health = 10
+	
 	religion = faith_golden	
 	culture = cul_sellia
 	
 	trait = cynical
-	trait = beauty_good_2
 	trait = temperate
 	trait = trusting
+	trait = education_martial_3
+	trait = beauty_good_2
 	trait = rot_affinity
 	trait = no_marry
 	
@@ -40,20 +42,22 @@ polyanna = {
 	female = yes
 	#dna = polyanna_dna
 	sexuality = bisexual
-	
 	dynasty = dynn_aeonia
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
 	stewardship = 10
 	learning = 10
 	health = 10
+	
 	religion = faith_rot	
 	culture = cul_sellia
 	
 	trait = zealous
 	trait = trusting
 	trait = callous
+	trait = education_martial_3
 	trait = rot_affinity
 	trait = one_eyed
 	trait = no_marry
@@ -77,26 +81,29 @@ amy = {
 	female = yes
 	#dna = amy_dna
 	sexuality = bisexual
-	
 	dynasty = dynn_aeonia
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
 	stewardship = 10
 	learning = 10
 	health = 10
+	
 	religion = faith_rot	
 	culture = cul_sellia
 	
 	trait = zealous
-	disallow_random_traits = yes
 	trait = trusting
 	trait = callous
+	trait = education_martial_3
 	trait = rot_affinity
 	trait = blind
 	trait = no_marry
 	
 	trait = scarlet_rot_child
+	
+	disallow_random_traits = yes
 	
 	mother = malenia
 	
@@ -113,20 +120,22 @@ maureen = {
 	female = yes
 	#dna = maureen_dna
 	sexuality = bisexual
-	
 	dynasty = dynn_aeonia
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
 	stewardship = 10
 	learning = 10
 	health = 10
+	
 	religion = faith_rot	
 	culture = cul_sellia
 	
 	trait = zealous
 	trait = trusting
 	trait = callous
+	trait = education_martial_3
 	trait = rot_affinity
 	trait = one_eyed
 	trait = no_marry
@@ -150,20 +159,22 @@ mary = {
 	female = yes
 	#dna = mary_dna
 	sexuality = bisexual
-	
 	dynasty = dynn_aeonia
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
 	stewardship = 10
 	learning = 10
 	health = 10
+	
 	religion = faith_rot	
 	culture = cul_sellia
 	
 	trait = zealous
 	trait = trusting
 	trait = callous
+	trait = education_martial_3
 	trait = rot_affinity
 	trait = blind
 	trait = no_marry
@@ -185,14 +196,18 @@ mary = {
 zorayas = {
 	name = "Zorayas"
 	female = yes
-	##dna = rya_dna
+	#dna = rya_dna
 	sexuality = heterosexual
 	dynasty_house = house_gelmir_caria
 	#dynasty = dynn_caria
-	diplomacy = 5
-	intrigue = 5	
+	
+	martial = 5
+	diplomacy = 10
+	intrigue = 5
+	stewardship = 10
+	learning = 10
 	health = 10
-	give_nickname = nick_the_scout
+	
 	religion = faith_god_snake	
 	culture = cul_gelmir
 	
@@ -206,6 +221,9 @@ zorayas = {
 	trait = no_marry
 	
 	disallow_random_traits = yes
+	
+	give_nickname = nick_the_scout
+	
 	father = rykard
 
 	7800.1.1 = {
@@ -218,15 +236,26 @@ zorayas = {
 
 haight = {
 	name = "Kenneth"
+	dna = kenneth_dna
 	sexuality = heterosexual
 	dynasty = dynn_haight
-	dna = kenneth_dna
+	
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	
 	religion = faith_golden
 	culture = cul_limgrave
-	trait = education_stewardship_2
+	
 	trait = content
 	trait = zealous
 	trait = arrogant
+	trait = education_stewardship_2
+	
+	disallow_random_traits = yes
 	
 	portrait_override = {
 		portrait_modifier_overrides={
@@ -234,8 +263,6 @@ haight = {
 			custom_hair=m_hair_ep3_byzantine_01
 		}
 	}
-	
-	disallow_random_traits = yes
 	
 	7531.1.1 = {
 		birth = yes
@@ -256,15 +283,24 @@ haight = {
 
 edgar = {
 	name = "Edgar"
+	dna = edgar_dna
 	sexuality = heterosexual
 	dynasty = dynn_morne
-	dna = edgar_dna
+	
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+
 	religion = faith_golden
 	culture = cul_weeping_peninsula
-	trait = education_martial_4
+	
 	trait = vengeful
 	trait = callous
 	trait = wrathful
+	trait = education_martial_4
 	
 	disallow_random_traits = yes
 	
@@ -288,18 +324,30 @@ edgar = {
 
 irina = {
 	name = "Irina"
+	female = yes
+	#dna = irina_dna
 	sexuality = heterosexual
 	dynasty = dynn_morne
-	female = yes
+	
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	
 	religion = faith_golden
 	culture = cul_weeping_peninsula
-	trait = education_diplomacy_3
+	
 	trait = trusting
 	trait = content
 	trait = honest
+	trait = education_diplomacy_3
 	trait = blind
-	father = edgar
+	
 	disallow_random_traits = yes
+	
+	father = edgar
 	
 	8275.1.1 = {
 		birth = yes
@@ -314,14 +362,24 @@ irina = {
 
 elemer = {
 	name = "Elemer"
+	#dna = elemer_dna
 	sexuality = heterosexual
-	dynasty = dynn_briar	
+	dynasty = dynn_briar
+	
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	
 	religion = faith_golden #we actually don't know feel free to change it to something that feels more acurate
 	culture = cul_eochaid
-	trait = education_intrigue_4
+	
 	trait = arbitrary
 	trait = sadistic
 	trait = patient
+	trait = education_intrigue_4
 	
 	disallow_random_traits = yes
 	
@@ -338,17 +396,34 @@ elemer = {
 
 maleigh = {
 	name = "Maleigh"
+	dna = maleigh_dna
 	sexuality = heterosexual
 	dynasty = dynn_marais
+	
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	
 	religion = faith_rot
 	culture = cul_altus
-	trait = education_stewardship_3
+	
 	trait = zealous
 	trait = content
 	trait = eccentric
+	trait = education_stewardship_3
 	trait = wheezing
 	
 	disallow_random_traits = yes
+	
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_beards=male_empty
+			custom_hair=male_hair_western_02
+		}
+	}
 	
 	8180.1.1 = {
 		birth = yes
@@ -371,20 +446,25 @@ gostoc = {
 	dna = gostoc_dna
 	sexuality = heterosexual
 	#dynasty = dynn_gostoc
-	religion = faith_golden	
-	culture = cul_limgrave
-	trait = education_stewardship_2
+	
 	martial = 1
 	diplomacy = 5
 	intrigue = 9
 	stewardship = 7
 	learning = 4
+	
+	religion = faith_golden
+	culture = cul_limgrave
+	
 	trait = vengeful
 	trait = greedy
 	trait = deceitful
+	trait = education_stewardship_2
 	trait = maimed
 	trait = weak
 	trait = no_marry
+	
+	disallow_random_traits = yes
 	
 	portrait_override = {
 		portrait_modifier_overrides={
@@ -392,8 +472,6 @@ gostoc = {
 			custom_hair=m_hair_fp3_iranian_01
 		}
 	}
-	
-	disallow_random_traits = yes
 	
 	8260.1.1 = {
 		birth = yes
@@ -594,10 +672,10 @@ loretta = {
 	religion = faith_unalloyed
 	culture = cul_liurnia
 	
-	trait = education_martial_4
 	trait = diligent
 	trait = brave
 	trait = compassionate
+	trait = education_martial_4
 	trait = carian_affinity
 	trait = no_marry
 	
@@ -634,10 +712,10 @@ tanith = {
 	religion = faith_god_snake
 	culture = cul_ranah
 	
-	trait = education_intrigue_3
 	trait = calm
 	trait = zealous
 	trait = humble
+	trait = education_intrigue_3
 	
 	disallow_random_traits = yes
 	
@@ -657,22 +735,25 @@ tanith = {
 
 maliketh = {
 	name = "Gurranq"
-	
 	#dna = maliketh_dna
 	sexuality = asexual
 	dynasty = dynn_beast
 	
+	diplomacy = 10
 	martial = 10
+	stewardship = 10
+	intrigue = 10
 	learning = 10
+	prowess = 10
 	health = 10
 	
 	religion = faith_golden	
 	culture = cul_beastman
 	
-	trait = education_learning_4
 	trait = zealous
 	trait = brave
 	trait = diligent
+	trait = education_learning_4
 	trait = bestial_affinity
 	trait = no_marry
 	
@@ -707,10 +788,10 @@ nightcavleader = {
 	religion = faith_golden
 	culture = cul_leyndell
 	
-	trait = education_martial_4
 	trait = wrathful
 	trait = brave
 	trait = arrogant
+	trait = education_martial_4
 	trait = order_affinity
 	trait = lifestyle_blademaster
 	trait = reckless

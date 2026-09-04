@@ -3,16 +3,16 @@
 	dna = morko_dna
 	sexuality = heterosexual
 	dynasty = dynn_gallevile
+	
 	martial = 4
 	diplomacy = 0
 	intrigue = 17
 	stewardship = 7
 	learning = 5
 	prowess = 5
+	
 	religion = faith_golden
 	culture = cul_dragonbarrow
-	
-	disallow_random_traits = yes
 	
 	trait = greedy
 	trait = lazy
@@ -27,6 +27,8 @@
 	trait = disloyal
 	
 	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
 	
 	give_nickname = nick_the_bloated
 	
@@ -50,16 +52,16 @@ gaiser_stormlord = {
 	dna = stormlord_dna
 	sexuality = heterosexual
 	dynasty = dynn_stormveil
+	
 	martial = 15
 	diplomacy = 8
 	intrigue = 11
 	stewardship = 9
 	learning = 6
 	prowess = 13
+	
 	religion = faith_crucible
 	culture = cul_stormhill
-	
-	disallow_random_traits = yes
 	
 	trait = arrogant
 	trait = brave
@@ -76,6 +78,8 @@ gaiser_stormlord = {
 	trait = overseer
 	trait = whole_of_body
 	trait = strategist
+	
+	disallow_random_traits = yes
 	
 	portrait_override={
 		portrait_modifier_overrides={

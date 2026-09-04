@@ -1,17 +1,19 @@
 ﻿tarnished_1 = {
 	name = "Tarnished Descendants"
-	
 	sexuality = heterosexual
 	dynasty = dynn_loux
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
 	stewardship = 10
 	learning = 10
+	
 	religion = faith_golden	
 	culture = cul_leyndell
 	
 	disallow_random_traits = yes
+	
 	father = hoarah_loux
 	
 	800.1.1 = {
@@ -28,18 +30,20 @@
 
 tarnished_2 = {
 	name = "Tarnished Descendants"
-	
 	sexuality = heterosexual
 	dynasty = dynn_loux
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
 	stewardship = 10
 	learning = 10
+	
 	religion = faith_golden	
 	culture = cul_leyndell
 	
 	disallow_random_traits = yes
+	
 	father = tarnished_1
 	
 	2400.1.1 = {
@@ -56,18 +60,20 @@ tarnished_2 = {
 
 tarnished_3 = {
 	name = "Tarnished"
-	
 	sexuality = heterosexual
 	dynasty = dynn_loux
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
 	stewardship = 10
 	learning = 10
+	
 	religion = faith_golden	
 	culture = cul_leyndell
 	
 	disallow_random_traits = yes
+	
 	father = tarnished_2
 	
 	7000.1.1 = {
@@ -85,8 +91,10 @@ tarnished_3 = {
 nepheli_loux = {
 	name = "Nepheli"
 	female = yes
+	#dna = nepheli_dna
 	sexuality = heterosexual
 	dynasty = dynn_loux
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
@@ -123,16 +131,16 @@ patches = {
 	dna = patches_dna
 	sexuality = asexual
 	dynasty = dynn_pacchi
+	
 	martial = 4
 	diplomacy = 3
 	intrigue = 12
 	stewardship = 5
 	learning = 11
 	prowess = 7
+	
 	religion = faith_golden
 	culture = cul_limgrave
-	
-	disallow_random_traits = yes
 	
 	trait = deceitful
 	trait = cynical
@@ -146,6 +154,8 @@ patches = {
 	trait = no_marry
 	
 	trait = graceless_tarnished
+	
+	disallow_random_traits = yes
 	
 	give_nickname = nick_the_untethered
 	
@@ -199,16 +209,16 @@ gideon = {
 	dna = gideon_dna
 	sexuality = heterosexual
 	dynasty = dynn_ofnir
+	
 	martial = 9
 	diplomacy = 6
 	intrigue = 11
 	stewardship = 6
 	learning = 19
 	prowess = 15
+	
 	religion = faith_golden
 	culture = cul_leyndell
-	
-	disallow_random_traits = yes
 	
 	trait = diligent
 	trait = arbitrary
@@ -225,6 +235,8 @@ gideon = {
 	trait = no_marry
 	
 	trait = tarnished
+	
+	disallow_random_traits = yes
 	
 	give_nickname = nick_the_all_knowing
 	
@@ -1677,16 +1689,16 @@ bigjeffepic = {
 	dna = bigjeffepic_dna
 	sexuality = heterosexual
 	dynasty = dynn_epikus
+	
 	martial = 9
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 6
 	learning = 6
 	prowess = 16
+	
 	religion = faith_golden
 	culture = cul_stormhill
-	
-	disallow_random_traits = yes
 	
 	trait = ambitious
 	trait = stubborn
@@ -1700,6 +1712,8 @@ bigjeffepic = {
 	trait = aggressive_attacker
 	
 	trait = tarnished
+	
+	disallow_random_traits = yes
 	
 	give_nickname = nick_big
 	
@@ -1729,16 +1743,16 @@ chiptooth = {
 	dna = chiptooth_dna
 	sexuality = heterosexual
 	dynasty = dynn_finngolian
+	
 	martial = 8
 	diplomacy = 16
 	intrigue = 19
 	stewardship = 12
 	learning = 12
 	prowess = 5
+	
 	religion = faith_rot
 	culture = cul_altus
-	
-	disallow_random_traits = yes
 	
 	trait = shy
 	trait = humble
@@ -1752,6 +1766,8 @@ chiptooth = {
 	trait = cancer
 	
 	trait = tarnished
+	
+	disallow_random_traits = yes
 	
 	give_nickname = nick_the_broken
 	
@@ -1781,16 +1797,16 @@ zarion = {
 	dna = zarion_dna
 	sexuality = heterosexual
 	dynasty = dynn_zeste
+	
 	martial = 12
 	diplomacy = 9
 	intrigue = 9
 	stewardship = 6
 	learning = 3
 	prowess = 14
+	
 	religion = faith_frenzy
 	culture = cul_northerner
-	
-	disallow_random_traits = yes
 	
 	trait = sadistic
 	trait = eccentric
@@ -1801,6 +1817,8 @@ zarion = {
 	trait = one_eyed
 	
 	trait = tarnished
+	
+	disallow_random_traits = yes
 	
 	give_nickname = nick_the_mad
 	
@@ -1825,16 +1843,16 @@ tructa = {
 	dna = tructa_dna
 	sexuality = heterosexual
 	dynasty = dynn_zafish
+	
 	martial = 7
 	diplomacy = 10
 	intrigue = 3
 	stewardship = 15
 	learning = 13
 	prowess = 13
+	
 	religion = faith_academy
 	culture = cul_liurnia
-	
-	disallow_random_traits = yes
 	
 	trait = gluttonous
 	trait = gregarious
@@ -1848,6 +1866,8 @@ tructa = {
 	trait = tarnished
 	
 	give_nickname = nick_trout_eater
+	
+	disallow_random_traits = yes
 	
 	portrait_override={
 		portrait_modifier_overrides={
@@ -1871,16 +1891,16 @@ grace = {
 	dna = grace_dna
 	sexuality = heterosexual
 	dynasty = dynn_burningmoon
+	
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
 	learning = 5
 	prowess = 5
+	
 	religion = faith_moons
 	culture = cul_cerulean
-	
-	disallow_random_traits = yes
 	
 	trait = patient
 	trait = zealous
@@ -1894,6 +1914,8 @@ grace = {
 	trait = holy_warrior
 	
 	trait = tarnished
+	
+	disallow_random_traits = yes
 	
 	give_nickname = nick_the_crusader
 	
@@ -1919,16 +1941,16 @@ judith = {
 	dna = judith_dna
 	sexuality = heterosexual
 	dynasty = dynn_fiennes
+	
 	martial = 4
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 10
 	learning = 12
 	prowess = 5
+	
 	religion = faith_golden
 	culture = cul_altus
-	
-	disallow_random_traits = yes
 	
 	trait = patient
 	trait = humble
@@ -1940,6 +1962,8 @@ judith = {
 	trait = loyal
 	
 	trait = tarnished
+	
+	disallow_random_traits = yes
 	
 	portrait_override={
 		portrait_modifier_overrides={
@@ -1962,16 +1986,16 @@ hyrumar = {
 	dna = hyrumar_dna
 	sexuality = heterosexual
 	dynasty = dynn_singorn
+	
 	martial = 9
 	diplomacy = 8
 	intrigue = 1
 	stewardship = 4
 	learning = 0
 	prowess = 13
+	
 	religion = faith_golden
 	culture = cul_leyndell
-	
-	disallow_random_traits = yes
 	
 	trait = brave
 	trait = ambitious
@@ -1981,6 +2005,8 @@ hyrumar = {
 	trait = beauty_good_1
 	
 	trait = tarnished
+	
+	disallow_random_traits = yes
 	
 	portrait_override={
 		portrait_modifier_overrides={
@@ -2004,16 +2030,16 @@ elizabeth = {
 	dna = elizabeth_dna
 	sexuality = heterosexual
 	dynasty = dynn_maho
+	
 	martial = 8
 	diplomacy = 5
 	intrigue = 3
 	stewardship = 9
 	learning = 5
 	prowess = 14
+	
 	religion = faith_god_snake
 	culture = cul_gelmir
-	
-	disallow_random_traits = yes
 	
 	trait = arrogant
 	trait = brave
@@ -2022,6 +2048,8 @@ elizabeth = {
 	trait = physique_good_3
 	
 	trait = tarnished
+	
+	disallow_random_traits = yes
 	
 	portrait_override={
 		portrait_modifier_overrides={
@@ -2044,16 +2072,16 @@ caius = {
 	dna = caius_dna
 	sexuality = heterosexual
 	dynasty = dynn_eored
+	
 	martial = 12
 	diplomacy = 8
 	intrigue = 13
 	stewardship = 8
 	learning = 8
 	prowess = 5
+	
 	religion = faith_golden
 	culture = cul_altus
-	
-	disallow_random_traits = yes
 	
 	trait = humble
 	trait = stubborn
@@ -2064,6 +2092,8 @@ caius = {
 	trait = perfumer
 	
 	trait = tarnished
+	
+	disallow_random_traits = yes
 	
 	portrait_override={
 		portrait_modifier_overrides={
@@ -2086,16 +2116,16 @@ samuel = {
 	dna = samuel_dna
 	sexuality = heterosexual
 	dynasty = dynn_carignan
+	
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
 	learning = 5
 	prowess = 5
+	
 	religion = faith_golden
 	culture = cul_altus
-	
-	disallow_random_traits = yes
 	
 	trait = cynical
 	trait = wrathful
@@ -2115,6 +2145,8 @@ samuel = {
 	trait = confucian_education
 	
 	trait = tarnished
+	
+	disallow_random_traits = yes
 	
 	give_nickname = nick_the_ever_wheezing
 	
@@ -2144,16 +2176,16 @@ saerys = {
 	dna = saerys_dna
 	sexuality = heterosexual
 	dynasty = dynn_arvant
+	
 	martial = 3
 	diplomacy = 1
 	intrigue = 9
 	stewardship = 8
 	learning = 6
 	prowess = 7
+	
 	religion = faith_golden
 	culture = cul_leyndell
-	
-	disallow_random_traits = yes
 	
 	trait = lustful
 	trait = honest
@@ -2166,6 +2198,8 @@ saerys = {
 	trait = whole_of_body
 	
 	trait = tarnished
+	
+	disallow_random_traits = yes
 	
 	portrait_override={
 		portrait_modifier_overrides={

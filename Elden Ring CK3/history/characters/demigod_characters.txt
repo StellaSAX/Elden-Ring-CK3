@@ -24,27 +24,30 @@ marika = {
 	dna = marika_dna
 	sexuality = bisexual
 	dynasty = dynn_erdtree
+	
 	martial = 15
 	diplomacy = 12
 	intrigue = 13
 	stewardship = 11
 	learning = 16
-	religion = faith_shaman
-	culture = cul_shaman
 	health = 10
 	
+	religion = faith_shaman
+	culture = cul_shaman
+	
+	trait = ambitious
+	trait = vengeful
+	trait = callous
 	trait = education_learning_5
 	trait = intellect_good_3
 	trait = beauty_good_3
 	trait = shrewd
 	trait = lifestyle_mystic
-	trait = ambitious
-	trait = vengeful
-	trait = callous
 	trait = order_affinity
 	trait = erdtree_affinity
 	
 	disallow_random_traits = yes
+	
 	#mother = shaman_line
 	
 	portrait_override = {
@@ -93,26 +96,29 @@ radagon = {
 	dna = radagon_dna
 	sexuality = bisexual
 	dynasty = dynn_golden_order
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
 	stewardship = 10
 	learning = 10
 	health = 10
+	
 	religion = faith_golden
 	culture = cul_leyndell
 	
+	trait = zealous
+	trait = stubborn
+	trait = diligent
 	trait = education_martial_4
 	trait = intellect_good_3
 	trait = beauty_good_3
 	trait = shrewd
-	trait = zealous
-	trait = stubborn
-	trait = diligent
 	trait = order_affinity
 	trait = erdtree_affinity
 	
 	disallow_random_traits = yes
+	
 	#mother = shaman_line
 	
 	portrait_override = {
@@ -145,6 +151,7 @@ hoarah_loux = {
 	dna = hoarah_loux_dna
 	sexuality = heterosexual
 	dynasty = dynn_loux
+	
 	martial = 23
 	diplomacy = 15
 	intrigue = 6
@@ -156,11 +163,11 @@ hoarah_loux = {
 	religion = faith_badlands
 	culture = cul_badlands
 	
-	trait = education_martial_5
 	trait = brave
 	trait = honest
 	trait = stubborn
 	trait = just
+	trait = education_martial_5
 	trait = physique_good_3
 	trait = strong
 	
@@ -195,6 +202,7 @@ messmer = {
 	dna = messmer_dna
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
@@ -205,15 +213,16 @@ messmer = {
 	culture = cul_leyndell
 	religion = faith_golden
 	
-	trait = education_martial_5
 	trait = stubborn
 	trait = callous
 	trait = diligent
 	trait = zealous
+	trait = education_martial_5
 	trait = fire_affinity
 	trait = no_marry
 	
 	disallow_random_traits = yes
+	
 	mother = marika
 	
 	portrait_override = {
@@ -246,15 +255,21 @@ melina = {
 	dna = melina_dna
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
-	give_nickname = nick_kindling_maiden
 	
-	religion = faith_golden	
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	
+	religion = faith_golden
 	culture = cul_leyndell
 	
-	trait = education_diplomacy_3
 	trait = calm
 	trait = patient
 	trait = content
+	trait = education_diplomacy_3
 	trait = beauty_good_1
 	trait = fire_affinity
 	trait = erdtree_affinity
@@ -263,6 +278,9 @@ melina = {
 	trait = bodiless
 	
 	disallow_random_traits = yes
+	
+	give_nickname = nick_kindling_maiden
+	
 	mother = marika
 	
 	portrait_override = {
@@ -286,29 +304,33 @@ godwyn = {
 	dna = godwyn_dna
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
 	stewardship = 10
 	learning = 10
 	health = 10
-	religion = faith_golden	
-	culture = cul_leyndell
-	give_nickname = nick_the_golden
 	
+	religion = faith_golden
+	culture = cul_leyndell
+	
+	trait = brave
+	trait = gregarious
+	trait = forgiving
 	trait = education_martial_5
 	trait = physique_good_3
 	trait = beauty_good_3
 	trait = intellect_good_1
-	trait = brave
-	trait = gregarious
-	trait = forgiving
 	trait = order_affinity
 	trait = erdtree_affinity
 	trait = lightning_affinity
 	trait = no_marry
 	
 	disallow_random_traits = yes
+	
+	give_nickname = nick_the_golden
+	
 	father = hoarah_loux
 	mother = marika
 	
@@ -339,6 +361,7 @@ morgott = {
 	dna = morgott_dna
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
@@ -346,19 +369,24 @@ morgott = {
 	learning = 10
 	health = 10
 	
-	religion = faith_golden	
+	religion = faith_golden
 	culture = cul_leyndell
 	
-	trait = education_learning_4
 	trait = just
 	trait = zealous
 	trait = diligent
 	trait = patient
+	trait = education_learning_4
 	trait = omen_horn_trait
 	trait = twin
 	trait = erdtree_affinity
 	trait = fire_affinity
 	trait = no_marry
+	
+	disallow_random_traits = yes
+	
+	father = hoarah_loux
+	mother = marika
 	
 	portrait_override = {
 		portrait_modifier_overrides={
@@ -366,10 +394,6 @@ morgott = {
 			custom_beards=m_beard_tgp_chinese_09
 		}
 	}
-	
-	disallow_random_traits = yes
-	father = hoarah_loux
-	mother = marika
 	
 	912.1.1 = {
 		birth = yes
@@ -388,6 +412,7 @@ mohg = {
 	dna = mohg_dna
 	sexuality = bisexual
 	dynasty = dynn_erdtree
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
@@ -398,16 +423,17 @@ mohg = {
 	religion = faith_golden
 	culture = cul_leyndell
 	
-	trait = education_intrigue_4
-	trait = omen_horn_trait
-	trait = twin
 	trait = callous
 	trait = zealous
 	trait = ambitious
+	trait = education_intrigue_4
+	trait = omen_horn_trait
+	trait = twin
 	trait = blood_affinity
 	trait = no_marry
 	
 	disallow_random_traits = yes
+	
 	father = hoarah_loux
 	mother = marika
 	
@@ -441,6 +467,7 @@ radahn = {
 	dna = radahn_dna
 	sexuality = bisexual
 	dynasty = dynn_caria
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
@@ -451,13 +478,13 @@ radahn = {
 	
 	religion = faith_moons
 	culture = cul_caria
-	trait = education_martial_5
 	
-	trait = physique_good_3
-	trait = intellect_good_1
 	trait = just
 	trait = diligent
 	trait = brave
+	trait = education_martial_5
+	trait = physique_good_3
+	trait = intellect_good_1
 	trait = carian_affinity
 	trait = gravity_affinity
 	trait = strong
@@ -522,8 +549,8 @@ rykard = {
 	name = "Rykard"
 	dna = rykard_dna
 	sexuality = heterosexual
-	
 	dynasty = dynn_caria
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
@@ -534,17 +561,18 @@ rykard = {
 	religion = faith_moons
 	culture = cul_caria
 	
-	trait = education_intrigue_5
-	trait = intellect_good_2 
 	trait = cynical
 	trait = ambitious
 	trait = sadistic
 	trait = arbitrary
+	trait = education_intrigue_5
+	trait = intellect_good_2 
 	trait = carian_affinity
 	trait = fire_affinity
 	trait = magma_affinity
 	
 	disallow_random_traits = yes
+	
 	father = radagon
 	mother = rennala
 	
@@ -600,6 +628,7 @@ ranni = {
 	dna = ranni_two_dna #blue dna is loaded by default for now since present bookmarks wont have ranni in her original body
 	sexuality = bisexual
 	dynasty = dynn_caria
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
@@ -610,10 +639,10 @@ ranni = {
 	religion = faith_moons
 	culture = cul_caria
 	
-	trait = education_learning_5
 	trait = callous
 	trait = calm
 	trait = ambitious
+	trait = education_learning_5
 	trait = intellect_good_2
 	trait = beauty_good_3
 	trait = carian_affinity
@@ -621,6 +650,7 @@ ranni = {
 	trait = no_marry
 	
 	disallow_random_traits = yes
+	
 	father = radagon
 	mother = rennala
 	
@@ -679,18 +709,21 @@ merian = {
 	intrigue = 10
 	stewardship = 10
 	learning = 10
-	religion = faith_golden	
+	health = 10
+	
+	religion = faith_golden
 	culture = cul_leyndell
 	
-	trait = education_diplomacy_4
-	trait = beauty_good_2
-	trait = weak
 	trait = compassionate
 	trait = temperate
 	trait = generous
+	trait = education_diplomacy_4
+	trait = beauty_good_2
+	trait = weak
 	trait = order_affinity
 	
 	disallow_random_traits = yes
+	
 	father = radagon
 	mother = marika
 	
@@ -710,10 +743,10 @@ merian = {
 
 miquella = {
 	name = "Miquella"
-
 	dna = miquella_dna
 	sexuality = bisexual
 	dynasty = dynn_erdtree
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
@@ -724,18 +757,19 @@ miquella = {
 	religion = faith_golden
 	culture = cul_leyndell
 	
-	disallow_random_traits = yes
-	trait = beauty_good_3
-	trait = intellect_good_3
-	trait = education_diplomacy_5
 	trait = ambitious
 	trait = gregarious
 	trait = honest
 	trait = compassionate
+	trait = education_diplomacy_5
+	trait = beauty_good_3
+	trait = intellect_good_3
 	trait = order_affinity
 	trait = erdtree_affinity
 	trait = twin
 	trait = no_marry
+	
+	disallow_random_traits = yes
 	
 	mother = marika
 	father = radagon
@@ -784,6 +818,7 @@ trina = {
 	dna = trina_dna
 	sexuality = bisexual
 	dynasty = dynn_slumber
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
@@ -794,17 +829,18 @@ trina = {
 	religion = faith_st_trina
 	culture = cul_leyndell
 	
-	trait = beauty_good_3
-	trait = education_diplomacy_4
 	trait = compassionate
 	trait = generous
 	trait = forgiving
+	trait = education_diplomacy_4
+	trait = beauty_good_3
 	#trait = maimed
 	trait = twin
 	trait = sleep_affinity
 	trait = no_marry
 	
 	disallow_random_traits = yes
+	
 	mother = marika
 	father = radagon
 	
@@ -845,11 +881,11 @@ malenia = {
 	religion = faith_golden
 	culture = cul_leyndell
 	
-	trait = education_martial_5
 	trait = brave
 	trait = trusting
 	trait = patient
 	trait = calm
+	trait = education_martial_5
 	trait = nugget
 	trait = erdtree_affinity
 	trait = rot_affinity
@@ -860,15 +896,15 @@ malenia = {
 	
 	disallow_random_traits = yes
 	
+	mother = marika
+	father = radagon
+	
 	portrait_override = {
 		portrait_modifier_overrides={
 			custom_hair=female_hair_fp2_iberian_christian_02
 			custom_beards=female_empty
 		}
 	}
-	
-	mother = marika
-	father = radagon
 	
 	2020.1.1 = {
 		birth = yes
@@ -903,18 +939,21 @@ moriss = {
 	intrigue = 10
 	stewardship = 10
 	learning = 10
-	religion = faith_golden	
+	health = 10
+	
+	religion = faith_golden
 	culture = cul_leyndell
 	
-	trait = education_intrigue_1
-	trait = spindly
-	trait = scaly
 	trait = cynical
 	trait = vengeful
 	trait = patient
+	trait = education_intrigue_1
+	trait = spindly
+	trait = scaly
 	trait = order_affinity
 	
 	disallow_random_traits = yes
+	
 	father = radagon
 	mother = marika
 	
@@ -944,18 +983,21 @@ marimell = {
 	intrigue = 10
 	stewardship = 10
 	learning = 10
-	religion = faith_golden	
+	health = 10
+	
+	religion = faith_golden
 	culture = cul_leyndell
 	
-	trait = education_intrigue_3
-	trait = infertile
-	trait = wheezing
 	trait = lazy
 	trait = lustful
 	trait = arbitrary
+	trait = education_intrigue_3
+	trait = infertile
+	trait = wheezing
 	trait = order_affinity
 	
 	disallow_random_traits = yes
+	
 	father = radagon
 	mother = marika
 	
@@ -984,19 +1026,22 @@ godwald = {
 	intrigue = 10
 	stewardship = 10
 	learning = 10
-	religion = faith_golden	
+	health = 10
+	
+	religion = faith_golden
 	culture = cul_leyndell
 	
-	trait = education_learning_4
-	trait = physique_good_1
-	trait = beauty_good_1
 	trait = shy
 	trait = content
 	trait = chaste
+	trait = education_learning_4
+	trait = physique_good_1
+	trait = beauty_good_1
 	trait = order_affinity
 	trait = erdtree_affinity
 	
 	disallow_random_traits = yes
+	
 	father = godwyn
 	
 	4258.1.1 = {
@@ -1025,18 +1070,21 @@ miressa = {
 	intrigue = 10
 	stewardship = 10
 	learning = 10
-	religion = faith_golden	
+	health = 10
+	
+	religion = faith_golden
 	culture = cul_leyndell
 	
-	trait = education_diplomacy_3
-	trait = beauty_good_1
 	trait = forgiving
 	trait = gregarious
 	trait = zealous
+	trait = education_diplomacy_3
+	trait = beauty_good_1
 	trait = order_affinity
 	trait = erdtree_affinity
 	
 	disallow_random_traits = yes
+	
 	father = godwyn
 	
 	4957.5.20 = {
@@ -1064,17 +1112,20 @@ godmyr = {
 	intrigue = 10
 	stewardship = 10
 	learning = 10
-	religion = faith_golden	
+	health = 10
+	
+	religion = faith_golden
 	culture = cul_leyndell
 	
-	trait = education_stewardship_4
-	trait = physique_good_1
 	trait = diligent
 	trait = calm
 	trait = impatient
+	trait = education_stewardship_4
+	trait = physique_good_1
 	trait = order_affinity
 	
 	disallow_random_traits = yes
+	
 	father = godwyn
 	
 	6022.8.12 = {
@@ -1093,6 +1144,7 @@ godmyr = {
 
 godefroy = {
 	name = "Godefroy"
+	#dna = godefroy_dna
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
 	
@@ -1101,9 +1153,10 @@ godefroy = {
 	intrigue = 10
 	stewardship = 10
 	learning = 10
-	religion = faith_golden	
+	health = 10
+	
+	religion = faith_golden
 	culture = cul_leyndell
-	give_nickname = nick_the_grafted
 	
 	trait = education_martial_3
 	trait = physique_good_1
@@ -1114,6 +1167,9 @@ godefroy = {
 	trait = grafting
 	
 	disallow_random_traits = yes
+	
+	give_nickname = nick_the_grafted
+	
 	father = godwald
 	
 	5977.1.1 = {
@@ -1139,18 +1195,21 @@ mioliss = {
 	intrigue = 10
 	stewardship = 10
 	learning = 10
-	religion = faith_golden	
+	health = 10
+	
+	religion = faith_golden
 	culture = cul_leyndell
 	
-	trait = education_martial_3
-	trait = inbred
-	trait = clubfooted
 	trait = just
 	trait = wrathful
 	trait = ambitious
+	trait = education_martial_3
+	trait = inbred
+	trait = clubfooted
 	trait = order_affinity
 	
 	disallow_random_traits = yes
+	
 	father = radagon
 	mother = marika
 	
@@ -1173,18 +1232,27 @@ godrick = {
 	dna = godrick_dna
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
-	religion = faith_golden	
+	
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	
+	religion = faith_golden
 	culture = cul_leyndell
 	
-	trait = education_stewardship_2
-	trait = physique_bad_1
 	trait = arrogant
 	trait = craven
 	trait = sadistic
 	trait = greedy
+	trait = education_stewardship_2
+	trait = physique_bad_1
 	trait = no_marry
 	
 	disallow_random_traits = yes
+	
 	father = godefroy
 	
 	portrait_override = {

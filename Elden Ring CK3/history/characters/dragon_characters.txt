@@ -1,29 +1,37 @@
 ﻿placidusax = {
 	name = "Placidusax"
+	dna = placidusax_human_dna
 	sexuality = heterosexual
 	dynasty = dynn_farum
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
 	stewardship = 10
 	learning = 10
 	health = 10
-	#give_nickname = nick_dragonlordlady
-	religion = faith_ancient_dragon	
-	culture = cul_ancient_dragon
-	trait = education_stewardship_5
 	
+	religion = faith_ancient_dragon
+	culture = cul_ancient_dragon
+
 	trait = ambitious
 	trait = zealous
 	trait = trusting
+	trait = education_stewardship_5
 	trait = maimed
 	trait = no_marry
 	
 	disallow_random_traits = yes
 	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_beards=male_empty
+			custom_hair=male_hair_indian_02
+		}
+	}
+	
 	50.1.1 = {
 		birth = yes
-		
 		trait = ancient_dragon_elden_ring
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -32,51 +40,26 @@
 	}
 }
 
-bayle = {
-	name = "Bayle"
+tarassax = { #a dragon to rule Farum Azula while Placidusax sleeps, named by CLAW on discord
+	name = "Tarassax"
+	#dna = tarassax_dna
 	sexuality = heterosexual
-	dynasty = dynn_jagged
+	dynasty = dynn_azula
+	
 	martial = 10
 	diplomacy = 10
 	intrigue = 10
 	stewardship = 10
 	learning = 10
 	health = 10
-	give_nickname = nick_the_dread
-	religion = faith_bayle_dragon	
-	culture = cul_drake
-	trait = education_martial_4
 	
-	trait = ambitious
-	trait = callous
-	trait = wrathful
-	trait = maimed
-	trait = no_marry
-	
-	disallow_random_traits = yes
-	
-	60.1.1 = {
-		birth = yes
-		effect = {
-			add_character_flag = do_not_generate_starting_family
-		}
-		trait = lesser_dragon_elden_ring
-	}
-}
-
-tarassax = { #a dragon to rule Farum Azula while Placidusax sleeps, named by CLAW on discord
-	name = "Tarassax"
-	#dna = marika_dna
-	sexuality = heterosexual
-	dynasty = dynn_azula
-	religion = faith_ancient_dragon	
+	religion = faith_ancient_dragon
 	culture = cul_ancient_dragon
-	
-	trait = education_stewardship_4
 	
 	trait = zealous
 	trait = content
-	trait = patient 
+	trait = patient
+	trait = education_stewardship_4
 	
 	disallow_random_traits = yes
 	
@@ -86,6 +69,48 @@ tarassax = { #a dragon to rule Farum Azula while Placidusax sleeps, named by CLA
 			add_character_flag = do_not_generate_starting_family
 		}
 		trait = ancient_dragon_elden_ring
-		
+	}
+}
+
+bayle = {
+	name = "Bayle"
+	dna = bayle_human_dna
+	sexuality = heterosexual
+	dynasty = dynn_jagged
+	
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	learning = 10
+	health = 10
+	
+	religion = faith_bayle_dragon
+	culture = cul_drake
+	
+	trait = ambitious
+	trait = callous
+	trait = wrathful
+	trait = education_martial_4
+	trait = maimed
+	trait = no_marry
+	
+	disallow_random_traits = yes
+	
+	give_nickname = nick_the_dread
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_beards=male_empty
+			custom_hair=male_hair_special_01
+		}
+	}
+	
+	60.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		trait = lesser_dragon_elden_ring
 	}
 }
