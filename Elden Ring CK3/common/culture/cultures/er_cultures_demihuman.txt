@@ -87,3 +87,33 @@ cul_misbegotten = {
 		30 = caucasian_dark_hair
 	}
 }
+
+cul_bloodfiend = {
+	color = { 0.82 0.7 0.49 }
+	ethos = ethos_bellicose
+	heritage = heritage_bloodfiend
+	language = language_bloodfiend
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_faith_bound
+		tradition_frugal_armorsmiths
+		tradition_beast_clergy
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_09
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}

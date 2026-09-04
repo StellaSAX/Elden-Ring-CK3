@@ -286,3 +286,71 @@ language_albinauric = {
 	}
 	color = { 0.18 0.15 0.69 }
 }
+
+language_badlands = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_badlands
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_badlands }
+			multiply = 10
+		}
+	}
+	color = { 0.18 0.15 0.69 }
+}
+
+language_highlands = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_highlands
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_highlands }
+			multiply = 10
+		}
+	}
+	color = { 0.18 0.15 0.69 }
+}
+
+language_zamor = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_zamor
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_zamor }
+			multiply = 10
+		}
+	}
+	color = { 0.18 0.15 0.69 }
+}
+
+language_bloodfiend = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_bloodfiend
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_bloodfiend }
+			multiply = 10
+		}
+	}
+	color = { 0.18 0.15 0.69 }
+}

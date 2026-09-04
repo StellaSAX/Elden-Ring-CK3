@@ -24,7 +24,7 @@
 		#modifier = artifact_fertility_gain_50_modifier
 		modifier = artifact_monthly_intrigue_lifestyle_xp_2_modifier
 		modifier = artifact_knight_limit_5_modifier
-		modifier = artifact_monthly_piety_negative_2_modifier
+		#modifier = artifact_monthly_piety_negative_2_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
 	}

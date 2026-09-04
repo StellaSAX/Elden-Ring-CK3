@@ -30,7 +30,7 @@
 		}
 	}
 	
-	50.1.1 = {
+	46.2.11 = {
 		birth = yes
 		trait = ancient_dragon_elden_ring
 		effect = {
@@ -106,7 +106,7 @@ bayle = {
 		}
 	}
 	
-	60.1.1 = {
+	114.1.6 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family

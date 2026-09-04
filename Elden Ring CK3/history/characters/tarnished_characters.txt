@@ -638,6 +638,47 @@ corhyn = {
 	}
 }
 
+#OC D Daddy so that Devin and Darian can be considered twins in-game
+dorin = {
+	name = "Dorin"
+	#dna = dorin_dna
+	sexuality = heterosexual
+	dynasty = dynn_golhuw
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	prowess = 10
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_leyndell
+	
+	trait = zealous
+	trait = lazy
+	trait = wrathful
+	trait = education_stewardship_3
+	
+	disallow_random_traits = yes
+	
+	6461.2.22 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	7219.10.26 = {
+		death = {
+			death_reason = death_disappearance
+		}
+	}
+}
+
 devin = {
 	name = "Devin"
 	#dna = devin_dna
@@ -668,6 +709,8 @@ devin = {
 	disallow_random_traits = yes
 	
 	give_nickname = nick_beholder_of_death
+	
+	father = dorin
 	
 	6721.11.10 = {
 		birth = yes
@@ -710,6 +753,8 @@ darian = {
 	disallow_random_traits = yes
 	
 	give_nickname = nick_hunter_of_the_dead
+	
+	father = dorin
 	
 	6721.11.10 = {
 		birth = yes
@@ -1283,7 +1328,7 @@ magnus = {
 	health = 10
 	
 	religion = faith_golden
-	culture = cul_altus
+	culture = cul_highlander
 	
 	trait = wrathful
 	trait = arrogant

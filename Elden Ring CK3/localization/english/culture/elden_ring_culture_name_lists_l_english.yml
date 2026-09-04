@@ -41,9 +41,11 @@
 
  name_list_eochaid:0 "Eochaid"
  name_list_badlands:0 "Badlands"
+ name_list_highlander:0 "Highlander"
  name_list_reedlander:0 "Reedlands"
  name_list_ranah:0 "Ranah"
 
  name_list_beastman:0 "Beastman"
  name_list_demihuman:0 "Demi-Human"
  name_list_misbegotten:0 "Misbegotten"
+ name_list_bloodfiend:0 "Bloodfiend"

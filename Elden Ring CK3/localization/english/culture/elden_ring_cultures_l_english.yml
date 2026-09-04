@@ -10,6 +10,12 @@
  cul_badlands_prefix: "Badlander"
  cul_badlands: "Badlander"
  cul_badlands_collective_noun: "Badlanders"
+ 
+ cul_highlander_group: "Highlander"
+ cul_highlander_group_collective_noun: "Highlanders"
+ cul_highlander_prefix: "Highlander"
+ cul_highlander: "Highlander"
+ cul_highlander_collective_noun: "Highlanders"
 
  cul_giant_group: "Giant"
  cul_giant_group_collective_noun: "Giants"
@@ -251,6 +257,12 @@
  cul_misbegotten_prefix: "Misbegotten"
  cul_misbegotten: "Misbegotten"
  cul_misbegotten_collective_noun: "Misbegotten"
+ 
+ cul_bloodfiend_group: "Bloodfiend"
+ cul_bloodfiend_group_collective_noun: "Bloodfiend"
+ cul_bloodfiend_prefix: "Bloodfiend"
+ cul_bloodfiend: "Bloodfiend"
+ cul_bloodfiend_collective_noun: "Bloodfiend"
 
  heritage_lands_between_name: "Lands Between"
  heritage_giant_name: "Giant"
@@ -269,6 +281,7 @@
  heritage_rauh_name: "Rauh"
  heritage_ranah_name: "Ranah"
  heritage_albinauric_name: "Albinauric"
+ heritage_bloodfiend_name: "Bloodfiend"
 
  language_nightfolk_name: "Nightfolk"
  language_numen_name: "Numen"
@@ -276,7 +289,7 @@
  language_ancestral_follower_name: "Ancestral"
  language_hornsent_name: "Hornsent"
  language_draconian_name: "Draconian"
- language_reedlander_name: "Reedlander"
+ language_reedlander_name: "Reedlands"
  language_eochaid_name: "Eochaid"
  language_beastman_name: "Beastman"
  language_dragon_name: "Dragon"
@@ -287,6 +300,10 @@
  language_rauh_name: "Rauh"
  language_ranah_name: "Ranah"
  language_albinauric_name: "Albinauric"
+ language_badlands_name: "Badlands"
+ language_highlands_name: "Highlands"
+ language_zamor_name: "Zamor"
+ language_bloodfiend_name: "Bloodfiend"
 
  cul_landsbetween_desc:0 "#size:15 At times it is rare and at times it is common for one to call themselves a Child of the Lands Between before any other loyalty, perhaps it is because of this that to some it is seen as a declaration of utmost solidarity and loyalty. Foreswearing all blood ties and heritage to that which came before, now only the love of the Golden Order has brought them together and whilst they may be far from its roots they have bathed deep in the light of the Erdtree and name themselves the most loyal of its protectors.#!"
  cul_badlands_desc:0 "#size:15 Though distant and bereft of Grace the Badlands holds a beauty of its own and this can be found in its people. Those either driven from the Lands Between or hailing from this harsh realm are noted for their strength and physical prowess, being great warriors in their own right and enjoying a fierceness that is almost closer to beast than man. Many have underestimated their great might as a sign of weakness of mind, but few would do so when such a titan as Hoarah Loux stands proud as one of their number.#!"
@@ -324,12 +341,14 @@
  cul_cerulean_desc:0 "#size:15 PLACEHOLDER.#!"
  cul_charolean_desc:0 "#size:15 PLACEHOLDER.#!"
  cul_hinterlander_desc:0 "#size:15 PLACEHOLDER.#!"
+ cul_highlander_desc:0 "#size:15 PLACEHOLDER.#!"
  cul_rauh_desc:0 "#size:15 The Rauh were an ancient civilization that built great monuments and cities, which only now remain as old and decrepit ruins. Very few things remain about them, except the fact that they were affiliated with the cruicible and sprites. Perhaps one could revive the culture if they found enough of its traces.#!"
  cul_ranah_desc:0 "#size:15 PLACEHOLDER.#!"
  cul_albinauric_desc:0 "#size:15 The Albinaurics are a cursed people indeed. Born from human hand, they are considered untouched by the Erdtree and deemed impure. The first generation suffers a most terrible ailment; their legs whither away as they age and die when the whithering is complete. The second generation is rather brutish and primitive, having a grotesque form. Unlike the first generation, their legs are not afflicted; it is instead their voice that is taken away.#!"
  cul_drake_desc:0 "#size:15 PLACEHOLDER.#!"
  cul_demihuman_desc:0 "#size:15 The demi-humans are a primitive and brutish people inhabiting the Lands Between. They mostly live in the far edge of civilization, sometimes encroaching upon it to raid or terrorize travellers. Their social hierarchy is simple ; might makes right, and the stronger you are, the more power you hold over your lessers. The queens have a peculiar affinity towards glintstone magic, nurtured by the liurnans who sought peace with them.#!"
  cul_misbegotten_desc:0 "#size:15 The misbegotten are beings who were touched by the Crucible from birth, and are therefore cruelly punished for it by the Golden Order. Whilst they do not have a centralized society due to their condition of slaves and servants, uprisings happen from time to time, forming small groups independant from their persecutors.#!"
+ cul_bloodfiend_desc:0 "#size:15 PLACEHOLDER.#!"
 
  #####
  # Back-End stuff

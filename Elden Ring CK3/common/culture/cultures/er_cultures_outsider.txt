@@ -2,7 +2,37 @@
 	color = { 0.69 0.52 0.3 }
 	ethos = ethos_stoic
 	heritage = heritage_lands_between
-	language = language_lands_between
+	language = language_badlands
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_battlefield_looters
+		tradition_only_the_strong
+		tradition_quarrelsome
+		tradition_warrior_culture
+	}
+
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_19
+
+	ethnicities = {
+		30 = caucasian_blond
+		30 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+cul_highlander = {
+	color = { 0.69 0.52 0.3 }
+	ethos = ethos_bellicose
+	heritage = heritage_lands_between
+	language = language_highlands
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {

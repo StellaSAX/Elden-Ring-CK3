@@ -7,6 +7,7 @@
 			
 			culture:cul_landsbetween = { custom_tooltip = cul_landsbetween_desc }
 			culture:cul_badlands = { custom_tooltip = cul_badlands_desc }
+			culture:cul_highlander = { custom_tooltip = cul_highlander_desc }
 			culture:cul_giant = { custom_tooltip = cul_giant_desc }
 			culture:cul_reedlander = { custom_tooltip = cul_reedlander_desc }
 			culture:cul_draconian = { custom_tooltip = cul_draconian_desc }
@@ -46,6 +47,7 @@
 			culture:cul_beastman = { custom_tooltip = cul_beastman_desc }
 			culture:cul_demihuman = { custom_tooltip = cul_demihuman_desc }
 			culture:cul_misbegotten = { custom_tooltip = cul_misbegotten_desc }
+			culture:cul_bloodfiend = { custom_tooltip = cul_bloodfiend_desc }
 		}
 	}
 }
