@@ -81,17 +81,28 @@
 	}
 
 	effect = {
-		title:d_wyndham = { set_de_jure_liege_title = title:k_altus_plateau }
-		title:d_coffin_lake = { set_de_jure_liege_title = title:k_altus_plateau }
+		title:d_wyndham = {
+			set_de_jure_liege_title = title:k_altus_plateau
+		}
+		title:d_coffin_lake = {
+			set_de_jure_liege_title = title:k_altus_plateau
+		}
 		add_legitimacy = medium_legitimacy_gain
+
 		hidden_effect = {
-			remove_global_variable = {
+			remove_from_global_variable_list = {
 				name = unavailable_unique_decisions
-				target = flag:gelmir_expansion
+				target = flag:gelmir_empire
 			}
-		}	
+		}
 	}
-	
-	ai_potential = { always = yes }
-	ai_will_do = { base = 25 }
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 25
+	}
+
 }
