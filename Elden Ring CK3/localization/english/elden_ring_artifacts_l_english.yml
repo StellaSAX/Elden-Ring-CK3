@@ -17,7 +17,7 @@
  deathbed_smalls_name:0 "Deathbed Smalls"
  deathbed_smalls_description:0 "Skirt worn by Fia, the Deathbed Companion."
 
- dragon_heart_name:0 "Dragon Heart"
+ dragon_heart_name:0 "[dragon_fight.GetFirstName] Dragon Heart"
  dragon_heart_description:0 "Dragon heart gained by slaying a dragon.\nRiddled with Gravel Stone, this grotesque organ continues to beat vivaciously.\n\nAn offering used in the Dragon Communion. Consume a dragon's heart at the altar to make its power yours."
  
  

@@ -20,7 +20,7 @@
 	scope:newly_created_artifact ?= {
 		equip_artifact_to_owner_replace = yes
 		set_variable = {
-			name = historical_unique_artifact
+			name = dragon_heart_artifact
 			value = yes
 		}
 	}

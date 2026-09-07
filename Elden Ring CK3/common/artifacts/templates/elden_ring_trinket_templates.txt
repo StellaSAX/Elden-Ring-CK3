@@ -1,13 +1,11 @@
 ﻿dragon_heart_template = {
 	can_equip = {
-		always = yes
 	}
 	can_benefit = {
-		always = yes
 	}
-	fallback = {
-		#always = yes
-	}
+	# fallback = {
+		# #always = yes
+	# }
 	unique = yes
 	ai_score = {
 		value = 100

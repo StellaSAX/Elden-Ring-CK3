@@ -130,18 +130,21 @@ er_dragon.0002 = { #fight a lesser dragon
 		animation = rage
 	}
 	theme = war
-	
-	create_character = {
-		gender_female_chance = 50
-		location = scope:target_location
-		template = new_warrior_character
-		faith = scope:origin.faith
-		culture = scope:origin.culture
-		save_scope_as = dragon_fight
+	immediate = {
+		create_character = {
+			gender_female_chance = 50
+			location = scope:target_location
+			template = new_warrior_character
+			faith = faith:faith_bayle_dragon
+			culture = culture:cul_drake
+			save_scope_as = dragon_fight
+		}
+		scope:dragon_fight = { add_trait = lesser_dragon_elden_ring }
 	}
-	scope:dragon_fight = { add_trait = lesser_dragon_elden_ring }
+	
 
-	option = {
+	option = {#send my soldiers(martial)
+		name = er_dragon.0002.a
 		duel = {
 			skill = martial
 			target = scope:dragon_fight
@@ -154,6 +157,12 @@ er_dragon.0002 = { #fight a lesser dragon
 				min = 5
 				desc = er_dragon.0002.a.tt.success
 				trigger_event = er_dragon.0003
+				scope:dragon_fight = { 
+					death = {
+						death_reason = death_duel
+						killer = ROOT
+					}
+				}
 			}
 			60 = {
 				compare_modifier = {
@@ -168,7 +177,7 @@ er_dragon.0002 = { #fight a lesser dragon
 				}
 			}
 		}
-		name = er_dragon.0002.a
+		
 		ai_chance = {
 			value = 0
 			if = {
@@ -178,35 +187,42 @@ er_dragon.0002 = { #fight a lesser dragon
 		}
 	}
 	
-	option = {
-		duel = {
-			skill = prowess
-			target = scope:dragon_fight
-			40 = {
-				compare_modifier = {
-					value = scope:duel_value
-					multiplier = 3.5
-					min = -49
-				}
-				min = 5
-				desc = er_dragon.0002.a.tt.success
-				trigger_event = er_dragon.0003
-			}
-			60 = {
-				compare_modifier = {
-					value = scope:duel_value
-					multiplier = -3.5
-					min = -49
-				}
-				min = 10
-				desc = er_dragon.0002.a.tt.failure
-				hidden_effect = {
-					increase_wounds_no_death_effect = { REASON = fall }
-				}
-				
-			}
-		}
+	option = {#i will do it myself(prowess)
 		name = er_dragon.0002.b
+		# duel = {
+			# skill = prowess
+			# target = scope:dragon_fight
+			# 40 = {
+				# compare_modifier = {
+					# value = scope:duel_value
+					# multiplier = 3.5
+					# min = -49
+				# }
+				# min = 5
+				# desc = er_dragon.0002.a.tt.success
+				# trigger_event = er_dragon.0003
+				# scope:dragon_fight = { 
+					# death = {
+						# death_reason = death_duel
+						# killer = ROOT
+					# }
+				# }
+			# }
+			# 60 = {
+				# compare_modifier = {
+					# value = scope:duel_value
+					# multiplier = -3.5
+					# min = -49
+				# }
+				# min = 10
+				# desc = er_dragon.0002.a.tt.failure
+				# hidden_effect = {
+					# increase_wounds_no_death_effect = { REASON = fall }
+				# }
+				
+			# }
+		# }
+		
 		ai_chance = {
 			value = 0
 			if = {
@@ -217,7 +233,7 @@ er_dragon.0002 = { #fight a lesser dragon
 	}
 	
 	option = { # nah, i am good dawg
-		name = elden_ring_knight_events.0001.i
+		name = elden_ring_knight_events.0002.i
 		ai_chance = {
 			base = 10 
 			modifier = {
@@ -227,7 +243,6 @@ er_dragon.0002 = { #fight a lesser dragon
 		}
 	}
 }
-
 
 er_dragon.0003 = { #won against a lesser dragon
 
@@ -241,20 +256,33 @@ er_dragon.0003 = { #won against a lesser dragon
 
 	theme = war
 
-	option = {
+	option = {#take heart
 		add_prestige = 300
-		random_list = {
-			50 = {
-				add_martial_lifestyle_xp = medium_lifestyle_xp
-				add_martial_skill = 1
-				add_prowess_skill = 1
-				
-			}
-			50 = {
-				increase_wounds_no_death_effect = { REASON = fall }
-			}		
+		#elden_ring_dragon_heart_effect = yes
+		set_artifact_rarity_famed = yes
+		create_artifact = {
+			name = dragon_heart_name
+			visuals = dragon_heart_visual
+			description = dragon_heart_description
+			
+			type = miscellaneous
+			wealth = scope:wealth
+			quality = scope:quality
+			template = dragon_heart_template
+			
+			modifier = artifact_monthly_prestige_10_modifier
+			modifier = artifact_monthly_prestige_add_9_modifier
+			save_scope_as = dragon_heart_artifact
+			decaying = no
 		}
-	
+		scope:dragon_heart_artifact ?= {
+			equip_artifact_to_owner_replace = yes
+			set_variable = {
+				name = dragon_heart_artifact
+				value = yes
+			}
+		}
+		
 		stress_impact = {
 			ambitious = minor_stress_impact_loss
 		}
@@ -276,16 +304,93 @@ er_dragon.0003 = { #won against a lesser dragon
 			}
 		}
 	}
-	
-	option = { # nah, i am good dawg
-		name = elden_ring_knight_events.0001.i
-		add_prestige = 300
-		ai_chance = {
-			base = 10 
-			modifier = {
-				add = 100 
-				has_trait = content
+}
+
+er_dragon.0004 = { #yummy yummy in my tummy
+	type = character_event
+	desc = er_dragon.0004.desc
+	title = er_dragon.0004.title
+	right_portrait = {
+		character = root
+		animation = rage
+	}
+
+	theme = war
+
+	immediate = {
+		random_character_artifact = {
+			limit = {
+				has_variable = dragon_heart_artifact
+			}
+			destroy_artifact = this
+		}
+	}
+
+	option = {#eat heart
+		name = er_dragon.0004.a
+
+		#if you don't have the traits, gain both of them
+		if = {
+			limit = {
+				NOT = { has_trait = incantation_dragon_communion }
+			}
+			add_trait = incantation_dragon_communion
+		}
+		if = {
+			limit = {
+				NOT = { has_trait = drake_knight }
+			}
+			add_trait = drake_knight
+		}
+		if = {
+			limit = {
+				has_trait = dragon_affinity
+				has_trait_xp = {
+					trait = drake_knight
+					value >= 50
+				}
+			}
+			add_martial_skill = 1
+			add_prowess_skill = 1
+		}
+		else = {
+			add_trait_xp = {
+				trait = drake_knight
+				value = { 10 30 }
+			}
+		}
+		if = {
+			limit = {
+				has_trait_xp = {
+					trait = incantation_dragon_communion
+					value < 100
+				}
+			}
+			add_trait_xp = {
+				trait = incantation_dragon_communion
+				value = 20
+			}
+		}
+		
+		after = {
+			#ops, you ate too much dragon
+			if = {
+				limit = {
+					has_trait_xp = {
+						trait = drake_knight
+						value >= 60
+					}
+				}
+				random = {
+					chance = 50
+					death = {
+						death_reason = death_suicide
+						#death_reason = became_magma_wyrm
+					}
+				}
 			}
 		}
 	}
+
+
 }

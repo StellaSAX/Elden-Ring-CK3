@@ -9,6 +9,11 @@
  hunt_lesser_dragon_elden_ring_desc:0 "I know of the power they have, and i know how to obtain tha power by eating their hearts. let's search for one and take their power"
  hunt_lesser_dragon_elden_ring_confirm:0 "Prepare my horse"
  hunt_lesser_dragon_elden_ring_tooltip:0 "Hunt a lesser Dragon"
+ 
+ consume_dragon_heart_elden_ring:0 "Consume a Dragon Heart"
+ consume_dragon_heart_elden_ring_desc:0 "The heart of a dragon is a powerfull and dangeriys tool, by consuming it i would gain powers similar to a dragon"
+ consume_dragon_heart_elden_ring_confirm:0 "Give me your power"
+ consume_dragon_heart_elden_ring_tooltip:0 "Consume a Dragon Heart"
 
  er_dragon.0001.title:0 "A Dragon Comes"
  er_dragon.0001.desc:0 "Finally a great being comes to serve me, with enoug gold and fame even they can be conviced to become my warriors."
@@ -23,7 +28,8 @@
 
  er_dragon.0003.title:0 "Coming for a Heart"
  er_dragon.0003.desc:0 "after much effort they finally died, i see why they are considered so powerfull, but a lone dragon was no challenge for me, and now i consume their heart."
- er_dragon.0003.i:0 "It fills me with Power!"
+ er_dragon.0003.a:0 "What a beautiful thing"
+ 
 
  ask_dragon_cult_elden_ring_interaction:0 "Learn to Control Lightning"
  teach_dragon_cult_elden_ring_interaction:0 "Teach to Control Lightning"
