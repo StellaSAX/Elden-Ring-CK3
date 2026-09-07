@@ -953,7 +953,7 @@ tradition_nox = {
 	layers = {
 		0 = learning
 		1 = mediterranean
-		4 = gelmir.dds
+		4 = nox.dds
 	}
 
 	can_pick = {

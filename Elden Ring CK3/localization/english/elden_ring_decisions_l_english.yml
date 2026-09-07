@@ -70,7 +70,7 @@
  create_great_rune_decisions_tooltip:0 "Create Great Rune"
 
  great_rune_elden_ring:0 "Great Rune of [ROOT.GetCharacter.GetFirstNameNoTooltip]"
- great_rune_elden_ring_desc:0 "A Great Rune is a powerful tool used by those close to godhood, it gives great blessings by itself, and those that are ones step away from becoming gods can use it to create a Elden Ring and define their order."
+ great_rune_elden_ring_desc:0 "A Great Rune is a powerful tool used by those close to godhood, it gives great blessings by itself, and those that are ones step away from becoming gods can use it to repair the Elden Ring and define their order."
  has_great_rune_for_elden_ring:0 "Has a Great Rune"
 
  create_elden_ring_decisions:0 "Create Elden Ring"
@@ -201,3 +201,14 @@
  remove_access_to_shadowland_confirm:0 "Yay!"
  remove_access_to_shadowland_tooltip:0 "POOP!"
  
+ get_special_weapon_elden_ring:0 "Get Special Sword"
+ get_special_weapon_elden_ring_desc:0 "I am a skilled warrior but don't have a weapon up to my standards, maybe i should commission something that will make it clear that i am a knight."
+ get_special_weapon_elden_ring_confirm:0 "Bring a Blacksmith"
+ get_special_weapon_elden_ring_tooltip:0 "Get Special Sword"
+ get_special_weapon_elden_ring.tt:0 "Obtain a Special Sword"
+ 
+ er_artifacts.0003.title:0 "Get Special Sword"
+ er_artifacts.0003.desc:0 "I talked with the blacksmith, what would be the best design for a weapon that i will use?"
+ er_artifacts.0003.a:0 "Sword of St.Trina"
+ er_artifacts.0003.b:0 "Carian Knight Sword"
+ er_artifacts.0003.c:0 "Miquellan Knight Sword"

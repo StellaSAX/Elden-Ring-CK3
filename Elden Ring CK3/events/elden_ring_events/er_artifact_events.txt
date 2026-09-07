@@ -285,7 +285,7 @@ er_artifacts.0002 = { #CREATE ELDEN RING
 	
 }
 
-er_artifacts.0003 = { #st trina sword
+er_artifacts.0003 = { #special weapon(with 3d model)
 
 	type = character_event
 	desc = er_artifacts.0003.desc
@@ -299,6 +299,17 @@ er_artifacts.0003 = { #st trina sword
 	
 	option = {
 		name = er_artifacts.0003.a
+		trigger = {
+			faith = {
+				has_doctrine = doctrine_sleep_affinity_virtuous
+			}
+		}
+		if = {
+			limit = {
+				is_knight_elden_ring = no
+			}
+			add_trait = sleep_cleric
+		}
 		create_artifact = {
 			name = WP_A_0230_name
 			description = WP_A_0230_description
@@ -315,7 +326,7 @@ er_artifacts.0003 = { #st trina sword
 		scope:newly_created_artifact ?= {
 			equip_artifact_to_owner_replace = yes
 			set_variable = {
-				name = crated_special_sword_elden_ring
+				name = crafted_special_sword_elden_ring
 				value = yes
 			}
 			set_variable = {
@@ -328,24 +339,28 @@ er_artifacts.0003 = { #st trina sword
 			base = 10 
 		}
 	}
-
-}
-
-er_artifacts.0004 = { #carian knight sword
-
-	type = character_event
-	desc = er_artifacts.0004.desc
-	title = er_artifacts.0004.title
-	theme = war
-
-	left_portrait = {
-		character = ROOT 
-		animation = marshal 
-	}
 	
 	option = {
-		name = er_artifacts.0003.a
-		add_trait = sorcerous_knight
+		name = er_artifacts.0003.b
+		trigger = {
+			OR = {
+				has_trait = sorcerous_knight
+				top_liege = {
+					OR = {
+						culture = {
+							has_cultural_tradition = tradition_carian_royal
+						}
+						has_trait = moon_princess
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_knight_elden_ring = no
+			}
+			add_trait = sorcerous_knight
+		}
 		create_artifact = {
 			name = WP_A_0227_name
 			description = WP_A_0227_description
@@ -362,7 +377,7 @@ er_artifacts.0004 = { #carian knight sword
 		scope:newly_created_artifact ?= {
 			equip_artifact_to_owner_replace = yes
 			set_variable = {
-				name = crated_special_sword_elden_ring
+				name = crafted_special_sword_elden_ring
 				value = yes
 			}
 			set_variable = {
@@ -376,24 +391,14 @@ er_artifacts.0004 = { #carian knight sword
 		}
 	}
 	
-}
-
-er_artifacts.0005 = { #miquella knight sword
-
-	type = character_event
-	desc = er_artifacts.0005.desc
-	title = er_artifacts.0005.title
-	theme = war
-
-	left_portrait = {
-		character = ROOT 
-		animation = marshal 
-	}
-	
 	option = {
-		name = er_artifacts.0003.a
+		name = er_artifacts.0003.c
 		#elden_steel_create_artifact_WP_A_0229_effect = yes
-		
+		trigger = {
+			faith = {
+				has_doctrine = tenet_unalloyed_order
+			}
+		}
 		create_artifact = {
 			name = WP_A_0229_name
 			description = WP_A_0229_description
@@ -410,7 +415,7 @@ er_artifacts.0005 = { #miquella knight sword
 		scope:newly_created_artifact ?= {
 			equip_artifact_to_owner_replace = yes
 			set_variable = {
-				name = crated_special_sword_elden_ring
+				name = crafted_special_sword_elden_ring
 				value = yes
 			}
 			set_variable = {
