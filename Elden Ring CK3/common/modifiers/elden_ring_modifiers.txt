@@ -55,3 +55,10 @@ tax_focus = {
 	tax_mult = 0.35
 	development_growth_factor = -0.25
 }
+
+veteran_of_the_shattering = {
+	icon = tournament_mixed
+	martial = 5
+	prowess_no_portrait = 10
+	defender_advantage = 10
+}

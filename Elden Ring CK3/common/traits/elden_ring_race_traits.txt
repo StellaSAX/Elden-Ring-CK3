@@ -98,7 +98,7 @@ lesser_dragon_elden_ring = {
 	}
 }
 
-albinauric_trait = {
+albinauric = {
 	category = health
 	icon = "albinauric.dds"
 	same_opinion = 50

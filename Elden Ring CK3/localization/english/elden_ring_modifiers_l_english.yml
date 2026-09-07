@@ -14,3 +14,6 @@
  development_focus_desc:0 "A well-maintained castle is the best castle."
  tax_focus:0 "Increased Taxes"
  tax_focus_desc:0 "Tax the poor. Tax the rich. Tax them all!"
+ 
+ veteran_of_the_shattering:0 "Veteran of the Shattering"
+ veteran_of_the_shattering_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] fought during the shattering wars and survived, gaining great expertise in the art of war."

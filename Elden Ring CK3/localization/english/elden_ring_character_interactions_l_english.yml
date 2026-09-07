@@ -40,3 +40,6 @@
  
  death_black_knives:0 "was slain during the Night of the Black Knives"
  death_black_knives_killer:0 "was slain during the Night of the Black Knives by [TARGET_CHARACTER.GetUIName]"
+ 
+ death_scarlet_rot:0 "succumbed to the Scarlet Rot"
+ death_scarlet_rot_killer:0 "was killed with Scarlet Rot by [TARGET_CHARACTER.GetUIName]"

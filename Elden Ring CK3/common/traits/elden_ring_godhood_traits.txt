@@ -18,12 +18,12 @@
 	immortal = yes
 	#set_immortal_age = 25
 	
-	diplomacy_mult = 1
-	martial_mult = 1
-	stewardship_mult = 1
-	intrigue_mult = 1
-	learning_mult = 1
-	prowess_mult = 1
+	diplomacy_mult = 0.25
+	martial_mult = 0.25
+	stewardship_mult = 0.25
+	intrigue_mult = 0.25
+	learning_mult = 0.25
+	prowess_mult = 0.5
 	health = 10
 	
 	dynasty_opinion = 10
@@ -58,12 +58,12 @@ demigod_elden_ring_4 = {
 	negate_prowess_penalty_add = 20
 	no_prowess_loss_from_age = yes
 	
-	diplomacy_mult = 0.5
-	martial_mult = 0.5
-	stewardship_mult = 0.5
-	intrigue_mult = 0.5
-	learning_mult = 0.5
-	prowess_mult = 0.5
+	diplomacy_mult = 0.2
+	martial_mult = 0.2
+	stewardship_mult = 0.2
+	intrigue_mult = 0.2
+	learning_mult = 0.2
+	prowess_mult = 0.4
 	health = 10
 	
 	ai_greed = very_high_positive_ai_value
@@ -94,12 +94,12 @@ demigod_elden_ring_3 = {
 	negate_prowess_penalty_add = 15
 	no_prowess_loss_from_age = yes
 	
-	diplomacy_mult = 0.35
-	martial_mult = 0.35
-	stewardship_mult = 0.35
-	intrigue_mult = 0.35
-	learning_mult = 0.35
-	prowess_mult = 0.35
+	diplomacy_mult = 0.15
+	martial_mult = 0.15
+	stewardship_mult = 0.15
+	intrigue_mult = 0.15
+	learning_mult = 0.15
+	prowess_mult = 0.3
 	health = 8
 	
 	ai_greed = very_high_positive_ai_value
@@ -130,11 +130,11 @@ demigod_elden_ring_2 = {
 	negate_prowess_penalty_add = 10
 	no_prowess_loss_from_age = yes
 	
-	diplomacy_mult = 0.2
-	martial_mult = 0.2
-	stewardship_mult = 0.2
-	intrigue_mult = 0.2
-	learning_mult = 0.2
+	diplomacy_mult = 0.1
+	martial_mult = 0.1
+	stewardship_mult = 0.1
+	intrigue_mult = 0.1
+	learning_mult = 0.1
 	prowess_mult = 0.2
 	health = 6
 	
@@ -171,7 +171,7 @@ demigod_elden_ring_1 = {
 	stewardship_mult = 0.05
 	intrigue_mult = 0.05
 	learning_mult = 0.05
-	prowess_mult = 0.05
+	prowess_mult = 0.1
 	health = 4
 	
 	ai_greed = very_high_positive_ai_value

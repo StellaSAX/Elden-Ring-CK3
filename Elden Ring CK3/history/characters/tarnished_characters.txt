@@ -3,11 +3,13 @@
 	sexuality = heterosexual
 	dynasty = dynn_loux
 	
-	martial = 10
 	diplomacy = 10
-	intrigue = 10
+	martial = 10
 	stewardship = 10
+	intrigue = 10
 	learning = 10
+	prowess = 10
+	health = 10
 	
 	religion = faith_golden	
 	culture = cul_leyndell
@@ -33,11 +35,13 @@ tarnished_2 = {
 	sexuality = heterosexual
 	dynasty = dynn_loux
 	
-	martial = 10
 	diplomacy = 10
-	intrigue = 10
+	martial = 10
 	stewardship = 10
+	intrigue = 10
 	learning = 10
+	prowess = 10
+	health = 10
 	
 	religion = faith_golden	
 	culture = cul_leyndell
@@ -63,11 +67,13 @@ tarnished_3 = {
 	sexuality = heterosexual
 	dynasty = dynn_loux
 	
-	martial = 10
 	diplomacy = 10
-	intrigue = 10
+	martial = 10
 	stewardship = 10
+	intrigue = 10
 	learning = 10
+	prowess = 10
+	health = 10
 	
 	religion = faith_golden	
 	culture = cul_leyndell
@@ -95,11 +101,13 @@ nepheli_loux = {
 	sexuality = heterosexual
 	dynasty = dynn_loux
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
+	diplomacy = 15
+	martial = 19
+	stewardship = 13
+	intrigue = 8
 	learning = 10
+	prowess = 28
+	health = 10
 	
 	religion = faith_golden
 	culture = cul_badlands
@@ -132,12 +140,13 @@ patches = {
 	sexuality = asexual
 	dynasty = dynn_pacchi
 	
-	martial = 4
-	diplomacy = 3
-	intrigue = 12
-	stewardship = 5
-	learning = 11
-	prowess = 7
+	diplomacy = 10
+	martial = 8
+	stewardship = 15
+	intrigue = 31
+	learning = 9
+	prowess = 15
+	health = 10
 	
 	religion = faith_golden
 	culture = cul_limgrave
@@ -210,12 +219,13 @@ gideon = {
 	sexuality = heterosexual
 	dynasty = dynn_ofnir
 	
-	martial = 9
-	diplomacy = 6
-	intrigue = 11
-	stewardship = 6
-	learning = 19
-	prowess = 15
+	diplomacy = 22
+	martial = 18
+	stewardship = 12
+	intrigue = 30
+	learning = 35
+	prowess = 20
+	health = 10
 	
 	religion = faith_golden
 	culture = cul_leyndell
@@ -283,11 +293,11 @@ eleonora = {
 	dynasty = dynn_veletta
 	
 	diplomacy = 2
-	martial = 11
-	stewardship = 4
-	intrigue = 6
-	learning = 7
-	prowess = 10
+	martial = 27
+	stewardship = 8
+	intrigue = 24
+	learning = 10
+	prowess = 36
 	health = 10
 	
 	religion = faith_formless
@@ -336,12 +346,12 @@ nerijus = {
 	sexuality = asexual
 	dynasty = dynn_eire
 	
-	diplomacy = 2
-	martial = 11
-	stewardship = 4
-	intrigue = 6
-	learning = 7
-	prowess = 10
+	diplomacy = 5
+	martial = 18
+	stewardship = 7
+	intrigue = 15
+	learning = 5
+	prowess = 23
 	health = 10
 	
 	religion = faith_formless
@@ -384,12 +394,12 @@ okina = {
 	sexuality = asexual
 	dynasty = dynn_shoriegan
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 7
+	martial = 26
+	stewardship = 11
+	intrigue = 16
+	learning = 7
+	prowess = 34
 	health = 10
 	
 	religion = faith_formless
@@ -423,12 +433,12 @@ ravenmount_assassin = {
 	sexuality = heterosexual
 	dynasty = dynn_ravenmount
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 6
+	martial = 22
+	stewardship = 6
+	intrigue = 15
+	learning = 11
+	prowess = 29
 	health = 10
 	
 	religion = faith_formless
@@ -462,12 +472,12 @@ vyke = {
 	sexuality = heterosexual
 	dynasty = dynn_dargatzes
 	
-	diplomacy = 7
-	martial = 13
-	stewardship = 6
-	intrigue = 4
-	learning = 8
-	prowess = 12
+	diplomacy = 24
+	martial = 31
+	stewardship = 13
+	intrigue = 12
+	learning = 20
+	prowess = 44
 	health = 10
 	
 	religion = faith_golden
@@ -525,12 +535,12 @@ anastasia = {
 	sexuality = heterosexual
 	dynasty = dynn_boulle
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 5
+	martial = 17
+	stewardship = 5
+	intrigue = 14
+	learning = 3
+	prowess = 28
 	health = 10
 	
 	religion = faith_god_snake
@@ -542,6 +552,7 @@ anastasia = {
 	trait = education_martial_3
 	trait = lifestyle_blademaster
 	trait = aggressive_attacker
+	trait = cannibal
 	
 	trait = graceless_tarnished
 	
@@ -566,12 +577,12 @@ boggart = {
 	sexuality = heterosexual
 	dynasty = dynn_fagan
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 9
+	martial = 15
+	stewardship = 12
+	intrigue = 14
+	learning = 5
+	prowess = 16
 	health = 10
 	
 	religion = faith_golden
@@ -605,12 +616,12 @@ corhyn = {
 	sexuality = heterosexual
 	dynasty = dynn_tarnbar
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 12
+	martial = 5
+	stewardship = 8
+	intrigue = 8
+	learning = 17
+	prowess = 8
 	health = 10
 	
 	religion = faith_golden
@@ -645,12 +656,12 @@ dorin = {
 	sexuality = heterosexual
 	dynasty = dynn_golhuw
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 12
+	martial = 9
+	stewardship = 13
+	intrigue = 7
+	learning = 11
+	prowess = 33
 	health = 10
 	
 	religion = faith_golden
@@ -685,12 +696,12 @@ devin = {
 	sexuality = heterosexual
 	dynasty = dynn_golhuw
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 9
+	martial = 20
+	stewardship = 6
+	intrigue = 12
+	learning = 19
+	prowess = 36
 	health = 10
 	
 	religion = faith_golden
@@ -701,6 +712,7 @@ devin = {
 	trait = vengeful
 	trait = education_martial_3
 	trait = lifestyle_blademaster
+	trait = lunatic_1
 	trait = order_affinity
 	trait = twin
 	
@@ -729,12 +741,12 @@ darian = {
 	sexuality = heterosexual
 	dynasty = dynn_golhuw
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 11
+	martial = 27
+	stewardship = 8
+	intrigue = 17
+	learning = 19
+	prowess = 37
 	health = 10
 	
 	religion = faith_golden
@@ -774,12 +786,12 @@ dolores = {
 	sexuality = heterosexual
 	dynasty = dynn_huna
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 18
+	martial = 14
+	stewardship = 11
+	intrigue = 6
+	learning = 9
+	prowess = 26
 	health = 10
 	
 	religion = faith_st_trina
@@ -814,12 +826,12 @@ dungeater = {
 	sexuality = asexual
 	dynasty = dynn_kuso
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 3
+	martial = 24
+	stewardship = 4
+	intrigue = 23
+	learning = 13
+	prowess = 38
 	health = 10
 	
 	religion = faith_despair
@@ -853,12 +865,12 @@ ensha = {
 	sexuality = asexual
 	dynasty = dynn_gordeor
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 4
+	martial = 16
+	stewardship = 3
+	intrigue = 28
+	learning = 5
+	prowess = 33
 	health = 10
 	
 	religion = faith_golden
@@ -894,12 +906,12 @@ wilhelm = {
 	sexuality = heterosexual
 	dynasty = dynn_estasa
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 14
+	martial = 12
+	stewardship = 9
+	intrigue = 13
+	learning = 29
+	prowess = 17
 	health = 10
 	
 	religion = faith_primeval
@@ -933,12 +945,12 @@ fia = {
 	sexuality = bisexual
 	dynasty = dynn_berouan
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 23
+	martial = 4
+	stewardship = 8
+	intrigue = 30
+	learning = 27
+	prowess = 7
 	health = 10
 	
 	religion = faith_death_prince
@@ -977,12 +989,12 @@ goldmask = {
 	sexuality = asexual
 	#dynasty = dynn_goldmask
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 12
+	martial = 3
+	stewardship = 7
+	intrigue = 2
+	learning = 38
+	prowess = 3
 	health = 10
 	
 	religion = faith_fundamentalism
@@ -1023,12 +1035,12 @@ tragoth = {
 	sexuality = heterosexual
 	dynasty = dynn_stonebull
 	
-	diplomacy = 10
-	martial = 10
+	diplomacy = 18
+	martial = 28
 	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	intrigue = 8
+	learning = 9
+	prowess = 45
 	health = 10
 	
 	religion = faith_golden
@@ -1067,12 +1079,12 @@ albart_hoslow = {
 	sexuality = heterosexual
 	dynasty = dynn_hoslow
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 11
+	martial = 22
+	stewardship = 8
+	intrigue = 14
+	learning = 5
+	prowess = 27
 	health = 10
 	
 	religion = faith_golden
@@ -1109,12 +1121,12 @@ juno_hoslow = {
 	sexuality = heterosexual
 	dynasty = dynn_hoslow
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 20
+	martial = 30
+	stewardship = 12
+	intrigue = 14
+	learning = 8
+	prowess = 39
 	health = 10
 	
 	religion = faith_golden
@@ -1152,12 +1164,12 @@ diallos_hoslow = {
 	sexuality = heterosexual
 	dynasty = dynn_hoslow
 	
-	diplomacy = 10
-	martial = 10
+	diplomacy = 15
+	martial = 11
 	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	intrigue = 6
+	learning = 8
+	prowess = 16
 	health = 10
 	
 	religion = faith_golden
@@ -1191,12 +1203,12 @@ bernahl = {
 	sexuality = heterosexual
 	dynasty = dynn_feregen
 	
-	diplomacy = 10
-	martial = 10
+	diplomacy = 14
+	martial = 21
 	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	intrigue = 18
+	learning = 8
+	prowess = 37
 	health = 10
 	
 	religion = faith_golden
@@ -1231,12 +1243,12 @@ lanya = {
 	sexuality = heterosexual
 	#dynasty = dynn_lalala
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
+	diplomacy = 14
+	martial = 6
+	stewardship = 12
+	intrigue = 9
 	learning = 10
-	prowess = 10
+	prowess = 8
 	health = 10
 	
 	religion = faith_golden
@@ -1269,12 +1281,12 @@ alberich = {
 	sexuality = heterosexual
 	dynasty = dynn_ludd
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 7
+	martial = 17
+	stewardship = 9
+	intrigue = 23
+	learning = 24
+	prowess = 18
 	health = 10
 	
 	religion = faith_primeval
@@ -1319,12 +1331,12 @@ magnus = {
 	sexuality = heterosexual
 	dynasty = dynn_corin
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 6
+	martial = 14
+	stewardship = 5
+	intrigue = 11
+	learning = 7
+	prowess = 22
 	health = 10
 	
 	religion = faith_golden
@@ -1361,12 +1373,12 @@ leda = {
 	sexuality = heterosexual
 	dynasty = dynn_whiteglade
 	
-	diplomacy = 10
-	martial = 10
+	diplomacy = 24
+	martial = 30
 	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	intrigue = 27
+	learning = 17
+	prowess = 32
 	health = 10
 	
 	religion = faith_unalloyed
@@ -1411,12 +1423,12 @@ istvan = {
 	sexuality = heterosexual
 	dynasty = dynn_orog
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 16
+	martial = 18
+	stewardship = 13
+	intrigue = 11
+	learning = 12
+	prowess = 28
 	health = 10
 	
 	religion = faith_golden
@@ -1450,12 +1462,12 @@ henricus = {
 	sexuality = heterosexual
 	dynasty = dynn_seth
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
+	diplomacy = 9
+	martial = 17
+	stewardship = 8
 	intrigue = 10
-	learning = 10
-	prowess = 10
+	learning = 7
+	prowess = 29
 	health = 10
 	
 	religion = faith_god_snake
@@ -1488,12 +1500,12 @@ rileigh = {
 	sexuality = heterosexual
 	dynasty = dynn_manning
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 8
+	martial = 16
+	stewardship = 8
+	intrigue = 14
+	learning = 7
+	prowess = 23
 	health = 10
 	
 	religion = faith_fundamentalism
@@ -1529,12 +1541,12 @@ roderika = {
 	sexuality = heterosexual
 	dynasty = dynn_mello
 	
-	diplomacy = 10
-	martial = 10
+	diplomacy = 15
+	martial = 5
 	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	intrigue = 8
+	learning = 18
+	prowess = 4
 	health = 10
 	
 	religion = faith_golden
@@ -1567,12 +1579,12 @@ sanguine_invader = {
 	sexuality = heterosexual
 	dynasty = dynn_shev
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 4
+	martial = 17
+	stewardship = 6
+	intrigue = 14
+	learning = 11
+	prowess = 30
 	health = 10
 	
 	religion = faith_formless
@@ -1606,12 +1618,12 @@ rogier = {
 	sexuality = heterosexual
 	dynasty = dynn_jalau
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 19
+	martial = 12
+	stewardship = 9
+	intrigue = 16
+	learning = 24
+	prowess = 18
 	health = 10
 	
 	religion = faith_academy
@@ -1654,12 +1666,12 @@ thiollier = {
 	sexuality = heterosexual
 	dynasty = dynn_mistel
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 7
+	martial = 11
+	stewardship = 8
+	intrigue = 19
+	learning = 16
+	prowess = 17
 	health = 10
 	
 	religion = faith_st_trina
@@ -1692,12 +1704,12 @@ vargram = {
 	sexuality = heterosexual
 	dynasty = dynn_beoluf
 	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
+	diplomacy = 11
+	martial = 23
+	stewardship = 9
+	intrigue = 12
+	learning = 7
+	prowess = 31
 	health = 10
 	
 	religion = faith_golden

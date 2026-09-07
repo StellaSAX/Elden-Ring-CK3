@@ -70,7 +70,7 @@ gain_trait_black_assassin = {
 			}
 		}
 		NOT = {
-			has_trait = black_assassin
+			has_trait = black_knife_assassin
 		}
 	}
 	
@@ -95,7 +95,7 @@ gain_trait_black_assassin = {
 
 
 	effect = {
-		add_trait = black_assassin
+		add_trait = black_knife_assassin
 	}
 	
 	ai_potential = {

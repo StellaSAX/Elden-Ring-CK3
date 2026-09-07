@@ -52,6 +52,12 @@ nick_the_sleeping_arrow = {}
 nick_of_royal_remains = {}
 nick_knight_of_blood = {}
 nick_raging_wolf = {}
+nick_the_seamster = {}
+nick_half_wolf = {}
+nick_thief_of_fire = {}
+nick_wings_of_the_storm = {}
+nick_rabid_stray = {}
+nick_the_headless = {}
 
 nick_starscourge = { is_prefix = yes }
 nick_dragonlordlady = { is_prefix = yes }

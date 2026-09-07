@@ -380,6 +380,24 @@ imprisoned_evergaol = {
 	ai_energy = -100
 }
 
+spirit_tuner = {
+	category = fame
+	icon = "spirit_tuner.dds"
+	ruler_designer_cost = 50
+	#shown_in_ruler_designer = no
+	
+	learning = 3
+}
+
+finger_reader = {
+	category = fame
+	icon = "finger_reader.dds"
+	ruler_designer_cost = 50
+	shown_in_ruler_designer = no
+	
+	learning = 3
+}
+
 no_marry = {
 	category = lifestyle
 	icon = "refusing_marriage.dds"

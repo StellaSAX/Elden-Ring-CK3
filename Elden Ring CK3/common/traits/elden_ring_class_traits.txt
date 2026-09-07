@@ -61,9 +61,9 @@ godskin_apostle = {
 	enemy_hard_casualty_modifier = 0.3
 }
 
-black_assassin = {
+black_knife_assassin = {
 	category = lifestyle
-	icon = "black_assassin.dds"
+	icon = "black_knife_assassin.dds"
 	
 	opposites = {
 		snow_witch

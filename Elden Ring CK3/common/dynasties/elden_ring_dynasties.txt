@@ -253,6 +253,186 @@ dynn_beoluf = {
 	culture = cul_limgrave
 	motto = beoluf_motto
 }
+dynn_okk = {
+	name = "dynn_okk"
+	culture = cul_demihuman
+	motto = okk_motto
+}
+dynn_nur = {
+	name = "dynn_nur"
+	culture = cul_albinauric
+	motto = nur_motto
+}
+dynn_vahar = {
+	name = "dynn_vahar"
+	culture = cul_caria
+	motto = vahar_motto
+}
+dynn_ungalid = {
+	name = "dynn_ungalid"
+	culture = cul_sellia
+	motto = ungalid_motto
+}
+dynn_gannew = {
+	name = "dynn_gannew"
+	culture = cul_liurnia
+	motto = gannew_motto
+}
+dynn_illirossa = {
+	name = "dynn_illirossa"
+	culture = cul_limgrave
+	motto = illirossa_motto
+}
+dynn_ildis = {
+	name = "dynn_ildis"
+	culture = cul_leyndell
+	motto = ildis_motto
+}
+dynn_udo = {
+	name = "dynn_udo"
+	culture = cul_reedlander
+	motto = udo_motto
+}
+dynn_karolos = {
+	name = "dynn_karolos"
+	culture = cul_liurnia
+	motto = karolos_motto
+}
+dynn_olivinus = {
+	name = "dynn_olivinus"
+	culture = cul_sellia
+	motto = olivinus_motto
+}
+dynn_annar = {
+	name = "dynn_annar"
+	culture = cul_albinauric
+	motto = annar_motto
+}
+dynn_grayhame = {
+	name = "dynn_grayhame"
+	culture = cul_albinauric
+	motto = grayhame_motto
+}
+dynn_filignon = {
+	name = "dynn_filignon"
+	culture = cul_northerner
+	motto = filignon_motto
+}
+dynn_unemis = {
+	name = "dynn_unemis"
+	culture = cul_numen
+	motto = unemis_motto
+}
+dynn_lancelight = {
+	name = "dynn_lancelight"
+	culture = cul_leyndell
+	motto = lancelight_motto
+}
+dynn_corcogn = {
+	name = "dynn_corcogn"
+	culture = cul_stormhill
+	motto = corcogn_motto
+}
+dynn_hastis = {
+	name = "dynn_hastis"
+	culture = cul_stormhill
+	motto = hastis_motto
+}
+dynn_santeria = {
+	name = "dynn_santeria"
+	culture = cul_sellia
+	motto = santeria_motto
+}
+dynn_guss = {
+	name = "dynn_guss"
+	culture = cul_northerner
+	motto = guss_motto
+}
+dynn_artrae = {
+	name = "dynn_artrae"
+	culture = cul_liurnia
+	motto = artrae_motto
+}
+dynn_galtay = {
+	name = "dynn_galtay"
+	culture = cul_leyndell
+	motto = galtay_motto
+}
+dynn_opporo = {
+	name = "dynn_opporo"
+	culture = cul_northerner
+	motto = opporo_motto
+}
+dynn_sachalma = {
+	name = "dynn_sachalma"
+	culture = cul_haligtree
+	motto = sachalma_motto
+}
+dynn_theim = {
+	name = "dynn_theim"
+	culture = cul_northerner
+	motto = theim_motto
+}
+dynn_galican = {
+	name = "dynn_galican"
+	culture = cul_leyndell
+	motto = galican_motto
+}
+dynn_laenn = {
+	name = "dynn_laenn"
+	culture = cul_leyndell
+	motto = laenn_motto
+}
+dynn_morosi = {
+	name = "dynn_morosi"
+	culture = cul_altus
+	motto = morosi_motto
+}
+dynn_angard = {
+	name = "dynn_angard"
+	culture = cul_leyndell
+	motto = angard_motto
+}
+dynn_vapad = {
+	name = "dynn_vapad"
+	culture = cul_gelmir
+	motto = vapad_motto
+}
+dynn_mithill = {
+	name = "dynn_mithill"
+	culture = cul_caria
+	motto = mithill_motto
+}
+dynn_wilit = {
+	name = "dynn_wilit"
+	culture = cul_sellia
+	motto = wilit_motto
+}
+dynn_lumenal = {
+	name = "dynn_lumenal"
+	culture = cul_altus
+	motto = lumenal_motto
+}
+dynn_caltramor = {
+	name = "dynn_caltramor"
+	culture = cul_caria
+	motto = caltramor_motto
+}
+dynn_remora = {
+	name = "dynn_remora"
+	culture = cul_caelid
+	motto = remora_motto
+}
+dynn_fallanx = {
+	name = "dynn_fallanx"
+	culture = cul_leyndell
+	motto = fallanx_motto
+}
+dynn_tonnel = {
+	name = "dynn_tonnel"
+	culture = cul_gelmir
+	motto = tonnel_motto
+}
 dynn_gallevile = {
 	name = "dynn_gallevile"
 	culture = cul_dragonbarrow

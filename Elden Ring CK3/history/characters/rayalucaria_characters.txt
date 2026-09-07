@@ -25,11 +25,12 @@ rennala = {
 	sexuality = heterosexual
 	dynasty = dynn_caria
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 27
+	martial = 18
+	stewardship = 15
+	intrigue = 11
+	learning = 35
+	prowess = 18
 	health = 10
 	
 	religion = faith_moons
@@ -97,11 +98,12 @@ rellana = {
 	sexuality = heterosexual
 	dynasty = dynn_caria
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 14
+	martial = 32
+	stewardship = 11
+	intrigue = 13
+	learning = 24
+	prowess = 48
 	health = 10
 	
 	religion = faith_moons

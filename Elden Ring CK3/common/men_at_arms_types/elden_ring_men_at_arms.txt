@@ -1641,7 +1641,7 @@ banished_knights = {
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
 	
- 	icon = banished_knight
+ 	icon = banished_knight_maa
 }
 
 nights_cavalry = {

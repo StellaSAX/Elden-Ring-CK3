@@ -19,3 +19,7 @@ death_grafted = {
 death_black_knives = {
 	icon = "death_black_knives.dds"
 }
+
+death_scarlet_rot = {
+	icon = "death_scarlet_rot.dds"
+}

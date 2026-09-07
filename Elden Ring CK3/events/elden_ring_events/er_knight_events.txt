@@ -290,7 +290,7 @@ er_knights.0001 = { #become a knight
 			}
 		}
 	}
-	option = { # become rot_knight
+	option = { # become cleanrot_knight
 		name = er_knights.0001.h
 		trigger = {
 			OR = {
@@ -298,7 +298,7 @@ er_knights.0001 = { #become a knight
 				has_any_debilitating_illness = yes
 			}
 		}
-		add_trait = rot_knight
+		add_trait = cleanrot_knight
 		ai_chance = {
 			base = 50 
 			modifier = {  

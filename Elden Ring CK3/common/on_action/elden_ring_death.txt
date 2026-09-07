@@ -1,0 +1,34 @@
+﻿er_on_death = {
+	effect = {
+		#hyetta spawns after irina dies
+		if = {
+			limit = {
+				character:irina ?= { is_alive = no }
+			}
+			create_character = {
+				name = "Hyetta"
+				female = yes
+				age = 24
+				#dna = irina_dna
+				sexuality = heterosexual
+				diplomacy = 15
+				martial = 3
+				stewardship = 8
+				intrigue = 5
+				learning = 11
+				prowess = 1
+				health = 10
+				religion = faith_golden
+				culture = cul_liurnia
+				trait = trusting
+				trait = forgiving
+				trait = humble
+				trait = education_learning_2
+				trait = blind
+				trait = no_marry
+				disallow_random_traits = yes
+				save_scope_as = newly_created_character
+			}
+		}
+	}
+}

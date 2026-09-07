@@ -23,6 +23,9 @@
  
  trait_mute:0 "Mute"
  trait_mute_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is unable to speak [ROOT.GetCharacter.GetHerHis] mind — or at all."
+ 
+ trait_puppet:0 "Puppet"
+ trait_puppet_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been turned into a puppet."
 
  trait_scarlet_rot_malenia:0 "Scarlet Rot"
  trait_scarlet_rot_malenia_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born with a terrible and ancient affliction which is consuming [ROOT.GetCharacter.GetHerHis] body, leaving [ROOT.GetCharacter.GetHerHim] with a deformed appearance and terrible nightmares."
@@ -60,8 +63,8 @@
  trait_bloodhound_knight:0 "Bloodhound Knight"
  trait_bloodhound_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that specializes in agility, hunting and tracking, know to be extremely loyal."
 
- trait_rot_knight:0 "Rot Knight"
- trait_rot_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that is resistant to and controls the Rot, can surivive terrible infecions with ease."
+ trait_cleanrot_knight:0 "Cleanrot Knight"
+ trait_cleanrot_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that is resistant to and controls the Rot, can surivive terrible infecions with ease."
 
  trait_frenzied_knight:0 "Frenzied Knight"
  trait_frenzied_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Knight that has been blessed by the flame of frenzy, they fight in a crazed and aggresive way."
@@ -111,11 +114,11 @@
  trait_godskin_apostle:0 "Godskin Apostle"
  trait_godskin_apostle_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has mastered their black flame, a power that once could be used to slay gods, now it´s just a weapon to destroy armies."
 
- trait_black_assassin:0 "Black Knife Assassin"
- trait_black_assassin_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has a conection to death, it gives her the ability to cause death even to the immortals."
+ trait_black_knife_assassin:0 "Black Knife Assassin"
+ trait_black_knife_assassin_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a member of the black knife assassins."
 
  trait_death_companion:0 "Deathbed Companion"
- trait_death_companion_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has a conection to death, any one embraced by her can feel every pulse, every bit of her warmth while losing theirs."
+ trait_death_companion_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has a connection to death, any one embraced by her can feel every pulse, every bit of her warmth while losing theirs."
 
  trait_sanguine_noble:0 "Sanguine Noble"
  trait_sanguine_noble_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has declared themselves or was awarded the title of noble blessed by accursed blood."

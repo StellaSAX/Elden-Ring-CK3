@@ -22,6 +22,25 @@ golden_knight = {
 	}
 }
 
+banished_knight = {
+	category = lifestyle
+	icon = "banished_knight.dds"
+	
+	ruler_designer_cost = 20
+	
+	monthly_prestige = combat_mult_medium
+	same_opinion = 10
+	prowess_per_prestige_level = 1
+	
+	heavy_infantry_toughness_mult = @combat_mult_medium
+	pikemen_toughness_mult = @combat_mult_medium
+	
+	compatibility = {
+		brave = @pos_compat_low
+		craven = @neg_compat_low
+	}
+}
+
 mounted_knight = {
 	category = lifestyle
 	icon = "mounted_knight.dds"
@@ -44,14 +63,21 @@ crucible_knight = {
 	category = lifestyle
 	icon = "crucible_knight.dds"
 	
-	ruler_designer_cost = 20
+	ruler_designer_cost = 60
 	
 	monthly_prestige = combat_mult_medium
-	same_opinion = 50
+	same_opinion = 20
 	prowess_per_prestige_level = 2
 	negate_health_penalty_add = 0.25
 	health = 0.5
 	attacker_advantage = 5
+	
+	knight_effectiveness_per_prowess = 0.01
+	
+	heavy_infantry_damage_mult = 0.1
+	heavy_infantry_toughness_mult = 0.1
+	knight_infantry_damage_mult = 0.1
+	knight_infantry_toughness_mult = 0.1
 
 	compatibility = {
 		brave = @pos_compat_low
@@ -112,9 +138,9 @@ bloodhound_knight = {
 	}
 }
 
-rot_knight = {
+cleanrot_knight = {
 	category = lifestyle
-	icon = "rot_knight.dds"
+	icon = "cleanrot_knight.dds"
 	
 	ruler_designer_cost = 20
 	

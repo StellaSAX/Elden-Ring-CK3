@@ -4,11 +4,12 @@
 	sexuality = heterosexual
 	dynasty = dynn_farum
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 24
+	martial = 40
+	stewardship = 18
+	intrigue = 15
+	learning = 35
+	prowess = 65
 	health = 10
 	
 	religion = faith_ancient_dragon
@@ -46,11 +47,12 @@ tarassax = { #a dragon to rule Farum Azula while Placidusax sleeps, named by CLA
 	sexuality = heterosexual
 	dynasty = dynn_azula
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 16
+	martial = 11
+	stewardship = 12
+	intrigue = 9
+	learning = 17
+	prowess = 39
 	health = 10
 	
 	religion = faith_ancient_dragon
@@ -78,11 +80,12 @@ bayle = {
 	sexuality = heterosexual
 	dynasty = dynn_jagged
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 8
+	martial = 36
+	stewardship = 6
+	intrigue = 12
+	learning = 15
+	prowess = 59
 	health = 10
 	
 	religion = faith_bayle_dragon

@@ -4,12 +4,13 @@
 	sexuality = heterosexual
 	dynasty = dynn_gallevile
 	
-	martial = 4
 	diplomacy = 0
-	intrigue = 17
+	martial = 5
 	stewardship = 7
+	intrigue = 19
 	learning = 5
 	prowess = 5
+	health = 10
 	
 	religion = faith_golden
 	culture = cul_dragonbarrow
@@ -53,12 +54,13 @@ gaiser_stormlord = {
 	sexuality = heterosexual
 	dynasty = dynn_stormveil
 	
-	martial = 15
 	diplomacy = 8
+	martial = 25
+	stewardship = 13
 	intrigue = 11
-	stewardship = 9
-	learning = 6
-	prowess = 13
+	learning = 7
+	prowess = 31
+	health = 10
 	
 	religion = faith_crucible
 	culture = cul_stormhill

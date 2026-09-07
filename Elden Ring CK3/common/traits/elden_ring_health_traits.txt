@@ -167,3 +167,13 @@ mute = {
 
 	ai_sociability = high_negative_ai_value
 }
+
+puppet = {
+	category = health
+	icon = "puppet.dds"
+	shown_in_ruler_designer = no
+	
+	ruler_designer_cost = -20
+	
+	fertility = -0.5
+}

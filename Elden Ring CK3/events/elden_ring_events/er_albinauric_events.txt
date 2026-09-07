@@ -85,7 +85,7 @@
 				# stewardship = 0
 				# save_scope_as = newborn_albinauric
 			# }
-			# scope:newborn_albinauric = { add_trait = albinauric_trait }
+			# scope:newborn_albinauric = { add_trait = albinauric }
 		# }
 	# }
 	
@@ -145,7 +145,7 @@
 				# stewardship = 0
 				# save_scope_as = newborn_albinauric
 			# }
-			# scope:newborn_albinauric = { add_trait = albinauric_trait }
+			# scope:newborn_albinauric = { add_trait = albinauric }
 		# }
 	# }
 	# option = {

@@ -25,11 +25,12 @@ marika = {
 	sexuality = bisexual
 	dynasty = dynn_erdtree
 	
-	martial = 15
-	diplomacy = 12
-	intrigue = 13
-	stewardship = 11
-	learning = 16
+	diplomacy = 32
+	martial = 28
+	stewardship = 30
+	intrigue = 27
+	learning = 38
+	prowess = 35
 	health = 10
 	
 	religion = faith_shaman
@@ -97,11 +98,12 @@ radagon = {
 	sexuality = bisexual
 	dynasty = dynn_golden_order
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 24
+	martial = 36
+	stewardship = 18
+	intrigue = 17
+	learning = 34
+	prowess = 52
 	health = 10
 	
 	religion = faith_golden
@@ -152,12 +154,12 @@ hoarah_loux = {
 	sexuality = heterosexual
 	dynasty = dynn_loux
 	
-	martial = 23
-	diplomacy = 15
-	intrigue = 6
-	stewardship = 10
-	learning = 9
-	prowess = 34
+	diplomacy = 26
+	martial = 40
+	stewardship = 16
+	intrigue = 12
+	learning = 11
+	prowess = 58
 	health = 20
 	
 	religion = faith_badlands
@@ -203,11 +205,12 @@ messmer = {
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 14
+	martial = 33
+	stewardship = 16
+	intrigue = 19
+	learning = 18
+	prowess = 51
 	health = 10
 	
 	culture = cul_leyndell
@@ -256,11 +259,12 @@ melina = {
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 25
+	martial = 14
+	stewardship = 12
+	intrigue = 24
+	learning = 32
+	prowess = 22
 	health = 10
 	
 	religion = faith_golden
@@ -305,11 +309,12 @@ godwyn = {
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 38
+	martial = 34
+	stewardship = 25
+	intrigue = 18
+	learning = 24
+	prowess = 48
 	health = 10
 	
 	religion = faith_golden
@@ -362,11 +367,12 @@ morgott = {
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 20
+	martial = 37
+	stewardship = 16
+	intrigue = 15
+	learning = 28
+	prowess = 49
 	health = 10
 	
 	religion = faith_golden
@@ -413,11 +419,12 @@ mohg = {
 	sexuality = bisexual
 	dynasty = dynn_erdtree
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 16
+	martial = 34
+	stewardship = 13
+	intrigue = 38
+	learning = 29
+	prowess = 53
 	health = 10
 	
 	religion = faith_golden
@@ -468,12 +475,12 @@ radahn = {
 	sexuality = bisexual
 	dynasty = dynn_caria
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
-	prowess = 32
+	diplomacy = 19
+	martial = 48
+	stewardship = 20
+	intrigue = 12
+	learning = 16
+	prowess = 65
 	health = 10
 	
 	religion = faith_moons
@@ -551,11 +558,12 @@ rykard = {
 	sexuality = heterosexual
 	dynasty = dynn_caria
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 18
+	martial = 34
+	stewardship = 23
+	intrigue = 40
+	learning = 33
+	prowess = 46
 	health = 10
 	
 	religion = faith_moons
@@ -629,11 +637,12 @@ ranni = {
 	sexuality = bisexual
 	dynasty = dynn_caria
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 24
+	martial = 15
+	stewardship = 19
+	intrigue = 48
+	learning = 42
+	prowess = 12
 	health = 10
 	
 	religion = faith_moons
@@ -704,11 +713,12 @@ merian = {
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 26
+	martial = 11
+	stewardship = 17
+	intrigue = 13
+	learning = 12
+	prowess = 19
 	health = 10
 	
 	religion = faith_golden
@@ -747,11 +757,12 @@ miquella = {
 	sexuality = bisexual
 	dynasty = dynn_erdtree
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 42
+	martial = 12
+	stewardship = 30
+	intrigue = 35
+	learning = 44
+	prowess = 11
 	health = 10
 	
 	religion = faith_golden
@@ -819,11 +830,12 @@ trina = {
 	sexuality = bisexual
 	dynasty = dynn_slumber
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 36
+	martial = 8
+	stewardship = 14
+	intrigue = 30
+	learning = 50
+	prowess = 5
 	health = 10
 	
 	religion = faith_st_trina
@@ -870,12 +882,12 @@ malenia = {
 	sexuality = bisexual
 	dynasty = dynn_erdtree
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
-	prowess = 30
+	diplomacy = 17
+	martial = 50
+	stewardship = 15
+	intrigue = 18
+	learning = 20
+	prowess = 75
 	health = 10
 
 	religion = faith_golden
@@ -934,11 +946,12 @@ moriss = {
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 8
+	martial = 5
+	stewardship = 7
+	intrigue = 11
+	learning = 9
+	prowess = 17
 	health = 10
 	
 	religion = faith_golden
@@ -978,11 +991,12 @@ marimell = {
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 11
+	martial = 9
+	stewardship = 7
+	intrigue = 17
+	learning = 6
+	prowess = 18
 	health = 10
 	
 	religion = faith_golden
@@ -1021,11 +1035,12 @@ godwald = {
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 11
+	martial = 5
+	stewardship = 12
+	intrigue = 15
+	learning = 21
+	prowess = 21
 	health = 10
 	
 	religion = faith_golden
@@ -1065,11 +1080,12 @@ miressa = {
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 13
+	martial = 8
+	stewardship = 9
+	intrigue = 11
+	learning = 7
+	prowess = 16
 	health = 10
 	
 	religion = faith_golden
@@ -1107,11 +1123,12 @@ godmyr = {
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 8
+	martial = 9
+	stewardship = 16
+	intrigue = 6
+	learning = 12
+	prowess = 22
 	health = 10
 	
 	religion = faith_golden
@@ -1148,11 +1165,12 @@ godefroy = {
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 15
+	martial = 27
+	stewardship = 12
+	intrigue = 15
+	learning = 12
+	prowess = 38
 	health = 10
 	
 	religion = faith_golden
@@ -1179,7 +1197,7 @@ godefroy = {
 		}
 		trait = demigod_elden_ring_2
 	}
-	7240.1.1 = {
+	7240.4.14 = {
 		death = yes
 	}
 }
@@ -1190,11 +1208,12 @@ mioliss = {
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 13
+	martial = 14
+	stewardship = 9
+	intrigue = 11
+	learning = 7
+	prowess = 39
 	health = 10
 	
 	religion = faith_golden
@@ -1233,11 +1252,12 @@ godrick = {
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
 	
-	martial = 10
-	diplomacy = 10
-	intrigue = 10
-	stewardship = 10
-	learning = 10
+	diplomacy = 12
+	martial = 22
+	stewardship = 11
+	intrigue = 19
+	learning = 14
+	prowess = 30
 	health = 10
 	
 	religion = faith_golden
