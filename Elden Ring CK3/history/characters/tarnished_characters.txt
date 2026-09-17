@@ -1,100 +1,4 @@
-﻿tarnished_1 = {
-	name = "Tarnished Descendants"
-	sexuality = heterosexual
-	dynasty = dynn_loux
-	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
-	health = 10
-	
-	religion = faith_golden	
-	culture = cul_leyndell
-	
-	disallow_random_traits = yes
-	
-	father = hoarah_loux
-	
-	800.1.1 = {
-		birth = yes
-		effect = {
-			add_character_flag = do_not_generate_starting_family
-		}
-		trait = tarnished
-	}
-	2500.1.25 = {
-		death = yes
-	}
-}
-
-tarnished_2 = {
-	name = "Tarnished Descendants"
-	sexuality = heterosexual
-	dynasty = dynn_loux
-	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
-	health = 10
-	
-	religion = faith_golden	
-	culture = cul_leyndell
-	
-	disallow_random_traits = yes
-	
-	father = tarnished_1
-	
-	2400.1.1 = {
-		birth = yes
-		effect = {
-			add_character_flag = do_not_generate_starting_family
-		}
-		trait = tarnished
-	}
-	7100.1.25 = {
-		death = yes
-	}
-}
-
-tarnished_3 = {
-	name = "Tarnished"
-	sexuality = heterosexual
-	dynasty = dynn_loux
-	
-	diplomacy = 10
-	martial = 10
-	stewardship = 10
-	intrigue = 10
-	learning = 10
-	prowess = 10
-	health = 10
-	
-	religion = faith_golden	
-	culture = cul_leyndell
-	
-	disallow_random_traits = yes
-	
-	father = tarnished_2
-	
-	7000.1.1 = {
-		birth = yes
-		effect = {
-			add_character_flag = do_not_generate_starting_family
-		}
-		trait = tarnished
-	}
-	7500.1.25 = {
-		death = yes
-	}
-}
-
-nepheli_loux = {
+﻿nepheli_loux = {
 	name = "Nepheli"
 	female = yes
 	#dna = nepheli_dna
@@ -123,8 +27,6 @@ nepheli_loux = {
 	trait = graceless_tarnished
 	
 	disallow_random_traits = yes
-	
-	father = tarnished_3
 	
 	7703.6.17 = {
 		birth = yes
