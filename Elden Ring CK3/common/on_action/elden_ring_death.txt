@@ -4,6 +4,7 @@
 		if = {
 			limit = {
 				character:irina ?= { is_alive = no }
+				NOT = { exists = global_var:irina_ded }
 			}
 			create_character = {
 				name = "Hyetta"
@@ -29,6 +30,7 @@
 				disallow_random_traits = yes
 				save_scope_as = newly_created_character
 			}
+			set_global_variable = irina_ded
 		}
 	}
 }
