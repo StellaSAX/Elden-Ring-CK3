@@ -293,7 +293,7 @@ edgar = {
 	name = "Edgar"
 	dna = edgar_dna
 	sexuality = heterosexual
-	dynasty = dynn_morne
+	dynasty = dynn_argent
 	
 	diplomacy = 14
 	martial = 19
@@ -336,7 +336,7 @@ irina = {
 	female = yes
 	#dna = irina_dna
 	sexuality = heterosexual
-	dynasty = dynn_morne
+	dynasty = dynn_argent
 	
 	diplomacy = 15
 	martial = 3
@@ -626,10 +626,10 @@ anna = {
 	
 	diplomacy = 7
 	martial = 17
-	stewardship = 5
+	stewardship = 6
 	intrigue = 24
 	learning = 7
-	prowess = 27
+	prowess = 30
 	health = 10
 	
 	religion = faith_night
@@ -652,6 +652,51 @@ anna = {
 			custom_hair=f_hair_sp4_mena_01
 		}
 	}
+	
+	658.6.3 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	700.1.1 = {
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+		}
+	}
+}
+
+jolan = {
+	name = "Jolan"
+	female = yes
+	#dna = jolan_dna
+	sexuality = heterosexual
+	dynasty = dynn_nightingale
+	
+	diplomacy = 6
+	martial = 20
+	stewardship = 5
+	intrigue = 23
+	learning = 10
+	prowess = 32
+	health = 10
+	
+	religion = faith_night
+	culture = cul_shadowlander
+	
+	trait = vengeful
+	trait = stubborn
+	trait = wrathful
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = beauty_good_2
+	trait = reckless
+	trait = no_marry
+	
+	disallow_random_traits = yes
 	
 	658.6.3 = {
 		birth = yes
@@ -2833,6 +2878,1444 @@ volcano_manor_ghost = {
 	7229.6.12 = {
 		death = {
 			death_reason = death_eaten
+		}
+	}
+}
+
+ancient_dragon_man = {
+	name = "Araxia"
+	#dna = araxia_dna
+	sexuality = asexual
+	dynasty = dynn_tohgral
+	
+	diplomacy = 9
+	martial = 20
+	stewardship = 7
+	intrigue = 13
+	learning = 14
+	prowess = 37
+	health = 10
+	
+	religion = faith_ancient_dragon
+	culture = cul_draconian
+	
+	trait = ambitious
+	trait = arrogant
+	trait = vengeful
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	
+	disallow_random_traits = yes
+	
+	263.7.18 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	489.2.12 = {
+		add_trait = incantation_dragon_communion
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+			add_trait_xp = { trait = incantation_dragon_communion value=60 }
+		}
+	}
+}
+
+andreas = {
+	name = "Andreas"
+	#dna = andreas_dna
+	sexuality = heterosexual
+	dynasty = dynn_ortigale
+	
+	diplomacy = 8
+	martial = 27
+	stewardship = 7
+	intrigue = 12
+	learning = 15
+	prowess = 45
+	health = 10
+	
+	religion = faith_messmer
+	culture = cul_shadowlander
+	
+	trait = wrathful
+	trait = just
+	trait = zealous
+	trait = education_martial_5
+	trait = lifestyle_blademaster
+	trait = physique_good_2
+	
+	disallow_random_traits = yes
+	
+	1284.4.17 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	1313.8.3 = {
+		add_trait = incantation_crucible
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+			add_trait_xp = { trait = incantation_crucible value=80 }
+		}
+	}
+	1914.2.16 = {
+		death = {
+			death_reason = death_dungeon
+		}
+	}
+}
+
+huw = {
+	name = "Huw"
+	#dna = huw_dna
+	sexuality = heterosexual
+	dynasty = dynn_ortigale
+	
+	diplomacy = 10
+	martial = 21
+	stewardship = 9
+	intrigue = 6
+	learning = 12
+	prowess = 38
+	health = 10
+	
+	religion = faith_messmer
+	culture = cul_shadowlander
+	
+	trait = temperate
+	trait = just
+	trait = zealous
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = physique_good_1
+	
+	disallow_random_traits = yes
+	
+	father = andreas
+	
+	1483.9.28 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	1502.5.21 = {
+		add_trait = incantation_crucible
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+			add_trait_xp = { trait = incantation_crucible value=70 }
+		}
+	}
+	1914.2.16 = {
+		death = {
+			death_reason = death_dungeon
+		}
+	}
+}
+
+edredd = {
+	name = "Edredd"
+	#dna = edredd_dna
+	sexuality = heterosexual
+	dynasty = dynn_twile
+	
+	diplomacy = 6
+	martial = 24
+	stewardship = 5
+	intrigue = 8
+	learning = 10
+	prowess = 32
+	health = 10
+	
+	religion = faith_messmer
+	culture = cul_shadowlander
+	
+	trait = brave
+	trait = zealous
+	trait = wrathful
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = strong
+	
+	disallow_random_traits = yes
+	
+	1324.12.5 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	1521.5.16 = {
+		add_trait = incantation_crucible
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+			add_trait_xp = { trait = incantation_crucible value=40 }
+		}
+	}
+}
+
+garrew = {
+	name = "Garrew"
+	#dna = garrew_dna
+	sexuality = heterosexual
+	dynasty = dynn_dammeon
+	
+	diplomacy = 8
+	martial = 26
+	stewardship = 7
+	intrigue = 6
+	learning = 12
+	prowess = 30
+	health = 10
+	
+	religion = faith_messmer
+	culture = cul_shadowlander
+	
+	trait = brave
+	trait = zealous
+	trait = calm
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = physique_good_1
+	
+	disallow_random_traits = yes
+	
+	1108.10.13 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	1227.3.9 = {
+		add_trait = incantation_crucible
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+			add_trait_xp = { trait = incantation_crucible value=60 }
+		}
+	}
+}
+
+gaius = {
+	name = "Gaius"
+	#dna = gaius_dna
+	sexuality = heterosexual
+	dynasty = dynn_abalac
+	
+	diplomacy = 9
+	martial = 29
+	stewardship = 10
+	intrigue = 6
+	learning = 14
+	prowess = 27
+	health = 10
+	
+	religion = faith_messmer
+	culture = cul_albinauric
+	
+	trait = brave
+	trait = wrathful
+	trait = ambitious
+	trait = education_martial_5
+	trait = physique_good_3
+	trait = albinauric
+	trait = gravity_affinity
+	trait = strategist
+	
+	disallow_random_traits = yes
+	
+	1007.5.27 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	1662.9.8 = {
+		add_trait = sorcery_gravity
+		effect = {
+			add_trait_xp = { trait = sorcery_gravity value=100 }
+		}
+	}
+}
+
+ymir = {
+	name = "Ymir"
+	#dna = ymir_dna
+	sexuality = heterosexual
+	dynasty = dynn_ingino
+	
+	diplomacy = 14
+	martial = 4
+	stewardship = 10
+	intrigue = 18
+	learning = 32
+	prowess = 6
+	health = 10
+	
+	religion = faith_moons
+	culture = cul_caria
+	
+	trait = arrogant
+	trait = eccentric
+	trait = paranoid
+	trait = education_learning_5
+	trait = intellect_good_2
+	trait = glintstone_affinity
+	trait = theologian
+	trait = lunatic_1
+	
+	disallow_random_traits = yes
+	
+	746.11.6 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	902.4.24 = {
+		add_trait = sorcery_glintstone
+		add_trait = sorcery_finger
+		effect = {
+			add_trait_xp = { trait = sorcery_glintstone value=80 }
+			add_trait_xp = { trait = sorcery_finger value=80 }
+		}
+	}
+}
+
+yuri = {
+	name = "Yuri"
+	#dna = yuri_dna
+	sexuality = heterosexual
+	dynasty = dynn_ingino
+	
+	diplomacy = 7
+	martial = 3
+	stewardship = 5
+	intrigue = 4
+	learning = 6
+	prowess = 3
+	health = 10
+	
+	religion = faith_moons
+	culture = cul_caria
+	
+	trait = curious
+	#trait = education_learning_1
+	trait = intellect_good_1
+	trait = glintstone_affinity
+	
+	disallow_random_traits = yes
+	
+	father = ymir
+	
+	7803.7.5 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	7809.12.17 = {
+		death = {
+			death_reason = death_mysterious
+		}
+	}
+}
+
+devonia = {
+	name = "Devonia"
+	#dna = devonia_dna
+	sexuality = heterosexual
+	dynasty = dynn_arkh
+	
+	diplomacy = 10
+	martial = 25
+	stewardship = 7
+	intrigue = 5
+	learning = 16
+	prowess = 34
+	health = 10
+	
+	religion = faith_crucible
+	culture = cul_leyndell
+	
+	trait = ambitious
+	trait = zealous
+	trait = patient
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = crucible_knight
+	trait = open_terrain_expert
+	trait = flexible_leader
+	trait = holy_warrior
+	
+	disallow_random_traits = yes
+	
+	699.2.15 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	774.1.20 = {
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+		}
+	}
+}
+
+dancer_of_ranah = {
+	name = "Dancer of Ranah"
+	female = yes
+	#dna = dancer_of_ranah_dna
+	sexuality = heterosexual
+	dynasty = dynn_aira
+	
+	diplomacy = 11
+	martial = 18
+	stewardship = 8
+	intrigue = 12
+	learning = 7
+	prowess = 35
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_ranah
+	
+	trait = diligent
+	trait = brave
+	trait = eccentric
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	
+	disallow_random_traits = yes
+	
+	1274.5.27 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	1385.2.16 = {
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+		}
+	}
+}
+
+ornis = {
+	name = "Ornis"
+	#dna = ornis_dna
+	sexuality = heterosexual
+	dynasty = dynn_vundale
+	
+	diplomacy = 15
+	martial = 23
+	stewardship = 10
+	intrigue = 9
+	learning = 17
+	prowess = 47
+	health = 10
+	
+	religion = faith_crucible
+	culture = cul_hornsent
+	
+	trait = brave
+	trait = ambitious
+	trait = calm
+	trait = education_martial_5
+	trait = lifestyle_blademaster
+	
+	disallow_random_traits = yes
+	
+	376.8.25 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	699.12.29 = {
+		death = {
+			death_reason = death_vanished
+		}
+	}
+}
+
+dryleaf_dane = {
+	name = "Dane"
+	#dna = dane_dna
+	sexuality = heterosexual
+	dynasty = dynn_hamu
+	
+	diplomacy = 8
+	martial = 15
+	stewardship = 7
+	intrigue = 11
+	learning = 19
+	prowess = 26
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_shadowlander
+	
+	trait = temperate
+	trait = patient
+	trait = zealous
+	trait = education_martial_4
+	
+	disallow_random_traits = yes
+	
+	give_nickname = nick_dryleaf
+	
+	6395.2.24 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	7392.4.12 = {
+		add_trait = incantation_order
+		effect = {
+			add_trait_xp = { trait = incantation_order value=40 }
+		}
+	}
+	8291.1.10 = {
+		religion = faith_kind
+	}
+}
+
+hilde = {
+	name = "Hilde"
+	#dna = hilde_dna
+	sexuality = heterosexual
+	dynasty = dynn_kassa
+	
+	diplomacy = 12
+	martial = 19
+	stewardship = 9
+	intrigue = 8
+	learning = 14
+	prowess = 32
+	health = 10
+	
+	religion = faith_messmer
+	culture = cul_shadowlander
+	
+	trait = diligent
+	trait = honest
+	trait = gregarious
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = fire_affinity
+	
+	disallow_random_traits = yes
+	
+	1036.7.3 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	1323.1.18 = {
+		add_trait = incantation_messmers_flame
+		effect = {
+			add_trait_xp = { trait = incantation_messmers_flame value=60 }
+		}
+	}
+	5876.3.20 = {
+		death = {
+			death_reason = death_constipation
+		}
+	}
+}
+
+kood = {
+	name = "Kood"
+	#dna = kood_dna
+	sexuality = heterosexual
+	dynasty = dynn_vortimer
+	
+	diplomacy = 11
+	martial = 24
+	stewardship = 10
+	intrigue = 11
+	learning = 15
+	prowess = 38
+	health = 10
+	
+	religion = faith_messmer
+	culture = cul_shadowlander
+	
+	trait = brave
+	trait = zealous
+	trait = forgiving
+	trait = education_martial_4
+	trait = gallant
+	trait = lifestyle_blademaster
+	trait = fire_affinity
+	
+	disallow_random_traits = yes
+	
+	1072.3.25 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	1236.5.12 = {
+		add_trait = incantation_messmers_flame
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+			add_trait_xp = { trait = incantation_messmers_flame value=80 }
+		}
+	}
+}
+
+queelign = {
+	name = "Queelign"
+	#dna = queelign_dna
+	sexuality = heterosexual
+	dynasty = dynn_lanor
+	
+	diplomacy = 5
+	martial = 18
+	stewardship = 5
+	intrigue = 8
+	learning = 13
+	prowess = 24
+	health = 10
+	
+	religion = faith_messmer
+	culture = cul_shadowlander
+	
+	trait = ambitious
+	trait = cynical
+	trait = paranoid
+	trait = education_martial_3
+	trait = lifestyle_blademaster
+	trait = fire_affinity
+	
+	disallow_random_traits = yes
+	
+	1253.7.10 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	1385.1.28 = {
+		add_trait = incantation_messmers_flame
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=50 }
+			add_trait_xp = { trait = incantation_messmers_flame value=40 }
+		}
+	}
+}
+
+salza = {
+	name = "Salza"
+	#dna = salza_dna
+	sexuality = heterosexual
+	dynasty = dynn_glinner
+	
+	diplomacy = 12
+	martial = 24
+	stewardship = 8
+	intrigue = 10
+	learning = 21
+	prowess = 35
+	health = 10
+	
+	religion = faith_messmer
+	culture = cul_shadowlander
+	
+	trait = patient
+	trait = diligent
+	trait = calm
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = lifestyle_mystic
+	trait = intellect_good_2
+	trait = fire_affinity
+	
+	disallow_random_traits = yes
+	
+	1201.2.11 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	1299.10.2 = {
+		add_trait = incantation_messmers_flame
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+			add_trait_xp = { trait = lifestyle_mystic value=50 }
+			add_trait_xp = { trait = incantation_messmers_flame value=80 }
+		}
+	}
+}
+
+wego = {
+	name = "Wego"
+	#dna = wego_dna
+	sexuality = heterosexual
+	dynasty = dynn_fenn
+	
+	diplomacy = 16
+	martial = 20
+	stewardship = 9
+	intrigue = 11
+	learning = 26
+	prowess = 30
+	health = 10
+	
+	religion = faith_messmer
+	culture = cul_shadowlander
+	
+	trait = chaste
+	trait = patient
+	trait = stubborn
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = lifestyle_mystic
+	trait = intellect_good_3
+	trait = shrewd
+	trait = fire_affinity
+	
+	disallow_random_traits = yes
+	
+	884.2.26 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	1002.6.9 = {
+		add_trait = incantation_messmers_flame
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+			add_trait_xp = { trait = lifestyle_mystic value=100 }
+			add_trait_xp = { trait = incantation_messmers_flame value=80 }
+		}
+	}
+}
+
+hornsent_grandam = {
+	name = "Ralisia"
+	female = yes
+	#dna = ralisia_dna
+	sexuality = heterosexual
+	dynasty = dynn_boira
+	
+	diplomacy = 14
+	martial = 5
+	stewardship = 8
+	intrigue = 7
+	learning = 18
+	prowess = 4
+	health = 10
+	
+	religion = faith_crucible
+	culture = cul_hornsent
+	
+	trait = brave
+	trait = patient
+	trait = stubborn
+	trait = education_learning_4
+	trait = lifestyle_mystic
+	trait = shrewd
+	
+	disallow_random_traits = yes
+	
+	473.2.11 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	564.4.15 = {
+		add_trait = incantation_divine_beast
+		effect = {
+			add_trait_xp = { trait = lifestyle_mystic value=100 }
+			add_trait_xp = { trait = incantation_divine_beast value=40 }
+		}
+	}
+}
+
+solitary_knight = {
+	name = "Ramses"
+	#dna = ramses_dna
+	sexuality = heterosexual
+	dynasty = dynn_erugian
+	
+	diplomacy = 5
+	martial = 22
+	stewardship = 5
+	intrigue = 10
+	learning = 8
+	prowess = 35
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_shadowlander
+	
+	trait = callous
+	trait = stubborn
+	trait = brave
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = physique_good_1
+	
+	disallow_random_traits = yes
+	
+	1626.5.16 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	1700.2.21 = {
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+		}
+	}
+}
+
+jori = {
+	name = "Jori"
+	#dna = jori_dna
+	sexuality = heterosexual
+	dynasty = dynn_hemat
+	
+	diplomacy = 10
+	martial = 11
+	stewardship = 8
+	intrigue = 14
+	learning = 19
+	prowess = 22
+	health = 10
+	
+	religion = faith_crucible
+	culture = cul_hornsent
+	
+	trait = zealous
+	trait = calm
+	trait = stubborn
+	trait = education_learning_5
+	trait = intellect_good_2
+	trait = spiral_affinity
+	trait = scholar
+	
+	disallow_random_traits = yes
+	
+	387.9.17 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	403.2.26 = {
+		add_trait = incantation_spiral
+		effect = {
+			add_trait_xp = { trait = incantation_spiral value=80 }
+		}
+	}
+}
+
+lamenter = {
+	name = "Ornold"
+	#dna = lamenter_dna
+	sexuality = asexual
+	dynasty = dynn_bulur
+	
+	diplomacy = 4
+	martial = 11
+	stewardship = 5
+	intrigue = 19
+	learning = 16
+	prowess = 16
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_shadowlander
+	
+	trait = sadistic
+	trait = deceitful
+	trait = zealous
+	trait = education_intrigue_4
+	trait = torturer
+	
+	disallow_random_traits = yes
+	
+	3745.12.29 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+logur = {
+	name = "Logur"
+	#dna = logur_dna
+	sexuality = heterosexual
+	dynasty = dynn_wolrin
+	
+	diplomacy = 6
+	martial = 10
+	stewardship = 5
+	intrigue = 8
+	learning = 7
+	prowess = 25
+	health = 10
+	
+	religion = faith_badlander
+	culture = cul_highlander
+	
+	trait = wrathful
+	trait = callous
+	trait = brave
+	trait = education_martial_3
+	trait = strong
+	trait = lifestyle_hunter
+	trait = athletic
+	
+	disallow_random_traits = yes
+	
+	give_nickname = nick_the_beast_claw
+	
+	4484.8.23 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+madding_hand = {
+	name = "Agairn"
+	#dna = madding_hand_dna
+	sexuality = heterosexual
+	dynasty = dynn_ferkoll
+	
+	diplomacy = 4
+	martial = 15
+	stewardship = 4
+	intrigue = 14
+	learning = 19
+	prowess = 24
+	health = 10
+	
+	religion = faith_frenzy
+	culture = cul_highlander
+	
+	trait = cynical
+	trait = stubborn
+	trait = callous
+	trait = education_learning_3
+	trait = blind
+	
+	disallow_random_traits = yes
+	
+	give_nickname = nick_madding_hand
+	
+	611.4.13 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+midra = {
+	name = "Midra"
+	#dna = midra_dna
+	sexuality = heterosexual
+	dynasty = dynn_raheyr
+	
+	diplomacy = 16
+	martial = 9
+	stewardship = 12
+	intrigue = 13
+	learning = 20
+	prowess = 12
+	health = 10
+	
+	religion = faith_frenzy
+	culture = cul_hornsent
+	
+	trait = patient
+	trait = stubborn
+	trait = content
+	trait = education_diplomacy_4
+	trait = intellect_good_3
+	trait = weak
+	trait = lifestyle_mystic
+	trait = scholar
+	
+	disallow_random_traits = yes
+	
+	473.8.22 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	533.6.11 = {
+		add_spouse = nanaya
+	}
+}
+
+moonrithyll = {
+	name = "Moonrithyll"
+	female = yes
+	#dna = moonrithyll_dna
+	sexuality = heterosexual
+	dynasty = dynn_itheia
+	
+	diplomacy = 17
+	martial = 18
+	stewardship = 16
+	intrigue = 10
+	learning = 15
+	prowess = 35
+	health = 10
+	
+	religion = faith_messmer
+	culture = cul_caria
+	
+	trait = brave
+	trait = stubborn
+	trait = calm
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = carian_affinity
+	trait = gallant
+	
+	disallow_random_traits = yes
+	
+	908.3.16 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	1107.10.14 = {
+		add_trait = sorcery_carian
+		effect = {
+			add_trait_xp = { trait = sorcery_carian value=80 }
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+		}
+	}
+}
+
+moore = {
+	name = "Moore"
+	#dna = moore_dna
+	sexuality = heterosexual
+	dynasty = dynn_dirk
+	
+	diplomacy = 6
+	martial = 10
+	stewardship = 13
+	intrigue = 4
+	learning = 7
+	prowess = 23
+	health = 10
+	
+	religion = faith_rot
+	culture = cul_shadowlander
+	
+	trait = compassionate
+	trait = diligent
+	trait = forgiving
+	trait = education_stewardship_3
+	trait = intellect_bad_2
+	
+	disallow_random_traits = yes
+	
+	1504.1.11 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	8299.7.12 = {
+		religion = faith_kind
+	}
+}
+
+nanaya = {
+	name = "Nanaya"
+	female = yes
+	#dna = nanaya_dna
+	sexuality = heterosexual
+	dynasty = dynn_cielo
+	
+	diplomacy = 13
+	martial = 6
+	stewardship = 12
+	intrigue = 17
+	learning = 18
+	prowess = 8
+	health = 10
+	
+	religion = faith_frenzy
+	culture = cul_hornsent
+	
+	trait = deceitful
+	trait = ambitious
+	trait = patient
+	trait = education_learning_4
+	trait = intellect_good_1
+	
+	disallow_random_traits = yes
+	
+	494.3.4 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	6767.3.4 = {
+		death = {
+			death_reason = death_mysterious
+		}
+	}
+}
+
+rakshasa = {
+	name = "Rakshasa"
+	female = yes
+	#dna = rakshasa_dna
+	sexuality = heterosexual
+	dynasty = dynn_vowral
+	
+	diplomacy = 4
+	martial = 14
+	stewardship = 6
+	intrigue = 10
+	learning = 5
+	prowess = 36
+	health = 10
+	
+	religion = faith_reedlander
+	culture = cul_highlander
+	
+	trait = wrathful
+	trait = callous
+	trait = arrogant
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	
+	disallow_random_traits = yes
+	
+	1684.11.2 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	1732.5.21 = {
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+		}
+	}
+}
+
+red_bear = {
+	name = "Red Bear"
+	#dna = red_bear_dna
+	sexuality = asexual
+	dynasty = dynn_akaguma
+	
+	diplomacy = 3
+	martial = 15
+	stewardship = 4
+	intrigue = 8
+	learning = 6
+	prowess = 33
+	health = 10
+	
+	religion = faith_badlander
+	culture = cul_highlander
+	
+	trait = content
+	trait = zealous
+	trait = chaste
+	trait = education_martial_3
+	trait = strong
+	
+	disallow_random_traits = yes
+	
+	2528.8.16 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+}
+
+freyja = {
+	name = "Freyja"
+	female = yes
+	#dna = freyja_dna
+	sexuality = heterosexual
+	dynasty = dynn_molt
+	
+	diplomacy = 12
+	martial = 27
+	stewardship = 8
+	intrigue = 7
+	learning = 10
+	prowess = 32
+	health = 10
+	
+	religion = faith_kind
+	culture = cul_caelid
+	
+	trait = brave
+	trait = just
+	trait = honest
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = physique_good_1
+	
+	disallow_random_traits = yes
+	
+	1795.8.3 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	1853.4.17 = {
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+		}
+	}
+}
+
+romina = {
+	name = "Romina"
+	female = yes
+	#dna = romina_dna
+	sexuality = heterosexual
+	dynasty = dynn_maifley
+	
+	diplomacy = 14
+	martial = 18
+	stewardship = 8
+	intrigue = 15
+	learning = 20
+	prowess = 27
+	health = 10
+	
+	religion = faith_rot_romina
+	culture = cul_shadowlander
+	
+	trait = compassionate
+	trait = patient
+	trait = zealous
+	trait = education_learning_4
+	trait = lifestyle_blademaster
+	trait = lifestyle_mystic
+	trait = beauty_good_1
+	trait = intellect_good_1
+	
+	disallow_random_traits = yes
+	
+	give_nickname = nick_saint_of_the_bud
+	
+	1086.7.12 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	1937.9.21 = {
+		effect = {
+			add_trait_xp = { trait = lifestyle_mystic value=100 }
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
+		}
+	}
+}
+
+nataan = {
+	name = "Nataan"
+	#dna = nataan_dna
+	sexuality = heterosexual
+	dynasty = dynn_latange
+	
+	diplomacy = 10
+	martial = 15
+	stewardship = 9
+	intrigue = 11
+	learning = 12
+	prowess = 29
+	health = 10
+	
+	religion = faith_formless
+	culture = cul_shadowlander
+	
+	trait = stubborn
+	trait = vengeful
+	trait = zealous
+	trait = education_martial_3
+	trait = lifestyle_blademaster
+	
+	disallow_random_traits = yes
+	
+	3754.6.5 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	3903.1.16 = {
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=50 }
+		}
+	}
+}
+
+ansbach = {
+	name = "Ansbach"
+	#dna = ansbach_dna
+	sexuality = heterosexual
+	dynasty = dynn_olginus
+	
+	diplomacy = 17
+	martial = 18
+	stewardship = 10
+	intrigue = 13
+	learning = 21
+	prowess = 26
+	health = 10
+	
+	religion = faith_formless
+	culture = cul_altus
+	
+	trait = just
+	trait = diligent
+	trait = calm
+	trait = humble
+	trait = education_learning_5
+	trait = lifestyle_blademaster
+	trait = scholar
+	
+	disallow_random_traits = yes
+	
+	855.10.6 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		add_character_modifier = {
+			modifier = gift_from_the_eternal
+		}
+	}
+	2893.4.25 = {
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=100 }
 		}
 	}
 }

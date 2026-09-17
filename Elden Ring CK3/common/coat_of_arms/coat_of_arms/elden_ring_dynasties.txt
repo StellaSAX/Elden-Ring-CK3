@@ -215,7 +215,7 @@ dynn_farum={
 
 }
 
-dynn_morne={
+dynn_argent={
 	pattern="pattern_solid.dds"
 	color1=blue
 	color2=yellow

@@ -104,3 +104,57 @@ gaiser_stormlord = {
 		}
 	}
 }
+
+alanin_goldsworn = {
+	name = "Alanin"
+	dna = alanin_dna
+	sexuality = heterosexual
+	dynasty = dynn_goldsworn
+	
+	diplomacy = 10
+	martial = 15
+	stewardship = 9
+	intrigue = 7
+	learning = 13
+	prowess = 28
+	health = 10
+	
+	religion = faith_golden
+	culture = cul_leyndell
+	
+	trait = brave
+	trait = gregarious
+	trait = zealous
+	trait = diligent
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = athletic
+	trait = strong
+	trait = loyal
+	trait = holy_warrior
+	trait = golden_knight
+	trait = order_affinity
+	trait = incantation_order
+	
+	disallow_random_traits = yes
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_beards=male_beard_fp2_iberian_christian_03
+			custom_hair=m_hair_fp3_iranian_03
+		}
+	}
+	
+	6480.3.9 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+	6662.11.20 = {
+		effect = {
+			add_trait_xp = { trait = lifestyle_blademaster value=50 }
+			add_trait_xp = { trait = incantation_order value=40 }
+		}
+	}
+}

@@ -58,6 +58,8 @@ nick_thief_of_fire = {}
 nick_wings_of_the_storm = {}
 nick_rabid_stray = {}
 nick_the_headless = {}
+nick_madding_hand = {}
+nick_saint_of_the_bud = {}
 
 nick_starscourge = { is_prefix = yes }
 nick_dragonlordlady = { is_prefix = yes }

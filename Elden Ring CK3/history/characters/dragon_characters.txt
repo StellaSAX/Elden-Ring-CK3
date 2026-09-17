@@ -33,10 +33,45 @@
 	
 	46.2.11 = {
 		birth = yes
-		trait = ancient_dragon_elden_ring
+		add_trait = ancient_dragon_elden_ring
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 			set_relation_nemesis = character:bayle
+		}
+	}
+}
+
+florissax = {
+	name = "Florissax"
+	female = yes
+	#dna = florissax_human_dna
+	sexuality = heterosexual
+	dynasty = dynn_arax
+	
+	diplomacy = 23
+	martial = 18
+	stewardship = 10
+	intrigue = 14
+	learning = 24
+	prowess = 36
+	health = 10
+	
+	religion = faith_ancient_dragon
+	culture = cul_ancient_dragon
+
+	trait = zealous
+	trait = vengeful
+	trait = patient
+	trait = education_diplomacy_4
+	trait = no_marry
+	
+	disallow_random_traits = yes
+	
+	94.10.21 = {
+		birth = yes
+		add_trait = ancient_dragon_elden_ring
+		effect = {
+			add_character_flag = do_not_generate_starting_family
 		}
 	}
 }
@@ -70,7 +105,7 @@ tarassax = { #a dragon to rule Farum Azula while Placidusax sleeps, named by CLA
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = ancient_dragon_elden_ring
+		add_trait = ancient_dragon_elden_ring
 	}
 }
 
@@ -114,6 +149,6 @@ bayle = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = lesser_dragon_elden_ring
+		add_trait = lesser_dragon_elden_ring
 	}
 }

@@ -33,10 +33,10 @@ dynn_farum = {
 	culture = cul_farum
 	motto = farum_motto
 }
-dynn_morne = {
-	name = "dynn_morne"
+dynn_argent = {
+	name = "dynn_argent"
 	culture = cul_weeping_peninsula
-	motto = morne_motto
+	motto = argent_motto
 }
 dynn_briar = {
 	name = "dynn_briar"
@@ -432,6 +432,171 @@ dynn_tonnel = {
 	name = "dynn_tonnel"
 	culture = cul_gelmir
 	motto = tonnel_motto
+}
+dynn_tohgral = {
+	name = "dynn_tohgral"
+	culture = cul_draconian
+	motto = tohgral_motto
+}
+dynn_ortigale = {
+	name = "dynn_ortigale"
+	culture = cul_shadowlander
+	motto = ortigale_motto
+}
+dynn_twile = {
+	name = "dynn_twile"
+	culture = cul_shadowlander
+	motto = twile_motto
+}
+dynn_dammeon = {
+	name = "dynn_dammeon"
+	culture = cul_shadowlander
+	motto = dammeon_motto
+}
+dynn_abalac = {
+	name = "dynn_abalac"
+	culture = cul_albinauric
+	motto = abalac_motto
+}
+dynn_ingino = {
+	name = "dynn_ingino"
+	culture = cul_caria
+	motto = ingino_motto
+}
+dynn_arkh = {
+	name = "dynn_arkh"
+	culture = cul_leyndell
+	motto = arkh_motto
+}
+dynn_aira = {
+	name = "dynn_aira"
+	culture = cul_ranah
+	motto = aira_motto
+}
+dynn_vundale = {
+	name = "dynn_vundale"
+	culture = cul_hornsent
+	motto = vundale_motto
+}
+dynn_hamu = {
+	name = "dynn_hamu"
+	culture = cul_shadowlander
+	motto = hamu_motto
+}
+dynn_kassa = {
+	name = "dynn_kassa"
+	culture = cul_shadowlander
+	motto = kassa_motto
+}
+dynn_vortimer = {
+	name = "dynn_vortimer"
+	culture = cul_shadowlander
+	motto = vortimer_motto
+}
+dynn_lanor = {
+	name = "dynn_lanor"
+	culture = cul_shadowlander
+	motto = lanor_motto
+}
+dynn_glinner = {
+	name = "dynn_glinner"
+	culture = cul_shadowlander
+	motto = glinner_motto
+}
+dynn_fenn = {
+	name = "dynn_fenn"
+	culture = cul_shadowlander
+	motto = fenn_motto
+}
+dynn_boira = {
+	name = "dynn_boira"
+	culture = cul_hornsent
+	motto = boira_motto
+}
+dynn_erugian = {
+	name = "dynn_erugian"
+	culture = cul_shadowlander
+	motto = erugian_motto
+}
+dynn_hemat = {
+	name = "dynn_hemat"
+	culture = cul_hornsent
+	motto = hemat_motto
+}
+dynn_bulur = {
+	name = "dynn_bulur"
+	culture = cul_shadowlander
+	motto = bulur_motto
+}
+dynn_wolrin = {
+	name = "dynn_wolrin"
+	culture = cul_highlander
+	motto = wolrin_motto
+}
+dynn_ferkoll = {
+	name = "dynn_ferkoll"
+	culture = cul_highlander
+	motto = ferkoll_motto
+}
+dynn_raheyr = {
+	name = "dynn_raheyr"
+	culture = cul_hornsent
+	motto = raheyr_motto
+}
+dynn_itheia = {
+	name = "dynn_itheia"
+	culture = cul_caria
+	motto = itheia_motto
+}
+dynn_dirk = {
+	name = "dynn_dirk"
+	culture = cul_shadowlander
+	motto = dirk_motto
+}
+dynn_cielo = {
+	name = "dynn_cielo"
+	culture = cul_hornsent
+	motto = cielo_motto
+}
+dynn_vowral = {
+	name = "dynn_vowral"
+	culture = cul_highlander
+	motto = vowral_motto
+}
+dynn_akaguma = {
+	name = "dynn_akaguma"
+	culture = cul_highlander
+	motto = akaguma_motto
+}
+dynn_molt = {
+	name = "dynn_molt"
+	culture = cul_caelid
+	motto = molt_motto
+}
+dynn_maifley = {
+	name = "dynn_maifley"
+	culture = cul_shadowlander
+	motto = maifley_motto
+}
+dynn_latange = {
+	name = "dynn_latange"
+	culture = cul_shadowlander
+	motto = latange_motto
+}
+dynn_olginus = {
+	name = "dynn_olginus"
+	culture = cul_altus
+	motto = olginus_motto
+}
+dynn_goldsworn = {
+	name = "dynn_goldsworn"
+	culture = cul_leyndell
+	motto = goldsworn_motto
+}
+dynn_arax = {
+	name = "dynn_arax"
+	culture = cul_ancient_dragon
+	motto = arax_motto
 }
 dynn_gallevile = {
 	name = "dynn_gallevile"
