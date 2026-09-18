@@ -265,50 +265,57 @@ e_land_shadows={
 
 }
 
-e_farum_azula ={
+e_farum_azula={
 	pattern="pattern_solid.dds"
-	color1=yellow_light
+	color1=white
 	color2=yellow
 	color3=blue
 	colored_emblem={
-		color1=rgb { 255 0 0 }
-		texture="ce_rune_sowulo.dds"
-		instance={
-			position={ 0.490000 0.320000 }
-			scale={ 0.380000 1.000000 }
-		}
-
-	}
-
-	colored_emblem={
-		color1=white
-		color2=rgb { 142 140 140 }
-		texture="ce_pagan_spiral_06.dds"
-		instance={
-			depth=3.010000
-		}
-
-	}
-
-	colored_emblem={
 		color1=black
-		texture="ce_circle_mask.dds"
+		texture="azula_elden.dds"
 		instance={
-			scale={ 0.650000 0.650000 }
+			scale={ 0.670000 0.670000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 61 60 59 }
+		color2=rgb { 189 159 114 }
+		texture="ce_african_frame_05.dds"
+		instance={
 			depth=2.010000
 		}
 
 	}
 
 	colored_emblem={
-		color1=yellow_light
-		color2=rgb { 255 0 0 }
-		color3=black
-		texture="ce_dragon_bundle.dds"
+		color1=rgb { 94 81 53 }
+		color2=rgb { 86 86 86 }
+		texture="ce_circle_mask.dds"
 		instance={
-			position={ 0.450000 0.500000 }
-			scale={ 0.800000 0.800000 }
-			depth=1.010000
+			scale={ 0.660000 0.660000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 152 0 }
+		texture="azula_elden.dds"
+		instance={
+			scale={ 0.650000 0.650000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 168 160 136 }
+		color2=rgb { 235 230 227 }
+		texture="ce_pagan_spiral_06.dds"
+		instance={
+			depth=4.010000
 		}
 
 	}
@@ -642,6 +649,63 @@ e_limgrave={
 
 }
 
+k_farum_azula={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=yellow
+	color3=blue
+	colored_emblem={
+		color1=black
+		texture="azula_elden.dds"
+		instance={
+			scale={ 0.670000 0.670000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 61 60 59 }
+		color2=rgb { 189 159 114 }
+		texture="ce_african_frame_05.dds"
+		instance={
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 94 81 53 }
+		color2=rgb { 86 86 86 }
+		texture="ce_circle_mask.dds"
+		instance={
+			scale={ 0.660000 0.660000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 152 0 }
+		texture="azula_elden.dds"
+		instance={
+			scale={ 0.650000 0.650000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 168 160 136 }
+		color2=rgb { 235 230 227 }
+		texture="ce_pagan_spiral_06.dds"
+		instance={
+			depth=4.010000
+		}
+
+	}
+
+}
+
 k_haligtree={
 	pattern="pattern_solid.dds"
 	color1=rgb { 151 151 143 }
@@ -825,38 +889,60 @@ k_weeping_peninsula={
 }
 
 k_jagged_peak={
-	pattern="pattern__solid_designer.dds"
-	color1=black
+	pattern="pattern_solid.dds"
+	color1=rgb { 107 39 25 }
 	color2=yellow
-	color3=blue
+	color3=red
 	colored_emblem={
-		color1=rgb { 254 27 27 }
-		texture="ce_rune_sowulo.dds"
+		color1=grey
+		texture="misc_line.dds"
 		instance={
-			position={ 0.520000 0.240000 }
-			scale={ 0.370000 1.000000 }
+			position={ 0.500000 0.690000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		texture="sharp_mountain.dds"
+		instance={
+			position={ 0.770000 0.980000 }
+			scale={ 0.860000 0.860000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.240000 0.910000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.500000 0.590000 }
+			scale={ 0.620000 1.000000 }
 			depth=3.010000
 		}
 
 	}
 
 	colored_emblem={
-		color1=orange
-		texture="ce_ordinary_pile_02_inverted.dds"
+		color1=rgb { 89 26 17 }
+		texture="misc_crown.dds"
 		instance={
-			scale={ 0.460000 1.000000 }
+			position={ 0.500000 0.000000 }
+			scale={ 1.000000 -1.000000 }
+			depth=5.010000
 		}
 
-		instance={
-			position={ 0.340000 0.600000 }
-			scale={ 0.570000 1.000000 }
-			depth=1.010000
-		}
+	}
 
+	colored_emblem={
+		color1=rgb { 242 90 44 }
+		texture="dragon_lightning.dds"
 		instance={
-			position={ 0.670000 0.660000 }
-			scale={ 0.500000 1.000000 }
-			depth=2.010000
+			position={ 0.500000 0.390000 }
+			scale={ -0.840000 0.840000 }
+			rotation=24
 		}
 
 	}

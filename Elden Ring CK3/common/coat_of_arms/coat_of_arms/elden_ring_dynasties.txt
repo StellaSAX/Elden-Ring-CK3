@@ -126,89 +126,103 @@ dynn_slumber={
 
 }
 
-dynn_jagged={
-	pattern="pattern__solid_designer.dds"
-	color1=black
-	color2=yellow
-	color3=blue
+dynn_draconum={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=rgb { 70 18 11 }
+	color2=rgb { 70 18 11 }
+	color3=red
 	colored_emblem={
-		color1=rgb { 254 27 27 }
-		texture="ce_rune_sowulo.dds"
+		color1=black
+		texture="misc_cross.dds"
 		instance={
-			position={ 0.520000 0.240000 }
-			scale={ 0.370000 1.000000 }
-			depth=3.010000
-		}
-
-	}
-
-	colored_emblem={
-		color1=orange
-		texture="ce_ordinary_pile_02_inverted.dds"
-		instance={
-			scale={ 0.460000 1.000000 }
-		}
-
-		instance={
-			position={ 0.340000 0.600000 }
-			scale={ 0.570000 1.000000 }
-			depth=1.010000
-		}
-
-		instance={
-			position={ 0.670000 0.660000 }
-			scale={ 0.500000 1.000000 }
-			depth=2.010000
-		}
-
-	}
-
-}
-
-dynn_farum={
-	pattern="pattern_solid.dds"
-	color1=yellow_light
-	color2=yellow
-	color3=blue
-	colored_emblem={
-		color1=rgb { 255 0 0 }
-		texture="ce_rune_sowulo.dds"
-		instance={
-			position={ 0.490000 0.320000 }
-			scale={ 0.380000 1.000000 }
-		}
-
-	}
-
-	colored_emblem={
-		color1=white
-		color2=rgb { 142 140 140 }
-		texture="ce_pagan_spiral_06.dds"
-		instance={
-			depth=3.010000
+			rotation=66
 		}
 
 	}
 
 	colored_emblem={
 		color1=black
-		texture="ce_circle_mask.dds"
+		texture="misc_scars.dds"
 		instance={
-			scale={ 0.650000 0.650000 }
 			depth=2.010000
 		}
 
 	}
 
 	colored_emblem={
-		color1=yellow_light
-		color2=rgb { 255 0 0 }
-		color3=black
-		texture="ce_dragon_bundle.dds"
+		color1=black
+		texture="misc_line.dds"
 		instance={
-			position={ 0.450000 0.500000 }
-			scale={ 0.800000 0.800000 }
 			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 161 19 0 }
+		texture="azula_elden.dds"
+		instance={
+			scale={ 1.000000 -1.000000 }
+			depth=3.010000
+		}
+
+	}
+
+}
+
+dynn_domintiquorum={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=yellow
+	color3=blue
+	colored_emblem={
+		color1=rgb { 96 94 86 }
+		color2=rgb { 189 189 189 }
+		texture="dragonlord_sigil.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.580000 0.580000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 138 26 11 }
+		color2=rgb { 145 138 128 }
+		texture="ce_african_frame_05.dds"
+		instance={
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 152 134 48 }
+		color2=rgb { 86 86 86 }
+		texture="ce_circle_mask.dds"
+		instance={
+			scale={ 0.660000 0.660000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 190 57 0 }
+		texture="dragon_lightning.dds"
+		instance={
+			scale={ 0.880000 0.880000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 222 187 83 }
+		color2=rgb { 235 230 227 }
+		texture="ce_pagan_spiral_06.dds"
+		instance={
+			depth=4.010000
 		}
 
 	}

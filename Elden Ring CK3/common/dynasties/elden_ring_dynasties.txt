@@ -1,37 +1,37 @@
 ﻿dynn_erdtree = {
 	name = "dynn_erdtree"
-	culture = "cul_leyndell"
+	culture = cul_leyndell
 	motto = erdtree_motto
 }
 dynn_caria = {
 	name = "dynn_caria"
-	culture = "cul_caria"
+	culture = cul_caria
 	motto = caria_motto
 }
 dynn_loux = {
 	name = "dynn_loux"
-	culture = "cul_badlands"
+	culture = cul_badlands
 	motto = loux_motto
 }
 dynn_haight = {
 	name = "dynn_haight"
-	culture = "cul_limgrave"
+	culture = cul_limgrave
 	motto = haight_motto
 }
 dynn_slumber = {
 	name = "dynn_slumber"
-	culture = "cul_leyndell"
+	culture = cul_leyndell
 	motto = slumber_motto
 }
-dynn_jagged = {
-	name = "dynn_jagged"
-	culture = "cul_jagged"
-	motto = jagged_motto
+dynn_draconum = {
+	name = "dynn_draconum"
+	culture = cul_drake
+	motto = draconum_motto
 }
-dynn_farum = {
-	name = "dynn_farum"
-	culture = cul_farum
-	motto = farum_motto
+dynn_domintiquorum = {
+	name = "dynn_domintiquorum"
+	culture = cul_ancient_dragon
+	motto = domintiquorum_motto
 }
 dynn_argent = {
 	name = "dynn_argent"
@@ -98,10 +98,10 @@ dynn_snakesong = {
 	culture = cul_ranah
 	motto = snakesong_motto
 }
-dynn_azula = {
-	name = "dynn_azula"
-	culture = cul_farum
-	motto = azula_motto
+dynn_trax = {
+	name = "dynn_trax"
+	culture = cul_ancient_dragon
+	motto = trax_motto
 }
 dynn_pacchi = {
 	name = "dynn_pacchi"

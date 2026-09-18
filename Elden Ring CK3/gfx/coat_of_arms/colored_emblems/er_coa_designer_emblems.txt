@@ -21,6 +21,8 @@ dragon_cult.dds = { colors = 2 category = elden_ring }
 dragon_cult_alt.dds = { colors = 2 category = elden_ring }
 death.dds = { colors = 1 category = elden_ring }
 deathrune.dds = { colors = 2 category = elden_ring }
+dragonlord_sigil.dds = { colors = 2 category = elden_ring }
+dragon_lightning.dds = { colors = 1 category = elden_ring }
 eclipse1.dds = { colors = 1 category = elden_ring }
 eclipse2.dds = { colors = 1 category = elden_ring }
 erdtree.dds = { colors = 1 category = elden_ring }

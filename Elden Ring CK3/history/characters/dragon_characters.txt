@@ -2,7 +2,7 @@
 	name = "Placidusax"
 	dna = placidusax_human_dna
 	sexuality = heterosexual
-	dynasty = dynn_farum
+	dynasty = dynn_domintiquorum
 	
 	diplomacy = 24
 	martial = 40
@@ -80,7 +80,7 @@ tarassax = { #a dragon to rule Farum Azula while Placidusax sleeps, named by CLA
 	name = "Tarassax"
 	#dna = tarassax_dna
 	sexuality = heterosexual
-	dynasty = dynn_azula
+	dynasty = dynn_trax
 	
 	diplomacy = 16
 	martial = 11
@@ -113,7 +113,7 @@ bayle = {
 	name = "Bayle"
 	dna = bayle_human_dna
 	sexuality = heterosexual
-	dynasty = dynn_jagged
+	dynasty = dynn_draconum
 	
 	diplomacy = 8
 	martial = 36

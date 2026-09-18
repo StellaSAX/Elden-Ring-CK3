@@ -217,7 +217,7 @@ bm_8301_er_land_of_shadows = {
 	
 	character = {
 		name = "bookmark_bayle"
-		dynasty = dynn_jagged
+		dynasty = dynn_draconum
 		dynasty_splendor_level = 4
 		type = male
 		birth = 114.1.6
@@ -245,7 +245,7 @@ bm_8301_er_meek_or_forgotten = { #smaller importance
 
 	character = {
 		name = "bookmark_placidusax"
-		dynasty = dynn_farum
+		dynasty = dynn_domintiquorum
 		dynasty_splendor_level = 5
 		type = male
 		birth = 46.2.11

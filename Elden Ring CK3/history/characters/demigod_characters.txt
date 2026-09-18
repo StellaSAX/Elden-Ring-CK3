@@ -160,11 +160,11 @@ hoarah_loux = {
 	dynasty = dynn_loux
 	
 	diplomacy = 26
-	martial = 40
+	martial = 44
 	stewardship = 16
 	intrigue = 12
 	learning = 11
-	prowess = 58
+	prowess = 59
 	health = 20
 	
 	religion = faith_badlands
@@ -504,7 +504,7 @@ radahn = {
 	dynasty = dynn_caria
 	
 	diplomacy = 19
-	martial = 48
+	martial = 41
 	stewardship = 20
 	intrigue = 12
 	learning = 16
@@ -928,7 +928,7 @@ malenia = {
 	dynasty = dynn_erdtree
 	
 	diplomacy = 17
-	martial = 50
+	martial = 38
 	stewardship = 15
 	intrigue = 18
 	learning = 20
