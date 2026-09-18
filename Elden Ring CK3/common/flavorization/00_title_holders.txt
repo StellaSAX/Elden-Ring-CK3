@@ -158,66 +158,66 @@ duchy_feudal = {
 	priority = 27
 }
 # Independent dukes of certain culture groups are known as Petty Kings instead of Dukes
-duke_feudal_independent = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 27
-	governments = { feudal_government }
-	heritages = { heritage_north_germanic heritage_west_germanic heritage_goidelic heritage_brythonic heritage_east_african heritage_tibetan }
-	flavourization_rules = { 
-		only_independent = yes
-	}
-}
-duke_feudal_independent_female = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 27
-	governments = { feudal_government }
-	heritages = { heritage_north_germanic heritage_west_germanic heritage_goidelic heritage_brythonic heritage_east_african heritage_tibetan }
-	flavourization_rules = { 
-		only_independent = yes
-	}
-}
-duchy_feudal_independent = {
-	type = title
-	tier = duchy
-	governments = { feudal_government }
-	heritages = { heritage_north_germanic heritage_west_germanic heritage_goidelic heritage_brythonic heritage_east_african heritage_tibetan }
-	priority = 28
-	flavourization_rules = { 
-		only_independent = yes
-	}
-}
+#duke_feudal_independent = {
+#	type = character
+#	gender = male
+#	special = holder
+#	tier = duchy
+#	priority = 27
+#	governments = { feudal_government }
+#	heritages = { heritage_north_germanic heritage_west_germanic heritage_goidelic heritage_brythonic heritage_east_african heritage_tibetan }
+#	flavourization_rules = { 
+#		only_independent = yes
+#	}
+#}
+#duke_feudal_independent_female = {
+#	type = character
+#	gender = female
+#	special = holder
+#	tier = duchy
+#	priority = 27
+#	governments = { feudal_government }
+#	heritages = { heritage_north_germanic heritage_west_germanic heritage_goidelic heritage_brythonic heritage_east_african heritage_tibetan }
+#	flavourization_rules = { 
+#		only_independent = yes
+#	}
+#}
+#duchy_feudal_independent = {
+#	type = title
+#	tier = duchy
+#	governments = { feudal_government }
+#	heritages = { heritage_north_germanic heritage_west_germanic heritage_goidelic heritage_brythonic heritage_east_african heritage_tibetan }
+#	priority = 28
+#	flavourization_rules = { 
+#		only_independent = yes
+#	}
+#}
 # The Dukes of Brittany are an exception to this, they're only known as Dukes even if independent.
-duke_feudal_brittany = { 
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 28
-	governments = { feudal_government }
-	titles = { d_brittany }
-}
-duke_feudal_brittany_female = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 28
-	governments = { feudal_government }
-	titles = { d_brittany }
-}
-duchy_feudal_brittany = {
-	type = title
-	tier = duchy
-	governments = { feudal_government }
-	titles = { d_brittany }
-	priority = 29
-}
+#duke_feudal_brittany = { 
+#	type = character
+#	gender = male
+#	special = holder
+#	tier = duchy
+#	priority = 28
+#	governments = { feudal_government }
+#	titles = { d_brittany }
+#}
+#duke_feudal_brittany_female = {
+#	type = character
+#	gender = female
+#	special = holder
+#	tier = duchy
+#	priority = 28
+#	governments = { feudal_government }
+#	titles = { d_brittany }
+#}
+#duchy_feudal_brittany = {
+#	type = title
+#	tier = duchy
+#	governments = { feudal_government }
+#	titles = { d_brittany }
+#	priority = 29
+#}
 king_feudal_male = {
 	type = character
 	gender = male
@@ -693,7 +693,7 @@ baron_tribal_male = {
 	flavourization_rules = { 
 		top_liege = no
 	}
-	governments = { tribal_government nomad_government wanua_government }
+	governments = { tribal_government nomad_government }
 }
 baron_tribal_female = {
 	type = character
@@ -704,7 +704,7 @@ baron_tribal_female = {
 	flavourization_rules = { 
 		top_liege = no
 	}
-	governments = { tribal_government nomad_government wanua_government }
+	governments = { tribal_government nomad_government }
 }
 barony_tribal = {
 	type = title
@@ -713,7 +713,7 @@ barony_tribal = {
 		top_liege = no
 	}
 	priority = 6
-	governments = { tribal_government nomad_government wanua_government }
+	governments = { tribal_government nomad_government }
 }
 barony_nomadic = {
 	type = title
@@ -742,7 +742,7 @@ count_tribal_male = {
 	flavourization_rules = { 
 		top_liege = no
 	}
-	governments = { tribal_government nomad_government wanua_government }
+	governments = { tribal_government nomad_government  }
 }
 count_tribal_female = {
 	type = character
@@ -753,7 +753,7 @@ count_tribal_female = {
 	flavourization_rules = { 
 		top_liege = no
 	}
-	governments = { tribal_government nomad_government wanua_government }
+	governments = { tribal_government nomad_government  }
 }
 county_tribal = {
 	type = title
@@ -762,7 +762,7 @@ county_tribal = {
 		top_liege = no
 	}
 	priority = 16
-	governments = { tribal_government nomad_government wanua_government }
+	governments = { tribal_government nomad_government  }
 }
 duke_tribal_male = {
 	type = character
@@ -773,7 +773,7 @@ duke_tribal_male = {
 	flavourization_rules = { 
 		top_liege = no
 	}
-	governments = { tribal_government nomad_government wanua_government }
+	governments = { tribal_government nomad_government  }
 }
 duke_tribal_female = {
 	type = character
@@ -784,7 +784,7 @@ duke_tribal_female = {
 	flavourization_rules = { 
 		top_liege = no
 	}
-	governments = { tribal_government nomad_government wanua_government }
+	governments = { tribal_government nomad_government  }
 }
 duchy_tribal = {
 	type = title
@@ -793,7 +793,7 @@ duchy_tribal = {
 		top_liege = no
 	}
 	priority = 26
-	governments = { tribal_government nomad_government wanua_government }
+	governments = { tribal_government nomad_government  }
 }
 king_tribal_male = {
 	type = character
@@ -804,7 +804,7 @@ king_tribal_male = {
 	flavourization_rules = { 
 		top_liege = no
 	}
-	governments = { tribal_government nomad_government wanua_government }
+	governments = { tribal_government nomad_government  }
 }
 king_tribal_female = {
 	type = character
@@ -815,7 +815,7 @@ king_tribal_female = {
 	flavourization_rules = { 
 		top_liege = no
 	}
-	governments = { tribal_government nomad_government wanua_government }
+	governments = { tribal_government nomad_government  }
 }
 kingdom_tribal = {
 	type = title
@@ -824,7 +824,7 @@ kingdom_tribal = {
 		top_liege = no
 	}
 	priority = 46
-	governments = { tribal_government nomad_government wanua_government }
+	governments = { tribal_government nomad_government  }
 }
 emperor_tribal_male = {
 	type = character
@@ -835,7 +835,7 @@ emperor_tribal_male = {
 	flavourization_rules = { 
 		top_liege = no
 	}
-	governments = { tribal_government nomad_government wanua_government }
+	governments = { tribal_government nomad_government  }
 }
 emperor_tribal_female = {
 	type = character
@@ -846,7 +846,7 @@ emperor_tribal_female = {
 	flavourization_rules = { 
 		top_liege = no
 	}
-	governments = { tribal_government nomad_government wanua_government }
+	governments = { tribal_government nomad_government  }
 }
 empire_tribal = {
 	type = title
@@ -855,7 +855,7 @@ empire_tribal = {
 		top_liege = no
 	}
 	priority = 101
-	governments = { tribal_government nomad_government wanua_government }
+	governments = { tribal_government nomad_government  }
 }
 
  #Default Mercenary tiers
@@ -1405,7 +1405,7 @@ king_administrative_male = {
 	special = holder
 	tier = kingdom
 	priority = 74
-	governments = { administrative_government celestial_government  meritocratic_government japan_administrative_government }
+	governments = { administrative_government celestial_government  meritocratic_government }
 
 	flavourization_rules = {
 		top_liege = yes
@@ -1419,7 +1419,7 @@ king_administrative_female = {
 	special = holder
 	tier = kingdom
 	priority = 73
-	governments = { administrative_government celestial_government meritocratic_government japan_administrative_government }
+	governments = { administrative_government celestial_government meritocratic_government }
 
 	flavourization_rules = {
 		top_liege = yes
@@ -1749,21 +1749,21 @@ duchess_landless_adventurer_camp_legitimists = {
 	}
 }
 
-custom_imperator_caesar_augustus = {
-	type = character
-	gender = male
-	special = holder
-	tier = hegemony
-	priority = 500
-	governments = { administrative_government }
-	religions = { hellenism_religion }
-	titles = { h_roman_empire h_eastern_roman_empire }
-	flag = uses_custom_caesar_flavourization
-
-	flavourization_rules = {
-		spouse_takes_title = no
-	}
-}
+#custom_imperator_caesar_augustus = {
+#	type = character
+#	gender = male
+#	special = holder
+#	tier = hegemony
+#	priority = 500
+#	governments = { administrative_government }
+#	religions = { hellenism_religion }
+#	titles = { h_roman_empire h_eastern_roman_empire }
+#	flag = uses_custom_caesar_flavourization
+#
+#	flavourization_rules = {
+#		spouse_takes_title = no
+#	}
+#}
 
 # Herders
 count_herder_male = {
