@@ -2,9 +2,9 @@
 # History database id:haight
 bookmark_haight={
 	type=male
-	id=41
+	id=149
 	random_seed=2748607059
-	age=0.250072
+	age=0.253351
 	genes={ 		hair_color={ 21 6 167 131 }
  		skin_color={ 9 14 4 96 }
  		eye_color={ 95 13 255 179 }
@@ -97,8 +97,8 @@ bookmark_haight={
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_smooth_1" 255 "complexion_7" 212 }
  		gene_height={ "normal_height" 122 "normal_height" 129 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 80 "body_fat_head_fat_full" 125 }
- 		gene_bs_body_shape={ "body_shape_rectangle_half" 116 "body_shape_rectangle_half" 0 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 86 "body_fat_head_fat_full" 125 }
+ 		gene_bs_body_shape={ "body_shape_rectangle_half" 60 "body_shape_rectangle_half" 0 }
  		gene_bs_bust={ "bust_clothes" 0 "bust_default" 172 }
  		gene_age={ "old_3" 22 "old_3" 22 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 240 "far_spacing_avg_thickness" 165 }
@@ -109,17 +109,26 @@ bookmark_haight={
  		eye_accessory={ "normal_eyes" 15 "normal_eyes" 15 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 73 "normal_eyelashes" 73 }
+ 		skin_color_hue_mhec={ "vanilla_skin_color_hue_mhec" 127 "vanilla_skin_color_hue_mhec" 127 }
+ 		skin_color_saturation_mhec={ "vanilla_skin_color_saturation_mhec" 127 "vanilla_skin_color_saturation_mhec" 127 }
+ 		skin_color_value_mhec={ "vanilla_skin_color_value_mhec" 127 "vanilla_skin_color_value_mhec" 127 }
+ 		eye_color_hue_mhec={ "vanilla_eye_color_hue_mhec" 127 "vanilla_eye_color_hue_mhec" 127 }
+ 		eye_color_saturation_mhec={ "vanilla_eye_color_saturation_mhec" 127 "vanilla_eye_color_saturation_mhec" 127 }
+ 		eye_color_value_mhec={ "vanilla_eye_color_value_mhec" 127 "vanilla_eye_color_value_mhec" 127 }
+ 		hair_color_hue_mhec={ "vanilla_hair_color_hue_mhec" 127 "vanilla_hair_color_hue_mhec" 127 }
+ 		hair_color_saturation_mhec={ "vanilla_hair_color_saturation_mhec" 127 "vanilla_hair_color_saturation_mhec" 127 }
+ 		hair_color_value_mhec={ "vanilla_hair_color_value_mhec" 127 "vanilla_hair_color_value_mhec" 127 }
  		beards={ "mpo_mongol_beards" 126 "no_beard" 0 }
  		cloaks={ "no_cloak" 211 "no_cloak" 0 }
  		hairstyles={ "ep3_byzantine_hairstyle" 63 "all_hairstyles" 0 }
- 		legwear={ "ccp7_nivkh_com_legwear" 152 "all_legwear" 0 }
+ 		legwear={ "western_common_legwear" 187 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_ear_stretch={ "ear_stretch" 255 "ear_stretch" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
  		gene_enclosed_helmet={ "enclosed_helmet" 255 "enclosed_helmet" 0 }
- 		clothes={ "ccp7_nivkh_low_nob_clothes" 150 "most_clothes" 0 }
+ 		clothes={ "ep2_western_era3_low_nobility_clothes" 91 "most_clothes" 0 }
  		headgear={ "fp4_western_low_nobility" 173 "no_headgear" 0 }
  		clothes_hoods={ "hoods" 40 "no_clothes_hood" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
@@ -141,10 +150,6 @@ bookmark_haight={
 			invert=no
 		}
  {
-			hash=4280794887
-			invert=no
-		}
- {
 			hash=681013727
 			invert=no
 		}
@@ -158,10 +163,6 @@ bookmark_haight={
 		}
  {
 			hash=1563190100
-			invert=no
-		}
- {
-			hash=2842715111
 			invert=no
 		}
  {

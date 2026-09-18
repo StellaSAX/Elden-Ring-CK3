@@ -37,6 +37,7 @@ golden_order.dds = { colors = 1 category = elden_ring }
 golden_order_text.dds = { colors = 1 category = elden_ring }
 golden_order2.dds = { colors = 1 category = elden_ring }
 gravity.dds = { colors = 1 category = elden_ring }
+gelmir_circle.dds = { colors = 1 category = elden_ring }
 haligtree.dds = { colors = 1 category = elden_ring }
 hornsent_spiral.dds = { colors = 1 category = elden_ring }
 inverted_hawk1.dds = { colors = 1 category = elden_ring }

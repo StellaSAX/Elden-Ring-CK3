@@ -2,7 +2,7 @@
 # History database id:malenia
 bookmark_malenia={
 	type=female
-	id=26
+	id=75
 	random_seed=1725799107
 	age=0.264071
 	genes={ 		hair_color={ 255 168 217 101 }
@@ -97,8 +97,8 @@ bookmark_malenia={
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_1" 0 "complexion_7" 217 }
  		gene_height={ "normal_height" 194 "normal_height" 131 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 44 "body_fat_head_fat_full" 134 }
- 		gene_bs_body_shape={ "body_shape_hourglass_half" 146 "body_shape_hourglass_half" 12 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 65 "body_fat_head_fat_full" 134 }
+ 		gene_bs_body_shape={ "body_shape_hourglass_half" 255 "body_shape_hourglass_half" 12 }
  		gene_bs_bust={ "bust_clothes" 30 "bust_default" 133 }
  		gene_age={ "old_1" 74 "old_1" 74 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 255 "far_spacing_low_thickness" 158 }
@@ -109,13 +109,19 @@ bookmark_malenia={
  		eye_accessory={ "normal_eyes" 151 "normal_eyes" 151 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 212 "normal_eyelashes" 212 }
- 		gene_one_legged={ "no_left_leg" 255 "no_left_leg" 0 }
- 		gene_maimed_left_arm={ "maimed_left_arm" 255 "maimed_left_arm" 0 }
- 		special_legwear={ "special_wooden_leg" 127 "special_wooden_leg" 0 }
+ 		skin_color_hue_mhec={ "vanilla_skin_color_hue_mhec" 127 "vanilla_skin_color_hue_mhec" 127 }
+ 		skin_color_saturation_mhec={ "vanilla_skin_color_saturation_mhec" 127 "vanilla_skin_color_saturation_mhec" 127 }
+ 		skin_color_value_mhec={ "vanilla_skin_color_value_mhec" 127 "vanilla_skin_color_value_mhec" 127 }
+ 		eye_color_hue_mhec={ "vanilla_eye_color_hue_mhec" 127 "vanilla_eye_color_hue_mhec" 127 }
+ 		eye_color_saturation_mhec={ "vanilla_eye_color_saturation_mhec" 127 "vanilla_eye_color_saturation_mhec" 127 }
+ 		eye_color_value_mhec={ "vanilla_eye_color_value_mhec" 127 "vanilla_eye_color_value_mhec" 127 }
+ 		hair_color_hue_mhec={ "vanilla_hair_color_hue_mhec" 127 "vanilla_hair_color_hue_mhec" 127 }
+ 		hair_color_saturation_mhec={ "vanilla_hair_color_saturation_mhec" 127 "vanilla_hair_color_saturation_mhec" 127 }
+ 		hair_color_value_mhec={ "vanilla_hair_color_value_mhec" 127 "vanilla_hair_color_value_mhec" 127 }
  		beards={ "no_beard" 255 "no_beard" 0 }
- 		cloaks={ "fp4_cloak_western" 84 "no_cloak" 0 }
+ 		cloaks={ "sp3_cloak" 101 "no_cloak" 0 }
  		hairstyles={ "fp2_hairstyles_iberian_christian_straight" 127 "all_hairstyles" 0 }
- 		legwear={ "ccp7_emishi_nob_legwear" 51 "all_legwear" 0 }
+ 		legwear={ "western_common_legwear" 5 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_ear_stretch={ "ear_stretch" 255 "ear_stretch" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
@@ -137,7 +143,15 @@ bookmark_malenia={
 
 	entity={ 979141817 979141817 }
 	tags={ {
+			hash=1921638387
+			invert=no
+		}
+ {
 			hash=2125534279
+			invert=no
+		}
+ {
+			hash=2670398845
 			invert=no
 		}
  {
@@ -149,23 +163,7 @@ bookmark_malenia={
 			invert=no
 		}
  {
-			hash=1921638387
-			invert=no
-		}
- {
-			hash=2670398845
-			invert=no
-		}
- {
-			hash=1563190100
-			invert=no
-		}
- {
 			hash=1485265044
-			invert=no
-		}
- {
-			hash=1945936758
 			invert=no
 		}
  }

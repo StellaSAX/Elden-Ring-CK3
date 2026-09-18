@@ -140,7 +140,7 @@ bayle = {
 	portrait_override={
 		portrait_modifier_overrides={
 			custom_beards=male_empty
-			custom_hair=male_hair_special_01
+			custom_hair=male_hair_fp1_04
 		}
 	}
 	

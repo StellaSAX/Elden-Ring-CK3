@@ -717,7 +717,7 @@ jolan = {
 loretta = {
 	name = "Loretta"
 	female = yes
-	#dna = loretta_dna
+	dna = loretta_dna
 	sexuality = asexual
 	dynasty = dynn_blue_knight
 	
@@ -742,6 +742,13 @@ loretta = {
 	give_nickname = nick_knight_of_the_haligtree
 	
 	disallow_random_traits = yes
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=f_hair_sp4_western_01
+			custom_beards=female_empty
+		}
+	}
 	
 	934.1.1 = {
 		birth = yes

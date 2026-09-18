@@ -2,7 +2,7 @@
 # History database id:ranni
 bookmark_ranni={
 	type=female
-	id=28
+	id=56
 	random_seed=3041849302
 	age=0.265996
 	genes={ 		hair_color={ 170 150 107 107 }
@@ -97,8 +97,8 @@ bookmark_ranni={
  		expression_other={ "cheek_wrinkles_both_01" 61 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_beauty_1" 255 "complexion_3" 152 }
  		gene_height={ "normal_height" 137 "normal_height" 133 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 135 "body_fat_head_fat_low" 114 }
- 		gene_bs_body_shape={ "body_shape_rectangle_half" 158 "body_shape_rectangle_half" 0 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 105 "body_fat_head_fat_low" 114 }
+ 		gene_bs_body_shape={ "body_shape_rectangle_half" 181 "body_shape_rectangle_half" 0 }
  		gene_bs_bust={ "bust_clothes" 64 "bust_shape_3_half" 161 }
  		gene_age={ "old_2" 242 "old_2" 242 }
  		gene_eyebrows_shape={ "no_eyebrows" 251 "avg_spacing_avg_thickness" 122 }

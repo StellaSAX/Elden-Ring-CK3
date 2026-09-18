@@ -932,7 +932,7 @@ malenia = {
 	stewardship = 15
 	intrigue = 18
 	learning = 20
-	prowess = 75
+	prowess = 70
 	health = 10
 
 	religion = faith_golden
