@@ -372,7 +372,7 @@ irina = {
 
 elemer = {
 	name = "Elemer"
-	#dna = elemer_dna
+	dna = elemer_dna
 	sexuality = heterosexual
 	dynasty = dynn_briar
 	
@@ -391,8 +391,16 @@ elemer = {
 	trait = sadistic
 	trait = patient
 	trait = education_intrigue_4
+	trait = scarred
 	
 	disallow_random_traits = yes
+	
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=m_hair_sp4_mena_01
+			custom_beards=male_empty
+		}
+	}
 	
 	8260.1.1 = {
 		birth = yes

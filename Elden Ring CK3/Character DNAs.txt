@@ -28,6 +28,9 @@ Vyke
 Bloody Finger Nerijus
 Eleonora, Violet Bloody Finger
 Anna
+Maleigh Marais
+Loretta
+Elemer
 
 To-Do:
 
@@ -80,7 +83,6 @@ Rileigh
 Vargram
 Chief Guardian Arghanthy
 Inaba
-Maleigh Marais
 Moongrum
 Moonrithyll
 Miriam

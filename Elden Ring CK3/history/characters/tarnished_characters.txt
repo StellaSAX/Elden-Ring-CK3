@@ -750,6 +750,8 @@ dungeater = {
 	
 	disallow_random_traits = yes
 	
+	give_nickname = nick_loathsome
+	
 	6666.11.13 = {
 		birth = yes
 		effect = {
