@@ -132,7 +132,7 @@ alanin_goldsworn = {
 	trait = strong
 	trait = loyal
 	trait = holy_warrior
-	trait = golden_knight
+	#trait = golden_knight
 	trait = order_affinity
 	trait = incantation_order
 	

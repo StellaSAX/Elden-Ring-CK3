@@ -34,4 +34,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 656;1923;river_large;3256;-1;-1;-1;-1;Bonny Village Bridge to Manus Metyr 1
 1923;1435;river_large;3260;-1;-1;-1;-1;Bonny Village Bridge to Manus Metyr 2
 1047;442;river_large;3256;-1;-1;-1;-1;Bonny Village Bridge to Bonny Gaol
+3088;1230;river_large;2615;-1;-1;-1;-1;Moonlight Altar Land Connection 1
+339;149;river_large;2615;-1;-1;-1;-1;Moonlight Altar Land Connection 2
 -1;-1;;-1;-1;-1;-1;-1;

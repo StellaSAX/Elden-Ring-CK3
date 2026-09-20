@@ -1,4 +1,5 @@
 ﻿namespace = er_tarnished
+
 er_tarnished.0001 = {
 
 	type = character_event
@@ -227,6 +228,34 @@ er_tarnished.0001 = {
 	name = er_tarnished.0001.out
 		ai_chance = {
 			base = 10 
+		}
+	}
+}
+
+#Samuel (Tasawi) gets the coughs and risks cancer
+er_tarnished.0002 = {
+	type = character_event
+	title = er_tarnished.0002.t
+	desc = er_tarnished.0002.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = cough
+	}
+
+	option = {
+		name = er_tarnished.0002.a
+		
+		random_list = {
+			50 = {
+				add_trait = cancer
+			}
+			50 = {
+				
+			}
+		}
+		ai_chance = {
+			base = 100
 		}
 	}
 }

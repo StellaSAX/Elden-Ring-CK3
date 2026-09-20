@@ -191,6 +191,16 @@
  reclaim_capital_leyndell_confirm:0 "The royal seat is mine"
  reclaim_capital_leyndell_tooltip:0 ""
  
+ integrate_moonlight_altar:0 "Integrate [GetTitleByKey('d_moonlight_altar').GetNameNoTooltip]"
+ integrate_moonlight_altar_desc:0 "The [GetTitleByKey('d_moonlight_altar').GetNameNoTooltip] has been legally part of the Carian upper half of Liurnia for as long as one can remember, yet it has remained largely disconnected from the greater Carian realm. To strengthen the standing of [GetTitleByKey('k_rayalucaria').GetNameNoTooltip], we should seek to claim this small plateau for ourselves."
+ integrate_moonlight_altar_confirm:0 "The plateau of the Dark Moon is Raya Lucarian"
+ integrate_moonlight_altar_tooltip:0 ""
+ 
+ reintegrate_moonlight_altar:0 "Reintegrate [GetTitleByKey('d_moonlight_altar').GetNameNoTooltip]"
+ reintegrate_moonlight_altar_desc:0 "The [GetTitleByKey('d_moonlight_altar').GetNameNoTooltip] has been an important part of the Carian Dynasty for millenia, however in recent times those who rule [GetTitleByKey('k_rayalucaria').GetNameNoTooltip] have taken to claim the plateau as their own. In order to put their foolish ambitions to rest, we should seek to reassert our control over the [GetTitleByKey('d_moonlight_altar').GetNameNoTooltip] as soon as possible."
+ reintegrate_moonlight_altar_confirm:0 "The plateau of the Dark Moon belongs to Caria"
+ reintegrate_moonlight_altar_tooltip:0 ""
+ 
  gain_access_to_shadowland:0 "Gib Land of Shadows"
  gain_access_to_shadowland_desc:0 "I wanna see the skibidi tree!"
  gain_access_to_shadowland_confirm:0 "Yee!"

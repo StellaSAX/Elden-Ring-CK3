@@ -1,0 +1,89 @@
+﻿reintegrate_moonlight_altar = {
+	ai_check_interval = 240
+
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_moonlight_altar.dds" }
+
+	decision_group_type = major
+
+	is_shown = {
+		NOT = { government_has_flag = government_is_tribal }
+		title:d_moonlight_altar = {
+			any_this_title_or_de_jure_above = {
+				NOT = {
+					this = title:k_caria
+				}
+			}
+		}
+		#has_primary_title = title:k_caria
+		#has_title = title:d_moonlight_altar
+		
+		OR = {
+			AND = {
+				has_primary_title = title:k_caria
+				has_title = title:d_moonlight_altar
+			}
+			AND = {
+				has_primary_title = title:e_liurnia
+				has_title = title:k_caria
+				has_title = title:d_moonlight_altar
+			}
+		}
+		
+		NOT = {
+			culture = { any_parent_culture_or_above = { this = culture:cul_liurnia } }
+		}
+	}
+	
+	is_valid = {
+		completely_controls = title:d_moonlight_altar
+	}
+	
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_adult = yes
+		is_at_war = no
+	}
+	
+	cost = {
+		prestige = {
+			if = {
+				limit = {
+					legitimacy_level = 1
+				}
+				value = 1000
+			}
+			if = {
+				limit = {
+					legitimacy_level = 2
+				}
+				value = 800
+			}
+			if = {
+				limit = {
+					legitimacy_level = 3
+				}
+				value = 600
+			}
+			if = {
+				limit = {
+					legitimacy_level = 4
+				}
+				value = 400
+			}
+			if = {
+				limit = {
+					legitimacy_level = 5
+				}
+				value = 200
+			}
+		}
+	}
+
+	effect = {
+		title:d_moonlight_altar = { set_de_jure_liege_title = title:k_caria }
+		add_legitimacy = medium_legitimacy_gain
+	}
+	
+	ai_potential = { always = yes }
+	ai_will_do = { base = 25 }
+}

@@ -73,6 +73,10 @@
  er_tarnished.0001.f:0 "Prowess"
  er_tarnished.0001.out:0 "Nothing for now"
  
+ er_tarnished.0002.t:0 "Coughing Fit"
+ er_tarnished.0002.desc:0 "As I was studying books of ancient lore, translating and localizing them into a more comprehensive encyclopedia, a sudden coughing fit hit me. My lungs are wheezing harder than ever before, its as if the Greater Will itself has decided to punish me for my laziness and lack of progress on my works.\n\nI quickly take out my flask of water in order to ease the coughing, yet the coughing does not cease and the wheezing continues. I stumble around in my tent, knocking over chairs and tables and flailing around the place as the coughing appears to be never-ending. I lie down on the bed and wheeze into the pillow hoping that this torture does not last.\nAfter several minutes pass, the coughing calms and the wheezing stops, though I still feel faintly ill. I can only hope that this does not bode badly for the future..."
+ er_tarnished.0002.a:0 "I will get better, surely."
+ 
  er_gelmir.0001.t:0 "The Coffin Lake is ours!"
  er_gelmir.0001.desc:0 "Ahh grain."
  er_gelmir.0001.a:0 "Invest in these new territories of ours."
