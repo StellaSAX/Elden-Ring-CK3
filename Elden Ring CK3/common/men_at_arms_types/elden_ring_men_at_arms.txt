@@ -388,7 +388,7 @@ redmane_knight = {
  	icon = redmane_knight
 }
 
-#CARIAN FACTION
+#RAYA LUCARIAN FACTION
 rayalucaria_footsoldier = {
 	type = skirmishers
 
@@ -414,11 +414,12 @@ rayalucaria_footsoldier = {
 		}
 		OR = {
 			has_primary_title = title:e_liurnia
-			has_primary_title = title:k_caria
+			#has_primary_title = title:k_caria
 			has_primary_title = title:k_rayalucaria
-			has_primary_title = title:d_caria
+			#has_primary_title = title:d_caria
 			has_primary_title = title:d_raya_lucaria
 		}
+		NOT = { dynasty = dynasty:dynn_caria }
 	}
 
 	should_show_when_unavailable = {
@@ -455,20 +456,21 @@ rayalucaria_soldier = {
 		culture = {
 			has_innovation = innovation_quilted_armor
 		}
-		NOT = {
-			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
-		}
+		#NOT = {
+		#	culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+		#}
 		NOR = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
 		}
 		OR = {
 			has_primary_title = title:e_liurnia
-			has_primary_title = title:k_caria
+			#has_primary_title = title:k_caria
 			has_primary_title = title:k_rayalucaria
-			has_primary_title = title:d_caria
+			#has_primary_title = title:d_caria
 			has_primary_title = title:d_raya_lucaria
 		}
+		NOT = { dynasty = dynasty:dynn_caria }
 	}
 
 	should_show_when_unavailable = {
@@ -509,20 +511,21 @@ cuckoo_knight = {
 		culture = {
 			has_innovation = innovation_elite_knights
 		}
-		NOT = {
-			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
-		}
+		#NOT = {
+		#	culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+		#}
 		NOR = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
 		}
 		OR = {
 			has_primary_title = title:e_liurnia
-			has_primary_title = title:k_caria
+			#has_primary_title = title:k_caria
 			has_primary_title = title:k_rayalucaria
-			has_primary_title = title:d_caria
+			#has_primary_title = title:d_caria
 			has_primary_title = title:d_raya_lucaria
 		}
+		NOT = { dynasty = dynasty:dynn_caria }
 	}
 
 	should_show_when_unavailable = {
@@ -627,8 +630,9 @@ carian_battlemage = {
 	}
 	
 	can_recruit = {
-		culture = {
-			has_cultural_parameter = glintstone_affinity_more_common
+		OR = {
+			culture = { has_cultural_parameter = glintstone_affinity_more_common }
+			dynasty = dynasty:dynn_caria
 		}
 	}
 
