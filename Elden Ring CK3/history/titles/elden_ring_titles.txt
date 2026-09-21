@@ -197,6 +197,11 @@ d_wailing_dunes = {
 		holder = radahn
 	}
 }
+d_raya_lucaria = {
+	673.1.17 = {
+		holder = rennala
+	}
+}
 e_farum_azula = {
 	89.7.19 = {
 		holder = placidusax

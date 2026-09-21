@@ -549,40 +549,6 @@ cuckoo_knight = {
  	icon = cuckoo_knight
 }
 
-troll_knight = {
-	type = troll
-	
-	damage = 100
-	toughness = 100
-	pursuit = 0
-	screen = 0
-	
-	siege_tier = 3
-	siege_value = 0.4
-
-	counters = {
-		pikemen = 1
-		skirmishers = 1
-		light_cavalry = 1
-		heavy_cavalry = 1
-	}
-	
-	can_recruit = {
-		culture = {
-			has_cultural_parameter = glintstone_affinity_more_common
-		}
-	}
-
-	buy_cost = { gold = 250 }
-	low_maintenance_cost = { gold = 0.50 }
-	high_maintenance_cost = { gold = 1 }
-
-	stack = 10
-	allowed_in_hired_troops = no
-	
- 	icon = troll_knight
-}
-
 glintstone_miner = {
 	type = skirmishers
 	
@@ -610,7 +576,36 @@ glintstone_miner = {
  	icon = glintstone_miner
 }
 
-carian_battlemage = {
+glintstone_sorcerer = {
+	type = sorcerer
+	
+	damage = 50
+	toughness = 20
+	pursuit = 40
+	screen = 0
+	
+	counters = {
+		heavy_infantry = 1
+		light_cavalry = 1
+		heavy_cavalry = 1
+		pikemen = 1
+	}
+
+	can_recruit = {
+		culture = { has_cultural_parameter = glintstone_affinity_more_common }
+	}
+
+	buy_cost = { gold = 250 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1 }
+
+	stack = 60
+	allowed_in_hired_troops = no
+	
+ 	icon = glintstone_sorcerer
+}
+
+battlemage = {
 	type = sorcerer
 	
 	damage = 60
@@ -643,24 +638,86 @@ carian_battlemage = {
 	stack = 60
 	allowed_in_hired_troops = no
 	
- 	icon = carian_battlemage
+ 	icon = battlemage
 }
 
-lazuli_sorcerer = {
-	type = sorcerer
-	
-	damage = 50
-	toughness = 20
-	pursuit = 40
-	screen = 0
-	
+#CARIAN FACTION
+carian_knight = {
+	type = knight_infantry
+
+	damage = 46
+	toughness = 52
+	pursuit = 2
+	screen = 2
+
 	counters = {
-		heavy_infantry = 1
-		light_cavalry = 1
-		heavy_cavalry = 1
 		pikemen = 1
+		skirmishers = 1
+		peasant_militia = 3
 	}
 
+	can_recruit = {
+		culture = {
+			has_innovation = innovation_elite_knights
+		}
+		#NOT = {
+		#	culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+		#}
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+		OR = {
+			has_primary_title = title:e_liurnia
+			has_primary_title = title:k_caria
+			has_primary_title = title:d_caria
+			dynasty = dynasty:dynn_caria
+		}
+		NOR = {
+			is_radahn = yes
+			is_rykard = yes
+		}
+	}
+
+	should_show_when_unavailable = {
+		government_allows = subject_men_at_arms
+	}
+
+	buy_cost = { gold = 180 }
+	low_maintenance_cost = { gold = 0.72 }
+	high_maintenance_cost = { gold = 2.1 }
+	provision_cost = @provisions_cost_infantry_expensive
+
+	holy_order_fallback = yes
+
+	stack = 25
+	allowed_in_hired_troops = no
+	ai_quality = {
+		value = culture_ai_weight_heavy_infantry
+		add = counter_synergy_ai_weight_heavy_infantry
+	}
+
+ 	icon = carian_knight
+}
+
+troll_knight = {
+	type = troll
+	
+	damage = 100
+	toughness = 100
+	pursuit = 0
+	screen = 0
+	
+	siege_tier = 3
+	siege_value = 0.4
+
+	counters = {
+		pikemen = 1
+		skirmishers = 1
+		light_cavalry = 1
+		heavy_cavalry = 1
+	}
+	
 	can_recruit = {
 		culture = {
 			has_cultural_parameter = glintstone_affinity_more_common
@@ -671,10 +728,10 @@ lazuli_sorcerer = {
 	low_maintenance_cost = { gold = 0.50 }
 	high_maintenance_cost = { gold = 1 }
 
-	stack = 60
+	stack = 10
 	allowed_in_hired_troops = no
 	
- 	icon = lazuli_sorcerer
+ 	icon = troll_knight
 }
 
 #GELMIR FACTION

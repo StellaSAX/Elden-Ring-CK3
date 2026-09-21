@@ -35,6 +35,13 @@
  cuckoo_knight:0 "Cuckoo Knights"
  cuckoo_knight_flavor:0 "Good night mister knight."
  
+ carian_footsoldier:0 "Carian Footsoldiers"
+ carian_footsoldier_flavor:0 "We are footing it."
+ carian_soldier:0 "Carian Soldiers"
+ carian_soldier_flavor:0 "Now thats soldiering."
+ carian_knight:0 "Carian Knights"
+ carian_knight_flavor:0 "Good night mister knight."
+ 
  gelmir_footsoldier:0 "Gelmir Footsoldiers"
  gelmir_footsoldier_flavor:0 "We are footing it."
  gelmir_soldier:0 "Gelmir Soldiers"
@@ -65,10 +72,10 @@
  troll_knight:0 "Troll Knight"
  troll_knight_flavor:0 "Biggest trolls in the lands between."
 
- carian_battlemage:0 "Carian Battlemages"
- carian_battlemage_flavor:0 "Battlemages assemble!"
- lazuli_sorcerer:0 "Lazuli Sorcerer"
- lazuli_sorcerer_flavor:0 "These are some sore sorcerers."
+ battlemage:0 "Battlemages"
+ battlemage_flavor:0 "Battlemages assemble!"
+ glintstone_sorcerer:0 "Glintstone Sorcerer"
+ glintstone_sorcerer_flavor:0 "These are some sore sorcerers."
 
  horned_warrior:0 "Horned Warrior"
  horned_warrior_flavor:0 "The hardest and horniest warriors of the hornsent."
