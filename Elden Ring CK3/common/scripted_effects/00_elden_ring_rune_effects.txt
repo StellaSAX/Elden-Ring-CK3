@@ -13,7 +13,7 @@
 		template = greatrune_godrick_template
 		history = {
 			type = created
-			date = 7213.1.1
+			date = 7213.2.13
 			recipient = character:godrick
 			location = scope:location
 			actor = character:godrick

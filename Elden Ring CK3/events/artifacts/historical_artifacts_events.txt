@@ -16,10 +16,11 @@ er_historical_artifacts.0001 = {
 		
 		if = {
 			limit = {
-				current_date > 7202.1.1
+				current_date > 7202.8.3
 			}
 			character:godrick ?= {
 				elden_ring_axe_of_godrick_effect = { OWNER = this }
+				elden_ring_godrick_crown_effect = { OWNER = this }
 			}
 		}
 		
@@ -47,6 +48,15 @@ er_historical_artifacts.0001 = {
 			}
 			character:fia ?= {
 				elden_ring_deathbed_smalls_effect = { OWNER = this }
+			}
+		}
+		
+		if = {
+			limit = {
+				current_date > 1602.1.1
+			}
+			character:morgott ?= {
+				elden_ring_elden_lord_crown_effect = { OWNER = this }
 			}
 		}
 	}

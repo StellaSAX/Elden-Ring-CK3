@@ -10,10 +10,10 @@
 	
 	disallow_random_traits = yes
 	
-	780.1.1 = {
+	416.4.6 = {
 		birth = yes
 	}
-	801.1.2 = {
+	801.1.9 = {
 		death = yes
 	}
 }
@@ -62,7 +62,7 @@ rennala = {
 		}
 	}
 	
-	513.1.1 = {
+	513.2.19 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -80,7 +80,7 @@ rennala = {
 			add_trait_xp = { trait = sorcery_crystalian value=90 }
 		}
 	}
-	987.1.1 = {
+	987.8.26 = {
 		add_matrilineal_spouse = radagon
 	}
 	1782.1.1 = {
@@ -132,7 +132,7 @@ rellana = {
 		}
 	}
 	
-	523.1.1 = {
+	523.10.15 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family

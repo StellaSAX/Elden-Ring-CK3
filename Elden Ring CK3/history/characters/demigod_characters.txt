@@ -57,7 +57,7 @@ marika = {
 		}
 	}
 	
-	688.1.1 = {
+	688.9.28 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -66,7 +66,7 @@ marika = {
 	707.1.1 = {
 		add_trait = empyrean_elden_ring
 	}
-	714.1.1 = {
+	714.2.13 = {
 		remove_trait = empyrean_elden_ring
 		religion = faith_golden
 		add_trait = god_elden_ring
@@ -75,7 +75,7 @@ marika = {
 	727.1.1 = {
 		culture = cul_leyndell
 	}
-	733.1.1 = {
+	733.5.10 = {
 		add_matrilineal_spouse = hoarah_loux
 	}
 	1602.1.1 = {
@@ -130,13 +130,13 @@ radagon = {
 		}
 	}
 	
-	688.1.1 = {
+	688.9.28 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
 	}
-	714.1.1 = {	
+	714.2.13 = {	
 		add_trait = demigod_elden_ring_4
 	}
 	1782.1.1 = {
@@ -187,13 +187,13 @@ hoarah_loux = {
 		}
 	}
 	
-	682.1.1 = {
+	682.11.8 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
 	}
-	733.1.1 = {
+	733.5.10 = {
 		add_trait = demigod_elden_ring_4
 		give_nickname = nick_first_elden_lord
 		religion = faith_golden
@@ -240,14 +240,14 @@ messmer = {
 		}
 	}
 	
-	728.1.1 = {
+	728.7.14 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
 		add_trait = demigod_elden_ring_4
 	}
-	1710.1.1 = {
+	1710.2.29 = {
 		religion = faith_messmer
 	}
 	1810.1.1 = {
@@ -304,7 +304,7 @@ melina = {
 		}
 	}
 	
-	728.1.1 = {
+	728.7.14 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -356,7 +356,7 @@ godwyn = {
 		}
 	}
 	
-	793.1.1 = {
+	793.2.9 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -418,7 +418,7 @@ morgott = {
 		}
 	}
 	
-	912.1.1 = {
+	912.9.4 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -474,14 +474,14 @@ mohg = {
 		}
 	}
 	
-	912.1.1 = {
+	912.9.4 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
 		add_trait = demigod_elden_ring_4
 	}
-	2405.1.1 = {
+	5405.1.1 = {
 		religion = faith_formless
 		
 		add_trait = incantation_blood
@@ -537,7 +537,7 @@ radahn = {
 		}
 	}
 	
-	993.1.1 = {
+	993.5.19 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -568,7 +568,7 @@ radahn = {
 		add_pressed_claim = title:e_leyndell
 		add_pressed_claim = title:k_leyndell
 	}
-	7748.1.1 = { #got nuked by malenia
+	7748.7.29 = { #got nuked by malenia
 		give_nickname = nick_starscourge
 		effect = {
 			add_trait = lunatic_1
@@ -619,7 +619,7 @@ rykard = {
 		}
 	}
 	
-	1081.1.1 = {
+	1081.3.12 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -703,7 +703,7 @@ ranni = {
 		}
 	}
 	
-	1165.1.1 = {
+	1165.12.6 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -825,7 +825,7 @@ miquella = {
 		}
 	}
 	
-	2020.1.1 = {
+	2020.8.23 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -908,7 +908,7 @@ trina = {
 		}
 	}
 	
-	2020.1.1 = {
+	2020.8.23 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -963,7 +963,7 @@ malenia = {
 		}
 	}
 	
-	2020.1.1 = {
+	2020.8.23 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -1115,7 +1115,7 @@ godwald = {
 	
 	father = godwyn
 	
-	4258.1.1 = {
+	4258.4.17 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -1254,7 +1254,7 @@ godefroy = {
 	
 	father = godwald
 	
-	5977.1.1 = {
+	5977.10.2 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -1352,7 +1352,7 @@ godrick = {
 		}
 	}
 	
-	7140.1.1 = {
+	7140.10.22 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family

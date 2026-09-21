@@ -1,0 +1,9 @@
+﻿elden_lord_crown_visual = {
+	icon = "er_elden_lord_crown.dds"
+	asset = elden_lord_crown
+}
+
+godrick_crown_visual = {
+	icon = "er_godrick_crown.dds"
+	asset = godrick_crown
+}

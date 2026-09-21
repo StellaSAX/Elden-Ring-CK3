@@ -1,0 +1,57 @@
+﻿elden_lord_crown_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		is_adult = yes
+		OR = {
+			has_primary_title = title:h_lands_between
+			is_spouse_of = character:marika
+			is_godfrey = yes
+		}
+	}
+	fallback = {
+		#always = yes
+		general_opinion = -35
+	}
+	unique = yes
+	ai_score = {
+		value = 100
+		if = {
+			limit = {
+				NOR = {
+					has_primary_title = title:h_lands_between
+					is_spouse_of = character:marika
+					is_godfrey = yes
+				}
+			}
+			add = -10000
+		}
+	}
+}
+
+godrick_crown_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		is_adult = yes
+		highest_held_title_tier >= tier_kingdom
+	}
+	fallback = {
+		#always = yes
+		monthly_prestige = 0.5
+	}
+	unique = yes
+	ai_score = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					highest_held_title_tier >= tier_kingdom
+				}
+			}
+			add = -10000
+		}
+	}
+}

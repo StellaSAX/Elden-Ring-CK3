@@ -1,0 +1,75 @@
+﻿elden_ring_elden_lord_crown_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = elden_lord_crown_name
+		visuals = elden_lord_crown_visual
+		description = elden_lord_crown_description
+		type = helmet
+		wealth = scope:wealth
+		quality = scope:quality
+		template = elden_lord_crown_template
+		history = {
+			type = created
+			date = 733.1.1
+			recipient = character:hoarah_loux
+			location = scope:location
+			actor = character:hoarah_loux
+		}
+		modifier = artifact_monthly_prestige_20_modifier
+		modifier = artifact_monthly_dyn_prestige_add_9_modifier
+		modifier = artifact_dynasty_opinion_9_modifier
+		modifier = artifact_happy_powerful_vassal_tax_contribution_mult_9_modifier
+		#modifier = artifact_men_at_arms_maintenance_9_modifier
+		modifier = artifact_domain_tax_same_faith_mult_5_modifier
+		modifier = artifact_legitimacy_gain_mult_10_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact ?= {
+		save_scope_as = epic
+		set_variable = { name = historical_unique_artifact value = yes }
+		add_artifact_history = {
+			ARTIFACT = this
+			TYPE = given
+			DATE = 1602.1.1
+			RECIPIENT = character:morgott
+		}
+	}
+}
+
+elden_ring_godrick_crown_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = godrick_crown_name
+		visuals = godrick_crown_visual
+		description = godrick_crown_description
+		type = helmet
+		wealth = scope:wealth
+		quality = scope:quality
+		template = godrick_crown_template
+		history = {
+			type = created
+			date = 7202.8.3
+			recipient = character:godrick
+			location = scope:location
+			actor = character:godrick
+		}
+		modifier = artifact_monthly_prestige_10_modifier
+		modifier = artifact_dread_gain_mult_3_modifier
+		modifier = artifact_scared_vassal_tax_1_modifier
+		modifier = artifact_scared_vassal_levy_1_modifier
+		modifier = artifact_scheme_resistance_add_2_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+	}
+}

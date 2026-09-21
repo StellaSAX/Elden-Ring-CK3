@@ -20,8 +20,14 @@ artifact_martial_5_modifier = { martial = 5 }
 artifact_stewardship_5_modifier = { stewardship = 5 }
 artifact_intrigue_5_modifier = { intrigue = 5 }
 artifact_learning_5_modifier = { learning = 5 }
-artifact_monthly_prestige_add_9_modifier = { monthly_dynasty_prestige = 0.2 }
-
+artifact_monthly_dyn_prestige_add_9_modifier = { monthly_dynasty_prestige = 0.2 }
+artifact_dynasty_opinion_9_modifier = { dynasty_opinion = 20 }
+artifact_happy_powerful_vassal_tax_contribution_mult_9_modifier = { happy_powerful_vassal_tax_contribution_mult = 0.1 }
+artifact_men_at_arms_maintenance_9_modifier = { men_at_arms_maintenance = -0.1 }
+artifact_domain_tax_same_faith_mult_5_modifier = { domain_tax_same_faith_mult = 0.05 }
+artifact_legitimacy_gain_mult_10_modifier = { legitimacy_gain_mult = 0.5 }
+artifact_scared_vassal_tax_1_modifier = { cowed_vassal_tax_contribution_mult = 0.06 }
+artifact_scared_vassal_levy_1_modifier = { cowed_vassal_levy_contribution_mult = 0.06 }
 
 #For the weapons by https://steamcommunity.com/id/pegasus2137
 WP_A_0203_modifier = {

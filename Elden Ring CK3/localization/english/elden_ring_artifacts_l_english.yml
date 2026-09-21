@@ -16,8 +16,17 @@
 
  deathbed_smalls_name:0 "Deathbed Smalls"
  deathbed_smalls_description:0 "Skirt worn by Fia, the Deathbed Companion."
+ 
+ elden_lord_crown_name:0 "Elden Lord Crown"
+ elden_lord_crown_description:0 "Crown of Godfrey, the first Elden Lord.\n\nThe age of the Erdtree began amongst conflict, when Godfrey was lord of the battlefield.\n\nHe led the War against the Giants. Faced the Storm Lord, alone. And then, there came a moment. When his last worthy enemy fell. And it was then, as the story is told, that the hue of Lord Godfrey's eyes faded."
+ 
+ godrick_crown_name:0 "Godrick's Crown"
+ godrick_crown_description:0 "Forefathers one and all, bear witness!"
+ 
+ queen_crescent_crown_name:0 "Queen's Crescent Crown"
+ queen_crescent_crown_description:0 "A tall crown depicting the moon. Worn by Rennala, Queen of the Full Moon.\n\nWhen Rennala, head of both the Academy of Raya Lucaria and the Carian royal family, lost her husband Radagon, her heart went along with him.\n\nAnd then, those at the academy realized. That Rennala was no champion, after all."
 
- dragon_heart_name:0 "[dragon_fight.GetFirstName] Dragon Heart"
+ dragon_heart_name:0 "[dragon_fight.GetFirstName]'s Dragon Heart"
  dragon_heart_description:0 "Dragon heart gained by slaying a dragon.\nRiddled with Gravel Stone, this grotesque organ continues to beat vivaciously.\n\nAn offering used in the Dragon Communion. Consume a dragon's heart at the altar to make its power yours."
  
  

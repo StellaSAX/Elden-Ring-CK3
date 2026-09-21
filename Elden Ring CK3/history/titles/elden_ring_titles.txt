@@ -78,7 +78,7 @@ c_bestial_sanctum = {
 	}
 }
 c_castellans_rock = {
-	8300.1.1 = {
+	7748.7.29 = {
 		holder = jerren
 	}
 }
@@ -104,7 +104,7 @@ c_shaded_bog = {
 	}
 }
 c_stormveil_throne = {
-	810.1.1 = {
+	7621.3.7 = {
 		holder = godrick
 	}
 }
@@ -172,7 +172,7 @@ d_redmane_castle = {
 	}
 }
 d_scadu_altus = {
-	1710.4.10 = {
+	1710.2.24 = {
 		holder = messmer
 	}
 }
@@ -264,7 +264,7 @@ k_gelmir = {
 	}
 }
 k_golden_order = {
-	714.1.1 = {
+	714.2.13 = {
 		holder = marika
 	}
 }
@@ -290,7 +290,7 @@ k_leyndell = {
 	}
 }
 k_messmer_army = {
-	1710.4.10 = {
+	1710.2.24 = {
 		holder = messmer
 	}
 }
