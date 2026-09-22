@@ -26,6 +26,9 @@
  
  trait_puppet:0 "Puppet"
  trait_puppet_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been turned into a puppet."
+ 
+ trait_death_nonpermanent:0 "Dead"
+ trait_death_nonpermanent_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has died in one way or another."
 
  trait_scarlet_rot_malenia:0 "Scarlet Rot"
  trait_scarlet_rot_malenia_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born with a terrible and ancient affliction which is consuming [ROOT.GetCharacter.GetHerHis] body, leaving [ROOT.GetCharacter.GetHerHim] with a deformed appearance and terrible nightmares."

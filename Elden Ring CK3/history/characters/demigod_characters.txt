@@ -202,6 +202,10 @@ hoarah_loux = {
 		add_trait = tarnished
 		add_trait = no_marry
 	}
+	2039.10.22 = {
+		remove_trait = no_marry
+		add_trait = death_nonpermanent
+	}
 }
 
 messmer = {
