@@ -31,6 +31,8 @@ Anna
 Maleigh Marais
 Loretta
 Elemer
+Dung Eater
+Millicent
 
 To-Do:
 
@@ -39,7 +41,6 @@ Brother Corhyn
 Darian (D)
 Devin (Other D)
 Diallos
-Dung Eater
 Nepheli Loux
 Fia
 Rogier
@@ -53,7 +54,6 @@ Yura
 Goldmask
 Azur
 Lusat
-Millicent
 Polyanna
 Amy
 Maureen
