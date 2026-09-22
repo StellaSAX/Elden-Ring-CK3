@@ -22,6 +22,23 @@
 				}
 			}
 		}
+		
+		if = {
+			limit = { game_start_date >= 8301 }
+			character:miquella = {
+				set_immortal_age = 13
+				set_visual_age = 13
+			}
+		}
+		
+		if = {
+			limit = { game_start_date >= 8301 }
+			character:trina = {
+				#these currently dont work since trina isnt functionally immortal, ill keep them here in case we figure out trina's situation further -Lester
+				set_immortal_age = 13
+				set_visual_age = 13
+			}
+		}
 	}
 }
 

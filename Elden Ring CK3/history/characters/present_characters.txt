@@ -1,7 +1,7 @@
 ﻿millicent = {
 	name = "Millicent"
 	female = yes
-	#dna = millicent_dna
+	dna = millicent_dna
 	sexuality = bisexual
 	dynasty = dynn_aeonia
 	
@@ -29,6 +29,13 @@
 	disallow_random_traits = yes
 
 	mother = malenia
+	
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=f_hair_sp4_mena_01
+			custom_beards=female_empty
+		}
+	}
 	
 	7748.1.1 = {
 		birth = yes

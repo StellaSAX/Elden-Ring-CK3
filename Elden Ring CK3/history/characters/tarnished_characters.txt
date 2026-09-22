@@ -724,7 +724,7 @@ dolores = {
 
 dungeater = {
 	name = "Dung Eater"
-	#dna = dungeater_dna
+	dna = dungeater_dna
 	sexuality = asexual
 	dynasty = dynn_kuso
 	
@@ -751,6 +751,13 @@ dungeater = {
 	disallow_random_traits = yes
 	
 	give_nickname = nick_loathsome
+	
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=male_hair_rtt_01
+			custom_beards=male_beard_western_10
+		}
+	}
 	
 	6666.11.13 = {
 		birth = yes

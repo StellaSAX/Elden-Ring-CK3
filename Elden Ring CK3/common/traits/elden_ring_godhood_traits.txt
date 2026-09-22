@@ -216,8 +216,12 @@ eternal_youth = {
 	icon = "eternal_youth.dds"
 	shown_in_ruler_designer = no
 	ruler_designer_cost = 250
-	#immortal = yes
-	#set_immortal_age = 10
+	
+	immortal = yes
+	flag = is_immortal
+	flag = immortal_visuals
+	#flag = immortal_fertility
+	#flag = immortal_incapability
 	can_have_children = no
 }
 

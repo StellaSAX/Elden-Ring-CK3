@@ -113,6 +113,10 @@ cannot_be_murdered = {
 	}
 }
 
+is_dead_temporarily = {
+	has_trait = death_nonpermanent
+}
+
 is_godfrey = {
 	this = character:hoarah_loux
 }

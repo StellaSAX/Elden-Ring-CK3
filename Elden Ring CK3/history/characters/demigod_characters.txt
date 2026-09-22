@@ -335,7 +335,7 @@ godwyn = {
 	portrait_override = {
 		portrait_modifier_overrides={
 			custom_beards=male_empty
-			custom_hair=m_hair_fp3_iranian_03
+			custom_hair=male_hair_northern_01
 		}
 	}
 	
@@ -859,11 +859,11 @@ trina = {
 	sexuality = bisexual
 	dynasty = dynn_slumber
 	
-	diplomacy = 36
+	diplomacy = 33
 	martial = 8
 	stewardship = 14
-	intrigue = 30
-	learning = 50
+	intrigue = 27
+	learning = 40
 	prowess = 5
 	health = 10
 	
@@ -887,8 +887,8 @@ trina = {
 	
 	portrait_override = {
 		portrait_modifier_overrides={
-			custom_hair=female_hair_fp2_iberian_christian_01
-			custom_beards=male_empty
+			custom_beards=female_empty
+			custom_hair=female_hair_western_02
 		}
 	}
 	
