@@ -39,17 +39,16 @@ has_affinity_elden_ring = {
 	}
 }
 
-has_godhood_elden_ring = {
-	has_trait = god_elden_ring
+is_god = {
+	has_trait = god
 }
 
-is_demigod_elden_ring = {
+is_demigod = {
 	OR = {
-		has_trait = empyrean_elden_ring
-		has_trait = demigod_elden_ring_4
-		has_trait = demigod_elden_ring_3
-		has_trait = demigod_elden_ring_2
-		has_trait = demigod_elden_ring_1
+		has_trait = demigod_tier_4
+		has_trait = demigod_tier_3
+		has_trait = demigod_tier_2
+		has_trait = demigod_tier_1
 	}
 }
 
@@ -66,12 +65,52 @@ is_tarnished = {
 	OR = {
 		has_trait = tarnished
 		has_trait = graceless_tarnished
-		has_trait = special_tarnished #dudes from discord
 	}
 }
 
 is_grace_tarnished = {
 	has_trait = tarnished
+}
+
+cannot_seduce = {
+	OR = {
+		has_trait = god_serpent
+		has_trait = crucified_erdtree
+		has_trait = imprisoned_evergaol
+		has_trait = death_nonpermanent
+	}
+}
+
+cannot_be_seduced = {
+	OR = {
+		has_trait = god_serpent
+		has_trait = crucified_erdtree
+		has_trait = puppet
+		has_trait = no_marry
+		has_trait = god
+		has_trait = demigod_tier_4
+		has_trait = demigod_tier_3
+		has_trait = demigod_tier_2
+		has_trait = demigod_tier_1
+		has_trait = imprisoned_evergaol
+		has_trait = death_nonpermanent
+	}
+}
+
+cannot_be_murdered = {
+	OR = {
+		has_trait = god_serpent
+		has_trait = crucified_erdtree
+		has_trait = god
+		has_trait = demigod_tier_4
+		has_trait = demigod_tier_3
+		has_trait = demigod_tier_2
+		has_trait = demigod_tier_1
+		has_trait = imprisoned_evergaol
+		has_trait = bodiless
+		has_trait = ranni_doll_body
+		has_trait = death_nonpermanent
+	}
 }
 
 is_godfrey = {

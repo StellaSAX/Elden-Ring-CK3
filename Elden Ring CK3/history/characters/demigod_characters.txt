@@ -1,24 +1,4 @@
-﻿#shaman_line = {
-#	name = "Neris" #so that new children aren't named "Shaman line"
-#	female = yes
-#	sexuality = bisexual
-#	dynasty = dynn_erdtree
-#	
-#	religion = faith_shaman
-#	culture = cul_shaman
-#	
-#	disallow_random_traits = yes
-#	
-#	660.1.1 = {
-#		birth = yes
-#	}
-#	
-#	690.5.25 = {
-#		death = yes
-#	}
-#}
-
-marika = {
+﻿marika = {
 	name = "Marika"
 	female = yes
 	dna = marika_dna
@@ -64,12 +44,12 @@ marika = {
 		}
 	}
 	707.1.1 = {
-		add_trait = empyrean_elden_ring
+		add_trait = empyrean
 	}
 	714.2.13 = {
-		remove_trait = empyrean_elden_ring
+		remove_trait = empyrean
 		religion = faith_golden
-		add_trait = god_elden_ring
+		add_trait = god
 		give_nickname = nick_the_eternal
 	}
 	727.1.1 = {
@@ -137,11 +117,11 @@ radagon = {
 		}
 	}
 	714.2.13 = {	
-		add_trait = demigod_elden_ring_4
+		add_trait = demigod_tier_4
 	}
 	1782.1.1 = {
-		remove_trait = demigod_elden_ring_4
-		add_trait = god_elden_ring
+		remove_trait = demigod_tier_4
+		add_trait = god
 		
 		add_trait = incantation_order
 		effect = {
@@ -194,7 +174,7 @@ hoarah_loux = {
 		}
 	}
 	733.5.10 = {
-		add_trait = demigod_elden_ring_4
+		add_trait = demigod_tier_4
 		give_nickname = nick_first_elden_lord
 		religion = faith_golden
 	}
@@ -249,7 +229,7 @@ messmer = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		add_trait = demigod_elden_ring_4
+		trait = demigod_tier_4
 	}
 	1710.2.29 = {
 		religion = faith_messmer
@@ -313,7 +293,7 @@ melina = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		add_trait = demigod_elden_ring_4
+		trait = demigod_tier_4
 	}
 }
 
@@ -338,13 +318,12 @@ godwyn = {
 	trait = gregarious
 	trait = forgiving
 	trait = education_martial_5
-	trait = physique_good_3
+	trait = physique_good_2
 	trait = beauty_good_3
 	trait = intellect_good_1
 	trait = order_affinity
 	trait = erdtree_affinity
 	trait = lightning_affinity
-	trait = no_marry
 	
 	disallow_random_traits = yes
 	
@@ -365,7 +344,7 @@ godwyn = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		add_trait = demigod_elden_ring_4
+		trait = demigod_tier_4
 	}
 	873.5.14 = {
 		add_trait = incantation_order
@@ -404,7 +383,7 @@ morgott = {
 	trait = diligent
 	trait = patient
 	trait = education_learning_4
-	trait = omen_horn_trait
+	trait = omen_horned
 	trait = twin
 	trait = erdtree_affinity
 	trait = fire_affinity
@@ -427,7 +406,7 @@ morgott = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		add_trait = demigod_elden_ring_4
+		trait = demigod_tier_4
 	}
 	1052.3.26 = {
 		add_trait = incantation_erdtree
@@ -461,7 +440,7 @@ mohg = {
 	trait = zealous
 	trait = ambitious
 	trait = education_intrigue_4
-	trait = omen_horn_trait
+	trait = omen_horned
 	trait = twin
 	trait = blood_affinity
 	trait = no_marry
@@ -483,7 +462,7 @@ mohg = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		add_trait = demigod_elden_ring_4
+		trait = demigod_tier_4
 	}
 	5405.1.1 = {
 		religion = faith_formless
@@ -563,7 +542,7 @@ radahn = {
 		}
 	}
 	1782.1.1 = {
-		add_trait = demigod_elden_ring_4
+		add_trait = demigod_tier_4
 		culture = cul_leyndell
 		religion = faith_golden
 	}
@@ -630,7 +609,7 @@ rykard = {
 		}
 	}
 	1782.1.1 = {
-		add_trait = demigod_elden_ring_4
+		add_trait = demigod_tier_4
 		culture = cul_leyndell
 		religion = faith_golden
 		
@@ -714,10 +693,10 @@ ranni = {
 		}
 	}
 	1782.1.1 = {
-		add_trait = demigod_elden_ring_4
+		add_trait = demigod_tier_4
 	}
 	1785.1.1 = {
-		add_trait = empyrean_elden_ring
+		add_trait = empyrean
 		
 		add_trait = sorcery_carian
 		effect = {
@@ -779,7 +758,7 @@ merian = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_4
+		trait = demigod_tier_4
 	}
 	7211.2.8 = {
 		death = {
@@ -834,10 +813,11 @@ miquella = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_4
+		trait = demigod_tier_4
+		trait = eternal_youth
 	}
 	2630.1.1 = {
-		add_trait = empyrean_elden_ring
+		add_trait = empyrean
 		
 		add_trait = incantation_erdtree
 		add_trait = incantation_order
@@ -917,7 +897,7 @@ trina = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_4
+		trait = demigod_tier_4
 	}
 	3020.1.1 = {
 		give_nickname = nick_st_for_trina
@@ -953,7 +933,6 @@ malenia = {
 	trait = blind
 	trait = twin
 	trait = no_marry
-	trait = scarlet_rot_malenia
 	
 	disallow_random_traits = yes
 	
@@ -972,7 +951,8 @@ malenia = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_4
+		trait = demigod_tier_4
+		trait = scarlet_rot_malenia
 	}
 	2364.1.1 = {
 		add_trait = lifestyle_blademaster
@@ -981,7 +961,7 @@ malenia = {
 		}
 	}
 	2630.1.1 = {
-		add_trait = empyrean_elden_ring
+		add_trait = empyrean
 		
 		add_trait = incantation_erdtree
 		effect = {
@@ -1035,7 +1015,7 @@ moriss = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_4
+		trait = demigod_tier_4
 	}
 	7211.2.8 = {
 		death = {
@@ -1080,7 +1060,7 @@ marimell = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_4
+		trait = demigod_tier_4
 	}
 	7211.2.8 = {
 		death = {
@@ -1124,7 +1104,7 @@ godwald = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_3
+		trait = demigod_tier_3
 	}
 	4683.3.10 = {
 		add_trait = incantation_erdtree
@@ -1176,7 +1156,7 @@ miressa = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_3
+		trait = demigod_tier_3
 	}
 	7211.2.8 = {
 		death = {
@@ -1218,7 +1198,7 @@ godmyr = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_3
+		trait = demigod_tier_3
 	}
 	7211.2.8 = {
 		death = {
@@ -1263,7 +1243,7 @@ godefroy = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_2
+		trait = demigod_tier_2
 	}
 	6473.8.23 = {
 		add_trait = incantation_order
@@ -1311,7 +1291,7 @@ mioliss = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_4
+		trait = demigod_tier_4
 	}
 	7211.2.8 = {
 		death = {
@@ -1361,7 +1341,7 @@ godrick = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		trait = demigod_elden_ring_1
+		trait = demigod_tier_1
 	}
 	7721.1.1 = {
 		dynasty_house = house_godrick_erdtree

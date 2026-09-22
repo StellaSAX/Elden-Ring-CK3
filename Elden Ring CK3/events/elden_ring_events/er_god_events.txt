@@ -1,6 +1,5 @@
 ﻿namespace = er_god
 
-
 er_god.0001 = { #become a god
 
 	type = character_event
@@ -14,15 +13,18 @@ er_god.0001 = { #become a god
 	}
 	
 	immediate = {
-		remove_trait = empyrean_elden_ring
-		remove_trait = demigod_elden_ring
-		remove_trait = eternal_youth_elden_ring
+		remove_trait = empyrean
+		remove_trait = demigod_tier_4
+		remove_trait = demigod_tier_3
+		remove_trait = demigod_tier_2
+		remove_trait = demigod_tier_1
+		remove_trait = eternal_youth
 	}
 	
 	option = { # become GOD
 	name = er_god.0001.a
 		
-		add_trait = god_elden_ring
+		add_trait = god
 		add_character_modifier = {
 			modifier = religious_reformer_modifier
 		}
@@ -30,7 +32,6 @@ er_god.0001 = { #become a god
 			base = 10 
 		}
 	}
-	
 }
 
 er_god.0002 = { #Gain Army
@@ -79,10 +80,6 @@ er_god.0002 = { #Gain Army
 				type = pikemen_unit
 				men = 300
 			}
-			
-			
 		}
-		
 	}
-	
 }

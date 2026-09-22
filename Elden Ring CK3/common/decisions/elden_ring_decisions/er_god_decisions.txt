@@ -7,10 +7,7 @@
 	decision_group_type = decisions
 
 	is_shown = {
-		OR = {
-			has_trait = empyrean_elden_ring
-			has_trait = demigod_elden_ring
-		}
+		has_trait = empyrean
 		highest_held_title_tier >= tier_kingdom
 	}
 	
@@ -28,13 +25,10 @@
 				any_artifact = { has_variable = elden_ring_variable }
 			}
 		}
-		
-		
 	}
 
 	is_valid_showing_failures_only = {
 		is_imprisoned = no
-		
 	}
 
 	cost = {
@@ -81,9 +75,9 @@ become_empyrean_elden_ring = {
 
 	is_shown = {
 		NOR = {
-			has_trait = empyrean_elden_ring
-			has_trait = demigod_elden_ring
-			has_trait = god_elden_ring
+			has_trait = empyrean
+			is_demigod = yes
+			is_god = yes
 		}
 	}
 	
@@ -170,7 +164,7 @@ easy_become_conqueror_for_empyrean_decision = {
 		martial >= 15
 		prestige_level >= 3
 		piety_level >= 3
-		has_trait = empyrean_elden_ring
+		has_trait = empyrean
 	}
 
 	is_valid_showing_failures_only = {
@@ -231,7 +225,6 @@ easy_become_conqueror_for_empyrean_decision = {
 				}
 			}
 		}
-		
 	}
 	ai_check_interval = 12
 }
@@ -250,13 +243,13 @@ easy_become_conqueror_for_landed_empyrean_decision = {
 			has_character_flag = had_laamp_conq_decision
 			has_trait = conqueror
 		}
-		has_trait = empyrean_elden_ring
+		has_trait = empyrean
 	}
 
 	is_valid = {
 		prestige_level >= 3
 		piety_level >= 3
-		has_trait = empyrean_elden_ring
+		has_trait = empyrean
 	}
 
 	is_valid_showing_failures_only = {
@@ -317,7 +310,6 @@ easy_become_conqueror_for_landed_empyrean_decision = {
 				}
 			}
 		}
-		
 	}
 	ai_check_interval = 12
 }

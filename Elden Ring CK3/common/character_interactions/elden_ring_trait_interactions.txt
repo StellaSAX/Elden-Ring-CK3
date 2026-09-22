@@ -11,7 +11,7 @@
 	is_shown = {
 		scope:recipient = {
 			AND = {
-				has_trait = omen_horn_trait
+				has_trait = omen_horned
 				is_courtier_of = scope:actor
 			}
 		}
@@ -23,8 +23,8 @@
 	
 	on_auto_accept = {
 		scope:recipient = {
-			remove_trait = omen_horn_trait
-			add_trait = omen_no_horn_trait
+			remove_trait = omen_horned
+			add_trait = omen_hornless
 			hidden_effect = {
 				increase_wounds_no_death_effect = { REASON = fall }
 			}
@@ -43,9 +43,7 @@
 			}
 		}
 		imprison_attempt_escalates_rivalry_effect = yes
-
 	}
-
 }
 
 grafting_interaction = {
@@ -80,10 +78,10 @@ grafting_interaction = {
 						limit = {
 							scope:recipient = {
 								OR = {
-									is_demigod_elden_ring = yes
-									has_trait = ancient_dragon_elden_ring
-									has_trait = lesser_dragon_elden_ring
-									has_trait = god_elden_ring
+									is_demigod = yes
+									has_trait = ancient_dragon
+									has_trait = lesser_dragon
+									has_trait = god
 								}
 								
 							}

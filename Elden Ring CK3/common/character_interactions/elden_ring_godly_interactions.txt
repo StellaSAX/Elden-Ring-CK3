@@ -16,7 +16,7 @@
 
 	is_shown = {
 		scope:actor = {
-			has_trait = god_elden_ring
+			has_trait = god
 		}
 		scope:recipient = {
 			NOT = { this = scope:actor }
@@ -39,7 +39,6 @@
 			}
 		}
 	}
-	
 
 	cost = {
 		piety = 100
@@ -72,7 +71,7 @@ heal_disease_elden_ring_interaction = {
 
 	is_shown = {
 		scope:actor = {
-			has_trait = god_elden_ring
+			has_trait = god
 		}
 		scope:recipient = {
 			has_any_disease_trigger = yes
@@ -107,7 +106,6 @@ heal_disease_elden_ring_interaction = {
 		}
 	}
 	
-
 	cost = {
 		piety = 100
 	}
@@ -131,7 +129,7 @@ cure_wound_elden_ring_interaction = {
 
 	is_shown = {
 		scope:actor = {
-			has_trait = god_elden_ring
+			has_trait = god
 		}
 		scope:recipient = {
 			has_wounds_trigger = yes
@@ -156,7 +154,6 @@ cure_wound_elden_ring_interaction = {
 		}
 	}
 	
-
 	cost = {
 		piety = 100
 	}
@@ -180,7 +177,7 @@ regrow_lost_elden_ring_interaction = {
 
 	is_shown = {
 		scope:actor = {
-			has_trait = god_elden_ring
+			has_trait = god
 		}
 		scope:recipient = {
 			OR = {
@@ -213,7 +210,6 @@ regrow_lost_elden_ring_interaction = {
 		}
 	}
 	
-
 	cost = {
 		piety = 100
 	}
@@ -245,7 +241,7 @@ immortal_serpent_absorption_interaction = {
 			if = {
 				limit = {
 					scope:recipient = {
-						has_trait = god_elden_ring
+						has_trait = god
 					}
 				}
 				send_interface_toast = {
@@ -261,7 +257,7 @@ immortal_serpent_absorption_interaction = {
 			else_if = {
 				limit = {
 					scope:recipient = {
-						has_trait = demigod_elden_ring_4
+						has_trait = demigod_tier_4
 					}
 				}
 				send_interface_toast = {
@@ -277,7 +273,7 @@ immortal_serpent_absorption_interaction = {
 			else_if = {
 				limit = {
 					scope:recipient = {
-						has_trait = demigod_elden_ring_3
+						has_trait = demigod_tier_3
 					}
 				}
 				send_interface_toast = {
@@ -293,7 +289,7 @@ immortal_serpent_absorption_interaction = {
 			else_if = {
 				limit = {
 					scope:recipient = {
-						has_trait = demigod_elden_ring_2
+						has_trait = demigod_tier_2
 					}
 				}
 				send_interface_toast = {
@@ -309,7 +305,7 @@ immortal_serpent_absorption_interaction = {
 			else_if = {
 				limit = {
 					scope:recipient = {
-						has_trait = demigod_elden_ring_1
+						has_trait = demigod_tier_1
 					}
 				}
 				send_interface_toast = {
@@ -367,10 +363,7 @@ immortal_serpent_absorption_interaction = {
 						stress_impact = { base = medium_stress_loss }
 					}
 				}
-
 			}
-			
-
 		}
 		scope:recipient = {
 			death = {

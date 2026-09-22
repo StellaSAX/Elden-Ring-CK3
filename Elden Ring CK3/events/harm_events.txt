@@ -236,8 +236,8 @@ scripted_trigger harm_0001_general_requirements_trigger = {
 	# Health checks.
 	age_ranked_health_vulnerability_threshold_trigger = yes
 	
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -588,8 +588,8 @@ harm.0003 = {
 ##################################################
 
 scripted_trigger harm_0011_valid_emergency_medic_trigger = {
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -816,8 +816,8 @@ scripted_trigger harm_0012_valid_commander_trigger = {
 	# Mustn't _already_ have a trait granting you this.
 	is_incapable = no
 	
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -926,8 +926,8 @@ harm.0501 = {
 		NOT = { has_character_flag = had_event_harm_0501 }
 		has_character_flag = had_event_harm_0502
 		# We don't recheck your inbreeding situation because your genetic heritage can't have changed and you already have a character flag indicating you went through this once, so there's no need.
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -1127,8 +1127,8 @@ harm.0502 = {
 			}
 		}
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -1195,8 +1195,8 @@ scripted_trigger harm_0511_rides_horses_trigger = {
 		has_trait = nomadic_philosophy
 	}
 	
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -1426,8 +1426,8 @@ harm.0512 = {
 ##################################################
 
 scripted_trigger harm_0521_has_waterside_capital_trigger = {
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -1447,8 +1447,8 @@ scripted_trigger harm_0521_has_waterside_capital_trigger = {
 }
 
 scripted_trigger harm_0521_cultural_tradition_encourages_swimming_trigger = {
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -1752,8 +1752,8 @@ harm.0531 = {
 			age_ranked_health_vulnerability_threshold_trigger = yes
 		}
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -1926,8 +1926,8 @@ harm.0532 = {
 			age_ranked_health_vulnerability_threshold_trigger = yes
 		}
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -1986,8 +1986,8 @@ harm.0532 = {
 
 # Is the winter here bad enough to hurt someone of your age?
 scripted_trigger harm_0541_bad_winter_trigger = {
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -2022,8 +2022,8 @@ scripted_trigger harm_0541_bad_winter_trigger = {
 
 # Are you paying enough in court amenity costs to have people who'd notice and help whilst there's still time?
 scripted_trigger harm_0541_saved_by_court_amenities_trigger = {
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -2300,8 +2300,8 @@ harm.0542 = {
 ##################################################
 
 scripted_trigger harm_0551_child_might_be_outside_trigger = {
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -2313,8 +2313,8 @@ scripted_trigger harm_0551_child_might_be_outside_trigger = {
 }
 
 scripted_trigger harm_0551_child_location_has_trees_trigger = {
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -2601,8 +2601,8 @@ harm.0561 = {
 		# Do you have lots of stairs to walk down?
 		location_has_multi_story_buildings_trigger = { LOCATION = root.location }
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -2768,8 +2768,8 @@ harm.0562 = {
 		# Do you have lots of stairs to walk down?
 		location_has_multi_story_buildings_trigger = { LOCATION = root.location }
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -2822,8 +2822,8 @@ harm.0562 = {
 ##################################################
 
 scripted_trigger harm_0571_suitable_sparring_partner_trigger = {
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -3146,8 +3146,8 @@ harm.0581 = {
 		# Medieval mores being what they were, some characters are just never going to have a private bath.
 		NOT = { has_trait = gregarious }
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -3272,8 +3272,8 @@ harm.0582 = {
 		# Medieval mores being what they were, some characters are just never going to have a private bath.
 		NOT = { has_trait = gregarious }
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -3341,8 +3341,8 @@ harm.0582 = {
 ##################################################
 
 scripted_trigger harm_0591_likely_to_go_to_town_trigger = {
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -3592,8 +3592,8 @@ harm.0592 = {
 ##################################################
 
 scripted_trigger harm_0601_valid_playmate_trigger = {
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -3879,8 +3879,8 @@ harm.0611 = {
 			age_ranked_health_vulnerability_threshold_trigger = yes
 		}
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -4047,8 +4047,8 @@ harm.0612 = {
 			age_ranked_health_vulnerability_threshold_trigger = yes
 		}
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -4101,8 +4101,8 @@ harm.0612 = {
 ##################################################
 
 scripted_trigger harm_0621_alcohol_problem_trigger = {
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -4120,8 +4120,8 @@ scripted_trigger harm_0621_alcohol_problem_trigger = {
 }
 
 scripted_trigger harm_0621_social_drinker_trigger = {
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -4373,8 +4373,8 @@ harm.0622 = {
 
 # A few people get auto-filtered immediately.
 scripted_trigger harm_0631_bonk_pre_filter_enthusiasm_trigger = {
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -4570,8 +4570,8 @@ harm.0631 = {
 		# Check that we've got a partner who might cause us some strife.
 		harm_0631_bonk_enthusiast_trigger = yes
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -4828,8 +4828,8 @@ harm.0632 = {
 
 scripted_trigger harm_0641_saved_by_court_amenities_trigger = {
 	OR = {
-		has_godhood_elden_ring = yes
-		is_demigod_elden_ring = yes
+		is_god = yes
+		is_demigod = yes
 		has_special_body = yes
 		is_tarnished = yes
 		is_grace_tarnished = yes
@@ -5130,8 +5130,8 @@ harm.1001 = {
 		NOT = { has_character_flag = had_event_harm_1001 }
 		has_character_flag = had_event_harm_1002
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -5286,8 +5286,8 @@ harm.1002 = {
 		# Harm filter checks.
 		NOT = { has_character_flag = had_event_harm_1002 }
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -5367,8 +5367,8 @@ harm.1011 = {
 		# Some characters will never go riding for pleasure.
 		NOT = { has_trait = lazy }
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -5543,8 +5543,8 @@ harm.1012 = {
 		# Some characters will never go riding for pleasure.
 		NOT = { has_trait = lazy }
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -5604,8 +5604,8 @@ harm.1012 = {
 scripted_trigger harm_1021_saved_by_court_amenities_trigger = {
 	trigger_if = {
 		OR = {
-			has_godhood_elden_ring = no
-			is_demigod_elden_ring = no
+			is_god = no
+			is_demigod = no
 			has_special_body = no
 			is_tarnished = no
 			is_grace_tarnished = no
@@ -5901,8 +5901,8 @@ harm.1031 = {
 		# Must be below a certain level of health to suffer from this.
 		health <= medium_health
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -6079,8 +6079,8 @@ harm.1032 = {
 		# Must be below a certain level of health to suffer from this.
 		health <= medium_health
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -6149,8 +6149,8 @@ scripted_trigger harm_1041_characters_to_exclude_trigger = {
 		# And blind characters, though capable of great independence, probably aren't going to dismiss their guards like this.
 		has_trait = blind
 	}
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -6378,8 +6378,8 @@ harm.1051 = {
 			has_trait = diligent
 		}
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -6493,8 +6493,8 @@ harm.1052 = {
 			has_trait = diligent
 		}
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -6560,8 +6560,8 @@ scripted_trigger harm_1061_admires_window_view_trigger = {
 		has_trait = callous
 	}
 	
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -6809,8 +6809,8 @@ scripted_trigger harm_1071_rival_courtiers_trigger = {
 		is_courtier_of = root
 	}
 	
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -7180,8 +7180,8 @@ harm.1072 = {
 ##################################################
 
 scripted_trigger harm_1081_normal_storms_trigger = {
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -7465,8 +7465,8 @@ harm.1091 = {
 		NOT = { has_character_flag = had_event_harm_1091 }
 		has_character_flag = had_event_harm_1092
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -7658,8 +7658,8 @@ harm.1092 = {
 		# Harm filter checks.
 		NOT = { has_character_flag = had_event_harm_1092 }
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -7742,8 +7742,8 @@ harm.1101 = {
 		# And some danger of fast-moving carts.
 		location_has_fast_traffic_trigger = { LOCATION = root.location }
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -7911,8 +7911,8 @@ harm.1102 = {
 		# And some danger of fast-moving carts.
 		location_has_fast_traffic_trigger = { LOCATION = root.location }
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -7994,8 +7994,8 @@ scripted_trigger harm_1111_traits_filter_trigger = {
 		has_trait = pregnant
 	}
 	
-	has_godhood_elden_ring = no
-	is_demigod_elden_ring = no
+	is_god = no
+	is_demigod = no
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
@@ -8352,8 +8352,8 @@ harm.2001 = {
 		}
 		commander_in_terrain_specialisation = no
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -8543,8 +8543,8 @@ harm.2011 = {
 		}
 		commander_in_terrain_specialisation = no
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -8755,8 +8755,8 @@ harm.2021 = {
 		}
 		commander_in_terrain_specialisation = no
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -8962,8 +8962,8 @@ harm.2031 = {
 		}
 		commander_in_terrain_specialisation = no
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -9160,8 +9160,8 @@ harm.2041 = {
 		}
 		days_of_continuous_war >= 36525
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -9356,8 +9356,8 @@ harm.2051 = {
 		# TIT-44620
 		always = no
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -9600,8 +9600,8 @@ harm.2061 = {
 		# TIT-44621
 		always = no
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -9778,8 +9778,8 @@ harm.2071 = {
 		# Standard checks.
 		harm_game_rule_enablement_trigger = yes
 		
-		has_godhood_elden_ring = no
-		is_demigod_elden_ring = no
+		is_god = no
+		is_demigod = no
 		has_special_body = no
 		is_tarnished = no
 		is_grace_tarnished = no
@@ -9987,8 +9987,8 @@ harm.9501 = {
 		is_incapable = no
 		
 		OR = {
-			has_godhood_elden_ring = no
-			is_demigod_elden_ring = no
+			is_god = no
+			is_demigod = no
 			has_special_body = no
 			is_tarnished = no
 			is_grace_tarnished = no

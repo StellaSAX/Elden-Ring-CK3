@@ -96,11 +96,7 @@
 			}
 		}
 		scope:recipient = {
-			NOR = {
-				has_godhood_elden_ring = yes
-				is_demigod_elden_ring = yes
-				has_special_body = yes
-			}
+			NOT = { cannot_be_murdered = yes }
 		}
 		# Scope:recipient can't be visiting elsewhere.
 		trigger_if = {
@@ -1819,9 +1815,7 @@ execute_prisoner_interaction = {
 			is_imprisoned_by = scope:actor
 			
 			NOR = {
-				has_godhood_elden_ring = yes
-				is_demigod_elden_ring = yes
-				has_special_body = yes
+				cannot_be_murdered = yes
 				is_grace_tarnished = yes
 			}
 		}
@@ -2573,9 +2567,7 @@ torture_interaction = {
 		scope:recipient = { is_adult = yes }
 		scope:recipient = {
 			NOR = {
-				has_godhood_elden_ring = yes
-				is_demigod_elden_ring = yes
-				has_special_body = yes
+				cannot_be_murdered = yes
 				is_grace_tarnished = yes
 			}
 		}
@@ -2800,9 +2792,7 @@ castrate_interaction = {
 			is_male = yes
 			
 			NOR = {
-				has_godhood_elden_ring = yes
-				is_demigod_elden_ring = yes
-				has_special_body = yes
+				cannot_be_murdered = yes
 				is_grace_tarnished = yes
 			}
 		}
@@ -2983,9 +2973,7 @@ blind_interaction = {
 			NOT = { has_trait = blind }
 			
 			NOR = {
-				has_godhood_elden_ring = yes
-				is_demigod_elden_ring = yes
-				has_special_body = yes
+				cannot_be_murdered = yes
 				is_grace_tarnished = yes
 			}
 		}
@@ -3189,9 +3177,7 @@ systematically_maim_character_interaction = {
 		
 		scope:recipient = {
 			NOR = {
-				has_godhood_elden_ring = yes
-				is_demigod_elden_ring = yes
-				has_special_body = yes
+				cannot_be_murdered = yes
 				is_grace_tarnished = yes
 			}
 		}

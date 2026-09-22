@@ -1,4 +1,4 @@
-﻿god_elden_ring = {
+﻿god = {
 	category = health
 	icon = "god.dds"
 	shown_in_ruler_designer = no
@@ -41,7 +41,7 @@
 	ai_boldness = high_positive_ai_value
 }
 
-demigod_elden_ring_4 = {
+demigod_tier_4 = {
 	category = health
 	icon = "demigod_tier4.dds"
 	#shown_in_ruler_designer = no
@@ -71,13 +71,13 @@ demigod_elden_ring_4 = {
 	ai_boldness = high_positive_ai_value
 	
 	opposites = {
-		demigod_elden_ring_1
-		demigod_elden_ring_2
-		demigod_elden_ring_3
+		demigod_tier_1
+		demigod_tier_2
+		demigod_tier_3
 	}
 }
 
-demigod_elden_ring_3 = {
+demigod_tier_3 = {
 	category = health
 	icon = "demigod_tier3.dds"
 	#shown_in_ruler_designer = no
@@ -107,13 +107,13 @@ demigod_elden_ring_3 = {
 	ai_boldness = high_positive_ai_value
 	
 	opposites = {
-		demigod_elden_ring_1
-		demigod_elden_ring_2
-		demigod_elden_ring_4
+		demigod_tier_1
+		demigod_tier_2
+		demigod_tier_4
 	}
 }
 
-demigod_elden_ring_2 = {
+demigod_tier_2 = {
 	category = health
 	icon = "demigod_tier2.dds"
 	#shown_in_ruler_designer = no
@@ -143,13 +143,13 @@ demigod_elden_ring_2 = {
 	ai_boldness = high_positive_ai_value
 	
 	opposites = {
-		demigod_elden_ring_1
-		demigod_elden_ring_3
-		demigod_elden_ring_4
+		demigod_tier_1
+		demigod_tier_3
+		demigod_tier_4
 	}
 }
 
-demigod_elden_ring_1 = {
+demigod_tier_1 = {
 	category = health
 	icon = "demigod_tier1.dds"
 	#shown_in_ruler_designer = no
@@ -179,13 +179,13 @@ demigod_elden_ring_1 = {
 	ai_boldness = high_positive_ai_value
 	
 	opposites = {
-		demigod_elden_ring_2
-		demigod_elden_ring_3
-		demigod_elden_ring_4
+		demigod_tier_2
+		demigod_tier_3
+		demigod_tier_4
 	}
 }
 
-empyrean_elden_ring = {
+empyrean = {
 	category = fame
 	icon = "empyrean.dds"
 	shown_in_ruler_designer = no
@@ -211,7 +211,7 @@ empyrean_elden_ring = {
 	#ai_boldness = very_high_positive_ai_value
 }
 
-eternal_youth_elden_ring = {
+eternal_youth = {
 	category = health
 	icon = "eternal_youth.dds"
 	shown_in_ruler_designer = no
@@ -219,7 +219,6 @@ eternal_youth_elden_ring = {
 	#immortal = yes
 	#set_immortal_age = 10
 	can_have_children = no
-	health = 10
 }
 
 scarlet_rot_malenia = {

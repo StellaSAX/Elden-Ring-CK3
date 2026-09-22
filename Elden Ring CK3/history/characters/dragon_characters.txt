@@ -33,11 +33,11 @@
 	
 	46.2.11 = {
 		birth = yes
-		add_trait = ancient_dragon_elden_ring
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 			set_relation_nemesis = character:bayle
 		}
+		add_trait = ancient_dragon
 	}
 }
 
@@ -69,10 +69,10 @@ florissax = {
 	
 	94.10.21 = {
 		birth = yes
-		add_trait = ancient_dragon_elden_ring
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
+		add_trait = ancient_dragon
 	}
 }
 
@@ -105,7 +105,7 @@ tarassax = { #a dragon to rule Farum Azula while Placidusax sleeps, named by CLA
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		add_trait = ancient_dragon_elden_ring
+		add_trait = ancient_dragon
 	}
 }
 
@@ -149,6 +149,6 @@ bayle = {
 		effect = {
 			add_character_flag = do_not_generate_starting_family
 		}
-		add_trait = lesser_dragon_elden_ring
+		add_trait = lesser_dragon
 	}
 }

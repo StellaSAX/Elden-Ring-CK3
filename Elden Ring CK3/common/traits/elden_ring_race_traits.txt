@@ -23,18 +23,18 @@
 # owned_personal_scheme_success_chance_add = 10
 # owned_hostile_scheme_success_chance_add = 10
 
-omen_horn_trait = {
+omen_horned = {
 	category = health
 	icon = "omen.dds"
 	ruler_designer_cost = 20
-	same_opinion = 30
-	prowess = 10
+	same_opinion = 20
+	prowess = 8
 	fertility = -0.25
 	health = 0.5
 	stress_gain_mult = 0.1
 	
 	opposites = {
-		omen_no_horn_trait
+		omen_hornless
 	}
 	
 	triggered_opinion = {
@@ -49,72 +49,74 @@ omen_horn_trait = {
 	}
 }
 
-omen_no_horn_trait = {
+omen_hornless = {
 	category = health
 	icon = "omen_hornless.dds"
 	ruler_designer_cost = 20
-	same_opinion = 30
-	prowess = 7
+	same_opinion = 20
+	prowess = 5
 	health = -0.25
 	
 	opposites = {
-		omen_horn_trait
+		omen_horned
 	}
 }
 
-ancient_dragon_elden_ring = {
+ancient_dragon = {
 	category = health
+	icon = "dragon_ancient.dds"
+	shown_in_ruler_designer = no
 	ruler_designer_cost = 20
 	same_opinion = 30
 	immortal = yes
 	can_have_children = no
 	#set_immortal_age = 25
-	life_expectancy = 99999 #makes them look younger
+	life_expectancy = 99999
 	prowess = 20
 	health = 3
 	no_prowess_loss_from_age = yes
-	shown_in_ruler_designer = no
 	
 	opposites = {
-		lesser_dragon_elden_ring
+		lesser_dragon
 	}
 }
 
-lesser_dragon_elden_ring = {
+lesser_dragon = {
 	category = health
+	icon = "dragon_lesser.dds"
+	shown_in_ruler_designer = no
 	ruler_designer_cost = 20
 	same_opinion = 30
 	immortal = yes
 	can_have_children = no
 	#set_immortal_age = 25
-	life_expectancy = 99999 #makes them look younger
+	life_expectancy = 99999
 	no_prowess_loss_from_age = yes
 	prowess = 10
 	health = 1.5
-	shown_in_ruler_designer = no
 	
 	opposites = {
-		ancient_dragon_elden_ring
+		ancient_dragon
 	}
 }
 
 albinauric = {
 	category = health
+	shown_in_ruler_designer = no
 	icon = "albinauric.dds"
-	same_opinion = 50
+	same_opinion = 35
 	fertility = -0.5
 	life_expectancy = -20
-	shown_in_ruler_designer = no
 }
 
 manserpent = {
 	category = health
-	same_opinion = 25
+	shown_in_ruler_designer = no
+	same_opinion = 20
 	life_expectancy = 99999
 	years_of_fertility = 99999
 	diplomacy = -3
 	intrigue = 3
 	health = 3
 	prowess = 5
-	shown_in_ruler_designer = no
 }

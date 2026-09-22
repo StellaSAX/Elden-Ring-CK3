@@ -28,13 +28,13 @@ on_action_gain_dragon_related_trait = {
 	}
 }
 
-on_action_clean_dragons = { #too many dragons
+on_action_clean_dragons = { #too many dragons -Lesus opinion: we should allow there to be as many dragons as there can
 	effect = {
 		if = { 
 			limit = {
 				OR = {
-					has_trait = lesser_dragon_elden_ring
-					has_trait = ancient_dragon_elden_ring
+					has_trait = lesser_dragon
+					has_trait = ancient_dragon
 				}
 				is_landed = no
 			}

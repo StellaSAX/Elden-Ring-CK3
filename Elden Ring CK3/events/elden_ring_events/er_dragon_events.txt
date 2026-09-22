@@ -1,6 +1,5 @@
 ﻿namespace = er_dragon
 
-
 er_dragon.0001 = { #recruit a dragon
 
 	type = character_event
@@ -49,7 +48,7 @@ er_dragon.0001 = { #recruit a dragon
 				save_scope_as = dragon_1
 				
 			}
-			scope:dragon_1 = { add_trait = ancient_dragon_elden_ring }
+			scope:dragon_1 = { add_trait = ancient_dragon }
 			
 			create_character = {
 				gender_female_chance = 50
@@ -60,7 +59,7 @@ er_dragon.0001 = { #recruit a dragon
 				save_scope_as = dragon_2
 				
 			}
-			scope:dragon_2 = { add_trait = lesser_dragon_elden_ring }
+			scope:dragon_2 = { add_trait = lesser_dragon }
 		}
 	}
 
@@ -139,7 +138,7 @@ er_dragon.0002 = { #fight a lesser dragon
 			culture = culture:cul_drake
 			save_scope_as = dragon_fight
 		}
-		scope:dragon_fight = { add_trait = lesser_dragon_elden_ring }
+		scope:dragon_fight = { add_trait = lesser_dragon }
 	}
 	
 
@@ -391,6 +390,4 @@ er_dragon.0004 = { #yummy yummy in my tummy
 			}
 		}
 	}
-
-
 }

@@ -22,15 +22,15 @@ on_action_child_birth_god = {
 				OR = {
 					scope:real_father = {
 						OR = {
-							has_godhood_elden_ring = yes
-							is_demigod_elden_ring = yes
+							is_god = yes
+							is_demigod = yes
 						}
 						
 					}
 					scope:mother = {
 						OR = {
-							has_godhood_elden_ring = yes
-							is_demigod_elden_ring = yes
+							is_god = yes
+							is_demigod = yes
 						}
 					}
 				}
@@ -39,20 +39,19 @@ on_action_child_birth_god = {
 				limit = {
 					AND = {
 						scope:real_father = {
-							has_trait = god_elden_ring
+							has_trait = god
 						}
 						scope:mother = {
-							has_trait = god_elden_ring
+							has_trait = god
 						}
 					}
 				}
-				add_trait = demigod_elden_ring_4
-				add_trait = empyrean_elden_ring
+				add_trait = demigod_tier_4
 				random_list = {
-					10 = {
-						add_trait = eternal_youth_elden_ring
+					5 = {
+						add_trait = eternal_youth
 					}
-					90 = {
+					95 = {
 					
 					}		
 				}
@@ -61,33 +60,33 @@ on_action_child_birth_god = {
 				limit = {
 					OR = {
 						scope:real_father = {
-							has_trait = god_elden_ring
+							has_trait = god
 						}
 						scope:mother = {
-							has_trait = god_elden_ring
+							has_trait = god
 						}
 					}
 				}
-				add_trait = demigod_elden_ring_4
+				add_trait = demigod_tier_4
 			}
 			else_if = { # the blood gets weaker 4->3
 				limit = {
 					OR = {
 						scope:real_father = {
-							has_trait = demigod_elden_ring_4
+							has_trait = demigod_tier_4
 						}
 						scope:mother = {
-							has_trait = demigod_elden_ring_4
+							has_trait = demigod_tier_4
 						}
 					}
 				}
 				
 				random_list = {
 					1 = {
-						add_trait = demigod_elden_ring_4
+						add_trait = demigod_tier_4
 					}
 					99 = {
-						add_trait = demigod_elden_ring_3
+						add_trait = demigod_tier_3
 					}
 				}
 			}
@@ -95,19 +94,19 @@ on_action_child_birth_god = {
 				limit = {
 					OR = {
 						scope:real_father = {
-							has_trait = demigod_elden_ring_3
+							has_trait = demigod_tier_3
 						}
 						scope:mother = {
-							has_trait = demigod_elden_ring_3
+							has_trait = demigod_tier_3
 						}
 					}
 				}
 				random_list = {
 					1 = {
-						add_trait = demigod_elden_ring_3
+						add_trait = demigod_tier_3
 					}
 					99 = {
-						add_trait = demigod_elden_ring_2
+						add_trait = demigod_tier_2
 					}		
 				}
 			}
@@ -115,24 +114,23 @@ on_action_child_birth_god = {
 				limit = {
 					OR = {
 						scope:real_father = {
-							has_trait = demigod_elden_ring_2
+							has_trait = demigod_tier_2
 						}
 						scope:mother = {
-							has_trait = demigod_elden_ring_2
+							has_trait = demigod_tier_2
 						}
 					}
 				}
 				random_list = {
 					1 = {
-						add_trait = demigod_elden_ring_2
+						add_trait = demigod_tier_2
 					}
 					99 = {
-						add_trait = demigod_elden_ring_1
+						add_trait = demigod_tier_1
 					}		
 				}
 			}
 		}
-		
 	}
 }
 
@@ -143,9 +141,8 @@ on_action_ai_become_empyrean = {
 				AND = {
 					is_independent_ruler = yes
 					NOR = {
-						has_trait = empyrean_elden_ring
-						#has_trait = demigod_elden_ring
-						has_trait = god_elden_ring
+						has_trait = empyrean
+						has_trait = god
 					}
 					highest_held_title_tier >= tier_empire
 					piety_level >= 5
@@ -153,14 +150,13 @@ on_action_ai_become_empyrean = {
 			}
 			random_list = {
 				5 = {
-					add_trait = empyrean_elden_ring
+					add_trait = empyrean
 				}
 				95 = {
 				
 				}		
 			}
 		}
-				
 	}
 }
 
@@ -169,19 +165,17 @@ on_action_gods_or_dragons_immune_to_old_age = {
 		if = {
 			limit = {
 				OR = {
-					has_godhood_elden_ring = yes
-					is_demigod_elden_ring = yes
-						
-					has_trait = ancient_dragon_elden_ring
-					has_trait = lesser_dragon_elden_ring
+					is_god = yes
+					is_demigod = yes
+					
+					has_trait = ancient_dragon
+					has_trait = lesser_dragon
 				}
-				
 			}
 			remove_trait = disfigured
 			remove_trait = incapable
 			remove_trait = cancer
 		}
-				
 	}
 }
 
@@ -198,7 +192,7 @@ on_action_special_tarnished_produce_normal_ones = {
 					}
 				}
 			}
-			add_trait = tarnished			
+			add_trait = tarnished		
 		}
 	}
 }
@@ -210,7 +204,7 @@ on_action_marais_children_born_sick = {
 				is_male = yes
 				dynasty = dynasty:dynn_marais
 			}
-			add_trait = sickly			
+			add_trait = sickly	
 		}
 	}
 }

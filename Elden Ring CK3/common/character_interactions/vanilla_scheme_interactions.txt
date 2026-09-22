@@ -14,17 +14,7 @@
 		scope:recipient != scope:actor
 		
 		scope:recipient = {
-			NOR = {
-				has_trait = god_elden_ring
-				has_trait = demigod_elden_ring_1
-				has_trait = demigod_elden_ring_2
-				has_trait = demigod_elden_ring_3
-				has_trait = demigod_elden_ring_4
-				has_trait = god_serpent
-				has_trait = bodiless
-				has_trait = shadowbound_beast
-				has_trait = imprisoned_evergaol
-			}
+			NOT = { cannot_be_murdered = yes }
 		}
 
 		NAND = { # Game Rules!
@@ -257,13 +247,7 @@ start_abduct = {
 		}
 		
 		scope:recipient = {
-			NOR = {
-				has_trait = god_elden_ring
-				has_trait = god_serpent
-				has_trait = bodiless
-				has_trait = shadowbound_beast
-				has_trait = imprisoned_evergaol
-			}
+			NOT = { cannot_be_murdered = yes }
 		}
 
 		NOR = {
@@ -599,15 +583,12 @@ seduce_interaction = {
 		scope:actor != scope:recipient
 		scope:recipient = {
 			is_adult = yes
-			NOR = {
-				has_trait = god_serpent
-				has_trait = no_marry
-			}
+			NOT = { cannot_be_seduced = yes }
 		}
 		
 		scope:actor = {
 			is_adult = yes
-			NOT = { has_trait = god_serpent }
+			NOT = { cannot_seduce = yes }
 		}
 
 		# Avoid seducing lowborn nobodies in foreign courts
@@ -1224,16 +1205,13 @@ court_interaction = {
 		scope:recipient = {
 			is_adult = yes
 			is_attracted_to_gender_of = scope:actor
-			NOR = {
-				has_trait = god_serpent
-				has_trait = no_marry
-			}
+			NOT = { cannot_be_seduced = yes }
 		}
 		
 		scope:actor = { 
 			this != scope:recipient
 			is_adult = yes
-			NOT = { has_trait = god_serpent }
+			NOT = { cannot_seduce = yes }
 			#Some asexuality handling
 			trigger_if = {
 				limit = { has_sexuality = asexual }

@@ -53,7 +53,6 @@ hunt_lesser_dragon_elden_ring = {
 			has_trait = incantation_dragon_communion
 			has_trait = dragon_affinity
 		}
-		
 	}
 
 	is_valid = {
@@ -65,14 +64,12 @@ hunt_lesser_dragon_elden_ring = {
         is_at_war = no
 	}
 
-
 	effect = {
 		custom_tooltip = hunt_lesser_dragon_elden_ring_tooltip
 		trigger_event = {
 			id = er_dragon.0002
 		}		
 	}
-
 
 	ai_check_interval = 60
 	cooldown = { years = 1 }	
@@ -104,14 +101,12 @@ consume_dragon_heart_elden_ring = {
         is_at_war = no
 	}
 
-
 	effect = {
 		custom_tooltip = consume_dragon_heart_elden_ring_tooltip
 		trigger_event = {
 			id = er_dragon.0004
 		}		
 	}
-
 
 	ai_check_interval = 60
 	cooldown = { years = 1 }	
@@ -124,4 +119,3 @@ consume_dragon_heart_elden_ring = {
 		base = 100
 	}
 }
-

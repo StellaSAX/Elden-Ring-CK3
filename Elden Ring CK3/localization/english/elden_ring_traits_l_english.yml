@@ -2,24 +2,26 @@
 
  ### Zelt tip, loc files should always have a space or tab before the loc itself - this improves game performance ###
 
- trait_god_elden_ring:0 "God"
- trait_demigod_elden_ring_4:0 "Demigod"
- trait_demigod_elden_ring_3:0 "Lesser Demigod"
- trait_demigod_elden_ring_2:0 "Diluted Demigod"
- trait_demigod_elden_ring_1:0 "Inkling Demigod"
- trait_empyrean_elden_ring:0 "Empyrean"
- trait_eternal_youth_elden_ring:0 "Eternal Youth"
- trait_shardbearer_elden_ring:0 "Shardbearer"
-
- trait_god_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a God, a being of great power that will cause an impact on the world."
- trait_demigod_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the descendant of a God, in their blood exist the potential for greatness."
- trait_demigod_elden_ring_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the descendant of a God, in their blood exists the potential for greatness."
- trait_demigod_elden_ring_2_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] carries the sacred blood of a God, their lineage marked by undeniable grace and quiet power."
- trait_demigod_elden_ring_3_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] bears the potent blood of a God, their very presence a reminder of divine authority and ancient might."
- trait_demigod_elden_ring_4_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] stands as near to godhood as one may without ascending, the divine blood within them burning bright and terrible."
- trait_empyrean_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was Chosen by the two fingers to have the potential to become a God, but for now they are a natural leader."
- trait_eternal_youth_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born with a condition that make them incapable of growing their body."
- trait_shardbearer_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has a fragment of the elden ring, giving them great power."
+ trait_god:0 "God"
+ trait_god_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a God, a being of great power that will cause an impact on the world."
+ 
+ trait_demigod_tier_4:0 "Demigod"
+ trait_demigod_tier_4_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] stands as near to godhood as one may without ascending, the divine blood within them burning bright and terrible."
+ trait_demigod_tier_3:0 "Lesser Demigod"
+ trait_demigod_tier_3_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] bears the potent blood of a God, their very presence a reminder of divine authority and ancient might."
+ trait_demigod_tier_2:0 "Diluted Demigod"
+ trait_demigod_tier_2_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] carries the sacred blood of a God, their lineage marked by undeniable grace and quiet power."
+ trait_demigod_tier_1:0 "Inkling Demigod"
+ trait_demigod_tier_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the descendant of a God, in their blood exists the potential for greatness."
+ 
+ trait_empyrean:0 "Empyrean"
+ trait_empyrean_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was Chosen by the two fingers to have the potential to become a God, but for now they are a natural leader."
+ 
+ trait_eternal_youth:0 "Eternal Youth"
+ trait_eternal_youth_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born with a condition that make them incapable of growing their body."
+ 
+ trait_shardbearer:0 "Shardbearer"
+ trait_shardbearer_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has a fragment of the elden ring, giving them great power."
  
  trait_mute:0 "Mute"
  trait_mute_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is unable to speak [ROOT.GetCharacter.GetHerHis] mind — or at all."
@@ -29,6 +31,9 @@
  
  trait_death_nonpermanent:0 "Dead"
  trait_death_nonpermanent_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has died in one way or another."
+ 
+ trait_imprisoned_evergaol:0 "Imprisoned in an Evergaol"
+ trait_imprisoned_evergaol_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been imprisoned within an evergaol, and will remain there for eternity unless an outside force interferes."
 
  trait_scarlet_rot_malenia:0 "Scarlet Rot"
  trait_scarlet_rot_malenia_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born with a terrible and ancient affliction which is consuming [ROOT.GetCharacter.GetHerHis] body, leaving [ROOT.GetCharacter.GetHerHim] with a deformed appearance and terrible nightmares."
@@ -150,17 +155,15 @@
  trait_track_scales:0 "Scales"
  trait_track_scales_desc:0 "Scales cover their arms and shoulders"
 
- trait_omen_horn_trait:0 "Omen"
- trait_omen_no_horn_trait:0 "Hornless Omen"
+ trait_omen_horned:0 "Omen"
+ trait_omen_horned_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born an Omen, with greater physical strength than the average individual and horns protruding from different parts of their body."
+ trait_omen_hornless:0 "Hornless Omen"
+ trait_omen_hornless_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has had their horns excised painfully, their life being forever changed. Whether this is for better or worse is for their respective faiths to decide."
 
- trait_ancient_dragon_elden_ring:0 "Ancient Dragon"
- trait_lesser_dragon_elden_ring:0 "Drake"
-
- trait_misbegotten_trait_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born with the power of the Crucible, it can be seen as a blessing or curse depending on how it's used."
- trait_omen_horn_trait_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born as a Omen, with great physical strength and horns protecting their body, sadly their horns get in the way of everyday life."
- trait_omen_no_horn_trait_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] had their horns excised painfully, their life forever changed, for better or worse it's for their faith to decide."
- trait_ancient_dragon_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a great Dragon, a being that has truly been blessed by the crucible, they have control over red lightning and can teach about dragon communion."
- trait_lesser_dragon_elden_ring_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a lesser Dragon, a pale imitation of the ancient ones, but still a powerful creature."
+ trait_ancient_dragon:0 "Ancient Dragon"
+ trait_ancient_dragon_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a great Dragon, a being that has truly been blessed by the crucible, they have control over red lightning and can teach about dragon communion."
+ trait_lesser_dragon:0 "Drake"
+ trait_lesser_dragon_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Drake, a pale imitation of the ancient ones, but still a powerful creature."
 
  trait_order_affinity:0 "Order Affinity"
  trait_frenzy_affinity:0 "Frenzied Flame Affinity"

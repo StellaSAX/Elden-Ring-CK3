@@ -12,25 +12,19 @@ on_action_ambitious_demigod_becomes_empyrean = {
 			limit = {
 				NOT = {
 					any_living_character = {
-						has_trait = empyrean_elden_ring
+						has_trait = empyrean
 					}
 				}
 				AND = {
-					OR = {
-						has_trait = demigod_elden_ring_4
-						has_trait = demigod_elden_ring_3
-						has_trait = demigod_elden_ring_2
-						has_trait = demigod_elden_ring_1
-					}
+					is_demigod = yes
 					has_trait = ambitious
 					is_adult = yes
 					is_ruler = no
 					is_ai = yes
 				}	
 			}
-			add_trait = empyrean_elden_ring
+			add_trait = empyrean
 		}
-		
 	}
 }
 
@@ -39,7 +33,7 @@ on_action_empyrean_becomes_adventurer = {
 		if = { # an empyrean becomes an adventurer
 			limit = {
 				AND = {
-					has_trait = empyrean_elden_ring
+					has_trait = empyrean
 					is_adult = yes
 					is_ruler = no
 					NOT = { has_trait = content }
@@ -52,7 +46,6 @@ on_action_empyrean_becomes_adventurer = {
 			}
 			trigger_event = er_god.0002
 		}
-		
 	}
 }
 
@@ -61,7 +54,7 @@ on_action_empyrean_becomes_god_for_ai = {
 		if = { # an empyrean becomes a God, this is so that gods can appear ingame, the decision is a little hard for the ai
 			limit = {
 				AND = {
-					has_trait = empyrean_elden_ring							
+					has_trait = empyrean					
 					is_adult = yes
 					is_landed = yes
 					highest_held_title_tier >= tier_empire
@@ -71,7 +64,6 @@ on_action_empyrean_becomes_god_for_ai = {
 				}
 			}
 			trigger_event = er_artifacts.0002 # Create elden ring
-			
 		}
 	}
 }

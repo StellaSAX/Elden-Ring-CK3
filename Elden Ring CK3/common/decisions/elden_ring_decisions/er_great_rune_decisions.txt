@@ -31,10 +31,9 @@
         is_landed = yes
 		piety_level >= high_piety_level
 		OR = {
-			has_godhood_elden_ring = yes
-			is_demigod_elden_ring = yes
+			is_god = yes
+			is_demigod = yes
 		}
-		
 	}
 
 	is_valid_showing_failures_only = {
@@ -94,7 +93,7 @@ create_elden_ring_decisions = {
 		is_independent_ruler = yes
         is_landed = yes
 		piety_level >= high_piety_level
-		has_godhood_elden_ring = yes
+		is_god = yes
 		custom_tooltip = {
 			text = has_great_rune_for_elden_ring
 			any_character_artifact = { has_variable = great_rune_variable }

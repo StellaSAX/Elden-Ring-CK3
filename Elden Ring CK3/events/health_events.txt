@@ -11880,8 +11880,8 @@ health.7000 = {
 			has_game_rule = off_elderly_health
 			has_trait_with_flag = is_immortal
 			
-			has_godhood_elden_ring = yes
-			is_demigod_elden_ring = yes
+			is_god = yes
+			is_demigod = yes
 			has_special_body = yes
 			is_tarnished = yes
 			global_var:rune_of_death_bound = yes
@@ -12104,8 +12104,8 @@ health.7200 = {
 			has_game_rule = infirm_only_elderly_health
 			has_trait_with_flag = is_immortal
 			
-			has_godhood_elden_ring = yes
-			is_demigod_elden_ring = yes
+			is_god = yes
+			is_demigod = yes
 			has_special_body = yes
 			is_tarnished = yes
 			global_var:rune_of_death_bound = yes
@@ -12331,8 +12331,8 @@ health.7300 = {
 			has_game_rule = infirm_only_elderly_health
 			has_trait_with_flag = is_immortal
 			
-			has_godhood_elden_ring = yes
-			is_demigod_elden_ring = yes
+			is_god = yes
+			is_demigod = yes
 			has_special_body = yes
 			is_tarnished = yes
 			global_var:rune_of_death_bound = yes
@@ -12472,8 +12472,8 @@ health.7400 = {
 			has_game_rule = infirm_only_elderly_health
 			has_trait_with_flag = is_immortal
 			
-			has_godhood_elden_ring = yes
-			is_demigod_elden_ring = yes
+			is_god = yes
+			is_demigod = yes
 			has_special_body = yes
 			is_tarnished = yes
 			global_var:rune_of_death_bound = yes
@@ -12683,8 +12683,8 @@ health.7500 = {
 			has_game_rule = infirm_only_elderly_health
 			has_trait_with_flag = is_immortal
 			
-			has_godhood_elden_ring = yes
-			is_demigod_elden_ring = yes
+			is_god = yes
+			is_demigod = yes
 			has_special_body = yes
 			is_tarnished = yes
 			global_var:rune_of_death_bound = yes

@@ -96,21 +96,6 @@ on_action_put_regents_in_charge = {
 				}
 				set_diarchy_swing = 100
 			}
-			character:radahn = {
-				designate_diarch = character:jerren
-				try_start_diarchy = regency		
-				set_variable = {
-					name = my_vizier
-					value = character:jerren
-				}
-				add_hook = {
-					type = loyalty_hook
-					target = character:jerren				
-				}
-				set_diarchy_swing = 100
-			}
-			
-			
 		}
 	}
 } 
@@ -144,7 +129,6 @@ on_action_give_splendor_and_remove_points = {
 			add_dynasty_modifier = renown_debt_for_kenneth
 			add_dynasty_prestige = -10062
 		}
-		
 		dynasty:dynn_erdtree ?= {
 			add_dynasty_prestige = -197601
 		}
@@ -159,7 +143,6 @@ on_action_give_splendor_and_remove_points = {
 		}
 	}
 } 
-
 
 #Dan:i am just doing some reasearch about plagues
 # on_action_place_scarlet_rot_on_caelid = {
