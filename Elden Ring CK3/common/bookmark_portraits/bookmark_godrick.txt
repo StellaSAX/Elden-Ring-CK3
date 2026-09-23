@@ -4,7 +4,7 @@ bookmark_godrick={
 	type=male
 	id=136
 	random_seed=3638271012
-	age=0.252555
+	age=0.252553
 	genes={ 		hair_color={ 0 11 174 171 }
  		skin_color={ 17 2 126 80 }
  		eye_color={ 89 0 191 177 }
@@ -97,8 +97,8 @@ bookmark_godrick={
  		expression_other={ "cheek_wrinkles_both_01" 28 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_3" 166 "complexion_3" 166 }
  		gene_height={ "normal_height" 182 "normal_height" 126 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 31 "body_fat_head_fat_medium" 125 }
- 		gene_bs_body_shape={ "body_shape_rectangle_half" 207 "body_shape_rectangle_half" 0 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 30 "body_fat_head_fat_medium" 125 }
+ 		gene_bs_body_shape={ "body_shape_rectangle_half" 210 "body_shape_rectangle_half" 0 }
  		gene_bs_bust={ "bust_clothes" 32 "bust_shape_4_half" 83 }
  		gene_age={ "old_4" 230 "old_4" 230 }
  		gene_eyebrows_shape={ "far_spacing_avg_thickness" 144 "far_spacing_avg_thickness" 144 }
@@ -119,7 +119,7 @@ bookmark_godrick={
  		hair_color_saturation_mhec={ "vanilla_hair_color_saturation_mhec" 127 "vanilla_hair_color_saturation_mhec" 127 }
  		hair_color_value_mhec={ "vanilla_hair_color_value_mhec" 127 "vanilla_hair_color_value_mhec" 127 }
  		beards={ "no_beard" 255 "no_beard" 0 }
- 		cloaks={ "sp3_cloak" 60 "no_cloak" 0 }
+ 		cloaks={ "ep2_cloak_western_era1_high_nobility" 255 "no_cloak" 0 }
  		hairstyles={ "rtt_hairstyles" 127 "all_hairstyles" 0 }
  		legwear={ "western_common_legwear" 148 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
@@ -128,8 +128,8 @@ bookmark_godrick={
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
  		gene_enclosed_helmet={ "enclosed_helmet" 255 "enclosed_helmet" 0 }
- 		clothes={ "sp3_western_royalty_clothes" 141 "most_clothes" 0 }
- 		headgear={ "sub_saharan_royalty" 146 "no_headgear" 0 }
+ 		clothes={ "pol_low_nobility_clothes" 127 "most_clothes" 0 }
+ 		headgear={ "ep3_byzantine_era1_imperial" 255 "no_headgear" 0 }
  		clothes_hoods={ "hoods" 209 "no_clothes_hood" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
@@ -137,6 +137,9 @@ bookmark_godrick={
 		portrait_modifier_overrides={
 			custom_hair=male_hair_rtt_01
 			custom_beards=male_empty
+			custom_headgear=m_headgear_sec_ep3_byzantine_era1_imp_01
+			custom_clothes=m_clothes_sec_pol_low_nob_01
+			custom_cloaks=m_cloaks_sec_ep2_western_era1_nob_01_hi
 		}
 	}
 
@@ -146,11 +149,11 @@ bookmark_godrick={
 			invert=no
 		}
  {
-			hash=681013727
+			hash=4280794887
 			invert=no
 		}
  {
-			hash=726151402
+			hash=681013727
 			invert=no
 		}
  {
@@ -158,23 +161,11 @@ bookmark_godrick={
 			invert=no
 		}
  {
-			hash=2495432340
-			invert=no
-		}
- {
-			hash=3672171019
-			invert=no
-		}
- {
-			hash=1921638387
-			invert=no
-		}
- {
 			hash=2670398845
 			invert=no
 		}
  {
-			hash=1219709797
+			hash=1500963499
 			invert=no
 		}
  {

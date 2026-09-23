@@ -20,7 +20,7 @@
 	trait = temperate
 	trait = trusting
 	trait = education_martial_3
-	trait = beauty_good_2
+	trait = beauty_good_1
 	trait = rot_affinity
 	trait = no_marry
 	
@@ -48,7 +48,7 @@
 polyanna = {
 	name = "Polyanna"
 	female = yes
-	#dna = polyanna_dna
+	dna = polyanna_dna
 	sexuality = bisexual
 	dynasty = dynn_aeonia
 	
@@ -76,6 +76,13 @@ polyanna = {
 	disallow_random_traits = yes
 	
 	mother = malenia
+	
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=f_hair_ep3_byzantine_02_common
+			custom_beards=female_empty
+		}
+	}
 	
 	7748.1.15 = {
 		birth = yes
@@ -88,7 +95,7 @@ polyanna = {
 amy = {
 	name = "Amy"
 	female = yes
-	#dna = amy_dna
+	dna = amy_dna
 	sexuality = bisexual
 	dynasty = dynn_aeonia
 	
@@ -117,6 +124,13 @@ amy = {
 	
 	mother = malenia
 	
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=female_hair_fp1_06
+			custom_beards=female_empty
+		}
+	}
+	
 	7748.1.10 = {
 		birth = yes
 		effect = {
@@ -128,7 +142,7 @@ amy = {
 maureen = {
 	name = "Maureen"
 	female = yes
-	#dna = maureen_dna
+	dna = maureen_dna
 	sexuality = bisexual
 	dynasty = dynn_aeonia
 	
@@ -157,6 +171,13 @@ maureen = {
 	
 	mother = malenia
 	
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=female_hair_rtt_02
+			custom_beards=female_empty
+		}
+	}
+	
 	7748.1.5 = {
 		birth = yes
 		effect = {
@@ -168,7 +189,7 @@ maureen = {
 mary = {
 	name = "Mary"
 	female = yes
-	#dna = mary_dna
+	dna = mary_dna
 	sexuality = bisexual
 	dynasty = dynn_aeonia
 	
@@ -196,6 +217,13 @@ mary = {
 	disallow_random_traits = yes
 	
 	mother = malenia
+	
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=female_hair_fp2_iberian_christian_02
+			custom_beards=female_empty
+		}
+	}
 	
 	7748.1.1 = {
 		birth = yes
@@ -406,6 +434,11 @@ elemer = {
 		portrait_modifier_overrides={
 			custom_hair=m_hair_sp4_mena_01
 			custom_beards=male_empty
+			
+			custom_headgear=m_headgear_sec_ep2_western_era4_war_nob_02
+			custom_clothes=m_clothes_sec_byzantine_war_nob_01_roy
+			custom_legwear=m_legwear_sec_ep3_byzantine_war_nobility_01_lo
+			custom_cloaks=male_cloaks_secular_ep1_adventurer_01
 		}
 	}
 	

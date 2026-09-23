@@ -33,6 +33,10 @@ Loretta
 Elemer
 Dung Eater
 Millicent
+Polyanna
+Amy
+Maureen
+Mary
 
 To-Do:
 
@@ -54,10 +58,6 @@ Yura
 Goldmask
 Azur
 Lusat
-Polyanna
-Amy
-Maureen
-Mary
 Hyetta
 Latenna
 Rya

@@ -4,7 +4,7 @@ bookmark_mohg={
 	type=male
 	id=44
 	random_seed=322519958
-	age=0.266563
+	age=0.266561
 	genes={ 		hair_color={ 1 229 226 226 }
  		skin_color={ 20 1 70 31 }
  		eye_color={ 1 48 127 73 }
@@ -97,7 +97,7 @@ bookmark_mohg={
  		expression_other={ "cheek_wrinkles_both_01" 255 "cheek_wrinkles_both_01" 126 }
  		complexion={ "complexion_1" 69 "complexion_1" 69 }
  		gene_height={ "normal_height" 214 "normal_height" 109 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 144 "body_fat_head_fat_low" 129 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 129 "body_fat_head_fat_low" 129 }
  		gene_bs_body_shape={ "body_shape_average_clothed" 255 "body_shape_hourglass_half" 0 }
  		gene_bs_bust={ "bust_clothes" 21 "bust_shape_3_half" 102 }
  		gene_age={ "no_aging" 29 "old_2" 29 }
@@ -127,17 +127,21 @@ bookmark_mohg={
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
  		gene_enclosed_helmet={ "enclosed_helmet" 255 "enclosed_helmet" 0 }
- 		clothes={ "ep2_western_era1_high_nobility_clothes" 22 "most_clothes" 0 }
- 		headgear={ "ep1_western_royalty" 179 "no_headgear" 0 }
+ 		clothes={ "sp3_western_royalty_clothes" 255 "most_clothes" 0 }
+ 		headgear={ "no_headgear" 255 "no_headgear" 0 }
  		additive_headgear={ "ep2_western_era1_veils" 17 "no_additive" 0 }
  		clothes_hoods={ "hoods" 212 "no_clothes_hood" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
+ 		cloaks={ "ep3_byzantine_era2_roy_01_loros" 255 "no_cloak" 0 }
  		gene_cloak={ "cloak_additive" 255 "cloak_additive" 0 }
  }
 	override={
 		portrait_modifier_overrides={
 			custom_beards=m_beard_ep3_byzantine_02
 			custom_hair=m_hair_fp3_iranian_01
+			custom_headgear=male_empty
+			custom_clothes=m_clothes_sec_sp3_western_roy_01
+			custom_cloaks=m_cloaks_sec_ep3_byzantine_era2_roy_01_loros
 		}
 	}
 
@@ -151,19 +155,19 @@ bookmark_mohg={
 			invert=no
 		}
  {
+			hash=726151402
+			invert=no
+		}
+ {
+			hash=4248726513
+			invert=no
+		}
+ {
 			hash=75156179
 			invert=no
 		}
  {
-			hash=3672171019
-			invert=no
-		}
- {
 			hash=2670398845
-			invert=no
-		}
- {
-			hash=1500963499
 			invert=no
 		}
  {

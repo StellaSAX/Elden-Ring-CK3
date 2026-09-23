@@ -59,6 +59,11 @@ rennala = {
 		portrait_modifier_overrides={
 			custom_hair=f_hair_ep3_byzantine_01_common
 			custom_beards=female_empty
+			
+			custom_headgear=f_headgear_sec_sp3_western_roy_01
+			custom_clothes=f_clothes_sec_ep2_western_era1_nob_01_hi
+			custom_special_crowns_crests=female_empty
+			custom_legwear=female_legwear_secular_mena_nobility_01
 		}
 	}
 	

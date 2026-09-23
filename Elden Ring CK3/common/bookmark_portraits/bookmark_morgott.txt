@@ -4,7 +4,7 @@ bookmark_morgott={
 	type=male
 	id=43
 	random_seed=3195954018
-	age=0.266563
+	age=0.266561
 	genes={ 		hair_color={ 2 7 119 253 }
  		skin_color={ 42 87 67 98 }
  		eye_color={ 94 11 221 166 }
@@ -97,7 +97,7 @@ bookmark_morgott={
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_7" 255 "complexion_7" 218 }
  		gene_height={ "normal_height" 211 "normal_height" 139 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 46 "body_fat_head_fat_full" 114 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 31 "body_fat_head_fat_full" 114 }
  		gene_bs_body_shape={ "body_shape_rectangle_half" 255 "body_shape_rectangle_half" 0 }
  		gene_bs_bust={ "bust_clothes" 0 "bust_shape_4_full" 101 }
  		gene_age={ "old_2" 201 "old_2" 201 }
@@ -127,16 +127,20 @@ bookmark_morgott={
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
  		gene_enclosed_helmet={ "enclosed_helmet" 255 "enclosed_helmet" 0 }
- 		clothes={ "ep2_western_era1_high_nobility_clothes" 101 "most_clothes" 0 }
- 		headgear={ "ep1_western_royalty" 175 "no_headgear" 0 }
+ 		clothes={ "tgp_chinese_ministers" 28 "most_clothes" 0 }
+ 		headgear={ "no_headgear" 255 "no_headgear" 0 }
  		additive_headgear={ "ep2_western_era1_veils" 84 "no_additive" 0 }
  		clothes_hoods={ "hoods" 84 "no_clothes_hood" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
+ 		cloaks={ "ep1_cloak_adventurer" 255 "no_cloak" 0 }
  }
 	override={
 		portrait_modifier_overrides={
 			custom_hair=m_hair_fp3_iranian_01
 			custom_beards=m_beard_tgp_chinese_09
+			custom_headgear=male_empty
+			custom_clothes=m_clothes_sec_tgp_chinese_roy_01_m1
+			custom_cloaks=male_cloaks_secular_ep1_adventurer_01
 		}
 	}
 
@@ -150,19 +154,15 @@ bookmark_morgott={
 			invert=no
 		}
  {
+			hash=4248726513
+			invert=no
+		}
+ {
 			hash=75156179
 			invert=no
 		}
  {
-			hash=3672171019
-			invert=no
-		}
- {
 			hash=2670398845
-			invert=no
-		}
- {
-			hash=1500963499
 			invert=no
 		}
  {

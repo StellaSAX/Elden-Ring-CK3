@@ -120,17 +120,17 @@ bookmark_elemer={
  		hair_color_value_mhec={ "vanilla_hair_color_value_mhec" 127 "vanilla_hair_color_value_mhec" 127 }
  		gene_scars_battle={ "scars_battle" 255 "scars_battle" 0 }
  		beards={ "no_beard" 255 "no_beard" 0 }
- 		cloaks={ "no_cloak" 122 "no_cloak" 0 }
+ 		cloaks={ "ep1_cloak_adventurer" 255 "no_cloak" 0 }
  		hairstyles={ "sp4_mena_hairstyles" 255 "all_hairstyles" 0 }
- 		legwear={ "western_common_legwear" 109 "all_legwear" 0 }
+ 		legwear={ "ep3_byzantine_war_nobility_legwear" 127 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_ear_stretch={ "ear_stretch" 255 "ear_stretch" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
  		gene_enclosed_helmet={ "enclosed_helmet" 255 "enclosed_helmet" 0 }
- 		clothes={ "ep2_western_era3_low_nobility_clothes" 252 "most_clothes" 0 }
- 		headgear={ "ep2_western_era3_nobility" 205 "no_headgear" 0 }
+ 		clothes={ "byzantine_war_nobility_clothes" 255 "most_clothes" 0 }
+ 		headgear={ "ep2_western_era4_war_nobility" 191 "no_headgear" 0 }
  		clothes_hoods={ "hoods" 7 "no_clothes_hood" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
@@ -138,12 +138,24 @@ bookmark_elemer={
 		portrait_modifier_overrides={
 			custom_hair=m_hair_sp4_mena_01
 			custom_beards=male_empty
+			custom_headgear=m_headgear_sec_ep2_western_era4_war_nob_02
+			custom_clothes=m_clothes_sec_byzantine_war_nob_01_roy
+			custom_legwear=m_legwear_sec_ep3_byzantine_war_nobility_01_lo
+			custom_cloaks=male_cloaks_secular_ep1_adventurer_01
 		}
 	}
 
 	entity={ 2268070609 2268070609 }
 	tags={ {
+			hash=930879859
+			invert=no
+		}
+ {
 			hash=2125534279
+			invert=no
+		}
+ {
+			hash=4280794887
 			invert=no
 		}
  {
@@ -151,7 +163,11 @@ bookmark_elemer={
 			invert=no
 		}
  {
-			hash=3672171019
+			hash=2495432340
+			invert=no
+		}
+ {
+			hash=1921638387
 			invert=no
 		}
  {
@@ -163,7 +179,7 @@ bookmark_elemer={
 			invert=no
 		}
  {
-			hash=1485265044
+			hash=2842715111
 			invert=no
 		}
  {

@@ -4,7 +4,7 @@ bookmark_rykard={
 	type=male
 	id=51
 	random_seed=3903878219
-	age=0.266183
+	age=0.266181
 	genes={ 		hair_color={ 255 202 179 190 }
  		skin_color={ 53 84 36 93 }
  		eye_color={ 103 34 76 158 }
@@ -97,7 +97,7 @@ bookmark_rykard={
  		expression_other={ "cheek_wrinkles_both_01" 44 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_7" 255 "complexion_7" 137 }
  		gene_height={ "normal_height" 193 "normal_height" 131 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 87 "body_fat_head_fat_full" 125 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 113 "body_fat_head_fat_full" 125 }
  		gene_bs_body_shape={ "body_shape_apple_half" 255 "body_shape_apple_half" 0 }
  		gene_bs_bust={ "bust_clothes" 73 "bust_shape_4_full" 116 }
  		gene_age={ "old_4" 36 "old_4" 36 }
@@ -119,7 +119,7 @@ bookmark_rykard={
  		hair_color_saturation_mhec={ "vanilla_hair_color_saturation_mhec" 127 "vanilla_hair_color_saturation_mhec" 127 }
  		hair_color_value_mhec={ "vanilla_hair_color_value_mhec" 127 "vanilla_hair_color_value_mhec" 127 }
  		beards={ "ep3_beards_curly" 191 "no_beard" 0 }
- 		cloaks={ "ep2_cloak_western_era1_low_nobility" 146 "no_cloak" 0 }
+ 		cloaks={ "fp4_cloak_western" 170 "no_cloak" 0 }
  		hairstyles={ "western_hairstyles_straight" 185 "all_hairstyles" 0 }
  		legwear={ "western_common_legwear" 81 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
@@ -128,8 +128,8 @@ bookmark_rykard={
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
  		gene_enclosed_helmet={ "enclosed_helmet" 255 "enclosed_helmet" 0 }
- 		clothes={ "western_high_nobility_clothes" 42 "most_clothes" 0 }
- 		headgear={ "western_high_nobility" 65 "no_headgear" 0 }
+ 		clothes={ "western_high_nobility_clothes" 255 "most_clothes" 0 }
+ 		headgear={ "dde_hre_high_nobility" 255 "no_headgear" 0 }
  		additive_headgear={ "ep2_western_era2_veils" 212 "no_additive" 0 }
  		clothes_hoods={ "hoods" 219 "no_clothes_hood" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
@@ -138,11 +138,18 @@ bookmark_rykard={
 		portrait_modifier_overrides={
 			custom_hair=male_hair_western_07
 			custom_beards=m_beard_ep3_byzantine_03
+			custom_headgear=male_headgear_secular_dde_hre_high_nobility_02
+			custom_cloaks=m_cloaks_sec_fp4_western_era3_nob_02_a
+			custom_clothes=male_clothes_secular_dde_hre_nobility_01_high
 		}
 	}
 
 	entity={ 2268070609 2268070609 }
 	tags={ {
+			hash=3570178683
+			invert=no
+		}
+ {
 			hash=2125534279
 			invert=no
 		}
@@ -152,6 +159,10 @@ bookmark_rykard={
 		}
  {
 			hash=75156179
+			invert=no
+		}
+ {
+			hash=3672171019
 			invert=no
 		}
  {

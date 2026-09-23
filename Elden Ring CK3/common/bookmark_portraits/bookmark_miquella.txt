@@ -128,7 +128,7 @@ bookmark_miquella={
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
  		gene_enclosed_helmet={ "enclosed_helmet" 255 "enclosed_helmet" 0 }
- 		clothes={ "fp4_western_era3_high_nobility_clothes" 225 "most_clothes" 0 }
+ 		clothes={ "tgp_chinese_royalty_clothes" 255 "most_clothes" 0 }
  		headgear={ "western_high_nobility" 189 "no_headgear" 0 }
  		additive_headgear={ "ep2_western_era3_veils" 122 "no_additive" 0 }
  		clothes_hoods={ "hoods" 190 "no_clothes_hood" 0 }
@@ -139,16 +139,13 @@ bookmark_miquella={
 		portrait_modifier_overrides={
 			custom_beards=male_empty
 			custom_hair=m_hair_fp3_iranian_01
+			custom_clothes=m_clothes_sec_tgp_chinese_roy_01
 		}
 	}
 
 	entity={ 979141817 979141817 }
 	tags={ {
 			hash=2125534279
-			invert=no
-		}
- {
-			hash=1554943520
 			invert=no
 		}
  {
