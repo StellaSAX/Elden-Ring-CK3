@@ -253,11 +253,19 @@
  trait_manserpent:0 "Manserpent"
  trait_manserpent_desc:0 "It is said that long ago, the elder serpent that dwelled on Mt. Gelmir devoured a demigod, and the birth of the man-serpents followed."
 
- trait_albinauric:0 "Albinauric"
- trait_albinauric_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an artificial creature living an impure life untouched by grace. [ROOT.GetCharacter.GetHerHis] fate is the same as for all Albinaurics; to slowly lose [ROOT.GetCharacter.GetHerHis] legs and wither away."
-
  trait_god_serpent:0 "God-Devouring Serpent"
  trait_god_serpent_desc:0 "Neither man nor god, [ROOT.GetCharacter.GetFirstNameNoTooltip] has become nothing short of an abomination. His hunger will not be quenched until his death or until he has devoured all in this world."
+ 
+ trait_albinauric:0 "Albinauric"
+ trait_albinauric_1:0 "Aged Albinauric"
+ trait_albinauric_2:0 "Elder Albinauric"
+ trait_albinauric_3:0 "Faded Albinauric"
+ trait_albinauric_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an artificial creature living an impure life untouched by grace. [ROOT.GetCharacter.GetHerHis] fate is the same as for all Albinaurics; to slowly lose [ROOT.GetCharacter.GetHerHis] legs and wither away."
+ trait_albinauric_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]'s legs have started withering away, though it will take a great while longer for their life to near it's end."
+ trait_albinauric_2_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]'s legs have almost fully faded away, a sign of their advanced age."
+ trait_albinauric_3_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]'s life has faded away."
+ trait_track_albinauric:0 "Albinauric Aging"
+ trait_track_albinauric_desc:0 "Watch your legsies."
  
  trait_sorcery_glintstone:0 "Glintstone [Select_CString(ROOT.Char.IsFemale,'Sorceress','Sorcerer')]"
  trait_sorcery_glintstone_1:0 "Novice Glintstone [Select_CString(ROOT.Char.IsFemale,'Sorceress','Sorcerer')]"

@@ -102,11 +102,122 @@ lesser_dragon = {
 
 albinauric = {
 	category = health
-	shown_in_ruler_designer = no
 	icon = "albinauric.dds"
-	same_opinion = 35
-	fertility = -0.5
-	life_expectancy = -20
+	ruler_designer_cost = 0
+	same_opinion = 20
+	#fertility = -0.25
+	immortal = yes
+	can_have_children = no
+	
+	track = {
+		33 = {
+			character_travel_speed_mult = -0.15
+			prowess_mult = -0.15
+			#fertility = -0.25
+		}
+		66 = {
+			character_travel_speed_mult = -0.35
+			prowess_mult = -0.25
+			#fertility = -0.4
+		}
+		100 = {
+			health = -100
+		}
+	}
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_albinauric
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = albinauric
+						value >= 100
+					}
+				}
+				desc = trait_albinauric_3
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = albinauric
+						value >= 66
+					}
+				}
+				desc = trait_albinauric_2
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = albinauric
+						value >= 33
+					}
+				}
+				desc = trait_albinauric_1
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = albinauric
+						value < 33
+					}
+				}
+				desc = trait_albinauric
+			}
+			desc = trait_albinauric
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_albinauric_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = albinauric
+						value >= 100
+					}
+				}
+				desc = trait_albinauric_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = albinauric
+						value >= 66
+					}
+				}
+				desc = trait_albinauric_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = albinauric
+						value >= 33
+					}
+				}
+				desc = trait_albinauric_1_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = albinauric
+						value < 33
+					}
+				}
+				desc = trait_albinauric_desc
+			}
+			desc = trait_albinauric_desc
+		}
+	}
 }
 
 manserpent = {

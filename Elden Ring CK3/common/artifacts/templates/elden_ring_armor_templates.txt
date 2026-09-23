@@ -14,5 +14,14 @@
 	unique = yes
 	ai_score = {
 		value = 100
+		if = {
+			limit = {
+				NAND = {
+					is_adult = yes
+					is_female = yes
+				}
+			}
+			add = -10000
+		}
 	}
 }

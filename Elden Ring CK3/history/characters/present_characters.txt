@@ -785,6 +785,7 @@ loretta = {
 	trait = compassionate
 	trait = education_martial_4
 	trait = carian_affinity
+	trait = albinauric
 	trait = no_marry
 	
 	give_nickname = nick_knight_of_the_haligtree
@@ -805,6 +806,11 @@ loretta = {
 		}
 		add_character_modifier = {
 			modifier = gift_from_the_eternal
+		}
+	}
+	935.1.1 = {
+		add_character_modifier = {
+			modifier = halted_albinauric_aging
 		}
 	}
 	1134.7.12 = {
@@ -3203,6 +3209,11 @@ gaius = {
 		}
 		add_character_modifier = {
 			modifier = gift_from_the_eternal
+		}
+	}
+	1008.5.27 = {
+		add_character_modifier = {
+			modifier = halted_albinauric_aging
 		}
 	}
 	1662.9.8 = {

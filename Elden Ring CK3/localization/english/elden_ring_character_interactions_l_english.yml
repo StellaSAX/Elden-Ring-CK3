@@ -43,3 +43,6 @@
  
  death_scarlet_rot:0 "succumbed to the Scarlet Rot"
  death_scarlet_rot_killer:0 "was killed with Scarlet Rot by [TARGET_CHARACTER.GetUIName]"
+ 
+ death_albinauric_age:0 "faded away"
+ death_albinauric_age_killer:0 "was faded away by [TARGET_CHARACTER.GetUIName]"

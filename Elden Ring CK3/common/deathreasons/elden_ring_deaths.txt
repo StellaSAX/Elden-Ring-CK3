@@ -23,3 +23,7 @@ death_black_knives = {
 death_scarlet_rot = {
 	icon = "death_scarlet_rot.dds"
 }
+
+death_albinauric_age = {
+	icon = "death_albinauric_age.dds"
+}

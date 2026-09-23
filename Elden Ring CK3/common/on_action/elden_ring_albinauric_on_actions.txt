@@ -1,0 +1,57 @@
+﻿on_birthday_albinauric = {
+	trigger = {
+		#is_adult = yes
+		age >= 40
+		has_trait = albinauric
+		NOT = { is_dead_temporarily = yes }
+		NOT = { has_character_modifier = halted_albinauric_aging }
+	}
+	effect = {
+		if = {
+			limit = {
+				age <= 95
+			}
+			random_list = {
+				10 = {
+					add_trait_xp = { trait = albinauric value=1 }
+				}
+				90 = {
+					
+				}
+			}
+		}
+		if = {
+			limit = {
+				age > 95
+			}
+			random_list = {
+				20 = {
+					add_trait_xp = { trait = albinauric value=1 }
+				}
+				80 = {
+					
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_trait_xp = { trait = albinauric track = albinauric value >= 100 }
+			}
+			death = { death_reason = death_albinauric_age }
+		}
+	}
+}
+
+#er_albinauric_death = {
+#	trigger = {
+#		root = {
+#			has_trait = albinauric
+#			has_trait_xp = { trait = albinauric track = albinauric value >= 100 }
+#		}
+#	}
+#	effect = {
+#		prev = {
+#			death = { death_reason = death_albinauric_age }
+#		}
+#	}
+#}

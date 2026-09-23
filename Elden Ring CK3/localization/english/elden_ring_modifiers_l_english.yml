@@ -9,6 +9,8 @@
  renown_debt_for_kenneth_desc:0 "He and his blood need to prove themselves."
  land_of_shadows_passage:0 "Realm Unveiled"
  land_of_shadows_passage_desc:0 "This character is able to travel between the Lands Between and the Realm of Shadow."
+ halted_albinauric_aging:0 "Halted Albinauric Aging"
+ halted_albinauric_aging_desc:0 "Through one method or another, this character has managed to halt their Albinauric aging process."
  
  development_focus:0 "Increased Development Efforts"
  development_focus_desc:0 "A well-maintained castle is the best castle."
@@ -16,4 +18,4 @@
  tax_focus_desc:0 "Tax the poor. Tax the rich. Tax them all!"
  
  veteran_of_the_shattering:0 "Veteran of the Shattering"
- veteran_of_the_shattering_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] fought during the shattering wars and survived, gaining great expertise in the art of war."
+ veteran_of_the_shattering_desc:0 "This character fought during the shattering wars and survived, gaining great expertise in the art of war."

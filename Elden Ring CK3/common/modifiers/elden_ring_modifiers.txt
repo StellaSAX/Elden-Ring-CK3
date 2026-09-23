@@ -41,6 +41,10 @@ land_of_shadows_passage = {
 	can_travel_along_rivers = yes
 }
 
+halted_albinauric_aging = {
+	icon = albinauric_ageless
+}
+
 development_focus = {
 	icon = county_modifier_development_positive
 	county_opinion_add = 10
