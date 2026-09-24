@@ -316,58 +316,6 @@ gain_trait_sanguine_noble = {
 	}
 }
 
-become_lord_of_blood = {
-	ai_check_interval = 60
-	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
-	}
-	sort_order = 10
-	decision_group_type = decisions
-
-	is_shown = {
-		AND = {
-			has_trait = sanguine_noble
-			highest_held_title_tier >= tier_kingdom
-		}
-	}
-	
-	is_valid = {
-		AND = {
-			piety >= 5000
-			prestige_level >= 4
-		}    
-	}
-
-	is_valid_showing_failures_only = {
-		is_imprisoned = no
-	}
-
-	cost = {
-		piety = {
-			value = 5000
-		}
-	}
-
-	#cooldown = { years = 5 }
-	cooldown = { months = 5 }
-	
-	ai_check_interval = 50
-
-
-	effect = {
-		remove_trait = sanguine_noble
-		add_trait = lord_of_blood
-	}
-	
-	ai_potential = {
-		always = yes
-	}
-	
-	ai_will_do = {
-		base = 100
-	}
-}
-
 gain_nickname_elden_ring = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"

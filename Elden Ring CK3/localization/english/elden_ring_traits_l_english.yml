@@ -131,9 +131,6 @@
  trait_sanguine_noble:0 "Sanguine Noble"
  trait_sanguine_noble_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has declared themselves or was awarded the title of noble blessed by accursed blood."
 
- trait_lord_of_blood:0 "Lord of Blood"
- trait_lord_of_blood_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] declared themselves the Lord of Blood, they caouse terror in the heart of the weak becouse of their desire for wounds."
-
  more_than_twenty_prowess:0 "Have more than 20 Prowess"
 
  trait_sleep_cleric:0 "Sleep Cleric"

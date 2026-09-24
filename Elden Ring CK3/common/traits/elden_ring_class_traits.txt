@@ -113,7 +113,6 @@ sanguine_noble = {
 	
 	opposites = {
 		snow_witch
-		lord_of_blood
 		death_companion
 		godskin_apostle
 		sleep_cleric
@@ -124,29 +123,6 @@ sanguine_noble = {
 	prowess_per_stress_level = 1
 	prowess_per_piety_level = 1
 	health = 1
-	
-	ruler_designer_cost = 20
-}
-
-lord_of_blood = {
-	category = lifestyle
-	icon = "lord_of_blood.dds"
-	
-	opposites = {
-		snow_witch
-		sanguine_noble
-		death_companion
-		godskin_apostle
-		sleep_cleric
-		beast_clergy
-	}
-	
-	enemy_hard_casualty_modifier = 0.15
-	prowess_per_stress_level = 2
-	prowess_per_piety_level = 2
-	knight_effectiveness_mult = 0.2
-	health = 2
-	monthly_legitimacy_add = 1
 	
 	ruler_designer_cost = 20
 }

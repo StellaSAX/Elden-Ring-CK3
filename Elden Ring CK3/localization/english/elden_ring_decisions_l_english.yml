@@ -27,7 +27,6 @@
  gain_trait_fire_monk:0 "Become a Fire Monk"
  gain_trait_snow_witch:0 "Become a Snow Witch"
  gain_trait_sanguine_noble:0 "Become a Sanguine Noble"
- become_lord_of_blood:0 "Become the Lord of Blood"
 
  gain_trait_death_companion_desc:0 "I hear their call, they want warmth even now. After their Death."
  gain_trait_black_assassin_desc:0 "I hide in the shadows already, now i will also be the one to use a knife blessed by death."
@@ -35,7 +34,6 @@
  gain_trait_fire_monk_desc:0 "Let's search for a book that will teach me how to use the flame in my heart."
  gain_trait_snow_witch_desc:0 "I feel the cold in my bones, i am going to search for a way to let my enemies sufer it."
  gain_trait_sanguine_noble_desc:0 "My blood is strong, a symbol of my power, I declare myself a noble of a bloody lineage."
- become_lord_of_blood_desc:0 "I am not only a noble with power over blood. I am a Great Lord that rules over blood."
 
  gain_trait_death_companion_confirm:0 "Become a Deathcompanion"
  gain_trait_black_assassin_confirm:0 "Become a Black Knife Assassin"
