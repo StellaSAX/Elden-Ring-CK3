@@ -35,6 +35,27 @@
 		}
 		if = {
 			limit = {
+				has_trait_xp = { trait = albinauric track = albinauric value = 33 }
+			}
+			add_trait_xp = { trait = albinauric value=1 }
+			trigger_event = er_albinauric.0006
+		}
+		if = {
+			limit = {
+				has_trait_xp = { trait = albinauric track = albinauric value = 66 }
+			}
+			add_trait_xp = { trait = albinauric value=1 }
+			trigger_event = er_albinauric.0007
+		}
+		if = {
+			limit = {
+				has_trait_xp = { trait = albinauric track = albinauric value = 98 }
+			}
+			add_trait_xp = { trait = albinauric value=1 }
+			trigger_event = er_albinauric.0008
+		}
+		if = {
+			limit = {
 				has_trait_xp = { trait = albinauric track = albinauric value >= 100 }
 			}
 			death = { death_reason = death_albinauric_age }

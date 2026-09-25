@@ -117,6 +117,25 @@ is_dead_temporarily = {
 	has_trait = death_nonpermanent
 }
 
+cannot_convert_culture = {
+	OR = {
+		culture = culture:cul_albinauric
+		culture = culture:cul_ancient_dragon
+		culture = culture:cul_drake
+		culture = culture:cul_beastman
+		culture = culture:cul_demihuman
+		culture = culture:cul_misbegotten
+		culture = culture:cul_bloodfiend
+		culture = { any_parent_culture_or_above = { this = culture:cul_albinauric } }
+		culture = { any_parent_culture_or_above = { this = culture:cul_ancient_dragon } }
+		culture = { any_parent_culture_or_above = { this = culture:cul_drake } }
+		culture = { any_parent_culture_or_above = { this = culture:cul_beastman } }
+		culture = { any_parent_culture_or_above = { this = culture:cul_demihuman } }
+		culture = { any_parent_culture_or_above = { this = culture:cul_misbegotten } }
+		culture = { any_parent_culture_or_above = { this = culture:cul_bloodfiend } }
+	}
+}
+
 is_godfrey = {
 	this = character:hoarah_loux
 }

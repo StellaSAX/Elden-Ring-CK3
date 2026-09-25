@@ -343,7 +343,7 @@ alanin_dna={
 			gene_height={ "normal_height" 144 "normal_height" 126 }
 			gene_bs_body_type={ "body_fat_head_fat_low" 132 "body_fat_head_fat_medium" 117 }
 			gene_bs_body_shape={ "body_shape_average" 255 "body_shape_triangle_half" 7 }
-			gene_bs_bust={ "bust_clothes" 12 "bust_shape_4_half" 94 }
+			gene_bs_bust={ "bust_clothes" 9 "bust_shape_4_half" 94 }
 			gene_age={ "old_3" 200 "old_3" 200 }
 			gene_eyebrows_shape={ "far_spacing_lower_thickness" 138 "far_spacing_lower_thickness" 154 }
 			gene_eyebrows_fullness={ "layer_2_avg_thickness" 191 "layer_2_low_thickness" 176 }
@@ -362,9 +362,8 @@ alanin_dna={
 			hair_color_hue_mhec={ "vanilla_hair_color_hue_mhec" 127 "vanilla_hair_color_hue_mhec" 127 }
 			hair_color_saturation_mhec={ "vanilla_hair_color_saturation_mhec" 127 "vanilla_hair_color_saturation_mhec" 127 }
 			hair_color_value_mhec={ "vanilla_hair_color_value_mhec" 127 "vanilla_hair_color_value_mhec" 127 }
-			beards={ "fp2_beards_straight" 126 "no_beard" 0 }
-			hairstyles={ "fp3_hairstyles_iranian_straight" 255 "all_hairstyles" 0 }
-			clothes={ "ep2_western_era3_low_nobility_clothes" 46 "most_clothes" 0 }
+			hairstyles={ "ep2_hairstyles_western" 255 "all_hairstyles" 0 }
+			clothes={ "western_bedchamber" 79 "most_clothes" 0 }
 		}
 	}
 	enabled=yes

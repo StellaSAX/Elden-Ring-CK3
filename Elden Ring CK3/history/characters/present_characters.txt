@@ -34,6 +34,9 @@
 		portrait_modifier_overrides={
 			custom_hair=f_hair_sp4_mena_01
 			custom_beards=female_empty
+			
+			custom_headgear=female_empty
+			custom_special_crowns_crests=female_empty
 		}
 	}
 	
@@ -81,6 +84,9 @@ polyanna = {
 		portrait_modifier_overrides={
 			custom_hair=f_hair_ep3_byzantine_02_common
 			custom_beards=female_empty
+			
+			custom_headgear=female_empty
+			custom_special_crowns_crests=female_empty
 		}
 	}
 	
@@ -128,6 +134,9 @@ amy = {
 		portrait_modifier_overrides={
 			custom_hair=female_hair_fp1_06
 			custom_beards=female_empty
+			
+			custom_headgear=female_empty
+			custom_special_crowns_crests=female_empty
 		}
 	}
 	
@@ -175,6 +184,9 @@ maureen = {
 		portrait_modifier_overrides={
 			custom_hair=female_hair_rtt_02
 			custom_beards=female_empty
+			
+			custom_headgear=female_empty
+			custom_special_crowns_crests=female_empty
 		}
 	}
 	
@@ -222,6 +234,9 @@ mary = {
 		portrait_modifier_overrides={
 			custom_hair=female_hair_fp2_iberian_christian_02
 			custom_beards=female_empty
+			
+			custom_headgear=female_empty
+			custom_special_crowns_crests=female_empty
 		}
 	}
 	

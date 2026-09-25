@@ -301,3 +301,63 @@
 		# }
 	# }
 # }
+
+#Event for albinaurics notifying them if they have reached the aged stage
+er_albinauric.0006 = {
+	type = character_event
+	title = er_albinauric.0006.t
+	desc = er_albinauric.0006.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	
+	option = {
+		name = er_albinauric.0006.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+#Event for albinaurics notifying them if they have reached the elder stage
+er_albinauric.0007 = {
+	type = character_event
+	title = er_albinauric.0007.t
+	desc = er_albinauric.0007.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	
+	option = {
+		name = er_albinauric.0007.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+#Event for albinaurics notifying them if they are about to die
+er_albinauric.0008 = {
+	type = character_event
+	title = er_albinauric.0008.t
+	desc = er_albinauric.0008.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = sadness
+	}
+	
+	option = {
+		name = er_albinauric.0008.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}

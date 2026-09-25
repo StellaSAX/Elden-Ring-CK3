@@ -30,7 +30,10 @@
 		}
 		
 		NOT = {
-			culture = { any_parent_culture_or_above = { this = culture:cul_liurnia } }
+			OR = {
+				culture = culture:cul_liurnia
+				culture = { any_parent_culture_or_above = { this = culture:cul_liurnia } }
+			}
 		}
 	}
 	

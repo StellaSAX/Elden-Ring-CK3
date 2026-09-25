@@ -30,7 +30,10 @@
 		}
 		
 		NOT = {
-			culture = { any_parent_culture_or_above = { this = culture:cul_caria } }
+			OR = {
+				culture = culture:cul_caria
+				culture = { any_parent_culture_or_above = { this = culture:cul_caria } }
+			}
 		}
 		
 		NOT = { dynasty = dynasty:dynn_caria }
