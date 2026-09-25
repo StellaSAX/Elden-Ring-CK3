@@ -393,7 +393,7 @@ god_serpent_decision = {
 
 	is_valid = {
 		OR = {
-			is_demigod_elden_ring = yes #so that other demigods can do it even if rykard died at some point
+			is_demigod = yes #so that other demigods can do it even if rykard died at some point
 			root = {
 				character:rykard = this
 			}

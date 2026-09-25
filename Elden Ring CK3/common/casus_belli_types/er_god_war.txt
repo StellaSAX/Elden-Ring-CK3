@@ -8,7 +8,7 @@ kingdom_conquest_cb_elden_ring_empyrean = {
 	mutually_exclusive_titles = { always = yes }
 
 	allowed_for_character = {
-		has_godhood_elden_ring = yes
+		is_god = yes
 	}
 
 	allowed_against_character = {

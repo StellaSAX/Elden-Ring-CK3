@@ -6,8 +6,8 @@
 	# can this character benefit from the full modifiers of the artifact?
 	can_benefit = {
 		OR = {
-			has_godhood_elden_ring = yes
-			is_demigod_elden_ring = yes
+			is_god = yes
+			is_demigod = yes
 			is_tarnished = yes
 		}
 	}
