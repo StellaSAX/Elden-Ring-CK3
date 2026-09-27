@@ -1,8 +1,8 @@
-﻿give_grace_elden_ring_interaction = {
+﻿god_give_grace_interaction = {
 	category = interaction_category_friendly
 	icon = alliance
 
-	desc = give_grace_elden_ring_interaction_desc
+	desc = god_give_grace_interaction_desc
 	
 	auto_accept = yes
 	
@@ -45,11 +45,11 @@
 	}
 }
 
-heal_disease_elden_ring_interaction = {
+god_heal_disease_interaction = {
 	category = interaction_category_friendly
 	icon = alliance
 
-	desc = give_grace_elden_ring_interaction_desc
+	desc = god_heal_disease_desc
 	
 	auto_accept = yes
 	
@@ -111,11 +111,11 @@ heal_disease_elden_ring_interaction = {
 	}
 }
 
-cure_wound_elden_ring_interaction = {
+god_cure_wounds_interaction = {
 	category = interaction_category_friendly
 	icon = alliance
 
-	desc = give_grace_elden_ring_interaction_desc
+	desc = god_cure_wounds_interaction_desc
 	
 	auto_accept = yes
 	
@@ -159,11 +159,11 @@ cure_wound_elden_ring_interaction = {
 	}
 }
 
-regrow_lost_elden_ring_interaction = {
+god_regrow_limbs_interaction = {
 	category = interaction_category_friendly
 	icon = alliance
 
-	desc = give_grace_elden_ring_interaction_desc
+	desc = god_regrow_limbs_interaction_desc
 	
 	auto_accept = yes
 	

@@ -1,19 +1,21 @@
 ﻿l_english:
 
- cut_omen_elden_ring_interaction:0 "Cut their Omen Horns"
- cut_omen_elden_ring_interaction_desc:0 "Their Horns are more trouble than worth, have them excised."
+ SPELL_ACTIONS:0 "spell actions"
 
- give_grace_elden_ring_interaction:0 "Give them Grace"
- give_grace_elden_ring_interaction_desc:0 "As a God is posible for me to bless someone with grace."
+ cut_omen_horns_interaction:0 "Excise Omen Horns"
+ cut_omen_horns_interaction_desc:0 "Their horns are more trouble than its worth, have them excised."
 
- heal_disease_elden_ring_interaction:0 "Heal Disease"
- heal_disease_elden_ring_interaction_desc:0 "Heal any diseas that affects them."
+ god_give_grace_interaction:0 "Give them Grace"
+ god_give_grace_interaction_desc:0 "As a god it is posible for me to bless someone with grace."
 
- cure_wound_elden_ring_interaction:0 "Cure Wound"
- cure_wound_elden_ring_interaction_desc:0 "Heal any wound that affects them."
+ god_heal_disease_interaction:0 "Heal Disease"
+ god_heal_disease_interaction_desc:0 "Heal any disease affecting them."
 
- regrow_lost_elden_ring_interaction:0 "Regrow Lost"
- regrow_lost_elden_ring_interaction_desc:0 "Regrow lost limb"
+ god_cure_wounds_interaction:0 "Cure Wound"
+ god_cure_wounds_interaction_desc:0 "Heal any wound that they have suffered."
+
+ god_regrow_limbs_interaction:0 "Regrow Limbs"
+ god_regrow_limbs_interaction_desc:0 "Regrow lost limbs."
 
  immortal_serpent_absorption_interaction:0 "Consume Them"
  immortal_serpent_absorption_interaction_desc:0 "The God-Devouring Serpent grows in power by consuming, all people consumed become part of the family.\nTogether, we will devour the very gods!"
@@ -34,6 +36,21 @@
  grafting_interaction_desc:0 "There are many ways to obtain power, and taking it from others is as good as any other."
  grafting_people.succes:0 "Successful Grafting"
  grafting_people.fail:0 "Failed Grafting"
+ 
+ dragon_learn_lightning_interaction:0 "Learn to Control Lightning"
+ dragon_learn_lightning_interaction_desc:0 "Ask them to teach you to control Lightning like the Dragons do."
+ 
+ dragon_learn_communion_interaction:0 "Learn Dragon Communion"
+ dragon_learn_communion_interaction_desc:0 "Ask them to teach you how to consume the hearts of lesser Dragons."
+ 
+ dragon_teach_lightning_interaction:0 "Teach to Control Lightning"
+ dragon_teach_lightning_interaction_desc:0 "Teach them to use the powers of the Ancient Dragon."
+ 
+ dragon_teach_communion_interaction:0 "Teach Dragon Communion"
+ dragon_teach_communion_interaction_desc:0 "Teach them how to consume the hearts of lesser Dragons for power."
+ 
+ heal_wounds_interaction:0 "Heal Wounds"
+ heal_wounds_interaction_desc:0 "Heal any wounds that I have suffered."
 
  death_grafted:0 "was grafted"
  death_grafted_killer:0 "was grafted by [TARGET_CHARACTER.GetUIName]"

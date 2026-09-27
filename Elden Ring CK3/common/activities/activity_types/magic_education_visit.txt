@@ -868,7 +868,7 @@
 
 			learn_affinity_magic = {
 				is_valid = {
-					has_affinity_elden_ring = yes
+					has_magic_affinity = yes
 				}
 				cost = {
 					gold = {

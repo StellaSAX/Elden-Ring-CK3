@@ -1,8 +1,8 @@
-﻿cut_omen_elden_ring_interaction = {
+﻿cut_omen_horns_interaction = {
 	category = interaction_category_hostile
 	icon = secret
 
-	desc = cut_omen_elden_ring_interaction_desc
+	desc = cut_omen_horns_interaction_desc
 	
 	greeting = negative
 	

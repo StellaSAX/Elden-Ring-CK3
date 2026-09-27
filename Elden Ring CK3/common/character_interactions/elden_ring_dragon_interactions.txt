@@ -1,7 +1,7 @@
-﻿ask_dragon_cult_elden_ring_interaction = {
+﻿dragon_learn_lightning_interaction = {
 	category = interaction_category_friendly
 	icon = alliance
-	desc = ask_dragon_cult_elden_ring_interaction_desc
+	desc = dragon_learn_lightning_interaction_desc
 	
 	ai_frequency = 60
 	
@@ -11,7 +11,7 @@
 	
 	is_shown = {
 		scope:actor = {
-			has_affinity_elden_ring = no
+			has_magic_affinity = no
 		}
 		scope:recipient = {
 			has_trait = ancient_dragon
@@ -56,10 +56,10 @@
 	}
 }
 
-ask_dragon_communion_elden_ring_interaction = {
+dragon_learn_communion_interaction = {
 	category = interaction_category_friendly
 	icon = alliance
-	desc = ask_dragon_communion_elden_ring_interaction_desc
+	desc = dragon_learn_communion_interaction_desc
 	
 	ai_targets = {
 		ai_recipients = scripted_relations
@@ -67,7 +67,7 @@ ask_dragon_communion_elden_ring_interaction = {
 	
 	is_shown = {
 		scope:actor = {
-			has_affinity_elden_ring = no
+			has_magic_affinity = no
 		}
 		scope:recipient = {
 			has_trait = ancient_dragon
@@ -112,10 +112,10 @@ ask_dragon_communion_elden_ring_interaction = {
 	}
 }
 
-teach_dragon_cult_elden_ring_interaction = {
+dragon_teach_lightning_interaction = {
 	category = interaction_category_friendly
 	icon = alliance
-	desc = teach_dragon_cult_elden_ring_interaction_desc
+	desc = dragon_teach_lightning_interaction_desc
 	
 	ai_targets = {
 		ai_recipients = scripted_relations
@@ -126,7 +126,7 @@ teach_dragon_cult_elden_ring_interaction = {
 			has_trait = lightning_affinity
 		}
 		scope:recipient = {
-			has_affinity_elden_ring = no
+			has_magic_affinity = no
 		}
 	}
 	
@@ -181,10 +181,10 @@ teach_dragon_cult_elden_ring_interaction = {
 	}
 }
 
-teach_dragon_communion_elden_ring_interaction = {
+dragon_teach_communion_interaction = {
 	category = interaction_category_friendly
 	icon = alliance
-	desc = ask_dragon_communion_elden_ring_interaction_desc
+	desc = dragon_teach_communion_interaction_desc
 	
 	ai_targets = {
 		ai_recipients = scripted_relations
@@ -195,7 +195,7 @@ teach_dragon_communion_elden_ring_interaction = {
 			has_trait = dragon_affinity
 		}
 		scope:recipient = {
-			has_affinity_elden_ring = no
+			has_magic_affinity = no
 		}
 	}
 	

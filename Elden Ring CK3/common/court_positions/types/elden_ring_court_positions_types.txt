@@ -207,7 +207,7 @@
 		
 		if = {
 			limit = {
-				has_affinity_elden_ring = yes
+				has_magic_affinity = yes
 			}
 			add = {
 				value = 20

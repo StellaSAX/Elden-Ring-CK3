@@ -68,7 +68,7 @@ court_magic_teacher_own = {
 	}
 	
 	is_valid_showing_failures_only = {
-		has_affinity_elden_ring = yes
+		has_magic_affinity = yes
 	}
 
 	on_start = {

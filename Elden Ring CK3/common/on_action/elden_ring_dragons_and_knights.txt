@@ -10,7 +10,7 @@ on_action_gain_dragon_related_trait = {
 	effect = {
 		if = { # has no affinity
 			limit = {
-				has_affinity_elden_ring = no
+				has_magic_affinity = no
 			}
 			random_list = {
 				1 = {

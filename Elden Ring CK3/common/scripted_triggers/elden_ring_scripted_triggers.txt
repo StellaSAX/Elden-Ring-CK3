@@ -18,7 +18,7 @@
 	}
 }
 
-has_affinity_elden_ring = {
+has_magic_affinity = {
 	OR = {
 		has_trait = order_affinity
 		has_trait = frenzy_affinity
