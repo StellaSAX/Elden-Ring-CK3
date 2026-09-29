@@ -1,6 +1,14 @@
 ﻿l_english:
 
  SPELL_ACTIONS:0 "spell actions"
+ interaction_category_spell:0 "Spells"
+ 
+ interaction_heal_wounds_tooltip:0 "[recipient.GetShortUIName|U] is not injured"
+ interaction_heal_wounds_accept:0 "[recipient.GetShortUINameNoTooltip|U] is injured"
+ interaction_heal_wounds_rival:0 "You are [recipient.GetShortUINameNoTooltip|U]'s rival"
+ interaction_heal_wounds_nemesis:0 "You are [recipient.GetShortUINameNoTooltip|U]'s nemesis"
+ decline_healing_notification:1 "[recipient.GetShortUINameNoTooltip] refused to be healed"
+ heal_wounds_cooldown:1 "[recipient.GetShortUINameNoTooltip] has refused healing"
 
  cut_omen_horns_interaction:0 "Excise Omen Horns"
  cut_omen_horns_interaction_desc:0 "Their horns are more trouble than its worth, have them excised."
@@ -49,8 +57,13 @@
  dragon_teach_communion_interaction:0 "Teach Dragon Communion"
  dragon_teach_communion_interaction_desc:0 "Teach them how to consume the hearts of lesser Dragons for power."
  
+ inflict_wounds_debug:0 "Inflict Wounds"
+ add_minor_wounds_interaction:0 "Small Ouchie"
+ add_moderate_wounds_interaction:0 "Medium Ouchie"
+ add_grave_wounds_interaction:0 "Big Ouchie"
+ 
  heal_wounds_interaction:0 "Heal Wounds"
- heal_wounds_interaction_desc:0 "Heal any wounds that I have suffered."
+ heal_wounds_interaction_desc:0 "Heal any wounds that [recipient.GetShortUINameNoTooltip|U] has suffered."
 
  death_grafted:0 "was grafted"
  death_grafted_killer:0 "was grafted by [TARGET_CHARACTER.GetUIName]"

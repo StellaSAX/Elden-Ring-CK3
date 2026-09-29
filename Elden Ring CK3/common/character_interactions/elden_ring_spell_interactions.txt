@@ -1,0 +1,209 @@
+﻿heal_wounds_interaction = {
+	category = interaction_category_spell
+	ai_maybe = yes
+	ai_min_reply_days = 0
+	ai_max_reply_days = 1
+	popup_on_receive = yes
+	icon = heal_wounds
+	
+	ai_targets = {
+		ai_recipients = courtiers
+	}
+	ai_target_quick_trigger = {
+		adult = yes
+	}
+	ai_frequency_by_tier = {
+		barony = 0
+		county = 120
+		duchy = 24
+		kingdom = 12
+		empire = 12
+		hegemony = 12
+	}
+
+	desc = heal_wounds_interaction_desc
+	
+	is_shown = {
+		scope:actor = {
+			OR = {
+				has_trait_xp = { trait = incantation_erdtree track = incantation_erdtree value >= 20 }
+				has_trait_xp = { trait = incantation_two_fingers track = incantation_two_fingers value >= 20 }
+			}
+		}
+		
+		scope:recipient = {
+			is_courtier_of = scope:actor
+			#is_wounded = yes
+		}
+	}
+	
+	is_valid_showing_failures_only = {
+		scope:recipient = {
+			is_wounded = yes
+			NOT = { has_character_flag = heal_wounds_cooldown }
+
+			custom_tooltip = {
+				text = interaction_heal_wounds_tooltip
+				scope:recipient = {
+					is_wounded = yes
+				}
+			}
+		}
+	}
+	
+	ai_potential = {
+		is_adult = yes
+		OR = {
+			has_trait_xp = { trait = incantation_erdtree track = incantation_erdtree value >= 20 }
+			has_trait_xp = { trait = incantation_two_fingers track = incantation_two_fingers value >= 20 }
+		}
+	}
+
+	cost = {
+		prestige = 100
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			if = {
+				limit = {
+					has_trait = wounded_1
+				}
+				remove_trait = wounded_1
+			}
+			if = {
+				limit = {
+					has_trait = wounded_2
+				}
+				remove_trait = wounded_2
+				add_trait = wounded_1
+			}
+			if = {
+				limit = {
+					has_trait = wounded_3
+				}
+				remove_trait = wounded_3
+				add_trait = wounded_2
+			}
+			add_opinion = {
+				modifier = healed_me_opinion
+				target = scope:actor
+			}
+		}
+	}
+	
+	on_decline = {
+		scope:actor = {
+			send_interface_toast = {
+				type = event_toast_effect_bad
+				title = decline_healing_notification
+				right_icon = scope:recipient
+			}
+		}
+		scope:recipient = {
+			add_character_flag = { flag = heal_wounds_cooldown years = 1 }
+			add_opinion = {
+				modifier = rejected_healing_opinion
+				target = scope:actor
+			}
+		}
+	}
+	
+	ai_will_do = {
+		base = 0
+
+		modifier = {
+			add = 40
+			scope:actor = {
+				ai_compassion > 50
+			}
+		}
+		modifier = {
+			add = 70
+			scope:recipient = {
+				is_close_family_of = scope:actor
+			}
+		}
+		modifier = {
+			add = 20
+			scope:actor = {
+				ai_honor > 20
+			}
+		}
+		modifier = {
+			add = -20
+			scope:actor = {
+				ai_honor < -10
+			}
+		}
+		modifier = {
+			add = -20
+			scope:actor = {
+				ai_compassion < -10
+			}
+		}
+		modifier = {
+			add = 80
+			scope:actor = {
+				has_relation_lover = scope:recipient
+			}
+		}
+		modifier = {
+			add = 100
+			scope:actor = {
+				has_relation_soulmate = scope:recipient
+			}
+		}
+		modifier = {
+			add = 50
+			scope:actor = {
+				has_relation_friend = scope:recipient
+			}
+		}
+		modifier = {
+			add = 60
+			scope:actor = {
+				has_relation_best_friend = scope:recipient
+			}
+		}
+		modifier = {
+			add = -40
+			scope:actor = {
+				has_relation_rival = scope:recipient
+				NOT = { has_relation_nemesis = scope:recipient }
+			}
+		}
+		modifier = {
+			add = -80
+			scope:actor = {
+				has_relation_nemesis = scope:recipient
+			}
+		}
+	}
+	
+	ai_accept = {
+		base = 0
+		modifier = {
+			add = 100
+			scope:recipient = {
+				is_wounded = yes
+			}
+			desc = interaction_heal_wounds_accept
+		}
+		modifier = {
+			add = -40
+			scope:recipient = {
+				has_relation_rival = scope:actor
+				NOT = { has_relation_nemesis = scope:actor }
+			}
+			desc = interaction_heal_wounds_rival
+		}
+		modifier = {
+			add = -70
+			scope:recipient = {
+				has_relation_nemesis = scope:actor
+			}
+			desc = interaction_heal_wounds_nemesis
+		}
+	}
+}

@@ -1,0 +1,43 @@
+﻿inflict_wounds_debug = {
+	category = interaction_debug_main
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	interface_priority = -1
+	icon = inflict_wounds_debug
+	common_interaction = no
+
+	is_shown = {
+		debug_only = yes
+		#scope:recipient != scope:actor
+	}
+
+	send_option = {
+		flag = minor_wounds
+		localization = add_minor_wounds_interaction
+	}
+	send_option = {
+		flag = moderate_wounds
+		localization = add_moderate_wounds_interaction
+	}
+	send_option = {
+		flag = grave_wounds
+		localization = add_grave_wounds_interaction
+	}
+	auto_accept = yes
+	on_accept = {
+		scope:recipient = {
+			switch = {
+				trigger = yes
+				scope:minor_wounds = {
+					add_trait = wounded_1
+				}
+				scope:moderate_wounds = {
+					add_trait = wounded_2
+				}
+				scope:grave_wounds = {
+					add_trait = wounded_3
+				}
+			}
+		}
+	}
+}

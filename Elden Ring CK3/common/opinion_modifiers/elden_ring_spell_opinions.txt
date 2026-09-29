@@ -1,0 +1,10 @@
+﻿healed_me_opinion = {
+	monthly_change = 0.1
+	decaying = yes
+	opinion = 20
+}
+rejected_healing_opinion = {
+	monthly_change = 0.1
+	decaying = yes
+	opinion = -10
+}
