@@ -29,7 +29,7 @@
 	
 	#Affinities
 	doctrine = doctrine_order_affinity_virtuous
-	doctrine = doctrine_erdtree_affinity_accepted
+	doctrine = doctrine_erdtree_affinity_virtuous
 	doctrine = doctrine_fire_affinity_shunned
 	doctrine = doctrine_ice_affinity_accepted
 	doctrine = doctrine_glintstone_affinity_accepted
