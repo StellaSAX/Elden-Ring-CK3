@@ -2,6 +2,25 @@
 	default = {
 		default = { head = "idle_entry" torso = "idle_entry" }
 
+		exaltation_of_pain_wounded_3_divine_ecstasy = {
+			animation = { head = "divine_ecstasy" torso = "divine_ecstasy" }
+			portrait_modifier = {
+				animations = AI_zealous_decal
+			}
+			weight = {
+				base = 0
+				modifier = {
+					add = 10000
+					has_trait = wounded_3
+					has_personal_tenet_flag = self_mutilation_active
+					NOR = {
+						has_trait = incapable
+						is_imprisoned = yes
+					}
+				}
+			}
+		}
+
 		incapable = {
 			animation = { head = "incapable" torso = "incapable" }
 			weight = {
@@ -61,6 +80,18 @@
 				modifier = {
 					add = 10000
 					has_trait = crucified_erdtree
+				}
+			}
+		}
+
+		defeated = {
+			animation = { head = "defeated" torso = "defeated" }
+			weight = {
+				base = 0
+				modifier = {
+					stress_level >= 3
+					is_ai = no
+					add = 100
 				}
 			}
 		}
@@ -135,6 +166,340 @@
 			}
 		}
 
+		whipping_self = {
+			animation = { head = "self_flagellation" torso = "self_flagellation" }
+			portrait_modifier = {
+				animations_props = pam_whip_01
+				animations = AI_zealous_decal
+			}
+			weight = {
+				base = 0
+				modifier = {
+					add = 101
+					is_alive = yes
+					has_trait = flagellant
+					OR = {
+						has_trait = wounded
+						has_character_flag = recent_flagellant
+					}
+				}
+			}
+		}
+
+		priest_corrupt = {
+			animation = { head = "priest_corrupt" torso = "priest_corrupt" }
+			portrait_modifier_pack = crozier
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					religion = religion:christianity_religion
+					any_held_title = { is_head_of_faith = yes }
+					OR = {
+						ai_honor < medium_negative_ai_value
+						ai_greed > medium_positive_ai_value
+						ai_compassion < medium_negative_ai_value
+					}
+				}
+			}
+		}
+
+		priest_good = {
+			animation = { head = "priest_good" torso = "priest_good" }
+			portrait_modifier_pack = crozier
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					religion = religion:christianity_religion
+					any_held_title = { is_head_of_faith = yes }
+					OR = {
+						ai_greed <= high_negative_ai_value
+						ai_honor >= high_positive_ai_value
+						ai_compassion >= high_positive_ai_value
+						ai_zeal >= high_positive_ai_value
+					}
+					ai_greed < low_positive_ai_value
+					ai_honor > low_negative_ai_value
+					ai_compassion > low_negative_ai_value
+				}
+			}
+		}
+
+		holding_crozier = {
+			animation = { head = "holding_staff_loop" torso = "holding_staff_loop" }
+			portrait_modifier_pack = crozier
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					religion = religion:christianity_religion
+					any_held_title = { is_head_of_faith = yes }
+				}
+			}
+		}
+
+		clergy_idle_superior = {
+			animation = { head = "zealous_superior" torso = "zealous_superior" }
+			portrait_modifier = {
+				animations = AI_zealous_decal
+			}
+			weight = {
+				base = 0
+				modifier = {
+					add = 120
+					portrait_religious_christian_trigger = yes
+					portrait_religious_high_trigger = yes
+					NOT = { any_held_title = { is_head_of_faith = yes } }
+					NOT = {
+						static_group_filter = {
+							group = clergy_idle_uses_crozier_0
+							match = 0.5
+						}
+					}
+					OR = {
+						has_trait = zealous
+						ai_zeal >= high_positive_ai_value
+						AND = {
+							has_trait = arrogant
+							ai_zeal >= low_positive_ai_value
+						}
+					}
+				}
+			}
+		}
+
+		clergy_crozier_corrupt = {
+			animation = { head = "priest_corrupt" torso = "priest_corrupt" }
+			portrait_modifier_pack = crozier
+			weight = {
+				base = 0
+				modifier = {
+					add = 110
+					portrait_religious_christian_trigger = yes
+					portrait_religious_high_trigger = yes
+					NOT = { any_held_title = { is_head_of_faith = yes } }
+					static_group_filter = {
+						group = clergy_idle_uses_crozier_1
+						match = 0.5
+					}
+					OR = {
+						ai_honor < medium_negative_ai_value
+						ai_greed > medium_positive_ai_value
+						ai_compassion < medium_negative_ai_value
+					}
+				}
+			}
+		}
+
+		clergy_crozier_good = {
+			animation = { head = "priest_good" torso = "priest_good" }
+			portrait_modifier_pack = crozier
+			weight = {
+				base = 0
+				modifier = {
+					add = 110
+					portrait_religious_christian_trigger = yes
+					portrait_religious_high_trigger = yes
+					NOT = { any_held_title = { is_head_of_faith = yes } }
+					static_group_filter = {
+						group = clergy_idle_uses_crozier_2
+						match = 0.05
+					}
+					OR = {
+						ai_greed <= high_negative_ai_value
+						ai_honor >= high_positive_ai_value
+						ai_compassion >= high_positive_ai_value
+						ai_zeal >= high_positive_ai_value
+					}
+					ai_greed < low_positive_ai_value
+					ai_honor > low_negative_ai_value
+					ai_compassion > low_negative_ai_value
+				}
+			}
+		}
+
+		clergy_crozier_neutral = {
+			animation = { head = "holding_staff_loop" torso = "holding_staff_loop" }
+			portrait_modifier_pack = crozier
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					portrait_religious_christian_trigger = yes
+					portrait_religious_high_trigger = yes
+					NOT = { any_held_title = { is_head_of_faith = yes } }
+					static_group_filter = {
+						group = clergy_idle_uses_crozier_3
+						match = 0.25
+					}
+				}
+			}
+		}
+
+		clergy_idle_prayer = {
+			animation = { head = "praying_standing" torso = "praying_standing" }
+			portrait_modifier = {
+				animations = AI_zealous_decal
+			}
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					portrait_religious_christian_trigger = yes
+					portrait_religious_high_trigger = yes
+					NOT = { any_held_title = { is_head_of_faith = yes } }
+					static_group_filter = {
+						group = clergy_idle_1
+						match = 0.15
+					}
+				}
+			}
+		}
+
+		clergy_idle_prayer_eyes = {
+			animation = { head = "praying_standing_eyes" torso = "praying_standing_eyes" }
+			portrait_modifier = {
+				animations = AI_zealous_decal
+			}
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					portrait_religious_christian_trigger = yes
+					portrait_religious_high_trigger = yes
+					NOT = { any_held_title = { is_head_of_faith = yes } }
+					static_group_filter = {
+						group = clergy_idle_2
+						match = 0.5
+					}
+				}
+			}
+		}
+
+		clergy_idle_divine_gesture_1 = {
+			animation = { head = "divine_gesture_1" torso = "divine_gesture_1" }
+			portrait_modifier = {
+				animations = AI_zealous_decal
+			}
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					portrait_religious_christian_trigger = yes
+					portrait_religious_high_trigger = yes
+					NOT = { any_held_title = { is_head_of_faith = yes } }
+					static_group_filter = {
+						group = clergy_idle_3
+						match = 0.75
+					}
+				}
+			}
+		}
+
+		clergy_idle_divine_gesture_2 = {
+			animation = { head = "divine_gesture_2" torso = "divine_gesture_2" }
+			portrait_modifier = {
+				animations = AI_zealous_decal
+			}
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					portrait_religious_christian_trigger = yes
+					portrait_religious_high_trigger = yes
+					NOT = { any_held_title = { is_head_of_faith = yes } }
+					static_group_filter = {
+						group = clergy_idle_4
+						match = 0.75
+					}
+				}
+			}
+		}
+
+		clergy_idle_divine_gesture_3 = {
+			animation = { head = "divine_gesture_3" torso = "divine_gesture_3" }
+			portrait_modifier_pack = closed_book_left
+			portrait_modifier = {
+				animations = AI_zealous_decal
+			}
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					portrait_religious_christian_trigger = yes
+					portrait_religious_high_trigger = yes
+					NOT = { any_held_title = { is_head_of_faith = yes } }
+					static_group_filter = {
+						group = clergy_idle_5
+						match = 0.75
+					}
+				}
+			}
+		}
+
+		clergy_idle_divine_gesture_4 = {
+			animation = { head = "divine_gesture_4" torso = "divine_gesture_4" }
+			portrait_modifier_set = {
+				portrait_modifier_pack = crozier_right
+			}
+			portrait_modifier_set = {
+				portrait_modifier_pack = closed_book_left
+			}
+			portrait_modifier_set = {
+				portrait_modifier = {
+					animations = AI_zealous_decal
+				}
+			}
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					portrait_religious_christian_trigger = yes
+					portrait_religious_high_trigger = yes
+					NOT = { any_held_title = { is_head_of_faith = yes } }
+					static_group_filter = {
+						group = clergy_idle_6
+						match = 0.75
+					}
+				}
+			}
+		}
+
+		clergy_idle_priestly = {
+			animation = { head = "wedding_priest_idle_entry" torso = "wedding_priest_idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					portrait_religious_christian_trigger = yes
+					portrait_religious_high_trigger = yes
+					NOT = { any_held_title = { is_head_of_faith = yes } }
+					static_group_filter = {
+						group = clergy_idle_7
+						match = 0.75
+					}
+				}
+			}
+		}
+
+		clergy_idle_basic = {
+			animation = { head = "idle_entry" torso = "idle_entry" }
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					portrait_religious_christian_trigger = yes
+					portrait_religious_high_trigger = yes
+					NOT = { any_held_title = { is_head_of_faith = yes } }
+					static_group_filter = {
+						group = clergy_idle_8
+						match = 1.0
+					}
+				}
+			}
+		}
+
 		character_conqueror_war = {
 			animation = { head = "marshal_shield" torso = "marshal_shield" }
 			portrait_modifier_pack = council_marshal_shield
@@ -160,8 +525,8 @@
 			}
 			portrait_modifier_pack = one_handed_sword
 		}
-		
-		
+
+
 
 		infirm_elder = {
 			animation = { head = "holding_crutch" torso = "holding_crutch" }
@@ -311,8 +676,16 @@
 				base = 0
 				modifier = {
 					add = 1000
-					primary_title ?= {
-						is_mercenary_company = yes
+					OR = {
+						primary_title ?= {
+							is_mercenary_company = yes
+						}
+						AND = {
+							is_ruler = no
+							government_has_flag = government_is_military_holy_order
+							religion = religion:christianity_religion
+							portrait_wear_armor_currently_in_army_trigger = yes
+						}
 					}
 					has_personality_malicious_trigger = yes
 				}
@@ -326,8 +699,16 @@
 				base = 0
 				modifier = {
 					add = 1000
-					primary_title ?= {
-						is_mercenary_company = yes
+					OR = {
+						primary_title ?= {
+							is_mercenary_company = yes
+						}
+						AND = {
+							is_ruler = no
+							government_has_flag = government_is_military_holy_order
+							religion = religion:christianity_religion
+							portrait_wear_armor_currently_in_army_trigger = yes
+						}
 					}
 					has_personality_levelheaded_trigger = yes
 				}
@@ -341,8 +722,16 @@
 				base = 0
 				modifier = {
 					add = 1000
-					primary_title ?= {
-						is_mercenary_company = yes
+					OR = {
+						primary_title ?= {
+							is_mercenary_company = yes
+						}
+						AND = {
+							is_ruler = no
+							government_has_flag = government_is_military_holy_order
+							religion = religion:christianity_religion
+							portrait_wear_armor_currently_in_army_trigger = yes
+						}
 					}
 					has_personality_dominant_trigger = yes
 				}
@@ -356,8 +745,16 @@
 				base = 0
 				modifier = {
 					add = 1000
-					primary_title ?= {
-						is_mercenary_company = yes
+					OR = {
+						primary_title ?= {
+							is_mercenary_company = yes
+						}
+						AND = {
+							is_ruler = no
+							government_has_flag = government_is_military_holy_order
+							religion = religion:christianity_religion
+							portrait_wear_armor_currently_in_army_trigger = yes
+						}
 					}
 				}
 			}
@@ -365,7 +762,7 @@
 		}
 
 		character_murchad = {
-			animation = { head = "emotion_thinking_entry" torso = "emotion_thinking_entry" }
+			animation = { head = "emotion_thinking" torso = "emotion_thinking" }
 			portrait_modifier = {
 				animations = AI_rational_decal
 			}
@@ -417,6 +814,12 @@
 						this = character:easteregg_henry_of_skalitz
 						this = character:easteregg_henry_kobyla
 						this = character:easteregg_henry_kobyla_late
+						AND = {
+							is_ruler = yes
+							government_has_flag = government_is_military_holy_order
+							religion = religion:christianity_religion
+							is_at_war = yes
+						}
 					}
 				}
 			}
@@ -535,7 +938,7 @@
 				base = 0
 				modifier = {
 					add = 100
-					primary_title = title:e_byzantium
+					is_eastern_roman_emperor_primary_title_trigger = yes
 					faith.religion = religion:christianity_religion
 				}
 			}
@@ -607,7 +1010,7 @@
 				modifier = {
 					is_adult = yes
 					asian_variants = yes
-					government_allows = administrative
+					government_has_mechanic = administrative
 					NOT = { has_trait = devoted }
 					merit_level > 0
 					add = {70 110}
@@ -615,14 +1018,14 @@
 				modifier = {
 					AND = {
 						is_female = yes
-						faith = { has_doctrine = doctrine_gender_male_dominated }
+						rite = { rite_has_doctrine = doctrine_gender_male_dominated }
 					}
 					factor = 0
 				}
 				modifier = {
 					AND = {
 						is_male = yes
-						faith = { has_doctrine = doctrine_gender_female_dominated }
+						rite = { rite_has_doctrine = doctrine_gender_female_dominated }
 					}
 					factor = 0
 				}
@@ -637,7 +1040,7 @@
 				modifier = {
 					is_adult = yes
 					asian_variants = yes
-					government_allows = administrative
+					government_has_mechanic = administrative
 					NOT = { has_trait = devoted }
 					merit_level > 0
 					add = {80 120}
@@ -645,14 +1048,14 @@
 				modifier = {
 					AND = {
 						is_female = yes
-						faith = { has_doctrine = doctrine_gender_male_dominated }
+						rite = { rite_has_doctrine = doctrine_gender_male_dominated }
 					}
 					factor = 0
 				}
 				modifier = {
 					AND = {
 						is_male = yes
-						faith = { has_doctrine = doctrine_gender_female_dominated }
+						rite = { rite_has_doctrine = doctrine_gender_female_dominated }
 					}
 					factor = 0
 				}
@@ -667,7 +1070,7 @@
 				modifier = {
 					is_adult = yes
 					asian_variants = yes
-					government_allows = administrative
+					government_has_mechanic = administrative
 					NOT = { has_trait = devoted }
 					merit_level > 0
 					add = {90 130}
@@ -675,23 +1078,20 @@
 				modifier = {
 					AND = {
 						is_female = yes
-						faith = { has_doctrine = doctrine_gender_male_dominated }
+						rite = { rite_has_doctrine = doctrine_gender_male_dominated }
 					}
 					factor = 0
 				}
 				modifier = {
 					AND = {
 						is_male = yes
-						faith = { has_doctrine = doctrine_gender_female_dominated }
+						rite = { rite_has_doctrine = doctrine_gender_female_dominated }
 					}
 					factor = 0
 				}
 			}
 			portrait_modifier_pack = hu
 		}
-
-##########################################################################################################################################################################################
-##########################################################################################################################################################################################
 
 		japanese_knight_1 = {
 			animation = { head = "hasso_no_kamae" torso = "hasso_no_kamae" }
@@ -713,6 +1113,9 @@
 				}
 			}
 		}
+
+##########################################################################################################################################################################################
+##########################################################################################################################################################################################
 
 		AI_honorable_asia = {
 			animation = { head = "AI_honorable_asia" torso = "AI_honorable_asia" }

@@ -11,7 +11,8 @@
 	send_name = START_SCHEME
 
 	is_shown = {
-		scope:recipient != scope:actor
+		exists = scope:puppet_or_actor
+		scope:recipient != scope:puppet_or_actor
 		
 		scope:recipient = {
 			NOT = { cannot_be_murdered = yes }
@@ -47,30 +48,30 @@
 	}
 
 	is_valid_showing_failures_only = {
-		scope:actor = {
+		scope:puppet_or_actor = {
 			can_start_scheme = {
 				type = murder
 				target_character = scope:recipient
 			}
 		}
-		scope:recipient = { NOT = { has_strong_hook = scope:actor } }
+		scope:recipient = { NOT = { has_strong_hook = scope:puppet_or_actor } }
 		trigger_if = {
 			limit = {
-				scope:actor = {
+				scope:puppet_or_actor = {
 					has_government = landless_adventurer_government
 				}
 			}
 			#Has to be used instead of diplo range checks in laamp to landed interactions
 			ep3_laamp_diplo_range_trigger = {
 				TARGET = scope:recipient
-				LAAMP = scope:actor
+				LAAMP = scope:puppet_or_actor
 			}
 		}
 		trigger_if = {
-			limit = { scope:actor = { has_variable = no_scheming_allowed_var } }
+			limit = { scope:puppet_or_actor = { has_variable = no_scheming_allowed_var } }
 			custom_tooltip = {
 				text = no_scheming_allowed_var_tt
-				scope:actor.var:no_scheming_allowed_var != scope:recipient
+				scope:puppet_or_actor.var:no_scheming_allowed_var != scope:recipient
 			}
 		}
 	}
@@ -78,7 +79,7 @@
 	desc = {
 		triggered_desc = {
 			trigger = {
-				scope:actor = {
+				scope:puppet_or_actor = {
 					can_start_scheme = {
 						type = murder
 						target_character = scope:recipient
@@ -113,20 +114,36 @@
 		current_description = start_murder_interaction.tt.agent_focus_secrecy
 	}
 
-	on_accept = {
-		scope:actor = {
-			stress_impact = {
-				compassionate = major_stress_impact_gain
-				honest = medium_stress_impact_gain
-				just = medium_stress_impact_gain
+	on_send = {
+		scope:puppet_or_actor = {
+			if = {
+				limit = {
+					OR = {
+						has_character_modifier = pam_granted_indulgences_modifier
+						has_character_modifier = pam_granted_indulgences_modifier_small
+					}
+				}
+				change_spiritual_fulfillment = major_spiritual_fulfillment_loss
 			}
 		}
-		scope:actor = {
+	}
+	on_accept = {
+		scope:puppet_or_actor = {
+			if = { # Only get stressed/SP penalties if you don't have the parameter
+				limit = {
+					NOT = { has_fulfillment_parameter = sp_murder_yields_no_sp_or_stress_loss }
+				}
+				stress_and_fulfillment_impact = {
+					compassionate = major_stress_impact_gain
+					honest = medium_stress_impact_gain
+					just = medium_stress_impact_gain
+				}
+			}
 			send_interface_toast = {
 				type = event_toast_effect_neutral
 				title = start_murder_interaction_notification
 
-				left_icon = scope:actor
+				left_icon = scope:puppet_or_actor
 				right_icon = scope:recipient
 
 				# Success.
@@ -212,6 +229,20 @@
 				remove_variable = feast_events_ewan_0001_bonus_value
 			}
 		}
+		if = {
+			limit = {
+				scope:is_puppet_action ?= yes
+				scope:actor != scope:recipient
+			}
+			scope:actor = {
+				send_interface_toast = {
+					type = event_toast_effect_neutral
+					title = start_murder_interaction_notification_puppeteer
+					left_icon = scope:puppet_or_actor
+					right_icon = scope:recipient
+				}
+			}
+		}
 	}
 
 	auto_accept = yes
@@ -229,8 +260,17 @@ start_abduct = {
 	scheme = abduct
 	ignores_pending_interaction_block = yes
 
+	is_available = {
+		trigger_if = {
+			limit = { is_ai = yes }
+			is_diarch = yes
+			liege ?= { has_diarchy_active_parameter = diarchy_is_co_rulership }
+			ai_diarch_would_maim_execute_superior_if_got_chance_trigger = { LIEGE = liege }
+		}
+	}
+
 	is_shown = {
-		scope:actor = {
+		scope:puppet_or_actor ?= {
 			OR = {
 				has_perk = kidnapper_perk  # Scheme unlocked by the Kidnapper Perk
 				domicile ?= { has_domicile_parameter = camp_unlocks_abduct_scheme }
@@ -251,8 +291,8 @@ start_abduct = {
 		}
 
 		NOR = {
-			scope:recipient = scope:actor
-			scope:recipient = { is_imprisoned_by = scope:actor }
+			scope:recipient = scope:puppet_or_actor
+			scope:recipient = { is_imprisoned_by = scope:puppet_or_actor }
 		}
 		#exists = scope:recipient.court_owner
 
@@ -286,31 +326,31 @@ start_abduct = {
 	}
 
 	is_valid_showing_failures_only = {
-		scope:actor = {
+		scope:puppet_or_actor = {
 			can_start_scheme = {
 				type = abduct
 				target_character = scope:recipient
 			}
 		}
-		scope:recipient = { NOT = { has_strong_hook = scope:actor } }
+		scope:recipient = { NOT = { has_strong_hook = scope:puppet_or_actor } }
 		#limit range for landless adventurers
 		trigger_if = {
 			limit = {
-				scope:actor = {
+				scope:puppet_or_actor = {
 					has_government = landless_adventurer_government
 				}
 			}
 			#Has to be used instead of diplo range checks in laamp to landed interactions
 			ep3_laamp_diplo_range_trigger = {
 				TARGET = scope:recipient
-				LAAMP = scope:actor
+				LAAMP = scope:puppet_or_actor
 			}
 		}
 		trigger_if = {
-			limit = { scope:actor = { has_variable = no_scheming_allowed_var } }
+			limit = { scope:puppet_or_actor = { has_variable = no_scheming_allowed_var } }
 			custom_tooltip = {
 				text = no_scheming_allowed_var_tt
-				scope:actor.var:no_scheming_allowed_var != scope:recipient
+				scope:puppet_or_actor.var:no_scheming_allowed_var != scope:recipient
 			}
 		}
 	}
@@ -318,7 +358,7 @@ start_abduct = {
 	desc = {
 		triggered_desc = {
 			trigger = {
-				scope:actor = {
+				scope:puppet_or_actor = {
 					can_start_scheme = {
 						type = abduct
 						target_character = scope:recipient
@@ -353,20 +393,37 @@ start_abduct = {
 		current_description = start_abduct.tt.agent_focus_secrecy
 	}
 
-	on_accept = {
-		scope:actor = {
-			stress_impact = {
-				compassionate = medium_stress_impact_gain
-				honest = minor_stress_impact_gain
-				just = minor_stress_impact_gain
+	on_send = {
+		scope:puppet_or_actor = {
+			if = {
+				limit = {
+					OR = {
+						has_character_modifier = pam_granted_indulgences_modifier
+						has_character_modifier = pam_granted_indulgences_modifier_small
+					}
+				}
+				change_spiritual_fulfillment = medium_spiritual_fulfillment_loss
 			}
 		}
-		scope:actor = {
+	}
+
+	on_accept = {
+		scope:puppet_or_actor = {  # Only get stressed/SP penalties if you don't have the parameter
+			if = {
+				limit = {
+					NOT = { sp_hostile_schemes_except_murder_no_stress_or_fulfillment_trigger = yes }
+				}
+				stress_and_fulfillment_impact = {
+					compassionate = medium_stress_impact_gain
+					honest = minor_stress_impact_gain
+					just = minor_stress_impact_gain
+				}
+			}
 			send_interface_toast = {
 				type = event_toast_effect_neutral
 				title = start_abduct_notification
 
-				left_icon = scope:actor
+				left_icon = scope:puppet_or_actor
 				right_icon = scope:recipient
 
 				# Success.
@@ -438,6 +495,23 @@ start_abduct = {
 				}
 			}
 		}
+		if = {
+			limit = {
+				scope:is_puppet_action ?= yes
+				scope:actor != scope:recipient
+			}
+			scope:actor = {
+				send_interface_toast = {
+					type = event_toast_effect_neutral
+					title = start_abduct_notification_puppeteer
+					left_icon = scope:puppet_or_actor
+					right_icon = scope:recipient
+				}
+			}
+		}
+		scope:puppet_or_actor = { save_scope_as = owner }
+		scope:recipient = { save_scope_as = target}
+		abduction_rivalry_progress_tooltip_forecast_effect = yes
 	}
 
 	ai_targets = { ai_recipients = liege }
@@ -448,13 +522,6 @@ start_abduct = {
 		kingdom = 60
 		empire = 0
 		hegemony = 0
-	}
-
-	ai_potential = {
-		liege ?= { has_diarchy_active_parameter = diarchy_is_co_rulership }
-		is_diarch = yes
-		is_ruler = yes
-		ai_diarch_would_maim_execute_superior_if_got_chance_trigger = { LIEGE = liege }
 	}
 
 	ai_will_do = {
@@ -521,6 +588,14 @@ start_abduct = {
 			}
 			always = yes
 		}
+		#Promised to abstain from sin
+		modifier = {
+			OR = {
+				has_character_modifier = pam_granted_indulgences_modifier
+				has_character_modifier = pam_granted_indulgences_modifier_small
+			}
+			factor = 0.1
+		}
 	}
 
 	auto_accept = yes
@@ -579,16 +654,38 @@ seduce_interaction = {
 		hegemony = 12
 	}
 
+	is_available = {
+		trigger_if = {
+			limit = { is_ai = yes }
+			is_adult = yes
+			NOR = {
+				has_trait = chaste
+				AND = { # No one cares about City barons
+					is_lowborn = yes
+					primary_title.tier <= tier_barony
+				}
+				has_trait = celibate
+				primary_title ?= {
+					is_mercenary_company = yes
+				}
+				scheme_generic_ai_blocker_trigger = yes
+				has_character_modifier = clerical_chastity_vow_modifier
+			}
+			might_cheat_on_every_partner_trigger = yes
+		}
+	}
+
 	is_shown = {
-		scope:actor != scope:recipient
+		scope:puppet_or_actor ?= {
+			is_adult = yes
+			NOT = { cannot_seduce = yes }
+		}
+		
+		scope:puppet_or_actor != scope:recipient
+		
 		scope:recipient = {
 			is_adult = yes
 			NOT = { cannot_be_seduced = yes }
-		}
-		
-		scope:actor = {
-			is_adult = yes
-			NOT = { cannot_seduce = yes }
 		}
 
 		# Avoid seducing lowborn nobodies in foreign courts
@@ -601,16 +698,16 @@ seduce_interaction = {
 					is_lowborn = yes
 					is_playable_character = no
 					NOR = {
-						is_courtier_of = scope:actor
-						is_foreign_court_or_pool_guest_of = scope:actor
+						is_courtier_of = scope:puppet_or_actor
+						is_foreign_court_or_pool_guest_of = scope:puppet_or_actor
 					}
 				}
 			}
 		}
-		scope:actor = { # Some early filtering for the AI to focus it towards fruitful seductions
+		scope:puppet_or_actor ?= { # Some early filtering for the AI to focus it towards fruitful seductions
 			trigger_if = {
 				limit = {
-					is_ai = yes
+					scope:actor = { is_ai = yes }
 				}
 				trigger_if = { # Deviants will seduce anyone
 					limit = {
@@ -619,7 +716,7 @@ seduce_interaction = {
 				}
 				trigger_else_if = { # It's always fine to seduce your spouse
 					limit = {
-						scope:recipient = { is_consort_of = scope:actor }
+						scope:recipient = { is_consort_of = scope:puppet_or_actor }
 					}
 				}
 				trigger_else_if = { # If the target is a close family member, only certain AI's will seduce much older members
@@ -636,29 +733,29 @@ seduce_interaction = {
 							}
 						}
 					}
-					scope:recipient.age <= scope:actor.age_plus_25
+					scope:recipient.age <= scope:puppet_or_actor.age_plus_25
 				}
 				trigger_else_if = { # Lustful/seduction-focused characters have a wider range
 					limit = {
 						OR = {
 							has_trait = lustful
-							has_trait = rakish
 							has_focus = intrigue_temptation_focus
+							has_trait = rakish
 						}
 					}
 					OR = {
-						scope:recipient.age <= scope:actor.age_plus_10
+						scope:recipient.age <= scope:puppet_or_actor.age_plus_10
 						AND = { # Seducing your vassals/liege/realm priest is good realm management, AND drama!
 							has_focus = intrigue_temptation_focus
 							OR = {
 								scope:recipient = {
-									is_vassal_of = scope:actor
+									is_vassal_of = scope:puppet_or_actor
 								}
 								liege ?= scope:recipient
 
 								scope:recipient = {
 									is_theocratic_lessee = yes
-									is_courtier_of = scope:actor
+									is_courtier_of = scope:puppet_or_actor
 								}
 							}
 						}
@@ -681,12 +778,12 @@ seduce_interaction = {
 							count <= 1
 						}
 					}
-					scope:recipient.age <= scope:actor.age_plus_5
+					scope:recipient.age <= scope:puppet_or_actor.age_plus_5
 					scope:recipient.age <= scope:recipient.marriage_female_fertility_cutoff_age_value
 				}
 				trigger_else = { # Otherwise, try to not seduce with *too* large an age gap
-					scope:recipient.age <= scope:actor.age_plus_5
-					scope:recipient.age >= scope:actor.age_minus_10
+					scope:recipient.age <= scope:puppet_or_actor.age_plus_5
+					scope:recipient.age >= scope:puppet_or_actor.age_minus_10
 				}
 			}
 			trigger_else = {
@@ -695,43 +792,61 @@ seduce_interaction = {
 	}
 
 	is_valid_showing_failures_only = {
-		scope:actor = {
+		scope:puppet_or_actor = {
 			NOT = { is_at_war_with = scope:recipient }
 			can_start_scheme = {
 				type = seduce
 				target_character = scope:recipient
+			}
+			custom_tooltip = {
+				text = clerical_chastity_vow_blocks_scheme_tt
+				NOT = { has_character_modifier = clerical_chastity_vow_modifier }
 			}
 		}
 		trigger_if = {
 			limit = {
 				scope:recipient = { exists = primary_spouse }
 			}
-			scope:recipient = { primary_spouse = { NOT = { has_strong_hook = scope:actor } } }
+			scope:recipient = { primary_spouse = { NOT = { has_strong_hook = scope:puppet_or_actor } } }
 		}
 		#limit range for landless adventurers
 		trigger_if = {
 			limit = {
-				scope:actor = {
+				scope:puppet_or_actor = {
 					has_government = landless_adventurer_government
 				}
 			}
 			#Has to be used instead of diplo range checks in laamp to landed interactions
 			ep3_laamp_diplo_range_trigger = {
 				TARGET = scope:recipient
-				LAAMP = scope:actor
+				LAAMP = scope:puppet_or_actor
 			}
 		}
 	}
 
 	desc = scheme_interaction_tt_seduce_approved
 
+	on_send = {
+		scope:puppet_or_actor = {
+			if = {
+				limit = {
+					OR = {
+						has_character_modifier = pam_granted_indulgences_modifier
+						has_character_modifier = pam_granted_indulgences_modifier_small
+					}
+				}
+				change_spiritual_fulfillment = medium_spiritual_fulfillment_loss
+			}
+		}
+	}
+
 	on_accept = {
-		scope:actor = {
+		scope:puppet_or_actor = {
 			send_interface_toast = {
 				type = event_toast_effect_neutral
 				title = seduce_interaction_notification
 
-				left_icon = scope:actor
+				left_icon = scope:puppet_or_actor
 				right_icon = scope:recipient
 
 				begin_scheme_basic_effect = {
@@ -743,7 +858,21 @@ seduce_interaction = {
 				seduce_interaction_stress_effect = yes
 			}
 		}
-		scope:actor = {
+		if = {
+			limit = {
+				scope:is_puppet_action ?= yes
+				scope:actor != scope:recipient
+			}
+			scope:actor = {
+				send_interface_toast = {
+					type = event_toast_effect_neutral
+					title = seduce_interaction_notification_puppeteer
+					left_icon = scope:puppet_or_actor
+					right_icon = scope:recipient
+				}
+			}
+		}
+		scope:puppet_or_actor = {
 			if = {
 				limit = {
 					NOT = { is_attracted_to_gender_of = scope:recipient }
@@ -753,23 +882,6 @@ seduce_interaction = {
 		}
 	}
 
-	ai_potential = {
-		is_adult = yes
-		NOR = {
-			has_trait = celibate
-			has_trait = chaste
-			scheme_generic_ai_blocker_trigger = yes
-			primary_title = {
-				is_mercenary_company = yes
-			}
-			AND = { # No one cares about City barons
-				is_lowborn = yes
-				primary_title.tier <= tier_barony
-			}
-		}
-		might_cheat_on_every_partner_trigger = yes
-	}
-
 	auto_accept = yes
 
 	ai_will_do = {
@@ -777,21 +889,21 @@ seduce_interaction = {
 
 		modifier = {
 			add = -50
-			scope:actor = {
-				primary_spouse ?= { has_strong_hook = scope:actor }
+			scope:puppet_or_actor = {
+				primary_spouse ?= { has_strong_hook = scope:puppet_or_actor }
 			}
 		}
 
 		modifier = {
 			add = 50
-			scope:actor = {
+			scope:puppet_or_actor = {
 				has_focus = intrigue_temptation_focus
 			}
 		}
 
 		modifier = {
 			add = 50
-			scope:actor = {
+			scope:puppet_or_actor = {
 				has_opinion_modifier = {
 					modifier = childhood_crush
 					target = scope:recipient
@@ -801,25 +913,25 @@ seduce_interaction = {
 
 		modifier = {
 			add = 25
-			exists = scope:actor.dynasty
-			scope:actor.dynasty = {
+			exists = scope:puppet_or_actor.dynasty
+			scope:puppet_or_actor.dynasty = {
 				has_dynasty_perk = fp1_adventure_legacy_2
 			}
 		}
 
 		modifier = { # Focus on befriending if that's the path you've chosen
 			add = -50
-			scope:actor = {
+			scope:puppet_or_actor = {
 				has_perk = befriend_perk
 			}
 		}
 
 		modifier = { # Non-lustful clergy tend to not seduce
 			add = -25
-			scope:actor = {
+			scope:puppet_or_actor = {
 				is_clergy = yes
-				faith = {
-					NOT = { has_doctrine_parameter = clergy_can_marry }
+				rite = {
+					NOT = { rite_has_parameter = clergy_can_marry }
 				}
 				NOR = {
 					has_trait = lustful
@@ -830,7 +942,7 @@ seduce_interaction = {
 
 		modifier = { # Seducing your unmarried courtiers is good for producing bastards, which the AI will want to do if they have few heirs
 			add = 10
-			scope:actor = {
+			scope:puppet_or_actor = {
 				any_child = {
 					count <= 1
 				}
@@ -839,22 +951,22 @@ seduce_interaction = {
 				is_married = no
 				fertility > low_fertility
 				OR = {
-					is_courtier_of = scope:actor
-					is_pool_guest_of = scope:actor
+					is_courtier_of = scope:puppet_or_actor
+					is_pool_guest_of = scope:puppet_or_actor
 				}
 			}
 		}
 
 		modifier = {
 			add = 30
-			scope:actor = {
+			scope:puppet_or_actor = {
 				has_trait = lustful
 			}
 		}
 
 		modifier = { # ( ͡° ͜ʖ ͡°)
 			add = 50
-			scope:actor = {
+			scope:puppet_or_actor = {
 				is_close_or_extended_family_of = scope:recipient
 				is_deviant_trigger = yes
 			}
@@ -868,7 +980,7 @@ seduce_interaction = {
 
 		modifier = {
 			add = 25
-			scope:actor = {
+			scope:puppet_or_actor = {
 				is_close_or_extended_family_of = scope:recipient
 				is_deviant_trigger = yes
 			}
@@ -882,9 +994,9 @@ seduce_interaction = {
 
 		modifier = {
 			add = 50
-			scope:actor = {
+			scope:puppet_or_actor = {
 				is_close_or_extended_family_of = scope:recipient
-				faith = { has_doctrine = tenet_divine_marriage }
+				rite = { rite_has_tenet = tenet_divine_marriage }
 			}
 		}
 
@@ -893,8 +1005,8 @@ seduce_interaction = {
 			scope:recipient = {
 				primary_spouse ?= {
 					OR = {
-						has_relation_rival = scope:actor
-						has_relation_nemesis = scope:actor
+						has_relation_rival = scope:puppet_or_actor
+						has_relation_nemesis = scope:puppet_or_actor
 					}
 				}
 			}
@@ -902,17 +1014,17 @@ seduce_interaction = {
 
 		modifier = {
 			add = -20
-			scope:actor = {
+			scope:puppet_or_actor = {
 				NOR = {
 					has_trait = lustful
 					has_trait = arbitrary
 					is_deviant_trigger = yes
-					faith = { has_doctrine = tenet_divine_marriage }
+					rite = { rite_has_tenet = tenet_divine_marriage }
 					has_perk = subtle_desire_perk
 				}
 			}
 			scope:recipient = {
-				is_close_family_of = scope:actor
+				is_close_family_of = scope:puppet_or_actor
 			}
 		}
 
@@ -920,9 +1032,9 @@ seduce_interaction = {
 			add = -20
 			scope:recipient = {
 				is_married = yes
-				primary_spouse != scope:actor
+				primary_spouse != scope:puppet_or_actor
 			}
-			scope:actor = {
+			scope:puppet_or_actor = {
 				NOR = {
 					has_trait = lustful
 					has_focus = intrigue_temptation_focus
@@ -930,9 +1042,9 @@ seduce_interaction = {
 			}
 		}
 
-		modifier = { # Try to avoid agressive seduction unless you're geared for it
+		modifier = { # Try to avoid aggressive seduction unless you're geared for it
 			add = -10
-			scope:actor = {
+			scope:puppet_or_actor = {
 				NOR = {
 					has_trait = lustful
 					has_focus = intrigue_temptation_focus
@@ -940,7 +1052,7 @@ seduce_interaction = {
 			}
 			scope:recipient = {
 				is_lowborn = no
-				NOT = { is_pool_guest_of = scope:actor }
+				NOT = { is_pool_guest_of = scope:puppet_or_actor }
 			}
 		}
 
@@ -953,7 +1065,7 @@ seduce_interaction = {
 					phase_has_catalyst = catalyst_became_friend_lover_with_character
 				}
 			}
-			scope:actor = {
+			scope:puppet_or_actor = {
 				any_character_struggle = {
 					involvement = involved
 					is_struggle_type = iberian_struggle
@@ -964,7 +1076,7 @@ seduce_interaction = {
 				value = 0
 				if = {
 					limit = {
-						scope:actor = {
+						scope:puppet_or_actor = {
 							has_character_flag = agenda_towards_deescalation
 							trait_compatibility = {
 								target = scope:recipient
@@ -979,7 +1091,7 @@ seduce_interaction = {
 				}
 				else_if = {
 					limit = {
-						scope:actor = {
+						scope:puppet_or_actor = {
 							has_character_flag = agenda_towards_escalation
 						}
 					}
@@ -995,7 +1107,7 @@ seduce_interaction = {
 			factor = 1.25
 			scope:recipient = {
 				number_of_personality_traits_in_common = {
-					target = scope:actor
+					target = scope:puppet_or_actor
 					value >= 1
 				}
 			}
@@ -1005,7 +1117,7 @@ seduce_interaction = {
 			factor = 1.5
 			scope:recipient = {
 				number_of_personality_traits_in_common = {
-					target = scope:actor
+					target = scope:puppet_or_actor
 					value >= 2
 				}
 			}
@@ -1015,7 +1127,7 @@ seduce_interaction = {
 			factor = 2
 			scope:recipient = {
 				number_of_personality_traits_in_common = {
-					target = scope:actor
+					target = scope:puppet_or_actor
 					value >= 3
 				}
 			}
@@ -1057,7 +1169,7 @@ seduce_interaction = {
 					limit = {
 						scope:recipient = {
 							opinion = {
-								target = scope:actor
+								target = scope:puppet_or_actor
 								value < -15
 							}
 						}
@@ -1067,7 +1179,7 @@ seduce_interaction = {
 			}
 			scope:recipient = {
 				opinion = {
-					target = scope:actor
+					target = scope:puppet_or_actor
 					value < -5
 				}
 			}
@@ -1077,7 +1189,7 @@ seduce_interaction = {
 			factor = 0.1
 			scope:recipient = {
 				number_of_opposing_personality_traits = {
-					target = scope:actor
+					target = scope:puppet_or_actor
 					value >= 1
 				}
 			}
@@ -1092,7 +1204,7 @@ seduce_interaction = {
 
 		modifier = { # Barons tend to not seduce anyone landed above them
 			factor = 0.1
-			scope:actor = {
+			scope:puppet_or_actor = {
 				is_playable_character = yes
 				primary_title = {
 					tier = tier_barony
@@ -1144,9 +1256,17 @@ seduce_interaction = {
 
 		modifier = { # Family Feud
 			add = 50
-			scope:actor = {
+			scope:puppet_or_actor = {
 				house_has_feud_relation_with_trigger = { TARGET = scope:recipient }
 			}
+		}
+		#Promised to abstain from sin
+		modifier = {
+			OR = {
+				has_character_modifier = pam_granted_indulgences_modifier
+				has_character_modifier = pam_granted_indulgences_modifier_small
+			}
+			factor = 0.1
 		}
 	}
 }
@@ -1201,14 +1321,44 @@ court_interaction = {
 		hegemony = 12
 	}
 
-	is_shown = {
-		scope:recipient = {
+	is_available = {
+		trigger_if = {
+			limit = { is_ai = yes }
+			highest_held_title_tier > tier_barony
+			trigger_if = {
+				limit = {
+					NOR = {
+						culture ?= {
+							has_cultural_parameter = ai_romance_scheme_increase
+						}
+						AND = {
+							has_character_flag = agenda_towards_deescalation
+							any_character_struggle = {
+								involvement = involved
+								phase_has_catalyst = catalyst_became_best_friend_soulmate_with_very_important_character
+								is_struggle_type = iberian_struggle
+							}
+						}
+					}
+				}
+				ai_honor >= high_positive_ai_value
+				ai_compassion >= low_positive_ai_value
+			}
 			is_adult = yes
-			is_attracted_to_gender_of = scope:actor
-			NOT = { cannot_be_seduced = yes }
+			NOR = {
+				has_trait = chaste
+				AND = { # No one cared about City barons
+					is_lowborn = yes
+					primary_title.tier <= tier_barony
+				}
+				has_trait = celibate
+				scheme_generic_ai_blocker_trigger = yes
+			}
 		}
-		
-		scope:actor = { 
+	}
+
+	is_shown = {
+		scope:puppet_or_actor ?= {
 			this != scope:recipient
 			is_adult = yes
 			NOT = { cannot_seduce = yes }
@@ -1216,22 +1366,22 @@ court_interaction = {
 			trigger_if = {
 				limit = { has_sexuality = asexual }
 				trigger_if = {
-					limit = { is_ai = yes }
+					limit = { scope:actor = { is_ai = yes } }
 					always = no
 				}
 				trigger_else = {
-					scope:recipient = { is_consort_of = scope:actor }
+					scope:recipient = { is_consort_of = scope:puppet_or_actor }
 				}
 			}
 			# Some early filtering for the AI to focus it towards fruitful romance
 			trigger_if = {
-				limit = { is_ai = yes }
+				limit = { scope:actor = { is_ai = yes } }
 				trigger_if = { # Deviants will romance anyone
 					limit = { is_deviant_trigger = yes }
 				}
 				trigger_else_if = { # It's always fine to romance your spouse
 					limit = {
-						scope:recipient = { is_consort_of = scope:actor }
+						scope:recipient = { is_consort_of = scope:puppet_or_actor }
 					}
 				}
 				trigger_else_if = { # If the target is a close family member, only certain AI's will romance much older members
@@ -1248,29 +1398,29 @@ court_interaction = {
 							}
 						}
 					}
-					scope:recipient.age <= scope:actor.age_plus_25
+					scope:recipient.age <= scope:puppet_or_actor.age_plus_25
 				}
 				trigger_else_if = { # Lustful/seduction-focused characters have a wider range
 					limit = {
 						OR = {
 							has_trait = lustful
-							has_trait = rakish
 							has_focus = intrigue_temptation_focus
+							has_trait = rakish
 						}
 					}
 					OR = {
-						scope:recipient.age <= scope:actor.age_plus_10
+						scope:recipient.age <= scope:puppet_or_actor.age_plus_10
 						AND = { # Romancing your vassals/liege/realm priest is good realm management, AND drama!
 							has_focus = intrigue_temptation_focus
 							OR = {
 								scope:recipient = {
-									is_vassal_of = scope:actor
+									is_vassal_of = scope:puppet_or_actor
 								}
 								liege ?= scope:recipient
 
 								scope:recipient = {
 									is_theocratic_lessee = yes
-									is_courtier_of = scope:actor
+									is_courtier_of = scope:puppet_or_actor
 								}
 							}
 						}
@@ -1293,46 +1443,69 @@ court_interaction = {
 							count <= 1
 						}
 					}
-					scope:recipient.age <= scope:actor.age_plus_5
+					scope:recipient.age <= scope:puppet_or_actor.age_plus_5
 					scope:recipient.age <= scope:recipient.marriage_female_fertility_cutoff_age_value
 				}
 				trigger_else = { # Otherwise, try to not seduce with *too* large an age gap
-					scope:recipient.age <= scope:actor.age_plus_5
-					scope:recipient.age >= scope:actor.age_minus_10
+					scope:recipient.age <= scope:puppet_or_actor.age_plus_5
+					scope:recipient.age >= scope:puppet_or_actor.age_minus_10
 				}
 			}
 			trigger_else = {
 			}
 		}
+		scope:recipient = {
+			is_adult = yes
+			is_attracted_to_gender_of = scope:puppet_or_actor
+			NOT = { cannot_be_seduced = yes }
+		}
 	}
 
 	is_valid_showing_failures_only = {
-		scope:actor = {
+		scope:puppet_or_actor = {
 			NOT = { is_at_war_with = scope:recipient }
 			can_start_scheme = {
 				type = courting
 				target_character = scope:recipient
 			}
+			custom_tooltip = {
+				text = clerical_chastity_vow_blocks_scheme_tt
+				NOT = { has_character_modifier = clerical_chastity_vow_modifier }
+			}
 		}
 		#limit range for landless adventurers
 		trigger_if = {
 			limit = {
-				scope:actor = {
+				scope:puppet_or_actor = {
 					has_government = landless_adventurer_government
 				}
 			}
 			#Has to be used instead of diplo range checks in laamp to landed interactions
 			ep3_laamp_diplo_range_trigger = {
 				TARGET = scope:recipient
-				LAAMP = scope:actor
+				LAAMP = scope:puppet_or_actor
 			}
 		}
 	}
 
 	desc = scheme_interaction_tt_courtship_approved
 
+	on_send = {
+		scope:puppet_or_actor = {
+			if = {
+				limit = {
+					OR = {
+						has_character_modifier = pam_granted_indulgences_modifier
+						has_character_modifier = pam_granted_indulgences_modifier_small
+					}
+				}
+				change_spiritual_fulfillment = medium_spiritual_fulfillment_loss
+			}
+		}
+	}
+
 	on_accept = {
-		scope:actor = {
+		scope:puppet_or_actor = {
 			# If you already have a soulmate, they get very mad
 			every_relation = {
 				type = soulmate
@@ -1340,16 +1513,16 @@ court_interaction = {
 
 				add_opinion = {
 					modifier = betrayed_our_promise
-					target = scope:actor
+					target = scope:puppet_or_actor
 				}
 			}
 		}
-		scope:actor = {
+		scope:puppet_or_actor = {
 			send_interface_toast = {
 				type = event_toast_effect_neutral
 				title = court_interaction_notification
 
-				left_icon = scope:actor
+				left_icon = scope:puppet_or_actor
 				right_icon = scope:recipient
 
 				begin_scheme_basic_effect = {
@@ -1366,9 +1539,23 @@ court_interaction = {
 
 						add_opinion = {
 							modifier = betrayed_our_promise
-							target = scope:actor
+							target = scope:puppet_or_actor
 						}
 					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				scope:is_puppet_action ?= yes
+				scope:actor != scope:recipient
+			}
+			scope:actor = {
+				send_interface_toast = {
+					type = event_toast_effect_neutral
+					title = court_interaction_notification_puppeteer
+					left_icon = scope:puppet_or_actor
+					right_icon = scope:recipient
 				}
 			}
 		}
@@ -1385,39 +1572,6 @@ court_interaction = {
 		}
 	}
 
-	ai_potential = {
-		is_adult = yes
-		trigger_if = {
-			limit = {
-				NOR = {
-					culture = {
-						has_cultural_parameter = ai_romance_scheme_increase
-					}
-					AND = {
-						has_character_flag = agenda_towards_deescalation
-						any_character_struggle = {
-							involvement = involved
-							is_struggle_type = iberian_struggle
-							phase_has_catalyst = catalyst_became_best_friend_soulmate_with_very_important_character
-						}
-					}
-				}
-			}
-			ai_honor >= high_positive_ai_value
-			ai_compassion >= low_positive_ai_value
-		}
-		highest_held_title_tier > tier_barony
-		NOR = {
-			has_trait = celibate
-			has_trait = chaste
-			scheme_generic_ai_blocker_trigger = yes
-			AND = { # No one cared about City barons
-				is_lowborn = yes
-				primary_title.tier <= tier_barony
-			}
-		}
-	}
-
 	auto_accept = yes
 
 	ai_will_do = {
@@ -1427,7 +1581,7 @@ court_interaction = {
 
 		# Struggle
 		modifier = {
-			scope:actor = {
+			scope:puppet_or_actor = {
 				any_character_struggle = {
 					involvement = involved
 					is_struggle_type = iberian_struggle
@@ -1445,7 +1599,7 @@ court_interaction = {
 				value = 0
 				if = {
 					limit = {
-						scope:actor = {
+						scope:puppet_or_actor = {
 							has_character_flag = agenda_towards_deescalation
 						}
 						scope:recipient = {
@@ -1456,7 +1610,7 @@ court_interaction = {
 				}
 				else_if = {
 					limit = {
-						scope:actor = {
+						scope:puppet_or_actor = {
 							has_character_flag = agenda_towards_escalation
 						}
 					}
@@ -1470,7 +1624,7 @@ court_interaction = {
 
 		modifier = { # Motivate AI's to use it on catalyst providers exclusively
 			add = -50
-			scope:actor = {
+			scope:puppet_or_actor = {
 				any_character_struggle = {
 					involvement = involved
 					is_struggle_type = iberian_struggle
@@ -1513,7 +1667,7 @@ court_interaction = {
 
 		modifier = {
 			add = 50
-			scope:actor = {
+			scope:puppet_or_actor = {
 				has_opinion_modifier = {
 					modifier = childhood_crush
 					target = scope:recipient
@@ -1523,7 +1677,7 @@ court_interaction = {
 
 		modifier = {
 			add = -50
-			scope:actor = {
+			scope:puppet_or_actor = {
 				is_close_family_of = scope:recipient
 				NOR = {
 					is_deviant_trigger = yes
@@ -1558,7 +1712,7 @@ court_interaction = {
 					limit = {
 						scope:recipient = {
 							opinion = {
-								target = scope:actor
+								target = scope:puppet_or_actor
 								value < -20
 							}
 						}
@@ -1568,7 +1722,7 @@ court_interaction = {
 			}
 			scope:recipient = {
 				opinion = {
-					target = scope:actor
+					target = scope:puppet_or_actor
 					value < 0
 				}
 			}
@@ -1597,6 +1751,27 @@ court_interaction = {
 				is_lowborn = yes
 				is_married = no
 			}
+		}
+
+		modifier = { # Clergy sworn to celibacy don't partake in courtly love
+			factor = 0
+			scope:puppet_or_actor = {
+				is_clergy = yes
+				rite = {
+					NOT = { rite_has_parameter = clergy_can_marry }
+				}
+				NOT = {
+					has_trait = lustful
+				}
+			}
+		}
+		#Promised to abstain from sin
+		modifier = {
+			OR = {
+				has_character_modifier = pam_granted_indulgences_modifier
+				has_character_modifier = pam_granted_indulgences_modifier_small
+			}
+			factor = 0.1
 		}
 	}
 }

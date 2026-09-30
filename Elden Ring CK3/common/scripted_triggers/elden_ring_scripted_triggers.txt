@@ -113,6 +113,22 @@ cannot_be_murdered = {
 	}
 }
 
+cannot_be_imprisoned = {
+	OR = {
+		has_trait = god_serpent
+		has_trait = crucified_erdtree
+		has_trait = god
+		has_trait = demigod_tier_4
+		has_trait = demigod_tier_3
+		has_trait = demigod_tier_2
+		has_trait = demigod_tier_1
+		has_trait = imprisoned_evergaol
+		has_trait = bodiless
+		has_trait = ranni_doll_body
+		has_trait = death_nonpermanent
+	}
+}
+
 is_dead_temporarily = {
 	has_trait = death_nonpermanent
 }

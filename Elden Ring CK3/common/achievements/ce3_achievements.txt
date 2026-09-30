@@ -1,0 +1,99 @@
+﻿# 01. The Two Swords
+ce3_04_the_two_swords_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 02. Guido's Guiding Light
+ce3_02_guidos_guiding_light_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 03. Servus Servorum Dei
+ce3_11_servus_servorum_dei_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 04. Papal Bull
+ce3_12_papal_bull_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 05. The Father, the Son, and the Holy Grandson
+ce3_07_the_father_the_son_and_the_holy_grandson_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 06. Where There's a Will
+ce3_13_where_theres_a_will_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 07. Home See Advantage
+ce3_14_home_see_advantage_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 08. Cardinal Sin
+ce3_15_cardinal_sin_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 09. Father's best side
+ce3_06_fathers_best_side_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 10. Holier Than Thou
+ce3_16_holier_than_thou_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}

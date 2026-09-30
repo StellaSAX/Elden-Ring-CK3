@@ -167,7 +167,7 @@ scripted_effect harm_0000_physic_rescue_chance_incapable_effect = {
 	}
 
 	# Having someone to call on for this type of thing offloads the "what do I do?!" panic.
-	stress_impact = {
+	stress_and_fulfillment_impact = {
 		base = minor_stress_impact_gain
 		calm = minor_stress_impact_loss
 	}
@@ -203,7 +203,7 @@ scripted_effect harm_0000_physic_rescue_chance_death_effect = {
 	}
 
 	# Having someone to call on for this type of thing offloads the "what do I do?!" panic.
-	stress_impact = {
+	stress_and_fulfillment_impact = {
 		base = minor_stress_impact_gain
 		calm = minor_stress_impact_loss
 	}
@@ -334,7 +334,7 @@ harm.0001 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			brave = miniscule_stress_impact_loss
 			craven = minor_stress_impact_gain
 		}
@@ -390,7 +390,7 @@ harm.0001 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			patient = miniscule_stress_impact_loss
 			impatient = minor_stress_impact_gain
 			eccentric = minor_stress_impact_gain
@@ -450,7 +450,7 @@ harm.0001 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			lazy = miniscule_stress_impact_loss
 			humble = miniscule_stress_impact_loss
 			diligent = minor_stress_impact_gain
@@ -508,7 +508,7 @@ harm.0002 = {
 
 		# No effects, this event is just foreshadowing.
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -570,7 +570,7 @@ harm.0003 = {
 
 		# No effects, this is just foreshadowing.
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			stubborn = minor_stress_impact_loss
 		}
@@ -601,6 +601,7 @@ scripted_trigger harm_0011_valid_emergency_medic_trigger = {
 		# Any character with obscenely high learning will also do.
 		learning >= 26
 	}
+	this != root.side_commander
 	NOT = {
 		has_any_bad_relationship_with_character_trigger = { CHARACTER = root.side_commander }
 	}
@@ -693,7 +694,7 @@ harm.0011 = {
 			}
 		}
 
-		stress_impact = { base = major_stress_impact_gain }
+		stress_and_fulfillment_impact = { base = major_stress_impact_gain }
 		ai_chance = {
 			# AI should only pick this option if there's not a chance to call for a medic.
 			base = 1
@@ -797,7 +798,7 @@ harm.0011 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = major_stress_impact_gain
 			trusting = minor_stress_impact_loss
 			stubborn = minor_stress_impact_gain
@@ -989,7 +990,7 @@ harm.0501 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -1008,7 +1009,7 @@ harm.0501 = {
 		custom_tooltip = harm.0000.tt.no_permanent_damage
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -1051,7 +1052,7 @@ harm.0501 = {
 		}
 
 		# Always gain stress from skill tests.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -1126,7 +1127,6 @@ harm.0502 = {
 				scope:char_temp_5 = { is_close_or_extended_family_of = scope:char_temp_5 }
 			}
 		}
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -1194,7 +1194,6 @@ scripted_trigger harm_0511_rides_horses_trigger = {
 		culture = { culture_has_archer_cavalry_maa = yes }
 		has_trait = nomadic_philosophy
 	}
-	
 	is_god = no
 	is_demigod = no
 	has_special_body = no
@@ -1268,7 +1267,7 @@ harm.0511 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -1303,7 +1302,7 @@ harm.0511 = {
 		custom_tooltip = harm.0000.tt.no_permanent_damage
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -1346,7 +1345,7 @@ harm.0511 = {
 		}
 
 		# Always gain stress from skill tests.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -1398,7 +1397,7 @@ harm.0512 = {
 		# Foreshadow.
 		custom_tooltip = harm.0512.a.tt
 
-		stress_impact = { base = medium_stress_impact_loss }
+		stress_and_fulfillment_impact = { base = medium_stress_impact_loss }
 		ai_chance = {
 			# Only one option, so what we do is unimportant.
 			base = 1
@@ -1432,7 +1431,7 @@ scripted_trigger harm_0521_has_waterside_capital_trigger = {
 	is_tarnished = no
 	is_grace_tarnished = no
 	
-	location = {
+	location ?= {
 		OR = {
 			is_sea_province = yes
 			# Now we check for county so that your capital barony doesn't have to be literally _on_ the sea.
@@ -1549,7 +1548,7 @@ harm.0521 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -1585,7 +1584,7 @@ harm.0521 = {
 		custom_tooltip = harm.0000.tt.no_permanent_damage
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -1628,7 +1627,7 @@ harm.0521 = {
 		}
 
 		# Always gain stress from skill tests.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -1696,7 +1695,7 @@ harm.0522 = {
 		# Foreshadow.
 		custom_tooltip = harm.0522.a.tt
 
-		stress_impact = { base = medium_stress_impact_loss }
+		stress_and_fulfillment_impact = { base = medium_stress_impact_loss }
 		ai_chance = {
 			# Only one option, so what we do is unimportant.
 			base = 1
@@ -1751,7 +1750,6 @@ harm.0531 = {
 			# ... or just age.
 			age_ranked_health_vulnerability_threshold_trigger = yes
 		}
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -1810,7 +1808,7 @@ harm.0531 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -1829,7 +1827,7 @@ harm.0531 = {
 		custom_tooltip = harm.0000.tt.no_permanent_damage
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -1890,7 +1888,7 @@ harm.0531 = {
 		}
 
 		# Always gain stress from skill tests.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -1925,7 +1923,6 @@ harm.0532 = {
 			# ... or just age.
 			age_ranked_health_vulnerability_threshold_trigger = yes
 		}
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -1957,7 +1954,7 @@ harm.0532 = {
 		# Foreshadow.
 		custom_tooltip = harm.0532.a.tt
 
-		stress_impact = { base = medium_stress_impact_gain }
+		stress_and_fulfillment_impact = { base = medium_stress_impact_gain }
 		ai_chance = {
 			# Only one option, so what we do is unimportant.
 			base = 1
@@ -1991,7 +1988,7 @@ scripted_trigger harm_0541_bad_winter_trigger = {
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
-		
+	
 	OR = {
 		AND = {
 			OR = {
@@ -2000,7 +1997,7 @@ scripted_trigger harm_0541_bad_winter_trigger = {
 				# Young children.
 				child_not_teen_trigger = yes
 			}
-			location = { has_province_modifier = winter_harsh_modifier }
+			location ?= { has_province_modifier = winter_harsh_modifier }
 		}
 		AND = {
 			OR = {
@@ -2009,7 +2006,7 @@ scripted_trigger harm_0541_bad_winter_trigger = {
 				# Very young children.
 				child_is_infant_trigger = yes
 			}
-			location = { has_province_modifier = winter_normal_modifier }
+			location ?= { has_province_modifier = winter_normal_modifier }
 		}
 	}
 	# Now check our health.
@@ -2027,7 +2024,6 @@ scripted_trigger harm_0541_saved_by_court_amenities_trigger = {
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
-
 	has_royal_court = yes
 	# We'll take either lodgings or servants.
 	OR = {
@@ -2137,7 +2133,7 @@ harm.0541 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -2162,7 +2158,7 @@ harm.0541 = {
 		custom_tooltip = harm.0000.tt.no_permanent_damage
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -2205,7 +2201,7 @@ harm.0541 = {
 		}
 
 		# Always gain stress from skill tests.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -2413,7 +2409,7 @@ harm.0551 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -2438,7 +2434,7 @@ harm.0551 = {
 		custom_tooltip = harm.0000.tt.no_permanent_damage
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -2481,7 +2477,7 @@ harm.0551 = {
 		}
 
 		# Always gain stress from skill tests.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -2543,7 +2539,7 @@ harm.0552 = {
 		# Foreshadow.
 		custom_tooltip = harm.0552.a.tt
 
-		stress_impact = { base = medium_stress_impact_loss }
+		stress_and_fulfillment_impact = { base = medium_stress_impact_loss }
 		ai_chance = {
 			# Only one option, so what we do is unimportant.
 			base = 1
@@ -2600,7 +2596,6 @@ harm.0561 = {
 		age_ranked_health_vulnerability_threshold_trigger = yes
 		# Do you have lots of stairs to walk down?
 		location_has_multi_story_buildings_trigger = { LOCATION = root.location }
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -2652,7 +2647,7 @@ harm.0561 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -2677,7 +2672,7 @@ harm.0561 = {
 		custom_tooltip = harm.0000.tt.no_permanent_damage
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -2727,7 +2722,7 @@ harm.0561 = {
 		}
 
 		# Always gain stress from skill tests.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -2767,7 +2762,6 @@ harm.0562 = {
 		age_ranked_health_vulnerability_threshold_trigger = yes
 		# Do you have lots of stairs to walk down?
 		location_has_multi_story_buildings_trigger = { LOCATION = root.location }
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -2958,7 +2952,7 @@ harm.0571 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -2977,7 +2971,7 @@ harm.0571 = {
 		custom_tooltip = harm.0000.tt.no_permanent_damage
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -3020,7 +3014,7 @@ harm.0571 = {
 		}
 
 		# Always gain stress from skill tests.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -3145,7 +3139,6 @@ harm.0581 = {
 		has_character_flag = had_event_harm_0582
 		# Medieval mores being what they were, some characters are just never going to have a private bath.
 		NOT = { has_trait = gregarious }
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -3211,7 +3204,7 @@ harm.0581 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -3238,7 +3231,7 @@ harm.0581 = {
 		custom_tooltip = harm.0000.tt.no_permanent_damage
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -3271,7 +3264,6 @@ harm.0582 = {
 		NOT = { has_character_flag = had_event_harm_0582 }
 		# Medieval mores being what they were, some characters are just never going to have a private bath.
 		NOT = { has_trait = gregarious }
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -3436,7 +3428,7 @@ harm.0591 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -3462,7 +3454,7 @@ harm.0591 = {
 		custom_tooltip = harm.0000.tt.no_permanent_damage
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 			# Paranoid characters get reduced stress loss so that they don't get nuts just for taking their opt-out.
@@ -3507,7 +3499,7 @@ harm.0591 = {
 		}
 
 		# Always gain stress from skill tests.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -3737,7 +3729,7 @@ harm.0601 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -3878,7 +3870,6 @@ harm.0611 = {
 			has_weak_physical_health_traits_trigger = yes
 			age_ranked_health_vulnerability_threshold_trigger = yes
 		}
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -3932,7 +3923,7 @@ harm.0611 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -3951,7 +3942,7 @@ harm.0611 = {
 		custom_tooltip = harm.0000.tt.no_permanent_damage
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -4012,7 +4003,7 @@ harm.0611 = {
 		}
 
 		# Always gain stress from skill tests.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -4046,7 +4037,6 @@ harm.0612 = {
 			has_weak_physical_health_traits_trigger = yes
 			age_ranked_health_vulnerability_threshold_trigger = yes
 		}
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -4205,7 +4195,7 @@ harm.0621 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -4230,7 +4220,7 @@ harm.0621 = {
 		custom_tooltip = harm.0000.tt.no_permanent_damage
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -4273,7 +4263,7 @@ harm.0621 = {
 		}
 
 		# Always gain stress from skill tests.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -4402,11 +4392,11 @@ scripted_trigger harm_0631_bonk_pre_filter_enthusiasm_trigger = {
 		# Zealous characters might be religious compelled not to engage in sex for pleasure.
 		AND = {
 			has_trait = zealous
-			faith = {
+			rite = {
 				OR = {
-					trait_is_virtue = chaste
-					trait_is_sin = lustful
-					trait_is_sin = deviant
+					trait_is_virtue_rite = chaste
+					trait_is_sin_rite = lustful
+					trait_is_sin_rite = deviant
 				}
 			}
 		}
@@ -4442,11 +4432,11 @@ scripted_trigger harm_0631_bonk_partner_trigger = {
 		}
 		# Religious compulsion.
 		AND = {
-			faith = {
+			rite = {
 				OR = {
-					trait_is_virtue = lustful
-					trait_is_virtue = deviant
-					trait_is_sin = chaste
+					trait_is_virtue_rite = lustful
+					trait_is_virtue_rite = deviant
+					trait_is_sin_rite = chaste
 				}
 			}
 			has_trait = zealous
@@ -4569,7 +4559,6 @@ harm.0631 = {
 		has_character_flag = had_event_harm_0632
 		# Check that we've got a partner who might cause us some strife.
 		harm_0631_bonk_enthusiast_trigger = yes
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -4653,7 +4642,7 @@ harm.0631 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -4672,7 +4661,7 @@ harm.0631 = {
 		custom_tooltip = harm.0000.tt.no_permanent_damage
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -4718,7 +4707,7 @@ harm.0631 = {
 		}
 
 		# Always gain stress from skill tests.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -4927,7 +4916,7 @@ harm.0641 = {
 			}
 		}
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -4946,7 +4935,7 @@ harm.0641 = {
 		custom_tooltip = harm.0000.tt.no_permanent_damage
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -5007,7 +4996,7 @@ harm.0641 = {
 		}
 
 		# Always gain stress from skill tests.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = medium_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -5129,7 +5118,6 @@ harm.1001 = {
 		# Harm filter checks.
 		NOT = { has_character_flag = had_event_harm_1001 }
 		has_character_flag = had_event_harm_1002
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -5189,7 +5177,7 @@ harm.1001 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -5210,7 +5198,7 @@ harm.1001 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -5256,7 +5244,7 @@ harm.1001 = {
 		# Always gain stress from skill tests.
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = major_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -5285,7 +5273,6 @@ harm.1002 = {
 		is_available_adult = yes
 		# Harm filter checks.
 		NOT = { has_character_flag = had_event_harm_1002 }
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -5366,7 +5353,6 @@ harm.1011 = {
 		harm_0511_rides_horses_trigger = yes
 		# Some characters will never go riding for pleasure.
 		NOT = { has_trait = lazy }
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -5426,7 +5412,7 @@ harm.1011 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -5463,7 +5449,7 @@ harm.1011 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -5509,7 +5495,7 @@ harm.1011 = {
 		# Always gain stress from skill tests.
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = major_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -5542,7 +5528,6 @@ harm.1012 = {
 		harm_0511_rides_horses_trigger = yes
 		# Some characters will never go riding for pleasure.
 		NOT = { has_trait = lazy }
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -5603,13 +5588,6 @@ harm.1012 = {
 
 scripted_trigger harm_1021_saved_by_court_amenities_trigger = {
 	trigger_if = {
-		OR = {
-			is_god = no
-			is_demigod = no
-			has_special_body = no
-			is_tarnished = no
-			is_grace_tarnished = no
-		}
 		limit = { has_royal_court = yes }
 		# Bad food'll keep you out of this.
 		amenity_level = {
@@ -5702,7 +5680,7 @@ harm.1021 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -5723,7 +5701,7 @@ harm.1021 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -5787,7 +5765,7 @@ harm.1021 = {
 		# Always gain stress from skill tests.
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = major_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -5900,7 +5878,6 @@ harm.1031 = {
 		has_character_flag = had_event_harm_1032
 		# Must be below a certain level of health to suffer from this.
 		health <= medium_health
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -5962,7 +5939,7 @@ harm.1031 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -5983,7 +5960,7 @@ harm.1031 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -6047,7 +6024,7 @@ harm.1031 = {
 		# Always gain stress from skill tests.
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = major_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -6078,7 +6055,6 @@ harm.1032 = {
 		NOT = { has_character_flag = had_event_harm_1032 }
 		# Must be below a certain level of health to suffer from this.
 		health <= medium_health
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -6234,7 +6210,7 @@ harm.1041 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -6255,7 +6231,7 @@ harm.1041 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -6377,7 +6353,6 @@ harm.1051 = {
 			has_trait = paranoid
 			has_trait = diligent
 		}
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -6437,7 +6412,7 @@ harm.1051 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -6458,7 +6433,7 @@ harm.1051 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -6492,7 +6467,6 @@ harm.1052 = {
 			has_trait = paranoid
 			has_trait = diligent
 		}
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -6559,7 +6533,6 @@ scripted_trigger harm_1061_admires_window_view_trigger = {
 		# Doesn't appreciate beauty.
 		has_trait = callous
 	}
-	
 	is_god = no
 	is_demigod = no
 	has_special_body = no
@@ -6645,7 +6618,7 @@ harm.1061 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -6666,7 +6639,7 @@ harm.1061 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -6712,7 +6685,7 @@ harm.1061 = {
 		# Always gain stress from skill tests.
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = major_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -6803,12 +6776,12 @@ harm.1062 = {
 # Do we have two courtiers who might stab each other?
 scripted_trigger harm_1071_rival_courtiers_trigger = {
 	NOT = { has_trait = forgiving }
+	this != root
 	any_relation = {
 		type = rival
 		NOT = { has_trait = forgiving }
 		is_courtier_of = root
 	}
-	
 	is_god = no
 	is_demigod = no
 	has_special_body = no
@@ -6972,7 +6945,7 @@ harm.1071 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -6999,7 +6972,7 @@ harm.1071 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -7055,7 +7028,7 @@ harm.1071 = {
 		# Always gain stress from skill tests.
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = major_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -7185,8 +7158,8 @@ scripted_trigger harm_1081_normal_storms_trigger = {
 	has_special_body = no
 	is_tarnished = no
 	is_grace_tarnished = no
-		
-	location = {
+	
+	location ?= {
 		OR = {
 			terrain = drylands
 			terrain = farmlands
@@ -7285,7 +7258,7 @@ harm.1081 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -7306,7 +7279,7 @@ harm.1081 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -7352,7 +7325,7 @@ harm.1081 = {
 		# Always gain stress from skill tests.
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = major_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -7464,7 +7437,6 @@ harm.1091 = {
 		# Harm filter checks.
 		NOT = { has_character_flag = had_event_harm_1091 }
 		has_character_flag = had_event_harm_1092
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -7528,7 +7500,7 @@ harm.1091 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -7555,7 +7527,7 @@ harm.1091 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -7619,7 +7591,7 @@ harm.1091 = {
 		# Always gain stress from skill tests.
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = major_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -7657,7 +7629,6 @@ harm.1092 = {
 		is_available_adult = yes
 		# Harm filter checks.
 		NOT = { has_character_flag = had_event_harm_1092 }
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -7741,7 +7712,6 @@ harm.1101 = {
 		}
 		# And some danger of fast-moving carts.
 		location_has_fast_traffic_trigger = { LOCATION = root.location }
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -7801,7 +7771,7 @@ harm.1101 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -7828,7 +7798,7 @@ harm.1101 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -7874,7 +7844,7 @@ harm.1101 = {
 		# Always gain stress from skill tests.
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = major_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -7910,7 +7880,6 @@ harm.1102 = {
 		}
 		# And some danger of fast-moving carts.
 		location_has_fast_traffic_trigger = { LOCATION = root.location }
-		
 		is_god = no
 		is_demigod = no
 		has_special_body = no
@@ -7993,7 +7962,6 @@ scripted_trigger harm_1111_traits_filter_trigger = {
 		# Narrative taste.
 		has_trait = pregnant
 	}
-	
 	is_god = no
 	is_demigod = no
 	has_special_body = no
@@ -8025,7 +7993,7 @@ harm.1111 = {
 		NOT = { has_character_flag = had_event_harm_1111 }
 		has_character_flag = had_event_harm_1112
 		# Must be landed for this'un...
-		is_landed_or_landless_administrative = yes
+		is_landed_or_landless_administrative_or_theocratic = yes
 		# ... because your capital _really_ does not like you.
 		harm_1111_capital_hates_you_trigger = yes
 		# Must have enough servants for this to be a potential problem.
@@ -8061,6 +8029,7 @@ harm.1111 = {
 			age = { 25 45 }
 			culture = root.capital_county.culture
 			faith = root.capital_county.faith
+			rite = root.capital_county.rite
 			dynasty = none
 			gender_female_chance = 50
 			# Traits.
@@ -8146,7 +8115,7 @@ harm.1111 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -8167,7 +8136,7 @@ harm.1111 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -8213,7 +8182,7 @@ harm.1111 = {
 		# Always gain stress from skill tests.
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = major_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -8243,7 +8212,7 @@ harm.1112 = {
 		# Harm filter checks.
 		NOT = { has_character_flag = had_event_harm_1112 }
 		# Must be landed for this'un...
-		is_landed_or_landless_administrative = yes
+		is_landed_or_landless_administrative_or_theocratic = yes
 		# ... because your capital _really_ does not like you.
 		harm_1111_capital_hates_you_trigger = yes
 		# Must have enough servants for this to be a potential problem.
@@ -8334,6 +8303,7 @@ harm.2001 = {
 	cooldown = { years = 30 }
 
 	trigger = {
+		is_commanding_army = yes
 		# Standard checks.
 		harm_game_rule_enablement_trigger = yes
 		# Medicine checks.
@@ -8426,7 +8396,7 @@ harm.2001 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -8447,7 +8417,7 @@ harm.2001 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -8493,7 +8463,7 @@ harm.2001 = {
 		# Always gain stress from skill tests.
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = major_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -8617,7 +8587,7 @@ harm.2011 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -8651,7 +8621,7 @@ harm.2011 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -8703,7 +8673,7 @@ harm.2011 = {
 		# Always gain stress from skill tests.
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = major_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -8772,7 +8742,7 @@ harm.2021 = {
 		modifier = {
 			add = 0.25
 			health <= medium_health
-			location = { has_province_modifier = winter_harsh_modifier }
+			location ?= { has_province_modifier = winter_harsh_modifier }
 		}
 		## Fine health (which is somehow lower than medium) or normal winter
 		modifier = {
@@ -8843,7 +8813,7 @@ harm.2021 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -8864,7 +8834,7 @@ harm.2021 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -8910,7 +8880,7 @@ harm.2021 = {
 		# Always gain stress from skill tests.
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = major_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -8958,7 +8928,7 @@ harm.2031 = {
 			# Desert cultural bonuses.
 			culture = { has_cultural_parameter = desert_warrior_trait_is_better }
 			# *sigh* And SOME people are just too into the sun.
-			faith = { has_doctrine_parameter = trial_by_sun_active }
+			rite = { rite_has_parameter = trial_by_sun_active }
 		}
 		commander_in_terrain_specialisation = no
 		
@@ -9046,7 +9016,7 @@ harm.2031 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -9067,7 +9037,7 @@ harm.2031 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -9113,7 +9083,7 @@ harm.2031 = {
 		# Always gain stress from skill tests.
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = major_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -9153,10 +9123,10 @@ harm.2041 = {
 		# Standard checks.
 		harm_game_rule_enablement_trigger = yes
 		# Requires you to be landed so we know where to pull the soldier from.
-		is_landed_or_landless_administrative = yes
+		is_landed_or_landless_administrative_or_theocratic = yes
 		# Army checks.
 		NOT = {
-			faith = { has_doctrine_parameter = warmonger }
+			rite = { rite_has_parameter = warmonger }
 		}
 		days_of_continuous_war >= 36525
 		
@@ -9203,6 +9173,7 @@ harm.2041 = {
 			location = root.location
 			culture = root.capital_county.culture
 			faith = root.capital_county.faith
+			rite = root.capital_county.rite
 			gender_female_chance = root_soldier_female_chance
 			dynasty = none
 			save_scope_as = killer
@@ -9242,7 +9213,7 @@ harm.2041 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -9263,7 +9234,7 @@ harm.2041 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -9317,7 +9288,7 @@ harm.2041 = {
 		# Always gain stress from skill tests.
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = major_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -9430,7 +9401,7 @@ harm.2051 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -9509,7 +9480,7 @@ harm.2051 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -9555,7 +9526,7 @@ harm.2051 = {
 		# Always gain stress from skill tests.
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = major_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -9670,7 +9641,7 @@ harm.2061 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -9691,7 +9662,7 @@ harm.2061 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -9737,7 +9708,7 @@ harm.2061 = {
 		# Always gain stress from skill tests.
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = major_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -9792,8 +9763,8 @@ harm.2071 = {
 					is_combat_side_pursuing = yes
 					enemy_side = { is_combat_side_retreating = yes }
 				}
+				exists = enemy_side.side_primary_participant
 			}
-			exists = enemy_side.side_primary_participant
 		}
 	}
 
@@ -9830,6 +9801,7 @@ harm.2071 = {
 			location = root.location
 			template = new_warrior_character
 			faith = scope:actor.faith
+			rite = scope:actor.rite
 			culture = scope:actor.culture
 			save_scope_as = killer
 		}
@@ -9869,7 +9841,7 @@ harm.2071 = {
 
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = medium_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
@@ -9890,7 +9862,7 @@ harm.2071 = {
 		log_harm_event_spared_as_variable_effect = yes
 
 		# Always gain stress from trait opt-outs.
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = massive_stress_impact_gain
 			calm = minor_stress_impact_loss
 		}
@@ -9936,7 +9908,7 @@ harm.2071 = {
 		# Always gain stress from skill tests.
 		if = {
 			limit = { is_alive = yes }
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = major_stress_impact_gain
 				calm = minor_stress_impact_loss
 			}
