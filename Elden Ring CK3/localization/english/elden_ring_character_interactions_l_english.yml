@@ -3,6 +3,7 @@
  SPELL_ACTIONS:0 "spell actions"
  interaction_category_spell:0 "Spells"
  
+ interaction_heal_wounds_self_tooltip:0 "I am not injured"
  interaction_heal_wounds_tooltip:0 "[recipient.GetShortUIName|U] is not injured"
  interaction_heal_wounds_accept:0 "[recipient.GetShortUINameNoTooltip|U] is injured"
  interaction_heal_wounds_rival:0 "You are [recipient.GetShortUINameNoTooltip|U]'s rival"
@@ -64,6 +65,9 @@
  
  heal_wounds_interaction:0 "Heal Wounds"
  heal_wounds_interaction_desc:0 "Heal any wounds that [recipient.GetShortUINameNoTooltip|U] has suffered."
+ 
+ heal_wounds_self_interaction:0 "Heal Wounds"
+ heal_wounds_self_interaction_desc:0 "Heal any wounds that I have suffered."
 
  death_grafted:0 "was grafted"
  death_grafted_killer:0 "was grafted by [TARGET_CHARACTER.GetUIName]"
