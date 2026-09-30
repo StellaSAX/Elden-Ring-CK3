@@ -24,7 +24,7 @@
 	desc = heal_wounds_interaction_desc
 	
 	is_shown = {
-		scope:actor = {
+		scope:puppet_or_actor = {
 			OR = {
 				has_trait_xp = { trait = incantation_erdtree track = incantation_erdtree value >= 20 }
 				has_trait_xp = { trait = incantation_two_fingers track = incantation_two_fingers value >= 20 }
@@ -32,7 +32,7 @@
 		}
 		
 		scope:recipient = {
-			is_courtier_of = scope:actor
+			is_courtier_of = scope:puppet_or_actor
 			#is_wounded = yes
 		}
 	}
@@ -87,13 +87,13 @@
 			}
 			add_opinion = {
 				modifier = healed_me_opinion
-				target = scope:actor
+				target = scope:puppet_or_actor
 			}
 		}
 	}
 	
 	on_decline = {
-		scope:actor = {
+		scope:puppet_or_actor = {
 			send_interface_toast = {
 				type = event_toast_effect_bad
 				title = decline_healing_notification
@@ -104,7 +104,7 @@
 			add_character_flag = { flag = heal_wounds_cooldown years = 1 }
 			add_opinion = {
 				modifier = rejected_healing_opinion
-				target = scope:actor
+				target = scope:puppet_or_actor
 			}
 		}
 	}
@@ -114,68 +114,68 @@
 
 		modifier = {
 			add = 40
-			scope:actor = {
+			scope:puppet_or_actor = {
 				ai_compassion > 50
 			}
 		}
 		modifier = {
 			add = 70
 			scope:recipient = {
-				is_close_family_of = scope:actor
+				is_close_family_of = scope:puppet_or_actor
 			}
 		}
 		modifier = {
 			add = 20
-			scope:actor = {
+			scope:puppet_or_actor = {
 				ai_honor > 20
 			}
 		}
 		modifier = {
 			add = -20
-			scope:actor = {
+			scope:puppet_or_actor = {
 				ai_honor < -10
 			}
 		}
 		modifier = {
 			add = -20
-			scope:actor = {
+			scope:puppet_or_actor = {
 				ai_compassion < -10
 			}
 		}
 		modifier = {
 			add = 80
-			scope:actor = {
+			scope:puppet_or_actor = {
 				has_relation_lover = scope:recipient
 			}
 		}
 		modifier = {
 			add = 100
-			scope:actor = {
+			scope:puppet_or_actor = {
 				has_relation_soulmate = scope:recipient
 			}
 		}
 		modifier = {
 			add = 50
-			scope:actor = {
+			scope:puppet_or_actor = {
 				has_relation_friend = scope:recipient
 			}
 		}
 		modifier = {
 			add = 60
-			scope:actor = {
+			scope:puppet_or_actor = {
 				has_relation_best_friend = scope:recipient
 			}
 		}
 		modifier = {
 			add = -40
-			scope:actor = {
+			scope:puppet_or_actor = {
 				has_relation_rival = scope:recipient
 				NOT = { has_relation_nemesis = scope:recipient }
 			}
 		}
 		modifier = {
 			add = -80
-			scope:actor = {
+			scope:puppet_or_actor = {
 				has_relation_nemesis = scope:recipient
 			}
 		}
@@ -193,15 +193,15 @@
 		modifier = {
 			add = -40
 			scope:recipient = {
-				has_relation_rival = scope:actor
-				NOT = { has_relation_nemesis = scope:actor }
+				has_relation_rival = scope:puppet_or_actor
+				NOT = { has_relation_nemesis = scope:puppet_or_actor }
 			}
 			desc = interaction_heal_wounds_rival
 		}
 		modifier = {
 			add = -70
 			scope:recipient = {
-				has_relation_nemesis = scope:actor
+				has_relation_nemesis = scope:puppet_or_actor
 			}
 			desc = interaction_heal_wounds_nemesis
 		}
@@ -230,8 +230,8 @@ heal_wounds_self_interaction = {
 	auto_accept = yes
 	
 	is_shown = {
-		scope:recipient = scope:actor
-		scope:actor = {
+		scope:recipient = scope:puppet_or_actor
+		scope:puppet_or_actor = {
 			OR = {
 				has_trait_xp = { trait = incantation_erdtree track = incantation_erdtree value >= 20 }
 				has_trait_xp = { trait = incantation_two_fingers track = incantation_two_fingers value >= 20 }
@@ -240,13 +240,13 @@ heal_wounds_self_interaction = {
 	}
 	
 	is_valid_showing_failures_only = {
-		scope:actor = {
+		scope:puppet_or_actor = {
 			NOT = { has_character_flag = heal_wounds_self_cooldown }
 			is_wounded = yes
 
 			custom_tooltip = {
 				text = interaction_heal_wounds_self_tooltip
-				scope:actor = {
+				scope:puppet_or_actor = {
 					is_wounded = yes
 				}
 			}
@@ -266,7 +266,7 @@ heal_wounds_self_interaction = {
 	}
 	
 	on_auto_accept = {
-		scope:actor = {
+		scope:puppet_or_actor = {
 			if = {
 				limit = {
 					has_trait = wounded_1
@@ -291,7 +291,7 @@ heal_wounds_self_interaction = {
 				limit = {
 					is_ai = yes
 				}
-				scope:actor = { add_character_flag = { flag = heal_wounds_self_cooldown days = 30 } }
+				scope:puppet_or_actor = { add_character_flag = { flag = heal_wounds_self_cooldown days = 30 } }
 			}
 		}
 	}
@@ -301,7 +301,7 @@ heal_wounds_self_interaction = {
 
 		modifier = {
 			add = 100
-			scope:actor = {
+			scope:puppet_or_actor = {
 				is_wounded = yes
 			}
 		}
