@@ -241,22 +241,22 @@
 	
 	piety_icon_group = "christian"
 
-	faiths = {
-		faith_shaman = {
-			color = { 0.2 0.9 0.2 }
-			icon = faith_shaman
-			reformed_icon = faith_shaman
-			doctrine = unreformed_faith_doctrine
+	# faiths = {
+		# faith_shaman = {
+			# color = { 0.2 0.9 0.2 }
+			# icon = faith_shaman
+			# reformed_icon = faith_shaman
+			# doctrine = unreformed_faith_doctrine
 
-			holy_site = scadutree_chalice
-			holy_site = bonny_village
-			holy_site = shaman_village
-			holy_site = enir_illim
+			# holy_site = scadutree_chalice
+			# holy_site = bonny_village
+			# holy_site = shaman_village
+			# holy_site = enir_illim
 
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
-			doctrine = tenet_pastoral_isolation
-		}
-	}
+			# doctrine = tenet_astrology
+			# doctrine = tenet_ancestor_worship
+			# doctrine = tenet_sanctity_of_nature
+			# doctrine = tenet_pastoral_isolation
+		# }
+	# }
 }

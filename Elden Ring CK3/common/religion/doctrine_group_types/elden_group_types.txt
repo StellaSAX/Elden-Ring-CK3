@@ -1,7 +1,7 @@
 ﻿#Crimes Category
 doctrine_grafting = {
-	category = "crimes"
-
+	category = crimes
+	divergence = sequence
 	doctrine_types = {
 		doctrine_grafting_crime
 		doctrine_grafting_shunned
@@ -11,8 +11,8 @@ doctrine_grafting = {
 }
 
 doctrine_omen = {
-	category = "crimes"
-
+	category = crimes
+	divergence = sequence
 	doctrine_types = {
 		doctrine_omen_crime
 		doctrine_omen_shunned
@@ -23,8 +23,8 @@ doctrine_omen = {
 
 #Affinity Category
 doctrine_order_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_order_affinity_crime
 		doctrine_order_affinity_shunned
@@ -34,8 +34,8 @@ doctrine_order_affinity = {
 }
 
 doctrine_erdtree_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_erdtree_affinity_crime
 		doctrine_erdtree_affinity_shunned
@@ -45,8 +45,8 @@ doctrine_erdtree_affinity = {
 }
 
 doctrine_fire_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_fire_affinity_crime
 		doctrine_fire_affinity_shunned
@@ -56,8 +56,8 @@ doctrine_fire_affinity = {
 }
 
 doctrine_ice_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_ice_affinity_crime
 		doctrine_ice_affinity_shunned
@@ -67,8 +67,8 @@ doctrine_ice_affinity = {
 }
 
 doctrine_glintstone_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_glintstone_affinity_crime
 		doctrine_glintstone_affinity_shunned
@@ -78,8 +78,8 @@ doctrine_glintstone_affinity = {
 }
 
 doctrine_carian_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_carian_affinity_crime
 		doctrine_carian_affinity_shunned
@@ -89,8 +89,8 @@ doctrine_carian_affinity = {
 }
 
 doctrine_night_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_night_affinity_crime
 		doctrine_night_affinity_shunned
@@ -100,8 +100,8 @@ doctrine_night_affinity = {
 }
 
 doctrine_claymen_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_claymen_affinity_crime
 		doctrine_claymen_affinity_shunned
@@ -111,8 +111,8 @@ doctrine_claymen_affinity = {
 }
 
 doctrine_gravity_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_gravity_affinity_crime
 		doctrine_gravity_affinity_shunned
@@ -122,8 +122,8 @@ doctrine_gravity_affinity = {
 }
 
 doctrine_magma_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_magma_affinity_crime
 		doctrine_magma_affinity_shunned
@@ -133,8 +133,8 @@ doctrine_magma_affinity = {
 }
 
 doctrine_lightning_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_lightning_affinity_crime
 		doctrine_lightning_affinity_shunned
@@ -144,8 +144,8 @@ doctrine_lightning_affinity = {
 }
 
 doctrine_dragon_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_dragon_affinity_crime
 		doctrine_dragon_affinity_shunned
@@ -155,8 +155,8 @@ doctrine_dragon_affinity = {
 }
 
 doctrine_bestial_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_bestial_affinity_crime
 		doctrine_bestial_affinity_shunned
@@ -166,8 +166,8 @@ doctrine_bestial_affinity = {
 }
 
 doctrine_spiral_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_spiral_affinity_crime
 		doctrine_spiral_affinity_shunned
@@ -177,8 +177,8 @@ doctrine_spiral_affinity = {
 }
 
 doctrine_blood_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_blood_affinity_crime
 		doctrine_blood_affinity_shunned
@@ -188,8 +188,8 @@ doctrine_blood_affinity = {
 }
 
 doctrine_death_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_death_affinity_crime
 		doctrine_death_affinity_shunned
@@ -199,8 +199,8 @@ doctrine_death_affinity = {
 }
 
 doctrine_blackflame_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_blackflame_affinity_crime
 		doctrine_blackflame_affinity_shunned
@@ -210,8 +210,8 @@ doctrine_blackflame_affinity = {
 }
 
 doctrine_rot_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_rot_affinity_crime
 		doctrine_rot_affinity_shunned
@@ -221,8 +221,8 @@ doctrine_rot_affinity = {
 }
 
 doctrine_sleep_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_sleep_affinity_crime
 		doctrine_sleep_affinity_shunned
@@ -232,8 +232,8 @@ doctrine_sleep_affinity = {
 }
 
 doctrine_frenzy_affinity = {
-	category = "schools"
-
+	category = schools
+	divergence = sequence
 	doctrine_types = {
 		doctrine_frenzy_affinity_crime
 		doctrine_frenzy_affinity_shunned
@@ -244,106 +244,106 @@ doctrine_frenzy_affinity = {
 
 #########from 00_doctrine_group_types.txt added the new tenets
 
-doctrine_core_tenets = {
-	category = "core_tenets"
+# doctrine_core_tenets = {
+	# category = "core_tenets"
 
-	number_of_picks = 4
+	# number_of_picks = 4
 
-	doctrine_types = {
-		#ELDEN RING tenets
-		tenet_primordial_curse
-		tenet_great_spiral
-		tenet_ancient_dragon
-		tenet_bayle_dragon
-		tenet_dragon_cult
-		tenet_golden_order
-		tenet_unalloyed_order
-		tenet_glintstone
-		tenet_destroy_golden_order
-		tenet_live_in_death
-		tenet_golden_exile
-		tenet_st_trinas_blessing
-		tenet_golden_order_syncretism
-		# Christian Faith Tenets
-		tenet_aniconism
-		tenet_alexandrian_catechism
-		tenet_armed_pilgrimages
-		tenet_carnal_exaltation
-		tenet_communal_identity
-		tenet_communion
-		tenet_consolamentum
-		tenet_divine_marriage
-		tenet_gnosticism
-		tenet_mendicant_preachers
-		tenet_monasticism
-		tenet_pacifism
-		tenet_pentarchy
-		tenet_unrelenting_faith
-		tenet_vows_of_poverty
-		tenet_pastoral_isolation
-		tenet_rite
-		# Muslim Faith Tenets
-		tenet_adaptive
-		tenet_esotericism
-		tenet_legalism
-		tenet_literalism
-		tenet_reincarnation
-		tenet_religious_legal_pronouncements
-		tenet_struggle_submission
-		tenet_false_conversion_sanction
-		tenet_tax_nonbelievers
-		# Eastern Faith Tenets
-		tenet_asceticism
-		tenet_bhakti
-		tenet_dharmic_pacifism
-		tenet_inner_journey
-		tenet_ritual_hospitality
-		# Pagan Faith Tenets
-		tenet_adorcism
-		tenet_ancestor_worship
-		tenet_astrology
-		tenet_hedonistic
-		tenet_human_sacrifice
-		tenet_mystical_birthright
-		tenet_ritual_celebrations
-		tenet_sacred_childbirth
-		tenet_sanctity_of_nature
-		tenet_sun_worship
-		tenet_warmonger
-		tenet_gruesome_festivals
-		tenet_cthonic_redoubts
-		tenet_household_gods
-		# Syncretic Faith Tenets
-		tenet_sinitic_syncretism
-		tenet_eastern_syncretism
-		tenet_unreformed_syncretism
-		tenet_christian_syncretism
-		tenet_islamic_syncretism
-		tenet_jewish_syncretism
-		# Custom Faith Tenets
-		tenet_exaltation_of_pain
-		tenet_natural_primitivism
-		tenet_pursuit_of_power
-		tenet_ritual_cannibalism
-		tenet_sacred_shadows
-		tenet_polyamory
-		tenet_sacrificial_ceremonies
-		tenet_megaliths
-		# FP3 Tenets
-		tenet_fp3_fedayeen
-		tenet_communal_possessions
-		# TGP Tenets
-		tenet_pure_land
-		tenet_no_mind
-		tenet_mountain_worship
-		tenet_extinction_of_dharma
-		tenet_cranial_trophies
-		tenet_pursuit_of_knowledge
-		tenet_benevolent_governance
-		tenet_filial_piety
-		tenet_harmonious_society
-		tenet_sacred_destruction
-		tenet_preservation
-		tenet_takamin
-	}
-}
+	# doctrine_types = {
+		# #ELDEN RING tenets
+		# tenet_primordial_curse
+		# tenet_great_spiral
+		# tenet_ancient_dragon
+		# tenet_bayle_dragon
+		# tenet_dragon_cult
+		# tenet_golden_order
+		# tenet_unalloyed_order
+		# tenet_glintstone
+		# tenet_destroy_golden_order
+		# tenet_live_in_death
+		# tenet_golden_exile
+		# tenet_st_trinas_blessing
+		# tenet_golden_order_syncretism
+		# # Christian Faith Tenets
+		# tenet_aniconism
+		# tenet_alexandrian_catechism
+		# tenet_armed_pilgrimages
+		# tenet_carnal_exaltation
+		# tenet_communal_identity
+		# tenet_communion
+		# tenet_consolamentum
+		# tenet_divine_marriage
+		# tenet_gnosticism
+		# tenet_mendicant_preachers
+		# tenet_monasticism
+		# tenet_pacifism
+		# tenet_pentarchy
+		# tenet_unrelenting_faith
+		# tenet_vows_of_poverty
+		# tenet_pastoral_isolation
+		# tenet_rite
+		# # Muslim Faith Tenets
+		# tenet_adaptive
+		# tenet_esotericism
+		# tenet_legalism
+		# tenet_literalism
+		# tenet_reincarnation
+		# tenet_religious_legal_pronouncements
+		# tenet_struggle_submission
+		# tenet_false_conversion_sanction
+		# tenet_tax_nonbelievers
+		# # Eastern Faith Tenets
+		# tenet_asceticism
+		# tenet_bhakti
+		# tenet_dharmic_pacifism
+		# tenet_inner_journey
+		# tenet_ritual_hospitality
+		# # Pagan Faith Tenets
+		# tenet_adorcism
+		# tenet_ancestor_worship
+		# tenet_astrology
+		# tenet_hedonistic
+		# tenet_human_sacrifice
+		# tenet_mystical_birthright
+		# tenet_ritual_celebrations
+		# tenet_sacred_childbirth
+		# tenet_sanctity_of_nature
+		# tenet_sun_worship
+		# tenet_warmonger
+		# tenet_gruesome_festivals
+		# tenet_cthonic_redoubts
+		# tenet_household_gods
+		# # Syncretic Faith Tenets
+		# tenet_sinitic_syncretism
+		# tenet_eastern_syncretism
+		# tenet_unreformed_syncretism
+		# tenet_christian_syncretism
+		# tenet_islamic_syncretism
+		# tenet_jewish_syncretism
+		# # Custom Faith Tenets
+		# tenet_exaltation_of_pain
+		# tenet_natural_primitivism
+		# tenet_pursuit_of_power
+		# tenet_ritual_cannibalism
+		# tenet_sacred_shadows
+		# tenet_polyamory
+		# tenet_sacrificial_ceremonies
+		# tenet_megaliths
+		# # FP3 Tenets
+		# tenet_fp3_fedayeen
+		# tenet_communal_possessions
+		# # TGP Tenets
+		# tenet_pure_land
+		# tenet_no_mind
+		# tenet_mountain_worship
+		# tenet_extinction_of_dharma
+		# tenet_cranial_trophies
+		# tenet_pursuit_of_knowledge
+		# tenet_benevolent_governance
+		# tenet_filial_piety
+		# tenet_harmonious_society
+		# tenet_sacred_destruction
+		# tenet_preservation
+		# tenet_takamin
+	# }
+# }

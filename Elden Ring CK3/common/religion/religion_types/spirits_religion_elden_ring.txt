@@ -240,24 +240,24 @@
 	
 	piety_icon_group = "christian"
 
-	faiths = {
-		faith_ancestor_spirit = {
-			color = { 0.1 0.8 0.8 }
-			icon = faith_spirit
-			reformed_icon = faith_spirit
-			doctrine = unreformed_faith_doctrine
+	# faiths = {
+		# faith_ancestor_spirit = {
+			# color = { 0.1 0.8 0.8 }
+			# icon = faith_spirit
+			# reformed_icon = faith_spirit
+			# doctrine = unreformed_faith_doctrine
 
-			holy_site = leyndell_capital
-			holy_site = scadutree_base
-			holy_site = haligtree
-			holy_site = regal_spirit
-			holy_site = ancestor_spirit
+			# holy_site = leyndell_capital
+			# holy_site = scadutree_base
+			# holy_site = haligtree
+			# holy_site = regal_spirit
+			# holy_site = ancestor_spirit
 			
 			
-			doctrine = tenet_primordial_curse
-			doctrine = tenet_pastoral_isolation
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
-		}
-	}
+			# doctrine = tenet_primordial_curse
+			# doctrine = tenet_pastoral_isolation
+			# doctrine = tenet_ancestor_worship
+			# doctrine = tenet_sanctity_of_nature
+		# }
+	# }
 }

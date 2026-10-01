@@ -239,77 +239,79 @@
 	}
 	
 	piety_icon_group = "christian"
-
-	faiths = {
-		faith_academy = {
-			color = { 0.1 0.1 0.5 }
-			icon = faith_academy
-			reformed_icon = faith_academy
+	
+	#commenting until we migrate everything to the new system
+	# faiths = {
+		# faith_academy = {
+			# color = { 0.1 0.1 0.5 }
+			# icon = faith_academy
+			# reformed_icon = faith_academy
 			
-			holy_site = star_gazer_ruin
-			holy_site = caria_manor
-			holy_site = raya_lucaria
-			holy_site = sellia_sorcery
-			holy_site = sorcerer_azur
-			holy_site = manus_metyr
+			# holy_site = star_gazer_ruin
+			# holy_site = caria_manor
+			# holy_site = raya_lucaria
+			# holy_site = sellia_sorcery
+			# holy_site = sorcerer_azur
+			# holy_site = manus_metyr
 			
-			doctrine = tenet_astrology
-			doctrine = tenet_glintstone
-			doctrine = tenet_pursuit_of_knowledge
-			doctrine = tenet_adaptive
-		}
-		faith_primeval = {
-			color = { 0.0 0.0 0.9 }
-			icon = faith_primeval
-			reformed_icon = faith_primeval
+			# doctrine = tenet_astrology
+			# doctrine = tenet_glintstone
+			# doctrine = tenet_pursuit_of_knowledge
+			# doctrine = tenet_adaptive
+		# }
+		# faith_primeval = {
+			# color = { 0.0 0.0 0.9 }
+			# icon = faith_primeval
+			# reformed_icon = faith_primeval
 
-			doctrine = unreformed_faith_doctrine
+			# doctrine = unreformed_faith_doctrine
 
-			holy_site = star_gazer_ruin
-			holy_site = manus_metyr
-			holy_site = raya_lucaria
-			holy_site = sellia_sorcery
-			holy_site = sorcerer_azur
-			holy_site = astel
+			# holy_site = star_gazer_ruin
+			# holy_site = manus_metyr
+			# holy_site = raya_lucaria
+			# holy_site = sellia_sorcery
+			# holy_site = sorcerer_azur
+			# holy_site = astel
 
-			doctrine = tenet_astrology
-			doctrine = tenet_glintstone
-			doctrine = tenet_pursuit_of_knowledge
-			doctrine = tenet_sacrificial_ceremonies
-		}
-		faith_night = {
-			color = { 0.2 0.2 0.2 }
-			icon = faith_night
-			reformed_icon = faith_night
+			# doctrine = tenet_astrology
+			# doctrine = tenet_glintstone
+			# doctrine = tenet_pursuit_of_knowledge
+			# doctrine = tenet_sacrificial_ceremonies
+		# }
+		# faith_night = {
+			# color = { 0.2 0.2 0.2 }
+			# icon = faith_night
+			# reformed_icon = faith_night
 
-			doctrine = unreformed_faith_doctrine
+			# doctrine = unreformed_faith_doctrine
 
-			holy_site = sellia_sorcery
-			holy_site = nokron
-			holy_site = nokstella
-			holy_site = astel
-			holy_site = nameless_city
+			# holy_site = sellia_sorcery
+			# holy_site = nokron
+			# holy_site = nokstella
+			# holy_site = astel
+			# holy_site = nameless_city
 
-			doctrine = tenet_astrology
-			doctrine = tenet_glintstone
-			doctrine = tenet_sacred_shadows
-			doctrine = tenet_destroy_golden_order
-		}
-		faith_gravity = {
-			color = { 0.7 0.2 0.7 }
-			icon = faith_gravity
-			reformed_icon = faith_gravity
+			# doctrine = tenet_astrology
+			# doctrine = tenet_glintstone
+			# doctrine = tenet_sacred_shadows
+			# doctrine = tenet_destroy_golden_order
+		# }
+		# faith_gravity = {
+			# color = { 0.7 0.2 0.7 }
+			# icon = faith_gravity
+			# reformed_icon = faith_gravity
 			
-			holy_site = caria_manor
-			holy_site = raya_lucaria
-			holy_site = sellia_sorcery
-			holy_site = redmane_castle
-			holy_site = caelid_divine_tower
+			# holy_site = caria_manor
+			# holy_site = raya_lucaria
+			# holy_site = sellia_sorcery
+			# holy_site = redmane_castle
+			# holy_site = caelid_divine_tower
 
-			doctrine = tenet_golden_order_syncretism
-			doctrine = tenet_glintstone
-			doctrine = tenet_unrelenting_faith
-			doctrine = tenet_ritual_celebrations
-		}
-	}
+			# doctrine = tenet_golden_order_syncretism
+			# doctrine = tenet_glintstone
+			# doctrine = tenet_unrelenting_faith
+			# doctrine = tenet_ritual_celebrations
+		# }
+	
+	# }
 }

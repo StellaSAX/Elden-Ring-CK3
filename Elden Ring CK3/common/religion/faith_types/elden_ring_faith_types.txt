@@ -1,0 +1,749 @@
+﻿faith_badlander = {
+	main_rite = badlander_rite
+	faith_details = {
+		religion = badlands_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_badlands
+		reformed_icon = faith_badlands
+		graphical_faith = "pagan_gfx"
+	}
+
+	eminent_holy_sites = {
+		limgrave_colosseum
+		caelid_colosseum
+		leyndell_colosseum
+	}
+
+	holy_sites = {
+
+	}
+
+	tenets = {
+        tenet_astrology
+        tenet_ancestor_worship
+		tenet_sanctity_of_nature
+		tenet_children_of_the_badlands
+    }
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}
+
+faith_academy = {
+	main_rite = academy_rite
+	faith_details = {
+		religion = cosmos_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_academy
+		reformed_icon = faith_academy
+		graphical_faith = "pagan_gfx"
+	}
+	origin = faith_primeval
+	eminent_holy_sites = {
+		raya_lucaria
+		sorcerer_azur
+		manus_metyr
+	}
+
+	holy_sites = {
+		star_gazer_ruin
+		caria_manor
+		sellia_sorcery
+	}
+
+	tenets = {
+		tenet_astrology
+		tenet_glintstone
+		tenet_pursuit_of_knowledge
+		tenet_adaptive
+    }
+}
+
+faith_primeval = {
+	main_rite = primeval_rite
+	faith_details = {
+		religion = cosmos_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_primeval
+		reformed_icon = faith_primeval
+		graphical_faith = "pagan_gfx"
+	}
+
+	eminent_holy_sites = {
+		star_gazer_ruin
+		manus_metyr
+		raya_lucaria
+	}
+
+	holy_sites = {
+		sellia_sorcery
+		astel
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+	
+	tenets = {
+		tenet_astrology
+		tenet_glintstone
+		tenet_pursuit_of_knowledge
+		tenet_sacrificial_ceremonies
+    }
+}
+
+faith_night = {
+	main_rite = night_rite
+	faith_details = {
+		religion = cosmos_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_night
+		reformed_icon = faith_night
+		graphical_faith = "pagan_gfx"
+	}
+
+	eminent_holy_sites = {
+		nokron
+		nokstella
+		nameless_city
+	}
+
+	holy_sites = {
+		sellia_sorcery
+		astel
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+	tenets = {
+		tenet_astrology
+		tenet_glintstone
+		tenet_sacred_shadows
+		tenet_destroy_golden_order
+    }
+}
+
+faith_crucible = {
+	main_rite = crucible_rite
+	faith_details = {
+		religion = crucible_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_crucible
+		reformed_icon = faith_crucible
+		graphical_faith = "pagan_gfx"
+	}
+
+	eminent_holy_sites = {
+		leyndell_capital
+		farum_azula
+		enir_illim
+	}
+
+	holy_sites = {
+		haligtree
+		scadutree_base
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+	tenets = {
+		tenet_adaptive
+		tenet_ancestor_worship
+		tenet_sanctity_of_nature
+		tenet_primordial_curse
+    }
+}
+
+faith_spiral = {
+	main_rite = spiral_rite
+	faith_details = {
+		religion = crucible_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_spiral
+		reformed_icon = faith_spiral
+		graphical_faith = "pagan_gfx"
+	}
+	origin = faith_crucible
+	eminent_holy_sites = {
+		belurat
+		scadutree_chalice
+		enir_illim
+	}
+
+	holy_sites = {
+
+	}
+	
+	tenets = {
+		tenet_sacrificial_ceremonies
+		tenet_communal_identity
+		tenet_mystical_birthright
+		tenet_great_spiral
+    }
+}
+
+faith_death_prince = {
+	main_rite = death_prince_rite
+	faith_details = {
+		religion = death_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_death_prince
+		reformed_icon = faith_death_prince
+		graphical_faith = "pagan_gfx"
+	}
+	origin = faith_old_death
+	eminent_holy_sites = {
+		deeproot
+		castle_sol
+		
+	}
+
+	holy_sites = {
+		west_altus_divine_tower
+		east_altus_divine_tower
+		liurnia_divine_tower
+		limgrave_divine_tower
+		caelid_divine_tower
+		isolated_divine_tower
+	}
+	
+	tenets = {
+		tenet_sacred_shadows
+		tenet_unrelenting_faith
+		tenet_fp3_fedayeen
+		tenet_live_in_death
+    }
+}
+
+faith_old_death = {
+	main_rite = old_death_rite
+	faith_details = {
+		religion = death_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_old_death
+		reformed_icon = faith_old_death
+		graphical_faith = "pagan_gfx"
+	}
+
+	eminent_holy_sites = {
+		deeproot
+		death_catacombs
+	}
+
+	holy_sites = {
+	}
+	
+	tenets = {
+		tenet_astrology
+		tenet_ancestor_worship
+		tenet_fp3_fedayeen
+		tenet_sacred_shadows
+    }
+}
+
+faith_despair = {
+	main_rite = despair_rite
+	faith_details = {
+		religion = defilement_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_despair
+		reformed_icon = faith_despair
+		graphical_faith = "pagan_gfx"
+	}
+	origin = faith_golden
+	eminent_holy_sites = {
+
+	}
+
+	holy_sites = {
+		west_altus_divine_tower
+		east_altus_divine_tower
+		liurnia_divine_tower
+		limgrave_divine_tower
+		caelid_divine_tower
+		isolated_divine_tower
+	}
+	
+	tenets = {
+		tenet_adorcism
+		tenet_fp3_fedayeen
+		tenet_primordial_curse 
+		tenet_exaltation_of_pain
+    }
+}
+
+faith_godslayer = {
+	main_rite = godslayer_rite
+	faith_details = {
+		religion = destined_death_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_godslayer
+		reformed_icon = faith_godslayer
+		graphical_faith = "pagan_gfx"
+	}
+
+	eminent_holy_sites = {
+		leyndell_capital
+	}
+
+	holy_sites = {
+		west_altus_divine_tower
+		east_altus_divine_tower
+		liurnia_divine_tower
+		limgrave_divine_tower
+		caelid_divine_tower
+		isolated_divine_tower
+	}
+	
+	tenets = {
+		tenet_legalism
+		tenet_unrelenting_faith
+		tenet_communal_identity
+		tenet_religious_legal_pronouncements
+    }
+}
+
+faith_ancient_dragon = {
+	main_rite = ancient_dragon_rite
+	faith_details = {
+		religion = dragon_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_ancient_dragon
+		reformed_icon = faith_ancient_dragon
+		graphical_faith = "pagan_gfx"
+	}
+
+	eminent_holy_sites = {
+		farum_azula
+	}
+
+	holy_sites = {
+		dragon_church
+		dragon_cathedral
+		grand_altar_dragon
+
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+		special_doctrine_is_dragon_faith #for learning dragon's lightning and communion
+	}
+	tenets = {
+		tenet_communal_identity
+		tenet_pursuit_of_power
+		tenet_ancestor_worship
+		tenet_ancient_dragon
+    }
+}
+
+faith_bayle_dragon = {
+	main_rite = bayle_dragon_rite
+	faith_details = {
+		religion = dragon_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_bayle_dragon
+		reformed_icon = faith_bayle_dragon
+		graphical_faith = "pagan_gfx"
+	}
+	origin = faith_ancient_dragon
+	eminent_holy_sites = {
+		jagged_peak
+	}
+
+	holy_sites = {
+		dragon_church
+		farum_azula
+		dragon_cathedral
+		grand_altar_dragon
+
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+
+	tenets = {
+		tenet_mountain_worship
+		tenet_pursuit_of_power
+		tenet_ancestor_worship
+		tenet_bayle_dragon
+    }
+}
+
+faith_giant = {
+	main_rite = fire_monk_rite
+	faith_details = {
+		religion = giant_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_fell
+		reformed_icon = faith_fell
+		graphical_faith = "pagan_gfx"
+	}
+
+	eminent_holy_sites = {
+		giant_forge
+	}
+
+	holy_sites = {
+		star_gazer_ruin
+	}
+
+	tenets = {
+		tenet_giants_flame
+		tenet_astrology
+		tenet_ancestor_worship
+		tenet_sanctity_of_nature
+    }
+}
+
+faith_formless = {
+	main_rite = formless_rite
+	faith_details = {
+		religion = formless_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_formless
+		reformed_icon = faith_formless
+		graphical_faith = "pagan_gfx"
+	}
+
+	eminent_holy_sites = {
+		leyndell_capital
+		blood_palace
+	}
+
+	holy_sites = {
+		east_altus_divine_tower
+		limgrave_colosseum
+		leyndell_colosseum
+		caelid_colosseum
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+		
+	}
+
+	tenets = {
+		tenet_astrology
+		tenet_ancestor_worship
+		tenet_sanctity_of_nature
+    }
+}
+
+faith_frenzy = {
+	main_rite = frenzy_rite
+	faith_details = {
+		religion = frenzied_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_frenzy
+		reformed_icon = faith_frenzy
+		graphical_faith = "pagan_gfx"
+	}
+
+	eminent_holy_sites = {
+		three_fingers
+		blood_palace
+	}
+
+	holy_sites = {
+		frenzy_tower
+		abyssal_woods
+		giant_forge
+		
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+	tenets = {
+		tenet_extinction_of_dharma
+		tenet_sacred_destruction
+		tenet_sanctity_of_nature
+		tenet_frenzied_flame
+    }
+}
+
+faith_moons = {
+	main_rite = moons_rite
+	faith_details = {
+		religion = moon_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_moons
+		reformed_icon = faith_moons
+		graphical_faith = "pagan_gfx"
+	}
+
+	eminent_holy_sites = {
+		raya_lucaria
+		caria_manor
+	}
+	origin = faith_academy
+	holy_sites = {
+		liurnia_divine_tower
+		sellia_sorcery
+		star_gazer_ruin
+		
+	}
+
+	tenets = {
+		tenet_astrology
+		tenet_glintstone	
+		tenet_pursuit_of_knowledge
+		tenet_golden_order_syncretism
+    }
+}
+
+faith_golden = {
+	main_rite = golden_rite
+	faith_details = {
+		religion = order_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_golden
+		reformed_icon = faith_golden
+		graphical_faith = "pagan_gfx"
+		head_of_rite = k_golden_order
+	}
+
+	eminent_holy_sites = {
+		leyndell_capital
+		
+	}
+
+	holy_sites = {
+		west_altus_divine_tower
+		east_altus_divine_tower
+		liurnia_divine_tower
+		caelid_divine_tower
+		isolated_divine_tower
+		limgrave_divine_tower
+	}
+
+	doctrines = {
+		doctrine_temporal_head
+	}
+	tenets = {
+		tenet_armed_pilgrimages
+		tenet_literalism
+		tenet_religious_legal_pronouncements
+		tenet_golden_order
+    }
+}
+
+faith_kind = {
+	main_rite = kind_rite
+	faith_details = {
+		religion = order_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_kind
+		reformed_icon = faith_kind
+		graphical_faith = "pagan_gfx"
+	}
+	origin = faith_golden
+	eminent_holy_sites = {
+		enir_illim
+		haligtree
+	}
+
+	holy_sites = {
+		stone_coffin_fissure
+		castle_ensis
+		shadow_keep
+	}
+
+	tenets = {
+		tenet_rite
+		tenet_unalloyed_order
+		tenet_pursuit_of_power
+		tenet_struggle_submission
+    }
+}
+
+faith_reedlander = {
+	main_rite = reedlander_rite
+	faith_details = {
+		religion = reedlands_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_reedlander
+		reformed_icon = faith_reedlander
+		graphical_faith = "pagan_gfx"
+	}
+
+	eminent_holy_sites = {
+
+	}
+
+	holy_sites = {
+		limgrave_colosseum
+		caelid_colosseum
+		leyndell_colosseum
+	}
+
+	tenets = {
+		tenet_communal_identity
+		tenet_ancestor_worship
+		tenet_cranial_trophies
+		tenet_consolamentum
+    }
+}
+
+faith_rot = {
+	main_rite = rot_rite
+	faith_details = {
+		religion = rot_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_rot
+		reformed_icon = faith_rot
+		graphical_faith = "pagan_gfx"
+	}
+
+	eminent_holy_sites = {
+		lake_of_rot
+		malenia_bloom
+		haligtree
+	}
+
+	holy_sites = {
+		leyndell_capital
+		isolated_divine_tower
+		
+	}
+
+	tenets = {
+		tenet_rot
+		tenet_astrology
+		tenet_ancestor_worship
+		tenet_sanctity_of_nature
+    }
+	
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}
+
+faith_rot_romina = {
+	main_rite = rot_romina_rite
+	faith_details = {
+		religion = rot_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_rot_romina
+		reformed_icon = faith_rot_romina
+		graphical_faith = "pagan_gfx"
+	}
+	origin = faith_rot
+	eminent_holy_sites = {
+		lake_of_rot
+		church_of_the_bud
+		
+	}
+	holy_sites = {
+		haligtree
+		malenia_bloom
+		
+	}
+
+	tenets = {
+		tenet_rot
+		tenet_astrology
+		tenet_ancestor_worship
+		tenet_sanctity_of_nature
+    }
+	
+
+}
+
+faith_god_snake = {
+	main_rite = god_snake_rite
+	faith_details = {
+		religion = serpent_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_god_snake
+		reformed_icon = faith_god_snake
+		graphical_faith = "pagan_gfx"
+	}
+
+	eminent_holy_sites = {
+		mount_gelmir
+		church_of_the_bud
+		
+	}
+	holy_sites = {
+		leyndell_capital
+		caria_manor
+		west_altus_divine_tower
+	}
+
+	tenets = {
+		tenet_gruesome_festivals
+		tenet_serpents #this is human sacrifice+
+		tenet_fp3_fedayeen
+		tenet_hedonistic
+    }
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}
+faith_shaman = {
+	main_rite = shaman_rite
+	faith_details = {
+		religion = shaman_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_shaman
+		reformed_icon = faith_shaman
+		graphical_faith = "pagan_gfx"
+	}
+
+	eminent_holy_sites = {
+		shaman_village
+		bonny_village
+		
+	}
+	holy_sites = {
+		scadutree_chalice
+		enir_illim
+		
+	}
+
+	tenets = {
+		tenet_astrology
+		tenet_ancestor_worship
+		tenet_sanctity_of_nature
+		tenet_pastoral_isolation
+    }
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}
+faith_ancestor_spirit = {
+	main_rite = ancestor_spirit_rite
+	faith_details = {
+		religion = spirits_religion
+		color = { 0.9 0.7 0.3 }
+		icon = faith_ancestor_spirit
+		reformed_icon = faith_ancestor_spirit
+		graphical_faith = "pagan_gfx"
+	}
+
+	eminent_holy_sites = {
+		regal_spirit
+		ancestor_spirit
+		
+	}
+	holy_sites = {
+		leyndell_capital
+		scadutree_base
+		haligtree
+	}
+
+	tenets = {
+		tenet_astrology
+		tenet_ancestor_worship
+		tenet_sanctity_of_nature
+		tenet_pastoral_isolation
+    }
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}

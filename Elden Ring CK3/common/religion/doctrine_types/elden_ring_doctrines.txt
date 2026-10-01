@@ -1,5 +1,8 @@
 ﻿#GRAFTING
 doctrine_grafting_crime = {
+	doctrine_group_type = doctrine_grafting
+	index = 0
+	divergence = 20
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -21,6 +24,9 @@ doctrine_grafting_crime = {
 
 }
 doctrine_grafting_shunned = {
+	doctrine_group_type = doctrine_grafting
+	index = 1
+	divergence = 20
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -37,6 +43,9 @@ doctrine_grafting_shunned = {
 	}
 }
 doctrine_grafting_accepted = {
+	doctrine_group_type = doctrine_grafting
+	index = 2
+	divergence = 20
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -53,6 +62,9 @@ doctrine_grafting_accepted = {
 	}
 }
 doctrine_grafting_virtuous = {
+	doctrine_group_type = doctrine_grafting
+	index = 3
+	divergence = 20
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -78,6 +90,9 @@ doctrine_grafting_virtuous = {
 
 #OMEN
 doctrine_omen_crime = {
+	doctrine_group_type = doctrine_omen
+	index = 0
+	divergence = 20
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -101,6 +116,9 @@ doctrine_omen_crime = {
 	}
 }
 doctrine_omen_shunned = {
+	doctrine_group_type = doctrine_omen
+	index = 1
+	divergence = 20
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -117,6 +135,9 @@ doctrine_omen_shunned = {
 	}
 }
 doctrine_omen_accepted = {
+	doctrine_group_type = doctrine_omen
+	index = 2
+	divergence = 20
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -133,6 +154,9 @@ doctrine_omen_accepted = {
 	}
 }
 doctrine_omen_virtuous = {
+	doctrine_group_type = doctrine_omen
+	index = 3
+	divergence = 20
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -160,6 +184,9 @@ doctrine_omen_virtuous = {
 
 ###ORDER AFFINITY DOCTRINE###
 doctrine_order_affinity_crime = {
+	doctrine_group_type = doctrine_order_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -183,6 +210,9 @@ doctrine_order_affinity_crime = {
 	}
 }
 doctrine_order_affinity_shunned = {
+	doctrine_group_type = doctrine_order_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -199,6 +229,9 @@ doctrine_order_affinity_shunned = {
 	}
 }
 doctrine_order_affinity_accepted = {
+	doctrine_group_type = doctrine_order_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -215,6 +248,9 @@ doctrine_order_affinity_accepted = {
 	}
 }
 doctrine_order_affinity_virtuous = {
+	doctrine_group_type = doctrine_order_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -240,6 +276,9 @@ doctrine_order_affinity_virtuous = {
 
 ###ERDTREE AFFINITY DOCTRINE###
 doctrine_erdtree_affinity_crime = {
+	doctrine_group_type = doctrine_erdtree_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -263,6 +302,9 @@ doctrine_erdtree_affinity_crime = {
 	}
 }
 doctrine_erdtree_affinity_shunned = {
+	doctrine_group_type = doctrine_erdtree_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -279,6 +321,9 @@ doctrine_erdtree_affinity_shunned = {
 	}
 }
 doctrine_erdtree_affinity_accepted = {
+	doctrine_group_type = doctrine_erdtree_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -295,6 +340,9 @@ doctrine_erdtree_affinity_accepted = {
 	}
 }
 doctrine_erdtree_affinity_virtuous = {
+	doctrine_group_type = doctrine_erdtree_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -320,6 +368,9 @@ doctrine_erdtree_affinity_virtuous = {
 
 ###FIRE AFFINITY DOCTRINE###
 doctrine_fire_affinity_crime = {
+	doctrine_group_type = doctrine_fire_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -343,6 +394,9 @@ doctrine_fire_affinity_crime = {
 	}
 }
 doctrine_fire_affinity_shunned = {
+	doctrine_group_type = doctrine_fire_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -359,6 +413,9 @@ doctrine_fire_affinity_shunned = {
 	}
 }
 doctrine_fire_affinity_accepted = {
+	doctrine_group_type = doctrine_fire_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -375,6 +432,9 @@ doctrine_fire_affinity_accepted = {
 	}
 }
 doctrine_fire_affinity_virtuous = {
+	doctrine_group_type = doctrine_fire_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -400,6 +460,9 @@ doctrine_fire_affinity_virtuous = {
 
 ###ICE AFFINITY DOCTRINE###
 doctrine_ice_affinity_crime = {
+	doctrine_group_type = doctrine_ice_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -424,6 +487,9 @@ doctrine_ice_affinity_crime = {
 
 }
 doctrine_ice_affinity_shunned = {
+	doctrine_group_type = doctrine_ice_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -440,6 +506,9 @@ doctrine_ice_affinity_shunned = {
 	}
 }
 doctrine_ice_affinity_accepted = {
+	doctrine_group_type = doctrine_ice_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -456,6 +525,9 @@ doctrine_ice_affinity_accepted = {
 	}
 }
 doctrine_ice_affinity_virtuous = {
+	doctrine_group_type = doctrine_ice_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -481,6 +553,9 @@ doctrine_ice_affinity_virtuous = {
 
 ###GLINTSTONE AFFINITY DOCTRINE###
 doctrine_glintstone_affinity_crime = {
+	doctrine_group_type = doctrine_glintstone_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -505,6 +580,9 @@ doctrine_glintstone_affinity_crime = {
 
 }
 doctrine_glintstone_affinity_shunned = {
+	doctrine_group_type = doctrine_glintstone_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -521,6 +599,9 @@ doctrine_glintstone_affinity_shunned = {
 	}
 }
 doctrine_glintstone_affinity_accepted = {
+	doctrine_group_type = doctrine_glintstone_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -537,6 +618,9 @@ doctrine_glintstone_affinity_accepted = {
 	}
 }
 doctrine_glintstone_affinity_virtuous = {
+	doctrine_group_type = doctrine_glintstone_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -562,6 +646,9 @@ doctrine_glintstone_affinity_virtuous = {
 
 ###CARIAN AFFINITY DOCTRINE###
 doctrine_carian_affinity_crime = {
+	doctrine_group_type = doctrine_carian_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -586,6 +673,9 @@ doctrine_carian_affinity_crime = {
 
 }
 doctrine_carian_affinity_shunned = {
+	doctrine_group_type = doctrine_carian_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -602,6 +692,9 @@ doctrine_carian_affinity_shunned = {
 	}
 }
 doctrine_carian_affinity_accepted = {
+	doctrine_group_type = doctrine_carian_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -618,6 +711,9 @@ doctrine_carian_affinity_accepted = {
 	}
 }
 doctrine_carian_affinity_virtuous = {
+	doctrine_group_type = doctrine_carian_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -643,6 +739,9 @@ doctrine_carian_affinity_virtuous = {
 
 ###NIGHT AFFINITY DOCTRINE###
 doctrine_night_affinity_crime = {
+	doctrine_group_type = doctrine_night_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -667,6 +766,9 @@ doctrine_night_affinity_crime = {
 
 }
 doctrine_night_affinity_shunned = {
+	doctrine_group_type = doctrine_night_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -683,6 +785,9 @@ doctrine_night_affinity_shunned = {
 	}
 }
 doctrine_night_affinity_accepted = {
+	doctrine_group_type = doctrine_night_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -699,6 +804,9 @@ doctrine_night_affinity_accepted = {
 	}
 }
 doctrine_night_affinity_virtuous = {
+	doctrine_group_type = doctrine_night_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -724,6 +832,9 @@ doctrine_night_affinity_virtuous = {
 
 ###CLAYMEN AFFINITY DOCTRINE###
 doctrine_claymen_affinity_crime = {
+	doctrine_group_type = doctrine_claymen_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -748,6 +859,9 @@ doctrine_claymen_affinity_crime = {
 
 }
 doctrine_claymen_affinity_shunned = {
+	doctrine_group_type = doctrine_claymen_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -764,6 +878,9 @@ doctrine_claymen_affinity_shunned = {
 	}
 }
 doctrine_claymen_affinity_accepted = {
+	doctrine_group_type = doctrine_claymen_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -780,6 +897,9 @@ doctrine_claymen_affinity_accepted = {
 	}
 }
 doctrine_claymen_affinity_virtuous = {
+	doctrine_group_type = doctrine_claymen_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -805,6 +925,9 @@ doctrine_claymen_affinity_virtuous = {
 
 ###GRAVITY AFFINITY DOCTRINE###
 doctrine_gravity_affinity_crime = {
+	doctrine_group_type = doctrine_gravity_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -829,6 +952,9 @@ doctrine_gravity_affinity_crime = {
 
 }
 doctrine_gravity_affinity_shunned = {
+	doctrine_group_type = doctrine_gravity_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -845,6 +971,9 @@ doctrine_gravity_affinity_shunned = {
 	}
 }
 doctrine_gravity_affinity_accepted = {
+	doctrine_group_type = doctrine_gravity_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -861,6 +990,9 @@ doctrine_gravity_affinity_accepted = {
 	}
 }
 doctrine_gravity_affinity_virtuous = {
+	doctrine_group_type = doctrine_gravity_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -886,6 +1018,9 @@ doctrine_gravity_affinity_virtuous = {
 
 ###MAGMA AFFINITY DOCTRINE###
 doctrine_magma_affinity_crime = {
+	doctrine_group_type = doctrine_magma_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -910,6 +1045,9 @@ doctrine_magma_affinity_crime = {
 
 }
 doctrine_magma_affinity_shunned = {
+	doctrine_group_type = doctrine_magma_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -926,6 +1064,9 @@ doctrine_magma_affinity_shunned = {
 	}
 }
 doctrine_magma_affinity_accepted = {
+	doctrine_group_type = doctrine_magma_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -942,6 +1083,9 @@ doctrine_magma_affinity_accepted = {
 	}
 }
 doctrine_magma_affinity_virtuous = {
+	doctrine_group_type = doctrine_magma_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -967,6 +1111,9 @@ doctrine_magma_affinity_virtuous = {
 
 ###LIGHTNING AFFINITY DOCTRINE###
 doctrine_lightning_affinity_crime = {
+	doctrine_group_type = doctrine_lightning_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -991,6 +1138,9 @@ doctrine_lightning_affinity_crime = {
 
 }
 doctrine_lightning_affinity_shunned = {
+	doctrine_group_type = doctrine_lightning_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1007,6 +1157,9 @@ doctrine_lightning_affinity_shunned = {
 	}
 }
 doctrine_lightning_affinity_accepted = {
+	doctrine_group_type = doctrine_lightning_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1023,6 +1176,9 @@ doctrine_lightning_affinity_accepted = {
 	}
 }
 doctrine_lightning_affinity_virtuous = {
+	doctrine_group_type = doctrine_lightning_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -1048,6 +1204,9 @@ doctrine_lightning_affinity_virtuous = {
 
 ###DRAGON AFFINITY DOCTRINE###
 doctrine_dragon_affinity_crime = {
+	doctrine_group_type = doctrine_dragon_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1072,6 +1231,9 @@ doctrine_dragon_affinity_crime = {
 
 }
 doctrine_dragon_affinity_shunned = {
+	doctrine_group_type = doctrine_dragon_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1088,6 +1250,9 @@ doctrine_dragon_affinity_shunned = {
 	}
 }
 doctrine_dragon_affinity_accepted = {
+	doctrine_group_type = doctrine_dragon_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1104,6 +1269,9 @@ doctrine_dragon_affinity_accepted = {
 	}
 }
 doctrine_dragon_affinity_virtuous = {
+	doctrine_group_type = doctrine_dragon_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -1129,6 +1297,9 @@ doctrine_dragon_affinity_virtuous = {
 
 ###BESTIAL AFFINITY DOCTRINE###
 doctrine_bestial_affinity_crime = {
+	doctrine_group_type = doctrine_bestial_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1153,6 +1324,9 @@ doctrine_bestial_affinity_crime = {
 
 }
 doctrine_bestial_affinity_shunned = {
+	doctrine_group_type = doctrine_bestial_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1169,6 +1343,9 @@ doctrine_bestial_affinity_shunned = {
 	}
 }
 doctrine_bestial_affinity_accepted = {
+	doctrine_group_type = doctrine_bestial_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1185,6 +1362,9 @@ doctrine_bestial_affinity_accepted = {
 	}
 }
 doctrine_bestial_affinity_virtuous = {
+	doctrine_group_type = doctrine_bestial_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -1210,6 +1390,9 @@ doctrine_bestial_affinity_virtuous = {
 
 ###SPIRAL AFFINITY DOCTRINE###
 doctrine_spiral_affinity_crime = {
+	doctrine_group_type = doctrine_spiral_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1234,6 +1417,9 @@ doctrine_spiral_affinity_crime = {
 
 }
 doctrine_spiral_affinity_shunned = {
+	doctrine_group_type = doctrine_spiral_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1250,6 +1436,9 @@ doctrine_spiral_affinity_shunned = {
 	}
 }
 doctrine_spiral_affinity_accepted = {
+	doctrine_group_type = doctrine_spiral_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1266,6 +1455,9 @@ doctrine_spiral_affinity_accepted = {
 	}
 }
 doctrine_spiral_affinity_virtuous = {
+	doctrine_group_type = doctrine_spiral_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -1291,6 +1483,9 @@ doctrine_spiral_affinity_virtuous = {
 
 ###BLOOD AFFINITY DOCTRINE###
 doctrine_blood_affinity_crime = {
+	doctrine_group_type = doctrine_blood_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1315,6 +1510,9 @@ doctrine_blood_affinity_crime = {
 
 }
 doctrine_blood_affinity_shunned = {
+	doctrine_group_type = doctrine_blood_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1331,6 +1529,9 @@ doctrine_blood_affinity_shunned = {
 	}
 }
 doctrine_blood_affinity_accepted = {
+	doctrine_group_type = doctrine_blood_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1347,6 +1548,9 @@ doctrine_blood_affinity_accepted = {
 	}
 }
 doctrine_blood_affinity_virtuous = {
+	doctrine_group_type = doctrine_blood_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -1372,6 +1576,9 @@ doctrine_blood_affinity_virtuous = {
 
 ###DEATH AFFINITY DOCTRINE###
 doctrine_death_affinity_crime = {
+	doctrine_group_type = doctrine_death_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1396,6 +1603,9 @@ doctrine_death_affinity_crime = {
 
 }
 doctrine_death_affinity_shunned = {
+	doctrine_group_type = doctrine_death_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1412,6 +1622,9 @@ doctrine_death_affinity_shunned = {
 	}
 }
 doctrine_death_affinity_accepted = {
+	doctrine_group_type = doctrine_death_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1428,6 +1641,9 @@ doctrine_death_affinity_accepted = {
 	}
 }
 doctrine_death_affinity_virtuous = {
+	doctrine_group_type = doctrine_death_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -1453,6 +1669,9 @@ doctrine_death_affinity_virtuous = {
 
 ###BLACKFLAME AFFINITY DOCTRINE###
 doctrine_blackflame_affinity_crime = {
+	doctrine_group_type = doctrine_blackflame_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1477,6 +1696,9 @@ doctrine_blackflame_affinity_crime = {
 
 }
 doctrine_blackflame_affinity_shunned = {
+	doctrine_group_type = doctrine_blackflame_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1493,6 +1715,9 @@ doctrine_blackflame_affinity_shunned = {
 	}
 }
 doctrine_blackflame_affinity_accepted = {
+	doctrine_group_type = doctrine_blackflame_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1509,6 +1734,9 @@ doctrine_blackflame_affinity_accepted = {
 	}
 }
 doctrine_blackflame_affinity_virtuous = {
+	doctrine_group_type = doctrine_blackflame_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -1534,6 +1762,9 @@ doctrine_blackflame_affinity_virtuous = {
 
 ###ROT AFFINITY DOCTRINE###
 doctrine_rot_affinity_crime = {
+	doctrine_group_type = doctrine_rot_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1558,6 +1789,9 @@ doctrine_rot_affinity_crime = {
 
 }
 doctrine_rot_affinity_shunned = {
+	doctrine_group_type = doctrine_rot_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1574,6 +1808,9 @@ doctrine_rot_affinity_shunned = {
 	}
 }
 doctrine_rot_affinity_accepted = {
+	doctrine_group_type = doctrine_rot_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1590,6 +1827,9 @@ doctrine_rot_affinity_accepted = {
 	}
 }
 doctrine_rot_affinity_virtuous = {
+	doctrine_group_type = doctrine_rot_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -1615,6 +1855,9 @@ doctrine_rot_affinity_virtuous = {
 
 ###SLEEP AFFINITY DOCTRINE###
 doctrine_sleep_affinity_crime = {
+	doctrine_group_type = doctrine_sleep_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1639,6 +1882,9 @@ doctrine_sleep_affinity_crime = {
 
 }
 doctrine_sleep_affinity_shunned = {
+	doctrine_group_type = doctrine_sleep_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1655,6 +1901,9 @@ doctrine_sleep_affinity_shunned = {
 	}
 }
 doctrine_sleep_affinity_accepted = {
+	doctrine_group_type = doctrine_sleep_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1671,6 +1920,9 @@ doctrine_sleep_affinity_accepted = {
 	}
 }
 doctrine_sleep_affinity_virtuous = {
+	doctrine_group_type = doctrine_sleep_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {
@@ -1696,6 +1948,9 @@ doctrine_sleep_affinity_virtuous = {
 
 ###FRENZY AFFINITY DOCTRINE###
 doctrine_frenzy_affinity_crime = {
+	doctrine_group_type = doctrine_frenzy_affinity
+	index = 0
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1720,6 +1975,9 @@ doctrine_frenzy_affinity_crime = {
 
 }
 doctrine_frenzy_affinity_shunned = {
+	doctrine_group_type = doctrine_frenzy_affinity
+	index = 1
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1736,6 +1994,9 @@ doctrine_frenzy_affinity_shunned = {
 	}
 }
 doctrine_frenzy_affinity_accepted = {
+	doctrine_group_type = doctrine_frenzy_affinity
+	index = 2
+	divergence = 5
 	piety_cost = {
 		value = faith_doctrine_cost_low
 		if = {
@@ -1752,6 +2013,9 @@ doctrine_frenzy_affinity_accepted = {
 	}
 }
 doctrine_frenzy_affinity_virtuous = {
+	doctrine_group_type = doctrine_frenzy_affinity
+	index = 3
+	divergence = 5
 	piety_cost = {
 		value = faith_tenet_cost_massive
 		if = {

@@ -240,43 +240,44 @@
 	
 	piety_icon_group = "christian"
 
-	faiths = {
-		faith_giant = {
-			color = { 0.9 0.2 0.2 }
-			icon = faith_fell_sus
-			reformed_icon = faith_fell_sus
+	# faiths = {
+		# faith_giant = {
+			# color = { 0.9 0.2 0.2 }
+			# icon = faith_fell_sus
+			# reformed_icon = faith_fell_sus
 
-			doctrine = unreformed_faith_doctrine
+			# doctrine = unreformed_faith_doctrine
 
-			#we more better holy sites
-			holy_site = star_gazer_ruin
-			holy_site = giant_forge
-			#holy_site = sellia_sorcery
+			# #we more better holy sites
+			# holy_site = star_gazer_ruin
+			# holy_site = giant_forge
+			# #holy_site = sellia_sorcery
 			
-			doctrine = tenet_giants_flame
+			# doctrine = tenet_giants_flame
 			
-			#replace this ones
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
-		}
+			# #replace this ones
+			# doctrine = tenet_astrology
+			# doctrine = tenet_ancestor_worship
+			# doctrine = tenet_sanctity_of_nature
+		# }
 		
-		faith_fire_monk = {
-			color = { 0.9 0.2 0.2 }
-			icon = faith_fell
-			reformed_icon = faith_fell
+		# faith_fire_monk = {
+			# color = { 0.9 0.2 0.2 }
+			# icon = faith_fell
+			# reformed_icon = faith_fell
 
-			#we more better holy sites
-			holy_site = star_gazer_ruin
-			holy_site = giant_forge
-			#holy_site = sellia_sorcery
+			# #we more better holy sites
+			# holy_site = star_gazer_ruin
+			# holy_site = giant_forge
+			# #holy_site = sellia_sorcery
 			
-			doctrine = tenet_giants_flame
+			# doctrine = tenet_giants_flame
 			
-			#replace this ones
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
-		}
-	}
+			# #replace this ones
+			# doctrine = tenet_astrology
+			# doctrine = tenet_ancestor_worship
+			# doctrine = tenet_sanctity_of_nature
+		# }
+	
+	# }
 }

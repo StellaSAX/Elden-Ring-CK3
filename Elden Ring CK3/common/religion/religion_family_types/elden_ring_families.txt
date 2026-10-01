@@ -1,7 +1,10 @@
 ﻿rf_order = {
 	graphical_faith = "orthodox_gfx"
 	hostility_doctrine = abrahamic_hostility_doctrine
-	doctrine_background_icon = core_tenet_banner_christian.dds
+	tenet_background_icon = tenet_banner_known_core
+	tenet_heretical_background_icon = tenet_banner_unknown_heretical
+	tenet_neutral_background_icon = tenet_banner_known_neutral
+	tenet_unknown_background_icon = tenet_banner_unknown_neutral
 }
 
 rf_crucible = {
@@ -9,7 +12,10 @@ rf_crucible = {
 	piety_icon_group = "pagan"
 	graphical_faith = "pagan_gfx"
 	hostility_doctrine = pagan_hostility_doctrine
-	doctrine_background_icon = core_tenet_banner_pagan.dds
+	tenet_background_icon = tenet_banner_known_core
+	tenet_heretical_background_icon = tenet_banner_unknown_heretical
+	tenet_neutral_background_icon = tenet_banner_known_neutral
+	tenet_unknown_background_icon = tenet_banner_unknown_neutral
 }
 
 rf_cosmos = {
@@ -17,7 +23,10 @@ rf_cosmos = {
 	piety_icon_group = "pagan"
 	graphical_faith = "pagan_gfx"
 	hostility_doctrine = pagan_hostility_doctrine
-	doctrine_background_icon = core_tenet_banner_pagan.dds
+	tenet_background_icon = tenet_banner_known_core
+	tenet_heretical_background_icon = tenet_banner_unknown_heretical
+	tenet_neutral_background_icon = tenet_banner_known_neutral
+	tenet_unknown_background_icon = tenet_banner_unknown_neutral
 }
 
 rf_moon = {
@@ -25,7 +34,10 @@ rf_moon = {
 	piety_icon_group = "pagan"
 	graphical_faith = "pagan_gfx"
 	hostility_doctrine = pagan_hostility_doctrine
-	doctrine_background_icon = core_tenet_banner_pagan.dds
+	tenet_background_icon = tenet_banner_known_core
+	tenet_heretical_background_icon = tenet_banner_unknown_heretical
+	tenet_neutral_background_icon = tenet_banner_known_neutral
+	tenet_unknown_background_icon = tenet_banner_unknown_neutral
 }
 
 rf_destined_death = {
@@ -33,7 +45,10 @@ rf_destined_death = {
 	piety_icon_group = "pagan"
 	graphical_faith = "pagan_gfx"
 	hostility_doctrine = pagan_hostility_doctrine
-	doctrine_background_icon = core_tenet_banner_pagan.dds
+	tenet_background_icon = tenet_banner_known_core
+	tenet_heretical_background_icon = tenet_banner_unknown_heretical
+	tenet_neutral_background_icon = tenet_banner_known_neutral
+	tenet_unknown_background_icon = tenet_banner_unknown_neutral
 }
 
 rf_spirits = {
@@ -41,7 +56,10 @@ rf_spirits = {
 	piety_icon_group = "pagan"
 	graphical_faith = "pagan_gfx"
 	hostility_doctrine = pagan_hostility_doctrine
-	doctrine_background_icon = core_tenet_banner_pagan.dds
+	tenet_background_icon = tenet_banner_known_core
+	tenet_heretical_background_icon = tenet_banner_unknown_heretical
+	tenet_neutral_background_icon = tenet_banner_known_neutral
+	tenet_unknown_background_icon = tenet_banner_unknown_neutral
 }
 
 rf_dragon = {
@@ -49,7 +67,10 @@ rf_dragon = {
 	piety_icon_group = "pagan"
 	graphical_faith = "pagan_gfx"
 	hostility_doctrine = pagan_hostility_doctrine
-	doctrine_background_icon = core_tenet_banner_pagan.dds
+	tenet_background_icon = tenet_banner_known_core
+	tenet_heretical_background_icon = tenet_banner_unknown_heretical
+	tenet_neutral_background_icon = tenet_banner_known_neutral
+	tenet_unknown_background_icon = tenet_banner_unknown_neutral
 }
 
 rf_defilement = {
@@ -57,7 +78,10 @@ rf_defilement = {
 	piety_icon_group = "pagan"
 	graphical_faith = "pagan_gfx"
 	hostility_doctrine = pagan_hostility_doctrine
-	doctrine_background_icon = core_tenet_banner_pagan.dds
+	tenet_background_icon = tenet_banner_known_core
+	tenet_heretical_background_icon = tenet_banner_unknown_heretical
+	tenet_neutral_background_icon = tenet_banner_known_neutral
+	tenet_unknown_background_icon = tenet_banner_unknown_neutral
 }
 
 rf_death = {
@@ -65,7 +89,10 @@ rf_death = {
 	piety_icon_group = "pagan"
 	graphical_faith = "pagan_gfx"
 	hostility_doctrine = pagan_hostility_doctrine
-	doctrine_background_icon = core_tenet_banner_pagan.dds
+	tenet_background_icon = tenet_banner_known_core
+	tenet_heretical_background_icon = tenet_banner_unknown_heretical
+	tenet_neutral_background_icon = tenet_banner_known_neutral
+	tenet_unknown_background_icon = tenet_banner_unknown_neutral
 }
 
 rf_frenzied = {
@@ -73,7 +100,10 @@ rf_frenzied = {
 	piety_icon_group = "pagan"
 	graphical_faith = "pagan_gfx"
 	hostility_doctrine = pagan_hostility_doctrine
-	doctrine_background_icon = core_tenet_banner_pagan.dds
+	tenet_background_icon = tenet_banner_known_core
+	tenet_heretical_background_icon = tenet_banner_unknown_heretical
+	tenet_neutral_background_icon = tenet_banner_known_neutral
+	tenet_unknown_background_icon = tenet_banner_unknown_neutral
 }
 
 rf_rot = {
@@ -81,7 +111,10 @@ rf_rot = {
 	piety_icon_group = "pagan"
 	graphical_faith = "pagan_gfx"
 	hostility_doctrine = pagan_hostility_doctrine
-	doctrine_background_icon = core_tenet_banner_pagan.dds
+	tenet_background_icon = tenet_banner_known_core
+	tenet_heretical_background_icon = tenet_banner_unknown_heretical
+	tenet_neutral_background_icon = tenet_banner_known_neutral
+	tenet_unknown_background_icon = tenet_banner_unknown_neutral
 }
 
 rf_serpent = {
@@ -89,7 +122,10 @@ rf_serpent = {
 	piety_icon_group = "pagan"
 	graphical_faith = "pagan_gfx"
 	hostility_doctrine = pagan_hostility_doctrine
-	doctrine_background_icon = core_tenet_banner_pagan.dds
+	tenet_background_icon = tenet_banner_known_core
+	tenet_heretical_background_icon = tenet_banner_unknown_heretical
+	tenet_neutral_background_icon = tenet_banner_known_neutral
+	tenet_unknown_background_icon = tenet_banner_unknown_neutral
 }
 
 rf_formless = {
@@ -97,7 +133,10 @@ rf_formless = {
 	piety_icon_group = "pagan"
 	graphical_faith = "pagan_gfx"
 	hostility_doctrine = pagan_hostility_doctrine
-	doctrine_background_icon = core_tenet_banner_pagan.dds
+	tenet_background_icon = tenet_banner_known_core
+	tenet_heretical_background_icon = tenet_banner_unknown_heretical
+	tenet_neutral_background_icon = tenet_banner_known_neutral
+	tenet_unknown_background_icon = tenet_banner_unknown_neutral
 }
 
 rf_fell = {
@@ -105,7 +144,10 @@ rf_fell = {
 	piety_icon_group = "pagan"
 	graphical_faith = "pagan_gfx"
 	hostility_doctrine = pagan_hostility_doctrine
-	doctrine_background_icon = core_tenet_banner_pagan.dds
+	tenet_background_icon = tenet_banner_known_core
+	tenet_heretical_background_icon = tenet_banner_unknown_heretical
+	tenet_neutral_background_icon = tenet_banner_known_neutral
+	tenet_unknown_background_icon = tenet_banner_unknown_neutral
 }
 
 rf_shaman = {
@@ -113,17 +155,26 @@ rf_shaman = {
 	piety_icon_group = "pagan"
 	graphical_faith = "pagan_gfx"
 	hostility_doctrine = pagan_hostility_doctrine
-	doctrine_background_icon = core_tenet_banner_pagan.dds
+	tenet_background_icon = tenet_banner_known_core
+	tenet_heretical_background_icon = tenet_banner_unknown_heretical
+	tenet_neutral_background_icon = tenet_banner_known_neutral
+	tenet_unknown_background_icon = tenet_banner_unknown_neutral
 }
 
 rf_badlands = {
 	graphical_faith = "orthodox_gfx"
 	hostility_doctrine = abrahamic_hostility_doctrine
-	doctrine_background_icon = core_tenet_banner_pagan.dds
+	tenet_background_icon = tenet_banner_known_core
+	tenet_heretical_background_icon = tenet_banner_unknown_heretical
+	tenet_neutral_background_icon = tenet_banner_known_neutral
+	tenet_unknown_background_icon = tenet_banner_unknown_neutral
 }
 
 rf_reedlands = {
 	graphical_faith = "orthodox_gfx"
 	hostility_doctrine = abrahamic_hostility_doctrine
-	doctrine_background_icon = core_tenet_banner_pagan.dds
+	tenet_background_icon = tenet_banner_known_core
+	tenet_heretical_background_icon = tenet_banner_unknown_heretical
+	tenet_neutral_background_icon = tenet_banner_known_neutral
+	tenet_unknown_background_icon = tenet_banner_unknown_neutral
 }

@@ -240,42 +240,43 @@
 	
 	piety_icon_group = "christian"
 
-	faiths = {
-		faith_ancient_dragon = {
-			color = { 0.7 0.7 0.7 }
-			icon = faith_dragon
-			reformed_icon = faith_dragon
-			doctrine = unreformed_faith_doctrine
+	# faiths = {
+		# faith_ancient_dragon = {
+			# color = { 0.7 0.7 0.7 }
+			# icon = faith_dragon
+			# reformed_icon = faith_dragon
+			# doctrine = unreformed_faith_doctrine
 
-			holy_site = farum_azula
-			holy_site = dragon_church
-			holy_site = dragon_cathedral
-			holy_site = grand_altar_dragon
+			# holy_site = farum_azula
+			# holy_site = dragon_church
+			# holy_site = dragon_cathedral
+			# holy_site = grand_altar_dragon
 			
-			#for them to be friendly with dragon cult
-			doctrine = special_doctrine_is_dragon_faith
+			# #for them to be friendly with dragon cult
+			# doctrine = special_doctrine_is_dragon_faith
 
-			doctrine = tenet_communal_identity
-			doctrine = tenet_pursuit_of_power
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_ancient_dragon
-		}
-		faith_bayle_dragon = {
-			color = { 0.9 0.7 0.7 }
-			icon = faith_bayle
-			reformed_icon = faith_bayle
-			doctrine = unreformed_faith_doctrine
+			# doctrine = tenet_communal_identity
+			# doctrine = tenet_pursuit_of_power
+			# doctrine = tenet_ancestor_worship
+			# doctrine = tenet_ancient_dragon
+		# }
+		# faith_bayle_dragon = {
+			# color = { 0.9 0.7 0.7 }
+			# icon = faith_bayle
+			# reformed_icon = faith_bayle
+			# doctrine = unreformed_faith_doctrine
 
-			holy_site = farum_azula
-			holy_site = dragon_church
-			holy_site = dragon_cathedral
-			holy_site = jagged_peak
+			# holy_site = farum_azula
+			# holy_site = dragon_church
+			# holy_site = dragon_cathedral
+			# holy_site = jagged_peak
 
-			#Generic pagan tenets
-			doctrine = tenet_mountain_worship
-			doctrine = tenet_pursuit_of_power
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_bayle_dragon
-		}
-	}
+			# #Generic pagan tenets
+			# doctrine = tenet_mountain_worship
+			# doctrine = tenet_pursuit_of_power
+			# doctrine = tenet_ancestor_worship
+			# doctrine = tenet_bayle_dragon
+		# }
+	
+	# }
 }

@@ -241,25 +241,25 @@
 	
 	piety_icon_group = "christian"
 
-	faiths = {
-		faith_formless = {
-			color = { 0.8 0.05 0.05 }
-			icon = faith_formless
-			reformed_icon = faith_formless
+	# faiths = {
+		# faith_formless = {
+			# color = { 0.8 0.05 0.05 }
+			# icon = faith_formless
+			# reformed_icon = faith_formless
 
-			doctrine = unreformed_faith_doctrine
+			# doctrine = unreformed_faith_doctrine
 
-			holy_site = leyndell_capital
-			holy_site = caelid_colosseum
-			holy_site = leyndell_colosseum
-			holy_site = limgrave_colosseum
-			holy_site = blood_palace
-			holy_site = east_altus_divine_tower
+			# holy_site = leyndell_capital
+			# holy_site = caelid_colosseum
+			# holy_site = leyndell_colosseum
+			# holy_site = limgrave_colosseum
+			# holy_site = blood_palace
+			# holy_site = east_altus_divine_tower
 			
-			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
-		}
-	}
+			# #Generic pagan tenets
+			# doctrine = tenet_astrology
+			# doctrine = tenet_ancestor_worship
+			# doctrine = tenet_sanctity_of_nature
+		# }
+	# }
 }

@@ -4,25 +4,25 @@
 # R158G144B192
 658 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = castle_holding
 }
 # R114G95B51
 1910 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = none
 }
 # R133G90B64
 649 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = none
 }
 # R196G148B129
 2215 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = none
 }
 
@@ -31,31 +31,31 @@
 # R225G56B103
 2179 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = castle_holding
 }
 # R116G97B2
 70 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = none
 }
 # R134G103B153
 2431 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = none
 }
 # R131G54B56
 739 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = none
 }
 # R251G169B197
 2346 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = none
 }
 
@@ -64,19 +64,19 @@
 # R239G36B207
 1118 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = castle_holding
 }
 # R114G34B16
 1786 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = none
 }
 # R140G71B136
 2083 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = none
 }
 
@@ -85,13 +85,13 @@
 # R194G227B12
 193 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = castle_holding
 }
 # R124G0B88
 624 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = none
 }
 
@@ -102,25 +102,25 @@
 # R196G96B22
 733 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = castle_holding
 }
 # R183G50B114
 1089 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = none
 }
 # R228G13B239
 779 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = none
 }
 # R1G173B45
 1269 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = none
 }
 
@@ -129,19 +129,19 @@
 # R156G21B17
 374 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = castle_holding
 }
 # R245G68B57
 806 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = none
 }
 # R78G222B246
 1710 = {
 	culture = cul_hornsent
-	religion = faith_crucible
+	rite = golden_rite
 	holding = none
 }
 

@@ -241,54 +241,55 @@
 	
 	piety_icon_group = "christian"
 
-	faiths = {
-		faith_moons = {
-			color = { 0.2 0.2 0.6 }
-			icon = faith_fullmoon
-			reformed_icon = faith_fullmoon
+	# faiths = {
+		# faith_moons = {
+			# color = { 0.2 0.2 0.6 }
+			# icon = faith_fullmoon
+			# reformed_icon = faith_fullmoon
 
-			holy_site = star_gazer_ruin
-			holy_site = caria_manor
-			holy_site = raya_lucaria
-			holy_site = sellia_sorcery
-			holy_site = liurnia_divine_tower
+			# holy_site = star_gazer_ruin
+			# holy_site = caria_manor
+			# holy_site = raya_lucaria
+			# holy_site = sellia_sorcery
+			# holy_site = liurnia_divine_tower
 
-			doctrine = tenet_astrology
-			doctrine = tenet_glintstone	
-			doctrine = tenet_pursuit_of_knowledge
-			doctrine = tenet_golden_order_syncretism
+			# doctrine = tenet_astrology
+			# doctrine = tenet_glintstone	
+			# doctrine = tenet_pursuit_of_knowledge
+			# doctrine = tenet_golden_order_syncretism
 			
-		}
-		faith_stars = {
-			color = { 0.3 0.1 0.9 }
-			icon = faith_darkmoon
-			reformed_icon = faith_darkmoon
+		# }
+		# faith_stars = {
+			# color = { 0.3 0.1 0.9 }
+			# icon = faith_darkmoon
+			# reformed_icon = faith_darkmoon
 			
-			holy_site = caria_manor
-			holy_site = west_altus_divine_tower
-			holy_site = east_altus_divine_tower
-			holy_site = liurnia_divine_tower
-			holy_site = limgrave_divine_tower
-			holy_site = caelid_divine_tower
-			holy_site = isolated_divine_tower
+			# holy_site = caria_manor
+			# holy_site = west_altus_divine_tower
+			# holy_site = east_altus_divine_tower
+			# holy_site = liurnia_divine_tower
+			# holy_site = limgrave_divine_tower
+			# holy_site = caelid_divine_tower
+			# holy_site = isolated_divine_tower
 
 			
-			doctrine = tenet_astrology
-			doctrine = tenet_glintstone
-			doctrine = tenet_sacred_shadows
-			doctrine = tenet_destroy_golden_order
+			# doctrine = tenet_astrology
+			# doctrine = tenet_glintstone
+			# doctrine = tenet_sacred_shadows
+			# doctrine = tenet_destroy_golden_order
 			
-			localization = {
-				HighGodName = moondark_high_god_name
-				HighGodName2 = mooncold_high_god_name
-				HighGodName2 = moon_high_god_name
+			# localization = {
+				# HighGodName = moondark_high_god_name
+				# HighGodName2 = mooncold_high_god_name
+				# HighGodName2 = moon_high_god_name
 				
-				TricksterGodName = faith_stars_trickster_god_name
-				TricksterGodNamePossessive = faith_stars_trickster_god_name_possessive
-				TricksterGodSheHe = CHARACTER_SHEHE_IT
-				TricksterGodHerHis = CHARACTER_HERHIS_ITS
-				TricksterGodHerHim = CHARACTER_HERHIM_IT
-			}
-		}
-	}
+				# TricksterGodName = faith_stars_trickster_god_name
+				# TricksterGodNamePossessive = faith_stars_trickster_god_name_possessive
+				# TricksterGodSheHe = CHARACTER_SHEHE_IT
+				# TricksterGodHerHis = CHARACTER_HERHIS_ITS
+				# TricksterGodHerHim = CHARACTER_HERHIM_IT
+			# }
+		# }
+	
+	# }
 }

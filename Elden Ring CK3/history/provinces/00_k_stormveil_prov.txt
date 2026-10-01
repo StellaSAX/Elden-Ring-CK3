@@ -4,19 +4,19 @@
 # limgrave_barony_178
 1524 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_179
 48 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_180
 228 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -25,19 +25,19 @@
 # limgrave_barony_172
 1601 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_171
 1694 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_173
 2007 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -46,13 +46,13 @@
 # limgrave_barony_175
 1456 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_174
 1940 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -61,19 +61,19 @@
 # limgrave_barony_181
 1862 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_177
 1927 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_182
 1277 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -82,25 +82,25 @@
 # limgrave_barony_193
 1273 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_195
 1611 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_194
 2247 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_196
 3141 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -111,25 +111,25 @@
 # limgrave_barony_92
 2414 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # R253G165B92
 400 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_40
 307 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_93
 1593 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -138,25 +138,25 @@
 # limgrave_barony_137
 803 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_148
 434 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_149
 1690 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_136
 597 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -166,7 +166,7 @@
 1997 = {
 	special_building_slot = stormgate
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 	
 	1000.1.1 = {
@@ -176,7 +176,7 @@
 # R9G157B62
 1002 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -185,25 +185,25 @@
 # limgrave_barony_151
 214 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_152
 871 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_153
 1226 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_154
 1628 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -212,19 +212,19 @@
 # limgrave_barony_135
 2263 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_150
 2008 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R131G57B168
 216 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -233,19 +233,19 @@
 # R105G69B19
 2185 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # R164G17B230
 2442 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R95G203B73
 2399 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -254,19 +254,19 @@
 # limgrave_barony_142
 1153 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_143
 814 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_145
 2430 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -275,19 +275,19 @@
 # limgrave_barony_140
 1942 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_139
 1385 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_138
 2421 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -296,13 +296,13 @@
 # R6G46B1
 319 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # LAKE
 3103 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -311,13 +311,13 @@
 # limgrave_barony_176
 1603 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_144
 1752 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -326,19 +326,19 @@
 # R141G141B118
 90 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # R51G144B75
 2160 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_146
 1869 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -347,13 +347,13 @@
 # limgrave_barony_157
 1963 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_160
 1824 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -362,31 +362,31 @@
 # limgrave_barony_134
 2433 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # R79G91B68
 595 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_158
 873 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_168
 212 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_147
 1523 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -397,25 +397,25 @@
 # limgrave_barony_90
 2483 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_89
 1665 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R154G225B112
 2530 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_88
 2304 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -424,31 +424,31 @@
 # R185G136B139
 340 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_95
 74 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R38G160B111
 2531 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_94
 2060 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R108G150B76
 1895 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -457,31 +457,31 @@
 # R170G40B45
 359 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_133
 159 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R121G121B67
 1515 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_96
 2240 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3101 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -490,19 +490,19 @@
 # limgrave_barony_99
 96 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_84
 1672 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R147G80B28
 1848 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -511,13 +511,13 @@
 # R196G37B70
 471 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # R132G18B199
 18 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -526,25 +526,25 @@
 # R184G186B241
 1566 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_91
 1294 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R252G187B20
 1319 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R24G219B88
 2529 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -555,19 +555,19 @@
 # limgrave_barony_18
 1276 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # R165G182B242
 2468 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_17
 1320 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -576,19 +576,19 @@
 # limgrave_barony_19
 1540 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_100
 2201 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_82
 1670 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -597,13 +597,13 @@
 # limgrave_barony_25
 503 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_24
 1893 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -613,7 +613,7 @@
 2147 = {
 	special_building_slot = evergaol
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 	
 	1000.1.1 = {
@@ -623,13 +623,13 @@
 # R226G43B35
 826 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_32
 1868 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -638,19 +638,19 @@
 # limgrave_barony_20
 1744 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_16
 2036 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_15
 60 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -659,19 +659,19 @@
 # limgrave_barony_21
 2283 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_22
 682 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_76
 743 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -680,25 +680,25 @@
 # limgrave_barony_101
 672 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_80
 1358 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R70G22B201
 1638 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R232G4B242
 2041 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -707,31 +707,31 @@
 # limgrave_barony_103
 1082 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # R247G121B238
 2515 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R232G163B109
 630 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_104
 278 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R126G35B242
 1216 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -740,19 +740,19 @@
 # limgrave_barony_77
 2079 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # R241G67B192
 1891 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_81
 1098 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -761,19 +761,19 @@
 # R77G31B64
 119 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # R66G101B96
 185 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R56G196B175
 1220 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -782,31 +782,31 @@
 # R57G218B252
 317 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_29
 2337 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_27
 2082 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_30
 1325 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_31
 2358 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -815,19 +815,19 @@
 # limgrave_barony_26
 2057 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_23
 1763 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R214G63B109
 828 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -838,19 +838,19 @@
 # limgrave_barony_42
 1649 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_41
 754 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_39
 2216 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -859,25 +859,25 @@
 # limgrave_barony_38
 1238 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # DELETE_3
 3095 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # DELETE_5
 3094 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # DELETE_7
 3093 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -888,13 +888,13 @@
 # limgrave_barony_85
 2217 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_86
 1204 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -903,19 +903,19 @@
 # limgrave_barony_74
 1460 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_73
 2221 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_72
 3143 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -924,19 +924,19 @@
 # limgrave_barony_75
 156 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_83
 382 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_33
 370 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -945,19 +945,19 @@
 # limgrave_barony_102
 200 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # R142G1B86
 1221 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R76G13B39
 2097 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -966,19 +966,19 @@
 # limgrave_barony_87
 413 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_71
 2085 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_69
 1832 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -987,13 +987,13 @@
 # limgrave_barony_68
 2361 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_70
 1337 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1002,31 +1002,31 @@
 # limgrave_barony_36
 818 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_37
 532 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_35
 1306 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_34
 2368 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R92G210B221
 2173 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1035,7 +1035,7 @@
 # LAKE
 3082 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 
@@ -1047,7 +1047,7 @@
 686 = {
 	special_building_slot = fort_haight_1
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 	
 	1000.1.1 = {
@@ -1057,19 +1057,19 @@
 # limgrave_barony_2
 2195 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_3
 181 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_5
 1421 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1078,25 +1078,25 @@
 # R240G2B1
 327 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # R170G45B233
 1258 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R238G66B17
 1985 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R112G168B70
 310 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1105,19 +1105,19 @@
 # limgrave_barony_4
 1630 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # R54G153B196
 2509 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_7
 1754 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1126,25 +1126,25 @@
 # limgrave_barony_9
 3144 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_6
 1487 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R75G230B13
 505 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_14
 2252 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1153,31 +1153,31 @@
 # limgrave_barony_48
 1740 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # DELETE_15
 2507 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3072 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # DELETE_14
 3073 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R54G56B79
 2506 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1186,25 +1186,25 @@
 # limgrave_barony_79
 963 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_45
 2110 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_43
 975 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_10
 1831 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1213,31 +1213,31 @@
 # limgrave_barony_78
 1354 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_11
 1127 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_13
 1903 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_12
 2229 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_8
 772 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1247,7 +1247,7 @@
 691 = {
 	special_building_slot = minor_erdtree
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 	
 	1000.1.1 = {
@@ -1257,13 +1257,13 @@
 # R160G112B205
 1952 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R5G79B119
 2120 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1273,7 +1273,7 @@
 2250 = {
 	special_building_slot = church_of_marika
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 	
 	1000.1.1 = {
@@ -1283,19 +1283,19 @@
 # limgrave_barony_52
 376 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_49
 573 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_47
 1369 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1304,31 +1304,31 @@
 # limgrave_barony_50
 1676 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_46
 1446 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R15G130B155
 332 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R218G34B166
 2172 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3079 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1339,19 +1339,19 @@
 # limgrave_barony_114
 497 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_127
 2327 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_118
 2058 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1360,25 +1360,25 @@
 # limgrave_barony_119
 805 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_98
 1792 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_131
 1870 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R11G183B248
 1666 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1387,19 +1387,19 @@
 # limgrave_barony_97
 211 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_132
 28 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R93G252B206
 2528 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1408,25 +1408,25 @@
 # limgrave_barony_159
 2486 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_129
 620 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R218G73B104
 1394 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R43G228B102
 2006 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1437,25 +1437,25 @@
 # limgrave_barony_64
 1208 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_62
 1803 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_61
 1111 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3117 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1464,13 +1464,13 @@
 # limgrave_barony_55
 1839 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_67
 485 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1479,19 +1479,19 @@
 # limgrave_barony_111
 1172 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_112
 1518 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_110
 1622 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1500,25 +1500,25 @@
 # limgrave_barony_109
 1882 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_122
 2355 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_115
 172 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_113
 898 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1527,25 +1527,25 @@
 # limgrave_barony_60
 1814 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # R35G155B204
 2090 = {
 	culture = cul_caelid
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R255G31B105
 2365 = {
 	culture = cul_caelid
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R164G71B166
 800 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1554,25 +1554,25 @@
 # R255G243B243
 1501 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # R230G192B210
 1517 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R105G179B172
 540 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R143G20B135
 381 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1581,19 +1581,19 @@
 # R135G173B183
 1798 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # R35G66B250
 985 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_58
 362 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1602,13 +1602,13 @@
 # R13G129B124
 2514 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_59
 1610 = {
 	culture = cul_mistwood
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1617,13 +1617,13 @@
 # limgrave_barony_56
 917 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_63
 615 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1632,19 +1632,19 @@
 # limgrave_barony_108
 1919 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_107
 861 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_54
 2470 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1653,25 +1653,25 @@
 # R35G110B6
 432 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_53
 1502 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_106
 619 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R155G153B178
 2479 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1680,31 +1680,31 @@
 # limgrave_barony_117
 2142 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_105
 1847 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_116
 1006 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_121
 977 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R124G214B128
 1762 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1713,19 +1713,19 @@
 # limgrave_barony_65
 502 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_57
 498 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_66
 1411 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1736,25 +1736,25 @@
 # limgrave_barony_124
 1512 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_123
 793 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_125
 287 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R216G169B244
 2177 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1763,25 +1763,25 @@
 # limgrave_barony_164
 1990 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_165
 1696 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R52G135B171
 1876 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R244G35B121
 1981 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1791,7 +1791,7 @@
 1223 = {
 	special_building_slot = limgrave_colosseum
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 	
 	1000.1.1 = {
@@ -1801,19 +1801,19 @@
 # limgrave_barony_166
 2092 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_170
 786 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_167
 629 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1822,25 +1822,25 @@
 # limgrave_barony_161
 921 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_155
 621 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_156
 653 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R63G143B72
 1463 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1849,31 +1849,31 @@
 # limgrave_barony_120
 1633 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_126
 1606 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_128
 484 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R108G229B144
 2533 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R51G65B136
 1170 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1882,19 +1882,19 @@
 # limgrave_barony_141
 1300 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_130
 282 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # limgrave_barony_162
 468 = {
 	culture = cul_stormhill
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1903,19 +1903,19 @@
 # limgrave_barony_163
 767 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # R215G69B48
 395 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R58G58B235
 32 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1927,25 +1927,25 @@
 235 = {
 	special_building_slot = divine_tower_limgrave
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # divinetower_limgrave_2
 2270 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3085 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R40G198B141
 2511 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1956,31 +1956,31 @@
 # R55G74B212
 2510 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # LAKE
 3077 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3078 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # DELETE_6
 3109 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # DELETE_4
 3106 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -1989,25 +1989,25 @@
 # R35G120B6
 2512 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # LAKE
 3084 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3081 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3080 = {
 	culture = cul_limgrave
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 

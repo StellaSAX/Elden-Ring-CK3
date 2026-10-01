@@ -4,31 +4,31 @@
 # R154G163B139
 1776 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = castle_holding
 }
 # R62G14B116
 1560 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # R14G233B169
 2285 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # R104G9B40
 2136 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # R146G183B41
 913 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = castle_holding
 }
 
@@ -37,25 +37,25 @@
 # R195G90B230
 1874 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = castle_holding
 }
 # R240G149B52
 2417 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # R199G53B38
 1796 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # R40G88B248
 1599 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 
@@ -66,25 +66,25 @@
 # R202G170B162
 79 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = castle_holding
 }
 # R0G225B40
 787 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3060 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3066 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 
@@ -93,25 +93,25 @@
 # R129G122B89
 1993 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = castle_holding
 }
 # R3G41B80
 1017 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = castle_holding
 }
 # LAKE
 3059 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # R93G59B124
 729 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 
@@ -120,25 +120,25 @@
 # R222G13B253
 2176 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = castle_holding
 }
 # R61G8B204
 2345 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # R85G244B223
 2498 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3064 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 
@@ -149,25 +149,25 @@
 # R218G146B148
 1602 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = castle_holding
 }
 # R114G94B25
 2286 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # R255G77B115
 2501 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3063 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 
@@ -176,37 +176,37 @@
 # R41G73B43
 386 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = castle_holding
 }
 # R164G87B174
 1645 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # R93G72B2
 1768 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # R186G188B117
 2503 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # R26G200B243
 2502 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # R173G12B129
 2499 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 
@@ -215,13 +215,13 @@
 # R172G117B226
 2159 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = castle_holding
 }
 # R241G211B24
 2170 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 
@@ -230,37 +230,37 @@
 # R124G126B50
 1311 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = castle_holding
 }
 # R219G155B196
 1888 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # R112G235B142
 2492 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # R33G239B76
 2495 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # R121G133B102
 2493 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # R248G64B94
 1668 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 
@@ -271,25 +271,25 @@
 # R189G234B184
 802 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = castle_holding
 }
 # R123G216B155
 2504 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3065 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3068 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 
@@ -298,25 +298,25 @@
 # R73G39B255
 954 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = castle_holding
 }
 # LAKE
 3067 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # OCEAN
 3061 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # R64G17B184
 2329 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 
@@ -325,31 +325,31 @@
 # R91G232B219
 2307 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = castle_holding
 }
 # LAKE
 3069 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # R35G232B6
 2276 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3062 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3087 = {
 	culture = cul_haligtree
-	religion = faith_unalloyed
+	rite = golden_rite
 	holding = none
 }
 

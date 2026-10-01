@@ -4,31 +4,31 @@
 # R130G14B248
 1625 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R56G106B23
 2112 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R145G112B85
 2193 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R54G235B178
 762 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R22G232B225
 706 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 
@@ -37,25 +37,25 @@
 # R206G119B122
 173 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R74G1B18
 1687 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R19G13B4
 1808 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R134G87B212
 1374 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 
@@ -64,19 +64,19 @@
 # R58G233B52
 1265 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R235G175B143
 126 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R133G39B215
 614 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 
@@ -85,19 +85,19 @@
 # R57G43B3
 1054 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R129G102B217
 1155 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R63G253B149
 2022 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 
@@ -106,25 +106,25 @@
 # R110G117B224
 1314 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R56G35B199
 687 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R45G171B108
 1097 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R231G212B86
 1908 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 
@@ -133,25 +133,25 @@
 # R234G74B174
 705 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R233G224B106
 1012 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R33G64B144
 444 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R219G218B37
 2341 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 
@@ -160,19 +160,19 @@
 # R91G208B205
 845 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R212G185B19
 2299 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R188G228B125
 876 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 
@@ -181,25 +181,25 @@
 # R171G19B224
 478 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R255G68B200
 1229 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R6G156B177
 521 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R61G124B94
 2312 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 
@@ -208,25 +208,25 @@
 # R118G121B100
 968 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R173G214B177
 834 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R106G161B66
 1050 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R85G1B19
 1109 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 
@@ -235,19 +235,19 @@
 # R147G106B10
 202 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R72G0B48
 2348 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R150G14B233
 1176 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 
@@ -256,19 +256,19 @@
 # R88G31B135
 1295 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R223G152B147
 600 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R73G5B173
 196 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 
@@ -277,25 +277,25 @@
 # R73G117B33
 841 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R56G100B102
 1342 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R30G45B24
 1810 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R190G237B157
 208 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 
@@ -304,31 +304,31 @@
 # R84G120B243
 2262 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R153G212B11
 144 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R92G222B73
 867 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R51G73B225
 552 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R112G128B35
 2235 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 
@@ -337,25 +337,25 @@
 # R135G194B79
 809 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R11G103B63
 577 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R205G126B96
 335 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R21G201B81
 1079 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 
@@ -364,19 +364,19 @@
 # R77G40B235
 343 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R60G233B118
 549 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R9G137B1
 1614 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 
@@ -385,25 +385,25 @@
 # R138G112B23
 1069 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R249G111B50
 2289 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R177G80B87
 710 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R109G158B234
 1387 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 
@@ -412,13 +412,13 @@
 # R194G202B74
 1427 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R193G170B4
 513 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 
@@ -429,7 +429,7 @@
 # R83G62B53
 1228 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 
@@ -438,13 +438,13 @@
 # R162G85B107
 520 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R61G182B149
 842 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 
@@ -453,7 +453,7 @@
 # R143G102B223
 1871 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 
@@ -462,7 +462,7 @@
 # R122G73B163
 694 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 
@@ -471,7 +471,7 @@
 # R0G29B231
 215 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 
@@ -482,25 +482,25 @@
 # R138G72B48
 1409 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R81G89B54
 1945 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R228G105B23
 935 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R118G116B119
 526 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 
@@ -509,25 +509,25 @@
 # R238G129B51
 1925 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R247G230B201
 1932 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R119G131B95
 331 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R191G219B44
 799 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 
@@ -536,25 +536,25 @@
 # R57G149B213
 726 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R8G245B205
 676 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R1G164B3
 2367 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R0G210B31
 108 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 
@@ -565,31 +565,31 @@
 # R188G42B91
 1507 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R221G154B131
 206 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R134G81B143
 910 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R34G62B122
 2464 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R89G220B75
 1035 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 
@@ -598,31 +598,31 @@
 # R43G96B181
 251 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R10G96B197
 1239 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R52G194B5
 949 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R105G49B140
 2466 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R60G112B240
 2256 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 
@@ -631,13 +631,13 @@
 # R191G161B186
 1193 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = castle_holding
 }
 # R48G68B143
 111 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 
@@ -646,13 +646,13 @@
 # R93G160B45
 123 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 # R36G54B153
 2030 = {
 	culture = cul_jagged
-	religion = faith_bayle_dragon
+	rite = golden_rite
 	holding = none
 }
 

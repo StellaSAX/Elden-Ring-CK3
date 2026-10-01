@@ -1,0 +1,216 @@
+﻿faith_badlander = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_academy = {
+    1.1.1 = {
+		main_rite = academy_rite
+
+        rites = {
+            gravity_rite = {}
+        }
+        known = {
+           
+        }
+    }
+}
+
+faith_primeval = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_night = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_crucible = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_spiral = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_death_prince = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_old_death = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_despair = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_godslayer = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_ancient_dragon = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_bayle_dragon = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_giant = {
+    1.1.1 = {
+		main_rite = fire_monk_rite
+
+        rites = {
+            giant_rite = {}
+        }
+        known = {
+           
+        }
+    }
+}
+
+faith_formless = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_frenzy = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_reedlander = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_moons = {
+    1.1.1 = {
+		main_rite = moons_rite
+
+        rites = {
+            stars_rite = {}
+        }
+        known = {
+           
+        }
+    }
+}
+
+faith_golden = {
+    1.1.1 = {
+		main_rite = golden_rite
+
+        rites = {
+            fundamentalism_rite = {}
+			unalloyed_rite = {}
+			perfect_rite = {}
+			messmer_rite = {}
+			st_trina_rite = {}
+			dragon_cult_rite = {}
+        }
+        known = {
+           
+        }
+    }
+}
+
+faith_kind = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_rot = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_rot_romina = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_god_snake = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_shaman = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}
+
+faith_ancestor_spirit = {
+    1.1.1 = {
+        known = {
+           
+        }
+    }
+}

@@ -5,7 +5,7 @@
 2314 = {
 	special_building_slot = castle_morne_1
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 	
 	1000.1.1 = {
@@ -15,37 +15,37 @@
 # wp_barony_70
 298 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_71
 978 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_69
 1728 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3083 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # DELETE_11
 3110 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_68
 1533 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -54,19 +54,19 @@
 # wp_barony_65
 227 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_66
 130 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_64
 2559 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -75,31 +75,31 @@
 # wp_barony_67
 618 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_61
 1345 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # DELETE_1
 3076 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3097 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_63
 815 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -108,13 +108,13 @@
 # wp_barony_62
 863 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_59
 1969 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -123,7 +123,7 @@
 # wp_barony_73
 2560 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 
@@ -132,25 +132,25 @@
 # wp_barony_57
 465 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # R33G10B20
 491 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R26G137B77
 2253 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_58
 850 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -161,25 +161,25 @@
 # wp_barony_9
 387 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_12
 1453 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R74G248B154
 81 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R108G181B184
 410 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -188,31 +188,31 @@
 # wp_barony_27
 433 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_26
 2005 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R42G221B219
 42 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R115G136B109
 1939 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_37
 1206 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -222,7 +222,7 @@
 642 = {
 	special_building_slot = oridys_rise
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 	
 	1000.1.1 = {
@@ -232,19 +232,19 @@
 # LAKE
 3121 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_30
 1896 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_32
 2197 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -253,25 +253,25 @@
 # wp_barony_34
 2062 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_28
 426 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_29
 2485 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R182G112B187
 973 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -280,19 +280,19 @@
 # wp_barony_60
 1429 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_36
 1528 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_35
 2343 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -301,25 +301,25 @@
 # R147G202B194
 2207 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # LAKE
 3125 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R255G87B167
 1359 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_13
 744 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -328,13 +328,13 @@
 # R9G200B151
 807 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_8
 1713 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -343,13 +343,13 @@
 # R254G5B15
 545 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_11
 1340 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -358,13 +358,13 @@
 # wp_barony_10
 1275 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_31
 458 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -374,7 +374,7 @@
 304 = {
 	special_building_slot = bridge_of_sacrifice
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 	
 	1000.1.1 = {
@@ -389,25 +389,25 @@
 # wp_barony_3
 495 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_1
 1912 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_2
 970 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_4
 1764 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -416,13 +416,13 @@
 # wp_barony_17
 1727 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_16
 574 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -431,13 +431,13 @@
 # wp_barony_22
 2467 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_18
 2458 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -447,7 +447,7 @@
 1738 = {
 	special_building_slot = minor_erdtree
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 	
 	1000.1.1 = {
@@ -457,31 +457,31 @@
 # wp_barony_23
 2428 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_38
 1624 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_25
 701 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R243G106B21
 999 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_46
 1486 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -491,7 +491,7 @@
 866 = {
 	special_building_slot = morne_tunnel_mines_01
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 	
 	1000.1.1 = {
@@ -501,13 +501,13 @@
 # R191G255B251
 2019 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_15
 205 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -516,25 +516,25 @@
 # wp_barony_6
 136 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_7
 1066 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_14
 1883 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_5
 875 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -545,25 +545,25 @@
 # R248G15B185
 1033 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # DELETE_8
 2522 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3070 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # OCEAN
 3071 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -572,19 +572,19 @@
 # DELETE_9
 3075 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # DELETE_12
 2508 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # DELETE_10
 3111 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -593,25 +593,25 @@
 # wp_barony_40
 1616 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_44
 535 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R232G34B174
 1326 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_53
 1091 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -620,13 +620,13 @@
 # wp_barony_51
 567 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_52
 1592 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -635,25 +635,25 @@
 # wp_barony_49
 2086 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_47
 2015 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_45
 8 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_48
 2246 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -662,25 +662,25 @@
 # wp_barony_19
 1583 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # R78G242B185
 43 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # R26G143B17
 1353 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_20
 170 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -689,25 +689,25 @@
 # R113G152B113
 930 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_43
 147 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_41
 1075 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_42
 714 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -716,19 +716,19 @@
 # R161G210B231
 2067 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_56
 297 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_55
 2260 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -737,19 +737,19 @@
 # wp_barony_21
 1224 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_50
 1031 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # wp_barony_39
 2473 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 
@@ -758,19 +758,19 @@
 # DELETE_13
 3074 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = castle_holding
 }
 # wp_barony_54
 301 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 # LAKE
 3099 = {
 	culture = cul_weeping_peninsula
-	religion = faith_golden
+	rite = golden_rite
 	holding = none
 }
 

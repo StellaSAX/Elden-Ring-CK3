@@ -241,24 +241,24 @@
 	
 	piety_icon_group = "christian"
 
-	faiths = {
-		faith_god_snake = {
-			color = { 0.99 0.10 0.05 }
-			icon = faith_devouring_serpent
-			reformed_icon = faith_devouring_serpent
+	# faiths = {
+		# faith_god_snake = {
+			# color = { 0.99 0.10 0.05 }
+			# icon = faith_devouring_serpent
+			# reformed_icon = faith_devouring_serpent
 
-			doctrine = unreformed_faith_doctrine
+			# doctrine = unreformed_faith_doctrine
 
-			holy_site = mount_gelmir
-			holy_site = leyndell_capital
-			holy_site = caria_manor
-			holy_site = west_altus_divine_tower
+			# holy_site = mount_gelmir
+			# holy_site = leyndell_capital
+			# holy_site = caria_manor
+			# holy_site = west_altus_divine_tower
 			
 			
-			doctrine = tenet_gruesome_festivals
-			doctrine = tenet_serpents #this is human sacrifice+
-			doctrine = tenet_fp3_fedayeen
-			doctrine = tenet_hedonistic
-		}
-	}
+			# doctrine = tenet_gruesome_festivals
+			# doctrine = tenet_serpents #this is human sacrifice+
+			# doctrine = tenet_fp3_fedayeen
+			# doctrine = tenet_hedonistic
+		# }
+	# }
 }
