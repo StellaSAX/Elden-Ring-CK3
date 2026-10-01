@@ -1384,8 +1384,8 @@ skeletal_militiaman = {
 		NOR = {
 			government_has_flag = government_is_herder
 		}
-		faith = {
-			has_doctrine = tenet_live_in_death
+		rite = {
+			rite_has_doctrine = tenet_live_in_death
 		}
 	}
 
@@ -1423,8 +1423,8 @@ skeletal_crossbowman = {
 		NOR = {
 			government_has_flag = government_is_herder
 		}
-		faith = {
-			has_doctrine = tenet_live_in_death
+		rite = {
+			rite_has_doctrine = tenet_live_in_death
 		}
 	}
 
@@ -1466,8 +1466,8 @@ grave_warden = {
 		NOR = {
 			government_has_flag = government_is_herder
 		}
-		faith = {
-			has_doctrine = tenet_live_in_death
+		rite = {
+			rite_has_doctrine = tenet_live_in_death
 		}
 	}
 
@@ -1509,8 +1509,8 @@ skeletal_bandit = {
 		NOR = {
 			government_has_flag = government_is_herder
 		}
-		faith = {
-			has_doctrine = tenet_live_in_death
+		rite = {
+			rite_has_doctrine = tenet_live_in_death
 		}
 	}
 
@@ -1553,8 +1553,8 @@ skeletal_knight = {
 		NOR = {
 			government_has_flag = government_is_herder
 		}
-		faith = {
-			has_doctrine = tenet_live_in_death
+		rite = {
+			rite_has_doctrine = tenet_live_in_death
 		}
 	}
 
@@ -1598,8 +1598,8 @@ skeletal_executioner = {
 		NOR = {
 			government_has_flag = government_is_herder
 		}
-		faith = {
-			has_doctrine = tenet_live_in_death
+		rite = {
+			rite_has_doctrine = tenet_live_in_death
 		}
 	}
 
@@ -1644,8 +1644,8 @@ giant_skeleton = {
 		NOR = {
 			government_has_flag = government_is_herder
 		}
-		faith = {
-			has_doctrine = tenet_live_in_death
+		rite = {
+			rite_has_doctrine = tenet_live_in_death
 		}
 	}
 
@@ -1722,7 +1722,10 @@ nights_cavalry = {
 	}
 	
 	can_recruit = {
-		has_primary_title = title:d_laamp_nightscavalry
+		OR = {
+			has_primary_title = title:d_laamp_nightscavalry
+			dynasty = dynasty:dynn_black_knight
+		}
 	}
 
 	buy_cost = { gold = 250 }
