@@ -13,7 +13,7 @@
 	prowess = 28
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_badlands
 	
 	trait = stubborn
@@ -50,7 +50,7 @@ patches = {
 	prowess = 15
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_limgrave
 	
 	trait = deceitful
@@ -129,7 +129,7 @@ gideon = {
 	prowess = 20
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = diligent
@@ -202,7 +202,7 @@ eleonora = {
 	prowess = 36
 	health = 10
 	
-	religion = faith_formless
+	rite = formless_rite
 	culture = cul_reedlander
 	
 	trait = zealous
@@ -256,7 +256,7 @@ nerijus = {
 	prowess = 23
 	health = 10
 	
-	religion = faith_formless
+	rite = formless_rite
 	culture = cul_limgrave
 	
 	trait = wrathful
@@ -304,7 +304,7 @@ okina = {
 	prowess = 34
 	health = 10
 	
-	religion = faith_formless
+	rite = formless_rite
 	culture = cul_reedlander
 	
 	trait = brave
@@ -343,7 +343,7 @@ ravenmount_assassin = {
 	prowess = 29
 	health = 10
 	
-	religion = faith_formless
+	rite = formless_rite
 	culture = cul_stormhill
 	
 	trait = ambitious
@@ -382,7 +382,7 @@ vyke = {
 	prowess = 44
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_altus
 	
 	trait = brave
@@ -423,7 +423,7 @@ vyke = {
 		}
 	}
 	7896.1.1 = {
-		religion = faith_frenzy
+		rite = frenzy_rite
 	}
 	7909.1.1 = {
 		add_trait = imprisoned_evergaol
@@ -445,7 +445,7 @@ anastasia = {
 	prowess = 28
 	health = 10
 	
-	religion = faith_god_snake
+	rite = god_snake_rite
 	culture = cul_caelid
 	
 	trait = sadistic
@@ -487,7 +487,7 @@ boggart = {
 	prowess = 16
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_liurnia
 	
 	trait = calm
@@ -526,7 +526,7 @@ corhyn = {
 	prowess = 8
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_altus
 	
 	trait = zealous
@@ -566,7 +566,7 @@ dorin = {
 	prowess = 33
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = zealous
@@ -606,7 +606,7 @@ devin = {
 	prowess = 36
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = zealous
@@ -651,7 +651,7 @@ darian = {
 	prowess = 37
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = zealous
@@ -696,7 +696,7 @@ dolores = {
 	prowess = 26
 	health = 10
 	
-	religion = faith_st_trina
+	rite = st_trina_rite
 	culture = cul_altus
 	
 	trait = chaste
@@ -736,7 +736,7 @@ dungeater = {
 	prowess = 38
 	health = 10
 	
-	religion = faith_despair
+	rite = despair_rite
 	culture = cul_leyndell
 	
 	trait = sadistic
@@ -784,7 +784,7 @@ ensha = {
 	prowess = 33
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = impatient
@@ -825,7 +825,7 @@ wilhelm = {
 	prowess = 17
 	health = 10
 	
-	religion = faith_primeval
+	rite = primeval_rite
 	culture = cul_caria
 	
 	trait = gregarious
@@ -864,7 +864,7 @@ fia = {
 	prowess = 7
 	health = 10
 	
-	religion = faith_death_prince
+	rite = death_prince_rite
 	culture = cul_leyndell
 	
 	trait = lustful
@@ -908,7 +908,7 @@ goldmask = {
 	prowess = 3
 	health = 10
 	
-	religion = faith_fundamentalism
+	rite = fundamentalism_rite
 	culture = cul_altus
 	
 	trait = patient
@@ -954,7 +954,7 @@ tragoth = {
 	prowess = 45
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_limgrave
 	
 	trait = brave
@@ -998,7 +998,7 @@ albart_hoslow = {
 	prowess = 27
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_limgrave
 	
 	trait = ambitious
@@ -1040,7 +1040,7 @@ juno_hoslow = {
 	prowess = 39
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_limgrave
 	
 	trait = stubborn
@@ -1083,7 +1083,7 @@ diallos_hoslow = {
 	prowess = 16
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_limgrave
 	
 	trait = honest
@@ -1122,7 +1122,7 @@ bernahl = {
 	prowess = 37
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_stormhill
 	
 	trait = brave
@@ -1162,7 +1162,7 @@ lanya = {
 	prowess = 8
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_limgrave
 	
 	trait = fickle
@@ -1200,7 +1200,7 @@ alberich = {
 	prowess = 18
 	health = 10
 	
-	religion = faith_primeval
+	rite = primeval_rite
 	culture = cul_liurnia
 	
 	trait = eccentric
@@ -1250,7 +1250,7 @@ magnus = {
 	prowess = 22
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_highlander
 	
 	trait = wrathful
@@ -1292,7 +1292,7 @@ leda = {
 	prowess = 32
 	health = 10
 	
-	religion = faith_unalloyed
+	rite = unalloyed_rite
 	culture = cul_haligtree
 	
 	trait = zealous
@@ -1342,7 +1342,7 @@ istvan = {
 	prowess = 28
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_stormhill
 	
 	trait = gregarious
@@ -1381,7 +1381,7 @@ henricus = {
 	prowess = 29
 	health = 10
 	
-	religion = faith_god_snake
+	rite = god_snake_rite
 	culture = cul_limgrave
 	
 	trait = deceitful
@@ -1419,7 +1419,7 @@ rileigh = {
 	prowess = 23
 	health = 10
 	
-	religion = faith_fundamentalism
+	rite = fundamentalism_rite
 	culture = cul_altus
 	
 	trait = zealous
@@ -1460,7 +1460,7 @@ roderika = {
 	prowess = 4
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_limgrave
 	
 	trait = compassionate
@@ -1498,7 +1498,7 @@ sanguine_invader = {
 	prowess = 30
 	health = 10
 	
-	religion = faith_formless
+	rite = formless_rite
 	culture = cul_low_northerner
 	
 	trait = callous
@@ -1537,7 +1537,7 @@ rogier = {
 	prowess = 18
 	health = 10
 	
-	religion = faith_academy
+	rite = academy_rite
 	culture = cul_caria
 	
 	trait = diligent
@@ -1585,7 +1585,7 @@ thiollier = {
 	prowess = 17
 	health = 10
 	
-	religion = faith_st_trina
+	rite = st_trina_rite
 	culture = cul_altus
 	
 	trait = shy
@@ -1623,7 +1623,7 @@ vargram = {
 	prowess = 31
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_limgrave
 	
 	trait = brave
@@ -1665,7 +1665,7 @@ bigjeffepic = {
 	learning = 6
 	prowess = 16
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_stormhill
 	
 	trait = ambitious
@@ -1719,7 +1719,7 @@ chiptooth = {
 	learning = 12
 	prowess = 5
 	
-	religion = faith_rot
+	rite = rot_rite
 	culture = cul_altus
 	
 	trait = shy
@@ -1773,7 +1773,7 @@ zarion = {
 	learning = 3
 	prowess = 14
 	
-	religion = faith_frenzy
+	rite = frenzy_rite
 	culture = cul_northerner
 	
 	trait = sadistic
@@ -1819,7 +1819,7 @@ tructa = {
 	learning = 13
 	prowess = 13
 	
-	religion = faith_academy
+	rite = academy_rite
 	culture = cul_liurnia
 	
 	trait = gluttonous
@@ -1867,7 +1867,7 @@ grace = {
 	learning = 5
 	prowess = 5
 	
-	religion = faith_moons
+	rite = moons_rite
 	culture = cul_cerulean
 	
 	trait = patient
@@ -1917,7 +1917,7 @@ judith = {
 	learning = 12
 	prowess = 5
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_altus
 	
 	trait = patient
@@ -1962,7 +1962,7 @@ hyrumar = {
 	learning = 0
 	prowess = 13
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = brave
@@ -2006,7 +2006,7 @@ elizabeth = {
 	learning = 5
 	prowess = 14
 	
-	religion = faith_god_snake
+	rite = god_snake_rite
 	culture = cul_gelmir
 	
 	trait = arrogant
@@ -2048,7 +2048,7 @@ caius = {
 	learning = 8
 	prowess = 5
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_altus
 	
 	trait = humble
@@ -2092,7 +2092,7 @@ samuel = {
 	learning = 5
 	prowess = 5
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_altus
 	
 	trait = cynical
@@ -2132,9 +2132,9 @@ samuel = {
 			set_landless_government_effect = yes
 			#add_secret = { type = secret_non_believer }
 		}
-		make_character_crypto_religionist_effect = {
-			CRYPTO_RELIGION = faith:faith_frenzy
-        }
+		#make_character_crypto_religionist_effect = { #will figure this out later
+		#	CRYPTO_religion = faith:frenzy_rite
+        #}
 	}
 }
 
@@ -2152,7 +2152,7 @@ saerys = {
 	learning = 6
 	prowess = 7
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = lustful

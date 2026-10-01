@@ -12,7 +12,7 @@
 	prowess = 5
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_dragonbarrow
 	
 	trait = greedy
@@ -62,7 +62,7 @@ gaiser_stormlord = {
 	prowess = 31
 	health = 10
 	
-	religion = faith_crucible
+	rite = crucible_rite
 	culture = cul_stormhill
 	
 	trait = arrogant
@@ -119,7 +119,7 @@ alanin_goldsworn = {
 	prowess = 28
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = brave

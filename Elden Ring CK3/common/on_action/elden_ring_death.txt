@@ -19,7 +19,7 @@
 				learning = 11
 				prowess = 1
 				health = 10
-				religion = faith_golden
+				rite = golden_rite
 				culture = cul_liurnia
 				trait = trusting
 				trait = forgiving

@@ -13,7 +13,7 @@
 	prowess = 35
 	health = 10
 	
-	religion = faith_shaman
+	rite = shaman_rite
 	culture = cul_shaman
 	
 	trait = ambitious
@@ -51,7 +51,7 @@
 	}
 	714.2.13 = {
 		remove_trait = empyrean
-		religion = faith_golden
+		rite = golden_rite
 		add_trait = god
 		give_nickname = nick_the_eternal
 	}
@@ -89,7 +89,7 @@ radagon = {
 	prowess = 52
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = zealous
@@ -150,7 +150,7 @@ hoarah_loux = {
 	prowess = 59
 	health = 20
 	
-	religion = faith_badlands
+	rite = badlander_rite
 	culture = cul_badlands
 	
 	trait = brave
@@ -179,7 +179,7 @@ hoarah_loux = {
 	733.5.10 = {
 		add_trait = demigod_tier_4
 		give_nickname = nick_first_elden_lord
-		religion = faith_golden
+		rite = golden_rite
 	}
 	1602.1.1 = {
 		add_trait = tarnished
@@ -206,7 +206,7 @@ messmer = {
 	health = 10
 	
 	culture = cul_leyndell
-	religion = faith_golden
+	rite = golden_rite
 	
 	trait = stubborn
 	trait = callous
@@ -239,7 +239,7 @@ messmer = {
 		trait = demigod_tier_4
 	}
 	1710.2.29 = {
-		religion = faith_messmer
+		rite = messmer_rite
 	}
 	1810.1.1 = {
 		culture = cul_shadowlander
@@ -268,7 +268,7 @@ melina = {
 	prowess = 22
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = calm
@@ -318,7 +318,7 @@ godwyn = {
 	prowess = 48
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = brave
@@ -382,7 +382,7 @@ morgott = {
 	prowess = 49
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = just
@@ -444,7 +444,7 @@ mohg = {
 	prowess = 53
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = callous
@@ -480,7 +480,7 @@ mohg = {
 		trait = demigod_tier_4
 	}
 	5405.1.1 = {
-		religion = faith_formless
+		rite = faith_formless
 		
 		add_trait = incantation_blood
 		effect = {
@@ -509,7 +509,7 @@ radahn = {
 	prowess = 65
 	health = 10
 	
-	religion = faith_moons
+	rite = moons_rite
 	culture = cul_caria
 	
 	trait = just
@@ -559,7 +559,7 @@ radahn = {
 	1782.1.1 = {
 		add_trait = demigod_tier_4
 		culture = cul_leyndell
-		religion = faith_golden
+		rite = golden_rite
 	}
 	7216.1.1 = {
 		add_pressed_claim = title:h_lands_between
@@ -592,7 +592,7 @@ rykard = {
 	prowess = 46
 	health = 10
 	
-	religion = faith_moons
+	rite = moons_rite
 	culture = cul_caria
 	
 	trait = cynical
@@ -630,7 +630,7 @@ rykard = {
 	1782.1.1 = {
 		add_trait = demigod_tier_4
 		culture = cul_leyndell
-		religion = faith_golden
+		rite = golden_rite
 		
 		add_trait = sorcery_carian
 		effect = {
@@ -652,7 +652,7 @@ rykard = {
 		dynasty_house = house_gelmir_caria
 	}
 	7221.1.1 = {
-		religion = faith_god_snake
+		rite = god_snake_rite
 		
 		add_trait = sorcery_gelmir
 		effect = {
@@ -680,7 +680,7 @@ ranni = {
 	prowess = 12
 	health = 10
 	
-	religion = faith_moons
+	rite = moons_rite
 	culture = cul_caria
 	
 	trait = callous
@@ -728,7 +728,7 @@ ranni = {
 		}
 	}
 	3759.1.1 = {
-		religion = faith_stars
+		rite = stars_rite
 		give_nickname = nick_the_witch
 		
 		add_trait = sorcery_ice
@@ -761,7 +761,7 @@ merian = {
 	prowess = 19
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = compassionate
@@ -805,7 +805,7 @@ miquella = {
 	prowess = 11
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = ambitious
@@ -854,11 +854,11 @@ miquella = {
 	}
 	3020.1.1 = {
 		give_nickname = nick_the_unalloyed
-		religion = faith_unalloyed
+		rite = unalloyed_rite
 	}
 	8200.1.1 = {
 		give_nickname = nick_the_kind
-		religion = faith_kind
+		rite = kind_rite
 		
 		add_trait = incantation_miquella
 		effect = {
@@ -893,7 +893,7 @@ trina = {
 	prowess = 5
 	health = 10
 	
-	religion = faith_st_trina
+	rite = st_trina_rite
 	culture = cul_leyndell
 	
 	trait = compassionate
@@ -949,7 +949,7 @@ malenia = {
 	prowess = 70
 	health = 10
 
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = brave
@@ -1004,7 +1004,7 @@ malenia = {
 	}
 	3020.1.1 = {
 		give_nickname = nick_blade_of_miquella
-		religion = faith_unalloyed
+		rite = unalloyed_rite
 	}
 	7748.7.29 = {
 		add_trait = incantation_rot
@@ -1028,7 +1028,7 @@ moriss = {
 	prowess = 17
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = cynical
@@ -1073,7 +1073,7 @@ marimell = {
 	prowess = 18
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = lazy
@@ -1117,7 +1117,7 @@ godwald = {
 	prowess = 21
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = shy
@@ -1170,7 +1170,7 @@ miressa = {
 	prowess = 16
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = forgiving
@@ -1213,7 +1213,7 @@ godmyr = {
 	prowess = 22
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = diligent
@@ -1255,7 +1255,7 @@ godefroy = {
 	prowess = 38
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = education_martial_3
@@ -1304,7 +1304,7 @@ mioliss = {
 	prowess = 39
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = just
@@ -1348,7 +1348,7 @@ godrick = {
 	prowess = 30
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = arrogant

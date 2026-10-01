@@ -13,7 +13,7 @@
 	prowess = 23
 	health = 10
 	
-	religion = faith_golden	
+	rite = golden_rite
 	culture = cul_sellia
 	
 	trait = cynical
@@ -63,7 +63,7 @@ polyanna = {
 	prowess = 23
 	health = 10
 	
-	religion = faith_rot	
+	rite = rot_rite
 	culture = cul_sellia
 	
 	trait = zealous
@@ -113,7 +113,7 @@ amy = {
 	prowess = 23
 	health = 10
 	
-	religion = faith_rot	
+	rite = rot_rite
 	culture = cul_sellia
 	
 	trait = zealous
@@ -163,7 +163,7 @@ maureen = {
 	prowess = 23
 	health = 10
 	
-	religion = faith_rot	
+	rite = rot_rite
 	culture = cul_sellia
 	
 	trait = zealous
@@ -213,7 +213,7 @@ mary = {
 	prowess = 23
 	health = 10
 	
-	religion = faith_rot	
+	rite = rot_rite
 	culture = cul_sellia
 	
 	trait = zealous
@@ -264,7 +264,7 @@ zorayas = {
 	prowess = 4
 	health = 10
 	
-	religion = faith_god_snake	
+	rite = god_snake_rite
 	culture = cul_gelmir
 	
 	trait = compassionate
@@ -305,7 +305,7 @@ haight = {
 	prowess = 6
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_limgrave
 	
 	trait = content
@@ -353,7 +353,7 @@ edgar = {
 	prowess = 20
 	health = 10
 
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_weeping_peninsula
 	
 	trait = vengeful
@@ -396,7 +396,7 @@ irina = {
 	prowess = 1
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_weeping_peninsula
 	
 	trait = trusting
@@ -434,7 +434,7 @@ elemer = {
 	prowess = 29
 	health = 10
 	
-	religion = faith_golden #we actually don't know feel free to change it to something that feels more acurate
+	rite = golden_rite
 	culture = cul_eochaid
 	
 	trait = arbitrary
@@ -482,7 +482,7 @@ maleigh = {
 	prowess = 3
 	health = 10
 	
-	religion = faith_rot
+	rite = rot_rite
 	culture = cul_altus
 	
 	trait = arrogant
@@ -531,7 +531,7 @@ gostoc = {
 	prowess = 2
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_limgrave
 	
 	trait = vengeful
@@ -580,7 +580,7 @@ jerren = {
 	prowess = 17
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_liurnia
 	
 	trait = gregarious
@@ -631,7 +631,7 @@ sellen = {
 	prowess = 6
 	health = 10
 	
-	religion = faith_primeval
+	rite = primeval_rite
 	culture = cul_liurnia
 	
 	trait = ambitious
@@ -695,7 +695,7 @@ anna = {
 	prowess = 30
 	health = 10
 	
-	religion = faith_night
+	rite = night_rite
 	culture = cul_shadowlander
 	
 	trait = calm
@@ -747,7 +747,7 @@ jolan = {
 	prowess = 32
 	health = 10
 	
-	religion = faith_night
+	rite = night_rite
 	culture = cul_shadowlander
 	
 	trait = vengeful
@@ -792,7 +792,7 @@ loretta = {
 	prowess = 29
 	health = 10
 	
-	religion = faith_unalloyed
+	rite = unalloyed_rite
 	culture = cul_liurnia
 	
 	trait = diligent
@@ -851,7 +851,7 @@ tanith = {
 	prowess = 5
 	health = 10
 	
-	religion = faith_god_snake
+	rite = god_snake_rite
 	culture = cul_ranah
 	
 	trait = calm
@@ -889,7 +889,7 @@ maliketh = {
 	prowess = 60
 	health = 10
 	
-	religion = faith_golden	
+	rite = golden_rite	
 	culture = cul_beastman
 	
 	trait = zealous
@@ -927,7 +927,7 @@ nightcavleader = {
 	prowess = 21
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = wrathful
@@ -972,7 +972,7 @@ boc = {
 	prowess = 2
 	#health = 10
 	
-	religion = faith_golden #demi-humans would likely have their own specific religion, theyre excluded from immortality and wouldnt be part of the golden order or other human religions
+	rite = golden_rite #demi-humans would likely have their own specific rite, theyre excluded from immortality and wouldnt be part of the golden order or other human rites
 	culture = cul_demihuman
 	
 	trait = honest
@@ -1006,7 +1006,7 @@ pidia = {
 	prowess = 2
 	health = 10
 	
-	religion = faith_moons
+	rite = moons_rite
 	culture = cul_albinauric
 	
 	trait = compassionate
@@ -1042,7 +1042,7 @@ iji = {
 	prowess = 18
 	health = 10
 	
-	religion = faith_moons
+	rite = moons_rite
 	culture = cul_giant
 	
 	trait = just
@@ -1080,7 +1080,7 @@ seluvis = {
 	prowess = 3
 	health = 10
 	
-	religion = faith_academy
+	rite = academy_rite
 	culture = cul_caria
 	
 	trait = lustful
@@ -1125,7 +1125,7 @@ gowry = {
 	prowess = 2
 	health = 10
 	
-	religion = faith_rot
+	rite = rot_rite
 	culture = cul_sellia
 	
 	trait = patient
@@ -1167,7 +1167,7 @@ thops = {
 	prowess = 3
 	health = 10
 	
-	religion = faith_academy
+	rite = academy_rite
 	culture = cul_liurnia
 	
 	trait = humble
@@ -1208,7 +1208,7 @@ varre = {
 	prowess = 14
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_limgrave
 	
 	trait = patient
@@ -1231,7 +1231,7 @@ varre = {
 		}
 	}
 	7693.5.18 = {
-		religion = faith_formless
+		rite = formless_rite
 		add_trait = incantation_blood
 		effect = {
 			add_trait_xp = { trait = incantation_blood value=60 }
@@ -1253,7 +1253,7 @@ shabriri = {
 	prowess = 4
 	health = 10
 	
-	religion = faith_frenzy
+	rite = frenzy_rite
 	culture = cul_leyndell
 	
 	trait = patient
@@ -1296,7 +1296,7 @@ yura = {
 	prowess = 28
 	health = 10
 	
-	religion = faith_reedlander
+	rite = reedlander_rite
 	culture = cul_reedlander
 	
 	trait = brave
@@ -1332,7 +1332,7 @@ azur = {
 	prowess = 8
 	health = 10
 	
-	religion = faith_primeval
+	rite = primeval_rite
 	culture = cul_liurnia
 	
 	trait = ambitious
@@ -1382,7 +1382,7 @@ lusat = {
 	prowess = 7
 	health = 10
 	
-	religion = faith_primeval
+	rite = primeval_rite
 	culture = cul_sellia
 	
 	trait = brave
@@ -1434,7 +1434,7 @@ blaidd = {
 	prowess = 35
 	health = 10
 	
-	religion = faith_moons
+	rite = moons_rite
 	culture = cul_beastman
 	
 	trait = brave
@@ -1477,7 +1477,7 @@ blaidd = {
 #	prowess = 1
 #	health = 10
 #	
-#	religion = faith_golden
+#	rite = golden_rite
 #	culture = cul_liurnia
 #	
 #	trait = trusting
@@ -1515,7 +1515,7 @@ latenna = {
 	prowess = 21
 	health = 10
 	
-	religion = faith_academy
+	rite = academy_rite
 	culture = cul_albinauric
 	
 	trait = brave
@@ -1552,7 +1552,7 @@ old_albus = {
 	prowess = 1
 	health = 10
 	
-	religion = faith_academy
+	rite = academy_rite
 	culture = cul_albinauric
 	
 	trait = honest
@@ -1589,7 +1589,7 @@ adan = {
 	prowess = 20
 	health = 10
 	
-	religion = faith_fire_monk
+	rite = fire_monk_rite
 	culture = cul_northerner
 	
 	trait = ambitious
@@ -1631,7 +1631,7 @@ alecto = {
 	prowess = 38
 	health = 10
 	
-	religion = faith_night
+	rite = night_rite
 	culture = cul_numen
 	
 	trait = callous
@@ -1682,7 +1682,7 @@ tiche = {
 	prowess = 31
 	health = 10
 	
-	religion = faith_night
+	rite = night_rite
 	culture = cul_numen
 	
 	trait = wrathful
@@ -1736,7 +1736,7 @@ kristoff = {
 	prowess = 34
 	health = 10
 	
-	religion = faith_dragon_cult
+	rite = dragon_cult_rite
 	culture = cul_leyndell
 	
 	trait = brave
@@ -1786,7 +1786,7 @@ engvall = {
 	prowess = 35
 	health = 10
 	
-	religion = faith_crucible
+	rite = crucible_rite
 	culture = cul_stormhill
 	
 	trait = vengeful
@@ -1836,7 +1836,7 @@ oleg = {
 	prowess = 37
 	health = 10
 	
-	religion = faith_crucible
+	rite = crucible_rite
 	culture = cul_stormhill
 	
 	trait = brave
@@ -1866,7 +1866,7 @@ oleg = {
 		}
 	}
 	7226.3.19 = {
-		religion = faith_golden
+		rite = golden_rite
 	}
 	7604.11.21 = {
 		death = {
@@ -1889,7 +1889,7 @@ hugues = {
 	prowess = 12
 	health = 10
 	
-	religion = faith_academy
+	rite = academy_rite
 	culture = cul_sellia
 	
 	trait = ambitious
@@ -1934,7 +1934,7 @@ amon = {
 	prowess = 25
 	health = 10
 	
-	religion = faith_fire_monk
+	rite = fire_monk_rite
 	culture = cul_northerner
 	
 	trait = cynical
@@ -1961,7 +1961,7 @@ amon = {
 		}
 	}
 	750.1.8 = {
-		religion = faith_godslayer
+		rite = godslayer_rite
 		add_trait = incantation_blackflame
 		effect = {
 			add_trait_xp = { trait = incantation_blackflame value=40 }
@@ -1988,7 +1988,7 @@ darriwil = {
 	prowess = 27
 	health = 10
 	
-	religion = faith_moons
+	rite = moons_rite
 	culture = cul_liurnia
 	
 	trait = cynical
@@ -2033,7 +2033,7 @@ floh = {
 	prowess = 24
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = sadistic
@@ -2078,7 +2078,7 @@ bols = {
 	prowess = 40
 	health = 10
 	
-	religion = faith_moons
+	rite = moons_rite
 	culture = cul_giant
 	
 	trait = brave
@@ -2124,7 +2124,7 @@ arghanthy = {
 	prowess = 27
 	health = 10
 	
-	religion = faith_fire_monk
+	rite = fire_monk_rite
 	culture = cul_northerner
 	
 	trait = callous
@@ -2161,7 +2161,7 @@ finlay = {
 	prowess = 34
 	health = 10
 	
-	religion = faith_unalloyed
+	rite = unalloyed_rite
 	culture = cul_haligtree
 	
 	trait = zealous
@@ -2208,7 +2208,7 @@ commander_niall = {
 	prowess = 25
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_northerner
 	
 	trait = brave
@@ -2249,7 +2249,7 @@ commander_oneil = {
 	prowess = 21
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_caelid
 	
 	trait = brave
@@ -2290,7 +2290,7 @@ ordovis = {
 	prowess = 28
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = brave
@@ -2336,7 +2336,7 @@ siluria = {
 	prowess = 26
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = just
@@ -2381,7 +2381,7 @@ carmaan = {
 	prowess = 19
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_altus
 	
 	trait = sadistic
@@ -2422,7 +2422,7 @@ esgar = {
 	prowess = 16
 	health = 10
 	
-	religion = faith_formless
+	rite = formless_rite
 	culture = cul_leyndell
 	
 	trait = zealous
@@ -2467,7 +2467,7 @@ therolina = {
 	prowess = 7
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_limgrave
 	
 	trait = compassionate
@@ -2504,7 +2504,7 @@ ghiza = {
 	prowess = 29
 	health = 10
 	
-	religion = faith_god_snake
+	rite = god_snake_rite
 	culture = cul_gelmir
 	
 	trait = callous
@@ -2541,7 +2541,7 @@ lhutel = {
 	prowess = 31
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_leyndell
 	
 	trait = diligent
@@ -2585,7 +2585,7 @@ moongrum = {
 	prowess = 37
 	health = 10
 	
-	religion = faith_moons
+	rite = moons_rite
 	culture = cul_caria
 	
 	trait = brave
@@ -2629,7 +2629,7 @@ nameless_white_mask = {
 	prowess = 19
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_caelid
 	
 	trait = wrathful
@@ -2649,7 +2649,7 @@ nameless_white_mask = {
 		}
 	}
 	7691.3.5 = {
-		religion = faith_formless
+		rite = formless_rite
 		add_trait = incantation_blood
 		effect = {
 			add_trait_xp = { trait = incantation_blood value=20 }
@@ -2671,7 +2671,7 @@ garris = {
 	prowess = 18
 	health = 10
 	
-	religion = faith_old_death
+	rite = old_death_rite
 	culture = cul_sellia
 	
 	trait = cynical
@@ -2714,7 +2714,7 @@ rollo = {
 	prowess = 30
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_altus
 	
 	trait = cynical
@@ -2757,7 +2757,7 @@ tricia = {
 	prowess = 17
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_altus
 	
 	trait = compassionate
@@ -2794,7 +2794,7 @@ miriam = {
 	prowess = 15
 	health = 10
 	
-	religion = faith_moons
+	rite = moons_rite
 	culture = cul_caria
 	
 	trait = arrogant
@@ -2838,7 +2838,7 @@ ogha = {
 	prowess = 40
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_caelid
 	
 	trait = temperate
@@ -2886,7 +2886,7 @@ tanith_knight = {
 	prowess = 41
 	health = 10
 	
-	religion = faith_god_snake
+	rite = god_snake_rite
 	culture = cul_leyndell
 	
 	trait = brave
@@ -2931,7 +2931,7 @@ volcano_manor_ghost = {
 	prowess = 31
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_gelmir
 	
 	trait = cynical
@@ -2972,7 +2972,7 @@ ancient_dragon_man = {
 	prowess = 37
 	health = 10
 	
-	religion = faith_ancient_dragon
+	rite = ancient_dragon_rite
 	culture = cul_draconian
 	
 	trait = ambitious
@@ -3015,7 +3015,7 @@ andreas = {
 	prowess = 45
 	health = 10
 	
-	religion = faith_messmer
+	rite = messmer_rite
 	culture = cul_shadowlander
 	
 	trait = wrathful
@@ -3064,7 +3064,7 @@ huw = {
 	prowess = 38
 	health = 10
 	
-	religion = faith_messmer
+	rite = messmer_rite
 	culture = cul_shadowlander
 	
 	trait = temperate
@@ -3115,7 +3115,7 @@ edredd = {
 	prowess = 32
 	health = 10
 	
-	religion = faith_messmer
+	rite = messmer_rite
 	culture = cul_shadowlander
 	
 	trait = brave
@@ -3159,7 +3159,7 @@ garrew = {
 	prowess = 30
 	health = 10
 	
-	religion = faith_messmer
+	rite = messmer_rite
 	culture = cul_shadowlander
 	
 	trait = brave
@@ -3203,7 +3203,7 @@ gaius = {
 	prowess = 27
 	health = 10
 	
-	religion = faith_messmer
+	rite = messmer_rite
 	culture = cul_albinauric
 	
 	trait = brave
@@ -3253,7 +3253,7 @@ ymir = {
 	prowess = 6
 	health = 10
 	
-	religion = faith_moons
+	rite = moons_rite
 	culture = cul_caria
 	
 	trait = arrogant
@@ -3300,7 +3300,7 @@ yuri = {
 	prowess = 3
 	health = 10
 	
-	religion = faith_moons
+	rite = moons_rite
 	culture = cul_caria
 	
 	trait = curious
@@ -3342,7 +3342,7 @@ devonia = {
 	prowess = 34
 	health = 10
 	
-	religion = faith_crucible
+	rite = crucible_rite
 	culture = cul_leyndell
 	
 	trait = ambitious
@@ -3388,7 +3388,7 @@ dancer_of_ranah = {
 	prowess = 35
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_ranah
 	
 	trait = diligent
@@ -3429,7 +3429,7 @@ ornis = {
 	prowess = 47
 	health = 10
 	
-	religion = faith_crucible
+	rite = crucible_rite
 	culture = cul_hornsent
 	
 	trait = brave
@@ -3470,7 +3470,7 @@ dryleaf_dane = {
 	prowess = 26
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_shadowlander
 	
 	trait = temperate
@@ -3498,7 +3498,7 @@ dryleaf_dane = {
 		}
 	}
 	8291.1.10 = {
-		religion = faith_kind
+		rite = kind_rite
 	}
 }
 
@@ -3516,7 +3516,7 @@ hilde = {
 	prowess = 32
 	health = 10
 	
-	religion = faith_messmer
+	rite = messmer_rite
 	culture = cul_shadowlander
 	
 	trait = diligent
@@ -3564,7 +3564,7 @@ kood = {
 	prowess = 38
 	health = 10
 	
-	religion = faith_messmer
+	rite = messmer_rite
 	culture = cul_shadowlander
 	
 	trait = brave
@@ -3609,7 +3609,7 @@ queelign = {
 	prowess = 24
 	health = 10
 	
-	religion = faith_messmer
+	rite = messmer_rite
 	culture = cul_shadowlander
 	
 	trait = ambitious
@@ -3653,7 +3653,7 @@ salza = {
 	prowess = 35
 	health = 10
 	
-	religion = faith_messmer
+	rite = messmer_rite
 	culture = cul_shadowlander
 	
 	trait = patient
@@ -3700,7 +3700,7 @@ wego = {
 	prowess = 30
 	health = 10
 	
-	religion = faith_messmer
+	rite = messmer_rite
 	culture = cul_shadowlander
 	
 	trait = chaste
@@ -3749,7 +3749,7 @@ hornsent_grandam = {
 	prowess = 4
 	health = 10
 	
-	religion = faith_crucible
+	rite = crucible_rite
 	culture = cul_hornsent
 	
 	trait = brave
@@ -3793,7 +3793,7 @@ solitary_knight = {
 	prowess = 35
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_shadowlander
 	
 	trait = callous
@@ -3835,7 +3835,7 @@ jori = {
 	prowess = 22
 	health = 10
 	
-	religion = faith_crucible
+	rite = crucible_rite
 	culture = cul_hornsent
 	
 	trait = zealous
@@ -3879,7 +3879,7 @@ lamenter = {
 	prowess = 16
 	health = 10
 	
-	religion = faith_golden
+	rite = golden_rite
 	culture = cul_shadowlander
 	
 	trait = sadistic
@@ -3915,7 +3915,7 @@ logur = {
 	prowess = 25
 	health = 10
 	
-	religion = faith_badlander
+	rite = badlander_rite
 	culture = cul_highlander
 	
 	trait = wrathful
@@ -3955,7 +3955,7 @@ madding_hand = {
 	prowess = 24
 	health = 10
 	
-	religion = faith_frenzy
+	rite = frenzy_rite
 	culture = cul_highlander
 	
 	trait = cynical
@@ -3993,7 +3993,7 @@ midra = {
 	prowess = 12
 	health = 10
 	
-	religion = faith_frenzy
+	rite = frenzy_rite
 	culture = cul_hornsent
 	
 	trait = patient
@@ -4036,7 +4036,7 @@ moonrithyll = {
 	prowess = 35
 	health = 10
 	
-	religion = faith_messmer
+	rite = messmer_rite
 	culture = cul_caria
 	
 	trait = brave
@@ -4081,7 +4081,7 @@ moore = {
 	prowess = 23
 	health = 10
 	
-	religion = faith_rot
+	rite = rot_rite
 	culture = cul_shadowlander
 	
 	trait = compassionate
@@ -4102,7 +4102,7 @@ moore = {
 		}
 	}
 	8299.7.12 = {
-		religion = faith_kind
+		rite = kind_rite
 	}
 }
 
@@ -4121,7 +4121,7 @@ nanaya = {
 	prowess = 8
 	health = 10
 	
-	religion = faith_frenzy
+	rite = frenzy_rite
 	culture = cul_hornsent
 	
 	trait = deceitful
@@ -4163,7 +4163,7 @@ rakshasa = {
 	prowess = 36
 	health = 10
 	
-	religion = faith_reedlander
+	rite = reedlander_rite
 	culture = cul_highlander
 	
 	trait = wrathful
@@ -4204,7 +4204,7 @@ red_bear = {
 	prowess = 33
 	health = 10
 	
-	religion = faith_badlander
+	rite = badlander_rite
 	culture = cul_highlander
 	
 	trait = content
@@ -4241,7 +4241,7 @@ freyja = {
 	prowess = 32
 	health = 10
 	
-	religion = faith_kind
+	rite = kind_rite
 	culture = cul_caelid
 	
 	trait = brave
@@ -4284,7 +4284,7 @@ romina = {
 	prowess = 27
 	health = 10
 	
-	religion = faith_rot_romina
+	rite = rot_rite_romina
 	culture = cul_shadowlander
 	
 	trait = compassionate
@@ -4331,7 +4331,7 @@ nataan = {
 	prowess = 29
 	health = 10
 	
-	religion = faith_formless
+	rite = formless_rite
 	culture = cul_shadowlander
 	
 	trait = stubborn
@@ -4372,7 +4372,7 @@ ansbach = {
 	prowess = 26
 	health = 10
 	
-	religion = faith_formless
+	rite = formless_rite
 	culture = cul_altus
 	
 	trait = just

@@ -5,7 +5,7 @@
 	sexuality = asexual
 	dynasty = dynn_test
 
-	religion = faith_golden	
+	rite = golden_rite
 	culture = cul_beast
 
 	disallow_random_traits = no
@@ -26,7 +26,7 @@ test2 = {
 	sexuality = asexual
 	dynasty = dynn_test
 
-	religion = faith_golden	
+	rite = golden_rite
 	culture = cul_beast
 
 	disallow_random_traits = no
@@ -47,7 +47,7 @@ test3 = {
 	sexuality = asexual
 	dynasty = dynn_test
 
-	religion = faith_golden	
+	rite = golden_rite
 	culture = cul_beast
 
 	disallow_random_traits = no
