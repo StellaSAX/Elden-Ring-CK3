@@ -1,6 +1,6 @@
 ﻿badlander_rite = {
-	name = faith_badlander
-	desc = faith_badlander_desc
+	name = badlander_rite
+	desc = badlander_rite_desc
 	faith = faith_badlander
 	color = { 0.9 0.1 0.1 }
 	icon = faith_badlands
@@ -19,8 +19,8 @@
 }
 
 academy_rite = {
-	name = faith_academy
-	desc = faith_academy_desc
+	name = academy_rite
+	desc = academy_rite_desc
 	faith = faith_academy
 	
 	color = { 0.1 0.1 0.5 }
@@ -36,8 +36,8 @@ academy_rite = {
 
 }
 gravity_rite = {
-	name = faith_gravity
-	desc = faith_gravity_desc
+	name = gravity_rite
+	desc = gravity_rite_desc
 	faith = faith_academy
 	
 	color = { 0.7 0.2 0.7 }
@@ -53,8 +53,8 @@ gravity_rite = {
 
 }
 primeval_rite = {
-	name = faith_primeval
-	desc = faith_primeval_desc
+	name = primeval_rite
+	desc = primeval_rite_desc
 	faith = faith_primeval
 	
 	color = { 0.0 0.0 0.9 }
@@ -87,8 +87,9 @@ night_rite = {
 	tenets = {
 		tenet_astrology
 		#tenet_glintstone
+		#make a tenet related to night sorceries
 		tenet_sacred_shadows
-		tenet_destroy_golden_order
+		#tenet_destroy_golden_order
     }
 }
 crucible_rite = {

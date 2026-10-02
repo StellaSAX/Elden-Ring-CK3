@@ -1,9 +1,9 @@
 ﻿l_english:
- cosmos_religion:0 "Cosmic Faith"
+ cosmos_religion:0 "Cosmic"
  cosmos_religion_adj:0 "Cosmic"
- cosmos_religion_adherent:0 "PLACEHOLDER"
- cosmos_religion_adherent_plural:0 "PLACEHOLDER" 
- cosmos_religion_desc:0 "Placeholder"
+ cosmos_religion_adherent:0 "cosmic follower"
+ cosmos_religion_adherent_plural:0 "cosmic followers" 
+ cosmos_religion_desc:0 "There are many origins for sorcery, we have decided to look up, at the stars, for they hold many answers."
  
  faith_academy:0 "Academia of Raya Lucaria"
  faith_academy_adj:0 "Lucarian Academia"
@@ -11,20 +11,30 @@
  faith_academy_adherent_plural:0 "Lucarian Scholars"
  faith_academy_desc:0 "The Academy of Raya Lucaria institutionalized sorcery and primarially pursues the study of glintstone, founded by the primeval sorcerers Azur and Lusat. Later, Queen Rennala would become the Academy's master and would heavily limit the study of the primeval current and exiled Azur and Lusat."
 
- faith_primeval_current:0 "Primeval Current"
+ faith_primeval:0 "Primeval Current"
  faith_primeval_adj:0 "Primeval"
- faith_primeval_adherent:0 "Primeval Sorcerer"
- faith_primeval_adherent_plural:0 "Primeval Sorcerers"
- faith_primeval_desc:0 "Placeholder"
-
- faith_gravity:0 "Gravity Sorcery"
- faith_gravity_adj:0 "Gravity"
- faith_gravity_adherent:0 "PLACEHOLDER"
- faith_gravity_adherent_plural:0 "PLACEHOLDER"
- faith_gravity_desc:0 "Placeholder."
+ faith_primeval_adherent:0 "Sorcerer"
+ faith_primeval_adherent_plural:0 "Sorcerers"
+ faith_primeval_desc:0 "The oldest path to glintstone sorcery, and the one offers the most power as long as you are willing to sacrifice others and yourself to understand it."
 
  faith_night:0 "Night Sorcery"
  faith_night_adj:0 "Night"
- faith_night_adherent:0 "Night Sorcerer"
- faith_night_adherent_plural:0 "Night Sorcerers"
- faith_night_desc:0 "Placeholder"
+ faith_night_adherent:0 "Sorcerer"
+ faith_night_adherent_plural:0 "Sorcerers"
+ faith_night_desc:0 "A dark path based on the teaching of the Eternal Cities. These sorceries were perfected by the people of Sellia the town of sorcery. Those that descend from the Nox."
+ 
+ academy_rite:0 "Glintstone Sorcery"
+ academy_rite_adj:0 "Glintstone"
+ academy_rite_desc:0 "The main teachings of the Academy, based on the undertanding of Glinstone, the amber of the cosmos that contains the vitality of the stars."
+ 
+ academy_rite:0 "Gravity Sorcery"
+ gravity_rite_adj:0 "Gravity"
+ gravity_rite_desc:0 "A less practiced form of sorcery, mainly teached by the Alabaster and Onyx Lords. It grants the user the power to gravity, and a true master could even use it to challenge the stars."
+ 
+ primeval_rite:0 "Primeval Sorcery"
+ primeval_rite_adj:0 "Primeval"
+ primeval_rite_desc:0 "The Origins of glintstone sorcery, these teaching are based on observing The Primeval Current. To those who cleave to its teachings, the act of collecting sorcerers to fashion them into the seeds of stars is but another path of scientific inquiry."
+ 
+ primeval_rite:0 "Night Sorcery"
+ primeval_rite_adj:0 "Night"
+ primeval_rite_desc:0 "These dark teachings are used by the people of Sellia, many of them assassins. They are based on some techniques used by the Nox."

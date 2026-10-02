@@ -1,13 +1,17 @@
 ﻿l_english:
 
- badlands_religion:0 "Badlands"
+ badlands_religion:0 "Badlands Traditions"
  badlands_religion_adj:0 "Badlander"
  badlands_religion_adherent:0 "Badlander"
  badlands_religion_adherent_plural:0 "Badlander"
- badlands_religion_desc:0 "We are bad in this land."
+ badlands_religion_desc:0 "Traditions brought to the lands between by the Tarnished that returned with Horah Loux from the Badlands."
  
- faith_badlander:0 "Badlands"
+ faith_badlander:0 "Badlands Traditions"
  faith_badlander_adj:0 "Badlander"
  faith_badlander_adherent:0 "Badlander"
  faith_badlander_adherent_plural:0 "Badlander"
- faith_badlander_desc:0 "We are bad in this land."
+ faith_badlander_desc:0 "Traditions brought to the lands between by the Tarnished that returned with Horah Loux from the Badlands."
+ 
+ badlander_rite:0 "Badlander"
+ badlander_rite_adj:0 "Badlands Traditions"
+ badlander_rite_desc:0 "Our beliefs come from beyond the Lands Between, from an unforgiving land where the strong rule.\n\nWe really apreciate the flavor of Exalted Flesh."
