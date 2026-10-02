@@ -31,7 +31,7 @@ academy_rite = {
 		tenet_astrology
 		tenet_glintstone
 		tenet_pursuit_of_knowledge
-		tenet_adaptive
+		#tenet_adaptive
     }
 
 }
@@ -47,7 +47,7 @@ gravity_rite = {
 	tenets = {
 		tenet_golden_order_syncretism
 		tenet_glintstone
-		tenet_unrelenting_faith
+		#tenet_unrelenting_faith
 		tenet_ritual_celebrations
     }
 
@@ -69,7 +69,7 @@ primeval_rite = {
 		tenet_astrology
 		tenet_glintstone
 		tenet_pursuit_of_knowledge
-		tenet_sacrificial_ceremonies
+		#tenet_sacrificial_ceremonies
     }
 }
 night_rite = {
@@ -86,7 +86,7 @@ night_rite = {
 	}
 	tenets = {
 		tenet_astrology
-		tenet_glintstone
+		#tenet_glintstone
 		tenet_sacred_shadows
 		tenet_destroy_golden_order
     }
@@ -104,7 +104,7 @@ crucible_rite = {
 		unreformed_faith_doctrine
 	}
 	tenets = {
-		tenet_adaptive
+		#tenet_adaptive
 		tenet_ancestor_worship
 		tenet_sanctity_of_nature
 		tenet_primordial_curse
@@ -123,7 +123,7 @@ spiral_rite = {
 	tenets = {
 		tenet_sacrificial_ceremonies
 		tenet_communal_identity
-		tenet_mystical_birthright
+		#tenet_mystical_birthright
 		tenet_great_spiral
     }
 	
@@ -148,7 +148,7 @@ death_prince_rite = {
 
 	tenets = {
 		tenet_sacred_shadows
-		tenet_unrelenting_faith
+		#tenet_unrelenting_faith
 		tenet_fp3_fedayeen
 		tenet_live_in_death
     }
@@ -168,7 +168,7 @@ old_death_rite = {
 		unreformed_faith_doctrine
 	}
 	tenets = {
-		tenet_astrology
+		#tenet_astrology
 		tenet_ancestor_worship
 		tenet_fp3_fedayeen
 		tenet_sacred_shadows
@@ -186,7 +186,7 @@ despair_rite = {
 	reformed_icon = faith_defiled
 
 	tenets = {
-		tenet_adorcism
+		#tenet_adorcism
 		tenet_fp3_fedayeen
 		tenet_primordial_curse 
 		tenet_exaltation_of_pain
@@ -206,7 +206,7 @@ godslayer_rite = {
 	reformed_icon = faith_godslayer
 
 	tenets = {
-		tenet_legalism
+		#tenet_legalism
 		tenet_unrelenting_faith
 		tenet_communal_identity
 		tenet_religious_legal_pronouncements
@@ -227,7 +227,7 @@ ancient_dragon_rite = {
 		special_doctrine_is_dragon_faith
 	}
 	tenets = {
-		tenet_communal_identity
+		#tenet_communal_identity
 		tenet_pursuit_of_power
 		tenet_ancestor_worship
 		tenet_ancient_dragon
@@ -249,7 +249,7 @@ bayle_dragon_rite = {
 	tenets = {
 		tenet_mountain_worship
 		tenet_pursuit_of_power
-		tenet_ancestor_worship
+		#tenet_ancestor_worship
 		tenet_bayle_dragon
     }
 	
@@ -270,9 +270,7 @@ giant_rite = {
 	
 	tenets = {
 		tenet_giants_flame
-	
-		#replace this ones
-		tenet_astrology
+		#tenet_astrology
 		tenet_ancestor_worship
 		tenet_sanctity_of_nature
     }
@@ -289,9 +287,6 @@ fire_monk_rite = {
 
 	tenets = {
 		tenet_giants_flame
-	
-		#replace this ones
-		tenet_astrology
 		tenet_ancestor_worship
 		tenet_sanctity_of_nature
     }
@@ -312,7 +307,6 @@ formless_rite = {
 	}
 	
 	tenets = {
-
 		#replace this ones
 		tenet_astrology
 		tenet_ancestor_worship
@@ -335,7 +329,7 @@ frenzy_rite = {
 	tenets = {
 		tenet_extinction_of_dharma
 		tenet_sacred_destruction
-		tenet_sanctity_of_nature
+		#tenet_sanctity_of_nature
 		tenet_frenzied_flame
     }
 
@@ -352,7 +346,7 @@ moons_rite = {
 	tenets = {
 		tenet_astrology
 		tenet_glintstone	
-		tenet_pursuit_of_knowledge
+		#tenet_pursuit_of_knowledge
 		tenet_golden_order_syncretism
     }
 	
@@ -366,7 +360,7 @@ stars_rite = {
 	reformed_icon = faith_darkmoon
 	
 	tenets = {
-		tenet_astrology
+		#tenet_astrology
 		tenet_glintstone
 		tenet_sacred_shadows
 		tenet_destroy_golden_order
@@ -400,7 +394,7 @@ golden_rite = {
 	}
 	tenets = {
 		tenet_armed_pilgrimages
-		tenet_literalism
+		#tenet_literalism
 		tenet_religious_legal_pronouncements
 		tenet_golden_order
     }
@@ -418,7 +412,7 @@ fundamentalism_rite = {
 
 	tenets = {
 		tenet_armed_pilgrimages
-		tenet_unrelenting_faith
+		#tenet_unrelenting_faith
 		tenet_communion
 		tenet_golden_order
     }
@@ -458,7 +452,7 @@ unalloyed_rite = {
 	tenets = {
 		tenet_rite
 		tenet_pacifism
-		tenet_pastoral_isolation
+		#tenet_pastoral_isolation
 		tenet_unalloyed_order
     }
 	
@@ -519,7 +513,7 @@ perfect_rite = {
 	
 	tenets = {
 		tenet_literalism
-		tenet_legalism
+		#tenet_legalism
 		tenet_pursuit_of_knowledge
 		tenet_golden_order
     }
@@ -548,7 +542,7 @@ messmer_rite = {
 
 	tenets = {
 		tenet_warmonger
-		tenet_unrelenting_faith
+		#tenet_unrelenting_faith
 		tenet_sacred_destruction		
 		tenet_golden_exile
     }
@@ -611,7 +605,6 @@ kind_rite = {
 	reformed_icon = faith_kind
 	
 	tenets = {
-		tenet_rite
 		tenet_unalloyed_order
 		tenet_pursuit_of_power
 		tenet_struggle_submission
@@ -647,7 +640,7 @@ st_trina_rite = {
 
 	tenets = {
 		tenet_no_mind
-		tenet_esotericism
+		#tenet_esotericism
 		tenet_st_trinas_blessing
 		tenet_unalloyed_order
     }
@@ -686,7 +679,7 @@ dragon_cult_rite = {
 	reformed_icon = faith_dragon_cult
 	
 	tenets = {
-		tenet_adaptive
+		#tenet_adaptive
 		tenet_unrelenting_faith
 		tenet_golden_order
 		tenet_dragon_cult
@@ -744,12 +737,12 @@ reedlander_rite = {
 
 	tenets = {
 		tenet_communal_identity
-		tenet_ancestor_worship
+		#tenet_ancestor_worship
 		tenet_cranial_trophies
 		tenet_consolamentum
     }
 }
-
+#missing tenets
 rot_rite = {
 	name = faith_rot
 	desc = faith_rot_desc
@@ -764,12 +757,13 @@ rot_rite = {
 
 	tenets = {
 		tenet_rot
-		tenet_astrology
+		#tenet_astrology
 		tenet_ancestor_worship
 		tenet_sanctity_of_nature
     }
 
 }
+#missing tenets
 rot_romina_rite = {
 	name = faith_rot_romina
 	desc = faith_rot_romina_desc
@@ -780,7 +774,7 @@ rot_romina_rite = {
 
 	tenets = {
 		tenet_rot
-		tenet_astrology
+		#tenet_astrology
 		tenet_ancestor_worship
 		tenet_sanctity_of_nature
     }
@@ -803,7 +797,7 @@ god_snake_rite = {
 		tenet_gruesome_festivals
 		tenet_serpents #this is human sacrifice+
 		tenet_fp3_fedayeen
-		tenet_hedonistic
+		#tenet_hedonistic
     }
 }
 
@@ -820,7 +814,7 @@ shaman_rite = {
 	}
 
 	tenets = {
-		tenet_astrology
+		#tenet_astrology
 		tenet_ancestor_worship
 		tenet_sanctity_of_nature
 		tenet_pastoral_isolation
@@ -841,7 +835,7 @@ ancestor_spirit_rite = {
 	tenets = {
 		tenet_primordial_curse
 		tenet_pastoral_isolation
-		tenet_ancestor_worship
+		#tenet_ancestor_worship
 		tenet_sanctity_of_nature
     }
 
