@@ -1,4 +1,4 @@
-﻿name_list_leyndell = {
+﻿name_list_astrologer = {
 
 	dynasty_names = {
 		"Lanedall" "Bitterspring" "Goldleaf" "Ashlance" "Turimbar" "Meldas" "Peridor" "Lanrander" "Nalipel" "Goldstrake" "Goldcrest" "Graceward" "Leyndor" "Auric" "Sanctis" "Highgold" "Sunward" "Luminar" "Evergold" "Dawncrest" "Veneris" "Crownmere" "Solgard"

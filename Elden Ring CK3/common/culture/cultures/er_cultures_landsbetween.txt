@@ -158,7 +158,7 @@ cul_weeping_peninsula = {
 		tradition_forbearing
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_limgrave
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -234,7 +234,7 @@ cul_caria = {
 		tradition_sorcerous_metallurgy
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_liurnia
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -273,7 +273,7 @@ cul_caelid = {
 		#tradition_ce1_ritual_washing #make something for them later, like "purified by fire"
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_caelid
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -310,7 +310,7 @@ cul_dragonbarrow = {
 		#tradition_xenophilic
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_caelid
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -346,7 +346,7 @@ cul_sellia = {
 		tradition_sorcerous_metallurgy
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_liurnia
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -457,7 +457,7 @@ cul_gelmir = {
 		#tradition_by_the_sword
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_gelmir
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -496,7 +496,7 @@ cul_northerner = {
 		tradition_sacred_mountains
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_northerner
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -531,7 +531,7 @@ cul_low_northerner = {
 		tradition_xenophilic
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_northerner
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -563,7 +563,7 @@ cul_giant = {
 		tradition_highland_warriors
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_giant
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -594,7 +594,7 @@ cul_zamor = {
 		tradition_forbearing
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_zamor
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -629,7 +629,7 @@ cul_haligtree = {
 		tradition_astute_diplomats
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_leyndell
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -665,7 +665,7 @@ cul_nox = {
 		tradition_nox
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_nightfolk
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -691,7 +691,7 @@ cul_nightfolk = {
 		tradition_artisans
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_nightfolk
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -719,7 +719,7 @@ cul_astrologer = {
 		tradition_equal_inheritance
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_astrologer
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -749,7 +749,7 @@ cul_ancestral_follower = {
 		tradition_ancestral_follower
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_ancestral
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -775,7 +775,7 @@ cul_albinauric = {
 		tradition_artisans
 	}
 
-	name_list = name_list_frankish
+	name_list = name_list_albinauric
 
 	coa_gfx = { german_group_coa_gfx }
 	building_gfx = { western_building_gfx }

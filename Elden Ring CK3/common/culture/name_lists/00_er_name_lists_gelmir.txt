@@ -1,0 +1,47 @@
+﻿name_list_gelmir = {
+
+	dynasty_names = {
+		"Volcaire" "Veyr" "Embermere" "Cinderhall" "Pyre" "Vulkane" "Scald" "Emberlain" "Blazeward" "Charro" "Soldar"
+	}
+
+	male_names = {
+		10 = { # common
+			Aldric Albrecht Arngrim
+			Berengar
+			Draven
+			Edric Ervayn
+			Ghermund Garmund Garrick Gerhardt Gervain
+			Halvard
+			Inqal
+			Kaelmar
+			Mordaunt Mortain
+			Roderan Rhogar Reynard Rhaudric
+			Severan
+			Vargram Veymar Volgar Varrick
+		}
+	}
+
+	female_names = {
+		10 = { # common
+			Adeliza Alvara Arvella
+			Delphine
+			Evelyne Elspeth
+			Gwynevere
+			Lysandra
+			Maudrine
+			Rya Ravelia Ravena Rhessia
+			Serilda Sybilla
+			Vysera Veyra Vaelene
+		}
+	}
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+}

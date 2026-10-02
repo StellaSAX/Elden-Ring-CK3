@@ -22,55 +22,55 @@
 
 	male_names = {
 		10 = { # common
-			Aethelred Aethelstan Aethelwulf Aelfgar Aelfheah Aelfweard Aimery Albrec Aelfwic Aldwyn Anselm Aubrey Aldric Aelfric Asric
-			Baldwin Bartred Beorhtric Beornwulf Berthold Bertrand Bernhard
-			Caelwyn Ceolwulf Cuthbert Cuthred Cuthwine Cynewulf
-			Diallos Drokos Drystan Daniel
-			Eadred Ecgfrith Edgar Edwin Egbert Elred Eustace Edmund Edric
+			Aelred Aethelstan Aimery Albrec Aldwyn Anselm Aubrey Aldric Aelfric Asric
+			Baldwin Bartred Beothric Beorn Berthold Bertrand Bernahl Beren
+			Caelwyn Ceolwulf Cuthbert Cuthred Cuthwild
+			Diallos Drokos Drystan Daniel Darran
+			Eadred Elfrith Edgar Edwin Egbert Elred Eustace Edmund Edric Everard
 			Frewyn Frithwald Fulk
-			Garwic Geoffrey Gerard Gilbert
-			Halric Hardwin Harold Hereric Hugues Hereward
+			Garwic Geoffrey Gerard Guilbert Gawain Garran Garth Gregory
+			Halric Harwin Harrold Hereric Hugues
 			Iorwerth
-			Justen
+			Justen Jonaille
 			Kenelm Kenneth
 			Lambert Leofric Leofwine Lothar
-			Maeric Maurice Merryck Miles Morgar
+			Maeric Maurice Merryck Milas Morgar Martin
 			Nialden Norwic
-			Osric Oswald Oswine Owain
-			Patrik Percival
+			Oswald Oswine Owain Oseric Osgar
+			Patrik Percival Petrus
 			Quentyn
-			Raedwald Ralph Reginald Renault Ricmund Robart Rodric Rogier Roland Roderick
-			Selwyn Sigeberht Sigeward Stenward
-			Theobald Theodric Thops Thorwald Tasawi
+			Raedwald Ralph Reginald Renault Ricmund Robar Rodric Rogier Roland Roderick Roderan
+			Selwyn Siegwald Stannis Simonis
+			Theobald Theodric Thops Thorwald Tasawi Tom
 			Uthred Ulfar
-			Vargen Varré Vortimer
-			Waldric Warin Wigberht Wigstan Wulfgar Wulfhere Wulfnoth Wynstan Wulfstan
+			Vargen Varré Vortimer Vardis
+			Waldric Warin Wilbert Wigstan Wulfgar Wyldir Wymond
 		}
 	}
 
 	female_names = {
 		10 = { # common
-			Adela Adeline Aelinor Aelfwynn Aelfflaed Aelfgifu Aelfwaru Aelswith Aethelflaed Anwen Aveline
+			Adela Adeline Aelinor Aelwyn Anwen Aveline Agnes Alice
 			Beatrice Brionwyn
-			Carwyn Cecily Celwen Clarissa Constance Cynethryth
-			Eadhild Edith Elaine Eleanor Elsbeth Emeline Hilde Erika
-			Florence Freyna
-			Gisela Gwendolyn
+			Carwyn Cecily Celwen Clarissa Constania Cynethryth
+			Edith Elaine Eleanor Elsbeth Emeline Erika Ethel Ellyn Elin Emma
+			Florena Freyna Friella
+			Gisela Gwendolyn Grimory
 			Hawise Hilda Hildegyth Hyetta
-			Idony Imogen Isabel Isolde
+			Idony Imogen Isabel Isolde Irina Iras
 			Joscelin Juliana
-			Karin
-			Leofgyth Liadan Loretta
+			Karin Kara
+			Leagyth Liadan Lina
 			Mabel Maerwyn Margery Mariel Mathilda Melisande Mildred Miriel Morgayne
-			Nimue
+			Nimue Neyna Nella
 			Oriel
-			Petronel
-			Roderika Rosamund
+			Petras
+			Roderika Rosamund Rosa Rowena
 			Saerith Sibyl Sigrith Sigrun
-			Thora
+			Thora Tessa
 			Veralain
-			Wulfwyn Wynflaed
-			Ysolda
+			Wynne
+			Ysolde
 		}
 	}
 

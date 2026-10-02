@@ -1,0 +1,42 @@
+﻿name_list_caelid = {
+
+	dynasty_names = {
+		"Ashenfield" "Dragonmaw" "Scarlet" "Grimward" "Rothearth" "Ironmane" "Caelmont" "Vermillion"
+	}
+
+	male_names = {
+		10 = { # common
+			Astor
+			Caelric Corren
+			Dargan Draven Dregan
+			Godren Garran
+			Haldran
+			Morgath Malrec Mavrek
+			Odran Odrick
+			Roderan Roderick Rhaedor Ragnor
+			Varrek Varron
+		}
+	}
+
+	female_names = {
+		10 = { # common
+			Aderyn Aelwyn
+			Caelia Caelwyn
+			Elara Edrissa
+			Maerwen Moryn Melvara Meralia Morwenna
+			Rhosyn Rhaena Roswen Radria
+			Seralyne Sylvara
+			Valenna Varelia Vaelene
+		}
+	}
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 15
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 15
+	mother_name_chance = 5
+}

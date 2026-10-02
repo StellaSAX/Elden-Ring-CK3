@@ -1,7 +1,7 @@
 name_list_ancient_dragon = {
 
 	dynasty_names = {
-		"Red" "Blue" "Black" "White" "Gray" "Green" "Cyan" "Purple" "Orange" "Crimson" "Yellow" "Brown" "Olive" "Maroon" "Violet" "Charcoal" "Magenta" "Bronze" "Silver" "Gold" "Platinum" "Teal" "Coral" "Mauve" #this is ass
+		"Squamatempestas" "Lapidiala" "Caelifragium" "Azureala" "Nubiscindus" "Soliquama" "Alatissima" "Auriungulus" "Corsaxeum"
 	}
 
 	male_names = {
