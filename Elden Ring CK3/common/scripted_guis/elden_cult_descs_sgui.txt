@@ -31,6 +31,7 @@
 			culture:cul_nox = { custom_tooltip = cul_nox_desc }
 			culture:cul_shaman = { custom_tooltip = cul_shaman_desc }
 			culture:cul_leyndell = { custom_tooltip = cul_leyndell_desc }
+			culture:cul_haligtree = { custom_tooltip = cul_haligtree_desc }
 			culture:cul_northerner = { custom_tooltip = cul_northerner_desc }
 			culture:cul_low_northerner = { custom_tooltip = cul_low_northerner_desc }
 			culture:cul_liurnia = { custom_tooltip = cul_liurnia_desc }
