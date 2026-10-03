@@ -77,3 +77,9 @@
  faith_formless_adherent:0 "Mother's Child"
  faith_formless_adherent_plural:0 "Mother's Children"
  faith_formless_desc:0 "The Formless Mother takes the curs, the downtrodden, the persecuted of this world under her wing. All she aks in exchange is blood and wounds, but what little price for acceptance!"
+ 
+ formless_rite:0 "Formless Mother"
+ formless_rite_adj:0 "Formless"
+ formless_rite_adherent:0 "Mother's Child"
+ formless_rite_adherent_plural:0 "Mother's Children"
+ formless_rite_desc:0 "The Formless Mother takes the curs, the downtrodden, the persecuted of this world under her wing. All she aks in exchange is blood and wounds, but what little price for acceptance!"

@@ -4241,7 +4241,7 @@ freyja = {
 	prowess = 32
 	health = 10
 	
-	rite = kind_rite
+	rite = compassion_rite
 	culture = cul_caelid
 	
 	trait = brave
@@ -4284,7 +4284,7 @@ romina = {
 	prowess = 27
 	health = 10
 	
-	rite = rot_rite_romina
+	rite = romina_rite
 	culture = cul_shadowlander
 	
 	trait = compassionate

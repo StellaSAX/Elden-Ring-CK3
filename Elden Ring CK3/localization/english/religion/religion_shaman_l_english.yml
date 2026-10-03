@@ -76,3 +76,8 @@
  faith_shaman_adherent_plural:0 "Shamans"
  faith_shaman_desc:0 "This branch of shamanism was born in isolation within the lands now know as the Realm of Shadows. It is slightly influenced by the effects of the Crucible."
  
+ shaman_rite:0 "Shamanism"
+ shaman_rite_adj:0 "Shamanic"
+ shaman_rite_adherent:0 "Shaman"
+ shaman_rite_adherent_plural:0 "Shamans"
+ shaman_rite_desc:0 "This branch of shamanism was born in isolation within the lands now know as the Realm of Shadows. It is slightly influenced by the effects of the Crucible."

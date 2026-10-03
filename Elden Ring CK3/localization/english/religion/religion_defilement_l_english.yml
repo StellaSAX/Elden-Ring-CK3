@@ -50,3 +50,9 @@
  seedbed_cult_adherent:0 "Seedbed"
  seedbed_cult_adherent_plural:0 "Seedbeds"
  seedbed_cult_desc:0 "Adherents of the Dung Eater's loathsome guidance, the Seedbed Cult kill and defile corpses so that the Omen curse might grow within them, spreading without end to every child born hereafter.\n\nThey recognise no brotherhood among themselves, each defiler walking his own cursed path in silence, yet all share the conviction that a world uniformly defiled is a world, at last, made equal."
+ 
+ despair_rite:0 "Cult of Defilement"
+ despair_rite_adj:0 "Defilement Cult"
+ despair_rite_adherent:0 "Defiler"
+ despair_rite_adherent_plural:0 "Defilers"
+ despair_rite_desc:0 "Adherents of the Dung Eater's loathsome guidance, the Seedbed Cult kill and defile corpses so that the Omen curse might grow within them, spreading without end to every child born hereafter.\n\nThey recognise no brotherhood among themselves, each defiler walking his own cursed path in silence, yet all share the conviction that a world uniformly defiled is a world, at last, made equal."

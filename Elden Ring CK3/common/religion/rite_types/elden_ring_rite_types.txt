@@ -2,22 +2,20 @@
 	name = badlander_rite
 	desc = badlander_rite_desc
 	faith = faith_badlander
+	
 	color = { 0.9 0.1 0.1 }
 	icon = faith_badlands
 	
 	doctrines = {
 		unreformed_faith_doctrine
 	}
-
 	tenets = {
         tenet_astrology
         tenet_ancestor_worship
 		tenet_sanctity_of_nature
 		#tenet_children_of_the_badlands #what is this? i can't find it anywhere else, before the update it was a doctrine
     }
-	
 }
-
 academy_rite = {
 	name = academy_rite
 	desc = academy_rite_desc
@@ -33,7 +31,6 @@ academy_rite = {
 		tenet_pursuit_of_knowledge
 		#tenet_adaptive
     }
-
 }
 gravity_rite = {
 	name = gravity_rite
@@ -50,7 +47,6 @@ gravity_rite = {
 		#tenet_unrelenting_faith
 		tenet_ritual_celebrations
     }
-
 }
 primeval_rite = {
 	name = primeval_rite
@@ -64,7 +60,6 @@ primeval_rite = {
 	doctrines = {
 		unreformed_faith_doctrine
 	}
-	
 	tenets = {
 		tenet_astrology
 		tenet_glintstone
@@ -73,8 +68,8 @@ primeval_rite = {
     }
 }
 night_rite = {
-	name = faith_night
-	desc = faith_night_desc
+	name = night_rite
+	desc = night_rite_desc
 	faith = faith_night
 	
 	color = { 0.2 0.2 0.2 }
@@ -93,8 +88,8 @@ night_rite = {
     }
 }
 crucible_rite = {
-	name = faith_crucible
-	desc = faith_crucible_desc
+	name = crucible_rite
+	desc = crucible_rite_desc
 	faith = faith_crucible
 	
 	color = { 0.6 0.8 0.4 }
@@ -110,11 +105,10 @@ crucible_rite = {
 		tenet_sanctity_of_nature
 		tenet_primordial_curse
     }
-
 }
 spiral_rite = {
-	name = faith_spiral
-	desc = faith_spiral_desc
+	name = spiral_rite
+	desc = spiral_rite_desc
 	faith = faith_spiral
 	
 	color = { 0.7 0.7 0.5 }
@@ -127,7 +121,6 @@ spiral_rite = {
 		#tenet_mystical_birthright
 		tenet_great_spiral
     }
-	
 	localization = {
 		ReligiousSymbol = faith_spiral_religious_symbol
 		
@@ -138,12 +131,12 @@ spiral_rite = {
 		TricksterGodHerHim = CHARACTER_HERHIM_HER
 	}
 }
-
 death_prince_rite = {
-	name = faith_death_prince
-	desc = faith_death_prince_desc
+	name = death_prince_rite
+	desc = death_prince_rite_desc
 	faith = faith_death_prince
 	
+	color = { 0.1 0.1 0.1 }
 	icon = faith_death_prince
 	reformed_icon = faith_death_prince
 
@@ -153,18 +146,16 @@ death_prince_rite = {
 		tenet_fp3_fedayeen
 		tenet_live_in_death
     }
-
-	color = { 0.1 0.1 0.1 }
-
 }
 old_death_rite = {
-	name = faith_old_death
-	desc = faith_old_death_desc
+	name = old_death_rite
+	desc = old_death_rite_desc
 	faith = faith_old_death
 	
 	color = { 0.1 0.1 0.1 }
 	icon = faith_deathbird
 	reformed_icon = faith_deathbird
+	
 	doctrines = {
 		unreformed_faith_doctrine
 	}
@@ -174,12 +165,10 @@ old_death_rite = {
 		tenet_fp3_fedayeen
 		tenet_sacred_shadows
     }
-
 }
-
 despair_rite = {
-	name = faith_despair
-	desc = faith_despair_desc
+	name = despair_rite
+	desc = despair_rite_desc
 	faith = faith_despair
 	
 	color = { 0.9 0.7 0.7 }
@@ -192,12 +181,10 @@ despair_rite = {
 		tenet_primordial_curse 
 		tenet_exaltation_of_pain
     }
-
 }
-	
 godslayer_rite = {
-	name = faith_godslayer
-	desc = faith_godslayer_desc
+	name = godslayer_rite
+	desc = godslayer_rite_desc
 	faith = faith_godslayer
 	
 	color = { 0.1 0.1 0.1 }
@@ -212,17 +199,16 @@ godslayer_rite = {
 		tenet_communal_identity
 		tenet_religious_legal_pronouncements
     }
-	
 }
-
 ancient_dragon_rite = {
-	name = faith_ancient_dragon
-	desc = faith_ancient_dragon_desc
+	name = ancient_dragon_rite
+	desc = ancient_dragon_rite_desc
 	faith = faith_ancient_dragon	
 	
 	color = { 0.7 0.7 0.7 }
 	icon = faith_dragon
 	reformed_icon = faith_dragon
+	
 	doctrines = {
 		unreformed_faith_doctrine
 		special_doctrine_is_dragon_faith
@@ -233,55 +219,50 @@ ancient_dragon_rite = {
 		tenet_ancestor_worship
 		tenet_ancient_dragon
     }
-
-
 }
-bayle_dragon_rite = {
-	name = faith_bayle_dragon
-	desc = faith_bayle_dragon_desc
+bayle_rite = {
+	name = bayle_rite
+	desc = bayle_rite_desc
 	faith = faith_bayle_dragon
+	
 	color = { 0.9 0.7 0.7 }
 	icon = faith_bayle
 	reformed_icon = faith_bayle
+	
 	doctrines = {
 		unreformed_faith_doctrine
 	}
-	
 	tenets = {
 		tenet_mountain_worship
 		tenet_pursuit_of_power
 		#tenet_ancestor_worship
 		tenet_bayle_dragon
     }
-	
 }
-
 giant_rite = {
-	name = faith_giant
-	desc = faith_giant_desc
+	name = giant_rite
+	desc = giant_rite_desc
 	faith = faith_giant
+	
 	color = { 0.9 0.2 0.2 }
 	icon = faith_fell_sus
 	reformed_icon = faith_fell_sus
 
 	doctrines = {
 		unreformed_faith_doctrine
-		
 	}
-	
 	tenets = {
 		tenet_giants_flame
 		#tenet_astrology
 		tenet_ancestor_worship
 		tenet_sanctity_of_nature
     }
-
 }
-
 fire_monk_rite = {
-	name = faith_fire_monk
-	desc = faith_fire_monk_desc
+	name = fire_monk_rite
+	desc = fire_monk_rite_desc
 	faith = faith_fire_monk
+	
 	color = { 0.9 0.2 0.2 }
 	icon = faith_fell
 	reformed_icon = faith_fell
@@ -291,35 +272,31 @@ fire_monk_rite = {
 		tenet_ancestor_worship
 		tenet_sanctity_of_nature
     }
-	
 }
-	
 formless_rite = {
-	name = faith_formless
-	desc = faith_formless_desc
+	name = formless_rite
+	desc = formless_rite_desc
 	faith = faith_formless
+	
 	color = { 0.8 0.05 0.05 }
 	icon = faith_formless
 	reformed_icon = faith_formless
 
 	doctrines = {
 		unreformed_faith_doctrine
-		
 	}
-	
 	tenets = {
 		#replace this ones
 		tenet_astrology
 		tenet_ancestor_worship
 		tenet_sanctity_of_nature
     }
-	
 }
-
 frenzy_rite = {
-	name = faith_frenzy
-	desc = faith_frenzy_desc
+	name = frenzy_rite
+	desc = frenzy_rite_desc
 	faith = faith_frenzy
+	
 	color = { 0.9 0.4 0.1 }
 	icon = faith_frenzied_flame
 	reformed_icon = faith_frenzied_flame
@@ -333,13 +310,12 @@ frenzy_rite = {
 		#tenet_sanctity_of_nature
 		tenet_frenzied_flame
     }
-
 }
-
 moons_rite = {
-	name = faith_moons
-	desc = faith_moons_desc
+	name = moons_rite
+	desc = moons_rite_desc
 	faith = faith_moons
+	
 	color = { 0.2 0.2 0.6 }
 	icon = faith_fullmoon
 	reformed_icon = faith_fullmoon
@@ -350,12 +326,12 @@ moons_rite = {
 		#tenet_pursuit_of_knowledge
 		tenet_golden_order_syncretism
     }
-	
 }
-stars_rite = {
-	name = faith_stars
-	desc = faith_stars_desc
+darkmoon_rite = {
+	name = darkmoon_rite
+	desc = darkmoon_rite_desc
 	faith = faith_moons
+	
 	color = { 0.3 0.1 0.9 }
 	icon = faith_darkmoon
 	reformed_icon = faith_darkmoon
@@ -366,7 +342,6 @@ stars_rite = {
 		tenet_sacred_shadows
 		tenet_destroy_golden_order
     }
-	
 	localization = {
 		HighGodName = moondark_high_god_name
 		HighGodName2 = mooncold_high_god_name
@@ -379,11 +354,11 @@ stars_rite = {
 		TricksterGodHerHim = CHARACTER_HERHIM_IT
 	}
 }
-	
 golden_rite = {
-	name = faith_golden
-	desc = faith_golden_desc
+	name = golden_rite
+	desc = golden_rite_desc
 	faith = faith_golden
+	
 	color = { 0.9 0.9 0.1 }
 	#religious_head = k_golden_order
 	graphical_faith = "catholic_gfx"
@@ -399,12 +374,12 @@ golden_rite = {
 		tenet_religious_legal_pronouncements
 		tenet_golden_order
     }
-
 }
-fundamentalism_rite = {
-	name = faith_fundamentalism
-	desc = faith_fundamentalism_desc
+fundamentalist_rite = {
+	name = fundamentalist_rite
+	desc = fundamentalist_rite_desc
 	faith = faith_golden
+	
 	color = { 0.5 0.5 0.05 }
 	#religious_head = k_golden_order
 	graphical_faith = "catholic_gfx"
@@ -417,7 +392,6 @@ fundamentalism_rite = {
 		tenet_communion
 		tenet_golden_order
     }
-	
 	localization = {
 		HighGodName = faith_fundamentalism_high_god_name_2
 		HighGodNamePossessive = faith_fundamentalism_high_god_name_2
@@ -441,9 +415,10 @@ fundamentalism_rite = {
 	}
 }
 unalloyed_rite = {
-	name = faith_unalloyed
-	desc = faith_unalloyed_desc
+	name = unalloyed_rite
+	desc = unalloyed_rite_desc
 	faith = faith_golden
+	
 	color = { 0.99 0.99 0.0 }
 	#religious_head = k_golden_order
 	graphical_faith = "catholic_gfx"
@@ -456,7 +431,6 @@ unalloyed_rite = {
 		#tenet_pastoral_isolation
 		tenet_unalloyed_order
     }
-	
 	doctrines = {
 		doctrine_order_affinity_accepted
 		doctrine_erdtree_affinity_accepted
@@ -479,7 +453,6 @@ unalloyed_rite = {
 		doctrine_sleep_affinity_accepted
 		doctrine_frenzy_affinity_crime
 	}
-
 	localization = {
 		HighGodName = faith_unalloyed_high_god_name_2
 		HighGodName2 = faith_unalloyed_high_god_name_3
@@ -499,13 +472,13 @@ unalloyed_rite = {
 		
 		ReligiousHeadName = faith_unalloyed_religious_head_name
 		ReligiousHeadTitleName = faith_unalloyed_religious_head_name
-		
 	}
 }
-perfect_rite = {
-	name = faith_perfect
-	desc = faith_perfect_desc
+perfect_order_rite = {
+	name = perfect_order_rite
+	desc = perfect_order_rite_desc
 	faith = faith_golden
+	
 	color = { 0.7 0.7 0.05 }
 	#religious_head = k_golden_order
 	graphical_faith = "catholic_gfx"
@@ -518,7 +491,6 @@ perfect_rite = {
 		tenet_pursuit_of_knowledge
 		tenet_golden_order
     }
-	
 	localization = {
 		HighGodName = faith_perfect_high_god_name
 		HighGodNamePossessive = faith_perfect_high_god_name_possessive
@@ -532,9 +504,10 @@ perfect_rite = {
 	}
 }
 messmer_rite = {
-	name = faith_messmer
-	desc = faith_messmer_desc
+	name = messmer_rite
+	desc = messmer_rite_desc
 	faith = faith_golden
+	
 	color = { 0.9 0.5 0.0 }
 	#religious_head = k_golden_order
 	graphical_faith = "catholic_gfx"
@@ -547,7 +520,6 @@ messmer_rite = {
 		tenet_sacred_destruction		
 		tenet_golden_exile
     }
-	
 	doctrines = {
 		doctrine_order_affinity_virtuous
 		doctrine_erdtree_affinity_accepted
@@ -570,8 +542,6 @@ messmer_rite = {
 		doctrine_sleep_affinity_accepted
 		doctrine_frenzy_affinity_crime
 	}
-
-	
 	localization = {
 		WarGodName = faith_messmer_war_god_name
 		WarGodNamePossessive = faith_messmer_war_god_name_possesive
@@ -596,10 +566,11 @@ messmer_rite = {
 		BishopNeuterPlural = faith_messmer_bishop_plural
 	}
 }
-kind_rite = {
-	name = faith_kind
-	desc = faith_kind_desc
+compassion_rite = {
+	name = compassion_rite
+	desc = compassion_rite_desc
 	faith = faith_kind
+	
 	color = { 0.9 0.9 0.5 }
 	graphical_faith = "catholic_gfx"
 	icon = faith_kind
@@ -610,7 +581,6 @@ kind_rite = {
 		tenet_pursuit_of_power
 		tenet_struggle_submission
     }
-	
 	localization = {
 		HighGodName = faith_kind_high_god_name
 		HighGodName2 = faith_kind_high_god_name_2
@@ -631,9 +601,10 @@ kind_rite = {
 	}
 }		
 st_trina_rite = {
-	name = faith_st_trina
-	desc = faith_st_trina_desc
+	name = st_trina_rite
+	desc = st_trina_rite_desc
 	faith = faith_golden
+	
 	color = { 0.7 0.1 0.7 }
 	graphical_faith = "catholic_gfx"
 	icon = faith_st_trina
@@ -648,7 +619,6 @@ st_trina_rite = {
 	doctrines = {
 		doctrine_sleep_affinity_virtuous
 	}
-	
 	localization = {
 		HighGodName = faith_st_trina_high_god_name
 		HighGodNamePossessive = faith_st_trina_high_god_name_possessive
@@ -671,9 +641,10 @@ st_trina_rite = {
 	}	
 }
 dragon_cult_rite = {
-	name = faith_dragon_cult
-	desc = faith_dragon_cult_desc
+	name = dragon_cult_rite
+	desc = dragon_cult_rite_desc
 	faith = faith_golden
+	
 	color = { 0.9 0.6 0.1 }
 	graphical_faith = "orthodox_gfx"
 	icon = faith_dragon_cult
@@ -685,7 +656,6 @@ dragon_cult_rite = {
 		tenet_golden_order
 		tenet_dragon_cult
     }
-	
 	localization = {			
 		BishopMale = faith_dragon_cult_bishop
 		BishopMalePlural = faith_dragon_cult_bishop_plural
@@ -723,11 +693,11 @@ dragon_cult_rite = {
 		EvilGodNames = { faith_dragon_cult_devil_name order_devil_name order_death_deity_name }
 	}
 }
-
 reedlander_rite = {
-	name = faith_reedlander
-	desc = faith_reedlander_desc
+	name = reedlander_rite
+	desc = reedlander_rite_desc
 	faith = faith_reedlander
+	
 	color = { 0.9 0.1 0.1 }
 	icon = faith_reedlands
 	reformed_icon = faith_reedlands
@@ -735,7 +705,6 @@ reedlander_rite = {
 	doctrines = {
 		unreformed_faith_doctrine
 	}
-
 	tenets = {
 		tenet_communal_identity
 		#tenet_ancestor_worship
@@ -745,9 +714,10 @@ reedlander_rite = {
 }
 #missing tenets
 rot_rite = {
-	name = faith_rot
-	desc = faith_rot_desc
+	name = rot_rite
+	desc = rot_rite_desc
 	faith = faith_rot
+	
 	color = { 0.9 0.5 0.3 }
 	icon = faith_rot
 	reformed_icon = faith_rot
@@ -755,20 +725,19 @@ rot_rite = {
 	doctrines = {
 		unreformed_faith_doctrine
 	}
-
 	tenets = {
 		tenet_rot
 		#tenet_astrology
 		tenet_ancestor_worship
 		tenet_sanctity_of_nature
     }
-
 }
 #missing tenets
-rot_romina_rite = {
-	name = faith_rot_romina
-	desc = faith_rot_romina_desc
-	faith = faith_rot_romina
+romina_rite = {
+	name = romina_rite
+	desc = romina_rite_desc
+	faith = faith_rot
+	
 	color = { 0.9 0.5 0.3 }
 	icon = faith_rot_romina
 	reformed_icon = faith_rot_romina
@@ -779,13 +748,12 @@ rot_romina_rite = {
 		tenet_ancestor_worship
 		tenet_sanctity_of_nature
     }
-
 }
-
 god_snake_rite = {
-	name = faith_god_snake
-	desc = faith_god_snake_desc
+	name = god_snake_rite
+	desc = god_snake_rite_desc
 	faith = faith_god_snake
+	
 	color = { 0.99 0.10 0.05 }
 	icon = faith_devouring_serpent
 	reformed_icon = faith_devouring_serpent
@@ -793,7 +761,6 @@ god_snake_rite = {
 	doctrines = {
 		unreformed_faith_doctrine
 	}
-
 	tenets = {
 		tenet_gruesome_festivals
 		tenet_serpents #this is human sacrifice+
@@ -801,11 +768,11 @@ god_snake_rite = {
 		#tenet_hedonistic
     }
 }
-
 shaman_rite = {
-	name = faith_shaman
-	desc = faith_shaman_desc
+	name = shaman_rite
+	desc = shaman_rite_desc
 	faith = faith_shaman
+	
 	color = { 0.2 0.9 0.2 }
 	icon = faith_shaman
 	reformed_icon = faith_shaman
@@ -813,7 +780,6 @@ shaman_rite = {
 	doctrines = {
 		unreformed_faith_doctrine
 	}
-
 	tenets = {
 		#tenet_astrology
 		tenet_ancestor_worship
@@ -821,23 +787,22 @@ shaman_rite = {
 		tenet_pastoral_isolation
     }
 }
-
-ancestor_spirit_rite = {
-	name = faith_ancestor_spirit
-	desc = faith_ancestor_spirit_desc
+ancestral_rite = {
+	name = ancestral_rite
+	desc = ancestral_rite_desc
 	faith = faith_ancestor_spirit
+	
 	color = { 0.1 0.8 0.8 }
 	icon = faith_spirit
 	reformed_icon = faith_spirit
+	
 	doctrines = {
 		unreformed_faith_doctrine
 	}
-
 	tenets = {
 		tenet_primordial_curse
 		tenet_pastoral_isolation
 		#tenet_ancestor_worship
 		tenet_sanctity_of_nature
     }
-
 }

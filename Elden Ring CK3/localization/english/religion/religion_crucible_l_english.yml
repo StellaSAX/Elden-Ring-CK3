@@ -86,3 +86,15 @@
  faith_crucible_adj:0 "The Crucible"
  faith_crucible_adherent:0 "Follower of The Primordial Crucible"
  faith_crucible_adherent_plural:0 "Followers of The Primordial Crucible"
+ 
+ crucible_rite:0 "The Crucible"
+ crucible_rite_desc:0 "To worship The Crucible is to worship the ancient state of the world, and more specifically, the primordial form of the Erdtree, before Marika made it into its current form, alongside the Golden Order."
+ crucible_rite_adj:0 "The Crucible"
+ crucible_rite_adherent:0 "Follower of The Primordial Crucible"
+ crucible_rite_adherent_plural:0 "Followers of The Primordial Crucible"
+ 
+ spiral_rite:0 "Spiral Path"
+ spiral_rite_desc:0 "For some lost in the Lands of Shadow the idea of being abandoned was too much to bare and in their desperation they began to seek for an answer in something new, in the end they found it in something old. Taking the Hornsent beliefs and merging it with the teachings of the Erdtree they created the Spiral Path and carved icons of the distant Erdtree onto amber, marking the ancient still warm remnants of the lost Crucible with that which would come after forever linking the two in silver light."
+ spiral_rite_adj:0 "Spiral Path"
+ spiral_rite_adherent:0 "Spiral Follower"
+ spiral_rite_adherent_plural:0 "Spiral Followers"

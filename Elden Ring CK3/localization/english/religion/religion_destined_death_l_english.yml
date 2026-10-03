@@ -11,3 +11,9 @@
  faith_godslayer_adherent:0 "Godslayer Cultist"
  faith_godslayer_adherent_plural:0 "Godslayer Cultists"
  faith_godslayer_desc:0 "The Godslayers were an old order led by the Gloam-Eyed Queen. They used the Black Flame, powered by Destined Death, to slay Gods and skin them. However, they lost their power when Maliketh defeated them and sealed away the Rune of Death."
+ 
+ godslayer_rite:0 "Godslayer Cult"
+ godslayer_rite_adj:0 "Godslayer"
+ godslayer_rite_adherent:0 "Godslayer Cultist"
+ godslayer_rite_adherent_plural:0 "Godslayer Cultists"
+ godslayer_rite_desc:0 "The Godslayers were an old order led by the Gloam-Eyed Queen. They used the Black Flame, powered by Destined Death, to slay Gods and skin them. However, they lost their power when Maliketh defeated them and sealed away the Rune of Death."

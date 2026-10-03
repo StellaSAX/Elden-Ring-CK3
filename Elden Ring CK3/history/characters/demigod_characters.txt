@@ -480,7 +480,7 @@ mohg = {
 		trait = demigod_tier_4
 	}
 	5405.1.1 = {
-		rite = faith_formless
+		rite = formless_rite
 		
 		add_trait = incantation_blood
 		effect = {
@@ -728,7 +728,7 @@ ranni = {
 		}
 	}
 	3759.1.1 = {
-		rite = stars_rite
+		rite = darkmoon_rite
 		give_nickname = nick_the_witch
 		
 		add_trait = sorcery_ice
@@ -858,7 +858,7 @@ miquella = {
 	}
 	8200.1.1 = {
 		give_nickname = nick_the_kind
-		rite = kind_rite
+		rite = compassion_rite
 		
 		add_trait = incantation_miquella
 		effect = {

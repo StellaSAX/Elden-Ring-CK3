@@ -78,3 +78,9 @@
  faith_fenzy_night_god_name_possessive:0 "$faith_fenzy_high_god_name_possessive$"
  faith_fenzy_water_god_name:0 "$faith_fenzy_health_god_name$"
  faith_fenzy_water_god_name_possessive:0 "$faith_fenzy_health_god_name_possessive$"
+ 
+ frenzy_rite:0 "Frenzied Flame"
+ frenzy_rite_adj:0 "Frenzied Flame"
+ frenzy_rite_adherent:0 "Frenzied Follower"
+ frenzy_rite_adherent_plural:0 "Frenzied Followers"
+ frenzy_rite_desc:0 "The Frenzied dearly await the arrival of the Lord of Frenzy, a Tarnished that will usher in their age of nothingness by burning away with The Erdtree and the Lands Between. They will be branded by the Three Fingers, messenger of the Flame, and forever be marked by their fingerprints. After all, who can resist a fate arranged by an Outer God?"

@@ -908,7 +908,7 @@ goldmask = {
 	prowess = 3
 	health = 10
 	
-	rite = fundamentalism_rite
+	rite = fundamentalist_rite
 	culture = cul_altus
 	
 	trait = patient
@@ -1419,7 +1419,7 @@ rileigh = {
 	prowess = 23
 	health = 10
 	
-	rite = fundamentalism_rite
+	rite = fundamentalist_rite
 	culture = cul_altus
 	
 	trait = zealous

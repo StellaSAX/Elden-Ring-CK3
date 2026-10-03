@@ -86,3 +86,15 @@
  faith_stars_trickster_god_name:0 "the Greater Will"
  faith_stars_trickster_god_name_possessive:0 "the Greater Will's"
  faith_stars_desc:0 "First glimpsed by Ranni, thereafter called the Witch of the Dark Moon, it is said that the Dark Moon is the herald of a new age and perhaps indeed there is some truth to that for often the image of a dark and lightless moon is considered a symbol of a new season in some ancient texts. Those who follow the Dark Moon believe strongly in a personal independence from the will and commandments of others perhaps even more so than those who study the other Moons, thrashing fiercely against attempts to control or stifle them as they seek to liberate their minds and wills from any who would command them. It is believed by many that under the shadow of the Dark Moon will come the Age of Stars and with it a Night Lord who will reign over a thousand year voyage of peaceful night and freedom."
+ 
+ moons_rite:0 "Order of the Full Moon"
+ moons_rite_adj:0 "Full Moon"
+ moons_rite_adherent:0 "Scholar of the Full Moon"
+ moons_rite_adherent_plural:0 "Scholars of the Full Moon"
+ moons_rite_desc:0 "First glimpsed by Renalla, Queen of the Full Moon, the followers of this most powerful and beautiful celestial body believe utterly that it is through great power and sorcerery that mankind can achieve its true potential. Great libraries, studies and writings have been formed around the path of intellect, with many of their number believing that one of their greatest virtues is to pass on as much as they have learned as possible for those who follow after to learn from. It is no surprise then that the greatest libraries in Caria serve both as repositories of knowledge but also a conduit to the light of the Full Moon"
+ 
+ darkmoon_rite:0 "Order of the Dark Moon"
+ darkmoon_rite_adj:0 "Dark Moon"
+ darkmoon_rite_adherent:0 "Scholar of the Dark Moon"
+ darkmoon_rite_adherent_plural:0 "Scholars of the Dark Moon"
+ darkmoon_rite_desc:0 "First glimpsed by Ranni, thereafter called the Witch of the Dark Moon, it is said that the Dark Moon is the herald of a new age and perhaps indeed there is some truth to that for often the image of a dark and lightless moon is considered a symbol of a new season in some ancient texts. Those who follow the Dark Moon believe strongly in a personal independence from the will and commandments of others perhaps even more so than those who study the other Moons, thrashing fiercely against attempts to control or stifle them as they seek to liberate their minds and wills from any who would command them. It is believed by many that under the shadow of the Dark Moon will come the Age of Stars and with it a Night Lord who will reign over a thousand year voyage of peaceful night and freedom."

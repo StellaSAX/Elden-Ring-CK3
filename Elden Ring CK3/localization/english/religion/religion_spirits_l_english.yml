@@ -53,3 +53,9 @@
  faith_ancestor_spirit_bishop_plural:0 "elder shamans"
  faith_ancestor_spirit_war_god_name:0 "$ancestral_spirits_high_god_name$"
  faith_ancestor_spirit_war_god_name_possessive:0 "$ancestral_spirits_high_god_name_possessive$"
+ 
+ ancestral_rite:0 "The Ancestral Followers"
+ ancestral_rite_adj:0 "Ancestral"
+ ancestral_rite_adherent:0 "Ancestral Follower"
+ ancestral_rite_adherent_plural:0 "Ancestral Followers"
+ ancestral_rite_desc:0 "The faith of those who dwell along the Siofra, organised into two callings: the warriors, decked in headbands of great horns and raiment of bristly pelt, who wield horn-clubs and skull-axes; and the shamans, crowned with shining horns, who tend the rites by which the budding is hastened and the ancestors are remembered.\n\nTheir master hunters, bearing longbows whittled from animal horn, walk the furthest from the Erdtree's light, that the next bud may bloom untroubled."

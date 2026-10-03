@@ -83,3 +83,15 @@
  faith_giant_adherent:0 "Follower"
  faith_giant_adherent_plural:0 "Followers"
  faith_giant_desc:0 "The Fire Giants once worshipped the Flame of Ruin, but now it has been forgotten by time in all places... Except one. The guardian of the forge, last of the giants, vaguely remembers the rites of his ancestors."
+ 
+ giant_rite:0 "Fell Fire"
+ giant_rite_adj:0 "Forgotten Fire"
+ giant_rite_adherent:0 "Follower"
+ giant_rite_adherent_plural:0 "Followers"
+ giant_rite_desc:0 "The Fire Giants once worshipped the Flame of Ruin, but now it has been forgotten by time in all places... Except one. The guardian of the forge, last of the giants, vaguely remembers the rites of his ancestors."
+ 
+ fire_monk_rite:0 "Fallen Brotherhood"
+ fire_monk_rite_adj:0 "Fire Monks"
+ fire_monk_rite_adherent:0 "Monk"
+ fire_monk_rite_adherent_plural:0 "Monks"
+ fire_monk_rite_desc:0 "An old order of monks once ordered by Marika to guard the forge for eternity. But now, the flame has seduced them all and the fell monks serve its will."
