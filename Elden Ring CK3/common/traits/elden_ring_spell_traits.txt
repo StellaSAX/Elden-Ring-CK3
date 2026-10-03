@@ -1082,7 +1082,7 @@ sorcery_death = {
 			cowed_vassal_tax_contribution_mult = 0.05
 			stress_gain_mult = 0.1
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = death_sorcery_bonuses
 				same_faith_opinion = 4
 				monthly_piety = 0.4
@@ -1096,7 +1096,7 @@ sorcery_death = {
 			cowed_vassal_tax_contribution_mult = 0.05
 			stress_gain_mult = 0.1
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = death_sorcery_bonuses
 				same_faith_opinion = 4
 				monthly_piety = 0.4
@@ -1110,7 +1110,7 @@ sorcery_death = {
 			cowed_vassal_tax_contribution_mult = 0.05
 			stress_gain_mult = 0.1
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = death_sorcery_bonuses
 				same_faith_opinion = 4
 				monthly_piety = 0.4
@@ -1124,7 +1124,7 @@ sorcery_death = {
 			cowed_vassal_tax_contribution_mult = 0.05
 			stress_gain_mult = 0.1
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = death_sorcery_bonuses
 				same_faith_opinion = 4
 				monthly_piety = 0.4
@@ -1141,7 +1141,7 @@ sorcery_death = {
 			cowed_vassal_tax_contribution_mult = 0.1
 			stress_gain_mult = 0.1
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = death_sorcery_bonuses
 				same_faith_opinion = 4
 				monthly_piety = 0.4
@@ -2683,7 +2683,7 @@ incantation_blackflame = {
 			cowed_vassal_levy_contribution_mult = 0.03
 			cowed_vassal_tax_contribution_mult = 0.03
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = death_sorcery_bonuses #placeholder until unique godslayer tenets are added
 				tolerance_advantage_mod = 2
 				glory_hound_same_faith_opinion = 2
@@ -2697,7 +2697,7 @@ incantation_blackflame = {
 			cowed_vassal_levy_contribution_mult = 0.03
 			cowed_vassal_tax_contribution_mult = 0.03
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = death_sorcery_bonuses #placeholder until unique godslayer tenets are added
 				tolerance_advantage_mod = 2
 				glory_hound_same_faith_opinion = 2
@@ -2711,7 +2711,7 @@ incantation_blackflame = {
 			cowed_vassal_levy_contribution_mult = 0.03
 			cowed_vassal_tax_contribution_mult = 0.03
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = death_sorcery_bonuses #placeholder until unique godslayer tenets are added
 				tolerance_advantage_mod = 2
 				glory_hound_same_faith_opinion = 2
@@ -2725,7 +2725,7 @@ incantation_blackflame = {
 			cowed_vassal_levy_contribution_mult = 0.03
 			cowed_vassal_tax_contribution_mult = 0.03
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = death_sorcery_bonuses #placeholder until unique godslayer tenets are added
 				tolerance_advantage_mod = 2
 				glory_hound_same_faith_opinion = 2
@@ -2744,7 +2744,7 @@ incantation_blackflame = {
 			cowed_vassal_levy_contribution_mult = 0.08
 			cowed_vassal_tax_contribution_mult = 0.08
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = death_sorcery_bonuses #placeholder until unique godslayer tenets are added
 				tolerance_advantage_mod = 2
 				glory_hound_same_faith_opinion = 2
@@ -3890,7 +3890,7 @@ incantation_erdtree = {
 	character_travel_safety = 2
 	min_combat_roll = 2
 	
-	faith_modifier = {
+	rite_modifier = {
 		parameter = erdtree_incantation_bonuses
 		monthly_piety = 0.2
 	}
@@ -3904,7 +3904,7 @@ incantation_erdtree = {
 			character_travel_safety = 2
 			negate_health_penalty_add = 0.25
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = erdtree_incantation_bonuses
 				monthly_piety = 0.2
 			}
@@ -3917,7 +3917,7 @@ incantation_erdtree = {
 			character_travel_safety = 2
 			negate_health_penalty_add = 0.25
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = erdtree_incantation_bonuses
 				monthly_piety = 0.2
 			}
@@ -3930,7 +3930,7 @@ incantation_erdtree = {
 			character_travel_safety = 4
 			negate_health_penalty_add = 0.25
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = erdtree_incantation_bonuses
 				monthly_piety = 0.2
 			}
@@ -3943,7 +3943,7 @@ incantation_erdtree = {
 			character_travel_safety = 4
 			negate_health_penalty_add = 0.25
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = erdtree_incantation_bonuses
 				monthly_piety = 0.2
 			}
@@ -3957,7 +3957,7 @@ incantation_erdtree = {
 			character_travel_safety = 6
 			negate_health_penalty_add = 0.5
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = erdtree_incantation_bonuses
 				monthly_piety_gain_mult = 0.1
 			}
@@ -4963,7 +4963,7 @@ incantation_order = {
 			zealot_opinion = 2
 			monthly_learning_lifestyle_xp_gain_mult = 0.15
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = order_incantation_bonuses
 				monthly_prestige = 0.1
 			}
@@ -4976,7 +4976,7 @@ incantation_order = {
 			zealot_opinion = 2
 			owned_personal_scheme_success_chance_max_add = 10
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = order_incantation_bonuses
 				monthly_prestige = 0.1
 			}
@@ -4989,7 +4989,7 @@ incantation_order = {
 			zealot_opinion = 2
 			diplomatic_range_mult = 0.25
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = order_incantation_bonuses
 				monthly_prestige = 0.1
 			}
@@ -5002,7 +5002,7 @@ incantation_order = {
 			zealot_opinion = 2
 			negate_health_penalty_add = 0.5
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = order_incantation_bonuses
 				monthly_prestige = 0.1
 			}
@@ -5018,7 +5018,7 @@ incantation_order = {
 			levy_siege = 0.1
 			long_reign_bonus_mult = 0.5
 			
-			faith_modifier = {
+			rite_modifier = {
 				parameter = order_incantation_bonuses
 				monthly_prestige = 0.2
 			}

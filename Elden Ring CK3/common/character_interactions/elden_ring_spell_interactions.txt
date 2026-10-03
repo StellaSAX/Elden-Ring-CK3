@@ -24,6 +24,7 @@
 	desc = heal_wounds_interaction_desc
 	
 	is_shown = {
+		scope:recipient != scope:puppet_or_actor
 		scope:puppet_or_actor = {
 			OR = {
 				has_trait_xp = { trait = incantation_erdtree track = incantation_erdtree value >= 20 }
@@ -32,7 +33,8 @@
 		}
 		
 		scope:recipient = {
-			is_courtier_of = scope:puppet_or_actor
+			location = scope:puppet_or_actor.location
+			#is_courtier_of = scope:puppet_or_actor
 			#is_wounded = yes
 		}
 	}
@@ -42,12 +44,12 @@
 			is_wounded = yes
 			NOT = { has_character_flag = heal_wounds_cooldown }
 
-			custom_tooltip = {
-				text = interaction_heal_wounds_tooltip
-				scope:recipient = {
-					is_wounded = yes
-				}
-			}
+			#custom_tooltip = {
+			#	text = interaction_heal_wounds_tooltip
+			#	scope:recipient = {
+			#		is_wounded = yes
+			#	}
+			#}
 		}
 	}
 	
@@ -244,12 +246,12 @@ heal_wounds_self_interaction = {
 			NOT = { has_character_flag = heal_wounds_self_cooldown }
 			is_wounded = yes
 
-			custom_tooltip = {
-				text = interaction_heal_wounds_self_tooltip
-				scope:puppet_or_actor = {
-					is_wounded = yes
-				}
-			}
+			#custom_tooltip = {
+			#	text = interaction_heal_wounds_self_tooltip
+			#	scope:puppet_or_actor = {
+			#		is_wounded = yes
+			#	}
+			#}
 		}
 	}
 	
