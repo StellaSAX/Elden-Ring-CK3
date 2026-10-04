@@ -1,0 +1,244 @@
+﻿shaman_religion = {
+	religion_details = {
+		family = rf_shaman
+		piety_icon_group = "christian"
+	}
+
+	doctrine = pagan_hostility_doctrine
+
+	pagan_roots = yes
+
+	#Main Group
+	doctrine = doctrine_polytheist
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_pluralism_fundamentalist
+	doctrine = doctrine_theocracy_temporal
+
+	#Marriage
+	doctrine = doctrine_concubines
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_cousins
+
+	#Crimes
+	doctrine = doctrine_homosexuality_shunned
+	doctrine = doctrine_adultery_men_crime
+	doctrine = doctrine_adultery_women_crime
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_crime
+	doctrine = doctrine_witchcraft_shunned
+	doctrine = doctrine_omen_crime
+	doctrine = doctrine_grafting_crime
+	
+	#Affinities
+	doctrine = doctrine_order_affinity_accepted
+	doctrine = doctrine_erdtree_affinity_virtuous
+	doctrine = doctrine_fire_affinity_shunned
+	doctrine = doctrine_ice_affinity_accepted
+	doctrine = doctrine_glintstone_affinity_accepted
+	doctrine = doctrine_carian_affinity_accepted
+	doctrine = doctrine_night_affinity_accepted
+	doctrine = doctrine_claymen_affinity_accepted
+	doctrine = doctrine_gravity_affinity_accepted
+	doctrine = doctrine_magma_affinity_shunned
+	doctrine = doctrine_lightning_affinity_accepted
+	doctrine = doctrine_dragon_affinity_crime
+	doctrine = doctrine_bestial_affinity_accepted
+	doctrine = doctrine_spiral_affinity_accepted
+	doctrine = doctrine_blood_affinity_crime
+	doctrine = doctrine_death_affinity_crime
+	doctrine = doctrine_blackflame_affinity_crime
+	doctrine = doctrine_rot_affinity_crime
+	doctrine = doctrine_sleep_affinity_accepted
+	doctrine = doctrine_frenzy_affinity_crime
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_recruitment
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	#Allow pilgrimages
+	doctrine = doctrine_pilgrimage_encouraged
+
+	#Funeral tradition
+	doctrine = doctrine_funeral_cremation
+
+	#Coronation tradition
+	doctrine = doctrine_no_anointment
+
+	traits = {
+		virtues = { brave just honest }
+		sins = { craven arbitrary deceitful }
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil custom_faith_boromian_circles custom_faith_lotus custom_faith_aum_tibetan custom_faith_pentagram custom_faith_pentagram_inverted custom_faith_burning_bush custom_faith_allah custom_faith_gankyil custom_faith_eye_of_providence custom_faith_dove custom_faith_ichthys custom_faith_lamb custom_faith_black_sheep custom_faith_ankh custom_faith_chi_rho custom_faith_hamsa custom_faith_cool_s custom_faith_magatama custom_faith_soto custom_faith_benzhuism
+	}
+
+	holy_order_names = {
+		{ name = holy_order_guardians_of_divinerealm }
+		{ name = holy_order_faithful_of_highgod }
+		{ name = holy_order_warriors_of_the_symbol }
+	}
+
+	holy_order_maa = { horse_archers }
+
+	localization = {
+		HighGodName = shaman_high_god_name
+		HighGodName2 = shaman_high_god_name_2
+		HighGodName2 = shaman_high_god_name_3
+		HighGodNamePossessive = shaman_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_IT
+		HighGodHerselfHimself = CHARACTER_ITSELF
+		HighGodHerHis = CHARACTER_HERHIS_ITS
+		HighGodNameAlternate = shaman_high_god_name
+		HighGodNameAlternatePossessive = shaman_high_god_name
+
+		#Creator
+		CreatorName = shaman_high_god_name
+		CreatorNamePossessive = shaman_high_god_name
+		CreatorSheHe = CHARACTER_SHEHE_IT
+		CreatorHerHis = CHARACTER_HERHIS_ITS
+		CreatorHerHim = CHARACTER_HERHIM_IT
+
+		#HealthGod
+		HealthGodName = shaman_high_god_name
+		HealthGodNamePossessive = shaman_high_god_name
+		HealthGodSheHe = CHARACTER_SHEHE_IT
+		HealthGodHerHis = CHARACTER_HERHIS_ITS
+		HealthGodHerHim = CHARACTER_HERHIM_IT
+		
+		#FertilityGod
+		FertilityGodName = shaman_high_god_name
+		FertilityGodNamePossessive = shaman_high_god_name
+		FertilityGodSheHe = CHARACTER_SHEHE_IT
+		FertilityGodHerHis = CHARACTER_HERHIS_ITS
+		FertilityGodHerHim = CHARACTER_HERHIM_IT
+
+		#WealthGod
+		WealthGodName = shaman_high_god_name
+		WealthGodNamePossessive = shaman_high_god_name
+		WealthGodSheHe = CHARACTER_SHEHE_IT
+		WealthGodHerHis = CHARACTER_HERHIS_ITS
+		WealthGodHerHim = CHARACTER_HERHIM_IT
+
+		#HouseholdGod
+		HouseholdGodName = shaman_high_god_name
+		HouseholdGodNamePossessive = shaman_high_god_name
+		HouseholdGodSheHe = CHARACTER_SHEHE_IT
+		HouseholdGodHerHis = CHARACTER_HERHIS_ITS
+		HouseholdGodHerHim = CHARACTER_HERHIM_IT
+
+		#FateGod
+		FateGodName = shaman_high_god_name
+		FateGodNamePossessive = shaman_high_god_name
+		FateGodSheHe = CHARACTER_SHEHE_IT
+		FateGodHerHis = CHARACTER_HERHIS_ITS
+		FateGodHerHim = CHARACTER_HERHIM_IT
+
+		#KnowledgeGod
+		KnowledgeGodName = shaman_high_god_name
+		KnowledgeGodNamePossessive = shaman_high_god_name
+		KnowledgeGodSheHe = CHARACTER_SHEHE_IT
+		KnowledgeGodHerHis = CHARACTER_HERHIS_ITS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_IT
+
+		#WarGod
+		WarGodName = shaman_high_god_name
+		WarGodNamePossessive = shaman_high_god_name
+		WarGodSheHe = CHARACTER_SHEHE_IT
+		WarGodHerHis = CHARACTER_HERHIS_ITS
+		WarGodHerHim = CHARACTER_HERHIM_IT
+
+		#TricksterGod
+		TricksterGodName = shaman_high_god_name
+		TricksterGodNamePossessive = shaman_high_god_name
+		TricksterGodSheHe = CHARACTER_SHEHE_IT
+		TricksterGodHerHis = CHARACTER_HERHIS_ITS
+		TricksterGodHerHim = CHARACTER_HERHIM_IT
+
+		#NightGod
+		NightGodName = shaman_high_god_name
+		NightGodNamePossessive = shaman_high_god_name
+		NightGodSheHe = CHARACTER_SHEHE_IT
+		NightGodHerHis = CHARACTER_HERHIS_ITS
+		NightGodHerHim = CHARACTER_HERHIM_IT
+
+		#WaterGod
+		WaterGodName = shaman_high_god_name
+		WaterGodNamePossessive = shaman_high_god_name
+		WaterGodSheHe = CHARACTER_SHEHE_IT
+		WaterGodHerHis = CHARACTER_HERHIS_ITS
+		WaterGodHerHim = CHARACTER_HERHIM_IT
+
+
+		PantheonTerm = shaman_high_god_name
+		PantheonTerm2 = shaman_high_god_name
+		PantheonTerm3 = paganism_mother_earth_father_sky_3
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { shaman_high_god_name }
+		DevilName = shaman_devil_name
+		DevilNamePossessive = shaman_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_IT
+		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerselfHimself = paganism_devil_herselfhimself
+		EvilGodNames = { shaman_devil_name }
+		HouseOfWorship = shaman_house_of_worship
+		HouseOfWorship2 = shaman_house_of_worship_2
+		HouseOfWorship3 = shaman_house_of_worship_3
+		HouseOfWorshipPlural = shaman_house_of_worship_plural
+		ReligiousSymbol = shaman_religious_symbol
+		ReligiousSymbol2 = shaman_religious_symbol_2
+		ReligiousSymbol3 = shaman_religious_symbol_3
+		ReligiousText = shaman_religious_text
+		ReligiousText2 = shaman_religious_text_2
+		ReligiousText3 = shaman_religious_text_3
+		ReligiousHeadName = shaman_religious_head_title
+		ReligiousHeadTitleName = shaman_religious_head_title_name
+		DevoteeMale = shaman_devotee_male
+		DevoteeMalePlural = shaman_devotee_male_plural
+		DevoteeFemale = shaman_devotee_male
+		DevoteeFemalePlural = shaman_devotee_male_plural
+		DevoteeNeuter = shaman_devotee_male
+		DevoteeNeuterPlural = shaman_devotee_male_plural
+		PriestMale = shaman_priest_male
+		PriestMalePlural = shaman_priest_male_plural
+		PriestFemale = shaman_priest_male
+		PriestFemalePlural = shaman_priest_male_plural
+		PriestNeuter = shaman_priest_male
+		PriestNeuterPlural = shaman_priest_male_plural
+		AltPriestTermPlural = paganism_priest_alternate_plural
+		BishopMale = shaman_bishop
+		BishopMalePlural = shaman_bishop_plural
+		BishopFemale = shaman_bishop
+		BishopFemalePlural = shaman_bishop_plural
+		BishopNeuter = shaman_bishop
+		BishopNeuterPlural = shaman_bishop_plural
+		DivineRealm = shaman_positive_afterlife
+		DivineRealm2 = shaman_positive_afterlife_2
+		DivineRealm3 = shaman_positive_afterlife_3
+		PositiveAfterLife = shaman_positive_afterlife
+		PositiveAfterLife2 = shaman_positive_afterlife_2
+		PositiveAfterLife3 = shaman_positive_afterlife_3
+		NegativeAfterLife = shaman_negative_afterlife
+		NegativeAfterLife2 = shaman_negative_afterlife_2
+		NegativeAfterLife3 = shaman_negative_afterlife_3
+		DeathDeityName = shaman_death_deity_name
+		DeathDeityNamePossessive = shaman_death_deity_name_possessive
+		DeathDeitySheHe = CHARACTER_HERHIM_IT
+		DeathDeityHerHis = CHARACTER_HERHIM_ITS
+		DeathDeityHerHim = CHARACTER_HERHIM_IT
+		WitchGodName = shaman_witchgodname_the_horned_god
+		WitchGodNamePossessive = shaman_witchgodname_the_horned_god_possessive
+		WitchGodSheHe = CHARACTER_SHEHE_IT
+		WitchGodHerHis = CHARACTER_HERHIS_ITS
+		WitchGodHerHim = CHARACTER_HERHIM_IT
+		WitchGodMistressMaster = witch_spirit
+ 		WitchGodMotherFather = witch_source
+		
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+}

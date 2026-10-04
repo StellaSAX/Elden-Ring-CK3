@@ -1,5 +1,8 @@
 ﻿crucible_religion = {
-	family = rf_crucible
+	religion_details = {
+		family = rf_crucible
+		piety_icon_group = "christian"
+	}
 
 	doctrine = pagan_hostility_doctrine
 
@@ -238,54 +241,4 @@
 		GHWName = ghw_great_holy_war
 		GHWNamePlural = ghw_great_holy_wars
 	}
-	
-	piety_icon_group = "christian"
-
-	# faiths = {
-		# faith_crucible = {
-			# color = { 0.6 0.8 0.4 }
-			# icon = faith_crucible
-			# reformed_icon = faith_crucible
-			# doctrine = unreformed_faith_doctrine
-
-			# holy_site = leyndell_capital
-			# holy_site = enir_illim
-			# holy_site = scadutree_base
-			# holy_site = farum_azula
-			# holy_site = haligtree
-
-			# #Generic pagan tenets
-			# doctrine = tenet_adaptive
-			# doctrine = tenet_ancestor_worship
-			# doctrine = tenet_sanctity_of_nature
-			# doctrine = tenet_primordial_curse
-		# }
-		# faith_spiral = {
-			# color = { 0.7 0.7 0.5 }
-			# icon = faith_spiral
-			# reformed_icon = faith_spiral
-			# doctrine = unreformed_faith_doctrine
-
-			# holy_site = scadutree_chalice
-			# holy_site = enir_illim
-			# holy_site = belurat
-			
-			# #Generic pagan tenets
-			# doctrine = tenet_sacrificial_ceremonies
-			# doctrine = tenet_communal_identity
-			# doctrine = tenet_mystical_birthright
-			# doctrine = tenet_great_spiral
-			
-			# localization = {
-				# ReligiousSymbol = faith_spiral_religious_symbol
-				
-				# TricksterGodName = faith_spiral_trickster_god_name
-				# TricksterGodNamePossessive = faith_spiral_trickster_god_name_possessive
-				# TricksterGodSheHe = CHARACTER_SHEHE_SHE
-				# TricksterGodHerHis = CHARACTER_HERHIS_HER
-				# TricksterGodHerHim = CHARACTER_HERHIM_HER
-			# }
-		# }
-	
-	# }
 }

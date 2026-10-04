@@ -1,5 +1,8 @@
 ﻿death_religion = {
-	family = rf_death
+	religion_details = {
+		family = rf_death
+		piety_icon_group = "christian"
+	}
 
 	doctrine = pagan_hostility_doctrine
 
@@ -238,44 +241,4 @@
 		GHWName = ghw_great_holy_war
 		GHWNamePlural = ghw_great_holy_wars
 	}
-	
-	piety_icon_group = "christian"
-
-	# faiths = {
-		# faith_death_prince = {
-			# color = { 0.1 0.1 0.1 }
-			# icon = faith_death_prince
-			# reformed_icon = faith_death_prince
-			
-			# holy_site = deeproot
-			# holy_site = castle_sol
-			# holy_site = west_altus_divine_tower
-			# holy_site = east_altus_divine_tower
-			# holy_site = liurnia_divine_tower
-			# holy_site = limgrave_divine_tower
-			# holy_site = caelid_divine_tower
-			# holy_site = isolated_divine_tower
-			
-			# doctrine = tenet_sacred_shadows
-			# doctrine = tenet_unrelenting_faith
-			# doctrine = tenet_fp3_fedayeen
-			# doctrine = tenet_live_in_death
-		# }
-		# faith_old_death = {
-			# color = { 0.1 0.1 0.1 }
-			# icon = faith_deathbird
-			# reformed_icon = faith_deathbird
-			# doctrine = unreformed_faith_doctrine
-
-			# holy_site = deeproot
-			# holy_site = death_catacombs
-
-			
-			# doctrine = tenet_astrology
-			# doctrine = tenet_ancestor_worship
-			# doctrine = tenet_fp3_fedayeen
-			# doctrine = tenet_sacred_shadows
-		# }
-	
-	# }
 }

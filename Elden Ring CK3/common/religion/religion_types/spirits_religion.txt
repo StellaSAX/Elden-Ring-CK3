@@ -1,5 +1,10 @@
-﻿rot_religion = {
-	family = rf_rot
+﻿spirits_religion = {
+	religion_details = {
+		family = rf_spirits
+		piety_icon_group = "christian"
+		theocracy_government_type = ecclesiastical_government
+		theocracy_lease_contract_type = ecclesiastical_lease
+	}
 
 	doctrine = pagan_hostility_doctrine
 
@@ -30,24 +35,24 @@
 	
 	#Affinities
 	doctrine = doctrine_order_affinity_shunned
-	doctrine = doctrine_erdtree_affinity_shunned
+	doctrine = doctrine_erdtree_affinity_accepted
 	doctrine = doctrine_fire_affinity_shunned
 	doctrine = doctrine_ice_affinity_accepted
-	doctrine = doctrine_glintstone_affinity_shunned
-	doctrine = doctrine_carian_affinity_shunned
-	doctrine = doctrine_night_affinity_shunned
-	doctrine = doctrine_claymen_affinity_shunned
+	doctrine = doctrine_glintstone_affinity_accepted
+	doctrine = doctrine_carian_affinity_accepted
+	doctrine = doctrine_night_affinity_accepted
+	doctrine = doctrine_claymen_affinity_accepted
 	doctrine = doctrine_gravity_affinity_accepted
 	doctrine = doctrine_magma_affinity_shunned
 	doctrine = doctrine_lightning_affinity_shunned
 	doctrine = doctrine_dragon_affinity_crime
-	doctrine = doctrine_bestial_affinity_shunned
-	doctrine = doctrine_spiral_affinity_shunned
-	doctrine = doctrine_blood_affinity_shunned
-	doctrine = doctrine_death_affinity_shunned
+	doctrine = doctrine_bestial_affinity_accepted
+	doctrine = doctrine_spiral_affinity_accepted
+	doctrine = doctrine_blood_affinity_crime
+	doctrine = doctrine_death_affinity_crime
 	doctrine = doctrine_blackflame_affinity_crime
-	doctrine = doctrine_rot_affinity_virtuous
-	doctrine = doctrine_sleep_affinity_shunned
+	doctrine = doctrine_rot_affinity_crime
+	doctrine = doctrine_sleep_affinity_accepted
 	doctrine = doctrine_frenzy_affinity_crime
 
 	#Clerical Functions
@@ -237,47 +242,4 @@
 		GHWName = ghw_great_holy_war
 		GHWNamePlural = ghw_great_holy_wars
 	}
-	
-	piety_icon_group = "christian"
-
-	# faiths = {
-		# faith_rot = {
-			# color = { 0.9 0.5 0.3 }
-			# icon = faith_rot
-			# reformed_icon = faith_rot
-
-			# doctrine = unreformed_faith_doctrine
-
-			# holy_site = leyndell_capital
-			# holy_site = isolated_divine_tower
-			# holy_site = lake_of_rot
-			# holy_site = haligtree
-			# holy_site = malenia_bloom
-			
-			# doctrine = tenet_rot
-			
-			# #replace this ones
-			# doctrine = tenet_astrology
-			# doctrine = tenet_ancestor_worship
-			# doctrine = tenet_sanctity_of_nature
-		# }
-		# faith_rot_romina = {
-			# color = { 0.9 0.5 0.3 }
-			# icon = faith_rot_romina
-			# reformed_icon = faith_rot_romina
-
-			# holy_site = lake_of_rot
-			# holy_site = church_of_the_bud
-			# holy_site = haligtree
-			# holy_site = malenia_bloom
-			
-			# doctrine = tenet_rot
-			
-			# #replace this ones
-			# doctrine = tenet_astrology
-			# doctrine = tenet_ancestor_worship
-			# doctrine = tenet_sanctity_of_nature
-		# }
-	# }
-
 }

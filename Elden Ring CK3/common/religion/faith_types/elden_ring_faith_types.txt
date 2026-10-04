@@ -222,8 +222,8 @@ faith_death_prince = {
     }
 }
 
-faith_old_death = {
-	main_rite = old_death_rite
+faith_death = {
+	main_rite = death_rite
 	faith_details = {
 		religion = death_religion
 		color = { 0.9 0.7 0.3 }

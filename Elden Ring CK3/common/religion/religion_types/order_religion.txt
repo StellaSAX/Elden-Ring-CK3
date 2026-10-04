@@ -1,18 +1,23 @@
-﻿destined_death_religion = {
-	family = rf_destined_death
+﻿order_religion = {
+	religion_details = {
+		family = rf_order
+		piety_icon_group = "christian"
+		theocracy_government_type = ecclesiastical_government
+		theocracy_lease_contract_type = ecclesiastical_lease
+	}
 
 	doctrine_background_icon = core_tenet_banner_christian.dds
 	doctrine = pagan_hostility_doctrine
 
 	#Main Group
 	doctrine = doctrine_polytheist
-	doctrine = doctrine_no_head
-	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_temporal_head
+	doctrine = doctrine_gender_equal
 	doctrine = doctrine_pluralism_fundamentalist
-	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_theocracy_lay_clergy
 
 	#Marriage
-	doctrine = doctrine_concubines
+	doctrine = doctrine_monogamy
 	doctrine = doctrine_divorce_allowed
 	doctrine = doctrine_bastardry_legitimization
 	doctrine = doctrine_consanguinity_cousins
@@ -28,32 +33,32 @@
 	doctrine = doctrine_grafting_crime
 	
 	#Affinities
-	doctrine = doctrine_order_affinity_crime
-	doctrine = doctrine_erdtree_affinity_shunned
-	doctrine = doctrine_fire_affinity_accepted
+	doctrine = doctrine_order_affinity_virtuous
+	doctrine = doctrine_erdtree_affinity_virtuous
+	doctrine = doctrine_fire_affinity_shunned
 	doctrine = doctrine_ice_affinity_accepted
 	doctrine = doctrine_glintstone_affinity_accepted
 	doctrine = doctrine_carian_affinity_accepted
-	doctrine = doctrine_night_affinity_accepted
+	doctrine = doctrine_night_affinity_shunned
 	doctrine = doctrine_claymen_affinity_accepted
 	doctrine = doctrine_gravity_affinity_accepted
-	doctrine = doctrine_magma_affinity_accepted
+	doctrine = doctrine_magma_affinity_shunned
 	doctrine = doctrine_lightning_affinity_accepted
 	doctrine = doctrine_dragon_affinity_crime
 	doctrine = doctrine_bestial_affinity_shunned
-	doctrine = doctrine_spiral_affinity_shunned
+	doctrine = doctrine_spiral_affinity_crime
 	doctrine = doctrine_blood_affinity_crime
 	doctrine = doctrine_death_affinity_crime
-	doctrine = doctrine_blackflame_affinity_virtuous
+	doctrine = doctrine_blackflame_affinity_crime
 	doctrine = doctrine_rot_affinity_crime
-	doctrine = doctrine_sleep_affinity_shunned
+	doctrine = doctrine_sleep_affinity_accepted
 	doctrine = doctrine_frenzy_affinity_crime
 
 	#Clerical Functions
-	doctrine = doctrine_clerical_function_recruitment
+	doctrine = doctrine_clerical_function_control
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
-	doctrine = doctrine_clerical_succession_temporal_appointment
+	doctrine = doctrine_clerical_succession_temporal_fixed_appointment
 
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
@@ -64,9 +69,12 @@
 	#Coronation tradition
 	doctrine = doctrine_no_anointment
 	
+	#for them to be friendly with faiths with order syncretism
+	doctrine = special_doctrine_is_golden_faith
+	
 	traits = {
-		virtues = { ambitious brave }
-		sins = { craven lazy }
+		virtues = { brave just }
+		sins = { craven arbitrary }
 	}
 
 	custom_faith_icons = {
@@ -74,9 +82,9 @@
 	}
 
 	holy_order_names = {
-		{ name = holy_order_guardians_of_divinerealm }
-		{ name = holy_order_faithful_of_highgod }
-		{ name = holy_order_warriors_of_the_symbol }
+		{ name = holy_order_knigts_of_marika }
+		{ name = holy_order_knigts_of_the_fingers }
+		{ name = holy_order_knigts_of_order }
 	}
 
 	holy_order_maa = { horse_archers }
@@ -236,31 +244,4 @@
 		GHWName = ghw_great_holy_war
 		GHWNamePlural = ghw_great_holy_wars
 	}
-	
-	piety_icon_group = "christian"
-
-	# faiths = {
-		# faith_godslayer = {
-			# color = { 0.1 0.1 0.1 }
-			# graphical_faith = "catholic_gfx"
-			# icon = faith_godslayer
-			# reformed_icon = faith_godslayer
-
-			# #doctrine = unreformed_faith_doctrine
-
-			# holy_site = leyndell_capital
-			# holy_site = west_altus_divine_tower
-			# holy_site = east_altus_divine_tower
-			# holy_site = liurnia_divine_tower
-			# holy_site = limgrave_divine_tower
-			# holy_site = caelid_divine_tower
-			# holy_site = isolated_divine_tower
-			
-			# doctrine = tenet_legalism
-			# doctrine = tenet_unrelenting_faith
-			# doctrine = tenet_communal_identity
-			# doctrine = tenet_religious_legal_pronouncements
-			
-		# }
-	# }
 }

@@ -2671,7 +2671,7 @@ garris = {
 	prowess = 18
 	health = 10
 	
-	rite = old_death_rite
+	rite = death_rite
 	culture = cul_sellia
 	
 	trait = cynical

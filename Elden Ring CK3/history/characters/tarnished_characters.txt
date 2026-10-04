@@ -864,7 +864,7 @@ fia = {
 	prowess = 7
 	health = 10
 	
-	rite = death_prince_rite
+	rite = duskborn_rite
 	culture = cul_leyndell
 	
 	trait = lustful

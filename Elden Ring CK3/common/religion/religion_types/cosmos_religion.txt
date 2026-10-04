@@ -1,15 +1,18 @@
-﻿defilement_religion = {
-	family = rf_defilement
+﻿cosmos_religion = {
+	religion_details = {
+		family = rf_cosmos
+		piety_icon_group = "christian"
+	}
 
 	doctrine = pagan_hostility_doctrine
 
-	pagan_roots = yes
+	#pagan_roots = yes
 
 	#Main Group
 	doctrine = doctrine_polytheist
 	doctrine = doctrine_no_head
 	doctrine = doctrine_gender_male_dominated
-	doctrine = doctrine_pluralism_fundamentalist
+	doctrine = doctrine_pluralism_pluralistic
 	doctrine = doctrine_theocracy_temporal
 
 	#Marriage
@@ -24,25 +27,25 @@
 	doctrine = doctrine_adultery_women_crime
 	doctrine = doctrine_kinslaying_close_kin_crime
 	doctrine = doctrine_deviancy_crime
-	doctrine = doctrine_witchcraft_shunned
+	doctrine = doctrine_witchcraft_accepted
 	doctrine = doctrine_omen_crime
 	doctrine = doctrine_grafting_crime
 	
 	#Affinities
-	doctrine = doctrine_order_affinity_crime
-	doctrine = doctrine_erdtree_affinity_crime
-	doctrine = doctrine_fire_affinity_accepted
+	doctrine = doctrine_order_affinity_accepted
+	doctrine = doctrine_erdtree_affinity_accepted
+	doctrine = doctrine_fire_affinity_shunned
 	doctrine = doctrine_ice_affinity_accepted
-	doctrine = doctrine_glintstone_affinity_crime
-	doctrine = doctrine_carian_affinity_crime
-	doctrine = doctrine_night_affinity_crime
-	doctrine = doctrine_claymen_affinity_crime
-	doctrine = doctrine_gravity_affinity_shunned
+	doctrine = doctrine_glintstone_affinity_virtuous
+	doctrine = doctrine_carian_affinity_accepted
+	doctrine = doctrine_night_affinity_accepted
+	doctrine = doctrine_claymen_affinity_accepted
+	doctrine = doctrine_gravity_affinity_accepted
 	doctrine = doctrine_magma_affinity_shunned
-	doctrine = doctrine_lightning_affinity_shunned
-	doctrine = doctrine_dragon_affinity_shunned
-	doctrine = doctrine_bestial_affinity_shunned
-	doctrine = doctrine_spiral_affinity_shunned
+	doctrine = doctrine_lightning_affinity_accepted
+	doctrine = doctrine_dragon_affinity_crime
+	doctrine = doctrine_bestial_affinity_accepted
+	doctrine = doctrine_spiral_affinity_accepted
 	doctrine = doctrine_blood_affinity_crime
 	doctrine = doctrine_death_affinity_crime
 	doctrine = doctrine_blackflame_affinity_crime
@@ -237,29 +240,4 @@
 		GHWName = ghw_great_holy_war
 		GHWNamePlural = ghw_great_holy_wars
 	}
-	
-	piety_icon_group = "christian"
-
-	# faiths = {
-		# faith_despair = {
-			# color = { 0.9 0.7 0.7 }
-			# icon = faith_defiled
-			# reformed_icon = faith_defiled
-
-			# #doctrine = unreformed_faith_doctrine
-
-			# holy_site = west_altus_divine_tower
-			# holy_site = east_altus_divine_tower
-			# holy_site = liurnia_divine_tower
-			# holy_site = limgrave_divine_tower
-			# holy_site = caelid_divine_tower
-			# holy_site = isolated_divine_tower
-
-			# #Generic pagan tenets
-			# doctrine = tenet_adorcism
-			# doctrine = tenet_fp3_fedayeen
-			# doctrine = tenet_primordial_curse 
-			# doctrine = tenet_exaltation_of_pain
-		# }
-	# }
 }

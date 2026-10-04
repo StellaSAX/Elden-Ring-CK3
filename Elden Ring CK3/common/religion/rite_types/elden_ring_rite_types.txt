@@ -131,26 +131,10 @@ spiral_rite = {
 		TricksterGodHerHim = CHARACTER_HERHIM_HER
 	}
 }
-death_prince_rite = {
-	name = death_prince_rite
-	desc = death_prince_rite_desc
-	faith = faith_death_prince
-	
-	color = { 0.1 0.1 0.1 }
-	icon = faith_death_prince
-	reformed_icon = faith_death_prince
-
-	tenets = {
-		tenet_sacred_shadows
-		#tenet_unrelenting_faith
-		tenet_fp3_fedayeen
-		tenet_live_in_death
-    }
-}
-old_death_rite = {
-	name = old_death_rite
-	desc = old_death_rite_desc
-	faith = faith_old_death
+death_rite = {
+	name = death_rite
+	desc = death_rite_desc
+	faith = faith_death
 	
 	color = { 0.1 0.1 0.1 }
 	icon = faith_deathbird
@@ -164,6 +148,22 @@ old_death_rite = {
 		tenet_ancestor_worship
 		tenet_fp3_fedayeen
 		tenet_sacred_shadows
+    }
+}
+duskborn_rite = {
+	name = duskborn_rite
+	desc = duskborn_rite_desc
+	faith = faith_death
+	
+	color = { 0.1 0.1 0.1 }
+	icon = faith_death_prince
+	reformed_icon = faith_death_prince
+
+	tenets = {
+		tenet_sacred_shadows
+		#tenet_unrelenting_faith
+		tenet_fp3_fedayeen
+		tenet_live_in_death
     }
 }
 despair_rite = {

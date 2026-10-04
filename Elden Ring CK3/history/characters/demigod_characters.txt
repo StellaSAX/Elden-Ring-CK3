@@ -354,9 +354,9 @@ godwyn = {
 		trait = demigod_tier_4
 	}
 	873.5.14 = {
-		add_trait = incantation_order
-		add_trait = incantation_erdtree
-		effect = {
+		trait = incantation_order
+		trait = incantation_erdtree
+		effect_even_if_dead = {
 			add_trait_xp = { trait = incantation_order value=100 }
 			add_trait_xp = { trait = incantation_erdtree value=100 }
 		}
@@ -421,6 +421,7 @@ morgott = {
 	}
 	1052.3.26 = {
 		add_trait = incantation_erdtree
+
 		effect = {
 			add_trait_xp = { trait = incantation_erdtree value=100 }
 		}
