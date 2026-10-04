@@ -204,16 +204,16 @@ PixelShader =
 			clip( Alpha - AdjustedThreshold );
 		}
 
-		float3 CalculateLighting( float2 MapCoords, in VS_OUTPUT_TREE Input, in float4 Diffuse, in float3 Normal, in float4 Properties, in float SnowHighlight )
+		float3 CalculateLighting( float2 MapCoords, in VS_OUTPUT_TREE Input, in float4 Diffuse, in float3 Normal, in float4 Properties, in float SnowHighlight, EffectIntensities ConditionData )
 		{
 			float FogOfWarAlphaValue = PdxTex2D( FogOfWarAlpha, MapCoords ).r;
 			float3 WorldSpacePos = Input.WorldSpacePos;
 			float3 BorderColor;
 			float BorderPreLightingBlend;
 			float BorderPostLightingBlend;
-			GetBorderColorAndBlendGame( WorldSpacePos.xz , Diffuse.rgb, BorderColor, BorderPreLightingBlend, BorderPostLightingBlend );
-
+			GetBorderColorAndBlendGame( WorldSpacePos.xz , Diffuse.rgb, BorderColor, BorderPreLightingBlend, BorderPostLightingBlend, ConditionData._DivergentRites );
 			LerpBorderColorWithFogOfWarAlphaValue( Diffuse.rgb, FogOfWarAlphaValue, BorderColor, BorderPreLightingBlend );
+
 			float4 HighlightColor = GetHighlightColor( MapCoords );
 			ApplyHighlightColor( Diffuse.rgb, HighlightColor );
 			CompensateWhiteHighlightColor( Diffuse.rgb, HighlightColor, SnowHighlight );
@@ -245,8 +245,9 @@ PixelShader =
 
 			Color = ApplyFogOfWar( Color, WorldSpacePos, FogOfWarAlpha );
 			Color = ApplyMapDistanceFogWithoutFoW( Color, WorldSpacePos );
-
 			Color.rgb = lerp( Color.rgb, BorderColor, BorderPostLightingBlend );
+
+			ApplyDivergentRitesColor( MapCoords, Color, ConditionData );
 
 			// DebugReturn( Color, MaterialProps, LightingProps, EnvironmentMap );
 			return Color;
@@ -363,6 +364,7 @@ PixelShader =
 				//Diffuse.rgb = ApplyDynamicMasksDiffuse( Diffuse.rgb, Normal, ColorMapCoords, SnowHighlight );
 				ApplySnowMaterialMesh( Diffuse.rgb, Properties, Normal, Input.WorldSpacePos.xz, ColorMapCoords, SnowHighlight, 5.0f );
 				Diffuse.a = lerp( Diffuse.a, smoothstep( 0.8f, 0.85f, Diffuse.a ), SnowHighlight );
+
 				if ( _HasTreeDitheringEnabled == 1 )
 				{
 					#ifdef TREE_LOD
@@ -386,7 +388,7 @@ PixelShader =
 				float3 ColorMap = ToLinear( PdxTex2D( ColorTexture, float2( ColorMapCoords.x, 1.0 - ColorMapCoords.y ) ).rgb);
 #endif
 				Diffuse.rgb = Overlay( ColorMap, Diffuse.rgb );
-				float3 Color = CalculateLighting( ColorMapCoords, Input, Diffuse, Normal, Properties, SnowHighlight );
+				float3 Color = CalculateLighting( ColorMapCoords, Input, Diffuse, Normal, Properties, SnowHighlight, ConditionData );
 
 				Color = ApplyCeruleanGlow(Color, Input.WorldSpacePos, 1.0f);
 
@@ -446,10 +448,6 @@ RasterizerState ShadowRasterizerState
 #}
 
 
-
-
-
-
 Effect tree
 {
 	VertexShader = VS_standard
@@ -499,9 +497,74 @@ Effect tree_lod_mapobject
 	VertexShader = VS_mapobject
 	PixelShader = PS_leaf
 	BlendState = BlendStateLod
+	Defines = { "TREE_LOD" }
 }
 
 Effect tree_lodShadow_mapobject
+{
+	VertexShader = VS_jomini_mapobject_shadow
+	PixelShader = PS_jomini_mapobject_shadow_alphablend
+	BlendState = BlendStateShadow
+	RasterizerState = ShadowRasterizerState
+}
+
+
+#SHADOW LIFT
+Effect tree_shadow_lift
+{
+	VertexShader = VS_standard
+	PixelShader = PS_leaf
+	Defines = { "SHADOW_LIFT" }
+}
+Effect tree_shadow_liftShadow
+{
+	VertexShader = VertexPdxMeshStandardShadow
+	PixelShader = PixelPdxMeshAlphaBlendShadow
+	BlendState = BlendStateShadow
+	RasterizerState = ShadowRasterizerState
+}
+
+#Map object shaders
+Effect tree_shadow_lift_mapobject
+{
+	VertexShader = VS_mapobject
+	PixelShader = PS_leaf
+	Defines = { "SHADOW_LIFT" }
+}
+
+Effect tree_shadow_liftShadow_mapobject
+{
+	VertexShader = VS_jomini_mapobject_shadow
+	PixelShader = PS_jomini_mapobject_shadow_alphablend
+	BlendState = BlendStateShadow
+	RasterizerState = ShadowRasterizerState
+}
+
+Effect tree_lod_shadow_lift
+{
+	VertexShader = VS_standard
+	PixelShader = PS_leaf
+	BlendState = BlendStateLod
+	Defines = { "TREE_LOD" "SHADOW_LIFT" }
+}
+Effect tree_lod_shadow_liftShadow
+{
+	VertexShader = VertexPdxMeshStandardShadow
+	PixelShader = PixelPdxMeshAlphaBlendShadow
+	BlendState = BlendStateShadow
+	RasterizerState = ShadowRasterizerState
+}
+
+#Map object shaders
+Effect tree_lod_shadow_lift_mapobject
+{
+	VertexShader = VS_mapobject
+	PixelShader = PS_leaf
+	BlendState = BlendStateLod
+	Defines = { "TREE_LOD" "SHADOW_LIFT" }
+}
+
+Effect tree_lod_shadow_liftShadow_mapobject
 {
 	VertexShader = VS_jomini_mapobject_shadow
 	PixelShader = PS_jomini_mapobject_shadow_alphablend
