@@ -239,10 +239,10 @@ bayle_rite = {
 		tenet_bayle_dragon
     }
 }
-giant_rite = {
-	name = giant_rite
-	desc = giant_rite_desc
-	faith = faith_giant
+giants_flame_rite = {
+	name = giants_flame_rite
+	desc = giants_flame_rite_desc
+	faith = faith_fell_god
 	
 	color = { 0.9 0.2 0.2 }
 	icon = faith_fell_sus
@@ -261,7 +261,7 @@ giant_rite = {
 fire_monk_rite = {
 	name = fire_monk_rite
 	desc = fire_monk_rite_desc
-	faith = faith_fire_monk
+	faith = faith_fell_god
 	
 	color = { 0.9 0.2 0.2 }
 	icon = faith_fell

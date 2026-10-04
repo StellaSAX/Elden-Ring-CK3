@@ -379,8 +379,8 @@ faith_bayle_dragon = {
     }
 }
 
-faith_giant = {
-	main_rite = fire_monk_rite
+faith_fell_god = {
+	main_rite = giants_flame_rite
 	faith_details = {
 		religion = giant_religion
 		color = { 0.9 0.7 0.3 }
