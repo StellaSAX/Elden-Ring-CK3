@@ -196,6 +196,7 @@
 		ReligiousText2 = death_religious_text_2
 		ReligiousText3 = death_religious_text_3
 		ReligiousHeadName = death_religious_head_title_name
+		ReligiousHeadNameFemale = death_religious_head_title_name_female
 		ReligiousHeadTitleName = death_religious_head_title
 		DevoteeMale = death_devotee_male
 		DevoteeMalePlural = death_devotee_male_plural

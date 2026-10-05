@@ -196,6 +196,7 @@
 		ReligiousText2 = formless_religious_text_2
 		ReligiousText3 = formless_religious_text_3
 		ReligiousHeadName = formless_religious_head_title
+		ReligiousHeadNameFemale = formless_religious_head_title_female
 		ReligiousHeadTitleName = formless_religious_head_title_name
 		DevoteeMale = formless_devotee_male
 		DevoteeMalePlural = formless_devotee_male_plural

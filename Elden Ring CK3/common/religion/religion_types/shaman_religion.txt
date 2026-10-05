@@ -196,6 +196,7 @@
 		ReligiousText2 = shaman_religious_text_2
 		ReligiousText3 = shaman_religious_text_3
 		ReligiousHeadName = shaman_religious_head_title
+		ReligiousHeadNameFemale = shaman_religious_head_title_female
 		ReligiousHeadTitleName = shaman_religious_head_title_name
 		DevoteeMale = shaman_devotee_male
 		DevoteeMalePlural = shaman_devotee_male_plural

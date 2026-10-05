@@ -26,6 +26,7 @@
  fell_religious_text_2:0 "$fell_religious_text$"  
  fell_religious_text_3:0 "$fell_religious_text$"
  fell_religious_head_title:0 "Chief Gardianship"
+ fell_religious_head_title_female:0 "Chief Gardianship"
  fell_religious_head_title_name:0 "Chief Guardian"
  fell_devotee_male:0 "Fire Monk"
  fell_devotee_male_plural:0 "Fire Monks"

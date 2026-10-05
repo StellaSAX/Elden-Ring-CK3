@@ -195,6 +195,7 @@
 		ReligiousText2 = faith_frenzy_religious_text
 		ReligiousText3 = faith_frenzy_religious_text
 		ReligiousHeadName = faith_frenzy_religious_head_title
+		ReligiousHeadNameFemale = faith_frenzy_religious_head_title_female
 		ReligiousHeadTitleName = faith_frenzy_religious_head_title_name
 		DevoteeMale = faith_frenzy_devotee_male
 		DevoteeMalePlural = faith_frenzy_devotee_male_plural

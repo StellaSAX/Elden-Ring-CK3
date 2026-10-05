@@ -26,6 +26,7 @@
  death_religious_text_2:0 "elegy"  
  death_religious_text_3:0 "scroll"
  death_religious_head_title:0 "Lordship of the Dead"
+ death_religious_head_title_female:0 "Lordship of the Dead"
  death_religious_head_title_name:0 "Lord of the Dead"
  death_devotee_male:0 "death follower"
  death_devotee_male_plural:0 "death followers"

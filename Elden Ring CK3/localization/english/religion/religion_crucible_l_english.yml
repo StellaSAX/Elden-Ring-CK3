@@ -25,6 +25,7 @@
  crucible_religious_text_2:0 "$crucible_religious_text$" # Optional translation alt
  crucible_religious_text_3:0 "$crucible_religious_text$" # Optional translation alt
  crucible_religious_head_title:0 "Pope" #Leaving this as default as there is no religious head
+ crucible_religious_head_title_female:0 "Pope"
  crucible_religious_head_title_name:0 "Papacy"
  crucible_devotee_male:0 "Crucible Follower"
  crucible_devotee_male_plural:0 "Crucible Followers"

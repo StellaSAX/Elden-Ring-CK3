@@ -195,6 +195,7 @@
 		ReligiousText2 = fell_religious_text_2
 		ReligiousText3 = fell_religious_text_3
 		ReligiousHeadName = fell_religious_head_title
+		ReligiousHeadNameFemale = fell_religious_head_title_female
 		ReligiousHeadTitleName = fell_religious_head_title_name
 		DevoteeMale = fell_devotee_male
 		DevoteeMalePlural = fell_devotee_male_plural
