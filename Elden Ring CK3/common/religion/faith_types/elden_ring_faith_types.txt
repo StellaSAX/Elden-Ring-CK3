@@ -508,6 +508,7 @@ faith_golden = {
 		icon = faith_golden_order
 		reformed_icon = faith_golden_order
 		graphical_faith = "pagan_gfx"
+		#religious_head = k_golden_order
 		head_of_rite = k_golden_order
 	}
 

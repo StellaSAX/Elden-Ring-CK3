@@ -8,9 +8,15 @@
 
 k_golden_order = {
 	color = { 242 245 66 }
-	capital = c_R41G168B113
+	definite_form = yes
+	capital = c_elden_throne
 	landless = yes
+	allow_domicile = no
+	can_use_nomadic_naming = no
 	destroy_on_succession = yes
-	always_follows_primary_heir = yes
+	always_follows_primary_heir = no
+	no_automatic_claims = yes
 	ruler_uses_title_name = no
+	
+	ai_primary_priority = { add = @never_primary_score }
 }

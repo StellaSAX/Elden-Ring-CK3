@@ -36,6 +36,7 @@
  faith_frenzy_religious_text_2:0 "$faith_frenzy_religious_text$" # Optional translation alt
  faith_frenzy_religious_text_3:0 "$faith_frenzy_religious_text$" # Optional translation alt
  faith_frenzy_religious_head_title:0 "Chosen of the Three Fingers"
+ faith_frenzy_religious_head_title_female:0 "Chosen of the Three Fingers"
  faith_frenzy_religious_head_title_name:0 "Lordship of Frenzy"
  faith_frenzy_devotee_male:0 "frenzied servant"
  faith_frenzy_devotee_male_plural:0 "frenzied servants"

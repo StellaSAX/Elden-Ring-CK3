@@ -196,6 +196,7 @@
 		ReligiousText2 = serpent_religious_text
 		ReligiousText3 = serpent_religious_text
 		ReligiousHeadName = serpent_religious_head_title_name
+		ReligiousHeadNameFemale = serpent_religious_head_title_name_female
 		ReligiousHeadTitleName = serpent_religious_head_title
 		DevoteeMale = serpent_devotee_male
 		DevoteeMalePlural = serpent_devotee_male_plural

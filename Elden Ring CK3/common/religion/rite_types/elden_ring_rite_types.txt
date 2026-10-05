@@ -154,6 +154,7 @@ duskborn_rite = {
 	name = duskborn_rite
 	desc = duskborn_rite_desc
 	faith = faith_death
+	#founder = d_duskborn
 	
 	color = { 0.1 0.1 0.1 }
 	icon = faith_death_prince
@@ -358,9 +359,9 @@ golden_rite = {
 	name = golden_rite
 	desc = golden_rite_desc
 	faith = faith_golden
+	#founder = k_golden_order
 	
 	color = { 0.9 0.9 0.1 }
-	#religious_head = k_golden_order
 	graphical_faith = "catholic_gfx"
 	icon = faith_golden_order
 	reformed_icon = faith_golden_order

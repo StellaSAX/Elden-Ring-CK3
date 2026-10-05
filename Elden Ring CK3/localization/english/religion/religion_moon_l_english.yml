@@ -24,8 +24,9 @@
  moon_religious_text:0 "tomes"
  moon_religious_text_2:0 "lessons"  
  moon_religious_text_3:0 "studies"
- moon_religious_head_title:0 "Glimpser"
- moon_religious_head_title_name:0 "Glimpsary"
+ moon_religious_head_title:0 "Glimpser" #bruh
+ moon_religious_head_title_female:0 "Glimpser"
+ moon_religious_head_title_name:0 "Glimpsary" #also bruh
  moon_devotee_male:0 "sorcerer"
  moon_devotee_male_plural:0 "sorcerers"
  moon_devotee_female:0 "sorceress"
