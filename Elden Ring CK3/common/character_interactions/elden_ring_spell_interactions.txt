@@ -92,6 +92,11 @@
 				target = scope:puppet_or_actor
 			}
 		}
+		scope:puppet_or_actor = {
+			stress_and_fulfillment_impact = {
+				compassionate = minor_stress_impact_loss
+			}
+		}
 	}
 	
 	on_decline = {
@@ -306,6 +311,293 @@ heal_wounds_self_interaction = {
 			scope:puppet_or_actor = {
 				is_wounded = yes
 			}
+		}
+	}
+}
+
+cure_disease_interaction = {
+	category = interaction_category_spell
+	ai_maybe = yes
+	ai_min_reply_days = 0
+	ai_max_reply_days = 1
+	popup_on_receive = yes
+	icon = cure_disease
+	
+	ai_targets = {
+		ai_recipients = courtiers
+	}
+	ai_target_quick_trigger = {
+		adult = yes
+	}
+	ai_frequency_by_tier = {
+		barony = 0
+		county = 120
+		duchy = 24
+		kingdom = 12
+		empire = 12
+		hegemony = 12
+	}
+
+	desc = cure_disease_interaction_desc
+	
+	is_shown = {
+		scope:recipient != scope:puppet_or_actor
+		scope:puppet_or_actor = {
+			has_trait_xp = { trait = incantation_two_fingers track = incantation_two_fingers value >= 40 }
+		}
+		
+		scope:recipient = {
+			location = scope:puppet_or_actor.location
+			#is_courtier_of = scope:puppet_or_actor
+			#is_diseased = yes
+		}
+	}
+	
+	is_valid_showing_failures_only = {
+		scope:recipient = {
+			is_diseased = yes
+			NOT = { has_character_flag = cure_disease_cooldown }
+
+			#custom_tooltip = {
+			#	text = interaction_cure_disease_tooltip
+			#	scope:recipient = {
+			#		is_diseased = yes
+			#	}
+			#}
+		}
+	}
+	
+	ai_potential = {
+		is_adult = yes
+		has_trait_xp = { trait = incantation_two_fingers track = incantation_two_fingers value >= 40 }
+	}
+
+	cost = {
+		prestige = 100
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			if = {
+				limit = {
+					has_trait = ill
+				}
+				remove_trait = ill
+			}
+			if = {
+				limit = {
+					has_trait = pneumonic
+				}
+				remove_trait = pneumonic
+			}
+			if = {
+				limit = {
+					has_trait = great_pox
+				}
+				remove_trait = great_pox
+			}
+			if = {
+				limit = {
+					has_trait = lovers_pox
+				}
+				remove_trait = lovers_pox
+			}
+			if = {
+				limit = {
+					has_trait = leper
+				}
+				remove_trait = leper
+			}
+			if = {
+				limit = {
+					has_trait = gout_ridden
+				}
+				remove_trait = gout_ridden
+			}
+			if = {
+				limit = {
+					has_trait = consumption
+				}
+				remove_trait = consumption
+			}
+			if = {
+				limit = {
+					has_trait = cancer
+				}
+				remove_trait = cancer
+			}
+			if = {
+				limit = {
+					has_trait = typhus
+				}
+				remove_trait = typhus
+			}
+			if = {
+				limit = {
+					has_trait = bubonic_plague
+				}
+				remove_trait = bubonic_plague
+			}
+			if = {
+				limit = {
+					has_trait = smallpox
+				}
+				remove_trait = smallpox
+			}
+			if = {
+				limit = {
+					has_trait = measles
+				}
+				remove_trait = measles
+			}
+			if = {
+				limit = {
+					has_trait = dysentery
+				}
+				remove_trait = dysentery
+			}
+			if = {
+				limit = {
+					has_trait = ergotism
+				}
+				remove_trait = ergotism
+			}
+			if = {
+				limit = {
+					has_trait = sickly
+				}
+				remove_trait = sickly
+			}
+			if = {
+				limit = {
+					has_trait = scarlet_rot
+				}
+				remove_trait = scarlet_rot
+			}
+			add_opinion = {
+				modifier = cured_me_opinion
+				target = scope:puppet_or_actor
+			}
+		}
+		scope:puppet_or_actor = {
+			stress_and_fulfillment_impact = {
+				compassionate = minor_stress_impact_loss
+			}
+		}
+	}
+	
+	on_decline = {
+		scope:puppet_or_actor = {
+			send_interface_toast = {
+				type = event_toast_effect_bad
+				title = decline_curing_notification
+				right_icon = scope:recipient
+			}
+		}
+		scope:recipient = {
+			add_character_flag = { flag = cure_disease_cooldown years = 1 }
+			add_opinion = {
+				modifier = rejected_curing_opinion
+				target = scope:puppet_or_actor
+			}
+		}
+	}
+	
+	ai_will_do = {
+		base = 0
+
+		modifier = {
+			add = 40
+			scope:puppet_or_actor = {
+				ai_compassion > 50
+			}
+		}
+		modifier = {
+			add = 70
+			scope:recipient = {
+				is_close_family_of = scope:puppet_or_actor
+			}
+		}
+		modifier = {
+			add = 20
+			scope:puppet_or_actor = {
+				ai_honor > 20
+			}
+		}
+		modifier = {
+			add = -20
+			scope:puppet_or_actor = {
+				ai_honor < -10
+			}
+		}
+		modifier = {
+			add = -20
+			scope:puppet_or_actor = {
+				ai_compassion < -10
+			}
+		}
+		modifier = {
+			add = 80
+			scope:puppet_or_actor = {
+				has_relation_lover = scope:recipient
+			}
+		}
+		modifier = {
+			add = 100
+			scope:puppet_or_actor = {
+				has_relation_soulmate = scope:recipient
+			}
+		}
+		modifier = {
+			add = 50
+			scope:puppet_or_actor = {
+				has_relation_friend = scope:recipient
+			}
+		}
+		modifier = {
+			add = 60
+			scope:puppet_or_actor = {
+				has_relation_best_friend = scope:recipient
+			}
+		}
+		modifier = {
+			add = -40
+			scope:puppet_or_actor = {
+				has_relation_rival = scope:recipient
+				NOT = { has_relation_nemesis = scope:recipient }
+			}
+		}
+		modifier = {
+			add = -80
+			scope:puppet_or_actor = {
+				has_relation_nemesis = scope:recipient
+			}
+		}
+	}
+	
+	ai_accept = {
+		base = 0
+		modifier = {
+			add = 100
+			scope:recipient = {
+				is_diseased = yes
+			}
+			desc = interaction_cure_disease_accept
+		}
+		modifier = {
+			add = -30
+			scope:recipient = {
+				has_relation_rival = scope:puppet_or_actor
+				NOT = { has_relation_nemesis = scope:puppet_or_actor }
+			}
+			desc = interaction_cure_disease_rival
+		}
+		modifier = {
+			add = -60
+			scope:recipient = {
+				has_relation_nemesis = scope:puppet_or_actor
+			}
+			desc = interaction_cure_disease_nemesis
 		}
 	}
 }

@@ -1089,7 +1089,7 @@
 }
 # R238G66B17
 1985 = {
-	culture = cul_mistwood
+	culture = cul_limgrave
 	rite = golden_rite
 	holding = none
 }
@@ -1553,25 +1553,25 @@
 ### c_R170G151B243
 # R255G243B243
 1501 = {
-	culture = cul_mistwood
+	culture = cul_limgrave
 	rite = golden_rite
 	holding = castle_holding
 }
 # R230G192B210
 1517 = {
-	culture = cul_mistwood
+	culture = cul_limgrave
 	rite = golden_rite
 	holding = none
 }
 # R105G179B172
 540 = {
-	culture = cul_mistwood
+	culture = cul_limgrave
 	rite = golden_rite
 	holding = none
 }
 # R143G20B135
 381 = {
-	culture = cul_mistwood
+	culture = cul_limgrave
 	rite = golden_rite
 	holding = none
 }
@@ -1580,7 +1580,7 @@
 ### c_limgrave_uppyhill
 # R135G173B183
 1798 = {
-	culture = cul_mistwood
+	culture = cul_limgrave
 	rite = golden_rite
 	holding = castle_holding
 }
@@ -1592,7 +1592,7 @@
 }
 # limgrave_barony_58
 362 = {
-	culture = cul_mistwood
+	culture = cul_limgrave
 	rite = golden_rite
 	holding = none
 }
@@ -1601,13 +1601,13 @@
 ### c_limgus_minus
 # R13G129B124
 2514 = {
-	culture = cul_mistwood
+	culture = cul_limgrave
 	rite = golden_rite
 	holding = castle_holding
 }
 # limgrave_barony_59
 1610 = {
-	culture = cul_mistwood
+	culture = cul_limgrave
 	rite = golden_rite
 	holding = none
 }
@@ -1674,6 +1674,12 @@
 	rite = golden_rite
 	holding = none
 }
+# summonwatah_1
+2954 = {
+	culture = cul_limgrave
+	rite = golden_rite
+	holding = none
+}
 
 
 ### c_R135G144B115
@@ -1693,7 +1699,7 @@
 1006 = {
 	culture = cul_limgrave
 	rite = golden_rite
-	holding = none
+	holding = castle_holding
 }
 # limgrave_barony_121
 977 = {

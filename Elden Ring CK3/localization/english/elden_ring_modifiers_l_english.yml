@@ -21,4 +21,6 @@
  veteran_of_the_shattering_desc:0 "This character fought during the shattering wars and survived, gaining great expertise in the art of war."
  
  healed_me_opinion:0 "Healed"
+ cured_me_opinion:0 "Cured"
  rejected_healing_opinion:0 "Rejected Healing"
+ rejected_curing_opinion:0 "Rejected Curing"

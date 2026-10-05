@@ -17,7 +17,8 @@ sea_zones = RANGE { 2724 2824 }
 sea_zones = RANGE { 2828 2851 }
 sea_zones = RANGE { 2853 2868 }
 sea_zones = RANGE { 2870 2905 }
-sea_zones = RANGE { 2907 3058 }
+sea_zones = RANGE { 2907 2953 }
+sea_zones = RANGE { 2955 3058 }
 sea_zones = LIST { 2496 2497 2500 2826 }
 
 

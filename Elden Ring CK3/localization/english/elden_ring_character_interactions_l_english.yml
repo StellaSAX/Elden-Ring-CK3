@@ -8,8 +8,17 @@
  interaction_heal_wounds_accept:0 "[recipient.GetShortUINameNoTooltip|U] is injured"
  interaction_heal_wounds_rival:0 "You are [recipient.GetShortUINameNoTooltip|U]'s rival"
  interaction_heal_wounds_nemesis:0 "You are [recipient.GetShortUINameNoTooltip|U]'s nemesis"
+ 
+ interaction_cure_disease_self_tooltip:0 "I am not diseased"
+ interaction_cure_disease_tooltip:0 "[recipient.GetShortUIName|U] is not diseased"
+ interaction_cure_disease_accept:0 "[recipient.GetShortUINameNoTooltip|U] is diseased"
+ interaction_cure_disease_rival:0 "You are [recipient.GetShortUINameNoTooltip|U]'s rival"
+ interaction_cure_disease_nemesis:0 "You are [recipient.GetShortUINameNoTooltip|U]'s nemesis"
+ 
  decline_healing_notification:1 "[recipient.GetShortUINameNoTooltip] refused to be healed"
+ decline_curing_notification:1 "[recipient.GetShortUINameNoTooltip] refused to be cured"
  heal_wounds_cooldown:1 "[recipient.GetShortUINameNoTooltip] has refused healing"
+ cure_disease_cooldown:1 "[recipient.GetShortUINameNoTooltip] has refused curing"
 
  cut_omen_horns_interaction:0 "Excise Omen Horns"
  cut_omen_horns_interaction_desc:0 "Their horns are more trouble than its worth, have them excised."
@@ -68,6 +77,12 @@
  
  heal_wounds_self_interaction:0 "Heal Wounds"
  heal_wounds_self_interaction_desc:0 "Heal any wounds that I have suffered."
+ 
+ cure_disease_interaction:0 "Cure Disease"
+ cure_disease_interaction_desc:0 "Cure any diseases that [recipient.GetShortUINameNoTooltip|U] has suffered."
+ 
+ cure_disease_self_interaction:0 "Cure Disease"
+ cure_disease_self_interaction_desc:0 "Cure any diseases that I have suffered."
 
  death_grafted:0 "was grafted"
  death_grafted_killer:0 "was grafted by [TARGET_CHARACTER.GetUIName]"

@@ -36,7 +36,7 @@
 		
 		scope:puppet_or_actor = {
 			if = {
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					just = medium_stress_impact_gain
 					compassionate = medium_stress_impact_gain
 				}

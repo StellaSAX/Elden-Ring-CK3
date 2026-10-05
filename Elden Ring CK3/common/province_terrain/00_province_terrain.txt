@@ -2497,6 +2497,7 @@ default_coastal_sea=coastal_sea
 2558=mountains
 2559=bog_poison
 2560=desert
+2954=plains
 3059=mountains
 3060=mountains
 3061=mountains
