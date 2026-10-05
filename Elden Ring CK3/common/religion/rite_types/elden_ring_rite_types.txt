@@ -10,10 +10,9 @@
 		unreformed_faith_doctrine
 	}
 	tenets = {
-        tenet_astrology
+        tenet_struggle_submission
         tenet_ancestor_worship
-		tenet_sanctity_of_nature
-		#tenet_children_of_the_badlands #what is this? i can't find it anywhere else, before the update it was a doctrine
+		tenet_children_of_the_badlands
     }
 }
 academy_rite = {
@@ -427,9 +426,8 @@ unalloyed_rite = {
 	reformed_icon = faith_unalloyed
 
 	tenets = {
-		tenet_rite
 		tenet_pacifism
-		#tenet_pastoral_isolation
+		tenet_pastoral_isolation
 		tenet_unalloyed_order
     }
 	doctrines = {
@@ -518,7 +516,8 @@ messmer_rite = {
 	tenets = {
 		tenet_warmonger
 		#tenet_unrelenting_faith
-		tenet_sacred_destruction		
+		#tenet_sacred_destruction
+		tenet_golden_order
 		tenet_golden_exile
     }
 	doctrines = {
