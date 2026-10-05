@@ -2042,36 +2042,47 @@ doctrine_frenzy_affinity_virtuous = {
 #######################################
 
 #SPECIAL
-is_dragon_faith = {
-	group = "special"
+special_doctrine_is_dragon_faith = {
+	doctrine_group_type = is_dragon_faith
 	
-	is_available_on_create = {
-		has_doctrine = special_doctrine_is_dragon_faith
+	parameters = {
+		dragon_syncretic_recipient
 	}
 
-	special_doctrine_is_dragon_faith = {
+	special_parameters = {
 		parameters = {
-			# Since doctrines cannot modify other faith's views of us, only our view of others, all Christian faiths are given this special doctrine which makes them friendlier to Faiths with the Christian Syncretism tenet.
-			hostility_override_tenet_dragon_cult = 1
-			dragon_syncretic_recipient_opinion_active = yes
-			opinion_of_dragon_syncretic_actor_opinion_active = 30
+			hostility_level_override = {
+				tenet_dragon_cult = astray
+			}
+		}
+		parameter_opinion_override = {
+			dragon_syncretic_actor = 30
 		}
 	}
 }
 
-is_golden_faith = {
-	group = "special"
+special_doctrine_is_golden_faith = {
+	doctrine_group_type = is_golden_faith
 	
-	is_available_on_create = {
-		has_doctrine = special_doctrine_is_golden_faith
+	parameters = {
+		golden_syncretic_recipient
 	}
 
-	special_doctrine_is_golden_faith = {
+	special_parameters = {
 		parameters = {
-			# Since doctrines cannot modify other faith's views of us, only our view of others, all Christian faiths are given this special doctrine which makes them friendlier to Faiths with the Christian Syncretism tenet.
-			hostility_override_tenet_golden_order_syncretism = 1
-			golden_syncretic_recipient_opinion_active = yes
-			opinion_of_golden_syncretic_actor_opinion_active = 30
+			hostility_level_override = {
+				tenet_golden_order = astray
+			}
+			hostility_level_override = {
+				tenet_golden_order_syncretism = astray
+			}
+			hostility_level_override = {
+				tenet_destroy_golden_order = evil
+			}
+		}
+		parameter_opinion_override = {
+			golden_syncretic_actor = 30
+			enemy_of_order_religion = -30
 		}
 	}
 }

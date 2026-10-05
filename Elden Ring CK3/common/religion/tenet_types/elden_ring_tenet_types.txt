@@ -1,6 +1,4 @@
-﻿
-
-tenet_primordial_curse = {
+﻿tenet_primordial_curse = {
 	icon = tenet_primordial_curse
 	piety_cost = {
 		if = {
@@ -17,22 +15,26 @@ tenet_primordial_curse = {
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
-
-	is_shown = {
-		#OR = {
-		#	religion_tag = crucible_religion_elden_ring
-		#}
-	}
-
+	divergence_multiplier = 5
 	can_pick = {
+		has_doctrine = doctrine_erdtree_affinity_virtuous
 		custom_description = {
 			text = incompatible_tenet_golden_order_desc
 			NOT = { doctrine:tenet_golden_order = { is_in_list = selected_doctrines } }	
 		}
 	}
-
+	
+	divergence_multiplier = 1.5
+	
 	parameters = {
-		blessed_by_the_crucible = yes #for giving opinion bonuses to traits that could be considered "deformities"
+		blessed_by_the_crucible #for giving opinion bonuses to traits that could be considered "deformities"
+	}
+	
+	personal_tenet_parameters = {
+		tenet_unrelenting_faith_blademaster_trait
+		clergy_can_fight_personal
+		tenet_unrelenting_faith_sparring
+		tenet_sanctity_of_nature_hike
 	}
 	
 	character_modifier = {
@@ -45,7 +47,13 @@ tenet_primordial_curse = {
 	}
 	
 	traits = {
-		virtues = { crucible_knight scaly }
+		virtues = {
+			crucible_knight = { weight = 20 scale = 1 }
+			scaly = { weight = 10 scale = 1 }
+		}
+		sins = {
+			
+		}
 	}
 }
 
@@ -66,34 +74,48 @@ tenet_great_spiral = {
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
-
-	is_shown = {
-		#OR = {
-		#	religion_tag = crucible_religion_elden_ring
-		#}
-	}
-
+	divergence_multiplier = 5
 	can_pick = {
+		has_doctrine = doctrine_spiral_affinity_virtuous
 		custom_description = {
 			text = incompatible_tenet_golden_order_desc
 			NOT = { doctrine:tenet_golden_order = { is_in_list = selected_doctrines } }	
 		}
 	}
+	
+	special_parameters = {
+		fervor_per_holy_site = 0.05
+	}
 
 	parameters = {
-	
+		pilgrimage_decision_active
+		sanctify_artifacts_weapons
+		clergy_can_fight
 	}
 	
+	
+	personal_tenet_parameters = {
+		clergy_can_fight_personal
+	}
+	personal_tenet_modifier = {
+		knight_effectiveness_mult = 0.3
+		dread_gain_mult = 0.2
+		same_faith_opinion = 5
+	}
 	character_modifier = {
 		same_faith_opinion = 5
-		dread_gain_mult = 0.5
+		dread_gain_mult = 0.2
 		health = 0.25
-		
-		knight_effectiveness_mult = 0.3
 	}
 	
 	traits = {
-		virtues = { horned_warrior divine_beast_warrior }
+		virtues = {
+			horned_warrior = { weight = 15 scale = 1 }
+			divine_beast_warrior = { weight = 25 scale = 1 }
+		}
+		sins = {
+			cynical = { weight = 25 scale = 2 }
+		}
 	}
 }
 
@@ -109,13 +131,13 @@ tenet_ancient_dragon = {
 		}
 	}
 
-	is_shown = {
-		#OR = {
-		#	religion_tag = crucible_religion_elden_ring
-		#}
-	}
-
 	can_pick = {
+		OR = {
+			has_doctrine = doctrine_lightning_affinity_virtuous
+			has_doctrine = doctrine_lightning_affinity_accepted
+			has_doctrine = doctrine_dragon_affinity_virtuous
+			has_doctrine = doctrine_dragon_affinity_accepted
+		}
 		custom_description = {
 			text = incompatible_tenet_bayle_desc
 			NOT = { doctrine:tenet_bayle_dragon = { is_in_list = selected_doctrines } }	
@@ -125,9 +147,16 @@ tenet_ancient_dragon = {
 			NOT = { doctrine:tenet_golden_order = { is_in_list = selected_doctrines } }	
 		}
 	}
-
+	divergence_multiplier = 5
 	parameters = {
+		tenet_esotericism_mystic_education
+		sanctify_artifacts_occult
+		legalism_reduced_faction_virtues
+	}
 	
+	personal_tenet_parameters = {
+		tenet_unrelenting_faith_sparring
+		tenet_pentarchy_development_growth_in_holy_sites
 	}
 	
 	character_modifier = {
@@ -138,9 +167,14 @@ tenet_ancient_dragon = {
 	}
 	
 	traits = {
-		virtues = { ancient_dragon_elden_ring drake_knight }
-		sins = { lesser_dragon_elden_ring }
+		virtues = {
+			drake_knight = { weight = 20 scale = 1 }
+		}
+		sins = {
+			lesser_dragon_elden_ring = { weight = 20 scale = 1 }
+		}
 	}
+	
 }
 
 tenet_bayle_dragon = {
@@ -155,12 +189,6 @@ tenet_bayle_dragon = {
 		}
 	}
 
-	is_shown = {
-		#OR = {
-		#	religion_tag = crucible_religion_elden_ring
-		#}
-	}
-
 	can_pick = {
 		custom_description = {
 			text = incompatible_tenet_ancient_dragon_desc
@@ -171,9 +199,19 @@ tenet_bayle_dragon = {
 			NOT = { doctrine:tenet_golden_order = { is_in_list = selected_doctrines } }	
 		}
 	}
-
+	divergence_multiplier = 5
 	parameters = {
+		conquest_cb_enabled
+		invasion_cb_enabled
+	}
 	
+	personal_tenet_parameters = {
+		tenet_pursuit_of_power_war_victory_fulfillment
+	}
+	
+	personal_tenet_modifier = {
+		monthly_piety_gain_per_knight_mult = 0.01
+		levy_reinforcement_rate_same_faith = 0.25
 	}
 	
 	character_modifier = {
@@ -184,9 +222,14 @@ tenet_bayle_dragon = {
 	}
 	
 	traits = {
-		virtues = { lesser_dragon_elden_ring }
-		sins = { drake_knight }
+		virtues = { 
+			lesser_dragon_elden_ring = { weight = 20 scale = 1 }
+		}
+		sins = { 
+			drake_knight = { weight = 20 scale = 1 }
+		}
 	}
+	
 }
 
 tenet_dragon_cult = {
@@ -200,26 +243,46 @@ tenet_dragon_cult = {
 			value = faith_tenet_cost_high
 		}
 	}
-
-	is_shown = {
-		#OR = {
-		#	religion_tag = crucible_religion_elden_ring
-		#}
+	
+	can_pick_as_personal_tenet = {
+		NOT = {
+			faith = { religion = religion:dragon_religion }
+		}
 	}
-
+	divergence_multiplier = 3
 	can_pick = {
+		OR = {
+			has_doctrine = doctrine_lightning_affinity_virtuous
+			has_doctrine = doctrine_lightning_affinity_accepted
+		}
 		custom_description = {
 			text = compatible_tenet_golden_order_desc
-			doctrine:tenet_golden_order = { is_in_list = selected_doctrines }
+			tenet:tenet_golden_order = { is_in_list = selected_doctrines }
+		}
+		custom_description = {
+			text = incompatible_tenet_golden_order_desc
+			NOT = { tenet:tenet_ancient_dragon = { is_in_list = selected_doctrines } }	
+		}
+		custom_description = {
+			text = incompatible_tenet_golden_order_desc
+			NOT = { tenet:tenet_bayle_dragon = { is_in_list = selected_doctrines } }	
 		}
 	}
 
+	personal_tenet_parameters = {
+		tenet_syncretism_invite_religious_exiles
+		tenet_syncretism_county_bonus
+	}
 	parameters = {
-		hostility_override_special_doctrine_is_dragon_faith = 1
-		#For loc:
-		is_dragon_faith_bilateral_loc_override = 1
-		dragon_syncretic_actor_opinion_active = yes
-		opinion_of_dragon_syncretic_recipient_opinion_active = 30 #Sync this to syncretic_mutual_opinion_bonus_value
+		dragon_syncretic_actor
+	}
+	special_parameters = {
+		hostility_level_override = {
+			special_doctrine_is_dragon_faith = astray
+		}
+		parameter_opinion_override = {
+			dragon_syncretic_recipient = 30
+		}
 	}
 	
 	character_modifier = {
@@ -229,7 +292,11 @@ tenet_dragon_cult = {
 	}
 	
 	traits = {
-		virtues = { ancient_dragon_elden_ring }
+		virtues = { 
+			ancient_dragon_elden_ring = { weight = 15 scale = 1 }
+			incantation_dragon_cult = { weight = 15 scale = 1 }
+			incantation_dragon_communion = { weight = 15 scale = 1 }
+		}
 	}
 }
 
@@ -245,33 +312,49 @@ tenet_golden_order = {
 		}
 	}
 
-	is_shown = {
-		#OR = {
-		#	religion_tag = crucible_religion_elden_ring
-		#}
-	}
-
 	can_pick = {
+		has_doctrine = doctrine_order_affinity_virtuous
 		custom_description = {
 			text = incompatible_tenet_primordial_desc
 			NOT = { doctrine:tenet_primordial_curse = { is_in_list = selected_doctrines } }	
 		}
 	}
-
+	divergence_multiplier = 5
 	parameters = {
-		erdtree_incantation_bonuses = yes
-		order_incantation_bonuses = yes
+		erdtree_incantation_bonuses
+		order_incantation_bonuses
+		golden_syncretic_actor
+		tenet_pentarchy_holy_site_prosperity
+	}
+	special_parameters = {
+		hostility_level_override = {
+			special_doctrine_is_golden_faith = astray
+		}
+		parameter_opinion_override = {
+			golden_syncretic_recipient = 30
+		}
 	}
 	
 	character_modifier = {
 		defender_advantage = 10
 		hard_casualty_modifier = -0.1
 	}
+	personal_tenet_parameters = {
+		unlock_voluntary_laampdom_faith
+		tenet_unrelenting_faith_sparring
+		tenet_pentarchy_development_growth_in_holy_sites
+	}
 	
 	traits = {
-		virtues = { order_affinity golden_knight }
-		sins = { incantation_crucible }
+		virtues = { 
+			order_affinity = { weight = 15 scale = 1 }
+			golden_knight = { weight = 15 scale = 1 }
+		}
+		sins = { 
+			incantation_crucible = { weight = 10 scale = 1 }
+		}
 	}
+	
 }
 
 tenet_unalloyed_order = {
@@ -286,21 +369,26 @@ tenet_unalloyed_order = {
 		}
 	}
 
-	is_shown = {
-		#OR = {
-		#	religion_tag = crucible_religion_elden_ring
-		#}
-	}
-
 	can_pick = {
+		has_doctrine = doctrine_order_affinity_virtuous
 		custom_description = {
 			text = incompatible_tenet_primordial_desc
 			NOT = { doctrine:tenet_primordial_curse = { is_in_list = selected_doctrines } }	
 		}
 	}
-
+	divergence_multiplier = 3
 	parameters = {
+		sanctioned_false_conversion
+		sway_scheme_better
+		better_study_scheme
+		sanctify_artifacts_ancestral
+	}
 	
+	personal_tenet_parameters = {
+		tenet_pure_land_repentance_decision
+		tenet_communal_possessions_redistribution_event
+		tenet_harmonious_society_sway_fulfillment
+		better_study_scheme
 	}
 	
 	character_modifier = {
@@ -308,8 +396,9 @@ tenet_unalloyed_order = {
 	}
 	
 	traits = {
-		virtues = { }
-		sins = { }
+		virtues = { 
+			incantation_order = { weight = 15 scale = 1 }
+		}
 	}
 }
 
@@ -324,31 +413,31 @@ tenet_glintstone = { #all things glintstone related, we love magic here
 			value = faith_tenet_cost_high
 		}
 	}
-
-	is_shown = {
-		#OR = {
-		#	religion_tag = crucible_religion_elden_ring
-		#}
-	}
-
+	
 	can_pick = {
-		#custom_description = {
-		#	text = incompatible_tenet_primordial_desc
-		#	NOT = { doctrine:tenet_primordial_curse = { is_in_list = selected_doctrines } }	
-		#}
+		OR = {
+			has_doctrine = doctrine_glintstone_affinity_virtuous
+			has_doctrine = doctrine_glintstone_affinity_accepted
+		}
 	}
 
 	parameters = {
-	
+		better_study_scheme
 	}
 	
+	personal_tenet_parameters = {
+		better_study_scheme
+	}
+	divergence_multiplier = 5
 	character_modifier = {
 		learning = 2
 	}
 	
 	traits = {
-		virtues = { sorcerous_knight }
-		sins = { }
+		virtues = {
+			sorcery_glintstone = { weight = 20 scale = 2 }
+			sorcery_carian = { weight = 10 scale = 2 }
+		}
 	}
 }
 
@@ -364,30 +453,46 @@ tenet_destroy_golden_order = { #enemy of all the order faiths( for the dungeater
 		}
 	}
 
-	is_shown = {
-		#OR = {
-		#	religion_tag = crucible_religion_elden_ring
-		#}
-	}
-
 	can_pick = {
-		#custom_description = {
-		#	text = incompatible_tenet_primordial_desc
-		#	NOT = { doctrine:tenet_primordial_curse = { is_in_list = selected_doctrines } }	
-		#}
-	}
-
-	parameters = {
-		hostility_same_religion = 3
+		custom_description = {
+			text = incompatible_tenet_golden_order_desc
+			NOT = { tenet:tenet_golden_order = { is_in_list = selected_doctrines } }	
+		}
 	}
 	
-	character_modifier = {
-		
+	divergence_multiplier = 5
+
+	parameters = {
+		enemy_of_order_religion #for localization
+	}
+
+	personal_tenet_modifier = {
+		dread_gain_mult = 0.25
+		dread_decay_mult = -0.25
+	}
+
+	personal_tenet_parameters = {
+		tenet_inner_journey_meditation_bonus
+	}
+	
+	personal_tenet_modifier = {
+		monthly_martial_lifestyle_xp_gain_mult = 0.2
+		character_spiritual_fulfillment_gain_mult = 0.15
+	}
+
+	special_parameters = {
+		hostility_level_override = {
+			order_hostility_doctrine = evil
+		}
+		parameter_opinion_override = {
+			order_syncretic_recipient = -30
+		}
 	}
 	
 	traits = {
-		virtues = { }
-		sins = { }
+		sins = { 
+			order_affinity = { weight = 10 scale = 1 }
+		}
 	}
 }
 
@@ -403,31 +508,30 @@ tenet_live_in_death = {
 		}
 	}
 
-	is_shown = {
-		#OR = {
-		#	religion_tag = crucible_religion_elden_ring
-		#}
-	}
-
 	can_pick = {
-		#custom_description = {
-		#	text = incompatible_tenet_primordial_desc
-		#	NOT = { doctrine:tenet_primordial_curse = { is_in_list = selected_doctrines } }	
-		#}
+		has_doctrine = doctrine_death_affinity_virtuous
 	}
-
+	divergence_multiplier = 5
 	parameters = {
-		hostility_same_religion = 3
-		death_sorcery_bonuses = yes
+		death_sorcery_bonuses
+		clergy_can_fight
+		no_seek_indulgences
+		unattractive_for_character_conversions
+	}
+	personal_tenet_parameters = {
+		clergy_can_fight_personal
 	}
 	
-	character_modifier = {
-		
+	special_parameters = {
+		hostility_levels = {
+			same_religion = hostile
+		}
 	}
 	
 	traits = {
-		virtues = { }
-		sins = { }
+		virtues = {
+			sorcery_death = { weight = 20 scale = 1 }
+		}
 	}
 }
 
@@ -437,21 +541,28 @@ tenet_golden_exile = { #for messmer and his band
 		value = faith_tenet_cost_high
 	}
 
-	is_shown = {
-		#OR = {
-		#	religion_tag = crucible_religion_elden_ring
-		#}
-	}
-
 	can_pick = {
+		OR = {
+			has_doctrine = doctrine_fire_affinity_virtuous
+			has_doctrine = doctrine_fire_affinity_accepted
+		}
 		custom_description = {
 			text = compatible_tenet_golden_order_desc
-			doctrine:tenet_golden_order = { is_in_list = selected_doctrines }
+			tenet:tenet_golden_order = { is_in_list = selected_doctrines }
 		}
 	}
-
+	divergence_multiplier = 2.5
 	parameters = {
+		unlock_destruction_raid_intent
+		unlock_voluntary_laampdom_faith
+	}
 	
+	personal_tenet_parameters = {
+		unlock_destruction_raid_intent_personal
+		unlock_voluntary_laampdom_faith
+	}
+	personal_tenet_modifier = {
+		maa_siege_value_mult = 0.1
 	}
 	
 	character_modifier = {
@@ -460,8 +571,11 @@ tenet_golden_exile = { #for messmer and his band
 	}
 	
 	traits = {
-		virtues = { }
-		sins = { }
+		virtues = {
+			incantation_order = { weight = 15 scale = 1 }
+			incantation_messmers_flame = { weight = 15 scale = 1 }
+			sorcery_glintstone = { weight = 5 scale = 1 }
+		}
 	}
 }
 
@@ -477,29 +591,47 @@ tenet_st_trinas_blessing = {
 		}
 	}
 
-	is_shown = {
-		#OR = {
-		#	religion_tag = crucible_religion_elden_ring
-		#}
-	}
-
 	can_pick = {
+		has_doctrine = doctrine_sleep_affinity_virtuous
 		custom_description = {
 			text = compatible_tenet_golden_order_desc
-			doctrine:tenet_golden_order = { is_in_list = selected_doctrines }
+			tenet:tenet_golden_order = { is_in_list = selected_doctrines }
 		}
 	}
-
+	divergence_multiplier = 1.5
 	parameters = {
-	
+		reduced_vassal_religion_discontent
+		allow_adopt_any_holy_site
+		sanctify_artifacts_occult
+		pacifist
 	}
 	
-	character_modifier = {
-		stress_gain_mult = -0.1
+	personal_tenet_modifier = {
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.2
+	}
+
+	personal_tenet_parameters = {
+		adaptive_study_rite_cultural_acceptance
+		tenet_adaptive_study_rite_bonus
+	}
+	special_parameters = {
+		parameter_opinion_override = {
+			pacifist = 10
+		}
+		hostility_levels = {
+			same_religion = astray
+		}
+	}
+	
+	personal_tenet_modifier = {
+		stress_gain_mult = -0.15
 	}
 	
 	traits = {
-		virtues = { }
+		virtues = {
+			sleep_affinity = { weight = 10 scale = 1 }
+			sleep_cleric = { weight = 20 scale = 1 }
+		}
 	}
 }
 
@@ -515,29 +647,36 @@ tenet_golden_order_syncretism = {
 		}
 	}
 
-	is_shown = {
-		#OR = {
-		#	religion_tag = crucible_religion_elden_ring
-		#}
-	}
-
 	can_pick = {
+		has_doctrine = doctrine_order_affinity_virtuous
 		custom_description = {
 			text = incompatible_tenet_primordial_desc
-			NOT = { doctrine:tenet_primordial_curse = { is_in_list = selected_doctrines } }	
+			NOT = { tenet:tenet_primordial_curse = { is_in_list = selected_doctrines } }	
 		}
 		custom_description = {
 			text = already_golden_order_desc
-			NOT = { doctrine:tenet_golden_order = { is_in_list = selected_doctrines } }	
+			NOT = { tenet:tenet_golden_order = { is_in_list = selected_doctrines } }	
 		}
 	}
-
+	divergence_multiplier = 1.5
 	parameters = {
-		hostility_override_special_doctrine_is_golden_faith = 1
 		#For loc:
-		is_golden_faith_bilateral_loc_override = 1
-		golden_syncretic_actor_opinion_active = yes
-		opinion_of_golden_syncretic_recipient_opinion_active = 30 #Sync this to syncretic_mutual_opinion_bonus_value
+		golden_syncretic_actor
+	}
+
+	personal_tenet_parameters = {
+		tenet_syncretism_invite_religious_exiles
+		tenet_syncretism_county_bonus
+	}
+
+	special_parameters = {
+		hostility_level_override = {
+			golden_hostility_doctrine = astray
+		}
+		parameter_opinion_override = {
+			#Sync this to syncretic_mutual_opinion_bonus_value
+			golden_syncretic_recipient = 30
+		}
 	}
 	
 	character_modifier = {
@@ -545,12 +684,12 @@ tenet_golden_order_syncretism = {
 	}
 	
 	traits = {
-		virtues = { }
-		sins = { }
+		virtues = { 
+			order_affinity = { weight = 15 scale = 1 }
+		}
 	}
 }
 
-####################################
 tenet_children_of_the_badlands = {
 	icon = tenet_children_of_the_badlands
 	piety_cost = {
@@ -563,31 +702,44 @@ tenet_children_of_the_badlands = {
 		}
 	}
 
-	is_shown = {
-		#OR = {
-		#	religion_tag = crucible_religion_elden_ring
-		#}
-	}
-
 	can_pick = {
-		
+		custom_description = {
+			text = incompatible_tenet_pacifism_trigger
+			NOT = { tenet:tenet_pacifism = { is_in_list = selected_doctrines } }
+		}
 	}
 
 	parameters = {
+		cheaper_holy_wars_active
+		great_holy_wars_active
+		clergy_can_fight
+	}
 	
+	personal_tenet_parameters = {
+		clergy_can_fight_personal
+	}
+	
+	personal_tenet_modifier = {	
+		stress_loss_mult = 0.15
+		army_damage_mult = 0.10
+		pursuit_mult = 0.15
+		county_conversion_speed = 0.1
+		monthly_prestige = 0.25
 	}
 	
 	character_modifier = {
-		stress_loss_mult = 0.15
-		monthly_prestige = 0.3
-		development_growth_factor = -0.05
-		army_damage_mult = 0.1
+		stress_loss_mult = 0.05
+		army_damage_mult = 0.05
 		pursuit_mult = 0.15
 		county_conversion_speed = 0.1
+		development_growth_factor = -0.05
 	}
 	
 	traits = {
-		virtues = { strong physique_good_3 }
+		virtues = {
+			strong = { weight = 15 scale = 2 }
+			physique_good_3 = { weight = 15 scale = 2 }
+		}
 	}
 }
 
@@ -602,22 +754,27 @@ tenet_giants_flame = {
 			value = faith_tenet_cost_high
 		}
 	}
-
-	is_shown = {
-		#OR = {
-		#	religion_tag = crucible_religion_elden_ring
-		#}
-	}
-
+	divergence_multiplier = 5
 	can_pick = {
-		custom_description = {
-			text = compatible_tenet_golden_order_desc
-			doctrine:tenet_golden_order = { is_in_list = selected_doctrines }
-		}
+		has_doctrine = doctrine_fire_affinity_virtuous
+	}
+	special_parameters = {
+		fervor_per_holy_site = 0.05
+	}
+	personal_tenet_modifier = {	
+		army_damage_mult = 0.10
+		county_conversion_speed = 0.1
+		maa_siege_value_mult = 0.1
 	}
 
 	parameters = {
+		more_often_zealots
+		successful_sieges_give_piety
+		pilgrimage_decision_active
+	}
 	
+	personal_tenet_parameters = {
+		leasing_to_military_order_give_spiritual_fulfillment_personal
 	}
 	
 	character_modifier = {
@@ -628,7 +785,13 @@ tenet_giants_flame = {
 	}
 	
 	traits = {
-		virtues = { }
+		virtues = {
+			fire_affinity = { weight = 15 scale = 1 }
+			incantation_flame = { weight = 10 scale = 1 }
+		}
+		sins = {
+			ice_affinity = { weight = 15 scale = 1 }
+		}
 	}
 }
 
@@ -644,25 +807,21 @@ tenet_frenzied_flame = {
 		}
 	}
 
-	is_shown = {
-		#OR = {
-		#	religion_tag = crucible_religion_elden_ring
-		#}
-	}
-
 	can_pick = {
+		has_doctrine = doctrine_frenzy_affinity_virtuous
 		custom_description = {
-			text = compatible_tenet_golden_order_desc
-			doctrine:tenet_golden_order = { is_in_list = selected_doctrines }
+			text = incompatible_tenet_golden_order_desc
+			NOT = { tenet:tenet_golden_order = { is_in_list = selected_doctrines } }	
 		}
 	}
-
+	divergence_multiplier = 5
 	parameters = {
-	
+		destroying_artifacts_is_pious
+		extinction_of_dharma_siege_bonus
 	}
 	
 	character_modifier = {
-		dread_gain_mult = 0.4
+		dread_gain_mult = 0.2
 		hostile_scheme_power_mult = 0.15
 		general_opinion = -15
 		same_faith_opinion = 5
@@ -673,9 +832,21 @@ tenet_frenzied_flame = {
 		army_damage_mult = 0.15
 		fatal_casualties_mult = 0.1
 	}
+	personal_tenet_modifier = {
+		dread_gain_mult = 0.25
+		dread_decay_mult = -0.25
+		knight_effectiveness_per_dread = 0.002
+	}
+
+	personal_tenet_parameters = {
+		tenet_extinction_of_dharma_execution_fulfillment
+	}
 	
 	traits = {
-		virtues = { }
+		virtues = {
+			frenzy_affinity = { weight = 10 scale = 1 }
+			incantation_frenzy = { weight = 20 scale = 1 }
+		}
 	}
 }
 
@@ -690,37 +861,40 @@ tenet_rot = {
 			value = faith_tenet_cost_high
 		}
 	}
-
-	is_shown = {
-		#OR = {
-		#	religion_tag = crucible_religion_elden_ring
-		#}
-	}
-
+	divergence_multiplier = 5
 	can_pick = {
-		custom_description = {
-			text = compatible_tenet_golden_order_desc
-			doctrine:tenet_golden_order = { is_in_list = selected_doctrines }
-		}
+		has_doctrine = doctrine_rot_affinity_virtuous
 	}
 
 	parameters = {
-	
+		legalism_reduced_faction_virtues
+		reincarnation_events_active
 	}
 	
-	character_modifier = {
-		health = 1
-		disease_resistance = 1
-		natural_dread = 10
-		fertility = 0.15
-		different_faith_opinion = -10
-		attraction_opinion = -10
+	personal_tenet_modifier = {
+		disease_resistance = 2.5
 		garrison_toughness = 0.2
 		army_toughness_mult = 0.15
 	}
 	
+	character_modifier = {
+		natural_dread = 10
+		fertility = 0.15
+		different_faith_opinion = -10
+		attraction_opinion = -10
+	}
+	
+	personal_tenet_parameters = {
+		tenet_reincarnation_trigger_decision
+		tenet_reincarnation_ancestral_trait_decision
+	}
+	
 	traits = {
-		virtues = { scarlet_rot scarlet_rot_child scarlet_rot_malenia }
+		virtues = {
+			scarlet_rot = { weight = 10 scale = 1 }
+			scarlet_rot_child = { weight = 20 scale = 1 }
+			scarlet_rot_malenia = { weight = 30 scale = 1 }
+		}
 	}
 }
 
@@ -735,35 +909,42 @@ tenet_serpents = {
 			value = faith_tenet_cost_high
 		}
 	}
-
-	is_shown = {
-		#OR = {
-		#	religion_tag = crucible_religion_elden_ring
-		#}
-	}
-
+	divergence_multiplier = 5
 	can_pick = {
 		custom_description = {
-			text = compatible_tenet_golden_order_desc
-			doctrine:tenet_golden_order = { is_in_list = selected_doctrines }
+			text = incompatible_tenet_golden_order_desc
+			NOT = { tenet:tenet_golden_order = { is_in_list = selected_doctrines } }	
 		}
 	}
 
 	parameters = {
-		human_sacrifice_active = yes
-		flower_war_cb_active = yes
+		human_sacrifice_active
+		flower_war_cb_active
+		sanctify_artifacts_sacrificial
+	}
+	
+	personal_tenet_parameters = {
+		tenet_human_sacrifice_execution_piety_bonus
+		tenet_human_sacrifice_siege_capture_chance
+		tenet_human_sacrifice_courtier_imprisonment_chance
+	}
+	
+	personal_tenet_parameters = {
+		health = 0.5
+		knight_effectiveness_mult = 0.1
 	}
 	
 	character_modifier = {
 		hostile_scheme_power_mult = 0.2
 		scheme_discovery_chance_mult = -0.1
-		knight_effectiveness_mult = 0.1
-		health = 0.5
 		ai_war_chance = 1
 		ai_war_cooldown = -0.5
 	}
 	
 	traits = {
-		virtues = { manserpent god_serpent cannibal }
+		virtues = {
+			manserpent = { weight = 10 scale = 1 }
+			god_serpent = { weight = 20 scale = 1 }
+		}
 	}
 }

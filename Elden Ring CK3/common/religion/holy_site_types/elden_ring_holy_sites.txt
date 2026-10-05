@@ -1,5 +1,5 @@
 ﻿leyndell_capital = {
-	county = c_R149G180B129
+	county = c_elden_throne
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -7,7 +7,7 @@
 }
 
 west_altus_divine_tower = {
-	county = c_R26G196B169
+	county = c_westaltus_divinetower
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -15,7 +15,7 @@ west_altus_divine_tower = {
 }
 
 east_altus_divine_tower = {
-	county = c_R42G164B22
+	county = c_eastaltus_divinetower
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -23,7 +23,7 @@ east_altus_divine_tower = {
 }
 
 liurnia_divine_tower = {
-	county = c_R154G63B203
+	county = c_liurnia_divinetower
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -31,7 +31,7 @@ liurnia_divine_tower = {
 }
 
 limgrave_divine_tower = {
-	county = c_R199G107B6
+	county = c_limgrave_divinetower
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -39,7 +39,7 @@ limgrave_divine_tower = {
 }
 
 caelid_divine_tower = {
-	county = c_R167G224B138
+	county = c_caelid_divinetower
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -47,7 +47,7 @@ caelid_divine_tower = {
 }
 
 isolated_divine_tower = {
-	county = c_R60G82B199
+	county = c_isolated_divinetower
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -55,7 +55,7 @@ isolated_divine_tower = {
 }
 
 raya_lucaria = {
-	county = c_R25G255B15
+	county = c_raya_lucaria
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -63,7 +63,7 @@ raya_lucaria = {
 }
 
 caria_manor = {
-	county = c_R225G11B201
+	county = c_caria_manor
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -87,7 +87,7 @@ farum_azula = {
 }
 
 dragon_church = {
-	county = c_R159G59B34
+	county = c_dragon_church_limgrave
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -103,7 +103,7 @@ dragon_cathedral = {
 }
 
 redmane_castle = {
-	county = c_R113G64B88
+	county = c_castle_redmane
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -111,7 +111,7 @@ redmane_castle = {
 }
 
 sellia_sorcery = {
-	county = c_R117G146B109
+	county = c_sellia
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -119,7 +119,7 @@ sellia_sorcery = {
 }
 
 sorcerer_azur = {
-	county = c_R117G146B109
+	county = c_R57G71B121
 	#barony = b_R150G139B143
 	
 	character_modifier = {
@@ -128,7 +128,7 @@ sorcerer_azur = {
 }
 
 giant_forge = {
-	county = c_R206G131B37
+	county = c_R234G49B122
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -136,7 +136,7 @@ giant_forge = {
 }
 
 star_gazer_ruin = {
-	county = c_R77G29B156
+	county = c_R198G202B117
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -144,7 +144,7 @@ star_gazer_ruin = {
 }
 
 castle_sol = {
-	county = c_R26G236B158
+	county = c_castle_sol
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -168,7 +168,7 @@ frenzy_tower = {
 }
 
 three_fingers = {
-	county = c_R7G60B200
+	county = c_auriza_hero_grave
 	#barony = b_R202G138B202
 	
 	character_modifier = {
@@ -177,8 +177,8 @@ three_fingers = {
 }
 
 death_catacombs = {
-	county = c_R251G205B65
-	#barony = b_R104G182B195
+	county = c_R53G188B216
+	barony = b_R52G135B171
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -186,7 +186,7 @@ death_catacombs = {
 }
 
 stormveil = {
-	county = c_R165G102B69
+	county = c_stormveil_throne
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -202,7 +202,7 @@ deeproot = {
 }
 
 limgrave_colosseum = {
-	county = c_R115G70B106
+	county = c_limgrave_colosseum
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -210,7 +210,7 @@ limgrave_colosseum = {
 }
 
 caelid_colosseum = {
-	county = c_R181G127B130
+	county = c_caelid_colosseum
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -218,7 +218,7 @@ caelid_colosseum = {
 }
 
 leyndell_colosseum = {
-	county = c_R208G201B194
+	county = c_royal_colosseum
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -226,7 +226,7 @@ leyndell_colosseum = {
 }
 
 stone_coffin_fissure = {
-	county = c_R10G64B120
+	county = c_R224G176B24
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -234,7 +234,7 @@ stone_coffin_fissure = {
 }
 
 jagged_peak = {
-	county = c_R24G27B99
+	county = c_R242G91B126
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -242,7 +242,7 @@ jagged_peak = {
 }
 
 abyssal_woods = {
-	county = c_R78G159B103
+	county = c_R170G232B127
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -354,7 +354,7 @@ blood_palace = {
 }
 
 malenia_bloom = {
-	county = c_R55G13B112
+	county = c_R244G82B221
 	
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
