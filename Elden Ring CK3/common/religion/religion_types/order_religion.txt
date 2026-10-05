@@ -199,6 +199,7 @@
 		ReligiousText2 = order_religious_text_2
 		ReligiousText3 = order_religious_text_3
 		ReligiousHeadName = order_religious_head_title
+		ReligiousHeadNameFemale = order_religious_head_title_female
 		ReligiousHeadTitleName = order_religious_head_title_name
 		DevoteeMale = order_devotee_male
 		DevoteeMalePlural = order_devotee_male_plural

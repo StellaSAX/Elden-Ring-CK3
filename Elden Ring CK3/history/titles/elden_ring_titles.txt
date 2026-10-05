@@ -266,6 +266,11 @@ k_gelmir = {
 k_golden_order = {
 	714.2.13 = {
 		holder = marika
+		effect = {
+			faith:faith_golden = {
+				set_religious_head_title = title:k_golden_order
+			}
+		}
 	}
 }
 k_haligtree = {

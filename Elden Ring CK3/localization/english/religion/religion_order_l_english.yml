@@ -25,8 +25,9 @@
  order_religious_text:0 "Principa"
  order_religious_text_2:0 "Litany" # Optional translation alt
  order_religious_text_3:0 "$order_religious_text$" # Optional translation alt
- order_religious_head_title:0 "Elden Steward"
- order_religious_head_title_name:0 "Elden Stewardship"
+ order_religious_head_title:0 "Supreme Deity"
+ order_religious_head_title_female:0 "Queen"
+ order_religious_head_title_name:0 "Divine Ruler"
  order_devotee_male:0 "Brother"
  order_devotee_male_plural:0 "Brothers"
  order_devotee_female:0 "Sister"
