@@ -91,7 +91,6 @@
  faith_fundamentalism_religious_head_name:0 "the Ever Brilliant"
  faith_fundamentalism_desc:0 "Born not out simply of devotion to the Golden Order but also of a desire to understand it better and the base mortal world. Initially it was Radagon and Miquella who championed the quest of Fundamentalism, exploring the teachings of Regression and Causality, the force linking all things and the force pulling everything together here many great and wonderous minds have come together to hold intellect as great a virtue as faith. In more recent years however Fundamentalism has begun to fracture under the weight of the sins of the world and those that should not walk in the Light of Gold refusing the accept their place in death has grown more and more Fundamentalists to draw their swords than ever before."
 
-
  faith_perfect:0 "Perfect Order"
  faith_perfect_adj:0 "Perfected Order"
  faith_perfect_adherent:0 "Follower of Perfect Grace"
@@ -126,7 +125,7 @@
  faith_kind_high_god_name_3:0 "Beloved Miquella"
  faith_kind_high_god_name_possessive:0 "Miquella's"
  faith_kind_religious_head_name:0 "Cherished"
- faith_kind_desc:0 "Miquella the Kind could not suffer that Golden order's inability to protect his sister from rot, nor watch as the militants of the faith discriminated against those they saw as unholy. So he chose to sever his links to that callous way, and instead make one of compassion. All will be welcome under it, wether they be misbegotten, albinauric or human... wether they wish it or not."
+ faith_kind_desc:0 "Born of the beauty and Grace that Miquella would share with the world, though each of them once serving a different lord or master every one who serves Kindly Miquella does so out of purest love in their heart. Miquella seeks so utterly to remake the world that he would bring a thousand year era of peace without war or bloodshed where none need know sickness or toil for what pain could there be in a world so utterly bound by love and compassion that even the will of hate would be stifled within it?"
 
  faith_st_trina:0 "Cult of Sleep"
  faith_st_trina_adj:0 "Cult of Sleep"
@@ -140,8 +139,6 @@
  faith_st_trina_positive_afterlife:0 "the Garden of Deep Purple."
  faith_st_trina_desc:0 "Some most fortunate souls have been graced a chance meeting with the Lady of Sleep Saint Trina who brought to them such simple peace and rest that they devoted their hearts to her. In their scattered numbers a thin cult began to spread, venorating her peace and seeking to bring it to others. To that end they began to cultivate flowers that would induce a great and wakeless sleep in the hope that they and others would once again walk in the Garden of Deep Purple."
 
-
- 
  golden_rite:0 "Golden Order"
  golden_rite_desc:0 "The many countless worshipers of all that is Golden, those who follow the Grace of Gold and the Light of the Erdtree worship Queen Marika as the one and eternal God of the Lands Between, her demigod children following close behind as beings of lesser worship alongside the Elden Lord Radagon. Though Marika has long since vanished from the world many still adhere to her order and her commandments of purity and sovereignty."
  golden_rite_adj:0 "Golden Order"
