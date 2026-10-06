@@ -5,6 +5,7 @@
  death_religion_adherent:0 "One Who lives in Death"
  death_religion_adherent_plural:0 "Those Who live in Death"
  death_religion_desc:0 " Most Who follow this religion do it because they had no choice in the matter of their afterlife. Indeed, deathroot prevents the soul from leaving the body and rejoin the Erdtree, a fate heretical to the Golden Order. They seek refuge within the power of Godwyn, the first to die among the demigods."
+ 
  death_high_god_name:0 "Godwyn, the first of the Dead"
  death_high_god_name_2:0 "Godwyn the Golden" # Optional translation alt
  death_high_god_name_3:0 "Godwyn the Fallen" # Optional translation alt
@@ -49,7 +50,6 @@
  death_negative_afterlife_3:1 "far from the roots" # Optional translation alt
  death_witchgodname_the_horned_god:0 "the Twinbird"
  death_witchgodname_the_horned_god_possessive:0 "the Twinbird's"
- 
  death_creator_god_name:0 "$death_high_god_name$"
  death_creator_god_name_possessive:0 "$death_high_god_name_possessive$"
  death_health_god_name:0 "$death_high_god_name$"

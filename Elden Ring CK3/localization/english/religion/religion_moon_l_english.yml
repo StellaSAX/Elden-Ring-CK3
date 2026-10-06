@@ -1,9 +1,11 @@
 ﻿l_english:
+
  moon_religion:0 "Moon"
  moon_religion_adj:0 "Moon"
  moon_religion_adherent:0 "Moon Worshiper"
  moon_religion_adherent_plural:0 "Moon Worshipers"
  moon_religion_desc:0 "Graced by the light of the Moon, those who worship its light believe utterly in clarity of mind, certainty of thought and freedom of command by those being not of this world or any other."
+ 
  moon_high_god_name:0 "the Beneficent Moon"
  moon_high_god_name_2:0 "the Beloved Moon" # Optional translation alt
  moon_high_god_name_3:0 "the Guiding Moon" # Optional translation alt
@@ -46,7 +48,6 @@
  moon_negative_afterlife_3:1 "Moonless night" # Optional translation alt
  moon_witchgod:0 "the Black Moon"
  moon_witchgod_possessive:0 "the Black Moon's"
- 
  moon_creator_god_name:0 "$moon_high_god_name$"
  moon_creator_god_name_possessive:0 "$moon_high_god_name_possessive$"
  moon_health_god_name:0 "$moon_high_god_name$"

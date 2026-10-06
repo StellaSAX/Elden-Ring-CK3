@@ -5,6 +5,7 @@
  giant_religion_adherent:0 "Fell Worshipper"
  giant_religion_adherent_plural:0 "Fell Worshippers"
  giant_religion_desc:0 "The fell god of the giants once held great power in the form of a fire that could burn the Erdtree. But now, it is reduced to beguile its wardens to gain influence"
+ 
  fell_high_god_name:0 "The Fell God"
  fell_high_god_name_2:0 "$fell_high_god_name$" # Optional translation alt
  fell_high_god_name_3:0 "$fell_high_god_name$" # Optional translation alt
@@ -47,7 +48,6 @@
  fell_negative_afterlife_3:1 "bound to the Erdtree" # Optional translation alt
  fell_witchgodname_the_horned_god:0 "the Blood Star"
  fell_witchgodname_the_horned_god_possessive:0 "the Blood Star's"
- 
  fell_creator_god_name:0 "$fell_high_god_name$"
  fell_creator_god_name_possessive:0 "$fell_high_god_name_possessive$"
  fell_health_god_name:0 "$fell_high_god_name$"

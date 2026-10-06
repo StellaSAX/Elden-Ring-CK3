@@ -1,4 +1,5 @@
 ﻿l_english:
+
  academia_religion:0 "Glintstone Scholarship"
  academia_religion_adj:0 "Lucarian"
  academia_religion_adherent:0 "scholar"
@@ -34,7 +35,6 @@
  academia_positive_afterlife:0 "the wisdom beyond stone"
  academia_positive_afterlife_2:1 "donning the stone crown"
  academia_negative_afterlife:0 "the rudiments"
-
  academia_knowledge_god_name:0 "$academia_high_god_name$"
  academia_knowledge_god_name_possessive:0 "$academia_high_god_name_possessive$"
  academia_fate_god_name:0 "$academia_high_god_name$"

@@ -1,9 +1,84 @@
 ﻿l_english:
+
  cosmos_religion:0 "Cosmic"
  cosmos_religion_adj:0 "Cosmic"
  cosmos_religion_adherent:0 "cosmic follower"
  cosmos_religion_adherent_plural:0 "cosmic followers" 
  cosmos_religion_desc:0 "There are many origins for sorcery, we have decided to look up, at the stars, for they hold many answers."
+ 
+ cosmos_high_god_name:0 "God"
+ cosmos_high_god_name_2:0 "$cosmos_high_god_name$" # Optional translation alt
+ cosmos_high_god_name_3:0 "$cosmos_high_god_name$" # Optional translation alt
+ cosmos_high_god_name_possessive:0 "God's"
+ cosmos_high_god_name_alternate:0 "The Lord"
+ cosmos_high_god_name_alternate_possessive:0 "The Lord's"
+ cosmos_good_god_jesus:0 "$cosmos_health_god_name$"
+ cosmos_good_god_christ:0 "Christ"
+ cosmos_devil_name:0 "Satan"
+ cosmos_devil_name_possessive:0 "Satan's"
+ cosmos_evil_god_lucifer:0 "Lucifer"
+ cosmos_evil_god_beelzebub:0 "Beelzebub"
+ cosmos_evil_god_mephistopheles:0 "Mephistopheles"
+ cosmos_death_deity_name:0 "Death"
+ cosmos_death_deity_name_possessive:0 "Death's"
+ cosmos_house_of_worship:0 "church"
+ cosmos_house_of_worship_2:0 "$cosmos_house_of_worship$" # Optional translation alt
+ cosmos_house_of_worship_3:0 "$cosmos_house_of_worship$" # Optional translation alt
+ cosmos_house_of_worship_plural:0 "churches"
+ cosmos_religious_symbol:0 "cross"
+ cosmos_religious_symbol_2:0 "$cosmos_religious_symbol$" # Optional translation alt
+ cosmos_religious_symbol_3:0 "$cosmos_religious_symbol$" # Optional translation alt
+ cosmos_religious_text:0 "scriptures"
+ cosmos_religious_text_2:0 "$cosmos_religious_text$" # Optional translation alt
+ cosmos_religious_text_3:0 "$cosmos_religious_text$" # Optional translation alt
+ cosmos_religious_head_title:0 "Pope"
+ cosmos_religious_head_title_female:0 "Mome"
+ cosmos_religious_head_title_name:0 "Papacy"
+ cosmos_devotee_male:0 "monk"
+ cosmos_devotee_male_plural:0 "monks"
+ cosmos_devotee_female:0 "nun"
+ cosmos_devotee_female_plural:0 "nuns"
+ cosmos_devotee_neuter:0 "monastic"
+ cosmos_devotee_neuter_plural:0 "monastics"
+ cosmos_priest_male:0 "priest"
+ cosmos_priest_male_plural:0 "priests"
+ cosmos_priest_female:0 "priestess"
+ cosmos_priest_female_plural:0 "priestesses"
+ cosmos_priest_alternate_plural:0 "clergy"
+ cosmos_bishop:0 "bishop"
+ cosmos_bishop_plural:0 "bishops"
+ cosmos_bishop_female:0 "bishopess"
+ cosmos_bishop_female_plural:0 "bishopesses"
+ cosmos_positive_afterlife:0 "heaven"
+ cosmos_positive_afterlife_2:1 "paradise" # Optional translation alt
+ cosmos_positive_afterlife_3:1 "$cosmos_high_god_name_possessive$ Kingdom" # Optional translation alt
+ cosmos_negative_afterlife:0 "hell"
+ cosmos_negative_afterlife_2:1 "the Pit" # Optional translation alt
+ cosmos_negative_afterlife_3:1 "Gehenna" # Optional translation alt
+ cosmos_witchgodname_the_horned_god:0 "The Horned God"
+ cosmos_witchgodname_the_horned_god_possessive:0 "The Horned God's"
+ cosmos_creator_god_name:0 "$cosmos_high_god_name$"
+ cosmos_creator_god_name_possessive:0 "$cosmos_high_god_name_possessive$"
+ cosmos_health_god_name:0 "Jesus"
+ cosmos_health_god_name_possessive:0 "Jesus'"
+ cosmos_fertility_god_name:0 "$cosmos_high_god_name$"
+ cosmos_fertility_god_name_possessive:0 "$cosmos_high_god_name_possessive$"
+ cosmos_wealth_god_name:0 "$cosmos_high_god_name$"
+ cosmos_wealth_god_name_possessive:0 "$cosmos_high_god_name_possessive$"
+ cosmos_household_god_name:0 "$cosmos_health_god_name$"
+ cosmos_household_god_name_possessive:0 "$cosmos_health_god_name_possessive$"
+ cosmos_fate_god_name:0 "$cosmos_high_god_name$"
+ cosmos_fate_god_name_possessive:0 "$cosmos_high_god_name_possessive$"
+ cosmos_knowledge_god_name:0 "$cosmos_high_god_name$"
+ cosmos_knowledge_god_name_possessive:0 "$cosmos_high_god_name_possessive$"
+ cosmos_war_god_name:0 "$cosmos_high_god_name$"
+ cosmos_war_god_name_possessive:0 "$cosmos_high_god_name_possessive$"
+ cosmos_trickster_god_name:0 "Fortuna"
+ cosmos_trickster_god_name_possessive:0 "Fortuna's"
+ cosmos_night_god_name:0 "$cosmos_high_god_name$"
+ cosmos_night_god_name_possessive:0 "$cosmos_high_god_name_possessive$"
+ cosmos_water_god_name:0 "$cosmos_health_god_name$"
+ cosmos_water_god_name_possessive:0 "$cosmos_health_god_name_possessive$"
  
  faith_academy:0 "Academia of Raya Lucaria"
  faith_academy_adj:0 "Lucarian Academia"

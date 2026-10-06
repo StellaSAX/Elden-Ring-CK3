@@ -5,6 +5,7 @@
  crucible_religion_adherent:0 "Disciple of the Crucible"
  crucible_religion_adherent_plural:0 "Disciples of the Crucible"
  crucible_religion_desc:0 "All life find its origination in the Crucible, be it man or beast or the melding of the two and it is a raw and utter power that bestows its gifts seemingly at random. Those who wish to draw themselves closer to the originator often venerate and even bear animalistic traits such as horns, fangs and even wings in reverence for that which all came from."
+ 
  crucible_high_god_name:0 "The Crucible"
  crucible_high_god_name_2:0 "The Originator" # Optional translation alt
  crucible_high_god_name_3:0 "Primordial Crucible" # Optional translation alt
@@ -48,7 +49,6 @@
  crucible_negative_afterlife_3:1 "$crucible_negative_afterlife$" # Optional translation alt
  crucible_witchgodname_the_horned_god:0 "the Gloam Eyed Queen"
  crucible_witchgodname_the_horned_god_possessive:0 "the Gloam Eyed Queen's"
-
  crucible_creator_god_name:0 "$crucible_high_god_name$"
  crucible_creator_god_name_possessive:0 "$crucible_high_god_name_possessive$"
  crucible_health_god_name:0 "$crucible_high_god_name$"

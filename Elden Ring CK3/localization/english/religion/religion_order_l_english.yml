@@ -5,6 +5,7 @@
  order_religion_adherent:0 "Follower of the Golden Order"
  order_religion_adherent_plural:0 "Followers of the Golden Order"
  order_religion_desc:0 "Bound in service to the Elden Ring, the glory of the Erdtree and the beauty of the Grace of Gold, those who follow the teachings of Queen Marika the Eternal and her demigod children prescribe to a world of perfect order, of duty and sanctity above all things lest beasts swarm the world once more."
+ 
  order_high_god_name:0 "Queen Marika"
  order_high_god_name_2:0 "Marika" # Optional translation alt
  order_high_god_name_3:0 "Queen Marika the Eternal" # Optional translation alt
@@ -49,7 +50,6 @@
  order_negative_afterlife_3:0 "bereft of Grace" # Optional translation alt
  order_witchgodname:0 "the Gloam Eyed Queen"
  order_witchgodname_possessive:0 "the Gloam Eyed Queen's"
-
  order_creator_god_name:0 "$order_high_god_name$"
  order_creator_god_name_possessive:0 "$order_high_god_name_possessive$"
  order_fertility_god_name:0 "$order_high_god_name$"

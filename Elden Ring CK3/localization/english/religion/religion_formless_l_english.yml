@@ -5,6 +5,7 @@
  formless_religion_adherent:0 "Mother's Child"
  formless_religion_adherent_plural:0 "Mother's Children"
  formless_religion_desc:0 "The Formless Mother takes the curs, the downtrodden, the persecuted of this world under her wing. All she aks in exchange is blood and wounds, but what little price for acceptance!"
+ 
  formless_high_god_name:0 "The Formless Mother"
  formless_high_god_name_2:0 "Mother of Truth" # Optional translation alt
  formless_high_god_name_3:0 "$formless_high_god_name$" # Optional translation alt
@@ -47,7 +48,6 @@
  formless_negative_afterlife_3:1 "taken by the Golden Order" # Optional translation alt
  formless_witchgodname_the_horned_god:0 "$formless_high_god_name$"
  formless_witchgodname_the_horned_god_possessive:0 "$formless_high_god_name_possessive$"
- 
  formless_creator_god_name:0 "$formless_high_god_name$"
  formless_creator_god_name_possessive:0 "$formless_high_god_name_possessive$"
  formless_health_god_name:0 "$formless_high_god_name$"
