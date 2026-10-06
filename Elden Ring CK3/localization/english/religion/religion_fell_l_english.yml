@@ -73,12 +73,6 @@
 
  #Subfaiths
 
- faith_fire_monk:0 "Fallen Brotherhood"
- faith_fire_monk_adj:0 "Fire Monks"
- faith_fire_monk_adherent:0 "Monk"
- faith_fire_monk_adherent_plural:0 "Monks"
- faith_fire_monk_desc:0 "An old order of monks once ordered by Marika to guard the forge for eternity. But now, the flame has seduced them all and the fell monks serve its will."
-
  faith_fell_god:0 "Fell God"
  faith_fell_god_adj:0 "Fell God"
  faith_fell_god_adherent:0 "Follower"

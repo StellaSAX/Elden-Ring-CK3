@@ -160,35 +160,6 @@ faith_crucible = {
     }
 }
 
-faith_spiral = {
-	main_rite = spiral_rite
-	origin = faith_crucible
-	faith_details = {
-		religion = crucible_religion
-		color = { 0.9 0.7 0.3 }
-		icon = faith_spiral
-		reformed_icon = faith_spiral
-		graphical_faith = "pagan_gfx"
-	}
-	
-	eminent_holy_sites = {
-		belurat
-		scadutree_chalice
-		enir_illim
-	}
-
-	holy_sites = {
-
-	}
-	
-	tenets = {
-		tenet_sacrificial_ceremonies
-		tenet_communal_identity
-		#tenet_mystical_birthright
-		tenet_great_spiral
-    }
-}
-
 faith_death_prince = {
 	main_rite = death_prince_rite
 	origin = faith_old_death

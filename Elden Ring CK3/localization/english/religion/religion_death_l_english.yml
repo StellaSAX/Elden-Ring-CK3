@@ -74,12 +74,6 @@
  death_water_god_name_possessive:0 "$death_high_god_name_possessive$"
 
  #Subfaiths
-
- faith_death_prince:0 "Godwyn's Order"
- faith_death_prince_adj:0 "Undead"
- faith_death_prince_adherent:0 "Follower of Godwyn"
- faith_death_prince_adherent_plural:0 "Followers of Godwyn"
- faith_death_prince_desc:0 "The revelations deathbed companion Fia recieved show that, one day, Godwyn will rise once again. It will finally end the purge of our kin by the fundamentalists by reintroducing Death to the Elden Ring, and he will take his rightful place as Lord of the Dead!"
  
  faith_death:0 "Ancient Death"
  faith_death_adj:0 "Ancient Rites"
@@ -87,14 +81,14 @@
  faith_death_adherent_plural:0 "Death's followers"
  faith_death_desc:0 "Ancient rituals that separate the soul from the body, if you burn the bones of the death, it's possible to release the spirit trapped inside as ghostflame.\nIronically most of these practices are slowly dying out. the Twinbird is their symbol and her children, the death birds, are the keepers of the ghostflame."
  
- duskborn_rite:0 "Cult of the Duskborn"
- duskborn_rite_adj:0 "Duskborn Cult"
- duskborn_rite_adherent:0 "Duskborn Cultist"
- duskborn_rite_adherent_plural:0 "Duskborn Cultists"
- duskborn_rite_desc:0 "The revelations deathbed companion Fia recieved show that, one day, Godwyn will rise once again. It will finally end the purge of our kin by the fundamentalists by reintroducing Death to the Elden Ring, and he will take his rightful place as Lord of the Dead!"
- 
  death_rite:0 "Ancient Death"
  death_rite_adj:0 "Ancient Rites"
  death_rite_adherent:0 "Death Follower"
  death_rite_adherent_plural:0 "Deaths Followers"
  death_rite_desc:0 "Ancient rituals that separate the soul from the body, if you burn the bones of the death, it's possible to release the spirit trapped inside as ghostflame.\nIronically most of these practices are slowly dying out. the Twinbird is their symbol and her children, the death birds, are the keepers of the ghostflame."
+ 
+ duskborn_rite:0 "Cult of the Duskborn"
+ duskborn_rite_adj:0 "Duskborn Cult"
+ duskborn_rite_adherent:0 "Duskborn Cultist"
+ duskborn_rite_adherent_plural:0 "Duskborn Cultists"
+ duskborn_rite_desc:0 "The revelations deathbed companion Fia recieved show that, one day, Godwyn will rise once again. It will finally end the purge of our kin by the fundamentalists by reintroducing Death to the Elden Ring, and he will take his rightful place as Lord of the Dead!"

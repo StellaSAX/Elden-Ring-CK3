@@ -108,7 +108,7 @@ crucible_rite = {
 spiral_rite = {
 	name = spiral_rite
 	desc = spiral_rite_desc
-	faith = faith_spiral
+	faith = faith_crucible
 	
 	color = { 0.7 0.7 0.5 }
 	icon = faith_spiral

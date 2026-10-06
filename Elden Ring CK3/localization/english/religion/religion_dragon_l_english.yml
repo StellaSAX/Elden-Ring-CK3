@@ -59,17 +59,17 @@
  faith_ancient_dragon_adherent_plural:0 "Ancient Dragons"
  faith_ancient_dragon_desc:0 "We are ancient."
  
- faith_bayle_dragon:0 "Bayle's Tyranny"
- faith_bayle_dragon_adj:0 "Bayle's Tyranny"
- faith_bayle_dragon_adherent:0 "Bayle Tyrant"
- faith_bayle_dragon_adherent_plural:0 "Bayle Tyrants"
- faith_bayle_dragon_desc:0 "Curse you bayle!"
- 
  ancient_dragon_rite:0 "The Ancient Dragons"
  ancient_dragon_rite_adj:0 "Dragon-Faith"
  ancient_dragon_rite_adherent:0 "Communer"
  ancient_dragon_rite_adherent_plural:0 "Communers"
  ancient_dragon_rite_desc:0 "In the crumbling ruins of Farum Azula, said to be a mausoleum raised to enshrine an ancient dragon, the Dragons await the return of Placidusax, the Dragonlord whose seat lies beyond time.\n\nChosen beastmen stand guard with weapons clad in lightning, and the priestesss of the Dragon Communion bestows her favour in the name of the lord who was once Elden Lord, and never ceased to wait for his fled god's return."
+ 
+ faith_bayle_dragon:0 "Bayle's Tyranny"
+ faith_bayle_dragon_adj:0 "Bayle's Tyranny"
+ faith_bayle_dragon_adherent:0 "Bayle Tyrant"
+ faith_bayle_dragon_adherent_plural:0 "Bayle Tyrants"
+ faith_bayle_dragon_desc:0 "Curse you bayle!"
  
  bayle_rite:0 "Bayle's Tyranny"
  bayle_rite_adj:0 "Bayle's Tyranny"

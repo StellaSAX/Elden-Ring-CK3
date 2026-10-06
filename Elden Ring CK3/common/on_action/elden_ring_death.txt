@@ -32,5 +32,31 @@
 			}
 			set_global_variable = irina_ded
 		}
+		
+		#trina dies if miquella dies
+		if = {
+			limit = {
+				character:miquella ?= { is_alive = no }
+				character:trina ?= { is_alive = yes }
+			}
+			character:trina = {
+				death = {
+					death_reason = death_mysterious
+				}
+			}
+		}
+		
+		#radagon dies if marika dies
+		if = {
+			limit = {
+				character:marika ?= { is_alive = no }
+				character:radagon ?= { is_alive = yes }
+			}
+			character:radagon = {
+				death = {
+					death_reason = death_mysterious
+				}
+			}
+		}
 	}
 }
