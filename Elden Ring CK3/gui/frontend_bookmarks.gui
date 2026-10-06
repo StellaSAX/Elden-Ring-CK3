@@ -501,10 +501,10 @@ widget = {
 					spacing = 10
 
 					widget ={
-						size = { 590 90}
+						size = { 360 90}
 
 						background = {
-							texture = "gfx/interface/bookmarks/top_bar_panel.dds"
+							texture = "gfx/interface/bookmarks/top_bar_panel_short.dds"
 							margin_top = 10
 							margin_left = 10
 						}
@@ -513,20 +513,14 @@ widget = {
 							hbox = {
 								allow_outside = yes
 								spacing = 60
-								margin_left = -100
-								margin_top = 10
-								button_tertiary = {
-									name = "play_tutorial"
-									onclick = "[GameSetup.OnShowTutorialPrompt]"
-									text = "GAMESETUP_PLAY_TUTORIAL"
-								}
-
+								margin_left = -50
+								margin_top = 15
+								
 								text_single = {
 									text = "BOOKMARK_SELECT_BOOKMARK"
-									default_format = "#weak"
+									default_format = "#T;glow_color:{0.3,0.1,0.1,1}"
 									align = nobaseline
 									max_width = 300
-
 								}
 							}
 

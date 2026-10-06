@@ -460,9 +460,9 @@ widget = {
 
 						text_single = {
 							layoutpolicy_horizontal = expanding
-							margin_left = 119
+							margin_left = 118
 							text = "SINGLE_PLAYER"
-							default_format = "weak;italic;glow_color:{0.1,0.1,0.1,1}"
+							default_format = "#bold;glow_color:{0.3,0.1,0.1,1}"
 						}
 
 						vbox = {
@@ -646,9 +646,9 @@ widget = {
 					vbox = {
 						text_single = {
 							layoutpolicy_horizontal = expanding
-							margin_left = 121
+							margin_left = 120
 							text = "MULTI_PLAYER"
-							default_format = "weak;italic;glow_color:{0.1,0.1,0.1,1}"
+							default_format = "#bold;glow_color:{0.3,0.1,0.1,1}"
 						}
 
 						spacer = {
