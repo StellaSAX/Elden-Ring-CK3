@@ -681,13 +681,13 @@
 672 = {
 	culture = cul_limgrave
 	rite = golden_rite
-	holding = castle_holding
+	holding = none
 }
 # limgrave_barony_80
 1358 = {
 	culture = cul_limgrave
 	rite = golden_rite
-	holding = none
+	holding = castle_holding
 }
 # R70G22B201
 1638 = {
@@ -708,13 +708,13 @@
 1082 = {
 	culture = cul_limgrave
 	rite = golden_rite
-	holding = castle_holding
+	holding = none
 }
 # R247G121B238
 2515 = {
 	culture = cul_limgrave
 	rite = golden_rite
-	holding = none
+	holding = castle_holding
 }
 # R232G163B109
 630 = {
@@ -1501,13 +1501,13 @@
 1882 = {
 	culture = cul_limgrave
 	rite = golden_rite
-	holding = castle_holding
+	holding = none
 }
 # limgrave_barony_122
 2355 = {
 	culture = cul_limgrave
 	rite = golden_rite
-	holding = none
+	holding = castle_holding
 }
 # limgrave_barony_115
 172 = {
@@ -1654,7 +1654,7 @@
 432 = {
 	culture = cul_limgrave
 	rite = golden_rite
-	holding = castle_holding
+	holding = none
 }
 # limgrave_barony_53
 1502 = {
@@ -1666,7 +1666,7 @@
 619 = {
 	culture = cul_limgrave
 	rite = golden_rite
-	holding = none
+	holding = castle_holding
 }
 # R155G153B178
 2479 = {
