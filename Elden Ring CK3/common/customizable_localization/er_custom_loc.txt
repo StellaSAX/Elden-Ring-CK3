@@ -1,0 +1,14 @@
+﻿ER_RISE_NAME = {
+	log_loc_errors = no
+	type = landed_title
+
+	text = {
+		trigger = {	exists = var:er_rise_founder }
+		localization_key = ER_RISE_NAME_FOUNDER
+	}
+
+	text = {
+		localization_key = ER_RISE_NAME_FALLBACK
+		fallback = yes
+	}
+}

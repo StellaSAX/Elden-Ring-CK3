@@ -1,0 +1,121 @@
+﻿er_establish_rise = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/pam_decision_act_of_devotion.dds"
+	}
+	decision_group_type = major
+
+	# ai_goal = yes
+
+	is_shown = {
+		is_landed = yes
+		culture = {
+			OR = {
+				has_cultural_tradition = tradition_carian_royal
+				has_cultural_tradition = tradition_magic_sorcery_carian
+			}
+		}
+		NOT = { has_variable = er_rise_owned }
+	}
+
+	widget = {
+		controller = create_holy_order
+		title_valid = {
+			trigger_if = {
+				limit = { exists = this }
+				title_province = {
+					has_special_building = no
+				}
+			}
+			trigger_else = {
+				always = no
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	is_valid = {
+		save_temporary_scope_as = sorcerer
+		custom_tooltip = {
+			text = must_be_sorcerer_expert_or_above
+			OR = {
+				has_trait_xp = {
+					trait = sorcery_carian
+					value >= 80
+				}
+				has_trait_xp = {
+					trait = sorcery_glintstone
+					value >= 80
+				}
+			}
+		}
+		OR = {
+			prestige_level >= 3
+			custom_tooltip = {
+				text = must_be_famous_sorcerer
+				OR = {
+					this = character:rennala
+					this = character:ranni
+					this = character:seluvis
+				}
+			}
+		}
+	}
+	cost = {
+		gold = {
+			value = 0
+			if = {
+				limit = {
+					has_treasury = no
+				}
+				add = 1
+			}
+		}
+		treasury = {
+			value = 0
+			if = {
+				limit = {
+					has_treasury = yes
+				}
+				add = 1
+			}
+		}
+		piety = {
+			value = 1
+		}
+	}
+
+	effect = {
+		save_scope_as = founder
+		if = { 
+			limit = {
+				exists = scope:barony
+			}
+			scope:barony = {
+				set_variable = {
+					name = er_rise_founder
+					value = scope:founder
+				}
+				set_title_name_dynamic = ER_RISE_NAME
+				title_province = {
+					add_special_building = generic_rise
+				}
+			}
+			set_variable = {
+				name = er_rise_owned
+				value = scope:barony
+			}
+		}
+	}
+	
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

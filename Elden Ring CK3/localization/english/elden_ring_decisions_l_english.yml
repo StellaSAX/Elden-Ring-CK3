@@ -220,3 +220,12 @@
  er_artifacts.0003.a:0 "Sword of St.Trina"
  er_artifacts.0003.b:0 "Carian Knight Sword"
  er_artifacts.0003.c:0 "Miquellan Knight Sword"
+
+ # Establish Rise
+ er_establish_rise:0 "Establish Rise"
+ er_establish_rise_desc:0 "Rising"
+ must_be_sorcerer_expert_or_above:0 "You must be an expert [Select_CString(sorcerer.IsFemale,'Sorceress','Sorcerer')|l] or above"
+ must_be_famous_sorcerer:0 "Must be a famous or established [Select_CString(sorcerer.IsFemale,'Sorceress','Sorcerer')|l]"
+ ER_RISE_NAME:0 "[barony.Custom('ER_RISE_NAME')]"
+ ER_RISE_NAME_FOUNDER:0 "[ROOT.Var('er_rise_founder').Char.GetFirstNamePossessiveNoTooltip] Rise"
+ ER_RISE_NAME_FALLBACK:0 "Sorcerer's Rise"
