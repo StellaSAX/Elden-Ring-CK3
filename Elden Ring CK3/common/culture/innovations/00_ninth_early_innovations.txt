@@ -559,16 +559,6 @@ innovation_french_peerage = {
 	region = world_limgrave
 	icon = @nobility_03
 
-	can_progress = { #Unlocked by event.
-		custom_description = {
-			text = "innovation_unlocked_by_decision_trigger"
-			is_target_in_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:flag_promoted_gothic_innovations
-			}
-		}
-	}
-
 	character_modifier = {
 		courtly_opinion = 5
 		fellow_vassal_opinion = -10
