@@ -112,9 +112,6 @@ er_establish_rise = {
 				}
 			}
 		}
-		piety = {
-			value = 1
-		}
 	}
 
 	effect = {
