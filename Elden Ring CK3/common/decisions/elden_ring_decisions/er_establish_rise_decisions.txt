@@ -1,4 +1,6 @@
-﻿er_establish_rise = {
+﻿@establish_rise_base_gold_cost = 750
+
+er_establish_rise = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/pam_decision_act_of_devotion.dds"
 	}
@@ -23,6 +25,11 @@
 			trigger_if = {
 				limit = { exists = this }
 				title_province = {
+					NOR = {
+						terrain = lava_lake
+						terrain = narrow_path
+						terrain = scarlet_swamp
+					}
 					has_special_building = no
 				}
 			}
@@ -53,7 +60,7 @@
 			}
 		}
 		OR = {
-			prestige_level >= 3
+			prestige_level >= 4
 			custom_tooltip = {
 				text = must_be_famous_sorcerer
 				OR = {
@@ -68,19 +75,41 @@
 		gold = {
 			value = 0
 			if = {
-				limit = {
-					has_treasury = no
+				limit = { has_treasury = no }
+				add = @establish_rise_base_gold_cost
+				if = { # Double the cost if on poison swamps or other water-related provinces
+					limit = {
+						scope:barony ?= {
+							title_province = {
+								OR = {
+									terrain = bog_poison
+									terrain = wetlands
+								}
+							}
+						}
+					}
+					multiply = 2
 				}
-				add = 1
 			}
 		}
 		treasury = {
 			value = 0
 			if = {
-				limit = {
-					has_treasury = yes
+				limit = { has_treasury = yes }
+				add = @establish_rise_base_gold_cost
+				if = { # Double the cost if on poison swamps or other water-related provinces
+					limit = {
+						scope:barony ?= {
+							title_province = {
+								OR = {
+									terrain = bog_poison
+									terrain = wetlands
+								}
+							}
+						}
+					}
+					multiply = 2
 				}
-				add = 1
 			}
 		}
 		piety = {
@@ -90,16 +119,13 @@
 
 	effect = {
 		save_scope_as = founder
-		if = { 
-			limit = {
-				exists = scope:barony
-			}
+		if = {
+			limit = { exists = scope:barony }
 			scope:barony = {
 				set_variable = {
 					name = er_rise_founder
 					value = scope:founder
 				}
-				set_title_name_dynamic = ER_RISE_NAME
 				title_province = {
 					add_special_building = generic_rise
 				}
@@ -107,6 +133,32 @@
 			set_variable = {
 				name = er_rise_owned
 				value = scope:barony
+			}
+			trigger_event = er_establish_rise.0001
+			every_player = {
+				limit = {
+					NOT = { this = scope:founder }
+					OR = {
+						is_close_family_of = scope:founder
+						OR = {
+							has_relation_best_friend = scope:founder
+							has_relation_friend = scope:founder
+							has_relation_nemesis = scope:founder
+							has_secret_relation_nemesis = scope:founder
+							has_relation_rival = scope:founder
+							has_relation_potential_rival = scope:founder
+						}
+					}
+				}
+				save_scope_as = receiver
+				send_interface_message = {
+					type = send_interface_message
+					title = er_establish_rise.relation_toast.title
+					custom_tooltip = er_establish_rise.relation_toast.tt
+
+					left_icon = scope:founder
+					right_icon = scope:barony
+				}
 			}
 		}
 	}

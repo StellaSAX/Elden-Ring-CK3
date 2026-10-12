@@ -1,0 +1,10 @@
+﻿l_english:
+ ER_RISE_NAME:0 "[barony.Custom('ER_RISE_NAME')]"
+ ER_RISE_NAME_FOUNDER:0 "[ROOT.Var('er_rise_founder').Char.GetFirstNamePossessiveNoTooltip] Rise"
+ ER_RISE_NAME_FALLBACK:0 "Sorcerer's Rise"
+
+ er_establish_rise.0001.title:0 "Rise Risen"
+ er_establish_rise.0001.desc:0 "The Rise has risen.\n\nThe Rise will be named after me."
+ er_establish_rise.0001.a:0 "Yes"
+ er_establish_rise.0001.a.tt:0 "The lands of [barony.GetName] will be renamed to #L $ER_RISE_NAME$#!."
+ er_establish_rise.0001.b:0 "No"

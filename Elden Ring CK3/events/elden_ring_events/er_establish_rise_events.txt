@@ -1,0 +1,27 @@
+﻿namespace = er_establish_rise
+
+# Congratulations
+er_establish_rise.0001 = {
+	type = character_event
+	title = er_establish_rise.0001.title
+	desc = er_establish_rise.0001.desc
+
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	theme = war
+
+	option = {
+		name = er_establish_rise.0001.a
+		custom_tooltip = {
+			text = er_establish_rise.0001.a.tt
+			scope:barony = { set_title_name_dynamic = ER_RISE_NAME }
+		}
+	}
+	
+	option = {
+		name = er_establish_rise.0001.b
+
+	}
+}
