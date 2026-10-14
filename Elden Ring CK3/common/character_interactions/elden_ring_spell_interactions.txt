@@ -34,22 +34,19 @@
 		
 		scope:recipient = {
 			location = scope:puppet_or_actor.location
-			#is_courtier_of = scope:puppet_or_actor
-			#is_wounded = yes
 		}
 	}
 	
 	is_valid_showing_failures_only = {
 		scope:recipient = {
-			is_wounded = yes
 			NOT = { has_character_flag = heal_wounds_cooldown }
 
-			#custom_tooltip = {
-			#	text = interaction_heal_wounds_tooltip
-			#	scope:recipient = {
-			#		is_wounded = yes
-			#	}
-			#}
+			custom_tooltip = {
+				text = interaction_heal_wounds_tooltip
+				scope:recipient = {
+					is_wounded = yes
+				}
+			}
 		}
 	}
 	
@@ -249,14 +246,13 @@ heal_wounds_self_interaction = {
 	is_valid_showing_failures_only = {
 		scope:puppet_or_actor = {
 			NOT = { has_character_flag = heal_wounds_self_cooldown }
-			is_wounded = yes
 
-			#custom_tooltip = {
-			#	text = interaction_heal_wounds_self_tooltip
-			#	scope:puppet_or_actor = {
-			#		is_wounded = yes
-			#	}
-			#}
+			custom_tooltip = {
+				text = interaction_heal_wounds_self_tooltip
+				scope:puppet_or_actor = {
+					is_wounded = yes
+				}
+			}
 		}
 	}
 	
@@ -348,22 +344,19 @@ cure_disease_interaction = {
 		
 		scope:recipient = {
 			location = scope:puppet_or_actor.location
-			#is_courtier_of = scope:puppet_or_actor
-			#is_diseased = yes
 		}
 	}
 	
 	is_valid_showing_failures_only = {
 		scope:recipient = {
-			is_diseased = yes
 			NOT = { has_character_flag = cure_disease_cooldown }
-
-			#custom_tooltip = {
-			#	text = interaction_cure_disease_tooltip
-			#	scope:recipient = {
-			#		is_diseased = yes
-			#	}
-			#}
+			
+			custom_tooltip = {
+				text = interaction_cure_disease_tooltip
+				scope:recipient = {
+					is_diseased = yes
+				}
+			}
 		}
 	}
 	
@@ -598,6 +591,177 @@ cure_disease_interaction = {
 				has_relation_nemesis = scope:puppet_or_actor
 			}
 			desc = interaction_cure_disease_nemesis
+		}
+	}
+}
+
+cure_disease_self_interaction = {
+	category = interaction_category_spell
+	ai_maybe = yes
+	icon = cure_disease
+	
+	ai_targets = {
+		ai_recipients = self
+	}
+	ai_frequency_by_tier = {
+		barony = 0
+		county = 120
+		duchy = 24
+		kingdom = 12
+		empire = 12
+		hegemony = 12
+	}
+
+	desc = cure_disease_self_interaction_desc
+	
+	auto_accept = yes
+	
+	is_shown = {
+		scope:recipient = scope:puppet_or_actor
+		scope:puppet_or_actor = {
+			OR = {
+				has_trait_xp = { trait = incantation_two_fingers track = incantation_two_fingers value >= 40 }
+			}
+		}
+	}
+	
+	is_valid_showing_failures_only = {
+		scope:puppet_or_actor = {
+			NOT = { has_character_flag = cure_disease_self_cooldown }
+
+			custom_tooltip = {
+				text = interaction_cure_disease_self_tooltip
+				scope:puppet_or_actor = {
+					is_diseased = yes
+				}
+			}
+		}
+	}
+	
+	ai_potential = {
+		is_adult = yes
+		has_trait_xp = { trait = incantation_two_fingers track = incantation_two_fingers value >= 40 }
+	}
+
+	cost = {
+		prestige = 100
+	}
+	
+	on_auto_accept = {
+		scope:puppet_or_actor = {
+			if = {
+				limit = {
+					has_trait = ill
+				}
+				remove_trait = ill
+			}
+			if = {
+				limit = {
+					has_trait = pneumonic
+				}
+				remove_trait = pneumonic
+			}
+			if = {
+				limit = {
+					has_trait = great_pox
+				}
+				remove_trait = great_pox
+			}
+			if = {
+				limit = {
+					has_trait = lovers_pox
+				}
+				remove_trait = lovers_pox
+			}
+			if = {
+				limit = {
+					has_trait = leper
+				}
+				remove_trait = leper
+			}
+			if = {
+				limit = {
+					has_trait = gout_ridden
+				}
+				remove_trait = gout_ridden
+			}
+			if = {
+				limit = {
+					has_trait = consumption
+				}
+				remove_trait = consumption
+			}
+			if = {
+				limit = {
+					has_trait = cancer
+				}
+				remove_trait = cancer
+			}
+			if = {
+				limit = {
+					has_trait = typhus
+				}
+				remove_trait = typhus
+			}
+			if = {
+				limit = {
+					has_trait = bubonic_plague
+				}
+				remove_trait = bubonic_plague
+			}
+			if = {
+				limit = {
+					has_trait = smallpox
+				}
+				remove_trait = smallpox
+			}
+			if = {
+				limit = {
+					has_trait = measles
+				}
+				remove_trait = measles
+			}
+			if = {
+				limit = {
+					has_trait = dysentery
+				}
+				remove_trait = dysentery
+			}
+			if = {
+				limit = {
+					has_trait = ergotism
+				}
+				remove_trait = ergotism
+			}
+			if = {
+				limit = {
+					has_trait = sickly
+				}
+				remove_trait = sickly
+			}
+			if = {
+				limit = {
+					has_trait = scarlet_rot
+				}
+				remove_trait = scarlet_rot
+			}
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				scope:puppet_or_actor = { add_character_flag = { flag = cure_disease_self_cooldown days = 30 } }
+			}
+		}
+	}
+	
+	ai_will_do = {
+		base = 0
+
+		modifier = {
+			add = 100
+			scope:puppet_or_actor = {
+				is_diseased = yes
+			}
 		}
 	}
 }

@@ -41,3 +41,138 @@
 		}
 	}
 }
+
+get_a_disease_debug = {
+	category = interaction_debug_main
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	interface_priority = -1
+	icon = get_disease_debug
+	common_interaction = no
+
+	is_shown = {
+		debug_only = yes
+		#scope:recipient != scope:actor
+	}
+
+	send_option = {
+		flag = ill
+		localization = disease_1_interaction
+	}
+	send_option = {
+		flag = pneumonic
+		localization = disease_2_interaction
+	}
+	send_option = {
+		flag = great_pox
+		localization = disease_3_interaction
+	}
+	send_option = {
+		flag = lovers_pox
+		localization = disease_4_interaction
+	}
+	send_option = {
+		flag = consumption
+		localization = disease_5_interaction
+	}
+	send_option = {
+		flag = typhus
+		localization = disease_6_interaction
+	}
+	send_option = {
+		flag = smallpox
+		localization = disease_7_interaction
+	}
+	send_option = {
+		flag = measles
+		localization = disease_8_interaction
+	}
+	send_option = {
+		flag = dysentery
+		localization = disease_9_interaction
+	}
+	send_option = {
+		flag = ergotism
+		localization = disease_10_interaction
+	}
+	send_option = {
+		flag = sickly
+		localization = disease_11_interaction
+	}
+	send_option = {
+		flag = leper
+		localization = disease_12_interaction
+	}
+	send_option = {
+		flag = gout_ridden
+		localization = disease_13_interaction
+	}
+	send_option = {
+		flag = cancer
+		localization = disease_14_interaction
+	}
+	send_option = {
+		flag = bubonic_plague
+		localization = disease_15_interaction
+	}
+	send_option = {
+		flag = scarlet_rot
+		localization = disease_16_interaction
+	}
+	auto_accept = yes
+	on_accept = {
+		scope:recipient = {
+			switch = {
+				trigger = yes
+				scope:ill = {
+					add_trait = ill
+				}
+				scope:pneumonic = {
+					add_trait = pneumonic
+				}
+				scope:great_pox = {
+					add_trait = great_pox
+				}
+				scope:lovers_pox = {
+					add_trait = lovers_pox
+				}
+				scope:consumption = {
+					add_trait = consumption
+				}
+				scope:typhus = {
+					add_trait = typhus
+				}
+				scope:smallpox = {
+					add_trait = smallpox
+				}
+				scope:measles = {
+					add_trait = measles
+				}
+				scope:dysentery = {
+					add_trait = dysentery
+				}
+				scope:ergotism = {
+					add_trait = ergotism
+				}
+				scope:sickly = {
+					add_trait = sickly
+				}
+				scope:leper = {
+					add_trait = leper
+				}
+				scope:gout_ridden = {
+					add_trait = gout_ridden
+				}
+				scope:cancer = {
+					add_trait = cancer
+				}
+				scope:bubonic_plague = {
+					add_trait = bubonic_plague
+				}
+				scope:scarlet_rot = {
+					add_trait = scarlet_rot
+				}
+			}
+		}
+	}
+}
