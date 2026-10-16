@@ -29,6 +29,32 @@ artifact_legitimacy_gain_mult_10_modifier = { legitimacy_gain_mult = 0.5 }
 artifact_scared_vassal_tax_1_modifier = { cowed_vassal_tax_contribution_mult = 0.06 }
 artifact_scared_vassal_levy_1_modifier = { cowed_vassal_levy_contribution_mult = 0.06 }
 
+#for weapons upgrades
+artifact_upgrade_martial_modifier = { 
+	prowess_no_portrait = 3
+	martial = 1
+	monthly_martial_lifestyle_xp_gain_mult = 0.05
+}
+artifact_upgrade_diplomacy_modifier = { 
+	prowess_no_portrait = 3
+	diplomacy = 1
+	monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
+}
+artifact_upgrade_intrigue_modifier = { 
+	prowess_no_portrait = 3
+	intrigue = 1
+	monthly_intrigue_lifestyle_xp_gain_mult = 0.05
+}
+artifact_upgrade_stewardship_modifier = { 
+	prowess_no_portrait = 3
+	stewardship = 1
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.05
+}
+artifact_upgrade_learning_modifier = { 
+	prowess_no_portrait = 3
+	learning = 1
+	monthly_learning_lifestyle_xp_gain_mult = 0.05
+}
 #For the weapons by https://steamcommunity.com/id/pegasus2137
 WP_A_0203_modifier = {
 	prowess_no_portrait = 5

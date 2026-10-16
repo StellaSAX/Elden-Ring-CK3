@@ -29,8 +29,8 @@
  
  er_roundtable_hold.0004.t:0 "The Faith of The Lands Between"
  er_roundtable_hold.0004.desc:0 "What should be my interpretation of the faith?"
- er_roundtable_hold.0004.a:0 "I want to talk about the main Rite"
- er_roundtable_hold.0004.b:0 "The Order is perfect as it is"
+ er_roundtable_hold.0004.a:0 "I want to talk about the common understanding"
+ er_roundtable_hold.0004.b:0 "What is believed in Laydell?"
  er_roundtable_hold.0004.c:0 "Maybe i should ask about the truth"
  
  er_roundtable_hold.0005.t:0 "Buying an Artifact"
@@ -43,8 +43,20 @@
  er_roundtable_hold.1000.i:0 "Nothing for now"
  
  er_roundtable_hold.0006.t:0 "Selecting the weapon"
- er_roundtable_hold.0006.desc:0 "Which one of my weapons should i upgrade?"
+ er_roundtable_hold.0006.desc:0 "Which one of my weapons should i upgrade? *for now it only works with the weapon you have equipped. the list there is just the weapons you can upgrade."
  er_roundtable_hold.0006.a:0 "This one"
+ 
+ er_roundtable_hold.0006.mar:0 "Increase Martial"
+ er_roundtable_hold.0006.dip:0 "Increase Diplomacy"
+ er_roundtable_hold.0006.int:0 "Increase Intrigue"
+ er_roundtable_hold.0006.ste:0 "Increase Stewardship"
+ er_roundtable_hold.0006.lea:0 "Increase Learning"
+ 
+ artifact_upgrade_martial_modifier:0 "Increase Martial"
+ artifact_upgrade_diplomacy_modifier:0 "Increase Diplomacy"
+ artifact_upgrade_intrigue_modifier:0 "Increase Intrigue"
+ artifact_upgrade_stewardship_modifier:0 "Increase Stewardship"
+ artifact_upgrade_learning_modifier:0 "Increase Learning"
  
  er_knights.0001.desc:0 "I have Great potential beyond that of my peers, with some special training i could exploit it and become a better warrior, but what should be my specialty? my options depend on what affinities and skills i posses."
  er_knights.0001.a:0 "I will become a Knight of Order"

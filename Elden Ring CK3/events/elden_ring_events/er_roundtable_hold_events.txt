@@ -1,6 +1,6 @@
 ﻿namespace = er_roundtable_hold
 
-
+#i really need to clean this file, it's filled with unnessesary things
 ################
 # er_roundtable_hold.0001#get to the table
 # er_roundtable_hold.0002#talk to leader
@@ -132,12 +132,20 @@ er_roundtable_hold.0002 = {
 		# animation = personality_content
 	# }
 	
-	# immediate = {
+	immediate = {
 		# any_character = {
 			# has_trait = roundtable_leader
 			# save_scope_as = roundtable_current_leader
 		# }
-	# }
+		root.location.county.holder.top_liege ?= {
+			every_character_artifact ?= {
+				limit = {
+					has_variable = great_rune_variable
+				}
+				save_scope_as = great_rune
+			}
+		}
+	}
 
 	#gain skill
 	option = {
@@ -354,38 +362,21 @@ er_roundtable_hold.0002 = {
 			}
 		}
 	}
-	
 	#get claim on great rune
 	option = {
 		name = er_roundtable_hold.0002.d
 		trigger = {
-			custom_tooltip = {
-				text = er_roundtable_hold.0002.cooldown.tt
-				NOT = { has_variable = got_claim_for_rune_in_roundtable }
-			}
-			custom_tooltip = {
-				text = er_roundtable_hold.0002.cooldown.norune
-				root.location.county.holder.top_liege = {
-					any_character_artifact = {
-						limit = {
-							has_variable = great_rune_variable
-						}
-					}
+			#NOT = { has_variable = got_claim_for_rune_in_roundtable }
+			root.location.county.holder.top_liege ?= {
+				any_character_artifact ?= {
+					has_variable = great_rune_variable
 				}
 			}
+			
 		}
 		set_variable = {
 			name = got_claim_for_rune_in_roundtable
 			days = 365
-		}
-		
-		root.location.county.holder.top_liege = {
-			every_character_artifact = {
-				limit = {
-					has_variable = great_rune_variable
-				}
-				save_scope_as = great_rune
-			}
 		}
 		
 		root = { 
@@ -404,7 +395,6 @@ er_roundtable_hold.0002 = {
 			}
 		}
 	}
-	
 	
 	#get out
 	option = {
@@ -488,14 +478,15 @@ er_roundtable_hold.0004 = {
 	
 	option = {
 		name = er_roundtable_hold.0004.a
-		set_character_rite = rite:golden_rite
+		set_character_rite = faith:faith_golden.main_rite
+		
 		ai_chance = {
 			base = 100
 		}
 	}
 	option = {
 		name = er_roundtable_hold.0004.b
-		set_character_rite = rite:fundamentalist_rite
+		set_character_rite = title:c_elden_throne.rite
 		ai_chance = {
 			base = 100
 		}
@@ -717,7 +708,6 @@ er_roundtable_hold.0005 = {
 		custom_tooltip = er_roundtable_hold.1000.i.tt
 		#For loc reasons
 		trigger_event = er_roundtable_hold.0001
-		1000_clean_up_effect = yes
 		ai_chance = { base = 50 }
 	}
 	
@@ -725,7 +715,8 @@ er_roundtable_hold.0005 = {
 		trigger_event = er_roundtable_hold.0001
 	}
 }
-#upgrade weapon
+#upgrade weapon / 
+
 er_roundtable_hold.0006 = {
 	type = character_event
 	title = er_roundtable_hold.0006.t	
@@ -740,6 +731,7 @@ er_roundtable_hold.0006 = {
 	}
 	
 	widgets = {
+		#Why can't i get this to work correctly?
 		widget = {
 			gui = "artifact_selection" 
 			container = "custom_widgets_container"
@@ -751,28 +743,133 @@ er_roundtable_hold.0006 = {
 			type = court_smith_court_position
 			save_scope_as = court_smith
 		}
-		save_scope_as = viewer
 		every_character_artifact = {
 			limit = { NOT = { has_variable = weapon_upgraded } }
-			save_scope_as = possible_artifact
-			scope:viewer = {
+			root = {
 				add_to_variable_list = {
 					name = possible_artifacts
-					target = scope:possible_artifact
+					target = prev
+				}
+				if = {
+					limit = {
+						NOT = { has_variable = selected_artifact }
+					}
+					set_variable = { name = selected_artifact value = prev }
+					save_scope_as:weapon_to_upgrade
 				}
 			}
 		}
+		
+		
+		
 	}
 
-	#This one
+	#upgrade martial
 	option = {
-		name = er_roundtable_hold.0006.a
-		
-		scope:possible_artifact ?= {
-			add_artifact_modifier = artifact_prowess_20_modifier
+		name = er_roundtable_hold.0006.mar
+		remove_short_term_gold = 2500
+		random_character_artifact = {
+			limit = {
+				artifact_slot_type = primary_armament
+				is_equipped = yes
+			}
+			add_artifact_modifier = artifact_upgrade_martial_modifier
+
+			set_variable = {
+				name = weapon_upgraded
+				value = yes
+			}
+		}
+		#var:selected_artifact = { add_artifact_modifier = artifact_prowess_20_modifier }
+		# scope:possible_artifact ?= {
+			# add_artifact_modifier = artifact_prowess_20_modifier
+		# }
+	}
+	#upgrade diplomacy
+	option = {
+		name = er_roundtable_hold.0006.dip
+		remove_short_term_gold = 2500
+		#you can only update three times
+		random_character_artifact = {
+			limit = {
+				artifact_slot_type = primary_armament
+				is_equipped = yes
+			}
+			add_artifact_modifier = artifact_upgrade_diplomacy_modifier
+
+			if = {
+				limit = { has_variable = diplomacy_upgrade }
+				change_variable ?= {
+					name = diplomacy_upgrade
+					add = 1
+				}
+			}
+			else = {
+				set_variable = {
+					name = diplomacy_upgrade
+					value = 0
+				}
+			}
+			
+		}
+
+
+	}
+	#upgrade intrigue
+	option = {
+		name = er_roundtable_hold.0006.int
+		remove_short_term_gold = 2500
+		random_character_artifact = {
+			limit = {
+				artifact_slot_type = primary_armament
+				is_equipped = yes
+			}
+			add_artifact_modifier = artifact_upgrade_intrigue_modifier
+
+			set_variable = {
+				name = weapon_upgraded
+				value = yes
+			}
 		}
 
 	}
+	#upgrade stewardship
+	option = {
+		name = er_roundtable_hold.0006.ste
+		remove_short_term_gold = 2500
+		random_character_artifact = {
+			limit = {
+				artifact_slot_type = primary_armament
+				is_equipped = yes
+			}
+			add_artifact_modifier = artifact_upgrade_stewardship_modifier
+
+			set_variable = {
+				name = weapon_upgraded
+				value = yes
+			}
+		}
+
+	}
+	#upgrade learning
+	option = {
+		name = er_roundtable_hold.0006.lea
+		remove_short_term_gold = 2500
+		random_character_artifact = {
+			limit = {
+				artifact_slot_type = primary_armament
+				is_equipped = yes
+			}
+			add_artifact_modifier = artifact_upgrade_learning_modifier
+
+			set_variable = {
+				name = weapon_upgraded
+				value = yes
+			}
+		}
+
+	}
+	
 
 	
 	#get out

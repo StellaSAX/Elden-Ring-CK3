@@ -628,4 +628,3 @@ elden_ring_miquella_sword = {
 	}
 }
 
-
