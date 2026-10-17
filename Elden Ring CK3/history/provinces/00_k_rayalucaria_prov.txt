@@ -276,7 +276,7 @@
 # R201G14B67
 441 = {
 	culture = cul_liurnia
-	rite = academy_rite
+	rite = death_rite
 	holding = castle_holding
 }
 # R64G254B76
@@ -494,7 +494,7 @@
 # R175G86B76
 412 = {
 	culture = cul_liurnia
-	rite = academy_rite
+	rite = formless_rite
 	holding = castle_holding
 }
 # R140G140B136
@@ -680,7 +680,7 @@
 # R162G130B250
 1977 = {
 	culture = cul_liurnia
-	rite = academy_rite
+	rite = death_rite
 	holding = castle_holding
 }
 # R188G103B146
@@ -894,7 +894,7 @@
 # R31G81B70
 1113 = {
 	culture = cul_liurnia
-	rite = academy_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R98G196B175
@@ -1005,7 +1005,7 @@
 # R136G59B231
 2222 = {
 	culture = cul_liurnia
-	rite = academy_rite
+	rite = moons_rite
 	holding = castle_holding
 }
 # R209G71B74
@@ -1121,7 +1121,7 @@
 # R9G42B41
 1828 = {
 	culture = cul_liurnia
-	rite = academy_rite
+	rite = fire_monk_rite
 	holding = castle_holding
 }
 # R183G163B10
@@ -1140,7 +1140,7 @@
 1587 = {
 	culture = cul_liurnia
 	rite = academy_rite
-	holding = none
+	holding = castle_holding
 }
 
 
@@ -1210,7 +1210,7 @@
 # R221G92B114
 1083 = {
 	culture = cul_liurnia
-	rite = academy_rite
+	rite = god_snake_rite
 	holding = castle_holding
 }
 # R129G198B188
@@ -1491,7 +1491,7 @@
 # R110G42B9
 109 = {
 	culture = cul_liurnia
-	rite = academy_rite
+	rite = frenzy_rite
 	holding = castle_holding
 }
 # R125G31B243
@@ -1548,7 +1548,7 @@
 # R74G122B83
 104 = {
 	culture = cul_liurnia
-	rite = academy_rite
+	rite = death_rite
 	holding = castle_holding
 }
 # R187G97B199
@@ -1575,7 +1575,7 @@
 # R4G34B106
 334 = {
 	culture = cul_liurnia
-	rite = academy_rite
+	rite = frenzy_rite
 	holding = castle_holding
 }
 # R91G134B217

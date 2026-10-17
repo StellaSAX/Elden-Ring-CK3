@@ -4,7 +4,7 @@
 # R20G101B37
 1362 = {
 	culture = cul_caelid
-	rite = rot_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R66G209B76
@@ -25,7 +25,7 @@
 # R85G107B235
 1018 = {
 	culture = cul_caelid
-	rite = rot_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R161G73B115
@@ -46,7 +46,7 @@
 # R130G120B223
 1974 = {
 	culture = cul_caelid
-	rite = rot_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R47G154B3
@@ -67,7 +67,7 @@
 # R121G56B62
 636 = {
 	culture = cul_caelid
-	rite = rot_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R163G173B104
@@ -183,7 +183,7 @@
 # R143G33B46
 894 = {
 	culture = cul_caelid
-	rite = rot_rite
+	rite = death_rite
 	holding = castle_holding
 }
 # R70G19B43
@@ -327,7 +327,7 @@
 # R153G30B218
 1844 = {
 	culture = cul_caelid
-	rite = rot_rite
+	rite = gravity_rite
 	holding = castle_holding
 }
 # R197G34B41
@@ -431,7 +431,7 @@
 # R29G129B222
 1360 = {
 	culture = cul_caelid
-	rite = rot_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R157G98B124
@@ -536,7 +536,7 @@
 # R60G222B148
 823 = {
 	culture = cul_caelid
-	rite = rot_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R134G38B235
@@ -605,7 +605,7 @@
 # R17G133B145
 2277 = {
 	culture = cul_caelid
-	rite = rot_rite
+	rite = fire_monk_rite
 	holding = castle_holding
 }
 # R40G83B8
@@ -676,7 +676,7 @@
 # R42G165B47
 931 = {
 	culture = cul_sellia
-	rite = rot_rite
+	rite = night_rite
 	holding = castle_holding
 }
 # R158G220B47
@@ -829,7 +829,7 @@
 # R105G18B239
 2457 = {
 	culture = cul_caelid
-	rite = rot_rite
+	rite = primeval_rite
 	holding = castle_holding
 }
 # LAKE
@@ -922,7 +922,7 @@
 # R56G212B7
 2520 = {
 	culture = cul_sellia
-	rite = rot_rite
+	rite = gravity_rite
 	holding = castle_holding
 }
 # R202G138B63
@@ -945,7 +945,7 @@
 # R21G79B40
 1660 = {
 	culture = cul_caelid
-	rite = rot_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R160G124B196
@@ -990,7 +990,7 @@
 # R1G127B168
 1190 = {
 	culture = cul_caelid
-	rite = rot_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R163G208B42
@@ -1023,7 +1023,7 @@
 # R19G101B162
 19 = {
 	culture = cul_caelid
-	rite = rot_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R243G214B171
@@ -1062,7 +1062,7 @@
 # R135G169B170
 489 = {
 	culture = cul_caelid
-	rite = rot_rite
+	rite = gravity_rite
 	holding = castle_holding
 }
 # R34G222B230
@@ -1101,7 +1101,7 @@
 # R149G148B72
 2385 = {
 	culture = cul_caelid
-	rite = rot_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R35G109B123
@@ -1140,7 +1140,7 @@
 # R138G109B184
 1642 = {
 	culture = cul_caelid
-	rite = rot_rite
+	rite = gravity_rite
 	holding = castle_holding
 }
 # R131G221B175

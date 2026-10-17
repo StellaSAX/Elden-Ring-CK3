@@ -326,7 +326,7 @@
 # R115G88B3
 1653 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = frenzy_rite
 	holding = castle_holding
 }
 # R12G208B181
@@ -406,7 +406,7 @@
 # R20G119B230
 1788 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = frenzy_rite
 	holding = castle_holding
 }
 # R38G34B137
@@ -433,7 +433,7 @@
 # R11G191B102
 707 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = frenzy_rite
 	holding = castle_holding
 }
 # R158G221B92
@@ -448,7 +448,7 @@
 # R241G219B30
 1215 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = academy_rite
 	holding = castle_holding
 }
 # R236G129B153
@@ -463,7 +463,7 @@
 # R48G193B57
 2420 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = frenzy_rite
 	holding = castle_holding
 }
 # R75G177B162
@@ -519,14 +519,14 @@
 # R142G243B183
 2084 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R213G126B131
 2300 = {
 	culture = cul_caria
 	rite = moons_rite
-	holding = none
+	holding = church_holding
 }
 # R220G185B233
 1063 = {
@@ -546,7 +546,7 @@
 # R108G40B112
 1970 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R29G35B143
@@ -594,7 +594,7 @@
 # R220G175B161
 986 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = fire_monk_rite
 	holding = castle_holding
 }
 # R124G179B238
@@ -669,7 +669,7 @@
 # R166G147B186
 2543 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = fire_monk_rite
 	holding = castle_holding
 }
 # R38G242B145
@@ -839,7 +839,7 @@
 # R9G230B217
 1132 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = darkmoon_rite
 	holding = castle_holding
 }
 # R95G181B155
@@ -1071,7 +1071,7 @@
 # R221G205B240
 936 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R217G20B230
@@ -1127,7 +1127,7 @@
 # R92G172B185
 363 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = darkmoon_rite
 	holding = castle_holding
 }
 # R23G125B22
@@ -1160,7 +1160,7 @@
 # R144G19B255
 190 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = darkmoon_rite
 	holding = castle_holding
 }
 # R235G162B177
@@ -1187,7 +1187,7 @@
 # R180G238B236
 2350 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = darkmoon_rite
 	holding = castle_holding
 }
 # R196G200B107
@@ -1352,7 +1352,7 @@
 # R104G149B4
 401 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = darkmoon_rite
 	holding = castle_holding
 }
 # R99G85B195
@@ -1381,7 +1381,7 @@
 # divinetower_liurnia_3
 738 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = godslayer_rite
 	holding = castle_holding
 }
 # divinetower_liurnia_1
@@ -1410,7 +1410,7 @@
 # R65G166B112
 2362 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = darkmoon_rite
 	holding = castle_holding
 }
 # R68G108B21
@@ -1437,7 +1437,7 @@
 # R87G167B174
 1057 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = darkmoon_rite
 	holding = castle_holding
 }
 # R234G72B154
@@ -1458,7 +1458,7 @@
 # R139G91B16
 2187 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = darkmoon_rite
 	holding = castle_holding
 }
 # R244G36B226
@@ -1473,7 +1473,7 @@
 # R124G240B41
 1090 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = darkmoon_rite
 	holding = castle_holding
 }
 # R128G228B6
@@ -1509,7 +1509,7 @@
 # R185G133B142
 97 = {
 	culture = cul_caria
-	rite = moons_rite
+	rite = gravity_rite
 	holding = castle_holding
 }
 # R0G67B178

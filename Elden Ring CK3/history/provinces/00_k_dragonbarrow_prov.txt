@@ -183,7 +183,7 @@
 # R224G124B18
 1189 = {
 	culture = cul_dragonbarrow
-	rite = rot_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 
@@ -192,7 +192,7 @@
 # R217G157B19
 1125 = {
 	culture = cul_dragonbarrow
-	rite = rot_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R91G22B53
@@ -225,7 +225,7 @@
 # R197G21B100
 2227 = {
 	culture = cul_dragonbarrow
-	rite = rot_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R168G72B209
@@ -246,7 +246,7 @@
 # divinetower_caelid_1
 1119 = {
 	culture = cul_dragonbarrow
-	rite = rot_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R97G244B12
@@ -285,7 +285,7 @@
 # R236G107B86
 1211 = {
 	culture = cul_dragonbarrow
-	rite = rot_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R132G74B41
@@ -308,7 +308,7 @@
 # R222G254B164
 2081 = {
 	culture = cul_dragonbarrow
-	rite = rot_rite
+	rite = godslayer_rite
 	holding = castle_holding
 }
 # R140G202B156

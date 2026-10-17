@@ -123,7 +123,7 @@
 # wp_barony_73
 2560 = {
 	culture = cul_weeping_peninsula
-	rite = golden_rite
+	rite = crucible_rite
 	holding = castle_holding
 }
 
@@ -188,7 +188,7 @@
 # wp_barony_27
 433 = {
 	culture = cul_weeping_peninsula
-	rite = golden_rite
+	rite = frenzy_rite
 	holding = castle_holding
 }
 # wp_barony_26
@@ -280,7 +280,7 @@
 # wp_barony_60
 1429 = {
 	culture = cul_weeping_peninsula
-	rite = golden_rite
+	rite = death_rite
 	holding = castle_holding
 }
 # wp_barony_36
@@ -491,7 +491,7 @@
 866 = {
 	special_building_slot = morne_tunnel_mines_01
 	culture = cul_weeping_peninsula
-	rite = golden_rite
+	rite = dragon_cult_rite
 	holding = castle_holding
 	
 	1000.1.1 = {
@@ -716,7 +716,7 @@
 # R161G210B231
 2067 = {
 	culture = cul_weeping_peninsula
-	rite = golden_rite
+	rite = primeval_rite
 	holding = castle_holding
 }
 # wp_barony_56

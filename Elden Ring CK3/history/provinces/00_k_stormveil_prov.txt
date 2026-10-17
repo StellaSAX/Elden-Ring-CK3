@@ -233,7 +233,7 @@
 # R105G69B19
 2185 = {
 	culture = cul_stormhill
-	rite = golden_rite
+	rite = crucible_rite
 	holding = castle_holding
 }
 # R164G17B230
@@ -526,7 +526,7 @@
 # R184G186B241
 1566 = {
 	culture = cul_limgrave
-	rite = golden_rite
+	rite = ancient_dragon_rite
 	holding = castle_holding
 }
 # limgrave_barony_91
@@ -740,7 +740,7 @@
 # limgrave_barony_77
 2079 = {
 	culture = cul_limgrave
-	rite = golden_rite
+	rite = primeval_rite
 	holding = castle_holding
 }
 # R241G67B192
@@ -838,7 +838,7 @@
 # limgrave_barony_42
 1649 = {
 	culture = cul_limgrave
-	rite = golden_rite
+	rite = dragon_cult_rite
 	holding = castle_holding
 }
 # limgrave_barony_41
@@ -1047,7 +1047,7 @@
 686 = {
 	special_building_slot = fort_haight_1
 	culture = cul_mistwood
-	rite = golden_rite
+	rite = formless_rite
 	holding = castle_holding
 	
 	1000.1.1 = {
@@ -1464,7 +1464,7 @@
 # limgrave_barony_55
 1839 = {
 	culture = cul_limgrave
-	rite = golden_rite
+	rite = duskborn_rite
 	holding = castle_holding
 }
 # limgrave_barony_67
@@ -1479,7 +1479,7 @@
 # limgrave_barony_111
 1172 = {
 	culture = cul_limgrave
-	rite = golden_rite
+	rite = fundamentalist_rite
 	holding = castle_holding
 }
 # limgrave_barony_112
@@ -1888,7 +1888,7 @@
 # limgrave_barony_141
 1300 = {
 	culture = cul_stormhill
-	rite = golden_rite
+	rite = death_rite
 	holding = castle_holding
 }
 # limgrave_barony_130
