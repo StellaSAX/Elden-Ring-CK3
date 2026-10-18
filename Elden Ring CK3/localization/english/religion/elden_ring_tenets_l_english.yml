@@ -13,6 +13,12 @@
  doctrine_parameter_golden_syncretic_actor_opinion_active:0 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with Order [faiths|E]"
  doctrine_parameter_opinion_of_golden_syncretic_recipient_opinion_active:0 ""
  
+ golden_syncretic_recipient_opinion_name:0 "We both serve the Golden Order"
+ golden_syncretic_actor_opinion_name:0 "We both serve the Golden Order"
+ 
+ dragon_syncretic_recipient_opinion_name:0 "We both Worship the Ancient Dragons"
+ dragon_syncretic_actor_opinion_name:0 "We both Worship the Ancient Dragons"
+ 
  tenet_golden_order_name:0 "The Governing Principle"
  tenet_golden_order_desc:0 "The Golden Order, made manifest by the Elden Ring, encompasses everything - our world and the very rules dictating its functions. We followers of the Golden Order share reverence for the Erdtree, Marika and her consort."
  tenet_unalloyed_order_name:0 "The Unalloyed Order"
@@ -58,3 +64,5 @@
  
  tenet_serpents_name:0 "Serpentine Deity"
  tenet_serpents_desc:0 "There are ancient tales of an Immortal Serpent living in Mount Gelmir, a being that can only be killed temporarily by a weapon known as the `Serpent-Hunter`. This ancient creature was venerated by a snake cult that offered human sacrifices to it."
+ 
+ 

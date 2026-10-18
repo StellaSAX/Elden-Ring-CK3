@@ -2043,18 +2043,20 @@ doctrine_frenzy_affinity_virtuous = {
 
 #SPECIAL
 special_doctrine_is_dragon_faith = {
-	doctrine_group_type = is_dragon_faith
-	
+	doctrine_group_type = special_tolerance
+	icon = "special_doctrine_teachings_of_jesus"
 	parameters = {
 		dragon_syncretic_recipient
+		special_doctrine_is_dragon_faith
 	}
+	visible = no
 
 	special_parameters = {
-		parameters = {
-			hostility_level_override = {
-				tenet_dragon_cult = astray
-			}
+
+		hostility_level_override = {
+			tenet_dragon_cult = astray
 		}
+		
 		parameter_opinion_override = {
 			dragon_syncretic_actor = 30
 		}
@@ -2062,24 +2064,26 @@ special_doctrine_is_dragon_faith = {
 }
 
 special_doctrine_is_golden_faith = {
-	doctrine_group_type = is_golden_faith
-	
+	doctrine_group_type = special_tolerance
+	icon = "special_doctrine_teachings_of_jesus"
 	parameters = {
 		golden_syncretic_recipient
+		special_doctrine_is_golden_faith
 	}
+	visible = no
 
 	special_parameters = {
-		parameters = {
-			hostility_level_override = {
-				tenet_golden_order = astray
-			}
-			hostility_level_override = {
-				tenet_golden_order_syncretism = astray
-			}
-			hostility_level_override = {
-				tenet_destroy_golden_order = evil
-			}
+
+		hostility_level_override = {
+			tenet_golden_order = astray
 		}
+		hostility_level_override = {
+			tenet_golden_order_syncretism = astray
+		}
+		hostility_level_override = {
+			tenet_destroy_golden_order = evil
+		}
+		
 		parameter_opinion_override = {
 			golden_syncretic_actor = 30
 			enemy_of_order_religion = -30

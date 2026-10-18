@@ -268,7 +268,10 @@ tenet_dragon_cult = {
 			NOT = { tenet:tenet_bayle_dragon = { is_in_list = selected_doctrines } }	
 		}
 	}
-
+	personal_tenet_modifier = {
+		prowess_per_piety_level = 1
+		character_spiritual_fulfillment_gain_mult = 0.15
+	}
 	personal_tenet_parameters = {
 		tenet_syncretism_invite_religious_exiles
 		tenet_syncretism_county_bonus
@@ -323,15 +326,11 @@ tenet_golden_order = {
 	parameters = {
 		erdtree_incantation_bonuses
 		order_incantation_bonuses
-		golden_syncretic_actor
 		tenet_pentarchy_holy_site_prosperity
 	}
 	special_parameters = {
 		hostility_level_override = {
 			special_doctrine_is_golden_faith = astray
-		}
-		parameter_opinion_override = {
-			golden_syncretic_recipient = 30
 		}
 	}
 	
@@ -671,7 +670,7 @@ tenet_golden_order_syncretism = {
 
 	special_parameters = {
 		hostility_level_override = {
-			golden_hostility_doctrine = astray
+			special_doctrine_is_golden_faith = astray
 		}
 		parameter_opinion_override = {
 			#Sync this to syncretic_mutual_opinion_bonus_value
