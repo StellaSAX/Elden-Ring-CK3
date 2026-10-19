@@ -291,7 +291,7 @@
 # ruins_base_11
 3223 = {
 	culture = cul_shadowlander
-	rite = crucible_rite
+	rite = bear_rite
 	holding = castle_holding
 }
 # R224G72B46
@@ -318,7 +318,7 @@
 # R79G81B109
 1778 = {
 	culture = cul_shadowlander
-	rite = crucible_rite
+	rite = bear_rite
 	holding = castle_holding
 }
 # ruins_base_10

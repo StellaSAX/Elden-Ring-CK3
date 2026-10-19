@@ -118,6 +118,25 @@ crucible_rite = {
 		tenet_primordial_curse
     }
 }
+bear_rite = {
+	name = bear_rite
+	desc = bear_rite_desc
+	faith = faith_crucible
+	
+	color = { 0.9 0.6 0.4 }
+	icon = bear_rite
+	reformed_icon = bear_rite
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+	tenets = {
+		tenet_takamin
+		tenet_sanctity_of_nature
+		tenet_primordial_curse
+    }
+}
+
 spiral_rite = {
 	name = spiral_rite
 	desc = spiral_rite_desc

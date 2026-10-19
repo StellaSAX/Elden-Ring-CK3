@@ -93,3 +93,9 @@
  spiral_rite_desc:0 "For some lost in the Lands of Shadow the idea of being abandoned was too much to bare and in their desperation they began to seek for an answer in something new, in the end they found it in something old. Taking the Hornsent beliefs and merging it with the teachings of the Erdtree they created the Spiral Path and carved icons of the distant Erdtree onto amber, marking the ancient still warm remnants of the lost Crucible with that which would come after forever linking the two in silver light."
  spiral_rite_trickster_god_name:0 "Queen Marika the Eternal"
  spiral_rite_religious_symbol:0 "Spiral-Carved Amber"
+ 
+ bear_rite:0 "Bear Communion"
+ bear_rite_desc:0 "After killing the great red bear in a blood-soaked bout, he became fascinated by the untainted glory of its naked strength.'I wish to be a bear, no more, and no less.'"
+ bear_rite_adj:0 "Bear Communion"
+ bear_rite_adherent:0 "Bear"
+ bear_rite_adherent_plural:0 "Bear"
