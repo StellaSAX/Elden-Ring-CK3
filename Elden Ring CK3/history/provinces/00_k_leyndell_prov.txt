@@ -63,7 +63,7 @@
 # R41G65B12
 783 = {
 	culture = cul_leyndell
-	rite = golden_rite
+	rite = gravity_rite
 	holding = castle_holding
 }
 # R97G140B47
@@ -377,7 +377,7 @@
 # leyndell_new_4
 3171 = {
 	culture = cul_leyndell
-	rite = golden_rite
+	rite = despair_rite
 	holding = castle_holding
 }
 # R145G170B181
@@ -398,7 +398,7 @@
 # R149G32B85
 257 = {
 	culture = cul_leyndell
-	rite = golden_rite
+	rite = death_rite
 	holding = castle_holding
 }
 # R110G242B57
@@ -419,7 +419,7 @@
 # R153G252B62
 512 = {
 	culture = cul_leyndell
-	rite = golden_rite
+	rite = dragon_cult_rite
 	holding = castle_holding
 }
 # R233G77B71
@@ -770,7 +770,7 @@
 # R7G77B201
 2297 = {
 	culture = cul_leyndell
-	rite = golden_rite
+	rite = formless_rite
 	holding = castle_holding
 }
 # R143G233B44

@@ -31,7 +31,7 @@
 # R211G0B215
 958 = {
 	culture = cul_ancient_dragon
-	rite = ancient_dragon_rite
+	rite = dragon_cult_rite
 	holding = castle_holding
 }
 # R162G115B159
@@ -58,7 +58,7 @@
 # R38G56B3
 1887 = {
 	culture = cul_ancient_dragon
-	rite = ancient_dragon_rite
+	rite = god_snake_rite
 	holding = castle_holding
 }
 # R103G236B97
@@ -191,7 +191,7 @@
 # R236G64B255
 2024 = {
 	culture = cul_ancient_dragon
-	rite = ancient_dragon_rite
+	rite = godslayer_rite
 	holding = castle_holding
 }
 # R10G10B234

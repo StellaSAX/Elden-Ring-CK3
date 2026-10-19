@@ -153,7 +153,7 @@
 # R32G195B151
 276 = {
 	culture = cul_altus
-	rite = duskborn_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R160G140B239
@@ -180,7 +180,7 @@
 # LAKE
 3127 = {
 	culture = cul_altus
-	rite = duskborn_rite
+	rite = golden_rite
 	holding = castle_holding
 }
 # R0G93B113
@@ -197,7 +197,7 @@
 # R171G245B95
 392 = {
 	culture = cul_altus
-	rite = duskborn_rite
+	rite = crucible_rite
 	holding = castle_holding
 }
 # R142G8B95

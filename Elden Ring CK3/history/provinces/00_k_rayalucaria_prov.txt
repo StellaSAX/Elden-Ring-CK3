@@ -1548,7 +1548,7 @@
 # R74G122B83
 104 = {
 	culture = cul_liurnia
-	rite = death_rite
+	rite = duskborn_rite
 	holding = castle_holding
 }
 # R187G97B199

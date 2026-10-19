@@ -29,6 +29,11 @@ faith_primeval = {
 
 faith_night = {
     1.1.1 = {
+		main_rite = night_rite
+
+        rites = {
+            nox_rite = {}
+        }
         known = {
            
         }

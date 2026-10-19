@@ -31,7 +31,7 @@
 # R210G192B61
 1392 = {
 	culture = cul_low_northerner
-	rite = golden_rite
+	rite = god_snake_rite
 	holding = castle_holding
 }
 # R196G146B19
@@ -118,7 +118,7 @@
 # R232G218B137
 15 = {
 	culture = cul_low_northerner
-	rite = golden_rite
+	rite = rot_rite
 	holding = castle_holding
 }
 # R133G179B121
@@ -140,8 +140,8 @@
 ### c_R79G241B125
 # R24G59B178
 1021 = {
-	culture = cul_low_northerner
-	rite = golden_rite
+	culture = cul_albinauric
+	rite = st_trina_rite
 	holding = castle_holding
 }
 # R194G133B35
@@ -200,7 +200,7 @@
 ### c_R10G254B217
 # R53G32B163
 1101 = {
-	culture = cul_low_northerner
+	culture = cul_misbegotten
 	rite = golden_rite
 	holding = castle_holding
 }
@@ -243,7 +243,7 @@
 # R127G49B171
 1984 = {
 	culture = cul_low_northerner
-	rite = golden_rite
+	rite = rot_rite
 	holding = castle_holding
 }
 # R246G100B160
@@ -297,7 +297,7 @@
 # R78G12B244
 2311 = {
 	culture = cul_low_northerner
-	rite = golden_rite
+	rite = rot_rite
 	holding = castle_holding
 }
 # R121G228B117
@@ -338,7 +338,7 @@
 # R167G159B218
 1758 = {
 	culture = cul_low_northerner
-	rite = golden_rite
+	rite = gravity_rite
 	holding = castle_holding
 }
 # R74G80B164
@@ -365,7 +365,7 @@
 # R118G65B50
 192 = {
 	culture = cul_low_northerner
-	rite = golden_rite
+	rite = frenzy_rite
 	holding = castle_holding
 }
 # R15G7B2
@@ -398,7 +398,7 @@
 # R44G246B255
 515 = {
 	culture = cul_low_northerner
-	rite = golden_rite
+	rite = formless_rite
 	holding = castle_holding
 }
 # R114G102B9
@@ -521,7 +521,7 @@
 # R135G196B96
 810 = {
 	culture = cul_low_northerner
-	rite = golden_rite
+	rite = death_rite
 	holding = castle_holding
 }
 # R105G42B54

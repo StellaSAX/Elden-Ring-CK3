@@ -168,7 +168,7 @@ frenzy_tower = {
 }
 
 three_fingers = {
-	county = c_auriza_hero_grave
+	county = c_R113G28B212
 	#barony = b_R202G138B202
 	
 	character_modifier = {

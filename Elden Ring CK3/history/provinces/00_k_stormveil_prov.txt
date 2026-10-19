@@ -945,7 +945,7 @@
 # limgrave_barony_102
 200 = {
 	culture = cul_limgrave
-	rite = golden_rite
+	rite = formless_rite
 	holding = castle_holding
 }
 # R142G1B86
@@ -1797,7 +1797,7 @@
 1223 = {
 	special_building_slot = limgrave_colosseum
 	culture = cul_stormhill
-	rite = golden_rite
+	rite = god_snake_rite
 	holding = castle_holding
 	
 	1000.1.1 = {
@@ -1994,7 +1994,7 @@
 ### c_limgrave_beach_east
 # R35G120B6
 2512 = {
-	culture = cul_limgrave
+	culture = cul_demihuman
 	rite = golden_rite
 	holding = castle_holding
 }

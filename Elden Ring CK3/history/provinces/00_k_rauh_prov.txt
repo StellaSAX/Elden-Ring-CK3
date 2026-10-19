@@ -91,7 +91,7 @@
 # R248G77B213
 233 = {
 	culture = cul_rauh
-	rite = crucible_rite
+	rite = spiral_rite
 	holding = castle_holding
 }
 
@@ -207,7 +207,7 @@
 # R241G15B64
 1695 = {
 	culture = cul_shadowlander
-	rite = crucible_rite
+	rite = death_rite
 	holding = castle_holding
 }
 # R247G199B63
@@ -481,7 +481,7 @@
 # R180G223B135
 708 = {
 	culture = cul_rauh
-	rite = crucible_rite
+	rite = romina_rite
 	holding = castle_holding
 }
 # R4G74B199
@@ -514,7 +514,7 @@
 # R59G142B75
 2168 = {
 	culture = cul_rauh
-	rite = crucible_rite
+	rite = duskborn_rite
 	holding = castle_holding
 }
 # R37G179B86
@@ -541,7 +541,7 @@
 # R18G123B67
 2031 = {
 	culture = cul_rauh
-	rite = crucible_rite
+	rite = romina_rite
 	holding = castle_holding
 }
 # R162G61B160

@@ -98,7 +98,7 @@ faith_night = {
 	main_rite = night_rite
 	faith_details = {
 		religion = cosmos_religion
-		color = { 0.2 0.2 0.2 }
+		color = { 0.4 0.4 0.6 }
 		icon = faith_night
 		reformed_icon = faith_night
 		graphical_faith = "pagan_gfx"
@@ -669,8 +669,8 @@ faith_ancestor_spirit = {
 	faith_details = {
 		religion = spirits_religion
 		color = { 0.1 0.8 0.8 }
-		icon = faith_ancestor_spirit
-		reformed_icon = faith_ancestor_spirit
+		icon = faith_spirit
+		reformed_icon = faith_spirit
 		graphical_faith = "pagan_gfx"
 	}
 

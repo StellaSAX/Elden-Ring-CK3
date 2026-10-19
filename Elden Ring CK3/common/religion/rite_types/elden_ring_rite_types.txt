@@ -71,19 +71,32 @@ night_rite = {
 	desc = night_rite_desc
 	faith = faith_night
 	
-	color = { 0.2 0.2 0.2 }
+	color = { 0.2 0.2 0.6 }
 	icon = faith_night
 	reformed_icon = faith_night
+
+	tenets = {
+		tenet_glintstone
+		tenet_sacred_shadows
+		tenet_night
+    }
+}
+nox_rite = {
+	name = nox_rite
+	desc = nox_rite_desc
+	faith = faith_night
+	
+	color = { 0.5 0.5 0.7 }
+	icon = nox_rite
+	reformed_icon = nox_rite
 
 	doctrines = {
 		unreformed_faith_doctrine
 	}
 	tenets = {
-		tenet_astrology
-		#tenet_glintstone
-		#make a tenet related to night sorceries
+		tenet_night
 		tenet_sacred_shadows
-		#tenet_destroy_golden_order
+		tenet_destroy_golden_order
     }
 }
 crucible_rite = {
@@ -113,6 +126,9 @@ spiral_rite = {
 	color = { 0.7 0.7 0.5 }
 	icon = faith_spiral
 	reformed_icon = faith_spiral
+	doctrines = {
+		reformed_faith_doctrine
+	}
 
 	tenets = {
 		tenet_sacrificial_ceremonies
@@ -270,7 +286,7 @@ fire_monk_rite = {
 	tenets = {
 		tenet_giants_flame
 		tenet_ancestor_worship
-		tenet_sanctity_of_nature
+		tenet_golden_order_syncretism
     }
 }
 formless_rite = {
@@ -287,9 +303,9 @@ formless_rite = {
 	}
 	tenets = {
 		#replace this ones
-		tenet_astrology
-		tenet_ancestor_worship
-		tenet_sanctity_of_nature
+		tenet_pursuit_of_power
+		tenet_exaltation_of_pain
+		tenet_human_sacrifice
     }
 }
 frenzy_rite = {
@@ -712,7 +728,6 @@ reedlander_rite = {
 		tenet_consolamentum
     }
 }
-#missing tenets
 rot_rite = {
 	name = rot_rite
 	desc = rot_rite_desc
@@ -727,12 +742,10 @@ rot_rite = {
 	}
 	tenets = {
 		tenet_rot
-		#tenet_astrology
 		tenet_ancestor_worship
-		tenet_sanctity_of_nature
+		tenet_unrelenting_faith
     }
 }
-#missing tenets
 romina_rite = {
 	name = romina_rite
 	desc = romina_rite_desc
@@ -744,8 +757,7 @@ romina_rite = {
 
 	tenets = {
 		tenet_rot
-		#tenet_astrology
-		tenet_ancestor_worship
+		tenet_unrelenting_faith
 		tenet_sanctity_of_nature
     }
 }

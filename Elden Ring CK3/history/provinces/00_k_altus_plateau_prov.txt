@@ -210,7 +210,7 @@
 # R166G203B173
 551 = {
 	culture = cul_altus
-	rite = golden_rite
+	rite = gravity_rite
 	holding = castle_holding
 }
 # R164G212B184
@@ -266,8 +266,8 @@
 ### c_R66G183B193
 # R211G198B160
 1894 = {
-	culture = cul_altus
-	rite = golden_rite
+	culture = cul_reedlander
+	rite = formless_rite
 	holding = castle_holding
 }
 # R52G165B64
@@ -448,7 +448,7 @@
 ### c_shaded_bog
 # R25G136B15
 2190 = {
-	culture = cul_altus
+	culture = cul_eochaid
 	rite = golden_rite
 	holding = castle_holding
 }
@@ -661,7 +661,7 @@
 # R231G17B164
 965 = {
 	culture = cul_altus
-	rite = golden_rite
+	rite = formless_rite
 	holding = castle_holding
 }
 # R250G184B99
@@ -727,7 +727,7 @@
 # R186G38B166
 2124 = {
 	culture = cul_altus
-	rite = golden_rite
+	rite = godslayer_rite
 	holding = castle_holding
 }
 # R81G161B126
@@ -795,7 +795,7 @@
 # R49G127B42
 2241 = {
 	culture = cul_altus
-	rite = golden_rite
+	rite = death_rite
 	holding = castle_holding
 }
 # R66G83B161
@@ -884,7 +884,7 @@
 # R77G5B54
 1968 = {
 	culture = cul_altus
-	rite = golden_rite
+	rite = duskborn_rite
 	holding = castle_holding
 }
 # R236G9B202
@@ -951,7 +951,7 @@
 ### c_R213G221B90
 # R97G185B133
 2369 = {
-	culture = cul_altus
+	culture = cul_misbegotten
 	rite = golden_rite
 	holding = castle_holding
 }
@@ -1038,8 +1038,8 @@
 ### c_R53G213B51
 # altus_new_14
 3160 = {
-	culture = cul_altus
-	rite = golden_rite
+	culture = cul_draconian
+	rite = ancient_dragon_rite
 	holding = castle_holding
 }
 # R244G184B212
@@ -1292,8 +1292,8 @@
 ### c_sigmahill
 # altus_new_5
 3151 = {
-	culture = cul_altus
-	rite = golden_rite
+	culture = cul_draconian
+	rite = ancient_dragon_rite
 	holding = castle_holding
 }
 # R124G88B9

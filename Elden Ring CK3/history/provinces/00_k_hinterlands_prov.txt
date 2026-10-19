@@ -183,8 +183,8 @@
 # R54G183B236
 750 = {
 	culture = cul_shadowlander
-	rite = messmer_rite
-	holding = none
+	rite = gravity_rite
+	holding = castle_holding
 }
 # R35G60B23
 1664 = {

@@ -13,7 +13,7 @@
 # R202G195B14
 1077 = {
 	culture = cul_northerner
-	rite = golden_rite
+	rite = giants_flame_rite
 	holding = castle_holding
 }
 # R181G234B192
@@ -152,8 +152,8 @@
 ### c_R17G151B160
 # R140G183B226
 240 = {
-	culture = cul_northerner
-	rite = golden_rite
+	culture = cul_reedlander
+	rite = formless_rite
 	holding = castle_holding
 }
 # R243G39B221
@@ -256,7 +256,7 @@
 ### c_R120G160B83
 # R96G189B100
 1556 = {
-	culture = cul_northerner
+	culture = cul_zamor
 	rite = golden_rite
 	holding = castle_holding
 }
@@ -265,7 +265,7 @@
 ### c_zamor_ruins
 # R45G70B115
 2046 = {
-	culture = cul_northerner
+	culture = cul_zamor
 	rite = golden_rite
 	holding = castle_holding
 }
@@ -310,7 +310,7 @@
 # R92G217B184
 2012 = {
 	culture = cul_northerner
-	rite = golden_rite
+	rite = duskborn_rite
 	holding = castle_holding
 }
 # R193G46B191
@@ -331,7 +331,7 @@
 # R123G37B100
 2155 = {
 	culture = cul_northerner
-	rite = golden_rite
+	rite = unalloyed_rite
 	holding = castle_holding
 }
 # R39G169B67
@@ -385,7 +385,7 @@
 # R222G65B119
 1543 = {
 	culture = cul_northerner
-	rite = golden_rite
+	rite = death_rite
 	holding = castle_holding
 }
 # R40G67B33
@@ -516,7 +516,7 @@
 # R224G53B43
 2186 = {
 	culture = cul_northerner
-	rite = golden_rite
+	rite = frenzy_rite
 	holding = castle_holding
 }
 # R247G96B7
@@ -549,7 +549,7 @@
 # R76G254B92
 902 = {
 	culture = cul_northerner
-	rite = golden_rite
+	rite = fire_monk_rite
 	holding = castle_holding
 }
 # R185G215B238
@@ -570,7 +570,7 @@
 # R127G23B148
 217 = {
 	culture = cul_northerner
-	rite = golden_rite
+	rite = godslayer_rite
 	holding = castle_holding
 }
 # R89G121B122
@@ -597,7 +597,7 @@
 # R96G68B25
 1316 = {
 	culture = cul_northerner
-	rite = golden_rite
+	rite = primeval_rite
 	holding = castle_holding
 }
 # R207G255B240

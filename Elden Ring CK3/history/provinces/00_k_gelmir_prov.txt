@@ -84,7 +84,7 @@
 ### c_manor_area_two
 # R76G110B15
 67 = {
-	culture = cul_gelmir
+	culture = cul_albinauric
 	rite = god_snake_rite
 	holding = castle_holding
 }
@@ -140,8 +140,8 @@
 ### c_R155G12B151
 # R31G1B0
 455 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
+	culture = cul_demihuman
+	rite = academy_rite
 	holding = castle_holding
 }
 # R83G75B20
@@ -177,7 +177,7 @@
 # LAKE
 3130 = {
 	culture = cul_gelmir
-	rite = god_snake_rite
+	rite = gravity_rite
 	holding = castle_holding
 }
 # LAKE
@@ -220,8 +220,8 @@
 ### c_R57G71B121
 # R177G228B84
 267 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
+	culture = cul_demihuman
+	rite = primeval_rite
 	holding = castle_holding
 }
 # R172G153B44
@@ -298,7 +298,7 @@
 # R88G175B44
 1996 = {
 	culture = cul_gelmir
-	rite = god_snake_rite
+	rite = death_rite
 	holding = castle_holding
 }
 # R170G255B43
@@ -381,7 +381,7 @@
 # LAKE
 3137 = {
 	culture = cul_gelmir
-	rite = god_snake_rite
+	rite = rot_rite
 	holding = castle_holding
 }
 # R184G78B93

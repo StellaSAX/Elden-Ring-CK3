@@ -4,7 +4,7 @@
 # R78G198B11
 529 = {
 	culture = cul_nox
-	rite = golden_rite
+	rite = rot_rite
 	holding = castle_holding
 }
 # R70G224B31
@@ -43,7 +43,7 @@
 # R13G224B239
 2125 = {
 	culture = cul_nox
-	rite = golden_rite
+	rite = rot_rite
 	holding = castle_holding
 }
 # R75G153B123
@@ -60,7 +60,7 @@
 # R58G20B103
 1983 = {
 	culture = cul_nox
-	rite = golden_rite
+	rite = rot_rite
 	holding = castle_holding
 }
 # R106G104B0
@@ -87,7 +87,7 @@
 # R175G103B221
 870 = {
 	culture = cul_nox
-	rite = golden_rite
+	rite = rot_rite
 	holding = castle_holding
 }
 # R102G72B101
@@ -108,7 +108,7 @@
 # R100G222B116
 209 = {
 	culture = cul_nox
-	rite = golden_rite
+	rite = rot_rite
 	holding = castle_holding
 }
 # R254G109B172
@@ -141,7 +141,7 @@
 # R245G188B161
 2068 = {
 	culture = cul_nox
-	rite = golden_rite
+	rite = rot_rite
 	holding = castle_holding
 }
 # R152G58B182
@@ -170,7 +170,7 @@
 # R187G192B236
 213 = {
 	culture = cul_nox
-	rite = golden_rite
+	rite = nox_rite
 	holding = castle_holding
 }
 # R3G43B22
@@ -189,7 +189,7 @@
 763 = {
 	culture = cul_nox
 	rite = golden_rite
-	holding = castle_holding
+	holding = none
 }
 # R238G13B177
 562 = {
@@ -203,7 +203,7 @@
 # R136G175B139
 712 = {
 	culture = cul_nox
-	rite = golden_rite
+	rite = nox_rite
 	holding = castle_holding
 }
 # R206G240B16
@@ -224,7 +224,7 @@
 # R111G42B53
 1437 = {
 	culture = cul_nox
-	rite = golden_rite
+	rite = nox_rite
 	holding = castle_holding
 }
 # R200G133B124
@@ -247,7 +247,7 @@
 # R115G205B97
 1916 = {
 	culture = cul_nox
-	rite = golden_rite
+	rite = nox_rite
 	holding = castle_holding
 }
 # R212G100B102
@@ -268,7 +268,7 @@
 # R91G61B40
 1034 = {
 	culture = cul_nox
-	rite = golden_rite
+	rite = nox_rite
 	holding = castle_holding
 }
 # R58G127B27
@@ -283,7 +283,7 @@
 # R196G182B168
 1327 = {
 	culture = cul_nox
-	rite = golden_rite
+	rite = nox_rite
 	holding = castle_holding
 }
 # R142G231B36
@@ -300,7 +300,7 @@
 # R158G54B169
 1165 = {
 	culture = cul_nox
-	rite = golden_rite
+	rite = nox_rite
 	holding = castle_holding
 }
 # R201G213B58
@@ -321,7 +321,7 @@
 # R113G84B49
 1197 = {
 	culture = cul_nox
-	rite = golden_rite
+	rite = nox_rite
 	holding = castle_holding
 }
 # R225G254B188

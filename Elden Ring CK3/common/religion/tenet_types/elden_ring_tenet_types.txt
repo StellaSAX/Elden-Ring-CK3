@@ -2,7 +2,7 @@
 	icon = tenet_primordial_curse
 	piety_cost = {
 		if = {
-			limit = { religion_tag = crucible_religion_elden_ring }
+			limit = { religion_tag = crucible_religion }
 			value = faith_tenet_cost_low
 		}
 		else = {
@@ -11,7 +11,7 @@
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_primordial_curse }
+			limit = { rite_has_tenet = tenet_primordial_curse }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
@@ -61,7 +61,7 @@ tenet_great_spiral = {
 	icon = tenet_great_spiral
 	piety_cost = {
 		if = {
-			limit = { religion_tag = crucible_religion_elden_ring }
+			limit = { religion_tag = crucible_religion }
 			value = faith_tenet_cost_low
 		}
 		else = {
@@ -70,7 +70,7 @@ tenet_great_spiral = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_primordial_curse }
+			limit = { rite_has_tenet = tenet_great_spiral }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
@@ -123,11 +123,15 @@ tenet_ancient_dragon = {
 	icon = tenet_primordial_curse
 	piety_cost = {
 		if = {
-			limit = { religion_tag = crucible_religion_elden_ring }
+			limit = { religion_tag = dragon_religion }
 			value = faith_tenet_cost_low
 		}
 		else = {
 			value = faith_tenet_cost_high
+		}
+		if = {
+			limit = { rite_has_tenet = tenet_ancient_dragon }
+			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 
@@ -187,6 +191,10 @@ tenet_bayle_dragon = {
 		else = {
 			value = faith_tenet_cost_high
 		}
+		if = {
+			limit = { rite_has_tenet = tenet_bayle_dragon }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
 	}
 
 	can_pick = {
@@ -241,6 +249,10 @@ tenet_dragon_cult = {
 		}
 		else = {
 			value = faith_tenet_cost_high
+		}
+		if = {
+			limit = { rite_has_tenet = tenet_dragon_cult }
+			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 	
@@ -313,6 +325,11 @@ tenet_golden_order = {
 		else = {
 			value = faith_tenet_cost_high
 		}
+		# Multiplier for keeping same tenet
+		if = {
+			limit = { rite_has_tenet = tenet_golden_order }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
 	}
 
 	can_pick = {
@@ -366,6 +383,10 @@ tenet_unalloyed_order = {
 		else = {
 			value = faith_tenet_cost_high
 		}
+		if = {
+			limit = { rite_has_tenet = tenet_unalloyed_order }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
 	}
 
 	can_pick = {
@@ -411,6 +432,10 @@ tenet_glintstone = { #all things glintstone related, we love magic here
 		else = {
 			value = faith_tenet_cost_high
 		}
+		if = {
+			limit = { rite_has_tenet = tenet_glintstone }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
 	}
 	
 	can_pick = {
@@ -450,6 +475,10 @@ tenet_destroy_golden_order = { #enemy of all the order faiths( for the dungeater
 		else = {
 			value = faith_tenet_cost_high
 		}
+		if = {
+			limit = { rite_has_tenet = tenet_destroy_golden_order }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
 	}
 
 	can_pick = {
@@ -463,6 +492,8 @@ tenet_destroy_golden_order = { #enemy of all the order faiths( for the dungeater
 
 	parameters = {
 		enemy_of_order_religion #for localization
+		extinction_of_dharma_siege_bonus
+		sanctioned_assassinations
 	}
 
 	personal_tenet_modifier = {
@@ -472,6 +503,7 @@ tenet_destroy_golden_order = { #enemy of all the order faiths( for the dungeater
 
 	personal_tenet_parameters = {
 		tenet_inner_journey_meditation_bonus
+		tenet_fp3_fedayeen_other_faith_kill_fulfillment
 	}
 	
 	personal_tenet_modifier = {
@@ -505,6 +537,10 @@ tenet_live_in_death = {
 		else = {
 			value = faith_tenet_cost_high
 		}
+		if = {
+			limit = { rite_has_tenet = tenet_live_in_death }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}	
 	}
 
 	can_pick = {
@@ -538,6 +574,10 @@ tenet_golden_exile = { #for messmer and his band
 	icon = tenet_golden_exile
 	piety_cost = {
 		value = faith_tenet_cost_high
+		if = {
+			limit = { rite_has_tenet = tenet_golden_exile }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}	
 	}
 
 	can_pick = {
@@ -588,6 +628,10 @@ tenet_st_trinas_blessing = {
 		else = {
 			value = faith_tenet_cost_high
 		}
+		if = {
+			limit = { rite_has_tenet = tenet_st_trinas_blessing }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}	
 	}
 
 	can_pick = {
@@ -644,6 +688,10 @@ tenet_golden_order_syncretism = {
 		else = {
 			value = faith_tenet_cost_high
 		}
+		if = {
+			limit = { rite_has_tenet = tenet_golden_order_syncretism }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
 	}
 
 	can_pick = {
@@ -699,6 +747,10 @@ tenet_children_of_the_badlands = {
 		else = {
 			value = faith_tenet_cost_high
 		}
+		if = {
+			limit = { rite_has_tenet = tenet_children_of_the_badlands }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
 	}
 
 	can_pick = {
@@ -752,6 +804,10 @@ tenet_giants_flame = {
 		else = {
 			value = faith_tenet_cost_high
 		}
+		if = {
+			limit = { rite_has_tenet = tenet_giants_flame }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
 	}
 	divergence_multiplier = 5
 	can_pick = {
@@ -803,6 +859,10 @@ tenet_frenzied_flame = {
 		}
 		else = {
 			value = faith_tenet_cost_high
+		}
+		if = {
+			limit = { rite_has_tenet = tenet_frenzied_flame }
+			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 
@@ -859,6 +919,10 @@ tenet_rot = {
 		else = {
 			value = faith_tenet_cost_high
 		}
+		if = {
+			limit = { rite_has_tenet = tenet_rot }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
 	}
 	divergence_multiplier = 5
 	can_pick = {
@@ -907,6 +971,10 @@ tenet_serpents = {
 		else = {
 			value = faith_tenet_cost_high
 		}
+		if = {
+			limit = { rite_has_tenet = tenet_serpents }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
 	}
 	divergence_multiplier = 5
 	can_pick = {
@@ -928,7 +996,7 @@ tenet_serpents = {
 		tenet_human_sacrifice_courtier_imprisonment_chance
 	}
 	
-	personal_tenet_parameters = {
+	personal_tenet_modifier = {
 		health = 0.5
 		knight_effectiveness_mult = 0.1
 	}
@@ -944,6 +1012,58 @@ tenet_serpents = {
 		virtues = {
 			manserpent = { weight = 10 scale = 1 }
 			god_serpent = { weight = 20 scale = 1 }
+		}
+	}
+}
+
+tenet_night = {
+	icon = tenet_night
+	piety_cost = {
+		value = faith_tenet_cost_high
+		if = {
+			limit = { rite_has_tenet = tenet_night }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+	}
+	divergence_multiplier = 5
+	can_pick = {
+		OR = {
+			has_doctrine = doctrine_night_affinity_virtuous
+			has_doctrine = doctrine_night_affinity_accepted
+		}
+	}
+
+	parameters = {
+		tenet_adaptive_conversion_resistance
+		same_culture_conversion_bonus_active
+		other_culture_conversion_penalty_active
+		clergy_can_fight
+		sanctioned_assassinations
+	}
+	
+	personal_tenet_modifier = {
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.3
+		owned_scheme_secrecy_add = 10
+		owned_hostile_scheme_success_chance_max_add = 10
+	}
+	
+	character_modifier = {
+		dread_gain_mult = 0.25
+		different_faith_opinion = -10
+		same_faith_different_rite_opinion = 10
+		same_faith_different_rite_county_opinion_add = 15
+	}
+	
+	personal_tenet_parameters = {
+		tenet_unrelenting_faith_blademaster_trait
+		clergy_can_fight_personal
+		tenet_fp3_fedayeen_other_faith_kill_fulfillment
+	}
+	
+	traits = {
+		virtues = {
+			sorcery_night = { weight = 10 scale = 1 }
+			night_affinity = { weight = 20 scale = 1 }
 		}
 	}
 }

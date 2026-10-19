@@ -3,8 +3,8 @@
 ### c_R188G65B204
 # R3G201B145
 2182 = {
-	culture = cul_ancestral_follower
-	rite = ancestral_rite
+	culture = cul_leyndell
+	rite = formless_rite
 	holding = castle_holding
 }
 # R50G236B99
@@ -18,8 +18,8 @@
 ### c_R159G235B118
 # R204G224B85
 746 = {
-	culture = cul_ancestral_follower
-	rite = ancestral_rite
+	culture = cul_leyndell
+	rite = formless_rite
 	holding = castle_holding
 }
 # R39G19B24
@@ -33,8 +33,8 @@
 ### c_R170G52B124
 # R142G211B106
 972 = {
-	culture = cul_ancestral_follower
-	rite = ancestral_rite
+	culture = cul_leyndell
+	rite = formless_rite
 	holding = castle_holding
 }
 # R185G177B211
@@ -56,8 +56,8 @@
 ### c_R28G81B60
 # R190G86B79
 589 = {
-	culture = cul_ancestral_follower
-	rite = ancestral_rite
+	culture = cul_leyndell
+	rite = formless_rite
 	holding = castle_holding
 }
 # R235G79B149
@@ -71,8 +71,8 @@
 ### c_R106G24B96
 # R252G62B110
 849 = {
-	culture = cul_ancestral_follower
-	rite = ancestral_rite
+	culture = cul_leyndell
+	rite = formless_rite
 	holding = castle_holding
 }
 # R67G182B224
@@ -92,8 +92,8 @@
 ### c_R134G249B26
 # R236G232B42
 586 = {
-	culture = cul_ancestral_follower
-	rite = ancestral_rite
+	culture = cul_leyndell
+	rite = formless_rite
 	holding = castle_holding
 }
 # R242G171B6
@@ -113,8 +113,8 @@
 ### c_mohging_time
 # R176G194B5
 829 = {
-	culture = cul_ancestral_follower
-	rite = ancestral_rite
+	culture = cul_leyndell
+	rite = formless_rite
 	holding = castle_holding
 }
 # R23G251B194
@@ -128,8 +128,8 @@
 ### c_R28G12B15
 # R105G137B33
 1841 = {
-	culture = cul_ancestral_follower
-	rite = ancestral_rite
+	culture = cul_leyndell
+	rite = formless_rite
 	holding = castle_holding
 }
 # R167G53B218
@@ -357,8 +357,8 @@
 ### c_R20G154B111
 # R242G81B165
 1056 = {
-	culture = cul_ancestral_follower
-	rite = ancestral_rite
+	culture = cul_nox
+	rite = nox_rite
 	holding = castle_holding
 }
 # R111G58B102
@@ -378,8 +378,8 @@
 ### c_R226G221B185
 # R202G0B140
 1455 = {
-	culture = cul_ancestral_follower
-	rite = ancestral_rite
+	culture = cul_nox
+	rite = nox_rite
 	holding = castle_holding
 }
 # R110G247B167
@@ -440,8 +440,8 @@
 ### c_R85G79B69
 # R180G23B202
 1991 = {
-	culture = cul_ancestral_follower
-	rite = ancestral_rite
+	culture = cul_nox
+	rite = nox_rite
 	holding = castle_holding
 }
 # R221G235B204
