@@ -118,6 +118,41 @@ posteffect_volumes = {
 	
 ############ ELDEN RING ############
 posteffect_values = {
+	name = mountaintops
+	inherit = standard
+
+	tonemap_middlegrey = 0.35
+	#saturation_scale = 0.8
+	#exposure = 1
+	#exposure = 1.5
+	#exposure = 0.75
+	#exposure = 0.8
+
+	#value_scale = 1.0
+	value_scale = 1.25
+	#value_scale = 2
+
+	#bloom_width = 1.90
+	#bloom_scale = 1.80
+	#bright_threshold = 1.0
+
+	fog_color = hsv { 0.6 0.5 1.00 }
+	fog_begin = 150
+	fog_end = 400
+}
+
+posteffect_volume = {
+	name = "mountaintops"
+	
+	posteffect_values_day = mountaintops
+	posteffect_values_night = mountaintops
+	
+	position = { 1250 0 1500 }
+	size = { 520 2600 500 }
+	fade_distance =  25.0
+}
+
+posteffect_values = {
 	name = cerulean_coast
 	inherit = standard
 	lut = "gfx/map/post_effects/colorcorrection_cerulean_coast.tga"
