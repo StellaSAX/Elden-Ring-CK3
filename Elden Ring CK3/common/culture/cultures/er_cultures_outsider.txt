@@ -123,10 +123,11 @@ cul_eochaid = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_pastoralists
-		tradition_monastic_communities
-		tradition_pacifism
-		tradition_storytellers
+		tradition_sorcerous_metallurgy
+		tradition_isolationist
+		tradition_battlefield_looters
+		tradition_diasporic
+		tradition_quarrelsome
 	}
 
 	name_list = name_list_eochaid
