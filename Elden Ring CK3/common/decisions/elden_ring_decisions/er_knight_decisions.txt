@@ -93,11 +93,12 @@ gain_spiral_affinity_elden_ring = {
 	is_shown = {
 		has_trait = erdtree_affinity
 	}
-	potential = {
+	is_valid = {
 		learning >= 20
+		
 		OR = {
-			rite ?= { has_doctrine = doctrine_spiral_affinity_virtuous }
-			rite ?= { has_doctrine = doctrine_spiral_affinity_accepted }
+			root.rite ?= { rite_has_doctrine = doctrine_spiral_affinity_virtuous }
+			root.rite ?= { rite_has_doctrine = doctrine_spiral_affinity_accepted }
 		}
 	}
 	cost = {

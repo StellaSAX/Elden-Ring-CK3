@@ -11,9 +11,7 @@
 			has_trait = death_affinity
 			is_female = yes
 		}
-		NOT = {
-			has_trait = death_companion
-		}
+		is_knight_elden_ring = no
 	}
 	
 	is_valid = {
@@ -69,9 +67,7 @@ gain_trait_black_assassin = {
 				has_trait = education_intrigue_5
 			}
 		}
-		NOT = {
-			has_trait = black_knife_assassin
-		}
+		is_knight_elden_ring = no
 	}
 	
 	is_valid = {
@@ -117,9 +113,7 @@ gain_trait_godskin_apostle = {
 
 	is_shown = {
 		has_trait = blackflame_affinity
-		NOT = {
-			has_trait = godskin_apostle
-		}
+		is_knight_elden_ring = no
 	}
 	
 	is_valid = {
@@ -173,9 +167,7 @@ gain_trait_fire_monk = {
 
 	is_shown = {
 		has_trait = fire_affinity
-		NOT = {
-			has_trait = fire_monk
-		}
+		is_knight_elden_ring = no
 	}
 	
 	is_valid = {
@@ -227,9 +219,7 @@ gain_trait_snow_witch = {
 			has_trait = ice_affinity
 			is_female = yes
 		}
-		NOT = {
-			has_trait = snow_witch
-		}
+		is_knight_elden_ring = no
 	}
 	
 	is_valid = {

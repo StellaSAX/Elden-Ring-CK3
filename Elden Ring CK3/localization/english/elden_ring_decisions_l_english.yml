@@ -228,3 +228,8 @@
  must_be_famous_sorcerer:0 "Must be a famous or established [Select_CString(sorcerer.IsFemale,'Sorceress','Sorcerer')|l]"
  er_establish_rise.relation_toast.title:0 "Rise Established"
  er_establish_rise.relation_toast.tt:0 "Your [receiver.Custom2('RelationToMe', SCOPE.sC('founder'))] has established [founder.GetHerHis] own personal rise in [barony.GetName]."
+ 
+ remove_no_marriage:0 "Allow yourself marriage"
+ remove_no_marriage_desc:0 "I decided to not get married because of how complex the situation was, but now someone convinced me that it would not be a bad idea to get a partner."
+ remove_no_marriage_confirm:0 "Who shall be my consort?"
+ remove_no_marriage_tooltip:0 "Allow yourself marriage"

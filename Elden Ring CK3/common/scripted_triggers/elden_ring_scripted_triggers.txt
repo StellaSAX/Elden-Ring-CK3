@@ -15,6 +15,11 @@
 		has_trait = beast_clergy
 		has_trait = sleep_cleric
 		has_trait = divine_beast_warrior
+		has_trait = death_companion
+		has_trait = black_knife_assassin
+		has_trait = godskin_apostle
+		has_trait = fire_monk
+		has_trait = snow_witch
 	}
 }
 
