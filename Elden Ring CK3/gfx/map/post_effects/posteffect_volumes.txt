@@ -174,9 +174,9 @@ posteffect_values = {
 	#bloom_scale = 1.80
 	#bright_threshold = 1.0
 
-	#fog_color = hsv { 0.06 0.2 1.00 }
-	#fog_begin = 50
-	#fog_end = 400
+	fog_color = hsv { 0.06 0.2 1.00 }
+	fog_begin = 130
+	fog_end = 600
 }
 
 posteffect_volume = {
