@@ -129,14 +129,14 @@ posteffect_values = {
 	#exposure = 0.8
 
 	#value_scale = 1.0
-	value_scale = 1.25
+	value_scale = 1.4
 	#value_scale = 2
 
 	#bloom_width = 1.90
 	#bloom_scale = 1.80
 	#bright_threshold = 1.0
 
-	fog_color = hsv { 0.6 0.5 1.00 }
+	fog_color = hsv { 0.6 0.3 1.00 }
 	fog_begin = 150
 	fog_end = 400
 }
