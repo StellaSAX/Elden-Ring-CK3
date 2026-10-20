@@ -158,6 +158,65 @@ k_mohgwyn_dynasty={
 
 }
 
+k_goldveil_dynasty={
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 167 160 86 }
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=rgb { 28 16 0 }
+		texture="storm.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.840000 0.840000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 119 90 0 }
+		texture="ce_border_shield.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+}
+
+k_royal_capital={
+	pattern="pattern_vertical_stripes_02.dds"
+	color1=rgb { 149 117 48 }
+	color2=rgb { 67 80 51 }
+	color3=purple
+	colored_emblem={
+		color1=rgb { 85 101 68 }
+		color2=rgb { 159 145 109 }
+		color3=rgb { 50 80 53 }
+		texture="ce_iranian_floral_pattern.dds"
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 0.770000 1.000000 }
+			depth=1.010000
+			rotation=90
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 220 220 220 }
+		color2=black
+		color3=black
+		texture="elden_tree.dds"
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 0.800000 0.800000 }
+		}
+
+	}
+
+}
+
 k_radahn_remnants ={
 	pattern="pattern_checkers_diagonal_01.dds"
 	color1=black
@@ -819,6 +878,23 @@ k_caria={
 }
 
 k_rayalucaria={
+	pattern="pattern_solid.dds"
+	color1=rgb { 62 49 121 }
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=rgb { 226 226 226 }
+		texture="raya_lucaria.dds"
+		instance={
+			position={ 0.500000 0.510000 }
+			scale={ 0.830000 0.830000 }
+		}
+
+	}
+
+}
+
+d_raya_lucaria={
 	pattern="pattern_solid.dds"
 	color1=rgb { 62 49 121 }
 	color2=yellow

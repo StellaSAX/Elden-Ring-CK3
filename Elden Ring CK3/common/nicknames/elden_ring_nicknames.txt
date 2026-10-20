@@ -61,6 +61,7 @@ nick_the_headless = {}
 nick_madding_hand = {}
 nick_saint_of_the_bud = {}
 
+nick_soldier_of_god = { is_prefix = yes }
 nick_starscourge = { is_prefix = yes }
 nick_dragonlordlady = { is_prefix = yes }
 nick_st_for_trina = { is_prefix = yes }

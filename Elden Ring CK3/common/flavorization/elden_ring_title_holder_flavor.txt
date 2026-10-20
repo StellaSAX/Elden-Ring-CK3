@@ -144,8 +144,8 @@ headmaster = {
 	special = holder
 	tier = kingdom
 	priority = 100
-	titles = { k_rayalucaria }
-	religions = { cosmos_religion }
+	titles = { k_rayalucaria d_raya_lucaria }
+	religions = { cosmos_religion moon_religion }
 }
 
 headmistress = {
@@ -154,8 +154,8 @@ headmistress = {
 	special = holder
 	tier = kingdom
 	priority = 100
-	titles = { k_rayalucaria }
-	religions = { cosmos_religion }
+	titles = { k_rayalucaria d_raya_lucaria }
+	religions = { cosmos_religion moon_religion }
 }
 
 mothlord = {

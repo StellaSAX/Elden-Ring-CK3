@@ -315,6 +315,7 @@
  k_haligtree: "Haligtree"
  k_messmer_army: "Messmer's Crusade"
  k_mohgwyn_dynasty: "Mohgwyn Dynasty"
+ k_goldveil_dynasty: "Goldveil Dynasty"
  k_motharingia: "Motharingia"
  e_ainsel: "Great Ainsel"
  e_farum_azula: "Farum Azula"
@@ -328,3 +329,4 @@
  e_haligtree: "Haligtree"
  e_gelmir_empire: "Mount Gelmir"
  h_lands_between: "Lands Between"
+ k_royal_capital: "Leyndell"

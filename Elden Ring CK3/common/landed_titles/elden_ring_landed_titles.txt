@@ -17305,7 +17305,6 @@ h_lands_between = {
 k_messmer_army = {
 	color = { 150 41 10 }
 	capital = c_R33G59B210
-	landless = yes
 
 	definite_form = yes
 	ruler_uses_title_name = no
@@ -17313,22 +17312,43 @@ k_messmer_army = {
 	destroy_if_invalid_heir = yes
 	destroy_on_succession = yes
 	ai_primary_priority = {
-		add = @never_primary_score
+		add = @always_primary_score
 	}
 }
 
 k_mohgwyn_dynasty = {
 	color = { 200 41 6 }
 	capital = c_R159G235B118
-	landless = yes
-
 	definite_form = yes
 	ruler_uses_title_name = no
-	no_automatic_claims = yes
+
 	destroy_if_invalid_heir = yes
 	destroy_on_succession = yes
 	ai_primary_priority = {
-		add = @never_primary_score
+		add = @always_primary_score
 	}
 }
 
+k_goldveil_dynasty = {
+	color = { 151 189 31 }
+	capital = c_stormveil_throne
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	destroy_if_invalid_heir = yes
+	destroy_on_succession = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+}
+
+k_royal_capital = {
+	color = { 245 236 61 }
+	capital = c_elden_throne
+	
+	destroy_if_invalid_heir = yes
+	destroy_on_succession = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+}

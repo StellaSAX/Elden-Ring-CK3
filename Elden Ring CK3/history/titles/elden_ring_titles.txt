@@ -14,12 +14,7 @@ c_R159G235B118 = {
 		holder = mohg
 	}
 }
-c_R167G246B57 = {
-	7000.1.1 = {
-		holder = test1
-		liege = 0
-	}
-}
+
 c_R203G43B252 = {
 	8300.1.1 = {
 		holder = rellana
@@ -60,12 +55,7 @@ c_elden_throne = {
 		holder = morgott
 	}
 }
-c_R49G46B16 = {
-	7000.1.1 = {
-		holder = test2
-		liege = 0
-	}
-}
+
 c_R54G124B112 = {
 	8300.1.1 = {
 		holder = tanith
@@ -89,8 +79,20 @@ c_manor_area_one = {
 }
 c_morne = {
 	8251.1.1 = {
-		liege = k_stormveil
+		liege = k_goldveil_dynasty
 		holder = edgar
+	}
+}
+c_fort_haight = {
+	8251.1.1 = {
+		holder = godrick_haight
+		liege = k_goldveil_dynasty
+	}
+}
+c_R51G46B174 = {
+	8251.1.1 = {
+		holder = godrick_haight
+		liege = k_goldveil_dynasty
 	}
 }
 c_raya_lucaria = {
@@ -106,11 +108,6 @@ c_shaded_bog = {
 c_stormveil_throne = {
 	7621.3.7 = {
 		holder = godrick
-	}
-}
-d_agheel_lake = {
-	8251.1.1 = {
-		liege = 0
 	}
 }
 d_dynasty_mausoleum = {
@@ -129,35 +126,18 @@ d_ensis = {
 		liege = k_messmer_army
 	}
 }
-d_forlorn_hills = {
-	7000.1.1 = {
-		holder = test2
-		liege = 0
-	}
-}
 d_jagged_peak_summit = {
 	474.9.18 = {
 		holder = bayle
 	}
 }
-d_mistwood = {
-	7000.1.1 = {
-		holder = test3
-		liege = 0
-	}
-}
 d_morne = {
 	8251.1.1 = {
 		holder = edgar
-		liege = k_stormveil
+		liege = k_goldveil_dynasty
 	}
 }
-d_murkwater = {
-	7000.1.1 = {
-		holder = test2
-		liege = 0
-	}
-}
+
 d_palace_approach = {
 	7748.4.3 = {
 		holder = mohg
@@ -178,7 +158,7 @@ d_scadu_altus = {
 }
 d_summonwater = {
 	7000.1.1 = {
-		holder = test1
+		holder = 0
 		liege = 0
 	}
 }
@@ -291,6 +271,31 @@ k_leyndell = {
 		holder = marika
 	}
 	7213.2.7 = {
+		holder = 0
+	}
+}
+c_R89G92B215 = {
+	7213.2.7 = {
+		holder = morgott
+	}
+}
+c_outskirt_stairway = {
+	7213.2.7 = {
+		holder = morgott
+	}
+}
+c_R117G59B54 = {
+	7213.2.7 = {
+		holder = morgott
+	}
+}
+d_royal_capital = {
+	7213.2.7 = {
+		holder = morgott
+	}
+}
+k_royal_capital = {
+	7213.2.7 = {
 		holder = morgott
 	}
 }
@@ -304,9 +309,17 @@ k_mohgwyn_dynasty = {
 		holder = mohg
 	}
 }
+d_raya_lucaria = {
+	673.1.17 = {
+		holder = rennala
+	}
+}
 k_rayalucaria = {
 	673.1.17 = {
 		holder = rennala
+	}
+	800.1.17 = {
+		holder = 0
 	}
 }
 k_redmane = {
@@ -317,7 +330,7 @@ k_redmane = {
 		holder = 0
 	}
 }
-k_stormveil = {
+d_stormveil = {
 	1332.4.9 = {
 		holder = gaiser_stormlord
 	}
@@ -326,5 +339,53 @@ k_stormveil = {
 	}
 	7621.3.7 = {
 		holder = godrick
+	}
+}
+d_stormhill = {
+	1332.4.9 = {
+		holder = gaiser_stormlord
+	}
+	1352.7.6 = {
+		holder = 0
+	}
+	7621.3.7 = {
+		holder = godrick
+	}
+}
+k_stormveil = {
+	1332.4.9 = {
+		holder = gaiser_stormlord
+	}
+	1352.7.6 = {
+		holder = 0
+	}
+}
+k_goldveil_dynasty = {
+	1332.4.9 = {
+		holder = gaiser_stormlord
+	}
+	1352.7.6 = {
+		holder = 0
+	}
+	7621.3.7 = {
+		holder = godrick
+	}
+}
+c_fringefolk_step = {
+	8251.1.1 = {
+		liege = k_goldveil_dynasty
+		holder = ricksoldierofgod
+	}
+}
+c_R89G115B164 = {
+	8251.1.1 = {
+		liege = k_goldveil_dynasty
+		holder = ricksoldierofgod
+	}
+}
+c_R198G223B153 = {
+	8251.1.1 = {
+		liege = k_goldveil_dynasty
+		holder = ricksoldierofgod
 	}
 }

@@ -1,0 +1,37 @@
+﻿godrick_haight = {
+	name = "Goswin"
+
+	dynasty = godrick_haight
+
+	rite = golden_rite
+	culture = cul_limgrave
+
+	disallow_random_traits = no
+	
+	707.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		
+	}
+}
+
+ricksoldierofgod = {
+	name = "Rick"
+
+	dynasty = godrick_haight
+	give_nickname = nick_soldier_of_god
+	rite = golden_rite
+	culture = cul_limgrave
+	
+	disallow_random_traits = no
+	
+	6969.6.9 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+		
+	}
+}
