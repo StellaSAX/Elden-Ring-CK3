@@ -79,7 +79,6 @@ faith_primeval = {
 
 	holy_sites = {
 		sellia_sorcery
-		astel
 	}
 
 	doctrines = {
@@ -112,7 +111,6 @@ faith_night = {
 
 	holy_sites = {
 		sellia_sorcery
-		astel
 	}
 
 	doctrines = {
