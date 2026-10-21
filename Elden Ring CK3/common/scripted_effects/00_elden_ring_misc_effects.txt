@@ -1,0 +1,49 @@
+﻿elden_ring_generate_local_ruler = {
+	if = {
+		limit = { NOT = { exists = scope:county } }
+		save_scope_as = county
+	}
+	create_character = {
+		location = scope:county.title_province
+		random_traits = yes
+		culture = $CULTURE$
+		rite = $RITE$
+		gender_female_chance = $FEMALE_CHANCE$
+		dynasty = generate
+		after_creation = {
+			save_scope_as = ruler
+		}
+	}
+	if = {
+		limit = { $USURPED$ = yes }
+		create_title_and_vassal_change = {
+			type = usurped
+			save_scope_as = change
+			add_claim_on_loss = yes
+		}
+		change_title_holder = {
+			holder = scope:ruler
+			change = scope:change
+			take_baronies = yes
+		}
+		resolve_title_and_vassal_change = scope:change
+	}
+	else = {
+		scope:ruler = {
+			get_title = scope:county
+		}
+	}
+	if = {
+		limit = { $BECOME_INDEPENDENT$ = yes }
+		
+		create_title_and_vassal_change = {
+			type = independency
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		scope:ruler = {
+			becomes_independent = { change = scope:change }
+		}
+		resolve_title_and_vassal_change = scope:change
+	}
+}

@@ -1,4 +1,57 @@
-﻿er_on_game_start = {
+﻿on_game_start = {
+	on_actions = {
+		er_start_generate_rulers
+	}
+}
+
+er_start_generate_rulers = {
+	effect = {
+		title:d_jagged_peak_summit = {
+			every_in_de_jure_hierarchy = {
+				limit = {
+					NOR = {
+						this = holder.capital_county
+						# Add here counties which have a historical ruler or we want to exempt
+						# this = title:add_title_here
+					}
+					tier = tier_county
+					exists = title_province
+				}
+				save_scope_as = county
+				elden_ring_generate_local_ruler = {
+					CULTURE = scope:county.title_province.culture
+					RITE = scope:county.title_province.rite
+					FEMALE_CHANCE = 50
+					USURPED = no
+					BECOME_INDEPENDENT = no
+				}
+			}
+		}
+		#title:d_jagged_foot = {
+		#	every_in_de_jure_hierarchy = {
+		#		limit = {
+		#			NOR = {
+		#				this = holder.capital_county
+		#				# Add here counties which have a historical ruler or we want to exempt
+		#				# this = title:add_title_here
+		#			}
+		#			tier = tier_county
+		#			exists = title_province
+		#		}
+		#		save_scope_as = county
+		#		elden_ring_generate_local_ruler = {
+		#			CULTURE = culture:cul_caria
+		#			RITE = rite:moons_rite
+		#			FEMALE_CHANCE = 100
+		#			USURPED = yes
+		#			BECOME_INDEPENDENT = yes
+		#		}
+		#	}
+		#}
+	}
+}
+
+er_on_game_start = {
 	events = {
 		er_historical_artifacts.0001
 	}
