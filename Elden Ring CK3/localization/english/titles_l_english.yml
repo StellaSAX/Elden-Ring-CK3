@@ -330,3 +330,54 @@
  e_gelmir_empire: "Mount Gelmir"
  h_lands_between: "Lands Between"
  k_royal_capital: "Leyndell"
+
+ b_R94G94B46: "Orywod"
+ b_lake54: "Nesyd"
+
+ c_ching_catacombs: "Impaler's Face"
+ b_R102G146B2: "Cairnif"
+ b_R227G185B65: "Itonne"
+
+ c_pepega_hill: "Stoek Anvil"
+ b_R254G5B15: "Stoebarr"
+ b_R198G161B123: "Chanses"
+
+ c_callu: "Callu-Airn"
+ b_R63G171B145: "Callu Baptismal Grounds"
+ b_R11G185B94: "Callu"
+ b_R115G136B109: "Breufaird"
+ b_R216G230B158: "Glascoit"
+ b_R42G221B219: "Ardanail"
+
+ b_R147G202B194: "Hensedde"
+ b_lake52: "Saeceast"
+ b_R220G187B187: "Cuannel"
+ b_R255G87B167: "Hylcon"
+ 
+ c_R65G129B195: "Cerhoh"
+ b_R9G200B151: "Arnmyst"
+ b_R195G4B170: "Eamuin"
+
+ c_R20G46B152: "Geatalunb"
+ b_R60G188B21: "Baielac"
+ b_R74G248B154: "Thartir"
+ b_R108G181B184: "Lubbard"
+
+ c_R220G209B71: "Earthbore Cradle"
+ b_R90G39B13: "Cothrom"
+ b_R52G115B252: "Erdebore"
+ b_R91G20B172: "Swidenown"
+ b_R88G28B118: "Hyrstun"
+
+ c_R238G176B49: "Yldradene"
+ b_R70G52B158: "Iemdour"
+ b_R191G255B251: "Creinn"
+ b_R127G40B153: "Elder Yate"
+
+ c_R47G133B21: "Heahrowd"
+ b_R243G147B120: "Geoldon"
+ b_R177G61B31: "Ceimwic"
+
+ c_R52G161B47: "Seapel Valley"
+ b_R186G46B199: "Treowtun"
+ b_R240G143B156: "Elpedown"
