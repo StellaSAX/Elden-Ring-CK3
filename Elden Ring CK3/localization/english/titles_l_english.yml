@@ -109,8 +109,6 @@
  b_tower_of_return: "Tower of Return"
  
  c_weeping_coast_south: "South Weeping Coast"
- b_weeping_shack: "Isolated Weeping Shack"
- 
  c_weeping_coast_north: "North Weeping Coast"
  
  d_morne: "Morne"
@@ -381,3 +379,70 @@
  c_R52G161B47: "Seapel Valley"
  b_R186G46B199: "Treowtun"
  b_R240G143B156: "Elpedown"
+ 
+ c_R183G112B248: "Pilgrim's Rise"
+ b_R162G106B166: "District of Rest"
+ b_R35G180B107: "District of Reflection"
+ b_R120G4B39: "Church of Pilgrimage"
+ b_R67G72B94: "District of Rebirth"
+
+ c_R182G212B50: "Anslioch"
+ b_R193G138B89: "Tombsward"
+ b_R26G143B17: "Gyantourn"
+ b_R120G70B240: "Edton"
+ b_R78G242B185: "Tucheton"
+
+ c_windward_county: "Wynstyl"
+ b_R7G250B213: "Cataliht"
+ b_R237G226B252: "Golsed"
+ b_R68G155B180: "Thunderstape"
+
+ c_R77G174B149: "Goldentear"
+ b_R104G246B215: "Sacral Collar"
+ b_R135G8B132: "Unshade"
+ b_R51G204B149: "Goldenfield"
+ b_R243G106B21: "Trewydel"
+ b_182G233B166: "Ordrune"
+ b_R6G90B89: "Geoluneck"
+
+ b_R64G122B185: "Stailspring"
+ b_R172G186B123: "Wrymybank"
+ b_R127G39B155: "Seewatch"
+
+ c_R206G173B124: "Kaidenfall"
+ b_R222G23B240: "Seegrave"
+ b_R212G92B179: "Wheanula"
+
+ c_R231G233B195: "Lhutelune"
+ b_R134G216B245: "Lhuteltir"
+ b_R221G122B174: "Taibbhen"
+ b_R16G228B151: "Gheistmarch"
+ b_R232G34B174: "Tombwood"
+
+ c_R62G216B236: "The Lacrima Diocese"
+ b_R113G152B113: "The Fourth Church of Marika"
+ b_R121G137B177: "Navurbia"
+ b_R86G66B251: "Little Leyndell"
+ b_R204G22B193: "Oripessus"
+
+ c_R149G183B49: "Veneferia"
+ b_R161G210B231: "Witchbane"
+ b_R107G193B120: "Mausolar"
+ b_R5G92B247: "Antemare"
+
+ c_weeping_corner: "Thease"
+ b_delete_13: "Marcaine"
+ b_R203G49B219: "Prissaf"
+ b_lake14: "Cuinn"
+
+ b_weeping_shack: "Driftwood"
+ b_R250G76B75: "Shimmer Beach"
+ b_delete_10: "Woodspit"
+
+ b_R248G15B185: "Golport"
+ b_ocean: "Derelict"
+ b_delete_8: "Crab-dance"
+ b_lake4: "Boneshore"
+
+ c_sacrifice_bridge: "Sacrifane"
+ b_R91G74B221: "Bridge of Sacrifice"
