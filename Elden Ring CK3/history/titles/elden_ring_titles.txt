@@ -36,6 +36,11 @@ c_R255G104B146 = {
 		holder = ranni
 	}
 }
+c_R171G192B21 = {
+	7204.3.10 = {
+		holder = ranni
+	}
+}
 c_R33G59B210 = {
 	8300.1.1 = {
 		holder = messmer
@@ -77,22 +82,9 @@ c_manor_area_one = {
 		holder = rykard
 	}
 }
-c_morne = {
-	8251.1.1 = {
-		liege = k_goldveil_dynasty
-		holder = edgar
-	}
-}
-c_fort_haight = {
-	8251.1.1 = {
-		holder = godrick_haight
-		liege = k_goldveil_dynasty
-	}
-}
-c_R51G46B174 = {
-	8251.1.1 = {
-		holder = godrick_haight
-		liege = k_goldveil_dynasty
+c_manor_area_two = {
+	8300.1.1 = {
+		holder = rykard
 	}
 }
 c_raya_lucaria = {
@@ -131,13 +123,6 @@ d_jagged_peak_summit = {
 		holder = bayle
 	}
 }
-d_morne = {
-	8251.1.1 = {
-		holder = edgar
-		liege = k_goldveil_dynasty
-	}
-}
-
 d_palace_approach = {
 	7748.4.3 = {
 		holder = mohg
@@ -239,9 +224,6 @@ k_gelmir = {
 	7217.5.9 = {
 		holder = rykard
 	}
-	7242.10.17 = {
-		holder = 0
-	}
 }
 k_golden_order = {
 	714.2.13 = {
@@ -294,7 +276,7 @@ d_royal_capital = {
 		holder = morgott
 	}
 }
-k_royal_capital = {
+k_leyndell = {
 	7213.2.7 = {
 		holder = morgott
 	}
@@ -309,18 +291,12 @@ k_mohgwyn_dynasty = {
 		holder = mohg
 	}
 }
-d_raya_lucaria = {
-	673.1.17 = {
-		holder = rennala
-	}
-}
+
 k_rayalucaria = {
 	673.1.17 = {
 		holder = rennala
 	}
-	800.1.17 = {
-		holder = 0
-	}
+
 }
 k_redmane = {
 	7217.5.22 = {
@@ -359,33 +335,50 @@ k_stormveil = {
 	1352.7.6 = {
 		holder = 0
 	}
-}
-k_goldveil_dynasty = {
-	1332.4.9 = {
-		holder = gaiser_stormlord
-	}
-	1352.7.6 = {
-		holder = 0
-	}
 	7621.3.7 = {
 		holder = godrick
 	}
 }
+
 c_fringefolk_step = {
 	8251.1.1 = {
-		liege = k_goldveil_dynasty
+		liege = k_stormveil
 		holder = ricksoldierofgod
 	}
 }
 c_R89G115B164 = {
 	8251.1.1 = {
-		liege = k_goldveil_dynasty
+		liege = k_stormveil
 		holder = ricksoldierofgod
 	}
 }
 c_R198G223B153 = {
 	8251.1.1 = {
-		liege = k_goldveil_dynasty
+		liege = k_stormveil
 		holder = ricksoldierofgod
+	}
+}
+c_fort_haight = {
+	8251.1.1 = {
+		holder = godrick_haight
+		liege = k_stormveil
+	}
+}
+c_R51G46B174 = {
+	8251.1.1 = {
+		holder = godrick_haight
+		liege = k_stormveil
+	}
+}
+c_morne = {
+	8251.1.1 = {
+		holder = edgar
+		liege = k_stormveil
+	}
+}
+d_morne = {
+	8251.1.1 = {
+		liege = k_stormveil
+		holder = edgar
 	}
 }

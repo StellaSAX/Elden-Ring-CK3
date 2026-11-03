@@ -800,7 +800,7 @@
  b_R188G138B27: "Gloroad"
 
  c_R157G152B114: "Honerra"
- b_R45G244B92: "Honosium"
+ b_R45G244B93: "Honosium"
  b_R131G57B168: "Gailen Hills"
  b_R230G84B117: "Runecut"
 
@@ -824,7 +824,7 @@
  b_R208G176B80: "Raniel"
  b_R56G65B47: "Liurnway"
 
- c_Sidepass: "Stormwall Way"
+ c_sidepass: "Stormwall Way"
  b_R48G30B195: "Moonrest"
  b_R140G243B2: "Maryse"
 
@@ -890,3 +890,14 @@
  c_stormpass: "Stormhill Ascent"
  b_R137G242B129: "Stormgate"
  b_R9G157B62: "Duncaend"
+ 
+ c_R253G101B3: "The Mid-Shallows"
+ b_R225G52B200: "Reedwic"
+ b_R185G162B81: "Fenmoot"
+ b_lake1: "Eelpen"
+
+ c_R49G46B16: "Mistrode"
+ b_R5G84B143: "Brackach"
+ b_R243G243B239: "Hartham"
+ b_R70G22B201: "Wayndwic"
+ b_R232G4B242: "Lynchnok"

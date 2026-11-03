@@ -6,13 +6,32 @@
 
 er_start_generate_rulers = {
 	effect = {
-		title:d_jagged_peak_summit = {
+		title:k_stormveil = {
 			every_in_de_jure_hierarchy = {
 				limit = {
 					NOR = {
 						this = holder.capital_county
 						# Add here counties which have a historical ruler or we want to exempt
-						# this = title:add_title_here
+						this = title:c_R51G46B174
+						this = title:c_R89G115B164
+						this = title:c_R198G223B153
+						this = title:c_R77G149B250
+						this = title:c_R242G38B193
+						this = title:c_R47G250B69
+						
+						#c_R120G65B103
+						this = title:c_R164G188B19
+						this = title:c_stormpass
+						#c_R51G251B70
+						this = title:c_R157G152B114
+						this = title:c_R27G188B77
+						this = title:c_castleward_road
+						#c_R128G188B36
+						this = title:c_R115G240B101
+						this = title:c_sidepass
+						this = title:c_stormveil_castle_path
+						#c_R229G194B49
+						#c_pond_fun
 					}
 					tier = tier_county
 					exists = title_province
@@ -23,10 +42,101 @@ er_start_generate_rulers = {
 					RITE = scope:county.title_province.rite
 					FEMALE_CHANCE = 50
 					USURPED = no
-					BECOME_INDEPENDENT = no
+					BECOME_INDEPENDENT = yes
 				}
 			}
 		}
+		title:k_weeping_peninsula = {
+			every_in_de_jure_hierarchy = {
+				limit = {
+					NOR = {
+						this = holder.capital_county
+						# Add here counties which have a historical ruler or we want to exempt
+						
+					}
+					tier = tier_county
+					exists = title_province
+				}
+				save_scope_as = county
+				elden_ring_generate_local_ruler = {
+					CULTURE = scope:county.title_province.culture
+					RITE = scope:county.title_province.rite
+					FEMALE_CHANCE = 50
+					USURPED = no
+					BECOME_INDEPENDENT = yes
+				}
+			}
+		}
+		title:k_rayalucaria = {
+			every_in_de_jure_hierarchy = {
+				limit = {
+					NOR = {
+						this = holder.capital_county
+						# Add here counties which have a historical ruler or we want to exempt
+						
+					}
+					tier = tier_county
+					exists = title_province
+				}
+				save_scope_as = county
+				elden_ring_generate_local_ruler = {
+					CULTURE = scope:county.title_province.culture
+					RITE = scope:county.title_province.rite
+					FEMALE_CHANCE = 50
+					USURPED = no
+					BECOME_INDEPENDENT = yes
+				}
+			}
+		}
+		title:k_gelmir = {
+			every_in_de_jure_hierarchy = {
+				limit = {
+					NOR = {
+						this = holder.capital_county
+						# Add here counties which have a historical ruler or we want to exempt
+						this = title:c_manor_area_two
+					}
+					tier = tier_county
+					exists = title_province
+				}
+				save_scope_as = county
+				elden_ring_generate_local_ruler = {
+					CULTURE = scope:county.title_province.culture
+					RITE = scope:county.title_province.rite
+					FEMALE_CHANCE = 50
+					USURPED = no
+					BECOME_INDEPENDENT = yes
+				}
+			}
+		}
+		title:k_leyndell = {
+			every_in_de_jure_hierarchy = {
+				limit = {
+					NOR = {
+						this = holder.capital_county
+						# Add here counties which have a historical ruler or we want to exempt
+						this = title:c_outskirt_stairway
+						this = title:c_R89G92B215
+						this = title:c_R117G59B54
+						this = title:c_R54G222B142
+						this = title:c_R88G80B204
+						this = title:c_R214G25B245
+						this = title:c_R113G28B212
+					}
+					tier = tier_county
+					exists = title_province
+				}
+				save_scope_as = county
+				elden_ring_generate_local_ruler = {
+					CULTURE = scope:county.title_province.culture
+					RITE = scope:county.title_province.rite
+					FEMALE_CHANCE = 50
+					USURPED = no
+					BECOME_INDEPENDENT = yes
+				}
+			}
+		}
+		
 		#title:d_jagged_foot = {
 		#	every_in_de_jure_hierarchy = {
 		#		limit = {

@@ -13,7 +13,7 @@
 		dynasty_splendor_level = 5
 		type = male
 		birth = 912.1.1
-		title = k_royal_capital
+		title = k_leyndell
 		government = feudal_government
 		culture = cul_leyndell
 		religion = golden_rite
@@ -31,7 +31,7 @@
 		dynasty_splendor_level = 5
 		type = male
 		birth = 7140.1.1
-		title = k_goldveil_dynasty
+		title = k_stormveil
 		government = feudal_government
 		culture = cul_leyndell
 		religion = golden_rite
@@ -49,7 +49,7 @@
 		dynasty_splendor_level = 5
 		type = male
 		birth = 1081.1.1
-		title = d_volcano_manor
+		title = k_gelmir
 		government = feudal_government
 		culture = cul_leyndell
 		religion = god_snake_rite
@@ -362,7 +362,7 @@ bm_8301_er_regents = { #regents to important people
 		dynasty_splendor_level = 5
 		type = female
 		birth = 513.1.1
-		title = d_raya_lucaria
+		title = k_rayalucaria
 		government = feudal_government
 		culture = cul_caria
 		religion = moons_rite
