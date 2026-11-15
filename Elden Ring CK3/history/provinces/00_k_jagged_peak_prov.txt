@@ -1,173 +1,219 @@
-﻿##### d_jagged_peak_summit ############################
+﻿##### k_jagged_peak ############################
 
-### c_R242G91B126
-# R130G14B248
-1625 = {
+### d_dragon_pit_terminus
+## c_R161G155B84
+# R43G96B181
+251 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-# R56G106B23
-2112 = {
+# R52G194B5
+949 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = none
 }
-# R145G112B85
-2193 = {
+# R10G96B197
+1239 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = none
 }
-# R54G235B178
-762 = {
+# R60G112B240
+2256 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-# R22G232B225
-706 = {
+# R105G49B140
+2466 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+## c_R185G248B196
+# R48G68B143
+111 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R191G161B186
+1193 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-
-
-### c_R248G141B130
-# R206G119B122
-173 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R74G1B18
-1687 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R19G13B4
-1808 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R134G87B212
-1374 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-
-
-### c_R24G27B99
-# R58G233B52
-1265 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R235G175B143
-126 = {
+## c_R78G159B103
+# R221G154B131
+206 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-# R133G39B215
-614 = {
+# R134G81B143
+910 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R89G220B75
+1035 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-
-
-### c_R61G159B94
-# R57G43B3
-1054 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R129G102B217
-1155 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R63G253B149
-2022 = {
+# R188G42B91
+1507 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-
-
-### c_R98G122B49
-# R110G117B224
-1314 = {
+# R34G62B122
+2464 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+## c_R99G94B159
+# R93G160B45
+123 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R36G54B153
+2030 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+### d_jagged_foot
+## c_R109G242B113
+# R118G116B119
+526 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R228G105B23
+935 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R138G72B48
+1409 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-# R56G35B199
-687 = {
+# R81G89B54
+1945 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = none
 }
-# R45G171B108
-1097 = {
+## c_R187G243B163
+# R119G131B95
+331 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-# R231G212B86
-1908 = {
+# R191G219B44
+799 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = none
 }
-
-
-### c_R254G115B179
-# R234G74B174
-705 = {
+# R238G129B51
+1925 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-# R233G224B106
-1012 = {
+# R247G230B201
+1932 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = none
 }
-# R33G64B144
-444 = {
+## c_R93G113B140
+# R0G210B31
+108 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = none
 }
-# R219G218B37
-2341 = {
+# R8G245B205
+676 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = none
 }
-
-
-### c_R117G234B127
+# R57G149B213
+726 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R1G164B3
+2367 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+### d_jagged_islands
+## c_R136G213B128
+# R83G62B53
+1228 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+## c_R243G227B55
+# R122G73B163
+694 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = castle_holding
+}
+## c_R67G185B77
+# R0G29B231
+215 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = castle_holding
+}
+## c_R69G133B47
+# R162G85B107
+520 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = castle_holding
+}
+# R61G182B149
+842 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = castle_holding
+}
+## c_R91G246B65
+# R143G102B223
+1871 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = castle_holding
+}
+### d_jagged_peak_summit
+## c_R117G234B127
 # R91G208B205
 845 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = none
-}
-# R212G185B19
-2299 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = castle_holding
 }
 # R188G228B125
 876 = {
@@ -175,44 +221,21 @@
 	rite = bayle_rite
 	holding = castle_holding
 }
-
-
-### c_R42G71B13
-# R171G19B224
-478 = {
+# R212G185B19
+2299 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-# R255G68B200
-1229 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = castle_holding
-}
-# R6G156B177
-521 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R61G124B94
-2312 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-
-
-### c_R132G124B23
-# R118G121B100
-968 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
+## c_R132G124B23
 # R173G214B177
 834 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R118G121B100
+968 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = none
@@ -229,11 +252,15 @@
 	rite = bayle_rite
 	holding = castle_holding
 }
-
-
-### c_R171G178B62
+## c_R171G178B62
 # R147G106B10
 202 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R150G14B233
+1176 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = none
@@ -244,36 +271,63 @@
 	rite = bayle_rite
 	holding = castle_holding
 }
-# R150G14B233
-1176 = {
+## c_R191G81B42
+# R177G80B87
+710 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = none
 }
-
-
-### c_R222G243B228
-# R88G31B135
-1295 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R223G152B147
-600 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R73G5B173
-196 = {
+# R138G112B23
+1069 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-
-
-### c_R209G18B23
+# R109G158B234
+1387 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R249G111B50
+2289 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+## c_R196G95B40
+# R205G126B96
+335 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R11G103B63
+577 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R135G194B79
+809 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = castle_holding
+}
+# R21G201B81
+1079 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+## c_R209G18B23
+# R190G237B157
+208 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = castle_holding
+}
 # R73G117B33
 841 = {
 	culture = cul_jagged
@@ -292,75 +346,126 @@
 	rite = bayle_rite
 	holding = none
 }
-# R190G237B157
-208 = {
+## c_R222G243B228
+# R73G5B173
+196 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-
-
-### c_R88G243B116
-# R84G120B243
-2262 = {
+# R223G152B147
+600 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R88G31B135
+1295 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+## c_R242G91B126
+# R22G232B225
+706 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-# R153G212B11
-144 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R92G222B73
-867 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R51G73B225
-552 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R112G128B35
-2235 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-
-
-### c_R196G95B40
-# R135G194B79
-809 = {
+# R54G235B178
+762 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-# R11G103B63
-577 = {
+# R130G14B248
+1625 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = castle_holding
+}
+# R56G106B23
+2112 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = none
 }
-# R205G126B96
-335 = {
+# R145G112B85
+2193 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = none
 }
-# R21G201B81
-1079 = {
+## c_R248G141B130
+# R206G119B122
+173 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = none
 }
-
-
-### c_R255G233B148
+# R134G87B212
+1374 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R74G1B18
+1687 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R19G13B4
+1808 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+## c_R24G27B99
+# R235G175B143
+126 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = castle_holding
+}
+# R133G39B215
+614 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = castle_holding
+}
+# R58G233B52
+1265 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+## c_R254G115B179
+# R33G64B144
+444 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R234G74B174
+705 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = castle_holding
+}
+# R233G224B106
+1012 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R219G218B37
+2341 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+## c_R255G233B148
 # R77G40B235
 343 = {
 	culture = cul_jagged
@@ -379,281 +484,116 @@
 	rite = bayle_rite
 	holding = none
 }
-
-
-### c_R191G81B42
-# R138G112B23
-1069 = {
+## c_R42G71B13
+# R171G19B224
+478 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-# R249G111B50
-2289 = {
+# R6G156B177
+521 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = none
 }
-# R177G80B87
-710 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R109G158B234
-1387 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-
-
-### c_R78G138B2
-# R194G202B74
-1427 = {
+# R255G68B200
+1229 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
+# R61G124B94
+2312 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+## c_R61G159B94
+# R57G43B3
+1054 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R129G102B217
+1155 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R63G253B149
+2022 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = castle_holding
+}
+## c_R78G138B2
 # R193G170B4
 513 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-
-
-##### d_jagged_islands ############################
-
-### c_R136G213B128
-# R83G62B53
-1228 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-
-
-### c_R69G133B47
-# R162G85B107
-520 = {
+# R194G202B74
+1427 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-# R61G182B149
-842 = {
+## c_R88G243B116
+# R153G212B11
+144 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R51G73B225
+552 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R92G222B73
+867 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R112G128B35
+2235 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R84G120B243
+2262 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-
-
-### c_R91G246B65
-# R143G102B223
-1871 = {
+## c_R98G122B49
+# R56G35B199
+687 = {
+	culture = cul_jagged
+	rite = bayle_rite
+	holding = none
+}
+# R45G171B108
+1097 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-
-
-### c_R243G227B55
-# R122G73B163
-694 = {
+# R110G117B224
+1314 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = castle_holding
 }
-
-
-### c_R67G185B77
-# R0G29B231
-215 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = castle_holding
-}
-
-
-##### d_jagged_foot ############################
-
-### c_R109G242B113
-# R138G72B48
-1409 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = castle_holding
-}
-# R81G89B54
-1945 = {
+# R231G212B86
+1908 = {
 	culture = cul_jagged
 	rite = bayle_rite
 	holding = none
 }
-# R228G105B23
-935 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R118G116B119
-526 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-
-
-### c_R187G243B163
-# R238G129B51
-1925 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = castle_holding
-}
-# R247G230B201
-1932 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R119G131B95
-331 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = castle_holding
-}
-# R191G219B44
-799 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-
-
-### c_R93G113B140
-# R57G149B213
-726 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R8G245B205
-676 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R1G164B3
-2367 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R0G210B31
-108 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-
-
-##### d_dragon_pit_terminus ############################
-
-### c_R78G159B103
-# R188G42B91
-1507 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = castle_holding
-}
-# R221G154B131
-206 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = castle_holding
-}
-# R134G81B143
-910 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R34G62B122
-2464 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R89G220B75
-1035 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = castle_holding
-}
-
-
-### c_R161G155B84
-# R43G96B181
-251 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = castle_holding
-}
-# R10G96B197
-1239 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R52G194B5
-949 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R105G49B140
-2466 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R60G112B240
-2256 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = castle_holding
-}
-
-
-### c_R185G248B196
-# R191G161B186
-1193 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = castle_holding
-}
-# R48G68B143
-111 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-
-
-### c_R99G94B159
-# R93G160B45
-123 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-# R36G54B153
-2030 = {
-	culture = cul_jagged
-	rite = bayle_rite
-	holding = none
-}
-
-

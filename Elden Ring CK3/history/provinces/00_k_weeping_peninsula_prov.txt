@@ -1,82 +1,18 @@
-﻿##### d_morne ############################
+﻿##### k_weeping_peninsula ############################
 
-### c_morne
-# wp_barony_72
-2314 = {
-	special_building_slot = castle_morne_1
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = castle_holding
-	
-	1000.1.1 = {
-		special_building = castle_morne_1
-	}
-}
-# wp_barony_70
-298 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# wp_barony_71
-978 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# wp_barony_69
-1728 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# LAKE
-3083 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# DELETE_11
-3110 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# wp_barony_68
-1533 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_morne_grief
-# wp_barony_65
-227 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = castle_holding
-}
-# wp_barony_66
-130 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# wp_barony_64
-2559 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_forgotten_barrows
+### d_morne
+## c_forgotten_barrows
 # wp_barony_67
 618 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = castle_holding
+}
+# wp_barony_63
+815 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
 }
 # wp_barony_61
 1345 = {
@@ -96,39 +32,7 @@
 	rite = golden_rite
 	holding = none
 }
-# wp_barony_63
-815 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_mornevale
-# wp_barony_62
-863 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = castle_holding
-}
-# wp_barony_59
-1969 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_morne_rear
-# wp_barony_73
-2560 = {
-	culture = cul_misbegotten
-	rite = crucible_rite
-	holding = castle_holding
-}
-
-
-### c_moor_mounds
+## c_moor_mounds
 # wp_barony_57
 465 = {
 	culture = cul_weeping_peninsula
@@ -141,262 +45,111 @@
 	rite = golden_rite
 	holding = none
 }
-# R26G137B77
-2253 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
 # wp_barony_58
 850 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = none
 }
-
-
-##### d_weeping_road ############################
-
-### c_R20G46B152
-# wp_barony_9
-387 = {
+# R26G137B77
+2253 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+## c_morne
+# wp_barony_70
+298 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_71
+978 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_68
+1533 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_69
+1728 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_72
+2314 = {
+	special_building_slot = castle_morne_1
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = castle_holding
-}
-# wp_barony_12
-1453 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# R74G248B154
-81 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# R108G181B184
-410 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_callu
-# wp_barony_27
-433 = {
-	culture = cul_weeping_peninsula
-	rite = frenzy_rite
-	holding = castle_holding
-}
-# wp_barony_26
-2005 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# R42G221B219
-42 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# R115G136B109
-1939 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# wp_barony_37
-1206 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_tear_cliffs
-# wp_barony_33
-642 = {
-	special_building_slot = oridys_rise
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = castle_holding
-	
 	1000.1.1 = {
-		special_building = oridys_rise
+		special_building = castle_morne_1
 	}
 }
 # LAKE
-3121 = {
+3083 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = none
 }
-# wp_barony_30
-1896 = {
+# DELETE_11
+3110 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = none
 }
-# wp_barony_32
-2197 = {
+## c_morne_grief
+# wp_barony_66
+130 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_road_morne
-# wp_barony_34
-2062 = {
+# wp_barony_65
+227 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = castle_holding
 }
-# wp_barony_28
-426 = {
+# wp_barony_64
+2559 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = none
 }
-# wp_barony_29
-2485 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# R182G112B187
-973 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_east_lookout
-# wp_barony_60
-1429 = {
-	culture = cul_weeping_peninsula
-	rite = death_rite
+## c_morne_rear
+# wp_barony_73
+2560 = {
+	culture = cul_misbegotten
+	rite = crucible_rite
 	holding = castle_holding
 }
-# wp_barony_36
-1528 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# wp_barony_35
-2343 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_lookout_ascent
-# R147G202B194
-2207 = {
+## c_mornevale
+# wp_barony_62
+863 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = castle_holding
 }
-# LAKE
-3125 = {
+# wp_barony_59
+1969 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = none
 }
-# R255G87B167
-1359 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# wp_barony_13
-744 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R65G129B195
-# R9G200B151
-807 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = castle_holding
-}
-# wp_barony_8
-1713 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_pepega_hill
-# R254G5B15
-545 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = castle_holding
-}
-# wp_barony_11
-1340 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_ching_catacombs
-# wp_barony_10
-1275 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = castle_holding
-}
-# wp_barony_31
-458 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_sacrifice_bridge
-# R91G74B221
-304 = {
-	special_building_slot = bridge_of_sacrifice
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = castle_holding
-	
-	1000.1.1 = {
-		special_building = bridge_of_sacrifice
-	}
-}
-
-
-##### d_tombsward_hill ############################
-
-### c_R183G112B248
+### d_tombsward_hill
+## c_R183G112B248
 # wp_barony_3
 495 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = castle_holding
-}
-# wp_barony_1
-1912 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
 }
 # wp_barony_2
 970 = {
@@ -410,62 +163,87 @@
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R47G133B21
-# wp_barony_17
-1727 = {
+# wp_barony_1
+1912 = {
 	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+## c_R220G209B71
+# wp_barony_6
+136 = {
+	culture = cul_demihuman
 	rite = golden_rite
 	holding = castle_holding
 }
+# wp_barony_5
+875 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_7
+1066 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_14
+1883 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+## c_R238G176B49
+# wp_barony_15
+205 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# R70G52B158
+866 = {
+	special_building_slot = morne_tunnel_mines_01
+	culture = cul_weeping_peninsula
+	rite = dragon_cult_rite
+	holding = castle_holding
+	1000.1.1 = {
+		special_building = morne_tunnel_mines_01
+	}
+}
+# R191G255B251
+2019 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+## c_R47G133B21
 # wp_barony_16
 574 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R52G161B47
-# wp_barony_22
-2467 = {
+# wp_barony_17
+1727 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = castle_holding
 }
+## c_R52G161B47
 # wp_barony_18
 2458 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R77G174B149
-# wp_barony_24
-1738 = {
-	special_building_slot = minor_erdtree
+# wp_barony_22
+2467 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = castle_holding
-	
-	1000.1.1 = {
-		special_building = minor_erdtree
-	}
 }
-# wp_barony_23
-2428 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# wp_barony_38
-1624 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
+## c_R77G174B149
 # wp_barony_25
 701 = {
 	culture = cul_weeping_peninsula
@@ -484,64 +262,137 @@
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R238G176B49
-# R70G52B158
-866 = {
-	special_building_slot = morne_tunnel_mines_01
+# wp_barony_38
+1624 = {
 	culture = cul_weeping_peninsula
-	rite = dragon_cult_rite
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_24
+1738 = {
+	special_building_slot = minor_erdtree
+	culture = cul_weeping_peninsula
+	rite = golden_rite
 	holding = castle_holding
-	
 	1000.1.1 = {
-		special_building = morne_tunnel_mines_01
+		special_building = minor_erdtree
 	}
 }
-# R191G255B251
-2019 = {
+# wp_barony_23
+2428 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = none
 }
-# wp_barony_15
-205 = {
+### d_weeping_coast
+## c_R149G183B49
+# wp_barony_56
+297 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R220G209B71
-# wp_barony_6
-136 = {
-	culture = cul_demihuman
+# R161G210B231
+2067 = {
+	culture = cul_weeping_peninsula
+	rite = primeval_rite
+	holding = castle_holding
+}
+# wp_barony_55
+2260 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+## c_R182G212B50
+# R78G242B185
+43 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_20
+170 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# R26G143B17
+1353 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_19
+1583 = {
+	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = castle_holding
 }
-# wp_barony_7
-1066 = {
+## c_R206G173B124
+# wp_barony_51
+567 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = castle_holding
+}
+# wp_barony_52
+1592 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = none
 }
-# wp_barony_14
-1883 = {
+## c_R231G233B195
+# wp_barony_44
+535 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = none
 }
-# wp_barony_5
-875 = {
+# wp_barony_53
+1091 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = none
 }
-
-
-##### d_weeping_coast ############################
-
-### c_weeping_coast_north
+# R232G34B174
+1326 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_40
+1616 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = castle_holding
+}
+## c_R62G216B236
+# wp_barony_43
+147 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_42
+714 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# R113G152B113
+930 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = castle_holding
+}
+# wp_barony_41
+1075 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+## c_weeping_coast_north
 # R248G15B185
 1033 = {
 	culture = cul_weeping_peninsula
@@ -566,20 +417,18 @@
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_weeping_coast_south
-# DELETE_9
-3075 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = castle_holding
-}
+## c_weeping_coast_south
 # DELETE_12
 2508 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = none
+}
+# DELETE_9
+3075 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = castle_holding
 }
 # DELETE_10
 3111 = {
@@ -587,185 +436,18 @@
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R231G233B195
-# wp_barony_40
-1616 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = castle_holding
-}
-# wp_barony_44
-535 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# R232G34B174
-1326 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# wp_barony_53
-1091 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R206G173B124
-# wp_barony_51
-567 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = castle_holding
-}
-# wp_barony_52
-1592 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_west_lookout
-# wp_barony_49
-2086 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = castle_holding
-}
-# wp_barony_47
-2015 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# wp_barony_45
-8 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# wp_barony_48
-2246 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R182G212B50
-# wp_barony_19
-1583 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = castle_holding
-}
-# R78G242B185
-43 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# R26G143B17
-1353 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# wp_barony_20
-170 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R62G216B236
-# R113G152B113
-930 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = castle_holding
-}
-# wp_barony_43
-147 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# wp_barony_41
-1075 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# wp_barony_42
-714 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R149G183B49
-# R161G210B231
-2067 = {
-	culture = cul_weeping_peninsula
-	rite = primeval_rite
-	holding = castle_holding
-}
-# wp_barony_56
-297 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# wp_barony_55
-2260 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_windward_county
-# wp_barony_21
-1224 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = castle_holding
-}
-# wp_barony_50
-1031 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-# wp_barony_39
-2473 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_weeping_corner
-# DELETE_13
-3074 = {
-	culture = cul_weeping_peninsula
-	rite = golden_rite
-	holding = castle_holding
-}
+## c_weeping_corner
 # wp_barony_54
 301 = {
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = none
+}
+# DELETE_13
+3074 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = castle_holding
 }
 # LAKE
 3099 = {
@@ -773,5 +455,252 @@
 	rite = golden_rite
 	holding = none
 }
-
-
+## c_west_lookout
+# wp_barony_45
+8 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_47
+2015 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_49
+2086 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = castle_holding
+}
+# wp_barony_48
+2246 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+## c_windward_county
+# wp_barony_50
+1031 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_21
+1224 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = castle_holding
+}
+# wp_barony_39
+2473 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+### d_weeping_road
+## c_R20G46B152
+# R74G248B154
+81 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_9
+387 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = castle_holding
+}
+# R108G181B184
+410 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_12
+1453 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+## c_R65G129B195
+# R9G200B151
+807 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = castle_holding
+}
+# wp_barony_8
+1713 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+## c_callu
+# R42G221B219
+42 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_27
+433 = {
+	culture = cul_weeping_peninsula
+	rite = frenzy_rite
+	holding = castle_holding
+}
+# wp_barony_37
+1206 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# R115G136B109
+1939 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_26
+2005 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+## c_ching_catacombs
+# wp_barony_31
+458 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_10
+1275 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = castle_holding
+}
+## c_east_lookout
+# wp_barony_60
+1429 = {
+	culture = cul_weeping_peninsula
+	rite = death_rite
+	holding = castle_holding
+}
+# wp_barony_36
+1528 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_35
+2343 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+## c_lookout_ascent
+# wp_barony_13
+744 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# R255G87B167
+1359 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# R147G202B194
+2207 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = castle_holding
+}
+# LAKE
+3125 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+## c_pepega_hill
+# R254G5B15
+545 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = castle_holding
+}
+# wp_barony_11
+1340 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+## c_road_morne
+# wp_barony_28
+426 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# R182G112B187
+973 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_34
+2062 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = castle_holding
+}
+# wp_barony_29
+2485 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+## c_sacrifice_bridge
+# R91G74B221
+304 = {
+	special_building_slot = bridge_of_sacrifice
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = castle_holding
+	1000.1.1 = {
+		special_building = bridge_of_sacrifice
+	}
+}
+## c_tear_cliffs
+# wp_barony_33
+642 = {
+	special_building_slot = oridys_rise
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = castle_holding
+	1000.1.1 = {
+		special_building = oridys_rise
+	}
+}
+# wp_barony_30
+1896 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# wp_barony_32
+2197 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}
+# LAKE
+3121 = {
+	culture = cul_weeping_peninsula
+	rite = golden_rite
+	holding = none
+}

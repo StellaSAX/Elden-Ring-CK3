@@ -1,23 +1,15 @@
-﻿##### d_flame_peak ############################
+﻿##### k_giattops ############################
 
-### c_R234G49B122
-# R253G234B251
-680 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = castle_holding
-}
-
-
-### c_R21G93B21
+### d_flame_peak
+## c_R21G93B21
 # R202G195B14
 1077 = {
 	culture = cul_northerner
 	rite = giants_flame_rite
 	holding = castle_holding
 }
-# R181G234B192
-1683 = {
+# R136G174B57
+1447 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
@@ -28,32 +20,31 @@
 	rite = golden_rite
 	holding = none
 }
+# R181G234B192
+1683 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
 # R242G156B82
 1801 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-# R136G174B57
-1447 = {
+## c_R234G49B122
+# R253G234B251
+680 = {
 	culture = cul_northerner
 	rite = golden_rite
-	holding = none
+	holding = castle_holding
 }
-
-
-### c_giants_rest
+## c_giants_rest
 # R175G246B86
 655 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = castle_holding
-}
-# R136G8B81
-2333 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
 }
 # R143G27B160
 1324 = {
@@ -67,365 +58,20 @@
 	rite = golden_rite
 	holding = none
 }
-
-
-##### d_giants_gravepost ############################
-
-### c_R163G56B221
-# R108G144B222
-947 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = castle_holding
-}
-# R82G216B196
-2391 = {
+# R136G8B81
+2333 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-# R172G19B244
-2440 = {
+### d_freezing_lake
+## c_R154G6B244
+# R189G76B51
+1059 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-# R47G133B206
-2032 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R63G75B184
-419 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R205G249B138
-856 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R243G214B231
-510 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R174G188B56
-# R220G66B107
-128 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = castle_holding
-}
-# R36G47B56
-232 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R50G149B165
-1580 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R103G60B76
-855 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R32G197B216
-98 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R17G151B160
-# R140G183B226
-240 = {
-	culture = cul_reedlander
-	rite = formless_rite
-	holding = castle_holding
-}
-# R243G39B221
-1563 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R118G148B224
-293 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R126G0B245
-1426 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R51G246B196
-2204 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R102G65B169
-1632 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-
-
-##### d_zamor_ruins ############################
-
-### c_R181G132B213
-# R129G246B186
-47 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = castle_holding
-}
-# R130G42B161
-1467 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R62G166B21
-895 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R52G167B50
-# R87G61B27
-292 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = castle_holding
-}
-# R191G75B140
-1408 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R182G250B127
-543 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R163G34B133
-# R250G136B230
-1334 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = castle_holding
-}
-# R215G18B234
-2434 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R235G64B64
-2017 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R120G160B83
-# R96G189B100
-1556 = {
-	culture = cul_zamor
-	rite = golden_rite
-	holding = castle_holding
-}
-
-
-### c_zamor_ruins
-# R45G70B115
-2046 = {
-	culture = cul_zamor
-	rite = golden_rite
-	holding = castle_holding
-}
-# R146G36B202
-146 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-
-
-##### d_sol ############################
-
-### c_R193G208B69
-# R242G51B250
-2149 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = castle_holding
-}
-# R175G115B126
-528 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R6G135B95
-1029 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R222G79B136
-654 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R26G236B158
-# R92G217B184
-2012 = {
-	culture = cul_northerner
-	rite = duskborn_rite
-	holding = castle_holding
-}
-# R193G46B191
-1168 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R138G226B46
-948 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_castle_sol
-# R123G37B100
-2155 = {
-	culture = cul_northerner
-	rite = unalloyed_rite
-	holding = castle_holding
-}
-# R39G169B67
-1510 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R110G235B228
-1686 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R106G66B33
-1902 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R99G27B58
-# R233G109B48
-1373 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = castle_holding
-}
-# R192G131B124
-571 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R41G237B34
-740 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R39G169B249
-2157 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_snowingshit
-# R222G65B119
-1543 = {
-	culture = cul_northerner
-	rite = death_rite
-	holding = castle_holding
-}
-# R40G67B33
-1826 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R44G123B247
-1964 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-
-
-##### d_freezing_lake ############################
-
-### c_R50G22B131
-# R165G70B250
-1383 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = castle_holding
-}
-# R199G228B143
-474 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R224G106B77
-1402 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R154G6B244
 # R254G58B219
 1279 = {
 	culture = cul_northerner
@@ -444,42 +90,7 @@
 	rite = golden_rite
 	holding = none
 }
-# R189G76B51
-1059 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R231G128B194
-# R211G179B60
-1544 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = castle_holding
-}
-# R148G80B235
-2220 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R76G69B95
-2494 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R223G145B192
-1965 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R201G34B253
+## c_R201G34B253
 # R142G48B97
 63 = {
 	culture = cul_northerner
@@ -488,6 +99,12 @@
 }
 # R13G160B197
 80 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R43G6B231
+1041 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
@@ -504,29 +121,59 @@
 	rite = golden_rite
 	holding = none
 }
-# R43G6B231
-1041 = {
+## c_R209G216B231
+# R127G23B148
+217 = {
 	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R44G47B105
-# R224G53B43
-2186 = {
-	culture = cul_northerner
-	rite = frenzy_rite
+	rite = godslayer_rite
 	holding = castle_holding
 }
-# R247G96B7
-1596 = {
+# R242G70B23
+761 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-# R102G92B27
-2043 = {
+# R111G187B201
+1717 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R89G121B122
+2056 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+## c_R231G128B194
+# R211G179B60
+1544 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = castle_holding
+}
+# R223G145B192
+1965 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R148G80B235
+2220 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R76G69B95
+2494 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+## c_R44G47B105
+# R247G96B7
+1596 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
@@ -537,15 +184,69 @@
 	rite = golden_rite
 	holding = none
 }
+# R102G92B27
+2043 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R224G53B43
+2186 = {
+	culture = cul_northerner
+	rite = frenzy_rite
+	holding = castle_holding
+}
 # R102G188B25
 2264 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_whiteridge
+## c_R50G22B131
+# R199G228B143
+474 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R165G70B250
+1383 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = castle_holding
+}
+# R224G106B77
+1402 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+## c_edgus_snowus
+# R224G195B229
+927 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R207G255B240
+996 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R96G68B25
+1316 = {
+	culture = cul_northerner
+	rite = primeval_rite
+	holding = castle_holding
+}
+# R121G143B49
+1380 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+## c_whiteridge
 # R76G254B92
 902 = {
 	culture = cul_northerner
@@ -564,161 +265,234 @@
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R209G216B231
-# R127G23B148
-217 = {
-	culture = cul_northerner
-	rite = godslayer_rite
-	holding = castle_holding
-}
-# R89G121B122
-2056 = {
+### d_giants_gravepost
+## c_R163G56B221
+# R63G75B184
+419 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-# R111G187B201
-1717 = {
+# R243G214B231
+510 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-# R242G70B23
-761 = {
+# R205G249B138
+856 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_edgus_snowus
-# R96G68B25
-1316 = {
-	culture = cul_northerner
-	rite = primeval_rite
-	holding = castle_holding
-}
-# R207G255B240
-996 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R121G143B49
-1380 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-# R224G195B229
-927 = {
-	culture = cul_northerner
-	rite = golden_rite
-	holding = none
-}
-
-
-##### d_stars_gaze ############################
-
-### c_R198G202B117
-# R192G237B154
-1179 = {
+# R108G144B222
+947 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = castle_holding
 }
-# R10G157B127
-1005 = {
+# R47G133B206
+2032 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-# R85G234B16
-1361 = {
+# R82G216B196
+2391 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-# R215G184B246
-261 = {
+# R172G19B244
+2440 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-# R216G224B5
-2371 = {
+## c_R174G188B56
+# R32G197B216
+98 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R50G139B78
-# R58G40B164
-494 = {
+# R220G66B107
+128 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = castle_holding
 }
-# R84G239B26
-103 = {
+# R36G47B56
+232 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-# R209G145B194
-4 = {
+# R103G60B76
+855 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_ravinus
-# R11G180B111
-1878 = {
+# R50G149B165
+1580 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+## c_R17G151B160
+# R140G183B226
+240 = {
+	culture = cul_reedlander
+	rite = formless_rite
+	holding = castle_holding
+}
+# R118G148B224
+293 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R126G0B245
+1426 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R243G39B221
+1563 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R102G65B169
+1632 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R51G246B196
+2204 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+### d_sol
+## c_R193G208B69
+# R175G115B126
+528 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R222G79B136
+654 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R6G135B95
+1029 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R242G51B250
+2149 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = castle_holding
 }
-# R148G36B224
-1781 = {
+## c_R26G236B158
+# R138G226B46
+948 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R223G129B238
-# R91G58B226
-409 = {
+# R193G46B191
+1168 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R92G217B184
+2012 = {
+	culture = cul_northerner
+	rite = duskborn_rite
+	holding = castle_holding
+}
+## c_R99G27B58
+# R192G131B124
+571 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R41G237B34
+740 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R233G109B48
+1373 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = castle_holding
 }
-# R227G124B144
-1217 = {
+# R39G169B249
+2157 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-# R158G209B46
-2042 = {
+## c_castle_sol
+# R39G169B67
+1510 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-# R61G182B248
-37 = {
+# R110G235B228
+1686 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R139G134B68
+# R106G66B33
+1902 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R123G37B100
+2155 = {
+	culture = cul_northerner
+	rite = unalloyed_rite
+	holding = castle_holding
+}
+## c_snowingshit
+# R222G65B119
+1543 = {
+	culture = cul_northerner
+	rite = death_rite
+	holding = castle_holding
+}
+# R40G67B33
+1826 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R44G123B247
+1964 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+### d_stars_gaze
+## c_R139G134B68
 # R109G69B76
 291 = {
 	culture = cul_northerner
@@ -737,20 +511,182 @@
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R77G29B156
-# R185G27B193
-2016 = {
+## c_R198G202B117
+# R215G184B246
+261 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R10G157B127
+1005 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R192G237B154
+1179 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = castle_holding
 }
+# R85G234B16
+1361 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R216G224B5
+2371 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+## c_R223G129B238
+# R61G182B248
+37 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R91G58B226
+409 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = castle_holding
+}
+# R227G124B144
+1217 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R158G209B46
+2042 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+## c_R50G139B78
+# R209G145B194
+4 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R84G239B26
+103 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R58G40B164
+494 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = castle_holding
+}
+## c_R77G29B156
 # R45G243B21
 1481 = {
 	culture = cul_northerner
 	rite = golden_rite
 	holding = none
 }
-
-
+# R185G27B193
+2016 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = castle_holding
+}
+## c_ravinus
+# R148G36B224
+1781 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R11G180B111
+1878 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = castle_holding
+}
+### d_zamor_ruins
+## c_R120G160B83
+# R96G189B100
+1556 = {
+	culture = cul_zamor
+	rite = golden_rite
+	holding = castle_holding
+}
+## c_R163G34B133
+# R250G136B230
+1334 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = castle_holding
+}
+# R235G64B64
+2017 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R215G18B234
+2434 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+## c_R181G132B213
+# R129G246B186
+47 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = castle_holding
+}
+# R62G166B21
+895 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R130G42B161
+1467 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+## c_R52G167B50
+# R87G61B27
+292 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = castle_holding
+}
+# R182G250B127
+543 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R191G75B140
+1408 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+## c_zamor_ruins
+# R146G36B202
+146 = {
+	culture = cul_northerner
+	rite = golden_rite
+	holding = none
+}
+# R45G70B115
+2046 = {
+	culture = cul_zamor
+	rite = golden_rite
+	holding = castle_holding
+}

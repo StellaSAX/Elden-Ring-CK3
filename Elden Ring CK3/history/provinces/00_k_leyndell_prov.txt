@@ -1,292 +1,120 @@
-﻿##### d_divinetower_west_altus ############################
+﻿##### k_leyndell ############################
 
-### c_westaltus_divinetower
-# R251G38B247
-650 = {
+### d_auriza
+## c_R132G248B176
+# R145G170B181
+610 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R174G239B39
+1167 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# leyndell_new_4
+3171 = {
+	culture = cul_leyndell
+	rite = despair_rite
+	holding = castle_holding
+}
+## c_R243G188B85
+# R166G37B244
+493 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R31G131B45
+608 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = castle_holding
 }
-
-
-##### d_outer_wall ############################
-
-### c_R76G4B57
-# R38G200B103
-1388 = {
+# R218G115B177
+946 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R199G139B219
+1823 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# leyndell_new_13
+3180 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+## c_R248G215B140
+# R149G32B85
+257 = {
+	culture = cul_leyndell
+	rite = death_rite
+	holding = castle_holding
+}
+# R41G177B65
+506 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R110G242B57
+2238 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+## c_R5G82B238
+# R161G176B162
+939 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R234G32B194
+1746 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R117G105B83
+1861 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# leyndell_new_15
+3182 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = castle_holding
 }
-# R187G82B41
-773 = {
+## c_R89G92B215
+# R153G252B62
+512 = {
 	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R118G96B249
-2377 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R35G185B185
-2223 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R251G219B210
-# R184G180B108
-1234 = {
-	culture = cul_leyndell
-	rite = golden_rite
+	rite = dragon_cult_rite
 	holding = castle_holding
 }
-# R188G71B21
-477 = {
+# R233G77B71
+2475 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-# leyndell_new_10
-3177 = {
+# leyndell_new_14
+3181 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R208G201B194
-# R41G65B12
-783 = {
-	culture = cul_leyndell
-	rite = gravity_rite
-	holding = castle_holding
-}
-# R97G140B47
-1457 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R69G220B109
-943 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R51G195B223
-1231 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R181G29B212
-# R19G2B88
-1346 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = castle_holding
-}
-# R23G205B135
-2047 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# leyndell_new_18
-3185 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_bottomlake
-# leyndell_new_2
-3169 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = castle_holding
-}
-# LAKE
-3119 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# leyndell_new_1
-3168 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R111G174B73
-523 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# leyndell_new_3
-3170 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R98G183B82
-# R255G237B89
-988 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = castle_holding
-}
-# R3G237B135
-68 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R96G184B42
-87 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# leyndell_new_5
-3172 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_outskirt_stairway
-# R15G172B46
-1128 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = castle_holding
-}
-# R37G69B81
-951 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R190G65B24
-527 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R199G186B6
-40 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R72G77B241
-1949 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# leyndell_new_17
-3184 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_outerwall
-# R80G86B231
-2513 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = castle_holding
-}
-# R217G100B193
-1569 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# leyndell_new_20
-3187 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# leyndell_new_19
-3186 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_viewus
-# leyndell_new_7
-3174 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = castle_holding
-}
-# leyndell_new_8
-3175 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R191G150B246
-659 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_high_hill
-# R180G173B190
-1195 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = castle_holding
-}
-# R113G196B151
-275 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_smallus
-# leyndell_new_6
-3173 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = castle_holding
-}
-# leyndell_new_9
-3176 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-##### d_auriza ############################
-
-### c_R95G214B251
+## c_R95G214B251
 # R109G244B199
 388 = {
 	culture = cul_leyndell
@@ -311,143 +139,12 @@
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R5G82B238
-# leyndell_new_15
-3182 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = castle_holding
-}
-# R161G176B162
-939 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R117G105B83
-1861 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R234G32B194
-1746 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R243G188B85
-# R31G131B45
-608 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = castle_holding
-}
-# R218G115B177
-946 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# leyndell_new_13
-3180 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R199G139B219
-1823 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R166G37B244
-493 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R132G248B176
-# leyndell_new_4
-3171 = {
-	culture = cul_leyndell
-	rite = despair_rite
-	holding = castle_holding
-}
-# R145G170B181
-610 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R174G239B39
-1167 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R248G215B140
-# R149G32B85
-257 = {
-	culture = cul_leyndell
-	rite = death_rite
-	holding = castle_holding
-}
-# R110G242B57
-2238 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R41G177B65
-506 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R89G92B215
-# R153G252B62
-512 = {
-	culture = cul_leyndell
-	rite = dragon_cult_rite
-	holding = castle_holding
-}
-# R233G77B71
-2475 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# leyndell_new_14
-3181 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_auriza_hero_grave
+## c_auriza_hero_grave
 # R208G1B234
 430 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = castle_holding
-}
-# R192G70B197
-1259 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
 }
 # R80G86B242
 798 = {
@@ -455,30 +152,13 @@
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_wowowo
-# R19G88B85
-2298 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = castle_holding
-}
-# R182G83B89
-564 = {
+# R192G70B197
+1259 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-# leyndell_new_12
-3179 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_leriendel
+## c_leriendel
 # R79G24B177
 1725 = {
 	culture = cul_leyndell
@@ -491,38 +171,43 @@
 	rite = golden_rite
 	holding = none
 }
-
-
-##### d_forbidden_lands ############################
-
-### c_eastaltus_divinetower
-# R90G3B36
-1375 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = castle_holding
-}
-# R88G157B34
-1205 = {
+## c_wowowo
+# R182G83B89
+564 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-# LAKE
-3123 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R184G162B207
-# R161G139B115
-2542 = {
+# R19G88B85
+2298 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = castle_holding
 }
+# leyndell_new_12
+3179 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+### d_divinetower_isolated
+## c_isolated_divinetower
+# divinetower_caelid_2
+604 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = castle_holding
+}
+### d_divinetower_west_altus
+## c_westaltus_divinetower
+# R251G38B247
+650 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = castle_holding
+}
+### d_forbidden_lands
+## c_R184G162B207
 # R188G236B213
 22 = {
 	culture = cul_leyndell
@@ -535,20 +220,24 @@
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R225G98B220
-# R110G41B89
-1499 = {
+# R161G139B115
+2542 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = castle_holding
 }
+## c_R225G98B220
 # R78G21B150
 508 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
+}
+# R110G41B89
+1499 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = castle_holding
 }
 # R243G55B29
 1777 = {
@@ -556,23 +245,9 @@
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R94G127B57
-# R165G240B213
-579 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = castle_holding
-}
+## c_R94G127B57
 # R84G86B114
 255 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# LAKE
-3112 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
@@ -583,20 +258,49 @@
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_rold
-# R163G227B93
-1037 = {
+# R165G240B213
+579 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = castle_holding
 }
+# LAKE
+3112 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+## c_eastaltus_divinetower
+# R88G157B34
+1205 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R90G3B36
+1375 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = castle_holding
+}
+# LAKE
+3123 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+## c_rold
 # R250G83B60
 804 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
+}
+# R163G227B93
+1037 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = castle_holding
 }
 # R35G17B217
 1806 = {
@@ -610,168 +314,265 @@
 	rite = golden_rite
 	holding = none
 }
-
-
-##### d_divinetower_isolated ############################
-
-### c_isolated_divinetower
-# divinetower_caelid_2
-604 = {
+### d_outer_wall
+## c_R181G29B212
+# R19G2B88
+1346 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = castle_holding
 }
-
-
-##### d_royal_capital ############################
-
-### c_elden_throne
-# R140G223B208
-1648 = {
+# R23G205B135
+2047 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# leyndell_new_18
+3185 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+## c_R208G201B194
+# R41G65B12
+783 = {
+	culture = cul_leyndell
+	rite = gravity_rite
+	holding = castle_holding
+}
+# R69G220B109
+943 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R51G195B223
+1231 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R97G140B47
+1457 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+## c_R251G219B210
+# R188G71B21
+477 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R184G180B108
+1234 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = castle_holding
 }
-# R100G126B62
-1782 = {
+# leyndell_new_10
+3177 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-# R78G155B105
-677 = {
+## c_R76G4B57
+# R187G82B41
+773 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-# R132G220B191
-1043 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R115G150B107
-950 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R160G46B46
-# R81G111B65
-447 = {
+# R38G200B103
+1388 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = castle_holding
 }
-# R246G89B94
-1880 = {
+# R35G185B185
+2223 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-# R74G3B238
-422 = {
+# R118G96B249
+2377 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-# R78G61B59
-554 = {
+## c_R98G183B82
+# R3G237B135
+68 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_royal_colosseum
-# R186G208B0
-857 = {
+# R96G184B42
+87 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R255G237B89
+988 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = castle_holding
 }
-# R126G217B38
-1933 = {
+# leyndell_new_5
+3172 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-# R94G75B15
-23 = {
+## c_bottomlake
+# R111G174B73
+523 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-# R234G177B65
-2033 = {
+# LAKE
+3119 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R88G80B204
-# R154G249B232
-984 = {
+# leyndell_new_1
+3168 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# leyndell_new_2
+3169 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = castle_holding
 }
-# R25G207B50
-1352 = {
+# leyndell_new_3
+3170 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-# R224G152B44
-59 = {
+## c_high_hill
+# R113G196B151
+275 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-# R246G7B95
-1962 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R242G160B125
-906 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-# R104G201B201
-129 = {
-	culture = cul_leyndell
-	rite = golden_rite
-	holding = none
-}
-
-
-### c_R54G222B142
-# R123G130B148
-1656 = {
+# R180G173B190
+1195 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = castle_holding
 }
-# R1G167B26
-1542 = {
+## c_outerwall
+# R217G100B193
+1569 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R113G28B212
-# R7G77B201
-2297 = {
+# R80G86B231
+2513 = {
 	culture = cul_leyndell
-	rite = formless_rite
+	rite = golden_rite
 	holding = castle_holding
+}
+# leyndell_new_19
+3186 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# leyndell_new_20
+3187 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+## c_outskirt_stairway
+# R199G186B6
+40 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R190G65B24
+527 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R37G69B81
+951 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R15G172B46
+1128 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = castle_holding
+}
+# R72G77B241
+1949 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# leyndell_new_17
+3184 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+## c_smallus
+# leyndell_new_6
+3173 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = castle_holding
+}
+# leyndell_new_9
+3176 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+## c_viewus
+# R191G150B246
+659 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# leyndell_new_7
+3174 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = castle_holding
+}
+# leyndell_new_8
+3175 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+### d_royal_capital
+## c_R113G28B212
+# R114G116B178
+379 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
 }
 # R143G233B44
 1290 = {
@@ -779,36 +580,63 @@
 	rite = golden_rite
 	holding = none
 }
-# R114G116B178
-379 = {
+# R7G77B201
+2297 = {
+	culture = cul_leyndell
+	rite = formless_rite
+	holding = castle_holding
+}
+## c_R122G232B63
+# R98G251B88
+199 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R221G201B46
-# R1G49B141
-2122 = {
+# R65G142B13
+742 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R26G246B31
+2364 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = castle_holding
 }
-# R64G195B156
-1478 = {
+## c_R160G46B46
+# R74G3B238
+422 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-# R105G193B157
-1200 = {
+# R81G111B65
+447 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = castle_holding
+}
+# R78G61B59
+554 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R214G25B245
+# R246G89B94
+1880 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+## c_R214G25B245
+# R219G68B24
+683 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
 # R161G109B5
 2114 = {
 	culture = cul_leyndell
@@ -821,38 +649,133 @@
 	rite = golden_rite
 	holding = none
 }
-# R219G68B24
-683 = {
+## c_R221G201B46
+# R105G193B157
+1200 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_R122G232B63
-# R26G246B31
-2364 = {
+# R64G195B156
+1478 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R1G49B141
+2122 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = castle_holding
 }
-# R65G142B13
-742 = {
+## c_R54G222B142
+# R1G167B26
+1542 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-# R98G251B88
-199 = {
+# R123G130B148
+1656 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = castle_holding
+}
+## c_R88G80B204
+# R224G152B44
+59 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = none
 }
-
-
-##### d_smallboi_duchy ############################
-
-### c_bigboi_island
+# R104G201B201
+129 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R242G160B125
+906 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R154G249B232
+984 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = castle_holding
+}
+# R25G207B50
+1352 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R246G7B95
+1962 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+## c_elden_throne
+# R78G155B105
+677 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R115G150B107
+950 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R132G220B191
+1043 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R140G223B208
+1648 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = castle_holding
+}
+# R100G126B62
+1782 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+## c_royal_colosseum
+# R94G75B15
+23 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R186G208B0
+857 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = castle_holding
+}
+# R126G217B38
+1933 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+# R234G177B65
+2033 = {
+	culture = cul_leyndell
+	rite = golden_rite
+	holding = none
+}
+### d_smallboi_duchy
+## c_bigboi_island
 # lilland_1
 1697 = {
 	culture = cul_leyndell
@@ -865,14 +788,10 @@
 	rite = golden_rite
 	holding = none
 }
-
-
-### c_smallboi_island
+## c_smallboi_island
 # lilland_2
 446 = {
 	culture = cul_leyndell
 	rite = golden_rite
 	holding = castle_holding
 }
-
-

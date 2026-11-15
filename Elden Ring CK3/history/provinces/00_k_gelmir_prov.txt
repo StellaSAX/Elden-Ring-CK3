@@ -1,143 +1,7 @@
-﻿##### d_volcano_manor ############################
+﻿##### k_gelmir ############################
 
-### c_R54G124B112
-# R246G141B106
-1086 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = castle_holding
-}
-# R143G182B104
-2066 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
-# R180G202B169
-231 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
-# R219G3B59
-1750 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
-
-
-### c_manor_lavalake
-# R50G86B168
-1242 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = castle_holding
-}
-# R50G144B161
-1288 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
-# R166G2B8
-2549 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
-
-
-### c_manor_area_one
-# R77G168B6
-961 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = castle_holding
-}
-# R210G193B134
-2548 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
-# R145G172B201
-990 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
-# R219G91B85
-438 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
-# R137G121B85
-560 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
-
-
-### c_manor_area_two
-# R76G110B15
-67 = {
-	culture = cul_albinauric
-	rite = god_snake_rite
-	holding = castle_holding
-}
-# R176G116B174
-1122 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
-# R85G39B150
-1693 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
-# R89G163B192
-1013 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
-
-
-##### d_crownrock ############################
-
-### c_R82G240B194
-# R33G248B4
-2482 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = castle_holding
-}
-# R26G233B88
-46 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
-# R12G152B60
-2409 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
-# R152G90B86
-781 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
-
-
-### c_R155G12B151
+### d_crownrock
+## c_R155G12B151
 # R31G1B0
 455 = {
 	culture = cul_demihuman
@@ -156,24 +20,32 @@
 	rite = god_snake_rite
 	holding = none
 }
-
-
-### c_gelmir_slope_one
-# R171G87B96
-171 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = castle_holding
-}
-# R158G191B53
-919 = {
+## c_R82G240B194
+# R26G233B88
+46 = {
 	culture = cul_gelmir
 	rite = god_snake_rite
 	holding = none
 }
-
-
-### c_fallingstar_crater
+# R152G90B86
+781 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
+# R12G152B60
+2409 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
+# R33G248B4
+2482 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = castle_holding
+}
+## c_fallingstar_crater
 # LAKE
 3130 = {
 	culture = cul_gelmir
@@ -186,11 +58,27 @@
 	rite = god_snake_rite
 	holding = none
 }
-
-
-##### d_hermit_road ############################
-
-### c_R114G116B204
+## c_gelmir_slope_one
+# R171G87B96
+171 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = castle_holding
+}
+# R158G191B53
+919 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
+### d_hermit_road
+## c_R114G116B204
+# R16G144B140
+453 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
 # R98G76B96
 525 = {
 	culture = cul_gelmir
@@ -203,42 +91,13 @@
 	rite = god_snake_rite
 	holding = none
 }
-# R16G144B140
-453 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
 # R61G57B102
 2553 = {
 	culture = cul_gelmir
 	rite = god_snake_rite
 	holding = none
 }
-
-
-### c_R57G71B121
-# R177G228B84
-267 = {
-	culture = cul_demihuman
-	rite = primeval_rite
-	holding = castle_holding
-}
-# R172G153B44
-1548 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
-# R190G44B221
-2039 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
-
-
-### c_R127G79B165
+## c_R127G79B165
 # R25G39B119
 1227 = {
 	culture = cul_gelmir
@@ -257,31 +116,41 @@
 	rite = god_snake_rite
 	holding = none
 }
-
-
-##### d_iniquity_road ############################
-
-### c_R233G120B237
-# R227G162B25
-2102 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
+## c_R57G71B121
+# R177G228B84
+267 = {
+	culture = cul_demihuman
+	rite = primeval_rite
 	holding = castle_holding
 }
+# R172G153B44
+1548 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
+# R190G44B221
+2039 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
+### d_iniquity_road
+## c_R233G120B237
 # R225G1B95
 338 = {
 	culture = cul_gelmir
 	rite = god_snake_rite
 	holding = none
 }
-# R159G179B106
-2550 = {
+# R227G162B25
+2102 = {
 	culture = cul_gelmir
 	rite = god_snake_rite
-	holding = none
+	holding = castle_holding
 }
-# LAKE
-3129 = {
+# R159G179B106
+2550 = {
 	culture = cul_gelmir
 	rite = god_snake_rite
 	holding = none
@@ -292,9 +161,19 @@
 	rite = god_snake_rite
 	holding = none
 }
-
-
-### c_R80G111B223
+# LAKE
+3129 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
+## c_R80G111B223
+# R43G134B151
+758 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
 # R88G175B44
 1996 = {
 	culture = cul_gelmir
@@ -307,31 +186,35 @@
 	rite = god_snake_rite
 	holding = none
 }
-# R43G134B151
-758 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
 # LAKE
 3131 = {
 	culture = cul_gelmir
 	rite = god_snake_rite
 	holding = none
 }
-
-
-##### d_seethewater ############################
-
-### c_laiedd
-# R49G251B15
-2272 = {
+### d_seethewater
+## c_R72G192B155
+# R13G57B162
+466 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
+# R140G19B125
+1051 = {
 	culture = cul_gelmir
 	rite = god_snake_rite
 	holding = castle_holding
 }
-# R200G159B136
-1558 = {
+# LAKE
+3135 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
+## c_laiedd
+# R66G250B79
+415 = {
 	culture = cul_gelmir
 	rite = god_snake_rite
 	holding = none
@@ -342,11 +225,17 @@
 	rite = god_snake_rite
 	holding = none
 }
-# R66G250B79
-415 = {
+# R200G159B136
+1558 = {
 	culture = cul_gelmir
 	rite = god_snake_rite
 	holding = none
+}
+# R49G251B15
+2272 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = castle_holding
 }
 # LAKE
 3134 = {
@@ -354,35 +243,12 @@
 	rite = god_snake_rite
 	holding = none
 }
-
-
-### c_R72G192B155
-# R140G19B125
-1051 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = castle_holding
-}
-# R13G57B162
-466 = {
+## c_seethewater
+# R109G211B80
+587 = {
 	culture = cul_gelmir
 	rite = god_snake_rite
 	holding = none
-}
-# LAKE
-3135 = {
-	culture = cul_gelmir
-	rite = god_snake_rite
-	holding = none
-}
-
-
-### c_seethewater
-# LAKE
-3137 = {
-	culture = cul_gelmir
-	rite = rot_rite
-	holding = castle_holding
 }
 # R184G78B93
 1565 = {
@@ -396,11 +262,110 @@
 	rite = god_snake_rite
 	holding = none
 }
-# R109G211B80
-587 = {
+# LAKE
+3137 = {
+	culture = cul_gelmir
+	rite = rot_rite
+	holding = castle_holding
+}
+### d_volcano_manor
+## c_R54G124B112
+# R180G202B169
+231 = {
 	culture = cul_gelmir
 	rite = god_snake_rite
 	holding = none
 }
-
-
+# R246G141B106
+1086 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = castle_holding
+}
+# R219G3B59
+1750 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
+# R143G182B104
+2066 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
+## c_manor_area_one
+# R219G91B85
+438 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
+# R137G121B85
+560 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
+# R77G168B6
+961 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = castle_holding
+}
+# R145G172B201
+990 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
+# R210G193B134
+2548 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
+## c_manor_area_two
+# R76G110B15
+67 = {
+	culture = cul_albinauric
+	rite = god_snake_rite
+	holding = castle_holding
+}
+# R89G163B192
+1013 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
+# R176G116B174
+1122 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
+# R85G39B150
+1693 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
+## c_manor_lavalake
+# R50G86B168
+1242 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = castle_holding
+}
+# R50G144B161
+1288 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}
+# R166G2B8
+2549 = {
+	culture = cul_gelmir
+	rite = god_snake_rite
+	holding = none
+}

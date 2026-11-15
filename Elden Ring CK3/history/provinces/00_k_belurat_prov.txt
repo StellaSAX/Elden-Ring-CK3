@@ -1,66 +1,7 @@
-﻿##### d_belurat ############################
+﻿##### k_belurat ############################
 
-### c_R252G211B157
-# R158G144B192
-658 = {
-	culture = cul_hornsent
-	rite = spiral_rite
-	holding = castle_holding
-}
-# R114G95B51
-1910 = {
-	culture = cul_hornsent
-	rite = spiral_rite
-	holding = none
-}
-# R133G90B64
-649 = {
-	culture = cul_hornsent
-	rite = spiral_rite
-	holding = none
-}
-# R196G148B129
-2215 = {
-	culture = cul_hornsent
-	rite = spiral_rite
-	holding = none
-}
-
-
-### c_R80G55B36
-# R225G56B103
-2179 = {
-	culture = cul_hornsent
-	rite = spiral_rite
-	holding = castle_holding
-}
-# R116G97B2
-70 = {
-	culture = cul_hornsent
-	rite = spiral_rite
-	holding = none
-}
-# R134G103B153
-2431 = {
-	culture = cul_hornsent
-	rite = spiral_rite
-	holding = none
-}
-# R131G54B56
-739 = {
-	culture = cul_hornsent
-	rite = spiral_rite
-	holding = none
-}
-# R251G169B197
-2346 = {
-	culture = cul_hornsent
-	rite = spiral_rite
-	holding = none
-}
-
-
-### c_R216G151B134
+### d_belurat
+## c_R216G151B134
 # R239G36B207
 1118 = {
 	culture = cul_hornsent
@@ -79,9 +20,32 @@
 	rite = spiral_rite
 	holding = none
 }
-
-
-### c_R66G187B105
+## c_R252G211B157
+# R133G90B64
+649 = {
+	culture = cul_hornsent
+	rite = spiral_rite
+	holding = none
+}
+# R158G144B192
+658 = {
+	culture = cul_hornsent
+	rite = spiral_rite
+	holding = castle_holding
+}
+# R114G95B51
+1910 = {
+	culture = cul_hornsent
+	rite = spiral_rite
+	holding = none
+}
+# R196G148B129
+2215 = {
+	culture = cul_hornsent
+	rite = spiral_rite
+	holding = none
+}
+## c_R66G187B105
 # R194G227B12
 193 = {
 	culture = cul_hornsent
@@ -94,25 +58,53 @@
 	rite = spiral_rite
 	holding = none
 }
-
-
-##### d_enir_ilim ############################
-
-### c_R189G216B111
+## c_R80G55B36
+# R116G97B2
+70 = {
+	culture = cul_hornsent
+	rite = spiral_rite
+	holding = none
+}
+# R131G54B56
+739 = {
+	culture = cul_hornsent
+	rite = spiral_rite
+	holding = none
+}
+# R225G56B103
+2179 = {
+	culture = cul_hornsent
+	rite = spiral_rite
+	holding = castle_holding
+}
+# R251G169B197
+2346 = {
+	culture = cul_hornsent
+	rite = spiral_rite
+	holding = none
+}
+# R134G103B153
+2431 = {
+	culture = cul_hornsent
+	rite = spiral_rite
+	holding = none
+}
+### d_enir_ilim
+## c_R189G216B111
 # R196G96B22
 733 = {
 	culture = cul_hornsent
 	rite = spiral_rite
 	holding = castle_holding
 }
-# R183G50B114
-1089 = {
+# R228G13B239
+779 = {
 	culture = cul_hornsent
 	rite = spiral_rite
 	holding = none
 }
-# R228G13B239
-779 = {
+# R183G50B114
+1089 = {
 	culture = cul_hornsent
 	rite = spiral_rite
 	holding = none
@@ -123,9 +115,7 @@
 	rite = spiral_rite
 	holding = none
 }
-
-
-### c_R27G235B47
+## c_R27G235B47
 # R156G21B17
 374 = {
 	culture = cul_hornsent
@@ -144,5 +134,3 @@
 	rite = spiral_rite
 	holding = none
 }
-
-
