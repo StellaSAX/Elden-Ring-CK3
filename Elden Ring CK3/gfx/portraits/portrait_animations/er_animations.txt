@@ -26,7 +26,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 10000
+					add = 100
 					has_trait = incapable
 				}
 			}
@@ -37,7 +37,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 10000
+					add = 100
 					has_trait = death_nonpermanent
 				}
 			}
@@ -52,7 +52,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 10000
+					add = 100
 					is_imprisoned = yes
 					NOT = { is_in_prison_type = dungeon }
 				}
@@ -69,16 +69,16 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 10000
+					add = 100
 					is_imprisoned = yes
 					is_in_prison_type = dungeon
 				}
 				modifier = {
-					add = 10000
+					add = 100
 					has_trait = imprisoned_evergaol
 				}
 				modifier = {
-					add = 10000
+					add = 100
 					has_trait = crucified_erdtree
 				}
 			}
@@ -101,7 +101,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 5000
+					add = 100
 					has_trait = ergotism
 				}
 			}
@@ -112,7 +112,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 5000
+					add = 100
 					is_alive = yes
 					OR = {
 						has_trait = pneumonic
@@ -128,7 +128,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 5000
+					add = 100
 					is_alive = yes
 					OR = {
 						has_trait = typhus
@@ -143,7 +143,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 5000
+					add = 100
 					is_alive = yes
 					OR = {
 						has_trait = measles
@@ -159,7 +159,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 5000
+					add = 100
 					is_alive = yes
 					has_trait = dysentery
 				}
@@ -506,7 +506,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 5000
+					add = 100
 					has_trait = conqueror
 					is_at_war = yes
 				}
@@ -518,15 +518,13 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 5000
+					add = 100
 					has_trait = conqueror
 					is_at_war = no
 				}
 			}
 			portrait_modifier_pack = one_handed_sword
 		}
-
-
 
 		infirm_elder = {
 			animation = { head = "holding_crutch" torso = "holding_crutch" }
@@ -537,7 +535,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 5000
+					add = 100
 					is_alive = yes
 					OR = {
 						has_trait = infirm
@@ -553,7 +551,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 5000
+					add = 100
 					is_alive = yes
 					has_trait_xp = { trait = withering_mind value >= 25 }
 				}
@@ -562,11 +560,10 @@
 
 		mandala_serenity_aspect = {
 			animation = { head = "wedding_priest_idle_entry" torso = "wedding_priest_idle_entry" }
-
 			weight = {
 				base = 0
 				modifier = {
-					add = 1000
+					add = 100
 					government_has_flag = government_is_mandala
 					house.house_head ?= this
 					house = { has_house_aspiration_parameter = aspect_of_serenity }
@@ -590,11 +587,10 @@
 		mandala_destruction_aspect = {
 			animation = { head = "acknowledging" torso = "acknowledging" }
 			portrait_modifier_pack = one_handed_sword
-
 			weight = {
 				base = 0
 				modifier = {
-					add = 1000
+					add = 100
 					government_has_flag = government_is_mandala
 					house.house_head ?= this
 					house = { has_house_aspiration_parameter = aspect_of_destruction }
@@ -618,11 +614,10 @@
 		mandala_trickery_aspect = {
 			animation = { head = "hunting_knife_start_entry" torso = "hunting_knife_start_entry" }
 			portrait_modifier_pack = council_spymaster
-
 			weight = {
 				base = 0
 				modifier = {
-					add = 1000
+					add = 100
 					government_has_flag = government_is_mandala
 					house.house_head ?= this
 					house = { has_house_aspiration_parameter = aspect_of_trickery }
@@ -645,11 +640,10 @@
 
 		mandala_creation_aspect = {
 			animation = { head = "AI_callous_entry" torso = "AI_callous_entry" }
-
 			weight = {
 				base = 0
 				modifier = {
-					add = 1000
+					add = 100
 					government_has_flag = government_is_mandala
 					house.house_head ?= this
 					house = { has_house_aspiration_parameter = aspect_of_creation }
@@ -675,7 +669,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 1000
+					add = 100
 					OR = {
 						primary_title ?= {
 							is_mercenary_company = yes
@@ -698,7 +692,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 1000
+					add = 100
 					OR = {
 						primary_title ?= {
 							is_mercenary_company = yes
@@ -721,7 +715,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 1000
+					add = 100
 					OR = {
 						primary_title ?= {
 							is_mercenary_company = yes
@@ -744,7 +738,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 1000
+					add = 100
 					OR = {
 						primary_title ?= {
 							is_mercenary_company = yes
@@ -761,6 +755,250 @@
 			portrait_modifier_pack = one_handed_sword
 		}
 
+		# Traders and merchant rulers: each static group takes an even share of whoever is left
+		character_trader_yoke = {
+			animation = { head = "idle_yoke" torso = "idle_yoke" }
+			portrait_modifier = {
+				animations_props = gdp_yoke_01
+				animations = fat_additive
+				animations = dwarf_additive
+			}
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_trader = yes
+					NOR = {
+						portrait_has_trait_trigger = { TRAIT = pregnant }
+						portrait_has_trait_trigger = { TRAIT = maimed }
+					}
+					static_group_filter = {
+						group = trader_idle_1
+						match = 0.25
+					}
+				}
+			}
+		}
+
+		character_trader_scales = {
+			animation = { head = "holding_scales" torso = "holding_scales" }
+			portrait_modifier = {
+				animations_props = gdp_scale_01
+				animations_props = gdp_coin_01_left
+				animations = fat_additive
+				animations = dwarf_additive
+			}
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_trader = yes
+					NOR = {
+						portrait_has_trait_trigger = { TRAIT = pregnant }
+						portrait_has_trait_trigger = { TRAIT = maimed }
+					}
+					static_group_filter = {
+						group = trader_idle_2
+						match = 0.33
+					}
+				}
+			}
+		}
+
+		character_trader_tally_stick = {
+			animation = { head = "holding_tally_stick" torso = "holding_tally_stick" }
+			portrait_modifier = {
+				animations_props = gdp_tally_stick_left
+				animations = fat_additive
+				animations = dwarf_additive
+			}
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_trader = yes
+					NOR = {
+						portrait_has_trait_trigger = { TRAIT = pregnant }
+						portrait_has_trait_trigger = { TRAIT = maimed }
+					}
+					static_group_filter = {
+						group = trader_idle_3
+						match = 0.5
+					}
+				}
+			}
+		}
+
+		character_trader_box = {
+			animation = { head = "merchant_box" torso = "merchant_box" }
+			portrait_modifier_pack = cultural_boxes
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_trader = yes
+					NOR = {
+						portrait_has_trait_trigger = { TRAIT = pregnant }
+						portrait_has_trait_trigger = { TRAIT = maimed }
+					}
+				}
+			}
+		}
+
+		character_merchant_ruler_scales = {
+			animation = { head = "holding_scales_idle" torso = "holding_scales_idle" }
+			portrait_modifier = {
+				animations_props = gdp_scale_01
+				animations = fat_additive
+				animations = dwarf_additive
+			}
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					is_ruler = yes
+					government_has_flag = government_is_merchant
+					static_group_filter = {
+						group = merchant_ruler_idle
+						match = 0.5
+					}
+					NOR = {
+						portrait_has_trait_trigger = { TRAIT = pregnant }
+						portrait_has_trait_trigger = { TRAIT = maimed }
+					}
+					static_group_filter = {
+						group = merchant_ruler_idle_1
+						match = 0.25
+					}
+				}
+			}
+		}
+
+		character_merchant_ruler_writer_fat_dwarf = {
+			animation = { head = "throneRoom_writerIdle1_entry" torso = "throneRoom_writerIdleFatDwarf1_entry" }
+			portrait_modifier_pack = closed_book_w_writing_tool
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					is_ruler = yes
+					government_has_flag = government_is_merchant
+					static_group_filter = {
+						group = merchant_ruler_idle
+						match = 0.5
+					}
+					NOR = {
+						portrait_has_trait_trigger = { TRAIT = pregnant }
+						portrait_has_trait_trigger = { TRAIT = maimed }
+					}
+					OR = {
+						should_use_fat_animation = yes
+						should_use_fat_dwarf_animation = yes
+					}
+					static_group_filter = {
+						group = merchant_ruler_idle_2
+						match = 0.33
+					}
+				}
+			}
+		}
+
+		character_merchant_ruler_writer = {
+			animation = { head = "throneRoom_writerIdle1_entry" torso = "throneRoom_writerIdle1_entry" }
+			portrait_modifier_pack = closed_book_w_writing_tool
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					is_ruler = yes
+					government_has_flag = government_is_merchant
+					static_group_filter = {
+						group = merchant_ruler_idle
+						match = 0.5
+					}
+					NOR = {
+						portrait_has_trait_trigger = { TRAIT = pregnant }
+						portrait_has_trait_trigger = { TRAIT = maimed }
+					}
+					static_group_filter = {
+						group = merchant_ruler_idle_2
+						match = 0.33
+					}
+				}
+			}
+		}
+
+		character_merchant_ruler_writing = {
+			animation = { head = "writing" torso = "writing" }
+			portrait_modifier_pack = open_book_w_writing_tool_left
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					is_ruler = yes
+					government_has_flag = government_is_merchant
+					static_group_filter = {
+						group = merchant_ruler_idle
+						match = 0.5
+					}
+					NOR = {
+						portrait_has_trait_trigger = { TRAIT = pregnant }
+						portrait_has_trait_trigger = { TRAIT = maimed }
+					}
+					static_group_filter = {
+						group = merchant_ruler_idle_3
+						match = 0.5
+					}
+				}
+			}
+		}
+
+		character_merchant_ruler_steward_fat_dwarf = {
+			animation = { head = "council_steward" torso = "council_stewardFatDwarf" }
+			portrait_modifier_pack = council_steward
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					is_ruler = yes
+					government_has_flag = government_is_merchant
+					static_group_filter = {
+						group = merchant_ruler_idle
+						match = 0.5
+					}
+					NOT = { portrait_has_trait_trigger = { TRAIT = pregnant } }
+					OR = {
+						should_use_fat_animation = yes
+						should_use_fat_dwarf_animation = yes
+					}
+				}
+			}
+		}
+
+		character_merchant_ruler_steward = {
+			animation = { head = "council_steward" torso = "council_steward" }
+			portrait_modifier_pack = council_steward
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					is_adult = yes
+					is_ruler = yes
+					government_has_flag = government_is_merchant
+					static_group_filter = {
+						group = merchant_ruler_idle
+						match = 0.5
+					}
+					NOT = { portrait_has_trait_trigger = { TRAIT = pregnant } }
+				}
+			}
+		}
+
 		character_murchad = {
 			animation = { head = "emotion_thinking" torso = "emotion_thinking" }
 			portrait_modifier = {
@@ -769,7 +1007,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 5000
+					add = 100
 					this = character:83355
 				}
 			}
@@ -786,7 +1024,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 6000
+					add = 100
 					government_has_flag = government_is_herder
 				}
 			}
@@ -797,7 +1035,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 5000
+					add = 100
 					this = character:1128
 				}
 			}
@@ -809,7 +1047,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 5000
+					add = 100
 					OR = {
 						this = character:easteregg_henry_of_skalitz
 						this = character:easteregg_henry_kobyla
@@ -838,8 +1076,22 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 5000
+					add = 100
 					this = character:3924
+				}
+			}
+		}
+
+		character_wuhsha = {
+			animation = { head = "holding_scales_idle" torso = "holding_scales_idle" }
+			portrait_modifier = {
+				animations_props = gdp_scale_01
+			}
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					this = character:bookmark_wuhsha_al_dallala
 				}
 			}
 		}
@@ -850,7 +1102,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 5000
+					add = 100
 					is_ruler = yes
 					age >= 10
 					has_realm_law = camp_purpose_mercenaries
@@ -867,7 +1119,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 5000
+					add = 100
 					is_ruler = yes
 					age >= 10
 					has_realm_law = camp_purpose_mercenaries
@@ -883,7 +1135,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 5000
+					add = 100
 					is_ruler = yes
 					age >= 10
 					has_realm_law = camp_purpose_brigands
@@ -898,7 +1150,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 5000
+					add = 100
 					is_ruler = yes
 					age >= 10
 					NOT = { this = character:41702 }
@@ -918,7 +1170,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 5000
+					add = 100
 					is_ruler = yes
 					age >= 10
 					has_realm_law = camp_purpose_explorers
@@ -1016,17 +1268,7 @@
 					add = {70 110}
 				}
 				modifier = {
-					AND = {
-						is_female = yes
-						rite = { rite_has_doctrine = doctrine_gender_male_dominated }
-					}
-					factor = 0
-				}
-				modifier = {
-					AND = {
-						is_male = yes
-						rite = { rite_has_doctrine = doctrine_gender_female_dominated }
-					}
+					NOT = { rite = { rite_has_dominant_ruling_gender = prev } }
 					factor = 0
 				}
 			}
@@ -1046,17 +1288,7 @@
 					add = {80 120}
 				}
 				modifier = {
-					AND = {
-						is_female = yes
-						rite = { rite_has_doctrine = doctrine_gender_male_dominated }
-					}
-					factor = 0
-				}
-				modifier = {
-					AND = {
-						is_male = yes
-						rite = { rite_has_doctrine = doctrine_gender_female_dominated }
-					}
+					NOT = { rite = { rite_has_dominant_ruling_gender = prev } }
 					factor = 0
 				}
 			}
@@ -1076,17 +1308,7 @@
 					add = {90 130}
 				}
 				modifier = {
-					AND = {
-						is_female = yes
-						rite = { rite_has_doctrine = doctrine_gender_male_dominated }
-					}
-					factor = 0
-				}
-				modifier = {
-					AND = {
-						is_male = yes
-						rite = { rite_has_doctrine = doctrine_gender_female_dominated }
-					}
+					NOT = { rite = { rite_has_dominant_ruling_gender = prev } }
 					factor = 0
 				}
 			}
@@ -1977,7 +2199,7 @@
 					NOT = { has_trait = pregnant }
 				}
 				modifier = {
-					add = 5000
+					add = 100
 					OR = {
 						this = character:7757
 						this = character:41702
@@ -2209,7 +2431,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 1
+					add = 100
 					scope:current_weight <= 75
 				}
 			}
@@ -2220,7 +2442,7 @@
 			weight = {
 				base = 0
 				modifier = {
-					add = 1
+					add = 100
 					scope:current_weight >= 75
 				}
 			}
