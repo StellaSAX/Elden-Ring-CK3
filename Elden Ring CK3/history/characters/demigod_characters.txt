@@ -1244,7 +1244,7 @@ godmyr = {
 
 godefroy = {
 	name = "Godefroy"
-	#dna = godefroy_dna
+	dna = godefroy_dna
 	sexuality = heterosexual
 	dynasty = dynn_erdtree
 	
@@ -1272,6 +1272,13 @@ godefroy = {
 	give_nickname = nick_the_grafted
 	
 	father = godwald
+	
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_beards=male_beard_mena_04
+			custom_hair=male_hair_fp1_08
+		}
+	}
 	
 	5977.10.2 = {
 		birth = yes
