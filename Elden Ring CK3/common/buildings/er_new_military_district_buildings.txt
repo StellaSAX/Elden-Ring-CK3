@@ -1,0 +1,1042 @@
+﻿# Troll Armory
+# Gives: county: stationed_troll_damage_mult, stationed_troll_toughness_mult; market: trade_good_iron_sell_price_mult, trade_category_base_metals_sell_price_mult
+# Needs: trade_good_iron -> county: stationed_troll_damage_mult; trade_category_base_metals -> county: stationed_troll_toughness_mult
+troll_armory_01 = {
+	type_icon = regular_buildings/armor_smith.dds
+	next_building = troll_armory_02
+	cost_gold = regular_building_cost_tier_1
+	construction_time = construction_time_6_months
+	district_level_requirement = 2
+	can_construct = {
+	}
+	can_construct_potential = {
+	}
+	can_construct_showing_failures_only = {
+	}
+	is_enabled = {
+		is_county_capital = yes
+	}
+	character_modifier = {
+	}
+	county_modifier = {
+		stationed_troll_damage_mult = normal_maa_damage_tier_1
+		stationed_troll_toughness_mult = normal_maa_toughness_tier_1
+	}
+	county_culture_modifier = {
+		parameter = metal_craftsmanship_armorer_bonuses
+		stationed_troll_damage_mult = low_maa_damage_tier_1
+		stationed_troll_toughness_mult = low_maa_toughness_tier_1
+	}
+	province_modifier = {
+	}
+	market_modifier = {
+		trade_good_iron_sell_price_mult = price_basic_building_1
+		trade_category_base_metals_sell_price_mult = price_basic_building_1
+	}
+	trade_good_need = {
+		trade_good = trade_good_iron
+		amount = metal_resource_need
+
+		modifiers = {
+			county_modifier = {
+				stationed_troll_damage_mult = 0.02
+			}
+		}
+	}
+	trade_good_need = {
+		trade_good_category = trade_category_base_metals
+		amount = metal_resource_need
+
+		modifiers = {
+			county_modifier = {
+				stationed_troll_toughness_mult = 0.02
+			}
+		}
+	}
+
+	ai_value = {
+		base = 2
+		ai_military_context_modifier = yes
+		ai_heavy_infantry_modifier = yes
+		ai_general_building_modifier = yes
+		ai_capital_preference_modifier = yes
+		ai_regular_new_building_modifier = yes
+	}
+}
+
+troll_armory_02 = {
+	next_building = troll_armory_03
+	cost_gold = regular_building_cost_tier_2
+	construction_time = construction_time_9_months
+	district_level_requirement = 2
+	can_construct = {
+	}
+	can_construct_potential = {
+	}
+	can_construct_showing_failures_only = {
+	}
+	is_enabled = {
+		is_county_capital = yes
+	}
+	character_modifier = {
+	}
+	county_modifier = {
+		stationed_troll_damage_mult = normal_maa_damage_tier_2
+		stationed_troll_toughness_mult = normal_maa_toughness_tier_2
+	}
+	county_culture_modifier = {
+		parameter = metal_craftsmanship_armorer_bonuses
+		stationed_troll_damage_mult = low_maa_damage_tier_2
+		stationed_troll_toughness_mult = low_maa_toughness_tier_2
+	}
+	province_modifier = {
+	}
+	market_modifier = {
+		trade_good_iron_sell_price_mult = price_basic_building_1
+		trade_category_base_metals_sell_price_mult = price_basic_building_1
+	}
+	trade_good_need = {
+		trade_good = trade_good_iron
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 2
+
+		modifiers = {
+			county_modifier = {
+				stationed_troll_damage_mult = 0.02
+			}
+		}
+	}
+	trade_good_need = {
+		trade_good_category = trade_category_base_metals
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 2
+
+		modifiers = {
+			county_modifier = {
+				stationed_troll_toughness_mult = 0.02
+			}
+		}
+	}
+
+	ai_value = {
+		base = 2
+		ai_military_context_modifier = yes
+		ai_heavy_infantry_modifier = yes
+		ai_general_building_modifier = yes
+		ai_capital_preference_modifier = yes
+		ai_regular_building_upgrade_modifier = { LEVEL = 2 }
+	}
+}
+
+troll_armory_03 = {
+	next_building = troll_armory_04
+	cost_gold = regular_building_cost_tier_3
+	construction_time = construction_time_1_year
+	district_level_requirement = 3
+	can_construct = {
+	}
+	can_construct_potential = {
+	}
+	can_construct_showing_failures_only = {
+	}
+	is_enabled = {
+		is_county_capital = yes
+	}
+	character_modifier = {
+	}
+	county_modifier = {
+		stationed_troll_damage_mult = normal_maa_damage_tier_3
+		stationed_troll_toughness_mult = normal_maa_toughness_tier_3
+		stationed_troll_pursuit_mult = normal_maa_pursuit_tier_3
+	}
+	county_culture_modifier = {
+		parameter = metal_craftsmanship_armorer_bonuses
+		stationed_troll_damage_mult = low_maa_damage_tier_3
+		stationed_troll_toughness_mult = low_maa_toughness_tier_3
+	}
+	province_modifier = {
+	}
+	market_modifier = {
+		trade_good_iron_sell_price_mult = price_basic_building_1
+		trade_category_base_metals_sell_price_mult = price_basic_building_1
+	}
+	trade_good_need = {
+		trade_good = trade_good_iron
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 3
+
+		modifiers = {
+			county_modifier = {
+				stationed_troll_damage_mult = 0.02
+			}
+		}
+	}
+	trade_good_need = {
+		trade_good_category = trade_category_base_metals
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 3
+
+		modifiers = {
+			county_modifier = {
+				stationed_troll_toughness_mult = 0.02
+			}
+		}
+	}
+
+	ai_value = {
+		base = 2
+		ai_military_context_modifier = yes
+		ai_heavy_infantry_modifier = yes
+		ai_general_building_modifier = yes
+		ai_capital_preference_modifier = yes
+		ai_regular_building_upgrade_modifier = { LEVEL = 3 }
+	}
+}
+
+troll_armory_04 = {
+	next_building = troll_armory_05
+	cost_gold = regular_building_cost_tier_4
+	construction_time = construction_time_3_years
+	district_level_requirement = 4
+	can_construct = {
+	}
+	can_construct_potential = {
+	}
+	can_construct_showing_failures_only = {
+	}
+	is_enabled = {
+		is_county_capital = yes
+	}
+	character_modifier = {
+	}
+	county_modifier = {
+		stationed_troll_damage_mult = normal_maa_damage_tier_4
+		stationed_troll_toughness_mult = normal_maa_toughness_tier_4
+		stationed_troll_pursuit_mult = normal_maa_pursuit_tier_4
+	}
+	county_culture_modifier = {
+		parameter = metal_craftsmanship_armorer_bonuses
+		stationed_troll_damage_mult = low_maa_damage_tier_4
+		stationed_troll_toughness_mult = low_maa_toughness_tier_4
+	}
+	province_modifier = {
+	}
+	market_modifier = {
+		trade_good_iron_sell_price_mult = price_basic_building_1
+		trade_category_base_metals_sell_price_mult = price_basic_building_1
+	}
+	trade_good_need = {
+		trade_good = trade_good_iron
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 4
+
+		modifiers = {
+			county_modifier = {
+				stationed_troll_damage_mult = 0.02
+			}
+		}
+	}
+	trade_good_need = {
+		trade_good_category = trade_category_base_metals
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 4
+
+		modifiers = {
+			county_modifier = {
+				stationed_troll_toughness_mult = 0.02
+			}
+		}
+	}
+
+	ai_value = {
+		base = 2
+		ai_military_context_modifier = yes
+		ai_heavy_infantry_modifier = yes
+		ai_general_building_modifier = yes
+		ai_capital_preference_modifier = yes
+		ai_regular_building_upgrade_modifier = { LEVEL = 4 }
+	}
+}
+
+troll_armory_05 = {
+	cost_gold = regular_building_cost_tier_5
+	construction_time = construction_time_5_years
+	district_level_requirement = 4
+	can_construct = {
+	}
+	can_construct_potential = {
+	}
+	can_construct_showing_failures_only = {
+	}
+	is_enabled = {
+		is_county_capital = yes
+	}
+	character_modifier = {
+	}
+	county_modifier = {
+		stationed_troll_damage_mult = normal_maa_damage_tier_5
+		stationed_troll_toughness_mult = normal_maa_toughness_tier_5
+		stationed_troll_pursuit_mult = normal_maa_pursuit_tier_5
+	}
+	county_culture_modifier = {
+		parameter = metal_craftsmanship_armorer_bonuses
+		stationed_troll_damage_mult = low_maa_damage_tier_5
+		stationed_troll_toughness_mult = low_maa_toughness_tier_5
+	}
+	province_modifier = {
+	}
+	market_modifier = {
+		trade_good_iron_sell_price_mult = price_basic_building_1
+		trade_category_base_metals_sell_price_mult = price_basic_building_1
+	}
+	trade_good_need = {
+		trade_good = trade_good_iron
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 5
+
+		modifiers = {
+			county_modifier = {
+				stationed_troll_damage_mult = 0.02
+			}
+		}
+	}
+	trade_good_need = {
+		trade_good_category = trade_category_base_metals
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 5
+
+		modifiers = {
+			county_modifier = {
+				stationed_troll_toughness_mult = 0.02
+			}
+		}
+	}
+
+	ai_value = {
+		base = 2
+		ai_military_context_modifier = yes
+		ai_heavy_infantry_modifier = yes
+		ai_general_building_modifier = yes
+		ai_capital_preference_modifier = yes
+		ai_regular_building_upgrade_modifier = { LEVEL = 5 }
+	}
+}
+
+# Tower of Sorcery
+tower_of_sorcery_01 = {
+	type_icon = regular_buildings/armor_smith.dds
+	next_building = tower_of_sorcery_02
+	cost_gold = regular_building_cost_tier_1
+	construction_time = construction_time_6_months
+	district_level_requirement = 2
+	can_construct = {
+	}
+	can_construct_potential = {
+	}
+	can_construct_showing_failures_only = {
+	}
+	is_enabled = {
+		is_county_capital = yes
+	}
+	character_modifier = {
+	}
+	county_modifier = {
+		stationed_sorcerer_damage_mult = normal_maa_damage_tier_1
+		stationed_sorcerer_toughness_mult = normal_maa_toughness_tier_1
+	}
+	county_culture_modifier = {
+		parameter = metal_craftsmanship_armorer_bonuses
+		stationed_sorcerer_damage_mult = low_maa_damage_tier_1
+		stationed_sorcerer_toughness_mult = low_maa_toughness_tier_1
+	}
+	province_modifier = {
+	}
+	market_modifier = {
+		trade_good_iron_sell_price_mult = price_basic_building_1
+		trade_category_base_metals_sell_price_mult = price_basic_building_1
+	}
+	trade_good_need = {
+		trade_good = trade_good_iron
+		amount = metal_resource_need
+
+		modifiers = {
+			county_modifier = {
+				stationed_sorcerer_damage_mult = 0.02
+			}
+		}
+	}
+	trade_good_need = {
+		trade_good_category = trade_category_base_metals
+		amount = metal_resource_need
+
+		modifiers = {
+			county_modifier = {
+				stationed_sorcerer_toughness_mult = 0.02
+			}
+		}
+	}
+
+	ai_value = {
+		base = 5
+		ai_military_context_modifier = yes
+		ai_general_building_modifier = yes
+		ai_capital_preference_modifier = yes
+		ai_regular_new_building_modifier = yes
+	}
+}
+
+tower_of_sorcery_02 = {
+	next_building = tower_of_sorcery_03
+	cost_gold = regular_building_cost_tier_2
+	construction_time = construction_time_9_months
+	district_level_requirement = 2
+	can_construct = {
+	}
+	can_construct_potential = {
+	}
+	can_construct_showing_failures_only = {
+	}
+	is_enabled = {
+		is_county_capital = yes
+	}
+	character_modifier = {
+	}
+	county_modifier = {
+		stationed_sorcerer_damage_mult = normal_maa_damage_tier_2
+		stationed_sorcerer_toughness_mult = normal_maa_toughness_tier_2
+	}
+	county_culture_modifier = {
+		parameter = metal_craftsmanship_armorer_bonuses
+		stationed_sorcerer_damage_mult = low_maa_damage_tier_2
+		stationed_sorcerer_toughness_mult = low_maa_toughness_tier_2
+	}
+	province_modifier = {
+	}
+	market_modifier = {
+		trade_good_iron_sell_price_mult = price_basic_building_1
+		trade_category_base_metals_sell_price_mult = price_basic_building_1
+	}
+	trade_good_need = {
+		trade_good = trade_good_iron
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 2
+
+		modifiers = {
+			county_modifier = {
+				stationed_sorcerer_damage_mult = 0.02
+			}
+		}
+	}
+	trade_good_need = {
+		trade_good_category = trade_category_base_metals
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 2
+
+		modifiers = {
+			county_modifier = {
+				stationed_sorcerer_toughness_mult = 0.02
+			}
+		}
+	}
+
+	ai_value = {
+		base = 5
+		ai_military_context_modifier = yes
+		ai_general_building_modifier = yes
+		ai_capital_preference_modifier = yes
+		ai_regular_building_upgrade_modifier = { LEVEL = 2 }
+	}
+}
+
+tower_of_sorcery_03 = {
+	next_building = tower_of_sorcery_04
+	cost_gold = regular_building_cost_tier_3
+	construction_time = construction_time_1_year
+	district_level_requirement = 3
+	can_construct = {
+	}
+	can_construct_potential = {
+	}
+	can_construct_showing_failures_only = {
+	}
+	is_enabled = {
+		is_county_capital = yes
+	}
+	character_modifier = {
+	}
+	county_modifier = {
+		stationed_sorcerer_damage_mult = normal_maa_damage_tier_3
+		stationed_sorcerer_toughness_mult = normal_maa_toughness_tier_3
+		stationed_sorcerer_pursuit_mult = normal_maa_pursuit_tier_3
+	}
+	county_culture_modifier = {
+		parameter = metal_craftsmanship_armorer_bonuses
+		stationed_sorcerer_damage_mult = low_maa_damage_tier_3
+		stationed_sorcerer_toughness_mult = low_maa_toughness_tier_3
+	}
+	province_modifier = {
+	}
+	market_modifier = {
+		trade_good_iron_sell_price_mult = price_basic_building_1
+		trade_category_base_metals_sell_price_mult = price_basic_building_1
+	}
+	trade_good_need = {
+		trade_good = trade_good_iron
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 3
+
+		modifiers = {
+			county_modifier = {
+				stationed_sorcerer_damage_mult = 0.02
+			}
+		}
+	}
+	trade_good_need = {
+		trade_good_category = trade_category_base_metals
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 3
+
+		modifiers = {
+			county_modifier = {
+				stationed_sorcerer_toughness_mult = 0.02
+			}
+		}
+	}
+
+	ai_value = {
+		base = 5
+		ai_military_context_modifier = yes
+		ai_general_building_modifier = yes
+		ai_capital_preference_modifier = yes
+		ai_regular_building_upgrade_modifier = { LEVEL = 3 }
+	}
+}
+
+tower_of_sorcery_04 = {
+	next_building = tower_of_sorcery_05
+	cost_gold = regular_building_cost_tier_4
+	construction_time = construction_time_3_years
+	district_level_requirement = 4
+	can_construct = {
+	}
+	can_construct_potential = {
+	}
+	can_construct_showing_failures_only = {
+	}
+	is_enabled = {
+		is_county_capital = yes
+	}
+	character_modifier = {
+	}
+	county_modifier = {
+		stationed_sorcerer_damage_mult = normal_maa_damage_tier_4
+		stationed_sorcerer_toughness_mult = normal_maa_toughness_tier_4
+		stationed_sorcerer_pursuit_mult = normal_maa_pursuit_tier_4
+	}
+	county_culture_modifier = {
+		parameter = metal_craftsmanship_armorer_bonuses
+		stationed_sorcerer_damage_mult = low_maa_damage_tier_4
+		stationed_sorcerer_toughness_mult = low_maa_toughness_tier_4
+	}
+	province_modifier = {
+	}
+	market_modifier = {
+		trade_good_iron_sell_price_mult = price_basic_building_1
+		trade_category_base_metals_sell_price_mult = price_basic_building_1
+	}
+	trade_good_need = {
+		trade_good = trade_good_iron
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 4
+
+		modifiers = {
+			county_modifier = {
+				stationed_sorcerer_damage_mult = 0.02
+			}
+		}
+	}
+	trade_good_need = {
+		trade_good_category = trade_category_base_metals
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 4
+
+		modifiers = {
+			county_modifier = {
+				stationed_sorcerer_toughness_mult = 0.02
+			}
+		}
+	}
+
+	ai_value = {
+		base = 5
+		ai_military_context_modifier = yes
+		ai_general_building_modifier = yes
+		ai_capital_preference_modifier = yes
+		ai_regular_building_upgrade_modifier = { LEVEL = 4 }
+	}
+}
+
+tower_of_sorcery_05 = {
+	cost_gold = regular_building_cost_tier_5
+	construction_time = construction_time_5_years
+	district_level_requirement = 4
+	can_construct = {
+	}
+	can_construct_potential = {
+	}
+	can_construct_showing_failures_only = {
+	}
+	is_enabled = {
+		is_county_capital = yes
+	}
+	character_modifier = {
+	}
+	county_modifier = {
+		stationed_sorcerer_damage_mult = normal_maa_damage_tier_5
+		stationed_sorcerer_toughness_mult = normal_maa_toughness_tier_5
+		stationed_sorcerer_pursuit_mult = normal_maa_pursuit_tier_5
+	}
+	county_culture_modifier = {
+		parameter = metal_craftsmanship_armorer_bonuses
+		stationed_sorcerer_damage_mult = low_maa_damage_tier_5
+		stationed_sorcerer_toughness_mult = low_maa_toughness_tier_5
+	}
+	province_modifier = {
+	}
+	market_modifier = {
+		trade_good_iron_sell_price_mult = price_basic_building_1
+		trade_category_base_metals_sell_price_mult = price_basic_building_1
+	}
+	trade_good_need = {
+		trade_good = trade_good_iron
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 5
+
+		modifiers = {
+			county_modifier = {
+				stationed_sorcerer_damage_mult = 0.02
+			}
+		}
+	}
+	trade_good_need = {
+		trade_good_category = trade_category_base_metals
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 5
+
+		modifiers = {
+			county_modifier = {
+				stationed_sorcerer_toughness_mult = 0.02
+			}
+		}
+	}
+
+	ai_value = {
+		base = 5
+		ai_military_context_modifier = yes
+		ai_general_building_modifier = yes
+		ai_capital_preference_modifier = yes
+		ai_regular_building_upgrade_modifier = { LEVEL = 5 }
+	}
+}
+
+# Death Altar
+death_altar_01 = {
+	type_icon = regular_buildings/armor_smith.dds
+	next_building = death_altar_02
+	cost_gold = regular_building_cost_tier_1
+	construction_time = construction_time_6_months
+	district_level_requirement = 2
+	can_construct = {
+		scope:holder = {
+			rite = {
+				rite_has_doctrine = tenet_live_in_death
+			}
+		}
+	}
+	can_construct_potential = {
+	}
+	can_construct_showing_failures_only = {
+	}
+	is_enabled = {
+		is_county_capital = yes
+		scope:holder = {
+			rite = {
+				rite_has_doctrine = tenet_live_in_death
+			}
+		}
+	}
+	character_modifier = {
+		monthly_piety = 0.1
+	}
+	county_modifier = {
+		stationed_undead_damage_mult = normal_maa_damage_tier_1
+		stationed_undead_toughness_mult = normal_maa_toughness_tier_1
+		prosperity_growth = -0.05
+	}
+	county_culture_modifier = {
+		parameter = metal_craftsmanship_armorer_bonuses
+		stationed_undead_damage_mult = low_maa_damage_tier_1
+		stationed_undead_toughness_mult = low_maa_toughness_tier_1
+	}
+	province_modifier = {
+	}
+	market_modifier = {
+		trade_good_iron_sell_price_mult = price_basic_building_1
+		trade_category_base_metals_sell_price_mult = price_basic_building_1
+	}
+	trade_good_need = {
+		trade_good = trade_good_iron
+		amount = metal_resource_need
+
+		modifiers = {
+			county_modifier = {
+				stationed_undead_damage_mult = 0.02
+			}
+		}
+	}
+	trade_good_need = {
+		trade_good_category = trade_category_base_metals
+		amount = metal_resource_need
+
+		modifiers = {
+			county_modifier = {
+				stationed_undead_toughness_mult = 0.02
+			}
+		}
+	}
+
+	ai_value = {
+		base = 5
+		ai_military_context_modifier = yes
+		ai_general_building_modifier = yes
+		ai_capital_preference_modifier = yes
+		ai_regular_new_building_modifier = yes
+	}
+}
+
+death_altar_02 = {
+	next_building = death_altar_03
+	cost_gold = regular_building_cost_tier_2
+	construction_time = construction_time_9_months
+	district_level_requirement = 2
+	can_construct = {
+		scope:holder = {
+			rite = {
+				rite_has_doctrine = tenet_live_in_death
+			}
+		}
+	}
+	can_construct_potential = {
+	}
+	can_construct_showing_failures_only = {
+	}
+	is_enabled = {
+		is_county_capital = yes
+		scope:holder = {
+			rite = {
+				rite_has_doctrine = tenet_live_in_death
+			}
+		}
+	}
+	character_modifier = {
+		monthly_piety = 0.2
+	}
+	county_modifier = {
+		stationed_undead_damage_mult = normal_maa_damage_tier_2
+		stationed_undead_toughness_mult = normal_maa_toughness_tier_2
+		prosperity_growth = -0.10
+	}
+	county_culture_modifier = {
+		parameter = metal_craftsmanship_armorer_bonuses
+		stationed_undead_damage_mult = low_maa_damage_tier_2
+		stationed_undead_toughness_mult = low_maa_toughness_tier_2
+	}
+	province_modifier = {
+	}
+	market_modifier = {
+		trade_good_iron_sell_price_mult = price_basic_building_1
+		trade_category_base_metals_sell_price_mult = price_basic_building_1
+	}
+	trade_good_need = {
+		trade_good = trade_good_iron
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 2
+
+		modifiers = {
+			county_modifier = {
+				stationed_undead_damage_mult = 0.02
+			}
+		}
+	}
+	trade_good_need = {
+		trade_good_category = trade_category_base_metals
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 2
+
+		modifiers = {
+			county_modifier = {
+				stationed_undead_toughness_mult = 0.02
+			}
+		}
+	}
+
+	ai_value = {
+		base = 5
+		ai_military_context_modifier = yes
+		ai_general_building_modifier = yes
+		ai_capital_preference_modifier = yes
+		ai_regular_building_upgrade_modifier = { LEVEL = 2 }
+	}
+}
+
+death_altar_03 = {
+	next_building = death_altar_04
+	cost_gold = regular_building_cost_tier_3
+	construction_time = construction_time_1_year
+	district_level_requirement = 3
+	can_construct = {
+		scope:holder = {
+			rite = {
+				rite_has_doctrine = tenet_live_in_death
+			}
+		}
+	}
+	can_construct_potential = {
+	}
+	can_construct_showing_failures_only = {
+	}
+	is_enabled = {
+		is_county_capital = yes
+		scope:holder = {
+			rite = {
+				rite_has_doctrine = tenet_live_in_death
+			}
+		}
+	}
+	character_modifier = {
+		monthly_piety = 0.3
+	}
+	county_modifier = {
+		stationed_undead_damage_mult = normal_maa_damage_tier_3
+		stationed_undead_toughness_mult = normal_maa_toughness_tier_3
+		stationed_undead_pursuit_mult = normal_maa_pursuit_tier_3
+		prosperity_growth = -0.15
+	}
+	county_culture_modifier = {
+		parameter = metal_craftsmanship_armorer_bonuses
+		stationed_undead_damage_mult = low_maa_damage_tier_3
+		stationed_undead_toughness_mult = low_maa_toughness_tier_3
+	}
+	province_modifier = {
+	}
+	market_modifier = {
+		trade_good_iron_sell_price_mult = price_basic_building_1
+		trade_category_base_metals_sell_price_mult = price_basic_building_1
+	}
+	trade_good_need = {
+		trade_good = trade_good_iron
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 3
+
+		modifiers = {
+			county_modifier = {
+				stationed_undead_damage_mult = 0.02
+			}
+		}
+	}
+	trade_good_need = {
+		trade_good_category = trade_category_base_metals
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 3
+
+		modifiers = {
+			county_modifier = {
+				stationed_undead_toughness_mult = 0.02
+			}
+		}
+	}
+
+	ai_value = {
+		base = 5
+		ai_military_context_modifier = yes
+		ai_general_building_modifier = yes
+		ai_capital_preference_modifier = yes
+		ai_regular_building_upgrade_modifier = { LEVEL = 3 }
+	}
+}
+
+death_altar_04 = {
+	next_building = death_altar_05
+	cost_gold = regular_building_cost_tier_4
+	construction_time = construction_time_3_years
+	district_level_requirement = 4
+	can_construct = {
+		scope:holder = {
+			rite = {
+				rite_has_doctrine = tenet_live_in_death
+			}
+		}
+	}
+	can_construct_potential = {
+	}
+	can_construct_showing_failures_only = {
+	}
+	is_enabled = {
+		is_county_capital = yes
+		scope:holder = {
+			rite = {
+				rite_has_doctrine = tenet_live_in_death
+			}
+		}
+	}
+	character_modifier = {
+		monthly_piety = 0.4
+	}
+	county_modifier = {
+		stationed_undead_damage_mult = normal_maa_damage_tier_4
+		stationed_undead_toughness_mult = normal_maa_toughness_tier_4
+		stationed_undead_pursuit_mult = normal_maa_pursuit_tier_4
+		prosperity_growth = -0.20
+	}
+	county_culture_modifier = {
+		parameter = metal_craftsmanship_armorer_bonuses
+		stationed_undead_damage_mult = low_maa_damage_tier_4
+		stationed_undead_toughness_mult = low_maa_toughness_tier_4
+	}
+	province_modifier = {
+	}
+	market_modifier = {
+		trade_good_iron_sell_price_mult = price_basic_building_1
+		trade_category_base_metals_sell_price_mult = price_basic_building_1
+	}
+	trade_good_need = {
+		trade_good = trade_good_iron
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 4
+
+		modifiers = {
+			county_modifier = {
+				stationed_undead_damage_mult = 0.02
+			}
+		}
+	}
+	trade_good_need = {
+		trade_good_category = trade_category_base_metals
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 4
+
+		modifiers = {
+			county_modifier = {
+				stationed_undead_toughness_mult = 0.02
+			}
+		}
+	}
+
+	ai_value = {
+		base = 5
+		ai_military_context_modifier = yes
+		ai_general_building_modifier = yes
+		ai_capital_preference_modifier = yes
+		ai_regular_building_upgrade_modifier = { LEVEL = 4 }
+	}
+}
+
+death_altar_05 = {
+	cost_gold = regular_building_cost_tier_5
+	construction_time = construction_time_5_years
+	district_level_requirement = 4
+	can_construct = {
+		scope:holder = {
+			rite = {
+				rite_has_doctrine = tenet_live_in_death
+			}
+		}
+	}
+	can_construct_potential = {
+	}
+	can_construct_showing_failures_only = {
+	}
+	is_enabled = {
+		is_county_capital = yes
+		scope:holder = {
+			rite = {
+				rite_has_doctrine = tenet_live_in_death
+			}
+		}
+	}
+	character_modifier = {
+		monthly_piety = 0.5
+		undead_max_size_add = 1
+	}
+	county_modifier = {
+		stationed_undead_damage_mult = normal_maa_damage_tier_5
+		stationed_undead_toughness_mult = normal_maa_toughness_tier_5
+		stationed_undead_pursuit_mult = normal_maa_pursuit_tier_5
+		prosperity_growth = -0.25
+	}
+	county_culture_modifier = {
+		parameter = metal_craftsmanship_armorer_bonuses
+		stationed_undead_damage_mult = low_maa_damage_tier_5
+		stationed_undead_toughness_mult = low_maa_toughness_tier_5
+	}
+	province_modifier = {
+	}
+	market_modifier = {
+		trade_good_iron_sell_price_mult = price_basic_building_1
+		trade_category_base_metals_sell_price_mult = price_basic_building_1
+	}
+	trade_good_need = {
+		trade_good = trade_good_iron
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 5
+
+		modifiers = {
+			county_modifier = {
+				stationed_undead_damage_mult = 0.02
+			}
+		}
+	}
+	trade_good_need = {
+		trade_good_category = trade_category_base_metals
+		amount = metal_resource_need
+
+		can_be_filled_multiple_times = 5
+
+		modifiers = {
+			county_modifier = {
+				stationed_undead_toughness_mult = 0.02
+			}
+		}
+	}
+
+	ai_value = {
+		base = 5
+		ai_military_context_modifier = yes
+		ai_general_building_modifier = yes
+		ai_capital_preference_modifier = yes
+		ai_regular_building_upgrade_modifier = { LEVEL = 5 }
+	}
+}
