@@ -181,7 +181,7 @@
 	localization = {
 		HighGodName = moon_high_god_name
 		HighGodName2 = moon_high_god_name_2
-		HighGodName2 = moon_high_god_name_3
+		HighGodName3 = moon_high_god_name_3
 		HighGodNamePossessive = moon_high_god_name_possessive
 		HighGodNameSheHe = CHARACTER_SHEHE_IT
 		HighGodHerselfHimself = CHARACTER_ITSELF

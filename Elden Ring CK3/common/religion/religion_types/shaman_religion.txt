@@ -178,7 +178,7 @@
 	localization = {
 		HighGodName = shaman_high_god_name
 		HighGodName2 = shaman_high_god_name_2
-		HighGodName2 = shaman_high_god_name_3
+		HighGodName3 = shaman_high_god_name_3
 		HighGodNamePossessive = shaman_high_god_name_possessive
 		HighGodNameSheHe = CHARACTER_SHEHE_IT
 		HighGodHerselfHimself = CHARACTER_ITSELF

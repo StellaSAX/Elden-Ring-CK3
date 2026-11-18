@@ -178,6 +178,7 @@
 	localization = {
 		HighGodName = faith_frenzy_high_god_name
 		HighGodName2 = faith_frenzy_high_god_name_2
+		HighGodName3 = faith_frenzy_high_god_name_2
 		HighGodNamePossessive = faith_frenzy_high_god_name_possessive
 		HighGodNameSheHe = CHARACTER_SHEHE_IT
 		HighGodHerselfHimself = CHARACTER_HERHIS_ITS

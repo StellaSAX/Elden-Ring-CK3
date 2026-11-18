@@ -185,6 +185,7 @@
 	localization = {
 		HighGodName = fell_high_god_name
 		HighGodName2 = fell_high_god_name
+		HighGodName3 = fell_high_god_name
 		HighGodNamePossessive = fell_high_god_name_possessive
 		HighGodNameSheHe = CHARACTER_SHEHE_HE
 		HighGodHerselfHimself = CHARACTER_HIMSELF

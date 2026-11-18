@@ -160,7 +160,7 @@ faith_crucible = {
 
 faith_death_prince = {
 	main_rite = death_prince_rite
-	origin = faith_old_death
+	origin = faith_death
 	faith_details = {
 		religion = death_religion
 		color = { 0.1 0.1 0.1 }

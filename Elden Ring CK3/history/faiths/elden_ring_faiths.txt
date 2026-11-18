@@ -48,14 +48,6 @@ faith_crucible = {
     }
 }
 
-faith_spiral = {
-    1.1.1 = {
-        known = {
-           
-        }
-    }
-}
-
 faith_death_prince = {
     1.1.1 = {
         known = {
@@ -64,7 +56,7 @@ faith_death_prince = {
     }
 }
 
-faith_old_death = {
+faith_death = {
     1.1.1 = {
         known = {
            
@@ -104,12 +96,12 @@ faith_bayle_dragon = {
     }
 }
 
-faith_giant = {
+faith_fell_god = {
     1.1.1 = {
-		main_rite = fire_monk_rite
+		main_rite = giants_flame_rite
 
         rites = {
-            giant_rite = {}
+            fire_monk_rite = {}
         }
         known = {
            
@@ -188,13 +180,6 @@ faith_rot = {
     }
 }
 
-faith_rot_romina = {
-    1.1.1 = {
-        known = {
-           
-        }
-    }
-}
 
 faith_god_snake = {
     1.1.1 = {
