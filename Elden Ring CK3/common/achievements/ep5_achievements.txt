@@ -1,0 +1,201 @@
+﻿# 01. By Gold Alone
+ep5_01_by_gold_alone_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 02. Multi-Track Merchanting
+ep5_02_multi_track_merchanting_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 03. Venetian League
+ep5_03_venetian_league_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 04. There Can Be Only One
+ep5_04_there_can_be_only_one_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 05. City of Marbles
+ep5_05_city_of_marbles_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 06. Senatus Populusque Romanus
+ep5_06_senatus_populusque_romanus_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 07. I Love Democracy
+ep5_07_i_love_democracy_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 08. Medieval Skylines
+ep5_08_medieval_skylines_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 09. Wearer of Many Hats
+# The live government checks cover a hat worn since the last recording pulse
+ep5_09_wearer_of_many_hats_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 10. The Spice Must Flow
+ep5_10_the_spice_must_flow_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 11. Burgher King
+ep5_11_burgher_king_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 12. Would You Like Fries With That?
+ep5_12_would_you_like_fries_with_that_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 13. Bazaar Adventure
+ep5_13_bazaar_adventure_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 14. League of Ledgers
+ep5_14_league_of_ledgers_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 15. In Sweden we have a System...
+# Wine and Beer share the Alcohol category, so one expertise track and one monopoly cover both
+ep5_15_in_sweden_we_have_a_system_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 16. Bridge of Sighs
+ep5_16_bridge_of_sighs_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 17. Cheesing the Competition
+ep5_17_cheesing_the_competition_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 18. Loan Shark
+ep5_18_loan_shark_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 19. Family Business
+ep5_19_family_business_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
+
+# 20. Silk & Silver
+ep5_20_silk_and_silver_achievement = {
+	possible = {
+		always = no
+	}
+	happened = {
+		always = no
+	}
+}
