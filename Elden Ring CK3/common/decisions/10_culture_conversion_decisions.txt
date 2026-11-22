@@ -8,13 +8,72 @@ convert_to_local_culture_decision = {
 
 	is_shown = {
 		is_playable_character = yes
-		primary_title.tier > tier_barony
+		exists = capital_province
 		culture != capital_province.culture
 		NAND = {
 			is_ai = yes
-			OR = {
-				has_character_flag = converted_culture_this_lifetime
-				has_character_flag = converted_culture_this_lifetime_ai
+			has_variable = {
+				name = converted_culture_this_lifetime
+				name = converted_culture_this_lifetime_ai
+			}
+		}
+		primary_title.tier > tier_barony
+		
+		NOT = { cannot_convert_culture = yes }
+		NOT = {
+			root.capital_province ?= {
+				OR = {
+					culture = culture:cul_albinauric
+					culture = { any_parent_culture_or_above = { this = culture:cul_albinauric } }
+				}
+			}
+		}
+		NOT = {
+			root.capital_province ?= {
+				OR = {
+					culture = culture:cul_ancient_dragon
+					culture = { any_parent_culture_or_above = { this = culture:cul_ancient_dragon } }
+				}
+			}
+		}
+		NOT = {
+			root.capital_province ?= {
+				OR = {
+					culture = culture:cul_drake
+					culture = { any_parent_culture_or_above = { this = culture:cul_drake } }
+				}
+			}
+		}
+		NOT = {
+			root.capital_province ?= {
+				OR = {
+					culture = culture:cul_beastman
+					culture = { any_parent_culture_or_above = { this = culture:cul_beastman } }
+				}
+			}
+		}
+		NOT = {
+			root.capital_province ?= {
+				OR = {
+					culture = culture:cul_demihuman
+					culture = { any_parent_culture_or_above = { this = culture:cul_demihuman } }
+				}
+			}
+		}
+		NOT = {
+			root.capital_province ?= {
+				OR = {
+					culture = culture:cul_misbegotten
+					culture = { any_parent_culture_or_above = { this = culture:cul_misbegotten } }
+				}
+			}
+		}
+		NOT = {
+			root.capital_province ?= {
+				OR = {
+					culture = culture:cul_bloodfiend
+					culture = { any_parent_culture_or_above = { this = culture:cul_bloodfiend } }
+				}
 			}
 		}
 	}
@@ -76,6 +135,15 @@ convert_to_local_culture_decision = {
 					}
 				}
 				multiply = 1.25
+			}
+			if = {
+				limit = {
+					OR = {
+						is_god = yes
+						is_demigod = yes
+					}
+				}
+				multiply = 3
 			}
 			if = {
 				limit = {
@@ -174,8 +242,10 @@ convert_to_local_culture_decision = {
 
 	ai_potential = {
 		is_playable_character = yes
+		exists = capital_province
 		culture != capital_province.culture
 		is_landless_adventurer = no
+		is_governor = no
 	}
 
 	ai_will_do = {
@@ -251,55 +321,6 @@ convert_to_local_culture_decision = {
 			}
 		}
 		
-		# modifier = { # Farewell, norse culture (unless the player is running a norse empire)
-			# add = 200
-			# OR = {
-				# top_liege = this
-				# AND = {
-					# top_liege != this
-					# NOT = {
-						# any_liege_or_above = {
-							# culture = culture:norse
-						# }
-					# }
-				# }
-			# }
-			# culture = culture:norse
-			# capital_province.culture = {
-				# OR = {
-					# this = culture:swedish
-					# this = culture:norwegian
-					# this = culture:danish
-				# }
-			# }
-		# }
-
-		modifier = { # Iberian Struggle modifiers
-			any_character_struggle = {
-				involvement = involved
-			}
-			add = {
-				value = 0
-				if = {
-					limit = {
-						any_character_struggle = {
-							phase_has_catalyst = catalyst_convert_local_culture_faith
-						}
-						has_character_flag = agenda_towards_escalation
-					}
-					add = -300
-				}
-				else_if = { # Slight boost, so players can't exploit landing lots of characters to bump catalyst progress
-					limit = {
-						any_character_struggle = {
-							phase_has_catalyst = catalyst_convert_local_culture_faith
-						}
-					}
-					add = 20
-				}
-			}
-		}
-		
 		modifier = { # If you're the same culture as your liege, and your Capital is in a Duchy with your culture in it, never convert
 			factor = 0
 			top_liege != this
@@ -340,123 +361,6 @@ convert_to_local_culture_decision = {
 			}
 		}
 		
-		# # Some cultures should not assimilate to certain others
-		# modifier = {
-			# factor = 0
-			# has_culture = culture:andalusian
-			# capital_province = {
-				# culture = { has_cultural_pillar = heritage_iberian }
-			# }
-			# NOT = {
-				# capital_province = {
-					# culture = {
-						# is_hybrid_culture = yes
-						# any_parent_culture_or_above = {
-							# this = root.culture
-						# }
-					# }
-				# }
-			# }
-		# }
-		# modifier = {
-			# factor = 0
-			# culture = { has_cultural_pillar = heritage_iberian }
-			# capital_province.culture = culture:andalusian
-		# }
-
-		# # Don't overwrite historically scripted developments
-		# modifier = {
-			# factor = 0
-			# OR = {
-				# has_culture = culture:norman
-				# has_culture = culture:english
-			# }
-			# capital_province.culture = culture:anglo_saxon
-		# }
-		# modifier = {
-			# factor = 0
-			# has_culture = culture:turkish
-			# capital_province = {
-				# culture = {
-					# OR = {
-						# has_cultural_pillar = heritage_byzantine
-						# has_cultural_pillar = heritage_caucasian
-					# }
-				# }
-			# }
-			# NOT = {
-				# capital_province = {
-					# culture = {
-						# is_hybrid_culture = yes
-						# any_parent_culture_or_above = {
-							# this = root.culture
-						# }
-					# }
-				# }
-			# }
-		# }
-		# modifier = {
-			# factor = 0
-			# has_culture = culture:turkish
-			# primary_title.tier >= tier_empire
-		# }
-		# modifier = {
-			# factor = 0
-			# OR = {
-				# has_title = title:k_jerusalem
-				# has_title = title:e_outremer
-				# any_liege_or_above = {
-					# OR = {
-						# has_title = title:k_jerusalem
-						# has_title = title:e_outremer
-					# }
-				# }
-			# }
-			# NOR = {
-				# capital_province = { # Convert to Hybrids of your culture in the Holy Land
-					# culture = {
-						# is_hybrid_culture = yes
-						# any_parent_culture_or_above = {
-							# this = root.culture
-						# }
-					# }
-				# }
-				# AND = {
-					# top_liege != this
-					# exists = liege
-					# capital_province.culture = liege.culture
-				# }
-			# }
-		# }
-		# modifier = {
-			# factor = 0
-			# has_title = title:e_latin_empire
-			# NOT = {
-				# capital_province = {
-					# culture = {
-						# is_hybrid_culture = yes
-						# any_parent_culture_or_above = {
-							# this = root.culture
-						# }
-					# }
-				# }
-			# }
-		# }
-
-		# # Scots needs a bit of help to dominate as it did historically
-		# modifier = {
-			# factor = 0
-			# has_culture = culture:scottish
-			# capital_province.culture = culture:gaelic
-		# }
-
-		# # Pictish should usually disappear
-		# modifier = {
-			# factor = 0
-			# has_culture = culture:gaelic
-			# capital_province.culture = culture:pictish
-		# }
-		
 		# Don't go back on a previous conversion
 		modifier = {
 			factor = 0
@@ -474,118 +378,3 @@ convert_to_local_culture_decision = {
 		}
 	}
 }
-
-# ### Have the Realm Embrace Local Traditions ###
-# assimilate_local_traditions_decision = {
-	# picture = {
-		# reference = "gfx/interface/illustrations/decisions/fp1_decision_raise_runestone.dds"
-	# }
-	# sort_order = 75
-
-	# desc = assimilate_local_traditions_decision_desc
-	# selection_tooltip = assimilate_local_traditions_decision_tooltip
-
-	# is_shown = {
-		# # culture = culture:norse
-		# is_landed = yes
-		# primary_title.tier > tier_barony
-		# culture != capital_province.culture
-		# NAND = {
-			# is_ai = yes
-			# OR = {
-				# has_character_flag = converted_culture_this_lifetime
-				# has_character_flag = converted_culture_this_lifetime_ai
-			# }
-		# }
-	# }
-
-	# is_valid_showing_failures_only = {
-		# top_liege = this
-		# is_physically_able_adult = yes
-		# is_at_war = no
-		# custom_description = {
-			# text = can_only_change_culture_once
-			# NOT = { has_character_flag = converted_culture_this_lifetime }
-		# }
-		# capital_province = {
-			# NOT = {
-				# geographical_region = world_europe_north
-			# }
-		# }
-	# }
-
-	# cost = {
-		# prestige = {
-			# value = 300
-			# if = {
-				# limit = {
-					# is_ai = yes
-					# capital_province = {
-						# geographical_region = world_europe_east
-					# }
-				# }
-				# multiply = 0
-			# }
-			# # Account for struggle phase.
-			# if = {
-				# limit = { is_struggle_parameter_active_cheaper_to_convert_to_struggle_culture_trigger = yes }
-				# multiply = 0.25
-			# }
-
-			# # Make sure it's never dumb numbers.
-			# min = 25
-		# }
-	# }
-
-	# effect = {
-		# norse_assimilate_local_traditions_effect = {
-			# CONVERTER = root
-			# OLD_CULTURE = root.culture
-			# OLD_FAITH = root.faith
-			# NEW_CULTURE = capital_province.culture
-			# NEW_FAITH = capital_province.faith
-		# }
-	# }
-	
-	# ai_check_interval_by_tier = {
-		# barony = 0
-		# county = 60
-		# duchy = 60
-		# kingdom = 60
-		# empire = 60
-		# hegemony = 60
-	# }
-
-	# ai_potential = {
-		# # culture = culture:norse
-		# is_playable_character = yes
-		# culture != capital_province.culture
-	# }
-
-	# ai_will_do = {
-		# base = 100
-		
-		# # Don't do it too early
-		# modifier = {
-			# factor = 0
-			# NOT = {
-				# primary_title.title_held_years > 30
-			# }
-		# }
-		
-		# # Don't do it if you're zealous
-		# modifier = {
-			# factor = 0
-			# has_trait = zealous
-			# capital_province.faith != root.faith
-		# }
-		
-		# # Historical Exceptions
-		# modifier = {
-			# add = 100
-			# capital_province = {
-				# geographical_region = world_europe_east
-			# }
-		# }
-	# }
-# }

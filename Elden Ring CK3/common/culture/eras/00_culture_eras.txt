@@ -13,7 +13,7 @@ culture_era_second_millenium_early = {
 	}
 	
 	character_modifier = {
-		mercenary_hire_cost_mult = 0.15
+		men_at_arms_maintenance = 0.15
 	}
 
 	custom = more_expensive_court_positions
@@ -42,6 +42,7 @@ culture_era_fifth_millenium_early = {
 	}
 	
 	character_modifier = {
+		men_at_arms_maintenance = 0.15
 		mercenary_hire_cost_mult = 0.15
 	}
 
@@ -71,6 +72,7 @@ culture_era_eight_millenium_early = {
 	}
 	
 	character_modifier = {
+		men_at_arms_maintenance = 0.15
 		mercenary_hire_cost_mult = 0.15
 	}
 
@@ -94,6 +96,7 @@ culture_era_tenth_millenium_early = {
 	}
 	
 	character_modifier = {
+		men_at_arms_maintenance = 0.15
 		mercenary_hire_cost_mult = 0.15
 	}
 

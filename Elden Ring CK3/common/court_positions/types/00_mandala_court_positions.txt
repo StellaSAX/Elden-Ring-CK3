@@ -29,7 +29,6 @@ court_guru_court_position = {
 	# How good is this character in this position? root scope is the holder of the court position
 	aptitude = {
 		value = 25
-		add = court_position_aptitude_boon_voyager_trait
 		add = {
 			value = learning
 			multiply = 2
@@ -61,11 +60,11 @@ court_guru_court_position = {
 		}
 		if = {
 			limit = {
-				has_trait = scholar
+				has_trait = erudite
 			}
 			add = {
 				value = 15
-				desc = court_position_scholar_trait
+				desc = court_position_erudite_trait
 			}
 		}
 		if = {
@@ -131,22 +130,8 @@ court_guru_court_position = {
 				desc = court_position_shrewd_trait
 			}
 		}
-		add = court_position_aptitude_traveling_friends_value
-		add = court_position_aptitude_eunuch_tradition_value
-		add = court_position_aptitude_family_business_value
 		add = court_position_aptitude_low_penalty_value
-		# Seneschal
-		if = {
-			limit = {
-				liege.court_position:seneschal_court_position ?= {
-					has_variable = performing_improve_court
-				}
-			}
-			add = {
-				value = liege.court_position:seneschal_court_position.seneschal_improve_court_value
-				desc = seneschal_improve_court_aptitude_desc
-			}
-		}
+		add = general_aptitude_bonus
 	}
 
 	is_shown = {
@@ -154,10 +139,10 @@ court_guru_court_position = {
 		OR = {
 			government_has_flag = government_is_mandala
 			government_has_flag = government_is_wanua
-			# religion = { is_in_family = rf_eastern }
-			# religion = religion:taoism_religion
+			#religion = { is_in_family = rf_eastern }
+			#religion = religion:taoism_religion
 		}
-		is_landed_or_landless_administrative = yes
+		is_landed_or_landless_administrative_or_theocratic = yes
 		trigger_if = {
 			limit = {
 				is_ai = yes
@@ -169,7 +154,7 @@ court_guru_court_position = {
 
 	# Is this an available position for this court? (root is court owner)
 	valid_position = {
-		is_landed_or_landless_administrative = yes
+		is_landed_or_landless_administrative_or_theocratic = yes
 	}
 	
 	is_shown_character = {
@@ -187,30 +172,8 @@ court_guru_court_position = {
 	revoke_cost = { # root is the liege, no other scopes are passed here!
 		piety =  {
 			value = major_court_position_prestige_revoke_cost
-			# Set to 0 via obligation hook
 			if = {
-				limit = {
-					court_position_obligation_hook_salary_trigger = {
-						POS = court_tutor
-						LIEGE = root
-					}
-				}
-				multiply = 0
-			}
-			# Avoid AI prestige issues
-			if = {
-				limit = {
-					exists = this
-					is_ai = yes
-				}
-				multiply = 0
-			}
-			# Special case for events
-			if = {
-				limit = {
-					exists = this
-					has_character_flag = free_revoke_cost
-				}
+				limit = { free_court_position_revoke_trigger = { POS = court_guru } }
 				multiply = 0
 			}
 			#Lowering for LAAMPS, to match Camp Officer revoke cost
@@ -267,6 +230,7 @@ court_guru_court_position = {
 
 	on_court_position_received = {
 		basic_gained_court_position_effect = yes
+		pam_celestial_hierarchy_hire_fulfillment_effect = { COURT_POSITION = court_guru_court_position }
 	}
 	on_court_position_revoked = {
 		basic_revoked_court_position_effect = yes
@@ -319,7 +283,6 @@ court_brahmin_court_position = {
 	# How good is this character in this position? root scope is the holder of the court position
 	aptitude = {
 		value = 1
-		add = court_position_aptitude_boon_voyager_trait
 		add = {
 			value = learning
 			multiply = 2.5
@@ -408,27 +371,13 @@ court_brahmin_court_position = {
 				desc = plenty_to_donate_almoner_desc
 			}
 		}
-		add = court_position_aptitude_traveling_friends_value
-		add = court_position_aptitude_eunuch_tradition_value
-		add = court_position_aptitude_family_business_value
 		add = court_position_aptitude_low_penalty_value
-		# Seneschal
-		if = {
-			limit = {
-				liege.court_position:seneschal_court_position ?= {
-					has_variable = performing_improve_court
-				}
-			}
-			add = {
-				value = liege.court_position:seneschal_court_position.seneschal_improve_court_value
-				desc = seneschal_improve_court_aptitude_desc
-			}
-		}
+		add = general_aptitude_bonus
 	}
 
 	is_shown = {
 		has_tgp_dlc_trigger = yes
-		is_landed_or_landless_administrative = yes
+		is_landed_or_landless_administrative_or_theocratic = yes
 		government_has_flag = government_is_mandala
 		trigger_if = {
 			limit = {
@@ -441,7 +390,7 @@ court_brahmin_court_position = {
 
 	# Is this an available position for this court? (root is court owner)
 	valid_position = {
-		is_landed_or_landless_administrative = yes
+		is_landed_or_landless_administrative_or_theocratic = yes
 		highest_held_title_tier >= tier_duchy
 	}
 	
@@ -460,30 +409,8 @@ court_brahmin_court_position = {
 	revoke_cost = { # root is the liege, no other scopes are passed here!
 		prestige =  {
 			value = major_court_position_prestige_revoke_cost
-			# Set to 0 via obligation hook
 			if = {
-				limit = {
-					court_position_obligation_hook_salary_trigger = {
-						POS = high_almoner
-						LIEGE = root
-					}
-				}
-				multiply = 0
-			}
-			# Avoid AI prestige issues
-			if = {
-				limit = {
-					exists = this
-					is_ai = yes
-				}
-				multiply = 0
-			}
-			# Special case for events
-			if = {
-				limit = {
-					exists = this
-					has_character_flag = free_revoke_cost
-				}
+				limit = { free_court_position_revoke_trigger = { POS = court_brahmin } }
 				multiply = 0
 			}
 			#Lowering for LAAMPS, to match Camp Officer revoke cost
@@ -574,7 +501,7 @@ court_brahmin_court_position = {
 	}
 	on_court_position_vacated = {
 		court_position_vacated_event_effect = {
-			COURT_POSITION_TYPE = high_almoner_court_position
+			COURT_POSITION_TYPE = court_brahmin_court_position
 		}
 	}
 
@@ -635,7 +562,6 @@ khlon_glan_court_position = {
 	# How good is this character in this position? root scope is the holder of the court position
 	aptitude = {
 		value = 25
-		add = court_position_aptitude_boon_voyager_trait
 		add = {
 			value = stewardship
 			multiply = 2
@@ -675,10 +601,8 @@ khlon_glan_court_position = {
 				desc = court_position_organizer_trait
 			}
 		}
-		add = court_position_aptitude_traveling_friends_value
-		add = court_position_aptitude_eunuch_tradition_value
-		add = court_position_aptitude_family_business_value
 		add = court_position_aptitude_low_penalty_value
+		add = general_aptitude_bonus_exclude_other_court_position
 		# Bonus from court.8311
 		if = {
 			limit = { var:bonus_aptitude_role ?= flag:seneschal }
@@ -691,7 +615,7 @@ khlon_glan_court_position = {
 
 	is_shown = {
 		has_tgp_dlc_trigger = yes
-		is_landed_or_landless_administrative = yes
+		is_landed_or_landless_administrative_or_theocratic = yes
 		government_has_flag = government_is_mandala
 		trigger_if = {
 			limit = {
@@ -704,7 +628,7 @@ khlon_glan_court_position = {
 
 	# Is this an available position for this court? (root is court owner)
 	valid_position = {
-		is_landed_or_landless_administrative = yes
+		is_landed_or_landless_administrative_or_theocratic = yes
 	}
 	
 	is_shown_character = {
@@ -722,30 +646,8 @@ khlon_glan_court_position = {
 	revoke_cost = { # root is the liege, no other scopes are passed here!
 		prestige =  {
 			value = major_court_position_prestige_revoke_cost
-			# Set to 0 via obligation hook
 			if = {
-				limit = {
-					court_position_obligation_hook_salary_trigger = {
-						POS = seneschal
-						LIEGE = root
-					}
-				}
-				multiply = 0
-			}
-			# Avoid AI prestige issues
-			if = {
-				limit = {
-					exists = this
-					is_ai = yes
-				}
-				multiply = 0
-			}
-			# Special case for events
-			if = {
-				limit = {
-					exists = this
-					has_character_flag = free_revoke_cost
-				}
+				limit = { free_court_position_revoke_trigger = { POS = khlon_glan } }
 				multiply = 0
 			}
 			#Lowering for LAAMPS, to match Camp Officer revoke cost
@@ -799,27 +701,27 @@ khlon_glan_court_position = {
 	# These modifiers are employed based on what level the aptitude reaches (levels are defined as breakpoints)
 	scaling_employer_modifiers = {
 		terrible = {
-		  	monthly_county_control_growth_add = 0.1
+		  	monthly_control_change_when_below_baseline_add = 0.1
 			great_project_build_speed = -0.05
 			character_travel_safety = 2
 		}
 		poor = {
-		  	monthly_county_control_growth_add = 0.15
+		  	monthly_control_change_when_below_baseline_add = 0.15
 			great_project_build_speed = -0.1
 			character_travel_safety = 4
 		}
 		average = {
-		  	monthly_county_control_growth_add = 0.2
+		  	monthly_control_change_when_below_baseline_add = 0.2
 			great_project_build_speed = -0.15
 			character_travel_safety = 6
 		}
 		good = {
-		  	monthly_county_control_growth_add = 0.25
+		  	monthly_control_change_when_below_baseline_add = 0.25
 			great_project_build_speed = -0.2
 			character_travel_safety = 8
 		}
 		excellent = {
-		  	monthly_county_control_growth_add = 0.3
+		  	monthly_control_change_when_below_baseline_add = 0.3
 			great_project_build_speed = -0.25
 			character_travel_safety = 10
 		}

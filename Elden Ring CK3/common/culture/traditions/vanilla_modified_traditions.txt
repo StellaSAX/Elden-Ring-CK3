@@ -11,12 +11,10 @@
 	}
 
 	can_pick = {
-		scope:character = {
-			faith = {
-				NOR = {
-					has_doctrine_parameter = witchcraft_illegal
-					has_doctrine_parameter = witchcraft_shunned
-				}
+		scope:character.rite = {
+			NOR = {
+				rite_has_parameter = witchcraft_illegal
+				rite_has_parameter = witchcraft_shunned
 			}
 		}
 	}
@@ -24,9 +22,9 @@
 	parameters = {
 		more_expensive_weapon_inspiration = yes
 		improved_weapon_inspiration = yes
-		building_barracks_piety_bonuses = yes
 		sorcerous_metallurgy_internal_yurt_unlock = yes
 		nomadic_metal_artifact_unlock = yes
+		sorcerous_metallurgy_sacred_forge = yes
 		tower_of_sorcery_buff = yes
 	}
 
@@ -64,7 +62,7 @@
 						NOT = {
 							any_ruler = {
 								count >= 3
-								culture = prev
+								culture_filter = root
 								primary_title.tier >= tier_county
 								has_trait = witch
 							}

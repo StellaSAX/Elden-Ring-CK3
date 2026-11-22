@@ -1,43 +1,37 @@
 ﻿### Create Cadet Branch ###
 create_cadet_branch_decision = {
 	picture = {
-		trigger = {
-			always = no
-			#government_is_japanese_trigger = yes
-		}
-		reference = "gfx/interface/illustrations/decisions/tgp_poet.dds"
-	}
-	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
 	}
 
 	decision_group_type = major
 	ai_check_interval_by_tier = {
 		barony = 0
-		county = 6
+		county = 12
 		duchy = 6
-		kingdom = 6
-		empire = 6
-		hegemony = 6
+		kingdom = 1
+		empire = 1
+		hegemony = 1
 	}
 
 	is_shown = {
-		is_playable_character = yes
-		exists = house.house_head
+		NOT = {
+			highest_held_title_tier = tier_barony
+		}
 		is_house_head = no
-		highest_held_title_tier > tier_barony
+		government_allows = rulers_should_have_dynasty
+		is_lowborn = no
 		NOR = {
-			government_has_flag = government_is_holy_order
-			government_has_flag = government_is_theocracy
 			AND = {
-				faith = { has_doctrine = doctrine_theocracy_temporal }
 				has_council_position = councillor_court_chaplain
+				rite ?= { rite_has_doctrine = doctrine_theocracy_temporal }
 			}
 			AND = {
-				has_tgp_dlc_trigger = yes
 				tgp_is_in_ceremonial_house_trigger = yes
+				has_tgp_dlc_trigger = yes
 			}
 		}
+		is_playable_character = yes
 	}
 
 	is_valid = {
@@ -66,7 +60,7 @@ create_cadet_branch_decision = {
 		}
 		# If you are Administrative, we let the player create a new House much easier, as to have easy access to their own Family Title and Estate.
 		trigger_else_if = {
-			limit = { government_allows = administrative }
+			limit = { government_allows = noble_families }
 			trigger_if = {
 				limit = {
 					is_ai = yes # We don't want the AI to create cadet branches willy nilly, so they have additional restrictions.
@@ -80,12 +74,13 @@ create_cadet_branch_decision = {
 							any_held_title = {
 								place_in_line_of_succession = {
 									target = root
-									value <=3
+									value <= 3
 								}
 							}
 						}
 					}
 				}
+				highest_held_title_tier >= main_administrative_tier
 			}
 			# No triggers for players.
 		}
@@ -105,6 +100,14 @@ create_cadet_branch_decision = {
 				}
 			}
 		}
+		# only feudal or japanese ruler create branch when liege is househead.
+		trigger_if = {
+			limit = {
+				#government_is_japanese_trigger = no
+				NOT = { government_has_flag = government_is_feudal }
+			}
+			NOT = { target_is_liege_or_above = house.house_head }
+		}
 		# Marriage restrictions
 		trigger_if = {
 			limit = { is_male = yes }
@@ -112,7 +115,7 @@ create_cadet_branch_decision = {
 				limit = {
 					OR = {
 						is_married = yes
-						faith = { has_doctrine = doctrine_gender_female_dominated }
+						rite = { rite_has_doctrine = doctrine_gender_female_dominated }
 					}
 				}
 				patrilinear_marriage = yes
@@ -123,7 +126,7 @@ create_cadet_branch_decision = {
 				limit = {
 					OR = {
 						is_married = yes
-						faith = { has_doctrine = doctrine_gender_male_dominated }
+						rite = { rite_has_doctrine = doctrine_gender_male_dominated }
 					}
 				}
 				matrilinear_marriage = yes
@@ -174,17 +177,80 @@ create_cadet_branch_decision = {
 			}
 		}
 	}
-	
+
 	ai_potential = {
-		exists = house.house_head
-		is_adult = yes
+		is_house_head = no
 		highest_held_title_tier > tier_barony
-		any_child = { is_alive = yes }
+		is_adult = yes
+		is_playable_character = yes
+		government_allows = rulers_should_have_dynasty
+		government_allows = create_cadet_branches
+		exists = house.house_head
+		trigger_if = {
+			limit = { government_has_flag = government_is_clan }
+			top_liege = this
+		}
+		any_child = { is_alive = yes } # move it beforehand for performance reason
+		trigger_if = {
+			limit = {
+				# always allow branch if in different realm, they need the estate.
+				NAND = {
+					government_allows = noble_families
+					trigger_if = {
+						limit = { exists = house.house_head.liege }
+						house.house_head.liege != root
+					}
+				}
+			}
+			years_from_game_start >= 5
+			# Childless rulers should not found houses
+			any_child = {
+				is_alive = yes
+				count >= 3
+			}
+			NOR = {
+				# Stop stealing player's house members
+				any_player = {
+					OR = {
+						any_child = {
+							OR = {
+								is_child_of = root
+								is_grandchild_of = root
+								is_great_grandchild_of = root
+							}
+						}
+						any_child = {
+							even_if_dead = yes
+							any_child = {
+								OR = {
+									is_child_of = root
+									is_grandchild_of = root
+									is_great_grandchild_of = root
+								}
+							}
+						}
+						any_child = {
+							even_if_dead = yes
+							any_child = {
+								even_if_dead = yes
+								any_child = {
+									OR = {
+										is_child_of = root
+										is_grandchild_of = root
+										is_great_grandchild_of = root
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 
 	ai_will_do = {
 		base = 30
-		
+
 		modifier = { # Dukes and above are more keen
 			add = 70
 			exists = primary_title
@@ -193,13 +259,13 @@ create_cadet_branch_decision = {
 
 		modifier = { # Prefer to stay in liege's dynasty
 			add = -50
-			#government_is_japanese_trigger = no
+			government_is_japanese_trigger = no
 			top_liege != this
 			any_liege_or_above = {
 				dynasty = root.dynasty
 			}
 		}
-		
+
 		modifier = { # Childless rulers should not found houses
 			factor = 0
 			any_child = {
@@ -207,7 +273,7 @@ create_cadet_branch_decision = {
 				count < 3
 			}
 		}
-		
+
 		modifier = { # Stop stealing player's house members
 			factor = 0
 			any_player = {
@@ -249,17 +315,21 @@ create_cadet_branch_decision = {
 		# we don't want AI to split from their House unless they dislike their house head
 		modifier = {
 			factor = 0
-			government_has_flag = government_is_clan
+			OR = {
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_merchant
+			}
+			
 			opinion = {
 				target = house.house_head
 				value >= -50
 			}
 		}
-		
+
 		# If an admin top liege ever ends up having their house head in a different realm, they should create a cadet branch ASAP
 		modifier = {
 			add = 1000
-			government_allows = administrative
+			government_allows = noble_families
 			top_liege = this
 			this != house.house_head.top_liege
 		}
@@ -267,55 +337,6 @@ create_cadet_branch_decision = {
 		modifier = {
 			add = -250
 			years_from_game_start < 5
-		}
-
-		### TGP
-
-		modifier = { # Prefer not to branch away from ruling close family
-			#government_is_japanese_trigger = yes
-			top_liege.primary_title = {
-				any_past_holder = { is_close_family_of = root }
-			}
-			add = -25
-		}
-
-		modifier = { # Prefer to branch away from leading house if distant to split up blocs
-			#government_is_japanese_trigger = yes
-			is_landed = yes
-			top_liege.house = root.house
-			NOT = { is_close_or_extended_family_of = top_liege }
-			add = 50
-		}
-
-		modifier = { # Prefer to branch away from house head
-			#government_is_japanese_trigger = yes
-			NOT = { is_close_or_extended_family_of = house.house_head }
-			add = 50
-		}
-
-		modifier = { # Ruler should not break family apart
-			#government_is_japanese_trigger = yes
-			is_independent_ruler = yes
-			add = -1000
-		}
-
-		modifier = { # Close and extended family prefer to stay with Ritsuryo house heads
-			#government_is_japanese_trigger = yes
-			government_allows = administrative
-			OR = {
-				is_close_or_extended_family_of = house.house_head
-				AND = {
-					top_liege.house ?= house
-					is_close_or_extended_family_of = top_liege
-				}
-				house.house_head = {
-					any_held_title = {
-						is_noble_family_title = yes
-						any_past_holder = { is_close_or_extended_family_of = root }
-					}
-				}
-			}
-			add = -1000
 		}
 	}
 }
