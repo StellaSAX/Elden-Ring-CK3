@@ -1,0 +1,4 @@
+﻿trade_good_smithingstone = {
+	base_price = 0.102
+	is_basic = yes
+}
