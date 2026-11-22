@@ -4332,8 +4332,7 @@ incantation_frenzy = {
 			general_opinion = -10
 			dread_baseline_add = 5
 			stress_gain_mult = -0.03
-			development_growth_factor = -0.05
-			development_decline_factor = 0.05
+			prosperity_growth_factor = -0.04
 			county_fertility_growth_mult = -0.05
 		}
 		40 = {
@@ -4342,8 +4341,7 @@ incantation_frenzy = {
 			general_opinion = -10
 			dread_baseline_add = 5
 			stress_gain_mult = -0.04
-			development_growth_factor = -0.1
-			development_decline_factor = 0.1
+			prosperity_growth_factor = -0.08
 			county_fertility_growth_mult = -0.1
 		}
 		60 = {
@@ -4352,8 +4350,7 @@ incantation_frenzy = {
 			general_opinion = -10
 			dread_baseline_add = 5
 			stress_gain_mult = -0.05
-			development_growth_factor = -0.15
-			development_decline_factor = 0.15
+			prosperity_growth_factor = -0.12
 			county_fertility_growth_mult = -0.15
 		}
 		80 = {
@@ -4362,8 +4359,7 @@ incantation_frenzy = {
 			general_opinion = -10
 			dread_baseline_add = 5
 			stress_gain_mult = -0.06
-			development_growth_factor = -0.2
-			development_decline_factor = 0.2
+			prosperity_growth_factor = -0.16
 			county_fertility_growth_mult = -0.2
 		}
 		100 = {
@@ -4374,8 +4370,7 @@ incantation_frenzy = {
 			dread_baseline_add = 5
 			dread_gain_mult = 1.0
 			stress_gain_mult = -0.12
-			development_growth_factor = -0.4
-			development_decline_factor = 0.4
+			prosperity_growth_factor = -0.2
 			county_fertility_growth_mult = -0.4
 		}
 	}

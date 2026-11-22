@@ -3,7 +3,7 @@ grace_given = {
 	icon = compass_mixed
 	monthly_prestige_gain_mult = 0.01
 	enemy_scheme_secrecy_add = -0.5
-	domain_tax_mult = 0.05
+	civic_tax_mult = 0.05
 	army_maintenance_mult = -0.05
 	diplomacy = 1
 }
@@ -47,17 +47,17 @@ halted_albinauric_aging = {
 
 development_focus = {
 	icon = county_modifier_development_positive
-	county_opinion_add = 10
-	development_growth_factor = 0.5
+	popular_opinion_add = 10
+	prosperity_growth_factor = 0.5
 	county_fertility_growth_mult = 0.35
 	build_gold_cost = -0.05
 }
 
 tax_focus = {
 	icon = economy_positive
-	county_opinion_add = -50
-	tax_mult = 0.35
-	development_growth_factor = -0.25
+	popular_opinion_add = -50
+	civic_tax_mult = 0.35
+	prosperity_growth_factor = -0.25
 }
 
 veteran_of_the_shattering = {

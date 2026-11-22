@@ -23,10 +23,12 @@ bog_poison_max_combat_roll = {
 }
 
 bog_poison_development_growth = {
+	prefix = MOD_PROSPERITY_PREFIX
 	decimals = 1
 }
 
 bog_poison_development_growth_factor = {
+	prefix = MOD_PROSPERITY_PREFIX
 	decimals = 0
 	percent = yes
 }
@@ -132,10 +134,12 @@ scarlet_swamp_max_combat_roll = {
 }
 
 scarlet_swamp_development_growth = {
+	prefix = MOD_PROSPERITY_PREFIX
 	decimals = 1
 }
 
 scarlet_swamp_development_growth_factor = {
+	prefix = MOD_PROSPERITY_PREFIX
 	decimals = 0
 	percent = yes
 }
@@ -241,10 +245,12 @@ lava_lake_max_combat_roll = {
 }
 
 lava_lake_development_growth = {
+	prefix = MOD_PROSPERITY_PREFIX
 	decimals = 1
 }
 
 lava_lake_development_growth_factor = {
+	prefix = MOD_PROSPERITY_PREFIX
 	decimals = 0
 	percent = yes
 }
@@ -350,10 +356,12 @@ abyssal_woods_max_combat_roll = {
 }
 
 abyssal_woods_development_growth = {
+	prefix = MOD_PROSPERITY_PREFIX
 	decimals = 1
 }
 
 abyssal_woods_development_growth_factor = {
+	prefix = MOD_PROSPERITY_PREFIX
 	decimals = 0
 	percent = yes
 }
@@ -459,10 +467,12 @@ narrow_path_max_combat_roll = {
 }
 
 narrow_path_development_growth = {
+	prefix = MOD_PROSPERITY_PREFIX
 	decimals = 1
 }
 
 narrow_path_development_growth_factor = {
+	prefix = MOD_PROSPERITY_PREFIX
 	decimals = 0
 	percent = yes
 }

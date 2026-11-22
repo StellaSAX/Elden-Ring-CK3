@@ -19,3 +19,51 @@ domicile_estate = {
 		top_liege = no
 	}
 }
+
+domicile_ecclesiastical_domicile = {
+	type = domicile
+	domicile_type = ecclesiastical_domicile
+	priority = 27
+	governments = { ecclesiastical_government }
+	flavourization_rules = {
+		top_liege = no
+	}
+}
+
+# Eastern and oriental outrank Latin so byzantine/georgian do not fall through via christian_faith
+# Latin lists catholic and christian_faith so the 867 faith still gets this tier
+
+domicile_ecclesiastical_domicile_latin = {
+	type = domicile
+	domicile_type = ecclesiastical_domicile
+	priority = 90
+	governments = { ecclesiastical_government }
+
+	faiths = { order_religion faith_golden }
+
+	flavourization_rules = {
+		top_liege = no
+	}
+}
+
+domicile_merchant_company_merchant = {
+	type = domicile
+	domicile_type = merchant_company
+	priority = 26
+	governments = { merchant_government }
+
+	flavourization_rules = {
+		top_liege = no
+	}
+}
+
+domicile_merchant_company_republic = {
+	type = domicile
+	domicile_type = merchant_company
+	priority = 26
+	governments = { republic_government }
+
+	flavourization_rules = {
+		top_liege = no
+	}
+}

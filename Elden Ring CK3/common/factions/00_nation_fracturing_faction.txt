@@ -1,6 +1,7 @@
-﻿nation_fracturing_faction = {
+﻿# I.e. Dissolution Faction
+nation_fracturing_faction = {
 	casus_belli = nation_fracturing_faction_war
-	
+
 	short_effect_desc = nation_fracturing_faction_short_effect_desc
 
 	sort_order = 0
@@ -41,10 +42,10 @@
 			FACTION_TARGET = scope:faction.faction_target
 		}
 		has_valid_faction_members_trigger = yes
-		
+
 		tgp_realm_has_ceremonial_liege_trigger = no
 	}
-	
+
 	demand = {
 		save_scope_as = faction
 
@@ -82,7 +83,7 @@
 		}
 		# Bloc Cohesion requirement
 		japan_faction_cohesion_trigger = yes
-		
+
 		tgp_realm_has_ceremonial_liege_trigger = no
 
 		liege = {
@@ -103,44 +104,29 @@
 			government_has_flag = government_is_nomadic
 			is_ai = no
 		}
-		
-		# trigger_if = {
-			# limit = {
-				# faith.religion = religion:islam_religion
-				# liege = { has_title = title:d_sunni }
-				# title:d_sunni = {
-					# has_variable = dar_al_islam
-				# }
-			# }
-			# liege = {
-				# NOT = {
-					# has_title = title:d_sunni
-				# }
-			# }
-		# }
-		
+
 		# Faction is not allowed against administrative rulers
 		trigger_if = {
 			limit = {
-				scope:target = { government_allows = administrative }
+				scope:target = { government_has_mechanic = administrative }
 			}
 			scope:target = { save_temporary_scope_as = recipient }
 			custom_tooltip = {
 				text = has_admin_gov
-				NOT = { scope:target = { government_allows = administrative } }
+				NOT = { scope:target = { government_has_mechanic = administrative } }
 			}
 		}
-		
-		# Muslims vassals cannot create or join against Dar al-Islam
-		# trigger_if = {
-			# limit = {
-				# scope:target = { has_title = title:h_dar_al_islam }
-			# }
-			# custom_tooltip = {
-				# text = dar_al_islam_faction_block_desc
-				# NOT = { faith.religion = religion:islam_religion }
-			# }
-		# }
+
+		#GG Situation
+		custom_description = {
+			text = is_part_of_gg_situation_desc
+			title_province_is_part_of_gg_in_northern_italy_trigger = no
+		}
+
+		# GDP - Republics are not valid targets
+		scope:target ?= {
+			NOT = { government_has_flag = government_is_republic }
+		}
 	}
 
 	can_character_create = {
@@ -151,7 +137,7 @@
 		japan_faction_cohesion_trigger = yes
 
 		tgp_realm_has_ceremonial_liege_trigger = no
-		
+
 		liege = {
 			top_liege = this
 			NOT = { government_has_flag = government_is_theocracy }
@@ -163,50 +149,32 @@
 				}
 			}
 		}
-		
+
 		# Only powerfull vassals can create such factions and they need to have either another culture or faith
 		OR = {
 			is_powerful_vassal = yes
 			is_ai = no
 		}
-		
-		# trigger_if = {
-			# limit = {
-				# faith.religion = religion:islam_religion
-				# liege = { has_title = title:d_sunni }
-				# title:d_sunni = {
-					# has_variable = dar_al_islam
-				# }
-			# }
-			# liege = {
-				# NOT = {
-					# has_title = title:d_sunni
-				# }
-			# }
-		# }
-		
+
 		# Faction is not allowed against administrative rulers
 		trigger_if = {
 			limit = {
-				scope:target = { government_allows = administrative }
+				scope:target = { government_has_mechanic = administrative }
 			}
 			scope:target = { save_temporary_scope_as = recipient }
 			custom_tooltip = {
 				text = has_admin_gov
-				NOT = { scope:target = { government_allows = administrative } }
+				NOT = { scope:target = { government_has_mechanic = administrative } }
 			}
 		}
-		
-		# Muslims vassals cannot create or join against Dar al-Islam
-		# trigger_if = {
-			# limit = {
-				# scope:target = { has_title = title:h_dar_al_islam }
-			# }
-			# custom_tooltip = {
-				# text = dar_al_islam_faction_block_desc
-				# NOT = { faith.religion = religion:islam_religion }
-			# }
-		# }
+
+		#GG Situation
+		title_province_is_part_of_gg_in_northern_italy_trigger = no
+
+		# GDP - Republics are not valid targets
+		scope:target ?= {
+			NOT = { government_has_flag = government_is_republic }
+		}
 	}
 
 	ai_create_score = {
@@ -254,44 +222,24 @@
 		common_can_character_join_trigger = {
 			FACTION_TARGET = scope:faction.faction_target
 		}
-		
-		# trigger_if = {
-			# limit = {
-				# faith.religion = religion:islam_religion
-				# liege = { has_title = title:d_sunni }
-				# title:d_sunni = {
-					# has_variable = dar_al_islam
-				# }
-			# }
-			# liege = {
-				# NOT = {
-					# has_title = title:d_sunni
-				# }
-			# }
-		# }
-		
+
 		# Faction is not allowed against administrative rulers
 		trigger_if = {
 			limit = {
-				scope:faction.faction_target = { government_allows = administrative }
+				scope:faction.faction_target = { government_has_mechanic = administrative }
 			}
 			scope:faction.faction_target = { save_temporary_scope_as = recipient }
 			custom_tooltip = {
 				text = has_admin_gov
-				NOT = { scope:faction.faction_target = { government_allows = administrative } }
+				NOT = { scope:faction.faction_target = { government_has_mechanic = administrative } }
 			}
 		}
-		
-		# Muslims vassals cannot create or join against Dar al-Islam
-		# trigger_if = {
-			# limit = {
-				# scope:faction.faction_target = { has_title = title:h_dar_al_islam }
-			# }
-			# custom_tooltip = {
-				# text = dar_al_islam_faction_block_desc
-				# NOT = { faith.religion = religion:islam_religion }
-			# }
-		# }
+
+		#GG Situation
+		custom_description = {
+			text = is_part_of_gg_situation_desc
+			title_province_is_part_of_gg_in_northern_italy_trigger = no
+		}
 	}
 
 	can_character_become_leader = {
@@ -393,8 +341,8 @@
 	county_join_score =  {
 		base = 0
 		compare_modifier = {
-			desc = "FACTION_REASON_COUNTY_OPINION"
-			value = county_opinion
+			desc = "FACTION_REASON_POPULAR_OPINION"
+			value = popular_opinion
 			multiplier = -1.0
 		}
 	}
@@ -402,8 +350,8 @@
 	is_county_valid = {
 		holder = scope:faction.faction_target
 		OR = {
-			culture != scope:faction.faction_target.culture 
-			faith != scope:faction.faction_target.faith 
+			culture != scope:faction.faction_target.culture
+			faith != scope:faction.faction_target.faith
 		}
 	}
 

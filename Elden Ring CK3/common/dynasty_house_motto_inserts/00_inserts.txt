@@ -1019,14 +1019,6 @@ adjective_immaterial = {
 				limit = { has_trait = ambitious }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	valorous = {
@@ -1039,14 +1031,6 @@ adjective_immaterial = {
 				limit = { has_trait = brave }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	strong = {
@@ -1059,14 +1043,6 @@ adjective_immaterial = {
 				limit = { has_trait = brave }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	courageous = {
@@ -1079,14 +1055,6 @@ adjective_immaterial = {
 				limit = { has_trait = brave }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	mighty = {
@@ -1099,14 +1067,6 @@ adjective_immaterial = {
 				limit = { has_trait = brave }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	cunning = {
@@ -1119,14 +1079,6 @@ adjective_immaterial = {
 				limit = { has_trait = patient }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	bold = {
@@ -1139,14 +1091,6 @@ adjective_immaterial = {
 				limit = { has_trait = brave }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	victorious = {
@@ -1159,14 +1103,6 @@ adjective_immaterial = {
 				limit = { has_trait = ambitious }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	wise = {
@@ -1309,14 +1245,6 @@ adjective_immaterial = {
 				limit = { learning = 20 }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 1.25
-			# }
 		}
 	}
 	loving = {
@@ -1336,14 +1264,6 @@ adjective_immaterial = {
 				limit = { has_trait = trusting }
 				multiply = 2
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	loyal = {
@@ -1404,14 +1324,6 @@ adjective_immaterial = {
 				limit = { has_trait = humble }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	brave = {
@@ -1424,22 +1336,14 @@ adjective_immaterial = {
 				limit = { has_trait = brave }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	calm = {
-		# trigger = {
-			# faith = {
-				# religion = { is_in_family = rf_eastern }
-			# }
-		# }
+		trigger = {
+			faith = {
+				religion = { is_in_family = rf_crucible }
+			}
+		}
 		weight = {
 			value = 1250
 			if = {
@@ -1591,14 +1495,6 @@ the_adjective_immaterial = {
 				limit = { has_trait = ambitious }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	the_valorous = {
@@ -1611,14 +1507,6 @@ the_adjective_immaterial = {
 				limit = { has_trait = brave }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	the_strong = {
@@ -1631,14 +1519,6 @@ the_adjective_immaterial = {
 				limit = { has_trait = brave }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	the_courageous = {
@@ -1651,14 +1531,6 @@ the_adjective_immaterial = {
 				limit = { has_trait = brave }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	the_mighty = {
@@ -1671,14 +1543,6 @@ the_adjective_immaterial = {
 				limit = { has_trait = brave }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	the_cunning = {
@@ -1691,14 +1555,6 @@ the_adjective_immaterial = {
 				limit = { has_trait = patient }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	the_bold = {
@@ -1711,14 +1567,6 @@ the_adjective_immaterial = {
 				limit = { has_trait = brave }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	the_victorious = {
@@ -1731,14 +1579,6 @@ the_adjective_immaterial = {
 				limit = { has_trait = ambitious }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	the_wise = {
@@ -1881,14 +1721,6 @@ the_adjective_immaterial = {
 				limit = { learning = 20 }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 1.25
-			# }
 		}
 	}
 	the_loving = {
@@ -1980,22 +1812,14 @@ the_adjective_immaterial = {
 				limit = { has_trait = brave }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	the_calm = {
-		# trigger = {
-			# faith = {
-				# religion = { is_in_family = rf_eastern }
-			# }
-		# }
+		trigger = {
+			faith = {
+				religion = { is_in_family = rf_crucible }
+			}
+		}
 		weight = {
 			value = 1250
 			if = {
@@ -2172,14 +1996,6 @@ adjective_immaterial_a_or_an = {
 				limit = { has_trait = brave }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	a_courageous = {
@@ -2192,14 +2008,6 @@ adjective_immaterial_a_or_an = {
 				limit = { has_trait = brave }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	a_mighty = {
@@ -2212,14 +2020,6 @@ adjective_immaterial_a_or_an = {
 				limit = { has_trait = brave }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	a_cunning = {
@@ -2232,14 +2032,6 @@ adjective_immaterial_a_or_an = {
 				limit = { has_trait = patient }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	a_bold = {
@@ -2252,14 +2044,6 @@ adjective_immaterial_a_or_an = {
 				limit = { has_trait = brave }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	a_victorious = {
@@ -2272,14 +2056,6 @@ adjective_immaterial_a_or_an = {
 				limit = { has_trait = ambitious }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	a_wise = {
@@ -2352,13 +2128,6 @@ adjective_immaterial_a_or_an = {
 		weight = {
 			value = 1000
 			if = {
-				limit = { has_trait = diligent }
-				multiply = 3
-			}
-		}
-		weight = {
-			value = 1000
-			if = {
 				limit = { has_trait = stubborn }
 				multiply = 3
 			}
@@ -2422,14 +2191,6 @@ adjective_immaterial_a_or_an = {
 				limit = { learning = 20 }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 1.25
-			# }
 		}
 	}
 	a_loving = {
@@ -2521,22 +2282,14 @@ adjective_immaterial_a_or_an = {
 				limit = { has_trait = brave }
 				multiply = 3
 			}
-			# if = {
-				# limit = {
-					# faith = {
-						# religion = { is_in_family = rf_eastern }
-					# }
-				# }
-				# multiply = 0.1
-			# }
 		}
 	}
 	a_calm = {
-		# trigger = {
-			# faith = {
-				# religion = { is_in_family = rf_eastern }
-			# }
-		# }
+		trigger = {
+			faith = {
+				religion = { is_in_family = rf_crucible }
+			}
+		}
 		weight = {
 			value = 1250
 			if = {
@@ -2937,7 +2690,7 @@ the_weapon = {
 		trigger = {
 			OR = {
 				learning = 8
-				has_trait = scholar
+				has_trait = erudite
 			}
 		}
 		weight = {
@@ -3004,13 +2757,6 @@ creature = {
 		}
 	}
 	hound = {
-		# trigger = {
-			# faith = {
-				# NOT = {
-					# religion_tag = islam_religion
-				# }
-			# }
-		# }
 	}
 	horse = {
 		weight = {
@@ -3120,13 +2866,6 @@ the_creature = {
 		}
 	}
 	the_hound = {
-		# trigger = {
-			# faith = {
-				# NOT = {
-					# religion_tag = islam_religion
-				# }
-			# }
-		# }
 	}
 	the_horse = {
 		weight = {
