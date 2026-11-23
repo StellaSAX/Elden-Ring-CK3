@@ -1,4 +1,4 @@
-﻿elden_ring_elden_lord_crown_effect = {
+﻿er_elden_lord_crown_effect = {
 	$OWNER$ = {
 		save_scope_as = owner
 	}
@@ -40,7 +40,7 @@
 	}
 }
 
-elden_ring_godrick_crown_effect = {
+er_godrick_crown_effect = {
 	$OWNER$ = {
 		save_scope_as = owner
 	}

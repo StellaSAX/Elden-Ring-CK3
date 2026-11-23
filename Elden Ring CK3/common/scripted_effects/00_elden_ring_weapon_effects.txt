@@ -1,4 +1,4 @@
-﻿elden_ring_ruins_greatsword_effect = {
+﻿er_ruins_greatsword_effect = {
 	$OWNER$ = {
 		save_scope_as = owner
 	}
@@ -59,7 +59,7 @@
 	}
 }
 
-elden_ring_axe_of_godfrey_effect = {
+er_axe_of_godfrey_effect = {
 	$OWNER$ = {
 		save_scope_as = owner
 	}
@@ -122,7 +122,7 @@ elden_ring_axe_of_godfrey_effect = {
 	}
 }
 
-elden_ring_axe_of_godrick_effect = {
+er_axe_of_godrick_effect = {
 	$OWNER$ = {
 		save_scope_as = owner
 	}
@@ -184,386 +184,24 @@ elden_ring_axe_of_godrick_effect = {
 	}
 }
 
-#A couple of cool swords from https://steamcommunity.com/sharedfiles/filedetails/?id=3291320135 by https://steamcommunity.com/id/pegasus2137
-elden_steel_create_artifact_WP_A_0203_effect = { #Banished Knight's Greatsword 
+er_banished_knight_greatsword_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	$CREATOR$ = { save_scope_as = creator }
-	set_artifact_rarity_illustrious = yes
+	set_artifact_rarity_masterwork = yes
 	create_artifact = {
-		name = WP_A_0203_name
-		description = WP_A_0203_description
-		visuals = WP_A_0203
+		name = banished_knight_greatsword_name
+		description = banished_knight_greatsword_description
+		visuals = banished_knight_greatsword_visual
 		type = sword
 		wealth = scope:wealth
 		quality = scope:quality
-		template = general_unique_template
-		modifier = WP_A_0203_modifier
+		template = er_generic_greatsword_template
+		modifier = banished_knight_greatsword_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
 	}
 	scope:newly_created_artifact ?= {
 		equip_artifact_to_owner_replace = yes
-		set_variable = {
-			name = elden_steel
-			value = yes
-		}
-		set_variable = {
-			name = WP_A_0203_artifact
-			value = yes
-		}
-		set_variable = {
-			name = historical_unique_artifact
-			value = yes
-		}
-	}
-}
-elden_steel_create_artifact_WP_A_0207_effect = { #Lordsworn's Straight Sword
-	$OWNER$ = { save_scope_as = owner }
-	$CREATOR$ = { save_scope_as = creator }
-	set_artifact_rarity_illustrious = yes
-	create_artifact = {
-		name = WP_A_0207_name
-		description = WP_A_0207_description
-		visuals = WP_A_0207
-		type = sword
-		wealth = scope:wealth
-		quality = scope:quality
-		template = general_unique_template
-		modifier = WP_A_0207_modifier
-		save_scope_as = newly_created_artifact
-		decaying = no
-	}
-	scope:newly_created_artifact ?= {
-		equip_artifact_to_owner_replace = yes
-		set_variable = {
-			name = elden_steel
-			value = yes
-		}
-		set_variable = {
-			name = WP_A_0207_artifact
-			value = yes
-		}
-		set_variable = {
-			name = historical_unique_artifact
-			value = yes
-		}
-	}
-}
-elden_steel_create_artifact_WP_A_0211_effect = { #Noble's Slender Sword
-	$OWNER$ = { save_scope_as = owner }
-	$CREATOR$ = { save_scope_as = creator }
-	set_artifact_rarity_illustrious = yes
-	create_artifact = {
-		name = WP_A_0211_name
-		description = WP_A_0211_description
-		visuals = WP_A_0211
-		type = sword
-		wealth = scope:wealth
-		quality = scope:quality
-		template = general_unique_template
-		modifier = WP_A_0211_modifier
-		save_scope_as = newly_created_artifact
-		decaying = no
-	}
-	scope:newly_created_artifact ?= {
-		equip_artifact_to_owner_replace = yes
-		set_variable = {
-			name = elden_steel
-			value = yes
-		}
-		set_variable = {
-			name = WP_A_0211_artifact
-			value = yes
-		}
-		set_variable = {
-			name = historical_unique_artifact
-			value = yes
-		}
-	}
-}
-elden_steel_create_artifact_WP_A_0215_effect = { #Ornamental Straight Sword
-	$OWNER$ = { save_scope_as = owner }
-	$CREATOR$ = { save_scope_as = creator }
-	set_artifact_rarity_illustrious = yes
-	create_artifact = {
-		name = WP_A_0215_name
-		description = WP_A_0215_description
-		visuals = WP_A_0215
-		type = sword
-		wealth = scope:wealth
-		quality = scope:quality
-		template = general_unique_template
-		modifier = WP_A_0215_modifier
-		save_scope_as = newly_created_artifact
-		decaying = no
-	}
-	scope:newly_created_artifact ?= {
-		equip_artifact_to_owner_replace = yes
-		set_variable = {
-			name = elden_steel
-			value = yes
-		}
-		set_variable = {
-			name = WP_A_0215_artifact
-			value = yes
-		}
-		set_variable = {
-			name = historical_unique_artifact
-			value = yes
-		}
-	}
-}
-elden_steel_create_artifact_WP_A_0227_effect = { #Carian Knight's Sword
-	$OWNER$ = { save_scope_as = owner }
-	$CREATOR$ = { save_scope_as = creator }
-	set_artifact_rarity_illustrious = yes
-	create_artifact = {
-		name = WP_A_0227_name
-		description = WP_A_0227_description
-		visuals = WP_A_0227
-		type = sword
-		wealth = scope:wealth
-		quality = scope:quality
-		template = general_unique_template
-		modifier = WP_A_0227_modifier
-		save_scope_as = newly_created_artifact
-		decaying = no
-	}
-	scope:newly_created_artifact ?= {
-		equip_artifact_to_owner_replace = yes
-		set_variable = {
-			name = elden_steel
-			value = yes
-		}
-		set_variable = {
-			name = WP_A_0227_artifact
-			value = yes
-		}
-		set_variable = {
-			name = historical_unique_artifact
-			value = yes
-		}
-	}
-}
-elden_steel_create_artifact_WP_A_0229_effect = { #Miquellan Knight's Sword
-	$OWNER$ = { save_scope_as = owner }
-	$CREATOR$ = { save_scope_as = creator }
-	set_artifact_rarity_illustrious = yes
-	create_artifact = {
-		name = WP_A_0229_name
-		description = WP_A_0229_description
-		#visuals = WP_A_0229
-		visuals = ruins_greatsword_visual
-		type = sword
-		wealth = scope:wealth
-		quality = scope:quality
-		template = general_unique_template
-		#modifier = WP_A_0229_modifier
-		save_scope_as = newly_created_artifact
-		decaying = no
-	}
-	scope:newly_created_artifact ?= {
-		equip_artifact_to_owner_replace = yes
-		set_variable = {
-			name = elden_steel
-			value = yes
-		}
-		set_variable = {
-			name = WP_A_0229_artifact
-			value = yes
-		}
-		set_variable = {
-			name = historical_unique_artifact
-			value = yes
-		}
-	}
-}
-elden_steel_create_artifact_WP_A_0230_effect = { #Sword of St Trina
-	$OWNER$ = { save_scope_as = owner }
-	$CREATOR$ = { save_scope_as = creator }
-	set_artifact_rarity_illustrious = yes
-	create_artifact = {
-		name = WP_A_0230_name
-		description = WP_A_0230_description
-		visuals = WP_A_0230
-		type = sword
-		wealth = scope:wealth
-		quality = scope:quality
-		template = general_unique_template
-		modifier = WP_A_0230_modifier
-		save_scope_as = newly_created_artifact
-		decaying = no
-	}
-	scope:newly_created_artifact ?= {
-		equip_artifact_to_owner_replace = yes
-		set_variable = {
-			name = elden_steel
-			value = yes
-		}
-		set_variable = {
-			name = WP_A_0230_artifact
-			value = yes
-		}
-		set_variable = {
-			name = historical_unique_artifact
-			value = yes
-		}
-	}
-}
-elden_steel_create_artifact_WP_A_0251_effect = { #Rogier's Rapier
-	$OWNER$ = { save_scope_as = owner }
-	$CREATOR$ = { save_scope_as = creator }
-	set_artifact_rarity_illustrious = yes
-	create_artifact = {
-		name = WP_A_0251_name
-		description = WP_A_0251_description
-		visuals = WP_A_0251
-		type = sword
-		wealth = scope:wealth
-		quality = scope:quality
-		template = general_unique_template
-		modifier = WP_A_0251_modifier
-		save_scope_as = newly_created_artifact
-		decaying = no
-	}
-	scope:newly_created_artifact ?= {
-		equip_artifact_to_owner_replace = yes
-		set_variable = {
-			name = elden_steel
-			value = yes
-		}
-		set_variable = {
-			name = WP_A_0251_artifact
-			value = yes
-		}
-		set_variable = {
-			name = historical_unique_artifact
-			value = yes
-		}
-	}
-}
-elden_steel_create_artifact_WP_A_0607_effect = { #Lordsworn's Greatsword
-	$OWNER$ = { save_scope_as = owner }
-	$CREATOR$ = { save_scope_as = creator }
-	set_artifact_rarity_illustrious = yes
-	create_artifact = {
-		name = WP_A_0607_name
-		description = WP_A_0607_description
-		visuals = WP_A_0607
-		type = sword
-		wealth = scope:wealth
-		quality = scope:quality
-		template = general_unique_template
-		modifier = WP_A_0607_modifier
-		save_scope_as = newly_created_artifact
-		decaying = no
-	}
-	scope:newly_created_artifact ?= {
-		equip_artifact_to_owner_replace = yes
-		set_variable = {
-			name = elden_steel
-			value = yes
-		}
-		set_variable = {
-			name = WP_A_0607_artifact
-			value = yes
-		}
-		set_variable = {
-			name = historical_unique_artifact
-			value = yes
-		}
-	}
-}
-elden_steel_create_artifact_WP_A_0609_effect = { #Knight's Greatsword
-	$OWNER$ = { save_scope_as = owner }
-	$CREATOR$ = { save_scope_as = creator }
-	set_artifact_rarity_illustrious = yes
-	create_artifact = {
-		name = WP_A_0609_name
-		description = WP_A_0609_description
-		visuals = WP_A_0609
-		type = sword
-		wealth = scope:wealth
-		quality = scope:quality
-		template = general_unique_template
-		modifier = WP_A_0609_modifier
-		save_scope_as = newly_created_artifact
-		decaying = no
-	}
-	scope:newly_created_artifact ?= {
-		equip_artifact_to_owner_replace = yes
-		set_variable = {
-			name = elden_steel
-			value = yes
-		}
-		set_variable = {
-			name = WP_A_0609_artifact
-			value = yes
-		}
-		set_variable = {
-			name = historical_unique_artifact
-			value = yes
-		}
-	}
-}
-elden_steel_create_artifact_WP_A_0626_effect = { #Dark Moon Greatsword
-	$OWNER$ = { save_scope_as = owner }
-	$CREATOR$ = { save_scope_as = creator }
-	set_artifact_rarity_illustrious = yes
-	create_artifact = {
-		name = WP_A_0626_name
-		description = WP_A_0626_description
-		visuals = WP_A_0626
-		type = sword
-		wealth = scope:wealth
-		quality = scope:quality
-		template = general_unique_template
-		modifier = WP_A_0626_modifier
-		save_scope_as = newly_created_artifact
-		decaying = no
-	}
-	scope:newly_created_artifact ?= {
-		equip_artifact_to_owner_replace = yes
-		set_variable = {
-			name = elden_steel
-			value = yes
-		}
-		set_variable = {
-			name = WP_A_0626_artifact
-			value = yes
-		}
-		set_variable = {
-			name = historical_unique_artifact
-			value = yes
-		}
-	}
-}
-elden_steel_create_artifact_WP_A_0617_effect = { #Grafted Blade Greatsword
-	$OWNER$ = { save_scope_as = owner }
-	$CREATOR$ = { save_scope_as = creator }
-	set_artifact_rarity_illustrious = yes
-	create_artifact = {
-		name = WP_A_0617_name
-		description = WP_A_0617_description
-		visuals = WP_A_0617
-		type = sword
-		wealth = scope:wealth
-		quality = scope:quality
-		template = general_unique_template
-		modifier = WP_A_0617_modifier
-		save_scope_as = newly_created_artifact
-		decaying = no
-	}
-	scope:newly_created_artifact ?= {
-		equip_artifact_to_owner_replace = yes
-		set_variable = {
-			name = elden_steel
-			value = yes
-		}
-		set_variable = {
-			name = WP_A_0617_artifact
-			value = yes
-		}
 		set_variable = {
 			name = historical_unique_artifact
 			value = yes
@@ -571,26 +209,119 @@ elden_steel_create_artifact_WP_A_0617_effect = { #Grafted Blade Greatsword
 	}
 }
 
-
-elden_ring_miquella_sword = {
-	$OWNER$ = {
-		save_scope_as = owner
+er_lordsworn_straight_sword_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	$CREATOR$ = { save_scope_as = creator }
+	set_artifact_rarity_masterwork = yes
+	create_artifact = {
+		name = lordsworn_straight_sword_name
+		description = lordsworn_straight_sword_description
+		visuals = lordsworn_straight_sword_visual
+		type = sword
+		wealth = scope:wealth
+		quality = scope:quality
+		template = er_generic_sword_template
+		modifier = lordsworn_straight_sword_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
 	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+	}
+}
+
+er_noble_slender_sword_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	$CREATOR$ = { save_scope_as = creator }
+	set_artifact_rarity_masterwork = yes
+	create_artifact = {
+		name = noble_slender_sword_name
+		description = noble_slender_sword_description
+		visuals = noble_slender_sword_visual
+		type = sword
+		wealth = scope:wealth
+		quality = scope:quality
+		template = er_generic_sword_template
+		modifier = noble_slender_sword_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+	}
+}
+
+er_ornamental_straight_sword_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	$CREATOR$ = { save_scope_as = creator }
+	set_artifact_rarity_masterwork = yes
+	create_artifact = {
+		name = ornamental_straight_sword_name
+		description = ornamental_straight_sword_description
+		visuals = ornamental_straight_sword_visual
+		type = sword
+		wealth = scope:wealth
+		quality = scope:quality
+		template = er_generic_sword_template
+		modifier = ornamental_straight_sword_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+	}
+}
+
+er_carian_knight_sword_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	$CREATOR$ = { save_scope_as = creator }
+	set_artifact_rarity_masterwork = yes
+	create_artifact = {
+		name = carian_knight_sword_name
+		description = carian_knight_sword_description
+		visuals = carian_knight_sword_visual
+		type = sword
+		wealth = scope:wealth
+		quality = scope:quality
+		template = er_generic_sword_template
+		modifier = carian_knight_sword_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+	}
+}
+
+er_miquellan_knight_sword_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	$CREATOR$ = { save_scope_as = creator }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
-		name = axe_of_godfrey_name
-		visuals = WP_A_0229
-		description = axe_of_godfrey_description
+		name = miquellan_knight_sword_name
+		description = miquellan_knight_sword_description
+		visuals = miquellan_knight_sword_visual
 		type = sword
 		wealth = scope:wealth
 		quality = scope:quality
-		template = special_sword_template
-		modifier = artifact_prowess_18_modifier
-		modifier = artifact_pursue_efficiency_3_modifier
-		modifier = artifact_uncontrolled_province_advantage_10_modifier
-		modifier = artifact_men_at_arms_maintenance_5_modifier
-		modifier = artifact_glory_hound_vassal_opinion_5_modifier
-		modifier = artifact_monthly_prestige_20_modifier
+		template = er_generic_sword_template
+		modifier = miquellan_knight_sword_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
 	}
@@ -600,31 +331,155 @@ elden_ring_miquella_sword = {
 			name = historical_unique_artifact
 			value = yes
 		}
-		
+	}
+}
+
+er_sword_of_st_trina_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	$CREATOR$ = { save_scope_as = creator }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = sword_of_st_trina_name
+		description = sword_of_st_trina_description
+		visuals = sword_of_st_trina_visual
+		type = sword
+		wealth = scope:wealth
+		quality = scope:quality
+		template = er_generic_sword_template
+		modifier = sword_of_st_trina_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
 		set_variable = {
-			name = prowess_upgrade
-			value = 0
-		}
-		set_variable = {
-			name = diplomacy_upgrade
-			value = 0
-		}
-		set_variable = {
-			name = martial_upgrade
-			value = 0
-		}
-		set_variable = {
-			name = stewardship_upgrade
-			value = 0
-		}
-		set_variable = {
-			name = intrigue_upgrade
-			value = 0
-		}
-		set_variable = {
-			name = learning_upgrade
-			value = 0
+			name = historical_unique_artifact
+			value = yes
 		}
 	}
 }
 
+er_rogier_rapier_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	$CREATOR$ = { save_scope_as = creator }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = rogier_rapier_name
+		description = rogier_rapier_description
+		visuals = rogier_rapier_visual
+		type = sword
+		wealth = scope:wealth
+		quality = scope:quality
+		template = er_generic_sword_template
+		modifier = rogier_rapier_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+	}
+}
+
+er_lordsworn_greatsword_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	$CREATOR$ = { save_scope_as = creator }
+	set_artifact_rarity_masterwork = yes
+	create_artifact = {
+		name = lordsworn_greatsword_name
+		description = lordsworn_greatsword_description
+		visuals = lordsworn_greatsword_visual
+		type = sword
+		wealth = scope:wealth
+		quality = scope:quality
+		template = er_generic_greatsword_template
+		modifier = lordsworn_greatsword_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+	}
+}
+
+er_knight_greatsword_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	$CREATOR$ = { save_scope_as = creator }
+	set_artifact_rarity_masterwork = yes
+	create_artifact = {
+		name = knight_greatsword_name
+		description = knight_greatsword_description
+		visuals = knight_greatsword_visual
+		type = sword
+		wealth = scope:wealth
+		quality = scope:quality
+		template = er_generic_greatsword_template
+		modifier = knight_greatsword_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+	}
+}
+
+er_grafted_blade_greatsword_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	$CREATOR$ = { save_scope_as = creator }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = grafted_blade_greatsword_name
+		description = grafted_blade_greatsword_description
+		visuals = grafted_blade_greatsword_visual
+		type = sword
+		wealth = scope:wealth
+		quality = scope:quality
+		template = grafted_blade_greatsword_template
+		modifier = grafted_blade_greatsword_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+	}
+}
+
+er_dark_moon_greatsword_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	$CREATOR$ = { save_scope_as = creator }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = dark_moon_greatsword_name
+		description = dark_moon_greatsword_description
+		visuals = dark_moon_greatsword_visual
+		type = sword
+		wealth = scope:wealth
+		quality = scope:quality
+		template = dark_moon_greatsword_template
+		modifier = dark_moon_greatsword_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+	}
+}

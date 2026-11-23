@@ -4,6 +4,7 @@
 		reference = "gfx/interface/illustrations/decisions/decision_smith.dds"
 	}
 	is_shown = {
+		always = no #disabled for now. i intend for there to be a better way to acquire common elden ring weapons. more unique weapons will be a seperate matter.
 		NOT = {
 			any_character_artifact = {
 				has_variable = crafted_special_sword_elden_ring

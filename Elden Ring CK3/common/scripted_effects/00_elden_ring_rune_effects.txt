@@ -1,4 +1,4 @@
-﻿elden_ring_greatrune_godrick_effect = {
+﻿er_greatrune_godrick_effect = {
 	$OWNER$ = {
 		save_scope_as = owner
 	}
@@ -40,7 +40,7 @@
 	}
 }
 
-elden_ring_eldenrune_death_effect = {
+er_eldenrune_death_effect = {
 	$OWNER$ = {
 		save_scope_as = owner
 	}
