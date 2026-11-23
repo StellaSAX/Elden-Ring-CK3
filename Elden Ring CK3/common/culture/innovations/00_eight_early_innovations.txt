@@ -33,40 +33,25 @@
 @farm = "gfx/interface/icons/culture_innovations/innovation_farm.dds"
 @plenary_assemblies = "gfx/interface/icons/culture_innovations/innovation_plenary_assemblies.dds"
 @siege_crossbow = "gfx/interface/icons/culture_innovations/innovation_auh_ballista.dds"
-
-
+@sericulture = "gfx/interface/icons/culture_innovations/innovation_sericulture.dds"
+@weaver = "gfx/interface/icons/culture_innovations/gdp_innovation_persian_weaver.dds"
+@wine = "gfx/interface/icons/culture_innovations/gdp_innovation_wine.dds"
+@navigator = "gfx/interface/icons/culture_innovations/gdp_innovation_navigator.dds"
+@miner = "gfx/interface/icons/culture_innovations/gdp_innovation_miner.dds"
+@merchant = "gfx/interface/icons/culture_innovations/gdp_innovation_merchant_deal.dds"
+@stockfisk = "gfx/interface/icons/culture_innovations/gdp_innovation_stockfish.dds"
 @camel = "gfx/interface/icons/culture_innovations/innovation_camel.dds"
 @elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
 
 
-
-### culture_group_military ###
-
+#culture_group_military
 innovation_motte = { # Earthworks in-game
 	skill = stewardship
 	group = culture_group_military
 	culture_era = culture_era_eight_millenium_early
 	icon = @fortifications
-
-	asset = {
-		trigger = {
-			OR = {
-				has_cultural_pillar = heritage_frankish
-				has_cultural_pillar = heritage_central_germanic
-				has_cultural_pillar = heritage_west_germanic
-				has_cultural_pillar = heritage_north_germanic
-				has_cultural_pillar = heritage_iberian
-				has_cultural_pillar = heritage_brythonic
-				has_cultural_pillar = heritage_goidelic
-				has_cultural_pillar = heritage_latin
-				has_cultural_pillar = heritage_west_slavic
-			}
-		}
-		icon = @fortifications
-		name = innovation_motte_actual_motte
-	}
 
 	custom = unlock_tribal_fortification_buildings
 
@@ -75,7 +60,7 @@ innovation_motte = { # Earthworks in-game
 	}
 
 	flag = global_regular
-	#flag = tribal_era_regular
+	flag = tribal_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -88,10 +73,11 @@ innovation_catapult = {
 	culture_era = culture_era_eight_millenium_early
 	icon = @siege_weapons
 
-	custom = unlock_maa_onager
+	custom = unlock_siege_maa_first_level
+	custom = unlock_catapult_buildings
 
 	flag = global_regular
-	#flag = tribal_era_regular
+	flag = tribal_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -103,15 +89,14 @@ innovation_barracks = {
 	group = culture_group_military
 	culture_era = culture_era_eight_millenium_early
 	icon = @levy_building
-
-	custom = unlock_tribal_military_buildings
+	custom = unlock_barracks_buildings
 
 	character_modifier = {
 		herd_capacity_mult = 0.05
 	}
 
 	flag = global_regular
-	#flag = tribal_era_regular
+	flag = tribal_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -130,7 +115,7 @@ innovation_mustering_grounds = {
 	}
 
 	flag = global_regular
-	#flag = tribal_era_regular
+	flag = tribal_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -153,7 +138,7 @@ innovation_bannus = {
 	}
 
 	flag = global_regular
-	#flag = tribal_era_regular
+	flag = tribal_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -170,31 +155,63 @@ innovation_quilted_armor = {
 	custom = eligible_accolade_vanguard_attribute
 
 	character_modifier = {
+		skirmishers_toughness_mult = 0.05
+		heavy_infantry_toughness_mult = 0.05
 		nomadic_horde_toughness_mult = 0.02
 	}
 
 	flag = global_regular
-	#flag = tribal_era_regular
+	flag = tribal_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
 	}
 }
 
-innovation_development_01 = {
+innovation_pattern_welding = {
+	skill = martial
+	group = culture_group_military
+	culture_era = culture_era_eight_millenium_early
+	icon = @weapons_and_armor_01
+
+	character_modifier = {
+		skirmishers_damage_mult = 0.05
+		skirmishers_maintenance_mult = 0.05
+		light_cavalry_damage_mult = 0.05
+		light_cavalry_maintenance_mult = 0.05
+		heavy_infantry_damage_mult = 0.05
+		heavy_infantry_maintenance_mult = 0.05
+		#knight_infantry_damage_mult = 0.05
+		#knight_infantry_maintenance_mult = 0.05
+	}
+
+	flag = global_regular
+	flag = tribal_era_regular
+	
+	ai_weight_for_fascination = {
+		value = 100
+	}
+}
+
+innovation_prosperity_01 = {
 	skill = stewardship
 	group = culture_group_civic
 	culture_era = culture_era_eight_millenium_early
 	icon = @civil_construction_1
 
 	custom = reduce_develop_county_penalty_01
+	custom = unlock_prosperity_01_buildings
 
 	character_modifier = {
 		county_fertility_growth_mult = 0.05
 	}
 
+	province_modifier = {
+		monthly_province_size_change_when_below_baseline_mult = 0.1
+	}
+
 	flag = global_regular
-	#flag = tribal_era_regular
+	flag = tribal_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -208,20 +225,19 @@ innovation_currency_01 = {
 	icon = @currency
 
 	character_modifier = {
-		development_growth_factor = 0.1
+		prosperity_growth_factor = 0.05
 		monthly_income_from_herd_mult = 0.05
 	}
 
 	flag = global_regular
-	#flag = tribal_era_regular
+	flag = tribal_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
 	}
 }
 
-### culture_group_civic ###
-
+#culture_group_civic
 innovation_gavelkind = {
 	skill = diplomacy
 	group = culture_group_civic
@@ -235,7 +251,7 @@ innovation_gavelkind = {
 	}
 
 	flag = global_regular
-	#flag = tribal_era_regular
+	flag = tribal_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -254,8 +270,12 @@ innovation_crop_rotation = {
 		county_fertility_growth_mult = 0.05
 	}
 
+	county_modifier = {
+		trade_category_cereals_production_mult = 0.1
+	}
+
 	flag = global_regular
-	#flag = tribal_era_regular
+	flag = tribal_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -268,18 +288,19 @@ innovation_city_planning = {
 	culture_era = culture_era_eight_millenium_early
 	icon = @civil_construction_2
 
-	unlock_building = city_01
-	unlock_building = temple_01
-	unlock_building = monastic_schools_01
-	unlock_building = megalith_01
-	unlock_building = market_villages_01
+	custom = unlock_city_planning_holdings
 
 	character_modifier = {
 		herd_capacity_mult = 0.05
+		urban_housing_district_district_build_gold_cost = -0.05
+	}
+
+	county_modifier = {
+		urban_tax_mult = 0.015
 	}
 
 	flag = global_regular
-	#flag = tribal_era_regular
+	flag = tribal_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -296,7 +317,7 @@ innovation_casus_belli = {
 	unlock_casus_belli = individual_duchy_de_jure_cb
 
 	flag = global_regular
-	#flag = tribal_era_regular
+	flag = tribal_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -311,14 +332,14 @@ innovation_plenary_assemblies = {
 
 	unlock_law = crown_authority_1
 
-	unlock_building = tribe_02
+	custom = unlock_plenary_assemblies_building
 
 	character_modifier = {
 		vassal_herd_contribution_mult = 0.02
 	}
 
 	flag = global_regular
-	#flag = tribal_era_regular
+	flag = tribal_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -330,36 +351,17 @@ innovation_ledger = {
 	group = culture_group_civic
 	culture_era = culture_era_eight_millenium_early
 	icon = @administration_2
+	custom = unlock_ledger_buildings
 
 	county_modifier = {
-		building_slot_add = 1
+		prosperity_growth_factor = 0.05
 	}
 	character_modifier = {
 		monthly_income_from_herd_mult = 0.05
 	}
 
 	flag = global_regular
-	#flag = tribal_era_regular
-	
-	ai_weight_for_fascination = {
-		value = 100
-	}
-}
-
-innovation_all_things = {
-	skill = diplomacy
-	group = culture_group_civic
-	culture_era = culture_era_eight_millenium_early
-	icon = @raised_banner
-
-	potential = { has_fp1_dlc_trigger = yes }
-
-	custom = unlocks_authority_cooldown_breaking
-	custom = more_belligerents
-	character_modifier = { tribal_government_vassal_opinion = 5 }
-
-	flag = global_regular
-	#flag = tribal_era_regional
+	flag = tribal_era_regular
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -370,7 +372,7 @@ innovation_all_things = {
 
 innovation_table_of_princes = {
 	skill = diplomacy
-	group = culture_group_regional
+	group = culture_group_civic
 	culture_era = culture_era_eight_millenium_early
 	region = region_caria
 	icon = @nobility_01
@@ -379,7 +381,7 @@ innovation_table_of_princes = {
 	custom = unlock_single_heir_dynasty_house_changing
 	
 	flag = global_regional
-	#flag = tribal_era_regional
+	flag = tribal_era_regional
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -388,7 +390,7 @@ innovation_table_of_princes = {
 
 innovation_longboats = {
 	skill = martial
-	group = culture_group_regional
+	group = culture_group_military
 	culture_era = culture_era_eight_millenium_early
 	region = world_liurnia
 	icon = @longboats
@@ -403,7 +405,7 @@ innovation_longboats = {
 	custom = unlocks_adventure_intent
 
 	flag = global_regional
-	#flag = tribal_era_regional
+	flag = tribal_era_regional
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -412,19 +414,23 @@ innovation_longboats = {
 
 innovation_elephantry = {
 	skill = stewardship
-	group = culture_group_regional
+	group = culture_group_military
 	culture_era = culture_era_eight_millenium_early
 	region = world_mountaintops
 	icon = @elephant
 
-	unlock_building = elephant_pens_01
+	unlock_building = elephantry_barracks_1
+
+	parameters = {
+		royal_elephant_stables = yes
+	}
 
 	custom = eligible_accolade_elephantry_attribute
 	custom = domicile_building_parameter_camp_reinforce_elephant_regiments_anywhere
 
 	flag = global_regional
-	#flag = tribal_era_regional
-	
+	flag = tribal_era_regional
+
 	ai_weight_for_fascination = {
 		value = 100
 	}
@@ -432,18 +438,44 @@ innovation_elephantry = {
 
 innovation_war_camels = {
 	skill = stewardship
-	group = culture_group_regional
+	group = culture_group_military
 	culture_era = culture_era_eight_millenium_early
 	region = world_caelid
 	icon = @camel
 
 	unlock_maa = camel_rider
-	unlock_building = camel_farms_01
+	unlock_building = camelry_compound_1
+
+	parameters = {
+		royal_camel_stables = yes
+	}
 
 	custom = eligible_accolade_camelry_attribute
 
 	flag = global_regional
-	#flag = tribal_era_regional
+	flag = tribal_era_regional
+	
+	ai_weight_for_fascination = {
+		value = 100
+	}
+}
+
+innovation_carpet_weaving = {
+	skill = stewardship
+	group = culture_group_civic
+	culture_era = culture_era_eight_millenium_early
+	region = world_haligtree
+	icon = @weaver
+
+	custom = unlock_carpet_weaving_buildings
+
+	county_modifier = {
+		artisan_tax_mult = 0.05
+		trade_good_textiles_production_mult = 0.15
+	}
+
+	flag = global_regional
+	flag = tribal_era_regional
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -452,7 +484,7 @@ innovation_war_camels = {
 
 innovation_wootz_steel = {
 	skill = learning
-	group = culture_group_regional
+	group = culture_group_civic
 	culture_era = culture_era_eight_millenium_early
 	region = world_leyndell
 	icon = @weapons_and_armor_01
@@ -463,7 +495,7 @@ innovation_wootz_steel = {
 	custom = unlock_wind_furnaces
 
 	flag = global_regional
-	#flag = tribal_era_regional
+	flag = tribal_era_regional
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -472,7 +504,7 @@ innovation_wootz_steel = {
 
 innovation_african_canoes = {
 	skill = martial
-	group = culture_group_regional
+	group = culture_group_military
 	culture_era = culture_era_eight_millenium_early
 	region = world_liurnia
 	icon = @majesty_01
@@ -486,8 +518,101 @@ innovation_african_canoes = {
 	custom = unlocks_sailable_major_rivers
 
 	flag = global_regional
-	#flag = tribal_era_regional
+	flag = tribal_era_regional
 	
+	ai_weight_for_fascination = {
+		value = 100
+	}
+}
+
+innovation_mead_brewing = {
+	skill = stewardship
+	group = culture_group_civic
+	culture_era = culture_era_eight_millenium_early
+	region = world_limgrave
+	icon = @wine
+
+	county_modifier = {
+		artisan_tax_mult = 0.05
+		trade_good_beer_production_mult = 0.15
+	}
+
+	parameters = {
+		unlocks_mead_brewery = yes
+	}
+
+	flag = global_regional
+	flag = tribal_era_regional
+
+	ai_weight_for_fascination = {
+		value = 50
+	}
+}
+
+innovation_stockfisk = {
+	skill = stewardship
+	group = culture_group_civic
+	culture_era = culture_era_eight_millenium_early
+	region = world_liurnia
+	icon = @stockfisk
+
+	#potential = {
+	#	has_cultural_pillar = heritage_north_germanic
+	#}
+
+	county_modifier = {
+		trade_good_fish_production_mult = 0.25
+		maritime_tax_mult = 0.05
+	}
+
+	flag = global_regional
+	flag = tribal_era_regional
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
+}
+
+innovation_damascus_steel = {
+	skill = learning
+	group = culture_group_civic
+	culture_era = culture_era_eight_millenium_early
+	#region = custom_damascus_steel_region
+	icon = @weapons_and_armor_02
+	
+	potential = {
+		has_cultural_pillar = heritage_rauh
+	}
+
+	parameters = {
+		damascus_steel_smithing = yes
+	}
+
+	flag = global_regional
+	flag = tribal_era_regional
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
+}
+
+innovation_calicoes_and_muslin = {
+	skill = stewardship
+	group = culture_group_civic
+	culture_era = culture_era_eight_millenium_early
+	icon = @weaver
+
+	potential = {
+		has_cultural_pillar = heritage_hornsent
+	}
+
+	county_modifier = {
+		trade_good_textiles_production_mult = 0.25
+	}
+
+	flag = global_regional
+	flag = tribal_era_regional
+
 	ai_weight_for_fascination = {
 		value = 100
 	}

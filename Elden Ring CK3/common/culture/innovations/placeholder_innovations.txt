@@ -8,6 +8,14 @@ innovation_placeholder_1era_early = {
 
 	ai_weight_for_fascination = {
 		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_first_millenium_early
+				}
+			}
+			multiply = 0
+		}
 	}
 }
 
@@ -19,6 +27,14 @@ innovation_placeholder_1era_late = {
 
 	ai_weight_for_fascination = {
 		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_first_millenium_late
+				}
+			}
+			multiply = 0
+		}
 	}
 }
 
@@ -30,6 +46,14 @@ innovation_placeholder_2era_early = {
 
 	ai_weight_for_fascination = {
 		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_second_millenium_early
+				}
+			}
+			multiply = 0
+		}
 	}
 }
 
@@ -41,6 +65,14 @@ innovation_placeholder_2era_late = {
 
 	ai_weight_for_fascination = {
 		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_second_millenium_late
+				}
+			}
+			multiply = 0
+		}
 	}
 }
 
@@ -52,6 +84,14 @@ innovation_placeholder_3era_early = {
 
 	ai_weight_for_fascination = {
 		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_third_millenium_early
+				}
+			}
+			multiply = 0
+		}
 	}
 }
 
@@ -63,6 +103,14 @@ innovation_placeholder_3era_late = {
 
 	ai_weight_for_fascination = {
 		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_third_millenium_late
+				}
+			}
+			multiply = 0
+		}
 	}
 }
 
@@ -74,6 +122,14 @@ innovation_placeholder_4era_early = {
 
 	ai_weight_for_fascination = {
 		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_fourth_millenium_early
+				}
+			}
+			multiply = 0
+		}
 	}
 }
 
@@ -85,6 +141,14 @@ innovation_placeholder_4era_late = {
 
 	ai_weight_for_fascination = {
 		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_fourth_millenium_late
+				}
+			}
+			multiply = 0
+		}
 	}
 }
 
@@ -96,6 +160,14 @@ innovation_placeholder_5era_early = {
 
 	ai_weight_for_fascination = {
 		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_fifth_millenium_early
+				}
+			}
+			multiply = 0
+		}
 	}
 }
 
@@ -107,6 +179,14 @@ innovation_placeholder_5era_late = {
 
 	ai_weight_for_fascination = {
 		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_fifth_millenium_late
+				}
+			}
+			multiply = 0
+		}
 	}
 }
 
@@ -118,6 +198,14 @@ innovation_placeholder_6era_early = {
 
 	ai_weight_for_fascination = {
 		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_sixth_millenium_early
+				}
+			}
+			multiply = 0
+		}
 	}
 }
 
@@ -129,6 +217,14 @@ innovation_placeholder_6era_late = {
 
 	ai_weight_for_fascination = {
 		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_sixth_millenium_late
+				}
+			}
+			multiply = 0
+		}
 	}
 }
 
@@ -140,6 +236,14 @@ innovation_placeholder_7era_early = {
 	
 	ai_weight_for_fascination = {
 		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_seventh_millenium_early
+				}
+			}
+			multiply = 0
+		}
 	}
 }
 
@@ -151,5 +255,13 @@ innovation_placeholder_7era_late = {
 
 	ai_weight_for_fascination = {
 		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_seventh_millenium_late
+				}
+			}
+			multiply = 0
+		}
 	}
 }

@@ -245,7 +245,7 @@ tradition_golden_order = {
 		cultural_acceptance_gain_mult = 0.1
 	}
 	character_modifier = {
-		different_faith_opinion = -25
+		opinion_of_different_faith = -10
 		ai_zeal = 25
 		life_expectancy = 30
 		years_of_fertility = 30
@@ -297,7 +297,7 @@ tradition_giants_fire = {
 		mountains_travel_danger = mountains_medium_danger_reduction
 		mountains_construction_gold_cost = -0.1
 		mountains_holding_construction_gold_cost = -0.1
-		mountains_levy_size = -0.1
+		mountains_levy_size = 0.1
 		mountains_supply_limit_mult = 0.25
 		defender_advantage = 5
 	}
@@ -518,16 +518,16 @@ tradition_blood_of_landsbetween = { #for the followers of Messmer
 		culture_can_raid_over_land_even_if_feudal_no_restrictions = yes
 	}
 	culture_modifier = {
-		cultural_acceptance_gain_mult = 0.15
+		cultural_acceptance_gain_mult = -0.25
 	}
 	character_modifier = {
-		different_faith_opinion = -25
-		ignore_negative_opinion_of_culture = yes
+		opinion_of_different_faith = -10
+		#ignore_negative_opinion_of_culture = yes
 		ai_zeal = 25
 		ai_boldness = 25
-		levy_toughness = 15
-		levy_pursuit = 15
-		levy_screen = 15
+		levy_toughness = 2
+		levy_pursuit = 2
+		levy_screen = 2
 	}
 	province_modifier = {
 		levy_size = -0.1
@@ -666,8 +666,8 @@ tradition_rotborn = {
 		fertility = 0.2
 	}
 	county_modifier = {
-		development_growth_factor = 0.15
-		county_opinion_add = 10
+		prosperity_growth_factor = 0.15
+		popular_opinion_add = 5
 	}
 	
 	cost = {
@@ -886,7 +886,7 @@ tradition_mt_gelmir = {
 		drylands_travel_danger = drylands_medium_danger_reduction
 	}
 	province_modifier = {
-		garrison_size = 0.2
+		garrison_size = 0.25
 	}
 	
 	cost = {
@@ -994,8 +994,3 @@ tradition_nox = {
 	
 	ai_will_do = { value = 100 }
 }
-
-
-
-
-
