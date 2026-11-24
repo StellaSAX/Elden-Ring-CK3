@@ -8,7 +8,7 @@
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_structure_mines.dds"
+	type_icon = "special_buildings/mines.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -16,19 +16,16 @@
 
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 01 }
-		culture = {
-			has_innovation = innovation_crop_rotation
-		}
 	}
 	
 	cost_gold = expensive_building_tier_3_cost
 	
 	province_modifier = {
-		monthly_income = silver_mine_building_tax_tier_1
-		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_1
+		monthly_mining_tax = 0.25
+		trade_good_smithingstone_production_add = 1
 	}
 	county_modifier = {
-		development_growth_factor = 0.1
+		prosperity_growth_factor = 0.05
 	}
 	
 	next_building = sellia_crystal_mines_02
@@ -59,26 +56,24 @@ sellia_crystal_mines_02 = {
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_structure_mines.dds"
+	type_icon = "special_buildings/mines.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 02 }
-		culture = {
-			has_innovation = innovation_manorialism
-		}
+		building_mineral_early_medieval_trigger = yes
 	}
 	
 	cost_gold = expensive_building_tier_4_cost
 	
 	province_modifier = {
-		monthly_income = silver_mine_building_tax_tier_2
-		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_2
+		monthly_mining_tax = 0.50
+		trade_good_smithingstone_production_add = 2
 	}
 	county_modifier = {
-		development_growth_factor = 0.15
+		prosperity_growth_factor = 0.10
 	}
 	
 	next_building = sellia_crystal_mines_03
@@ -109,26 +104,24 @@ sellia_crystal_mines_03 = {
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_structure_mines.dds"
+	type_icon = "special_buildings/mines.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 03 }
-		culture = {
-			has_innovation = innovation_windmills
-		}
+		building_mineral_high_medieval_trigger = yes
 	}
 	
 	cost_gold = expensive_building_tier_5_cost
 	
 	province_modifier = {
-		monthly_income = silver_mine_building_tax_tier_3
-		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_3
+		monthly_mining_tax = 0.75
+		trade_good_smithingstone_production_add = 3
 	}
 	county_modifier = {
-		development_growth_factor = 0.2
+		prosperity_growth_factor = 0.15
 	}
 	
 	next_building = sellia_crystal_mines_04
@@ -159,26 +152,24 @@ sellia_crystal_mines_04 = {
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_structure_mines.dds"
+	type_icon = "special_buildings/mines.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 04 }
-		culture = {
-			has_innovation = innovation_cranes
-		}
+		building_mineral_late_medieval_trigger = yes
 	}
 	
 	cost_gold = expensive_building_tier_6_cost
 	
 	province_modifier = {
-		monthly_income = silver_mine_building_tax_tier_4
-		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_4
+		monthly_mining_tax = 1.0
+		trade_good_smithingstone_production_add = 4
 	}
 	county_modifier = {
-		development_growth_factor = 0.25
+		prosperity_growth_factor = 0.20
 	}
 	
 	province_culture_modifier = {
@@ -207,7 +198,7 @@ raya_lucaria_crystal_mines_01 = {
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_structure_mines.dds"
+	type_icon = "special_buildings/mines.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -215,19 +206,16 @@ raya_lucaria_crystal_mines_01 = {
 
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 01 }
-		culture = {
-			has_innovation = innovation_crop_rotation
-		}
 	}
 	
 	cost_gold = expensive_building_tier_3_cost
 	
 	province_modifier = {
-		monthly_income = silver_mine_building_tax_tier_1
-		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_1
+		monthly_mining_tax = 0.25
+		trade_good_smithingstone_production_add = 1
 	}
 	county_modifier = {
-		development_growth_factor = 0.1
+		prosperity_growth_factor = 0.05
 	}
 	
 	next_building = raya_lucaria_crystal_mines_02
@@ -258,26 +246,24 @@ raya_lucaria_crystal_mines_02 = {
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_structure_mines.dds"
+	type_icon = "special_buildings/mines.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 02 }
-		culture = {
-			has_innovation = innovation_manorialism
-		}
+		building_mineral_early_medieval_trigger = yes
 	}
 	
 	cost_gold = expensive_building_tier_4_cost
 	
 	province_modifier = {
-		monthly_income = silver_mine_building_tax_tier_2
-		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_2
+		monthly_mining_tax = 0.50
+		trade_good_smithingstone_production_add = 2
 	}
 	county_modifier = {
-		development_growth_factor = 0.15
+		prosperity_growth_factor = 0.10
 	}
 	
 	next_building = raya_lucaria_crystal_mines_03
@@ -308,26 +294,24 @@ raya_lucaria_crystal_mines_03 = {
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_structure_mines.dds"
+	type_icon = "special_buildings/mines.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 03 }
-		culture = {
-			has_innovation = innovation_windmills
-		}
+		building_mineral_high_medieval_trigger = yes
 	}
 	
 	cost_gold = expensive_building_tier_5_cost
 	
 	province_modifier = {
-		monthly_income = silver_mine_building_tax_tier_3
-		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_3
+		monthly_mining_tax = 0.75
+		trade_good_smithingstone_production_add = 3
 	}
 	county_modifier = {
-		development_growth_factor = 0.2
+		prosperity_growth_factor = 0.15
 	}
 	
 	next_building = raya_lucaria_crystal_mines_04
@@ -358,26 +342,24 @@ raya_lucaria_crystal_mines_04 = {
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_structure_mines.dds"
+	type_icon = "special_buildings/mines.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 04 }
-		culture = {
-			has_innovation = innovation_cranes
-		}
+		building_mineral_late_medieval_trigger = yes
 	}
 	
 	cost_gold = expensive_building_tier_6_cost
 	
 	province_modifier = {
-		monthly_income = silver_mine_building_tax_tier_4
-		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_4
+		monthly_mining_tax = 1.0
+		trade_good_smithingstone_production_add = 4
 	}
 	county_modifier = {
-		development_growth_factor = 0.25
+		prosperity_growth_factor = 0.20
 	}
 	
 	province_culture_modifier = {
@@ -396,10 +378,6 @@ raya_lucaria_crystal_mines_04 = {
 	flag = special_mine_jade
 }
 
-
-
-
-
 limgrave_tunnel_mines_01 = {
 	effect_desc = mines_effect_desc
 
@@ -410,7 +388,7 @@ limgrave_tunnel_mines_01 = {
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_structure_mines.dds"
+	type_icon = "special_buildings/mines.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -418,20 +396,16 @@ limgrave_tunnel_mines_01 = {
 
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 01 }
-		culture = {
-			has_innovation = innovation_crop_rotation
-		}
 	}
 	
 	cost_gold = expensive_building_tier_3_cost
 
 	province_modifier = {
-		monthly_income = copper_mine_generic_building_tax_tier_1
-		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_1
+		monthly_mining_tax = 0.25
+		trade_good_smithingstone_production_add = 1
 	}
 	county_modifier = {
-		tax_mult = 0.04
-		development_growth_factor = 0.025
+		prosperity_growth_factor = 0.05
 	}
 	
 	next_building = limgrave_tunnel_mines_02
@@ -460,7 +434,7 @@ limgrave_tunnel_mines_02 = {
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_structure_mines.dds"
+	type_icon = "special_buildings/mines.dds"
 
 	can_construct_potential = {
 		
@@ -468,20 +442,17 @@ limgrave_tunnel_mines_02 = {
 	}
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 02 }
-		culture = {
-			has_innovation = innovation_manorialism
-		}
+		building_mineral_early_medieval_trigger = yes
 	}
 	
 	cost_gold = expensive_building_tier_4_cost
 	
 	province_modifier = {
-		monthly_income = copper_mine_generic_building_tax_tier_2
-		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_2
+		monthly_mining_tax = 0.50
+		trade_good_smithingstone_production_add = 2
 	}
 	county_modifier = {
-		tax_mult = 0.08
-		development_growth_factor = 0.05
+		prosperity_growth_factor = 0.10
 	}
 	
 	next_building = limgrave_tunnel_mines_03
@@ -510,7 +481,7 @@ limgrave_tunnel_mines_03 = {
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_structure_mines.dds"
+	type_icon = "special_buildings/mines.dds"
 
 	can_construct_potential = {
 		
@@ -518,20 +489,17 @@ limgrave_tunnel_mines_03 = {
 	}
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 03 }
-		culture = {
-			has_innovation = innovation_windmills
-		}
+		building_mineral_high_medieval_trigger = yes
 	}
 	
 	cost_gold = expensive_building_tier_5_cost
 	
 	province_modifier = {
-		monthly_income = copper_mine_generic_building_tax_tier_3
-		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_3
+		monthly_mining_tax = 0.75
+		trade_good_smithingstone_production_add = 3
 	}
 	county_modifier = {
-		tax_mult = 0.12
-		development_growth_factor = 0.1
+		prosperity_growth_factor = 0.15
 	}
 	
 	next_building = limgrave_tunnel_mines_04
@@ -560,7 +528,7 @@ limgrave_tunnel_mines_04 = {
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_structure_mines.dds"
+	type_icon = "special_buildings/mines.dds"
 
 	can_construct_potential = {
 		
@@ -568,20 +536,17 @@ limgrave_tunnel_mines_04 = {
 	}
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 04 }
-		culture = {
-			has_innovation = innovation_cranes
-		}
+		building_mineral_late_medieval_trigger = yes
 	}
 	
 	cost_gold = expensive_building_tier_6_cost
 	
 	province_modifier = {
-		monthly_income = copper_mine_building_tax_tier_4
-		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_4
+		monthly_mining_tax = 1.0
+		trade_good_smithingstone_production_add = 4
 	}
 	county_modifier = {
-		tax_mult = 0.16
-		development_growth_factor = 0.15
+		prosperity_growth_factor = 0.20
 	}
 	
 	province_culture_modifier = {
@@ -608,7 +573,7 @@ morne_tunnel_mines_01 = {
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_structure_mines.dds"
+	type_icon = "special_buildings/mines.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -616,20 +581,16 @@ morne_tunnel_mines_01 = {
 
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 01 }
-		culture = {
-			has_innovation = innovation_crop_rotation
-		}
 	}
 	
 	cost_gold = expensive_building_tier_3_cost
 
 	province_modifier = {
-		monthly_income = copper_mine_generic_building_tax_tier_1
-		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_1
+		monthly_mining_tax = 0.25
+		trade_good_smithingstone_production_add = 1
 	}
 	county_modifier = {
-		tax_mult = 0.04
-		development_growth_factor = 0.025
+		prosperity_growth_factor = 0.05
 	}
 	
 	next_building = morne_tunnel_mines_02
@@ -658,7 +619,7 @@ morne_tunnel_mines_02 = {
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_structure_mines.dds"
+	type_icon = "special_buildings/mines.dds"
 
 	can_construct_potential = {
 		
@@ -666,20 +627,17 @@ morne_tunnel_mines_02 = {
 	}
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 02 }
-		culture = {
-			has_innovation = innovation_manorialism
-		}
+		building_mineral_early_medieval_trigger = yes
 	}
 	
 	cost_gold = expensive_building_tier_4_cost
 	
 	province_modifier = {
-		monthly_income = copper_mine_generic_building_tax_tier_2
-		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_2
+		monthly_mining_tax = 0.50
+		trade_good_smithingstone_production_add = 2
 	}
 	county_modifier = {
-		tax_mult = 0.08
-		development_growth_factor = 0.05
+		prosperity_growth_factor = 0.10
 	}
 	
 	next_building = morne_tunnel_mines_03
@@ -708,7 +666,7 @@ morne_tunnel_mines_03 = {
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_structure_mines.dds"
+	type_icon = "special_buildings/mines.dds"
 
 	can_construct_potential = {
 		
@@ -716,20 +674,17 @@ morne_tunnel_mines_03 = {
 	}
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 03 }
-		culture = {
-			has_innovation = innovation_windmills
-		}
+		building_mineral_high_medieval_trigger = yes
 	}
 	
 	cost_gold = expensive_building_tier_5_cost
 	
 	province_modifier = {
-		monthly_income = copper_mine_generic_building_tax_tier_3
-		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_3
+		monthly_mining_tax = 0.75
+		trade_good_smithingstone_production_add = 3
 	}
 	county_modifier = {
-		tax_mult = 0.12
-		development_growth_factor = 0.1
+		prosperity_growth_factor = 0.15
 	}
 	
 	next_building = morne_tunnel_mines_04
@@ -758,7 +713,7 @@ morne_tunnel_mines_04 = {
 
 	construction_time = slow_construction_time
 
-	type_icon = "icon_structure_mines.dds"
+	type_icon = "special_buildings/mines.dds"
 
 	can_construct_potential = {
 		
@@ -766,20 +721,17 @@ morne_tunnel_mines_04 = {
 	}
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 04 }
-		culture = {
-			has_innovation = innovation_cranes
-		}
+		building_mineral_late_medieval_trigger = yes
 	}
 	
 	cost_gold = expensive_building_tier_6_cost
 	
 	province_modifier = {
-		monthly_income = copper_mine_building_tax_tier_4
-		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_4
+		monthly_mining_tax = 1.0
+		trade_good_smithingstone_production_add = 4
 	}
 	county_modifier = {
-		tax_mult = 0.16
-		development_growth_factor = 0.15
+		prosperity_growth_factor = 0.20
 	}
 	
 	province_culture_modifier = {
