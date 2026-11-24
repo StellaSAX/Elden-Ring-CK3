@@ -189,7 +189,7 @@ dragon_communion_church_01 = {
 	}
 
 	county_modifier = {
-		county_opinion_add = 5
+		#county_opinion_add = 5
 	}
 
 	ai_value = {
@@ -238,12 +238,11 @@ dragon_communion_church_02 = {
 	province_modifier = {
 		fort_level = 3
 		defender_holding_advantage = 2
-		monthly_income = 0.2
+		monthly_civic_tax = 0.05
 	}
 
 	county_modifier = {
-		monthly_civic_tax = 0.05
-		county_opinion_add = 10
+		#county_opinion_add = 10
 	}
 
 	ai_value = {
@@ -1301,7 +1300,7 @@ church_of_marika = {
 		domain_tax_same_faith_mult = 0.05
 	}
 	county_modifier = {
-		county_opinion_add = 10
+		#county_opinion_add = 10
 		control_baseline_add = 5
 	}
 	
@@ -1452,7 +1451,7 @@ divine_tower_limgrave = {
 		fort_level = 8
 	}
 	county_modifier = {
-		county_opinion_add = 10
+		#county_opinion_add = 10
 	}
 	
 	ai_value = {
@@ -1504,7 +1503,7 @@ divine_tower_liurnia = {
 		fort_level = 8
 	}
 	county_modifier = {
-		county_opinion_add = 10
+		#county_opinion_add = 10
 	}
 	
 	ai_value = {
@@ -1556,7 +1555,7 @@ divine_tower_caelid = {
 		fort_level = 8
 	}
 	county_modifier = {
-		county_opinion_add = 10
+		#county_opinion_add = 10
 	}
 	
 	ai_value = {
@@ -1608,7 +1607,7 @@ divine_tower_westaltus = {
 		fort_level = 8
 	}
 	county_modifier = {
-		county_opinion_add = 10
+		#county_opinion_add = 10
 	}
 	
 	ai_value = {
@@ -1660,7 +1659,7 @@ divine_tower_eastaltus = {
 		fort_level = 8
 	}
 	county_modifier = {
-		county_opinion_add = 10
+		#county_opinion_add = 10
 	}
 	
 	ai_value = {
@@ -1712,7 +1711,7 @@ divine_tower_isolated = {
 		fort_level = 8
 	}
 	county_modifier = {
-		county_opinion_add = 10
+		#county_opinion_add = 10
 	}
 	
 	ai_value = {

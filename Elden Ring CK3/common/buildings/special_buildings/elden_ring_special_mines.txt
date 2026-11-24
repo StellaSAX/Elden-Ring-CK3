@@ -39,8 +39,6 @@
 		base = 100
 	}
 	
-	type = special
-	
 	flag = travel_point_of_interest_economic
 	flag = special_mine
 	flag = special_mine_jade
@@ -86,8 +84,6 @@ sellia_crystal_mines_02 = {
 	ai_value = {
 		base = 100
 	}
-	
-	type = special
 	
 	flag = travel_point_of_interest_economic
 	flag = special_mine
@@ -135,8 +131,6 @@ sellia_crystal_mines_03 = {
 		base = 100
 	}
 	
-	type = special
-	
 	flag = travel_point_of_interest_economic
 	flag = special_mine
 	flag = special_mine_jade
@@ -180,8 +174,6 @@ sellia_crystal_mines_04 = {
 	ai_value = {
 		base = 100
 	}
-	
-	type = special
 	
 	flag = travel_point_of_interest_economic
 	flag = special_mine
@@ -229,8 +221,6 @@ raya_lucaria_crystal_mines_01 = {
 		base = 100
 	}
 	
-	type = special
-	
 	flag = travel_point_of_interest_economic
 	flag = special_mine
 	flag = special_mine_jade
@@ -276,8 +266,6 @@ raya_lucaria_crystal_mines_02 = {
 	ai_value = {
 		base = 100
 	}
-	
-	type = special
 	
 	flag = travel_point_of_interest_economic
 	flag = special_mine
@@ -325,8 +313,6 @@ raya_lucaria_crystal_mines_03 = {
 		base = 100
 	}
 	
-	type = special
-	
 	flag = travel_point_of_interest_economic
 	flag = special_mine
 	flag = special_mine_jade
@@ -370,8 +356,6 @@ raya_lucaria_crystal_mines_04 = {
 	ai_value = {
 		base = 100
 	}
-	
-	type = special
 	
 	flag = travel_point_of_interest_economic
 	flag = special_mine
@@ -419,8 +403,6 @@ limgrave_tunnel_mines_01 = {
 		base = 100
 	}
 	
-	type = special
-	
 	flag = travel_point_of_interest_economic
 }
 
@@ -465,8 +447,6 @@ limgrave_tunnel_mines_02 = {
 	ai_value = {
 		base = 100
 	}
-	
-	type = special
 	
 	flag = travel_point_of_interest_economic
 }
@@ -513,8 +493,6 @@ limgrave_tunnel_mines_03 = {
 		base = 100
 	}
 	
-	type = special
-	
 	flag = travel_point_of_interest_economic
 }
 
@@ -557,8 +535,6 @@ limgrave_tunnel_mines_04 = {
 	ai_value = {
 		base = 100
 	}
-	
-	type = special
 	
 	flag = travel_point_of_interest_economic
 }
@@ -603,8 +579,6 @@ morne_tunnel_mines_01 = {
 	ai_value = {
 		base = 100
 	}
-	
-	type = special
 	
 	flag = travel_point_of_interest_economic
 }
@@ -651,8 +625,6 @@ morne_tunnel_mines_02 = {
 		base = 100
 	}
 	
-	type = special
-	
 	flag = travel_point_of_interest_economic
 }
 
@@ -698,8 +670,6 @@ morne_tunnel_mines_03 = {
 		base = 100
 	}
 	
-	type = special
-	
 	flag = travel_point_of_interest_economic
 }
 
@@ -742,8 +712,6 @@ morne_tunnel_mines_04 = {
 	ai_value = {
 		base = 100
 	}
-	
-	type = special
 	
 	flag = travel_point_of_interest_economic
 }
