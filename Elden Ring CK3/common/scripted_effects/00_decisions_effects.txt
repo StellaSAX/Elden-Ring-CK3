@@ -1,12 +1,4 @@
-﻿reclaim_britannia_decision_effect = {
-	#nothing
-}
-
-restore_the_danelaw_effect = {
-	#nothing
-}
-
-create_holy_order_accompanying_effect = {
+﻿create_holy_order_accompanying_effect = {
 	hidden_effect = {
 		if = { # set up currencies for the HO leader, has to be saved as scope:leader
 			limit = {
@@ -118,46 +110,6 @@ create_holy_order_accompanying_effect = {
 	}
 }
 
-embrace_english_culture_effect = {
-	#nothing
-}
-
-form_portugal_decision_effects = {
-	#nothing
-}
-
-declare_canarias_decision_effects = {
-	#nothing
-}
-
-unite_the_spanish_thrones_decision_effects = {
-	#nothing
-}
-
-unite_africa_decision_effects = {
-	#nothing
-}
-
-avenge_the_battle_of_tours_decision_effects = {
-	#nothing
-}
-
-unite_the_western_slavs_decision_effects = {
-	#nothing
-}
-
-unite_the_southern_slavs_decision_effects = {
-	#nothing
-}
-
-unite_the_slavs_decision_effects = {
-	#nothing
-}
-
-unite_india_decision_effect = {
-	#nothing
-}
-
 become_saoshyant_decision_effect = {
 	set_nickname_effect = { NICKNAME = nick_the_saoshyant }
 	add_trait = saoshyant
@@ -184,6 +136,7 @@ become_saoshyant_decision_effect = {
 			random = {
 				chance = 35
 				set_county_faith = root.faith
+				set_county_rite = root.rite
 			}
 		}
 	}
@@ -306,7 +259,7 @@ found_university_decision_effect = {
 				custom = decision_found_university_custom
 				title_tier = barony
 				title_capital_county.title_province = {
-					add_special_building_slot = generic_university
+					add_special_district_slot = generic_university_district
 				}
 			}
 		}
@@ -320,9 +273,9 @@ lunatic_building_decision_effect = {
 			value = yes
 		}
 		hidden_effect = {
-			add_special_building_slot = special_greenhouse_01
+			add_special_district_slot = special_greenhouse_01_district
+			add_special_district = special_greenhouse_01_district
 		}
-		add_special_building = special_greenhouse_01
 		#add_province_modifier = extra_building_slot
 		#add_building = special_greenhouse_01
 	}
@@ -351,6 +304,7 @@ convert_whole_realm_to_feudalism_effect = {
 
 		every_sub_realm_county = { # Spawn temples in your holy sites
 			limit = {
+				NOT = { scope:feudalize_bonus_holdings ?= no }
 				any_county_province = {
 					has_holding_type = tribal_holding
 				}
@@ -380,6 +334,7 @@ convert_whole_realm_to_feudalism_effect = {
 
 		every_sub_realm_county = { # Spawn a City
 			limit = {
+				NOT = { scope:feudalize_bonus_holdings ?= no }
 				any_county_province = {
 					has_holding_type = tribal_holding
 				}
@@ -402,7 +357,7 @@ convert_whole_realm_to_feudalism_effect = {
 						terrain = terraced_hills
 					}
 					is_coastal = yes
-					has_special_building_slot = no
+					has_special_district_slot = no
 					barony_cannot_construct_holding = no
 				}
 				alternative_limit = {
@@ -413,7 +368,7 @@ convert_whole_realm_to_feudalism_effect = {
 						terrain = farmlands
 						terrain = terraced_hills
 					}
-					has_special_building_slot = no
+					has_special_district_slot = no
 					barony_cannot_construct_holding = no
 				}
 				alternative_limit = {
@@ -433,7 +388,7 @@ convert_whole_realm_to_feudalism_effect = {
 				random = {
 					chance = 60
 					modifier = {
-						add = county.development_level
+						add = county.prosperity_level
 					}
 					modifier = {
 						add = 50
@@ -455,6 +410,7 @@ convert_whole_realm_to_feudalism_effect = {
 
 		every_sub_realm_county = { # Spawn a Temple
 			limit = {
+				NOT = { scope:feudalize_bonus_holdings ?= no }
 				any_county_province = {
 					has_holding_type = tribal_holding
 				}
@@ -477,7 +433,7 @@ convert_whole_realm_to_feudalism_effect = {
 						terrain = terraced_hills
 					}
 					is_coastal = yes
-					has_special_building_slot = no
+					has_special_district_slot = no
 					barony_cannot_construct_holding = no
 				}
 				alternative_limit = {
@@ -488,7 +444,7 @@ convert_whole_realm_to_feudalism_effect = {
 						terrain = farmlands
 						terrain = terraced_hills
 					}
-					has_special_building_slot = no
+					has_special_district_slot = no
 					barony_cannot_construct_holding = no
 				}
 				alternative_limit = {
@@ -508,7 +464,7 @@ convert_whole_realm_to_feudalism_effect = {
 				random = {
 					chance = 50
 					modifier = {
-						add = county.development_level
+						add = county.prosperity_level
 					}
 					modifier = {
 						add = 50
@@ -547,24 +503,7 @@ convert_whole_realm_to_feudalism_effect = {
 		}
 		every_in_list = {
 			list = feudal_conversion
-			set_variable = {
-				name = tribal_to_feudal_building_level
-				value = combined_building_level
-				days = 1
-			}
-			holding_pre_feudalize_effect = yes
-			set_holding_type = castle_holding
-			while = {
-				limit = {
-					var:tribal_to_feudal_building_level > 1
-				}
-				generate_building = yes
-				change_variable = {
-					name = tribal_to_feudal_building_level
-					subtract = 1
-				}
-			}
-			remove_variable = tribal_to_feudal_building_level
+			holding_convert_tribal_keeping_buildings_effect = { HOLDING = castle_holding }
 			remove_from_list = feudal_conversion
 		}
 	}
@@ -583,7 +522,7 @@ convert_whole_realm_to_feudalism_effect = {
 			}
 			save_scope_as = new_head
 			house = {
-				set_house_name = japanese_dynasty_name
+				set_house_name_from_dynasty = house_dynasty
 				save_scope_as = new_house
 			}
 			create_noble_family_effect = { GOVERNMENT_GIVER = this }
@@ -636,7 +575,7 @@ convert_whole_realm_to_feudalism_effect = {
 			}
 			save_scope_as = new_head
 			house = {
-				set_house_name = japanese_dynasty_name
+				set_house_name_from_dynasty = house_dynasty
 				save_scope_as = new_house
 			}
 			create_noble_family_effect = { GOVERNMENT_GIVER = this }
@@ -745,7 +684,7 @@ convert_whole_realm_to_feudalism_effect = {
 					}
 					save_scope_as = new_head
 					house = {
-						set_house_name = japanese_dynasty_name
+						set_house_name_from_dynasty = house_dynasty
 						save_scope_as = new_house
 					}
 					if = {
@@ -941,13 +880,6 @@ special_succession_jirga_effect = {
 	}
 }
 
-##################################################
-# Launch Hungarian Migration Effects
-
-launch_hungarian_migration_scripted_effect = {
-	#nothing
-}
-
 tribal_transfer_liege_title_effect = {
 	create_title_and_vassal_change = {
 		type = usurped
@@ -1022,29 +954,6 @@ tribal_challenger_lost_effect = {
 			}
 		}
 	}
-}
-
-##################################################
-# Negotiate the Danelaw Effects
-
-negotiate_the_danelaw_accept_effect = {
-	#nothing
-}
-
-negotiate_the_danelaw_reject_effect = {
-	#nothing
-}
-
-negotiate_the_danelaw_each_way_effect = {
-	#nothing
-}
-
-resolve_danelaw_partition_effect = {
-	#nothing
-}
-
-formalise_the_daneland_effect = {
-	#nothing
 }
 
 save_best_location_for_house_name_effect = {
@@ -1251,16 +1160,16 @@ found_cadet_house_decision_effect = {
 		if = {
 			limit = {
 				government_allows = noble_families
-				OR = {
-					highest_held_title_tier >= main_administrative_tier
-					AND = {
-						government_has_flag = government_has_county_tier_noble_families
-						highest_held_title_tier >= tier_county
-					}
+				trigger_if = {
+					limit = { government_has_mechanic = administrative }
+					highest_held_title_tier >= min_appointment_tier
 				}
 			}
 			create_noble_family_effect = { GOVERNMENT_GIVER = this }
-			change_influence = major_influence_gain
+			if = {
+				limit = { government_has_flag = government_has_influence }
+				change_influence = major_influence_gain
+			}
 		}
 	}
 }
@@ -1302,7 +1211,7 @@ linguist_bonus_culture_effect = {
 						has_same_culture_language = scope:$CULTURE$
 						has_same_culture_language = root.culture
 						AND = {
-							exists = scope:target_court_language
+							exists = scope:target_court_language.culture
 							has_same_culture_language = scope:target_court_language.culture
 						}
 						AND = {
@@ -1328,7 +1237,7 @@ linguist_bonus_culture_effect = {
 						has_same_culture_language = scope:$CULTURE$
 						has_same_culture_language = root.culture
 						AND = {
-							exists = scope:target_court_language
+							exists = scope:target_court_language.culture
 							has_same_culture_language = scope:target_court_language.culture
 						}
 						AND = {
@@ -1533,7 +1442,6 @@ unisolate_family_decision_effect = {
 	}
 }
 
-
 #Whippy whippy
 flagellation_decision_effect = {
 	#Get both rewards
@@ -1591,16 +1499,4 @@ flagellation_decision_effect = {
 		}
 	}
 
-}
-restore_carthage_scripted_effect = {
-	#nothing
-}
-
-#################################################
-	##Create Cossack Kingdom Decision Effect##
-	## By: Björn S
-#################################################
-
-create_cossack_scripted_effect = {
-	#nothing
 }
