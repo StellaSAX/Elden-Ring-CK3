@@ -67,7 +67,7 @@ d_laamp_elizabeth = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_R77G27B81
+	capital = c_laiedd
 	definite_form = yes
 	require_landless = yes
 	ruler_uses_title_name = no
@@ -157,7 +157,7 @@ d_laamp_maleigh = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_R168G246B103
+	capital = c_shaded_bog
 	definite_form = yes
 	require_landless = yes
 	ruler_uses_title_name = no
@@ -187,7 +187,7 @@ d_laamp_patches = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_R251G205B65
+	capital = c_murkwater_falls
 	definite_form = yes
 	require_landless = yes
 	ruler_uses_title_name = no
@@ -232,7 +232,7 @@ d_laamp_sellen = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_R82G212B218
+	capital = c_waypoint
 	definite_form = yes
 	require_landless = yes
 	ruler_uses_title_name = no

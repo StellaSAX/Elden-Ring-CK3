@@ -7559,11 +7559,11 @@ h_lands_between = {
 		k_weeping_peninsula = {
 			color = { 35 147 92 }
 
-			capital = c_R52G82B165
+			capital = c_morne
 			d_morne = {
 				color = { 45 46 76 }
 
-				capital = c_R52G82B165
+				capital = c_morne
 				c_morne = {
 					color = { 52 82 165 }
 					b_morne = {

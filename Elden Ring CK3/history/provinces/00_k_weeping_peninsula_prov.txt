@@ -84,12 +84,17 @@
 }
 # wp_barony_72
 2314 = {
-	special_district_slot = castle_morne_1
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = castle_holding
 	1000.1.1 = {
-		special_building = castle_morne_1
+		special_district_slot = castle_morne_1
+		districts = {
+			district = {
+				type = castle_morne_1
+				level = 1
+			}
+		}
 	}
 }
 # LAKE
@@ -203,12 +208,17 @@
 }
 # R70G52B158
 866 = {
-	special_district_slot = morne_tunnel_mines_01
 	culture = cul_weeping_peninsula
 	rite = dragon_cult_rite
 	holding = castle_holding
 	1000.1.1 = {
-		special_building = morne_tunnel_mines_01
+		special_district_slot = morne_tunnel_mines_01
+		districts = {
+			district = {
+				type = morne_tunnel_mines_01
+				level = 1
+			}
+		}
 	}
 }
 # R191G255B251
@@ -270,12 +280,17 @@
 }
 # wp_barony_24
 1738 = {
-	special_district_slot = minor_erdtree
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = castle_holding
 	1000.1.1 = {
-		special_building = minor_erdtree
+		special_district_slot = minor_erdtree
+		districts = {
+			district = {
+				type = minor_erdtree
+				level = 1
+			}
+		}
 	}
 }
 # wp_barony_23
@@ -667,23 +682,33 @@
 ## c_sacrifice_bridge
 # R91G74B221
 304 = {
-	special_district_slot = bridge_of_sacrifice
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = castle_holding
 	1000.1.1 = {
-		special_building = bridge_of_sacrifice
+		special_district_slot = bridge_of_sacrifice
+		districts = {
+			district = {
+				type = bridge_of_sacrifice
+				level = 1
+			}
+		}
 	}
 }
 ## c_tear_cliffs
 # wp_barony_33
 642 = {
-	special_district_slot = oridys_rise
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = castle_holding
 	1000.1.1 = {
-		special_building = oridys_rise
+		special_district_slot = oridys_rise
+		districts = {
+			district = {
+				type = oridys_rise
+				level = 1
+			}
+		}
 	}
 }
 # wp_barony_30

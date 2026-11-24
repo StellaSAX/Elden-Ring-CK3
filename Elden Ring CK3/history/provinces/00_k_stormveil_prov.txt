@@ -139,10 +139,18 @@
 ## c_limgrave_divinetower
 # divinetower_limgrave_1
 235 = {
-	special_district_slot = divine_tower_limgrave
 	culture = cul_limgrave
 	rite = golden_rite
 	holding = castle_holding
+	1000.1.1 = {
+		special_district_slot = divine_tower_limgrave
+		districts = {
+			district = {
+				type = divine_tower_limgrave
+				level = 1
+			}
+		}
+	}
 }
 # divinetower_limgrave_2
 2270 = {
@@ -394,12 +402,17 @@
 }
 # limgrave_barony_28
 2147 = {
-	special_district_slot = evergaol
 	culture = cul_limgrave
 	rite = golden_rite
 	holding = castle_holding
 	1000.1.1 = {
-		special_building = evergaol
+		special_district_slot = evergaol
+		districts = {
+			district = {
+				type = evergaol
+				level = 1
+			}
+		}
 	}
 }
 ## c_R135G144B115
@@ -757,12 +770,17 @@
 }
 # limgrave_barony_169
 1223 = {
-	special_district_slot = limgrave_colosseum
 	culture = cul_stormhill
 	rite = god_snake_rite
 	holding = castle_holding
 	1000.1.1 = {
-		special_building = limgrave_colosseum
+		special_district_slot = limgrave_colosseum
+		districts = {
+			district = {
+				type = limgrave_colosseum
+				level = 1
+			}
+		}
 	}
 }
 # limgrave_barony_166
@@ -819,12 +837,17 @@
 ## c_R11G176B119
 # limgrave_barony_44
 691 = {
-	special_district_slot = minor_erdtree
 	culture = cul_mistwood
 	rite = golden_rite
 	holding = castle_holding
 	1000.1.1 = {
-		special_building = minor_erdtree
+		special_district_slot = minor_erdtree
+		districts = {
+			district = {
+				type = minor_erdtree
+				level = 1
+			}
+		}
 	}
 }
 # R160G112B205
@@ -891,12 +914,17 @@
 }
 # limgrave_barony_51
 2250 = {
-	special_district_slot = church_of_marika
 	culture = cul_mistwood
 	rite = golden_rite
 	holding = castle_holding
 	1000.1.1 = {
-		special_building = church_of_marika
+		special_district_slot = church_of_marika
+		districts = {
+			district = {
+				type = church_of_marika
+				level = 1
+			}
+		}
 	}
 }
 ## c_R238G60B233
@@ -1027,12 +1055,17 @@
 ## c_fort_haight
 # limgrave_barony_1
 686 = {
-	special_district_slot = fort_haight_1
 	culture = cul_mistwood
 	rite = formless_rite
 	holding = castle_holding
 	1000.1.1 = {
-		special_building = fort_haight_1
+		special_district_slot = fort_haight_1
+		districts = {
+			district = {
+				type = fort_haight_1
+				level = 1
+			}
+		}
 	}
 }
 # limgrave_barony_5
@@ -1398,12 +1431,17 @@
 }
 # R137G242B129
 1997 = {
-	special_district_slot = stormgate
 	culture = cul_limgrave
 	rite = golden_rite
 	holding = castle_holding
 	1000.1.1 = {
-		special_building = stormgate
+		special_district_slot = stormgate
+		districts = {
+			district = {
+				type = stormgate
+				level = 1
+			}
+		}
 	}
 }
 ## c_stormveil_castle_path
