@@ -1,9 +1,9 @@
 ﻿# Troll Armory
 # Gives: county: stationed_troll_damage_mult, stationed_troll_toughness_mult; market: trade_good_iron_sell_price_mult, trade_category_base_metals_sell_price_mult
 # Needs: trade_good_iron -> county: stationed_troll_damage_mult; trade_category_base_metals -> county: stationed_troll_toughness_mult
-troll_armory_01 = {
+troll_armory_1 = {
 	type_icon = regular_buildings/armor_smith.dds
-	next_building = troll_armory_02
+	next_building = troll_armory_2
 	cost_gold = regular_building_cost_tier_1
 	construction_time = construction_time_6_months
 	district_level_requirement = 2
@@ -64,8 +64,8 @@ troll_armory_01 = {
 	}
 }
 
-troll_armory_02 = {
-	next_building = troll_armory_03
+troll_armory_2 = {
+	next_building = troll_armory_3
 	cost_gold = regular_building_cost_tier_2
 	construction_time = construction_time_9_months
 	district_level_requirement = 2
@@ -130,8 +130,8 @@ troll_armory_02 = {
 	}
 }
 
-troll_armory_03 = {
-	next_building = troll_armory_04
+troll_armory_3 = {
+	next_building = troll_armory_4
 	cost_gold = regular_building_cost_tier_3
 	construction_time = construction_time_1_year
 	district_level_requirement = 3
@@ -197,8 +197,8 @@ troll_armory_03 = {
 	}
 }
 
-troll_armory_04 = {
-	next_building = troll_armory_05
+troll_armory_4 = {
+	next_building = troll_armory_5
 	cost_gold = regular_building_cost_tier_4
 	construction_time = construction_time_3_years
 	district_level_requirement = 4
@@ -264,7 +264,7 @@ troll_armory_04 = {
 	}
 }
 
-troll_armory_05 = {
+troll_armory_5 = {
 	cost_gold = regular_building_cost_tier_5
 	construction_time = construction_time_5_years
 	district_level_requirement = 4
@@ -331,9 +331,9 @@ troll_armory_05 = {
 }
 
 # Tower of Sorcery
-tower_of_sorcery_01 = {
+tower_of_sorcery_1 = {
 	type_icon = regular_buildings/armor_smith.dds
-	next_building = tower_of_sorcery_02
+	next_building = tower_of_sorcery_2
 	cost_gold = regular_building_cost_tier_1
 	construction_time = construction_time_6_months
 	district_level_requirement = 2
@@ -393,8 +393,8 @@ tower_of_sorcery_01 = {
 	}
 }
 
-tower_of_sorcery_02 = {
-	next_building = tower_of_sorcery_03
+tower_of_sorcery_2 = {
+	next_building = tower_of_sorcery_3
 	cost_gold = regular_building_cost_tier_2
 	construction_time = construction_time_9_months
 	district_level_requirement = 2
@@ -458,8 +458,8 @@ tower_of_sorcery_02 = {
 	}
 }
 
-tower_of_sorcery_03 = {
-	next_building = tower_of_sorcery_04
+tower_of_sorcery_3 = {
+	next_building = tower_of_sorcery_4
 	cost_gold = regular_building_cost_tier_3
 	construction_time = construction_time_1_year
 	district_level_requirement = 3
@@ -524,8 +524,8 @@ tower_of_sorcery_03 = {
 	}
 }
 
-tower_of_sorcery_04 = {
-	next_building = tower_of_sorcery_05
+tower_of_sorcery_4 = {
+	next_building = tower_of_sorcery_5
 	cost_gold = regular_building_cost_tier_4
 	construction_time = construction_time_3_years
 	district_level_requirement = 4
@@ -590,7 +590,7 @@ tower_of_sorcery_04 = {
 	}
 }
 
-tower_of_sorcery_05 = {
+tower_of_sorcery_5 = {
 	cost_gold = regular_building_cost_tier_5
 	construction_time = construction_time_5_years
 	district_level_requirement = 4
@@ -656,9 +656,9 @@ tower_of_sorcery_05 = {
 }
 
 # Death Altar
-death_altar_01 = {
+death_altar_1 = {
 	type_icon = regular_buildings/armor_smith.dds
-	next_building = death_altar_02
+	next_building = death_altar_2
 	cost_gold = regular_building_cost_tier_1
 	construction_time = construction_time_6_months
 	district_level_requirement = 2
@@ -730,8 +730,8 @@ death_altar_01 = {
 	}
 }
 
-death_altar_02 = {
-	next_building = death_altar_03
+death_altar_2 = {
+	next_building = death_altar_3
 	cost_gold = regular_building_cost_tier_2
 	construction_time = construction_time_9_months
 	district_level_requirement = 2
@@ -807,8 +807,8 @@ death_altar_02 = {
 	}
 }
 
-death_altar_03 = {
-	next_building = death_altar_04
+death_altar_3 = {
+	next_building = death_altar_4
 	cost_gold = regular_building_cost_tier_3
 	construction_time = construction_time_1_year
 	district_level_requirement = 3
@@ -885,8 +885,8 @@ death_altar_03 = {
 	}
 }
 
-death_altar_04 = {
-	next_building = death_altar_05
+death_altar_4 = {
+	next_building = death_altar_5
 	cost_gold = regular_building_cost_tier_4
 	construction_time = construction_time_3_years
 	district_level_requirement = 4
@@ -963,7 +963,7 @@ death_altar_04 = {
 	}
 }
 
-death_altar_05 = {
+death_altar_5 = {
 	cost_gold = regular_building_cost_tier_5
 	construction_time = construction_time_5_years
 	district_level_requirement = 4

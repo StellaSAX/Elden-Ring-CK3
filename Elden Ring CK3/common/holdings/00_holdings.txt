@@ -30,16 +30,11 @@ castle_holding = {
 		villages_district
 		urban_housing_district
 
-
 		#Military
 		military_district
 
 		#Civic/Capital
 		bureaucratic_district
-		
-		tower_of_sorcery_01
-		troll_armory_01
-		death_altar_01
 	}
 }
 
@@ -93,11 +88,6 @@ city_holding = {
 
 		#Civic/Capital
 		bureaucratic_district
-		
-		tower_of_sorcery_01
-		troll_armory_01
-		death_altar_01
-		
 	}
 }
 
@@ -134,10 +124,6 @@ church_holding = {
 
 		#Civic/Capital
 		bureaucratic_district
-		
-		tower_of_sorcery_01
-		troll_armory_01
-		death_altar_01
 	}
 }
 

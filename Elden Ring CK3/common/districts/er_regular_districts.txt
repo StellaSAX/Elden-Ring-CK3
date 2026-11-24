@@ -1,0 +1,44 @@
+﻿### Military ###
+military_district = {
+	primary_building = pb_military_01
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/armory.dds"
+	}
+
+	can_be_replaced = yes
+
+	is_enabled = {
+		is_county_capital = yes
+	}
+
+	can_construct_potential = {
+		is_county_capital = yes
+	}
+
+	show_disabled = yes
+
+	buildings = {
+		mustering_grounds_1
+		regimental_fort_1
+		jungle_fort_1
+		militia_camps_1
+		archery_ranges_1
+		cavalry_stables_1
+		horse_archer_paddocks_1
+		armorer_1
+		heavy_cavalry_compound_1
+		military_infirmaries_1
+		gunsmiths_1
+		elephantry_barracks_1
+		camelry_compound_1
+		workers_camps_1
+		siegecraft_academies_1
+		powder_mills_1
+		surveyors_hall_1
+		tower_of_sorcery_1
+		troll_armory_1
+		death_altar_1
+	}
+}
