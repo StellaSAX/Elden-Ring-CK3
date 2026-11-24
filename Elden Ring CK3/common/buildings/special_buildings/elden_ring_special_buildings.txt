@@ -1,7 +1,7 @@
 ﻿placidusax_throne_01 = {
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_al_qarawiyyin_university.dds"
+	type_icon = "special_buildings/al_qarawiyyin_university.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -20,13 +20,12 @@
 		diplomacy_per_prestige_level = 1
 	}
 	county_modifier = {
-		development_growth = 0.5
-		development_growth_factor = 0.5
+		prosperity_growth_factor = 0.5
 		fort_level = 5
 	}
 	duchy_capital_county_modifier = {
 		levy_size = 0.25
-		tax_mult = 0.25
+		monthly_civic_tax = 0.25
 		fort_level = 10
 	}
 	
@@ -60,7 +59,7 @@
 dragon_temple_01 = {
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_duomo_florence.dds"
+	type_icon = "special_buildings/duomo_florence.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -76,13 +75,12 @@ dragon_temple_01 = {
 		learning_per_piety_level = 1
 	}
 	county_modifier = {
-		development_growth = 0.20
-		development_growth_factor = 0.1
+		prosperity_growth_factor = 0.1
 		fort_level = 2
 	}
 	duchy_capital_county_modifier = {
 		levy_size = 0.25
-		tax_mult = 0.25
+		monthly_civic_tax = 0.25
 		fort_level = 10
 	}
 	
@@ -116,7 +114,7 @@ dragon_temple_01 = {
 farum_azula_southern_wall_01 = {
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_york_walls.dds"
+	type_icon = "special_buildings/york_walls.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -131,13 +129,12 @@ farum_azula_southern_wall_01 = {
 		martial_per_prestige_level = 1
 	}
 	county_modifier = {
-		development_growth = 0.20
-		development_growth_factor = 0.1
+		prosperity_growth_factor = 0.1
 		fort_level = 8
 	}
 	duchy_capital_county_modifier = {
 		levy_size = 0.50
-		tax_mult = 0.15
+		monthly_civic_tax = 0.15
 		fort_level = 12
 	}
 	
@@ -171,7 +168,7 @@ farum_azula_southern_wall_01 = {
 dragon_communion_church_01 = {
 	construction_time = very_quick_construction_time
 
-	type_icon = "icon_structure_mont_st_michel.dds"
+	type_icon = "special_buildings/mont_st_michel.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -184,7 +181,6 @@ dragon_communion_church_01 = {
 		monthly_piety = 0.1
 		zealot_opinion = 5
 		same_faith_opinion = 5
-		life_expectancy = 5
 	}
 
 	province_modifier = {
@@ -224,7 +220,7 @@ dragon_communion_church_01 = {
 dragon_communion_church_02 = {
 	construction_time = very_quick_construction_time
 
-	type_icon = "icon_structure_mont_st_michel.dds"
+	type_icon = "special_buildings/mont_st_michel.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -237,7 +233,6 @@ dragon_communion_church_02 = {
 		zealot_tax_contribution_mult = 0.05
 		same_faith_opinion = 5
 		zealot_tax_contribution_mult = 0.1
-		life_expectancy = 5
 	}
 
 	province_modifier = {
@@ -247,8 +242,7 @@ dragon_communion_church_02 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.05
-		monthly_county_control_growth_add = 0.1
+		monthly_civic_tax = 0.05
 		county_opinion_add = 10
 	}
 
@@ -289,7 +283,7 @@ evergaol = {
 
 	character_modifier = {
 		dread_gain_mult = 0.1
-		general_opinion = -5
+		popular_opinion_add = -5
 	}
 
 	province_modifier = {
@@ -340,7 +334,7 @@ minor_erdtree = {
 	}
 
 	county_modifier = {
-		development_growth_factor = 0.25
+		prosperity_growth_factor = 0.25
 	}
 
 	ai_value = {
@@ -374,7 +368,7 @@ bridge_of_sacrifice = {
 	
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_london_bridge.dds"
+	type_icon = "special_buildings/london_bridge.dds"
 
 	can_construct_potential = {
 	}
@@ -388,7 +382,7 @@ bridge_of_sacrifice = {
 	}
 	
 	county_modifier = {
-		monthly_county_control_growth_factor = 0.1
+		control_baseline_add = 10
 		hostile_raid_time = 0.75
 	}
 
@@ -419,7 +413,7 @@ bridge_of_sacrifice = {
 castle_morne_1 = {
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_alamut_castle.dds"
+	type_icon = "special_buildings/alamut_castle.dds"
 
 	next_building = castle_morne_2
 
@@ -432,6 +426,10 @@ castle_morne_1 = {
 		travel_danger = 20
 		fort_level = 2
 		hostile_raid_time = 0.25
+	}
+	
+	county_modifier = {
+		control_baseline_add = 5
 	}
 
 	ai_value = {
@@ -461,7 +459,7 @@ castle_morne_1 = {
 castle_morne_2 = {
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_alamut_castle.dds"
+	type_icon = "special_buildings/alamut_castle.dds"
 	
 	next_building = castle_morne_3
 
@@ -490,7 +488,7 @@ castle_morne_2 = {
 	}
 	
 	county_modifier = {
-		monthly_county_control_growth_factor = 0.1
+		control_baseline_add = 10
 		levy_size = 0.1
 	}
 
@@ -521,7 +519,7 @@ castle_morne_2 = {
 castle_morne_3 = {
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_alamut_castle.dds"
+	type_icon = "special_buildings/alamut_castle.dds"
 
 	can_construct = {
 		scope:holder = {
@@ -551,7 +549,7 @@ castle_morne_3 = {
 	}
 	
 	county_modifier = {
-		monthly_county_control_growth_factor = 0.3
+		control_baseline_add = 20
 		levy_size = 0.25
 	}
 
@@ -582,7 +580,7 @@ castle_morne_3 = {
 fort_haight_1 = {
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_kassiopi_castle.dds"
+	type_icon = "special_buildings/kassiopi_castle.dds"
 
 	next_building = fort_haight_2
 
@@ -598,6 +596,7 @@ fort_haight_1 = {
 	}
 	
 	county_modifier = {
+		control_baseline_add = 10
 		hostile_raid_time = 0.1
 	}
 
@@ -628,7 +627,7 @@ fort_haight_1 = {
 fort_haight_2 = {
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_kassiopi_castle.dds"
+	type_icon = "special_buildings/kassiopi_castle.dds"
 
 	can_construct_potential = {
 	}
@@ -647,10 +646,10 @@ fort_haight_2 = {
 	}
 	
 	county_modifier = {
-		monthly_county_control_growth_factor = 0.3
+		control_baseline_add = 20
 		hostile_raid_time = 0.5
 		supply_limit_mult = 0.25
-		tax_mult = 0.1
+		monthly_civic_tax = 0.1
 	}
 
 	ai_value = {
@@ -680,7 +679,7 @@ fort_haight_2 = {
 stormgate = {
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_walls_of_genoa.dds"
+	type_icon = "special_buildings/walls_of_genoa.dds"
 
 	can_construct_potential = {
 	}
@@ -697,7 +696,7 @@ stormgate = {
 	}
 	
 	county_modifier = {
-		monthly_county_control_growth_add = 0.5
+		control_baseline_add = 10
 	}
 
 	ai_value = {
@@ -727,7 +726,7 @@ stormgate = {
 sellia_gateway = {
 	construction_time = very_quick_construction_time
 
-	type_icon = "icon_structure_walls_of_genoa.dds"
+	type_icon = "special_buildings/walls_of_genoa.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -775,7 +774,7 @@ sellia_gateway = {
 grand_lift_dectus = {
 	construction_time = very_quick_construction_time
 
-	type_icon = "icon_structure_besakih.dds"
+	type_icon = "special_buildings/besakih.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -819,7 +818,7 @@ grand_lift_dectus = {
 bestial_sanctum = {
 	construction_time = very_quick_construction_time
 
-	type_icon = "icon_structure_soltaniyeh.dds"
+	type_icon = "special_buildings/soltaniyeh.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -865,7 +864,7 @@ bestial_sanctum = {
 fort_gael_0 = {
 	construction_time = very_quick_construction_time
 
-	type_icon = "icon_structure_falak_ol_aflak_citadel.dds"
+	type_icon = "special_buildings/falak_ol_aflak_citadel.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -908,7 +907,7 @@ fort_gael_0 = {
 fort_gael_1 = {
 	construction_time = very_quick_construction_time
 
-	type_icon = "icon_structure_falak_ol_aflak_citadel.dds"
+	type_icon = "special_buildings/falak_ol_aflak_citadel.dds"
 
 	can_construct = {
 		scope:holder = {
@@ -964,7 +963,7 @@ fort_gael_1 = {
 redmane_castle = {
 	construction_time = very_quick_construction_time
 
-	type_icon = "icon_structure_the_citadel_of_aleppo.dds"
+	type_icon = "special_buildings/the_citadel_of_aleppo.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1013,7 +1012,7 @@ redmane_castle = {
 shaded_castle = {
 	construction_time = very_quick_construction_time
 
-	type_icon = "icon_structure_kyz_kala.dds"
+	type_icon = "special_buildings/kyz_kala.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1052,7 +1051,7 @@ shaded_castle = {
 fort_laiedd = {
 	construction_time = very_quick_construction_time
 
-	type_icon = "icon_structure_falak_ol_aflak_citadel.dds"
+	type_icon = "special_buildings/falak_ol_aflak_citadel.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1091,7 +1090,7 @@ fort_laiedd = {
 volcano_manor = {
 	construction_time = very_quick_construction_time
 
-	type_icon = "alcazar_segovia.dds"
+	type_icon = "special_buildings/alcazar_segovia.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1303,7 +1302,7 @@ church_of_marika = {
 	}
 	county_modifier = {
 		county_opinion_add = 10
-		monthly_county_control_growth_factor = 0.05
+		control_baseline_add = 5
 	}
 	
 	ai_value = {
