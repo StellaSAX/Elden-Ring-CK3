@@ -783,7 +783,7 @@ tenet_children_of_the_badlands = {
 		army_damage_mult = 0.05
 		pursuit_mult = 0.15
 		county_conversion_speed = 0.1
-		development_growth_factor = -0.05
+		prosperity_growth_factor = -0.05
 	}
 	
 	traits = {
