@@ -157,7 +157,6 @@
  c_castellans_rock: "Castellan's Rock"
  c_shaded_bog: "Shaded Bog"
  c_caria_manor: "Carian Manor"
- c_stormveil_throne: "Throne of Stormveil"
  c_raya_lucaria: "Academy Grounds"
  c_manor_area_two: "Eiglay"
  c_bestial_sanctum: "Bestial Sanctum"
@@ -496,11 +495,6 @@
  b_R96G221B126: "Gravetown"
  b_R51G231B35: "Siegpond"
 
- c_253G101B3: "Oldlake"
- b_225G52B200: "Fischerhom"
- b_R185G162B81: "Deepmud"
- b_lake1: "Beakfeast"
-
  c_R230G127B224: "Shoresink"
  b_R174G93B200: "Sunctown"
  b_R182G231B155: "Graceshine"
@@ -756,13 +750,10 @@
  b_R142G147B135: "Spiritglow"
  b_delete_3: "Stonebottom"
  b_delete_5: "Limview Jetty"
- b_delete_7: "Oceanside"
 
  c_dragon_church_limgrave: "The Diocese of Communion"
  b_R148G142B69: "Dragon Communion Church"
  b_R48G18B224: "Eostre"
- b_R245G74B54: "Guillerock"
- b_R245G74B54: "Greyolln"
 
  c_saintsroad: "Saintsroad"
  b_R20G154B115: "High Seinct"

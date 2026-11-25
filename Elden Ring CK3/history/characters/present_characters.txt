@@ -2562,7 +2562,7 @@ lhutel = {
 		}
 	}
 	7211.2.10 = {
-		give_nickname = nick_the_headless
+		give_nickname = nick_er_the_headless
 	}
 	7211.2.11 = {
 		death = {
