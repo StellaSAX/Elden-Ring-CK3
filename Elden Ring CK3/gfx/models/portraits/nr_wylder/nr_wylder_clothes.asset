@@ -1,0 +1,13 @@
+pdxmesh = {
+ name = "nr_wylder_clothes_mesh"
+ file = "nr_wylder_clothes.mesh"
+ meshsettings = { name = "nr_wylder_clothesShape" index = 0 texture_diffuse = "nrw_armor_d.dds" texture_normal = "nrw_armor_n.dds" texture_specular = "nrw_armor_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_wylder_clothesShape" index = 1 texture_diffuse = "nrw_armor_d.dds" texture_normal = "nrw_armor_n.dds" texture_specular = "nrw_armor_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_wylder_clothesShape" index = 2 texture_diffuse = "nrw_armor_d.dds" texture_normal = "nrw_armor_n.dds" texture_specular = "nrw_armor_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_wylder_clothesShape" index = 3 texture_diffuse = "nrw_mantle_d.dds" texture_normal = "nrw_mantle_n.dds" texture_specular = "nrw_mantle_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_wylder_clothesShape" index = 4 texture_diffuse = "nrw_armor_d.dds" texture_normal = "nrw_armor_n.dds" texture_specular = "nrw_armor_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_wylder_clothesShape" index = 5 texture_diffuse = "nrw_armor_d.dds" texture_normal = "nrw_armor_n.dds" texture_specular = "nrw_armor_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_wylder_clothesShape" index = 6 texture_diffuse = "nrw_armor_d.dds" texture_normal = "nrw_armor_n.dds" texture_specular = "nrw_armor_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_wylder_clothesShape" index = 7 texture_diffuse = "nrw_fur_d.dds" texture_normal = "nrw_armor_n.dds" texture_specular = "nrw_armor_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+}
+entity = { name = "nr_wylder_clothes_entity" pdxmesh = "nr_wylder_clothes_mesh" }

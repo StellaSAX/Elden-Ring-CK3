@@ -1,0 +1,1 @@
+nr_recluse_clothes = { set_tags = "shrink_belly"  entity = { required_tags = "" shared_pose_entity = torso entity = nr_recluse_clothes_entity } }

@@ -1,0 +1,7 @@
+pdxmesh = {
+ name = "nr_executor_female_headgear_mesh"
+ file = "nr_executor_female_headgear.mesh"
+ meshsettings = { name = "nr_executor_female_headgearShape" index = 0 texture_diffuse = "nre_other_d.dds" texture_normal = "nre_other_n.dds" texture_specular = "nre_other_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_executor_female_headgearShape" index = 1 texture_diffuse = "nre_plume_d.dds" texture_normal = "nre_plume_n.dds" texture_specular = "nre_plume_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+}
+entity = { name = "nr_executor_female_headgear_entity" pdxmesh = "nr_executor_female_headgear_mesh" }

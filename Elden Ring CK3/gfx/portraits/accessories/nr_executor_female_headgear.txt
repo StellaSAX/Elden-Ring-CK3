@@ -1,0 +1,1 @@
+﻿nr_executor_female_headgear = { set_tags = "no_hair,no_beard,snug_headgear,enclosed_helmet" entity = { required_tags = "" shared_pose_entity = head entity = nr_executor_female_headgear_entity } }

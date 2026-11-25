@@ -1,0 +1,1 @@
+﻿nr_duchess_headgear = { set_tags = "nr_duchess_mask"  entity = { required_tags = "" shared_pose_entity = head entity = nr_duchess_headgear_entity } }

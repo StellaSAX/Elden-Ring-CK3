@@ -1,0 +1,1 @@
+nr_recluse_headgear = { set_tags = "nr_recluse_hat"  entity = { required_tags = "" shared_pose_entity = head entity = nr_recluse_headgear_entity } }

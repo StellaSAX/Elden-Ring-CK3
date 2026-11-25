@@ -1,0 +1,18 @@
+pdxmesh = {
+ name = "nr_undertaker_clothes_mesh"
+ file = "nr_undertaker_clothes.mesh"
+ meshsettings = { name = "nr_undertaker_clothesShape" index = 0 texture_diffuse = "nru_innder_d.dds" texture_normal = "nru_innder_n.dds" texture_specular = "nru_innder_s.dds" shader = "portrait_attachment" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_undertaker_clothesShape" index = 1 texture_diffuse = "nru_innder_d.dds" texture_normal = "nru_innder_n.dds" texture_specular = "nru_innder_s.dds" shader = "portrait_attachment" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_undertaker_clothesShape" index = 2 texture_diffuse = "nru_leather_d.dds" texture_normal = "nru_leather_n.dds" texture_specular = "nru_leather_s.dds" shader = "portrait_attachment" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_undertaker_clothesShape" index = 3 texture_diffuse = "nru_leather_d.dds" texture_normal = "nru_leather_n.dds" texture_specular = "nru_leather_s.dds" shader = "portrait_attachment" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_undertaker_clothesShape" index = 4 texture_diffuse = "nru_leather_d.dds" texture_normal = "nru_leather_n.dds" texture_specular = "nru_leather_s.dds" shader = "portrait_attachment" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_undertaker_clothesShape" index = 5 texture_diffuse = "nru_leather_d.dds" texture_normal = "nru_leather_n.dds" texture_specular = "nru_leather_s.dds" shader = "portrait_attachment" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_undertaker_clothesShape" index = 6 texture_diffuse = "nru_leather_d.dds" texture_normal = "nru_leather_n.dds" texture_specular = "nru_leather_s.dds" shader = "portrait_attachment" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_undertaker_clothesShape" index = 7 texture_diffuse = "nru_innder_d.dds" texture_normal = "nru_innder_n.dds" texture_specular = "nru_innder_s.dds" shader = "portrait_attachment" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_undertaker_clothesShape" index = 8 texture_diffuse = "nru_pattern_d.dds" texture_normal = "nru_pattern_n.dds" texture_specular = "nru_pattern_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_undertaker_clothesShape" index = 9 texture_diffuse = "nru_pattern_d.dds" texture_normal = "nru_pattern_n.dds" texture_specular = "nru_pattern_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_undertaker_clothesShape" index = 10 texture_diffuse = "nru_pattern_d.dds" texture_normal = "nru_pattern_n.dds" texture_specular = "nru_pattern_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_undertaker_clothesShape" index = 11 texture_diffuse = "nru_pattern_d.dds" texture_normal = "nru_pattern_n.dds" texture_specular = "nru_pattern_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_undertaker_clothesShape" index = 12 texture_diffuse = "nru_pattern_d.dds" texture_normal = "nru_pattern_n.dds" texture_specular = "nru_pattern_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+}
+entity = { name = "nr_undertaker_clothes_entity" pdxmesh = "nr_undertaker_clothes_mesh" }

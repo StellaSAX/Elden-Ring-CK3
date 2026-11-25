@@ -1,0 +1,1 @@
+﻿nr_undertaker_headgear = { set_tags = "no_hair" entity = { required_tags = "" shared_pose_entity = head entity = nr_undertaker_headgear_entity } }

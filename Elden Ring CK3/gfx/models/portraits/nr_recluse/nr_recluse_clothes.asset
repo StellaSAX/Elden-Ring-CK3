@@ -1,0 +1,13 @@
+pdxmesh = {
+ name = "nr_recluse_clothes_mesh"
+ file = "nr_recluse_clothes.mesh"
+ meshsettings = { name = "nr_recluse_clothesShape" index = 0 texture_diffuse = "nrr_robe_d.dds" texture_normal = "nrr_robe_n.dds" texture_specular = "nrr_robe_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_recluse_clothesShape" index = 1 texture_diffuse = "nrr_other_d.dds" texture_normal = "nrr_other_n.dds" texture_specular = "nrr_other_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_recluse_clothesShape" index = 2 texture_diffuse = "nrr_robe_d.dds" texture_normal = "nrr_robe_n.dds" texture_specular = "nrr_robe_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_recluse_clothesShape" index = 3 texture_diffuse = "nrr_robe_d.dds" texture_normal = "nrr_robe_n.dds" texture_specular = "nrr_robe_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_recluse_clothesShape" index = 4 texture_diffuse = "nrr_other_d.dds" texture_normal = "nrr_other_n.dds" texture_specular = "nrr_other_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_recluse_clothesShape" index = 5 texture_diffuse = "nrr_other_d.dds" texture_normal = "nrr_other_n.dds" texture_specular = "nrr_other_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_recluse_clothesShape" index = 6 texture_diffuse = "nrr_other_d.dds" texture_normal = "nrr_other_n.dds" texture_specular = "nrr_other_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_recluse_clothesShape" index = 7 texture_diffuse = "nrr_robe_d.dds" texture_normal = "nrr_robe_n.dds" texture_specular = "nrr_robe_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+}
+entity = { name = "nr_recluse_clothes_entity" pdxmesh = "nr_recluse_clothes_mesh" }

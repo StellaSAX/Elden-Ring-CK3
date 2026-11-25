@@ -1,0 +1,13 @@
+pdxmesh = {
+ name = "nr_duchess_hairstyles_headgear_mesh"
+ file = "nr_duchess_hairstyles_headgear.mesh"
+ meshsettings = { name = "nr_duchess_hairstyles_headgearShape" index = 0 texture_diffuse = "nrd_hair_d.dds" texture_normal = "nrd_hair_n.dds" texture_specular = "nrd_hair_s.dds" shader = "portrait_hair" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_duchess_hairstyles_headgearShape" index = 1 texture_diffuse = "nrd_hair_d.dds" texture_normal = "nrd_hair_n.dds" texture_specular = "nrd_hair_s.dds" shader = "portrait_hair" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_duchess_hairstyles_headgearShape" index = 2 texture_diffuse = "nrd_hair_d.dds" texture_normal = "nrd_hair_n.dds" texture_specular = "nrd_hair_s.dds" shader = "portrait_hair" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_duchess_hairstyles_headgearShape" index = 3 texture_diffuse = "nrd_hair_d.dds" texture_normal = "nrd_hair_n.dds" texture_specular = "nrd_hair_s.dds" shader = "portrait_hair" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_duchess_hairstyles_headgearShape" index = 4 texture_diffuse = "nrd_hair_d.dds" texture_normal = "nrd_hair_n.dds" texture_specular = "nrd_hair_s.dds" shader = "portrait_hair" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_duchess_hairstyles_headgearShape" index = 5 texture_diffuse = "nrd_hair_d.dds" texture_normal = "nrd_hair_n.dds" texture_specular = "nrd_hair_s.dds" shader = "portrait_hair" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_duchess_hairstyles_headgearShape" index = 6 texture_diffuse = "nrd_upper_d.dds" texture_normal = "nrd_upper_n.dds" texture_specular = "nrd_upper_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_duchess_hairstyles_headgearShape" index = 7 texture_diffuse = "nrd_crown_d.dds" texture_normal = "nrd_crown_n.dds" texture_specular = "nrd_crown_s.dds" shader = "portrait_hair" shader_file = "gfx/FX/jomini/portrait.shader" }
+}
+entity = { name = "nr_duchess_hairstyles_headgear_entity" pdxmesh = "nr_duchess_hairstyles_headgear_mesh" game_data = { portrait_entity_user_data = { color_mask_remap_interval = { interval = { 0.0 1.0 } } } } }

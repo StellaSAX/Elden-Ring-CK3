@@ -1,0 +1,15 @@
+pdxmesh = {
+ name = "nr_duchess_clothes_mesh"
+ file = "nr_duchess_clothes.mesh"
+ meshsettings = { name = "nr_duchess_clothesShape" index = 0 texture_diffuse = "nrd_upper_d.dds" texture_normal = "nrd_upper_n.dds" texture_specular = "nrd_upper_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_duchess_clothesShape" index = 1 texture_diffuse = "nrd_upper_d.dds" texture_normal = "nrd_upper_n.dds" texture_specular = "nrd_upper_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_duchess_clothesShape" index = 2 texture_diffuse = "nrd_upper_d.dds" texture_normal = "nrd_upper_n.dds" texture_specular = "nrd_upper_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_duchess_clothesShape" index = 3 texture_diffuse = "nrd_lower_d.dds" texture_normal = "nrd_lower_n.dds" texture_specular = "nrd_lower_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_duchess_clothesShape" index = 4 texture_diffuse = "nrd_lower_d.dds" texture_normal = "nrd_lower_n.dds" texture_specular = "nrd_lower_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_duchess_clothesShape" index = 5 texture_diffuse = "nrd_upper_d.dds" texture_normal = "nrd_upper_n.dds" texture_specular = "nrd_upper_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_duchess_clothesShape" index = 6 texture_diffuse = "nrd_upper_d.dds" texture_normal = "nrd_upper_n.dds" texture_specular = "nrd_upper_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_duchess_clothesShape" index = 7 texture_diffuse = "nrd_upper_d.dds" texture_normal = "nrd_upper_n.dds" texture_specular = "nrd_upper_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_duchess_clothesShape" index = 8 texture_diffuse = "nrd_glove_d.dds" texture_normal = "nrd_glove_n.dds" texture_specular = "nrd_glove_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_duchess_clothesShape" index = 9 texture_diffuse = "nrd_lining_d.dds" texture_normal = "nrd_lining_n.dds" texture_specular = "nrd_lining_s.dds" shader = "portrait_attachment_alpha_to_coverage" shader_file = "gfx/FX/jomini/portrait.shader" }
+}
+entity = { name = "nr_duchess_clothes_entity" pdxmesh = "nr_duchess_clothes_mesh"  }

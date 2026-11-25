@@ -1,0 +1,7 @@
+pdxmesh = {
+ name = "nr_recluse_hairhat_mesh"
+ file = "nr_recluse_hairhat.mesh"
+ meshsettings = { name = "nr_recluse_hairhatShape" index = 0 texture_diffuse = "nrr_hair_d.dds" texture_normal = "nrr_hair_n.dds" texture_specular = "nrr_hair_s.dds" shader = "portrait_hair" shader_file = "gfx/FX/jomini/portrait.shader" }
+ meshsettings = { name = "nr_recluse_hairhatShape" index = 1 texture_diffuse = "nrr_hair_d.dds" texture_normal = "nrr_hair_n.dds" texture_specular = "nrr_hair_s.dds" shader = "portrait_hair" shader_file = "gfx/FX/jomini/portrait.shader" }
+}
+entity = { name = "nr_recluse_hairhat_entity" pdxmesh = "nr_recluse_hairhat_mesh"  game_data = { portrait_entity_user_data = { color_mask_remap_interval = { interval = { 0.0 1.0 } } } } }
