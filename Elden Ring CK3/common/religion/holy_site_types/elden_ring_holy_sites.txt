@@ -109,7 +109,7 @@ limgrave_divine_tower = {
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		prosperity_growth_factor = 0.05
-		#county_opinion_add = 2
+		popular_opinion_add = 2
 	}
 
 	faith_character_modifier = {
@@ -203,7 +203,7 @@ caria_manor = {
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		religious_tax_mult = holy_site_relic_tax_bonus
-		#county_opinion_add = 2
+		popular_opinion_add = 2
 	}
 
 	faith_character_modifier = {
@@ -228,7 +228,7 @@ haligtree = {
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		prosperity_growth_factor = 0.01
-		#county_opinion_add = 1
+		popular_opinion_add = 1
 	}
 
 	faith_character_modifier = {
@@ -252,7 +252,7 @@ farum_azula = {
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		religious_tax_mult = holy_site_relic_tax_bonus
-		#county_opinion_add = 2
+		popular_opinion_add = 2
 	}
 
 	faith_character_modifier = {
@@ -350,7 +350,7 @@ sellia_sorcery = {
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		religious_tax_mult = holy_site_relic_tax_bonus
-		#county_opinion_add = 1
+		popular_opinion_add = 1
 	}
 
 	faith_character_modifier = {
@@ -522,7 +522,7 @@ three_fingers = {
 
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		#county_opinion_add = 1
+		popular_opinion_add = 1
 		garrison_size = 0.02
 	}
 
@@ -595,7 +595,7 @@ deeproot = {
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		religious_tax_mult = holy_site_relic_tax_bonus
-		#county_opinion_add = 1
+		popular_opinion_add = 1
 	}
 
 	faith_character_modifier = {
@@ -839,7 +839,7 @@ manus_metyr = {
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		prosperity_growth_factor = 0.01
-		#county_opinion_add = 2
+		popular_opinion_add = 2
 	}
 
 	faith_character_modifier = {
@@ -989,7 +989,7 @@ mount_gelmir = {
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		religious_tax_mult = holy_site_relic_tax_bonus
-		#county_opinion_add = 2
+		popular_opinion_add = 2
 		#monthly_county_control_growth_factor = 0.02
 	}
 
@@ -1063,7 +1063,7 @@ blood_palace = {
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		prosperity_growth_factor = 0.01
-		#county_opinion_add = 2
+		popular_opinion_add = 2
 		#monthly_county_control_growth_factor = 0.01
 	}
 
@@ -1137,7 +1137,7 @@ regal_spirit = {
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		prosperity_growth_factor = 0.01
-		#county_opinion_add = 1
+		popular_opinion_add = 1
 	}
 
 	faith_character_modifier = {

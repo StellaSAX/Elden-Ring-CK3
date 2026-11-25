@@ -1051,7 +1051,6 @@ tenet_night = {
 		dread_gain_mult = 0.25
 		different_faith_opinion = -10
 		same_faith_different_rite_opinion = 10
-		same_faith_different_rite_county_opinion_add = 15
 	}
 	
 	personal_tenet_parameters = {

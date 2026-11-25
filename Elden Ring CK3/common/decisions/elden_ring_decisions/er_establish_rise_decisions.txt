@@ -30,7 +30,7 @@ er_establish_rise = {
 						terrain = narrow_path
 						terrain = scarlet_swamp
 					}
-					has_special_building = no
+					has_special_district_slot = no
 				}
 			}
 			trigger_else = {
@@ -124,7 +124,7 @@ er_establish_rise = {
 					value = scope:founder
 				}
 				title_province = {
-					add_special_building = generic_rise
+					add_special_district_slot = generic_rise_district
 				}
 			}
 			set_variable = {

@@ -26,7 +26,7 @@ site_of_martyrs = {
 	is_dynamic = yes
 
 	county_holder_character_modifier = {
-		#county_opinion_add = 5
+		popular_opinion_add = 5
 	}
 
 	county_modifier_scaled = {
@@ -160,7 +160,7 @@ site_of_communion = {
 		prosperity_growth_factor = 0.01
 		religious_tax_mult = holy_site_relic_tax_bonus
 		#monthly_county_control_growth_add = 0.02
-		#county_opinion_add = 2
+		popular_opinion_add = 2
 	}
 
 	faith_character_modifier = {
