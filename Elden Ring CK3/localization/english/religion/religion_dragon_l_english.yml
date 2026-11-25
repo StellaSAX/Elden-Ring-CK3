@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  
  dragon_religion:0 "Ancient Dragons"
  dragon_religion_adj:0 "Ancient Dragon"
@@ -50,7 +50,7 @@
  placidusax_cult_adj:0 "Dragon-Faith"
  placidusax_cult_adherent:0 "Communer"
  placidusax_cult_adherent_plural:0 "Communers"
- placidusax_cult_desc:0 "In the crumbling ruins of Farum Azula, said to be a mausoleum raised to enshrine an ancient dragon, the Dragons await the return of Placidusax, the Dragonlord whose seat lies beyond time.\n\nChosen beastmen stand guard with weapons clad in lightning, and the priestesss of the Dragon Communion bestows her favour in the name of the lord who was once Elden Lord, and never ceased to wait for his fled god's return."
+ placidusax_cult_desc:0 "In the crumbling ruins of Farum Azula, believed to be a mausoleum built in honour of an ancient dragon, the Ancient Dragons await the return of their lord, Dragonlord Placidusax, whose seat lies beyond the bounds of time.\n\nChosen beastmen keep watch over the ruins, their weapons wreathed in lightning, while the priestess of the Dragon Communion bestows her blessings in the name of the Dragonlord, once Elden Lord, who has never abandoned his vigil for the return of his fled god.\n\nAmong mortal believers, the Dragon Communion is observed as a sacred rite, said to have been devised by Placidusax as retribution for Bayle the Dread's betrayal. Its warriors inherit the dragons' hatred for their lesser descendants, hunting the drakes of Bayle's bloodline and devouring their hearts at the altar to claim their power. Yet the Communion exacts a terrible price, gradually stripping its followers of their humanity. Those who surrender themselves entirely to its power are doomed to become wyrms, crawling across the earth."
  
  faith_ancient_dragon:0 "Ancient Dragons"
  faith_ancient_dragon_adj:0 "Ancient"
@@ -62,16 +62,16 @@
  ancient_dragon_rite_adj:0 "Dragon-Faith"
  ancient_dragon_rite_adherent:0 "Communer"
  ancient_dragon_rite_adherent_plural:0 "Communers"
- ancient_dragon_rite_desc:0 "In the crumbling ruins of Farum Azula, said to be a mausoleum raised to enshrine an ancient dragon, the Dragons await the return of Placidusax, the Dragonlord whose seat lies beyond time.\n\nChosen beastmen stand guard with weapons clad in lightning, and the priestesss of the Dragon Communion bestows her favour in the name of the lord who was once Elden Lord, and never ceased to wait for his fled god's return."
+ ancient_dragon_rite_desc:0 "In the crumbling ruins of Farum Azula, believed to be a mausoleum built in honour of an ancient dragon, the Ancient Dragons await the return of their lord, Dragonlord Placidusax, whose seat lies beyond the bounds of time.\n\nChosen beastmen keep watch over the ruins, their weapons wreathed in lightning, while the priestess of the Dragon Communion bestows her blessings in the name of the Dragonlord, once Elden Lord, who has never abandoned his vigil for the return of his fled god.\n\nAmong mortal believers, the Dragon Communion is observed as a sacred rite, said to have been devised by Placidusax as retribution for Bayle the Dread's betrayal. Its warriors inherit the dragons' hatred for their lesser descendants, hunting the drakes of Bayle's bloodline and devouring their hearts at the altar to claim their power. Yet the Communion exacts a terrible price, gradually stripping its followers of their humanity. Those who surrender themselves entirely to its power are doomed to become wyrms, crawling across the earth."
  
  faith_bayle_dragon:0 "Bayle's Tyranny"
  faith_bayle_dragon_adj:0 "Bayle's Tyranny"
  faith_bayle_dragon_adherent:0 "Bayle Tyrant"
  faith_bayle_dragon_adherent_plural:0 "Bayle Tyrants"
- faith_bayle_dragon_desc:0 "Curse you bayle!"
+ faith_bayle_dragon_desc:0 "The dragon Bayle turned against the Ancient Dragons and challenged their lord, Dragonlord Placidusax, in a battle that left both grievously wounded. Bayle lost his wings and a leg, but survived the clash and fled to the Jagged Peak, where his roars continue to stir the mountain's magma.\n\nThe followers of Bayle's Tyranny revere the dragons who forsook Placidusax to stand with Bayle, wielders of the branching red lightning that once marked their allegiance. They regard the drakes of the Jagged Peak as Bayle's descendants and uphold his rebellion as a righteous challenge to the Dragonlord's rule."
  
  bayle_rite:0 "Bayle's Tyranny"
  bayle_rite_adj:0 "Bayle's Tyranny"
  bayle_rite_adherent:0 "Bayle Tyrant"
  bayle_rite_adherent_plural:0 "Bayle Tyrants"
- bayle_rite_desc:0 "Curse you bayle!"
+ bayle_rite_desc:0 "The dragon Bayle turned against the Ancient Dragons and challenged their lord, Dragonlord Placidusax, in a battle that left both grievously wounded. Bayle lost his wings and a leg, but survived the clash and fled to the Jagged Peak, where his roars continue to stir the mountain's magma.\n\nThe followers of Bayle's Tyranny revere the dragons who forsook Placidusax to stand with Bayle, wielders of the branching red lightning that once marked their allegiance. They regard the drakes of the Jagged Peak as Bayle's descendants and uphold his rebellion as a righteous challenge to the Dragonlord's rule."
