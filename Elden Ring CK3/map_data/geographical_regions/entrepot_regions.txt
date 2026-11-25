@@ -1,0 +1,11 @@
+﻿entrepot_counties_region = {
+	counties = {
+		c_morne
+	}
+}
+
+entrepot_provinces_region = {
+	provinces = {
+		2314
+	}
+}

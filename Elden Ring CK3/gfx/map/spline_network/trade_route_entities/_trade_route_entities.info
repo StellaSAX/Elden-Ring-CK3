@@ -1,0 +1,97 @@
+
+trade_route_entity_type = {
+	### brief: valid_spline_types ( list of strings )
+	# Spline types this entity appears on (from gfx/map/spline_network/spline_types),
+	# e.g. ships only on "naval_route" sections. Optional; defaults to "dirtroad".
+	# Must be all land or all naval types; mixing the two is an error.
+	valid_spline_types = { "dirtroad" }
+
+	### brief: speed ( number )
+	# Travel speed of the group along the path, in path-units per second.
+	# Default 0.1.
+	speed = 0.5
+
+	### brief: min_caravan_distance ( number )
+	# Minimum spacing between caravan groups along the same path, in path-units.
+	# Default 0.1.
+	min_caravan_distance = 10.0
+
+	### brief: max_count ( integer )
+	# Maximum number of caravan groups that can travel simultaneously on a given path.
+	# Default 0.
+	max_count = 50
+
+	### brief: max_path_length ( integer )
+	# Cap on the path length (in strips) this entity type will traverse.
+	# Default 0.
+	max_path_length = 4
+
+	### brief: possible ( trigger, character scope )
+	# Evaluated against the trade route owner. If false, the type is skipped.
+	possible = {
+		always = yes
+	}
+
+	### brief: tags ( block )
+	# Named tags whose triggers are evaluated against the trade route owner.
+	# Tags that pass form the "active set"; route_entities filter by required
+	# tags from this set. Used for cultural / conditional entity variation.
+	tags = {
+		european = {
+			### brief: trigger ( trigger, character scope )
+			trigger = {
+				culture = { has_cultural_pillar = heritage_latin }
+			}
+		}
+	}
+
+	### brief: route_entities ( block )
+	# Ordered chain of entities that make up one caravan group. Entries sharing the
+	# same position are alternatives; first one whose required tags are all active
+	# wins that slot. Position 0 = head, higher positions = behind.
+	route_entities = {
+		lead = {
+			### brief: tags ( list of strings, optional )
+			# Required tags. All must be in the active set for this entry to be picked.
+			# Omit for unconditional. For "either tag" duplicate the entry per tag.
+			tags = { european }
+
+			### brief: entity ( string )
+			# Name of the entity type to spawn (must match an entity { name = ... } in a .asset).
+			entity = "horses_01_entity"
+
+			### brief: position ( integer )
+			# Slot number along the caravan, 0 = head.
+			position = 0
+
+			### brief: entity_length ( number )
+			# The model's real length along the path, in path-units — measure the mesh.
+			# Chained entities follow each other spaced by it, and a model only shows while
+			# this whole length fits inside the current land/water section. Must be > 0.
+			entity_length = 0.7
+
+			### brief: path_offset ( number, optional )
+			# Fixed formation spot instead of chaining: distance along the travel direction
+			# from the lead entity, like a locator Z. 0 = at the leader, -7 = 7 behind it.
+			# Either every entry of the type sets it or none; count is ignored with it.
+			path_offset = -7
+
+			### brief: side_offset ( number, optional )
+			# Sideways spot across the travel direction, like a locator X: positive = right,
+			# negative = left. Not affected by zoom so formations keep their shape. Default 0.
+			side_offset = 0
+
+			### brief: scale ( number, optional )
+			# Visual scale multiplier applied on top of the entity's native scale.
+			# Default 1.0.
+			scale = 1.0
+
+			### brief: count ( script value, optional )
+			# How many copies of this entity to spawn in this slot.
+			# Resolved against trade route owner scope. Default 1.
+			count = {
+				integer_range = { min = 1 max = 2 }
+			}
+		}
+	}
+}

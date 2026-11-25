@@ -1,0 +1,272 @@
+﻿dirtroad = {
+	id = 0
+	spline = {
+		uv_scale = 0.03
+		width = 2
+		uv_rounding = no
+		smooth_fade_distance = 10
+		smooth_iterations = 0
+		smooth_kernel_size = 1
+		tesselation_max_angle = 5.0
+		tesselation_min_distance = 0.1
+		tesselation_max_distance = .25
+		opacity_fade_distance = 0.01
+	}
+	effect = {
+		effectname = "SingleTexturePass"
+		shaderfile = "gfx/FX/spline_network_shaders/road_mulpass.shader"
+
+		texture_set = {
+			name = ""
+			texture =  { file = "gfx/map/spline_network/road_dirt_diffuse.dds" }
+			texture =  { file = "gfx/map/spline_network/road_dirt_normal.dds" srgb = no}
+			texture =  { file = "gfx/map/spline_network/road_dirt_properties.dds" }
+		}
+	}
+	connections = none
+}
+
+naval_route = {
+	id = 1
+	spline = {
+		uv_scale = 0.03125
+		width = 8
+		uv_rounding = no
+		smooth_fade_distance = 10
+		smooth_iterations = 0
+		smooth_kernel_size = 1
+		tesselation_max_angle = 5.0
+		tesselation_min_distance = 0.1
+		tesselation_max_distance = .25
+		opacity_fade_distance = 0.0625
+		end_fadeout_distance = 0
+	}
+	effect = {
+		effectname = "PS_naval_route"
+		shaderfile = "gfx/FX/spline_network_shaders/naval_route.shader"
+
+		texture_set = {
+			name = "Default"
+			texture = { file = "gfx/map/spline_network/naval_route_diffuse.dds" }
+			texture = { file = "gfx/models/debug/no_normal.dds" srgb = no }
+			texture = { file = "gfx/map/spline_network/naval_route_properties.dds" }
+			texture = { file = "gfx/map/spline_network/naval_route_diffuse_flatmap.dds" }
+			texture = { file = "gfx/models/debug/no_normal.dds" srgb = no }
+			texture = { file = "gfx/map/spline_network/naval_route_properties.dds" }
+		}
+
+		texture_set = {
+			name = "Highlight"
+			texture = { file = "gfx/map/spline_network/naval_route_diffuse_highlight.dds" }
+			texture = { file = "gfx/models/debug/no_normal.dds" srgb = no }
+			texture = { file = "gfx/map/spline_network/naval_route_properties.dds" }
+			texture = { file = "gfx/map/spline_network/naval_route_diffuse_flatmap_highlight.dds" }
+			texture = { file = "gfx/models/debug/no_normal.dds" srgb = no }
+			texture = { file = "gfx/map/spline_network/naval_route_properties.dds" }
+		}
+	}
+	connections = hidden
+	max_connection_angle = 180
+}
+
+dirtroad_sand = {
+	id = 2
+	terrain_types = { desert desert_mountains oasis }
+	spline = {
+		uv_scale = 0.015625
+		width = 2
+		uv_rounding = no
+		smooth_fade_distance = 10
+		smooth_iterations = 0
+		smooth_kernel_size = 1
+		tesselation_max_angle = 5.0
+		tesselation_min_distance = 0.1
+		tesselation_max_distance = .25
+		opacity_fade_distance = 0.0625
+	}
+	effect = {
+		effectname = "SingleTexturePass"
+		shaderfile = "gfx/FX/spline_network_shaders/road_mulpass.shader"
+
+		texture_set = {
+			name = ""
+			texture =  { file = "gfx/map/spline_network/variants/road_sand_diffuse.dds" }
+			texture =  { file = "gfx/map/spline_network/road_dirt_normal.dds" srgb = no}
+			texture =  { file = "gfx/map/spline_network/road_dirt_properties.dds" }
+		}
+	}
+	connections = none
+}
+
+dirtroad_drylands = {
+	id = 3
+	terrain_types = { drylands }
+	spline = {
+		uv_scale = 0.015625
+		width = 2
+		uv_rounding = no
+		smooth_fade_distance = 10
+		smooth_iterations = 0
+		smooth_kernel_size = 1
+		tesselation_max_angle = 5.0
+		tesselation_min_distance = 0.1
+		tesselation_max_distance = .25
+		opacity_fade_distance = 0.0625
+	}
+	effect = {
+		effectname = "SingleTexturePass"
+		shaderfile = "gfx/FX/spline_network_shaders/road_mulpass.shader"
+
+		texture_set = {
+			name = ""
+			texture =  { file = "gfx/map/spline_network/variants/road_drylands_diffuse.dds" }
+			texture =  { file = "gfx/map/spline_network/road_dirt_normal.dds" srgb = no}
+			texture =  { file = "gfx/map/spline_network/road_dirt_properties.dds" }
+		}
+	}
+	connections = none
+}
+dirtroad_steppe = {
+	id = 9
+	terrain_types = { steppe }
+	spline = {
+		uv_scale = 0.015625
+		width = 2
+		uv_rounding = no
+		smooth_fade_distance = 10
+		smooth_iterations = 0
+		smooth_kernel_size = 1
+		tesselation_max_angle = 5.0
+		tesselation_min_distance = 0.1
+		tesselation_max_distance = .25
+		opacity_fade_distance = 0.0625
+	}
+	effect = {
+		effectname = "SingleTexturePass"
+		shaderfile = "gfx/FX/spline_network_shaders/road_mulpass.shader"
+
+		texture_set = {
+			name = ""
+			texture =  { file = "gfx/map/spline_network/variants/road_steppe_diffuse.dds" }
+			texture =  { file = "gfx/map/spline_network/road_dirt_normal.dds" srgb = no}
+			texture =  { file = "gfx/map/spline_network/road_dirt_properties.dds" }
+		}
+	}
+	connections = none
+}
+
+dirtroad_snow = {
+	id = 4
+	terrain_types = { taiga }
+	spline = {
+		uv_scale = 0.015625
+		width = 2
+		uv_rounding = no
+		smooth_fade_distance = 10
+		smooth_iterations = 0
+		smooth_kernel_size = 1
+		tesselation_max_angle = 5.0
+		tesselation_min_distance = 0.1
+		tesselation_max_distance = .25
+		opacity_fade_distance = 0.0625
+	}
+	effect = {
+		effectname = "SingleTexturePass"
+		shaderfile = "gfx/FX/spline_network_shaders/road_mulpass.shader"
+
+		texture_set = {
+			name = ""
+			texture =  { file = "gfx/map/spline_network/road_dirt_diffuse.dds" }
+			texture =  { file = "gfx/map/spline_network/road_dirt_normal.dds" srgb = no}
+			texture =  { file = "gfx/map/spline_network/road_dirt_properties.dds" }
+		}
+	}
+	connections = none
+}
+
+dirtroad_jungle = {
+	id = 5
+	terrain_types = { jungle }
+	spline = {
+		uv_scale = 0.017
+		width = 2
+		uv_rounding = no
+		smooth_fade_distance = 10
+		smooth_iterations = 0
+		smooth_kernel_size = 1
+		tesselation_max_angle = 5.0
+		tesselation_min_distance = 0.1
+		tesselation_max_distance = .25
+		opacity_fade_distance = 0.0625
+	}
+	effect = {
+		effectname = "SingleTexturePass"
+		shaderfile = "gfx/FX/spline_network_shaders/road_mulpass.shader"
+
+		texture_set = {
+			name = ""
+			texture =  { file = "gfx/map/spline_network/variants/road_jungle_diffuse.dds" }
+			texture =  { file = "gfx/map/spline_network/road_dirt_normal.dds" srgb = no}
+			texture =  { file = "gfx/map/spline_network/road_dirt_properties.dds" }
+		}
+	}
+	connections = none
+}
+
+# TODO: Trade route planner spline styles; id values are provisional and will be readjusted.
+# Keep TradeRoutePlannerTierZeroStyleId and TradeRoutePlannerTierAboveZeroStyleId in source/interface/trade_route_utilities.cpp in sync.
+trade_route_planner_tier_zero = {
+	id = 7
+	spline = {
+		uv_scale = 0.05
+		width = 8
+		uv_rounding = no
+		smooth_fade_distance = 10
+		smooth_iterations = 0
+		smooth_kernel_size = 1
+		tesselation_max_angle = 5.0
+		tesselation_min_distance = 0.1
+		tesselation_max_distance = .25
+		opacity_fade_distance = 0.0625
+	}
+	effect = {
+		effectname = "TradeRoutePlannerTierZero"
+		shaderfile = "gfx/FX/spline_network_shaders/road_mulpass.shader"
+
+		texture_set = {
+			name = ""
+			texture = { file = "gfx/map/spline_network/trade_route_planner_tier_zero.dds" }
+			texture = { file = "gfx/models/debug/no_normal.dds" srgb = no }
+			texture = { file = "gfx/map/spline_network/road_dirt_properties.dds" }
+		}
+	}
+	connections = none
+}
+
+trade_route_planner_tier_above_zero = {
+	id = 8
+	spline = {
+		uv_scale = 0.035
+		width = 6
+		uv_rounding = no
+		smooth_fade_distance = 10
+		smooth_iterations = 0
+		smooth_kernel_size = 1
+		tesselation_max_angle = 5.0
+		tesselation_min_distance = 0.1
+		tesselation_max_distance = .25
+		opacity_fade_distance = 0.0625
+	}
+	effect = {
+		effectname = "TradeRoutePlannerTierAboveZero"
+		shaderfile = "gfx/FX/spline_network_shaders/road_mulpass.shader"
+
+		texture_set = {
+			name = ""
+			texture =  { file = "gfx/map/spline_network/trade_route_planner_tier_above_zero.dds" }
+			texture =  { file = "gfx/map/spline_network/road_dirt_normal.dds" srgb = no}
+			texture =  { file = "gfx/map/spline_network/road_dirt_properties.dds" }
+		}
+	}
+	connections = none
+}

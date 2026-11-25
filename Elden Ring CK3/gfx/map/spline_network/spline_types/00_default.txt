@@ -1,0 +1,25 @@
+﻿dirtroad = {		
+	id = 0
+	default_style = 0
+	color = { 0.75 0.75 0 }
+	merge_with_types = { }	# Specifed with id numbers
+	anchor_sparsity = 1 # Number of NavMesh vertices to skip between each anchor
+	anchor_type = 0
+}
+
+naval_route = {
+	id = 1
+	default_style = 1
+	color = { 0 0 0.80 }
+	merge_with_types = { 1 }
+	anchor_sparsity = 1 # Number of NavMesh vertices to skip between each anchor
+	anchor_type = 1
+}
+
+river = {
+	id = 15
+	default_style = 255
+	color = { 0.0 0.0 1.0 }
+	merge_with_types = { }	# Specifed with id numbers
+	anchor_type = 0
+}

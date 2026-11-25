@@ -1,0 +1,790 @@
+﻿trade_caravan_basic = {
+	valid_spline_types = { "dirtroad" }
+
+	speed = 0.6
+	min_caravan_distance = 10.0
+	max_count = 50
+	max_path_length = 4
+
+	possible = {
+		always = yes
+	}
+
+	tags = {
+		southeast_asian = {
+			trigger = {
+				culture = { has_clothing_gfx = southeast_asian_clothing_gfx }
+			}
+		}
+		chinese = {
+			trigger = {
+				culture = { has_clothing_gfx = chinese_clothing_gfx }
+			}
+		}
+		indian = {
+			trigger = {
+				culture = { has_clothing_gfx = indian_clothing_gfx }
+			}
+		}
+		iranian = {
+			trigger = {
+				culture = { has_clothing_gfx = iranian_clothing_gfx }
+			}
+		}
+		byzantine = {
+			trigger = {
+				culture = { has_clothing_gfx = byzantine_clothing_gfx }
+			}
+		}
+		emishi = {
+			trigger = {
+				culture = { has_clothing_gfx = emishi_clothing_gfx }
+			}
+		}
+		japanese = {
+			trigger = {
+				culture = { has_clothing_gfx = japanese_clothing_gfx }
+			}
+		}
+		turko_mongol = {
+			trigger = {
+				culture = { has_clothing_gfx = mongol_clothing_gfx }
+			}
+		}
+		sub_saharan = {
+			trigger = {
+				culture = { has_clothing_gfx = african_clothing_gfx }
+			}
+		}
+		mena = {
+			trigger = {
+				culture = { has_clothing_gfx = mena_clothing_gfx }
+			}
+		}
+		fp1_northern = {
+			trigger = {
+				culture = { has_clothing_gfx = northern_clothing_gfx }
+				has_dlc_feature = the_northern_lords
+			}
+		}
+		fp2_christian = {
+			trigger = {
+				culture = { has_clothing_gfx = iberian_christian_clothing_gfx }
+				has_dlc_feature = the_fate_of_iberia
+			}
+		}
+		fp2_muslim = {
+			trigger = {
+				culture = { has_clothing_gfx = iberian_muslim_clothing_gfx }
+				has_dlc_feature = the_fate_of_iberia
+			}
+		}
+		northern = {
+			trigger = {
+				culture = { has_clothing_gfx = northern_clothing_gfx }
+			}
+		}
+		western = {
+			trigger = {
+				culture = { has_clothing_gfx = western_clothing_gfx }
+			}
+		}
+		should_have_dromedaries = {
+			trigger = {
+				location = { geographical_region = world_innovation_camels }
+			}
+		}
+	}
+
+	route_entities = {
+
+		#################################################################
+		#							Cart Entities						#
+		#################################################################
+
+		caravan_entity = {
+			entity = "gdp_chinese_merchant_cart_01_entity"
+			position = 0
+			entity_length = 10
+			side_offset = -0.6
+			scale = 1.0
+			tags = { chinese }
+			count = {
+				integer_range = { min = 1 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "gdp_se_asia_merchant_cart_01_entity"
+			position = 0
+			entity_length = 10
+			side_offset = 1.2
+			scale = 1.0
+			tags = { southeast_asian }
+			count = {
+				integer_range = { min = 1 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "gdp_western_merchant_cart_01_entity"
+			position = 0
+			entity_length = 10
+			side_offset = -1.5
+			scale = 1.0
+			tags = { western }
+			count = {
+				integer_range = { min = 1 max = 1 }
+			}
+		}
+
+		#################################################################
+		#						Leading Dromedary						#
+		#################################################################
+
+		caravan_entity = {
+			entity = "trade_unit_byzantine_leading_dromedary_01_entity"
+			position = 1
+			entity_length = 5
+			side_offset = 1.4
+			scale = 1.0
+			tags = { should_have_dromedaries byzantine should_have_dromedaries }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		# caravan_entity = {
+		# 	entity = "trade_unit_ccp_emishi_leading_dromedary_01_entity"
+		# 	position = 1
+		# 	entity_length = 5
+		# 	scale = 1.0
+		# 	tags = { should_have_dromedaries emishi }
+		# }
+
+		# caravan_entity = {
+		# 	entity = "trade_unit_fp1_leading_dromedary_01_entity"
+		# 	position = 1
+		# 	entity_length = 5
+		# 	scale = 1.0
+		# 	tags = { should_have_dromedaries fp1_northern }
+		# }
+
+		caravan_entity = {
+			entity = "trade_unit_fp2_iberian_christian_leading_dromedary_01_entity"
+			position = 1
+			entity_length = 5
+			side_offset = -0.8
+			scale = 1.0
+			tags = { should_have_dromedaries fp2_christian }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_fp2_iberian_muslim_leading_dromedary_01_entity"
+			position = 1
+			entity_length = 5
+			side_offset = 0.5
+			scale = 1.0
+			tags = { should_have_dromedaries fp2_muslim }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_fp3_iranian_leading_dromedary_01_entity"
+			position = 1
+			entity_length = 5
+			side_offset = -1.7
+			scale = 1.0
+			tags = { should_have_dromedaries iranian }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_indian_leading_dromedary_01_entity"
+			position = 1
+			entity_length = 5
+			side_offset = 1.8
+			scale = 1.0
+			tags = { should_have_dromedaries indian }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_mena_leading_dromedary_01_entity"
+			position = 1
+			entity_length = 5
+			side_offset = -0.3
+			scale = 1.0
+			tags = { should_have_dromedaries mena }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		# caravan_entity = {
+		# 	entity = "trade_unit_northern_pagan_leading_dromedary_01_entity"
+		# 	position = 1
+		# 	entity_length = 5
+		# 	scale = 1.0
+		# 	tags = { should_have_dromedaries northern }
+		# }
+
+		caravan_entity = {
+			entity = "trade_unit_sub_saharan_leading_dromedary_01_entity"
+			position = 1
+			entity_length = 5
+			side_offset = 0.9
+			scale = 1.0
+			tags = { should_have_dromedaries sub_saharan }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_tgp_chinese_leading_dromedary_01_entity"
+			position = 1
+			entity_length = 5
+			side_offset = -1.2
+			scale = 1.0
+			tags = { should_have_dromedaries chinese }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		# caravan_entity = {
+		# 	entity = "trade_unit_tgp_japanese_leading_dromedary_01_entity"
+		# 	position = 1
+		# 	entity_length = 5
+		# 	scale = 1.0
+		# 	tags = { should_have_dromedaries japanese }
+		# }
+
+		caravan_entity = {
+			entity = "trade_unit_turko_mongol_leading_dromedary_01_entity"
+			position = 1
+			entity_length = 5
+			side_offset = 1.6
+			scale = 1.0
+			tags = { should_have_dromedaries turko_mongol }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		# caravan_entity = {
+		# 	entity = "trade_unit_western_leading_dromedary_01_entity"
+		# 	position = 1
+		# 	entity_length = 5
+		# 	scale = 1.0
+		# 	tags = { should_have_dromedaries western }
+		# }
+
+
+		#################################################################
+		#						Riding Dromedary						#
+		#################################################################
+
+		caravan_entity = {
+			entity = "trade_unit_byzantine_riding_dromedary_01_entity"
+			position = 2
+			entity_length = 5
+			side_offset = -1.1
+			scale = 1.0
+			tags = { should_have_dromedaries byzantine }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		# caravan_entity = {
+		# 	entity = "trade_unit_ccp_emishi_riding_dromedary_01_entity"
+		# 	position = 2
+		# 	entity_length = 5
+		# 	scale = 1.0
+		# 	tags = { should_have_dromedaries emishi }
+		# }
+
+		# caravan_entity = {
+		# 	entity = "trade_unit_fp1_riding_dromedary_01_entity"
+		# 	position = 2
+		# 	entity_length = 5
+		# 	scale = 1.0
+		# 	tags = { should_have_dromedaries fp1_northern }
+		# }
+
+		caravan_entity = {
+			entity = "trade_unit_fp2_iberian_christian_riding_dromedary_01_entity"
+			position = 2
+			entity_length = 5
+			side_offset = 1.5
+			scale = 1.0
+			tags = { should_have_dromedaries fp2_christian }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_fp2_iberian_muslim_riding_dromedary_01_entity"
+			position = 2
+			entity_length = 5
+			side_offset = -1.4
+			scale = 1.0
+			tags = { should_have_dromedaries fp2_muslim }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_fp3_iranian_riding_dromedary_01_entity"
+			position = 2
+			entity_length = 5
+			side_offset = 0.7
+			scale = 1.0
+			tags = { should_have_dromedaries iranian }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_indian_riding_dromedary_01_entity"
+			position = 2
+			entity_length = 5
+			side_offset = -0.4
+			scale = 1.0
+			tags = { should_have_dromedaries indian }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_mena_riding_dromedary_01_entity"
+			position = 2
+			entity_length = 5
+			side_offset = 1.3
+			scale = 1.0
+			tags = { should_have_dromedaries mena }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		# caravan_entity = {
+		# 	entity = "trade_unit_northern_pagan_riding_dromedary_01_entity"
+		# 	position = 2
+		# 	entity_length = 5
+		# 	scale = 1.0
+		# 	tags = { should_have_dromedaries northern }
+		# }
+
+		caravan_entity = {
+			entity = "trade_unit_sub_saharan_riding_dromedary_01_entity"
+			position = 2
+			entity_length = 5
+			side_offset = -1.8
+			scale = 1.0
+			tags = { should_have_dromedaries sub_saharan }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_tgp_chinese_riding_dromedary_01_entity"
+			position = 2
+			entity_length = 5
+			side_offset = 0.8
+			scale = 1.0
+			tags = { should_have_dromedaries chinese }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		# caravan_entity = {
+		# 	entity = "trade_unit_tgp_japanese_riding_dromedary_01_entity"
+		# 	position = 2
+		# 	entity_length = 5
+		# 	scale = 1.0
+		# 	tags = { should_have_dromedaries japanese }
+		# }
+
+		caravan_entity = {
+			entity = "trade_unit_turko_mongol_riding_dromedary_01_entity"
+			position = 2
+			entity_length = 5
+			side_offset = -0.6
+			scale = 1.0
+			tags = { should_have_dromedaries turko_mongol }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		# caravan_entity = {
+		# 	entity = "trade_unit_western_riding_dromedary_01_entity"
+		# 	position = 2
+		# 	entity_length = 5
+		# 	scale = 1.0
+		# 	tags = { should_have_dromedaries western }
+		# }
+
+		#################################################################
+		#						Leading Donkey							#
+		#################################################################
+
+		caravan_entity = {
+			entity = "trade_unit_byzantine_leading_donkey_01_entity"
+			position = 3
+			entity_length = 3
+			side_offset = 0.2
+			scale = 1.0
+			tags = { byzantine }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_ccp_emishi_leading_donkey_01_entity"
+			position = 3
+			entity_length = 3
+			side_offset = -1.3
+			scale = 1.0
+			tags = { emishi }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_fp1_leading_donkey_01_entity"
+			position = 3
+			entity_length = 3
+			side_offset = 1.7
+			scale = 1.0
+			tags = { fp1_northern }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_fp2_iberian_christian_leading_donkey_01_entity"
+			position = 3
+			entity_length = 3
+			side_offset = -1.9
+			scale = 1.0
+			tags = { fp2_christian }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_fp2_iberian_muslim_leading_donkey_01_entity"
+			position = 3
+			entity_length = 3
+			side_offset = 0.4
+			scale = 1.0
+			tags = { fp2_muslim }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_fp3_iranian_leading_donkey_01_entity"
+			position = 3
+			entity_length = 3
+			side_offset = -0.5
+			scale = 1.0
+			tags = { iranian }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_indian_leading_donkey_01_entity"
+			position = 3
+			entity_length = 3
+			side_offset = 1.1
+			scale = 1.0
+			tags = { indian }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_mena_leading_donkey_01_entity"
+			position = 3
+			entity_length = 3
+			side_offset = -1.6
+			scale = 1.0
+			tags = { mena }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_northern_pagan_leading_donkey_01_entity"
+			position = 3
+			entity_length = 3
+			side_offset = 0.6
+			scale = 1.0
+			tags = { northern }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_sub_saharan_leading_donkey_01_entity"
+			position = 3
+			entity_length = 3
+			side_offset = 1.9
+			scale = 1.0
+			tags = { sub_saharan }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_tgp_chinese_leading_donkey_01_entity"
+			position = 3
+			entity_length = 3
+			side_offset = -0.2
+			scale = 1.0
+			tags = { chinese }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_tgp_japanese_leading_donkey_01_entity"
+			position = 3
+			entity_length = 3
+			side_offset = 1.0
+			scale = 1.0
+			tags = { japanese }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_turko_mongol_leading_donkey_01_entity"
+			position = 3
+			entity_length = 3
+			side_offset = -1.0
+			scale = 1.0
+			tags = { turko_mongol }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_western_leading_donkey_01_entity"
+			position = 3
+			entity_length = 3
+			side_offset = 0.3
+			scale = 1.0
+			tags = { western }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		#################################################################
+		#						Riding Donkey							#
+		#################################################################
+
+		caravan_entity = {
+			entity = "trade_unit_byzantine_riding_donkey_01_entity"
+			position = 4
+			entity_length = 3
+			side_offset = -1.8
+			scale = 1.0
+			tags = { byzantine }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_ccp_emishi_riding_donkey_01_entity"
+			position = 4
+			entity_length = 3
+			side_offset = 0.7
+			scale = 1.0
+			tags = { emishi }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_fp1_riding_donkey_01_entity"
+			position = 4
+			entity_length = 3
+			side_offset = -0.4
+			scale = 1.0
+			tags = { fp1_northern }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_fp2_iberian_christian_riding_donkey_01_entity"
+			position = 4
+			entity_length = 3
+			side_offset = 0.9
+			scale = 1.0
+			tags = { fp2_christian }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_fp2_iberian_muslim_riding_donkey_01_entity"
+			position = 4
+			entity_length = 3
+			side_offset = -1.2
+			scale = 1.0
+			tags = { fp2_muslim }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_fp3_iranian_riding_donkey_01_entity"
+			position = 4
+			entity_length = 3
+			side_offset = 1.5
+			scale = 1.0
+			tags = { iranian }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_indian_riding_donkey_01_entity"
+			position = 4
+			entity_length = 3
+			side_offset = -1.5
+			scale = 1.0
+			tags = { indian }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_mena_riding_donkey_01_entity"
+			position = 4
+			entity_length = 3
+			side_offset = 0.1
+			scale = 1.0
+			tags = { mena }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_northern_pagan_riding_donkey_01_entity"
+			position = 4
+			entity_length = 3
+			side_offset = -0.9
+			scale = 1.0
+			tags = { northern }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_sub_saharan_riding_donkey_01_entity"
+			position = 4
+			entity_length = 3
+			side_offset = -0.7
+			scale = 1.0
+			tags = { sub_saharan }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_tgp_chinese_riding_donkey_01_entity"
+			position = 4
+			entity_length = 3
+			side_offset = 1.4
+			scale = 1.0
+			tags = { chinese }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_tgp_japanese_riding_donkey_01_entity"
+			position = 4
+			entity_length = 3
+			side_offset = -1.7
+			scale = 1.0
+			tags = { japanese }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_turko_mongol_riding_donkey_01_entity"
+			position = 4
+			entity_length = 3
+			side_offset = 0.8
+			scale = 1.0
+			tags = { turko_mongol }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+
+		caravan_entity = {
+			entity = "trade_unit_western_riding_donkey_01_entity"
+			position = 4
+			entity_length = 3
+			side_offset = -1.1
+			scale = 1.0
+			tags = { western }
+			count = {
+				integer_range = { min = 0 max = 1 }
+			}
+		}
+	}
+}

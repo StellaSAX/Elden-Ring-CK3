@@ -1,1 +1,8 @@
-﻿#TODO, empty while we make the mod run
+﻿sea_test_road = {
+	tier = 0
+	spline_asset_id = 1
+	provinces = {
+		2561
+		2562
+	}
+}

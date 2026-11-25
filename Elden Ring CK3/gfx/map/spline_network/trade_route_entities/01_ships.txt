@@ -1,0 +1,154 @@
+﻿trade_ships_basic = {
+	valid_spline_types = { "naval_route" }
+
+	speed = 0.6
+	min_caravan_distance = 10.0
+	max_count = 50
+	max_path_length = 4
+
+	possible = {
+		always = yes
+	}
+
+	tags = {
+		southeast_asian = {
+			trigger = {
+				culture = { has_clothing_gfx = southeast_asian_clothing_gfx }
+			}
+		}
+		chinese = {
+			trigger = {
+				culture = { has_clothing_gfx = chinese_clothing_gfx }
+			}
+		}
+		japanese = {
+			trigger = {
+				culture = { has_clothing_gfx = japanese_clothing_gfx }
+			}
+		}
+		byzantine = {
+			trigger = {
+				culture = { has_clothing_gfx = byzantine_clothing_gfx }
+			}
+		}
+		mena = {
+			trigger = {
+				culture = { has_clothing_gfx = mena_clothing_gfx }
+			}
+		}
+		northern = {
+			trigger = {
+				culture = { has_clothing_gfx = northern_clothing_gfx }
+			}
+		}
+		fp2_christian = {
+			trigger = {
+				culture = { has_clothing_gfx = iberian_christian_clothing_gfx }
+				has_dlc_feature = the_fate_of_iberia
+			}
+		}
+		fp2_muslim = {
+			trigger = {
+				culture = { has_clothing_gfx = iberian_muslim_clothing_gfx }
+				has_dlc_feature = the_fate_of_iberia
+			}
+		}
+	}
+
+	# Three ships per route sailing in a triangle formation; each is its own entity so they
+	# enter and leave land/water sections one by one, the same way land caravans do.
+	# Slot geometry: front-center (position 0), mid-left (position 1), rear-right (position 2).
+	route_entities = {
+
+		caravan_entity = {
+			entity = "northern_trading_ship_01_entity"
+			position = 0
+			entity_length = 7
+			path_offset = 1
+			side_offset = 2
+			scale = 0.66
+			tags = { northern }
+		}
+
+		caravan_entity = {
+			entity = "mediterranean_trading_ship_01_entity"
+			position = 0
+			entity_length = 7
+			path_offset = 0
+			side_offset = 4
+			scale = 0.61
+			tags = { byzantine }
+		}
+
+		caravan_entity = {
+			entity = "mediterranean_trading_ship_01_entity"
+			position = 0
+			entity_length = 7
+			path_offset = 0
+			side_offset = 5
+			scale = 0.61
+			tags = { fp2_christian }
+		}
+
+		caravan_entity = {
+			entity = "mena_trading_ship_01_entity"
+			position = 0
+			entity_length = 7
+			path_offset = 5
+			side_offset = -4
+			scale = 0.62
+			tags = { mena }
+		}
+
+		caravan_entity = {
+			entity = "mena_trading_ship_01_entity"
+			position = 0
+			entity_length = 7
+			path_offset = 0
+			side_offset = -1
+			scale = 0.58
+			tags = { fp2_muslim }
+		}
+
+		caravan_entity = {
+			entity = "chinese_trading_ship_01_entity"
+			position = 0
+			entity_length = 7
+			path_offset = 0
+			side_offset = 2
+			scale = 0.67
+			tags = { chinese }
+		}
+
+		caravan_entity = {
+			entity = "japanese_trading_ship_01_entity"
+			position = 0
+			entity_length = 7
+			path_offset = 0
+			side_offset = 4
+			scale = 0.66
+			tags = { japanese }
+		}
+
+		caravan_entity = {
+			entity = "se_asia_trading_ship_01_entity"
+			position = 0
+			entity_length = 7
+			path_offset = 0
+			side_offset = 2
+			scale = 0.69
+			tags = { southeast_asian }
+		}
+
+		caravan_entity = {
+			entity = "western_trading_ship_01_entity"
+			position = 0
+			entity_length = 7
+			path_offset = 0
+			side_offset = -2
+			scale = 0.67
+			# untagged default
+		}
+
+	}
+}
