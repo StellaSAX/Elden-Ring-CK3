@@ -18,6 +18,13 @@ widget = {
 		name = _hide
 		using = Animation_FadeOut_Standard
 	}
+	
+	# Avoids race condition startup error where this state name is accessed before existing
+	state = {
+		name = "bookmarks_buttons_shimmer"
+		duration = 0
+		position = { 0 0 }
+	}
 
 	#Background
 	icon = {
@@ -258,7 +265,6 @@ widget = {
 									on_start = "[PdxGuiWidget.FindChild('bookmark_character_visual_stack').TriggerAnimation('bookmark_character_visual_hover_leave')]"
 									on_start = "[PdxGuiWidget.FindChild('banner_hover_glow').TriggerAnimation('bookmark_character_hover_leave')]"
 									on_start = "[PdxGuiWidget.FindChild('size_widget').TriggerAnimation('bookmark_character_hover_leave')]"
-									duration = 0.2
 									using = Animation_Curve_Default
 								}
 
@@ -278,7 +284,6 @@ widget = {
 									on_start = "[PdxGuiWidget.FindChild('bookmark_character_visual_stack').TriggerAnimation('bookmark_character_visual_hover_leave')]"
 									on_start = "[PdxGuiWidget.FindChild('banner_hover_glow_asia').TriggerAnimation('bookmark_character_hover_leave_asia')]"
 									on_start = "[PdxGuiWidget.FindChild('size_widget').TriggerAnimation('bookmark_character_hover_leave_asia')]"
-									duration = 0.2
 									using = Animation_Curve_Default
 								}
 
@@ -899,7 +904,7 @@ widget = {
 						}
 
 						hbox = {
-							flowcontainer_game_rules_mini = {
+							hbox_game_rules_mini = {
 								name = "game_rules_mini"
 								margin = { 10 0 }
 							}
@@ -1889,11 +1894,11 @@ widget = {
 														layoutpolicy_horizontal = expanding
 														autoresize = no
 
-														text = "BOOKMARK_CHARACTER_SUBHEADING_AND_GOVERNMENT" 
+														text = "BOOKMARK_CHARACTER_SUBHEADING_AND_GOVERNMENT"
 
 														align = nobaseline|hcenter
 														using = Font_Size_Medium
-													}												
+													}
 												}
 												vbox = {
 													layoutpolicy_horizontal = expanding
@@ -1910,8 +1915,6 @@ widget = {
 														using = Animation_FadeIn_Standard
 													}
 
-
-
 													text_single = {
 														name = "character_name_create"
 														layoutpolicy_horizontal = expanding
@@ -1922,7 +1925,6 @@ widget = {
 														default_format = "#high;glow_color:{0,0,0,1}"
 													}
 
-
 													text_single = {
 														layoutpolicy_horizontal = expanding
 														autoresize = no
@@ -1932,8 +1934,6 @@ widget = {
 														align = nobaseline|hcenter
 														using = Font_Size_Medium
 													}
-
-
 												}
 											}
 
@@ -3597,12 +3597,13 @@ types BookmarkPortraits
 					}
 				}
 
-				flowcontainer = {
-					margin_left = 15
+				container = {
+					ignoreinvisible = yes
 					allow_outside = yes
 
 					icon = {
 						name = "celestial_nameplate"
+						position = { 15 0 }
 						visible = "[Or(BookmarkCharacter.GetGovernmentType.IsType( 'celestial_government'), Or(BookmarkCharacter.GetGovernmentType.IsType( 'mandala_government'), Or(BookmarkCharacter.GetGovernmentType.IsType( 'wanua_government'), Or(BookmarkCharacter.GetGovernmentType.IsType( 'meritocratic_government'), Or(BookmarkCharacter.GetGovernmentType.IsType( 'nomad_government' ), Or(BookmarkCharacter.GetGovernmentType.IsType( 'japan_administrative_government' ), BookmarkCharacter.GetGovernmentType.IsType( 'japan_feudal_government' )))))))]"
 						texture = "gfx/interface/icons/banners/banner_asia_left.dds"
 						spriteType = Corneredtiled
@@ -3762,6 +3763,11 @@ types BookmarkPortraits
 							visible = "[BookmarkCharacter.GetGovernmentType.IsType('landless_adventurer_government')]"
 							position = { 0 -25 }
 						}
+						
+						coa_merchant_bookmark = {
+							visible = "[BookmarkCharacter.GetGovernmentType.IsType('merchant_government')]"
+							position = { 0 -25 }
+						}
 
 						flowcontainer = {
 							direction = vertical
@@ -3818,7 +3824,9 @@ types BookmarkPortraits
 
 					icon = {
 						name = "western_nameplate"
+						position = { 15 0 }
 						texture = "gfx/interface/icons/banners/banner_blue_left.dds"
+						minimumsize = { 280 90 }
 						spriteType = Corneredtiled
 						spriteborder = { 72 0 }
 						spriteborder_right = 114
@@ -3954,7 +3962,7 @@ types BookmarkPortraits
 						}
 
 						coa_realm_bookmark = {
-							visible = "[And(And(Not(BookmarkCharacter.GetGovernmentType.IsType('clan_government')), Not(BookmarkCharacter.GetGovernmentType.IsType('landless_adventurer_government'))), And(Not(BookmarkCharacter.GetGovernmentType.IsType( 'administrative_government' )), Not(BookmarkCharacter.GetGovernmentType.IsType('nomad_government'))))]"
+							visible = "[And(And(Not(BookmarkCharacter.GetGovernmentType.IsType('clan_government')), Not(BookmarkCharacter.GetGovernmentType.IsType('landless_adventurer_government'))), And(Not(BookmarkCharacter.GetGovernmentType.IsType( 'administrative_government' )), And(Not(BookmarkCharacter.GetGovernmentType.IsType('nomad_government')), Not(BookmarkCharacter.GetGovernmentType.IsType('merchant_government')))))]"
 							position = { 0 -33 }
 						}
 
@@ -3977,6 +3985,11 @@ types BookmarkPortraits
 							visible = "[BookmarkCharacter.GetGovernmentType.IsType('landless_adventurer_government')]"
 							position = { 0 -24 }
 						}
+						
+						coa_merchant_bookmark = {
+							visible = "[BookmarkCharacter.GetGovernmentType.IsType('merchant_government')]"
+							position = { 0 -24 }
+						}
 
 						flowcontainer = {
 							direction = vertical
@@ -3992,6 +4005,20 @@ types BookmarkPortraits
 								text = "[BookmarkCharacter.GetName]"
 								fontsize = 21
 								default_format = "#high;bold;glow_color:{0,0,0,1}"
+							}
+							
+							text_single = {
+								visible = "[And( BookmarkCharacter.GetGovernmentType.IsType( 'landless_adventurer_government' ), Not( BookmarkCharacter.HasPortrait ) )]"
+								text = "BOOKMARK_SUBTITLE_NEW_LANDLESS_ADVENTURER"
+								fontsize = 16
+								default_format = "#high;glow_color:{0,0,0,1}"
+							}
+
+							text_single = {
+								visible = "[And( BookmarkCharacter.GetGovernmentType.IsType( 'merchant_government' ), Not( BookmarkCharacter.HasPortrait ) )]"
+								text = "BOOKMARK_SUBTITLE_NEW_MERCHANT"
+								fontsize = 16
+								default_format = "#high;glow_color:{0,0,0,1}"
 							}
 
 							text_single = {
