@@ -142,11 +142,11 @@
 	culture = cul_limgrave
 	rite = golden_rite
 	holding = castle_holding
+	special_district_slot = divine_tower_limgrave_district
 	1000.1.1 = {
-		special_district_slot = divine_tower_limgrave
 		districts = {
 			district = {
-				type = divine_tower_limgrave
+				type = divine_tower_limgrave_district
 				level = 1
 			}
 		}
@@ -405,11 +405,11 @@
 	culture = cul_limgrave
 	rite = golden_rite
 	holding = castle_holding
+	special_district_slot = evergaol_district
 	1000.1.1 = {
-		special_district_slot = evergaol
 		districts = {
 			district = {
-				type = evergaol
+				type = evergaol_district
 				level = 1
 			}
 		}
@@ -773,11 +773,11 @@
 	culture = cul_stormhill
 	rite = god_snake_rite
 	holding = castle_holding
+	special_district_slot = limgrave_colosseum_district
 	1000.1.1 = {
-		special_district_slot = limgrave_colosseum
 		districts = {
 			district = {
-				type = limgrave_colosseum
+				type = limgrave_colosseum_district
 				level = 1
 			}
 		}
@@ -840,11 +840,11 @@
 	culture = cul_mistwood
 	rite = golden_rite
 	holding = castle_holding
+	special_district_slot = minor_erdtree_district
 	1000.1.1 = {
-		special_district_slot = minor_erdtree
 		districts = {
 			district = {
-				type = minor_erdtree
+				type = minor_erdtree_district
 				level = 1
 			}
 		}
@@ -917,11 +917,11 @@
 	culture = cul_mistwood
 	rite = golden_rite
 	holding = castle_holding
+	special_district_slot = church_of_marika_district
 	1000.1.1 = {
-		special_district_slot = church_of_marika
 		districts = {
 			district = {
-				type = church_of_marika
+				type = church_of_marika_district
 				level = 1
 			}
 		}
@@ -1058,11 +1058,11 @@
 	culture = cul_mistwood
 	rite = formless_rite
 	holding = castle_holding
+	special_district_slot = fort_haight_district
 	1000.1.1 = {
-		special_district_slot = fort_haight_1
 		districts = {
 			district = {
-				type = fort_haight_1
+				type = fort_haight_district
 				level = 1
 			}
 		}
@@ -1434,11 +1434,11 @@
 	culture = cul_limgrave
 	rite = golden_rite
 	holding = castle_holding
+	special_district_slot = stormgate_district
 	1000.1.1 = {
-		special_district_slot = stormgate
 		districts = {
 			district = {
-				type = stormgate
+				type = stormgate_district
 				level = 1
 			}
 		}

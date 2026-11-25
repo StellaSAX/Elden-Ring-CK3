@@ -1,0 +1,329 @@
+﻿placidusax_throne_district = {
+	primary_building = placidusax_throne_01
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+dragon_temple_district = {
+	primary_building = dragon_temple_01
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+farum_azula_southern_wall_district = {
+	primary_building = farum_azula_southern_wall_01
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+dragon_communion_church_district = {
+	primary_building = dragon_communion_church_01
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+evergaol_district = {
+	primary_building = evergaol
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+minor_erdtree_district = {
+	primary_building = minor_erdtree
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+bridge_of_sacrifice_district = {
+	primary_building = bridge_of_sacrifice
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+castle_morne_district = {
+	primary_building = castle_morne_1
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+fort_haight_district = {
+	primary_building = fort_haight_1
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+stormgate_district = {
+	primary_building = stormgate
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+sellia_gateway_district = {
+	primary_building = sellia_gateway
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+grand_lift_dectus_district = {
+	primary_building = grand_lift_dectus
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+bestial_sanctum_district = {
+	primary_building = bestial_sanctum
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+fort_gael_district = {
+	primary_building = fort_gael_1
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+redmane_castle_district = {
+	primary_building = redmane_castle
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+shaded_castle_district = {
+	primary_building = shaded_castle
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+fort_laiedd_district = {
+	primary_building = fort_laiedd
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+volcano_manor_district = {
+	primary_building = volcano_manor
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+limgrave_colosseum_district = {
+	primary_building = limgrave_colosseum
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+caelid_colosseum_district = {
+	primary_building = caelid_colosseum
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+royal_colosseum_district = {
+	primary_building = royal_colosseum
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+church_of_marika_district = {
+	primary_building = church_of_marika
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+generic_rise_district = {
+	primary_building = generic_rise
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+oridys_rise_district = {
+	primary_building = oridys_rise
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+divine_tower_limgrave_district = {
+	primary_building = divine_tower_limgrave
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+divine_tower_liurnia_district = {
+	primary_building = divine_tower_liurnia
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+divine_tower_caelid_district = {
+	primary_building = divine_tower_caelid
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+divine_tower_westaltus_district = {
+	primary_building = divine_tower_westaltus
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+divine_tower_eastaltus_district = {
+	primary_building = divine_tower_eastaltus
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}
+
+divine_tower_isolated_district = {
+	primary_building = divine_tower_isolated
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_holysite_orthodox.dds"
+	}
+
+	type = special
+}

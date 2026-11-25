@@ -1,0 +1,43 @@
+﻿sellia_crystal_mines_district = {
+	primary_building = sellia_crystal_mines_01
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/fp3_cave.dds"
+	}
+
+	type = special
+}
+
+raya_lucaria_crystal_mines_district = {
+	primary_building = raya_lucaria_crystal_mines_01
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/fp3_cave.dds"
+	}
+
+	type = special
+}
+
+limgrave_tunnel_mines_district = {
+	primary_building = limgrave_tunnel_mines_01
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/fp3_cave.dds"
+	}
+
+	type = special
+}
+
+morne_tunnel_mines_district = {
+	primary_building = morne_tunnel_mines_01
+	
+	#Fallback
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/fp3_cave.dds"
+	}
+
+	type = special
+}

@@ -87,11 +87,11 @@
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = castle_holding
+	special_district_slot = castle_morne_district
 	1000.1.1 = {
-		special_district_slot = castle_morne_1
 		districts = {
 			district = {
-				type = castle_morne_1
+				type = castle_morne_district
 				level = 1
 			}
 		}
@@ -211,11 +211,11 @@
 	culture = cul_weeping_peninsula
 	rite = dragon_cult_rite
 	holding = castle_holding
+	special_district_slot = morne_tunnel_mines_district
 	1000.1.1 = {
-		special_district_slot = morne_tunnel_mines_01
 		districts = {
 			district = {
-				type = morne_tunnel_mines_01
+				type = morne_tunnel_mines_district
 				level = 1
 			}
 		}
@@ -283,11 +283,11 @@
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = castle_holding
+	special_district_slot = minor_erdtree_district
 	1000.1.1 = {
-		special_district_slot = minor_erdtree
 		districts = {
 			district = {
-				type = minor_erdtree
+				type = minor_erdtree_district
 				level = 1
 			}
 		}
@@ -685,11 +685,11 @@
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = castle_holding
+	special_district_slot = bridge_of_sacrifice_district
 	1000.1.1 = {
-		special_district_slot = bridge_of_sacrifice
 		districts = {
 			district = {
-				type = bridge_of_sacrifice
+				type = bridge_of_sacrifice_district
 				level = 1
 			}
 		}
@@ -701,11 +701,11 @@
 	culture = cul_weeping_peninsula
 	rite = golden_rite
 	holding = castle_holding
+	special_district_slot = oridys_rise_district
 	1000.1.1 = {
-		special_district_slot = oridys_rise
 		districts = {
 			district = {
-				type = oridys_rise
+				type = oridys_rise_district
 				level = 1
 			}
 		}
