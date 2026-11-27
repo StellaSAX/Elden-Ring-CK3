@@ -46,4 +46,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2524;187;river_large;3321;-1;-1;-1;-1;Gatebridge to that small hill south of Sellia
 2293;2527;river_large;3308;-1;-1;-1;-1;Red Wastes Crossing to Dragonbarrow
 1389;2397;river_large;3330;-1;-1;-1;-1;Temp Crossing to Bestial Sanctum
+1270;1236;river_large;3354;-1;-1;-1;-1;South Raya Lucaria Bridge
+1657;1679;river_large;3357;-1;-1;-1;-1;Caria Manor Upper Level
 -1;-1;;-1;-1;-1;-1;-1;
